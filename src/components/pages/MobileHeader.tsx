@@ -406,6 +406,13 @@ export default function MobileHeader() {
                                                     Buy Form Submissions
                                                 </Link>
                                                 <Link
+                                                    href="/spec-requests"
+                                                    onClick={closeMobileMenu}
+                                                    className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                                >
+                                                    Spec Requests
+                                                </Link>
+                                                <Link
                                                     href="/limitedEdition"
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"

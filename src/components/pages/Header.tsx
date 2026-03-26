@@ -427,6 +427,12 @@ export default function Header() {
                                                         Buy Form Submissions
                                                     </Link>
                                                     <Link
+                                                        href="/spec-requests"
+                                                        className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                                    >
+                                                        Spec Requests
+                                                    </Link>
+                                                    <Link
                                                         href="/limitedEdition"
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >

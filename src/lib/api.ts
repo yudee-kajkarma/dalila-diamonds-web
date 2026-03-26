@@ -37,6 +37,8 @@ export const diamondApi = {
     getLimitedEdition: diamondService.getLimitedEditionDiamonds,
     saveLimitedEditionFilters: diamondService.saveLimitedEditionFilters,
     getPublic: diamondService.getPublicDiamonds,
+    submitSpecRequest: diamondService.submitSpecRequest,
+    getAllSpecRequests: diamondService.getAllSpecRequests,
 
     // From diamondFilterService
     getFilterOptions: diamondFilterService.getFilterOptions,

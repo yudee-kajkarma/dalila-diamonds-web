@@ -141,6 +141,30 @@ export const emailDiamonds = async (data: {
     }
 };
 
+// Get all spec requests (Admin)
+export const getAllSpecRequests = async () => {
+    try {
+        const response = await apiClient.get("/api/diamonds/spec-requests/admin/all");
+        return response.data;
+    } catch (error) {
+        console.error("Get spec requests error:", error);
+        throw error;
+    }
+};
+
+// Submit a diamond spec request (user, with optional image)
+export const submitSpecRequest = async (formData: FormData) => {
+    try {
+        const response = await apiClient.post("/api/diamonds/spec-requests", formData, {
+            headers: { "Content-Type": "multipart/form-data" },
+        });
+        return response.data;
+    } catch (error) {
+        console.error("Submit spec request error:", error);
+        throw error;
+    }
+};
+
 // Get limited edition diamonds
 export const getLimitedEditionDiamonds = async (): Promise<ApiResponse<{
     diamonds: LimitedEditionDiamond[];
