@@ -91,15 +91,16 @@ const AddDiamondModal: React.FC<AddDiamondModalProps> = ({
         sourceType: form.sourceType,
       };
 
-      const optionalFields: (keyof ManualDiamondPayload)[] = [
+      const optionalStringFields = [
         "CUT", "POL", "SYM", "FLOUR", "LAB", "LOCATION",
         "NET_RATE", "DISC_PER", "NET_VALUE", "RAP_PRICE",
         "DEPTH_PER", "TABLE_PER", "MEASUREMENTS", "REPORT_NO",
-      ];
+      ] as const;
 
-      optionalFields.forEach((key) => {
-        if (form[key]?.trim()) {
-          payload[key] = form[key];
+      optionalStringFields.forEach((key) => {
+        const val = form[key];
+        if (val?.trim()) {
+          payload[key] = val;
         }
       });
 
