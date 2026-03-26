@@ -110,6 +110,7 @@ interface FilterProps {
   locations?: string[];
   labs?: string[];
   measurements?: MeasurementFilters;
+  source?: string;
 }
 
 interface InventoryTableProps {

@@ -127,7 +127,22 @@ export default function InventoryManagement() {
   const [activeKeySymbols, setActiveKeySymbols] = useState<KeySymbolFilters>({ keyToSymbol: [] });
   const [activePriceLocation, setActivePriceLocation] = useState<PriceLocationFilters>({ pricePerCarat: { from: "", to: "" }, discount: { from: "", to: "" }, totalPrice: { from: "", to: "" }, locations: [], labs: [] });
   const [activeMeasurements, setActiveMeasurements] = useState({ length: { from: "", to: "" }, width: { from: "", to: "" }, depth: { from: "", to: "" }, table: { from: "", to: "" }, depthPercent: { from: "", to: "" }, ratio: { from: "", to: "" }, crAngle: { from: "", to: "" }, pavAngle: { from: "", to: "" }, gridle: { from: "", to: "" }, crHeight: { from: "", to: "" }, pavHeight: { from: "", to: "" } });
-  
+
+  // Manual Diamonds View filters
+  const [manualSelectedShape, setManualSelectedShape] = useState<string[]>([]);
+  const [manualSelectedCaratRanges, setManualSelectedCaratRanges] = useState<{ min: string; max: string }[]>([]);
+  const [manualSelectedColor, setManualSelectedColor] = useState<string[]>([]);
+  const [manualSelectedClarity, setManualSelectedClarity] = useState<string[]>([]);
+  const [manualSelectedSpecial, setManualSelectedSpecial] = useState("");
+  const [manualSelectedCut, setManualSelectedCut] = useState("");
+  const [manualSelectedPolish, setManualSelectedPolish] = useState("");
+  const [manualSelectedSymmetry, setManualSelectedSymmetry] = useState("");
+  const [manualSelectedFluor, setManualSelectedFluor] = useState<string[]>([]);
+  const [manualInclusions, setManualInclusions] = useState<InclusionFilters>({ centerBlack: [], centerWhite: [], sideBlack: [], sideWhite: [] });
+  const [manualKeySymbols, setManualKeySymbols] = useState<KeySymbolFilters>({ keyToSymbol: [] });
+  const [manualPriceLocation, setManualPriceLocation] = useState<PriceLocationFilters>({ pricePerCarat: { from: "", to: "" }, discount: { from: "", to: "" }, totalPrice: { from: "", to: "" }, locations: [], labs: [] });
+  const [manualMeasurements, setManualMeasurements] = useState({ length: { from: "", to: "" }, width: { from: "", to: "" }, depth: { from: "", to: "" }, table: { from: "", to: "" }, depthPercent: { from: "", to: "" }, ratio: { from: "", to: "" }, crAngle: { from: "", to: "" }, pavAngle: { from: "", to: "" }, gridle: { from: "", to: "" }, crHeight: { from: "", to: "" }, pavHeight: { from: "", to: "" } });
+
   const [totalDiamonds, setTotalDiamonds] = useState(0);
   const [activeDiamonds, setActiveDiamonds] = useState(0);
   const [activeSuppliers, setActiveSuppliers] = useState(0);
@@ -136,7 +151,7 @@ export default function InventoryManagement() {
   const [showSupplierModal, setShowSupplierModal] = useState(false);
   const [showAddDiamondModal, setShowAddDiamondModal] = useState(false);
   const [isAuthorized, setIsAuthorized] = useState(false);
-  const [viewMode, setViewMode] = useState<"inventory" | "active">("inventory");
+  const [viewMode, setViewMode] = useState<"inventory" | "active" | "manual">("inventory");
   const [isSearching, setIsSearching] = useState(false);
   const [isLoadingStats, setIsLoadingStats] = useState(true);
   const [searchResults, setSearchResults] = useState<InventoryDiamond[]>([]);
@@ -466,6 +481,16 @@ export default function InventoryManagement() {
               >
                 <span className="hidden sm:inline">Active Diamonds</span>
               </button>
+              <button
+                onClick={() => setViewMode('manual')}
+                className={`flex items-center gap-1 px-2 py-1 text-sm transition-colors ${
+                  viewMode === 'manual'
+                    ? 'bg-[#050c3a] text-white'
+                    : 'text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                <span className="hidden sm:inline">Manual Diamonds</span>
+              </button>
             </div>
 
             {/* Right Side - Search, Filter Toggle, Manage Suppliers */}
@@ -520,7 +545,6 @@ export default function InventoryManagement() {
                 <>
                   <ShapeFilter selectedShape={inventorySelectedShape} onShapeChange={setInventorySelectedShape} />
                   <CaratFilter selectedCaratRanges={inventorySelectedCaratRanges} onCaratChange={setInventorySelectedCaratRanges} />
-                  {/* Fluor and Color in same column */}
                   <div className="flex flex-col">
                     <FluorFilter selectedFluor={inventorySelectedFluor} onFluorChange={setInventorySelectedFluor} />
                     <ColorFilter selectedColor={inventorySelectedColor} onColorChange={setInventorySelectedColor} />
@@ -539,11 +563,10 @@ export default function InventoryManagement() {
                     hideExtras={false}
                   />
                 </>
-              ) : (
+              ) : viewMode === 'active' ? (
                 <>
                   <ShapeFilter selectedShape={activeSelectedShape} onShapeChange={setActiveSelectedShape} />
                   <CaratFilter selectedCaratRanges={activeSelectedCaratRanges} onCaratChange={setActiveSelectedCaratRanges} />
-                  {/* Fluor and Color in same column */}
                   <div className="flex flex-col">
                     <FluorFilter selectedFluor={activeSelectedFluor} onFluorChange={setActiveSelectedFluor} />
                     <ColorFilter selectedColor={activeSelectedColor} onColorChange={setActiveSelectedColor} />
@@ -562,6 +585,28 @@ export default function InventoryManagement() {
                     hideExtras={false}
                   />
                 </>
+              ) : (
+                <>
+                  <ShapeFilter selectedShape={manualSelectedShape} onShapeChange={setManualSelectedShape} />
+                  <CaratFilter selectedCaratRanges={manualSelectedCaratRanges} onCaratChange={setManualSelectedCaratRanges} />
+                  <div className="flex flex-col">
+                    <FluorFilter selectedFluor={manualSelectedFluor} onFluorChange={setManualSelectedFluor} />
+                    <ColorFilter selectedColor={manualSelectedColor} onColorChange={setManualSelectedColor} />
+                  </div>
+                  <ClarityFilter
+                    selectedClarity={manualSelectedClarity}
+                    selectedSpecial={manualSelectedSpecial}
+                    selectedCut={manualSelectedCut}
+                    selectedPolish={manualSelectedPolish}
+                    selectedSymmetry={manualSelectedSymmetry}
+                    onClarityChange={setManualSelectedClarity}
+                    onSpecialChange={setManualSelectedSpecial}
+                    onCutChange={setManualSelectedCut}
+                    onPolishChange={setManualSelectedPolish}
+                    onSymmetryChange={setManualSelectedSymmetry}
+                    hideExtras={false}
+                  />
+                </>
               )}
             </div>
             {/* Advanced filter row */}
@@ -573,12 +618,19 @@ export default function InventoryManagement() {
                   <PriceLocationFilter filters={inventoryPriceLocation} onFiltersChange={setInventoryPriceLocation} />
                   <MeasurementFilter measurements={inventoryMeasurements} onMeasurementChange={setInventoryMeasurements} />
                 </>
-              ) : (
+              ) : viewMode === 'active' ? (
                 <>
                   <InclusionFilter inclusions={activeInclusions} onInclusionChange={setActiveInclusions} />
                   <KeySymbolFilter filters={activeKeySymbols} onFiltersChange={setActiveKeySymbols} />
                   <PriceLocationFilter filters={activePriceLocation} onFiltersChange={setActivePriceLocation} />
                   <MeasurementFilter measurements={activeMeasurements} onMeasurementChange={setActiveMeasurements} />
+                </>
+              ) : (
+                <>
+                  <InclusionFilter inclusions={manualInclusions} onInclusionChange={setManualInclusions} />
+                  <KeySymbolFilter filters={manualKeySymbols} onFiltersChange={setManualKeySymbols} />
+                  <PriceLocationFilter filters={manualPriceLocation} onFiltersChange={setManualPriceLocation} />
+                  <MeasurementFilter measurements={manualMeasurements} onMeasurementChange={setManualMeasurements} />
                 </>
               )}
             </div>
@@ -694,6 +746,41 @@ export default function InventoryManagement() {
                 }}
               />
             )}
+          </div>
+
+          {/* Manual Diamonds Table */}
+          <div style={{ display: viewMode === 'manual' ? 'block' : 'none' }}>
+            <InventoryDiamondTable
+              viewMode="list"
+              filterProps={{
+                source: "Dalila_Manual",
+                shapes: manualSelectedShape,
+                colors: manualSelectedColor,
+                clarities: manualSelectedClarity,
+                minCarats: manualSelectedCaratRanges[0]?.min ? parseFloat(manualSelectedCaratRanges[0].min) : undefined,
+                maxCarats: manualSelectedCaratRanges[0]?.max ? parseFloat(manualSelectedCaratRanges[0].max) : undefined,
+                fluors: manualSelectedFluor,
+                cut: manualSelectedCut,
+                polish: manualSelectedPolish,
+                symmetry: manualSelectedSymmetry,
+                inclusions: manualInclusions,
+                keySymbols: manualKeySymbols,
+                priceFilters: manualPriceLocation,
+                locations: manualPriceLocation.locations,
+                labs: manualPriceLocation.labs,
+                measurements: {
+                  length: manualMeasurements.length,
+                  width: manualMeasurements.width,
+                  depth: manualMeasurements.depth,
+                  table: manualMeasurements.table,
+                  depthPercent: manualMeasurements.depthPercent,
+                  pavAngle: manualMeasurements.pavAngle,
+                  pavHeight: manualMeasurements.pavHeight,
+                  crAngle: manualMeasurements.crAngle,
+                  crHeight: manualMeasurements.crHeight,
+                },
+              }}
+            />
           </div>
         </div>
         )}

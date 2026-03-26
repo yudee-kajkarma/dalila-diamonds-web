@@ -51,6 +51,7 @@ interface FilterInputs {
   locations?: string[];
   labs?: string[];
   measurements?: MeasurementFilters;
+  source?: string;
 }
 
 /**
@@ -75,11 +76,17 @@ export const useInventoryFilters = (inputs: FilterInputs) => {
     inclusions,
     keySymbols,
     priceFilters,
-    measurements
+    measurements,
+    source
   } = inputs;
 
   const filters = useMemo(() => {
     const apiFilters: FilterParams = {};
+
+    // Source filter
+    if (source) {
+      apiFilters.source = source;
+    }
 
     // Basic filters - using uppercase field names for inventory API
     if (shapes && shapes.length > 0) {
@@ -188,7 +195,8 @@ export const useInventoryFilters = (inputs: FilterInputs) => {
     inclusions,
     keySymbols,
     priceFilters,
-    measurements
+    measurements,
+    source
   ]);
 
   // Check if any filters are active
