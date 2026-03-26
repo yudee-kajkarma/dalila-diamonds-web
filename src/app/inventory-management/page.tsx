@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, memo } from "react";
 import { useRouter } from "next/navigation";
 import { Maven_Pro,Marcellus } from "next/font/google";
-import { Package, Users, ChevronUp, ChevronDown } from "lucide-react";
+import { Package, Users, ChevronUp, ChevronDown, Plus } from "lucide-react";
 import InventoryDiamondTable from "@/components/InventoryDiamondTable";
 import DiamondStockTable from "@/components/DiamondStockTable";
 import ShapeFilter from "@/components/Filters/ShapeFilter";
@@ -12,6 +12,7 @@ import ColorFilter from "@/components/Filters/ColorFilter";
 import ClarityFilter from "@/components/Filters/ClarityFilter";
 import FluorFilter from "@/components/Filters/FluorescenceFilter";
 import SupplierManagementModal from "@/components/Models/SupplierManagementModal";
+import AddDiamondModal from "@/components/Models/AddDiamondModal";
 import SearchBar from "@/components/shared/SearchBar";
 import InclusionFilter, { type InclusionFilters } from "@/components/Filters/InclusionFilter";
 import KeySymbolFilter, { type KeySymbolFilters } from "@/components/Filters/KeyToSymbolFilter";
@@ -133,6 +134,7 @@ export default function InventoryManagement() {
   const [totalSuppliers, setTotalSuppliers] = useState(0);
   const [suppliers] = useState<Array<{ name: string; totalDiamonds: number; isVisible: boolean }>>([]);
   const [showSupplierModal, setShowSupplierModal] = useState(false);
+  const [showAddDiamondModal, setShowAddDiamondModal] = useState(false);
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [viewMode, setViewMode] = useState<"inventory" | "active">("inventory");
   const [isSearching, setIsSearching] = useState(false);
@@ -487,6 +489,15 @@ export default function InventoryManagement() {
                 <span className="hidden sm:inline">Filter</span>
               </button>
 
+              {/* Add Diamond Button */}
+              <button
+                onClick={() => setShowAddDiamondModal(true)}
+                className="bg-[#050C3A] text-white px-3 py-1.5 transition-colors font-medium flex items-center gap-1 text-sm whitespace-nowrap"
+              >
+                <Plus className="w-4 h-4" />
+                <span className="hidden sm:inline">Add Diamond</span>
+              </button>
+
               {/* Manage Suppliers Button */}
               <button
                 onClick={() => setShowSupplierModal(true)}
@@ -694,6 +705,13 @@ export default function InventoryManagement() {
         onClose={() => setShowSupplierModal(false)}
         suppliers={suppliers}
         onSupplierUpdate={handleSupplierUpdate}
+      />
+
+      {/* Add Diamond Modal */}
+      <AddDiamondModal
+        isOpen={showAddDiamondModal}
+        onClose={() => setShowAddDiamondModal(false)}
+        onDiamondAdded={handleSupplierUpdate}
       />
     </div>
   );

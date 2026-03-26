@@ -95,6 +95,30 @@ export interface DiamondSearchFilters {
   depthMax?: number;
 }
 
+// Manual diamond creation payload
+export interface ManualDiamondPayload {
+  STONE_NO: string;
+  SHAPE: string;
+  CARATS: string;
+  COLOR: string;
+  CLARITY: string;
+  sourceType: string;
+  CUT?: string;
+  POL?: string;
+  SYM?: string;
+  FLOUR?: string;
+  LAB?: string;
+  LOCATION?: string;
+  NET_RATE?: string;
+  DISC_PER?: string;
+  NET_VALUE?: string;
+  RAP_PRICE?: string;
+  DEPTH_PER?: string;
+  TABLE_PER?: string;
+  MEASUREMENTS?: string;
+  REPORT_NO?: string;
+}
+
 // Limited edition filters
 export interface LimitedEditionFilters {
   SHAPE?: string;

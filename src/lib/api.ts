@@ -146,4 +146,5 @@ export const inventoryApi = {
     getSupplierFilters: inventoryService.getSupplierFilters,
     getDiscountRules: inventoryService.getDiscountRules,
     applyDiscountRules: inventoryService.applyDiscountRules,
+    addManualDiamond: inventoryService.addManualDiamond,
 };

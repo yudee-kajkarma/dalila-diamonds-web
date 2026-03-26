@@ -3,6 +3,7 @@
  */
 
 import apiClient from "../base/apiClient";
+import { ManualDiamondPayload } from "../types/diamond.types";
 
 
 // Get all diamonds for admin/superadmin
@@ -221,4 +222,13 @@ export const applyDiscountRules = async (
   }
 };
 
-
+// Add a diamond manually (Admin)
+export const addManualDiamond = async (diamond: ManualDiamondPayload) => {
+  try {
+    const response = await apiClient.post("/api/diamonds/admin/manual", diamond);
+    return response.data;
+  } catch (error) {
+    console.error("Add manual diamond error:", error);
+    throw error;
+  }
+};

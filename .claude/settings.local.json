@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/Projects/dalila -name .env* -o -name *.env.example)"
+    ]
+  }
+}
