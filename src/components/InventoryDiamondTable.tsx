@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import { Maven_Pro } from "next/font/google";
-import { Loader2, Copy, CircleFadingPlus } from "lucide-react";
+import { Loader2, Copy, CircleFadingPlus, Pencil, Trash2 } from "lucide-react";
 import Image from "next/image";
 import type { InclusionFilters } from "./Filters/InclusionFilter";
 import type { KeySymbolFilters } from "./Filters/KeyToSymbolFilter";
@@ -126,6 +126,8 @@ interface InventoryTableProps {
     filterProps?: FilterProps;
     onDiamondSelect?: (diamond: InventoryDiamond) => void;
     onCopyToManual?: (diamond: InventoryDiamond) => void;
+    onEditDiamond?: (diamond: InventoryDiamond) => void;
+    onDeleteDiamond?: (diamond: InventoryDiamond) => void;
 }
 
 const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
@@ -141,6 +143,8 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
     filterProps,
     onDiamondSelect,
     onCopyToManual,
+    onEditDiamond,
+    onDeleteDiamond,
 }) => {
     // Track if component is being used with external data (from props)
     const isExternalData = propData !== undefined;
@@ -706,8 +710,8 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                     <th className="w-20 px-2 py-3 text-left text-[14px] font-medium">
                                         Branch
                                     </th>
-                                    {onCopyToManual && (
-                                        <th className="w-20 px-2 py-3 text-center text-[14px] font-medium sticky right-0 bg-[#050c3a]">
+                                    {(onCopyToManual || onEditDiamond || onDeleteDiamond) && (
+                                        <th className="w-24 px-2 py-3 text-center text-[14px] font-medium sticky right-0 bg-[#050c3a]">
                                             Action
                                         </th>
                                     )}
@@ -886,8 +890,7 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                         <td className="px-2 py-1 text-[14px] text-gray-700">
                                             {row.BRANCH || "N/A"}
                                         </td>
-                                        {onCopyToManual &&
-                                            row.source !== "Dalila_Manual" && (
+                                        {(onCopyToManual || onEditDiamond || onDeleteDiamond) && (
                                                 <td
                                                     className="px-2 py-1 text-center sticky right-0"
                                                     style={{
@@ -897,29 +900,36 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                                                 : "white",
                                                     }}
                                                 >
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            onCopyToManual(row);
-                                                        }}
-                                                        className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-[#050c3a]"
-                                                        title="Copy to Manual Diamonds"
-                                                    >
-                                                        <CircleFadingPlus className="w-4 h-4" />
-                                                    </button>
+                                                    <div className="flex items-center justify-center gap-1">
+                                                        {onCopyToManual && row.source !== "Dalila_Manual" && (
+                                                            <button
+                                                                onClick={(e) => { e.stopPropagation(); onCopyToManual(row); }}
+                                                                className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-[#050c3a]"
+                                                                title="Copy to Manual Diamonds"
+                                                            >
+                                                                <CircleFadingPlus className="w-4 h-4" />
+                                                            </button>
+                                                        )}
+                                                        {onEditDiamond && row.source === "Dalila_Manual" && (
+                                                            <button
+                                                                onClick={(e) => { e.stopPropagation(); onEditDiamond(row); }}
+                                                                className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-blue-600"
+                                                                title="Edit Diamond"
+                                                            >
+                                                                <Pencil className="w-4 h-4" />
+                                                            </button>
+                                                        )}
+                                                        {onDeleteDiamond && row.source === "Dalila_Manual" && (
+                                                            <button
+                                                                onClick={(e) => { e.stopPropagation(); onDeleteDiamond(row); }}
+                                                                className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-red-600"
+                                                                title="Delete Diamond"
+                                                            >
+                                                                <Trash2 className="w-4 h-4" />
+                                                            </button>
+                                                        )}
+                                                    </div>
                                                 </td>
-                                            )}
-                                        {onCopyToManual &&
-                                            row.source === "Dalila_Manual" && (
-                                                <td
-                                                    className="px-2 py-1 text-center sticky right-0"
-                                                    style={{
-                                                        background:
-                                                            idx % 2 === 1
-                                                                ? "#faf6eb"
-                                                                : "white",
-                                                    }}
-                                                />
                                             )}
                                         {/* <td className="px-2 py-1 text-[14px] text-gray-700 truncate">
                     {row.DNA ? (

@@ -12,7 +12,9 @@ import ColorFilter from "@/components/Filters/ColorFilter";
 import ClarityFilter from "@/components/Filters/ClarityFilter";
 import FluorFilter from "@/components/Filters/FluorescenceFilter";
 import SupplierManagementModal from "@/components/Models/SupplierManagementModal";
-import AddDiamondModal from "@/components/Models/AddDiamondModal";
+import AddDiamondModal, {
+    type DiamondEditData,
+} from "@/components/Models/AddDiamondModal";
 import SearchBar from "@/components/shared/SearchBar";
 import InclusionFilter, {
     type InclusionFilters,
@@ -271,6 +273,8 @@ export default function InventoryManagement() {
     >([]);
     const [showSupplierModal, setShowSupplierModal] = useState(false);
     const [showAddDiamondModal, setShowAddDiamondModal] = useState(false);
+    const [editDiamondData, setEditDiamondData] =
+        useState<DiamondEditData | null>(null);
     const [isAuthorized, setIsAuthorized] = useState(false);
     const [viewMode, setViewMode] = useState<"inventory" | "active" | "manual">(
         "inventory",
@@ -573,6 +577,74 @@ export default function InventoryManagement() {
         } catch (err) {
             console.error("Error copying diamond:", err);
             toast.error("Failed to copy diamond");
+        }
+    };
+
+    const handleEditDiamond = (diamond: InventoryDiamond) => {
+        const d = diamond as unknown as Record<
+            string,
+            string | string[] | undefined
+        >;
+        setEditDiamondData({
+            _id: diamond._id,
+            diamondId: diamond.diamondId || diamond._id,
+            STONE_NO: diamond.STONE_NO,
+            SHAPE: diamond.SHAPE,
+            CARATS: diamond.CARATS,
+            COLOR: diamond.COLOR,
+            CLARITY: diamond.CLARITY,
+            sourceType: diamond.sourceType || "DS4U",
+            CUT: diamond.CUT || "",
+            POL: diamond.POL || "",
+            SYM: diamond.SYM || "",
+            FLOUR: diamond.FLOUR || "",
+            LAB: diamond.LAB || "",
+            LOCATION: diamond.LOCATION || "",
+            NET_RATE: diamond.NET_RATE || "",
+            DISC_PER: diamond.DISC_PER || "",
+            NET_VALUE: diamond.NET_VALUE || "",
+            RAP_PRICE: diamond.RAP_PRICE || "",
+            DEPTH_PER: diamond.DEPTH_PER || "",
+            TABLE_PER: diamond.TABLE_PER || "",
+            MEASUREMENTS: diamond.MEASUREMENTS || "",
+            REPORT_NO: diamond.REPORT_NO || "",
+            REPORT_COMMENTS: (d.REPORT_COMMENTS as string) || "",
+            REPORT_DATE: (d.REPORT_DATE as string) || "",
+            CROWN_ANGLE: (d.CROWN_ANGLE as string) || "",
+            CROWN_HEIGHT: (d.CROWN_HEIGHT as string) || "",
+            PAVILLION_ANGLE: (d.PAVILLION_ANGLE as string) || "",
+            PAVILLION_HEIGHT: (d.PAVILLION_HEIGHT as string) || "",
+            CN: (d.CN as string) || "",
+            CW: (d.CW as string) || "",
+            SN: (d.SN as string) || "",
+            SW: (d.SW as string) || "",
+            TINGE: (d.TINGE as string) || "",
+            LENGTH: (d.LENGTH as string) || "",
+            WIDTH: (d.WIDTH as string) || "",
+            DEPTH: (d.DEPTH as string) || "",
+            GIRDLE: (d.GIRDLE as string) || "",
+            GIRDLE_PER: (d.GIRDLE_PER as string) || "",
+            STAR: (d.STAR as string) || "",
+            RATIO: (d.RATIO as string) || "",
+            STAGE: (d.STAGE as string) || "",
+            BRANCH: (d.BRANCH as string) || "",
+            HA: (d.HA as string) || "",
+            DNA: (d.DNA as string) || "",
+        });
+        setShowAddDiamondModal(true);
+    };
+
+    const handleDeleteDiamond = async (diamond: InventoryDiamond) => {
+        const diamondId = diamond.diamondId || diamond._id;
+        if (!confirm(`Delete diamond ${diamond.STONE_NO}?`)) return;
+
+        try {
+            await inventoryApi.deleteManualDiamond(diamondId);
+            toast.success("Diamond deleted successfully");
+            handleSupplierUpdate();
+        } catch (err) {
+            console.error("Error deleting diamond:", err);
+            toast.error("Failed to delete diamond");
         }
     };
 
@@ -1211,6 +1283,8 @@ export default function InventoryManagement() {
                         >
                             <InventoryDiamondTable
                                 viewMode="list"
+                                onEditDiamond={handleEditDiamond}
+                                onDeleteDiamond={handleDeleteDiamond}
                                 filterProps={{
                                     source: "Dalila_Manual",
                                     shapes: manualSelectedShape,
@@ -1262,11 +1336,15 @@ export default function InventoryManagement() {
                 onSupplierUpdate={handleSupplierUpdate}
             />
 
-            {/* Add Diamond Modal */}
+            {/* Add/Edit Diamond Modal */}
             <AddDiamondModal
                 isOpen={showAddDiamondModal}
-                onClose={() => setShowAddDiamondModal(false)}
+                onClose={() => {
+                    setShowAddDiamondModal(false);
+                    setEditDiamondData(null);
+                }}
                 onDiamondAdded={handleSupplierUpdate}
+                editData={editDiamondData}
             />
         </div>
     );

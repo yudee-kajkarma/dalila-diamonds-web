@@ -232,3 +232,25 @@ export const addManualDiamond = async (diamond: ManualDiamondPayload) => {
     throw error;
   }
 };
+
+// Update a manual diamond (Admin)
+export const updateManualDiamond = async (diamondId: string, data: Partial<ManualDiamondPayload>) => {
+  try {
+    const response = await apiClient.put(`/api/diamonds/admin/manual/${diamondId}`, data);
+    return response.data;
+  } catch (error) {
+    console.error("Update manual diamond error:", error);
+    throw error;
+  }
+};
+
+// Delete a manual diamond (Admin)
+export const deleteManualDiamond = async (diamondId: string) => {
+  try {
+    const response = await apiClient.delete(`/api/diamonds/admin/manual/${diamondId}`);
+    return response.data;
+  } catch (error) {
+    console.error("Delete manual diamond error:", error);
+    throw error;
+  }
+};

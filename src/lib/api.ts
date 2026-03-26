@@ -147,4 +147,6 @@ export const inventoryApi = {
     getDiscountRules: inventoryService.getDiscountRules,
     applyDiscountRules: inventoryService.applyDiscountRules,
     addManualDiamond: inventoryService.addManualDiamond,
+    updateManualDiamond: inventoryService.updateManualDiamond,
+    deleteManualDiamond: inventoryService.deleteManualDiamond,
 };
