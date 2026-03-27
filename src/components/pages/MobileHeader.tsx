@@ -227,7 +227,7 @@ export default function MobileHeader() {
                                     >
                                         Articles
                                     </Link>
-                                    
+
                                     <Link
                                         href="/premium-b2b-diamond-supplier-belgium"
                                         onClick={closeMobileMenu}
@@ -235,7 +235,7 @@ export default function MobileHeader() {
                                     >
                                         Premium B2B Diamond Supplier in Belgium
                                     </Link>
-                                    
+
                                     <Link
                                         href="/sell-your-diamond-safely"
                                         onClick={closeMobileMenu}
@@ -410,7 +410,7 @@ export default function MobileHeader() {
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
-                                                    Spec Requests
+                                                    DS4U Form Submisssions
                                                 </Link>
                                                 <Link
                                                     href="/limitedEdition"

@@ -86,7 +86,7 @@ const SHAPES = [
     "ASSCHER",
     "HEART",
 ];
-const COLORS = ["D", "E", "F", "G", "H", "I", "J", "K", "L", "M"];
+const COLORS = ["D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "FANCY"];
 const CLARITIES = [
     "FL",
     "IF",
@@ -100,12 +100,12 @@ const CLARITIES = [
     "I2",
     "I3",
 ];
-const CUTS = ["EX", "VG", "GD", "FR", "PR"];
-const POLISHES = ["EX", "VG", "GD", "FR", "PR"];
-const SYMMETRIES = ["EX", "VG", "GD", "FR", "PR"];
-const FLUORS = ["NON", "FNT", "MED", "STG", "VST"];
+const CUTS = ["EX", "VG", "GD", "FR"];
+const POLISHES = ["EX", "VG", "GD", "FR"];
+const SYMMETRIES = ["EX", "VG", "GD", "FR"];
+const FLUORS = ["NON", "FNT", "MED", "STG", "VST", "VSL", "SL"];
 const LABS = ["GIA", "IGI", "HRD", "AGS"];
-const SOURCE_TYPES = ["DS4U", "MANUAL"];
+const SOURCE_TYPES = ["DS4U"];
 
 const initialForm: ManualDiamondPayload = {
     STONE_NO: "",

@@ -13,7 +13,8 @@ export default function Header() {
     const [isAdminDropdownOpen, setIsAdminDropdownOpen] = useState(false);
     const [isUserDropdownOpen, setIsUserDropdownOpen] = useState(false);
     const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-    const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] = useState(false);
+    const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] =
+        useState(false);
     const [isArticlesDropdownOpen, setIsArticlesDropdownOpen] = useState(false);
     const [latestBlogs, setLatestBlogs] = useState<Blog[]>([]);
     const router = useRouter();
@@ -164,9 +165,19 @@ export default function Header() {
                                         {/* Articles with nested dropdown */}
                                         <div className="relative group/articles">
                                             <button
-                                                onClick={() => router.push("/blogs")}
-                                                onMouseEnter={() => setIsArticlesDropdownOpen(true)}
-                                                onMouseLeave={() => setIsArticlesDropdownOpen(false)}
+                                                onClick={() =>
+                                                    router.push("/blogs")
+                                                }
+                                                onMouseEnter={() =>
+                                                    setIsArticlesDropdownOpen(
+                                                        true,
+                                                    )
+                                                }
+                                                onMouseLeave={() =>
+                                                    setIsArticlesDropdownOpen(
+                                                        false,
+                                                    )
+                                                }
                                                 className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100 flex items-center justify-between cursor-pointer"
                                             >
                                                 <span>Articles</span>
@@ -175,42 +186,72 @@ export default function Header() {
                                                     className={`ml-2 transition-transform duration-200 ${isArticlesDropdownOpen ? "-rotate-90" : ""}`}
                                                 />
                                             </button>
-                                            
+
                                             {/* Articles nested dropdown */}
-                                            {isArticlesDropdownOpen && latestBlogs.length > 0 && (
-                                                <div
-                                                    onMouseEnter={() => setIsArticlesDropdownOpen(true)}
-                                                    onMouseLeave={() => setIsArticlesDropdownOpen(false)}
-                                                    className="absolute left-full top-0 ml-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
-                                                >
-                                                    {latestBlogs.map((blog, index) => (
-                                                        <button
-                                                            key={blog._id}
-                                                            onClick={() => router.push(`/blogs/${getBlogSlug(blog)}`)}
-                                                            className={`w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer ${
-                                                                index < latestBlogs.length - 1 ? "border-b border-gray-100" : ""
-                                                            }`}
-                                                        >
-                                                            <div className="line-clamp-2">{blog.title}</div>
-                                                        </button>
-                                                    ))}
-                                                    <button
-                                                        onClick={() => router.push("/blogs")}
-                                                        className="w-full text-center px-4 py-3 text-sm font-semibold text-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors border-t border-gray-200 cursor-pointer"
+                                            {isArticlesDropdownOpen &&
+                                                latestBlogs.length > 0 && (
+                                                    <div
+                                                        onMouseEnter={() =>
+                                                            setIsArticlesDropdownOpen(
+                                                                true,
+                                                            )
+                                                        }
+                                                        onMouseLeave={() =>
+                                                            setIsArticlesDropdownOpen(
+                                                                false,
+                                                            )
+                                                        }
+                                                        className="absolute left-full top-0 ml-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                                     >
-                                                        View More
-                                                    </button>
-                                                </div>
-                                            )}
+                                                        {latestBlogs.map(
+                                                            (blog, index) => (
+                                                                <button
+                                                                    key={
+                                                                        blog._id
+                                                                    }
+                                                                    onClick={() =>
+                                                                        router.push(
+                                                                            `/blogs/${getBlogSlug(blog)}`,
+                                                                        )
+                                                                    }
+                                                                    className={`w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer ${
+                                                                        index <
+                                                                        latestBlogs.length -
+                                                                            1
+                                                                            ? "border-b border-gray-100"
+                                                                            : ""
+                                                                    }`}
+                                                                >
+                                                                    <div className="line-clamp-2">
+                                                                        {
+                                                                            blog.title
+                                                                        }
+                                                                    </div>
+                                                                </button>
+                                                            ),
+                                                        )}
+                                                        <button
+                                                            onClick={() =>
+                                                                router.push(
+                                                                    "/blogs",
+                                                                )
+                                                            }
+                                                            className="w-full text-center px-4 py-3 text-sm font-semibold text-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors border-t border-gray-200 cursor-pointer"
+                                                        >
+                                                            View More
+                                                        </button>
+                                                    </div>
+                                                )}
                                         </div>
-                                        
+
                                         <Link
                                             href="/premium-b2b-diamond-supplier-belgium"
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            Premium B2B Diamond Supplier in Belgium
+                                            Premium B2B Diamond Supplier in
+                                            Belgium
                                         </Link>
-                                        
+
                                         <Link
                                             href="/sell-your-diamond-safely"
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
@@ -430,7 +471,7 @@ export default function Header() {
                                                         href="/spec-requests"
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
-                                                        Spec Requests
+                                                        DS4U Form Submisssions
                                                     </Link>
                                                     <Link
                                                         href="/limitedEdition"
