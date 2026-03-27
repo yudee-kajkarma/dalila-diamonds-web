@@ -12,6 +12,7 @@ interface DiamondTableRowProps {
         loc: number;
         status: number;
         shape: number;
+        sourceType: number;
         carat: number;
         color: number;
         clarity: number;
@@ -84,9 +85,9 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
                     left: isPublicApi ? 0 : stickyOffsets.stockId,
                     zIndex: 20,
                     backgroundColor,
-                    minWidth: "100px",
-                    width: "100px",
-                    maxWidth: "100px",
+                    minWidth: "120px",
+                    width: "120px",
+                    maxWidth: "120px",
                     whiteSpace: "nowrap",
                     overflow: "hidden",
                     textOverflow: "ellipsis",
@@ -95,7 +96,26 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
                     padding: "4px 8px",
                 }}
             >
-                {diamond.STONE_NO}
+                {diamond.diamondId}
+            </td>
+
+            {/* Source Type Column */}
+            <td
+                className="text-[14px] text-gray-700 text-center md:sticky"
+                style={{
+                    left: stickyOffsets.sourceType,
+                    zIndex: 20,
+                    backgroundColor,
+                    minWidth: "50px",
+                    width: "50px",
+                    maxWidth: "50px",
+                    whiteSpace: "nowrap",
+                    border: "none",
+                    margin: 0,
+                    padding: "4px 8px",
+                }}
+            >
+                {diamond.sourceType || "N/A"}
             </td>
 
             {/* Location Column - Sticky */}
@@ -637,26 +657,8 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
                     : "N/A"}
             </td>
 
-            {/* Source Type Column */}
-            <td
-                className="text-[14px] text-gray-700"
-                style={{
-                    width: "100px",
-                    minWidth: "100px",
-                    maxWidth: "100px",
-                    whiteSpace: "nowrap",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    border: "none",
-                    margin: 0,
-                    padding: "4px 8px",
-                }}
-            >
-                {diamond.sourceType || "N/A"}
-            </td>
-
             {/* Diamond ID Column */}
-            <td
+            {/* <td
                 className="text-[14px] text-gray-700"
                 style={{
                     width: "120px",
@@ -671,7 +673,7 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
                 }}
             >
                 {diamond.diamondId || "N/A"}
-            </td>
+            </td> */}
 
             {!isPublicApi && (
                 <td

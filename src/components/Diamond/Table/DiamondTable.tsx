@@ -2,6 +2,8 @@ import React, { useMemo } from "react";
 import { DiamondTableHeader } from "./DiamondTableHeader";
 import { DiamondTableRow } from "./DiamondTableRow";
 import type { DiamondData } from "@/types/diamond.types";
+import { source } from "framer-motion/client";
+import { off } from "process";
 
 interface DiamondTableProps {
     diamonds: DiamondData[];
@@ -39,6 +41,7 @@ export const DiamondTable: React.FC<DiamondTableProps> = ({
             carat: 0,
             color: 0,
             clarity: 0,
+            sourceType: 0,
         };
 
         // Checkbox column: 48px
@@ -47,6 +50,9 @@ export const DiamondTable: React.FC<DiamondTableProps> = ({
 
         // Stock ID column: 100px
         offsets.stockId = currentOffset;
+        currentOffset += 100;
+
+        offsets.sourceType = currentOffset;
         currentOffset += 100;
 
         // Location column: 50px

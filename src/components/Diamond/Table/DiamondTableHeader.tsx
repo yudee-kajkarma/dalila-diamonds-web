@@ -12,6 +12,7 @@ interface DiamondTableHeaderProps {
         carat: number;
         color: number;
         clarity: number;
+        sourceType: number;
     };
     isPublicApi?: boolean;
 }
@@ -99,6 +100,19 @@ export const DiamondTableHeader: React.FC<DiamondTableHeaderProps> = ({
                     }}
                 >
                     S. ID
+                </th>
+
+                <th
+                    className="text-white text-[14px] font-semibold text-left md:sticky"
+                    style={{
+                        ...horizontalStickyHeaderStyle,
+                        left: stickyOffsets.sourceType,
+                        width: "100px",
+                        minWidth: "100px",
+                        maxWidth: "100px",
+                    }}
+                >
+                    Source Type
                 </th>
 
                 {/* Location Column - Sticky */}
@@ -505,20 +519,9 @@ export const DiamondTableHeader: React.FC<DiamondTableHeaderProps> = ({
                 </th>
 
                 {/* Source Type Column */}
-                <th
-                    className="text-white text-[14px] font-semibold text-left md:sticky"
-                    style={{
-                        ...regularHeaderStyle,
-                        width: "100px",
-                        minWidth: "100px",
-                        maxWidth: "100px",
-                    }}
-                >
-                    Source Type
-                </th>
 
                 {/* Diamond ID Column */}
-                <th
+                {/* <th
                     className="text-white text-[14px] font-semibold text-left md:sticky"
                     style={{
                         ...regularHeaderStyle,
@@ -528,7 +531,7 @@ export const DiamondTableHeader: React.FC<DiamondTableHeaderProps> = ({
                     }}
                 >
                     Diamond ID
-                </th>
+                </th> */}
 
                 {!isPublicApi && (
                     <th
