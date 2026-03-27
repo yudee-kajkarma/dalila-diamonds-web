@@ -710,7 +710,9 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                     <th className="w-20 px-2 py-3 text-left text-[14px] font-medium">
                                         Branch
                                     </th>
-                                    {(onCopyToManual || onEditDiamond || onDeleteDiamond) && (
+                                    {(onCopyToManual ||
+                                        onEditDiamond ||
+                                        onDeleteDiamond) && (
                                         <th className="w-24 px-2 py-3 text-center text-[14px] font-medium sticky right-0 bg-[#050c3a]">
                                             Action
                                         </th>
@@ -737,10 +739,10 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                                 handleStockClick(row)
                                             }
                                         >
-                                            {row.STONE_NO || "N/A"}
+                                            {row.diamondId || "N/A"}
                                         </td>
                                         <td className="px-2 py-1 text-[14px] text-gray-700 text-sm truncate">
-                                            {row.source || "N/A"}
+                                            {row.sourceType || "N/A"}
                                         </td>
                                         <td className="px-2 py-1 text-[14px] text-gray-700">
                                             {row.LOCATION || "N/A"}
@@ -890,47 +892,76 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                         <td className="px-2 py-1 text-[14px] text-gray-700">
                                             {row.BRANCH || "N/A"}
                                         </td>
-                                        {(onCopyToManual || onEditDiamond || onDeleteDiamond) && (
-                                                <td
-                                                    className="px-2 py-1 text-center sticky right-0"
-                                                    style={{
-                                                        background:
-                                                            idx % 2 === 1
-                                                                ? "#faf6eb"
-                                                                : "white",
-                                                    }}
-                                                >
-                                                    <div className="flex items-center justify-center gap-1">
-                                                        {onCopyToManual && row.source !== "Dalila_Manual" && (
+                                        {(onCopyToManual ||
+                                            onEditDiamond ||
+                                            onDeleteDiamond) && (
+                                            <td
+                                                className="px-2 py-1 text-center sticky right-0"
+                                                style={{
+                                                    background:
+                                                        idx % 2 === 1
+                                                            ? "#faf6eb"
+                                                            : "white",
+                                                }}
+                                            >
+                                                <div className="flex items-center justify-center gap-1">
+                                                    {onCopyToManual &&
+                                                        row.source !==
+                                                            "Dalila_Manual" && (
                                                             <button
-                                                                onClick={(e) => { e.stopPropagation(); onCopyToManual(row); }}
+                                                                onClick={(
+                                                                    e,
+                                                                ) => {
+                                                                    e.stopPropagation();
+                                                                    onCopyToManual(
+                                                                        row,
+                                                                    );
+                                                                }}
                                                                 className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-[#050c3a]"
                                                                 title="Copy to Manual Diamonds"
                                                             >
                                                                 <CircleFadingPlus className="w-4 h-4" />
                                                             </button>
                                                         )}
-                                                        {onEditDiamond && row.source === "Dalila_Manual" && (
+                                                    {onEditDiamond &&
+                                                        row.source ===
+                                                            "Dalila_Manual" && (
                                                             <button
-                                                                onClick={(e) => { e.stopPropagation(); onEditDiamond(row); }}
+                                                                onClick={(
+                                                                    e,
+                                                                ) => {
+                                                                    e.stopPropagation();
+                                                                    onEditDiamond(
+                                                                        row,
+                                                                    );
+                                                                }}
                                                                 className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-blue-600"
                                                                 title="Edit Diamond"
                                                             >
                                                                 <Pencil className="w-4 h-4" />
                                                             </button>
                                                         )}
-                                                        {onDeleteDiamond && row.source === "Dalila_Manual" && (
+                                                    {onDeleteDiamond &&
+                                                        row.source ===
+                                                            "Dalila_Manual" && (
                                                             <button
-                                                                onClick={(e) => { e.stopPropagation(); onDeleteDiamond(row); }}
+                                                                onClick={(
+                                                                    e,
+                                                                ) => {
+                                                                    e.stopPropagation();
+                                                                    onDeleteDiamond(
+                                                                        row,
+                                                                    );
+                                                                }}
                                                                 className="p-1.5 rounded-md hover:bg-gray-200 transition-colors text-gray-600 hover:text-red-600"
                                                                 title="Delete Diamond"
                                                             >
                                                                 <Trash2 className="w-4 h-4" />
                                                             </button>
                                                         )}
-                                                    </div>
-                                                </td>
-                                            )}
+                                                </div>
+                                            </td>
+                                        )}
                                         {/* <td className="px-2 py-1 text-[14px] text-gray-700 truncate">
                     {row.DNA ? (
                       <a 
