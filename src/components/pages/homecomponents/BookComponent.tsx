@@ -1,21 +1,21 @@
 "use client";
 import { useRef, useEffect } from "react";
 
-import { Marcellus,Jost} from "next/font/google";
+import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 
 const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
+    variable: "--font-marcellus",
+    subsets: ["latin"],
+    weight: "400",
 });
 const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
+    variable: "--font-jost",
+    subsets: ["latin"],
+    weight: ["400", "500", "600", "700"],
+    display: "swap",
+    preload: true,
 });
 
 export default function BookComponent() {
@@ -43,11 +43,11 @@ export default function BookComponent() {
                         }}
                     >
                         <AnimatedContainer direction="up">
-                            <h1
+                            <h2
                                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-3 md:mb-4 leading-tight ${marcellus.className}`}
                             >
                                 From Classic Cuts to Rare Shapes, We Have It All
-                            </h1>
+                            </h2>
                         </AnimatedContainer>
 
                         <AnimatedContainer direction="up" delay={0.3}>
