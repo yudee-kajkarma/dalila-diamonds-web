@@ -584,6 +584,9 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                     <th className="w-28 px-2 py-3 text-left text-[14px] font-medium">
                                         Source
                                     </th>
+                                    <th className="w-28 px-2 py-3 text-left text-[14px] font-medium">
+                                        Supplier
+                                    </th>
                                     <th className="w-20 px-2 py-3 text-left text-[14px] font-medium">
                                         Location
                                     </th>
@@ -743,6 +746,9 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
                                         </td>
                                         <td className="px-2 py-1 text-[14px] text-gray-700 text-sm truncate">
                                             {row.sourceType || "N/A"}
+                                        </td>
+                                        <td className="px-2 py-1 text-[14px] text-gray-700 truncate">
+                                            {row.source || "N/A"}
                                         </td>
                                         <td className="px-2 py-1 text-[14px] text-gray-700">
                                             {row.LOCATION || "N/A"}

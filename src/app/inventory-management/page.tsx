@@ -530,7 +530,7 @@ export default function InventoryManagement() {
                 CARATS: diamond.CARATS,
                 COLOR: diamond.COLOR,
                 CLARITY: diamond.CLARITY,
-                sourceType: diamond.sourceType || "DS4U",
+                sourceType: "DS4U",
                 CUT: diamond.CUT || "",
                 POL: diamond.POL || "",
                 SYM: diamond.SYM || "",
