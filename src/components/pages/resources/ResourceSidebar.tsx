@@ -11,21 +11,29 @@ const marcellus = Marcellus({
 });
 
 interface ResourceSidebarProps {
-  currentPage: 'premium-b2b' | 'sell-diamond';
+  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion';
 }
 
+const allPages = [
+  {
+    key: 'premium-b2b',
+    title: 'Premium B2B Diamond Supplier Belgium',
+    href: '/premium-b2b-diamond-supplier-belgium',
+  },
+  {
+    key: 'sell-diamond',
+    title: 'Sell Your Diamond Safely',
+    href: '/sell-your-diamond-safely',
+  },
+  {
+    key: 'elongated-cushion',
+    title: 'Elongated Cushion Cut Diamond Guide',
+    href: '/elongated-cushion-cut-diamond-guide',
+  },
+];
+
 const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
-  const otherPage = currentPage === 'premium-b2b' 
-    ? {
-        title: 'Sell Your Diamond Safely',
-        href: '/sell-your-diamond-safely',
-        description: 'Professional diamond buyback service for B2B sellers and estate liquidation needs'
-      }
-    : {
-        title: 'Premium B2B Diamond Supplier Belgium',
-        href: '/premium-b2b-diamond-supplier-belgium',
-        description: 'Certified quality, reliable service, and trusted sourcing for global businesses'
-      };
+  const otherPages = allPages.filter((page) => page.key !== currentPage);
 
   return (
     <div className="lg:col-span-1">
@@ -37,16 +45,19 @@ const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
             </h2>
           </div>
           
-          <div className="p-6">
-            <Link
-              href={otherPage.href}
-              className="block group hover:bg-slate-50 -mx-2 px-2 py-3 rounded-lg transition-all duration-300"
-              scroll={false}
-            >
-              <h3 className={`${marcellus.className} text-lg text-slate-900 group-hover:text-[#c89e3a] transition-colors duration-300`}>
-                {otherPage.title}
-              </h3>
-            </Link>
+          <div className="p-6 space-y-1">
+            {otherPages.map((page) => (
+              <Link
+                key={page.key}
+                href={page.href}
+                className="block group hover:bg-slate-50 -mx-2 px-2 py-3 rounded-lg transition-all duration-300"
+                scroll={false}
+              >
+                <h3 className={`${marcellus.className} text-lg text-slate-900 group-hover:text-[#c89e3a] transition-colors duration-300`}>
+                  {page.title}
+                </h3>
+              </Link>
+            ))}
           </div>
 
           <div className="border-t border-slate-200 bg-slate-50 px-6 py-4">

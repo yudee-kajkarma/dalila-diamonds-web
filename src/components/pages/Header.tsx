@@ -254,9 +254,16 @@ export default function Header() {
 
                                         <Link
                                             href="/sell-your-diamond-safely"
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
                                             Sell Your Diamond Safely
+                                        </Link>
+
+                                        <Link
+                                            href="/elongated-cushion-cut-diamond-guide"
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                        >
+                                            Elongated Cushion Cut Diamond Guide
                                         </Link>
                                     </div>
                                 )}
