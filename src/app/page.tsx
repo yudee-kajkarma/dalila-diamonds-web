@@ -5,38 +5,56 @@ import InstaSection from "@/components/InstagramSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Primium B2B Daimond Supplier In Belgium | Dalila Daimond",
-    description: "Dalila Diamonds is a trusted B2B diamond supplier in Belgium, offering premium quality, certified diamonds for businesses worldwide. Exceptional service & reliability.",
+    title: "Premium B2B Diamond Supplier In Belgium | Dalila Diamonds",
+    description:
+        "Dalila Diamonds is a trusted B2B diamond supplier in Belgium, offering premium quality, certified diamonds for businesses worldwide. Exceptional service & reliability.",
     alternates: {
         canonical: "https://www.daliladiamonds.com/",
     },
 };
 // Lazy load below-the-fold components
-const DiamondShapes = dynamic(() => import("@/components/pages/homecomponents/DiamondShapes"), {
-  loading: () => <div className="h-screen bg-gradient-to-b from-white to-gray-50" />,
-});
-const CertifiedBy = dynamic(() => import("@/components/pages/homecomponents/Certified"));
-const HomeContent = dynamic(() => import("@/components/pages/homecomponents/homeContent"));
-const BookComponent = dynamic(() => import("@/components/pages/homecomponents/BookComponent"));
-const VideoContent = dynamic(() => import("@/components/pages/homecomponents/VideoContent"));
-const DiamondSource = dynamic(() => import("@/components/pages/homecomponents/DiamondSource"));
-const Experience = dynamic(() => import("@/components/pages/homecomponents/experience"));
+const DiamondShapes = dynamic(
+    () => import("@/components/pages/homecomponents/DiamondShapes"),
+    {
+        loading: () => (
+            <div className="h-screen bg-gradient-to-b from-white to-gray-50" />
+        ),
+    },
+);
+const CertifiedBy = dynamic(
+    () => import("@/components/pages/homecomponents/Certified"),
+);
+const HomeContent = dynamic(
+    () => import("@/components/pages/homecomponents/homeContent"),
+);
+const BookComponent = dynamic(
+    () => import("@/components/pages/homecomponents/BookComponent"),
+);
+const VideoContent = dynamic(
+    () => import("@/components/pages/homecomponents/VideoContent"),
+);
+const DiamondSource = dynamic(
+    () => import("@/components/pages/homecomponents/DiamondSource"),
+);
+const Experience = dynamic(
+    () => import("@/components/pages/homecomponents/experience"),
+);
 
 export default function Home() {
-  return (
-    <>
-      <main className="relative">
-        <HeroSection />
-        <AboutDalila />
-        <DiamondShapes />
-        <CertifiedBy />
-        <HomeContent />
-        <BookComponent />
-        <VideoContent />
-        <DiamondSource />
-        <Experience />
-        <InstaSection />
-      </main>
-    </>
-  );
+    return (
+        <>
+            <main className="relative">
+                <HeroSection />
+                <AboutDalila />
+                <DiamondShapes />
+                <CertifiedBy />
+                <HomeContent />
+                <BookComponent />
+                <VideoContent />
+                <DiamondSource />
+                <Experience />
+                <InstaSection />
+            </main>
+        </>
+    );
 }
