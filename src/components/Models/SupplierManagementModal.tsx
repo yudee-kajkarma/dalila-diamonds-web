@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { X, Settings } from "lucide-react";
 import Toggle from "../ui/Toggle";
 import ConfigureAPIModal from "./ConfigureAPIModal";
-import RapnetScheduleModal from "./RapnetScheduleModal";
 import toast from "react-hot-toast";
 import { Marcellus, Jost, Maven_Pro } from "next/font/google";
 
@@ -53,7 +52,6 @@ const SupplierManagementModal: React.FC<SupplierManagementModalProps> = ({
     SUPPLIERS.map(name => ({ name, totalDiamonds: 0, isVisible: false, loading: false }))
   );
   const [showConfigModal, setShowConfigModal] = useState(false);
-  const [showRapnetScheduleModal, setShowRapnetScheduleModal] = useState(false);
   const [selectedSupplier, setSelectedSupplier] = useState<string>("");
 
   // Fetch total diamonds count for a specific supplier
@@ -246,23 +244,13 @@ const SupplierManagementModal: React.FC<SupplierManagementModalProps> = ({
                         onChange={() => handleToggleVisibility(supplier.name)}
                         disabled={supplier.loading}
                       />
-                      {supplier.name === "rapnet" ? (
-                        <button
-                          onClick={() => setShowRapnetScheduleModal(true)}
-                          className="p-1.5 rounded-md hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900"
-                          title="RapNet Settings"
-                        >
-                          <Settings className="w-5 h-5" />
-                        </button>
-                      ) : (
-                        <button
-                          onClick={() => handleOpenConfigModal(supplier.name)}
-                          className="p-1.5 rounded-md hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900"
-                          title="Configure API"
-                        >
-                          <Settings className="w-5 h-5" />
-                        </button>
-                      )}
+                      <button
+                        onClick={() => handleOpenConfigModal(supplier.name)}
+                        className="p-1.5 rounded-md hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900"
+                        title="Configure API"
+                      >
+                        <Settings className="w-5 h-5" />
+                      </button>
                     </div>
                   </td>
                 </tr>
@@ -284,12 +272,6 @@ const SupplierManagementModal: React.FC<SupplierManagementModalProps> = ({
           onConfigSaved={handleConfigSaved}
         />
       )}
-
-      {/* RapNet Schedule Modal */}
-      <RapnetScheduleModal
-        isOpen={showRapnetScheduleModal}
-        onClose={() => setShowRapnetScheduleModal(false)}
-      />
     </div>
   );
 };

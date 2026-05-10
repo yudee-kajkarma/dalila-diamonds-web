@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Maven_Pro } from "next/font/google";
 
@@ -46,6 +46,15 @@ export default function CaratFilter({
     const [fromValue, setFromValue] = useState("");
     const [toValue, setToValue] = useState("");
 
+    // When parent clears all custom ranges, also clear local input state so
+    // the inputs don't visually persist after a reset.
+    useEffect(() => {
+        if (selectedCaratRanges.length === 0) {
+            setFromValue("");
+            setToValue("");
+        }
+    }, [selectedCaratRanges]);
+
     // Helper to check if a static range is selected
     const isRangeSelected = (range: CaratRange) =>
         selectedCaratRanges.some(
@@ -76,19 +85,15 @@ export default function CaratFilter({
         const value = e.target.value;
         if (value && parseFloat(value) < 0) return;
         setFromValue(value);
+        // Always drop the previous custom range first so partial erases don't
+        // leave a stale range in parent state.
+        const filtered = selectedCaratRanges.filter(
+            (r) => !(r.min === fromValue && r.max === toValue)
+        );
         if (value && toValue) {
-            onCaratChange([
-                ...selectedCaratRanges.filter(
-                    (r) => r.min !== fromValue || r.max !== toValue
-                ),
-                { min: value, max: toValue },
-            ]);
-        } else if (!value && !toValue) {
-            onCaratChange(
-                selectedCaratRanges.filter(
-                    (r) => r.min !== fromValue || r.max !== toValue
-                )
-            );
+            onCaratChange([...filtered, { min: value, max: toValue }]);
+        } else {
+            onCaratChange(filtered);
         }
     };
 
@@ -96,19 +101,13 @@ export default function CaratFilter({
         const value = e.target.value;
         if (value && parseFloat(value) < 0) return;
         setToValue(value);
+        const filtered = selectedCaratRanges.filter(
+            (r) => !(r.min === fromValue && r.max === toValue)
+        );
         if (fromValue && value) {
-            onCaratChange([
-                ...selectedCaratRanges.filter(
-                    (r) => r.min !== fromValue || r.max !== value
-                ),
-                { min: fromValue, max: value },
-            ]);
-        } else if (!fromValue && !value) {
-            onCaratChange(
-                selectedCaratRanges.filter(
-                    (r) => r.min !== fromValue || r.max !== value
-                )
-            );
+            onCaratChange([...filtered, { min: fromValue, max: value }]);
+        } else {
+            onCaratChange(filtered);
         }
     };
 

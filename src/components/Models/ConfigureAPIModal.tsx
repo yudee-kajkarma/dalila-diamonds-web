@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { X, ArrowLeft, Package, Globe, Check } from "lucide-react";
+import { X, ArrowLeft, Package, Globe, Check, Clock, Save, Loader2 } from "lucide-react";
 import ShapeFilter from "../Filters/ShapeFilter";
 import CaratFilter from "../Filters/CaratFilter";
 import ClarityFilter from "../Filters/ClarityFilter";
@@ -74,6 +74,46 @@ interface ConfigureAPIModalProps {
   onConfigSaved?: () => void;
 }
 
+interface RapnetScheduleData {
+  jobKey: string;
+  enabled: boolean;
+  cronExpression: string;
+  timezone: string;
+  startTime: string;
+  intervalHours: number;
+  resolvedFrom: string;
+  lastRunAt: string | null;
+  lastRunSuccess: boolean | null;
+  lastRunMessage: string | null;
+  nextRunAt: string | null;
+  credentialsConfigured: boolean;
+}
+
+const RAPNET_SCHEDULE_API =
+  "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/admin/rapnet-schedule";
+
+const ALLOWED_INTERVAL_HOURS = [1, 2, 3, 4, 6, 8, 12, 24] as const;
+
+const formatScheduleDateTime = (iso: string | null, timeZone?: string) => {
+  if (!iso) return "—";
+  try {
+    const date = new Date(iso);
+    return new Intl.DateTimeFormat(undefined, {
+      year: "numeric",
+      month: "short",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+      timeZone: timeZone || undefined,
+      timeZoneName: "short",
+    }).format(date);
+  } catch {
+    return iso;
+  }
+};
+
 const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
   isOpen,
   onClose,
@@ -123,6 +163,89 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
   const [isApplyingDiscount, setIsApplyingDiscount] = useState(false);
   const [showDiscountModal, setShowDiscountModal] = useState(false);
   const [discountValue, setDiscountValue] = useState("");
+
+  // For RapNet schedule (only used when supplierName === "rapnet")
+  const isRapnet = supplierName === "rapnet";
+  const [rapnetSchedule, setRapnetSchedule] = useState<RapnetScheduleData | null>(null);
+  const [rapnetStartTime, setRapnetStartTime] = useState<string>("");
+  const [rapnetIntervalHours, setRapnetIntervalHours] = useState<number>(24);
+  const [rapnetScheduleLoading, setRapnetScheduleLoading] = useState(false);
+  const [rapnetScheduleSaving, setRapnetScheduleSaving] = useState(false);
+
+  const fetchRapnetSchedule = useCallback(async () => {
+    setRapnetScheduleLoading(true);
+    try {
+      const response = await fetch(RAPNET_SCHEDULE_API, {
+        method: "GET",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+      });
+      if (!response.ok) throw new Error("Failed to fetch RapNet schedule");
+      const json = await response.json();
+      if (json.success && json.data) {
+        setRapnetSchedule(json.data);
+        setRapnetStartTime(json.data.startTime || "");
+        setRapnetIntervalHours(json.data.intervalHours || 24);
+      } else {
+        toast.error(json.message || "Failed to load schedule");
+      }
+    } catch (err) {
+      console.error("Error fetching RapNet schedule:", err);
+      toast.error(err instanceof Error ? err.message : "Failed to load schedule");
+    } finally {
+      setRapnetScheduleLoading(false);
+    }
+  }, []);
+
+  const handleSaveRapnetSchedule = async () => {
+    if (!/^([01]\d|2[0-3]):[0-5]\d$/.test(rapnetStartTime)) {
+      toast.error("Start time must be in HH:MM (24-hour) format");
+      return;
+    }
+    if (
+      !ALLOWED_INTERVAL_HOURS.includes(
+        rapnetIntervalHours as (typeof ALLOWED_INTERVAL_HOURS)[number],
+      )
+    ) {
+      toast.error(
+        `Interval hours must be one of: ${ALLOWED_INTERVAL_HOURS.join(", ")}`,
+      );
+      return;
+    }
+
+    setRapnetScheduleSaving(true);
+    try {
+      const response = await fetch(RAPNET_SCHEDULE_API, {
+        method: "PUT",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          startTime: rapnetStartTime,
+          intervalHours: rapnetIntervalHours,
+          enabled: true,
+        }),
+      });
+      if (!response.ok) throw new Error("Failed to update RapNet schedule");
+      const json = await response.json();
+      if (json.success) {
+        toast.success(json.message || "Schedule updated successfully");
+        if (json.data) {
+          setRapnetSchedule(json.data);
+          setRapnetStartTime(json.data.startTime || rapnetStartTime);
+          setRapnetIntervalHours(json.data.intervalHours || rapnetIntervalHours);
+        } else {
+          fetchRapnetSchedule();
+        }
+      } else {
+        toast.error(json.message || "Failed to update schedule");
+      }
+    } catch (err) {
+      console.error("Error saving RapNet schedule:", err);
+      toast.error(err instanceof Error ? err.message : "Failed to save schedule");
+    } finally {
+      setRapnetScheduleSaving(false);
+    }
+  };
 
   // Handle Check button click
   const handleCheckFilters = async () => {
@@ -178,17 +301,6 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
 
   // Handle Apply Discount button click - Opens modal
   const handleOpenDiscountModal = () => {
-    // Convert selectedCut string to array
-    const cutArray = selectedCut ? selectedCut.split(",").map(c => c.trim()) : [];
-
-    // Check if any filters are selected
-    if (selectedShapes.length === 0 && selectedColors.length === 0 && 
-        selectedClarities.length === 0 && selectedCaratRanges.length === 0 &&
-        cutArray.length === 0) {
-      toast.error("Please select at least one filter to apply discount");
-      return;
-    }
-
     setDiscountValue("");
     setShowDiscountModal(true);
   };
@@ -325,6 +437,13 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
       fetchFilteredData(currentPage);
     }
   }, [isOpen, activeTab, currentPage, rowsPerPage, supplierName, fetchFilteredData]);
+
+  // Fetch RapNet schedule when API tab opens for rapnet
+  useEffect(() => {
+    if (isOpen && activeTab === 'api' && isRapnet) {
+      fetchRapnetSchedule();
+    }
+  }, [isOpen, activeTab, isRapnet, fetchRapnetSchedule]);
 
   const handlePageChange = (page: number, newRowsPerPage: number) => {
     console.log('Page change requested:', { page, newRowsPerPage });
@@ -629,7 +748,11 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
                     disabled={isApplyingDiscount}
                     className="bg-[#050C3A] text-white px-6 py-2 rounded-md hover:bg-[#070d4a] transition-colors font-medium disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center gap-2"
                   >
-                    <Check className="w-4 h-4" />
+                    {isApplyingDiscount ? (
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <Check className="w-4 h-4" />
+                    )}
                     {isApplyingDiscount ? "Applying..." : "Apply Discount"}
                   </button>
 
@@ -736,6 +859,124 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
                 )}
               </div>
             </>
+          ) : isRapnet ? (
+            <div className="max-w-2xl mx-auto">
+              <div className="flex items-center gap-2 mb-4">
+                <Clock className="w-5 h-5 text-[#050C3A]" />
+                <h3 className="text-lg font-semibold text-[#050C3A]">RapNet Schedule</h3>
+              </div>
+              <p className="text-sm text-gray-500 mb-4">
+                Configure the RapNet inventory refresh cron schedule
+              </p>
+
+              {rapnetScheduleLoading && !rapnetSchedule ? (
+                <div className="flex items-center justify-center h-40">
+                  <span className="text-gray-500">Loading schedule…</span>
+                </div>
+              ) : (
+                <>
+                  {/* Editable fields */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        Start Time (HH:MM, 24-hour)
+                      </label>
+                      <input
+                        type="time"
+                        value={rapnetStartTime}
+                        onChange={(e) => setRapnetStartTime(e.target.value)}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#050C3A] focus:border-transparent"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        Interval (hours)
+                      </label>
+                      <select
+                        value={rapnetIntervalHours}
+                        onChange={(e) => setRapnetIntervalHours(Number(e.target.value))}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#050C3A] focus:border-transparent bg-white"
+                      >
+                        {ALLOWED_INTERVAL_HOURS.map((h) => (
+                          <option key={h} value={h}>
+                            {h} {h === 1 ? "hour" : "hours"}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Read-only info */}
+                  {rapnetSchedule && (
+                    <div className="bg-[#FAF6EB] border border-gray-200 rounded-md p-4 text-sm space-y-2 mb-4">
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Status</span>
+                        <span className={rapnetSchedule.enabled ? "text-green-700" : "text-red-700"}>
+                          {rapnetSchedule.enabled ? "Enabled" : "Disabled"}
+                        </span>
+                      </div>
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Timezone</span>
+                        <span className="text-gray-900">{rapnetSchedule.timezone}</span>
+                      </div>
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Credentials</span>
+                        <span className={rapnetSchedule.credentialsConfigured ? "text-green-700" : "text-red-700"}>
+                          {rapnetSchedule.credentialsConfigured ? "Configured" : "Not configured"}
+                        </span>
+                      </div>
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Last Run</span>
+                        <span className="text-gray-900">
+                          {formatScheduleDateTime(rapnetSchedule.lastRunAt, rapnetSchedule.timezone)}
+                        </span>
+                      </div>
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Last Run Result</span>
+                        <span
+                          className={
+                            rapnetSchedule.lastRunSuccess
+                              ? "text-green-700"
+                              : rapnetSchedule.lastRunSuccess === false
+                              ? "text-red-700"
+                              : "text-gray-900"
+                          }
+                        >
+                          {rapnetSchedule.lastRunSuccess === null
+                            ? "—"
+                            : rapnetSchedule.lastRunSuccess
+                            ? "Success"
+                            : "Failed"}
+                        </span>
+                      </div>
+                      {rapnetSchedule.lastRunMessage && (
+                        <div className="flex justify-between gap-4">
+                          <span className="font-medium text-gray-700">Last Run Message</span>
+                          <span className="text-gray-900 text-right">{rapnetSchedule.lastRunMessage}</span>
+                        </div>
+                      )}
+                      <div className="flex justify-between gap-4">
+                        <span className="font-medium text-gray-700">Next Run</span>
+                        <span className="text-gray-900">
+                          {formatScheduleDateTime(rapnetSchedule.nextRunAt, rapnetSchedule.timezone)}
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="flex justify-end">
+                    <button
+                      onClick={handleSaveRapnetSchedule}
+                      disabled={rapnetScheduleSaving || rapnetScheduleLoading}
+                      className="bg-[#050C3A] text-white px-6 py-2 rounded-md hover:bg-[#070d4a] transition-colors font-medium disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center gap-2"
+                    >
+                      <Save className="w-4 h-4" />
+                      {rapnetScheduleSaving ? "Saving…" : "Save Schedule"}
+                    </button>
+                  </div>
+                </>
+              )}
+            </div>
           ) : (
             <div className="flex flex-col items-center justify-center h-64">
               <span className="text-2xl font-bold text-gray-400 mb-2">Coming Soon</span>
