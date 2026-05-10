@@ -94,6 +94,21 @@ const RAPNET_SCHEDULE_API =
 
 const ALLOWED_INTERVAL_HOURS = [1, 2, 3, 4, 6, 8, 12, 24] as const;
 
+const ALL_SHAPES = [
+  "ROUND",
+  "RADIANT",
+  "PEAR",
+  "SQUARE",
+  "EMERALD",
+  "OVAL",
+  "CUSHION",
+  "TRILLIANT",
+  "HEART",
+  "PRINCESS",
+  "MARQUISE",
+  "OTHER",
+];
+
 const formatScheduleDateTime = (iso: string | null, timeZone?: string) => {
   if (!iso) return "—";
   try {
@@ -303,6 +318,18 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
   const handleOpenDiscountModal = () => {
     setDiscountValue("");
     setShowDiscountModal(true);
+  };
+
+  const allShapesSelected =
+    selectedShapes.length > 0 &&
+    ALL_SHAPES.every((s) => selectedShapes.includes(s));
+
+  const handleToggleAllShapes = () => {
+    if (allShapesSelected) {
+      setSelectedShapes([]);
+    } else {
+      setSelectedShapes([...ALL_SHAPES]);
+    }
   };
 
   // Handle discount confirmation
@@ -649,6 +676,16 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
 
               {/* Save Button - Positioned at the right end below filters */}
               <div className="flex justify-end mb-3 gap-2">
+                {/* Select All Shapes Button */}
+                <button
+                  onClick={handleToggleAllShapes}
+                  className="bg-[#050C3A] text-white px-6 py-2 rounded-md hover:bg-[#070d4a] transition-colors font-medium flex items-center gap-2"
+                  title="Select all shapes for discount"
+                >
+                  <Check className="w-4 h-4" />
+                  {allShapesSelected ? "Clear All Shapes" : "Select All Shapes"}
+                </button>
+
                 {/* Check Button */}
                 <div className="relative">
                   <button
