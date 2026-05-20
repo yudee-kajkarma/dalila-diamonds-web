@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Mail, Loader2, X, CheckCircle, AlertCircle } from "lucide-react";
+import { API_URL } from "@/services/api/base/apiClient";
 
 interface EmailButtonProps {
   selectedCount?: number;
@@ -108,7 +109,7 @@ export default function EmailButton({
 
       // Make API call with proper authorization header
       const response = await fetch(
-        "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/email",
+        `${API_URL}/api/diamonds/email`,
         {
           method: "POST",
           headers: {

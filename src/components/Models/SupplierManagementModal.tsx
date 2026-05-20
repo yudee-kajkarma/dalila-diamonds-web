@@ -6,6 +6,7 @@ import Toggle from "../ui/Toggle";
 import ConfigureAPIModal from "./ConfigureAPIModal";
 import toast from "react-hot-toast";
 import { Marcellus, Jost, Maven_Pro } from "next/font/google";
+import { API_URL } from "@/services/api/base/apiClient";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -61,7 +62,7 @@ const SupplierManagementModal: React.FC<SupplierManagementModalProps> = ({
     ));
     
     try {
-      const url = new URL("https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/admin/search");
+      const url = new URL(`${API_URL}/api/diamonds/admin/search`);
       url.searchParams.set("source", supplierName);
       url.searchParams.set("page", "1");
       url.searchParams.set("limit", "10");
@@ -142,7 +143,7 @@ const SupplierManagementModal: React.FC<SupplierManagementModalProps> = ({
     try {
       const newStatus = !supplier.isVisible;
       const response = await fetch(
-        `https://dalila-inventory-service-dev.caratlogic.com/api/users/admin/supplier-settings/${encodeURIComponent(supplierName)}`,
+        `${API_URL}/api/users/admin/supplier-settings/${encodeURIComponent(supplierName)}`,
         {
           method: "PUT",
           credentials: "include",

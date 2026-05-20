@@ -3,7 +3,7 @@
  */
 
 import { DiamondData } from "@/types/diamond.types";
-import apiClient from "../base/apiClient";
+import apiClient, { API_URL } from "../base/apiClient";
 import { handleApiError } from "../base/errorHandler";
 import type {
     ApiResponse,
@@ -345,7 +345,7 @@ export const getPublicDiamonds = async (params?: {
             });
         }
 
-        const url = `https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/safe?${queryParams.toString()}`;
+        const url = `${API_URL}/api/diamonds/safe?${queryParams.toString()}`;
 
         const response = await fetch(url, {
             method: "GET",

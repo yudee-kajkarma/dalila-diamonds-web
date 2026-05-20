@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { API_URL } from '@/services/api/base/apiClient';
 
 interface InventoryDiamond {
   _id: string;
@@ -125,7 +126,7 @@ export const useInventoryData = ({
         prevFetchParamsRef.current = fetchParamsKey;
 
         // Build API URL
-        const url = new URL('https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/admin/search');
+        const url = new URL(`${API_URL}/api/diamonds/admin/search`);
         url.searchParams.append('page', currentPage.toString());
         url.searchParams.append('limit', rowsPerPage.toString());
         

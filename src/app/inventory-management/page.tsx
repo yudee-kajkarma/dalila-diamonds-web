@@ -28,6 +28,7 @@ import PriceLocationFilter, {
 import MeasurementFilter from "@/components/Filters/MeasurementFilter";
 import { inventoryApi } from "@/lib/api";
 import toast from "react-hot-toast";
+import { API_URL } from "@/services/api/base/apiClient";
 
 const marcellus = Marcellus({
     variable: "--font-marcellus",
@@ -382,7 +383,7 @@ export default function InventoryManagement() {
             let response;
             if (viewMode === "active") {
                 // Active Diamonds: hit /api/diamonds/search (no limit to show all results)
-                const apiUrl = `https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/search?searchTerm=${encodeURIComponent(term)}`;
+                const apiUrl = `${API_URL}/api/diamonds/search?searchTerm=${encodeURIComponent(term)}`;
                 const res = await fetch(apiUrl);
                 response = await res.json();
                 // Normalize response for compatibility
@@ -418,7 +419,7 @@ export default function InventoryManagement() {
     const fetchActiveDiamondsCount = async () => {
         try {
             const response = await fetch(
-                "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/search",
+                `${API_URL}/api/diamonds/search`,
             );
             const data = await response.json();
 
@@ -470,7 +471,7 @@ export default function InventoryManagement() {
             setIsLoadingStats(true);
             // Fetch diamonds from the correct API endpoint with a safe limit
             const response = await fetch(
-                "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/admin/search?page=1&limit=10",
+                `${API_URL}/api/diamonds/admin/search?page=1&limit=10`,
                 {
                     method: "GET",
                     credentials: "include", // Include cookies for admin authentication

@@ -10,6 +10,7 @@ import InventoryDiamondTable from "../InventoryDiamondTable";
 import { inventoryApi } from "@/lib/api";
 import toast from "react-hot-toast";
 import DiamondDetailView from "../DiamondDetailView";
+import { API_URL } from "@/services/api/base/apiClient";
 
 interface InventoryDiamond {
   _id: string;
@@ -89,8 +90,7 @@ interface RapnetScheduleData {
   credentialsConfigured: boolean;
 }
 
-const RAPNET_SCHEDULE_API =
-  "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/admin/rapnet-schedule";
+const RAPNET_SCHEDULE_API = `${API_URL}/api/diamonds/admin/rapnet-schedule`;
 
 const ALLOWED_INTERVAL_HOURS = [1, 2, 3, 4, 6, 8, 12, 24] as const;
 
@@ -269,7 +269,7 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
     setFilterData(null);
     try {
       const response = await fetch(
-        `https://dalila-inventory-service-dev.caratlogic.com/api/users/admin/supplier-settings/${encodeURIComponent(supplierName)}/filters`,
+        `${API_URL}/api/users/admin/supplier-settings/${encodeURIComponent(supplierName)}/filters`,
         {
           method: "GET",
           credentials: "include",

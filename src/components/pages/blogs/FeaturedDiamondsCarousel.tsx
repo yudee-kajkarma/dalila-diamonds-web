@@ -6,6 +6,7 @@ import { Marcellus, Jost } from "next/font/google";
 import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 import DiamondDetailView from "@/components/DiamondDetailView";
 import type { DiamondData } from "@/types/diamond.types";
+import { API_URL } from "@/services/api/base/apiClient";
 
 interface InventoryDiamond {
   _id: string;
@@ -57,7 +58,7 @@ export default function FeaturedDiamondsCarousel() {
     const fetchInventoryDiamonds = async () => {
       try {
         const response = await fetch(
-          "https://dalila-inventory-service-dev.caratlogic.com/api/diamonds/safe?page=1&limit=10",
+          `${API_URL}/api/diamonds/safe?page=1&limit=10`,
         );
 
         if (!response.ok) {
