@@ -70,6 +70,8 @@ interface UseInventoryDataProps {
   currentPage: number;
   rowsPerPage: number;
   sortConfig?: { key: string; direction: 'asc' | 'desc' } | null;
+  /** Bump to force refetch when filters/page unchanged (e.g. after discount apply). */
+  refreshNonce?: number;
 }
 
 interface UseInventoryDataReturn {
@@ -88,7 +90,8 @@ export const useInventoryData = ({
   filters,
   currentPage,
   rowsPerPage,
-  sortConfig
+  sortConfig,
+  refreshNonce = 0,
 }: UseInventoryDataProps): UseInventoryDataReturn => {
   const [data, setData] = useState<InventoryDiamond[]>([]);
   const [loading, setLoading] = useState(true);
@@ -114,7 +117,8 @@ export const useInventoryData = ({
           ...filters,
           currentPage,
           rowsPerPage,
-          sortConfig
+          sortConfig,
+          refreshNonce,
         });
 
         // Skip if same parameters as previous fetch
@@ -182,7 +186,7 @@ export const useInventoryData = ({
     };
 
     fetchInventoryData();
-  }, [filters, currentPage, rowsPerPage, sortConfig]);
+  }, [filters, currentPage, rowsPerPage, sortConfig, refreshNonce]);
 
   return {
     data,

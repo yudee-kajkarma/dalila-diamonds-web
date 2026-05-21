@@ -128,6 +128,7 @@ interface InventoryTableProps {
     onCopyToManual?: (diamond: InventoryDiamond) => void;
     onEditDiamond?: (diamond: InventoryDiamond) => void;
     onDeleteDiamond?: (diamond: InventoryDiamond) => void;
+    refreshNonce?: number;
 }
 
 const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
@@ -145,6 +146,7 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
     onCopyToManual,
     onEditDiamond,
     onDeleteDiamond,
+    refreshNonce,
 }) => {
     // Track if component is being used with external data (from props)
     const isExternalData = propData !== undefined;
@@ -177,6 +179,7 @@ const InventoryDiamondTable: React.FC<InventoryTableProps> = ({
         currentPage: isExternalData ? 1 : currentPage,
         rowsPerPage: isExternalData ? 10 : rowsPerPage,
         sortConfig,
+        refreshNonce,
     });
 
     // Determine which data/loading/error to use

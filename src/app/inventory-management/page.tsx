@@ -269,6 +269,7 @@ export default function InventoryManagement() {
     const [activeDiamonds, setActiveDiamonds] = useState(0);
     const [activeSuppliers, setActiveSuppliers] = useState(0);
     const [totalSuppliers, setTotalSuppliers] = useState(0);
+    const [inventoryRefreshNonce, setInventoryRefreshNonce] = useState(0);
     const [suppliers] = useState<
         Array<{ name: string; totalDiamonds: number; isVisible: boolean }>
     >([]);
@@ -516,6 +517,7 @@ export default function InventoryManagement() {
         fetchInventoryData();
         fetchActiveDiamondsCount();
         fetchSupplierCounts();
+        setInventoryRefreshNonce((n) => n + 1);
     };
 
     const handleCopyToManual = async (diamond: InventoryDiamond) => {
@@ -1176,6 +1178,7 @@ export default function InventoryManagement() {
                                     viewMode="list"
                                     externalPagination={searchPagination}
                                     onCopyToManual={handleCopyToManual}
+                                    refreshNonce={inventoryRefreshNonce}
                                     filterProps={{
                                         shapes: inventorySelectedShape,
                                         colors: inventorySelectedColor,
@@ -1226,6 +1229,7 @@ export default function InventoryManagement() {
                                 <InventoryDiamondTable
                                     viewMode="list"
                                     onCopyToManual={handleCopyToManual}
+                                    refreshNonce={inventoryRefreshNonce}
                                     filterProps={{
                                         shapes: inventorySelectedShape,
                                         colors: inventorySelectedColor,

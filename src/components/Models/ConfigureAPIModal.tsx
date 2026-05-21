@@ -375,8 +375,14 @@ const ConfigureAPIModal: React.FC<ConfigureAPIModalProps> = ({
       
       if (response.success) {
         toast.success(response.message || "Discount applied successfully!");
-        // Refresh discount data
+        // Refresh discount rule display in modal
         handleGetDiscount();
+        // Reload supplier diamond table in this modal
+        if (activeTab === "inventory") {
+          fetchFilteredData(currentPage);
+        }
+        // Notify parent page to reload inventory table / stats
+        onConfigSaved?.();
       } else {
         toast.error(response.message || "Failed to apply discount");
       }

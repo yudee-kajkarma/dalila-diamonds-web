@@ -209,11 +209,12 @@ export const applyDiscountRules = async (
     if (!encodedSupplierName) {
       throw new Error("Supplier name is required");
     }
-    // Use longer timeout for discount operations (120 seconds)
+    // Use a longer timeout for discount operations (3 minutes) — a global rapnet
+    // rule rewrites 60k+ rows server-side via chunked bulk writes.
     const response = await apiClient.put(
       `/api/diamonds/discount-rules/${encodedSupplierName}`,
       discountData,
-      { timeout: 120000 }
+      { timeout: 180000 }
     );
     return response.data;
   } catch (error) {
