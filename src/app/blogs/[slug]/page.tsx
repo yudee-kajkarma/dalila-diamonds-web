@@ -51,7 +51,7 @@ export default async function BlogDetailPage({ params }: Props) {
 
       <section className="max-w-7xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
-          <aside className="sticky-sidebar">
+          <aside className="sticky-sidebar order-2 lg:order-1">
             <div className="mb-6">
               <h3 className={`text-xl font-bold text-[#2d2d2d] mb-5 ${marcellus.className}`}>
                 Our Articles
@@ -199,7 +199,7 @@ export default async function BlogDetailPage({ params }: Props) {
             </div>
           </aside>
 
-          <article className="flex-1">
+          <article className="flex-1 order-1 lg:order-2">
             <h1
               className={`text-3xl md:text-4xl lg:text-5xl text-[#1a1a1a] font-bold leading-tight mb-6 ${marcellus.className}`}
             >
