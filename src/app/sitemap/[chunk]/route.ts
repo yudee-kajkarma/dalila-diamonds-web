@@ -1,9 +1,9 @@
 import { SITE_BASE_URL, blogToSlug, getAllBlogs } from "@/lib/blogs";
 import { diamondToSlug, getPublicDiamondsSlice } from "@/lib/diamonds";
 
-// Must match CHUNK_SIZE in app/sitemap.xml/route.ts and the chunk count in
-// the index. Google caps a single sitemap at 50,000 URLs.
-const CHUNK_SIZE = 45000;
+// Must match CHUNK_SIZE in app/sitemap.xml/route.ts.
+// 5k keeps per-chunk fetch fast and response small (Google allows up to 50k).
+const CHUNK_SIZE = 5000;
 
 const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }> = [
   { path: "/", priority: 1.0, changefreq: "weekly" },

@@ -1,8 +1,9 @@
 import { SITE_BASE_URL } from "@/lib/blogs";
 import { getPublicDiamondCount } from "@/lib/diamonds";
 
-// Must mirror CHUNK_SIZE in src/app/sitemap.ts.
-const CHUNK_SIZE = 45000;
+// Must mirror CHUNK_SIZE in app/sitemap/[chunk]/route.ts.
+// 5k keeps per-chunk fetch fast and response small (Google allows up to 50k).
+const CHUNK_SIZE = 5000;
 
 // Revalidate the sitemap index hourly, matching the chunks.
 export const revalidate = 3600;
