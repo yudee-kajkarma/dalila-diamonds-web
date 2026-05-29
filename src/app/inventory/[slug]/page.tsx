@@ -353,7 +353,8 @@ export default async function DiamondDetailPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <DiamondDetailPageClient diamond={toDiamondData(diamond)} extraContent={seoBlock} />
+      <DiamondDetailPageClient diamond={toDiamondData(diamond)} />
+      {seoBlock}
     </>
   );
 }
