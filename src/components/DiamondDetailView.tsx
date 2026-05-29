@@ -39,11 +39,19 @@ const mavenPro = Maven_Pro({
 interface DiamondDetailViewProps {
     diamond: DiamondData;
     onClose: () => void;
+    // When true, render as a normal page (no fixed overlay, no backdrop).
+    // The modal usage from the inventory table leaves this false and is unaffected.
+    asPage?: boolean;
+    // Extra content rendered inside the scroll container, after the spec area
+    // and before the footer. Used by the product page to append SEO sections.
+    extraContent?: React.ReactNode;
 }
 
 const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
     diamond,
     onClose,
+    asPage = false,
+    extraContent,
 }) => {
     const router = useRouter();
     const [isAddingToCart, setIsAddingToCart] = useState(false);
@@ -255,32 +263,39 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
 
     return (
         <div
-            className={`fixed left-0 right-0 bottom-0 w-full flex items-center justify-center z-40 bg-black/50 ${mavenPro.variable} ${marcellus.variable}`}
-            style={{ top: isMobile ? 0 : '88px' }}
-            onClick={onClose}
+            className={
+                asPage
+                    ? `relative w-full pt-[120px] ${mavenPro.variable} ${marcellus.variable}`
+                    : `fixed left-0 right-0 bottom-0 w-full flex items-center justify-center z-40 bg-black/50 ${mavenPro.variable} ${marcellus.variable}`
+            }
+            style={asPage ? undefined : { top: isMobile ? 0 : '88px' }}
+            onClick={asPage ? undefined : onClose}
         >
             {isMobile ? (
                 // MOBILE VIEW
-                <DiamondDetailViewMobile
-                    diamond={diamond}
-                    onClose={onClose}
-                    isLoggedIn={isLoggedIn}
-                    userRole={userRole}
-                    selectedMediaTab={selectedMediaTab}
-                    setSelectedMediaTab={setSelectedMediaTab}
-                    handleAddToCart={handleAddToCart}
-                    handleAddToHold={handleAddToHold}
-                    setIsEnquiryOpen={setIsEnquiryOpen}
-                    handleLoginRedirect={handleLoginRedirect}
-                    isAddingToCart={isAddingToCart}
-                    isAddingToHold={isAddingToHold}
-                />
+                <>
+                    <DiamondDetailViewMobile
+                        diamond={diamond}
+                        onClose={onClose}
+                        isLoggedIn={isLoggedIn}
+                        userRole={userRole}
+                        selectedMediaTab={selectedMediaTab}
+                        setSelectedMediaTab={setSelectedMediaTab}
+                        handleAddToCart={handleAddToCart}
+                        handleAddToHold={handleAddToHold}
+                        setIsEnquiryOpen={setIsEnquiryOpen}
+                        handleLoginRedirect={handleLoginRedirect}
+                        isAddingToCart={isAddingToCart}
+                        isAddingToHold={isAddingToHold}
+                    />
+                    {asPage && extraContent}
+                </>
             ) : (
                 // DESKTOP VIEW - UNCHANGED
                 <div
-                    className="bg-white shadow-xl w-full h-full overflow-y-auto font-maven-pro"
+                    className={`bg-white ${asPage ? "w-full" : "shadow-xl w-full h-full overflow-y-auto"} font-maven-pro`}
                     onClick={(e) => e.stopPropagation()}
-                    style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+                    style={asPage ? undefined : { scrollbarWidth: "none", msOverflowStyle: "none" }}
                 >
                     {/* Single Container with Fixed Width */}
                     <div
@@ -293,7 +308,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                     >
                     {/* Top Navigation Bar: Back Button + Media Tabs */}
                     <div
-                        className="flex items-center gap-2 px-4 py-2 border-t border-b border-[#C89E3A] bg-white sticky top-0 z-30"
+                        className={`flex items-center gap-2 px-4 py-2 border-t border-b border-[#C89E3A] bg-white ${asPage ? "" : "sticky top-0"} z-30`}
                         style={{ minHeight: "48px" }}
                     >
                         <button
@@ -882,8 +897,10 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                         </div>
                     </div>
                     </div>
-                    {/* Footer */}
-                    <Footer />
+                    {extraContent}
+                    {/* Footer — skipped in asPage mode since the page layout
+                        already renders the site footer via HeaderFooterWrapper. */}
+                    {!asPage && <Footer />}
                 </div>
             )}
 

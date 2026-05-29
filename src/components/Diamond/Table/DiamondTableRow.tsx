@@ -1,6 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import { formatPrice, formatPercentage } from "@/utils/formatting";
 import type { DiamondData } from "@/types/diamond.types";
+import { diamondToSlug } from "@/lib/diamonds";
 
 interface DiamondTableRowProps {
     diamond: DiamondData;
@@ -79,8 +81,7 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
 
             {/* Stock ID Column - Sticky */}
             <td
-                className="text-[14px] text-gray-700 font-medium cursor-pointer hover:text-blue-600 hover:underline md:sticky"
-                onClick={(e) => onStockIdClick(e, diamond)}
+                className="text-[14px] text-gray-700 font-medium md:sticky"
                 style={{
                     left: isPublicApi ? 0 : stickyOffsets.stockId,
                     zIndex: 20,
@@ -96,7 +97,12 @@ export const DiamondTableRow: React.FC<DiamondTableRowProps> = ({
                     padding: "4px 8px",
                 }}
             >
-                {diamond.diamondId}
+                <Link
+                    href={`/inventory/${diamondToSlug(diamond)}`}
+                    className="cursor-pointer hover:text-blue-600 hover:underline block"
+                >
+                    {diamond.diamondId}
+                </Link>
             </td>
 
             {/* Source Type Column */}

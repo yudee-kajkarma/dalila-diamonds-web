@@ -46,7 +46,9 @@ export const getAllBlogs = cache(async (): Promise<BackendBlog[]> => {
   try {
     const response = await fetch(
       `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
-      { next: { revalidate: 600 } },
+      // Response can exceed Next's 2MB fetch-cache cap; skip the data cache.
+      // React cache() above still dedupes calls within a single request.
+      { cache: "no-store" },
     );
 
     if (!response.ok) {
