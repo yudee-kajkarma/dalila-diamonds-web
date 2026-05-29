@@ -232,7 +232,11 @@ export const getDiamondFromSlug = cache(
         params.set("page", String(page));
         const response = await fetch(
           `${API_BASE_URL}/api/diamonds/safe?${params.toString()}`,
-          { cache: "no-store" },
+          // Page declares revalidate=3600 (ISR). The inner fetch must also
+          // be cacheable — `no-store` here forces the route fully dynamic
+          // and Next throws "static to dynamic at runtime". Filtered
+          // responses are well under Next's 2MB fetch-cache cap.
+          { next: { revalidate: 3600 } },
         );
         if (!response.ok) return null;
         const payload = (await response.json()) as SafeApiResponse;
