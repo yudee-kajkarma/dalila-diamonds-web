@@ -30,6 +30,7 @@ interface DiamondDetailViewMobileProps {
     handleLoginRedirect: () => void;
     isAddingToCart: boolean;
     isAddingToHold: boolean;
+    priceLoading?: boolean;
 }
 
 const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
@@ -45,6 +46,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
     handleLoginRedirect,
     isAddingToCart,
     isAddingToHold,
+    priceLoading = false,
 }) => {
     return (
         <div
@@ -153,28 +155,37 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                         <>
                             <div className="mb-4">
                                 <div className="text-xs text-gray-500 mb-1">Total Price</div>
-                                <div className="text-2xl font-semibold text-gray-900">
-                                    $
-                                    {diamond.NET_VALUE
-                                        ? diamond.NET_VALUE.toLocaleString("en-US", {
-                                              minimumFractionDigits: 2,
-                                              maximumFractionDigits: 2,
-                                          })
-                                        : "N/A"}
-                                </div>
-                                <div className="text-xs text-gray-600 mt-1">
-                                    Rap Price:{" "}
-                                    {diamond.RAP_PRICE
-                                        ? `$${diamond.RAP_PRICE.toLocaleString("en-US", {
-                                              minimumFractionDigits: 2,
-                                              maximumFractionDigits: 2,
-                                          })}`
-                                        : "N/A"}{" "}
-                                    | Disc %:{" "}
-                                    {diamond.DISC_PER
-                                        ? `${Number(diamond.DISC_PER).toFixed(2)}%`
-                                        : "N/A"}
-                                </div>
+                                {priceLoading ? (
+                                    <>
+                                        <div className="h-7 w-32 bg-gray-200 rounded animate-pulse" />
+                                        <div className="h-3 w-44 bg-gray-100 rounded animate-pulse mt-2" />
+                                    </>
+                                ) : (
+                                    <>
+                                        <div className="text-2xl font-semibold text-gray-900">
+                                            $
+                                            {diamond.NET_VALUE
+                                                ? diamond.NET_VALUE.toLocaleString("en-US", {
+                                                      minimumFractionDigits: 2,
+                                                      maximumFractionDigits: 2,
+                                                  })
+                                                : "N/A"}
+                                        </div>
+                                        <div className="text-xs text-gray-600 mt-1">
+                                            Rap Price:{" "}
+                                            {diamond.RAP_PRICE
+                                                ? `$${diamond.RAP_PRICE.toLocaleString("en-US", {
+                                                      minimumFractionDigits: 2,
+                                                      maximumFractionDigits: 2,
+                                                  })}`
+                                                : "N/A"}{" "}
+                                            | Disc %:{" "}
+                                            {diamond.DISC_PER
+                                                ? `${Number(diamond.DISC_PER).toFixed(2)}%`
+                                                : "N/A"}
+                                        </div>
+                                    </>
+                                )}
                             </div>
 
                             {/* Action Buttons */}

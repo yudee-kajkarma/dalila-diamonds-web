@@ -45,6 +45,10 @@ interface DiamondDetailViewProps {
     // Extra content rendered inside the scroll container, after the spec area
     // and before the footer. Used by the product page to append SEO sections.
     extraContent?: React.ReactNode;
+    // When true, the price is still being fetched (product page fetches the
+    // authenticated price client-side after load). Shows a loading state
+    // instead of a misleading $0.00.
+    priceLoading?: boolean;
 }
 
 const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
@@ -52,6 +56,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
     onClose,
     asPage = false,
     extraContent,
+    priceLoading = false,
 }) => {
     const router = useRouter();
     const [isAddingToCart, setIsAddingToCart] = useState(false);
@@ -287,6 +292,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                         handleLoginRedirect={handleLoginRedirect}
                         isAddingToCart={isAddingToCart}
                         isAddingToHold={isAddingToHold}
+                        priceLoading={priceLoading}
                     />
                     {asPage && extraContent}
                 </>
@@ -505,28 +511,39 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                             <div className="text-xs text-gray-500 mb-1">
                                                 Total Price
                                             </div>
-                                            <div
-                                                className={`text-4xl font-semibold text-gray-900`}
-                                            >
-                                                {formatPrice(
-                                                    diamond.NET_VALUE ?? 0,
-                                                )}
-                                            </div>
-                                            <div className="text-sm text-gray-600 mt-1">
-                                                Rap Price:{" "}
-                                                {formatPrice(
-                                                    diamond.RAP_PRICE ?? 0,
-                                                )}{" "}
-                                                | Disc %:{" "}
-                                                {formatPercentage(
-                                                    Math.abs(
-                                                        Number(
-                                                            diamond.DISC_PER ??
+                                            {priceLoading ? (
+                                                <>
+                                                    <div className="h-9 w-40 bg-gray-200 rounded animate-pulse" />
+                                                    <div className="h-4 w-56 bg-gray-100 rounded animate-pulse mt-2" />
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <div
+                                                        className={`text-4xl font-semibold text-gray-900`}
+                                                    >
+                                                        {formatPrice(
+                                                            diamond.NET_VALUE ??
                                                                 0,
-                                                        ),
-                                                    ),
-                                                )}
-                                            </div>
+                                                        )}
+                                                    </div>
+                                                    <div className="text-sm text-gray-600 mt-1">
+                                                        Rap Price:{" "}
+                                                        {formatPrice(
+                                                            diamond.RAP_PRICE ??
+                                                                0,
+                                                        )}{" "}
+                                                        | Disc %:{" "}
+                                                        {formatPercentage(
+                                                            Math.abs(
+                                                                Number(
+                                                                    diamond.DISC_PER ??
+                                                                        0,
+                                                                ),
+                                                            ),
+                                                        )}
+                                                    </div>
+                                                </>
+                                            )}
                                         </div>
                                         {/* Action Buttons */}
                                         {userRole !== "ADMIN" &&
