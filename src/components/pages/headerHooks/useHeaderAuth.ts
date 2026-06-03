@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { userApi } from "@/lib/api";
+import { getAuthToken } from "@/services/api/base/authHandler";
 
 interface UseHeaderAuthReturn {
     userRole: string | null;
@@ -53,20 +54,12 @@ export const useHeaderAuth = (): UseHeaderAuthReturn => {
             if (typeof window !== "undefined") {
                 setIsCheckingAuth(true);
 
-                let token = localStorage.getItem("authToken");
+                let token = getAuthToken();
                 let userStr = localStorage.getItem("user");
 
-                if (!userStr || !token) {
+                if (!userStr) {
                     console.log("Checking cookies...");
                     const cookies = document.cookie.split(";");
-
-                    const tokenCookie = cookies.find((c) =>
-                        c.trim().startsWith("authToken=")
-                    );
-                    if (tokenCookie) {
-                        token = tokenCookie.split("=")[1].trim();
-                        console.log("Found token in cookie");
-                    }
 
                     const userCookie = cookies.find((c) =>
                         c.trim().startsWith("user=")

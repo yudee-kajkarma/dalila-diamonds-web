@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import { getAuthToken } from "@/services/api/base/authHandler";
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
@@ -34,20 +35,14 @@ export default function ProtectedRoute({
 
       // Get auth data from localStorage
       let userStr = localStorage.getItem("user");
-      let token = localStorage.getItem("authToken");
+      const token = getAuthToken();
 
-      // Fallback to cookies
-      if (!userStr || !token) {
+      // Fallback to cookies for user data
+      if (!userStr) {
         const cookies = document.cookie.split(";");
-        const tokenCookie = cookies.find((c) =>
-          c.trim().startsWith("authToken="),
-        );
         const userCookie = cookies.find((c) => c.trim().startsWith("user="));
 
-        if (tokenCookie && !token) {
-          token = tokenCookie.split("=")[1].trim();
-        }
-        if (userCookie && !userStr) {
+        if (userCookie) {
           try {
             userStr = decodeURIComponent(userCookie.split("=")[1].trim());
           } catch (e) {

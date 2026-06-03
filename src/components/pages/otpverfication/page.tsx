@@ -106,26 +106,6 @@ export default function OTPVerificationPage() {
       if (response && response.success) {
         console.log("OTP verified successfully!", response);
 
-        // CRITICAL: Store the authentication token if provided
-        if (response.data && "token" in response.data) {
-          const token = (response.data as { token?: string }).token;
-          if (token) {
-            console.log(
-              "✅ Storing authentication token from OTP verification",
-            );
-
-            // Store in localStorage
-            if (typeof window !== "undefined") {
-              localStorage.setItem("authToken", token);
-            }
-
-            // Store in cookie
-            if (typeof document !== "undefined") {
-              document.cookie = `authToken=${token}; path=/; max-age=86400; SameSite=Lax`;
-            }
-          }
-        }
-
         setSuccess("Email verified successfully! Redirecting...");
 
         // Redirect to customer details page

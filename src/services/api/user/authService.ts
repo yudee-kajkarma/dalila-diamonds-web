@@ -114,11 +114,13 @@ export const sendOtp = async (email: string): Promise<ApiResponse<{ message: str
 export const verifyOtp = async (data: {
   email: string;
   otp: string;
-}): Promise<ApiResponse<{ message: string }>> => {
+}): Promise<ApiResponse<{ message: string; user?: User; token?: string }>> => {
   try {
     console.log("Sending OTP verification request:", data);
 
-    const response = await apiClient.post<ApiResponse<{ message: string }>>(
+    const response = await apiClient.post<
+      ApiResponse<{ message: string; user?: User; token?: string }>
+    >(
       "/api/users/verify-otp",
       {
         email: data.email.trim(),
@@ -127,6 +129,19 @@ export const verifyOtp = async (data: {
     );
 
     console.log("OTP verification response:", response.data);
+
+    if (response.data.success && response.data.data) {
+      const { token, user } = response.data.data;
+
+      if (token) {
+        setAuthToken(token);
+      }
+
+      if (user) {
+        setCurrentUser(user);
+      }
+    }
+
     return response.data;
   } catch (error) {
     console.error("OTP verification error:", error);

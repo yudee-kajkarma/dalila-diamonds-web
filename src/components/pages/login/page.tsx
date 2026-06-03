@@ -98,23 +98,16 @@ export default function LoginPage() {
                         return;
                     }
 
-                    // Store token if provided
+                    // Store token for Authorization header (required on mobile Safari
+                    // where cross-site httpOnly cookies are often blocked)
                     if (token) {
                         localStorage.setItem("authToken", token);
                         document.cookie = `authToken=${token}; path=/; max-age=86400; SameSite=Lax`;
-                    } else {
-                        localStorage.setItem(
-                            "authToken",
-                            "httpOnly_cookie_auth"
-                        );
-                        document.cookie = `authToken=httpOnly_cookie_auth; path=/; max-age=86400; SameSite=Lax`;
                     }
 
-                    // Final verification
-                    const finalToken = localStorage.getItem("authToken");
                     const finalUser = localStorage.getItem("user");
 
-                    if (!finalToken || !finalUser) {
+                    if (!finalUser || (!token && !localStorage.getItem("authToken"))) {
                         setError("Login failed. Please try again.");
                         setIsLoading(false);
                         return;

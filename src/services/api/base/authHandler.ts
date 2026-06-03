@@ -3,19 +3,30 @@
  */
 
 export const UNAUTHORIZED_EVENT = "unauthorized_access";
+export const HTTP_ONLY_COOKIE_PLACEHOLDER = "httpOnly_cookie_auth";
+
+const isUsableAuthToken = (token: string | null | undefined): token is string => {
+  return (
+    !!token &&
+    token.trim() !== "" &&
+    token !== HTTP_ONLY_COOKIE_PLACEHOLDER
+  );
+};
 
 // Get authentication token from cookies or localStorage
 export const getAuthToken = (): string => {
   // First try to get from cookies
   const cookieToken = getAuthTokenFromCookies();
-  if (cookieToken) {
+  if (isUsableAuthToken(cookieToken)) {
     return cookieToken;
   }
 
   // Fallback to localStorage
   if (typeof window !== "undefined") {
     const token = localStorage.getItem("authToken");
-    return token || "";
+    if (isUsableAuthToken(token)) {
+      return token;
+    }
   }
   
   return "";
@@ -37,8 +48,7 @@ export const getAuthTokenFromCookies = (): string => {
 
 // Check if user is authenticated
 export const isAuthenticated = (): boolean => {
-  const token = getAuthToken();
-  return token !== null && token !== undefined && token.trim() !== "";
+  return getAuthToken() !== "";
 };
 
 // Set authentication token in localStorage and cookies
