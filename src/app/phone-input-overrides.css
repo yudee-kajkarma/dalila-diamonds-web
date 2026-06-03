@@ -1,0 +1,91 @@
+@import "react-phone-input-2/lib/style.css";
+
+/* Customer details phone fields — dropdown must escape narrow/overflow parents */
+.phone-input-field {
+  position: relative;
+  z-index: 1;
+}
+
+/* Lift entire field above later form inputs while dropdown is open */
+.phone-input-field:has(.flag-dropdown.open) {
+  z-index: 10050 !important;
+}
+
+.phone-input-field .react-tel-input {
+  width: 100%;
+  font-family: inherit;
+  position: relative;
+}
+
+.phone-input-field .react-tel-input .form-control {
+  width: 100% !important;
+  height: auto !important;
+  position: relative;
+  z-index: 1 !important;
+}
+
+.phone-input-field:has(.flag-dropdown.open) .react-tel-input .form-control {
+  z-index: 0 !important;
+}
+
+.phone-input-field .react-tel-input .flag-dropdown {
+  border: none !important;
+  background: transparent !important;
+  border-radius: 0.5rem 0 0 0.5rem !important;
+  z-index: 2;
+}
+
+.phone-input-field .react-tel-input .flag-dropdown.open {
+  z-index: 10051 !important;
+}
+
+.phone-input-field .react-tel-input .country-list {
+  width: min(300px, calc(100vw - 2rem)) !important;
+  min-width: 260px !important;
+  max-height: 220px !important;
+  top: calc(100% + 6px) !important;
+  margin: 0 !important;
+  padding: 10px 0 8px !important;
+  left: 0 !important;
+  right: auto !important;
+  z-index: 10052 !important;
+  background-color: #ffffff !important;
+  color: #171717 !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25) !important;
+}
+
+.phone-input-field .react-tel-input .country-list .country {
+  color: #171717 !important;
+  padding: 8px 12px !important;
+}
+
+.phone-input-field .react-tel-input .country-list .country:first-of-type {
+  margin-top: 2px;
+}
+
+.phone-input-field .react-tel-input .country-list .country .dial-code {
+  color: #6b6b6b !important;
+}
+
+.phone-input-field .react-tel-input .country-list .country:hover,
+.phone-input-field .react-tel-input .country-list .country.highlight {
+  background-color: #f3f4f6 !important;
+}
+
+.phone-input-field .react-tel-input .country-list .search {
+  position: sticky;
+  top: 0;
+  padding: 2px 12px 10px !important;
+  margin-top: 0 !important;
+  background-color: #ffffff !important;
+}
+
+.phone-input-field .react-tel-input .country-list .search-box {
+  width: calc(100% - 12px) !important;
+  max-width: none !important;
+  color: #171717 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 0.375rem !important;
+}

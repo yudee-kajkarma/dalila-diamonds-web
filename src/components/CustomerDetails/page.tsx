@@ -28,7 +28,7 @@ const playFair = Playfair_Display({
 // Dynamically import react-phone-input-2 to avoid SSR issues
 import type { CountryData, PhoneInputProps } from "react-phone-input-2";
 const PhoneInput = dynamic(() => import("react-phone-input-2"), { ssr: false }) as unknown as React.ComponentType<PhoneInputProps>;
-import "react-phone-input-2/lib/style.css";
+import "@/app/phone-input-overrides.css";
 
 // Business types
 const businessTypes = [
@@ -410,7 +410,7 @@ function CustomerDetailsContent() {
   }
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-black">
+    <div className="relative w-full min-h-screen overflow-x-hidden bg-black">
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
@@ -425,7 +425,7 @@ function CustomerDetailsContent() {
       <div className="absolute inset-0 bg-black/50 pointer-events-none" />
 
       <div className="relative z-10 flex items-center justify-center w-full min-h-screen p-4 py-8">
-        <div className="flex w-full max-w-[1200px] min-h-[700px] rounded-xl shadow-2xl border border-gray-800 overflow-hidden flex-col md:flex-row">
+        <div className="flex w-full max-w-[1200px] min-h-[700px] rounded-xl shadow-2xl border border-gray-800 flex-col md:flex-row">
           {/* Left Welcome Panel - Hidden on Mobile */}
           <div
             className="hidden md:flex flex-col justify-between text-white px-10 py-10 w-full md:w-[40%] md:min-w-[350px]"
@@ -505,7 +505,7 @@ function CustomerDetailsContent() {
                     </div>
 
           {/* Right Panel - Form - Full Width on Mobile */}
-          <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8 overflow-y-auto max-h-screen">
+          <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8 md:overflow-y-auto md:max-h-screen">
             {/* Navigation Buttons */}
             <div className="absolute top-4 md:top-6 right-4 md:right-6 flex gap-2 z-10">
               <button
@@ -529,7 +529,7 @@ function CustomerDetailsContent() {
             {/* Form */}
             <form
               onSubmit={handleSubmit}
-              className="relative z-10 w-full max-w-[500px] mt-10"
+              className="relative z-10 w-full max-w-[500px] mt-10 overflow-visible"
             >
               <h2
                 className={`text-2xl md:text-3xl font-semibold text-white mb-6 text-center ${playFair.className}`}
@@ -581,7 +581,7 @@ function CustomerDetailsContent() {
                   />
                 </div>
 
-                <div className="mt-2">
+                <div className="mt-2 phone-input-field">
                   <label className="block text-sm font-medium text-white mb-1">Phone Number *</label>
                   <PhoneInput
                     country={"in"}
@@ -600,9 +600,9 @@ function CustomerDetailsContent() {
                       autoFocus: false,
                     }}
                     inputClass="!w-full !pl-16 !pr-4 !py-2 !rounded-lg !bg-white !border !border-gray-300 !focus:border-[#FFD166] !text-black !placeholder-gray-500 !focus:outline-none !focus:ring-2 !focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed !transition-all !duration-200"
-                    buttonClass="!bg-white !border-none !rounded-lg !shadow-none !pl-2 !pr-2"
-                    dropdownClass="!bg-white !text-black !rounded-lg !shadow-lg"
-                    containerClass="w-full"
+                    buttonClass="!bg-white !border-none !rounded-l-lg !shadow-none !pl-2 !pr-2"
+                    dropdownClass="phone-input-dropdown"
+                    containerClass="!w-full"
                     enableSearch
                     disableSearchIcon={false}
                     specialLabel=""
@@ -612,7 +612,7 @@ function CustomerDetailsContent() {
                   />
                 </div>
 
-                <div className="mt-2">
+                <div className="mt-2 phone-input-field">
                   <label className="block text-sm font-medium text-white mb-1">Landline Number (Optional)</label>
                   <PhoneInput
                     country={"in"}
@@ -631,9 +631,9 @@ function CustomerDetailsContent() {
                       autoFocus: false,
                     }}
                     inputClass="!w-full !pl-16 !pr-4 !py-2 !rounded-lg !bg-white !border !border-gray-300 !focus:border-[#FFD166] !text-black !placeholder-gray-500 !focus:outline-none !focus:ring-2 !focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed !transition-all !duration-200"
-                    buttonClass="!bg-white !border-none !rounded-lg !shadow-none !pl-2 !pr-2"
-                    dropdownClass="!bg-white !text-black !rounded-lg !shadow-lg"
-                    containerClass="w-full"
+                    buttonClass="!bg-white !border-none !rounded-l-lg !shadow-none !pl-2 !pr-2"
+                    dropdownClass="phone-input-dropdown"
+                    containerClass="!w-full"
                     enableSearch
                     disableSearchIcon={false}
                     specialLabel=""
@@ -645,7 +645,7 @@ function CustomerDetailsContent() {
               </div>
 
               {/* Address Information Section */}
-              <div className="mb-2">
+              <div className="mb-2 relative z-0">
                 <h3 className="text-white text-lg font-semibold mb-3 flex items-center gap-2">
                   <MapPin className="w-5 h-5 text-[#FFD166]" />
                   Address Information
@@ -709,7 +709,7 @@ function CustomerDetailsContent() {
               </div>
 
               {/* Business Information Section */}
-              <div className="mb-2">
+              <div className="mb-2 relative z-0">
                 <h3 className="text-white text-lg font-semibold mb-3 flex items-center gap-2">
                   <Building2 className="w-5 h-5 text-[#FFD166]" />
                   Business Information
