@@ -33,6 +33,9 @@ export type PublicDiamond = {
   ARROW_IMAGE?: string;
   HEART_IMAGE?: string;
   MP4?: string;
+  HandVideo?: string;
+  TweezerVideo?: string;
+  CERTI_PDF?: string;
   COMMENTS_1?: string;
   [key: string]: unknown;
 };

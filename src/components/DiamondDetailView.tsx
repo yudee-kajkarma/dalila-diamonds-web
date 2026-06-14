@@ -487,7 +487,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                 <div className="text-sm text-gray-600 mb-4">
                                     Stock ID:{" "}
                                     <span className="font-semibold text-gray-900">
-                                        {diamond.STONE_NO}
+                                        {diamond.diamondId || diamond.STONE_NO}
                                     </span>
                                     {" • "}
                                     Report #:{" "}
@@ -948,11 +948,11 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                         <div className="p-6 space-y-4">
                             <div>
                                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                                    Stone Number
+                                    Dalila Stock ID
                                 </label>
                                 <input
                                     type="text"
-                                    value={diamond.STONE_NO}
+                                    value={diamond.diamondId || diamond.STONE_NO}
                                     disabled
                                     className="w-full px-3 py-2 border border-[#C89E3A] rounded-none bg-gray-50 text-gray-700"
                                 />

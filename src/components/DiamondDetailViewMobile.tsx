@@ -143,7 +143,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
 
                     {/* Stock ID, Report, Lab */}
                     <div className="text-xs text-gray-600 mb-3">
-                        <div>Stock ID: <span className="font-semibold text-gray-900">{diamond.STONE_NO}</span></div>
+                        <div>Stock ID: <span className="font-semibold text-gray-900">{diamond.diamondId || diamond.STONE_NO}</span></div>
                         <div>Report #: <span className="font-semibold text-gray-900">{diamond.REPORT_NO}</span></div>
                         <div>Lab: <span className="font-semibold text-gray-900">{diamond.LAB}</span></div>
                     </div>

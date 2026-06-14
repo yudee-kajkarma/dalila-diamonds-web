@@ -23,6 +23,11 @@ function isLoggedIn(): boolean {
 
 const norm = (v: unknown) => String(v ?? "").toUpperCase().replace(/[^A-Z0-9]/g, "");
 
+const mediaStr = (v: unknown) => {
+  const s = String(v ?? "").trim();
+  return s.toLowerCase() === "false" ? "" : s;
+};
+
 export default function DiamondDetailPageClient({ diamond }: { diamond: DiamondData }) {
   const router = useRouter();
   // Server data comes from the public /safe API which has no pricing, so
@@ -52,15 +57,17 @@ export default function DiamondDetailPageClient({ diamond }: { diamond: DiamondD
           (d) => norm(d.STONE_NO) === target || norm(d.diamondId) === norm(diamond.diamondId),
         );
         if (match && !cancelled) {
-          // Overlay ONLY pricing fields. Spreading the whole authenticated
-          // record would clobber the clean safe-API values (e.g. MEASUREMENTS,
-          // RATIO) that the spec section relies on and produced "NaN".
           setCurrent((prev) => ({
             ...prev,
             NET_VALUE: match.NET_VALUE ?? prev.NET_VALUE,
             RAP_PRICE: match.RAP_PRICE ?? prev.RAP_PRICE,
             DISC_PER: match.DISC_PER ?? prev.DISC_PER,
             NET_RATE: match.NET_RATE ?? prev.NET_RATE,
+            REAL_IMAGE: mediaStr(match.REAL_IMAGE) || prev.REAL_IMAGE,
+            MP4: mediaStr(match.MP4) || prev.MP4,
+            HandVideo: mediaStr(match.HandVideo) || prev.HandVideo,
+            TweezerVideo: mediaStr(match.TweezerVideo) || prev.TweezerVideo,
+            CERTI_PDF: mediaStr(match.CERTI_PDF) || prev.CERTI_PDF,
           }));
         }
       } catch {

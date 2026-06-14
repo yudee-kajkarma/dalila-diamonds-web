@@ -3,6 +3,11 @@ import Image from "next/image";
 import { Download } from "lucide-react";
 import type { DiamondData } from "@/types/diamond.types";
 
+function mediaUrl(value?: string | null): string {
+    const v = (value ?? "").trim();
+    return !v || v.toLowerCase() === "false" ? "" : v;
+}
+
 interface DiamondMediaViewerProps {
     selectedMediaTab: "image" | "video" | "hand" | "tweezer" | "certificate";
     diamond: DiamondData;
@@ -16,13 +21,17 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
     selectedMediaTab,
     diamond,
 }) => {
-    const selectedImage = diamond.REAL_IMAGE || "";
-    const videoUrl = (diamond as DiamondData & { MP4?: string }).MP4 || "";
-    const handVideoUrl =
-        (diamond as DiamondData & { HandVideo?: string }).HandVideo || "";
-    const tweezerVideoUrl =
-        (diamond as DiamondData & { TweezerVideo?: string }).TweezerVideo || "";
-    const certPdfUrl = diamond.CERTI_PDF || "";
+    const selectedImage = mediaUrl(diamond.REAL_IMAGE);
+    const primaryVideo =
+        mediaUrl((diamond as DiamondData & { MP4?: string }).MP4) ||
+        mediaUrl((diamond as DiamondData & { HandVideo?: string }).HandVideo);
+    const handVideoUrl = mediaUrl(
+        (diamond as DiamondData & { HandVideo?: string }).HandVideo,
+    );
+    const tweezerVideoUrl = mediaUrl(
+        (diamond as DiamondData & { TweezerVideo?: string }).TweezerVideo,
+    );
+    const certPdfUrl = mediaUrl(diamond.CERTI_PDF);
 
     // Helper component for empty media states
     const EmptyMediaPlaceholder = ({ message }: { message: string }) => (
@@ -41,7 +50,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
 
     // Helper to check if a URL is a viewer link (e.g., diamondview.aspx)
     const isViewerLink = (url: string) => {
-        return /diamondview\.aspx/i.test(url);
+        return /diamondview\.aspx|loupe360\.com/i.test(url);
     };
 
     switch (selectedMediaTab) {
@@ -91,7 +100,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
             );
 
         case "video": {
-            if (!videoUrl) {
+            if (!primaryVideo) {
                 return (
                     <div
                         style={{
@@ -105,7 +114,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     </div>
                 );
             }
-            if (isDirectVideoUrl(videoUrl)) {
+            if (isDirectVideoUrl(primaryVideo)) {
                 return (
                     <div
                         className="bg-gray-50"
@@ -123,7 +132,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                             <button
                                 onClick={(e) => {
                                     e.stopPropagation();
-                                    window.open(videoUrl, "_blank");
+                                    window.open(primaryVideo, "_blank");
                                 }}
                                 className="absolute top-4 right-4 z-10 bg-white/80 rounded-full p-2 hover:bg-white shadow cursor-pointer"
                                 title="Download Video"
@@ -131,7 +140,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                                 <Download className="w-5 h-5 text-[#050C3A]" />
                             </button>
                             <video
-                                src={videoUrl}
+                                src={primaryVideo}
                                 autoPlay
                                 loop
                                 muted
@@ -149,7 +158,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         </div>
                     </div>
                 );
-            } else if (isViewerLink(videoUrl)) {
+            } else if (isViewerLink(primaryVideo)) {
                 return (
                     <div
                         className="bg-gray-50"
@@ -164,7 +173,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                             }}
                         >
                             <iframe
-                                src={videoUrl}
+                                src={primaryVideo}
                                 title="Diamond Video Viewer"
                                 allow="autoplay; encrypted-media"
                                 loading="lazy"
@@ -195,7 +204,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                             }}
                         >
                             <iframe
-                                src={videoUrl}
+                                src={primaryVideo}
                                 title="Diamond Video"
                                 allow="autoplay; encrypted-media"
                                 loading="lazy"

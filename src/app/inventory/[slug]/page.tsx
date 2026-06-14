@@ -50,6 +50,10 @@ function toDiamondData(d: PublicDiamond): DiamondData {
     return Number.isFinite(n) ? n : 0;
   };
   const str = (v: unknown): string => (v == null ? "" : String(v));
+  const mediaStr = (v: unknown): string => {
+    const s = str(v).trim();
+    return s.toLowerCase() === "false" ? "" : s;
+  };
   return {
     _id: str(d.STONE_NO),
     STONE_NO: str(d.STONE_NO),
@@ -81,8 +85,11 @@ function toDiamondData(d: PublicDiamond): DiamondData {
     WIDTH: str(d.WIDTH),
     DEPTH: str(d.DEPTH),
     RATIO: str(d.RATIO),
-    REAL_IMAGE: str(d.REAL_IMAGE),
-    MP4: str(d.MP4),
+    REAL_IMAGE: mediaStr(d.REAL_IMAGE),
+    MP4: mediaStr(d.MP4),
+    HandVideo: mediaStr((d as Record<string, unknown>).HandVideo),
+    TweezerVideo: mediaStr((d as Record<string, unknown>).TweezerVideo),
+    CERTI_PDF: mediaStr((d as Record<string, unknown>).CERTI_PDF),
     COMMENTS_1: str(d.COMMENTS_1),
     sourceType: str((d as Record<string, unknown>).sourceType),
     diamondId: str((d as Record<string, unknown>).diamondId),
@@ -138,8 +145,12 @@ export default async function DiamondDetailPage({ params }: Props) {
   const fluor = (diamond.FLOUR ?? "").trim();
   const ratio = (diamond.RATIO ?? "").trim();
   const lab = (diamond.LAB ?? "").trim();
-  const stoneNo = (diamond.STONE_NO ?? "").trim();
-  const certificateNo = stoneNo;
+  const dalilaStockId = (
+    (diamond as Record<string, unknown>).diamondId ?? diamond.STONE_NO ?? ""
+  )
+    .toString()
+    .trim();
+  const certificateNo = (diamond.STONE_NO ?? "").trim();
   const image = realImageUrl(diamond);
   const canonical = diamondUrl(diamond);
 
@@ -170,7 +181,7 @@ export default async function DiamondDetailPage({ params }: Props) {
     },
     {
       q: "How can I enquire about this diamond?",
-      a: `You can contact Dalila Diamonds with the Stock ID ${stoneNo} or Certificate Number ${certificateNo} to request pricing, availability, and further details.`,
+      a: `You can contact Dalila Diamonds with the Stock ID ${dalilaStockId} or Certificate Number ${certificateNo} to request pricing, availability, and further details.`,
     },
   ];
 
@@ -180,7 +191,7 @@ export default async function DiamondDetailPage({ params }: Props) {
     name: shortTitle(diamond),
     description: metaDescription(diamond),
     url: canonical,
-    sku: stoneNo,
+    sku: dalilaStockId,
     brand: { "@type": "Brand", name: "Dalila Diamonds" },
     ...(image ? { image: [image] } : {}),
     additionalProperty: [
@@ -194,7 +205,7 @@ export default async function DiamondDetailPage({ params }: Props) {
       ratio ? { "@type": "PropertyValue", name: "Ratio", value: ratio } : null,
       lab ? { "@type": "PropertyValue", name: "Certification Lab", value: lab } : null,
       { "@type": "PropertyValue", name: "Certificate Number", value: certificateNo },
-      { "@type": "PropertyValue", name: "Stock ID", value: stoneNo },
+      { "@type": "PropertyValue", name: "Stock ID", value: dalilaStockId },
     ].filter(Boolean),
   };
 
