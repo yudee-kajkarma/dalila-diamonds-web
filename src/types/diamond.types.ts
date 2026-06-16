@@ -42,6 +42,8 @@ export interface DiamondData {
     COMMENTS_1?: string;
     REPORT_COMMENTS?: string;
     REAL_IMAGE?: string;
+    HandVideo?: string;
+    TweezerVideo?: string;
     SIZE?: number;
     EY_CLN?: string;
     H_AND_A?: string;

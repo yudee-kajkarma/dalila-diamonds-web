@@ -26,22 +26,35 @@ export default function BlogCardActions({ blog }: Props) {
   const isAdmin = useIsAdmin();
   const router = useRouter();
   const [showEditModal, setShowEditModal] = useState(false);
+  const [editValues, setEditValues] = useState<BlogFormValues | null>(null);
 
   if (!isAdmin) return null;
 
-  const initialValues: BlogFormValues = {
-    title: blog.title,
-    h2Subtitle: blog.h2Subtitle || "",
-    customSlug: blog.customSlug || "",
-    featuredImage: blog.featuredImage || "",
-    content: blog.content || blog.description || "",
-    metaTitle: blog.metaTitle || "",
-    metaDescription: blog.metaDescription || "",
-  };
+  const toFormValues = (source: typeof blog): BlogFormValues => ({
+    title: source.title,
+    h2Subtitle: source.h2Subtitle || "",
+    customSlug: source.customSlug || "",
+    featuredImage: source.featuredImage || "",
+    content: source.content || source.description || "",
+    metaTitle: source.metaTitle || "",
+    metaDescription: source.metaDescription || "",
+  });
 
-  const openEdit = (e: React.MouseEvent) => {
+  const openEdit = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+    // The blog list omits the article body for performance, so fetch the full
+    // blog by id before opening the editor (falls back to the card data).
+    let source = blog;
+    try {
+      const response = await blogApi.getById(blog._id);
+      if (response?.data) {
+        source = { ...blog, ...response.data };
+      }
+    } catch (error) {
+      console.error("Error loading blog for edit:", error);
+    }
+    setEditValues(toFormValues(source));
     setShowEditModal(true);
   };
 
@@ -106,10 +119,10 @@ export default function BlogCardActions({ blog }: Props) {
         </button>
       </div>
 
-      {showEditModal && (
+      {showEditModal && editValues && (
         <BlogFormModal
           mode="edit"
-          initialValues={initialValues}
+          initialValues={editValues}
           onClose={() => setShowEditModal(false)}
           onSubmit={handleUpdate}
         />

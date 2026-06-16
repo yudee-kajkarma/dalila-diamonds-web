@@ -42,13 +42,17 @@ export function blogToSlug(blog: Pick<BackendBlog, 'title' | 'customSlug'>): str
   return normalizeSlug(getBlogSlug({ title: blog.title, customSlug: blog.customSlug }));
 }
 
+// Revalidation window (seconds) for cached blog reads. Admin create/edit/delete
+// busts these immediately via revalidatePath() in app/blogs/actions.ts.
+const BLOG_REVALIDATE_SECONDS = 300;
+
 export const getAllBlogs = cache(async (): Promise<BackendBlog[]> => {
   try {
     const response = await fetch(
       `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
-      // Response can exceed Next's 2MB fetch-cache cap; skip the data cache.
-      // React cache() above still dedupes calls within a single request.
-      { cache: "no-store" },
+      // The list endpoint omits the article body, so the payload is small and
+      // safe to cache. Full content is fetched per-blog in getBlogById.
+      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
     );
 
     if (!response.ok) {
@@ -62,8 +66,33 @@ export const getAllBlogs = cache(async (): Promise<BackendBlog[]> => {
   }
 });
 
+export const getBlogById = cache(async (id: string): Promise<BackendBlog | null> => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
+      next: { revalidate: BLOG_REVALIDATE_SECONDS },
+    });
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const payload = (await response.json()) as { data?: BackendBlog };
+    return payload.data ?? null;
+  } catch {
+    return null;
+  }
+});
+
 export const getBlogBySlug = cache(async (slug: string): Promise<BackendBlog | null> => {
   const target = normalizeSlug(slug);
   const blogs = await getAllBlogs();
-  return blogs.find((blog) => blogToSlug(blog) === target) ?? null;
+  const match = blogs.find((blog) => blogToSlug(blog) === target);
+  if (!match?._id) {
+    return match ?? null;
+  }
+
+  // The list response omits content/description for performance; fetch the
+  // full document by id so the detail page has the article body.
+  const full = await getBlogById(match._id);
+  return full ?? match;
 });
