@@ -93,6 +93,7 @@ function toDiamondData(d: PublicDiamond): DiamondData {
     COMMENTS_1: str(d.COMMENTS_1),
     sourceType: str((d as Record<string, unknown>).sourceType),
     diamondId: str((d as Record<string, unknown>).diamondId),
+    inStock: (d as Record<string, unknown>).inStock !== false,
   };
 }
 
