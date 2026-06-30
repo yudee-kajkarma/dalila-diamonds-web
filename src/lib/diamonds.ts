@@ -37,6 +37,7 @@ export type PublicDiamond = {
   TweezerVideo?: string;
   CERTI_PDF?: string;
   COMMENTS_1?: string;
+  inStock?: boolean;
   [key: string]: unknown;
 };
 
@@ -200,26 +201,24 @@ function parseProductSlug(slug: string): {
 const PAGE_SIZE = 1000;
 const PARALLEL_PAGES = 10;
 
-// Looks up a single diamond from its product slug. The safe API doesn't expose
-// a STONE_NO filter, so we narrow by carat/colour/clarity/lab/shape (all
-// derivable from the slug) and then pick the exact STONE_NO match.
+// Looks up a single diamond from its product slug. Detail pages can include
+// out-of-stock stones, but normal inventory listings stay active-stock only.
 export const getDiamondFromSlug = cache(
   async (slug: string): Promise<PublicDiamond | null> => {
     const parsed = parseProductSlug(slug);
     if (!parsed?.stoneNo) return null;
 
-    // Filter by carat + colour + clarity + lab only. SHAPE is intentionally
+    // Filter by colour + clarity + lab only. SHAPE is intentionally
     // omitted: the backend stores it inconsistently (sometimes as a code like
     // "OMO", sometimes as the full name "OVAL MODIFIED"), so filtering by
-    // SHAPE causes false-negative 404s. The other four filters narrow the
-    // result set enough that scanning the response for STONE_NO is fast.
+    // SHAPE causes false-negative 404s. CARATS is also omitted because the
+    // backend compares numeric-looking string fields lexicographically, so
+    // slug "1.85" can miss stored value "1.850". The remaining filters narrow
+    // the result set enough that scanning the response for STONE_NO is fast.
     const params = new URLSearchParams();
     params.set("limit", "1000");
     params.set("page", "1");
-    if (parsed.carat) {
-      params.set("CARATS_MIN", parsed.carat);
-      params.set("CARATS_MAX", parsed.carat);
-    }
+    params.set("includeOutOfStock", "true");
     if (parsed.color) params.set("COLOR", parsed.color);
     if (parsed.clarity) params.set("CLARITY", parsed.clarity);
     if (parsed.lab) params.set("LAB", parsed.lab);

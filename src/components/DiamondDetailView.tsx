@@ -70,6 +70,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
         "image" | "video" | "hand" | "tweezer" | "certificate"
     >("video");
     const [isMobile, setIsMobile] = useState(false);
+    const isOutOfStock = diamond.inStock === false;
 
     // Detect mobile screen size
     useEffect(() => {
@@ -293,6 +294,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                         isAddingToCart={isAddingToCart}
                         isAddingToHold={isAddingToHold}
                         priceLoading={priceLoading}
+                        isOutOfStock={isOutOfStock}
                     />
                     {asPage && extraContent}
                 </>
@@ -501,6 +503,17 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                     </span>
                                 </div>
 
+                                {isOutOfStock && (
+                                    <div className="mb-4 rounded border border-red-200 bg-red-50 px-4 py-3">
+                                        <p className="text-sm font-semibold text-red-700">
+                                            Out of stock
+                                        </p>
+                                        <p className="mt-1 text-sm text-red-700">
+                                            This diamond is no longer available.
+                                        </p>
+                                    </div>
+                                )}
+
                                 {/* Divider */}
                                 <div className="border-t border-[#C89E3A] mb-4 mr-4" />
 
@@ -556,7 +569,8 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                                                     handleAddToCart
                                                                 }
                                                                 disabled={
-                                                                    isAddingToCart
+                                                                    isAddingToCart ||
+                                                                    isOutOfStock
                                                                 }
                                                                 className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                                                                 style={{
@@ -582,7 +596,8 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                                                     handleAddToHold
                                                                 }
                                                                 disabled={
-                                                                    isAddingToHold
+                                                                    isAddingToHold ||
+                                                                    isOutOfStock
                                                                 }
                                                                 className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                                                                 style={{

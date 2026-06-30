@@ -31,6 +31,7 @@ interface DiamondDetailViewMobileProps {
     isAddingToCart: boolean;
     isAddingToHold: boolean;
     priceLoading?: boolean;
+    isOutOfStock?: boolean;
 }
 
 const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
@@ -47,6 +48,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
     isAddingToCart,
     isAddingToHold,
     priceLoading = false,
+    isOutOfStock = false,
 }) => {
     return (
         <div
@@ -148,6 +150,17 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                         <div>Lab: <span className="font-semibold text-gray-900">{diamond.LAB}</span></div>
                     </div>
 
+                    {isOutOfStock && (
+                        <div className="mb-3 rounded border border-red-200 bg-red-50 px-3 py-2">
+                            <p className="text-sm font-semibold text-red-700">
+                                Out of stock
+                            </p>
+                            <p className="mt-1 text-xs text-red-700">
+                                This diamond is no longer available.
+                            </p>
+                        </div>
+                    )}
+
                     <div className="border-t border-[#C89E3A] mb-3" />
 
                     {/* Total Price - Only show if logged in */}
@@ -193,7 +206,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                                 <div className="flex flex-col gap-2 mb-4">
                                     <button
                                         onClick={handleAddToCart}
-                                        disabled={isAddingToCart}
+                                        disabled={isAddingToCart || isOutOfStock}
                                         className="w-full px-4 py-2.5 bg-[#050C3A] text-white text-sm font-medium rounded hover:bg-[#030822] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                                     >
                                         {isAddingToCart ? (
@@ -210,7 +223,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                                     </button>
                                     <button
                                         onClick={handleAddToHold}
-                                        disabled={isAddingToHold}
+                                        disabled={isAddingToHold || isOutOfStock}
                                         className="w-full px-5 py-2.5 bg-[#050C3A] text-white text-sm font-medium rounded hover:bg-[#030822] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                                     >
                                         {isAddingToHold ? (

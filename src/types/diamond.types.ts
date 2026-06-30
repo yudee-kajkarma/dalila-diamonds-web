@@ -54,6 +54,7 @@ export interface DiamondData {
     RATIO?: string;
     sourceType?: string;
     diamondId?: string;
+    inStock?: boolean;
 }
 
 export interface FilterParams {
