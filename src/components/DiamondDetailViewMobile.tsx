@@ -26,7 +26,7 @@ interface DiamondDetailViewMobileProps {
     setSelectedMediaTab: (tab: "image" | "video" | "hand" | "tweezer" | "certificate") => void;
     handleAddToCart: () => Promise<void>;
     handleAddToHold: () => Promise<void>;
-    setIsEnquiryOpen: (isOpen: boolean) => void;
+    handleEnquiryClick: () => void;
     handleLoginRedirect: () => void;
     isAddingToCart: boolean;
     isAddingToHold: boolean;
@@ -43,7 +43,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
     setSelectedMediaTab,
     handleAddToCart,
     handleAddToHold,
-    setIsEnquiryOpen,
+    handleEnquiryClick,
     handleLoginRedirect,
     isAddingToCart,
     isAddingToHold,
@@ -239,7 +239,7 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                                         )}
                                     </button>
                                     <button
-                                        onClick={() => setIsEnquiryOpen(true)}
+                                        onClick={handleEnquiryClick}
                                         className="w-full px-4 py-2.5 bg-[#050C3A] text-white text-sm font-medium rounded hover:bg-[#030822] transition-colors flex items-center justify-center gap-2"
                                     >
                                         <MessageSquare className="w-4 h-4" />
@@ -249,17 +249,28 @@ const DiamondDetailViewMobile: React.FC<DiamondDetailViewMobileProps> = ({
                             )}
                         </>
                     ) : (
-                        <div className="mb-4 bg-yellow-50 border border-yellow-200 rounded p-3">
-                            <p className="text-xs text-gray-700">
-                                Please{" "}
+                        <div className="mb-4 space-y-3">
+                            <div className="bg-yellow-50 border border-yellow-200 rounded p-3">
+                                <p className="text-xs text-gray-700">
+                                    Please{" "}
+                                    <button
+                                        onClick={handleLoginRedirect}
+                                        className="text-[#050C3A] underline hover:text-[#030822]"
+                                    >
+                                        log in
+                                    </button>{" "}
+                                    to view pricing information.
+                                </p>
+                            </div>
+                            {userRole !== "ADMIN" && userRole !== "SUPER_ADMIN" && (
                                 <button
-                                    onClick={handleLoginRedirect}
-                                    className="text-[#050C3A] underline hover:text-[#030822]"
+                                    onClick={handleEnquiryClick}
+                                    className="w-full px-4 py-2.5 bg-[#050C3A] text-white text-sm font-medium rounded hover:bg-[#030822] transition-colors flex items-center justify-center gap-2"
                                 >
-                                    log in
-                                </button>{" "}
-                                to view pricing information.
-                            </p>
+                                    <MessageSquare className="w-4 h-4" />
+                                    Enquiry
+                                </button>
+                            )}
                         </div>
                     )}
 

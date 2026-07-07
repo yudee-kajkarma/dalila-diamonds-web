@@ -126,6 +126,45 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
         router.push("/login");
     };
 
+    const getDiamondSourceUrl = () => {
+        const params = new URLSearchParams();
+        const addParam = (key: string, value: unknown) => {
+            const text = String(value ?? "").trim();
+            if (text) params.set(key, text);
+        };
+
+        addParam("SHAPE", diamond.SHAPE);
+        addParam("CARATS", diamond.CARATS);
+        addParam("COLOR", diamond.COLOR);
+        addParam("CLARITY", diamond.CLARITY);
+        addParam("CUT", diamond.CUT);
+        addParam("POL", diamond.POL);
+        addParam("SYM", diamond.SYM);
+        addParam("FLOUR", diamond.FLOUR);
+        addParam("LENGTH", diamond.LENGTH);
+        addParam("WIDTH", diamond.WIDTH);
+        addParam("DEPTH", diamond.DEPTH);
+        addParam("LAB", diamond.LAB);
+        addParam("STONE_NO", diamond.STONE_NO);
+        addParam("diamondId", diamond.diamondId);
+        addParam("REPORT_NO", diamond.REPORT_NO);
+
+        const query = params.toString();
+        return `/diamond-source${query ? `?${query}` : ""}#spec-request`;
+    };
+
+    const handleEnquiryClick = () => {
+        if (isLoggedIn) {
+            setIsEnquiryOpen(true);
+            return;
+        }
+
+        if (!asPage) {
+            onClose();
+        }
+        router.push(getDiamondSourceUrl());
+    };
+
     const handleAddToCart = async () => {
         try {
             setIsAddingToCart(true);
@@ -289,7 +328,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                         setSelectedMediaTab={setSelectedMediaTab}
                         handleAddToCart={handleAddToCart}
                         handleAddToHold={handleAddToHold}
-                        setIsEnquiryOpen={setIsEnquiryOpen}
+                        handleEnquiryClick={handleEnquiryClick}
                         handleLoginRedirect={handleLoginRedirect}
                         isAddingToCart={isAddingToCart}
                         isAddingToHold={isAddingToHold}
@@ -562,109 +601,105 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                         {userRole !== "ADMIN" &&
                                             userRole !== "SUPER_ADMIN" && (
                                                 <div className="flex gap-2 mb-6">
-                                                    {isLoggedIn ? (
-                                                        <>
-                                                            <button
-                                                                onClick={
-                                                                    handleAddToCart
-                                                                }
-                                                                disabled={
-                                                                    isAddingToCart ||
-                                                                    isOutOfStock
-                                                                }
-                                                                className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                                                                style={{
-                                                                    background:
-                                                                        "#050C3A",
-                                                                }}
-                                                            >
-                                                                {isAddingToCart ? (
-                                                                    <>
-                                                                        <Loader2 className="w-4 h-4 animate-spin" />
-                                                                        Adding...
-                                                                    </>
-                                                                ) : (
-                                                                    <>
-                                                                        <ShoppingCart className="w-4 h-4" />
-                                                                        Add to
-                                                                        Cart
-                                                                    </>
-                                                                )}
-                                                            </button>
-                                                            <button
-                                                                onClick={
-                                                                    handleAddToHold
-                                                                }
-                                                                disabled={
-                                                                    isAddingToHold ||
-                                                                    isOutOfStock
-                                                                }
-                                                                className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                                                                style={{
-                                                                    background:
-                                                                        "#050C3A",
-                                                                }}
-                                                            >
-                                                                {isAddingToHold ? (
-                                                                    <>
-                                                                        <Loader2 className="w-4 h-4 animate-spin" />
-                                                                        Holding...
-                                                                    </>
-                                                                ) : (
-                                                                    <>
-                                                                        <Clock className="w-4 h-4" />
-                                                                        Hold
-                                                                    </>
-                                                                )}
-                                                            </button>
-                                                            <button
-                                                                onClick={() =>
-                                                                    setIsEnquiryOpen(
-                                                                        true,
-                                                                    )
-                                                                }
-                                                                className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2"
-                                                                style={{
-                                                                    background:
-                                                                        "#050C3A",
-                                                                }}
-                                                            >
-                                                                <MessageCircle className="w-4 h-4" />
-                                                                Enquiry
-                                                            </button>
-                                                        </>
-                                                    ) : (
-                                                        <button
-                                                            onClick={
-                                                                handleLoginRedirect
-                                                            }
-                                                            className="flex-1 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2"
-                                                            style={{
-                                                                background:
-                                                                    "#050C3A",
-                                                            }}
-                                                        >
-                                                           
-                                                        </button>
-                                                    )}
+                                                    <button
+                                                        onClick={
+                                                            handleAddToCart
+                                                        }
+                                                        disabled={
+                                                            isAddingToCart ||
+                                                            isOutOfStock
+                                                        }
+                                                        className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                                                        style={{
+                                                            background:
+                                                                "#050C3A",
+                                                        }}
+                                                    >
+                                                        {isAddingToCart ? (
+                                                            <>
+                                                                <Loader2 className="w-4 h-4 animate-spin" />
+                                                                Adding...
+                                                            </>
+                                                        ) : (
+                                                            <>
+                                                                <ShoppingCart className="w-4 h-4" />
+                                                                Add to
+                                                                Cart
+                                                            </>
+                                                        )}
+                                                    </button>
+                                                    <button
+                                                        onClick={
+                                                            handleAddToHold
+                                                        }
+                                                        disabled={
+                                                            isAddingToHold ||
+                                                            isOutOfStock
+                                                        }
+                                                        className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                                                        style={{
+                                                            background:
+                                                                "#050C3A",
+                                                        }}
+                                                    >
+                                                        {isAddingToHold ? (
+                                                            <>
+                                                                <Loader2 className="w-4 h-4 animate-spin" />
+                                                                Holding...
+                                                            </>
+                                                        ) : (
+                                                            <>
+                                                                <Clock className="w-4 h-4" />
+                                                                Hold
+                                                            </>
+                                                        )}
+                                                    </button>
+                                                    <button
+                                                        onClick={
+                                                            handleEnquiryClick
+                                                        }
+                                                        className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2"
+                                                        style={{
+                                                            background:
+                                                                "#050C3A",
+                                                        }}
+                                                    >
+                                                        <MessageCircle className="w-4 h-4" />
+                                                        Enquiry
+                                                    </button>
                                                 </div>
                                             )}
                                     </div>
                                 ) : (
-                                    <div className="mb-4 bg-yellow-50 border border-yellow-200 rounded p-4">
-                                        <p className="text-sm text-gray-700">
-                                            <span className="font-semibold">
-                                                Login required:
-                                            </span>{" "}
-                                            Please{" "}
-                                            <button
-                                                onClick={handleLoginRedirect}
-                                                className="text-[#050C3A] underline hover:text-[#030822]"
-                                            >
-                                                login
-                                            </button>{" "}
-                                            to view pricing information.
-                                        </p>
+                                    <div className="mb-4 space-y-3">
+                                        <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
+                                            <p className="text-sm text-gray-700">
+                                                <span className="font-semibold">
+                                                    Login required:
+                                                </span>{" "}
+                                                Please{" "}
+                                                <button
+                                                    onClick={handleLoginRedirect}
+                                                    className="text-[#050C3A] underline hover:text-[#030822]"
+                                                >
+                                                    login
+                                                </button>{" "}
+                                                to view pricing information.
+                                            </p>
+                                        </div>
+                                        {userRole !== "ADMIN" &&
+                                            userRole !== "SUPER_ADMIN" && (
+                                                <button
+                                                    onClick={handleEnquiryClick}
+                                                    className="px-4 text-white py-3 rounded font-semibold transition-colors text-sm flex items-center justify-center gap-2"
+                                                    style={{
+                                                        background: "#050C3A",
+                                                    }}
+                                                >
+                                                    <MessageCircle className="w-4 h-4" />
+                                                    Enquiry
+                                                </button>
+                                            )}
                                     </div>
                                 )}
 
