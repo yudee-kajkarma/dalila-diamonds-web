@@ -644,8 +644,8 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                     </div>
                                 ) : (
                                     <div className="mb-4 space-y-3">
-                                        <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                                            <p className="text-sm text-gray-700">
+                                        <div className="w-fit max-w-full bg-yellow-50 border border-yellow-200 rounded p-4">
+                                            <p className="text-sm text-gray-700 flex flex-wrap items-baseline gap-x-1">
                                                 <span className="font-semibold">
                                                     Login required:
                                                 </span>{" "}

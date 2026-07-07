@@ -13,6 +13,9 @@ interface DiamondMediaViewerProps {
     diamond: DiamondData;
 }
 
+const MEDIA_HEIGHT = "500px";
+const EMBEDDED_VIEWER_HEIGHT = "560px";
+
 /**
  * DiamondMediaViewer Component
  * Renders different media types (image, video, hand, tweezer, certificate) for a diamond
@@ -60,7 +63,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -78,7 +81,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         className="relative"
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -105,7 +108,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -123,7 +126,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "100%",
-                                height: "500px",
+                                height: MEDIA_HEIGHT,
                                 maxWidth: "100%",
                                 position: "relative",
                                 overflow: "hidden",
@@ -167,7 +170,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -198,7 +201,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -228,7 +231,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "600px",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -246,7 +249,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: MEDIA_HEIGHT,
                                 maxWidth: "100%",
                                 position: "relative",
                                 overflow: "hidden",
@@ -290,7 +293,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -321,7 +324,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -335,7 +338,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                                 style={{
                                     border: "none",
                                     width: "600px",
-                                    height: "500px",
+                                    height: "100%",
                                     display: "block",
                                 }}
                             />
@@ -351,7 +354,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -369,7 +372,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "100%",
-                                height: "500px",
+                                height: MEDIA_HEIGHT,
                                 maxWidth: "100%",
                                 position: "relative",
                                 overflow: "hidden",
@@ -413,7 +416,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -444,7 +447,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                         <div
                             style={{
                                 width: "600px",
-                                height: "500px",
+                                height: EMBEDDED_VIEWER_HEIGHT,
                                 maxWidth: "100%",
                                 overflow: "hidden",
                             }}
@@ -474,7 +477,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
@@ -491,7 +494,7 @@ export const DiamondMediaViewer: React.FC<DiamondMediaViewerProps> = ({
                     <div
                         style={{
                             width: "100%",
-                            height: "500px",
+                            height: MEDIA_HEIGHT,
                             maxWidth: "100%",
                             overflow: "hidden",
                         }}
