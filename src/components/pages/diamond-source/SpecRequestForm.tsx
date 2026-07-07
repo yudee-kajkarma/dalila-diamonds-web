@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { diamondApi } from "@/lib/api";
@@ -59,12 +59,114 @@ const initialForm: SpecFormData = {
   message: "",
 };
 
+const PARAM_FIELDS: (keyof SpecFormData)[] = [
+  "CARATS",
+  "SHAPE",
+  "COLOR",
+  "CLARITY",
+  "CUT",
+  "POL",
+  "SYM",
+  "LENGTH",
+  "WIDTH",
+  "DEPTH",
+  "FLOUR",
+  "LAB",
+];
+
+const GRADE_ALIASES: Record<string, string> = {
+  EXCELLENT: "EX",
+  "VERY GOOD": "VG",
+  GOOD: "GD",
+  FAIR: "FR",
+  POOR: "PR",
+};
+
+const FLUOR_ALIASES: Record<string, string> = {
+  N: "NONE",
+  NON: "NONE",
+  NONE: "NONE",
+  FAINT: "FNT",
+  FNT: "FNT",
+  MEDIUM: "MED",
+  MED: "MED",
+  STRONG: "STG",
+  STG: "STG",
+  "VERY STRONG": "VST",
+  VST: "VST",
+};
+
+const cleanParam = (params: URLSearchParams, key: string) =>
+  (params.get(key) || "").trim();
+
+const normalizedOption = (
+  value: string,
+  options: string[],
+  aliases: Record<string, string> = {},
+) => {
+  const normalized = value.trim().toUpperCase();
+  const aliased = aliases[normalized] || normalized;
+  return options.includes(aliased) ? aliased : "";
+};
+
 export default function SpecRequestForm() {
   const [form, setForm] = useState<SpecFormData>({ ...initialForm });
   const [image, setImage] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const scrollToRequestForm = () => {
+      if (window.location.hash !== "#spec-request") return;
+
+      window.requestAnimationFrame(() => {
+        document.getElementById("spec-request")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const hasPrefill =
+      PARAM_FIELDS.some((field) => params.has(field)) ||
+      params.has("STONE_NO") ||
+      params.has("diamondId") ||
+      params.has("REPORT_NO");
+
+    if (hasPrefill) {
+      setForm((prev) => ({
+        ...prev,
+        CARATS: cleanParam(params, "CARATS") || prev.CARATS,
+        SHAPE:
+          normalizedOption(cleanParam(params, "SHAPE"), SHAPES) || prev.SHAPE,
+        COLOR:
+          normalizedOption(cleanParam(params, "COLOR"), COLORS) || prev.COLOR,
+        CLARITY:
+          normalizedOption(cleanParam(params, "CLARITY"), CLARITIES) ||
+          prev.CLARITY,
+        CUT:
+          normalizedOption(cleanParam(params, "CUT"), CUTS, GRADE_ALIASES) ||
+          prev.CUT,
+        POL:
+          normalizedOption(cleanParam(params, "POL"), CUTS, GRADE_ALIASES) ||
+          prev.POL,
+        SYM:
+          normalizedOption(cleanParam(params, "SYM"), CUTS, GRADE_ALIASES) ||
+          prev.SYM,
+        LENGTH: cleanParam(params, "LENGTH") || prev.LENGTH,
+        WIDTH: cleanParam(params, "WIDTH") || prev.WIDTH,
+        DEPTH: cleanParam(params, "DEPTH") || prev.DEPTH,
+        FLOUR:
+          normalizedOption(cleanParam(params, "FLOUR"), FLUORS, FLUOR_ALIASES) ||
+          prev.FLOUR,
+        LAB: normalizedOption(cleanParam(params, "LAB"), LABS) || prev.LAB,
+      }));
+    }
+
+    scrollToRequestForm();
+  }, []);
 
   const handleChange = (field: keyof SpecFormData, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -123,7 +225,7 @@ export default function SpecRequestForm() {
   const labelClass = `block text-xs font-medium text-white/70 mb-1.5 ${jost.className}`;
 
   return (
-    <div className="bg-[#0B1A33] py-16 md:py-20">
+    <div id="spec-request" className="bg-[#0B1A33] py-16 md:py-20 scroll-mt-28">
       <div className="max-w-4xl mx-auto px-6 md:px-8">
         {/* Heading */}
         <AnimatedContainer direction="up">
