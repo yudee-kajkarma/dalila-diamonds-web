@@ -22,6 +22,7 @@ import { formatPrice, formatPercentage } from "@/utils/formatting";
 import { DiamondMediaViewer } from "./Diamond/DiamondMediaViewer";
 import { useRouter } from "next/navigation";
 import DiamondDetailViewMobile from "./DiamondDetailViewMobile";
+import DiamondSpecEnquiryModal from "./DiamondSpecEnquiryModal";
 
 const marcellus = Marcellus({
     variable: "--font-marcellus",
@@ -62,6 +63,7 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
     const [isAddingToCart, setIsAddingToCart] = useState(false);
     const [isAddingToHold, setIsAddingToHold] = useState(false);
     const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
+    const [isPublicEnquiryOpen, setIsPublicEnquiryOpen] = useState(false);
     const [enquiryText, setEnquiryText] = useState("");
     const [isSubmittingEnquiry, setIsSubmittingEnquiry] = useState(false);
     const [userRole, setUserRole] = useState<string | null>(null);
@@ -126,43 +128,13 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
         router.push("/login");
     };
 
-    const getDiamondSourceUrl = () => {
-        const params = new URLSearchParams();
-        const addParam = (key: string, value: unknown) => {
-            const text = String(value ?? "").trim();
-            if (text) params.set(key, text);
-        };
-
-        addParam("SHAPE", diamond.SHAPE);
-        addParam("CARATS", diamond.CARATS);
-        addParam("COLOR", diamond.COLOR);
-        addParam("CLARITY", diamond.CLARITY);
-        addParam("CUT", diamond.CUT);
-        addParam("POL", diamond.POL);
-        addParam("SYM", diamond.SYM);
-        addParam("FLOUR", diamond.FLOUR);
-        addParam("LENGTH", diamond.LENGTH);
-        addParam("WIDTH", diamond.WIDTH);
-        addParam("DEPTH", diamond.DEPTH);
-        addParam("LAB", diamond.LAB);
-        addParam("STONE_NO", diamond.STONE_NO);
-        addParam("diamondId", diamond.diamondId);
-        addParam("REPORT_NO", diamond.REPORT_NO);
-
-        const query = params.toString();
-        return `/diamond-source${query ? `?${query}` : ""}#spec-request`;
-    };
-
     const handleEnquiryClick = () => {
         if (isLoggedIn) {
             setIsEnquiryOpen(true);
             return;
         }
 
-        if (!asPage) {
-            onClose();
-        }
-        router.push(getDiamondSourceUrl());
+        setIsPublicEnquiryOpen(true);
     };
 
     const handleAddToCart = async () => {
@@ -672,8 +644,8 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                                     </div>
                                 ) : (
                                     <div className="mb-4 space-y-3">
-                                        <div className="bg-yellow-50 border border-yellow-200 rounded p-4">
-                                            <p className="text-sm text-gray-700">
+                                        <div className="w-fit max-w-full bg-yellow-50 border border-yellow-200 rounded p-4">
+                                            <p className="text-sm text-gray-700 flex flex-wrap items-baseline gap-x-1">
                                                 <span className="font-semibold">
                                                     Login required:
                                                 </span>{" "}
@@ -1056,6 +1028,12 @@ const DiamondDetailView: React.FC<DiamondDetailViewProps> = ({
                     </div>
                 </div>
             )}
+
+            <DiamondSpecEnquiryModal
+                diamond={diamond}
+                isOpen={isPublicEnquiryOpen && !isLoggedIn}
+                onClose={() => setIsPublicEnquiryOpen(false)}
+            />
         </div>
     );
 };
