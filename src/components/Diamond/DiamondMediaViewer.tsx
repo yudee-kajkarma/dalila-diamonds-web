@@ -14,7 +14,7 @@ interface DiamondMediaViewerProps {
 }
 
 const MEDIA_HEIGHT = "500px";
-const EMBEDDED_VIEWER_HEIGHT = "560px";
+const EMBEDDED_VIEWER_HEIGHT = "640px";
 
 /**
  * DiamondMediaViewer Component
