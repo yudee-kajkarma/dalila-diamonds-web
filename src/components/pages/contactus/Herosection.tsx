@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Mail, Phone } from "lucide-react";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -18,6 +20,7 @@ const jost = Jost({
 
 export default function ContactHeroSection() {
   const goldColor = "#B58900";
+  const { dictionary } = useLanguage();
 
   return (
     <div className="bg-white w-full overflow-x-hidden">
@@ -29,20 +32,19 @@ export default function ContactHeroSection() {
               className={`text-sm uppercase tracking-widest mb-4 ${jost.className}`}
               style={{ color: goldColor }}
             >
-              GET IN TOUCH
+              {dictionary?.contact?.getInTouch || "GET IN TOUCH"}
             </p>
 
             <h1
               className={`text-5xl lg:text-6xl  mb-12 text-gray-900 ${marcellus.className}`}
             >
-              Contact Us
+              {dictionary?.contact?.mainTitle || "Contact Us"}
             </h1>
 
             {/* Contact Cards */}
             <AnimatedContainer direction="right">
               <div className="grid sm:grid-cols-2 gap-6">
                 {/* Email Support Card */}
-
                 <div className="space-y-4">
                   <div
                     className="w-20 h-20 flex items-center justify-center"
@@ -54,19 +56,17 @@ export default function ContactHeroSection() {
                   <h3
                     className={`text-xl  text-gray-900 ${marcellus.className}`}
                   >
-                    Email Support
+                    {dictionary?.contact?.emailSupportTitle || "Email Support"}
                   </h3>
 
                   <p
                     className={`text-gray-600 text-sm leading-relaxed ${jost.className}`}
                   >
-                    Reach out to us via email for any inquiries or support. Our
-                    team responds within 24 hours.
+                    {dictionary?.contact?.emailSupportDesc || "Reach out to us via email for any inquiries or support. Our team responds within 24 hours."}
                   </p>
                 </div>
 
                 {/* Call Us Card */}
-
                 <div className="space-y-4">
                   <div
                     className="w-20 h-20 flex items-center justify-center"
@@ -78,14 +78,13 @@ export default function ContactHeroSection() {
                   <h3
                     className={`text-xl  text-gray-900 ${marcellus.className}`}
                   >
-                    Call Us
+                    {dictionary?.contact?.callUsTitle || "Call Us"}
                   </h3>
 
                   <p
                     className={`text-gray-600 text-sm leading-relaxed ${jost.className}`}
                   >
-                    Contact our friendly team by phone for immediate assistance
-                    or to book an appointment.
+                    {dictionary?.contact?.callUsDesc || "Contact our friendly team by phone for immediate assistance or to book an appointment."}
                   </p>
                 </div>
               </div>

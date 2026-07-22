@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -17,6 +19,12 @@ const jost = Jost({
 });
 
 export default function SecureSourceBanner() {
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
+
   return (
     <div className="relative bg-slate-900">
       {/* Banner Section */}
@@ -41,8 +49,7 @@ export default function SecureSourceBanner() {
                 className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
                 style={{ lineHeight: 1.15 }}
               >
-                <span className="hidden sm:inline">S2S - Secure To <br />Source</span>
-                <span className="inline sm:hidden">S2S - Secure To Source</span>
+                {dictionary?.s2s?.bannerTitle || "S2S - Secure To Source"}
               </h1>
               <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" />
             </div>
@@ -51,13 +58,13 @@ export default function SecureSourceBanner() {
           <div className="opacity-100 mt-4 sm:mt-6">
             <div className="flex flex-wrap items-center justify-center gap-2 text-gray-300 text-xs xs:text-sm md:text-base">
               <Link
-                href="/"
+                href={localizedPath("/")}
                 className={`hover:text-amber-400 transition-colors ${jost.className}`}
               >
-                Home
+                {dictionary?.s2s?.breadcrumbHome || "Home"}
               </Link>
               <span>›</span>
-              <span>Sell Your DIAMONDS</span>
+              <span>{dictionary?.s2s?.breadcrumbCurrent || "S2S - Secure To Source"}</span>
             </div>
           </div>
         </div>

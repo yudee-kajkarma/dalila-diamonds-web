@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { Marcellus } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -9,20 +11,22 @@ const marcellus = Marcellus({
 });
 
 export default function DiamondShapeCuts() {
+  const { dictionary } = useLanguage();
+
   const diamondCuts = [
-    { name: "Round Brilliant", image: "/images/cut-shaps/round-diamond.png" },
-    { name: "Princess Cut", image: "/images/cut-shaps/princess.png" },
-    { name: "Cushion Cut", image: "/images/cut-shaps/cushion-diamond.png" },
-    { name: "Radiant Cut", image: "/images/cut-shaps/radian-diamond.png" },
-    { name: "Asscher Cut", image: "/images/cut-shaps/cushion-cut-diamond.png" },
-    { name: "Heart Cut", image: "/images/cut-shaps/heart.png" },
-    { name: "Pear Cut", image: "/images/cut-shaps/pear-diamond.png" },
+    { name: dictionary?.dk?.shapeRound || "Round Brilliant", image: "/images/cut-shaps/round-diamond.png" },
+    { name: dictionary?.dk?.shapePrincess || "Princess Cut", image: "/images/cut-shaps/princess.png" },
+    { name: dictionary?.dk?.shapeCushion || "Cushion Cut", image: "/images/cut-shaps/cushion-diamond.png" },
+    { name: dictionary?.dk?.shapeRadiant || "Radiant Cut", image: "/images/cut-shaps/radian-diamond.png" },
+    { name: dictionary?.dk?.shapeAsscher || "Asscher Cut", image: "/images/cut-shaps/cushion-cut-diamond.png" },
+    { name: dictionary?.dk?.shapeHeart || "Heart Cut", image: "/images/cut-shaps/heart.png" },
+    { name: dictionary?.dk?.shapePear || "Pear Cut", image: "/images/cut-shaps/pear-diamond.png" },
     {
-      name: "Marquise Cut",
+      name: dictionary?.dk?.shapeMarquise || "Marquise Cut",
       image: "/images/cut-shaps/marquise-cut-diamond.png",
     },
-    { name: "Oval Cut", image: "/images/cut-shaps/oval-diamond.png" },
-    { name: "Emerald Cut", image: "/images/cut-shaps/emerald.png" },
+    { name: dictionary?.dk?.shapeOval || "Oval Cut", image: "/images/cut-shaps/oval-diamond.png" },
+    { name: dictionary?.dk?.shapeEmerald || "Emerald Cut", image: "/images/cut-shaps/emerald.png" },
   ];
 
   return (
@@ -33,7 +37,7 @@ export default function DiamondShapeCuts() {
           <h1
             className={`text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 mb-6 font-normal tracking-tight ${marcellus.className}`}
           >
-            Diamonds Cuts
+            {dictionary?.dk?.shapesTitle || "Diamonds Cuts"}
           </h1>
         </div>
 

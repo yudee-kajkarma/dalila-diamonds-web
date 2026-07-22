@@ -2,12 +2,15 @@
 import Image from "next/image";
 import { Marcellus } from "next/font/google";
 
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
   weight: "400",
 });
 export default function CertifiedBy() {
+  const { dictionary } = useLanguage();
   const certifications = [
     {
       name: "IGI",
@@ -38,7 +41,7 @@ export default function CertifiedBy() {
           <h2
             className={`text-4xl md:text-5xl font-medium text-slate-900 mb-2 ${marcellus.className}`}
           >
-            Certified By
+            {dictionary?.home?.certifiedTitle || "Certified By"}
           </h2>
         </div>
 

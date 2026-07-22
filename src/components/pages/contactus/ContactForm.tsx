@@ -5,6 +5,7 @@ import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { userApi } from "@/lib/api";
 import toast from "react-hot-toast";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
     variable: "--font-marcellus",
@@ -27,6 +28,7 @@ export default function ContactUsPage() {
         message: "",
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const { dictionary } = useLanguage();
 
     const goldColor = "#B58900";
     const goldGradient = "linear-gradient(to right, #B58900 0%, #B58900 100%)";
@@ -43,14 +45,14 @@ export default function ContactUsPage() {
     const handleSubmit = async () => {
         // Validate form data
         if (!formData.name || !formData.email || !formData.phone || !formData.message) {
-            toast.error("Please fill in all fields");
+            toast.error(dictionary?.contact?.errRequired || "Please fill in all fields");
             return;
         }
 
         // Validate email format
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(formData.email)) {
-            toast.error("Please enter a valid email address");
+            toast.error(dictionary?.contact?.errEmail || "Please enter a valid email address");
             return;
         }
 
@@ -65,7 +67,7 @@ export default function ContactUsPage() {
             });
 
             if (response.success) {
-                toast.success(response.message || "Message sent successfully!");
+                toast.success(dictionary?.contact?.successSend || "Message sent successfully!");
                 // Clear form
                 setFormData({
                     name: "",
@@ -74,11 +76,11 @@ export default function ContactUsPage() {
                     message: "",
                 });
             } else {
-                toast.error(response.message || "Failed to send message. Please try again.");
+                toast.error(response.message || dictionary?.contact?.errSend || "Failed to send message. Please try again.");
             }
         } catch (error) {
             console.error("Contact form error:", error);
-            toast.error(error instanceof Error ? error.message : "Failed to send message. Please try again.");
+            toast.error(error instanceof Error ? error.message : (dictionary?.contact?.errSend || "Failed to send message. Please try again."));
         } finally {
             setIsSubmitting(false);
         }
@@ -97,7 +99,7 @@ export default function ContactUsPage() {
                                         marcellus.className
                                     }`}
                                 >
-                                    Get in Touch
+                                    {dictionary?.contact?.formTitle || "Get in Touch"}
                                 </h2>
                                 <div
                                     className="w-20 h-1 mb-8"
@@ -111,7 +113,7 @@ export default function ContactUsPage() {
                                             <input
                                                 type="text"
                                                 name="name"
-                                                placeholder="Your Name"
+                                                placeholder={dictionary?.contact?.placeholderName || "Your Name"}
                                                 value={formData.name}
                                                 onChange={handleChange}
                                                 className="w-full px-4 py-3 bg-white border border-gray-300 rounded-none focus:outline-none transition-colors text-gray-700 placeholder:text-gray-400"
@@ -130,7 +132,7 @@ export default function ContactUsPage() {
                                             <input
                                                 type="email"
                                                 name="email"
-                                                placeholder="Your Email"
+                                                placeholder={dictionary?.contact?.placeholderEmail || "Your Email"}
                                                 value={formData.email}
                                                 onChange={handleChange}
                                                 className="w-full px-4 py-3 bg-white border border-gray-300 rounded-none focus:outline-none transition-colors text-gray-700 placeholder:text-gray-400"
@@ -149,7 +151,7 @@ export default function ContactUsPage() {
                                             <input
                                                 type="tel"
                                                 name="phone"
-                                                placeholder="Your Phone"
+                                                placeholder={dictionary?.contact?.placeholderPhone || "Your Phone"}
                                                 value={formData.phone}
                                                 onChange={handleChange}
                                                 className="w-full px-4 py-3 bg-white border border-gray-300 rounded-none focus:outline-none transition-colors text-gray-700 placeholder:text-gray-400"
@@ -191,7 +193,9 @@ export default function ContactUsPage() {
                                                             "0 2px 4px rgba(181, 137, 0, 0.2)";
                                                     }}
                                                 >
-                                                    {isSubmitting ? "Sending..." : "Send Message"}
+                                                    {isSubmitting
+                                                        ? (dictionary?.contact?.btnSending || "Sending...")
+                                                        : (dictionary?.contact?.btnSend || "Send Message")}
                                                 </button>
                                             </div>
                                         </div>
@@ -201,7 +205,7 @@ export default function ContactUsPage() {
                                     <div>
                                         <textarea
                                             name="message"
-                                            placeholder="Your Message"
+                                            placeholder={dictionary?.contact?.placeholderMessage || "Your Message"}
                                             value={formData.message}
                                             onChange={handleChange}
                                             rows={7}
@@ -226,7 +230,7 @@ export default function ContactUsPage() {
                                 <h2
                                     className={`text-3xl lg:text-4xl font-bold text-gray-900 mb-8 ${marcellus.className}`}
                                 >
-                                    Contact Information
+                                    {dictionary?.contact?.infoTitle || "Contact Information"}
                                 </h2>
 
                                 <div className="space-y-8">
@@ -277,12 +281,12 @@ export default function ContactUsPage() {
                                             <p
                                                 className={`text-gray-900 font-medium text-base mb-1 ${jost.className}`}
                                             >
-                                                <span className="text-gray-700">Landline:</span> +32 3 613 94 74
+                                                <span className="text-gray-700">{dictionary?.contact?.infoLandline || "Landline"}:</span> +32 3 613 94 74
                                             </p>
                                             <p
                                                 className={`text-gray-900 font-medium text-base ${jost.className}`}
                                             >
-                                                <span className="text-gray-700">Phone:</span> +32 487 93 93 51
+                                                <span className="text-gray-700">{dictionary?.contact?.infoPhone || "Phone"}:</span> +32 487 93 93 51
                                             </p>
                                         </div>
                                     </div>
@@ -314,7 +318,7 @@ export default function ContactUsPage() {
                                             <p
                                                 className={`text-gray-600 text-base ${jost.className}`}
                                             >
-                                                Mon - Fri: 9:00 AM - 5:00 PM
+                                                {dictionary?.contact?.infoHours || "Mon - Fri: 9:00 AM - 5:00 PM"}
                                             </p>
                                         </div>
                                     </div>
@@ -346,7 +350,7 @@ export default function ContactUsPage() {
                                 rel="noopener noreferrer"
                                 className="absolute top-4 left-4 px-4 py-2 bg-white text-gray-700 text-sm font-medium rounded shadow-md hover:bg-gray-50 transition-colors"
                             >
-                                View larger map
+                                {dictionary?.contact?.viewLargerMap || "View larger map"}
                             </a>
                         </div>
                     </div>

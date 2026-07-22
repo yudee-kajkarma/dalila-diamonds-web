@@ -6,6 +6,7 @@ import { FaEuroSign } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 import { IoEarth } from "react-icons/io5";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -22,21 +23,27 @@ const jost = Jost({
 
 export default function S2SAdvantages() {
   const router = useRouter();
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
+
   const advantages = [
     {
       icon: FaEuroSign,
-      title: "Euro Payment",
-      description: "Euro payments accepted for your convenience.",
+      title: dictionary?.s2s?.adv1Title || "Euro Payment",
+      description: dictionary?.s2s?.adv1Text || "Euro payments accepted for your convenience.",
     },
     {
       icon: MdLocalShipping,
-      title: "Weekly Shipments",
-      description: "Regular weekly shipments from India (excluding Indian public holidays).",
+      title: dictionary?.s2s?.adv2Title || "Weekly Shipments",
+      description: dictionary?.s2s?.adv2Text || "Regular weekly shipments from India (excluding Indian public holidays).",
     },
     {
       icon: IoEarth,
-      title: "EU Shipping",
-      description: "Delivery available to any EU country for an additional fee",
+      title: dictionary?.s2s?.adv3Title || "EU Shipping",
+      description: dictionary?.s2s?.adv3Text || "Delivery available to any EU country for an additional fee",
     },
   ];
 
@@ -48,8 +55,7 @@ export default function S2SAdvantages() {
           <h2
             className={`text-3xl md:text-4xl lg:text-[2.75rem] font-normal text-center mb-10 md:mb-12 text-white tracking-tight ${marcellus.className}`}
           >
-            WHY CHOOSE S2S (ADVANTAGES OF S2S REPLACE IT) SECURE TO SOURCE
-
+            {dictionary?.s2s?.advantagesTitle || "WHY CHOOSE S2S SECURE TO SOURCE"}
           </h2>
         </AnimatedContainer>
 
@@ -89,8 +95,8 @@ export default function S2SAdvantages() {
         <AnimatedContainer direction="up" delay={0.6}>
           <div className="flex justify-center mt-4">
             <GoldButton
-              text="CONTACT US"
-              onClick={() => router.push("/contact")}
+              text={dictionary?.s2s?.contactUsBtn || "CONTACT US"}
+              onClick={() => router.push(localizedPath("/contact"))}
             />
           </div>
         </AnimatedContainer>

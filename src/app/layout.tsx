@@ -31,6 +31,8 @@ export const metadata: Metadata = {
     },
 };
 
+import { LanguageProvider } from "@/context/LanguageContext";
+
 export default function RootLayout({
     children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -41,17 +43,6 @@ export default function RootLayout({
             suppressHydrationWarning
         >
             <head>
-                <Script
-                    src="https://www.googletagmanager.com/gtag/js?id=G-WFBTRFM0YC"
-                    strategy="afterInteractive"
-                />
-                <Script id="google-analytics" strategy="afterInteractive">{`
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-WFBTRFM0YC');
-`}
-                </Script>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -71,7 +62,20 @@ gtag('config', 'G-WFBTRFM0YC');
                 className="antialiased bg-background text-foreground font-jost overflow-x-hidden"
                 suppressHydrationWarning
             >
-                <HeaderFooterWrapper>{children}</HeaderFooterWrapper>
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-WFBTRFM0YC"
+                    strategy="afterInteractive"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">{`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WFBTRFM0YC');
+`}
+                </Script>
+                <LanguageProvider>
+                    <HeaderFooterWrapper>{children}</HeaderFooterWrapper>
+                </LanguageProvider>
                 <Toaster
                     position="bottom-right"
                     reverseOrder={false}

@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { Marcellus,Jost} from "next/font/google";
 import GoldButton from "@/components/ui/Button";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -19,6 +19,7 @@ const jost = Jost({
   preload: true,
 });
 export default function HomeContent() {
+    const { dictionary } = useLanguage();
     const router = useRouter();
 
     return (
@@ -45,30 +46,19 @@ export default function HomeContent() {
                                 <h2
                                     className={`text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-light mb-4 md:mb-6 lg:mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                                 >
-                                    Sell Your Diamonds
-                                    <br />
-                                    Safely and
-                                    <br />
-                                    Seamlessly at Dalila
+                                    {dictionary?.home?.sellTitle || "Sell Your Diamonds Safely and Seamlessly at Dalila"}
                                 </h2>
                             </AnimatedContainer>
                             <AnimatedContainer direction="up" delay={0.3}>
                                 <p
                                     className={`text-gray-600 leading-relaxed mb-6 md:mb-8 text-xs sm:text-sm md:text-[15px] lg:text-base font-normal ${jost.className}`}
                                 >
-                                    Selling your diamond or fine jewelry should
-                                    be a seamless, secure, and rewarding
-                                    experience. At Dalila, we offer a
-                                    transparent and hassle-free process, trusted
-                                    by customers. Whether you&apos;re parting
-                                    with an engagement ring, heirloom or a loose
-                                    diamond, we value every piece. Here&apos;s
-                                    how the process works
+                                    {dictionary?.home?.sellBody || "Selling your diamond or fine jewelry should be a seamless, secure, and rewarding experience. At Dalila, we offer a transparent and hassle-free process, trusted by customers. Whether you're parting with an engagement ring, heirloom or a loose diamond, we value every piece. Here's how the process works"}
                                 </p>
                             </AnimatedContainer>
 
                             <GoldButton
-                                text="Sell Now"
+                                text={dictionary?.home?.sellBtn || "Sell Now"}
                                 onClick={() => router.push("/sud")}
                             />
                         </div>
@@ -83,32 +73,19 @@ export default function HomeContent() {
                                 <h2
                                     className={`text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-light mb-4 md:mb-6 lg:mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                                 >
-                                    The Language of
-                                    <br />
-                                    Diamonds
+                                    {dictionary?.home?.langTitle || "The Language of Diamonds"}
                                 </h2>
                             </AnimatedContainer>
                             <AnimatedContainer direction="up" delay={0.3}>
                                 <p
                                     className={`text-gray-600 leading-relaxed mb-6 md:mb-8 text-xs sm:text-sm md:text-[15px] lg:text-base font-normal ${jost.className}`}
                                 >
-                                    Diamonds are more than just gemstones — they
-                                    are timeless symbols of love, craftsmanship,
-                                    and nature&apos;s brilliance. Formed deep
-                                    within the Earth over billions of years,
-                                    every natural diamond carries a story of
-                                    purity and perfection. Whether you&apos;re
-                                    buying your first diamond or expanding your
-                                    collection, understanding the key aspects of
-                                    a diamond helps you make a truly informed
-                                    choice. This guide is designed to help you
-                                    explore every detail — from how diamonds are
-                                    formed to what makes each one unique.
+                                    {dictionary?.home?.langBody || "Diamonds are more than just gemstones — they are timeless symbols of love, craftsmanship, and nature's brilliance. Formed deep within the Earth over billions of years, every natural diamond carries a story of purity and perfection. Whether you're buying your first diamond or expanding your collection, understanding the key aspects of a diamond helps you make a truly informed choice. This guide is designed to help you explore every detail — from how diamonds are formed to what makes each one unique."}
                                 </p>
                             </AnimatedContainer>
 
                             <GoldButton
-                                text="Explore More"
+                                text={dictionary?.home?.langBtn || "Explore More"}
                                 onClick={() => router.push("/inventory")}
                             />
                         </div>

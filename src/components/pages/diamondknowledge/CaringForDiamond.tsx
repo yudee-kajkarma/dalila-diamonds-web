@@ -1,6 +1,8 @@
 "use client";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -15,10 +17,12 @@ const jost = Jost({
 });
 
 export default function CaringForDiamond() {
+  const { dictionary } = useLanguage();
+
   const careTips = [
-    "Clean them gently with warm water and mild soap.",
-    "Store separately to prevent scratching other jewelry",
-    "Schedule professional cleanings once a year.",
+    dictionary?.dk?.careTip1 || "Clean them gently with warm water and mild soap.",
+    dictionary?.dk?.careTip2 || "Store separately to prevent scratching other jewelry",
+    dictionary?.dk?.careTip3 || "Schedule professional cleanings once a year.",
   ];
 
   return (
@@ -30,13 +34,12 @@ export default function CaringForDiamond() {
             <h1
               className={`text-[40px] md:text-[48px] lg:text-[52px] text-[#2d2d2d] mb-4 font-normal tracking-tight leading-tight ${marcellus.className}`}
             >
-              Caring for Your Diamond
+              {dictionary?.dk?.caringTitle || "Caring for Your Diamond"}
             </h1>
             <p
               className={`text-gray-600 leading-relaxed text-base md:text-lg max-w-5xl mx-auto font-light mb-3 ${jost.className}`}
             >
-              Diamonds are durable, but they still deserve care. To maintain
-              brilliance:
+              {dictionary?.dk?.caringDesc || "Diamonds are durable, but they still deserve care. To maintain brilliance:"}
             </p>
           </div>
         </AnimatedContainer>

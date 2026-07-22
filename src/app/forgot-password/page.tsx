@@ -15,6 +15,8 @@ import { Playfair_Display } from "next/font/google";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
+import { useLanguage } from "@/context/LanguageContext";
+import { getAuthText } from "@/lib/i18n/authTranslations";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -24,6 +26,32 @@ const playFair = Playfair_Display({
 type Step = "email" | "password";
 
 export default function ForgotPasswordPage() {
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
+
+  const handleRequiredInput = (el: HTMLInputElement | null) => {
+    if (!el) return;
+    if (!el.value) {
+      el.setCustomValidity(getAuthText("fillField", locale));
+    } else {
+      el.setCustomValidity("");
+    }
+  };
+
+  const handleEmailInput = (el: HTMLInputElement | null) => {
+    if (!el) return;
+    if (!el.value) {
+      el.setCustomValidity(getAuthText("fillField", locale));
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value)) {
+      el.setCustomValidity(getAuthText("enterEmail", locale));
+    } else {
+      el.setCustomValidity("");
+    }
+  };
+
   const router = useRouter();
   const [currentStep, setCurrentStep] = useState<Step>("email");
   const [email, setEmail] = useState<string>("");
@@ -56,7 +84,7 @@ export default function ForgotPasswordPage() {
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      setError("Please enter a valid email address");
+      setError(dictionary?.auth?.validEmail || "Please enter a valid email address");
       return;
     }
 
@@ -68,14 +96,23 @@ export default function ForgotPasswordPage() {
       const response = await userApi.sendOtp(email);
 
       if (response && response.success) {
-        setSuccess("OTP sent successfully! Please check your email.");
+        setSuccess(
+          locale === "de"
+            ? "OTP erfolgreich gesendet! Bitte überprüfen Sie Ihre E-Mail."
+            : "OTP sent successfully! Please check your email."
+        );
         setCountdown(60);
         setCurrentStep("password");
         setTimeout(() => {
           inputRefs.current[0]?.focus();
         }, 100);
       } else {
-        setError(response?.message || "Failed to send OTP. Please try again.");
+        setError(
+          response?.message || 
+            (locale === "de"
+              ? "OTP konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+              : "Failed to send OTP. Please try again.")
+        );
       }
     } catch (err: unknown) {
       console.error("Send OTP error:", err);
@@ -84,19 +121,34 @@ export default function ForgotPasswordPage() {
         const errorMessage = err.message;
 
         if (errorMessage.includes("not found")) {
-          setError("Email address not found. Please check and try again.");
+          setError(
+            locale === "de"
+              ? "E-Mail-Adresse nicht gefunden. Bitte überprüfen Sie sie und versuchen Sie es erneut."
+              : "Email address not found. Please check and try again."
+          );
         } else if (
           errorMessage.includes("network") ||
           errorMessage.includes("fetch")
         ) {
           setError(
-            "Unable to connect to server. Please check your internet connection.",
+            locale === "de"
+              ? "Verbindung zum Server fehlgeschlagen. Bitte überprüfen Sie Ihre Internetverbindung."
+              : "Unable to connect to server. Please check your internet connection.",
           );
         } else {
-          setError(errorMessage || "Failed to send OTP. Please try again.");
+          setError(
+            errorMessage || 
+              (locale === "de"
+                ? "OTP konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+                : "Failed to send OTP. Please try again.")
+          );
         }
       } else {
-        setError("Unable to connect to server. Please try again.");
+        setError(
+          locale === "de"
+            ? "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut."
+            : "Unable to connect to server. Please try again."
+        );
       }
     } finally {
       setIsLoading(false);
@@ -111,17 +163,21 @@ export default function ForgotPasswordPage() {
 
     const otpString = otp.join("");
     if (otpString.length !== 4) {
-      setError("Please enter the complete 4-digit OTP");
+      setError(
+        locale === "de"
+          ? "Bitte geben Sie den vollständigen 4-stelligen OTP-Code ein"
+          : "Please enter the complete 4-digit OTP"
+      );
       return;
     }
 
     if (newPassword.length < 8) {
-      setError("Password must be at least 8 characters long");
+      setError(dictionary?.auth?.passwordMinLength || "Password must be at least 8 characters long");
       return;
     }
 
     if (newPassword !== confirmPassword) {
-      setError("Passwords do not match");
+      setError(dictionary?.auth?.passwordsMatch || "Passwords do not match");
       return;
     }
 
@@ -138,15 +194,20 @@ export default function ForgotPasswordPage() {
 
       if (response && response.success) {
         setSuccess(
-          "Password updated successfully! Redirecting to login page...",
+          locale === "de"
+            ? "Passwort erfolgreich aktualisiert! Weiterleitung zur Anmeldeseite..."
+            : "Password updated successfully! Redirecting to login page..."
         );
 
         setTimeout(() => {
-          router.push("/login");
+          router.push(localizedPath("/login"));
         }, 2000);
       } else {
         setError(
-          response?.message || "Failed to update password. Please try again.",
+          response?.message || 
+            (locale === "de"
+              ? "Passwortaktualisierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+              : "Failed to update password. Please try again.")
         );
       }
     } catch (err: unknown) {
@@ -159,14 +220,25 @@ export default function ForgotPasswordPage() {
           errorMessage.includes("Invalid OTP") ||
           errorMessage.includes("expired")
         ) {
-          setError("Invalid or expired OTP. Please request a new OTP.");
+          setError(
+            locale === "de"
+              ? "Ungültiger oder abgelaufener OTP-Code. Bitte fordern Sie einen neuen an."
+              : "Invalid or expired OTP. Please request a new OTP."
+          );
         } else {
           setError(
-            errorMessage || "Failed to update password. Please try again.",
+            errorMessage || 
+              (locale === "de"
+                ? "Passwortaktualisierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+                : "Failed to update password. Please try again.")
           );
         }
       } else {
-        setError("Unable to connect to server. Please try again.");
+        setError(
+          locale === "de"
+            ? "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut."
+            : "Unable to connect to server. Please try again."
+        );
       }
     } finally {
       setIsLoading(false);
@@ -185,22 +257,38 @@ export default function ForgotPasswordPage() {
       const response = await userApi.sendOtp(email);
 
       if (response && response.success) {
-        setSuccess("OTP sent successfully to your email!");
+        setSuccess(
+          locale === "de"
+            ? "OTP erfolgreich an Ihre E-Mail-Adresse gesendet!"
+            : "OTP sent successfully to your email!"
+        );
         setCountdown(60);
         setOtp(["", "", "", ""]);
         inputRefs.current[0]?.focus();
       } else {
         setError(
-          response?.message || "Failed to resend OTP. Please try again.",
+          response?.message || 
+            (locale === "de"
+              ? "OTP konnte nicht erneut gesendet werden. Bitte versuchen Sie es erneut."
+              : "Failed to resend OTP. Please try again.")
         );
       }
     } catch (err: unknown) {
       console.error("Resend OTP error:", err);
 
       if (err instanceof Error) {
-        setError(err.message || "Failed to resend OTP. Please try again.");
+        setError(
+          err.message || 
+            (locale === "de"
+              ? "OTP konnte nicht erneut gesendet werden. Bitte versuchen Sie es erneut."
+              : "Failed to resend OTP. Please try again.")
+        );
       } else {
-        setError("Unable to connect to server. Please try again.");
+        setError(
+          locale === "de"
+            ? "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut."
+            : "Unable to connect to server. Please try again."
+        );
       }
     } finally {
       setIsResending(false);
@@ -287,14 +375,12 @@ export default function ForgotPasswordPage() {
               <h1
                 className={`text-4xl md:text-6xl font-light mt-2 mb-4 text-[#d4a018] text-center ${playFair.className}`}
               >
-                Reset Password
+                {getAuthText("resetPassword", locale)}
               </h1>
 
               <p className="text-sm md:text-md mt-2 mb-8 font-normal opacity-90 text-center">
-                {currentStep === "email" &&
-                  "Enter your email address and we'll send you a verification code to reset your password."}
-                {currentStep === "password" &&
-                  "Enter the OTP sent to your email and create a new secure password for your account."}
+                {currentStep === "email" && getAuthText("forgotEmailDesc", locale)}
+                {currentStep === "password" && getAuthText("forgotOtpDesc", locale)}
               </p>
             </div>
 
@@ -331,8 +417,8 @@ export default function ForgotPasswordPage() {
             <div className="absolute top-4 md:top-6 right-4 md:right-6 flex gap-2 z-10">
               {currentStep === "password" && (
                 <button
-                  className="bg-[#101638]/80 rounded-full p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
-                  title="Back"
+                  className="bg-[#040825] rounded-full p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
+                  title={locale === "de" ? "Zurück" : "Back"}
                   onClick={handleBackStep}
                   type="button"
                   disabled={isLoading}
@@ -341,9 +427,9 @@ export default function ForgotPasswordPage() {
                 </button>
               )}
               <button
-                className="bg-[#101638]/80 rounded-full p-2 shadow-md hover:bg-[#d4a018]cursor-pointer transition-all duration-200 hover:scale-110"
+                className="bg-[#040825] rounded-full p-2 shadow-md hover:bg-[#d4a018] cursor-pointer transition-all duration-200 hover:scale-110"
                 title="Home"
-                onClick={() => router.push("/")}
+                onClick={() => router.push(localizedPath("/"))}
                 type="button"
               >
                 <Home className="w-5 h-5 text-white" />
@@ -354,8 +440,8 @@ export default function ForgotPasswordPage() {
               <h2
                 className={`text-2xl md:text-3xl font-semibold text-white mb-6 text-center ${playFair.className}`}
               >
-                {currentStep === "email" && "Enter Your Email"}
-                {currentStep === "password" && "Reset Your Password"}
+                {currentStep === "email" && getAuthText("enterEmailPrompt", locale)}
+                {currentStep === "password" && getAuthText("resetYourPassword", locale)}
               </h2>
 
               {success && (
@@ -380,8 +466,10 @@ export default function ForgotPasswordPage() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
+                      ref={handleEmailInput}
+                      onInput={(e) => handleEmailInput(e.target as HTMLInputElement)}
                       disabled={isLoading}
-                      placeholder="Enter your email address"
+                      placeholder={dictionary?.auth?.email || "Email Address"}
                       className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                       autoComplete="email"
                     />
@@ -395,10 +483,10 @@ export default function ForgotPasswordPage() {
                     {isLoading ? (
                       <>
                         <Loader2 className="w-5 h-5 animate-spin" />
-                        <span>SENDING...</span>
+                        <span>{getAuthText("sending", locale)}</span>
                       </>
                     ) : (
-                      <span>SEND OTP</span>
+                      <span>{getAuthText("sendOtp", locale)}</span>
                     )}
                   </button>
                 </form>
@@ -410,7 +498,7 @@ export default function ForgotPasswordPage() {
                   {/* OTP Input */}
                   <div className="mb-6">
                     <label className="block text-white text-sm font-semibold mb-2">
-                      Enter OTP
+                      {getAuthText("enterOtp", locale)}
                     </label>
                     <div className="flex justify-center gap-3">
                       {otp.map((digit, index) => (
@@ -437,7 +525,7 @@ export default function ForgotPasswordPage() {
                     <div className="text-center mt-3">
                       {countdown > 0 ? (
                         <p className="text-xs text-gray-400">
-                          Resend code in{" "}
+                          {getAuthText("resendIn", locale)}{" "}
                           <span className="text-[#FFD166] font-semibold">
                             {countdown}s
                           </span>
@@ -452,10 +540,10 @@ export default function ForgotPasswordPage() {
                           {isResending ? (
                             <>
                               <Loader2 className="w-4 h-4 animate-spin" />
-                              <span>Sending...</span>
+                              <span>{getAuthText("sending", locale)}</span>
                             </>
                           ) : (
-                            <span>Resend OTP</span>
+                            <span>{getAuthText("resendOtp", locale)}</span>
                           )}
                         </button>
                       )}
@@ -469,8 +557,10 @@ export default function ForgotPasswordPage() {
                       value={newPassword}
                       onChange={(e) => setNewPassword(e.target.value)}
                       required
+                      ref={handleRequiredInput}
+                      onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                       disabled={isLoading}
-                      placeholder="New Password (min 8 characters)"
+                      placeholder={getAuthText("newPasswordMin", locale)}
                       className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                       autoComplete="new-password"
                     />
@@ -495,8 +585,10 @@ export default function ForgotPasswordPage() {
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
                       required
+                      ref={handleRequiredInput}
+                      onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                       disabled={isLoading}
-                      placeholder="Confirm New Password"
+                      placeholder={dictionary?.auth?.confirmPassword || "Confirm Password"}
                       className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                       autoComplete="new-password"
                     />
@@ -524,26 +616,26 @@ export default function ForgotPasswordPage() {
                     {isLoading ? (
                       <>
                         <Loader2 className="w-5 h-5 animate-spin" />
-                        <span>UPDATING...</span>
+                        <span>{getAuthText("updating", locale)}</span>
                       </>
                     ) : (
-                      <span>UPDATE PASSWORD</span>
+                      <span>{getAuthText("updatePassword", locale)}</span>
                     )}
                   </button>
                 </form>
               )}
 
               <div className="mt-6 text-center text-xs text-white">
-                Remember your password?{" "}
+                {getAuthText("rememberPassword", locale)}{" "}
                 <a
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-                    router.push("/login");
+                    router.push(localizedPath("/login"));
                   }}
                   className="text-[#FFD166] font-semibold hover:text-yellow-400 hover:underline cursor-pointer transition-colors"
                 >
-                  Login Here
+                  {dictionary?.auth?.loginHere || "Login Here"}
                 </a>
               </div>
             </div>

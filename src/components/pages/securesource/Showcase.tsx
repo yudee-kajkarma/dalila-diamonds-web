@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
-
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -17,6 +18,8 @@ const jost = Jost({
 });
 
 export default function SecureSourceshowcase() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
@@ -42,18 +45,18 @@ export default function SecureSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal mb-4`}
                 >
-                  1. Select Your Stones
+                  {dictionary?.s2s?.step1Tag || "1. Select Your Stones"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Browse Online <br /> Platforms
+                  {dictionary?.s2s?.step1Title || "Browse Online Platforms"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Explore diamonds on any trusted online platform of your choice. Browse at your convenience and shortlist the stones that meet your specifications and preferences.
+                {dictionary?.s2s?.step1Text || "Explore diamonds on any trusted online platform..."}
               </p>
             </div>
           </div>
@@ -81,19 +84,18 @@ export default function SecureSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal mb-4`}
                 >
-                  2. Quality Assurance
+                  {dictionary?.s2s?.step2Tag || "2. Quality Assurance"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                 >
-                  We Handle Quality Control for You
+                  {dictionary?.s2s?.step2Title || "We Handle Quality Control for You"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Our experts carry out rigorous quality checks on every stone. 
-                We verify that each diamond matches your chosen specifications and meets our exacting quality standards before it reaches you.
+                {dictionary?.s2s?.step2Text || "Our experts carry out rigorous quality checks..."}
               </p>
             </div>
           </div>
@@ -120,19 +122,18 @@ export default function SecureSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal mb-4`}
                 >
-                  3. Swift Delivery
+                  {dictionary?.s2s?.step3Tag || "3. Swift Delivery"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Fast and secure delivery <br /> to Belgium
+                  {dictionary?.s2s?.step3Title || "Fast and secure delivery to Belgium"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Orders placed by Wednesday evening are scheduled to arrive in Belgium by the following Wednesday. This priority service ensures your diamonds reach you quickly and securely.
-                 A small additional service fee applies.
+                {dictionary?.s2s?.step3Text || "Orders placed by Wednesday evening..."}
               </p>
             </div>
           </div>

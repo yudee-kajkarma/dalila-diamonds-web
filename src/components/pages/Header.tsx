@@ -6,10 +6,17 @@ import { Loader2, ChevronDown } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useHeaderAuth } from "./headerHooks";
 import MobileHeader from "./MobileHeader";
+import LanguageSwitcher from "../LanguageSwitcher";
 import { blogApi, type Blog } from "@/lib/api";
 import { getBlogSlug } from "@/utils/helpers";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Header() {
+    const { locale, dictionary } = useLanguage();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
     const [isAdminDropdownOpen, setIsAdminDropdownOpen] = useState(false);
     const [isUserDropdownOpen, setIsUserDropdownOpen] = useState(false);
     const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
@@ -70,10 +77,10 @@ export default function Header() {
                         <nav className="flex items-center gap-1 xl:gap-2 flex-1 justify-start">
                             {/* About us */}
                             <Link
-                                href="/aboutUs"
+                                href={localizedPath("/aboutUs")}
                                 className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
                             >
-                                About us
+                                {dictionary?.nav?.aboutUs || "About us"}
                             </Link>
 
                             {/* Our Services Dropdown */}
@@ -87,7 +94,7 @@ export default function Header() {
                                     }
                                     className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
-                                    Our Services
+                                    {dictionary?.nav?.ourServices || "Our Services"}
                                     <ChevronDown
                                         size={16}
                                         className={`transition-transform duration-200 ${isServicesDropdownOpen ? "rotate-180" : ""}`}
@@ -105,22 +112,22 @@ export default function Header() {
                                         className="absolute left-0 top-full mt-0 w-64 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                     >
                                         <Link
-                                            href="/secure-to-source"
+                                            href={localizedPath("/secure-to-source")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            S2S - Secure To Source
+                                            {dictionary?.nav?.s2s || "S2S - Secure To Source"}
                                         </Link>
                                         <Link
-                                            href="/diamond-source"
+                                            href={localizedPath("/diamond-source")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            DS4U - Diamond Source For You
+                                            {dictionary?.nav?.ds4u || "DS4U - Diamond Source For You"}
                                         </Link>
                                         <Link
-                                            href="/sud"
+                                            href={localizedPath("/sud")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                         >
-                                            SYD - Sell Your Diamonds
+                                            {dictionary?.nav?.syd || "SYD - Sell Your Diamonds"}
                                         </Link>
                                     </div>
                                 )}
@@ -128,10 +135,10 @@ export default function Header() {
 
                             {/* Diamond Knowledge */}
                             <Link
-                                href="/diamondKnowledge"
+                                href={localizedPath("/diamondKnowledge")}
                                 className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
                             >
-                                Diamond Knowledge
+                                {dictionary?.nav?.diamondKnowledge || "Diamond Knowledge"}
                             </Link>
 
                             {/* Resources Dropdown */}
@@ -145,7 +152,7 @@ export default function Header() {
                                     }
                                     className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
-                                    Resources
+                                    {dictionary?.nav?.resources || "Resources"}
                                     <ChevronDown
                                         size={16}
                                         className={`transition-transform duration-200 ${isResourcesDropdownOpen ? "rotate-180" : ""}`}
@@ -166,7 +173,7 @@ export default function Header() {
                                         <div className="relative group/articles">
                                             <button
                                                 onClick={() =>
-                                                    router.push("/blogs")
+                                                    router.push(localizedPath("/blogs"))
                                                 }
                                                 onMouseEnter={() =>
                                                     setIsArticlesDropdownOpen(
@@ -180,7 +187,7 @@ export default function Header() {
                                                 }
                                                 className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100 flex items-center justify-between cursor-pointer"
                                             >
-                                                <span>Articles</span>
+                                                <span>{dictionary?.nav?.articles || "Articles"}</span>
                                                 <ChevronDown
                                                     size={14}
                                                     className={`ml-2 transition-transform duration-200 ${isArticlesDropdownOpen ? "-rotate-90" : ""}`}
@@ -211,7 +218,7 @@ export default function Header() {
                                                                     }
                                                                     onClick={() =>
                                                                         router.push(
-                                                                            `/blogs/${getBlogSlug(blog)}`,
+                                                                            localizedPath(`/blogs/${getBlogSlug(blog)}`),
                                                                         )
                                                                     }
                                                                     className={`w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer ${
@@ -233,37 +240,36 @@ export default function Header() {
                                                         <button
                                                             onClick={() =>
                                                                 router.push(
-                                                                    "/blogs",
+                                                                    localizedPath("/blogs"),
                                                                 )
                                                             }
                                                             className="w-full text-center px-4 py-3 text-sm font-semibold text-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors border-t border-gray-200 cursor-pointer"
                                                         >
-                                                            View More
+                                                            {dictionary?.nav?.viewMore || "View More"}
                                                         </button>
                                                     </div>
                                                 )}
                                         </div>
 
                                         <Link
-                                            href="/premium-b2b-diamond-supplier-belgium"
+                                            href={localizedPath("/premium-b2b-diamond-supplier-belgium")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            Premium B2B Diamond Supplier in
-                                            Belgium
+                                            {dictionary?.nav?.articleB2b || "Premium B2B Diamond Supplier in Belgium"}
                                         </Link>
 
                                         <Link
-                                            href="/sell-your-diamond-safely"
+                                            href={localizedPath("/sell-your-diamond-safely")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            Sell Your Diamond Safely
+                                            {dictionary?.nav?.articleSell || "Sell Your Diamond Safely"}
                                         </Link>
 
                                         <Link
-                                            href="/elongated-cushion-cut-diamond-guide"
+                                            href={localizedPath("/elongated-cushion-cut-diamond-guide")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                         >
-                                            Elongated Cushion Cut Diamond Guide
+                                            {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
                                         </Link>
                                     </div>
                                 )}
@@ -275,7 +281,7 @@ export default function Header() {
                             style={{ minWidth: 180, maxWidth: 400 }}
                         >
                             <button
-                                onClick={() => router.push("/")}
+                                onClick={() => router.push(localizedPath("/"))}
                                 className="block w-full h-full focus:outline-none"
                                 aria-label="Go to home page"
                             >
@@ -292,10 +298,10 @@ export default function Header() {
                         <div className="flex items-center justify-end gap-2 xl:gap-3 flex-1">
                             {/* Contact Us Button - Always visible */}
                             <button
-                                onClick={() => router.push("/contact")}
-                                className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer"
+                                onClick={() => router.push(localizedPath("/contact"))}
+                                className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
                             >
-                                CONTACT US
+                                {dictionary?.nav?.contactUs || "CONTACT US"}
                             </button>
 
                             {isCheckingAuth ? (
@@ -306,23 +312,23 @@ export default function Header() {
                                 <>
                                     <button
                                         onClick={() =>
-                                            router.push("/inventory")
+                                            router.push(localizedPath("/inventory"))
                                         }
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer"
+                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
                                     >
-                                        INVENTORY
+                                        {dictionary?.nav?.inventory || "INVENTORY"}
                                     </button>
                                     <button
-                                        onClick={() => router.push("/login")}
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer"
+                                        onClick={() => router.push(localizedPath("/login"))}
+                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
                                     >
-                                        LOGIN
+                                        {dictionary?.nav?.login || "LOGIN"}
                                     </button>
                                     <button
-                                        onClick={() => router.push("/register")}
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer"
+                                        onClick={() => router.push(localizedPath("/register"))}
+                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
                                     >
-                                        REGISTER
+                                        {dictionary?.nav?.register || "REGISTER"}
                                     </button>
                                 </>
                             ) : (
@@ -361,13 +367,13 @@ export default function Header() {
                                                     className="absolute top-full left-0 mt-0 w-64 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                                 >
                                                     <Link
-                                                        href="/dashboard"
+                                                        href={localizedPath("/dashboard")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Dashboard
                                                     </Link>
                                                     <Link
-                                                        href="/enquiry"
+                                                        href={localizedPath("/enquiry")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                                     >
                                                         Enquiry
@@ -392,7 +398,7 @@ export default function Header() {
                                             }
 
                                             if (isInventoryAccessible) {
-                                                router.push("/inventory");
+                                                router.push(localizedPath("/inventory"));
                                             } else {
                                                 e.preventDefault();
                                                 alert(
@@ -451,37 +457,37 @@ export default function Header() {
                                                     className="absolute top-full left-0 mt-0 w-64 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                                 >
                                                     <Link
-                                                        href="/inventory-management"
+                                                        href={localizedPath("/inventory-management")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Inventory & Suppliers
                                                     </Link>
                                                     <Link
-                                                        href="/member"
+                                                        href={localizedPath("/member")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Members
                                                     </Link>
                                                     <Link
-                                                        href="/customer-management"
+                                                        href={localizedPath("/customer-management")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Customer Management
                                                     </Link>
                                                     <Link
-                                                        href="/buy-form"
+                                                        href={localizedPath("/buy-form")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Buy Form Submissions
                                                     </Link>
                                                     <Link
-                                                        href="/spec-requests"
+                                                        href={localizedPath("/spec-requests")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         DS4U Form Submisssions
                                                     </Link>
                                                     <Link
-                                                        href="/limitedEdition"
+                                                        href={localizedPath("/limitedEdition")}
                                                         className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                                     >
                                                         Limited Edition
@@ -489,7 +495,7 @@ export default function Header() {
                                                     {userRole ===
                                                         "SUPER_ADMIN" && (
                                                         <Link
-                                                            href="/create-admin"
+                                                            href={localizedPath("/create-admin")}
                                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                                         >
                                                             Create Admin
@@ -508,6 +514,9 @@ export default function Header() {
                                     </button>
                                 </div>
                             )}
+                            <div className="ml-1 xl:ml-2">
+                                <LanguageSwitcher />
+                            </div>
                         </div>
                     </div>
 
@@ -516,8 +525,7 @@ export default function Header() {
 
                     <div className="flex justify-center py-2">
                         <p className="text-sm md:text-base tracking-wide text-white">
-                            <span>Where Trust Shines,</span>
-                            <span> And Quality Sparkles</span>
+                            <span>{dictionary.header.tagline}</span>
                         </p>
                     </div>
                 </div>

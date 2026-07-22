@@ -4,6 +4,7 @@ import Image from "next/image";
 import { X } from "lucide-react";
 import {  Marcellus} from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
 
 
 
@@ -68,25 +69,39 @@ function ImagePopup({ isOpen, onClose, imageSrc, shapeName }: ImagePopupProps) {
 }
 
 export default function DiamondShapes() {
+  const { dictionary } = useLanguage();
   const [selectedShape, setSelectedShape] = useState<{
     name: string;
     image: string;
   } | null>(null);
 
+  const getShapeName = (name: string) => {
+    switch (name.toLowerCase()) {
+      case "round": return dictionary?.home?.cuts?.round || "Round";
+      case "oval": return dictionary?.home?.cuts?.oval || "Oval";
+      case "pear": return dictionary?.home?.cuts?.pear || "Pear";
+      case "emerald": return dictionary?.home?.cuts?.emerald || "Emerald";
+      case "heart": return dictionary?.home?.cuts?.heart || "Heart";
+      case "cushion": return dictionary?.home?.cuts?.cushion || "Cushion";
+      case "asscher": return dictionary?.home?.cuts?.asscher || "Asscher";
+      case "radiant": return dictionary?.home?.cuts?.radiant || "Radiant";
+      case "princess": return dictionary?.home?.cuts?.princess || "Princess";
+      case "marquise": return dictionary?.home?.cuts?.marquise || "Marquise";
+      default: return name;
+    }
+  };
+
   const shapes = [
-    { name: "Round", image: "/DiamondsinBlubg/Round.jpg" },
-    { name: "Oval", image: "/DiamondsinBlubg/Oval.jpg" },
-    { name: "Pear", image: "/DiamondsinBlubg/Pear.jpg" },
-    { name: "Emerald", image: "/DiamondsinBlubg/Emerald.jpg" },
-    { name: "Heart", image: "/DiamondsinBlubg/Heart.jpg" },
-    { name: "Cushion", image: "/DiamondsinBlubg/Cushion.jpg" },
-
-    { name: "Asscher", image: "/DiamondsinBlubg/Asscher.jpg" },
-    { name: "Radiant", image: "/DiamondsinBlubg/Radiant.jpg" },
-
-    { name: "Princess", image: "/DiamondsinBlubg/Princess.jpg" },
-
-    { name: "Marquise", image: "/DiamondsinBlubg/Marquise.jpg" },
+    { name: getShapeName("Round"), image: "/DiamondsinBlubg/Round.jpg" },
+    { name: getShapeName("Oval"), image: "/DiamondsinBlubg/Oval.jpg" },
+    { name: getShapeName("Pear"), image: "/DiamondsinBlubg/Pear.jpg" },
+    { name: getShapeName("Emerald"), image: "/DiamondsinBlubg/Emerald.jpg" },
+    { name: getShapeName("Heart"), image: "/DiamondsinBlubg/Heart.jpg" },
+    { name: getShapeName("Cushion"), image: "/DiamondsinBlubg/Cushion.jpg" },
+    { name: getShapeName("Asscher"), image: "/DiamondsinBlubg/Asscher.jpg" },
+    { name: getShapeName("Radiant"), image: "/DiamondsinBlubg/Radiant.jpg" },
+    { name: getShapeName("Princess"), image: "/DiamondsinBlubg/Princess.jpg" },
+    { name: getShapeName("Marquise"), image: "/DiamondsinBlubg/Marquise.jpg" },
   ];
 
   const handleShapeClick = (shape: { name: string; image: string }) =>
@@ -101,7 +116,7 @@ export default function DiamondShapes() {
         {/* Section Title */}
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-slate-800 mb-4">
-            Diamond Cuts
+            {dictionary?.home?.shapesHeading || "Diamond Cuts"}
           </h2>
         </div>
 

@@ -3,8 +3,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function HeroSection() {
+    const { dictionary } = useLanguage();
     // All hooks must be called unconditionally and in the same order
     const [isMobile, setIsMobile] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -150,7 +152,7 @@ export default function HeroSection() {
                                     className="group px-3 py-1 bg-[#c89e3a] text-white font-semibold text-xs rounded transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer relative overflow-hidden min-w-[90px] min-h-[32px]"
                                     style={{ fontSize: 13, padding: '6px 16px', borderRadius: 12 }}
                                 >
-                                    <span className="relative z-10">Explore More</span>
+                                    <span className="relative z-10">{dictionary.common.learnMore}</span>
                                     <span className="absolute inset-0 bg-[#b08932] transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center" />
                                 </button>
                             </div>
@@ -224,7 +226,7 @@ export default function HeroSection() {
                                             style={{ minWidth: 110 }}
                                         >
                                             <span className="relative z-10">
-                                                Explore More
+                                                {dictionary.common.learnMore}
                                             </span>
                                             <span className="absolute inset-0 bg-[#b08932] transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center"></span>
                                         </button>

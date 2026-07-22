@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -17,6 +19,8 @@ const jost = Jost({
 });
 
 export default function DiamondSourceHero() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-12 md:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -39,20 +43,18 @@ export default function DiamondSourceHero() {
             <p
               className={`text-sm sm:text-base md:text-lg tracking-[0.2em] uppercase ${jost.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal`}
             >
-              Our Specialty
+              {dictionary?.ds4u?.heroTagline || "Our Specialty"}
             </p>
             <AnimatedContainer direction="up">
               <h3
                 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight ${marcellus.className}`}
               >
-                Diamond Source For <br />
-                You
+                {dictionary?.ds4u?.heroTitle || "Diamond Source For You"}
               </h3>
             </AnimatedContainer>
             <AnimatedContainer direction="up" delay={0.5}>
               <p className="text-gray-500 text-sm sm:text-base md:text-lg leading-relaxed pt-2">
-                Personalized diamond sourcing from our exclusive worldwide
-                network.
+                {dictionary?.ds4u?.heroText || "Personalized diamond sourcing from our exclusive worldwide network."}
               </p>
             </AnimatedContainer>
           </div>

@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
 import GoldButton from "@/components/ui/Button";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -21,13 +21,18 @@ const jost = Jost({
 
 export default function Aboutshowcase() {
   const router = useRouter();
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
 
   const handleExploreMore = () => {
-    router.push("/inventory");
+    router.push(localizedPath("/inventory"));
   };
 
   const handleSellNow = () => {
-    router.push("/sud");
+    router.push(localizedPath("/sud"));
   };
 
   return (
@@ -59,22 +64,16 @@ export default function Aboutshowcase() {
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Our Heritage
+                  {dictionary?.about?.heritageTitle || "Our Heritage"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                The roots of our company stretch back more than five decades, to when three visionary brothers left their village in Gujarat at just 18, determined to build a future in the diamond trade. Through unwavering perseverance,
-                 hard work and a commitment to ethical practices, 
-                 they laid a strong foundation in Surat and Mumbai.
-                 As the second generation joined the business,
-                the vision expanded beyond India&apos;s borders,
-                forging lasting partnerships and establishing a global presence.Today, this forward-looking spirit grounded in deeply held family values continues to guide us, 
-                earning DALILA its reputation as a trusted name in the international diamond industry.
+                {dictionary?.about?.heritageText || "The roots of our company stretch back..."}
               </p>
               <div onClick={handleExploreMore}>
-                <GoldButton text="Explore More" />
+                <GoldButton text={dictionary?.about?.exploreMore || "Explore More"} />
               </div>
             </div>
           </div>
@@ -104,28 +103,21 @@ export default function Aboutshowcase() {
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                 >
-                  Diamond Knowledge Guide
+                  {dictionary?.about?.knowledgeTitle || "Diamond Knowledge Guide"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Diamonds are more than just gemstones — they are timeless
-                symbols of love, craftsmanship, and nature&apos;s brilliance.
-                Formed deep within the Earth over billions of years, every
-                natural diamond carries a story of purity and perfection.
-                Whether you&apos;re buying your first diamond or expanding your
-                collection, understanding the key aspects of a diamond helps you
-                make a truly informed choice. This guide is designed to help you
-                explore every detail — from how diamonds are formed to what
-                makes each one unique.
+                {dictionary?.about?.knowledgeText || "Diamonds are more than just gemstones..."}
               </p>
               <div onClick={handleExploreMore}>
-                <GoldButton text="Explore More" />
+                <GoldButton text={dictionary?.about?.exploreMore || "Explore More"} />
               </div>
             </div>
           </div>
         </div>
+
         {/* Sell Diamonds Section 2 */}
         <div className="flex flex-col md:grid md:grid-cols-2 gap-16 items-center mb-25 mt-25">
           {/* Image first on mobile, left on desktop */}
@@ -150,24 +142,16 @@ export default function Aboutshowcase() {
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Sell Your Diamonds
-                  Safely and Seamlessly 
-                  <br />
-                   at Dalila Diamonds
+                  {dictionary?.about?.sellTitle || "Sell Your Diamonds Safely and Seamlessly at Dalila Diamonds"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Selling your diamond or fine jewelry should be a seamless,
-                secure, and rewarding experience. At Dalila, we offer a
-                transparent and hassle-free process, trusted by customers.
-                Whether you&apos;re parting with an engagement ring, heirloom or
-                a loose diamond, we value every piece. Here&apos;s how the
-                process works
+                {dictionary?.about?.sellText || "Selling your diamond or fine jewelry should be a seamless..."}
               </p>
               <div onClick={handleSellNow}>
-                <GoldButton text="Sell Now" />
+                <GoldButton text={dictionary?.about?.sellNow || "Sell Now"} />
               </div>
             </div>
           </div>

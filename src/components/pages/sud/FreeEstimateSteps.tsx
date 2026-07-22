@@ -1,36 +1,38 @@
 "use client";
 
 import React, { useState } from 'react';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function FreeEstimateSteps() {
   const [activeStep, setActiveStep] = useState<number>(0);
   const [hoveredStep, setHoveredStep] = useState<number | null>(null);
+  const { dictionary } = useLanguage();
 
   const steps = [
     {
       number: "01",
-      title: "Tell us about your diamond",
-      details: "Shape, carat weight, color, clarity, cut/make (polish & symmetry), fluorescence. • Measurements and setting (if mounted)",
+      title: dictionary?.sud?.timelineStep1Title || "Tell us about your diamond",
+      details: dictionary?.sud?.timelineStep1Details || "Shape, carat weight, color, clarity, cut/make (polish & symmetry), fluorescence. • Measurements and setting (if mounted)",
     },
     {
       number: "02",
-      title: "Upload diamond photos",
-      details: "Top and side view on a plain background • Taken in good natural daylight",
+      title: dictionary?.sud?.timelineStep2Title || "Upload diamond photos",
+      details: dictionary?.sud?.timelineStep2Details || "Top and side view on a plain background • Taken in good natural daylight",
     },
     {
       number: "03",
-      title: "Upload the certificate",
-      details: "GIA / IGI / HRD certificate • Or simply share the report number",
+      title: dictionary?.sud?.timelineStep3Title || "Upload the certificate",
+      details: dictionary?.sud?.timelineStep3Details || "GIA / IGI / HRD certificate • Or simply share the report number",
     },
     {
       number: "04",
-      title: "Add any comments",
-      details: "Chips, repolish, laser inscription • Desired price and timeline",
+      title: dictionary?.sud?.timelineStep4Title || "Add any comments",
+      details: dictionary?.sud?.timelineStep4Details || "Chips, repolish, laser inscription • Desired price and timeline",
     },
     {
       number: "05",
-      title: "Share your contact details",
-      details: "Name, email, phone • City and country",
+      title: dictionary?.sud?.timelineStep5Title || "Share your contact details",
+      details: dictionary?.sud?.timelineStep5Details || "Name, email, phone • City and country",
     },
   ];
 
@@ -41,7 +43,7 @@ export default function FreeEstimateSteps() {
       return "bg-[#C89E3A] border-0";
     }
     
-    if (index === 0) {
+    if (index === activeStep) {
       return "bg-[#C9A961] border-0";
     }
     
@@ -55,7 +57,7 @@ export default function FreeEstimateSteps() {
       return "text-white";
     }
     
-    if (index === 0) {
+    if (index === activeStep) {
       return "text-white";
     }
     
@@ -68,11 +70,11 @@ export default function FreeEstimateSteps() {
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <p className="text-gray-400 text-sm md:text-base mb-3 tracking-wider">
-            [ working steps ]
+            {dictionary?.sud?.timelineTag || "[ working steps ]"}
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-[#C9A961] leading-tight">
-            Get a free estimate{" "}
-            <span className="block mt-2">(5 quick steps)</span>
+            {dictionary?.sud?.timelineTitle || "Get a free estimate"}{" "}
+            <span className="block mt-2">{dictionary?.sud?.timelineSubtitle || "(5 quick steps)"}</span>
           </h1>
         </div>
 
@@ -139,7 +141,7 @@ export default function FreeEstimateSteps() {
         {/* Bottom detail text (visible only on desktop) */}
         <div className="hidden lg:block mt-8 text-center">
           <p className="text-white text-sm font-light opacity-80">
-            Shape, carat weight, color, clarity, cut/make (polish & symmetry), fluorescence. • Measurements and setting (if mounted)
+            {steps[activeStep]?.details}
           </p>
         </div>
 

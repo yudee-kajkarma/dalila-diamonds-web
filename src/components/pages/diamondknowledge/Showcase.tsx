@@ -4,6 +4,7 @@ import { Marcellus, Jost } from "next/font/google";
 import { useState, useEffect } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -21,6 +22,7 @@ const jost = Jost({
 export default function Diamondshowcase() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const { dictionary } = useLanguage();
   
   const carouselImages = [
     "/images/firstimage.jpg",
@@ -79,22 +81,17 @@ export default function Diamondshowcase() {
                   className={`text-sm md:text-base uppercase tracking-widest text-gray-500 mb-4 font-medium ${marcellus.className}`}
                   style={{ color: "#515151" }}
                 >
-                  Introduction
+                  {dictionary?.dk?.showcaseTagline || "Introduction"}
                 </h4>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                 >
-                  Diamond Knowledge Guide
+                  {dictionary?.dk?.showcaseTitle || "Diamond Knowledge Guide"}
                 </h2>
                 <p
                   className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
                 >
-                  Diamonds are more than gemstones they are timeless symbols of love, craftsmanship and nature&apos;s brilliance.
-                   Formed deep within the Earth over billions of years, each natural diamond carries its own story.
-                    Whether you&apos;re choosing your very first stone or refining a lifelong collection,
-                     understanding a diamond&apos;s key characteristics helps you make a truly confident choice.
-
-                     This guide walks you through every facet from how diamonds are formed to what makes each one unique.
+                  {dictionary?.dk?.showcaseText || "Diamonds are more than gemstones they are timeless symbols of love, craftsmanship and nature's brilliance. Formed deep within the Earth over billions of years, each natural diamond carries its own story. Whether you're choosing your very first stone or refining a lifelong collection, understanding a diamond's key characteristics helps you make a truly confident choice. This guide walks you through every facet from how diamonds are formed to what makes each one unique."}
                 </p>
               </div>
             </AnimatedContainer>
@@ -174,28 +171,22 @@ export default function Diamondshowcase() {
                   className={`text-sm md:text-base uppercase tracking-widest text-gray-500 mb-4 font-medium ${marcellus.className}`}
                   style={{ color: "#515151" }}
                 >
-                  Diamond&apos;s Journey
+                  {dictionary?.dk?.showcaseJourneyTag || "Diamond's Journey"}
                 </h4>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                 >
-                  The Journey of a Diamond
+                  {dictionary?.dk?.showcaseJourneyTitle || "The Journey of a Diamond"}
                 </h2>
                 <p
                   className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
                 >
-                  Natural diamonds are created under extreme pressure and
-                  temperature conditions, deep below the Earth&apos;s surface.
-                  Over millions of years, these crystals travel upward through
-                  volcanic activity, eventually reaching the surface where they
-                  are mined and transformed into beautiful jewels.
+                  {dictionary?.dk?.showcaseJourneyText1 || "Natural diamonds are created under extreme pressure and temperature conditions, deep below the Earth's surface. Over millions of years, these crystals travel upward through volcanic activity, eventually reaching the surface where they are mined and transformed into beautiful jewels."}
                 </p>
                 <p
                   className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
                 >
-                  Each diamond&apos;s journey — from mine to masterpiece —
-                  involves ethical sourcing, expert craftsmanship, and precise
-                  grading to ensure its authenticity and value.
+                  {dictionary?.dk?.showcaseJourneyText2 || "Each diamond's journey — from mine to masterpiece — involves ethical sourcing, expert craftsmanship, and precise grading to ensure its authenticity and value."}
                 </p>
               </div>
             </AnimatedContainer>

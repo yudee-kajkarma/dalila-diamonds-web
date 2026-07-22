@@ -1,6 +1,8 @@
+"use client";
 import Image from 'next/image';
 import React from 'react';
 import { Marcellus} from "next/font/google";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -17,10 +19,11 @@ const instaLink = 'https://www.instagram.com/p/DO56RDlDKde/';
 
 
 const InstaSection = () => {
+  const { dictionary } = useLanguage();
   return (
 	<section className={`text-center py-8 bg-white ${marcellus.variable}`} style={{ background: '#fff' }}>
 	<h2 className="text-2xl font-bold mb-2 text-[#222]" style={{ fontFamily: 'var(--font-marcellus)' }}>
-	  Our Instagram
+	  {dictionary?.home?.instagramTitle || "Our Instagram"}
 	</h2>
 	<div className="text-lg font-medium mb-6 text-[#8a3ab9]" style={{ fontFamily: 'var(--font-marcellus)', color: '#8a3ab9' }}>
 	  @daliladiamonds

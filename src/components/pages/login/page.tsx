@@ -5,8 +5,36 @@ import { Phone, Mail, MapPin, Home, Loader2, Eye, EyeOff } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi, UNAUTHORIZED_EVENT } from "@/lib/api";
+import { useLanguage } from "@/context/LanguageContext";
+import { getAuthText } from "@/lib/i18n/authTranslations";
 
 export default function LoginPage() {
+    const { locale, dictionary } = useLanguage();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
+
+    const handleRequiredInput = (el: HTMLInputElement | null) => {
+        if (!el) return;
+        if (!el.value) {
+            el.setCustomValidity(getAuthText("fillField", locale));
+        } else {
+            el.setCustomValidity("");
+        }
+    };
+
+    const handleEmailInput = (el: HTMLInputElement | null) => {
+        if (!el) return;
+        if (!el.value) {
+            el.setCustomValidity(getAuthText("fillField", locale));
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value)) {
+            el.setCustomValidity(getAuthText("enterEmail", locale));
+        } else {
+            el.setCustomValidity("");
+        }
+    };
+
     const [email, setEmail] = useState<string>("");
     const [password, setPassword] = useState<string>("");
     const [showPassword, setShowPassword] = useState<boolean>(false);
@@ -30,7 +58,7 @@ export default function LoginPage() {
     // Listen for unauthorized events
     useEffect(() => {
         const handleUnauthorized = () => {
-            router.push("/login");
+            router.push(localizedPath("/login"));
         };
 
         if (typeof window !== "undefined") {
@@ -41,7 +69,7 @@ export default function LoginPage() {
                     handleUnauthorized
                 );
         }
-    }, [router]);
+    }, [router, locale]);
 
     const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -50,13 +78,13 @@ export default function LoginPage() {
 
         // Basic validation
         if (!email.trim()) {
-            setError("Email is required");
+            setError(dictionary?.auth?.emailRequired || "Email is required");
             setIsLoading(false);
             return;
         }
 
         if (!password.trim()) {
-            setError("Password is required");
+            setError(dictionary?.auth?.passwordRequired || "Password is required");
             setIsLoading(false);
             return;
         }
@@ -64,7 +92,7 @@ export default function LoginPage() {
         // Email format validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
-            setError("Please enter a valid email address");
+            setError(dictionary?.auth?.validEmail || "Please enter a valid email address");
             setIsLoading(false);
             return;
         }
@@ -93,7 +121,7 @@ export default function LoginPage() {
                         const cookieUser = encodeURIComponent(userString);
                         document.cookie = `user=${cookieUser}; path=/; max-age=86400; SameSite=Lax`;
                     } else {
-                        setError("Login failed. User data not received.");
+                        setError(dictionary?.auth?.loginFailed || "Login failed. User data not received.");
                         setIsLoading(false);
                         return;
                     }
@@ -108,7 +136,7 @@ export default function LoginPage() {
                     const finalUser = localStorage.getItem("user");
 
                     if (!finalUser || (!token && !localStorage.getItem("authToken"))) {
-                        setError("Login failed. Please try again.");
+                        setError(dictionary?.auth?.loginFailed || "Login failed. Please try again.");
                         setIsLoading(false);
                         return;
                     }
@@ -119,11 +147,11 @@ export default function LoginPage() {
 
                 // UPDATED REDIRECT LOGIC - Check customer data status
                 if (user) {
-                    let redirectUrl = "/";
+                    let redirectUrl = localizedPath("/");
 
                     // Check if user is admin or super admin
                     if (user.role === "ADMIN" || user.role === "SUPER_ADMIN") {
-                        redirectUrl = searchParams.get("redirect") || "/";
+                        redirectUrl = searchParams.get("redirect") || localizedPath("/");
                         setError("");
                     }
                     // Check if customer data object exists and has required fields
@@ -133,24 +161,20 @@ export default function LoginPage() {
                         !user.customerData.firstName ||
                         !user.customerData.businessInfo
                     ) {
-                        redirectUrl = "/customer-details";
+                        redirectUrl = localizedPath("/customer-details");
                         setError("");
                     }
                     // Check KYC status if customer data exists
                     else if (user.kycStatus === "pending") {
-                        setError(
-                            "Your account is pending approval. Please wait for admin verification."
-                        );
+                        setError(getAuthText("kycPending", locale));
                         setIsLoading(false);
                         return;
                     } else if (user.kycStatus === "rejected") {
-                        setError(
-                            "Your account application was rejected. Please contact support."
-                        );
+                        setError(getAuthText("kycRejected", locale));
                         setIsLoading(false);
                         return;
                     } else if (user.kycStatus === "approved") {
-                        redirectUrl = searchParams.get("redirect") || "/";
+                        redirectUrl = searchParams.get("redirect") || localizedPath("/");
                         setError("");
                     }
                     // If no KYC status but has customer data, redirect to customer details
@@ -164,10 +188,10 @@ export default function LoginPage() {
                             user.customerData.businessInfo;
 
                         if (hasCompleteData) {
-                            redirectUrl = searchParams.get("redirect") || "/";
+                            redirectUrl = searchParams.get("redirect") || localizedPath("/");
                             setError("");
                         } else {
-                            redirectUrl = "/customer-details";
+                            redirectUrl = localizedPath("/customer-details");
                             setError("");
                         }
                     }
@@ -176,7 +200,7 @@ export default function LoginPage() {
                         window.location.href = redirectUrl;
                     }, 1000);
                 } else {
-                    setError("Login failed. User data not received.");
+                    setError(dictionary?.auth?.loginFailed || "Login failed. User data not received.");
                     setIsLoading(false);
                 }
             } else {
@@ -233,7 +257,7 @@ export default function LoginPage() {
     const handleForgotPassword = (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
         // Navigate to forgot password page
-        router.push("/forgot-password");
+        router.push(localizedPath("/forgot-password"));
     };
 
     return (
@@ -275,13 +299,11 @@ export default function LoginPage() {
                             </div>
 
                             <h1 className="text-3xl md:text-6xl font-light mt-2 mb-4 text-[#d4a018] text-center">
-                                Welcome to Dalila
+                                {dictionary?.auth?.welcome || "Welcome to Dalila"}
                             </h1>
 
                             <p className="text-sm md:text-md mt-2 mb-8 font-normal opacity-90 text-center">
-                                Where Trust Shines and Quality Sparkles. We
-                                bring you timeless diamond jewelry crafted with
-                                love and precision.
+                                {dictionary?.auth?.welcomeSub || "Where Trust Shines and Quality Sparkles. We bring you timeless diamond jewelry crafted with love and precision."}
                             </p>
                         </div>
 
@@ -307,9 +329,9 @@ export default function LoginPage() {
                     <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8 md:py-0">
                         {/* Home Button */}
                         <button
-                            className="absolute top-4 md:top-6 right-4 md:right-6 bg-[#101638]/80 rounded-full p-2 shadow-md z-10 hover:bg-[#d4a018] transition-all duration-200 hover:scale-110 cursor-pointer"
+                            className="absolute top-4 md:top-6 right-4 md:right-6 bg-[#040825] rounded-full p-2 shadow-md z-10 hover:bg-[#d4a018] transition-all duration-200 hover:scale-110 cursor-pointer"
                             title="Home"
-                            onClick={() => router.push("/")}
+                            onClick={() => router.push(localizedPath("/"))}
                             type="button"
                         >
                             <Home className="w-5 h-5 text-white" />
@@ -321,7 +343,7 @@ export default function LoginPage() {
                             className="relative z-10 w-full max-w-[400px] md:max-w-[550px] px-4 md:px-0"
                         >
                             <h2 className="text-2xl md:text-3xl font-semibold text-white mb-6 text-center">
-                                Login to Your Account
+                                {dictionary?.auth?.loginTitle || "Login to Your Account"}
                             </h2>
 
                             {/* Error Message */}
@@ -338,8 +360,10 @@ export default function LoginPage() {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     required
+                                    ref={handleEmailInput}
+                                    onInput={(e) => handleEmailInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Email Address"
+                                    placeholder={dictionary?.auth?.email || "Email Address"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="email"
                                 />
@@ -354,8 +378,10 @@ export default function LoginPage() {
                                         setPassword(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Password"
+                                    placeholder={dictionary?.auth?.password || "Password"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="current-password"
                                 />
@@ -385,7 +411,7 @@ export default function LoginPage() {
                                     onClick={handleForgotPassword}
                                     className="text-xs text-[#FFD166] hover:text-yellow-400 hover:underline transition-colors mr-6"
                                 >
-                                    Forgot Password?
+                                    {dictionary?.auth?.forgotPassword || "Forgot Password?"}
                                 </a>
                             </div>
 
@@ -398,22 +424,22 @@ export default function LoginPage() {
                                 {isLoading ? (
                                     <Loader2 className="w-5 h-5 animate-spin" />
                                 ) : (
-                                    <span>LOGIN</span>
+                                    <span>{dictionary?.auth?.login || "LOGIN"}</span>
                                 )}
                             </button>
 
                             {/* Register Link */}
                             <div className="mt-6 text-center text-xs text-white">
-                                Don&apos;t have an account?{" "}
+                                {dictionary?.auth?.noAccount || "Don't have an account?"}{" "}
                                 <a
                                     href="#"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        router.push("/register");
+                                        router.push(localizedPath("/register"));
                                     }}
                                     className="text-[#FFD166] font-semibold hover:text-yellow-400 hover:underline transition-colors"
                                 >
-                                    Register here
+                                    {dictionary?.auth?.registerHere || "Register here"}
                                 </a>
                             </div>
                         </form>

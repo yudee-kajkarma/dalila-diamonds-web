@@ -4,15 +4,17 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 type Props = {
   currentPage: number;
   totalPages: number;
+  locale?: string;
 };
-
-function pageHref(page: number): string {
-  return page <= 1 ? "/blogs" : `/blogs?page=${page}`;
-}
 
 // Server-rendered, link-based pagination so every page is a real, crawlable
 // URL that Google can follow (no client-side onClick navigation).
-export default function BlogsPagination({ currentPage, totalPages }: Props) {
+export default function BlogsPagination({ currentPage, totalPages, locale }: Props) {
+  const pageHref = (page: number): string => {
+    const prefix = locale && locale !== "en" ? `/${locale}` : "";
+    return page <= 1 ? `${prefix}/blogs` : `${prefix}/blogs?page=${page}`;
+  };
+
   if (totalPages <= 1) return null;
 
   const maxVisiblePages = 5;

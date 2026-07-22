@@ -5,8 +5,15 @@ import Image from "next/image";
 import { Menu, X, ChevronDown, Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useHeaderAuth } from "./headerHooks";
+import LanguageSwitcher from "../LanguageSwitcher";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function MobileHeader() {
+    const { locale, dictionary } = useLanguage();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const [isResourcesOpen, setIsResourcesOpen] = useState(false);
@@ -43,7 +50,7 @@ export default function MobileHeader() {
                 {/* Logo - left aligned */}
                 <button
                     onClick={() => {
-                        router.push("/");
+                        router.push(localizedPath("/"));
                         closeMobileMenu();
                     }}
                     className="flex-shrink-0 focus:outline-none mr-2"
@@ -65,19 +72,19 @@ export default function MobileHeader() {
                     {!isLoggedIn && !isCheckingAuth ? (
                         <>
                             <button
-                                onClick={() => router.push("/login")}
+                                onClick={() => router.push(localizedPath("/login"))}
                                 className="px-2 py-1 text-xs text-white border border-[#c89e3a] rounded hover:bg-[#c89e3a] hover:text-white font-normal whitespace-nowrap"
                             >
                                 Login
                             </button>
                             <button
-                                onClick={() => router.push("/register")}
+                                onClick={() => router.push(localizedPath("/register"))}
                                 className="px-2 py-1 text-xs text-white border border-[#c89e3a] rounded hover:bg-[#c89e3a] hover:text-white font-normal whitespace-nowrap"
                             >
                                 Register
                             </button>
                             <button
-                                onClick={() => router.push("/inventory")}
+                                onClick={() => router.push(localizedPath("/inventory"))}
                                 className="px-2 py-1 text-xs text-white border border-[#c89e3a] rounded hover:bg-[#c89e3a] hover:text-white font-normal whitespace-nowrap"
                             >
                                 Inventory
@@ -94,7 +101,7 @@ export default function MobileHeader() {
                                         window.dispatchEvent(closeModalEvent);
                                     }
                                     if (isInventoryAccessible) {
-                                        router.push("/inventory");
+                                        router.push(localizedPath("/inventory"));
                                         closeMobileMenu();
                                     } else {
                                         e.preventDefault();
@@ -114,7 +121,7 @@ export default function MobileHeader() {
                                 Inventory
                             </button>
                             <button
-                                onClick={() => router.push("/contact")}
+                                onClick={() => router.push(localizedPath("/contact"))}
                                 className="px-2 py-1 text-xs text-white border border-[#c89e3a] rounded hover:bg-[#c89e3a] hover:text-white font-normal whitespace-nowrap"
                             >
                                 Contact Us
@@ -149,7 +156,7 @@ export default function MobileHeader() {
                     <nav className="py-2">
                         {/* Main Navigation - Same order as desktop (LEFT SIDE) */}
                         <Link
-                            href="/aboutUs"
+                            href={localizedPath("/aboutUs")}
                             onClick={closeMobileMenu}
                             className="block px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors border-b border-gray-700"
                         >
@@ -172,21 +179,21 @@ export default function MobileHeader() {
                             {isServicesOpen && (
                                 <div className="bg-[#0a1454]">
                                     <Link
-                                        href="/secure-to-source"
+                                        href={localizedPath("/secure-to-source")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
                                         S2S - Secure To Source
                                     </Link>
                                     <Link
-                                        href="/diamond-source"
+                                        href={localizedPath("/diamond-source")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
                                         DS4U - Diamond Source For You
                                     </Link>
                                     <Link
-                                        href="/sud"
+                                        href={localizedPath("/sud")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
@@ -197,7 +204,7 @@ export default function MobileHeader() {
                         </div>
 
                         <Link
-                            href="/diamondKnowledge"
+                            href={localizedPath("/diamondKnowledge")}
                             onClick={closeMobileMenu}
                             className="block px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors border-b border-gray-700"
                         >
@@ -212,7 +219,7 @@ export default function MobileHeader() {
                                 }
                                 className="w-full px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors flex items-center justify-between"
                             >
-                                <span>Resources</span>
+                                <span>{dictionary?.nav?.resources || "Resources"}</span>
                                 <ChevronDown
                                     size={18}
                                     className={`transition-transform ${isResourcesOpen ? "rotate-180" : ""}`}
@@ -221,35 +228,35 @@ export default function MobileHeader() {
                             {isResourcesOpen && (
                                 <div className="bg-[#0a1454]">
                                     <Link
-                                        href="/blogs"
+                                        href={localizedPath("/blogs")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
-                                        Articles
+                                        {dictionary?.nav?.articles || "Articles"}
                                     </Link>
 
                                     <Link
-                                        href="/premium-b2b-diamond-supplier-belgium"
+                                        href={localizedPath("/premium-b2b-diamond-supplier-belgium")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
-                                        Premium B2B Diamond Supplier in Belgium
+                                        {dictionary?.nav?.articleB2b || "Premium B2B Diamond Supplier in Belgium"}
                                     </Link>
 
                                     <Link
-                                        href="/sell-your-diamond-safely"
+                                        href={localizedPath("/sell-your-diamond-safely")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
-                                        Sell Your Diamond Safely
+                                        {dictionary?.nav?.articleSell || "Sell Your Diamond Safely"}
                                     </Link>
 
                                     <Link
-                                        href="/elongated-cushion-cut-diamond-guide"
+                                        href={localizedPath("/elongated-cushion-cut-diamond-guide")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
-                                        Elongated Cushion Cut Diamond Guide
+                                        {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
                                     </Link>
                                 </div>
                             )}
@@ -260,7 +267,7 @@ export default function MobileHeader() {
 
                         {/* Right Side Buttons - Same as desktop (RIGHT SIDE) */}
                         <Link
-                            href="/contact"
+                            href={localizedPath("/contact")}
                             onClick={closeMobileMenu}
                             className="block px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors border-b border-gray-700"
                         >
@@ -274,14 +281,14 @@ export default function MobileHeader() {
                         ) : !isLoggedIn ? (
                             <>
                                 <Link
-                                    href="/login"
+                                    href={localizedPath("/login")}
                                     onClick={closeMobileMenu}
                                     className="block px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors border-b border-gray-700"
                                 >
                                     Login
                                 </Link>
                                 <Link
-                                    href="/register"
+                                    href={localizedPath("/register")}
                                     onClick={closeMobileMenu}
                                     className="block px-4 py-3 text-white hover:bg-[#c89e3a]/10 transition-colors border-b border-gray-700"
                                 >
@@ -312,14 +319,14 @@ export default function MobileHeader() {
                                         {isUserPanelOpen && (
                                             <div className="bg-[#0a1454]">
                                                 <Link
-                                                    href="/dashboard"
+                                                    href={localizedPath("/dashboard")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     Dashboard
                                                 </Link>
                                                 <Link
-                                                    href="/enquiry"
+                                                    href={localizedPath("/enquiry")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
@@ -343,7 +350,7 @@ export default function MobileHeader() {
                                             );
                                         }
                                         if (isInventoryAccessible) {
-                                            router.push("/inventory");
+                                            router.push(localizedPath("/inventory"));
                                             closeMobileMenu();
                                         } else {
                                             e.preventDefault();
@@ -386,42 +393,42 @@ export default function MobileHeader() {
                                         {isAdminPanelOpen && (
                                             <div className="bg-[#0a1454]">
                                                 <Link
-                                                    href="/inventory-management"
+                                                    href={localizedPath("/inventory-management")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     Inventory & Suppliers
                                                 </Link>
                                                 <Link
-                                                    href="/member"
+                                                    href={localizedPath("/member")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     Members
                                                 </Link>
                                                 <Link
-                                                    href="/customer-management"
+                                                    href={localizedPath("/customer-management")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     Customer Management
                                                 </Link>
                                                 <Link
-                                                    href="/buy-form"
+                                                    href={localizedPath("/buy-form")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     Buy Form Submissions
                                                 </Link>
                                                 <Link
-                                                    href="/spec-requests"
+                                                    href={localizedPath("/spec-requests")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
                                                     DS4U Form Submisssions
                                                 </Link>
                                                 <Link
-                                                    href="/limitedEdition"
+                                                    href={localizedPath("/limitedEdition")}
                                                     onClick={closeMobileMenu}
                                                     className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                                 >
@@ -429,7 +436,7 @@ export default function MobileHeader() {
                                                 </Link>
                                                 {userRole === "SUPER_ADMIN" && (
                                                     <Link
-                                                        href="/create-admin"
+                                                        href={localizedPath("/create-admin")}
                                                         onClick={
                                                             closeMobileMenu
                                                         }
