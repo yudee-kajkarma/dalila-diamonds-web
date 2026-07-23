@@ -20,8 +20,13 @@ const jost = Jost({
 });
 /** AboutDalila Section **/
 export default function AboutDalila() {
-   const { dictionary } = useLanguage();
+   const { locale, dictionary } = useLanguage();
    const router = useRouter();
+
+   const localizedPath = (path: string) => {
+       if (!locale || locale === "en") return path;
+       return `/${locale}${path}`;
+   };
   return (
     <div className={`bg-white py-12 md:py-16 lg:py-20 ${marcellus.className}`}>
       <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -55,7 +60,7 @@ export default function AboutDalila() {
               <AnimatedContainer direction="scale-out">
                 <button
                   className={`px-6 py-3 sm:px-8 sm:py-3.5 md:px-10 md:py-4 text-white font-bold text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 hover:shadow-2xl hover:scale-105 active:scale-95 cursor-pointer ${jost.className}`}
-                  style={{ backgroundColor: "#c89e3a" }}  onClick={() => router.push('/inventory')}
+                  style={{ backgroundColor: "#c89e3a" }}  onClick={() => router.push(localizedPath('/inventory'))}
                 >
                   {dictionary.common.learnMore}
                 </button>

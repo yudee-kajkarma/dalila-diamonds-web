@@ -78,7 +78,7 @@ export default function Header() {
                             {/* About us */}
                             <Link
                                 href={localizedPath("/aboutUs")}
-                                className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
+                                className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
                             >
                                 {dictionary?.nav?.aboutUs || "About us"}
                             </Link>
@@ -92,7 +92,7 @@ export default function Header() {
                                     onMouseLeave={() =>
                                         setIsServicesDropdownOpen(false)
                                     }
-                                    className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
+                                    className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
                                     {dictionary?.nav?.ourServices || "Our Services"}
                                     <ChevronDown
@@ -136,7 +136,7 @@ export default function Header() {
                             {/* Diamond Knowledge */}
                             <Link
                                 href={localizedPath("/diamondKnowledge")}
-                                className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
+                                className="py-3 px-1.5 xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap"
                             >
                                 {dictionary?.nav?.diamondKnowledge || "Diamond Knowledge"}
                             </Link>
@@ -150,7 +150,7 @@ export default function Header() {
                                     onMouseLeave={() =>
                                         setIsResourcesDropdownOpen(false)
                                     }
-                                    className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-base text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
+                                    className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
                                     {dictionary?.nav?.resources || "Resources"}
                                     <ChevronDown
@@ -277,8 +277,8 @@ export default function Header() {
                         </nav>
 
                         <div
-                            className="flex-shrink-0 relative h-24 w-[280px] sm:h-28 sm:w-[320px] md:h-32 md:w-[360px]"
-                            style={{ minWidth: 180, maxWidth: 400 }}
+                            className="flex-shrink-0 relative h-16 w-[280px] xl:h-20 xl:w-[340px]"
+                            style={{ minWidth: 240, maxWidth: 350 }}
                         >
                             <button
                                 onClick={() => router.push(localizedPath("/"))}
@@ -295,11 +295,11 @@ export default function Header() {
                             </button>
                         </div>
 
-                        <div className="flex items-center justify-end gap-2 xl:gap-3 flex-1">
+                        <div className="flex items-center justify-end gap-1.5 xl:gap-2.5 flex-1">
                             {/* Contact Us Button - Always visible */}
                             <button
                                 onClick={() => router.push(localizedPath("/contact"))}
-                                className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
+                                className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase font-medium"
                             >
                                 {dictionary?.nav?.contactUs || "CONTACT US"}
                             </button>
@@ -314,19 +314,19 @@ export default function Header() {
                                         onClick={() =>
                                             router.push(localizedPath("/inventory"))
                                         }
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
+                                        className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase font-medium"
                                     >
                                         {dictionary?.nav?.inventory || "INVENTORY"}
                                     </button>
                                     <button
                                         onClick={() => router.push(localizedPath("/login"))}
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
+                                        className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase font-medium"
                                     >
                                         {dictionary?.nav?.login || "LOGIN"}
                                     </button>
                                     <button
                                         onClick={() => router.push(localizedPath("/register"))}
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase"
+                                        className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer uppercase font-medium"
                                     >
                                         {dictionary?.nav?.register || "REGISTER"}
                                     </button>
@@ -343,7 +343,7 @@ export default function Header() {
                                                 onMouseLeave={() =>
                                                     setIsUserDropdownOpen(false)
                                                 }
-                                                className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap flex items-center justify-center gap-1"
+                                                className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap flex items-center justify-center gap-1 font-medium"
                                             >
                                                 USER PANEL
                                                 <ChevronDown
@@ -407,7 +407,7 @@ export default function Header() {
                                             }
                                         }}
                                         disabled={!isInventoryAccessible}
-                                        className={`py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm border border-[#c89e3a] transition-colors whitespace-nowrap ${
+                                        className={`py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs border border-[#c89e3a] transition-colors whitespace-nowrap font-medium ${
                                             isInventoryAccessible
                                                 ? "text-white hover:bg-[#c89e3a] hover:text-white cursor-pointer"
                                                 : "text-gray-400 bg-gray-700 cursor-not-allowed opacity-60"
@@ -433,7 +433,7 @@ export default function Header() {
                                                         false,
                                                     )
                                                 }
-                                                className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap flex items-center justify-center gap-1"
+                                                className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap flex items-center justify-center gap-1 font-medium"
                                             >
                                                 ADMIN PANEL
                                                 <ChevronDown
@@ -508,7 +508,7 @@ export default function Header() {
 
                                     <button
                                         onClick={handleLogout}
-                                        className="py-3 px-3 xl:px-4 xl:py-2.5 xl:h-10 text-xs xl:text-sm text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer"
+                                        className="py-1.5 px-2 xl:px-2.5 xl:py-2 xl:h-9 text-[10px] xl:text-xs text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap cursor-pointer font-medium"
                                     >
                                         LOGOUT
                                     </button>

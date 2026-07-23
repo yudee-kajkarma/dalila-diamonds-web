@@ -21,8 +21,12 @@ const jost = Jost({
 });
 
 export default function BookComponent() {
-    const { dictionary } = useLanguage();
+    const { locale, dictionary } = useLanguage();
     const router = useRouter();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
@@ -63,7 +67,7 @@ export default function BookComponent() {
                         <AnimatedContainer direction="up">
                             <button
                                 className={`py-2 px-4 md:py-2.5 md:px-5 lg:px-6 text-xs sm:text-sm lg:text-base text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer whitespace-nowrap w-fit ${jost.className}`}
-                                onClick={() => router.push("/inventory")}
+                                onClick={() => router.push(localizedPath("/inventory"))}
                             >
                                 {dictionary?.home?.bookBtn || "BOOK NOW"}
                             </button>

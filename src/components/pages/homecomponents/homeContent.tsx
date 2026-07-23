@@ -19,8 +19,13 @@ const jost = Jost({
   preload: true,
 });
 export default function HomeContent() {
-    const { dictionary } = useLanguage();
+    const { locale, dictionary } = useLanguage();
     const router = useRouter();
+
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
 
     return (
         <div className="bg-white py-12 md:py-16 lg:py-24">
@@ -35,6 +40,7 @@ export default function HomeContent() {
                                     alt="Professional diamond dealer"
                                     fill
                                     className="object-cover"
+                                    priority
                                 />
                             </div>
                         </AnimatedContainer>
@@ -59,7 +65,7 @@ export default function HomeContent() {
 
                             <GoldButton
                                 text={dictionary?.home?.sellBtn || "Sell Now"}
-                                onClick={() => router.push("/sud")}
+                                onClick={() => router.push(localizedPath("/sud"))}
                             />
                         </div>
                     </div>
@@ -86,7 +92,7 @@ export default function HomeContent() {
 
                             <GoldButton
                                 text={dictionary?.home?.langBtn || "Explore More"}
-                                onClick={() => router.push("/inventory")}
+                                onClick={() => router.push(localizedPath("/inventory"))}
                             />
                         </div>
                     </div>
