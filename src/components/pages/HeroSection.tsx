@@ -6,12 +6,17 @@ import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function HeroSection() {
-    const { dictionary } = useLanguage();
+    const { locale, dictionary } = useLanguage();
     // All hooks must be called unconditionally and in the same order
     const [isMobile, setIsMobile] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(1);
     const [isTransitioning, setIsTransitioning] = useState(true);
     const router = useRouter();
+
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
 
     useEffect(() => {
         // Check if window is mobile size
@@ -91,7 +96,7 @@ export default function HeroSection() {
     };
 
     const handleExploreClick = (link: string) => {
-        router.push(link);
+        router.push(localizedPath(link));
     };
 
     const getButtonPositionClasses = (position: string, slideIndex: number) => {
