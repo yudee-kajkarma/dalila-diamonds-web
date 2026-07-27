@@ -15,6 +15,8 @@ import { Playfair_Display } from "next/font/google";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
+import { useLanguage } from "@/context/LanguageContext";
+import { getAuthText } from "@/lib/i18n/authTranslations";
 
 const playFair = Playfair_Display({
     subsets: ["latin"],
@@ -22,6 +24,32 @@ const playFair = Playfair_Display({
 });
 
 export default function RegisterPage() {
+    const { locale, dictionary } = useLanguage();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
+
+    const handleRequiredInput = (el: HTMLInputElement | null) => {
+        if (!el) return;
+        if (!el.value) {
+            el.setCustomValidity(getAuthText("fillField", locale));
+        } else {
+            el.setCustomValidity("");
+        }
+    };
+
+    const handleEmailInput = (el: HTMLInputElement | null) => {
+        if (!el) return;
+        if (!el.value) {
+            el.setCustomValidity(getAuthText("fillField", locale));
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value)) {
+            el.setCustomValidity(getAuthText("enterEmail", locale));
+        } else {
+            el.setCustomValidity("");
+        }
+    };
+
     const [firstName, setFirstName] = useState<string>("");
     const [lastName, setLastName] = useState<string>("");
     const [username, setUsername] = useState<string>("");
@@ -43,60 +71,58 @@ export default function RegisterPage() {
 
         // Check all fields are filled
         if (!firstName.trim()) {
-            setError("First name is required");
+            setError(dictionary?.auth?.firstNameRequired || "First name is required");
             return false;
         }
 
         if (!lastName.trim()) {
-            setError("Last name is required");
+            setError(dictionary?.auth?.lastNameRequired || "Last name is required");
             return false;
         }
 
         if (!username.trim()) {
-            setError("Username is required");
+            setError(dictionary?.auth?.usernameRequired || "Username is required");
             return false;
         }
 
         // Username validation (alphanumeric and underscore only)
         const usernameRegex = /^[a-zA-Z0-9_]{3,20}$/;
         if (!usernameRegex.test(username)) {
-            setError(
-                "Username must be 3-20 characters (letters, numbers, underscore only)"
-            );
+            setError(getAuthText("usernameRule", locale));
             return false;
         }
 
         if (!email.trim()) {
-            setError("Email is required");
+            setError(dictionary?.auth?.emailRequired || "Email is required");
             return false;
         }
 
         if (!password.trim()) {
-            setError("Password is required");
+            setError(dictionary?.auth?.passwordRequired || "Password is required");
             return false;
         }
 
         if (!confirmPassword.trim()) {
-            setError("Please confirm your password");
+            setError(dictionary?.auth?.confirmPasswordRequired || "Please confirm your password");
             return false;
         }
 
         // Email validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
-            setError("Please enter a valid email address");
+            setError(dictionary?.auth?.validEmail || "Please enter a valid email address");
             return false;
         }
 
         // Password strength validation
         if (password.length < 8) {
-            setError("Password must be at least 8 characters long");
+            setError(dictionary?.auth?.passwordMinLength || "Password must be at least 8 characters long");
             return false;
         }
 
         // Check if passwords match
         if (password !== confirmPassword) {
-            setError("Passwords do not match");
+            setError(dictionary?.auth?.passwordsMatch || "Passwords do not match");
             return false;
         }
 
@@ -130,20 +156,17 @@ export default function RegisterPage() {
             if (response && response.success) {
                 console.log("Registration successful!", response);
 
-                setSuccess(
-                    "Registration successful! Redirecting to verify your email..."
-                );
+                setSuccess(getAuthText("regSuccess", locale));
 
                 // Navigate to OTP verification page after 1.5 seconds
                 setTimeout(() => {
                     router.push(
-                        `/verify-otp?email=${encodeURIComponent(email.trim())}`
+                        localizedPath(`/verify-otp?email=${encodeURIComponent(email.trim())}`)
                     );
                 }, 1500);
             } else {
                 setError(
-                    response?.message ||
-                        "Registration failed. Please try again."
+                    response?.message || getAuthText("regFailed", locale)
                 );
             }
         } catch (err: unknown) {
@@ -156,31 +179,23 @@ export default function RegisterPage() {
                     errorMessage.includes("already exists") ||
                     errorMessage.includes("already registered")
                 ) {
-                    setError(
-                        "This email is already registered. Please login instead."
-                    );
+                    setError(getAuthText("emailExists", locale));
                 } else if (errorMessage.includes("invalid email")) {
-                    setError("Please enter a valid email address.");
+                    setError(dictionary?.auth?.validEmail || "Please enter a valid email address.");
                 } else if (errorMessage.includes("password")) {
-                    setError(
-                        "Password does not meet requirements. Must be at least 8 characters."
-                    );
+                    setError(getAuthText("passNotMeet", locale));
                 } else if (
                     errorMessage.includes("network") ||
                     errorMessage.includes("fetch")
                 ) {
-                    setError(
-                        "Unable to connect to server. Please check your internet connection."
-                    );
+                    setError(getAuthText("netError", locale));
                 } else {
                     setError(
-                        errorMessage || "Registration failed. Please try again."
+                        errorMessage || getAuthText("regFailed", locale)
                     );
                 }
             } else {
-                setError(
-                    "Unable to connect to server. Please check your internet connection and try again."
-                );
+                setError(getAuthText("netErrorTry", locale));
             }
         } finally {
             setIsLoading(false);
@@ -237,13 +252,11 @@ export default function RegisterPage() {
                             <h2
                                 className={`text-4xl md:text-6xl mb-4 md:mb-7 font-light text-[#d4a018] text-center ${playFair.className}`}
                             >
-                                Join the Dalila Family
+                                {getAuthText("joinFamily", locale)}
                             </h2>
 
                             <p className="text-sm md:text-md mt-2 mb-8 font-normal opacity-90 text-center">
-                                Experience timeless diamond jewelry crafted with
-                                passion, precision, and trust. Begin your
-                                journey with Dalila today.
+                                {getAuthText("joinFamilySub", locale)}
                             </p>
                         </div>
 
@@ -270,12 +283,12 @@ export default function RegisterPage() {
                     <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8 md:py-0">
                         {/* Home Button */}
                         <button
-                            className="absolute top-4 md:top-6 right-4 md:right-6 bg-[#101638]/80 rounded-full p-2 shadow-md z-50 hover:bg-[#d4a018] transition-all duration-200 hover:scale-110 cursor-pointer"
+                            className="absolute top-4 md:top-6 right-4 md:right-6 bg-[#040825] rounded-full p-2 shadow-md z-50 hover:bg-[#d4a018] transition-all duration-200 hover:scale-110 cursor-pointer"
                             title="Home"
                             onClick={(e) => {
                                 e.preventDefault();
                                 e.stopPropagation();
-                                router.push("/");
+                                router.push(localizedPath("/"));
                             }}
                             type="button"
                         >
@@ -290,7 +303,7 @@ export default function RegisterPage() {
                             <h2
                                 className={`text-2xl md:text-3xl font-semibold text-white mb-6 text-center ${playFair.className}`}
                             >
-                                Create an Account
+                                {dictionary?.auth?.registerTitle || "Create an Account"}
                             </h2>
 
                             {/* Success Message */}
@@ -317,8 +330,10 @@ export default function RegisterPage() {
                                         setFirstName(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="First Name"
+                                    placeholder={dictionary?.auth?.firstName || "First Name"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="given-name"
                                 />
@@ -333,8 +348,10 @@ export default function RegisterPage() {
                                         setLastName(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Last Name"
+                                    placeholder={dictionary?.auth?.lastName || "Last Name"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="family-name"
                                 />
@@ -349,8 +366,10 @@ export default function RegisterPage() {
                                         setUsername(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Username"
+                                    placeholder={dictionary?.auth?.username || "Username"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="username"
                                     minLength={3}
@@ -365,8 +384,10 @@ export default function RegisterPage() {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     required
+                                    ref={handleEmailInput}
+                                    onInput={(e) => handleEmailInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Email Address"
+                                    placeholder={dictionary?.auth?.email || "Email Address"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="email"
                                 />
@@ -381,8 +402,10 @@ export default function RegisterPage() {
                                         setPassword(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Password (min 8 characters)"
+                                    placeholder={getAuthText("passwordMin", locale)}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="new-password"
                                 />
@@ -418,8 +441,10 @@ export default function RegisterPage() {
                                         setConfirmPassword(e.target.value)
                                     }
                                     required
+                                    ref={handleRequiredInput}
+                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
                                     disabled={isLoading}
-                                    placeholder="Confirm Password"
+                                    placeholder={dictionary?.auth?.confirmPassword || "Confirm Password"}
                                     className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                                     autoComplete="new-password"
                                 />
@@ -451,25 +476,25 @@ export default function RegisterPage() {
                                 {isLoading ? (
                                     <>
                                         <Loader2 className="w-5 h-5 animate-spin" />
-                                        <span>REGISTERING...</span>
+                                        <span>{getAuthText("registering", locale)}</span>
                                     </>
                                 ) : (
-                                    <span>REGISTER</span>
+                                    <span>{dictionary?.auth?.register || "REGISTER"}</span>
                                 )}
                             </button>
 
                             {/* Login Link */}
                             <div className="mt-6 text-center text-xs text-white">
-                                Already have an account?{" "}
+                                {dictionary?.auth?.alreadyAccount || "Already have an account?"}{" "}
                                 <a
                                     href="#"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        router.push("/login");
+                                        router.push(localizedPath("/login"));
                                     }}
                                     className="text-[#FFD166] font-semibold hover:text-yellow-400 hover:underline transition-colors"
                                 >
-                                    Login Here
+                                    {dictionary?.auth?.loginHere || "Login Here"}
                                 </a>
                             </div>
                         </form>

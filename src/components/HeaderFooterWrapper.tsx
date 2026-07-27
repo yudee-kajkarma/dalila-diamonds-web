@@ -19,7 +19,12 @@ export default function HeaderFooterWrapper({
      "/verify-otp",
   ];
 
-  const hideHeaderFooter = noHeaderFooterRoutes.includes(pathname);
+  // Remove locale prefix (e.g. /de/login -> /login)
+  const segments = pathname.split("/").filter(Boolean);
+  const isLocale = ["en", "de", "fr", "it", "nl", "es"].includes(segments[0]);
+  const cleanPath = "/" + (isLocale ? segments.slice(1).join("/") : segments.join("/"));
+
+  const hideHeaderFooter = noHeaderFooterRoutes.includes(cleanPath);
 
   return (
     <>

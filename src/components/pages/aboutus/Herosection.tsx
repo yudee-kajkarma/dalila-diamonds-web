@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -15,8 +17,9 @@ const jost = Jost({
   display: "swap",
 });
 
-/** AboutDalila Section **/
 export default function AboutHero() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6">
@@ -42,7 +45,7 @@ export default function AboutHero() {
                 className={`text-xs sm:text-base md:text-lg lg:text-xl font-normal text-white whitespace-nowrap tracking-wide ${marcellus.className}`}
                 style={{ minWidth: 'unset', minHeight: 'unset' }}
               >
-                ABOUT DALILA
+                {dictionary?.nav?.aboutUs || "ABOUT DALILA"}
               </h3>
             </div>
           </div>
@@ -54,7 +57,7 @@ export default function AboutHero() {
               <h3
                 className={`text-3xl md:text-4xl lg:text-5xl text-gray-800 leading-tight ${marcellus.className}`}
               >
-                Shape Brilliance into Timeless Value.
+                {dictionary?.about?.aboutHeroTitle || "Shape Brilliance into Timeless Value."}
               </h3>
             </AnimatedContainer>
 
@@ -63,13 +66,13 @@ export default function AboutHero() {
               <p
                 className={`text-gray-500 text-sm md:text-base leading-relaxed ${jost.className}`}
               >
-                At DALILA DIAMONDS, we believe diamonds represent more than beauty , they embody trust, innovation, and enduring luxury. As a leading name in the natural diamond industry, we collaborate with businesses and connoisseurs alike to deliver creations defined by precision, sustainability, and prestige. From refined wholesale offerings to bespoke masterpieces, every DALILA diamond is crafted to inspire confidence and redefine brilliance.
+                {dictionary?.about?.aboutHeroText1 || "At DALILA DIAMONDS, we believe diamonds represent more than beauty..."}
               </p>
 
               <p
                 className={`text-gray-500 text-sm md:text-base leading-relaxed ${jost.className}`}
               >
-                With a legacy spanning over five decades, our family has remained dedicated to the art and integrity of diamond craftsmanship. What began as a modest pursuit in Gujarat has grown into a respected international enterprise, celebrated for its unwavering commitment to excellence, authenticity, and ethical values.
+                {dictionary?.about?.aboutHeroText2 || "With a legacy spanning over five decades..."}
               </p>
             </AnimatedContainer>
           </div>

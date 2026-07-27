@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-
-
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -18,6 +18,8 @@ const jost = Jost({
 });
 
 export default function DiamondSourceshowcase() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
@@ -43,31 +45,31 @@ export default function DiamondSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal mb-4`}
                 >
-                  1. Share Your Requirements
+                  {dictionary?.ds4u?.step1Tag || "1. Share Your Requirements"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Tell Us What You Need
+                  {dictionary?.ds4u?.step1Title || "Tell Us What You Need"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-6 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Send us your full criteria including:
+                {dictionary?.ds4u?.step1Text || "Send us your full criteria including:"}
               </p>
               <ul className={`space-y-3 mb-8 ${jost.className}`}>
                 <li className="text-gray-600 text-[15px] md:text-base flex items-start">
                   <span className="mr-3 mt-1.5 inline-block w-2 h-2 rounded-full bg-[#606060]"></span>
-                  <span>Carat, color, clarity, cut/make</span>
+                  <span>{dictionary?.ds4u?.step1Bullet1 || "Carat, color, clarity, cut/make"}</span>
                 </li>
                 <li className="text-gray-600 text-[15px] md:text-base flex items-start">
                   <span className="mr-3 mt-1.5 inline-block w-2 h-2 rounded-full bg-[#606060]"></span>
-                  <span>Fluorescence preferences</span>
+                  <span>{dictionary?.ds4u?.step1Bullet2 || "Fluorescence preferences"}</span>
                 </li>
                 <li className="text-gray-600 text-[15px] md:text-base flex items-start">
                   <span className="mr-3 mt-1.5 inline-block w-2 h-2 rounded-full bg-[#606060]"></span>
-                  <span>Budget range</span>
+                  <span>{dictionary?.ds4u?.step1Bullet3 || "Budget range"}</span>
                 </li>
               </ul>
             </div>
@@ -96,18 +98,18 @@ export default function DiamondSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal`}
                 >
-                  2.EXPERT SEARCH
+                  {dictionary?.ds4u?.step2Tag || "2.EXPERT SEARCH"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className}`}
                 >
-                  We Source Through Our Global Network
+                  {dictionary?.ds4u?.step2Title || "We Source Through Our Global Network"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-               Our experts access an exclusive worldwide network to locate diamonds tailored to your exact specifications  including rare inventory unavailable on public platforms. This ensures you receive options beyond the ordinary.
+                {dictionary?.ds4u?.step2Text || "Our experts access an exclusive worldwide network..."}
               </p>
             </div>
           </div>
@@ -134,19 +136,18 @@ export default function DiamondSourceshowcase() {
                 <p
                   className={`text-sm sm:text-base md:text-lg tracking-[0.05em] uppercase ${marcellus.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent font-normal`}
                 >
-                  3. RECEIVE YOUR DIAMONDS
+                  {dictionary?.ds4u?.step3Tag || "3. RECEIVE YOUR DIAMONDS"}
                 </p>
                 <h2
                   className={`text-[2.75rem] md:text-5xl lg:text-[3.25rem] font-light mb-7 text-gray-900 leading-[1.15] tracking-tight ${marcellus.className} `}
                 >
-                  Fast & Secure <br />
-                  Delivery
+                  {dictionary?.ds4u?.step3Title || "Fast & Secure Delivery"}
                 </h2>
               </AnimatedContainer>
               <p
                 className={`text-gray-600 leading-relaxed mb-8 text-[15px] md:text-base font-normal ${jost.className}`}
               >
-                Weekly shipments from India ensure your diamonds reach you quickly and safely. Delivery within Belgium is included at no additional cost.
+                {dictionary?.ds4u?.step3Text || "Weekly shipments from India..."}
               </p>
             </div>
           </div>

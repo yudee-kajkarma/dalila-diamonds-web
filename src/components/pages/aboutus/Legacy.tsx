@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -19,7 +21,13 @@ const jost = Jost({
 
 export default function Legacy() {
   const videoRef = useRef<HTMLVideoElement>(null);
-   const router = useRouter();
+  const router = useRouter();
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
+
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.play().catch((error) => {
@@ -43,31 +51,26 @@ export default function Legacy() {
               <h1
                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-3 md:mb-4 leading-tight ${marcellus.className}`}
               >
-                Our Legacy
+                {dictionary?.about?.legacyTitle || "Our Legacy"}
               </h1>
             </AnimatedContainer>
             <AnimatedContainer direction="up" delay={0.5}>
               <p
                 className={`text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed mb-3 md:mb-4 ${jost.className}`}
               >
-                Since 2007, Mr. Shreyas Gandhi has been based in Antwerp, the
-                world&apos;s diamond capital, further strengthening our presence
-                in Europe. From this strategic hub, we continue to serve
-                distinguished clients across Germany, the Netherlands, Italy,
-                Belgium, the United States, Hong Kong, China, and beyond.
+                {dictionary?.about?.legacyText1 || "Since 2007, Mr. Shreyas Gandhi has been based in Antwerp..."}
               </p>
               <p
                 className={`text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed mb-4 md:mb-6 ${jost.className}`}
               >
-                Our guiding principles remain unchanged: an unwavering commitment to quality, integrity in every transaction, 
-                and a passion for building enduring relationships across the global diamond community.
+                {dictionary?.about?.legacyText2 || "Our guiding principles remain unchanged..."}
               </p>
             </AnimatedContainer>
             <button
-             onClick={() => router.push('/contact')}
+              onClick={() => router.push(localizedPath("/contact"))}
               className={`py-2 px-4 md:py-2.5 md:px-5 lg:px-6 text-xs sm:text-sm cursor-pointer lg:text-base text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors whitespace-nowrap w-fit ${jost.className}`}
             >
-              CONTACT
+              {dictionary?.about?.contactBtn || "CONTACT"}
             </button>
           </div>
 

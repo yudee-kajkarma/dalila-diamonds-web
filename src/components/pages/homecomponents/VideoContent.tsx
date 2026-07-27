@@ -2,6 +2,7 @@
 import { useRef, useEffect, useState } from "react";
 
 import { Marcellus, Jost } from "next/font/google";
+import { useLanguage } from "@/context/LanguageContext";
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -15,6 +16,7 @@ const jost = Jost({
     preload: true,
 });
 export default function VideoContent() {
+    const { dictionary } = useLanguage();
     const videoRef = useRef<HTMLVideoElement>(null);
     const [videoError, setVideoError] = useState(false);
 
@@ -75,13 +77,12 @@ export default function VideoContent() {
                     <h5
                         className={`text-white/90 text-xs sm:text-sm md:text-base tracking-widest mb-4 sm:mb-6 font-light ${jost.className}`}
                     >
-                        A LEGACY OF REFINEMENT, SHAPED TO PERFECTION
+                        {dictionary?.home?.legacyTagline || "A LEGACY OF REFINEMENT, SHAPED TO PERFECTION"}
                     </h5>
                     <h2
                         className={`text-xl sm:text-3xl md:text-4xl lg:text-6xl text-white leading-tight tracking-wide font-light ${marcellus.className}`}
                     >
-                        Every diamond, delicately refined through skill &
-                        crafted by the hands of true perfectionists.
+                        {dictionary?.home?.legacyTitle || "Every diamond, delicately refined through skill & crafted by the hands of true perfectionists."}
                     </h2>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { Marcellus } from "next/font/google";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -10,6 +11,7 @@ const marcellus = Marcellus({
 });
 
 export default function DiamondExperience() {
+  const { dictionary } = useLanguage();
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
@@ -81,12 +83,12 @@ export default function DiamondExperience() {
               <h6
                 className={`text-3xl md:text-4xl max-sm:text-center font-light leading-tight text-blue-600 ${marcellus.className}`}
               >
-                50+ years of family expertise
+                {dictionary?.home?.expLine1 || "50+ years of family expertise"}
               </h6>
               <p
                 className={`text-2xl md:text-3xl text-gray-800 font-light max-sm:text-center ${marcellus.className}`}
               >
-                in the diamond business.
+                {dictionary?.home?.expLine2 || "in the diamond business."}
               </p>
             </div>
           </AnimatedContainer>

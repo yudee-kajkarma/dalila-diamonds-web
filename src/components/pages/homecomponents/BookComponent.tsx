@@ -5,6 +5,8 @@ import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -19,7 +21,12 @@ const jost = Jost({
 });
 
 export default function BookComponent() {
+    const { locale, dictionary } = useLanguage();
     const router = useRouter();
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
@@ -33,10 +40,10 @@ export default function BookComponent() {
     return (
         <div className="bg-gradient-to-b from-gray-50 to-white py-12 md:py-16 lg:py-20">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-center max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-stretch max-w-7xl mx-auto">
                     {/* Left Content Section */}
                     <div
-                        className="p-6 sm:p-8 md:p-10 lg:p-12 shadow-2xl flex flex-col justify-center h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px]"
+                        className="p-6 sm:p-8 md:p-10 lg:p-12 shadow-2xl flex flex-col justify-center min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[450px] py-8 md:py-10 h-full"
                         style={{
                             background:
                                 "linear-gradient(to right, #050c3a 0%, #050c3a 100%)",
@@ -46,7 +53,7 @@ export default function BookComponent() {
                             <h2
                                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-3 md:mb-4 leading-tight ${marcellus.className}`}
                             >
-                                From Classic Cuts to Rare Shapes, We Have It All
+                                {dictionary?.home?.bookTitle || "From Classic Cuts to Rare Shapes, We Have It All"}
                             </h2>
                         </AnimatedContainer>
 
@@ -54,27 +61,21 @@ export default function BookComponent() {
                             <p
                                 className={`text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed mb-4 md:mb-6 ${jost.className}`}
                             >
-                                At Dalila, every diamond tells a story of
-                                unmatched brilliance. From timeless classics to
-                                unique heart-shaped treasures, our collection
-                                reflects elegance and perfection. Each piece is
-                                crafted with care, ensuring beauty, rarity, and
-                                everlasting value. Experience luxury beyond
-                                imagination with us.
+                                {dictionary?.home?.bookBody || "At Dalila, every diamond tells a story of unmatched brilliance. From timeless classics to unique heart-shaped treasures, our collection reflects elegance and perfection. Each piece is crafted with care, ensuring beauty, rarity, and everlasting value. Experience luxury beyond imagination with us."}
                             </p>
                         </AnimatedContainer>
                         <AnimatedContainer direction="up">
                             <button
                                 className={`py-2 px-4 md:py-2.5 md:px-5 lg:px-6 text-xs sm:text-sm lg:text-base text-white border border-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer whitespace-nowrap w-fit ${jost.className}`}
-                                onClick={() => router.push("/inventory")}
+                                onClick={() => router.push(localizedPath("/inventory"))}
                             >
-                                BOOK NOW
+                                {dictionary?.home?.bookBtn || "BOOK NOW"}
                             </button>
                         </AnimatedContainer>
                     </div>
 
                     {/* Right Video Section */}
-                    <div className="relative overflow-hidden shadow-2xl h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px]">
+                    <div className="relative overflow-hidden shadow-2xl min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[450px] h-full">
                         <video
                             ref={videoRef}
                             className="absolute inset-0 w-full h-full object-cover"

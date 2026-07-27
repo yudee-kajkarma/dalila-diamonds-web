@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -18,6 +20,8 @@ const jost = Jost({
 
 /** AboutDalila Section **/
 export default function Webuyhero() {
+    const { dictionary } = useLanguage();
+
     return (
         <div className="bg-white py-12 md:py-16 lg:py-20">
             <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -41,24 +45,17 @@ export default function Webuyhero() {
                             <h3
                                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 leading-tight ${marcellus.className}`}
                             >
-                                Sell Your Diamonds Safely and Seamlessly at
-                                Dalila DIAMONDS
+                                {dictionary?.sud?.heroTitle || "Sell Your Diamonds Safely and Seamlessly at Dalila DIAMONDS"}
                             </h3>
                         </AnimatedContainer>
                         <h6
                             className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight ${jost.className} bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent`}
                         >
-                            In 5 easy steps
+                            {dictionary?.sud?.heroSubtitle || "In 5 easy steps"}
                         </h6>
                         <AnimatedContainer direction="up" delay={0.5}>
                             <p className="text-gray-500 text-xs sm:text-sm md:text-base leading-relaxed">
-                                Selling your diamond or fine jewellery should be
-                                a secure, seamless and rewarding experience. At
-                                Dalila DIAMONDS, we provide a transparent and
-                                hassle-free process you can trust. Whether
-                                you’re selling a single diamond or an entire
-                                collection, we handle every piece with care and
-                                professionalism. Here’s how the process works.
+                                {dictionary?.sud?.heroText || "Selling your diamond or fine jewellery should be a secure, seamless and rewarding experience. At Dalila DIAMONDS, we provide a transparent and hassle-free process you can trust. Whether you’re selling a single diamond or an entire collection, we handle every piece with care and professionalism. Here’s how the process works."}
                             </p>
                         </AnimatedContainer>
                     </div>

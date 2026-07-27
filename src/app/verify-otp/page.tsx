@@ -6,6 +6,8 @@ import { Playfair_Display } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
+import { useLanguage } from "@/context/LanguageContext";
+import { getAuthText } from "@/lib/i18n/authTranslations";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -14,6 +16,12 @@ const playFair = Playfair_Display({
 
 // Separate component that uses useSearchParams
 function OTPVerificationContent() {
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
+
   const router = useRouter();
   const searchParams = useSearchParams();
   const [email, setEmail] = useState<string>("");
@@ -33,9 +41,9 @@ function OTPVerificationContent() {
       setEmail(emailParam);
     } else {
       // If no email in params, redirect to register
-      router.push("/register");
+      router.push(localizedPath("/register"));
     }
-  }, [searchParams, router]);
+  }, [searchParams, router, locale]);
 
   // Countdown timer for resend OTP
   useEffect(() => {
@@ -88,7 +96,11 @@ function OTPVerificationContent() {
     // Validate OTP
     const otpString = otp.join("");
     if (otpString.length !== 4) {
-      setError("Please enter the complete 4-digit OTP");
+      setError(
+        locale === "de"
+          ? "Bitte geben Sie den vollständigen 4-stelligen OTP-Code ein"
+          : "Please enter the complete 4-digit OTP"
+      );
       return;
     }
 
@@ -107,15 +119,24 @@ function OTPVerificationContent() {
       if (response && response.success) {
         console.log("OTP verified successfully!", response);
 
-        setSuccess("Email verified successfully! Redirecting...");
+        setSuccess(
+          locale === "de"
+            ? "E-Mail erfolgreich verifiziert! Weiterleitung..."
+            : "Email verified successfully! Redirecting..."
+        );
 
         // After OTP verification, redirect to customer details page
         // The customer will need to fill this form before being able to login
         setTimeout(() => {
-          router.push(`/customer-details?email=${encodeURIComponent(email)}`);
+          router.push(localizedPath(`/customer-details?email=${encodeURIComponent(email)}`));
         }, 2000);
       } else {
-        setError(response?.message || "Invalid OTP. Please try again.");
+        setError(
+          response?.message || 
+            (locale === "de"
+              ? "Ungültiger OTP-Code. Bitte versuchen Sie es erneut."
+              : "Invalid OTP. Please try again.")
+        );
       }
     } catch (err: unknown) {
       console.error("OTP verification error:", err);
@@ -124,24 +145,43 @@ function OTPVerificationContent() {
         const errorMessage = err.message;
 
         if (errorMessage.includes("expired")) {
-          setError("OTP has expired. Please request a new one.");
+          setError(
+            locale === "de"
+              ? "Der OTP-Code ist abgelaufen. Bitte fordern Sie einen neuen an."
+              : "OTP has expired. Please request a new one."
+          );
         } else if (
           errorMessage.includes("invalid") ||
           errorMessage.includes("incorrect")
         ) {
-          setError("Invalid OTP. Please check and try again.");
+          setError(
+            locale === "de"
+              ? "Ungültiger OTP-Code. Bitte überprüfen Sie ihn und versuchen Sie es erneut."
+              : "Invalid OTP. Please check and try again."
+          );
         } else if (
           errorMessage.includes("network") ||
           errorMessage.includes("fetch")
         ) {
           setError(
-            "Unable to connect to server. Please check your internet connection.",
+            locale === "de"
+              ? "Verbindung zum Server fehlgeschlagen. Bitte überprüfen Sie Ihre Internetverbindung."
+              : "Unable to connect to server. Please check your internet connection."
           );
         } else {
-          setError(errorMessage || "Verification failed. Please try again.");
+          setError(
+            errorMessage || 
+              (locale === "de"
+                ? "Verifizierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+                : "Verification failed. Please try again.")
+          );
         }
       } else {
-        setError("Unable to connect to server. Please try again.");
+        setError(
+          locale === "de"
+            ? "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut."
+            : "Unable to connect to server. Please try again."
+        );
       }
     } finally {
       setIsLoading(false);
@@ -178,7 +218,7 @@ function OTPVerificationContent() {
             <div>
               <div className="flex flex-col items-center text-center">
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
-                  <div className="relative w-[250px] md:w-[300px] h-[80px] md:h-[100px]">
+                  <div className="relative w-[250px] md:w-[300px] h-20 md:h-[100px]">
                     <Image
                       src="/dalila_img/Dalila_Logo.png"
                       alt="Dalila Diamonds"
@@ -192,23 +232,22 @@ function OTPVerificationContent() {
               <h2
                 className={`text-4xl md:text-6xl mb-4 md:mb-7 font-light text-[#d4a018] text-center ${playFair.className}`}
               >
-                Verify Your Email
+                {getAuthText("verifyEmailTitle", locale)}
               </h2>
 
               <p className="text-sm md:text-md mt-2 mb-8 font-normal opacity-90 text-center">
-                We&apos;ve sent a 4-digit verification code to your email
-                address. Please enter it below to complete your registration.
+                {getAuthText("verifyEmailDesc", locale)}
               </p>
             </div>
 
             {/* Email Display */}
             <div className="mt-2 mb-10 md:mb-20 space-y-2 text-sm opacity-90">
               <div className="flex items-center justify-center gap-2">
-                <Mail className="text-[#FFD166] w-4 h-4 flex-shrink-0" />
+                <Mail className="text-[#FFD166] w-4 h-4 shrink-0" />
                 <span className="text-[#FFD166] font-semibold">{email}</span>
               </div>
               <p className="text-xs text-center opacity-75">
-                Didn&apos;t receive the code? Check your spam folder
+                {getAuthText("checkSpam", locale)}
               </p>
             </div>
           </div>
@@ -218,17 +257,17 @@ function OTPVerificationContent() {
             {/* Navigation Buttons */}
             <div className="absolute top-4 md:top-6 right-4 md:right-6 flex gap-2 z-10">
               <button
-                className="bg-[#101638]/80 rounded-full p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
-                title="Back to Register"
-                onClick={() => router.push("/register")}
+                className="bg-[#040825] rounded-full p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
+                title={locale === "de" ? "Zurück zur Registrierung" : "Back to Register"}
+                onClick={() => router.push(localizedPath("/register"))}
                 type="button"
               >
                 <ArrowLeft className="w-5 h-5 text-white" />
               </button>
               <button
-                className="bg-[#101638]/80 rounded-full cursor-pointer p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
+                className="bg-[#040825] rounded-full cursor-pointer p-2 shadow-md hover:bg-[#d4a018] transition-all duration-200 hover:scale-110"
                 title="Home"
-                onClick={() => router.push("/")}
+                onClick={() => router.push(localizedPath("/"))}
                 type="button"
               >
                 <Home className="w-5 h-5 text-white" />
@@ -243,7 +282,7 @@ function OTPVerificationContent() {
               <h2
                 className={`text-2xl md:text-3xl font-semibold text-white mb-6 text-center ${playFair.className}`}
               >
-                Enter Verification Code
+                {locale === "de" ? "Verifizierungscode eingeben" : "Enter Verification Code"}
               </h2>
 
               {/* Success Message */}
@@ -294,10 +333,10 @@ function OTPVerificationContent() {
                 {isLoading ? (
                   <>
                     <Loader2 className="w-5 h-5 animate-spin" />
-                    <span>VERIFYING...</span>
+                    <span>{locale === "de" ? "WIRD VERIFIZIERT..." : "VERIFYING..."}</span>
                   </>
                 ) : (
-                  <span>VERIFY EMAIL</span>
+                  <span>{locale === "de" ? "E-MAIL VERIFIZIEREN" : "VERIFY EMAIL"}</span>
                 )}
               </button>
 

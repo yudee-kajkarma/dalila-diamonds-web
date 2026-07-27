@@ -6,11 +6,18 @@ import { FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
+    const { locale, dictionary } = useLanguage();
     const [isVisible, setIsVisible] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const router = useRouter();
+
+    const localizedPath = (path: string) => {
+        if (!locale || locale === "en") return path;
+        return `/${locale}${path}`;
+    };
 
     useEffect(() => {
         const toggleVisibility = () => {
@@ -27,19 +34,19 @@ export default function Footer() {
     }, []);
 
     const quickLinks = [
-        { name: "Home", href: "/" },
-        { name: "Diamond Knowledge", href: "/diamondKnowledge" },
-        { name: "Contact", href: "/contact" },
+        { name: dictionary?.nav?.home || "Home", href: "/" },
+        { name: dictionary?.nav?.diamondKnowledge || "Diamond Knowledge", href: "/diamondKnowledge" },
+        { name: dictionary?.nav?.contactUs || "Contact", href: "/contact" },
     ];
 
     const serviceLinks = [
-        { name: "S2S - Secure To Source", href: "/secure-to-source" },
-        { name: "DS4U - Diamond Source For You", href: "/diamond-source" },
-        { name: "SYD - Sell Your Diamonds", href: "/sud" },
+        { name: dictionary?.nav?.s2s || "S2S - Secure To Source", href: "/secure-to-source" },
+        { name: dictionary?.nav?.ds4u || "DS4U - Diamond Source For You", href: "/diamond-source" },
+        { name: dictionary?.nav?.syd || "SYD - Sell Your Diamonds", href: "/sud" },
     ];
 
     const handleNavigation = (href: string) => {
-        router.push(href);
+        router.push(localizedPath(href));
     };
 
     return (
@@ -72,7 +79,7 @@ export default function Footer() {
                             </div>
                             {/* Address */}
                             <div className="flex flex-col items-center justify-center">
-                                <h4 className="text-base font-medium mb-2">Address</h4>
+                                <h4 className="text-base font-medium mb-2">{dictionary?.footer?.address || "Address"}</h4>
                                 <div className="text-white/70 space-y-1 text-center">
                                     <p className="font-medium text-white">Dalila Diamonds</p>
                                     <p>Shreyas D. Gandhi</p>
@@ -86,7 +93,7 @@ export default function Footer() {
                         <div className="mt-8 grid grid-cols-2 gap-6">
                             {/* Quick Links */}
                             <div>
-                                <h4 className="text-base font-medium mb-2">Quick Links</h4>
+                                <h4 className="text-base font-medium mb-2">{dictionary?.footer?.quickLinks || "Quick Links"}</h4>
                                 <ul className="space-y-2">
                                     {quickLinks.map((link) => (
                                         <li key={link.name}>
@@ -104,7 +111,7 @@ export default function Footer() {
                                             onClick={() => setIsServicesOpen(!isServicesOpen)}
                                             className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer text-sm"
                                         >
-                                            Our Services
+                                            {dictionary?.footer?.ourServices || "Our Services"}
                                             <ChevronDown
                                                 size={14}
                                                 className={`transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`}
@@ -129,13 +136,13 @@ export default function Footer() {
                             </div>
                             {/* Contact Us */}
                             <div>
-                                <h4 className="text-base font-medium mb-2">Contact Us</h4>
+                                <h4 className="text-base font-medium mb-2">{dictionary?.footer?.contact || "Contact Us"}</h4>
                                 <div className="space-y-2 text-white/70 text-sm">
                                     <p>
-                                        <span className="text-white/90 font-medium">Landline:</span> +32 3 613 94 74
+                                        <span className="text-white/90 font-medium">{dictionary?.footer?.landline || "Landline"}:</span> +32 3 613 94 74
                                     </p>
                                     <p>
-                                        <span className="text-white/90 font-medium">Phone:</span> +32 487 93 93 51
+                                        <span className="text-white/90 font-medium">{dictionary?.footer?.phone || "Phone"}:</span> +32 487 93 93 51
                                     </p>
                                     <p>business@daliladiamonds.com</p>
                                 </div>
@@ -172,7 +179,7 @@ export default function Footer() {
                             {/* Address Column */}
                             <div>
                                 <h4 className="text-lg font-medium mb-6">
-                                    Address
+                                    {dictionary?.footer?.address || "Address"}
                                 </h4>
                                 <div className="text-white/70 space-y-2">
                                     <p className="font-medium text-white">
@@ -188,7 +195,7 @@ export default function Footer() {
                             {/* Quick Links Column */}
                             <div>
                                 <h4 className="text-lg font-medium mb-6">
-                                    Quick Links
+                                    {dictionary?.footer?.quickLinks || "Quick Links"}
                                 </h4>
                                 <ul className="space-y-3">
                                     {quickLinks.map((link) => (
@@ -212,7 +219,7 @@ export default function Footer() {
                                             }
                                             className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer"
                                         >
-                                            Our Services
+                                            {dictionary?.footer?.ourServices || "Our Services"}
                                             <ChevronDown
                                                 size={16}
                                                 className={`transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`}
@@ -244,14 +251,14 @@ export default function Footer() {
                             {/* Contact Us Column */}
                             <div>
                                 <h4 className="text-lg font-medium mb-6">
-                                    Contact Us
+                                    {dictionary?.footer?.contact || "Contact Us"}
                                 </h4>
                                 <div className="space-y-3 text-white/70">
                                     <p>
-                                        <span className="text-white/90 font-medium">Landline:</span> +32 3 613 94 74
+                                        <span className="text-white/90 font-medium">{dictionary?.footer?.landline || "Landline"}:</span> +32 3 613 94 74
                                     </p>
                                     <p>
-                                        <span className="text-white/90 font-medium">Phone:</span> +32 487 93 93 51
+                                        <span className="text-white/90 font-medium">{dictionary?.footer?.phone || "Phone"}:</span> +32 487 93 93 51
                                     </p>
                                     <p>business@daliladiamonds.com</p>
                                 </div>
@@ -265,7 +272,7 @@ export default function Footer() {
             <div className="py-6">
                 <div className="container mx-auto px-6">
                     <p className="text-center text-white/60 text-sm">
-                        Copyright 2025 - Dalila | All Rights Reserved | Powered
+                        Copyright 2025 - Dalila | {dictionary.footer.allRightsReserved} | Powered
                         by Keval Ai
                     </p>
                 </div>

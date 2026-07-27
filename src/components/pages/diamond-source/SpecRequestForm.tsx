@@ -6,6 +6,7 @@ import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { diamondApi } from "@/lib/api";
 import toast from "react-hot-toast";
 import { Upload, X } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -65,6 +66,7 @@ export default function SpecRequestForm() {
   const [imagePreview, setImagePreview] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { dictionary } = useLanguage();
 
   const handleChange = (field: keyof SpecFormData, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -88,7 +90,7 @@ export default function SpecRequestForm() {
     e.preventDefault();
 
     if (!form.SHAPE || !form.COLOR || !form.CLARITY || !form.CARATS) {
-      toast.error("Please fill in Shape, Color, Clarity, and Carats");
+      toast.error(dictionary?.ds4u?.errRequired || "Please fill in Shape, Color, Clarity, and Carats");
       return;
     }
 
@@ -107,12 +109,12 @@ export default function SpecRequestForm() {
       }
 
       await diamondApi.submitSpecRequest(formData);
-      toast.success("Your diamond request has been submitted!");
+      toast.success(dictionary?.ds4u?.successSubmit || "Your diamond request has been submitted!");
       setForm({ ...initialForm });
       removeImage();
     } catch (err) {
       console.error("Error submitting spec request:", err);
-      toast.error("Failed to submit request. Please try again.");
+      toast.error(dictionary?.ds4u?.errSubmit || "Failed to submit request. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -131,15 +133,15 @@ export default function SpecRequestForm() {
             <span
               className={`inline-block text-sm sm:text-base uppercase tracking-[0.2em] font-medium bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] bg-clip-text text-transparent mb-4 ${jost.className}`}
             >
-              Request a Diamond
+              {dictionary?.ds4u?.formTag || "Request a Diamond"}
             </span>
             <h2
               className={`text-3xl md:text-4xl lg:text-[2.75rem] font-normal text-white tracking-tight ${marcellus.className}`}
             >
-              Tell Us What You Need
+              {dictionary?.ds4u?.formTitle || "Tell Us What You Need"}
             </h2>
             <p className={`text-white/60 text-base md:text-lg mt-4 max-w-2xl mx-auto ${jost.className}`}>
-              Share your diamond specifications and we will source the perfect stone for you
+              {dictionary?.ds4u?.formSubtitle || "Share your diamond specifications and we will source the perfect stone for you"}
             </p>
           </div>
         </AnimatedContainer>
@@ -150,27 +152,81 @@ export default function SpecRequestForm() {
             {/* Row 1: Core specs */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div>
-                <label className={labelClass}>Shape *</label>
-                <select value={form.SHAPE} onChange={(e) => handleChange("SHAPE", e.target.value)} className={selectClass} required>
-                  <option value="" className="text-gray-900">Select</option>
+                <label className={labelClass}>{dictionary?.ds4u?.lblShape || "Shape *"}</label>
+                <select
+                  value={form.SHAPE}
+                  onChange={(e) => handleChange("SHAPE", e.target.value)}
+                  className={selectClass}
+                  required
+                  onInvalid={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity(dictionary?.ds4u?.selectValidationMsg || "Please select an item in the list.");
+                  }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity("");
+                  }}
+                >
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {SHAPES.map((s) => (<option key={s} value={s} className="text-gray-900">{s}</option>))}
                 </select>
               </div>
               <div>
-                <label className={labelClass}>Carats *</label>
-                <input type="text" value={form.CARATS} onChange={(e) => handleChange("CARATS", e.target.value)} className={inputClass} placeholder="e.g. 1.02" required />
+                <label className={labelClass}>{dictionary?.ds4u?.lblCarats || "Carats *"}</label>
+                <input
+                  type="text"
+                  value={form.CARATS}
+                  onChange={(e) => handleChange("CARATS", e.target.value)}
+                  className={inputClass}
+                  placeholder="e.g. 1.02"
+                  required
+                  onInvalid={(e) => {
+                    const target = e.target as HTMLInputElement;
+                    target.setCustomValidity(dictionary?.ds4u?.inputValidationMsg || "Please fill out this field.");
+                  }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLInputElement;
+                    target.setCustomValidity("");
+                  }}
+                />
               </div>
               <div>
-                <label className={labelClass}>Color *</label>
-                <select value={form.COLOR} onChange={(e) => handleChange("COLOR", e.target.value)} className={selectClass} required>
-                  <option value="" className="text-gray-900">Select</option>
+                <label className={labelClass}>{dictionary?.ds4u?.lblColor || "Color *"}</label>
+                <select
+                  value={form.COLOR}
+                  onChange={(e) => handleChange("COLOR", e.target.value)}
+                  className={selectClass}
+                  required
+                  onInvalid={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity(dictionary?.ds4u?.selectValidationMsg || "Please select an item in the list.");
+                  }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity("");
+                  }}
+                >
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {COLORS.map((c) => (<option key={c} value={c} className="text-gray-900">{c}</option>))}
                 </select>
               </div>
               <div>
-                <label className={labelClass}>Clarity *</label>
-                <select value={form.CLARITY} onChange={(e) => handleChange("CLARITY", e.target.value)} className={selectClass} required>
-                  <option value="" className="text-gray-900">Select</option>
+                <label className={labelClass}>{dictionary?.ds4u?.lblClarity || "Clarity *"}</label>
+                <select
+                  value={form.CLARITY}
+                  onChange={(e) => handleChange("CLARITY", e.target.value)}
+                  className={selectClass}
+                  required
+                  onInvalid={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity(dictionary?.ds4u?.selectValidationMsg || "Please select an item in the list.");
+                  }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLSelectElement;
+                    target.setCustomValidity("");
+                  }}
+                >
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {CLARITIES.map((c) => (<option key={c} value={c} className="text-gray-900">{c}</option>))}
                 </select>
               </div>
@@ -179,30 +235,30 @@ export default function SpecRequestForm() {
             {/* Row 2: Grading */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div>
-                <label className={labelClass}>Cut</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblCut || "Cut"}</label>
                 <select value={form.CUT} onChange={(e) => handleChange("CUT", e.target.value)} className={selectClass}>
-                  <option value="" className="text-gray-900">Select</option>
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {CUTS.map((c) => (<option key={c} value={c} className="text-gray-900">{c}</option>))}
                 </select>
               </div>
               <div>
-                <label className={labelClass}>Polish</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblPolish || "Polish"}</label>
                 <select value={form.POL} onChange={(e) => handleChange("POL", e.target.value)} className={selectClass}>
-                  <option value="" className="text-gray-900">Select</option>
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {CUTS.map((c) => (<option key={c} value={c} className="text-gray-900">{c}</option>))}
                 </select>
               </div>
               <div>
-                <label className={labelClass}>Symmetry</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblSymmetry || "Symmetry"}</label>
                 <select value={form.SYM} onChange={(e) => handleChange("SYM", e.target.value)} className={selectClass}>
-                  <option value="" className="text-gray-900">Select</option>
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {CUTS.map((c) => (<option key={c} value={c} className="text-gray-900">{c}</option>))}
                 </select>
               </div>
               <div>
-                <label className={labelClass}>Fluorescence</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblFluorescence || "Fluorescence"}</label>
                 <select value={form.FLOUR} onChange={(e) => handleChange("FLOUR", e.target.value)} className={selectClass}>
-                  <option value="" className="text-gray-900">Select</option>
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {FLUORS.map((f) => (<option key={f} value={f} className="text-gray-900">{f}</option>))}
                 </select>
               </div>
@@ -211,21 +267,21 @@ export default function SpecRequestForm() {
             {/* Row 3: Measurements + Lab */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div>
-                <label className={labelClass}>Length</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblLength || "Length"}</label>
                 <input type="text" value={form.LENGTH} onChange={(e) => handleChange("LENGTH", e.target.value)} className={inputClass} placeholder="e.g. 6.45" />
               </div>
               <div>
-                <label className={labelClass}>Width</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblWidth || "Width"}</label>
                 <input type="text" value={form.WIDTH} onChange={(e) => handleChange("WIDTH", e.target.value)} className={inputClass} placeholder="e.g. 6.42" />
               </div>
               <div>
-                <label className={labelClass}>Depth</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblDepth || "Depth"}</label>
                 <input type="text" value={form.DEPTH} onChange={(e) => handleChange("DEPTH", e.target.value)} className={inputClass} placeholder="e.g. 3.98" />
               </div>
               <div>
-                <label className={labelClass}>Lab</label>
+                <label className={labelClass}>{dictionary?.ds4u?.lblLab || "Lab"}</label>
                 <select value={form.LAB} onChange={(e) => handleChange("LAB", e.target.value)} className={selectClass}>
-                  <option value="" className="text-gray-900">Select</option>
+                  <option value="" className="text-gray-900">{dictionary?.ds4u?.selectPlaceholder || "Select"}</option>
                   {LABS.map((l) => (<option key={l} value={l} className="text-gray-900">{l}</option>))}
                 </select>
               </div>
@@ -233,19 +289,19 @@ export default function SpecRequestForm() {
 
             {/* Row 4: Message */}
             <div>
-              <label className={labelClass}>Message</label>
+              <label className={labelClass}>{dictionary?.ds4u?.lblMessage || "Message"}</label>
               <textarea
                 value={form.message}
                 onChange={(e) => handleChange("message", e.target.value)}
                 className={`${inputClass} resize-none`}
                 rows={3}
-                placeholder="Tell us more about what you're looking for..."
+                placeholder={dictionary?.ds4u?.msgPlaceholder || "Tell us more about what you're looking for..."}
               />
             </div>
 
             {/* Row 5: Image upload */}
             <div>
-              <label className={labelClass}>Reference Image (optional)</label>
+              <label className={labelClass}>{dictionary?.ds4u?.lblImage || "Reference Image (optional)"}</label>
               {imagePreview ? (
                 <div className="relative inline-block">
                   <img src={imagePreview} alt="Preview" className="h-24 w-24 object-cover rounded-md border border-white/20" />
@@ -264,7 +320,7 @@ export default function SpecRequestForm() {
                   className="flex items-center gap-2 px-4 py-2.5 border border-dashed border-white/30 rounded-md text-white/60 hover:border-[#e4c75f] hover:text-[#e4c75f] transition-colors text-sm"
                 >
                   <Upload className="w-4 h-4" />
-                  Upload Image
+                  {dictionary?.ds4u?.btnUpload || "Upload Image"}
                 </button>
               )}
               <input
@@ -283,7 +339,9 @@ export default function SpecRequestForm() {
                 disabled={isSubmitting}
                 className={`px-8 py-3 bg-gradient-to-r from-[#bd9f41] via-[#e4c75f] to-[#bd9f41] text-[#0B1A33] font-semibold text-sm uppercase tracking-wider rounded-sm hover:opacity-90 transition-opacity disabled:opacity-50 ${jost.className}`}
               >
-                {isSubmitting ? "Submitting..." : "Submit Request"}
+                {isSubmitting
+                  ? (dictionary?.ds4u?.btnSubmitting || "Submitting...")
+                  : (dictionary?.ds4u?.btnSubmit || "Submit Request")}
               </button>
             </div>
           </form>

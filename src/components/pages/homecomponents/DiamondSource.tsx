@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { Marcellus, Jost } from "next/font/google";
+import { useLanguage } from "@/context/LanguageContext";
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -17,6 +18,7 @@ const jost = Jost({
 });
 
 export default function DiamondSource() {
+    const { dictionary } = useLanguage();
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
@@ -33,7 +35,7 @@ export default function DiamondSource() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 items-stretch max-w-7xl mx-auto">
                     {/* Left Content Section - Video */}
                     <div>
-                        <div className="relative overflow-hidden shadow-2xl h-[300px] sm:h-[350px] md:h-[450px] lg:h-[500px]">
+                        <div className="relative overflow-hidden shadow-2xl min-h-[300px] sm:min-h-[350px] md:min-h-[450px] lg:min-h-[500px] h-full">
                             <video
                                 ref={videoRef}
                                 className="absolute inset-0 w-full h-full object-cover"
@@ -56,32 +58,19 @@ export default function DiamondSource() {
 
                     {/* Right Content Section - Text */}
                     <div>
-                        <div className="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 p-6 sm:p-8 md:p-10 lg:p-12 shadow-2xl h-[300px] sm:h-[350px] md:h-[450px] lg:h-[500px] flex flex-col justify-center">
+                        <div className="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 p-6 sm:p-8 md:p-10 lg:p-12 shadow-2xl min-h-[300px] sm:min-h-[350px] md:min-h-[450px] lg:min-h-[500px] py-8 md:py-10 h-full flex flex-col justify-center">
                             <AnimatedContainer direction="up">
                                 <h2
                                     className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-3 md:mb-4 leading-tight font-serif ${marcellus.className}`}
                                 >
-                                    Diamond Sourcing
+                                    {dictionary?.home?.sourcingTitle || "Diamond Sourcing"}
                                 </h2>
                             </AnimatedContainer>
                             <AnimatedContainer direction="up" delay={0.3}>
                                 <p
                                     className={`text-gray-300 text-xs sm:text-sm md:text-base leading-relaxed ${jost.className}`}
                                 >
-                                    At Dalila, we have the ability to source
-                                    diamonds of any shape, size, or quality,
-                                    tailored exactly to your preferences.
-                                    Whether you&apos;re looking for a specific
-                                    cut, color, or carat weight, we can help you
-                                    find the perfect diamond from anywhere in
-                                    the world. Our global network of trusted
-                                    suppliers & experts ensures that we can
-                                    secure diamonds that meet the highest
-                                    standards of craftsmanship & value. With
-                                    Dalila, you don&apos;t just get a diamond -
-                                    you get a personalized, seamless experience,
-                                    bringing you the finest options available on
-                                    the market.
+                                    {dictionary?.home?.sourcingBody || "At Dalila, we have the ability to source diamonds of any shape, size, or quality, tailored exactly to your preferences. Whether you're looking for a specific cut, color, or carat weight, we can help you find the perfect diamond from anywhere in the world. Our global network of trusted suppliers & experts ensures that we can secure diamonds that meet the highest standards of craftsmanship & value. With Dalila, you don't just get a diamond - you get a personalized, seamless experience, bringing you the finest options available on the market."}
                                 </p>
                             </AnimatedContainer>
                         </div>

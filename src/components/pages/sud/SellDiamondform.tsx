@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Upload, Loader2 } from "lucide-react";
 import { formApi } from "@/lib/api";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellusStyle = {
   fontFamily: "Marcellus, serif",
@@ -43,6 +44,7 @@ export default function SellDiamondsForm() {
 
   const [dragActive, setDragActive] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const { dictionary } = useLanguage();
   const [submitStatus, setSubmitStatus] = useState<{
     type: "success" | "error" | null;
     message: string;
@@ -73,29 +75,31 @@ export default function SellDiamondsForm() {
     setDragActive(false);
 
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      handleFiles(e.dataTransfer.files);
+      const files = Array.from(e.dataTransfer.files);
+      const imageFiles = files.filter((file) =>
+        file.type.startsWith("image/"),
+      );
+
+      if (imageFiles.length === 0) {
+        alert("Please upload image files only (PNG, JPG, GIF).");
+        return;
+      }
+
+      setFormData((prev) => ({
+        ...prev,
+        images: [...prev.images, ...imageFiles],
+      }));
     }
   };
 
   const handleFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) {
-      handleFiles(e.target.files);
+    if (e.target.files && e.target.files[0]) {
+      const files = Array.from(e.target.files);
+      setFormData((prev) => ({
+        ...prev,
+        images: [...prev.images, ...files],
+      }));
     }
-  };
-
-  const handleFiles = (files: FileList) => {
-    const fileArray = Array.from(files);
-    const validFiles = fileArray.filter((file) => {
-      const isValid = ["image/png", "image/jpeg", "image/gif"].includes(
-        file.type,
-      );
-      const isUnder10MB = file.size <= 10 * 1024 * 1024;
-      return isValid && isUnder10MB;
-    });
-    setFormData((prev) => ({
-      ...prev,
-      images: [...prev.images, ...validFiles],
-    }));
   };
 
   const removeImage = (index: number) => {
@@ -107,78 +111,54 @@ export default function SellDiamondsForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+
+    // Reset status
     setSubmitStatus({ type: null, message: "" });
 
-    try {
-      // Validate required fields
-      if (!formData.fullName.trim()) {
-        setSubmitStatus({ type: "error", message: "Full Name is required" });
-        setIsSubmitting(false);
-        return;
-      }
-      if (!formData.email.trim()) {
-        setSubmitStatus({ type: "error", message: "Email is required" });
-        setIsSubmitting(false);
-        return;
-      }
-      if (!formData.phone.trim()) {
-        setSubmitStatus({ type: "error", message: "Phone Number is required" });
-        setIsSubmitting(false);
-        return;
-      }
-      if (!formData.fullAddress.trim()) {
-        setSubmitStatus({ type: "error", message: "Full Address is required" });
-        setIsSubmitting(false);
-        return;
-      }
-      if (!formData.description.trim()) {
-        setSubmitStatus({ type: "error", message: "Description is required" });
-        setIsSubmitting(false);
-        return;
-      }
+    // Validate required fields
+    if (
+      !formData.fullName ||
+      !formData.email ||
+      !formData.phone ||
+      !formData.material ||
+      !formData.description ||
+      !formData.fullAddress ||
+      !formData.pickupDate
+    ) {
+      setSubmitStatus({
+        type: "error",
+        message: dictionary?.sud?.errorMessage || "Failed to submit form. Please try again.",
+      });
+      return;
+    }
 
-      // Create FormData object for multipart/form-data - NO AUTH REQUIRED
+    setIsSubmitting(true);
+
+    try {
       const submitData = new FormData();
-      
-      // Append required fields
-      submitData.append("name", formData.fullName.trim());
-      submitData.append("email", formData.email.trim());
-      submitData.append("phoneNumber", formData.phone.trim());
-      submitData.append("countryCode", "+1");
-      submitData.append("address", formData.fullAddress.trim());
-      submitData.append("material", formData.material.trim() || "Not specified");
-      submitData.append("description", formData.description.trim());
-      
-      // Append optional fields only if they have values
-      if (formData.carat && formData.carat.trim()) {
-        submitData.append("carat", formData.carat.trim());
-      }
-      if (formData.condition) {
-        submitData.append("condition", formData.condition);
-      }
-      if (formData.pickupDate) {
-        submitData.append("pickupDate", formData.pickupDate);
-      }
-      if (formData.pickupTime) {
-        submitData.append("pickupTime", formData.pickupTime);
-      }
-      
-      // Append images
+      submitData.append("fullName", formData.fullName);
+      submitData.append("email", formData.email);
+      submitData.append("phone", formData.phone);
+      submitData.append("carat", formData.carat);
+      submitData.append("condition", formData.condition);
+      submitData.append("material", formData.material);
+      submitData.append("description", formData.description);
+      submitData.append("fullAddress", formData.fullAddress);
+      submitData.append("pickupDate", formData.pickupDate);
+      submitData.append("pickupTime", formData.pickupTime);
+
       formData.images.forEach((image) => {
         submitData.append("images", image);
       });
 
-      // Submit to PUBLIC API (no authentication needed)
       const response = await formApi.submitSellDiamond(submitData);
 
       if (response.success) {
         setSubmitStatus({
           type: "success",
-          message: "Form submitted successfully! We will contact you soon.",
+          message: dictionary?.sud?.successMessage || "Form submitted successfully! We will contact you soon.",
         });
-        
-        // Reset form after successful submission
+        // Clear form
         setFormData({
           fullName: "",
           email: "",
@@ -192,23 +172,17 @@ export default function SellDiamondsForm() {
           pickupTime: "",
           images: [],
         });
-        
-        // Clear file input
-        const fileInput = document.getElementById("fileInput") as HTMLInputElement;
-        if (fileInput) {
-          fileInput.value = "";
-        }
       } else {
         setSubmitStatus({
           type: "error",
-          message: response.message || response.error || "Failed to submit form. Please try again.",
+          message: response.message || response.error || (dictionary?.sud?.errorMessage || "Failed to submit form. Please try again."),
         });
       }
     } catch (error) {
       console.error("Form submission error:", error);
       setSubmitStatus({
         type: "error",
-        message: error instanceof Error ? error.message : "An error occurred while submitting the form. Please try again.",
+        message: error instanceof Error ? error.message : (dictionary?.sud?.errorMessage || "Failed to submit form. Please try again."),
       });
     } finally {
       setIsSubmitting(false);
@@ -223,15 +197,13 @@ export default function SellDiamondsForm() {
             className="text-3xl font-bold text-gray-900 mb-2"
             style={marcellusStyle}
           >
-            Sell Your Diamonds
+            {dictionary?.sud?.formTitle || "Sell Your Diamonds"}
           </h1>
           <p className="text-gray-600" style={jostStyle}>
-            Complete the form below to get a free valuation for your diamonds.
-            Our process is secure, confidential, and designed to get you the
-            best possible price.
+            {dictionary?.sud?.formSubtitle || "Complete the form below to get a free valuation for your diamonds. Our process is secure, confidential, and designed to get you the best possible price."}
           </p>
           <p className="text-sm text-gray-600 mt-2 font-medium" style={jostStyle}>
-             No account required - Anyone can submit
+            {dictionary?.sud?.formNoAccount || "No account required - Anyone can submit"}
           </p>
         </div>
 
@@ -242,7 +214,7 @@ export default function SellDiamondsForm() {
               htmlFor="fullName"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Full Name <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblFullName || "Full Name"} <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -250,8 +222,16 @@ export default function SellDiamondsForm() {
               name="fullName"
               value={formData.fullName}
               onChange={handleInputChange}
-              placeholder="Full Name"
+              placeholder={dictionary?.sud?.placeholderName || "Full Name"}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -263,7 +243,7 @@ export default function SellDiamondsForm() {
               htmlFor="email"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Email Address <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblEmail || "Email Address"} <span className="text-red-500">*</span>
             </label>
             <input
               type="email"
@@ -271,8 +251,16 @@ export default function SellDiamondsForm() {
               name="email"
               value={formData.email}
               onChange={handleInputChange}
-              placeholder="Email Address"
+              placeholder={dictionary?.sud?.placeholderEmail || "Email Address"}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -284,7 +272,7 @@ export default function SellDiamondsForm() {
               htmlFor="phone"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Phone Number <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblPhone || "Phone Number"} <span className="text-red-500">*</span>
             </label>
             <input
               type="tel"
@@ -292,8 +280,16 @@ export default function SellDiamondsForm() {
               name="phone"
               value={formData.phone}
               onChange={handleInputChange}
-              placeholder="Phone Number"
+              placeholder={dictionary?.sud?.placeholderPhone || "Phone Number"}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -305,7 +301,7 @@ export default function SellDiamondsForm() {
               htmlFor="carat"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Carat (optional)
+              {dictionary?.sud?.lblCarat || "Carat (optional)"}
             </label>
             <input
               type="text"
@@ -313,7 +309,7 @@ export default function SellDiamondsForm() {
               name="carat"
               value={formData.carat}
               onChange={handleInputChange}
-              placeholder="e.g., 1.5"
+              placeholder={dictionary?.sud?.placeholderCarat || "e.g., 1.5"}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -325,7 +321,7 @@ export default function SellDiamondsForm() {
               htmlFor="condition"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Condition
+              {dictionary?.sud?.lblCondition || "Condition"}
             </label>
             <select
               id="condition"
@@ -339,16 +335,16 @@ export default function SellDiamondsForm() {
               }}
             >
               <option value="" style={{ color: "#6b7280" }}>
-                Select Condition
+                {dictionary?.sud?.placeholderCondition || "Select Condition"}
               </option>
               <option value="excellent" style={{ color: "#111827" }}>
-                Excellent
+                {dictionary?.sud?.condExcellent || "Excellent"}
               </option>
               <option value="good" style={{ color: "#111827" }}>
-                Good
+                {dictionary?.sud?.condGood || "Good"}
               </option>
               <option value="fair" style={{ color: "#111827" }}>
-                Fair
+                {dictionary?.sud?.condFair || "Fair"}
               </option>
             </select>
           </div>
@@ -359,7 +355,7 @@ export default function SellDiamondsForm() {
               htmlFor="material"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Material <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblMaterial || "Material"} <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -367,8 +363,16 @@ export default function SellDiamondsForm() {
               name="material"
               value={formData.material}
               onChange={handleInputChange}
-              placeholder="e.g., Gold, Silver, Platinum"
+              placeholder={dictionary?.sud?.placeholderMaterial || "e.g., Gold, Silver, Platinum"}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLInputElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -380,16 +384,24 @@ export default function SellDiamondsForm() {
               htmlFor="description"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Description <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblDescription || "Description"} <span className="text-red-500">*</span>
             </label>
             <textarea
               id="description"
               name="description"
               value={formData.description}
               onChange={handleInputChange}
-              placeholder="Describe your diamond(s) in detail..."
+              placeholder={dictionary?.sud?.placeholderDesc || "Describe your diamond(s) in detail..."}
               rows={4}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLTextAreaElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLTextAreaElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -398,7 +410,7 @@ export default function SellDiamondsForm() {
           {/* Upload Images */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Upload Images
+              {dictionary?.sud?.lblUpload || "Upload Images"}
             </label>
             <div
               onDragEnter={handleDrag}
@@ -428,21 +440,21 @@ export default function SellDiamondsForm() {
                   className="cursor-pointer text-gray-700 hover:text-yellow-600 transition"
                 >
                   <span className="font-medium border border-gray-300 px-4 py-2 inline-block hover:bg-yellow-50">
-                    Choose Files
+                    {dictionary?.sud?.btnChooseFiles || "Choose Files"}
                   </span>
                 </label>
                 <p className="text-sm text-gray-500 mt-2">
-                  Upload files or drag and drop
+                  {dictionary?.sud?.lblDragDrop || "Upload files or drag and drop"}
                 </p>
                 <p className="text-xs text-gray-400 mt-1">
-                  PNG, JPG, GIF up to 10MB each
+                  {dictionary?.sud?.lblLimit || "PNG, JPG, GIF up to 10MB each"}
                 </p>
               </div>
             </div>
             {formData.images.length > 0 && (
               <div className="mt-4 space-y-2">
                 <p className="text-sm font-medium text-gray-700">
-                  {formData.images.length} file(s) selected:
+                  {formData.images.length} {dictionary?.sud?.lblSelected || "file(s) selected:"}
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                   {formData.images.map((file, index) => (
@@ -473,16 +485,24 @@ export default function SellDiamondsForm() {
               htmlFor="fullAddress"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Full Address <span className="text-red-500">*</span>
+              {dictionary?.sud?.lblAddress || "Full Address"} <span className="text-red-500">*</span>
             </label>
             <textarea
               id="fullAddress"
               name="fullAddress"
               value={formData.fullAddress}
               onChange={handleInputChange}
-              placeholder="Street address, City, State, ZIP Code"
+              placeholder={dictionary?.sud?.placeholderAddress || "Street address, City, State, ZIP Code"}
               rows={3}
               required
+              onInvalid={(e) => {
+                const target = e.target as HTMLTextAreaElement;
+                target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+              }}
+              onInput={(e) => {
+                const target = e.target as HTMLTextAreaElement;
+                target.setCustomValidity("");
+              }}
               className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition placeholder:text-gray-500"
               style={{ colorScheme: "light" }}
             />
@@ -495,7 +515,7 @@ export default function SellDiamondsForm() {
                 htmlFor="pickupDate"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
-                Preferred Pickup Date <span className="text-red-500">*</span>
+                {dictionary?.sud?.lblPickupDate || "Preferred Pickup Date"} <span className="text-red-500">*</span>
               </label>
               <div className="relative">
                 <input
@@ -505,6 +525,14 @@ export default function SellDiamondsForm() {
                   value={formData.pickupDate}
                   onChange={handleInputChange}
                   required
+                  onInvalid={(e) => {
+                    const target = e.target as HTMLInputElement;
+                    target.setCustomValidity(dictionary?.sud?.inputValidationMsg || "Please fill out this field.");
+                  }}
+                  onInput={(e) => {
+                    const target = e.target as HTMLInputElement;
+                    target.setCustomValidity("");
+                  }}
                   className="w-full px-4 py-2 border border-gray-300 rounded-none focus:ring-2 focus:ring-[#E6C878] focus:border-transparent outline-none transition"
                   style={{
                     colorScheme: "light",
@@ -519,7 +547,7 @@ export default function SellDiamondsForm() {
                 htmlFor="pickupTime"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
-                Preferred Time (Optional)
+                {dictionary?.sud?.lblPickupTime || "Preferred Time (Optional)"}
               </label>
               <div className="relative">
                 <select
@@ -534,16 +562,16 @@ export default function SellDiamondsForm() {
                   }}
                 >
                   <option value="" style={{ color: "#6b7280" }}>
-                    Select Time
+                    {dictionary?.sud?.placeholderTime || "Select Time"}
                   </option>
                   <option value="morning" style={{ color: "#111827" }}>
-                    Morning (9AM - 12PM)
+                    {dictionary?.sud?.timeMorning || "Morning (9AM - 12PM)"}
                   </option>
                   <option value="afternoon" style={{ color: "#111827" }}>
-                    Afternoon (12PM - 5PM)
+                    {dictionary?.sud?.timeAfternoon || "Afternoon (12PM - 5PM)"}
                   </option>
                   <option value="evening" style={{ color: "#111827" }}>
-                    Evening (5PM - 8PM)
+                    {dictionary?.sud?.timeEvening || "Evening (5PM - 8PM)"}
                   </option>
                 </select>
               </div>
@@ -572,14 +600,12 @@ export default function SellDiamondsForm() {
             {isSubmitting ? (
               <>
                 <Loader2 className="w-5 h-5 animate-spin" />
-                Submitting...
+                {dictionary?.sud?.btnSubmitting || "Submitting..."}
               </>
             ) : (
-              "Submit"
+              dictionary?.sud?.btnSubmit || "Submit"
             )}
           </button>
-
-        
         </form>
       </div>
     </div>

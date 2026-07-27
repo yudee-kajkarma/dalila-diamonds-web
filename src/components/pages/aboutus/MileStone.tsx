@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Gem } from "lucide-react";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -17,6 +19,8 @@ const jost = Jost({
 });
 
 export default function AboutMilestone() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
@@ -24,7 +28,7 @@ export default function AboutMilestone() {
           <h1
             className={`text-4xl md:text-5xl lg:text-[3.5rem] font-normal text-center mb-20 text-gray-900 ${marcellus.className}`}
           >
-            Milestones & Achievements
+            {dictionary?.about?.milestonesTitle || "Milestones & Achievements"}
           </h1>
         </AnimatedContainer>
 
@@ -57,8 +61,7 @@ export default function AboutMilestone() {
                       className={`text-gray-600 text-base md:text-lg leading-relaxed ${jost.className} [&>span]:text-[#181818]`}
                     >
                       <span className="font-semibold">
-                        50+ years of family expertise in the diamond industry.
-
+                        {dictionary?.about?.milestone1 || "50+ years of family expertise in the diamond industry."}
                       </span>
                     </p>
                   </div>
@@ -68,8 +71,7 @@ export default function AboutMilestone() {
                       className={`text-gray-600 text-base md:text-lg leading-relaxed ${jost.className} [&>span]:text-[#181818]`}
                     >
                       <span className="font-semibold">
-                        Expansion from Surat and Mumbai to a global presence.
-
+                        {dictionary?.about?.milestone2 || "Expansion from Surat and Mumbai to a global presence."}
                       </span>
                     </p>
                   </div>
@@ -83,8 +85,7 @@ export default function AboutMilestone() {
                       className={`text-gray-600 text-base md:text-lg leading-relaxed ${jost.className} [&>span]:text-[#181818]`}
                     >
                       <span className="font-semibold">
-                         Strategic establishment in Antwerp (since 2007) to serve and strengthen our European clientele.
-
+                         {dictionary?.about?.milestone3 || "Strategic establishment in Antwerp (since 2007) to serve and strengthen our European clientele."}
                       </span>
                     </p>
                   </div>
@@ -94,8 +95,7 @@ export default function AboutMilestone() {
                       className={`text-gray-600 text-base md:text-lg leading-relaxed ${jost.className} [&>span]:text-[#181818]`}
                     >
                       <span className="font-semibold">
-                        A strong international network spanning the United States, Europe, Hong Kong, China, and beyond.
-
+                        {dictionary?.about?.milestone4 || "A strong international network spanning the United States, Europe, Hong Kong, China, and beyond."}
                       </span>
                     </p>
                   </div>
@@ -109,7 +109,7 @@ export default function AboutMilestone() {
                       className={`text-gray-600 text-base md:text-lg leading-relaxed ${jost.className} [&>span]:text-[#181818]`}
                     >
                       <span className="font-semibold">
-                        A reputation built on quality, transparency, and long-standing relationships.
+                        {dictionary?.about?.milestone5 || "A reputation built on quality, transparency, and long-standing relationships."}
                       </span>
                     </p>
                   </div>

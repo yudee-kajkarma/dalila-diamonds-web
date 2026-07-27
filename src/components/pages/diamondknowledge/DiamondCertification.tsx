@@ -1,6 +1,8 @@
 "use client";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -15,24 +17,26 @@ const jost = Jost({
 });
 
 export default function DiamondCertification() {
+  const { dictionary } = useLanguage();
+
   const steps = [
     {
       number: "1.",
       title:
-        "Decide your budget and prioritize the 4Cs based on what matters most to you.",
+        dictionary?.dk?.chooseStep1 || "Decide your budget and prioritize the 4Cs based on what matters most to you.",
     },
     {
       number: "2.",
-      title: "Choose a shape that matches your personal style.",
+      title: dictionary?.dk?.chooseStep2 || "Choose a shape that matches your personal style.",
     },
     {
       number: "3.",
-      title: "Always check certification for authenticity.",
+      title: dictionary?.dk?.chooseStep3 || "Always check certification for authenticity.",
     },
     {
       number: "4.",
       title:
-        "Buy from a trusted jeweler with transparent sourcing and quality assurance.",
+        dictionary?.dk?.chooseStep4 || "Buy from a trusted jeweler with transparent sourcing and quality assurance.",
     },
   ];
 
@@ -45,17 +49,12 @@ export default function DiamondCertification() {
             <h1
               className={`text-3xl md:text-4xl lg:text-[2.75rem] font-normal text-gray-900 mb-4 tracking-tight leading-tight ${marcellus.className}`}
             >
-              Diamond Certification
+              {dictionary?.dk?.certTitle || "Diamond Certification"}
             </h1>
             <p
               className={`text-gray-800 leading-relaxed text-base md:text-lg max-w-5xl mx-auto font-light mb-3 ${jost.className}`}
             >
-              Every genuine diamond should come with a grading certificate from
-              a recognized authority such as GIA, IGI, or HRD. These
-              certificates detail the diamond&apos;s 4Cs and confirm its
-              authenticity, ensuring transparency and trust. When purchasing a
-              diamond, always request its certificate it&apos;s your guarantee
-              of quality.
+              {dictionary?.dk?.certDesc || "Every genuine diamond should come with a grading certificate from a recognized authority such as GIA, IGI, or HRD. These certificates detail the diamond's 4Cs and confirm its authenticity, ensuring transparency and trust. When purchasing a diamond, always request its certificate it's your guarantee of quality."}
             </p>
           </div>
         </AnimatedContainer>
@@ -66,13 +65,12 @@ export default function DiamondCertification() {
             <h2
               className={`text-3xl md:text-4xl lg:text-[2.75rem] font-normal text-gray-900 mb-4 tracking-tight leading-tight ${marcellus.className}`}
             >
-              How to Choose the Right Diamond
+              {dictionary?.dk?.chooseTitle || "How to Choose the Right Diamond"}
             </h2>
             <p
               className={`text-gray-600 leading-relaxed text-base md:text-lg max-w-5xl mx-auto font-light mb-3 ${jost.className}`}
             >
-              Choosing the perfect diamond is about balancing beauty, quality,
-              and value. Here&apos;s how to start:
+              {dictionary?.dk?.chooseDesc || "Choosing the perfect diamond is about balancing beauty, quality, and value. Here's how to start:"}
             </p>
           </div>
         </AnimatedContainer>

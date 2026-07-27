@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Gem } from "lucide-react";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { useLanguage } from "@/context/LanguageContext";
+
 const marcellus = Marcellus({
   variable: "--font-marcellus",
   subsets: ["latin"],
@@ -17,26 +19,24 @@ const jost = Jost({
 });
 
 export default function Diamondcuts() {
+  const { dictionary } = useLanguage();
+
   return (
     <div className="bg-white py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         {/* Header */}
-
         <div className="text-center mb-12 md:mb-16">
           <AnimatedContainer direction="up">
             <h1
               className={`text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 mb-6 font-normal tracking-tight ${marcellus.className}`}
             >
-              The 4Cs of Diamonds
+              {dictionary?.dk?.cutsTitle || "The 4Cs of Diamonds"}
             </h1>
           </AnimatedContainer>
           <p
             className={`text-gray-600 leading-relaxed text-[18px] md:text-base max-w-4xl mx-auto font-light ${jost.className}`}
           >
-            When it comes to evaluating a diamond&apos;s quality and beauty,
-            professionals rely on the 4Cs Cut, Color, Clarity, and Carat
-            Weight. Understanding these characteristics will help you choose a
-            diamond that matches your preferences and budget.
+            {dictionary?.dk?.cutsSubtitle || "When it comes to evaluating a diamond's quality and beauty, professionals rely on the 4Cs Cut, Color, Clarity, and Carat Weight. Understanding these characteristics will help you choose a diamond that matches your preferences and budget."}
           </p>
         </div>
 
@@ -74,17 +74,13 @@ export default function Diamondcuts() {
                     <h3
                       className={`text-lg md:text-xl font-medium text-gray-900 leading-tight ${marcellus.className}`}
                     >
-                      Cut: The Sparkle Factor
+                      {dictionary?.dk?.cutTitle || "Cut: The Sparkle Factor"}
                     </h3>
                   </div>
                   <p
                     className={`text-gray-600 text-[13px] md:text-[18px] leading-relaxed font-light ${jost.className}`}
                   >
-                    A diamond&apos;s cut determines how well it reflects light
-                    and that&apos;s what gives it brilliance. Even if a diamond
-                    has perfect color or clarity, a poor cut can make it look
-                    dull. The ideal cut brings out the stone&apos;s natural fire
-                    and radiance.
+                    {dictionary?.dk?.cutDesc || "A diamond's cut determines how well it reflects light and that's what gives it brilliance. Even if a diamond has perfect color or clarity, a poor cut can make it look dull. The ideal cut brings out the stone's natural fire and radiance."}
                   </p>
                 </div>
 
@@ -98,16 +94,13 @@ export default function Diamondcuts() {
                     <h3
                       className={`text-lg md:text-xl font-medium text-gray-900 leading-tight ${marcellus.className}`}
                     >
-                      Color: The Shade of Purity
+                      {dictionary?.dk?.colorTitle || "Color: The Shade of Purity"}
                     </h3>
                   </div>
                   <p
                     className={`text-gray-600 text-[13px] md:text-[18px] leading-relaxed font-light ${jost.className}`}
                   >
-                    Diamond color grades range from D (colorless) to Z (light
-                    yellow or brown). The less color a diamond has, the rarer and
-                    more valuable it is. Colorless diamonds reflect more light,
-                    resulting in unmatched sparkle and purity.
+                    {dictionary?.dk?.colorDesc || "Diamond color grades range from D (colorless) to Z (light yellow or brown). The less color a diamond has, the rarer and more valuable it is. Colorless diamonds reflect more light, resulting in unmatched sparkle and purity."}
                   </p>
                 </div>
 
@@ -121,17 +114,13 @@ export default function Diamondcuts() {
                     <h3
                       className={`text-lg md:text-xl font-medium text-gray-900 leading-tight ${marcellus.className}`}
                     >
-                      Clarity: Nature&apos;s Signature
+                      {dictionary?.dk?.clarityTitle || "Clarity: Nature's Signature"}
                     </h3>
                   </div>
                   <p
                     className={`text-gray-600 text-[13px] md:text-[18px] leading-relaxed font-light ${jost.className}`}
                   >
-                    Every natural diamond has tiny inclusions or blemishes formed
-                    during its creation. These are nature&apos;s fingerprints,
-                    making each diamond unique. Clarity is graded from Flawless
-                    (F) to Included (I), and most inclusions are microscopic, not
-                    visible to the naked eye.
+                    {dictionary?.dk?.clarityDesc || "Every natural diamond has tiny inclusions or blemishes formed during its creation. These are nature's fingerprints, making each diamond unique. Clarity is graded from Flawless (F) to Included (I), and most inclusions are microscopic, not visible to the naked eye."}
                   </p>
                 </div>
 
@@ -145,16 +134,13 @@ export default function Diamondcuts() {
                     <h3
                       className={`text-lg md:text-xl font-medium text-gray-900 leading-tight ${marcellus.className}`}
                     >
-                      Carat Weight: The Measure of Size
+                      {dictionary?.dk?.caratTitle || "Carat Weight: The Measure of Size"}
                     </h3>
                   </div>
                   <p
                     className={`text-gray-600 text-[13px] md:text-[18px] leading-relaxed font-light ${jost.className}`}
                   >
-                    Carat refers to a diamond&apos;s weight, not its size. Larger
-                    diamonds are rarer, but two diamonds of the same carat can
-                    appear different depending on their cut. It&apos;s always best
-                    to balance carat with the other Cs for true value.
+                    {dictionary?.dk?.caratDesc || "Carat refers to a diamond's weight, not its size. Larger diamonds are rarer, but two diamonds of the same carat can appear different depending on their cut. It's always best to balance carat with the other Cs for true value."}
                   </p>
                 </div>
               </div>

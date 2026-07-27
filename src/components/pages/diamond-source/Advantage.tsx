@@ -4,6 +4,7 @@ import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import GoldButton from "@/components/ui/Button";
 import { FaCheck } from "react-icons/fa";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "@/context/LanguageContext";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -20,23 +21,28 @@ const jost = Jost({
 
 export default function DiamondSourceAdvantages() {
   const router = useRouter();
+  const { locale, dictionary } = useLanguage();
+  const localizedPath = (path: string) => {
+    if (!locale || locale === "en") return path;
+    return `/${locale}${path}`;
+  };
 
   const advantages = [
     {
-      title: "Weekly Shipments from India",
-      description: "Reliable weekly dispatches (excluding Indian public holidays)",
+      title: dictionary?.ds4u?.adv1Title || "Weekly Shipments from India",
+      description: dictionary?.ds4u?.adv1Text || "Reliable weekly dispatches (excluding Indian public holidays)",
     },
     {
-      title: "Free Delivery in Belgium",
-      description: "Enjoy secure delivery at no additional cost",
+      title: dictionary?.ds4u?.adv2Title || "Free Delivery in Belgium",
+      description: dictionary?.ds4u?.adv2Text || "Enjoy secure delivery at no additional cost",
     },
     {
-      title: "EU Shipping Available",
-      description: "FedEx rates apply for other EU destinations",
+      title: dictionary?.ds4u?.adv3Title || "EU Shipping Available",
+      description: dictionary?.ds4u?.adv3Text || "FedEx rates apply for other EU destinations",
     },
     {
-      title: "Euro Payment Accepted",
-      description: "Simple and convenient payments in your local currency",
+      title: dictionary?.ds4u?.adv4Title || "Euro Payment Accepted",
+      description: dictionary?.ds4u?.adv4Text || "Simple and convenient payments in your local currency",
     },
   ];
 
@@ -48,7 +54,7 @@ export default function DiamondSourceAdvantages() {
           <h2
             className={`text-3xl md:text-4xl lg:text-[2.75rem] font-normal text-center mb-8 md:mb-10 text-white tracking-tight ${marcellus.className}`}
           >
-            WHY CHOOSE DS4U?
+            {dictionary?.ds4u?.advantagesTitle || "WHY CHOOSE DS4U?"}
           </h2>
         </AnimatedContainer>
 
@@ -90,8 +96,8 @@ export default function DiamondSourceAdvantages() {
         <AnimatedContainer direction="up" delay={0.6}>
           <div className="flex justify-center mt-6">
             <GoldButton
-              text="CONTACT US"
-              onClick={() => router.push("/contact")}
+              text={dictionary?.ds4u?.contactBtn || "CONTACT US"}
+              onClick={() => router.push(localizedPath("/contact"))}
             />
           </div>
         </AnimatedContainer>
