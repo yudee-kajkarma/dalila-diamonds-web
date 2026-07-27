@@ -1,0 +1,25 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+        # Restore the stashed Next.js webpack cache so builds stay incremental
+        - if [ -d ".next_cache" ]; then mkdir -p .next; rm -rf .next/cache; mv .next_cache .next/cache; fi
+    build:
+      commands:
+        - npm run build
+    postBuild:
+      commands:
+        # Stash the webpack cache outside .next so it is not shipped in the
+        # deploy artifact (Amplify caps the build output at ~220 MB) while
+        # still persisting it between builds via cache.paths below.
+        - if [ -d ".next/cache" ]; then mv .next/cache .next_cache; fi
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next_cache/**/*
