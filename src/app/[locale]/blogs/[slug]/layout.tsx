@@ -81,16 +81,7 @@ const getBlogSeoSchemaBySlug = cache(async (locale: string): Promise<Record<stri
 });
 
 export async function generateStaticParams() {
-  const blogs = await getAllBlogs();
-  const locales = ['en', 'de', 'fr', 'it', 'nl', 'es'];
-  const params: Array<{ slug: string; locale: string }> = [];
-  for (const blog of blogs) {
-    const slug = blogToSlug(blog);
-    for (const locale of locales) {
-      params.push({ slug, locale });
-    }
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

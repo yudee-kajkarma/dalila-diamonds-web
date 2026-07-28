@@ -79,11 +79,7 @@ const getBlogSeoSchemaBySlug = cache(async (): Promise<Record<string, BlogSeoSch
 });
 
 export async function generateStaticParams() {
-  const blogs = await getAllBlogs();
-
-  return blogs.map((blog) => ({
-    slug: blogToSlug(blog),
-  }));
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
