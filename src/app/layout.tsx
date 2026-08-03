@@ -49,6 +49,7 @@ export default function RootLayout({
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "Organization",
+                            "@id": "https://www.daliladiamonds.com/#organization",
                             name: "Daliladiamonds",
                             alternateName: "Dalila diamonds",
                             url: "https://www.daliladiamonds.com/",

@@ -3,7 +3,7 @@ import { Locale, DEFAULT_LOCALE, LOCALES, getLocalizedPath } from "./config";
 import { getDictionary } from "./getDictionary";
 
 interface MetadataOptions {
-  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge";
+  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport";
   path: string;
   searchParams?: { [key: string]: string | string[] | undefined };
 }
@@ -44,6 +44,11 @@ export function generateLocalizedMetadata(
   } else if (pageKey === "knowledge") {
     title = (dict.meta as any).diamondKnowledgeTitle || "Diamond Knowledge Guide | Dalila Diamonds";
     description = (dict.meta as any).diamondKnowledgeDescription || "";
+  } else if (pageKey === "gradingReport") {
+    title = (dict.meta as any).gradingReportTitle || "Diamond Grading Report Guide | Dalila Diamonds";
+    description =
+      (dict.meta as any).gradingReportDescription ||
+      "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying.";
   }
 
   const baseUrl = "https://www.daliladiamonds.com";

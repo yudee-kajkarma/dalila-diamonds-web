@@ -8,8 +8,8 @@
     "contactDescription": "Get in touch with Dalila Diamonds for inquiries and support.",
     "inventoryTitle": "Diamond Inventory | Dalila Diamonds",
     "inventoryDescription": "Browse certified natural diamonds from Dalila Diamonds.",
-    "s2sTitle": "S2S – Secure to Source | Dalila Diamonds",
-    "s2sDescription": "Securely source certified natural diamonds from Antwerp's premier diamond exchanges. Safe B2B transactions & quality control.",
+    "s2sTitle": "Diamond Sourcing Service in Antwerp | Dalila Diamonds",
+    "s2sDescription": "Shortlist a loose natural diamond online and let Dalila Diamonds coordinate quality control, euro payment and secure delivery to Belgium or another EU country.",
     "ds4uTitle": "DS4U – Diamond Source For You | Dalila Diamonds",
     "ds4uDescription": "Bespoke diamond sourcing tailored to your exact specifications from our exclusive global network.",
     "sydTitle": "Sell Your Diamond Safely | Dalila Diamonds",
@@ -19,7 +19,9 @@
     "cushionTitle": "Elongated Cushion Cut Diamond Guide | Dalila Diamonds",
     "cushionDescription": "Discover everything you need to know about elongated cushion cut diamonds — proportions, colour, clarity, and settings.",
     "diamondKnowledgeTitle": "Diamond Knowledge Guide | Dalila Diamonds",
-    "diamondKnowledgeDescription": "Learn about the 4Cs of diamonds, natural vs. lab-grown differences, certifications, and caring for your diamonds."
+    "diamondKnowledgeDescription": "Learn about the 4Cs of diamonds, natural vs. lab-grown differences, certifications, and caring for your diamonds.",
+    "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
   },
   "nav": {
     "home": "Home",
@@ -44,7 +46,8 @@
     "viewMore": "View More",
     "articleB2b": "Premium B2B Diamond Supplier in Belgium",
     "articleSell": "Sell Your Diamond Safely",
-    "articleCushion": "Elongated Cushion Cut Diamond Guide"
+    "articleCushion": "Elongated Cushion Cut Diamond Guide",
+    "articleGradingReport": "Diamond Grading Report Guide"
   },
   "header": {
     "search": "Search diamonds...",

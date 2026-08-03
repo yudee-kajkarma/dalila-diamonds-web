@@ -19,7 +19,9 @@
     "cushionTitle": "Guía de diamantes de corte cojín alargado | Dalila Diamonds",
     "cushionDescription": "Descubra todo lo que necesita saber sobre los diamantes de corte cojín alargado: proporciones, color, claridad y engastes.",
     "diamondKnowledgeTitle": "Guía de conocimientos sobre diamantes | Dalila Diamonds",
-    "diamondKnowledgeDescription": "Conozca las 4C de los diamantes, las diferencias entre diamantes naturales y creados en laboratorio, certificaciones y cuidado."
+    "diamondKnowledgeDescription": "Conozca las 4C de los diamantes, las diferencias entre diamantes naturales y creados en laboratorio, certificaciones y cuidado.",
+    "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
   },
   "nav": {
     "home": "Inicio",
@@ -44,7 +46,8 @@
     "viewMore": "Ver más",
     "articleB2b": "Proveedor de diamantes B2B premium en Bélgica",
     "articleSell": "Venda su diamante de forma segura",
-    "articleCushion": "Guía de diamantes talla cojín alargado"
+    "articleCushion": "Guía de diamantes talla cojín alargado",
+    "articleGradingReport": "Diamond Grading Report Guide"
   },
   "header": {
     "search": "Buscar diamantes...",

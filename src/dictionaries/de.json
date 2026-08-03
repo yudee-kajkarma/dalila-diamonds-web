@@ -19,7 +19,9 @@
     "cushionTitle": "Leitfaden für Kissen-Brillanten mit Längenverhältnis | Dalila Diamonds",
     "cushionDescription": "Erfahren Sie alles Wissenswerte über längliche Kissen-Diamanten — Proportionen, Farbe, Reinheit und Fassungen.",
     "diamondKnowledgeTitle": "Diamanten-Wissensdatenbank | Dalila Diamonds",
-    "diamondKnowledgeDescription": "Erfahren Sie mehr über die 4Cs von Diamanten, die Unterschiede zwischen natürlichen und Labor-Diamanten, Zertifizierungen und die Pflege."
+    "diamondKnowledgeDescription": "Erfahren Sie mehr über die 4Cs von Diamanten, die Unterschiede zwischen natürlichen und Labor-Diamanten, Zertifizierungen und die Pflege.",
+    "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
   },
   "nav": {
     "home": "Startseite",
@@ -44,7 +46,8 @@
     "viewMore": "Mehr anzeigen",
     "articleB2b": "Erstklassiger B2B-Diamantenlieferant in Belgien",
     "articleSell": "Diamanten sicher verkaufen",
-    "articleCushion": "Leitfaden für längliche Kissen-Schliff-Diamanten"
+    "articleCushion": "Leitfaden für längliche Kissen-Schliff-Diamanten",
+    "articleGradingReport": "Diamond Grading Report Guide"
   },
   "header": {
     "search": "Diamanten suchen...",

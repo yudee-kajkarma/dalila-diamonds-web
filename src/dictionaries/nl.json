@@ -19,7 +19,9 @@
     "cushionTitle": "Gids voor langwerpige kussenslijpvorm | Dalila Diamonds",
     "cushionDescription": "Ontdek alles wat u moet weten over langwerpige kussengeslepen diamanten — verhoudingen, kleur, zuiverheid en zettingen.",
     "diamondKnowledgeTitle": "Diamant Kennisgids | Dalila Diamonds",
-    "diamondKnowledgeDescription": "Lees meer over de 4C's van diamanten, het verschil tussen natuurlijk en lab-gekweekt, certificeringen en onderhoud."
+    "diamondKnowledgeDescription": "Lees meer over de 4C's van diamanten, het verschil tussen natuurlijk en lab-gekweekt, certificeringen en onderhoud.",
+    "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
   },
   "nav": {
     "home": "Home",
@@ -44,7 +46,8 @@
     "viewMore": "Meer bekijken",
     "articleB2b": "Premium B2B diamantleverancier in België",
     "articleSell": "Verkoop uw diamant veilig",
-    "articleCushion": "Gids voor langwerpige kussengeslepen diamanten"
+    "articleCushion": "Gids voor langwerpige kussengeslepen diamanten",
+    "articleGradingReport": "Diamond Grading Report Guide"
   },
   "header": {
     "search": "Zoek diamanten...",

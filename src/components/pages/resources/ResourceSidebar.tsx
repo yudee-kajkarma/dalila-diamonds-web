@@ -12,7 +12,7 @@ const marcellus = Marcellus({
 });
 
 interface ResourceSidebarProps {
-  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion';
+  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide';
 }
 
 const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
@@ -37,6 +37,11 @@ const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
       key: 'elongated-cushion',
       title: dictionary?.nav?.articleCushion || 'Elongated Cushion Cut Diamond Guide',
       href: '/elongated-cushion-cut-diamond-guide',
+    },
+    {
+      key: 'diamond-grading-report-guide',
+      title: dictionary?.nav?.articleGradingReport || 'Diamond Grading Report Guide',
+      href: '/resources/diamond-grading-report-guide',
     },
   ];
 

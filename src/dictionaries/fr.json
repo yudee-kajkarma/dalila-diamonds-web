@@ -19,7 +19,9 @@
     "cushionTitle": "Guide du diamant taille coussin allongé | Dalila Diamonds",
     "cushionDescription": "Découvrez tout ce que vous devez savoir sur les diamants taille coussin allongé — proportions, couleur, pureté et montures.",
     "diamondKnowledgeTitle": "Guide de connaissances sur les diamants | Dalila Diamonds",
-    "diamondKnowledgeDescription": "Découvrez les 4C des diamants, les différences entre diamants naturels et de laboratoire, les certifications et l'entretien."
+    "diamondKnowledgeDescription": "Découvrez les 4C des diamants, les différences entre diamants naturels et de laboratoire, les certifications et l'entretien.",
+    "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
   },
   "nav": {
     "home": "Accueil",
@@ -44,7 +46,8 @@
     "viewMore": "Voir plus",
     "articleB2b": "Fournisseur de diamants B2B premium en Belgique",
     "articleSell": "Vendez votre diamant en toute sécurité",
-    "articleCushion": "Guide des diamants taille coussin allongé"
+    "articleCushion": "Guide des diamants taille coussin allongé",
+    "articleGradingReport": "Diamond Grading Report Guide"
   },
   "header": {
     "search": "Rechercher des diamants...",
