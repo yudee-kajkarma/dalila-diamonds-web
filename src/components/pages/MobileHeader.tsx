@@ -258,6 +258,14 @@ export default function MobileHeader() {
                                     >
                                         {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
                                     </Link>
+
+                                    <Link
+                                        href={localizedPath("/resources/diamond-grading-report-guide")}
+                                        onClick={closeMobileMenu}
+                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                    >
+                                        {dictionary?.nav?.articleGradingReport || "Diamond Grading Report Guide"}
+                                    </Link>
                                 </div>
                             )}
                         </div>

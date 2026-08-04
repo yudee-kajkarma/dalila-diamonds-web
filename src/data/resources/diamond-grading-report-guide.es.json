@@ -1,0 +1,1189 @@
+{
+  "meta": {
+    "title": "Guía del informe de clasificación de diamantes | Dalila Diamonds",
+    "description": "Comprenda los informes de clasificación de diamantes, verifique los números de informe, compare las 4C, las proporciones y la fluorescencia, y revise un diamante natural antes de comprar.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "igiVerify": "https://www.igi.org/Verify-Your-Report/",
+    "hrdVerify": "https://my.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Guía del informe de clasificación de diamantes",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Guía del informe de clasificación de diamantes"
+  },
+  "hero": {
+    "title": "Guía del informe de clasificación de diamantes para compradores de diamantes naturales",
+    "subheading": "Comprenda cada parte de un informe de clasificación de diamantes, verifique el número de informe y compare la calidad de un diamante natural antes de comprar.",
+    "reviewDateLabel": "Última revisión:",
+    "reviewDate": "30 July 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Un informe de clasificación de diamantes contiene mucha más información que el peso en quilates, el color y la pureza. Si se lee correctamente, puede ayudarle a confirmar la identidad de un diamante, evaluar su calidad y compararlo con otros diamantes naturales.",
+      "Sin embargo, un informe de clasificación no puede decirle todo.",
+      "No demuestra automáticamente que la piedra física que se le ofrece sea el diamante descrito en el informe. No determina un precio de compra justo, no garantiza la belleza visual ni sustituye una inspección profesional.",
+      "Este recurso explica la información esencial que figura en un informe de clasificación de diamantes naturales, cómo verificarlo y qué detalles requieren un examen más detenido."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Respuesta rápida",
+    "introParagraphs": [
+      "Un informe de clasificación de diamantes es la evaluación técnica de la identidad y la calidad de un diamante realizada por un laboratorio gemológico independiente.",
+      "Según el laboratorio y el tipo de informe, puede registrar lo siguiente del diamante:"
+    ],
+    "attributes": [
+      "Identidad natural o creada en laboratorio",
+      "Forma y estilo de talla",
+      "Medidas",
+      "Peso en quilates",
+      "Color",
+      "Pureza",
+      "Grado de talla",
+      "Proporciones",
+      "Pulido",
+      "Simetría",
+      "Fluorescencia",
+      "Características de pureza",
+      "Tratamientos",
+      "Inscripción láser",
+      "Comentarios adicionales del laboratorio"
+    ],
+    "closingParagraphs": [
+      "Los compradores suelen llamar a este documento «certificado de diamante», pero «informe de clasificación de diamantes» es, en general, el término más preciso. Un informe de clasificación describe el diamante; no asigna un valor de mercado ni garantiza lo que debería costar."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Puntos clave",
+    "items": [
+      "Verifique el número de informe a través del sitio web oficial del laboratorio emisor.",
+      "Confirme que el informe identifica la piedra como diamante natural.",
+      "Relacione el informe con la piedra física mediante las medidas, las características y cualquier inscripción láser.",
+      "No evalúe un diamante únicamente por quilates, color y pureza.",
+      "Examine la talla, las proporciones, el pulido, la simetría, la fluorescencia y la ubicación de las características de pureza.",
+      "Lea la sección de comentarios antes de tomar una decisión.",
+      "Un informe verificado no significa automáticamente que el diamante sea atractivo o tenga un precio justo.",
+      "Un informe de clasificación es distinto de una tasación, una factura de venta o un documento de origen.",
+      "Compare diamantes clasificados por el mismo laboratorio y con el mismo tipo de informe, siempre que sea posible.",
+      "Considere una inspección profesional al comprar un diamante natural suelto de valor de forma remota."
+    ]
+  },
+  "overviewNav": {
+    "title": "Resumen de la guía",
+    "items": [
+      {
+        "id": "what-is-a-diamond-grading-report",
+        "label": "Qué es un informe de clasificación de diamantes"
+      },
+      {
+        "id": "why-does-a-diamond-grading-report-matter",
+        "label": "Por qué importan los informes de clasificación"
+      },
+      {
+        "id": "how-to-read-a-diamond-grading-report",
+        "label": "Cómo leer un informe de clasificación de diamantes"
+      },
+      {
+        "id": "how-to-verify-a-diamond-grading-report-online",
+        "label": "Cómo verificar un informe en línea"
+      },
+      {
+        "id": "how-to-match-the-report-with-the-physical-diamond",
+        "label": "Cómo relacionar un informe con el diamante físico"
+      },
+      {
+        "id": "how-to-compare-two-diamond-grading-reports",
+        "label": "Cómo comparar dos informes de clasificación"
+      },
+      {
+        "id": "worked-example",
+        "label": "Ejemplo práctico de informe de diamante"
+      },
+      {
+        "id": "gia-igi-and-hrd-antwerp-diamond-reports",
+        "label": "Informes de GIA, IGI y HRD Antwerp"
+      },
+      {
+        "id": "what-a-diamond-grading-report-cannot-tell-you",
+        "label": "Lo que un informe de clasificación no puede decirle"
+      },
+      {
+        "id": "diamond-grading-report-warning-signs",
+        "label": "Señales de alerta en informes de diamantes"
+      },
+      {
+        "id": "grading-report-versus-appraisal-and-other-documents",
+        "label": "Informe de clasificación frente a tasación y otros documentos"
+      },
+      {
+        "id": "natural-diamond-report-checklist",
+        "label": "Lista de verificación para compradores de diamantes naturales"
+      },
+      {
+        "id": "grading-report-faq-heading",
+        "label": "Preguntas frecuentes"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-grading-report",
+    "title": "¿Qué es un informe de clasificación de diamantes?",
+    "introParagraphs": [
+      "Un informe de clasificación de diamantes es un documento técnico elaborado después de que un laboratorio gemológico examina un diamante en condiciones controladas.",
+      "Según el laboratorio y el tipo de informe, el examen puede establecer:"
+    ],
+    "establishItems": [
+      "Si la piedra es un diamante",
+      "Si el diamante es natural o creado en laboratorio",
+      "Si existen tratamientos detectables",
+      "Su forma y estilo de talla",
+      "Sus medidas y peso en quilates",
+      "Sus grados de color y pureza",
+      "Su grado de talla o proporciones",
+      "Su pulido y simetría",
+      "Su fluorescencia",
+      "Sus inclusiones y imperfecciones identificativas",
+      "Si existe una inscripción láser"
+    ],
+    "closingParagraphs": [
+      "El Gemological Institute of America utiliza el término «grading report» (informe de clasificación) en lugar de «certificate» (certificado). Sus informes proporcionan información técnica sobre un diamante, pero no son tasaciones ni garantías de valor monetario.",
+      "«Certificado de diamante» sigue siendo un término de búsqueda muy utilizado, por lo que ambas expresiones se emplean en esta guía.",
+      "La forma más sencilla de entenderlo",
+      "Un informe de clasificación es la descripción técnica del diamante. No es su etiqueta de precio, su valoración de reventa ni una recomendación de compra completa."
+    ]
+  },
+  "whyMatter": {
+    "id": "why-does-a-diamond-grading-report-matter",
+    "title": "¿Por qué importa un informe de clasificación de diamantes?",
+    "introParagraphs": [
+      "Los diamantes naturales que parecen similares en fotografías pueden diferir significativamente en rareza, calidad, precio y apariencia visible.",
+      "Un informe de clasificación crea un conjunto reconocido de información que compradores, proveedores y profesionales del diamante pueden utilizar al comparar piedras.",
+      "Puede ayudarle a:"
+    ],
+    "helpItems": [
+      "Confirmar que el laboratorio indicado examinó un diamante",
+      "Establecer si el informe describe un diamante natural",
+      "Comparar características de calidad entre piedras preseleccionadas",
+      "Comprender por qué diamantes aparentemente similares tienen precios distintos",
+      "Identificar detalles que requieren un examen más detenido",
+      "Registrar características identificativas para referencia futura",
+      "Proporcionar información técnica para una tasación independiente",
+      "Reducir la dependencia exclusiva de la descripción del vendedor"
+    ],
+    "closingParagraphs": [
+      "Un informe de clasificación sigue siendo solo una parte del proceso de compra. También deben considerarse el diamante físico, el vendedor, el precio, el método de pago, el proceso de entrega y las condiciones de inspección."
+    ]
+  },
+  "howToRead": {
+    "id": "how-to-read-a-diamond-grading-report",
+    "title": "Cómo leer un informe de clasificación de diamantes",
+    "introParagraphs": [
+      "Los laboratorios utilizan diseños, terminología y tipos de informe distintos. No obstante, la mayoría de los informes de clasificación de diamantes naturales incluyen varias secciones comunes."
+    ],
+    "subsections": [
+      {
+        "id": "check-the-laboratory-report-type-and-date",
+        "title": "1. Compruebe el laboratorio, el tipo de informe y la fecha",
+        "paragraphsBefore": [
+          "Comience en la parte superior del informe y confirme:"
+        ],
+        "bullets": [
+          "Nombre del laboratorio emisor",
+          "Tipo exacto de informe",
+          "Número de informe",
+          "Fecha del examen",
+          "Si el informe corresponde a un diamante suelto o a una joya terminada"
+        ],
+        "paragraphsAfter": [
+          "El tipo de informe importa porque distintos documentos contienen distintos niveles de información.",
+          "Un informe completo puede incluir un diagrama de características de pureza y un diagrama detallado de proporciones. Un dossier más breve o un informe digital puede ofrecer menos detalles visuales.",
+          "La ausencia de un diagrama de pureza no convierte automáticamente un informe en poco fiable. Puede tratarse simplemente de un producto de informe diferente.",
+          "Comprobación para el comprador",
+          "No confíe en una captura de pantalla con el nombre del laboratorio, la descripción del diamante o los comentarios eliminados. Solicite el documento completo y verifíquelo a través del laboratorio emisor."
+        ]
+      },
+      {
+        "id": "confirm-the-diamond-description",
+        "title": "2. Confirme la descripción del diamante",
+        "paragraphsBefore": [
+          "Busque una formulación que identifique claramente lo que examinó el laboratorio.",
+          "Para la compra de un diamante natural, el informe debe identificar la piedra como diamante natural o utilizar una terminología equivalente y clara.",
+          "No asuma que un diamante es natural simplemente porque el informe muestre grados de quilates, color y pureza. Los diamantes creados en laboratorio también pueden recibir documentos de laboratorio, pero su origen manufacturado debe declararse.",
+          "Compruebe:"
+        ],
+        "bullets": [
+          "Identificación de diamante natural",
+          "Identificación de diamante creado en laboratorio",
+          "Descripción de color fancy, cuando corresponda",
+          "Declaraciones de tratamientos detectados",
+          "Formulación de diamante suelto o joya montada"
+        ],
+        "paragraphsAfter": [
+          "Si la descripción no es clara, detenga la transacción hasta que el laboratorio o un profesional cualificado del diamante la explique."
+        ]
+      },
+      {
+        "id": "find-and-verify-the-report-number",
+        "title": "3. Localice y verifique el número de informe",
+        "paragraphsBefore": [
+          "Cada informe de clasificación recibe un número de identificación.",
+          "El número de informe se utiliza para recuperar la información archivada del laboratorio. También puede estar microscópicamente inscrito con láser en la cintura del diamante.",
+          "Comprobar el número puede ayudarle a determinar si:"
+        ],
+        "bullets": [
+          "El informe existe en la base de datos del laboratorio",
+          "Las especificaciones en línea coinciden con el documento facilitado",
+          "La información del documento pudo haber sido alterada",
+          "Una inscripción láser corresponde con el informe"
+        ],
+        "paragraphsAfter": [
+          "Un número de informe válido es importante, pero no es suficiente por sí solo. Un informe auténtico podría presentarse junto con un diamante diferente."
+        ]
+      },
+      {
+        "id": "check-the-shape-and-cutting-style",
+        "title": "4. Compruebe la forma y el estilo de talla",
+        "paragraphsBefore": [
+          "La forma describe el contorno del diamante visto de frente. El estilo de talla describe la disposición y el tipo de facetas.",
+          "Las descripciones habituales incluyen:"
+        ],
+        "bullets": [
+          "Round Brilliant",
+          "Oval Brilliant",
+          "Pear Brilliant",
+          "Cushion Modified Brilliant",
+          "Emerald Cut",
+          "Radiant Cut",
+          "Princess Cut",
+          "Marquise Brilliant",
+          "Square Emerald Cut",
+          "Heart Brilliant"
+        ],
+        "paragraphsAfter": [
+          "No confunda la forma con la calidad de talla.",
+          "«Round Brilliant» identifica una forma y una disposición de facetas. Un grado como «Excellent» puede describir su calidad de talla global.",
+          "En diamantes de formas fancy como Oval, Pear, Cushion y Emerald, la descripción exacta del estilo de talla puede ayudar a explicar por qué dos diamantes de la misma forma general parecen distintos."
+        ]
+      },
+      {
+        "id": "review-the-measurements",
+        "title": "5. Revise las medidas",
+        "paragraphsBefore": [
+          "Las medidas del diamante suelen registrarse en milímetros.",
+          "En un diamante redondo, el informe generalmente muestra:"
+        ],
+        "bullets": [
+          "Diámetro mínimo × diámetro máximo × profundidad"
+        ],
+        "paragraphsAfter": [
+          "En un diamante de forma fancy, generalmente muestra:",
+          "Largo × ancho × profundidad",
+          "Las medidas ayudan a indicar qué tamaño aparente puede tener el diamante cuando se ve desde arriba.",
+          "Dos diamantes de un quilate pueden tener distintas dimensiones aparentes porque su profundidad, contorno y proporciones difieren.",
+          "Relación largo/ancho",
+          "En un diamante de forma fancy, divida su largo entre su ancho:",
+          "Largo ÷ Ancho = Relación largo/ancho",
+          "Por ejemplo:",
+          "9,00 mm ÷ 6,00 mm = relación 1,50",
+          "La relación ayuda a describir si el diamante parece ancho, equilibrado o alargado.",
+          "No es automáticamente un grado de calidad. La relación preferida depende de la forma, el diseño de la joya y la preferencia personal del comprador.",
+          "Qué deben vigilar los compradores",
+          "Un diamante puede retener peso adicional en su profundidad y aun así parecer más pequeño desde arriba. Compare siempre el peso en quilates con las dimensiones reales del diamante."
+        ]
+      },
+      {
+        "id": "understand-carat-weight",
+        "title": "6. Comprenda el peso en quilates",
+        "paragraphsBefore": [
+          "El quilate mide el peso de un diamante, no su tamaño visible.",
+          "Un quilate métrico equivale a 0,20 gramos.",
+          "Un diamante de 1,00 quilates no garantiza parecer más grande que uno de 0,95 quilates. La apariencia de frente también depende de:"
+        ],
+        "bullets": [
+          "Forma",
+          "Diámetro",
+          "Largo y ancho",
+          "Profundidad total",
+          "Grosor de la cintura",
+          "Elecciones de proporción",
+          "Peso retenido por debajo de la cintura"
+        ],
+        "paragraphsAfter": [
+          "Umbrales populares como 1,00, 1,50 y 2,00 quilates pueden afectar la fijación de precios en el mercado. Por ello, es importante evaluar el diamante completo en lugar de comprar únicamente según un umbral de peso."
+        ]
+      },
+      {
+        "id": "understand-the-colour-grade",
+        "title": "7. Comprenda el grado de color",
+        "paragraphsBefore": [
+          "Para muchos diamantes naturales dentro del rango de color normal, el color se clasifica de la D a la Z.",
+          "La escala comienza con la D, que representa incoloro, y avanza hacia una apariencia amarilla o marrón cada vez más marcada.",
+          "La escala de color de diamantes de GIA se evalúa en condiciones de observación controladas utilizando piedras de comparación.",
+          "Las diferencias entre grados de color adyacentes pueden ser sutiles. Su visibilidad puede depender de:"
+        ],
+        "bullets": [
+          "Tamaño del diamante",
+          "Forma",
+          "Calidad de talla",
+          "Ángulo de observación",
+          "Iluminación",
+          "Color del metal de la joya",
+          "Si el diamante está suelto o montado"
+        ],
+        "paragraphsAfter": [
+          "Un grado de color más alto es más raro, pero no necesariamente representa el mejor uso del presupuesto de todo comprador.",
+          "Los diamantes de color fancy utilizan un sistema de clasificación diferente. No interprete un informe de diamante amarillo fancy, rosa, azul u otro color utilizando la escala de la D a la Z."
+        ],
+        "table": {
+          "caption": "Escala de grados de color de la D a la Z",
+          "headers": [
+            "Rango de color",
+            "Descripción general"
+          ],
+          "rows": [
+            [
+              "D–F",
+              "Incoloro"
+            ],
+            [
+              "G–J",
+              "Casi incoloro"
+            ],
+            [
+              "K–M",
+              "Color tenue"
+            ],
+            [
+              "N–R",
+              "Color muy claro"
+            ],
+            [
+              "S–Z",
+              "Color claro"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "understand-the-clarity-grade",
+        "title": "8. Comprenda el grado de pureza",
+        "paragraphsBefore": [
+          "La pureza describe la ausencia relativa de características internas llamadas inclusiones y de características superficiales llamadas imperfecciones.",
+          "La escala de pureza de GIA incluye 11 grados:",
+          "La clasificación de pureza considera el tamaño, la naturaleza, el número, la posición y la visibilidad de las características bajo magnificación. La guía de pureza de GIA explica que la pureza se clasifica con magnificación 10×.",
+          "¿Significa VS2 automáticamente que está limpio a simple vista?",
+          "No.",
+          "Dos diamantes VS2 pueden contener distintos tipos de inclusiones en distintas ubicaciones. Uno puede parecer limpio sin magnificación, mientras que otro puede tener una inclusión oscura visible o una característica situada bajo la mesa.",
+          "El informe proporciona el grado de pureza. Las imágenes de alta resolución o la inspección física ayudan a establecer cómo afectan esas características a la apariencia.",
+          "Características de pureza que examinar",
+          "Preste especial atención a:"
+        ],
+        "bullets": [
+          "Inclusiones oscuras bajo la mesa",
+          "Cristales grandes situados en el centro",
+          "Plumas que alcanzan la cintura",
+          "Cavidades",
+          "Astillas",
+          "Nubes extensas",
+          "Comentarios que indiquen que el grado de pureza se basa en nubes",
+          "Características que puedan afectar la transparencia",
+          "Inclusiones ocultas por reflejos o una fotografía deficiente"
+        ],
+        "paragraphsAfter": [
+          "La presencia de una inclusión no convierte automáticamente un diamante en inadecuado. Importan su tipo, tamaño, visibilidad, relieve y posición."
+        ],
+        "table": {
+          "caption": "Escala de grados de pureza de FL a I3",
+          "headers": [
+            "Grado de pureza",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "FL",
+              "Flawless (Impecable)"
+            ],
+            [
+              "IF",
+              "Internally Flawless (Internamente impecable)"
+            ],
+            [
+              "VVS1",
+              "Very, Very Slightly Included 1 (Muy, muy ligeramente incluido 1)"
+            ],
+            [
+              "VVS2",
+              "Very, Very Slightly Included 2 (Muy, muy ligeramente incluido 2)"
+            ],
+            [
+              "VS1",
+              "Very Slightly Included 1 (Muy ligeramente incluido 1)"
+            ],
+            [
+              "VS2",
+              "Very Slightly Included 2 (Muy ligeramente incluido 2)"
+            ],
+            [
+              "SI1",
+              "Slightly Included 1 (Ligeramente incluido 1)"
+            ],
+            [
+              "SI2",
+              "Slightly Included 2 (Ligeramente incluido 2)"
+            ],
+            [
+              "I1",
+              "Included 1 (Incluido 1)"
+            ],
+            [
+              "I2",
+              "Included 2 (Incluido 2)"
+            ],
+            [
+              "I3",
+              "Included 3 (Incluido 3)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "review-the-cut-grade",
+        "title": "9. Revise el grado de talla",
+        "paragraphsBefore": [
+          "La calidad de talla afecta la eficacia con la que un diamante devuelve y muestra la luz.",
+          "Para diamantes redondos brillantes estándar en el rango de color de la D a la Z, la escala de grados de talla de GIA es:"
+        ],
+        "bullets": [
+          "Excellent",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Poor"
+        ],
+        "paragraphsAfter": [
+          "La guía oficial de talla de diamantes de GIA explica que su sistema global de clasificación de talla se aplica a diamantes redondos brillantes estándar en el rango de color de la D a la Z.",
+          "Por ello, la ausencia de un grado de talla global de GIA en un diamante Oval, Pear, Emerald, Cushion u otra forma fancy no es automáticamente un problema.",
+          "La talla no es lo mismo que la forma",
+          "Forma: Round, Oval, Pear, Cushion o Emerald",
+          "Calidad de talla: eficacia con la que el diseño, las proporciones y la artesanía del diamante gestionan la luz",
+          "Los diamantes de formas fancy deben evaluarse mediante sus medidas, proporciones, contorno, patrón de facetas, pulido, simetría, vídeo y apariencia física.",
+          "Un grado emitido bajo el sistema de un laboratorio no debe interpretarse automáticamente como idéntico a un grado emitido bajo la metodología de otro laboratorio."
+        ]
+      },
+      {
+        "id": "check-polish-and-symmetry",
+        "title": "10. Compruebe el pulido y la simetría",
+        "paragraphsBefore": [
+          "El pulido evalúa la calidad de las superficies facetadas terminadas del diamante.",
+          "La simetría evalúa la precisión y la alineación de las facetas, el contorno y las características relacionadas del diamante.",
+          "Según el laboratorio, los grados pueden incluir:"
+        ],
+        "bullets": [
+          "Excellent",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Poor"
+        ],
+        "paragraphsAfter": [
+          "El pulido y la simetría no son intercambiables con el grado de talla global.",
+          "Un diamante puede tener pulido Excellent y simetría Excellent y, aun así, tener proporciones o características visuales que lo hagan menos atractivo que otra piedra.",
+          "Los grados de acabado Excellent o Very Good pueden ofrecer un buen punto de partida, pero la decisión final debe considerar el diamante completo y su precio."
+        ]
+      },
+      {
+        "id": "read-the-fluorescence-description",
+        "title": "11. Lea la descripción de fluorescencia",
+        "paragraphsBefore": [
+          "La fluorescencia es la luz visible que algunos diamantes emiten cuando se exponen a radiación ultravioleta.",
+          "En los informes de GIA, la intensidad de la fluorescencia puede describirse como:"
+        ],
+        "bullets": [
+          "None",
+          "Faint",
+          "Medium",
+          "Strong",
+          "Very Strong"
+        ],
+        "paragraphsAfter": [
+          "Cuando la fluorescencia es Medium, Strong o Very Strong, también puede registrarse su color. El azul es habitual, aunque pueden aparecer otros colores.",
+          "La fluorescencia no es una de las 4C y no debe tratarse automáticamente como positiva ni negativa. GIA la describe como una característica identificativa en su guía de fluorescencia de diamantes.",
+          "Qué deben comprobar los compradores",
+          "Para diamantes con fluorescencia Medium, Strong o Very Strong:",
+          "Examine el diamante con iluminación interior normal",
+          "Examínelo a la luz del día",
+          "Compruebe si presenta alguna apariencia nebulosa, aceitosa o lechosa",
+          "Compárelo con un diamante similar sin fluorescencia",
+          "Determine si la fluorescencia ha afectado al precio solicitado",
+          "No rechace ni compre un diamante únicamente según la etiqueta de fluorescencia."
+        ]
+      },
+      {
+        "id": "examine-the-proportion-diagram",
+        "title": "12. Examine el diagrama de proporciones",
+        "paragraphsBefore": [
+          "El diagrama de proporciones registra partes importantes de la construcción del diamante.",
+          "Según la forma, el laboratorio y el tipo de informe, puede incluir:"
+        ],
+        "bullets": [
+          "Porcentaje de mesa",
+          "Porcentaje de profundidad total",
+          "Ángulo o altura de la corona",
+          "Ángulo o profundidad del pabellón",
+          "Grosor de la cintura",
+          "Tamaño de la cúspide",
+          "Longitud de las facetas star",
+          "Longitud de las facetas lower-half"
+        ],
+        "paragraphsAfter": [
+          "Estas medidas funcionan en conjunto. Un número de mesa o profundidad supuestamente «ideal» no puede garantizar un excelente comportamiento de la luz.",
+          "Mesa",
+          "La mesa es la gran faceta superior del diamante. El porcentaje de mesa compara su anchura con el diámetro o ancho medio del diamante.",
+          "Profundidad total",
+          "La profundidad total mide el diamante desde la mesa hasta la cúspide.",
+          "Un diamante excesivamente profundo puede retener peso por debajo de la cintura y parecer más pequeño desde arriba.",
+          "Corona y pabellón",
+          "La corona se sitúa por encima de la cintura. El pabellón se sitúa por debajo.",
+          "Sus ángulos y profundidades influyen en el brillo, el fuego, el contraste y la devolución de la luz.",
+          "Cintura",
+          "La cintura forma el borde exterior del diamante.",
+          "Una zona extremadamente fina puede requerir una consideración adicional de durabilidad. Una cintura excesivamente gruesa puede retener peso sin producir un mayor tamaño aparente de frente.",
+          "Cúspide",
+          "La cúspide es el punto o la pequeña faceta en la parte inferior del diamante. Una cúspide grande puede ser visible a través de la mesa.",
+          "Utilice el diagrama de proporciones como herramienta de cribado y comparación, no como sustituto de ver o inspeccionar el diamante."
+        ]
+      },
+      {
+        "id": "understand-the-clarity-plot",
+        "title": "13. Comprenda el diagrama de pureza",
+        "paragraphsBefore": [
+          "Un diagrama de pureza representa las características observadas dentro o sobre la superficie de un diamante.",
+          "En muchos informes de GIA:"
+        ],
+        "bullets": [
+          "Los símbolos rojos indican inclusiones",
+          "Los símbolos verdes indican características externas",
+          "El negro puede indicar facetas adicionales",
+          "Los colores combinados pueden representar ciertas características"
+        ],
+        "paragraphsAfter": [
+          "El informe incluye una leyenda que explica los símbolos utilizados.",
+          "Un diagrama de pureza puede ayudarle a:",
+          "Comprender por qué el diamante recibió su grado de pureza",
+          "Localizar características significativas",
+          "Comparar rasgos visibles con el diamante físico",
+          "Apoyar la identificación de la piedra",
+          "Sin embargo, un diagrama de pureza no siempre es una ilustración exacta de cada característica microscópica. No todos los tipos de informe lo incluyen, y no es necesario que cada característica observada aparezca en el diagrama.",
+          "Lo que más importa",
+          "Examine el tipo, la posición y la importancia de las características que determinan el grado. A continuación, compárelas con imágenes de alta calidad o con los hallazgos de una inspección profesional."
+        ]
+      },
+      {
+        "id": "read-the-comments-section",
+        "title": "14. Lea la sección de comentarios con atención",
+        "paragraphsBefore": [
+          "La sección de comentarios puede contener información importante que no aparece en otra parte del informe.",
+          "Los ejemplos pueden incluir:"
+        ],
+        "bullets": [
+          "Nubes o puntos adicionales no mostrados",
+          "Grano superficial",
+          "Grano interno",
+          "Detalles de la inscripción láser",
+          "Declaración de tratamientos",
+          "Información relacionada con la pureza",
+          "Observaciones relacionadas con el color",
+          "Limitaciones de identificación",
+          "Facetas adicionales",
+          "Naturales",
+          "Otras notas relevantes del laboratorio"
+        ],
+        "paragraphsAfter": [
+          "No omita esta sección porque la formulación parezca técnica.",
+          "Un comentario no identifica automáticamente un problema grave, pero puede explicar algo importante que no resulta evidente en los grados principales.",
+          "Solicite una explicación escrita clara si no comprende un comentario."
+        ]
+      },
+      {
+        "id": "check-the-laser-inscription",
+        "title": "15. Compruebe la inscripción láser",
+        "paragraphsBefore": [
+          "Una inscripción láser es un texto microscópico colocado en la cintura del diamante. Puede contener el nombre del laboratorio, el número de informe u otro mensaje identificativo.",
+          "Según la guía de inscripción láser de GIA, la inscripción generalmente requiere magnificación para leerse.",
+          "Limitaciones importantes"
+        ],
+        "bullets": [
+          "No todos los diamantes naturales tienen una inscripción láser.",
+          "La disponibilidad puede depender del laboratorio y del tipo de informe.",
+          "Una inscripción ayuda a identificar un diamante, pero no constituye una evaluación completa de calidad.",
+          "La inscripción debe coincidir exactamente con el informe.",
+          "Una inscripción coincidente debe considerarse junto con las medidas y otras características identificativas.",
+          "La ausencia de una inscripción no significa automáticamente que el diamante o el informe sean falsos."
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "id": "how-to-verify-a-diamond-grading-report-online",
+    "title": "Cómo verificar un informe de clasificación de diamantes en línea",
+    "introParagraphs": [
+      "No confíe exclusivamente en un PDF, una imagen o una captura de pantalla facilitada por un vendedor.",
+      "Utilice el sistema oficial de verificación del laboratorio emisor:"
+    ],
+    "processHeading": "Proceso de verificación del informe",
+    "giaLinkLabel": "Verificar un informe de GIA",
+    "igiLinkLabel": "Verificar un informe de IGI",
+    "hrdLinkLabel": "Buscar en el archivo de informes de clasificación de HRD Antwerp",
+    "processSteps": [
+      "Identifique el laboratorio emisor.",
+      "Visite la página oficial de verificación del laboratorio.",
+      "Introduzca el número de informe.",
+      "Introduzca el peso en quilates u otra información solicitada.",
+      "Compare el registro en línea con el documento facilitado.",
+      "Confirme el tipo de informe y la fecha del examen.",
+      "Descargue la versión digital oficial cuando esté disponible.",
+      "Compruebe la inscripción láser si el diamante es accesible.",
+      "Compare la información del informe con la piedra física.",
+      "Deténgase y solicite aclaraciones si algún detalle relevante difiere."
+    ],
+    "matchHeading": "Información que debe coincidir",
+    "matchItems": [
+      "Número de informe",
+      "Fecha del informe",
+      "Descripción del diamante",
+      "Forma y estilo de talla",
+      "Medidas",
+      "Peso en quilates",
+      "Color",
+      "Pureza",
+      "Grado de talla, cuando corresponda",
+      "Pulido",
+      "Simetría",
+      "Fluorescencia",
+      "Comentarios",
+      "Información de la inscripción"
+    ],
+    "closingParagraph": "Utilice el dominio oficial del laboratorio emisor. Evite sitios web no oficiales de consulta de certificados que soliciten pagos innecesarios o información personal."
+  },
+  "onlineVerificationLimits": {
+    "id": "does-online-verification-prove-you-have-the-correct-diamond",
+    "title": "¿La verificación en línea demuestra que tiene el diamante correcto?",
+    "introParagraphs": [
+      "No.",
+      "La verificación en línea confirma que existe un número de informe y su información archivada. No demuestra de forma independiente que el diamante físico ofrecido por un vendedor sea la misma piedra examinada para ese informe.",
+      "Para relacionar el informe con el diamante físico, compruebe:"
+    ],
+    "checkItems": [
+      "Inscripción láser, cuando exista",
+      "Forma",
+      "Medidas exactas",
+      "Peso en quilates",
+      "Patrón de características de pureza",
+      "Comentarios del laboratorio",
+      "Estado actual",
+      "Resultados de la inspección profesional"
+    ],
+    "closingParagraph": "Esta distinción es especialmente importante al comprar un diamante natural suelto de forma remota."
+  },
+  "matchingSteps": {
+    "id": "how-to-match-the-report-with-the-physical-diamond",
+    "title": "Cómo relacionar el informe con el diamante físico",
+    "introParagraphs": [
+      "Utilice varias características identificativas en lugar de confiar en un solo detalle."
+    ],
+    "steps": [
+      "Paso 1: Compruebe la inscripción — Si el informe registra una inscripción láser, verifíquela con la magnificación adecuada.",
+      "Paso 2: Confirme las medidas — Compare las dimensiones del diamante con las registradas en el informe.",
+      "Paso 3: Confirme el peso — El peso del diamante físico debe corresponderse con el informe, sujeto a la precisión registrada por el laboratorio.",
+      "Paso 4: Compare las características de pureza — Utilice el diagrama de pureza y los comentarios para localizar características significativas dentro de la piedra.",
+      "Paso 5: Compruebe el estado actual — Inspeccione si existen astillas, abrasionas o cambios que hayan podido producirse después de la emisión del informe.",
+      "Paso 6: Investigue las inconsistencias — No continúe hasta que se hayan explicado diferencias significativas entre el informe y el diamante físico."
+    ],
+    "closingParagraph": "Una inscripción coincidente proporciona evidencia útil, pero la combinación completa de información identificativa es más sólida."
+  },
+  "comparisonTable": {
+    "id": "how-to-compare-two-diamond-grading-reports",
+    "title": "Cómo comparar dos informes de clasificación de diamantes",
+    "introParagraphs": [
+      "No compare diamantes utilizando únicamente las 4C principales.",
+      "Utilice el siguiente orden:",
+      "Siempre que sea posible, compare diamantes clasificados por el mismo laboratorio bajo tipos de informe comparables.",
+      "Los laboratorios pueden utilizar terminología similar, pero sus metodologías, formatos de informe y sistemas de evaluación no son necesariamente idénticos."
+    ],
+    "table": {
+      "caption": "Comparar dos informes de clasificación de diamantes",
+      "headers": [
+        "Punto de comparación",
+        "Qué comprobar"
+      ],
+      "rows": [
+        [
+          "Laboratorio",
+          "¿Fueron clasificados ambos diamantes por el mismo laboratorio?"
+        ],
+        [
+          "Tipo de informe",
+          "¿Contienen ambos informes un nivel comparable de evaluación?"
+        ],
+        [
+          "Identidad del diamante",
+          "¿Están ambas piedras claramente identificadas como diamantes naturales?"
+        ],
+        [
+          "Forma y medidas",
+          "¿Qué piedra tiene el contorno y la dimensión aparente de frente preferidos?"
+        ],
+        [
+          "Peso en quilates",
+          "¿El peso produce tamaño visible o se retiene en la profundidad?"
+        ],
+        [
+          "Talla y proporciones",
+          "¿En qué pueden diferir su comportamiento de la luz y su dimensión aparente de frente?"
+        ],
+        [
+          "Color",
+          "¿La diferencia es lo suficientemente visible como para justificar la prima de precio?"
+        ],
+        [
+          "Pureza",
+          "¿Dónde están las inclusiones y son visibles sin magnificación?"
+        ],
+        [
+          "Pulido y simetría",
+          "¿Las diferencias de acabado son comercial o visualmente significativas?"
+        ],
+        [
+          "Fluorescencia",
+          "¿Cómo aparece cada piedra con iluminación normal y a la luz del día?"
+        ],
+        [
+          "Comentarios",
+          "¿Se declaran nubes, grano, tratamientos u otros detalles?"
+        ],
+        [
+          "Imágenes",
+          "¿Las fotografías y los vídeos revelan oscuridad, efecto bow-tie o neblina?"
+        ],
+        [
+          "Precio",
+          "¿La prima está respaldada por una diferencia de calidad significativa?"
+        ],
+        [
+          "Inspección",
+          "¿Se ha comprobado el diamante real y no solo su informe?"
+        ]
+      ]
+    }
+  },
+  "workedExample": {
+    "id": "worked-example",
+    "title": "Ejemplo práctico: lectura de un informe de diamante",
+    "introParagraphs": [
+      "Considere este diamante natural hipotético:"
+    ],
+    "introBullets": [
+      "Round Brilliant",
+      "1,02 quilates",
+      "Color H",
+      "Pureza VS2",
+      "Talla Excellent",
+      "Pulido Excellent",
+      "Simetría Excellent",
+      "Fluorescencia Faint",
+      "Sin comentario de tratamiento",
+      "Número de informe inscrito con láser"
+    ],
+    "steps": [
+      "Paso 1: Verifique el informe — Confirme que la base de datos oficial del laboratorio muestra el mismo número de informe, forma, peso y grados.",
+      "Paso 2: Confirme la identidad de diamante natural — Asegúrese de que el informe identifica explícitamente la piedra como diamante natural.",
+      "Paso 3: Revise las medidas — Compare el diámetro con otros diamantes redondos de aproximadamente el mismo peso. Compruebe si el diamante tiene una dimensión aparente de frente razonable o retiene peso innecesario en su profundidad.",
+      "Paso 4: Evalúe el color — H se encuentra dentro del rango casi incoloro. Si el color resulta perceptible puede depender del diamante individual, su tamaño, su talla, el metal del engaste y las condiciones de observación.",
+      "Paso 5: Investigue la pureza — VS2 es un buen punto de partida, pero no garantiza que el diamante parezca limpio a simple vista. Revise el diagrama de pureza y el vídeo para determinar el tipo, la posición y la visibilidad de las características que determinan el grado.",
+      "Paso 6: Revise la talla y las proporciones — Una talla Excellent es alentadora, pero el diagrama de proporciones debe revisarse igualmente. Examine la mesa, la profundidad, la corona, el pabellón y la información de la cintura en lugar de confiar únicamente en el grado global.",
+      "Paso 7: Compruebe el acabado — Pulido Excellent y simetría Excellent indican un alto nivel de acabado. Sin embargo, estos grados no sustituyen la evaluación global de la talla.",
+      "Paso 8: Considere la fluorescencia — Fluorescencia Faint debe tratarse como una característica identificativa en lugar de automáticamente como positiva o negativa.",
+      "Paso 9: Inspeccione el diamante físico — Confirme la inscripción láser y examine el brillo, la transparencia, las inclusiones y el estado actual del diamante.",
+      "Paso 10: Compare el precio — Compare el precio solicitado con diamantes naturales genuinamente similares clasificados por el mismo laboratorio. Incluya medidas, proporciones y apariencia visible en la comparación, no solo quilates, color y pureza."
+    ],
+    "closingParagraph": "El informe de clasificación ayuda a organizar la decisión de compra. No la toma por usted."
+  },
+  "labComparison": {
+    "id": "gia-igi-and-hrd-antwerp-diamond-reports",
+    "title": "Informes de diamantes de GIA, IGI y HRD Antwerp",
+    "introParagraphs": [
+      "GIA, IGI y HRD Antwerp emiten informes relacionados con diamantes. Sin embargo, sus tipos de documento, terminología y métodos de evaluación pueden diferir.",
+      "Este recurso no declara que un laboratorio sea automáticamente mejor para toda transacción.",
+      "El proceso correcto es:"
+    ],
+    "processSteps": [
+      "Identificar el laboratorio emisor.",
+      "Confirmar el tipo exacto de informe.",
+      "Verificar el informe a través del sistema oficial.",
+      "Comprender la información incluida y omitida.",
+      "Comparar diamantes evaluados bajo sistemas comparables.",
+      "Relacionar el informe con la piedra física.",
+      "Evaluar la apariencia y el precio del diamante."
+    ],
+    "closingParagraphs": [
+      "Una comparación separada de GIA frente a IGI frente a HRD Antwerp debería abordar diferencias más profundas entre los laboratorios. Este recurso debe mantenerse centrado en la lectura y verificación de informes de clasificación de diamantes."
+    ],
+    "table": {
+      "caption": "Comparación de informes de GIA, IGI y HRD Antwerp",
+      "headers": [
+        "Laboratorio",
+        "Qué deben saber los compradores"
+      ],
+      "rows": [
+        [
+          "GIA",
+          "Emite varios tipos de informes de diamantes naturales y proporciona Report Check en línea. GIA utiliza normalmente el término «grading report» en lugar de «certificate»."
+        ],
+        [
+          "IGI",
+          "Emite informes de diamantes naturales, diamantes creados en laboratorio y joyas. Sus informes pueden verificarse a través del sistema oficial de verificación de IGI."
+        ],
+        [
+          "HRD Antwerp",
+          "Emite informes de diamantes y joyas y proporciona acceso a su archivo de informes de clasificación a través de My HRD Antwerp."
+        ]
+      ]
+    }
+  },
+  "limitations": {
+    "id": "what-a-diamond-grading-report-cannot-tell-you",
+    "title": "Lo que un informe de clasificación de diamantes no puede decirle",
+    "introParagraphs": [
+      "Incluso un informe de clasificación detallado y auténtico tiene limitaciones."
+    ],
+    "subsections": [
+      {
+        "title": "No establece un precio de compra justo",
+        "paragraphs": [
+          "Un informe de clasificación registra características de calidad. No determina lo que el vendedor debe cobrar ni lo que el diamante pueda valer posteriormente en otro mercado."
+        ]
+      },
+      {
+        "title": "No garantiza la belleza",
+        "paragraphs": [
+          "El informe puede no comunicar plenamente:"
+        ],
+        "bullets": [
+          "Efecto bow-tie en formas alargadas",
+          "Distribución desigual de la luz",
+          "Zonas oscuras o acuosas",
+          "Color de las inclusiones",
+          "Transparencia",
+          "Apariencia lechosa o nebulosa",
+          "Preferencia por el patrón de facetas",
+          "Cómo se mueve y brilla el diamante",
+          "Preferencia personal por la forma"
+        ]
+      },
+      {
+        "title": "Normalmente no demuestra el origen geográfico",
+        "paragraphs": [
+          "Un informe de clasificación estándar no debe tratarse automáticamente como prueba del país donde se extrajo un diamante.",
+          "Las afirmaciones de origen geográfico o trazabilidad requieren documentación adecuada y un proceso relevante de cadena de custodia."
+        ]
+      },
+      {
+        "title": "No demuestra que el vendedor sea fiable",
+        "paragraphs": [
+          "Un informe auténtico puede utilizarse igualmente en una transacción engañosa.",
+          "Verifique por separado al vendedor, las condiciones de pago, los acuerdos de entrega, las condiciones de inspección y la política de devolución."
+        ]
+      },
+      {
+        "title": "No confirma permanentemente el estado actual",
+        "paragraphs": [
+          "Un diamante puede astillarse, dañarse, tratarse, pulirse o retallarse después de su examen original.",
+          "Por ello, un informe antiguo puede requerir verificación adicional o una inspección actualizada."
+        ]
+      },
+      {
+        "title": "No sustituye una tasación",
+        "paragraphs": [
+          "Un informe de clasificación describe la identidad y la calidad del diamante. Una tasación proporciona un valor monetario estimado para un fin determinado, como el seguro."
+        ]
+      }
+    ]
+  },
+  "warningSigns": {
+    "id": "diamond-grading-report-warning-signs",
+    "title": "Señales de alerta en informes de clasificación de diamantes",
+    "introLead": "Detenga la compra si:",
+    "items": [
+      "El vendedor se niega a facilitar el informe completo.",
+      "El número de informe no puede encontrarse en el sitio web oficial del laboratorio.",
+      "La información en línea no coincide con el documento facilitado.",
+      "La identidad natural o creada en laboratorio del diamante no está clara.",
+      "Se ha recortado u ocultado formulación importante de identificación.",
+      "La inscripción láser difiere del número de informe.",
+      "Las medidas o el peso en quilates no corresponden.",
+      "El documento parece alterado.",
+      "Se presenta una tasación emitida por el vendedor como clasificación independiente.",
+      "Un diamante de valor no tiene documentación independiente creíble.",
+      "Se ignoran comentarios importantes o declaraciones de tratamientos.",
+      "El vendedor garantiza valor basándose únicamente en el informe de clasificación.",
+      "El precio es inusualmente bajo sin una explicación razonable.",
+      "El vendedor desalienta la inspección o la comparación.",
+      "Se solicita el pago antes de confirmar la disponibilidad y la documentación."
+    ],
+    "closingParagraph": "Una inconsistencia relevante es suficiente para solicitar aclaraciones antes de continuar."
+  },
+  "vsAppraisal": {
+    "id": "grading-report-versus-appraisal-and-other-documents",
+    "title": "Informe de clasificación frente a tasación y otros documentos",
+    "introParagraphs": [
+      "GIA explica que un informe de clasificación es distinto de una tasación de joyas.",
+      "Antes de confiar en cualquier documento, establezca:"
+    ],
+    "establishItems": [
+      "Quién lo emitió",
+      "Qué se examinó",
+      "Cuándo se emitió",
+      "Si puede verificarse de forma independiente",
+      "Qué afirma realmente el documento",
+      "Qué no establece el documento"
+    ],
+    "table": {
+      "caption": "Informe de clasificación frente a tasación y otros documentos",
+      "headers": [
+        "Documento",
+        "Finalidad principal",
+        "¿Describe la calidad?",
+        "¿Indica el valor?"
+      ],
+      "rows": [
+        [
+          "Informe de clasificación de diamantes",
+          "Registra la identidad y las características de calidad",
+          "Sí",
+          "No"
+        ],
+        [
+          "Tasación de joyas",
+          "Proporciona un valor estimado para un fin determinado",
+          "Normalmente",
+          "Sí"
+        ],
+        [
+          "Factura de venta",
+          "Registra la transacción comercial",
+          "A veces",
+          "Muestra el precio de compra"
+        ],
+        [
+          "Documento de origen o trazabilidad",
+          "Registra información de origen bajo un proceso determinado",
+          "Varía",
+          "No"
+        ],
+        [
+          "Informe de joyas",
+          "Describe una pieza montada y sus componentes",
+          "Sí, con limitaciones",
+          "Normalmente no"
+        ],
+        [
+          "Certificado de autenticidad",
+          "Varía según el emisor",
+          "Varía",
+          "Normalmente no"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-report-checklist",
+    "title": "Lista de verificación del informe de diamante natural",
+    "introLead": "Antes de comprar un diamante natural suelto, confirme:",
+    "items": [
+      "Se ha facilitado el informe de clasificación completo.",
+      "El laboratorio emisor está claramente indicado.",
+      "Se ha identificado el tipo exacto de informe.",
+      "Se ha comprobado el número de informe en el sitio web oficial.",
+      "El registro en línea coincide con el informe facilitado.",
+      "La piedra está explícitamente identificada como diamante natural.",
+      "La forma y el estilo de talla coinciden con el anuncio.",
+      "Las medidas y el peso en quilates corresponden.",
+      "Se comprenden los grados de color y pureza.",
+      "Se ha revisado el diagrama de pureza, cuando esté disponible.",
+      "Se ha leído la sección de comentarios.",
+      "Se han considerado la talla y las proporciones.",
+      "Se han comprobado el pulido y la simetría.",
+      "Se ha revisado la fluorescencia.",
+      "Se han comprobado las declaraciones de tratamientos.",
+      "La inscripción láser coincide, cuando exista.",
+      "Las fotografías o el vídeo muestran el diamante real.",
+      "Se ha considerado el estado actual.",
+      "Se ha inspeccionado el diamante físico cuando corresponda.",
+      "Se ha comparado el precio con piedras genuinamente similares.",
+      "Las condiciones de pago y entrega son claras."
+    ]
+  },
+  "cta": {
+    "id": "already-found-a-natural-diamond-online",
+    "title": "¿Ya ha encontrado un diamante natural en línea?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Un informe de clasificación es un punto de partida esencial, pero debe considerarse junto con el diamante físico, el proveedor, el precio y el proceso de transacción."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Con "
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", los compradores pueden enviar un diamante natural suelto preseleccionado a Dalila Diamonds para la coordinación aplicable de control de calidad, pago en euros y entrega programada a Bélgica u otro destino confirmado de la Unión Europea."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si aún no ha seleccionado una piedra, utilice "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " para solicitar asistencia personalizada en el abastecimiento de diamantes naturales."
+        }
+      ]
+    ],
+    "primaryButtonText": "Enviar un diamante preseleccionado",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Explorar diamantes naturales",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes sobre informes de clasificación de diamantes",
+    "items": [
+      {
+        "question": "¿Qué es un informe de clasificación de diamantes?",
+        "answer": "Un informe de clasificación de diamantes es la evaluación técnica de la identidad y las características de calidad de un diamante realizada por un laboratorio independiente. Puede incluir las 4C, medidas, proporciones, pulido, simetría, fluorescencia, características de pureza, tratamientos e información de inscripción."
+      },
+      {
+        "question": "¿Es un informe de clasificación de diamantes lo mismo que un certificado de diamante?",
+        "answer": "Los compradores suelen utilizar ambos términos indistintamente, pero «informe de clasificación» es, en general, más preciso. Un informe de laboratorio proporciona una evaluación técnica. No es necesariamente una garantía, una tasación ni una certificación legal del valor de mercado."
+      },
+      {
+        "question": "¿Cuáles son los detalles más importantes de un informe de diamante?",
+        "answer": "Comience con la descripción del diamante, el número de informe, la forma, las medidas, quilates, color, pureza e información de talla. A continuación, examine las proporciones, el pulido, la simetría, la fluorescencia, las características de pureza, los comentarios y la inscripción láser."
+      },
+      {
+        "question": "¿Cómo compruebo un certificado de diamante en línea?",
+        "answer": "Introduzca el número de informe en el sitio web oficial de verificación del laboratorio emisor. Compare el registro en línea con el documento facilitado y el diamante físico. GIA, IGI y HRD Antwerp proporcionan sistemas oficiales de verificación."
+      },
+      {
+        "question": "¿Dónde puedo encontrar el número de informe del diamante?",
+        "answer": "El número de informe suele mostrarse cerca de la parte superior del documento. También puede aparecer en un código QR, un enlace a un informe digital o en una inscripción láser microscópica en la cintura del diamante."
+      },
+      {
+        "question": "¿Cómo puedo identificar un informe de clasificación de diamantes falso?",
+        "answer": "Verifique el número en el sitio web oficial del laboratorio y compare cada detalle. Las señales de alerta incluyen un registro en línea inexistente, un formato alterado, medidas que no coinciden, formulación de identificación recortada o una inscripción que difiere del informe."
+      },
+      {
+        "question": "¿Demuestra un informe verificado que el diamante físico es auténtico?",
+        "answer": "Confirma que el informe archivado existe. No demuestra de forma independiente que el vendedor le haya mostrado el mismo diamante. Relacione el informe con la piedra mediante la inscripción, las medidas, las características de pureza y la inspección profesional."
+      },
+      {
+        "question": "¿Tiene todo diamante un número de informe inscrito con láser?",
+        "answer": "No. La disponibilidad de la inscripción depende del laboratorio, del tipo de informe y de los servicios seleccionados. Su ausencia no indica automáticamente un problema, pero una inscripción presente debe corresponderse con el informe."
+      },
+      {
+        "question": "¿Por qué mi informe de clasificación no incluye un diagrama de pureza?",
+        "answer": "Algunos tipos de informe no incluyen un diagrama completo de características de pureza. Confirme el producto exacto de informe con el laboratorio emisor antes de asumir que falta información."
+      },
+      {
+        "question": "¿Confirma un informe de clasificación de diamantes que un diamante es natural?",
+        "answer": "Un informe de un laboratorio reputado debe describir claramente si el diamante examinado es natural o creado en laboratorio. Nunca confíe únicamente en las 4C para determinar el origen del diamante."
+      },
+      {
+        "question": "¿Muestra un certificado de diamante lo que vale el diamante?",
+        "answer": "No. Un informe de clasificación describe la calidad, pero normalmente no indica el valor de mercado ni de seguro. La fijación de precios requiere comparación con diamantes relevantes y condiciones de mercado. El valor de seguro requiere una tasación adecuada."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un informe de clasificación y una tasación?",
+        "answer": "Un informe de clasificación registra la identidad técnica y las características de calidad. Una tasación proporciona un valor monetario estimado para un fin determinado, como seguro, planificación patrimonial o consideración de reventa."
+      },
+      {
+        "question": "¿Caducan los informes de clasificación de diamantes?",
+        "answer": "Un informe de clasificación no necesariamente deja de ser válido tras un periodo fijo. Sin embargo, el diamante puede astillarse, tratarse, pulirse o retallarse después del examen. Los informes antiguos deben verificarse, y el estado actual puede requerir inspección."
+      },
+      {
+        "question": "¿Puede un diamante dañado o retallado conservar su informe antiguo?",
+        "answer": "Sí. Un informe antiguo puede seguir existiendo aunque el diamante haya cambiado. Por ello deben comprobarse sus medidas, peso, inscripción, estado y características identificativas."
+      },
+      {
+        "question": "¿Por qué un diamante de forma fancy no tiene grado de talla de GIA?",
+        "answer": "El sistema global estándar de clasificación de talla de GIA se aplica a diamantes redondos brillantes estándar en el rango de color de la D a la Z. Las formas fancy deben evaluarse mediante sus medidas, proporciones, contorno, pulido, simetría, patrón de facetas, vídeo y apariencia física."
+      },
+      {
+        "question": "¿Qué informe de diamante es mejor: GIA, IGI o HRD Antwerp?",
+        "answer": "Cada laboratorio ofrece distintos tipos de informe, servicios y sistemas de verificación. En lugar de elegir únicamente por el nombre, confirme el tipo de informe, comprenda su metodología, verifique el documento y compare diamantes evaluados bajo sistemas comparables."
+      },
+      {
+        "question": "¿Puedo comprar un diamante natural sin informe de clasificación?",
+        "answer": "Es posible, pero comprar sin documentación independiente creíble crea incertidumbre adicional respecto a la identidad, la calidad y la comparación de precios. El nivel de riesgo aceptable depende del valor del diamante, del vendedor y del proceso de inspección disponible."
+      },
+      {
+        "question": "¿Qué debo hacer si se ha perdido el informe de clasificación?",
+        "answer": "Contacte con el laboratorio emisor y compruebe si existe un registro digital o un reemplazo. Puede ser necesario volver a enviar el diamante si su identidad no puede confirmarse o si su estado actual requiere una nueva evaluación."
+      },
+      {
+        "question": "¿Es independiente un certificado de diamante emitido por el vendedor?",
+        "answer": "No necesariamente. Un documento producido por el vendedor no equivale a un informe de clasificación de un laboratorio gemológico independiente. Compruebe quién examinó el diamante y si la organización emisora proporciona verificación oficial."
+      },
+      {
+        "question": "¿Pueden parecer distintos dos diamantes con grados idénticos?",
+        "answer": "Sí. Dos diamantes con los mismos grados de quilates, color y pureza pueden diferir en proporciones, ubicación de inclusiones, transparencia, fluorescencia, patrón de facetas, dimensión aparente de frente y apariencia general."
+      },
+      {
+        "question": "¿Garantiza un grado de talla Excellent un diamante hermoso?",
+        "answer": "Ningún grado individual garantiza que todo comprador prefiera el diamante. Un grado de talla Excellent es un indicador valioso de calidad, pero también deben considerarse las proporciones, la transparencia, el patrón visual y la preferencia personal."
+      },
+      {
+        "question": "¿Debe utilizarse la inscripción láser como único método para identificar un diamante?",
+        "answer": "No. Una inscripción es útil, pero la identificación también debe considerar medidas, peso en quilates, características de pureza, comentarios e inspección profesional."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusión final",
+    "introParagraphs": [
+      "Un informe de clasificación de diamantes ofrece una forma estructurada de comprender y comparar un diamante natural, pero los grados principales son solo el comienzo.",
+      "Verifique el número de informe. Lea las medidas, las proporciones, la información de pureza, la fluorescencia y los comentarios. Relacione la documentación con la piedra física. A continuación, considere la apariencia, el precio, la fiabilidad del vendedor, las condiciones de pago y las condiciones de entrega antes de comprar."
+    ],
+    "doNotAskLead": "No se limite a preguntar:",
+    "doNotAskItems": [
+      "¿Este diamante tiene certificado?"
+    ],
+    "askLead": "Pregunte:",
+    "askItems": [
+      "¿Qué dice el informe, coincide con el diamante físico y justifica la piedra completa el precio?"
+    ],
+    "primaryButtonText": "Utilizar Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contactar con Dalila Diamonds",
+    "secondaryButtonHref": "/contact"
+  }
+}

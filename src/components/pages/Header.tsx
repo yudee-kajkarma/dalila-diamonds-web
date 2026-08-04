@@ -267,9 +267,16 @@ export default function Header() {
 
                                         <Link
                                             href={localizedPath("/elongated-cushion-cut-diamond-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
                                             {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
+                                        </Link>
+
+                                        <Link
+                                            href={localizedPath("/resources/diamond-grading-report-guide")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                        >
+                                            {dictionary?.nav?.articleGradingReport || "Diamond Grading Report Guide"}
                                         </Link>
                                     </div>
                                 )}

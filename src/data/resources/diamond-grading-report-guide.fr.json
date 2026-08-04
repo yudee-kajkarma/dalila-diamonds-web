@@ -1,0 +1,1189 @@
+{
+  "meta": {
+    "title": "Guide du rapport d'analyse gemmologique | Dalila Diamonds",
+    "description": "Comprenez les rapports d'analyse gemmologique des diamants, vérifiez les numéros de rapport, comparez les 4C, les proportions et la fluorescence, et contrôlez un diamant naturel avant l'achat.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "igiVerify": "https://www.igi.org/Verify-Your-Report/",
+    "hrdVerify": "https://my.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Guide du rapport d'analyse gemmologique",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Guide du rapport d'analyse gemmologique"
+  },
+  "hero": {
+    "title": "Guide du rapport d'analyse gemmologique pour les acheteurs de diamants naturels",
+    "subheading": "Comprenez chaque partie d'un rapport d'analyse gemmologique, vérifiez le numéro de rapport et comparez la qualité d'un diamant naturel avant l'achat.",
+    "reviewDateLabel": "Dernière révision :",
+    "reviewDate": "30 juillet 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Un rapport d'analyse gemmologique contient bien plus d'informations que le poids en carats, la couleur et la pureté. Lu correctement, il peut vous aider à confirmer l'identité d'un diamant, à évaluer sa qualité et à le comparer à d'autres diamants naturels.",
+      "Cependant, un rapport d'analyse ne peut pas tout vous dire.",
+      "Il ne prouve pas automatiquement que la pierre physique qui vous est proposée est bien le diamant décrit dans le rapport. Il ne détermine pas un prix d'achat équitable, ne garantit pas la beauté visuelle et ne remplace pas une inspection professionnelle.",
+      "Cette ressource explique les informations essentielles figurant sur un rapport d'analyse gemmologique d'un diamant naturel, comment le vérifier et quels détails nécessitent un examen plus approfondi."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Réponse rapide",
+    "introParagraphs": [
+      "Un rapport d'analyse gemmologique est l'évaluation technique, par un laboratoire gemmologique indépendant, de l'identité et de la qualité d'un diamant.",
+      "Selon le laboratoire et le type de rapport, il peut consigner :"
+    ],
+    "attributes": [
+      "Identité naturelle ou de synthèse",
+      "Forme et style de taille",
+      "Dimensions",
+      "Poids en carats",
+      "Couleur",
+      "Pureté",
+      "Note de taille",
+      "Proportions",
+      "Polissage",
+      "Symétrie",
+      "Fluorescence",
+      "Caractéristiques de pureté",
+      "Traitements",
+      "Inscription au laser",
+      "Commentaires supplémentaires du laboratoire"
+    ],
+    "closingParagraphs": [
+      "Les acheteurs appellent souvent ce document un « certificat diamant », mais « rapport d'analyse gemmologique » est généralement le terme le plus exact. Un rapport d'analyse décrit le diamant ; il n'attribue pas de valeur marchande ni ne garantit ce que le diamant devrait coûter."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Points essentiels",
+    "items": [
+      "Vérifiez le numéro de rapport sur le site officiel du laboratoire émetteur.",
+      "Confirmez que le rapport identifie la pierre comme un diamant naturel.",
+      "Faites correspondre le rapport avec la pierre physique à l'aide des dimensions, des caractéristiques et de toute inscription au laser.",
+      "N'évaluez pas un diamant uniquement sur la base du carat, de la couleur et de la pureté.",
+      "Examinez la taille, les proportions, le polissage, la symétrie, la fluorescence et l'emplacement des caractéristiques de pureté.",
+      "Lisez la section des commentaires avant de prendre une décision.",
+      "Un rapport vérifié ne signifie pas automatiquement que le diamant est attrayant ou vendu à un prix équitable.",
+      "Un rapport d'analyse est différent d'une expertise, d'une facture de vente ou d'un document d'origine.",
+      "Comparez, dans la mesure du possible, des diamants certifiés par le même laboratoire et le même type de rapport.",
+      "Envisagez une inspection professionnelle lors de l'achat à distance d'un diamant naturel monté en solitaire de valeur."
+    ]
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "what-is-a-diamond-grading-report",
+        "label": "Qu'est-ce qu'un rapport d'analyse gemmologique"
+      },
+      {
+        "id": "why-does-a-diamond-grading-report-matter",
+        "label": "Pourquoi les rapports d'analyse sont importants"
+      },
+      {
+        "id": "how-to-read-a-diamond-grading-report",
+        "label": "Comment lire un rapport d'analyse gemmologique"
+      },
+      {
+        "id": "how-to-verify-a-diamond-grading-report-online",
+        "label": "Comment vérifier un rapport en ligne"
+      },
+      {
+        "id": "how-to-match-the-report-with-the-physical-diamond",
+        "label": "Comment faire correspondre un rapport avec le diamant physique"
+      },
+      {
+        "id": "how-to-compare-two-diamond-grading-reports",
+        "label": "Comment comparer deux rapports d'analyse"
+      },
+      {
+        "id": "worked-example",
+        "label": "Exemple pratique de lecture d'un rapport"
+      },
+      {
+        "id": "gia-igi-and-hrd-antwerp-diamond-reports",
+        "label": "Rapports GIA, IGI et HRD Antwerp"
+      },
+      {
+        "id": "what-a-diamond-grading-report-cannot-tell-you",
+        "label": "Ce qu'un rapport d'analyse ne peut pas vous dire"
+      },
+      {
+        "id": "diamond-grading-report-warning-signs",
+        "label": "Signaux d'alerte concernant un rapport"
+      },
+      {
+        "id": "grading-report-versus-appraisal-and-other-documents",
+        "label": "Rapport d'analyse, expertise et autres documents"
+      },
+      {
+        "id": "natural-diamond-report-checklist",
+        "label": "Liste de contrôle pour l'acheteur de diamants naturels"
+      },
+      {
+        "id": "grading-report-faq-heading",
+        "label": "Questions fréquemment posées"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-grading-report",
+    "title": "Qu'est-ce qu'un rapport d'analyse gemmologique ?",
+    "introParagraphs": [
+      "Un rapport d'analyse gemmologique est un document technique produit après qu'un laboratoire gemmologique a examiné un diamant dans des conditions contrôlées.",
+      "Selon le laboratoire et le type de rapport, l'examen peut établir :"
+    ],
+    "establishItems": [
+      "Si la pierre est un diamant",
+      "Si le diamant est naturel ou de synthèse",
+      "Si des traitements détectables sont présents",
+      "Sa forme et son style de taille",
+      "Ses dimensions et son poids en carats",
+      "Ses notes de couleur et de pureté",
+      "Sa note de taille ou ses proportions",
+      "Son polissage et sa symétrie",
+      "Sa fluorescence",
+      "Ses inclusions et défauts identifiants",
+      "Si une inscription au laser est présente"
+    ],
+    "closingParagraphs": [
+      "Le Gemological Institute of America utilise le terme « grading report » (rapport d'analyse) plutôt que « certificate » (certificat). Ses rapports fournissent des informations techniques sur un diamant, mais ne constituent ni des expertises ni des garanties de valeur monétaire.",
+      "« Certificat diamant » reste un terme de recherche très répandu ; les deux expressions sont donc utilisées dans ce guide.",
+      "La façon la plus simple de le comprendre",
+      "Un rapport d'analyse est la description technique du diamant. Ce n'est pas son étiquette de prix, son évaluation de revente ni une recommandation d'achat complète."
+    ]
+  },
+  "whyMatter": {
+    "id": "why-does-a-diamond-grading-report-matter",
+    "title": "Pourquoi un rapport d'analyse gemmologique est-il important ?",
+    "introParagraphs": [
+      "Des diamants naturels qui semblent similaires sur des photographies peuvent différer considérablement en rareté, qualité, prix et apparence visible.",
+      "Un rapport d'analyse crée un ensemble reconnu d'informations que les acheteurs, les fournisseurs et les professionnels du diamant peuvent utiliser pour comparer les pierres.",
+      "Il peut vous aider à :"
+    ],
+    "helpItems": [
+      "Confirmer que le laboratoire nommé a examiné un diamant",
+      "Établir si le rapport décrit un diamant naturel",
+      "Comparer les caractéristiques de qualité entre les pierres présélectionnées",
+      "Comprendre pourquoi des diamants apparemment similaires ont des prix différents",
+      "Identifier les détails nécessitant un examen plus approfondi",
+      "Consigner les caractéristiques identifiantes pour référence future",
+      "Fournir des informations techniques pour une expertise indépendante",
+      "Réduire la dépendance à la seule description du vendeur"
+    ],
+    "closingParagraphs": [
+      "Un rapport d'analyse n'est qu'une partie du processus d'achat. Le diamant physique, le vendeur, le prix, le mode de paiement, le processus de livraison et les conditions d'inspection doivent également être pris en compte."
+    ]
+  },
+  "howToRead": {
+    "id": "how-to-read-a-diamond-grading-report",
+    "title": "Comment lire un rapport d'analyse gemmologique",
+    "introParagraphs": [
+      "Les laboratoires utilisent des mises en page, une terminologie et des types de rapports différents. Néanmoins, la plupart des rapports d'analyse de diamants naturels comprennent plusieurs sections communes."
+    ],
+    "subsections": [
+      {
+        "id": "check-the-laboratory-report-type-and-date",
+        "title": "1. Vérifier le laboratoire, le type de rapport et la date",
+        "paragraphsBefore": [
+          "Commencez en haut du rapport et confirmez :"
+        ],
+        "bullets": [
+          "Nom du laboratoire émetteur",
+          "Type exact de rapport",
+          "Numéro de rapport",
+          "Date d'examen",
+          "Si le rapport concerne un diamant monté en solitaire ou un bijou fini"
+        ],
+        "paragraphsAfter": [
+          "Le type de rapport est important, car différents documents contiennent des niveaux d'information différents.",
+          "Un rapport complet peut contenir un schéma des caractéristiques de pureté et un diagramme détaillé des proportions. Un dossier plus compact ou un rapport numérique peut fournir moins de détails visuels.",
+          "L'absence d'un schéma de pureté ne rend pas automatiquement un rapport peu fiable. Il peut s'agir simplement d'un produit de rapport différent.",
+          "Contrôle pour l'acheteur",
+          "Ne vous fiez pas à une capture d'écran dont le nom du laboratoire, la description du diamant ou les commentaires ont été supprimés. Demandez le document complet et vérifiez-le auprès du laboratoire émetteur."
+        ]
+      },
+      {
+        "id": "confirm-the-diamond-description",
+        "title": "2. Confirmer la description du diamant",
+        "paragraphsBefore": [
+          "Recherchez une formulation qui identifie clairement ce que le laboratoire a examiné.",
+          "Pour l'achat d'un diamant naturel, le rapport doit identifier la pierre comme un diamant naturel ou utiliser une terminologie claire équivalente.",
+          "Ne supposez pas qu'un diamant est naturel simplement parce que le rapport affiche des notes de carat, de couleur et de pureté. Les diamants de synthèse peuvent également recevoir des documents de laboratoire, mais leur origine manufacturée doit être divulguée.",
+          "Vérifiez :"
+        ],
+        "bullets": [
+          "Identification comme diamant naturel",
+          "Identification comme diamant de synthèse",
+          "Description de couleur fantaisie, le cas échéant",
+          "Divulgation des traitements détectés",
+          "Formulation concernant un diamant monté en solitaire ou un bijou serti"
+        ],
+        "paragraphsAfter": [
+          "Si la description n'est pas claire, interrompez la transaction jusqu'à ce que le laboratoire ou un professionnel du diamant qualifié l'explique."
+        ]
+      },
+      {
+        "id": "find-and-verify-the-report-number",
+        "title": "3. Trouver et vérifier le numéro de rapport",
+        "paragraphsBefore": [
+          "Chaque rapport d'analyse reçoit un numéro d'identification.",
+          "Le numéro de rapport sert à consulter les informations archivées du laboratoire. Il peut également être inscrit au laser de façon microscopique sur la rondiste du diamant.",
+          "La vérification du numéro peut vous aider à déterminer si :"
+        ],
+        "bullets": [
+          "Le rapport existe dans la base de données du laboratoire",
+          "Les spécifications en ligne correspondent au document fourni",
+          "Des informations sur le document ont pu être altérées",
+          "Une inscription au laser correspond au rapport"
+        ],
+        "paragraphsAfter": [
+          "Un numéro de rapport valide est important, mais il ne suffit pas à lui seul. Un rapport authentique pourrait encore être présenté avec un diamant différent."
+        ]
+      },
+      {
+        "id": "check-the-shape-and-cutting-style",
+        "title": "4. Vérifier la forme et le style de taille",
+        "paragraphsBefore": [
+          "La forme décrit le contour du diamant vu de face. Le style de taille décrit la disposition et le type de facettes.",
+          "Les descriptions courantes comprennent :"
+        ],
+        "bullets": [
+          "Round Brilliant",
+          "Oval Brilliant",
+          "Pear Brilliant",
+          "Cushion Modified Brilliant",
+          "Emerald Cut",
+          "Radiant Cut",
+          "Princess Cut",
+          "Marquise Brilliant",
+          "Square Emerald Cut",
+          "Heart Brilliant"
+        ],
+        "paragraphsAfter": [
+          "Ne confondez pas la forme avec la qualité de taille.",
+          "« Round Brilliant » identifie une forme et une disposition de facettes. Une note telle que « Excellent » peut décrire sa qualité de taille globale.",
+          "Pour les diamants de forme fantaisie tels que l'ovale, la poire, le coussin et la taille émeraude, la description exacte du style de taille peut expliquer pourquoi deux diamants de même forme générale paraissent différents."
+        ]
+      },
+      {
+        "id": "review-the-measurements",
+        "title": "5. Examiner les dimensions",
+        "paragraphsBefore": [
+          "Les dimensions des diamants sont normalement consignées en millimètres.",
+          "Pour un diamant rond, le rapport indique généralement :"
+        ],
+        "bullets": [
+          "Diamètre minimum × diamètre maximum × hauteur"
+        ],
+        "paragraphsAfter": [
+          "Pour un diamant de forme fantaisie, il indique généralement :",
+          "Longueur × largeur × hauteur",
+          "Les dimensions aident à indiquer quelle taille le diamant peut paraître vu de dessus.",
+          "Deux diamants d'un carat peuvent avoir des surfaces visibles différentes, car leur hauteur, leur contour et leurs proportions diffèrent.",
+          "Rapport longueur/largeur",
+          "Pour un diamant de forme fantaisie, divisez sa longueur par sa largeur :",
+          "Longueur ÷ Largeur = Rapport longueur/largeur",
+          "Par exemple :",
+          "9,00 mm ÷ 6,00 mm = rapport de 1,50",
+          "Le rapport aide à décrire si le diamant paraît large, équilibré ou allongé.",
+          "Ce n'est pas automatiquement une note de qualité. Le rapport préféré dépend de la forme, du design du bijou et des préférences personnelles de l'acheteur.",
+          "Ce que les acheteurs doivent surveiller",
+          "Un diamant peut conserver du poids supplémentaire dans sa hauteur et paraître néanmoins plus petit vu de dessus. Comparez toujours le poids en carats avec les dimensions réelles du diamant."
+        ]
+      },
+      {
+        "id": "understand-carat-weight",
+        "title": "6. Comprendre le poids en carats",
+        "paragraphsBefore": [
+          "Le carat mesure le poids d'un diamant, et non sa taille visible.",
+          "Un carat métrique équivaut à 0,20 gramme.",
+          "Un diamant de 1,00 carat n'est pas garanti de paraître plus grand qu'un diamant de 0,95 carat. L'apparence vue de face dépend également de :"
+        ],
+        "bullets": [
+          "La forme",
+          "Le diamètre",
+          "La longueur et la largeur",
+          "La hauteur totale",
+          "L'épaisseur de la rondiste",
+          "Les choix de proportions",
+          "Le poids conservé sous la rondiste"
+        ],
+        "paragraphsAfter": [
+          "Les seuils populaires tels que 1,00, 1,50 et 2,00 carats peuvent affecter le prix du marché. Il est donc important d'évaluer le diamant dans son ensemble plutôt que d'acheter uniquement selon un seuil de poids."
+        ]
+      },
+      {
+        "id": "understand-the-colour-grade",
+        "title": "7. Comprendre la note de couleur",
+        "paragraphsBefore": [
+          "Pour de nombreux diamants naturels dans la gamme de couleur normale, la couleur est notée de D à Z.",
+          "L'échelle commence par D, représentant incolore, et progresse vers une apparence jaune ou brune croissante.",
+          "L'échelle de couleur des diamants GIA est évaluée dans des conditions de visualisation contrôlées à l'aide de pierres de comparaison.",
+          "Les différences entre des notes de couleur voisines peuvent être subtiles. Leur visibilité peut dépendre de :"
+        ],
+        "bullets": [
+          "La taille du diamant",
+          "La forme",
+          "La qualité de taille",
+          "L'angle de visualisation",
+          "L'éclairage",
+          "La couleur du métal du bijou",
+          "Si le diamant est monté en solitaire ou serti"
+        ],
+        "paragraphsAfter": [
+          "Une note de couleur plus élevée est plus rare, mais ce n'est pas nécessairement la meilleure utilisation du budget de chaque acheteur.",
+          "Les diamants de couleur fantaisie utilisent un système de notation différent. N'interprétez pas un rapport de diamant jaune, rose, bleu ou autre couleur fantaisie à l'aide de l'échelle D à Z."
+        ],
+        "table": {
+          "caption": "Échelle de couleur D à Z",
+          "headers": [
+            "Gamme de couleur",
+            "Description générale"
+          ],
+          "rows": [
+            [
+              "D–F",
+              "Incolore"
+            ],
+            [
+              "G–J",
+              "Quasi incolore"
+            ],
+            [
+              "K–M",
+              "Couleur légère"
+            ],
+            [
+              "N–R",
+              "Couleur très légère"
+            ],
+            [
+              "S–Z",
+              "Couleur claire"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "understand-the-clarity-grade",
+        "title": "8. Comprendre la note de pureté",
+        "paragraphsBefore": [
+          "La pureté décrit l'absence relative de caractéristiques internes appelées inclusions et de caractéristiques de surface appelées défauts.",
+          "L'échelle de pureté GIA comprend 11 notes :",
+          "La notation de pureté prend en compte la taille, la nature, le nombre, la position et la visibilité des caractéristiques sous grossissement. Les directives GIA sur la pureté expliquent que la pureté est notée avec un grossissement de 10×.",
+          "VS2 signifie-t-il automatiquement « propre à l'œil nu » ?",
+          "Non.",
+          "Deux diamants VS2 peuvent contenir différents types d'inclusions à des emplacements différents. L'un peut paraître propre sans grossissement, tandis qu'un autre peut présenter une inclusion sombre visible ou une caractéristique positionnée sous la table.",
+          "Le rapport fournit la note de pureté. Des images haute résolution ou une inspection physique aident à établir comment ces caractéristiques affectent l'apparence.",
+          "Caractéristiques de pureté à examiner",
+          "Portez une attention particulière à :"
+        ],
+        "bullets": [
+          "Inclusions sombres sous la table",
+          "Cristaux de grande taille positionnés au centre",
+          "Plumes atteignant la rondiste",
+          "Cavités",
+          "Éclats",
+          "Nuages étendus",
+          "Commentaires indiquant que la note de pureté est basée sur des nuages",
+          "Caractéristiques pouvant affecter la transparence",
+          "Inclusions masquées par des reflets ou une photographie de mauvaise qualité"
+        ],
+        "paragraphsAfter": [
+          "La présence d'une inclusion ne rend pas automatiquement un diamant inadapté. Son type, sa taille, sa visibilité, son relief et sa position comptent tous."
+        ],
+        "table": {
+          "caption": "Échelle de pureté FL à I3",
+          "headers": [
+            "Note de pureté",
+            "Signification"
+          ],
+          "rows": [
+            [
+              "FL",
+              "Flawless (sans défaut)"
+            ],
+            [
+              "IF",
+              "Internally Flawless (pur à l'intérieur)"
+            ],
+            [
+              "VVS1",
+              "Very, Very Slightly Included 1"
+            ],
+            [
+              "VVS2",
+              "Very, Very Slightly Included 2"
+            ],
+            [
+              "VS1",
+              "Very Slightly Included 1"
+            ],
+            [
+              "VS2",
+              "Very Slightly Included 2"
+            ],
+            [
+              "SI1",
+              "Slightly Included 1"
+            ],
+            [
+              "SI2",
+              "Slightly Included 2"
+            ],
+            [
+              "I1",
+              "Included 1"
+            ],
+            [
+              "I2",
+              "Included 2"
+            ],
+            [
+              "I3",
+              "Included 3"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "review-the-cut-grade",
+        "title": "9. Examiner la note de taille",
+        "paragraphsBefore": [
+          "La qualité de taille affecte l'efficacité avec laquelle un diamant renvoie et affiche la lumière.",
+          "Pour les diamants brillants ronds standard dans la gamme de couleur D à Z, l'échelle de notes de taille GIA est :"
+        ],
+        "bullets": [
+          "Excellent",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Poor"
+        ],
+        "paragraphsAfter": [
+          "Les directives officielles GIA sur la taille des diamants expliquent que son système global de notation de la taille s'applique aux diamants brillants ronds standard dans la gamme de couleur D à Z.",
+          "Par conséquent, l'absence d'une note de taille globale GIA sur un diamant ovale, poire, émeraude, coussin ou autre forme fantaisie n'est pas automatiquement un problème.",
+          "La taille n'est pas la même chose que la forme",
+          "Forme : rond, ovale, poire, coussin ou émeraude",
+          "Qualité de taille : efficacité avec laquelle le design, les proportions et l'artisanat du diamant gèrent la lumière",
+          "Les diamants de forme fantaisie doivent être évalués à l'aide de leurs dimensions, proportions, contour, motif de facettes, polissage, symétrie, vidéo et apparence physique.",
+          "Une note émise selon le système d'un laboratoire ne doit pas automatiquement être interprétée comme identique à une note émise selon la méthodologie d'un autre laboratoire."
+        ]
+      },
+      {
+        "id": "check-polish-and-symmetry",
+        "title": "10. Vérifier le polissage et la symétrie",
+        "paragraphsBefore": [
+          "Le polissage évalue la qualité des surfaces finies des facettes du diamant.",
+          "La symétrie évalue la précision et l'alignement des facettes, du contour et des caractéristiques connexes du diamant.",
+          "Selon le laboratoire, les notes peuvent inclure :"
+        ],
+        "bullets": [
+          "Excellent",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Poor"
+        ],
+        "paragraphsAfter": [
+          "Le polissage et la symétrie ne sont pas interchangeables avec la note de taille globale.",
+          "Un diamant peut avoir un polissage Excellent et une symétrie Excellent tout en ayant des proportions ou des caractéristiques visuelles qui le rendent moins attrayant qu'une autre pierre.",
+          "Des notes de finition Excellent ou Very Good peuvent constituer un bon point de départ, mais la décision finale doit tenir compte du diamant dans son ensemble et de son prix."
+        ]
+      },
+      {
+        "id": "read-the-fluorescence-description",
+        "title": "11. Lire la description de la fluorescence",
+        "paragraphsBefore": [
+          "La fluorescence est la lumière visible que certains diamants émettent lorsqu'ils sont exposés aux rayons ultraviolets.",
+          "Sur les rapports GIA, l'intensité de la fluorescence peut être décrite comme :"
+        ],
+        "bullets": [
+          "None",
+          "Faint",
+          "Medium",
+          "Strong",
+          "Very Strong"
+        ],
+        "paragraphsAfter": [
+          "Lorsque la fluorescence est Medium, Strong ou Very Strong, sa couleur peut également être consignée. Le bleu est courant, bien que d'autres couleurs puissent survenir.",
+          "La fluorescence ne fait pas partie des 4C et ne doit pas automatiquement être considérée comme positive ou négative. GIA la décrit comme une caractéristique identifiante dans ses directives sur la fluorescence des diamants.",
+          "Ce que les acheteurs doivent vérifier",
+          "Pour les diamants avec une fluorescence Medium, Strong ou Very Strong :",
+          "Examinez le diamant sous un éclairage intérieur normal",
+          "Examinez-le à la lumière du jour",
+          "Vérifiez toute apparence voilée, huileuse ou laiteuse",
+          "Comparez-le avec un diamant similaire sans fluorescence",
+          "Déterminez si la fluorescence a affecté le prix demandé",
+          "Ne rejetez ni n'achetez pas un diamant uniquement en fonction de l'étiquette de fluorescence."
+        ]
+      },
+      {
+        "id": "examine-the-proportion-diagram",
+        "title": "12. Examiner le diagramme des proportions",
+        "paragraphsBefore": [
+          "Le diagramme des proportions consigne les éléments importants de la construction du diamant.",
+          "Selon la forme, le laboratoire et le type de rapport, il peut inclure :"
+        ],
+        "bullets": [
+          "Pourcentage de table",
+          "Pourcentage de hauteur totale",
+          "Angle ou hauteur de couronne",
+          "Angle ou profondeur de pavillon",
+          "Épaisseur de la rondiste",
+          "Taille de la culette",
+          "Longueur des facettes d'étoile",
+          "Longueur des demi-facettes inférieures"
+        ],
+        "paragraphsAfter": [
+          "Ces mesures fonctionnent ensemble. Un chiffre de table ou de hauteur supposément « idéal » ne peut garantir une excellente performance lumineuse.",
+          "Table",
+          "La table est la grande facette supérieure du diamant. Le pourcentage de table compare sa largeur au diamètre ou à la largeur moyenne du diamant.",
+          "Hauteur totale",
+          "La hauteur totale mesure le diamant de la table à la culette.",
+          "Un diamant excessivement profond peut conserver du poids sous la rondiste et paraître plus petit vu de dessus.",
+          "Couronne et pavillon",
+          "La couronne se situe au-dessus de la rondiste. Le pavillon se situe en dessous.",
+          "Leurs angles et leurs profondeurs influencent la brillance, le feu, le contraste et le retour de lumière.",
+          "Rondiste",
+          "La rondiste forme le bord extérieur du diamant.",
+          "Une zone extrêmement fine peut nécessiter une attention particulière en matière de durabilité. Une rondiste excessivement épaisse peut conserver du poids sans produire de taille supplémentaire vue de face.",
+          "Culette",
+          "La culette est le point ou la petite facette au bas du diamant. Une culette de grande taille peut être visible à travers la table.",
+          "Utilisez le diagramme des proportions comme outil de filtrage et de comparaison, et non comme substitut à la visualisation ou à l'inspection du diamant."
+        ]
+      },
+      {
+        "id": "understand-the-clarity-plot",
+        "title": "13. Comprendre le schéma de pureté",
+        "paragraphsBefore": [
+          "Un schéma de pureté cartographie les caractéristiques observées à l'intérieur ou à la surface d'un diamant.",
+          "Sur de nombreux rapports GIA :"
+        ],
+        "bullets": [
+          "Les symboles rouges indiquent les inclusions",
+          "Les symboles verts indiquent les caractéristiques externes",
+          "Le noir peut indiquer des facettes supplémentaires",
+          "Des couleurs combinées peuvent représenter certaines caractéristiques"
+        ],
+        "paragraphsAfter": [
+          "Le rapport inclut une légende expliquant les symboles utilisés.",
+          "Un schéma de pureté peut vous aider à :",
+          "Comprendre pourquoi le diamant a reçu sa note de pureté",
+          "Localiser les caractéristiques significatives",
+          "Comparer les éléments visibles avec le diamant physique",
+          "Soutenir l'identification de la pierre",
+          "Cependant, un schéma de pureté n'est pas toujours une illustration exacte de chaque caractéristique microscopique. Tous les types de rapports n'en incluent pas un, et toutes les caractéristiques observées ne doivent pas nécessairement y figurer.",
+          "Ce qui compte le plus",
+          "Examinez le type, la position et l'importance des caractéristiques déterminantes de la note. Comparez-les ensuite avec des images de haute qualité ou les conclusions d'une inspection professionnelle."
+        ]
+      },
+      {
+        "id": "read-the-comments-section",
+        "title": "14. Lire attentivement la section des commentaires",
+        "paragraphsBefore": [
+          "La section des commentaires peut contenir des informations importantes qui n'apparaissent pas ailleurs dans le rapport.",
+          "Les exemples peuvent inclure :"
+        ],
+        "bullets": [
+          "Nuages ou pointillés supplémentaires non représentés",
+          "Stries de surface",
+          "Stries internes",
+          "Détails de l'inscription au laser",
+          "Divulgation de traitement",
+          "Informations relatives à la pureté",
+          "Observations relatives à la couleur",
+          "Limitations d'identification",
+          "Facettes supplémentaires",
+          "Naturals",
+          "Autres notes pertinentes du laboratoire"
+        ],
+        "paragraphsAfter": [
+          "Ne sautez pas cette section parce que la formulation paraît technique.",
+          "Un commentaire n'identifie pas automatiquement un problème grave, mais il peut expliquer quelque chose d'important qui n'est pas apparent dans les notes principales.",
+          "Demandez une explication écrite claire si vous ne comprenez pas un commentaire."
+        ]
+      },
+      {
+        "id": "check-the-laser-inscription",
+        "title": "15. Vérifier l'inscription au laser",
+        "paragraphsBefore": [
+          "Une inscription au laser est un texte microscopique placé sur la rondiste du diamant. Il peut contenir le nom du laboratoire, le numéro de rapport ou un autre message identifiant.",
+          "Selon les directives GIA sur l'inscription au laser, l'inscription nécessite généralement un grossissement pour être lue.",
+          "Limitations importantes"
+        ],
+        "bullets": [
+          "Tous les diamants naturels n'ont pas d'inscription au laser.",
+          "La disponibilité peut dépendre du laboratoire et du type de rapport.",
+          "Une inscription aide à identifier un diamant, mais ne constitue pas une évaluation complète de la qualité.",
+          "L'inscription doit correspondre exactement au rapport.",
+          "Une inscription correspondante doit encore être considérée aux côtés des dimensions et d'autres caractéristiques identifiantes.",
+          "L'absence d'inscription ne signifie pas automatiquement que le diamant ou le rapport est faux."
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "id": "how-to-verify-a-diamond-grading-report-online",
+    "title": "Comment vérifier un rapport d'analyse gemmologique en ligne",
+    "introParagraphs": [
+      "Ne vous fiez pas exclusivement à un PDF, une image ou une capture d'écran fournis par un vendeur.",
+      "Utilisez le système de vérification officiel du laboratoire émetteur :"
+    ],
+    "processHeading": "Processus de vérification du rapport",
+    "giaLinkLabel": "Vérifier un rapport GIA",
+    "igiLinkLabel": "Vérifier un rapport IGI",
+    "hrdLinkLabel": "Consulter les archives de rapports d'analyse HRD Antwerp",
+    "processSteps": [
+      "Identifiez le laboratoire émetteur.",
+      "Visitez la page de vérification officielle du laboratoire.",
+      "Saisissez le numéro de rapport.",
+      "Saisissez le poids en carats ou les autres informations demandées.",
+      "Comparez l'enregistrement en ligne avec le document fourni.",
+      "Confirmez le type de rapport et la date d'examen.",
+      "Téléchargez la version numérique officielle lorsqu'elle est disponible.",
+      "Vérifiez l'inscription au laser si le diamant est accessible.",
+      "Comparez les informations du rapport avec la pierre physique.",
+      "Arrêtez-vous et demandez des clarifications si un détail important diffère."
+    ],
+    "matchHeading": "Informations qui doivent correspondre",
+    "matchItems": [
+      "Numéro de rapport",
+      "Date du rapport",
+      "Description du diamant",
+      "Forme et style de taille",
+      "Dimensions",
+      "Poids en carats",
+      "Couleur",
+      "Pureté",
+      "Note de taille, le cas échéant",
+      "Polissage",
+      "Symétrie",
+      "Fluorescence",
+      "Commentaires",
+      "Informations d'inscription"
+    ],
+    "closingParagraph": "Utilisez le domaine officiel du laboratoire émetteur. Évitez les sites web non officiels de recherche de certificats qui demandent un paiement ou des informations personnelles inutiles."
+  },
+  "onlineVerificationLimits": {
+    "id": "does-online-verification-prove-you-have-the-correct-diamond",
+    "title": "La vérification en ligne prouve-t-elle que vous avez le bon diamant ?",
+    "introParagraphs": [
+      "Non.",
+      "La vérification en ligne confirme qu'un numéro de rapport et ses informations archivées existent. Elle ne prouve pas de façon indépendante que le diamant physique proposé par un vendeur est la même pierre examinée pour ce rapport.",
+      "Pour relier le rapport au diamant physique, vérifiez :"
+    ],
+    "checkItems": [
+      "L'inscription au laser, lorsqu'elle est présente",
+      "La forme",
+      "Les dimensions exactes",
+      "Le poids en carats",
+      "Le motif des caractéristiques de pureté",
+      "Les commentaires du laboratoire",
+      "L'état actuel",
+      "Les résultats d'une inspection professionnelle"
+    ],
+    "closingParagraph": "Cette distinction est particulièrement importante lors de l'achat à distance d'un diamant naturel monté en solitaire."
+  },
+  "matchingSteps": {
+    "id": "how-to-match-the-report-with-the-physical-diamond",
+    "title": "Comment faire correspondre le rapport avec le diamant physique",
+    "introParagraphs": [
+      "Utilisez plusieurs caractéristiques identifiantes plutôt que de vous fier à un seul détail."
+    ],
+    "steps": [
+      "Étape 1 : Vérifier l'inscription — Si le rapport consigne une inscription au laser, vérifiez-la sous un grossissement approprié.",
+      "Étape 2 : Confirmer les dimensions — Comparez les dimensions du diamant avec celles consignées sur le rapport.",
+      "Étape 3 : Confirmer le poids — Le poids du diamant physique doit correspondre au rapport, sous réserve de la précision enregistrée par le laboratoire.",
+      "Étape 4 : Comparer les caractéristiques de pureté — Utilisez le schéma de pureté et les commentaires pour localiser les caractéristiques significatives dans la pierre.",
+      "Étape 5 : Vérifier l'état actuel — Inspectez la présence d'éclats, d'abrasions ou de modifications survenues après l'émission du rapport.",
+      "Étape 6 : Examiner les incohérences — Ne poursuivez pas tant que les différences significatives entre le rapport et le diamant physique n'ont pas été expliquées."
+    ],
+    "closingParagraph": "Une inscription correspondante constitue une preuve utile, mais la combinaison complète des informations identifiantes est plus solide."
+  },
+  "comparisonTable": {
+    "id": "how-to-compare-two-diamond-grading-reports",
+    "title": "Comment comparer deux rapports d'analyse gemmologique",
+    "introParagraphs": [
+      "Ne comparez pas les diamants uniquement sur la base de leurs 4C principaux.",
+      "Utilisez l'ordre suivant :",
+      "Dans la mesure du possible, comparez des diamants certifiés par le même laboratoire sous des types de rapports comparables.",
+      "Les laboratoires peuvent utiliser une terminologie similaire, mais leurs méthodologies, formats de rapport et systèmes d'évaluation ne sont pas nécessairement identiques."
+    ],
+    "table": {
+      "caption": "Comparer deux rapports d'analyse gemmologique",
+      "headers": [
+        "Point de comparaison",
+        "Ce qu'il faut vérifier"
+      ],
+      "rows": [
+        [
+          "Laboratoire",
+          "Les deux diamants ont-ils été certifiés par le même laboratoire ?"
+        ],
+        [
+          "Type de rapport",
+          "Les deux rapports contiennent-ils un niveau d'évaluation comparable ?"
+        ],
+        [
+          "Identité du diamant",
+          "Les deux pierres sont-elles clairement identifiées comme des diamants naturels ?"
+        ],
+        [
+          "Forme et dimensions",
+          "Quelle pierre présente le contour et la surface vue de face préférés ?"
+        ],
+        [
+          "Poids en carats",
+          "Le poids produit-il une taille visible ou est-il conservé dans la hauteur ?"
+        ],
+        [
+          "Taille et proportions",
+          "Comment leurs performances lumineuses et leur surface visible peuvent-elles différer ?"
+        ],
+        [
+          "Couleur",
+          "La différence est-elle suffisamment visible pour justifier le supplément de prix ?"
+        ],
+        [
+          "Pureté",
+          "Où se trouvent les inclusions, et sont-elles visibles sans grossissement ?"
+        ],
+        [
+          "Polissage et symétrie",
+          "Les différences de finition sont-elles commercialement ou visuellement significatives ?"
+        ],
+        [
+          "Fluorescence",
+          "Comment chaque pierre apparaît-elle sous un éclairage normal et à la lumière du jour ?"
+        ],
+        [
+          "Commentaires",
+          "Des nuages, des stries, des traitements ou d'autres détails sont-ils divulgués ?"
+        ],
+        [
+          "Imagerie",
+          "Les photographies et vidéos révèlent-elles des zones sombres, un effet nœud papillon ou un voile ?"
+        ],
+        [
+          "Prix",
+          "Le supplément est-il justifié par une différence de qualité significative ?"
+        ],
+        [
+          "Inspection",
+          "Le diamant réel a-t-il été vérifié plutôt que seulement son rapport ?"
+        ]
+      ]
+    }
+  },
+  "workedExample": {
+    "id": "worked-example",
+    "title": "Exemple pratique : lire un rapport de diamant",
+    "introParagraphs": [
+      "Considérez ce diamant naturel hypothétique :"
+    ],
+    "introBullets": [
+      "Round Brilliant",
+      "1,02 carats",
+      "Couleur H",
+      "Pureté VS2",
+      "Taille Excellent",
+      "Polissage Excellent",
+      "Symétrie Excellent",
+      "Fluorescence Faint",
+      "Aucun commentaire de traitement",
+      "Numéro de rapport inscrit au laser"
+    ],
+    "steps": [
+      "Étape 1 : Vérifier le rapport — Confirmez que la base de données officielle du laboratoire affiche le même numéro de rapport, la même forme, le même poids et les mêmes notes.",
+      "Étape 2 : Confirmer l'identité de diamant naturel — Assurez-vous que le rapport identifie explicitement la pierre comme un diamant naturel.",
+      "Étape 3 : Examiner les dimensions — Comparez le diamètre avec d'autres diamants ronds d'environ le même poids. Vérifiez si le diamant présente une surface vue de face raisonnable ou conserve du poids inutile dans sa hauteur.",
+      "Étape 4 : Évaluer la couleur — H se situe dans la gamme quasi incolore. La visibilité de la couleur peut dépendre du diamant individuel, de sa taille, de sa taille (cut), du métal du sertissage et des conditions de visualisation.",
+      "Étape 5 : Examiner la pureté — VS2 constitue un bon point de départ, mais ne garantit pas que le diamant paraîtra propre à l'œil nu. Examinez le schéma de pureté et la vidéo pour déterminer le type, la position et la visibilité des caractéristiques déterminantes de la note.",
+      "Étape 6 : Examiner la taille et les proportions — Une note Excellent pour la taille est encourageante, mais le diagramme des proportions doit quand même être vérifié. Examinez la table, la hauteur, la couronne, le pavillon et la rondiste plutôt que de vous fier uniquement à la note globale.",
+      "Étape 7 : Vérifier la finition — Un polissage et une symétrie Excellent indiquent un haut niveau de finition. Cependant, ces notes ne remplacent pas l'évaluation globale de la taille.",
+      "Étape 8 : Considérer la fluorescence — Une fluorescence Faint doit être traitée comme une caractéristique identifiante plutôt que automatiquement comme positive ou négative.",
+      "Étape 9 : Inspecter le diamant physique — Confirmez l'inscription au laser et examinez la brillance, la transparence, les inclusions et l'état actuel du diamant.",
+      "Étape 10 : Comparer le prix — Comparez le prix demandé avec des diamants naturels véritablement similaires certifiés par le même laboratoire. Incluez les dimensions, les proportions et l'apparence visible dans la comparaison — pas seulement le carat, la couleur et la pureté."
+    ],
+    "closingParagraph": "Le rapport d'analyse aide à organiser la décision d'achat. Il ne la prend pas à votre place."
+  },
+  "labComparison": {
+    "id": "gia-igi-and-hrd-antwerp-diamond-reports",
+    "title": "Rapports de diamants GIA, IGI et HRD Antwerp",
+    "introParagraphs": [
+      "GIA, IGI et HRD Antwerp émettent tous des rapports relatifs aux diamants. Cependant, leurs types de documents, leur terminologie et leurs méthodes d'évaluation peuvent différer.",
+      "Cette ressource ne déclare pas automatiquement qu'un laboratoire est meilleur pour chaque transaction.",
+      "Le processus correct consiste à :"
+    ],
+    "processSteps": [
+      "Identifier le laboratoire émetteur.",
+      "Confirmer le type exact de rapport.",
+      "Vérifier le rapport via le système officiel.",
+      "Comprendre les informations incluses et omises.",
+      "Comparer des diamants évalués selon des systèmes comparables.",
+      "Faire correspondre le rapport avec la pierre physique.",
+      "Évaluer l'apparence et le prix du diamant."
+    ],
+    "closingParagraphs": [
+      "Une comparaison distincte GIA versus IGI versus HRD Antwerp devrait aborder les différences plus profondes entre les laboratoires. Cette ressource doit rester centrée sur la lecture et la vérification des rapports d'analyse gemmologique."
+    ],
+    "table": {
+      "caption": "Comparaison des rapports GIA, IGI et HRD Antwerp",
+      "headers": [
+        "Laboratoire",
+        "Ce que les acheteurs doivent savoir"
+      ],
+      "rows": [
+        [
+          "GIA",
+          "Émet plusieurs types de rapports pour diamants naturels et propose la vérification en ligne Report Check. GIA utilise normalement le terme « grading report » plutôt que « certificate »."
+        ],
+        [
+          "IGI",
+          "Émet des rapports pour diamants naturels, diamants de synthèse et bijoux. Ses rapports peuvent être vérifiés via le système officiel de vérification IGI."
+        ],
+        [
+          "HRD Antwerp",
+          "Émet des rapports pour diamants et bijoux et donne accès à ses archives de rapports d'analyse via My HRD Antwerp."
+        ]
+      ]
+    }
+  },
+  "limitations": {
+    "id": "what-a-diamond-grading-report-cannot-tell-you",
+    "title": "Ce qu'un rapport d'analyse gemmologique ne peut pas vous dire",
+    "introParagraphs": [
+      "Même un rapport d'analyse détaillé et authentique a des limites."
+    ],
+    "subsections": [
+      {
+        "title": "Il n'établit pas un prix d'achat équitable",
+        "paragraphs": [
+          "Un rapport d'analyse consigne les caractéristiques de qualité. Il ne détermine pas ce que le vendeur devrait facturer ni ce que le diamant pourra valoir ultérieurement sur un autre marché."
+        ]
+      },
+      {
+        "title": "Il ne garantit pas la beauté",
+        "paragraphs": [
+          "Le rapport peut ne pas communiquer pleinement :"
+        ],
+        "bullets": [
+          "L'effet nœud papillon dans les formes allongées",
+          "Une distribution inégale de la lumière",
+          "Des zones sombres ou aqueuses",
+          "La couleur des inclusions",
+          "La transparence",
+          "Une apparence laiteuse ou voilée",
+          "La préférence pour le motif de facettes",
+          "La façon dont le diamant bouge et scintille",
+          "La préférence personnelle pour la forme"
+        ]
+      },
+      {
+        "title": "Il ne prouve normalement pas l'origine géographique",
+        "paragraphs": [
+          "Un rapport d'analyse standard ne doit pas automatiquement être considéré comme une preuve du pays où un diamant a été extrait.",
+          "Les affirmations d'origine géographique ou de traçabilité nécessitent une documentation appropriée et un processus de chaîne de custody pertinent."
+        ]
+      },
+      {
+        "title": "Il ne prouve pas que le vendeur est digne de confiance",
+        "paragraphs": [
+          "Un rapport authentique peut encore être utilisé dans une transaction trompeuse.",
+          "Vérifiez séparément le vendeur, les conditions de paiement, les modalités de livraison, les conditions d'inspection et la politique de retour."
+        ]
+      },
+      {
+        "title": "Il ne confirme pas de façon permanente l'état actuel",
+        "paragraphs": [
+          "Un diamant peut être ébréché, endommagé, traité, poli ou retaillé après son examen initial.",
+          "Un rapport plus ancien peut donc nécessiter une vérification supplémentaire ou une inspection actualisée."
+        ]
+      },
+      {
+        "title": "Il ne remplace pas une expertise",
+        "paragraphs": [
+          "Un rapport d'analyse décrit l'identité et la qualité du diamant. Une expertise fournit une estimation de valeur monétaire pour un objectif déclaré, tel que l'assurance."
+        ]
+      }
+    ]
+  },
+  "warningSigns": {
+    "id": "diamond-grading-report-warning-signs",
+    "title": "Signaux d'alerte concernant un rapport d'analyse gemmologique",
+    "introLead": "Suspendez l'achat si :",
+    "items": [
+      "Le vendeur refuse de fournir le rapport complet.",
+      "Le numéro de rapport est introuvable sur le site officiel du laboratoire.",
+      "Les informations en ligne ne correspondent pas au document fourni.",
+      "L'identité naturelle ou de synthèse du diamant n'est pas claire.",
+      "Une formulation d'identification importante a été rognée ou masquée.",
+      "L'inscription au laser diffère du numéro de rapport.",
+      "Les dimensions ou le poids en carats ne correspondent pas.",
+      "Le document semble altéré.",
+      "Une expertise émise par le vendeur est présentée comme une certification indépendante.",
+      "Un diamant de valeur ne dispose d'aucune documentation indépendante crédible.",
+      "Des commentaires importants ou des divulgations de traitement sont ignorés.",
+      "Le vendeur garantit la valeur uniquement sur la base du rapport d'analyse.",
+      "Le prix est anormalement bas sans explication raisonnable.",
+      "Le vendeur décourage l'inspection ou la comparaison.",
+      "Le paiement est demandé avant que la disponibilité et la documentation soient confirmées."
+    ],
+    "closingParagraph": "Une seule incohérence importante suffit pour demander des clarifications avant de poursuivre."
+  },
+  "vsAppraisal": {
+    "id": "grading-report-versus-appraisal-and-other-documents",
+    "title": "Rapport d'analyse, expertise et autres documents",
+    "introParagraphs": [
+      "GIA explique qu'un rapport d'analyse est différent d'une expertise de bijou.",
+      "Avant de vous fier à tout document, établissez :"
+    ],
+    "establishItems": [
+      "Qui l'a émis",
+      "Ce qui a été examiné",
+      "Quand il a été émis",
+      "S'il peut être vérifié de façon indépendante",
+      "Ce que le document affirme réellement",
+      "Ce que le document n'établit pas"
+    ],
+    "table": {
+      "caption": "Rapport d'analyse, expertise et autres documents",
+      "headers": [
+        "Document",
+        "Objectif principal",
+        "Décrit la qualité ?",
+        "Indique la valeur ?"
+      ],
+      "rows": [
+        [
+          "Rapport d'analyse gemmologique",
+          "Consigne l'identité et les caractéristiques de qualité",
+          "Oui",
+          "Non"
+        ],
+        [
+          "Expertise de bijou",
+          "Fournit une estimation de valeur pour un objectif spécifié",
+          "Généralement",
+          "Oui"
+        ],
+        [
+          "Facture de vente",
+          "Consigne la transaction commerciale",
+          "Parfois",
+          "Indique le prix d'achat"
+        ],
+        [
+          "Document d'origine ou de traçabilité",
+          "Consigne les informations d'origine selon un processus spécifié",
+          "Variable",
+          "Non"
+        ],
+        [
+          "Rapport de bijou",
+          "Décrit un article serti et ses composants",
+          "Oui, dans certaines limites",
+          "Généralement non"
+        ],
+        [
+          "Certificat d'authenticité",
+          "Variable selon l'émetteur",
+          "Variable",
+          "Généralement non"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-report-checklist",
+    "title": "Liste de contrôle pour le rapport de diamant naturel",
+    "introLead": "Avant d'acheter un diamant naturel monté en solitaire, confirmez :",
+    "items": [
+      "Le rapport d'analyse complet a été fourni.",
+      "Le laboratoire émetteur est clairement nommé.",
+      "Le type exact de rapport a été identifié.",
+      "Le numéro de rapport a été vérifié sur le site officiel.",
+      "L'enregistrement en ligne correspond au rapport fourni.",
+      "La pierre est explicitement identifiée comme un diamant naturel.",
+      "La forme et le style de taille correspondent à l'annonce.",
+      "Les dimensions et le poids en carats correspondent.",
+      "Les notes de couleur et de pureté sont comprises.",
+      "Le schéma de pureté a été examiné, lorsqu'il est disponible.",
+      "La section des commentaires a été lue.",
+      "La taille et les proportions ont été prises en compte.",
+      "Le polissage et la symétrie ont été vérifiés.",
+      "La fluorescence a été examinée.",
+      "Les divulgations de traitement ont été vérifiées.",
+      "L'inscription au laser correspond, lorsqu'elle est présente.",
+      "Les photographies ou la vidéo montrent le diamant réel.",
+      "L'état actuel a été pris en compte.",
+      "Le diamant physique a été inspecté le cas échéant.",
+      "Le prix a été comparé avec des pierres véritablement similaires.",
+      "Les conditions de paiement et de livraison sont claires."
+    ]
+  },
+  "cta": {
+    "id": "already-found-a-natural-diamond-online",
+    "title": "Vous avez déjà trouvé un diamant naturel en ligne ?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Un rapport d'analyse est un point de départ essentiel, mais il doit être considéré aux côtés du diamant physique, du fournisseur, du prix et du processus de transaction."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Avec "
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", les acheteurs peuvent soumettre un diamant naturel monté en solitaire présélectionné à Dalila Diamonds pour une coordination applicable du contrôle qualité, un paiement en euros et une livraison programmée en Belgique ou vers une autre destination confirmée de l'Union européenne."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si vous n'avez pas encore sélectionné de pierre, utilisez "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " pour demander une assistance personnalisée dans le sourcing de diamants naturels."
+        }
+      ]
+    ],
+    "primaryButtonText": "Soumettre un diamant présélectionné",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Parcourir les diamants naturels",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Questions fréquemment posées sur les rapports d'analyse gemmologique",
+    "items": [
+      {
+        "question": "Qu'est-ce qu'un rapport d'analyse gemmologique ?",
+        "answer": "Un rapport d'analyse gemmologique est l'évaluation technique, par un laboratoire indépendant, de l'identité et des caractéristiques de qualité d'un diamant. Il peut inclure les 4C, les dimensions, les proportions, le polissage, la symétrie, la fluorescence, les caractéristiques de pureté, les traitements et les informations d'inscription."
+      },
+      {
+        "question": "Un rapport d'analyse gemmologique est-il identique à un certificat diamant ?",
+        "answer": "Les termes sont couramment utilisés de façon interchangeable par les acheteurs, mais « rapport d'analyse » est généralement plus exact. Un rapport de laboratoire fournit une évaluation technique. Ce n'est pas nécessairement une garantie, une expertise ou une certification légale de la valeur marchande."
+      },
+      {
+        "question": "Quels sont les détails les plus importants sur un rapport de diamant ?",
+        "answer": "Commencez par la description du diamant, le numéro de rapport, la forme, les dimensions, le carat, la couleur, la pureté et les informations de taille. Examinez ensuite les proportions, le polissage, la symétrie, la fluorescence, les caractéristiques de pureté, les commentaires et l'inscription au laser."
+      },
+      {
+        "question": "Comment vérifier un certificat diamant en ligne ?",
+        "answer": "Saisissez le numéro de rapport sur le site officiel de vérification du laboratoire émetteur. Comparez l'enregistrement en ligne avec le document fourni et le diamant physique. GIA, IGI et HRD Antwerp proposent des systèmes officiels de vérification."
+      },
+      {
+        "question": "Où trouver le numéro de rapport du diamant ?",
+        "answer": "Le numéro de rapport est normalement affiché près du haut du document. Il peut également figurer dans un code QR, un lien vers un rapport numérique ou une inscription microscopique au laser sur la rondiste du diamant."
+      },
+      {
+        "question": "Comment identifier un faux rapport d'analyse gemmologique ?",
+        "answer": "Vérifiez le numéro sur le site officiel du laboratoire et comparez chaque détail. Les signaux d'alerte incluent un enregistrement en ligne manquant, une mise en forme altérée, des dimensions non concordantes, une formulation d'identification rognée ou une inscription différente du rapport."
+      },
+      {
+        "question": "Un rapport vérifié prouve-t-il que le diamant physique est authentique ?",
+        "answer": "Il confirme que le rapport archivé existe. Il ne prouve pas de façon indépendante que le vendeur vous a montré le même diamant. Reliez le rapport à la pierre à l'aide de l'inscription, des dimensions, des caractéristiques de pureté et d'une inspection professionnelle."
+      },
+      {
+        "question": "Tous les diamants ont-ils un numéro de rapport inscrit au laser ?",
+        "answer": "Non. La disponibilité de l'inscription dépend du laboratoire, du type de rapport et des services sélectionnés. Son absence n'indique pas automatiquement un problème, mais une inscription présente doit correspondre au rapport."
+      },
+      {
+        "question": "Pourquoi mon rapport d'analyse n'inclut-il pas de schéma de pureté ?",
+        "answer": "Certains types de rapports n'incluent pas de diagramme complet des caractéristiques de pureté. Confirmez le produit de rapport exact auprès du laboratoire émetteur avant de supposer que des informations manquent."
+      },
+      {
+        "question": "Un rapport d'analyse gemmologique confirme-t-il qu'un diamant est naturel ?",
+        "answer": "Un rapport réputé doit clairement décrire si le diamant examiné est naturel ou de synthèse. Ne vous fiez jamais uniquement aux 4C pour déterminer l'origine du diamant."
+      },
+      {
+        "question": "Un certificat diamant indique-t-il ce que vaut le diamant ?",
+        "answer": "Non. Un rapport d'analyse décrit la qualité, mais n'indique normalement pas la valeur marchande ou d'assurance. La tarification nécessite une comparaison avec des diamants pertinents et les conditions du marché. La valeur d'assurance nécessite une expertise appropriée."
+      },
+      {
+        "question": "Quelle est la différence entre un rapport d'analyse et une expertise ?",
+        "answer": "Un rapport d'analyse consigne l'identité technique et les caractéristiques de qualité. Une expertise fournit une estimation de valeur monétaire pour un objectif déclaré, tel que l'assurance, la planification successorale ou une éventuelle revente."
+      },
+      {
+        "question": "Les rapports d'analyse gemmologique expirent-ils ?",
+        "answer": "Un rapport d'analyse ne devient pas nécessairement invalide après une période fixe. Cependant, le diamant peut être ébréché, traité, poli ou retaillé après l'examen. Les rapports plus anciens doivent être vérifiés, et l'état actuel peut nécessiter une inspection."
+      },
+      {
+        "question": "Un diamant endommagé ou retaillé peut-il encore avoir son ancien rapport ?",
+        "answer": "Oui. Un ancien rapport peut continuer d'exister même si le diamant a changé. C'est pourquoi ses dimensions, son poids, son inscription, son état et ses caractéristiques identifiantes doivent être vérifiés."
+      },
+      {
+        "question": "Pourquoi un diamant de forme fantaisie n'a-t-il pas de note de taille GIA ?",
+        "answer": "Le système global standard de notation de la taille GIA s'applique aux diamants brillants ronds standard dans la gamme de couleur D à Z. Les formes fantaisie doivent être évaluées à l'aide de leurs dimensions, proportions, contour, polissage, symétrie, motif de facettes, vidéo et apparence physique."
+      },
+      {
+        "question": "Quel rapport de diamant est meilleur : GIA, IGI ou HRD Antwerp ?",
+        "answer": "Chaque laboratoire propose différents types de rapports, services et systèmes de vérification. Plutôt que de choisir uniquement selon le nom, confirmez le type de rapport, comprenez sa méthodologie, vérifiez le document et comparez des diamants évalués selon des systèmes comparables."
+      },
+      {
+        "question": "Puis-je acheter un diamant naturel sans rapport d'analyse ?",
+        "answer": "C'est possible, mais acheter sans documentation indépendante crédible crée une incertitude supplémentaire concernant l'identité, la qualité et la comparaison des prix. Le niveau de risque acceptable dépend de la valeur du diamant, du vendeur et du processus d'inspection disponible."
+      },
+      {
+        "question": "Que faire si le rapport d'analyse a été perdu ?",
+        "answer": "Contactez le laboratoire émetteur et vérifiez si un enregistrement numérique ou un remplacement est disponible. Le diamant peut devoir être resoumis si son identité ne peut pas être confirmée ou si son état actuel nécessite une réévaluation."
+      },
+      {
+        "question": "Un certificat diamant émis par le vendeur est-il indépendant ?",
+        "answer": "Pas nécessairement. Un document produit par le vendeur n'est pas équivalent à un rapport d'analyse d'un laboratoire gemmologique indépendant. Vérifiez qui a examiné le diamant et si l'organisme émetteur propose une vérification officielle."
+      },
+      {
+        "question": "Deux diamants avec des notes identiques peuvent-ils paraître différents ?",
+        "answer": "Oui. Deux diamants avec les mêmes notes de carat, couleur et pureté peuvent différer en proportions, emplacement des inclusions, transparence, fluorescence, motif de facettes, surface visible et apparence globale."
+      },
+      {
+        "question": "Une note de taille Excellent garantit-elle un diamant magnifique ?",
+        "answer": "Aucune note unique ne garantit que chaque acheteur préférera le diamant. Une note Excellent pour la taille est un indicateur de qualité précieux, mais les proportions, la transparence, le motif visuel et les préférences personnelles doivent également être prises en compte."
+      },
+      {
+        "question": "L'inscription au laser doit-elle être la seule méthode utilisée pour identifier un diamant ?",
+        "answer": "Non. Une inscription est utile, mais l'identification doit également tenir compte des dimensions, du poids en carats, des caractéristiques de pureté, des commentaires et d'une inspection professionnelle."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusion",
+    "introParagraphs": [
+      "Un rapport d'analyse gemmologique offre une façon structurée de comprendre et de comparer un diamant naturel, mais les notes principales ne sont que le début.",
+      "Vérifiez le numéro de rapport. Lisez les dimensions, les proportions, les informations de pureté, la fluorescence et les commentaires. Faites correspondre la documentation avec la pierre physique. Considérez ensuite l'apparence, le prix, la fiabilité du vendeur, les conditions de paiement et de livraison avant d'acheter."
+    ],
+    "doNotAskLead": "Ne vous contentez pas de demander :",
+    "doNotAskItems": [
+      "Ce diamant a-t-il un certificat ?"
+    ],
+    "askLead": "Demandez :",
+    "askItems": [
+      "Que dit le rapport, correspond-il au diamant physique, et la pierre dans son ensemble justifie-t-elle le prix ?"
+    ],
+    "primaryButtonText": "Utiliser Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contacter Dalila Diamonds",
+    "secondaryButtonHref": "/contact"
+  }
+}
