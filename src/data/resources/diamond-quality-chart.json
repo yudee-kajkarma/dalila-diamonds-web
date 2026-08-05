@@ -1,0 +1,1407 @@
+{
+  "meta": {
+    "title": "Diamond Quality Chart | Dalila Diamonds",
+    "description": "Compare diamond cut, colour, clarity and carat grades. Use this natural diamond quality chart to understand the 4Cs and choose the right balance.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "gia4Cs": "https://4cs.gia.edu/en-us/4cs-of-diamond-quality/",
+    "giaCut": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaColour": "https://4cs.gia.edu/en-us/diamond-color/",
+    "giaClarity": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaCarat": "https://4cs.gia.edu/en-us/diamond-carat-weight/"
+  },
+  "banner": {
+    "title": "Diamond Quality Chart",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Diamond Quality Chart",
+    "imageAlt": "Diamond Quality Chart resource banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "Diamond Quality Chart for Natural Diamond Buyers",
+    "subheading": "Compare diamond cut, colour, clarity and carat grades, understand what each quality level means and decide which characteristics matter most for your natural diamond.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "30 July 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Diamond quality cannot be expressed by a single grade.",
+      "Two diamonds with the same carat weight can differ significantly in brightness, colour, clarity, visible size and price. Even two diamonds with identical headline grades may look different because of their proportions, inclusion locations, fluorescence, transparency and cutting pattern.",
+      "This resource brings the principal diamond quality scales into one place. Use it to understand the 4Cs, compare shortlisted natural diamonds and identify which details require closer inspection before purchasing."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "introParagraphs": [
+      "The internationally recognised framework for describing diamond quality consists of four characteristics known as the 4Cs:"
+    ],
+    "attributes": [
+      "Cut: How the diamond’s design, proportions and workmanship affect its interaction with light",
+      "Colour: The relative absence of colour in diamonds graded within the D-to-Z range",
+      "Clarity: The relative absence of internal inclusions and surface blemishes",
+      "Carat: The diamond’s weight, not its visual size"
+    ],
+    "closingParagraphs": [
+      "The Gemological Institute of America’s 4Cs provide a standard language for describing and comparing diamonds.",
+      "However, a high-quality buying decision should also consider measurements, proportions, polish, symmetry, fluorescence, transparency, treatments, current condition and the reliability of the grading report.",
+      "There is no single grade combination that is automatically best for every buyer. The right balance depends on the diamond’s shape, jewellery design, visual appearance, budget and personal priorities."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "The 4Cs should be evaluated together rather than separately.",
+      "Cut quality can have a major effect on brightness, fire, contrast and sparkle.",
+      "GIA’s overall cut grade currently applies to standard round brilliant diamonds in the D-to-Z colour range.",
+      "D is the highest colour grade within the normal D-to-Z range, while Z shows more noticeable yellow or brown colour.",
+      "The GIA clarity scale runs from Flawless to Included 3.",
+      "A clarity grade does not automatically confirm whether a diamond appears clean without magnification.",
+      "Carat measures weight, not visible diameter or face-up size.",
+      "A larger diamond is not automatically a better-quality diamond.",
+      "Higher grades generally indicate greater rarity, but may not always create an obvious visual improvement.",
+      "Fancy-shaped diamonds require additional visual assessment because their outlines and facet patterns vary.",
+      "A grading report helps describe quality, but it does not guarantee beauty, price or value.",
+      "A natural diamond must be clearly identified as natural on credible laboratory documentation."
+    ]
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      {
+        "id": "diamond-quality-at-a-glance",
+        "label": "Diamond quality at a glance"
+      },
+      {
+        "id": "how-the-4cs-work-together",
+        "label": "How the 4Cs work together"
+      },
+      {
+        "id": "diamond-cut-quality-chart",
+        "label": "Diamond cut quality chart"
+      },
+      {
+        "id": "diamond-colour-chart",
+        "label": "Diamond colour chart"
+      },
+      {
+        "id": "diamond-clarity-chart",
+        "label": "Diamond clarity chart"
+      },
+      {
+        "id": "diamond-carat-weight-chart",
+        "label": "Diamond carat weight chart"
+      },
+      {
+        "id": "quality-considerations-for-fancy-shapes",
+        "label": "Quality considerations for fancy shapes"
+      },
+      {
+        "id": "diamond-quality-beyond-the-4cs",
+        "label": "Diamond quality beyond the 4Cs"
+      },
+      {
+        "id": "how-to-choose-the-right-quality-balance",
+        "label": "How to choose the right quality balance"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Worked diamond comparison"
+      },
+      {
+        "id": "diamond-quality-versus-rarity-price-and-value",
+        "label": "Diamond quality versus rarity, price and value"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Natural diamond buying checklist"
+      },
+      {
+        "id": "quality-chart-faq-heading",
+        "label": "Frequently asked questions"
+      }
+    ]
+  },
+  "qualityAtAGlance": {
+    "id": "diamond-quality-at-a-glance",
+    "title": "Diamond Quality at a Glance",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Diamond quality factors, scales and buyer checks",
+      "headers": [
+        "Quality factor",
+        "Principal scale or measurement",
+        "What it describes",
+        "Important buyer check"
+      ],
+      "rows": [
+        [
+          "Cut",
+          "Excellent to Poor for applicable GIA-graded round brilliant diamonds",
+          "How proportions, design and workmanship influence light behaviour",
+          "Examine brightness, fire, contrast, proportions and face-up pattern"
+        ],
+        [
+          "Colour",
+          "D to Z for diamonds in the normal colour range",
+          "The relative absence of yellow or brown colour",
+          "Compare the actual diamond under consistent lighting"
+        ],
+        [
+          "Clarity",
+          "FL to I3",
+          "The visibility and significance of inclusions and blemishes",
+          "Check inclusion type, position, visibility and possible durability relevance"
+        ],
+        [
+          "Carat",
+          "Recorded numerically, such as 0.75 ct or 1.00 ct",
+          "The weight of the diamond",
+          "Compare weight with actual millimetre measurements and visible spread"
+        ],
+        [
+          "Polish",
+          "Excellent to Poor, depending on laboratory",
+          "Quality of the finished facet surfaces",
+          "Check whether finish features affect appearance"
+        ],
+        [
+          "Symmetry",
+          "Excellent to Poor, depending on laboratory",
+          "Alignment and precision of facets and outline",
+          "Examine facet alignment and outline balance"
+        ],
+        [
+          "Fluorescence",
+          "Commonly None to Very Strong on GIA reports",
+          "Reaction to long-wave ultraviolet radiation",
+          "Inspect the diamond under normal indoor light and daylight"
+        ],
+        [
+          "Measurements",
+          "Millimetres",
+          "Length, width, diameter and depth",
+          "Determine how large the diamond appears from above"
+        ],
+        [
+          "Proportions",
+          "Percentages, angles and descriptive grades",
+          "The diamond’s physical construction",
+          "Review table, depth, crown, pavilion, girdle and culet information"
+        ],
+        [
+          "Transparency",
+          "Requires visual or professional assessment",
+          "Whether the diamond appears clear, hazy, oily or milky",
+          "Examine the physical diamond or high-quality video"
+        ],
+        [
+          "Condition",
+          "Requires current inspection",
+          "Chips, abrasions, damage or changes after grading",
+          "Do not assume an older report confirms present condition"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "The chart is a starting point. The complete combination of characteristics determines whether a natural diamond is suitable for a particular buyer."
+    ]
+  },
+  "how4CsWork": {
+    "id": "how-the-4cs-work-together",
+    "title": "How the 4Cs Work Together",
+    "introParagraphs": [
+      "A diamond should not be selected by choosing the highest possible grade in every category.",
+      "Each quality factor affects a different part of the diamond’s appearance and rarity.",
+      "For example:"
+    ],
+    "examples": [
+      "A high colour grade cannot compensate for poor light performance.",
+      "A high clarity grade does not guarantee attractive proportions.",
+      "A large carat weight does not guarantee a large face-up appearance.",
+      "An Excellent cut grade does not mean that every Excellent-cut diamond looks identical."
+    ],
+    "closingParagraphs": [
+      "Two diamonds with the same colour grade can display colour differently because of their size, shape and cutting pattern.",
+      "Two diamonds with the same clarity grade can contain completely different types of inclusions.",
+      "The purpose of the quality chart is therefore not to identify one universal “perfect” diamond. It is to help buyers understand where visible improvements occur and where additional grade increases may mainly represent rarity."
+    ]
+  },
+  "cutQuality": {
+    "id": "diamond-cut-quality-chart",
+    "title": "Diamond Cut Quality Chart",
+    "introParagraphs": [
+      "Cut describes how effectively a diamond’s design, proportions and workmanship produce brightness, fire, scintillation and an organised pattern of light and dark areas.",
+      "It should not be confused with shape.",
+      "Shape refers to the outline, such as Round, Oval, Pear or Emerald.",
+      "Cut quality refers to how successfully the diamond has been designed and finished."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s standard overall cut-grading system applies to standard round brilliant diamonds within the D-to-Z colour range. The official scale contains five grades: Excellent, Very Good, Good, Fair and Poor. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s diamond cut guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains the scope and purpose of this system."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-cut-grade-chart",
+        "title": "Round Brilliant Cut Grade Chart",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "GIA round brilliant cut grade chart for natural diamond buyers",
+          "headers": [
+            "Cut grade",
+            "General interpretation",
+            "What buyers should examine"
+          ],
+          "rows": [
+            [
+              "Excellent",
+              "The highest GIA cut-grade range, generally associated with strong brightness, fire and balanced contrast",
+              "Compare proportions and appearance because the grade contains a range of possible designs"
+            ],
+            [
+              "Very Good",
+              "Strong overall cut quality with minor differences from the Excellent range",
+              "Compare the diamond directly with Excellent-cut options and assess whether the visible difference justifies the price"
+            ],
+            [
+              "Good",
+              "Acceptable cut quality, but light performance or visible spread may be less effective",
+              "Inspect for reduced brightness, less balanced contrast or weight retained in less visible areas"
+            ],
+            [
+              "Fair",
+              "More noticeable proportion or workmanship limitations",
+              "Examine for dull areas, light leakage, reduced sparkle or an unattractive face-up pattern"
+            ],
+            [
+              "Poor",
+              "Significant cut-quality limitations",
+              "Carefully consider whether weak light performance makes the diamond unsuitable"
+            ]
+          ]
+        },
+        "paragraphsAfter": [
+          "These descriptions are general screening guidance. A cut grade represents a range, not one exact combination of proportions."
+        ]
+      },
+      {
+        "id": "what-contributes-to-cut-quality",
+        "title": "What Contributes to Cut Quality?",
+        "paragraphsBefore": [
+          "For a standard round brilliant diamond, cut assessment can include:"
+        ],
+        "bullets": [
+          "Brightness",
+          "Fire",
+          "Scintillation",
+          "Weight ratio",
+          "Durability",
+          "Polish",
+          "Symmetry",
+          "Table size",
+          "Total depth",
+          "Crown angle",
+          "Pavilion angle",
+          "Girdle thickness",
+          "Culet size",
+          "Facet relationships",
+          "Face-up pattern"
+        ],
+        "paragraphsAfter": [
+          "A single table percentage or depth percentage cannot establish cut quality on its own. Different proportion combinations can produce attractive diamonds."
+        ]
+      },
+      {
+        "id": "does-excellent-cut-mean-perfect",
+        "title": "Does Excellent Cut Mean the Diamond Is Perfect?",
+        "paragraphsBefore": [
+          "No.",
+          "Excellent is the highest category on the GIA round-brilliant cut scale, but it contains multiple proportion combinations and face-up appearances. Two Excellent-cut diamonds can show different contrast patterns, visible spreads and personalities.",
+          "The grade is an important screening tool. It should still be considered alongside:"
+        ],
+        "bullets": [
+          "Exact measurements",
+          "Table and depth",
+          "Crown and pavilion information",
+          "Polish",
+          "Symmetry",
+          "High-resolution video",
+          "Transparency",
+          "Price",
+          "Personal appearance preference"
+        ]
+      },
+      {
+        "id": "polish-and-symmetry-chart",
+        "title": "Polish and Symmetry Chart",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "Polish and symmetry grade chart",
+          "headers": [
+            "Grade",
+            "General meaning"
+          ],
+          "rows": [
+            [
+              "Excellent",
+              "No finish features that materially affect the assigned grade under the laboratory’s system"
+            ],
+            [
+              "Very Good",
+              "Minor finish features that are generally difficult to notice without magnification"
+            ],
+            [
+              "Good",
+              "Noticeable finish features may be present, although the diamond may remain commercially acceptable"
+            ],
+            [
+              "Fair",
+              "Finish limitations may be more apparent and can affect appearance"
+            ],
+            [
+              "Poor",
+              "Significant workmanship limitations are present"
+            ]
+          ]
+        },
+        "paragraphsAfter": [
+          "Polish and symmetry are components of finish. They should not be treated as replacements for an overall cut assessment."
+        ]
+      }
+    ]
+  },
+  "colourChart": {
+    "id": "diamond-colour-chart",
+    "title": "Diamond Colour Chart",
+    "introParagraphs": [
+      "For diamonds in the normal colour range, colour grading measures the relative absence of colour."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The GIA colour scale begins at D and continues to Z. D represents colourless, while grades nearer Z show a progressively more noticeable light yellow or brown appearance. Diamonds are compared with master stones under controlled conditions. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s official colour guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-color/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains the D-to-Z system."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "d-to-z-diamond-colour-scale",
+        "title": "D-to-Z Diamond Colour Scale",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "D-to-Z diamond colour scale chart",
+          "headers": [
+            "Colour grades",
+            "Category",
+            "General appearance"
+          ],
+          "rows": [
+            [
+              "D–F",
+              "Colourless",
+              "Little or no detectable colour under standard grading conditions"
+            ],
+            [
+              "G–J",
+              "Near-colourless",
+              "Small amounts of colour that may be subtle when the diamond is viewed face-up"
+            ],
+            [
+              "K–M",
+              "Faint",
+              "A faint yellow or brown colour may be more noticeable"
+            ],
+            [
+              "N–R",
+              "Very light",
+              "Colour is increasingly visible"
+            ],
+            [
+              "S–Z",
+              "Light",
+              "Light yellow or brown colour is normally apparent"
+            ]
+          ]
+        },
+        "paragraphsAfter": [
+          "The category name does not tell you whether an individual buyer will find the diamond attractive.",
+          "Some buyers prefer a colder, colourless appearance. Others deliberately choose a warmer diamond, particularly when it complements yellow or rose gold."
+        ]
+      },
+      {
+        "id": "factors-that-influence-perceived-colour",
+        "title": "Factors That Influence Perceived Colour",
+        "paragraphsBefore": [
+          "The visibility of colour can change according to:"
+        ],
+        "bullets": [
+          "Diamond size",
+          "Shape",
+          "Facet pattern",
+          "Cut quality",
+          "Viewing angle",
+          "Lighting",
+          "Surrounding colours",
+          "Jewellery metal",
+          "Whether the stone is loose or mounted",
+          "Fluorescence",
+          "Comparison with other diamonds"
+        ],
+        "paragraphsAfter": [
+          "Larger diamonds can make body colour easier to observe. Certain shapes may also retain or reveal colour differently."
+        ]
+      },
+      {
+        "id": "does-higher-colour-always-look-better",
+        "title": "Does a Higher Colour Grade Always Look Better?",
+        "paragraphsBefore": [
+          "Not necessarily.",
+          "D is rarer than G, H or I, but a buyer may not see a meaningful difference once the diamond is mounted and viewed under ordinary conditions.",
+          "A higher colour grade can command a premium because of rarity. Whether that premium creates a worthwhile visual improvement depends on the individual diamond and buyer."
+        ]
+      },
+      {
+        "id": "colourless-versus-fancy-colour-diamonds",
+        "title": "Colourless Versus Fancy-Colour Diamonds",
+        "paragraphsBefore": [
+          "The D-to-Z chart should not be used to assess fancy-colour diamonds.",
+          "Fancy yellow, pink, blue, green and other coloured diamonds are evaluated using different considerations, including:"
+        ],
+        "bullets": [
+          "Hue",
+          "Tone",
+          "Saturation",
+          "Colour distribution",
+          "Fancy-colour grade"
+        ],
+        "paragraphsAfter": [
+          "GIA explains that the D-to-Z system assesses the relative absence of colour, while fancy-colour grading evaluates the presence and strength of colour."
+        ]
+      }
+    ]
+  },
+  "clarityChart": {
+    "id": "diamond-clarity-chart",
+    "title": "Diamond Clarity Chart",
+    "introParagraphs": [
+      "Clarity describes the relative absence of inclusions and blemishes.",
+      "Inclusions are internal characteristics. Blemishes are located on or affect the surface."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The GIA clarity scale contains 11 grades ranging from Flawless to Included 3. Grading considers the size, nature, number, position and colour or relief of characteristics visible under 10× magnification. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s clarity guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains how the scale is applied."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "diamond-clarity-scale",
+        "title": "Diamond Clarity Scale",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "GIA diamond clarity scale chart",
+          "headers": [
+            "Clarity grade",
+            "Full term",
+            "General interpretation under 10× magnification"
+          ],
+          "rows": [
+            [
+              "FL",
+              "Flawless",
+              "No inclusions or blemishes visible to a skilled grader"
+            ],
+            [
+              "IF",
+              "Internally Flawless",
+              "No inclusions and only insignificant blemishes visible"
+            ],
+            [
+              "VVS1",
+              "Very, Very Slightly Included 1",
+              "Minute inclusions that are extremely difficult to locate"
+            ],
+            [
+              "VVS2",
+              "Very, Very Slightly Included 2",
+              "Minute inclusions that are very difficult to locate"
+            ],
+            [
+              "VS1",
+              "Very Slightly Included 1",
+              "Minor inclusions that are difficult to locate"
+            ],
+            [
+              "VS2",
+              "Very Slightly Included 2",
+              "Minor inclusions that may be easier to locate than in VS1"
+            ],
+            [
+              "SI1",
+              "Slightly Included 1",
+              "Noticeable inclusions that are easier to see under magnification"
+            ],
+            [
+              "SI2",
+              "Slightly Included 2",
+              "Noticeable inclusions that are more readily seen under magnification"
+            ],
+            [
+              "I1",
+              "Included 1",
+              "Obvious inclusions that may affect appearance, transparency or durability"
+            ],
+            [
+              "I2",
+              "Included 2",
+              "More prominent inclusions that may affect appearance, transparency or durability"
+            ],
+            [
+              "I3",
+              "Included 3",
+              "Significant inclusions that may have a substantial effect on the diamond"
+            ]
+          ]
+        },
+        "paragraphsAfter": [
+          "The table summarises the scale. The individual characteristics within a diamond remain important."
+        ]
+      },
+      {
+        "id": "what-determines-a-clarity-grade",
+        "title": "What Determines a Clarity Grade?",
+        "paragraphsBefore": [
+          "A laboratory considers:"
+        ],
+        "bullets": [
+          "Size: How large each characteristic is",
+          "Nature: What type of inclusion or blemish is present",
+          "Number: How many grade-relevant characteristics are visible",
+          "Position: Whether characteristics are central, near the girdle or in another area",
+          "Relief: How strongly a characteristic contrasts with the surrounding diamond"
+        ],
+        "paragraphsAfter": [
+          "The grade is based on the combined effect of these factors, not simply the number of inclusions."
+        ]
+      },
+      {
+        "id": "does-vs2-or-si1-mean-eye-clean",
+        "title": "Does VS2 or SI1 Mean Eye-Clean?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "“Eye-clean” is not a universal laboratory clarity grade. It is a practical description used when inclusions are not easily visible without magnification under specified viewing conditions.",
+          "Visibility can depend on:"
+        ],
+        "bullets": [
+          "Diamond size",
+          "Shape",
+          "Inclusion colour",
+          "Inclusion position",
+          "Viewing distance",
+          "Lighting",
+          "Observer",
+          "Visual acuity",
+          "Whether the diamond is loose or mounted"
+        ],
+        "paragraphsAfter": [
+          "Two VS2 diamonds can therefore look different without magnification. One may contain a small, pale inclusion near the edge. Another may contain a darker characteristic beneath the table."
+        ]
+      },
+      {
+        "id": "clarity-characteristics-requiring-closer-examination",
+        "title": "Clarity Characteristics Requiring Closer Examination",
+        "paragraphsBefore": [
+          "Pay particular attention to:"
+        ],
+        "bullets": [
+          "Dark inclusions under the table",
+          "Large centrally positioned crystals",
+          "Feathers extending towards the girdle",
+          "Cavities",
+          "Chips",
+          "Extensive clouds",
+          "Comments concerning clouds or pinpoints",
+          "Inclusions that may reduce transparency",
+          "Open characteristics at the surface",
+          "Characteristics located near vulnerable corners or points"
+        ],
+        "paragraphsAfter": [
+          "An inclusion’s presence does not automatically make a diamond unsuitable. Its type, extent, position and effect must be assessed."
+        ]
+      }
+    ]
+  },
+  "caratChart": {
+    "id": "diamond-carat-weight-chart",
+    "title": "Diamond Carat Weight Chart",
+    "introParagraphs": [
+      "Carat measures weight, not quality, diameter or visual size."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "One metric carat equals 200 milligrams or 0.20 grams. A carat contains 100 points, so a 0.50-carat diamond may also be described as a 50-point diamond. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s carat-weight explanation",
+          "href": "https://4cs.gia.edu/en-us/diamond-carat-weight/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " confirms the metric conversion."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "carat-conversion-chart",
+        "title": "Carat Conversion Chart",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "Diamond carat to points and grams conversion chart",
+          "headers": [
+            "Carat weight",
+            "Points",
+            "Weight in grams"
+          ],
+          "rows": [
+            ["0.25 ct", "25 points", "0.05 g"],
+            ["0.50 ct", "50 points", "0.10 g"],
+            ["0.75 ct", "75 points", "0.15 g"],
+            ["1.00 ct", "100 points", "0.20 g"],
+            ["1.25 ct", "125 points", "0.25 g"],
+            ["1.50 ct", "150 points", "0.30 g"],
+            ["2.00 ct", "200 points", "0.40 g"],
+            ["3.00 ct", "300 points", "0.60 g"],
+            ["5.00 ct", "500 points", "1.00 g"]
+          ]
+        },
+        "paragraphsAfter": [
+          "This is a weight-conversion chart. It should not be used as an exact diamond-diameter chart."
+        ]
+      },
+      {
+        "id": "why-same-carat-can-look-different",
+        "title": "Why Two Diamonds of the Same Carat Can Look Different",
+        "paragraphsBefore": [
+          "Face-up size depends on:"
+        ],
+        "bullets": [
+          "Shape",
+          "Length and width",
+          "Diameter",
+          "Total depth",
+          "Girdle thickness",
+          "Pavilion depth",
+          "Crown height",
+          "Outline",
+          "Cutting style",
+          "Weight distribution"
+        ],
+        "paragraphsAfter": [
+          "A deeply cut diamond may retain more weight below the girdle and appear smaller from above.",
+          "An elongated Oval, Pear or Marquise may appear larger than another shape of equal weight because of its length and visible surface area. This does not automatically make one shape better; it changes how the weight is presented."
+        ]
+      },
+      {
+        "id": "important-carat-thresholds",
+        "title": "Important Carat Thresholds",
+        "paragraphsBefore": [
+          "Diamonds at commonly requested weights such as 0.50, 1.00, 1.50 and 2.00 carats may receive greater market attention.",
+          "A diamond weighing slightly below a popular threshold may sometimes offer a similar visible size, but this must be confirmed through its actual measurements and appearance.",
+          "Never compare prices using carat weight alone."
+        ]
+      }
+    ]
+  },
+  "fancyShapes": {
+    "id": "quality-considerations-for-fancy-shapes",
+    "title": "Diamond Quality for Fancy Shapes",
+    "introParagraphs": [
+      "Oval, Pear, Cushion, Emerald, Marquise, Radiant, Princess and other non-round shapes are commonly called fancy shapes.",
+      "GIA currently does not provide its standard overall cut grade for these shapes. This does not mean cut quality is unimportant. It means buyers need to assess a broader combination of measurements and visual characteristics."
+    ],
+    "subsections": [
+      {
+        "id": "fancy-shape-quality-checks",
+        "title": "Fancy-Shape Quality Checks",
+        "paragraphsBefore": [],
+        "table": {
+          "caption": "Fancy-shape diamond quality checklist",
+          "headers": [
+            "Quality factor",
+            "What to examine"
+          ],
+          "rows": [
+            ["Outline", "Is the shape balanced and attractive?"],
+            ["Symmetry", "Do both sides and major features align properly?"],
+            ["Length-to-width ratio", "Does the diamond have the broad or elongated appearance you prefer?"],
+            ["Face-up spread", "Does the diamond present its weight effectively?"],
+            ["Facet pattern", "Is the pattern organised, lively and visually appealing?"],
+            ["Bow-tie effect", "Is there an unattractive dark band across an Oval, Pear or Marquise?"],
+            ["Windowing", "Can you see through parts of an Emerald or other step-cut diamond?"],
+            ["Extinction", "Are substantial areas consistently dark?"],
+            ["Corners and points", "Are vulnerable areas protected and free from concerning damage?"],
+            ["Polish and symmetry", "What finish grades appear on the laboratory report?"],
+            ["Colour distribution", "Does the shape concentrate visible body colour?"],
+            ["Clarity placement", "Are inclusions easily visible through larger or more open facets?"]
+          ]
+        },
+        "paragraphsAfter": [
+          "Fancy-shape quality cannot be reduced to one preferred table, depth or length-to-width ratio.",
+          "Two buyers may reasonably prefer different Oval or Cushion outlines. The aim is to identify a stone with an attractive pattern, balanced outline and suitable dimensions for the intended jewellery design."
+        ]
+      }
+    ]
+  },
+  "beyond4Cs": {
+    "id": "diamond-quality-beyond-the-4cs",
+    "title": "Diamond Quality Beyond the 4Cs",
+    "introParagraphs": [
+      "The 4Cs provide a structured comparison system, but they do not capture every aspect of a diamond’s quality or suitability."
+    ],
+    "subsections": [
+      {
+        "id": "measurements-and-visible-spread",
+        "title": "Measurements and Visible Spread",
+        "paragraphsBefore": [
+          "Measurements show how the diamond’s weight translates into physical dimensions.",
+          "Always compare carat weight with:"
+        ],
+        "bullets": [
+          "Diameter for round diamonds",
+          "Length and width for fancy shapes",
+          "Total depth",
+          "Girdle thickness",
+          "Face-up appearance"
+        ]
+      },
+      {
+        "id": "proportions",
+        "title": "Proportions",
+        "paragraphsBefore": [
+          "Table, depth, crown, pavilion, girdle and culet information can help explain the diamond’s brightness, contrast and visible spread.",
+          "Proportions should be interpreted as a combination. No single number guarantees a beautiful diamond."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Girdle thickness, durability and weight distribution are explained in the "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Girdle Guide",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Culet size and position are covered in the "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Culet Guide",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "transparency",
+        "title": "Transparency",
+        "paragraphsBefore": [
+          "A diamond may have acceptable headline grades but still appear hazy, oily or milky.",
+          "Transparency should be checked using:"
+        ],
+        "bullets": [
+          "Clear video",
+          "Multiple lighting conditions",
+          "Comparison with another diamond",
+          "Professional inspection"
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "Fluorescence",
+        "paragraphsBefore": [
+          "Fluorescence describes a diamond’s reaction to ultraviolet radiation. It is not automatically a defect.",
+          "The effect can vary according to strength, colour and the individual diamond. Buyers should assess Medium, Strong or Very Strong fluorescence under normal lighting and daylight rather than making a decision from the label alone."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "This topic is covered fully in the dedicated "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Fluorescence Guide",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "treatments",
+        "title": "Treatments",
+        "paragraphsBefore": [
+          "Some diamonds may undergo treatments intended to alter colour or clarity.",
+          "Any detected treatment should be disclosed on credible laboratory documentation. A treated natural diamond should not be compared with an untreated natural diamond using the 4Cs alone."
+        ]
+      },
+      {
+        "id": "current-condition",
+        "title": "Current Condition",
+        "paragraphsBefore": [
+          "A grading report records the diamond as it was when examined.",
+          "A diamond may later be:"
+        ],
+        "bullets": [
+          "Chipped",
+          "Abraded",
+          "Polished",
+          "Recut",
+          "Treated",
+          "Damaged during setting or wear"
+        ],
+        "paragraphsAfter": [
+          "Current condition may therefore require separate inspection."
+        ]
+      },
+      {
+        "id": "natural-or-laboratory-grown-identity",
+        "title": "Natural or Laboratory-Grown Identity",
+        "paragraphsBefore": [
+          "The 4Cs do not establish whether a diamond formed naturally or was produced in a laboratory.",
+          "Both natural and laboratory-grown diamonds can receive colour, clarity, cut and carat information. The report’s identification wording must clearly state which type of diamond was examined.",
+          "For a natural-diamond purchase, confirm that the laboratory document explicitly identifies the diamond as natural."
+        ]
+      }
+    ]
+  },
+  "chooseBalance": {
+    "id": "how-to-choose-the-right-quality-balance",
+    "title": "How to Choose the Right Diamond Quality Balance",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-define-the-intended-use",
+        "title": "Step 1: Define the Intended Use",
+        "paragraphsBefore": [
+          "Begin with the jewellery design and how the diamond will be worn.",
+          "A centre stone for an engagement ring may have different visual and durability considerations from:"
+        ],
+        "bullets": [
+          "Diamond studs",
+          "A pendant",
+          "A bracelet",
+          "A multi-stone ring",
+          "A jewellery piece intended for occasional wear"
+        ]
+      },
+      {
+        "id": "step-2-choose-the-shape",
+        "title": "Step 2: Choose the Shape",
+        "paragraphsBefore": [
+          "Shape affects:"
+        ],
+        "bullets": [
+          "Face-up size",
+          "Facet pattern",
+          "Colour visibility",
+          "Inclusion visibility",
+          "Setting requirements",
+          "Overall appearance"
+        ],
+        "paragraphsAfter": [
+          "Do not finalise colour or clarity preferences before considering the shape."
+        ]
+      },
+      {
+        "id": "step-3-establish-a-carat-or-size-range",
+        "title": "Step 3: Establish a Carat or Size Range",
+        "paragraphsBefore": [
+          "Decide whether your priority is:"
+        ],
+        "bullets": [
+          "A particular carat threshold",
+          "A specific visible diameter",
+          "A preferred length and width",
+          "A jewellery-setting requirement",
+          "A balanced combination of size and quality"
+        ],
+        "paragraphsAfter": [
+          "Use millimetre measurements alongside carat weight."
+        ]
+      },
+      {
+        "id": "step-4-protect-light-performance",
+        "title": "Step 4: Protect Light Performance",
+        "paragraphsBefore": [
+          "For standard round brilliant diamonds, review the overall cut grade and proportion information.",
+          "For fancy shapes, examine videos, outline, facet pattern, bow-tie, windowing, spread, polish and symmetry.",
+          "Do not sacrifice a large amount of visible performance simply to reach a higher carat threshold."
+        ]
+      },
+      {
+        "id": "step-5-select-a-suitable-colour-range",
+        "title": "Step 5: Select a Suitable Colour Range",
+        "paragraphsBefore": [
+          "Compare colour using the:"
+        ],
+        "bullets": [
+          "Intended metal",
+          "Diamond shape",
+          "Diamond size",
+          "Viewing conditions",
+          "Buyer’s sensitivity to warm or cool tones"
+        ],
+        "paragraphsAfter": [
+          "A colour grade that looks suitable in yellow gold may appear different in white metal."
+        ]
+      },
+      {
+        "id": "step-6-examine-clarity-visually",
+        "title": "Step 6: Examine Clarity Visually",
+        "paragraphsBefore": [
+          "Use the clarity grade as a filter, then inspect:"
+        ],
+        "bullets": [
+          "Inclusion location",
+          "Inclusion colour",
+          "Visibility without magnification",
+          "Transparency",
+          "Potential durability relevance",
+          "Clarity comments on the report"
+        ],
+        "paragraphsAfter": [
+          "Do not pay for invisible rarity unless that rarity matters to the buyer."
+        ]
+      },
+      {
+        "id": "step-7-review-the-complete-laboratory-report",
+        "title": "Step 7: Review the Complete Laboratory Report",
+        "paragraphsBefore": [
+          "Verify:"
+        ],
+        "bullets": [
+          "Natural-diamond identification",
+          "Report number",
+          "Measurements",
+          "Grades",
+          "Proportions",
+          "Fluorescence",
+          "Comments",
+          "Clarity characteristics",
+          "Laser inscription, where present"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "step-8-compare-the-actual-diamonds",
+        "title": "Step 8: Compare the Actual Diamonds",
+        "paragraphsBefore": [
+          "Compare shortlisted diamonds under equivalent conditions.",
+          "Whenever possible, use:"
+        ],
+        "bullets": [
+          "Consistent lighting",
+          "High-resolution photographs",
+          "360-degree video",
+          "Magnified imagery",
+          "Side-by-side comparison",
+          "Independent or professional inspection"
+        ]
+      },
+      {
+        "id": "step-9-compare-price-only-after-quality",
+        "title": "Step 9: Compare Price Only After Quality",
+        "paragraphsBefore": [
+          "Two listings are not genuinely comparable simply because they share the same carat, colour and clarity grades.",
+          "Compare:"
+        ],
+        "bullets": [
+          "Laboratory",
+          "Report type",
+          "Shape",
+          "Measurements",
+          "Cut",
+          "Proportions",
+          "Polish",
+          "Symmetry",
+          "Fluorescence",
+          "Clarity characteristics",
+          "Transparency",
+          "Treatment status",
+          "Availability",
+          "Transaction terms"
+        ]
+      }
+    ],
+    "step7RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use the separate "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Grading Report Guide",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": " for a field-by-field report-verification process."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Worked Diamond Quality Comparison",
+    "introParagraphs": [
+      "Consider two hypothetical round brilliant natural diamonds."
+    ],
+    "table": {
+      "caption": "Worked comparison of two natural diamonds",
+      "headers": [
+        "Characteristic",
+        "Diamond A",
+        "Diamond B"
+      ],
+      "rows": [
+        ["Carat", "1.00 ct", "1.10 ct"],
+        ["Colour", "G", "H"],
+        ["Clarity", "VS2", "SI1"],
+        ["Cut", "Excellent", "Very Good"],
+        ["Polish", "Excellent", "Excellent"],
+        ["Symmetry", "Excellent", "Very Good"],
+        ["Fluorescence", "None", "Medium"],
+        ["Report", "Independently graded", "Independently graded"]
+      ]
+    },
+    "analysis": {
+      "title": "What the Chart Shows",
+      "paragraphsBefore": [
+        "Diamond A has higher grades in cut, colour, clarity and symmetry. Diamond B has greater carat weight.",
+        "That does not automatically establish which diamond is preferable.",
+        "The buyer still needs to determine:"
+      ],
+      "bullets": [
+        "Which diamond has the better face-up measurements?",
+        "Is the SI1 inclusion visible without magnification?",
+        "Does the inclusion have any transparency or durability relevance?",
+        "How does Diamond B perform visually despite its Very Good cut grade?",
+        "Does Medium fluorescence affect Diamond B’s appearance?",
+        "Is the colour difference noticeable in the intended setting?",
+        "Which diamond provides the preferred balance at the quoted price?"
+      ],
+      "paragraphsAfter": [
+        "A buyer prioritising cut precision may prefer Diamond A.",
+        "A buyer prioritising visible size may consider Diamond B if it has an attractive appearance, suitable measurements and acceptable inclusions.",
+        "The quality chart narrows the decision. It does not replace inspection."
+      ]
+    }
+  },
+  "rarityPriceValue": {
+    "id": "diamond-quality-versus-rarity-price-and-value",
+    "title": "Diamond Quality, Rarity, Price and Value",
+    "introParagraphs": [
+      "These terms are related, but they are not identical."
+    ],
+    "subsections": [
+      {
+        "id": "quality",
+        "title": "Quality",
+        "paragraphsBefore": [
+          "Quality describes characteristics such as cut, colour and clarity, together with the diamond’s workmanship and appearance."
+        ]
+      },
+      {
+        "id": "rarity",
+        "title": "Rarity",
+        "paragraphsBefore": [
+          "Higher grades and larger carat weights may be rarer. Rarity can contribute to a higher price even when the visual difference is subtle."
+        ]
+      },
+      {
+        "id": "price",
+        "title": "Price",
+        "paragraphsBefore": [
+          "Price is the amount requested in a particular transaction. It can be influenced by:"
+        ],
+        "bullets": [
+          "Quality",
+          "Rarity",
+          "Shape",
+          "Carat thresholds",
+          "Market conditions",
+          "Supplier",
+          "Availability",
+          "Certification",
+          "Treatment status",
+          "Commercial terms"
+        ]
+      },
+      {
+        "id": "value",
+        "title": "Value",
+        "paragraphsBefore": [
+          "Value depends on the purpose and context in which it is being considered.",
+          "Purchase price, replacement value and future resale value are not automatically the same.",
+          "A diamond grading report does not establish monetary value. A quality chart also cannot state what a particular diamond should cost without examining the complete stone and current market comparison."
+        ]
+      },
+      {
+        "id": "does-highest-grade-provide-best-value",
+        "title": "Does the Highest Grade Provide the Best Value?",
+        "paragraphsBefore": [
+          "Not always.",
+          "A D-colour, Flawless diamond may be extremely rare, but another buyer may prefer to allocate more of the budget to size, shape or cut while selecting a lower colour or clarity grade.",
+          "The best balance is the combination that:"
+        ],
+        "bullets": [
+          "Meets the buyer’s visual expectations",
+          "Has credible documentation",
+          "Is suitable for the intended jewellery",
+          "Avoids unacceptable transparency or durability concerns",
+          "Is competitively priced against genuinely similar diamonds",
+          "Fits the available budget"
+        ]
+      }
+    ]
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Natural Diamond Quality Checklist",
+    "introLead": "Before purchasing, confirm:",
+    "items": [
+      "The diamond is clearly identified as natural.",
+      "The grading report comes from a credible independent laboratory.",
+      "The report number has been verified through the issuing laboratory.",
+      "The shape and cutting style match the listing.",
+      "Carat weight and measurements correspond.",
+      "Face-up dimensions have been compared.",
+      "Cut quality or fancy-shape appearance has been evaluated.",
+      "Table, depth and relevant proportions have been reviewed.",
+      "Colour has been considered in relation to shape, size and metal.",
+      "Clarity characteristics and comments have been examined.",
+      "The diamond’s eye-visible appearance has been checked.",
+      "Transparency has been assessed.",
+      "Polish and symmetry have been reviewed.",
+      "Fluorescence has been considered.",
+      "Treatment disclosures have been checked.",
+      "The laser inscription matches, where present.",
+      "Current physical condition has been considered.",
+      "Photographs and video show the actual diamond.",
+      "The price has been compared with genuinely similar diamonds.",
+      "Payment, inspection, delivery and return conditions are clear."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Already Comparing Natural Diamonds?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A diamond quality chart can help you understand the grades, but the final decision should be based on the complete stone, its documentation, visual appearance, price and transaction conditions."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "With "
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", buyers who have already found a loose natural diamond can submit the shortlisted stone to Dalila Diamonds for applicable quality-control coordination, euro payment and scheduled delivery to Belgium or another confirmed European Union destination."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If you have not selected a stone, use "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " to request customised natural-diamond sourcing assistance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Submit a Shortlisted Diamond",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Browse Natural Diamonds",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Diamond Quality",
+    "items": [
+      {
+        "question": "What is a diamond quality chart?",
+        "answer": "A diamond quality chart organises the recognised scales used to describe cut, colour, clarity and carat weight. It helps buyers understand the meaning of different grades and compare natural diamonds more consistently."
+      },
+      {
+        "question": "How is diamond quality measured?",
+        "answer": "Diamond quality is principally described using cut, colour, clarity and carat weight. Buyers should also consider measurements, proportions, polish, symmetry, fluorescence, transparency, treatments and current condition."
+      },
+      {
+        "question": "What are the 4Cs of diamond quality?",
+        "answer": "The 4Cs are cut, colour, clarity and carat weight. They provide a standard framework for describing and comparing diamonds."
+      },
+      {
+        "question": "Which of the 4Cs is most important?",
+        "answer": "There is no universal order for every purchase. Cut often has a strong influence on visible brightness and sparkle, while colour, clarity and carat affect appearance, rarity and price. The intended shape and jewellery design should guide the balance."
+      },
+      {
+        "question": "What is the highest diamond colour grade?",
+        "answer": "D is the highest grade on the normal D-to-Z colour scale. It represents the colourless end of the scale. Fancy-colour diamonds use a different grading system."
+      },
+      {
+        "question": "Is G colour considered good quality?",
+        "answer": "G falls within the near-colourless category. Whether it is appropriate depends on the individual diamond, its size, shape, cut, setting metal and the buyer’s colour sensitivity."
+      },
+      {
+        "question": "What is the best diamond clarity?",
+        "answer": "Flawless is the highest GIA clarity grade, followed by Internally Flawless. However, many lower-clarity diamonds may appear clean without magnification and can provide a more suitable balance for some buyers."
+      },
+      {
+        "question": "Is VS2 clarity eye-clean?",
+        "answer": "Many VS2 diamonds may appear clean without magnification, but the grade does not guarantee this. Inclusion type, position, colour, diamond size and viewing conditions must be considered."
+      },
+      {
+        "question": "Is SI1 clarity suitable for a natural diamond?",
+        "answer": "An SI1 diamond may be suitable if its inclusions are acceptable in appearance and do not create transparency or durability concerns. Each SI1 diamond should be assessed individually."
+      },
+      {
+        "question": "What is the diamond cut grade scale?",
+        "answer": "For applicable GIA-graded standard round brilliant diamonds, the scale is Excellent, Very Good, Good, Fair and Poor."
+      },
+      {
+        "question": "Why does my Oval diamond not have a GIA cut grade?",
+        "answer": "GIA’s standard overall cut grade currently applies to standard round brilliant diamonds in the D-to-Z colour range. Oval and other fancy shapes require assessment of their measurements, outline, facet pattern, polish, symmetry and visual appearance."
+      },
+      {
+        "question": "Is carat a measurement of diamond size?",
+        "answer": "Carat measures weight. Visible size depends on the diamond’s shape, measurements, depth, girdle and distribution of weight."
+      },
+      {
+        "question": "Can a smaller diamond look larger than a heavier diamond?",
+        "answer": "Yes. A well-proportioned or elongated diamond can have a larger face-up appearance than a heavier diamond that retains more weight in its depth."
+      },
+      {
+        "question": "Does a larger carat mean better quality?",
+        "answer": "No. A larger diamond can have lower cut, colour or clarity grades. Carat weight should be considered alongside the other quality characteristics."
+      },
+      {
+        "question": "Can two diamonds with the same 4Cs look different?",
+        "answer": "Yes. They can differ in exact proportions, inclusion locations, fluorescence, transparency, facet pattern, visible spread and current condition."
+      },
+      {
+        "question": "Does an Excellent cut grade guarantee maximum sparkle?",
+        "answer": "Excellent is the highest GIA cut-grade category for applicable round brilliant diamonds, but diamonds within the category can still have different proportions and appearance patterns. The actual stone should be examined."
+      },
+      {
+        "question": "Does fluorescence reduce diamond quality?",
+        "answer": "Not automatically. Fluorescence is an identifying characteristic. Its practical effect depends on its strength, colour and the individual diamond’s appearance under different lighting conditions."
+      },
+      {
+        "question": "Can the 4Cs prove that a diamond is natural?",
+        "answer": "No. Laboratory-grown diamonds can also receive 4Cs grades. The laboratory report must clearly state whether the examined diamond is natural or laboratory-grown."
+      },
+      {
+        "question": "Does a diamond quality chart show what a diamond is worth?",
+        "answer": "No. The chart explains quality scales. Monetary value requires examination of the complete diamond, relevant market comparisons and the purpose of the valuation."
+      },
+      {
+        "question": "What is a good-quality diamond for the money?",
+        "answer": "A good-quality diamond for the money is one that appears attractive, has acceptable colour and clarity, uses its carat weight effectively, carries credible documentation and is competitively priced against genuinely similar stones. There is no single grade combination that suits every buyer."
+      },
+      {
+        "question": "Should I choose higher clarity or a larger carat?",
+        "answer": "That depends on whether the lower-clarity diamond has visible or significant inclusions. If it appears clean and has no concerning characteristics, some buyers may prefer to allocate more of their budget to size or cut."
+      },
+      {
+        "question": "Should I choose D colour or Excellent cut?",
+        "answer": "These grades describe different characteristics. A higher colour grade cannot correct weak light performance. Compare the complete diamonds and decide which visual difference matters more to you."
+      },
+      {
+        "question": "Is a grading report enough to judge diamond quality?",
+        "answer": "No. A grading report provides essential technical information, but photographs, video, physical inspection, transparency, current condition, price and seller reliability must also be considered."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Final Takeaway",
+    "introParagraphs": [
+      "The diamond quality chart gives buyers a structured way to compare cut, colour, clarity and carat weight, but no individual grade should determine the purchase by itself.",
+      "Begin with the shape and intended jewellery. Protect the diamond’s visual performance. Compare colour and clarity according to what can genuinely be seen. Check whether the carat weight creates the expected face-up size. Then review the proportions, fluorescence, transparency, documentation, current condition and price.",
+      "The goal is not simply to buy the diamond with the highest grades.",
+      "The goal is to select a natural diamond whose complete combination of quality, appearance, documentation and price makes sense for the buyer."
+    ],
+    "primaryButtonText": "Use Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contact Dalila Diamonds",
+    "secondaryButtonHref": "/contact"
+  }
+}

@@ -274,9 +274,37 @@ export default function Header() {
 
                                         <Link
                                             href={localizedPath("/resources/diamond-grading-report-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
                                             {dictionary?.nav?.articleGradingReport || "Diamond Grading Report Guide"}
+                                        </Link>
+
+                                        <Link
+                                            href={localizedPath("/resources/diamond-quality-chart")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                        >
+                                            {dictionary?.nav?.articleQualityChart || "Diamond Quality Chart"}
+                                        </Link>
+
+                                        <Link
+                                            href={localizedPath("/resources/diamond-fluorescence-guide")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                        >
+                                            {dictionary?.nav?.articleFluorescenceGuide || "Diamond Fluorescence Guide"}
+                                        </Link>
+
+                                        <Link
+                                            href={localizedPath("/resources/diamond-culet-guide")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                        >
+                                            {dictionary?.nav?.articleCuletGuide || "Diamond Culet Guide"}
+                                        </Link>
+
+                                        <Link
+                                            href={localizedPath("/resources/diamond-girdle-guide")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                        >
+                                            {dictionary?.nav?.articleGirdleGuide || "Diamond Girdle Guide"}
                                         </Link>
                                     </div>
                                 )}

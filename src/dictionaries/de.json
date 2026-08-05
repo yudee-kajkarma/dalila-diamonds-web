@@ -21,7 +21,15 @@
     "diamondKnowledgeTitle": "Diamanten-Wissensdatenbank | Dalila Diamonds",
     "diamondKnowledgeDescription": "Erfahren Sie mehr über die 4Cs von Diamanten, die Unterschiede zwischen natürlichen und Labor-Diamanten, Zertifizierungen und die Pflege.",
     "gradingReportTitle": "Leitfaden zum Diamant-Bewertungsbericht | Dalila Diamonds",
-    "gradingReportDescription": "Verstehen Sie Diamant-Bewertungsberichte, überprüfen Sie Berichtsnummern, vergleichen Sie die 4Cs, Proportionen und Fluoreszenz und prüfen Sie einen Naturdiamanten vor dem Kauf."
+    "gradingReportDescription": "Verstehen Sie Diamant-Bewertungsberichte, überprüfen Sie Berichtsnummern, vergleichen Sie die 4Cs, Proportionen und Fluoreszenz und prüfen Sie einen Naturdiamanten vor dem Kauf.",
+    "qualityChartTitle": "Diamant-Qualitätsdiagramm | Dalila Diamonds",
+    "qualityChartDescription": "Vergleichen Sie Schliff-, Farb-, Reinheits- und Karatnoten von Diamanten. Nutzen Sie dieses Qualitätsdiagramm für Naturdiamanten, um die 4Cs zu verstehen und die richtige Balance zu wählen.",
+    "fluorescenceGuideTitle": "Leitfaden zur Diamantfluoreszenz | Dalila Diamonds",
+    "fluorescenceGuideDescription": "Verstehen Sie Diamantfluoreszenz, blaue Fluoreszenz und Intensitätsstufen. Erfahren Sie, wie Fluoreszenz Aussehen und Preis vor dem Kauf eines Naturdiamanten beeinflussen kann.",
+    "culetGuideTitle": "Diamant-Culet-Leitfaden: Größe & Bedeutung | Dalila Diamonds",
+    "culetGuideDescription": "Erfahren Sie, was ein Diamant-Culet ist, wie GIA und HRD die Culet-Größe beschreiben und wie spitze, offene, große oder beschädigte Culets Aussehen und Kaufentscheidung beeinflussen können.",
+    "girdleGuideTitle": "Diamant-Rondiste-Leitfaden: Dicke & Grade | Dalila Diamonds",
+    "girdleGuideDescription": "Erfahren Sie, was eine Diamant-Rondiste ist, wie GIA und HRD ihre Dicke bewerten und wie dünne oder dicke Rondisten Haltbarkeit, Größe, Fassung und Wert beeinflussen."
   },
   "nav": {
     "home": "Startseite",
@@ -47,7 +55,11 @@
     "articleB2b": "Erstklassiger B2B-Diamantenlieferant in Belgien",
     "articleSell": "Diamanten sicher verkaufen",
     "articleCushion": "Leitfaden für längliche Kissen-Schliff-Diamanten",
-    "articleGradingReport": "Leitfaden zum Diamant-Bewertungsbericht"
+    "articleGradingReport": "Leitfaden zum Diamant-Bewertungsbericht",
+    "articleQualityChart": "Diamant-Qualitätsdiagramm",
+    "articleFluorescenceGuide": "Leitfaden zur Diamantfluoreszenz",
+    "articleCuletGuide": "Diamant-Culet-Leitfaden",
+    "articleGirdleGuide": "Diamant-Rondiste-Leitfaden"
   },
   "header": {
     "search": "Diamanten suchen...",

@@ -520,6 +520,23 @@
           "Compare it with a similar diamond showing no fluorescence",
           "Determine whether fluorescence has affected the asking price",
           "Do not reject or purchase a diamond according to the fluorescence label alone."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "For a complete evaluation of fluorescence intensity, colour, transparency and price effects, see the "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Fluorescence Guide",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Culet",
           "The culet is the point or small facet at the bottom of the diamond. A large culet may be visible through the table.",
           "Use the proportion diagram as a screening and comparison tool, not as a substitute for seeing or inspecting the diamond."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "For a complete explanation of girdle thickness, GIA and HRD reporting, finish, durability and setting implications, see the "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Girdle Guide",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". For culet size, pointed and open culets, see the "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Culet Guide",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {

@@ -21,7 +21,15 @@
     "diamondKnowledgeTitle": "Diamond Knowledge Guide | Dalila Diamonds",
     "diamondKnowledgeDescription": "Learn about the 4Cs of diamonds, natural vs. lab-grown differences, certifications, and caring for your diamonds.",
     "gradingReportTitle": "Diamond Grading Report Guide | Dalila Diamonds",
-    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying."
+    "gradingReportDescription": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying.",
+    "qualityChartTitle": "Diamond Quality Chart | Dalila Diamonds",
+    "qualityChartDescription": "Compare diamond cut, colour, clarity and carat grades. Use this natural diamond quality chart to understand the 4Cs and choose the right balance.",
+    "fluorescenceGuideTitle": "Diamond Fluorescence Guide | Dalila Diamonds",
+    "fluorescenceGuideDescription": "Understand diamond fluorescence, blue fluorescence and strength levels. Learn how fluorescence can affect appearance and price before buying a natural diamond.",
+    "culetGuideTitle": "Diamond Culet Guide: Size & Meaning | Dalila Diamonds",
+    "culetGuideDescription": "Learn what a diamond culet is, how GIA and HRD describe culet size, and how pointed, open, large or chipped culets can affect appearance and buying.",
+    "girdleGuideTitle": "Diamond Girdle Guide: Thickness & Grades | Dalila Diamonds",
+    "girdleGuideDescription": "Learn what a diamond girdle is, how GIA and HRD grade its thickness, and how thin or thick girdles affect durability, size, setting and value."
   },
   "nav": {
     "home": "Home",
@@ -47,7 +55,11 @@
     "articleB2b": "Premium B2B Diamond Supplier in Belgium",
     "articleSell": "Sell Your Diamond Safely",
     "articleCushion": "Elongated Cushion Cut Diamond Guide",
-    "articleGradingReport": "Diamond Grading Report Guide"
+    "articleGradingReport": "Diamond Grading Report Guide",
+    "articleQualityChart": "Diamond Quality Chart",
+    "articleFluorescenceGuide": "Diamond Fluorescence Guide",
+    "articleCuletGuide": "Diamond Culet Guide",
+    "articleGirdleGuide": "Diamond Girdle Guide"
   },
   "header": {
     "search": "Search diamonds...",

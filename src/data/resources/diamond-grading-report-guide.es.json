@@ -520,6 +520,23 @@
           "Compárelo con un diamante similar sin fluorescencia",
           "Determine si la fluorescencia ha afectado al precio solicitado",
           "No rechace ni compre un diamante únicamente según la etiqueta de fluorescencia."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Para una evaluación completa de la intensidad, el color, la transparencia y los efectos en el precio, consulte la "
+            },
+            {
+              "type": "link",
+              "text": "Guía de fluorescencia del diamante",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Cúspide",
           "La cúspide es el punto o la pequeña faceta en la parte inferior del diamante. Una cúspide grande puede ser visible a través de la mesa.",
           "Utilice el diagrama de proporciones como herramienta de cribado y comparación, no como sustituto de ver o inspeccionar el diamante."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Para una explicación completa del grosor del filetín, los informes de GIA y HRD, el acabado, la durabilidad y el engaste, consulte la "
+            },
+            {
+              "type": "link",
+              "text": "Guía del filetín del diamante",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Para el tamaño del culet y los culets puntiagudos o abiertos, consulte la "
+            },
+            {
+              "type": "link",
+              "text": "Guía del culet del diamante",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {

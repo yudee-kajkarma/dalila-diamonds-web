@@ -266,6 +266,38 @@ export default function MobileHeader() {
                                     >
                                         {dictionary?.nav?.articleGradingReport || "Diamond Grading Report Guide"}
                                     </Link>
+
+                                    <Link
+                                        href={localizedPath("/resources/diamond-quality-chart")}
+                                        onClick={closeMobileMenu}
+                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                    >
+                                        {dictionary?.nav?.articleQualityChart || "Diamond Quality Chart"}
+                                    </Link>
+
+                                    <Link
+                                        href={localizedPath("/resources/diamond-fluorescence-guide")}
+                                        onClick={closeMobileMenu}
+                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                    >
+                                        {dictionary?.nav?.articleFluorescenceGuide || "Diamond Fluorescence Guide"}
+                                    </Link>
+
+                                    <Link
+                                        href={localizedPath("/resources/diamond-culet-guide")}
+                                        onClick={closeMobileMenu}
+                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                    >
+                                        {dictionary?.nav?.articleCuletGuide || "Diamond Culet Guide"}
+                                    </Link>
+
+                                    <Link
+                                        href={localizedPath("/resources/diamond-girdle-guide")}
+                                        onClick={closeMobileMenu}
+                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                    >
+                                        {dictionary?.nav?.articleGirdleGuide || "Diamond Girdle Guide"}
+                                    </Link>
                                 </div>
                             )}
                         </div>

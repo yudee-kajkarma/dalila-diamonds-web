@@ -21,7 +21,15 @@
     "diamondKnowledgeTitle": "Guía de conocimientos sobre diamantes | Dalila Diamonds",
     "diamondKnowledgeDescription": "Conozca las 4C de los diamantes, las diferencias entre diamantes naturales y creados en laboratorio, certificaciones y cuidado.",
     "gradingReportTitle": "Guía del informe de certificación de diamantes | Dalila Diamonds",
-    "gradingReportDescription": "Comprenda los informes de certificación de diamantes, verifique los números de informe, compare las 4C, las proporciones y la fluorescencia, y revise un diamante natural antes de comprar."
+    "gradingReportDescription": "Comprenda los informes de certificación de diamantes, verifique los números de informe, compare las 4C, las proporciones y la fluorescencia, y revise un diamante natural antes de comprar.",
+    "qualityChartTitle": "Tabla de calidad del diamante | Dalila Diamonds",
+    "qualityChartDescription": "Compare los grados de talla, color, pureza y quilates. Utilice esta tabla de calidad de diamantes naturales para comprender las 4C y elegir el equilibrio adecuado.",
+    "fluorescenceGuideTitle": "Guía de fluorescencia del diamante | Dalila Diamonds",
+    "fluorescenceGuideDescription": "Comprenda la fluorescencia del diamante, la fluorescencia azul y los niveles de intensidad. Aprenda cómo la fluorescencia puede afectar la apariencia y el precio antes de comprar un diamante natural.",
+    "culetGuideTitle": "Guía del culet del diamante: tamaño y significado | Dalila Diamonds",
+    "culetGuideDescription": "Aprenda qué es el culet de un diamante, cómo GIA y HRD describen su tamaño, y cómo los culets puntiagudos, abiertos, grandes o astillados pueden afectar la apariencia y la compra.",
+    "girdleGuideTitle": "Guía del filetín del diamante: grosor y grados | Dalila Diamonds",
+    "girdleGuideDescription": "Aprenda qué es el filetín de un diamante, cómo GIA y HRD califican su grosor, y cómo los filetines finos o gruesos afectan la durabilidad, el tamaño, el engaste y el valor."
   },
   "nav": {
     "home": "Inicio",
@@ -47,7 +55,11 @@
     "articleB2b": "Proveedor de diamantes B2B premium en Bélgica",
     "articleSell": "Venda su diamante de forma segura",
     "articleCushion": "Guía de diamantes talla cojín alargado",
-    "articleGradingReport": "Guía del informe de certificación de diamantes"
+    "articleGradingReport": "Guía del informe de certificación de diamantes",
+    "articleQualityChart": "Tabla de calidad del diamante",
+    "articleFluorescenceGuide": "Guía de fluorescencia del diamante",
+    "articleCuletGuide": "Guía del culet del diamante",
+    "articleGirdleGuide": "Guía del filetín del diamante"
   },
   "header": {
     "search": "Buscar diamantes...",

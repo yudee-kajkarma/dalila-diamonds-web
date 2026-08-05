@@ -3,7 +3,7 @@ import { Locale, DEFAULT_LOCALE, LOCALES, getLocalizedPath } from "./config";
 import { getDictionary } from "./getDictionary";
 
 interface MetadataOptions {
-  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport";
+  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport" | "qualityChart" | "fluorescenceGuide" | "culetGuide" | "girdleGuide";
   path: string;
   searchParams?: { [key: string]: string | string[] | undefined };
 }
@@ -49,6 +49,26 @@ export function generateLocalizedMetadata(
     description =
       (dict.meta as any).gradingReportDescription ||
       "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying.";
+  } else if (pageKey === "qualityChart") {
+    title = (dict.meta as any).qualityChartTitle || "Diamond Quality Chart | Dalila Diamonds";
+    description =
+      (dict.meta as any).qualityChartDescription ||
+      "Compare diamond cut, colour, clarity and carat grades. Use this natural diamond quality chart to understand the 4Cs and choose the right balance.";
+  } else if (pageKey === "fluorescenceGuide") {
+    title = (dict.meta as any).fluorescenceGuideTitle || "Diamond Fluorescence Guide | Dalila Diamonds";
+    description =
+      (dict.meta as any).fluorescenceGuideDescription ||
+      "Understand diamond fluorescence, blue fluorescence and strength levels. Learn how fluorescence can affect appearance and price before buying a natural diamond.";
+  } else if (pageKey === "culetGuide") {
+    title = (dict.meta as any).culetGuideTitle || "Diamond Culet Guide: Size & Meaning | Dalila Diamonds";
+    description =
+      (dict.meta as any).culetGuideDescription ||
+      "Learn what a diamond culet is, how GIA and HRD describe culet size, and how pointed, open, large or chipped culets can affect appearance and buying.";
+  } else if (pageKey === "girdleGuide") {
+    title = (dict.meta as any).girdleGuideTitle || "Diamond Girdle Guide: Thickness & Grades | Dalila Diamonds";
+    description =
+      (dict.meta as any).girdleGuideDescription ||
+      "Learn what a diamond girdle is, how GIA and HRD grade its thickness, and how thin or thick girdles affect durability, size, setting and value.";
   }
 
   const baseUrl = "https://www.daliladiamonds.com";

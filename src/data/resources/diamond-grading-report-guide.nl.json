@@ -520,6 +520,23 @@
           "Vergelijk met een vergelijkbare diamant zonder fluorescentie",
           "Bepaal of fluorescentie de vraagprijs heeft beïnvloed",
           "Wijs een diamant niet af of koop hem niet alleen op basis van het fluorescentielabel."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Voor een volledige beoordeling van fluorescentie-intensiteit, kleur, transparantie en prijseffecten, zie de "
+            },
+            {
+              "type": "link",
+              "text": "Gids voor diamantfluorescentie",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Cullet",
           "De cullet is het punt of kleine facet onderaan de diamant. Een grote cullet kan zichtbaar zijn door de tafel.",
           "Gebruik het verhoudingsdiagram als screenings- en vergelijkingstool, niet als vervanging voor het zien of inspecteren van de diamant."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Voor een volledige uitleg van gordeldikte, GIA- en HRD-rapportage, afwerking, duurzaamheid en zetting, zie de "
+            },
+            {
+              "type": "link",
+              "text": "Diamantgordelgids",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Voor culetgrootte en spitse of open culets, zie de "
+            },
+            {
+              "type": "link",
+              "text": "Diamantculetgids",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {

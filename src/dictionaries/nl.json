@@ -21,7 +21,15 @@
     "diamondKnowledgeTitle": "Diamant Kennisgids | Dalila Diamonds",
     "diamondKnowledgeDescription": "Lees meer over de 4C's van diamanten, het verschil tussen natuurlijk en lab-gekweekt, certificeringen en onderhoud.",
     "gradingReportTitle": "Gids voor het diamant grading rapport | Dalila Diamonds",
-    "gradingReportDescription": "Begrijp diamant grading rapporten, verifieer rapportnummers, vergelijk de 4C's, verhoudingen en fluorescentie, en controleer een natuurlijke diamant vóór aankoop."
+    "gradingReportDescription": "Begrijp diamant grading rapporten, verifieer rapportnummers, vergelijk de 4C's, verhoudingen en fluorescentie, en controleer een natuurlijke diamant vóór aankoop.",
+    "qualityChartTitle": "Diamantkwaliteitsgrafiek | Dalila Diamonds",
+    "qualityChartDescription": "Vergelijk slijp-, kleur-, zuiverheids- en karaatgraden. Gebruik deze kwaliteitsgrafiek voor natuurlijke diamanten om de 4C's te begrijpen en de juiste balans te kiezen.",
+    "fluorescenceGuideTitle": "Gids voor diamantfluorescentie | Dalila Diamonds",
+    "fluorescenceGuideDescription": "Begrijp diamantfluorescentie, blauwe fluorescentie en intensiteitsniveaus. Leer hoe fluorescentie uiterlijk en prijs kan beïnvloeden voordat u een natuurlijke diamant koopt.",
+    "culetGuideTitle": "Diamantculetgids: grootte en betekenis | Dalila Diamonds",
+    "culetGuideDescription": "Leer wat een diamantculet is, hoe GIA en HRD de culetgrootte beschrijven, en hoe spitse, open, grote of beschadigde culets uiterlijk en aankoop kunnen beïnvloeden.",
+    "girdleGuideTitle": "Diamantgordelgids: dikte en graden | Dalila Diamonds",
+    "girdleGuideDescription": "Leer wat een diamantgordel is, hoe GIA en HRD de dikte beoordelen, en hoe dunne of dikke gordels duurzaamheid, grootte, zetting en waarde beïnvloeden."
   },
   "nav": {
     "home": "Home",
@@ -47,7 +55,11 @@
     "articleB2b": "Premium B2B diamantleverancier in België",
     "articleSell": "Verkoop uw diamant veilig",
     "articleCushion": "Gids voor langwerpige kussengeslepen diamanten",
-    "articleGradingReport": "Gids voor het diamant grading rapport"
+    "articleGradingReport": "Gids voor het diamant grading rapport",
+    "articleQualityChart": "Diamantkwaliteitsgrafiek",
+    "articleFluorescenceGuide": "Gids voor diamantfluorescentie",
+    "articleCuletGuide": "Diamantculetgids",
+    "articleGirdleGuide": "Diamantgordelgids"
   },
   "header": {
     "search": "Zoek diamanten...",

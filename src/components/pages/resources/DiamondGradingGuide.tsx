@@ -39,6 +39,7 @@ type Subsection = {
   bullets?: string[];
   numberedSteps?: string[];
   table?: TableData;
+  richParagraphsAfter?: RichSegment[][];
 };
 
 const ORGANIZATION_ID = "https://www.daliladiamonds.com/#organization";
@@ -335,7 +336,8 @@ function renderSection({
   );
 }
 
-function renderSubsection(subsection: Subsection) {
+function renderSubsection(subsection: any, locale: Locale = "en") {
+  const richAfter = subsection.richParagraphsAfter as RichSegment[][] | undefined;
   return renderSection({
     id: subsection.id,
     title: subsection.title,
@@ -345,6 +347,10 @@ function renderSubsection(subsection: Subsection) {
     numberedSteps: subsection.numberedSteps,
     paragraphsAfter: subsection.paragraphsAfter,
     table: subsection.table,
+    children:
+      richAfter && richAfter.length > 0 ? (
+        <RichParagraphList paragraphs={richAfter} locale={locale} />
+      ) : undefined,
   });
 }
 
@@ -513,7 +519,7 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
               title: data.howToRead.title,
               paragraphsBefore: data.howToRead.introParagraphs,
             })}
-            {data.howToRead.subsections.map(renderSubsection)}
+            {data.howToRead.subsections.map((subsection) => renderSubsection(subsection, locale))}
 
             {renderSection({
               id: data.verification.id,

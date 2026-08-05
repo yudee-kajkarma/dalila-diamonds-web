@@ -12,7 +12,7 @@ const marcellus = Marcellus({
 });
 
 interface ResourceSidebarProps {
-  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide';
+  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide' | 'diamond-quality-chart' | 'diamond-fluorescence-guide' | 'diamond-culet-guide' | 'diamond-girdle-guide';
 }
 
 const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
@@ -42,6 +42,26 @@ const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
       key: 'diamond-grading-report-guide',
       title: dictionary?.nav?.articleGradingReport || 'Diamond Grading Report Guide',
       href: '/resources/diamond-grading-report-guide',
+    },
+    {
+      key: 'diamond-quality-chart',
+      title: dictionary?.nav?.articleQualityChart || 'Diamond Quality Chart',
+      href: '/resources/diamond-quality-chart',
+    },
+    {
+      key: 'diamond-fluorescence-guide',
+      title: dictionary?.nav?.articleFluorescenceGuide || 'Diamond Fluorescence Guide',
+      href: '/resources/diamond-fluorescence-guide',
+    },
+    {
+      key: 'diamond-culet-guide',
+      title: dictionary?.nav?.articleCuletGuide || 'Diamond Culet Guide',
+      href: '/resources/diamond-culet-guide',
+    },
+    {
+      key: 'diamond-girdle-guide',
+      title: dictionary?.nav?.articleGirdleGuide || 'Diamond Girdle Guide',
+      href: '/resources/diamond-girdle-guide',
     },
   ];
 

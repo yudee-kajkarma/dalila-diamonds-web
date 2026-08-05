@@ -21,7 +21,15 @@
     "diamondKnowledgeTitle": "Guida alla conoscenza dei diamanti | Dalila Diamonds",
     "diamondKnowledgeDescription": "Scopri le 4C dei diamanti, le differenze tra diamanti naturali e coltivati in laboratorio, le certificazioni e la cura.",
     "gradingReportTitle": "Guida al rapporto di certificazione del diamante | Dalila Diamonds",
-    "gradingReportDescription": "Comprenda i rapporti di certificazione del diamante, verifichi i numeri di rapporto, confronti le 4C, le proporzioni e la fluorescenza e controlli un diamante naturale prima dell'acquisto."
+    "gradingReportDescription": "Comprenda i rapporti di certificazione del diamante, verifichi i numeri di rapporto, confronti le 4C, le proporzioni e la fluorescenza e controlli un diamante naturale prima dell'acquisto.",
+    "qualityChartTitle": "Tabella della qualità dei diamanti | Dalila Diamonds",
+    "qualityChartDescription": "Confronti i gradi di taglio, colore, purezza e carati. Usi questa tabella della qualità dei diamanti naturali per comprendere le 4C e scegliere il giusto equilibrio.",
+    "fluorescenceGuideTitle": "Guida alla fluorescenza del diamante | Dalila Diamonds",
+    "fluorescenceGuideDescription": "Comprenda la fluorescenza del diamante, la fluorescenza blu e i livelli di intensità. Scopra come la fluorescenza può influire su aspetto e prezzo prima di acquistare un diamante naturale.",
+    "culetGuideTitle": "Guida al culet del diamante: dimensione e significato | Dalila Diamonds",
+    "culetGuideDescription": "Scopra cos’è il culet di un diamante, come GIA e HRD ne descrivono la dimensione e come culet a punta, aperti, grandi o scheggiati possono influenzare aspetto e acquisto.",
+    "girdleGuideTitle": "Guida alla cintura del diamante: spessore e gradi | Dalila Diamonds",
+    "girdleGuideDescription": "Scopra cos’è la cintura di un diamante, come GIA e HRD ne valutano lo spessore e come cinture sottili o spesse influenzano durata, dimensione, montatura e valore."
   },
   "nav": {
     "home": "Home",
@@ -47,7 +55,11 @@
     "articleB2b": "Fornitore di diamanti B2B premium in Belgio",
     "articleSell": "Vendi il tuo diamante in sicurezza",
     "articleCushion": "Guida ai diamanti con taglio a cuscino allungato",
-    "articleGradingReport": "Guida al rapporto di certificazione del diamante"
+    "articleGradingReport": "Guida al rapporto di certificazione del diamante",
+    "articleQualityChart": "Tabella della qualità dei diamanti",
+    "articleFluorescenceGuide": "Guida alla fluorescenza del diamante",
+    "articleCuletGuide": "Guida al culet del diamante",
+    "articleGirdleGuide": "Guida alla cintura del diamante"
   },
   "header": {
     "search": "Cerca diamanti...",

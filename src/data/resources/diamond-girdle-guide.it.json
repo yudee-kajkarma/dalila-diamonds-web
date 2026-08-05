@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "title": "Guida alla cintura diamantata: spessore e gradi | Dalila Diamanti",
+    "description": "Scopri cos'è una cintura di diamanti, come GIA e HRD ne classificano lo spessore e come le cinture sottili o spesse influiscono sulla durata, sulle dimensioni, sull'incastonatura e sul valore.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-girdle-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaAnatomy": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    "giaFinishGirdle": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaChipping": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    "giaOval": "https://4cs.gia.edu/en-us/oval-cut-diamond/",
+    "giaInclusions": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaInscription": "https://4cs.gia.edu/en-us/diamond-quality-factor/",
+    "giaLabGrown": "https://www.gia.edu/gia-lab-grown-diamond-reports",
+    "hrdCutGrade": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Guida alla cintura di diamanti",
+    "breadcrumbHome": "Casa",
+    "breadcrumbResources": "Risorse",
+    "breadcrumbCurrent": "Guida alla cintura di diamanti",
+    "imageAlt": "Banner delle risorse della Guida alla cintura dei diamanti per gli acquirenti di diamanti naturali"
+  },
+  "hero": {
+    "title": "Guida alla cintura di diamanti per acquirenti di diamanti naturali",
+    "subheading": "Comprendere lo spessore della cintura diamantata, la classificazione GIA e HRD, la durabilità, le considerazioni sull'impostazione, il peso nascosto, i danni alla cintura e la differenza tra cinture sottili, medie e spesse.",
+    "reviewDateLabel": "Ultima revisione:",
+    "reviewDate": "30 luglio 2026"
+  },
+  "introduction": {
+    "paragraphs": [],
+    "bullets": []
+  },
+  "quickAnswer": {
+    "title": "Risposta rapida",
+    "introParagraphs": [
+      "La cintura è lo stretto bordo esterno di un diamante lucido nel punto in cui la corona incontra il padiglione. Definisce il contorno del diamante e normalmente costituisce l'area afferrata da griffe, un castone o un'altra montatura di gioielleria.",
+      "Per molti diamanti naturali moderni, una cintura sottile, media o leggermente spessa, o una gamma ragionevole tra queste categorie, è generalmente pratica. Una cintura estremamente sottile o ampiamente molto sottile può aumentare la vulnerabilità alle scheggiature, in particolare in prossimità degli angoli e dei punti. Una cintura molto spessa o estremamente spessa può trattenere il peso senza aumentare la dimensione visibile del diamante.",
+      "La descrizione della cintura non deve essere valutata da sola. Gli acquirenti dovrebbero considerare dove si trovano le sezioni sottili e spesse, la forma, l'incastonatura, le misure, la simmetria, la condizione, le prestazioni di taglio complete e il prezzo del diamante."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Punti chiave",
+    "items": [
+      "La cintura è il perimetro esterno che separa la corona del diamante dal suo padiglione.",
+      "Lo spessore della cintura è normalmente riportato come un intervallo dalle aree rilevanti più sottili a quelle più spesse.",
+      "Il GIA utilizza otto descrizioni verbali da Estremamente sottile a Estremamente spesso.",
+      "Un intervallo come Da sottile a leggermente spesso non significa che l'intera cintura abbia uno spessore uniforme.",
+      "Le cinture sottili, medie e leggermente spesse sono comunemente accettabili, ma non esiste una descrizione migliore e universale per ogni diamante.",
+      "Aree estremamente sottili possono aumentare il rischio di scheggiatura, soprattutto negli angoli, nei punti e nelle posizioni esposte.",
+      "Le cinture spesse possono contenere un peso che non contribuisce in modo significativo alla dimensione a faccia in su.",
+      "Una cintura spessa non significa automaticamente che il diamante sia tagliato male o poco attraente.",
+      "Sfaccettato, lucido e grezzo descrivono la finitura della cintura, non il suo spessore.",
+      "Una cintura sfaccettata non è automaticamente migliore di una cintura lucida o bruta.",
+      "Dipingere e scavare descrivono le variazioni create dalla relazione tra le faccette della metà superiore e inferiore attorno alla cintura.",
+      "Scheggiature, cavità, parti naturali, frastagliate e barbe non devono essere confuse con lo spessore normale della cintura.",
+      "Un'iscrizione laser sulla cintura può aiutare ad abbinare un diamante al suo rapporto, ma non è di per sé un'identificazione sufficiente.",
+      "Le forme fantasiose richiedono un'attenzione speciale agli angoli e ai punti vulnerabili.",
+      "Lo spessore della cintura non può dimostrare che un diamante sia naturale e non coltivato in laboratorio.",
+      "Il prezzo deve essere basato sul diamante completo, non su uno sconto o un premio fisso sulla cintura."
+    ]
+  },
+  "importantBuyerNote": {
+    "id": "important-buyer-note",
+    "title": "Nota importante per l'acquirente",
+    "paragraphs": [
+      "Questa guida spiega come vengono descritte e valutate le guaine. Non sostituisce l'esame del diamante reale da parte di un gemmologo qualificato o di un professionista esperto di diamanti.",
+      "Un rapporto di classificazione descrive il diamante quando è stato esaminato. Non garantisce che la guaina sia rimasta intatta da quando è stato emesso il rapporto."
+    ]
+  },
+  "overviewNav": {
+    "title": "Panoramica della guida",
+    "items": [
+      {
+        "id": "what-is-a-diamond-girdle",
+        "label": "Cos'è una cintura di diamanti?"
+      },
+      {
+        "id": "where-the-girdle-is-located",
+        "label": "Dove si trova la cintura"
+      },
+      {
+        "id": "what-the-girdle-does",
+        "label": "Cosa fa la cintura"
+      },
+      {
+        "id": "gia-diamond-girdle-scale",
+        "label": "Scala a cintura di diamanti GIA"
+      },
+      {
+        "id": "how-girdle-ranges-are-reported",
+        "label": "Come vengono segnalati gli intervalli delle cinture"
+      },
+      {
+        "id": "diamond-girdle-percentages",
+        "label": "Percentuali di cintura di diamanti"
+      },
+      {
+        "id": "hrd-antwerp-girdle-measurements",
+        "label": "Misurazioni della cintura HRD Anversa"
+      },
+      {
+        "id": "gia-versus-hrd-girdle-reporting",
+        "label": "GIA rispetto alla segnalazione del cingolo HRD"
+      },
+      {
+        "id": "best-girdle-thickness-for-a-diamond",
+        "label": "Il miglior spessore della cintura per un diamante"
+      },
+      {
+        "id": "thin-and-extremely-thin-girdles",
+        "label": "Cinture sottili ed estremamente sottili"
+      },
+      {
+        "id": "thick-and-extremely-thick-girdles",
+        "label": "Cinture spesse ed estremamente spesse"
+      },
+      {
+        "id": "uneven-and-varying-girdles",
+        "label": "Cinture irregolari e variabili"
+      },
+      {
+        "id": "faceted-polished-and-bruted-girdles",
+        "label": "Cinture sfaccettate, levigate e brutte"
+      },
+      {
+        "id": "painting-and-digging-out",
+        "label": "Dipingere e scavare"
+      },
+      {
+        "id": "girdle-damage-and-clarity-characteristics",
+        "label": "Danni alla cintura e caratteristiche di chiarezza"
+      },
+      {
+        "id": "laser-inscriptions-on-the-girdle",
+        "label": "Iscrizioni laser sulla cintura"
+      },
+      {
+        "id": "girdles-in-different-diamond-shapes",
+        "label": "Cinture in diverse forme di diamante"
+      },
+      {
+        "id": "girdle-thickness-and-jewellery-settings",
+        "label": "Spessore della cintura e montature dei gioielli"
+      },
+      {
+        "id": "girdle-thickness-face-up-size-and-price",
+        "label": "Spessore della cintura, dimensione a faccia in su e prezzo"
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-girdles",
+        "label": "Cinture di diamanti naturali e coltivate in laboratorio"
+      },
+      {
+        "id": "how-to-inspect-a-diamond-girdle",
+        "label": "Come ispezionare una cintura di diamanti"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Confronto dei diamanti lavorati"
+      },
+      {
+        "id": "common-girdle-myths",
+        "label": "Miti comuni sulla cintura"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Lista di controllo per l'acquisto di diamanti naturali"
+      },
+      {
+        "id": "girdle-guide-faq-heading",
+        "label": "Domande frequenti"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-girdle",
+    "title": "Cos'è una cintura di diamanti?",
+    "introParagraphs": [
+      "La cintura è lo stretto perimetro attorno a un diamante levigato nel punto in cui si incontrano la corona superiore e il padiglione inferiore.",
+      "Vista dall’alto, la cintura definisce il contorno del diamante. Determina se la pietra levigata appare:"
+    ],
+    "bullets": [
+      "Girare",
+      "Ovale",
+      "Piazza",
+      "Rettangolare",
+      "A forma di pera",
+      "A forma di Marchesa",
+      "A forma di cuore",
+      "A forma di cuscino",
+      "Un altro contorno riconosciuto"
+    ],
+    "closingParagraphs": [
+      "Vista di lato, la cintura appare come il bordo divisorio tra la corona e il padiglione."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA descrive la cintura come la parte centrale del diamante e la parte normalmente utilizzata come bordo di incastonatura. Il suo spessore contribuisce alla durata e alla distribuzione del peso."
+        },
+        {
+          "type": "link",
+          "text": "Riferimento all’anatomia del diamante del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "spiega la sua posizione all'interno del diamante lucido completo."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Per il punto padiglione opposto al tavolo vedi"
+        },
+        {
+          "type": "link",
+          "text": "Guida al Culet di diamanti",
+          "href": "/resources/diamond-culet-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Per scale di qualità più ampie, consultare"
+        },
+        {
+          "type": "link",
+          "text": "Grafico della qualità dei diamanti",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-girdle-a-facet",
+        "title": "La cintura è una sfaccettatura?",
+        "paragraphsBefore": [
+          "Non necessariamente.",
+          "La cintura può essere:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Lucido ma non sfaccettato individualmente",
+          "Bruttato o glassato",
+          "Parzialmente sfaccettato",
+          "Irregolare nella finitura"
+        ],
+        "paragraphsAfter": [
+          "Una cintura sfaccettata contiene una sequenza di piccole superfici lucide. Una cintura lucida può essere liscia anziché divisa in singole sfaccettature. Una cintura sgrossata ha generalmente un aspetto smerigliato o granulare creato durante il processo di modellatura."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-crown",
+        "title": "La cintura è uguale alla corona?",
+        "paragraphsBefore": [
+          "NO.",
+          "La corona è la parte superiore completa del diamante sopra la cintura. La cintura costituisce il confine sottostante."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-pavilion",
+        "title": "La Cintura è la stessa del Padiglione?",
+        "paragraphsBefore": [
+          "NO.",
+          "Il padiglione è la parte inferiore sotto la cintura, che si estende verso il culetto o altra terminazione del padiglione."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-a-lower-girdle-facet",
+        "title": "La cintura è uguale alla faccetta della cintura inferiore?",
+        "paragraphsBefore": [
+          "NO.",
+          "Le sfaccettature della cintura inferiore, chiamate anche sfaccettature della metà inferiore, sono sfaccettature del padiglione che si estendono verso l'alto verso la cintura. Non sono la cintura stessa."
+        ]
+      }
+    ]
+  },
+  "whereLocated": {
+    "id": "where-the-girdle-is-located",
+    "title": "Dove si trova la cintura?",
+    "introParagraphs": [
+      "Le parti principali di un Brillante Rotondo lucido sono:"
+    ],
+    "bullets": [
+      "Tavolo",
+      "Corona",
+      "Cintura",
+      "Padiglione",
+      "Culet o punto padiglione"
+    ],
+    "closingParagraphs": [
+      "Il tavolo è in alto. La corona scende dalla tavola alla cintura. Il padiglione prosegue sotto la cintura verso il culet.",
+      "La cintura circonda orizzontalmente l'intero diamante.",
+      "In un diamante montato, parti della cintura possono essere:"
+    ],
+    "positionBullets": [
+      "Coperto da punte",
+      "Racchiuso da una lunetta",
+      "Nascosto da un alone o da un metallo circostante",
+      "Visibile tra i punti di impostazione",
+      "Posizionato sopra o sotto i gioielli circostanti",
+      "Difficile da ispezionare senza rimuovere o regolare l'impostazione"
+    ],
+    "finalParagraphs": [
+      "Un'ispezione completa deve tenere conto delle aree nascoste dal metallo."
+    ],
+    "displacedBullets": [],
+    "closingNote": []
+  },
+  "whatDoes": {
+    "id": "what-the-girdle-does",
+    "title": "Cosa fa la cintura di diamanti?",
+    "introParagraphs": [
+      "La cintura ha diverse funzioni correlate."
+    ],
+    "subsections": [
+      {
+        "id": "defines-the-diamonds-outline",
+        "title": "Definisce il contorno del diamante",
+        "paragraphsBefore": [
+          "La cintura stabilisce la forma visibile quando il diamante è visto a faccia in su.",
+          "Le variazioni nella struttura possono influenzare:"
+        ],
+        "bullets": [
+          "Rotondità",
+          "Rapporto lunghezza-larghezza",
+          "Forma ad angolo",
+          "Allineamento dei punti",
+          "Equilibrio delle spalle",
+          "Forma dell'ala",
+          "Simmetria generale"
+        ]
+      },
+      {
+        "id": "separates-the-crown-and-pavilion",
+        "title": "Separa la corona e il padiglione",
+        "paragraphsBefore": [
+          "La cintura costituisce la transizione tra la sezione superiore e quella inferiore del diamante.",
+          "Il suo spessore contribuisce a:"
+        ],
+        "bullets": [
+          "Profondità totale",
+          "Distribuzione del peso",
+          "Durabilità",
+          "Idoneità all'impostazione",
+          "Dimensioni a faccia in su"
+        ]
+      },
+      {
+        "id": "provides-the-setting-edge",
+        "title": "Fornisce il margine di impostazione",
+        "paragraphsBefore": [
+          "Rebbi, castoni e altri componenti di montaggio normalmente fissano il diamante attorno alla sua cintura.",
+          "Per questo motivo, i palleggiatori devono considerare:"
+        ],
+        "bullets": [
+          "Spessore minimo della cintura",
+          "Variazione di spessore",
+          "Angoli e punti",
+          "Chip esistenti",
+          "Naturali e carie",
+          "Posizioni delle piume",
+          "Finitura cintura",
+          "Se un'iscrizione deve rimanere visibile",
+          "La pressione necessaria per fissare la pietra"
+        ]
+      },
+      {
+        "id": "protects-the-diamonds-edge",
+        "title": "Protegge il filo del diamante",
+        "paragraphsBefore": [
+          "Una cintura adeguatamente proporzionata fornisce il materiale tra la corona e il padiglione.",
+          "Se la cintura diventa estremamente sottile o tagliente, il bordo potrebbe essere più vulnerabile alle scheggiature. Se è inutilmente spesso, può trattenere un peso che contribuisce poco alla diffusione visibile del diamante."
+        ]
+      }
+    ]
+  },
+  "giaScale": {
+    "id": "gia-diamond-girdle-scale",
+    "title": "Scala della cintura di diamanti GIA",
+    "introParagraphs": [
+      "GIA utilizza le seguenti descrizioni dello spessore della cintura:"
+    ],
+    "table": {
+      "caption": "Descrizioni dello spessore della cintura GIA",
+      "headers": [
+        "Descrizione GIA",
+        "Interpretazione generale",
+        "Approccio pratico all'acquirente"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "Cintura poco o per nulla misurabile in una o più aree rilevanti",
+          "Indagare la posizione, l'estensione, la durabilità e il rischio di impostazione"
+        ],
+        [
+          "Molto sottile",
+          "Sono presenti aree di cintura stretta",
+          "Determina se sono localizzati o estesi e se sono interessati punti o angoli"
+        ],
+        [
+          "Magro",
+          "Una cintura relativamente stretta ma consolidata",
+          "Spesso accettabile quando non danneggiato e appropriato per la forma"
+        ],
+        [
+          "Medium",
+          "Spessore medio equilibrato",
+          "Comunemente pratico per la durata e la distribuzione del peso"
+        ],
+        [
+          "Slightly Thick",
+          "Spessore moderatamente aumentato",
+          "Spesso accettabile se le dimensioni e le proporzioni a faccia in su rimangono attraenti"
+        ],
+        [
+          "Spesso",
+          "Spessore della cintura notevolmente aumentato",
+          "Confronta peso, diametro, profondità e aspetto rivolto verso l'alto"
+        ],
+        [
+          "Very Thick",
+          "Spessore notevole in una o più zone",
+          "Verificare la presenza di peso nascosto, diffusione ridotta e implicazioni di impostazione"
+        ],
+        [
+          "Extremely Thick",
+          "Spessore della cintura molto consistente",
+          "Richiede un attento confronto tra efficienza del peso, proporzioni e aspetto"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Il GIA valuta visivamente lo spessore della cintura con un ingrandimento 10× e riporta una singola descrizione o un intervallo. La sua scala completa e la metodologia di misurazione sono fornite nel"
+        },
+        {
+          "type": "link",
+          "text": "Finitura GIA, culet e riferimento cintura",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-gia-scale-a-quality-scale",
+        "title": "La scala GIA è una scala di qualità?",
+        "paragraphsBefore": [
+          "Non da solo.",
+          "I termini descrivono lo spessore. Il loro significato d’acquisto dipende da:"
+        ],
+        "bullets": [
+          "Spessore minimo",
+          "Spessore massimo",
+          "Posizione di ciascun estremo",
+          "Forma di diamante",
+          "Vulnerabilità degli angoli e dei punti",
+          "Condizioni della cintura",
+          "Proporzioni complessive",
+          "Rapporto peso",
+          "Simmetria",
+          "Collocamento",
+          "Aspetto a faccia in su"
+        ],
+        "paragraphsAfter": [
+          "La cintura media non è automaticamente superiore a ogni cintura sottile o leggermente spessa. Allo stesso modo, un'area molto spessa non rende automaticamente un diamante inadatto."
+        ]
+      },
+      {
+        "id": "can-gia-report-a-single-description",
+        "title": "Il GIA può segnalare una singola descrizione?",
+        "paragraphsBefore": [
+          "SÌ.",
+          "Se le aree rilevanti della cintura più sottile e più spessa rientrano nella stessa categoria, il rapporto può mostrare una descrizione, come ad esempio:"
+        ],
+        "bullets": [
+          "Medium",
+          "Magro",
+          "Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "Più comunemente, il rapporto fornisce un intervallo come:",
+          "Da sottile a medio",
+          "Da medio a leggermente spesso",
+          "Da molto sottile a spesso"
+        ]
+      }
+    ]
+  },
+  "rangesReported": {
+    "id": "how-girdle-ranges-are-reported",
+    "title": "Come vengono segnalate le gamme delle cinture di diamanti?",
+    "introParagraphs": [
+      "Una descrizione come Da sottile a leggermente spessa rappresenta gli spessori rilevanti minimi e massimi osservati della cintura.",
+      "Ciò non significa:"
+    ],
+    "bullets": [
+      "Metà della cintura è sottile e metà è leggermente spessa",
+      "Lo spessore medio è Medio",
+      "Ogni area compresa tra le due descrizioni è ugualmente rappresentata",
+      "La cintura è danneggiata",
+      "Il diamante è asimmetrico",
+      "Il diamante non può ricevere un grado di taglio elevato"
+    ],
+    "subsections": [
+      {
+        "id": "how-should-a-girdle-range-be-read",
+        "title": "Come dovrebbe essere letta una gamma di cinture?",
+        "paragraphsBefore": [
+          "Il primo termine è lo spessore minimo. Il secondo è il massimo."
+        ],
+        "table": {
+          "caption": "Lettura delle descrizioni della gamma di cinture",
+          "headers": [
+            "Descrizione del rapporto",
+            "Minimo",
+            "Massimo"
+          ],
+          "rows": [
+            [
+              "Da sottile a medio",
+              "Magro",
+              "Medium"
+            ],
+            [
+              "Da medio a leggermente spesso",
+              "Medium",
+              "Slightly Thick"
+            ],
+            [
+              "Da molto sottile a spesso",
+              "Molto sottile",
+              "Spesso"
+            ],
+            [
+              "Da sottile a molto spesso",
+              "Magro",
+              "Very Thick"
+            ],
+            [
+              "Medium",
+              "Medium",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "does-a-wide-range-mean-the-girdle-is-bad",
+        "title": "Una vasta gamma significa che la cintura è difettosa?",
+        "paragraphsBefore": [
+          "Non automaticamente.",
+          "Una gamma più ampia richiede un esame perché può derivare da:"
+        ],
+        "bullets": [
+          "Variazione normale attorno a una cintura smerlata",
+          "Il design di una forma fantasia",
+          "Materiale extra vicino ad un angolo o punto",
+          "Pittura",
+          "Scavare",
+          "Variazione del posizionamento delle faccette",
+          "Un naturale naturale o rientrato",
+          "Un aspetto in più",
+          "Decisioni di taglio utilizzate per mantenere il peso",
+          "Un contorno irregolare",
+          "Danno"
+        ],
+        "paragraphsAfter": [
+          "La posizione e l’entità della variazione contano più della sola ampiezza della gamma verbale."
+        ]
+      },
+      {
+        "id": "can-one-small-area-determine-the-minimum-description",
+        "title": "Può una piccola area determinare la descrizione minima?",
+        "paragraphsBefore": [
+          "Un'area limitata può influenzare il minimo riportato, sebbene la metodologia di laboratorio consideri anche le caratteristiche di interruzione della cintura.",
+          "GIA spiega che caratteristiche come una sfaccettatura naturale, cavità, scheggiatura o extra possono restringere la cintura localmente. La cintura rimanente e l’eventuale vera area a filo di coltello devono essere valutate secondo la metodologia del laboratorio.",
+          "Pertanto, non dare per scontato che un rapporto che indica Molto sottile significhi che l'intera cintura è molto sottile."
+        ]
+      }
+    ]
+  },
+  "percentages": {
+    "id": "diamond-girdle-percentages",
+    "title": "Percentuale della cintura di diamanti",
+    "introParagraphs": [
+      "Per un brillante rotondo, lo spessore della cintura può essere espresso in relazione al diametro medio della cintura del diamante.",
+      "La formula di supporto è:",
+      "Percentuale di spessore della cintura = spessore della cintura ÷ diametro medio della cintura × 100",
+      "GIA distingue tra due valutazioni correlate:"
+    ],
+    "bullets": [
+      "Spessore medio misurato nelle otto posizioni collinari principali della cornice e del padiglione",
+      "Spessore minimo e massimo valutati visivamente nelle posizioni della valle più sottile"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA riporta la percentuale media di posizione in collina con lo 0,5% più vicino. L'intervallo verbale si basa sulle rispettive aree di valle minima e massima."
+        },
+        {
+          "type": "link",
+          "text": "Guida all'anatomia Round Brilliant del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "spiega la differenza."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-are-hill-and-valley-positions",
+        "title": "Quali sono le posizioni di collina e valle?",
+        "paragraphsBefore": [
+          "Un diamante taglio brillante ha una cintura smerlata.",
+          "Le posizioni in collina sono aree più spesse in cui si incontrano le sfaccettature della lunetta e le sfaccettature del padiglione principale.",
+          "Le posizioni delle valli sono aree più sottili associate alle giunzioni delle faccette della metà superiore e inferiore.",
+          "Poiché queste posizioni misurano parti diverse della cintura, una percentuale media non deve essere trattata come una traduzione diretta dell'intervallo verbale dal minimo al massimo."
+        ]
+      },
+      {
+        "id": "can-buyers-convert-gia-percentages-into-exact-verbal-grades",
+        "title": "Gli acquirenti possono convertire le percentuali GIA in voti verbali esatti?",
+        "paragraphsBefore": [
+          "Non in modo affidabile.",
+          "Il GIA afferma che:"
+        ],
+        "bullets": [
+          "Gli esempi percentuali pubblicati sono approssimativi",
+          "Le misurazioni estremamente precise sono influenzate dalla tolleranza dello strumento",
+          "Le caratteristiche di chiarezza possono interferire con la misurazione",
+          "La cintura può essere irregolare",
+          "La cintura potrebbe non essere perpendicolare al tavolo",
+          "Resta necessaria la verifica visiva"
+        ],
+        "paragraphsAfter": [
+          "Per questo motivo, utilizzare la descrizione fornita dal laboratorio anziché applicare una tabella di conversione creata dallo stesso."
+        ]
+      },
+      {
+        "id": "does-a-higher-percentage-always-mean-a-worse-diamond",
+        "title": "Una percentuale più alta significa sempre un diamante peggiore?",
+        "paragraphsBefore": [
+          "NO.",
+          "Una percentuale di cintura più alta indica uno spessore maggiore, non una qualità del diamante completa.",
+          "Il suo effetto deve essere valutato insieme a:"
+        ],
+        "bullets": [
+          "Altezza della corona",
+          "Profondità del padiglione",
+          "Profondità totale",
+          "Dimensioni del tavolo",
+          "Dimensioni a faccia in su",
+          "Grado di taglio",
+          "Simmetria",
+          "Forma",
+          "Distribuzione del peso",
+          "Prezzo"
+        ]
+      }
+    ]
+  },
+  "hrdMeasurements": {
+    "id": "hrd-antwerp-girdle-measurements",
+    "title": "Misurazioni della cintura HRD Anversa",
+    "introParagraphs": [
+      "HRD Anversa riporta comunemente la cintura utilizzando una descrizione verbale, una percentuale e una finitura.",
+      "Secondo le linee guida di gennaio 2025, HRD utilizza i seguenti intervalli descrittivi:"
+    ],
+    "table": {
+      "caption": "Gamme descrittive della cintura HRD Anversa",
+      "headers": [
+        "Descrizione dell'HRD",
+        "Valore misurato della cintura"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "0,0%–0,5%"
+        ],
+        [
+          "Molto sottile",
+          "1,0%–1,5%"
+        ],
+        [
+          "Magro",
+          "2,0%–2,5%"
+        ],
+        [
+          "Medium",
+          "3,0%–5,0%"
+        ],
+        [
+          "Spesso",
+          "5,5%–6,0%"
+        ],
+        [
+          "Very Thick",
+          "6,5%–7,5%"
+        ],
+        [
+          "Extremely Thick",
+          "8,0% e oltre"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "HRD valuta separatamente il modo in cui la percentuale contribuisce al grado delle proporzioni del brillante rotondo:"
+    ],
+    "proportionsTable": {
+      "caption": "Categorie di percentuale e proporzioni della cintura HRD",
+      "headers": [
+        "Percentuale della cintura HRD",
+        "Categoria delle proporzioni relative alla cintura"
+      ],
+      "rows": [
+        [
+          "2,5%–4,5%",
+          "Excellent"
+        ],
+        [
+          "2,0% o 5,0%–6,5%",
+          "Very Good"
+        ],
+        [
+          "1,0%–1,5% o 7,0%–8,5%",
+          "Good"
+        ],
+        [
+          "Fino allo 0,5% o 9,0% e oltre",
+          "Fair"
+        ]
+      ]
+    },
+    "finalParagraphs": [
+      "Queste classificazioni descrivono il contributo della cintura alla valutazione delle proporzioni di HRD. Non determinano da soli il voto completo.",
+      "HRD considera anche l'angolo della corona, l'angolo del padiglione, la larghezza del tavolo, l'altezza della corona, la profondità del padiglione, la profondità totale, il culet, la lucidatura, la simmetria e altri effetti osservabili. La metodologia completa appare nel grafico dei livelli di taglio HRD Anversa 2025."
+    ],
+    "subsections": [
+      {
+        "id": "why-is-hrd-relevant-to-european-buyers",
+        "title": "Perché le risorse umane sono importanti per gli acquirenti europei?",
+        "paragraphsBefore": [
+          "I resoconti di HRD Anversa si incontrano spesso in Belgio e nel più ampio mercato europeo dei diamanti.",
+          "Gli acquirenti devono riconoscere che:"
+        ],
+        "bullets": [
+          "I formati dei report GIA e HRD differiscono",
+          "I loro confini descrittivi differiscono",
+          "Le loro strutture di taglio differiscono",
+          "La gamma verbale del GIA non è un equivalente matematico diretto della percentuale di HRD",
+          "Il rapporto completo deve essere interpretato in base al laboratorio emittente"
+        ]
+      }
+    ]
+  },
+  "giaVsHrd": {
+    "id": "gia-versus-hrd-girdle-reporting",
+    "title": "Reporting GIA contro cintura HRD",
+    "introParagraphs": [],
+    "table": {
+      "caption": "GIA contro la segnalazione della cintura HRD di Anversa",
+      "headers": [
+        "Caratteristica",
+        "GIA",
+        "HRD Antwerp"
+      ],
+      "rows": [
+        [
+          "Approccio di reporting primario",
+          "Intervallo verbale dal minimo al massimo supportato da misurazioni proporzionali",
+          "Percentuale e descrizione verbale"
+        ],
+        [
+          "Scala di spessore",
+          "Da Estremamente sottile a Estremamente spesso, compreso Leggermente spesso",
+          "Da estremamente sottile a estremamente spesso"
+        ],
+        [
+          "Categoria Leggermente Spessa",
+          "SÌ",
+          "Non mostrato come categoria separata nel grafico di gennaio 2025"
+        ],
+        [
+          "Metodologia percentuale",
+          "Percentuale media di posizione collinare più valutazione visiva della valle",
+          "Parametro proporzionale basato sulla percentuale"
+        ],
+        [
+          "Struttura di qualità tagliata",
+          "Grado di taglio complessivo per i brillanti rotondi standard qualificanti",
+          "Categorie di proporzioni, lucidatura e simmetria"
+        ],
+        [
+          "Finitura cintura",
+          "Può essere sfaccettato, lucido o grezzo",
+          "Può indicare la finitura sfaccettata, lucida o un'altra finitura applicabile"
+        ],
+        [
+          "Approccio dell'acquirente",
+          "Leggi la gamma completa, la percentuale media, la finitura e il rapporto complessivo",
+          "Leggi la percentuale, la descrizione, il voto delle proporzioni e il report completo"
+        ]
+      ]
+    },
+    "closingParagraphs": [],
+    "subsections": [
+      {
+        "id": "can-gia-and-hrd-grades-be-converted-directly",
+        "title": "I gradi GIA e HRD possono essere convertiti direttamente?",
+        "paragraphsBefore": [
+          "NO.",
+          "Non dare per scontato:"
+        ],
+        "bullets": [
+          "GIA Medium equivale sempre a una percentuale HRD",
+          "GIA Leggermente spesso è sempre uguale a HRD Medio o Spesso",
+          "GIA Very Thin ha sempre la stessa implicazione di taglio di una percentuale HRD",
+          "Percentuali identiche garantiscono qualità di taglio complessive identiche",
+          "Una descrizione verbale ha gli stessi confini tra i laboratori"
+        ],
+        "paragraphsAfter": [
+          "Trattare ogni report secondo la metodologia pubblicata dal laboratorio emittente."
+        ]
+      }
+    ]
+  },
+  "bestThickness": {
+    "id": "best-girdle-thickness-for-a-diamond",
+    "title": "Qual è il miglior spessore della cintura per un diamante?",
+    "introParagraphs": [
+      "Non esiste un'unica descrizione della cintura migliore per ogni diamante naturale.",
+      "Per molti diamanti brillanti rotondi moderni, le seguenti descrizioni sono comunemente pratiche:"
+    ],
+    "bullets": [
+      "Magro",
+      "Medium",
+      "Slightly Thick",
+      "Da sottile a medio",
+      "Da medio a leggermente spesso",
+      "Da sottile a leggermente spesso"
+    ],
+    "closingParagraphs": [
+      "Queste gamme spesso forniscono un ragionevole equilibrio tra durata ed efficienza del peso.",
+      "Tuttavia, la decisione corretta dipende ancora da:"
+    ],
+    "dependBullets": [
+      "Grado di taglio completo",
+      "Diametro rivolto verso l'alto",
+      "Profondità totale",
+      "Forma",
+      "Spessore minimo",
+      "Spessore massimo",
+      "Posizione della variazione",
+      "Danno esistente",
+      "Collocamento",
+      "Prezzo"
+    ],
+    "subsections": [
+      {
+        "id": "is-medium-the-best-girdle-grade",
+        "title": "Medium è il miglior grado di cintura?",
+        "paragraphsBefore": [
+          "Medio è spesso considerato un risultato equilibrato, ma non è automaticamente migliore di Sottile o Leggermente grosso.",
+          "Un diamante con una cintura da sottile a media può sovraperformare o offrire un valore migliore rispetto a un diamante con una cintura media uniforme."
+        ]
+      },
+      {
+        "id": "can-slightly-thick-be-excellent",
+        "title": "Leggermente spesso può essere eccellente?",
+        "paragraphsBefore": [
+          "SÌ.",
+          "Un'area leggermente spessa può essere compatibile con un diamante attraente e ben tagliato. La valutazione complessiva dipende dal set completo di proporzioni e dalle prestazioni visive."
+        ]
+      },
+      {
+        "id": "can-thick-be-acceptable",
+        "title": "Lo spessore può essere accettabile?",
+        "paragraphsBefore": [
+          "SÌ.",
+          "Una cintura spessa può essere accettabile quando:"
+        ],
+        "bullets": [
+          "Le dimensioni a faccia in su rimangono appropriate",
+          "La profondità totale non è eccessiva",
+          "Il diamante si comporta in modo attraente",
+          "Lo spessore è localizzato",
+          "La forma beneficia di materiale aggiuntivo nelle aree vulnerabili",
+          "Il prezzo riflette il diamante completo"
+        ]
+      },
+      {
+        "id": "should-buyers-reject-every-very-thin-or-very-thick-range",
+        "title": "Gli acquirenti dovrebbero rifiutare ogni gamma molto sottile o molto spessa?",
+        "paragraphsBefore": [
+          "NO.",
+          "Entrambi meritano un esame più attento, ma nessuno dei due dovrebbe essere rifiutato utilizzando solo l'etichetta del report."
+        ]
+      }
+    ]
+  },
+  "thinGirdles": {
+    "id": "thin-and-extremely-thin-girdles",
+    "title": "Cinture sottili, molto sottili ed estremamente sottili",
+    "introParagraphs": [
+      "Una cintura sottile contiene meno materiale tra la corona e il padiglione."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-thin-girdle-dangerous",
+        "title": "Una cintura sottile è pericolosa?",
+        "paragraphsBefore": [
+          "Non automaticamente.",
+          "Sottile è una descrizione di classificazione riconosciuta ed è comune nei diamanti commerciabili. La preoccupazione aumenta quando la cintura diventa:"
+        ],
+        "bullets": [
+          "Ampiamente molto sottile",
+          "Extremely Thin",
+          "A coltello",
+          "Molto sottile in un angolo o in un punto",
+          "Molto sottile accanto ad una grande piuma",
+          "Già scheggiato o abraso",
+          "Esposto dall'ambientazione",
+          "Sottoposto a pressione durante l'impostazione o la riparazione"
+        ]
+      },
+      {
+        "id": "why-can-a-thin-girdle-chip",
+        "title": "Perché una cintura sottile può scheggiarsi?",
+        "paragraphsBefore": [
+          "Il diamante è altamente resistente ai graffi, ma non è impossibile che si scheggi.",
+          "Un bordo sottile contiene meno materiale per assorbire o distribuire un impatto. GIA avverte che le aree molto sottili, in particolare negli angoli e nei punti di forme fantasiose, presentano un rischio maggiore di danni."
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "does-very-thin-mean-the-diamond-is-already-damaged",
+        "title": "Molto sottile significa che il diamante è già danneggiato?",
+        "paragraphsBefore": [
+          "NO.",
+          "Molto sottile descrive lo spessore. Ciò non significa automaticamente che sia presente una scheggiatura, una cavità o una frattura.",
+          "È necessario verificare le condizioni effettive."
+        ]
+      },
+      {
+        "id": "is-a-localised-very-thin-area-acceptable",
+        "title": "È accettabile un'area localizzata molto sottile?",
+        "paragraphsBefore": [
+          "Potrebbe essere.",
+          "Considerare:"
+        ],
+        "bullets": [
+          "Posizione esatta",
+          "Lunghezza della sezione sottile",
+          "Caratteristiche di chiarezza vicine",
+          "Forma di diamante",
+          "Progettazione dell'ambientazione",
+          "Condizione di impostazione",
+          "Usura prevista",
+          "Requisiti assicurativi",
+          "Prezzo"
+        ],
+        "paragraphsAfter": [
+          "Una piccola area molto sottile protetta da un'incastonatura adeguata può presentare un rischio diverso da quello di un filo di coltello esposto che corre attorno a una parte sostanziale del diamante."
+        ]
+      },
+      {
+        "id": "can-an-extremely-thin-girdle-receive-a-high-cut-grade",
+        "title": "Può una cintura estremamente sottile ricevere un grado di taglio elevato?",
+        "paragraphsBefore": [
+          "Lo spessore della cintura è uno dei numerosi fattori nella valutazione del taglio. Una cintura insolitamente sottile può limitare la qualità del brillante rotondo a causa del rischio di durabilità, anche quando altre proporzioni sono attraenti.",
+          "Non dedurre il voto finale solo dallo spessore. Leggere il voto riportato sul rapporto di laboratorio."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La guida del GIA sulla protezione dei diamanti dalla scheggiatura spiega le principali aree di rischio. Vedere"
+        },
+        {
+          "type": "link",
+          "text": "La guida della GIA sulla cura dei diamanti",
+          "href": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "thickGirdles": {
+    "id": "thick-and-extremely-thick-girdles",
+    "title": "Cinture spesse, molto spesse ed estremamente spesse",
+    "introParagraphs": [
+      "Una cintura spessa trattiene più materiale attorno al perimetro del diamante."
+    ],
+    "subsections": [
+      {
+        "id": "why-can-a-thick-girdle-be-undesirable",
+        "title": "Perché una cintura spessa può essere indesiderabile?",
+        "paragraphsBefore": [
+          "Una cintura spessa può aggiungere peso in carati senza produrre un aumento equivalente delle dimensioni a faccia in su.",
+          "Due diamanti possono avere lo stesso peso in carati ma dimensioni visibili diverse perché uno ha un peso maggiore in:"
+        ],
+        "bullets": [
+          "La cintura",
+          "Rigonfiamento del padiglione",
+          "Profondità totale",
+          "Una corona alta",
+          "Altre aree non visibili"
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-make-a-diamond-look-smaller",
+        "title": "Una cintura spessa fa sembrare un diamante più piccolo?",
+        "paragraphsBefore": [
+          "Può.",
+          "Se una parte sostanziale del peso del diamante è concentrata nella cintura, le misurazioni del diametro a faccia in su o della lunghezza e larghezza potrebbero essere inferiori a quelle di un diamante proporzionato in modo più efficiente dello stesso peso.",
+          "Questo è il motivo per cui gli acquirenti devono confrontare le misurazioni millimetriche effettive anziché fare affidamento solo sul peso in carati."
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-reduce-sparkle",
+        "title": "Una cintura spessa riduce la brillantezza?",
+        "paragraphsBefore": [
+          "Non automaticamente.",
+          "Lo spessore della cintura influisce principalmente:"
+        ],
+        "bullets": [
+          "Rapporto peso",
+          "Profondità totale",
+          "Dimensioni a faccia in su",
+          "Durabilità",
+          "Collocamento"
+        ],
+        "paragraphsAfter": [
+          "La luminosità, il fuoco e la scintillazione del diamante dipendono dalla relazione completa tra la corona, il padiglione, la tavola, il modello di sfaccettatura e l’ambiente di visione.",
+          "Una cintura eccessivamente spessa può accompagnare una cattiva distribuzione del peso, ma l'etichetta della cintura da sola non determina la brillantezza."
+        ]
+      },
+      {
+        "id": "is-a-very-thick-girdle-more-durable",
+        "title": "Una cintura molto spessa è più durevole?",
+        "paragraphsBefore": [
+          "Può fornire più materiale sul bordo, ma non rende il diamante resistente ai danni.",
+          "I danni possono ancora verificarsi attraverso:"
+        ],
+        "bullets": [
+          "Impatto grave",
+          "Inclusioni vicino alla cintura",
+          "Angoli esposti",
+          "Impostazione della pressione",
+          "Chip esistenti",
+          "Gioielli mal montati",
+          "Contatto tra diamanti",
+          "Lavori di riparazione imprudenti"
+        ]
+      },
+      {
+        "id": "can-thickness-be-useful-at-a-fancy-shape-point",
+        "title": "Lo spessore può essere utile in un punto dalla forma fantasia?",
+        "paragraphsBefore": [
+          "SÌ.",
+          "Materiale aggiuntivo vicino alla punta di una pera, di una marchesa o di un diamante con angoli può aiutare a evitare un bordo del coltello estremamente vulnerabile. Tuttavia, un rigonfiamento eccessivo o uno spessore non necessario possono comunque mantenere il peso.",
+          "Dovrebbero essere esaminati lo schema completo e l'ambientazione."
+        ]
+      }
+    ]
+  },
+  "uneven": {
+    "id": "uneven-and-varying-girdles",
+    "title": "Cinture diamantate irregolari e variabili",
+    "introParagraphs": [
+      "La cintura di un diamante raramente è perfettamente uniforme.",
+      "La variazione normale si verifica perché le cinture in stile brillante sono smerlate e perché le forme fantasiose richiedono diverse disposizioni delle sfaccettature attorno ai loro contorni."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-variation-become-important",
+        "title": "Quando la variazione diventa importante?",
+        "paragraphsBefore": [
+          "La variazione merita maggiore attenzione quando produce:"
+        ],
+        "bullets": [
+          "Aree estremamente sottili e molto spesse sullo stesso diamante",
+          "Cambiamenti improvvisi piuttosto che transizioni graduali",
+          "Un contorno irregolare a faccia in su",
+          "Angoli o spalle disuguali",
+          "Un piano di cintura inclinato",
+          "Un aspetto a forma di cono",
+          "Sfaccettature della corona e del padiglione disallineate",
+          "Impostazione delle difficoltà",
+          "Peso nascosto significativo",
+          "Preoccupazioni sulla durabilità",
+          "Problemi visibili di simmetria"
+        ]
+      },
+      {
+        "id": "does-uneven-thickness-affect-symmetry",
+        "title": "Lo spessore irregolare influisce sulla simmetria?",
+        "paragraphsBefore": [
+          "Può.",
+          "Il GIA considera la variazione dello spessore della cintura quando valuta la simmetria e quando valuta la pittura o lo scavo. HRD elenca anche la deviazione nello spessore massimo e minimo della cintura tra le considerazioni sulla simmetria visiva.",
+          "Un intervallo da solo non stabilisce il grado di simmetria. Leggere il risultato di simmetria riportato dal laboratorio."
+        ]
+      },
+      {
+        "id": "what-is-a-wavy-girdle",
+        "title": "Cos'è una cintura ondulata?",
+        "paragraphsBefore": [
+          "Cintura ondulata è un'espressione informale che può descrivere cambiamenti visibili nel livello o nello spessore della cintura.",
+          "Le possibili cause includono:"
+        ],
+        "bullets": [
+          "Posizionamento sfaccettato irregolare",
+          "Disallineamento corona-padiglione",
+          "Cintura inclinata",
+          "Variazione di taglio",
+          "Design specifico per la forma",
+          "Danni o riparazioni"
+        ],
+        "paragraphsAfter": [
+          "Il termine non sostituisce la descrizione di un laboratorio."
+        ]
+      },
+      {
+        "id": "what-is-a-sloping-girdle",
+        "title": "Cos'è una cintura inclinata?",
+        "paragraphsBefore": [
+          "Una cintura inclinata si verifica quando il piano della cintura non è a livello rispetto al tavolo o all’asse previsto del diamante.",
+          "Può influenzare:"
+        ],
+        "bullets": [
+          "Profilo laterale",
+          "Distribuzione dell'altezza della corona",
+          "Distribuzione della profondità del padiglione",
+          "Simmetria",
+          "Posizione di impostazione",
+          "Bilancia a faccia in su"
+        ]
+      }
+    ]
+  },
+  "finish": {
+    "id": "faceted-polished-and-bruted-girdles",
+    "title": "Cinture di diamanti sfaccettati, lucidati e bruti",
+    "introParagraphs": [
+      "Lo spessore e la finitura della cintura sono caratteristiche separate."
+    ],
+    "table": {
+      "caption": "Tipi di finitura della cintura",
+      "headers": [
+        "Fine",
+        "Aspetto generale",
+        "Implicazione dell'acquirente"
+      ],
+      "rows": [
+        [
+          "Faceted",
+          "Serie di piccole superfici lucide attorno alla cintura",
+          "Comune nei diamanti moderni; esaminare la consistenza delle faccette e l'iscrizione"
+        ],
+        [
+          "Polished",
+          "Fascia liscia e lucida senza sfaccettature della cintura visibili separatamente",
+          "Può essere completamente accettabile"
+        ],
+        [
+          "Bruted",
+          "Superficie smerigliata o granulare creata durante la modellatura",
+          "Comune nei diamanti più antichi e in alcuni moderni; non automaticamente un difetto"
+        ],
+        [
+          "Parzialmente sfaccettato",
+          "Solo una parte della cintura è stata sfaccettata",
+          "Può essere intenzionale, riparato o preso in considerazione durante la valutazione della simmetria"
+        ],
+        [
+          "Barbuto",
+          "Fini tratti simili a piume si estendono dalla cintura alla pietra",
+          "Una considerazione di chiarezza e condizione, non una categoria di finitura ordinaria"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Il GIA afferma che lo spessore della cintura viene valutato utilizzando lo stesso metodo di spessore, indipendentemente dal fatto che la cintura sia sgrossata, lucidata o sfaccettata."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-faceted-girdle-better",
+        "title": "È meglio una cintura sfaccettata?",
+        "paragraphsBefore": [
+          "Non automaticamente.",
+          "Una cintura sfaccettata può offrire:"
+        ],
+        "bullets": [
+          "Una finitura moderna e raffinata",
+          "Piccole superfici più chiare per l'esame",
+          "Un'area adatta per l'iscrizione laser",
+          "Aspetto visivo più coerente"
+        ],
+        "paragraphsAfter": [
+          "Tuttavia non garantisce:",
+          "Meglio tagliare",
+          "Migliore simmetria",
+          "Meglio lucidare",
+          "Maggiore durata",
+          "Origine naturale",
+          "Valore più alto"
+        ]
+      },
+      {
+        "id": "is-a-bruted-girdle-bad",
+        "title": "Una cintura brutale è cattiva?",
+        "paragraphsBefore": [
+          "NO.",
+          "Una cintura brutale può essere del tutto legittima. Può anche essere caratteristico di alcuni periodi di taglio più antichi.",
+          "Ispezionalo per:"
+        ],
+        "bullets": [
+          "Rugosità eccessiva",
+          "Barba",
+          "Patatine",
+          "Abrasione",
+          "Spessore irregolare",
+          "Modifica successiva",
+          "Compatibilità con l'età dichiarata di un diamante antico"
+        ],
+        "paragraphsAfter": [
+          "Una cintura sfaccettata su un vecchio diamante può rappresentare una successiva rilucidatura piuttosto che la condizione originale del diamante. Il GIA ha documentato diamanti antichi le cui cinture originali brutate furono successivamente sfaccettate."
+        ]
+      },
+      {
+        "id": "what-does-partly-faceted-mean",
+        "title": "Cosa significa parzialmente sfaccettato?",
+        "paragraphsBefore": [
+          "Significa che solo una parte della cintura è stata divisa in sfaccettature lucide.",
+          "Le possibili spiegazioni includono:"
+        ],
+        "bullets": [
+          "Sfaccettatura incompleta",
+          "Rilucidatura localizzata",
+          "Conservazione del peso",
+          "Rimozione del danno",
+          "Riparazione successiva",
+          "Stile di taglio originale"
+        ],
+        "paragraphsAfter": [
+          "L'acquirente dovrebbe confrontare il diamante attuale con la sua relazione e l'eventuale documentazione storica."
+        ]
+      }
+    ]
+  },
+  "paintingDigging": {
+    "id": "painting-and-digging-out",
+    "title": "Dipingere e scavare",
+    "introParagraphs": [
+      "Dipingere e scavare sono tecniche di taglio che alterano il rapporto tra le faccette della metà superiore e inferiore e la cintura."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-painting",
+        "title": "Cos'è la pittura?",
+        "paragraphsBefore": [
+          "Durante la verniciatura, la taglierina inclina le sfaccettature della metà superiore o inferiore verso le sfaccettature della lunetta o le parti principali del padiglione.",
+          "Ciò cambia lo spessore relativo tra:"
+        ],
+        "bullets": [
+          "Posizioni di collina lunetta e principale",
+          "Posizioni di giunzione della metà superiore e inferiore"
+        ],
+        "paragraphsAfter": [
+          "La cintura può apparire più fortemente smerlata in una direzione particolare."
+        ]
+      },
+      {
+        "id": "what-is-digging-out",
+        "title": "Cosa sta scavando?",
+        "paragraphsBefore": [
+          "Scavare è la relazione opposta.",
+          "Le faccette della metà superiore o inferiore sono inclinate lontano dalle cornici o dalle condutture del padiglione e l'una verso l'altra. Ciò rende la cintura più sottile in corrispondenza delle giunzioni delle semi-sfaccettature rispetto alle posizioni della lunetta e del corpo principale."
+        ]
+      },
+      {
+        "id": "why-are-these-techniques-used",
+        "title": "Perché vengono utilizzate queste tecniche?",
+        "paragraphsBefore": [
+          "I possibili motivi includono:"
+        ],
+        "bullets": [
+          "Mantenimento del peso in carati",
+          "Raggiungere una soglia di peso commerciale",
+          "Rimozione di una caratteristica di chiarezza vicino alla cintura",
+          "Regolazione del posizionamento delle faccette",
+          "Preservare la resa del diamante grezzo"
+        ]
+      },
+      {
+        "id": "are-painting-and-digging-always-bad",
+        "title": "Dipingere e scavare è sempre una cosa negativa?",
+        "paragraphsBefore": [
+          "NO.",
+          "Può essere presente una variazione minima senza creare un problema visivo significativo.",
+          "Man mano che dipingere o scavare diventa più forte, può influenzare:"
+        ],
+        "bullets": [
+          "Luminosità a faccia in su",
+          "Motivo a contrasto",
+          "Definizione delle faccette",
+          "Distribuzione del peso",
+          "Grado di taglio complessivo"
+        ],
+        "paragraphsAfter": [
+          "GIA calcola l'entità di queste caratteristiche utilizzando la misurazione tridimensionale e incorpora effetti sufficientemente forti nella sua valutazione del taglio. Il libretto di finitura e cintura del GIA fornisce diagrammi di entrambe le tecniche."
+        ]
+      },
+      {
+        "id": "can-buyers-identify-painting-from-a-photograph",
+        "title": "Gli acquirenti possono identificare un dipinto da una fotografia?",
+        "paragraphsBefore": [
+          "Non in modo affidabile.",
+          "L'imaging controllato può suggerire un'insolita smerlatura della cintura, ma una valutazione accurata richiede:"
+        ],
+        "bullets": [
+          "Orientamento corretto",
+          "Viste laterali e rivolte verso l'alto",
+          "Ingrandimento",
+          "Analisi delle sfaccettature",
+          "Illuminazione adeguata",
+          "Misurazione tridimensionale ove necessario"
+        ],
+        "paragraphsAfter": [
+          "Non diagnosticare la pittura o lo scavo da un fotogramma video rotante."
+        ]
+      }
+    ]
+  },
+  "damage": {
+    "id": "girdle-damage-and-clarity-characteristics",
+    "title": "Danni alla cintura e caratteristiche di chiarezza",
+    "introParagraphs": [
+      "Lo spessore della cintura non descrive la condizione completa del bordo.",
+      "La cintura può contenere o intersecarsi con:"
+    ],
+    "bullets": [
+      "Chip",
+      "Abrasione",
+      "Cavità",
+      "Naturale",
+      "Naturale rientrato",
+      "Barba",
+      "Piuma",
+      "Ammaccare",
+      "Aspetto extra",
+      "Marchio di lucidatura",
+      "Iscrizione laser",
+      "Riparazione o rilucidatura"
+    ],
+    "table": {
+      "caption": "Confronto delle caratteristiche della cintura",
+      "headers": [
+        "Caratteristica",
+        "Senso",
+        "Principale preoccupazione dell'acquirente"
+      ],
+      "rows": [
+        [
+          "Chip",
+          "Materiale mancante accidentalmente",
+          "Condizioni, ulteriori danni, ritaglio e segnalazione di mancata corrispondenza"
+        ],
+        [
+          "Abrasione",
+          "Bordo usurato o irruvidito, spesso con piccole scheggiature",
+          "Protezione dall'usura, dai contatti precedenti e dall'impostazione"
+        ],
+        [
+          "Cavità",
+          "Apertura angolare creata quando il materiale viene rimosso o cade",
+          "Dimensioni, posizione, ritenzione dello sporco e durata"
+        ],
+        [
+          "Naturale",
+          "Parte della superficie ruvida originale mantenuta durante il taglio",
+          "Forma, spessore e se influisce sull'aspetto o sull'impostazione"
+        ],
+        [
+          "Naturale rientrato",
+          "Superficie ruvida originale che si estende al di sotto del contorno lucidato previsto",
+          "Profondità, durata e ritenzione del peso"
+        ],
+        [
+          "Cintura barbuta",
+          "Fini tratti simili a piume che si estendono verso l'interno dalla cintura",
+          "Chiarezza, estensione e condizione strutturale"
+        ],
+        [
+          "Piuma",
+          "Separazione interna che può raggiungere la cintura",
+          "Dimensioni, orientamento, apertura e pressione di regolazione"
+        ],
+        [
+          "Ammaccare",
+          "Area di impatto associata a piccole piume",
+          "Danni esistenti e rischi ulteriori"
+        ],
+        [
+          "Aspetto extra",
+          "Ulteriore sfaccettatura lucida fuori dalla disposizione standard",
+          "Simmetria, spessore e possibile cronologia delle riparazioni"
+        ],
+        [
+          "Iscrizione laser",
+          "Testo o numeri applicati alla cintura",
+          "Identificazione e corrispondenza dei report"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Il riferimento alle inclusioni di diamanti del GIA distingue cinture barbute, cavità, scheggiature, ammaccature e altre caratteristiche di chiarezza. Vedere"
+        },
+        {
+          "type": "link",
+          "text": "La guida alla chiarezza della GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-a-natural-the-same-as-damage",
+        "title": "Un Naturale è la stessa cosa del Danno?",
+        "paragraphsBefore": [
+          "NO.",
+          "Viene mantenuta una superficie naturale diamantata grezza. Non è necessariamente un danno.",
+          "Il suo significato dipende da:"
+        ],
+        "bullets": [
+          "Misurare",
+          "Profondità",
+          "Posizione",
+          "Visibilità",
+          "Se interrompe il contorno",
+          "Se rende la cintura eccessivamente sottile",
+          "Se influisce sull'impostazione",
+          "Valutazione di laboratorio",
+          "Prezzo"
+        ]
+      },
+      {
+        "id": "is-an-indented-natural-worse",
+        "title": "Un rientro naturale è peggiore?",
+        "paragraphsBefore": [
+          "Un naturale dentellato si estende sotto la superficie lucida prevista.",
+          "In genere merita più attenzione di una naturale superficiale perché può influenzare:"
+        ],
+        "bullets": [
+          "Contorno",
+          "Peso",
+          "Chiarezza",
+          "Collocamento",
+          "Durabilità",
+          "Pulizia"
+        ],
+        "paragraphsAfter": [
+          "Non è automaticamente inaccettabile."
+        ]
+      },
+      {
+        "id": "what-is-a-bearded-girdle",
+        "title": "Cos'è una cintura barbuta?",
+        "paragraphsBefore": [
+          "Una cintura barbuta contiene piccolissime caratteristiche simili a piume che si estendono dalla superficie della cintura fino al diamante.",
+          "La barba può derivare da bruting aggressivo o altro stress da taglio.",
+          "Il suo significato dipende da:"
+        ],
+        "bullets": [
+          "Densità",
+          "Profondità",
+          "Visibilità",
+          "Distribuzione",
+          "Effetto sulla chiarezza",
+          "Se forma un bordo grigio o sfocato",
+          "Vicinanza ad altre inclusioni"
+        ]
+      },
+      {
+        "id": "can-girdle-damage-occur-after-grading",
+        "title": "Possono verificarsi danni alla cintura dopo la classificazione?",
+        "paragraphsBefore": [
+          "SÌ.",
+          "Le possibili cause includono:"
+        ],
+        "bullets": [
+          "Collocamento",
+          "Ridimensionamento o riparazione di gioielli",
+          "Impatto grave",
+          "Una pietra sciolta che si muove nel suo ambiente",
+          "Contatto con un altro diamante",
+          "Lasciare cadere il diamante sciolto",
+          "Conservazione impropria",
+          "Abrasione ripetuta",
+          "Pulizia o manipolazione imprudente"
+        ],
+        "paragraphsAfter": [
+          "Se la condizione attuale differisce dalla relazione, potrebbe essere necessario un riesame professionale."
+        ]
+      }
+    ]
+  },
+  "inscriptions": {
+    "id": "laser-inscriptions-on-the-girdle",
+    "title": "Iscrizioni laser sulla cintura di diamanti",
+    "introParagraphs": [
+      "Un numero del rapporto di laboratorio, un marchio, un simbolo o un messaggio possono essere incisi al laser sulla cintura."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-the-purpose-of-a-girdle-inscription",
+        "title": "Qual è lo scopo di un'iscrizione sulla cintura?",
+        "paragraphsBefore": [
+          "Può aiutare:"
+        ],
+        "bullets": [
+          "Abbina un diamante al suo rapporto di valutazione",
+          "Identificare il numero del rapporto del laboratorio emittente",
+          "Distinguere un diamante da pietre simili",
+          "Supportare il controllo dell'inventario",
+          "Assistere la verifica futura",
+          "Registra un marchio o un messaggio personale"
+        ],
+        "paragraphsAfter": [
+          "GIA spiega che l'iscrizione con il numero di rapporto può essere visualizzata sotto ingrandimento e controllata attraverso il suo sistema di verifica del rapporto."
+        ]
+      },
+      {
+        "id": "does-every-diamond-have-an-inscription",
+        "title": "Ogni diamante ha un'iscrizione?",
+        "paragraphsBefore": [
+          "NO.",
+          "Un diamante naturale può essere:"
+        ],
+        "bullets": [
+          "Inscritto con il suo numero di rapporto",
+          "Inscritto con un marchio",
+          "Iscritto con più segni",
+          "Non iscritto",
+          "Inscritto in un'area nascosta dall'ambientazione",
+          "Rilucidato dopo l'iscrizione",
+          "Troppo piccolo o posizionato in modo da rendere difficile l'ispezione"
+        ]
+      },
+      {
+        "id": "does-an-inscription-prove-the-diamond-matches-the-report",
+        "title": "Un'iscrizione dimostra che il diamante corrisponde al rapporto?",
+        "paragraphsBefore": [
+          "Non da solo.",
+          "Una partita completa dovrebbe considerare:"
+        ],
+        "bullets": [
+          "Numero del rapporto",
+          "Stile di iscrizione",
+          "Misure",
+          "Peso in carati",
+          "Forma",
+          "Trama chiara",
+          "Inclusioni",
+          "Polacco",
+          "Simmetria",
+          "Fluorescenza",
+          "Ispezione professionale"
+        ],
+        "paragraphsAfter": [
+          "Un'iscrizione dovrebbe essere trattata come un elemento identificativo e non come l'intero processo di verifica."
+        ]
+      },
+      {
+        "id": "can-an-inscription-be-removed",
+        "title": "È possibile rimuovere un'iscrizione?",
+        "paragraphsBefore": [
+          "Può essere ridotto o rimosso rilucidando la cintura.",
+          "Se manca un'iscrizione prevista, le possibili spiegazioni includono:"
+        ],
+        "bullets": [
+          "L'area ispezionata non è corretta",
+          "L'iscrizione è nascosta da una punta",
+          "L'iscrizione è sporca",
+          "L'ingrandimento o l'illuminazione sono inadeguati",
+          "La cintura è stata rilucidata",
+          "L'iscrizione non è mai stata applicata",
+          "Il diamante non corrisponde al rapporto"
+        ],
+        "paragraphsAfter": [
+          "Investigare prima di giungere ad una conclusione."
+        ]
+      },
+      {
+        "id": "can-an-inscription-affect-clarity",
+        "title": "Un'iscrizione può influire sulla chiarezza?",
+        "paragraphsBefore": [
+          "Un'iscrizione di rapporto applicata correttamente è normalmente microscopica e posizionata sulla cintura per l'identificazione. Leggere il rapporto di laboratorio e ottenere un'ispezione professionale se l'iscrizione appare insolitamente profonda, alterata o associata a danni superficiali."
+        ]
+      }
+    ]
+  },
+  "shapes": {
+    "id": "girdles-in-different-diamond-shapes",
+    "title": "Cinture in diverse forme di diamante",
+    "introParagraphs": [
+      "La stessa descrizione dello spessore può avere implicazioni diverse a seconda della forma del diamante."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Diamanti brillanti rotondi",
+        "paragraphsBefore": [
+          "I diamanti rotondi distribuiscono il loro contorno senza spigoli vivi.",
+          "Per molti brillanti rotondi moderni, le gamme pratiche includono:"
+        ],
+        "bullets": [
+          "Da sottile a medio",
+          "Medium",
+          "Da medio a leggermente spesso",
+          "Da sottile a leggermente spesso"
+        ],
+        "paragraphsAfter": [
+          "Valuta la cintura insieme a:",
+          "Grado di taglio",
+          "Diametro",
+          "Profondità totale",
+          "Dipingere o scavare",
+          "Simmetria",
+          "Prestazione a faccia in su"
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Diamanti ovali",
+        "paragraphsBefore": [
+          "La cintura di un ovale può variare attorno alle spalle e alle estremità.",
+          "Ispezionare:"
+        ],
+        "bullets": [
+          "Aree molto sottili vicino alle estremità",
+          "Spessore eccessivo alle spalle",
+          "Simmetria del contorno",
+          "Forza del papillon",
+          "Dimensioni a faccia in su",
+          "Impostazione della protezione"
+        ],
+        "paragraphsAfter": [
+          "Il GIA rileva che una cintura ovale eccessivamente spessa può mantenere il peso, mentre un'area estremamente sottile può aumentare la vulnerabilità."
+        ]
+      },
+      {
+        "id": "pear-shaped-diamonds",
+        "title": "Diamanti a forma di pera",
+        "paragraphsBefore": [
+          "I diamanti a pera hanno un'estremità arrotondata e un punto vulnerabile.",
+          "Controllo:"
+        ],
+        "bullets": [
+          "Spessore della cintura nel punto",
+          "Simmetria delle spalle",
+          "Forma dell'ala",
+          "Spessore all'estremità arrotondata",
+          "Protezione del punto",
+          "Papillon",
+          "Danno esistente"
+        ],
+        "paragraphsAfter": [
+          "Per il punto può essere presa in considerazione una punta a forma di V o un'altra regolazione protettiva adeguatamente progettata."
+        ]
+      },
+      {
+        "id": "marquise-diamonds",
+        "title": "Marchesa Diamanti",
+        "paragraphsBefore": [
+          "I diamanti marchesa contengono due punte vulnerabili.",
+          "Ispezionare:"
+        ],
+        "bullets": [
+          "Entrambi i punti",
+          "Spessore lungo le ali",
+          "Spessore della pancia",
+          "Allineamento della punta",
+          "Papillon",
+          "Simmetria",
+          "Impostazione della protezione"
+        ],
+        "paragraphsAfter": [
+          "Una cintura molto sottile in entrambi i punti richiede particolare attenzione."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Diamanti taglio principessa",
+        "paragraphsBefore": [
+          "I diamanti Princess hanno angoli affilati che possono essere vulnerabili alla scheggiatura.",
+          "Controllo:"
+        ],
+        "bullets": [
+          "Tutti e quattro gli angoli",
+          "Spessore dell'angolo",
+          "Naturali vicino agli angoli",
+          "Piume che raggiungono gli angoli",
+          "Lati disuguali",
+          "Progettazione dell'ambientazione",
+          "Se gli angoli sono completamente protetti"
+        ],
+        "paragraphsAfter": [
+          "Non giudicare una principessa esclusivamente dalla percentuale media della cintura."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Diamanti cuscino",
+        "paragraphsBefore": [
+          "I cuscini possono avere:"
+        ],
+        "bullets": [
+          "Angoli arrotondati",
+          "Angoli più squadrati",
+          "Spalle larghe",
+          "Contorni in stile antico",
+          "Moderni modelli di sfaccettature brillanti o modificate"
+        ],
+        "paragraphsAfter": [
+          "Valutare la relazione tra spessore della cintura, contorno, sfaccettatura e diffusione a faccia in su."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Tagli Smeraldo e Asscher",
+        "paragraphsBefore": [
+          "I tagli a gradini hanno ampie sfaccettature e diverse strutture a padiglione rispetto ai Round Brilliants.",
+          "Ispezionare:"
+        ],
+        "bullets": [
+          "Spessore dell'angolo",
+          "Consistenza ad angoli troncati",
+          "Allineamento dei passi",
+          "Finestre",
+          "Estinzione",
+          "Profondità totale",
+          "Dimensioni a faccia in su",
+          "Condizioni della cintura"
+        ],
+        "paragraphsAfter": [
+          "Non applicare meccanicamente un filetto per taglio brillante rotondo a un taglio a gradino."
+        ]
+      },
+      {
+        "id": "heart-shaped-diamonds",
+        "title": "Diamanti a forma di cuore",
+        "paragraphsBefore": [
+          "Esaminare:"
+        ],
+        "bullets": [
+          "Condizione di schisi",
+          "Due lobi",
+          "Spessore del punto",
+          "Simmetria generale",
+          "Equilibrio alare",
+          "Impostazione della protezione"
+        ],
+        "paragraphsAfter": [
+          "La fessura e il punto possono richiedere considerazioni diverse sull'impostazione."
+        ]
+      },
+      {
+        "id": "antique-diamonds",
+        "title": "Diamanti antichi",
+        "paragraphsBefore": [
+          "I diamanti Old Mine e Old European possono avere:"
+        ],
+        "bullets": [
+          "Cinture brutali",
+          "Variazione di spessore più ampia",
+          "Contorni irregolari",
+          "Naturali",
+          "Sfaccettatura o rilucidatura successiva",
+          "Usura storica",
+          "Piccole scheggiature o abrasioni"
+        ],
+        "paragraphsAfter": [
+          "Tali caratteristiche devono essere valutate nel contesto dell'età, dell'originalità, delle condizioni e del valore.",
+          "Non rilucidare automaticamente una cintura antica. L'alterazione può:",
+          "Ridurre il peso in carati",
+          "Cambia il contorno",
+          "Rimuovere il carattere storico",
+          "Incidere sulla documentazione",
+          "Modifica la compatibilità con l'impostazione originale",
+          "Modificare il valore di mercato"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "id": "girdle-thickness-and-jewellery-settings",
+    "title": "Spessore della cintura e impostazioni dei gioielli",
+    "introParagraphs": [
+      "La cintura è normalmente il punto di contatto tra il diamante e la sua incastonatura."
+    ],
+    "subsections": [
+      {
+        "id": "prong-settings",
+        "title": "Impostazioni dei poli",
+        "paragraphsBefore": [
+          "I rebbi afferrano aree selezionate attorno alla cintura.",
+          "Considerare:"
+        ],
+        "bullets": [
+          "Se un polo si trova su un'area estremamente sottile",
+          "Se la pressione di regolazione è concentrata vicino ad una piuma",
+          "Se gli angoli e i punti sono protetti",
+          "Se la pietra si muove",
+          "Se i poli sono usurati o danneggiati"
+        ]
+      },
+      {
+        "id": "bezel-settings",
+        "title": "Impostazioni della cornice",
+        "paragraphsBefore": [
+          "Una lunetta circonda gran parte o tutta la cintura.",
+          "I potenziali vantaggi includono:"
+        ],
+        "bullets": [
+          "Maggiore copertura dei bordi",
+          "Protezione delle aree vulnerabili",
+          "Aspetto sicuro"
+        ],
+        "paragraphsAfter": [
+          "Tuttavia, l’incastonatura della lunetta richiede ancora un lavoro specializzato. La pressione durante la produzione può danneggiare una cintura vulnerabile e il metallo può nascondere le caratteristiche esistenti."
+        ]
+      },
+      {
+        "id": "halo-settings",
+        "title": "Impostazioni dell'alone",
+        "paragraphsBefore": [
+          "Un alone può ridurre l’accesso diretto alla cintura del diamante centrale.",
+          "Controllo:"
+        ],
+        "bullets": [
+          "Distanza tra il centro e le pietre circostanti",
+          "Chip nascosti",
+          "Impostazione della pressione",
+          "Se un altro diamante entra in contatto con la pietra centrale",
+          "Accesso per la pulizia",
+          "Futuro accesso per le ispezioni"
+        ]
+      },
+      {
+        "id": "tension-and-semi-tension-settings",
+        "title": "Impostazioni di tensione e semi-tensione",
+        "paragraphsBefore": [
+          "Questi modelli possono applicare una pressione concentrata in punti di contatto limitati.",
+          "L'idoneità deve essere determinata da un gioielliere che abbia familiarità con:"
+        ],
+        "bullets": [
+          "Il diamante esatto",
+          "Spessore della cintura",
+          "Caratteristiche di chiarezza",
+          "Forma",
+          "Ingegneria dell'impostazione",
+          "Requisiti del produttore"
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-require-a-bezel",
+        "title": "Una cintura sottile richiede una lunetta?",
+        "paragraphsBefore": [
+          "Non automaticamente.",
+          "L'impostazione appropriata dipende dalla posizione e dall'estensione dell'area sottile e del diamante completo. Ottieni consigli basati sulla pietra reale."
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-cause-setting-problems",
+        "title": "Una cintura spessa può causare problemi di impostazione?",
+        "paragraphsBefore": [
+          "Può.",
+          "I possibili problemi includono:"
+        ],
+        "bullets": [
+          "Il diamante è posizionato troppo in alto",
+          "Impostazione standard non adeguata",
+          "Poli che richiedono modifiche",
+          "Posti a sedere irregolari",
+          "Spessore del bordo visibile",
+          "Difficoltà ad allineare la pietra"
+        ],
+        "paragraphsAfter": [
+          "Un'impostazione personalizzata o opportunamente regolata può risolvere questi problemi."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "girdle-thickness-face-up-size-and-price",
+    "title": "Spessore della cintura, dimensione a faccia in su e prezzo del diamante",
+    "introParagraphs": [
+      "Lo spessore della cintura può influenzare il valore, ma non esiste una formula di regolazione fissa."
+    ],
+    "subsections": [
+      {
+        "id": "weight-ratio-and-face-up-size",
+        "title": "Rapporto peso e dimensioni a faccia in su",
+        "paragraphsBefore": [
+          "Il carato misura il peso, non il diametro visibile.",
+          "Un diamante con una cintura molto spessa può pesare più di un altro diamante con dimensioni simili a faccia in su perché attorno al suo bordo viene trattenuto più materiale.",
+          "Confrontare:"
+        ],
+        "bullets": [
+          "Peso in carati",
+          "Diametro",
+          "Lunghezza",
+          "Larghezza",
+          "Profondità totale",
+          "Gamma di cinture",
+          "Percentuale media della cintura",
+          "Forma",
+          "Taglio complessivo"
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-help-a-diamond-reach-one-carat",
+        "title": "Può una cintura spessa aiutare un diamante a raggiungere un carato?",
+        "paragraphsBefore": [
+          "Può contribuire al mantenimento del peso vicino alle soglie commerciali come:"
+        ],
+        "bullets": [
+          "0,50 carati",
+          "1,00 carati",
+          "1,50 carati",
+          "2,00 carati"
+        ],
+        "paragraphsAfter": [
+          "Tuttavia, la cintura è solo una possibile fonte di ritenzione di peso.",
+          "Un diamante da un carato con proporzioni inefficienti può risultare più piccolo di un diamante più leggero e meglio distribuito."
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-make-a-diamond-look-larger",
+        "title": "Una cintura sottile fa sembrare un diamante più grande?",
+        "paragraphsBefore": [
+          "Non necessariamente.",
+          "Una cintura più sottile può ridurre il peso nascosto, ma le dimensioni visibili dipendono anche da:"
+        ],
+        "bullets": [
+          "Corona",
+          "Padiglione",
+          "Profondità totale",
+          "Contorno",
+          "Rapporto lunghezza-larghezza",
+          "Rigonfiamento",
+          "Disposizione delle faccette"
+        ]
+      },
+      {
+        "id": "how-can-girdle-thickness-affect-price",
+        "title": "In che modo lo spessore della cintura può influire sul prezzo?",
+        "paragraphsBefore": [
+          "I possibili effetti sul prezzo includono:"
+        ],
+        "bullets": [
+          "Richiesta ridotta per una cintura estremamente sottile",
+          "Grado di taglio inferiore",
+          "Problemi di scheggiatura o assicurazione",
+          "Peso nascosto da una cintura molto spessa",
+          "Dimensioni più piccole a faccia in su",
+          "Impostazione del costo",
+          "Considerazioni sulla riparazione o il ritaglio",
+          "Desiderabilità antica",
+          "Danno esistente"
+        ]
+      },
+      {
+        "id": "no-fixed-girdle-discount",
+        "title": "Nessuno sconto sulla cintura fissa",
+        "paragraphsBefore": [
+          "Evita affermazioni come:"
+        ],
+        "bullets": [
+          "Ogni guaina Very Thin richiede uno sconto del 10%.",
+          "Ogni cintura media merita un premio.",
+          "Ogni cintura molto spessa è troppo cara.",
+          "Ogni cintura sfaccettata è più preziosa.",
+          "Ritagliare aumenta sempre il valore."
+        ],
+        "paragraphsAfter": [
+          "Il prezzo richiede il confronto con diamanti veramente simili nel mercato attuale."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-girdles",
+    "title": "Cinture di diamanti naturali e coltivati ​​in laboratorio",
+    "introParagraphs": [
+      "Lo spessore e la finitura della cintura sono decisioni importanti.",
+      "Sia i diamanti naturali che quelli coltivati ​​in laboratorio possono avere:"
+    ],
+    "bullets": [
+      "Cinture sottili",
+      "Guaine medie",
+      "Cinture spesse",
+      "Cinture sfaccettate",
+      "Cinture lucide",
+      "Cinture brutali",
+      "Iscrizioni laser",
+      "Patatine",
+      "Caratteristiche naturali o legate alla superficie",
+      "Sfaccettature extra",
+      "Dipingere o scavare",
+      "Spessore irregolare"
+    ],
+    "closingParagraphs": [
+      "Pertanto, l'aspetto della cintura non può stabilire:",
+      "Origine naturale",
+      "Crescita in laboratorio",
+      "Metodo di crescita",
+      "Trattamento",
+      "La mia origine",
+      "Paese di origine",
+      "Età",
+      "Autenticità di un rapporto",
+      "Attualmente il GIA iscrive i diamanti coltivati ​​in laboratorio presentati nell'ambito dei suoi servizi applicabili con \"Laboratory-Grown\" e il numero di valutazione. Tuttavia, la presenza o l'assenza di un'iscrizione deve comunque essere verificata rispetto alla documentazione completa e al diamante fisico.",
+      "Per l'acquisto di un diamante naturale, affidati a una documentazione credibile che identifichi esplicitamente il diamante come naturale."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-diamond-girdle",
+    "title": "Come ispezionare una cintura di diamanti",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Passaggio 1: leggere il rapporto di valutazione completo",
+        "paragraphsBefore": [
+          "Confermare:"
+        ],
+        "bullets": [
+          "Laboratorio di emissione",
+          "Numero del rapporto",
+          "Identificazione del diamante naturale",
+          "Forma e stile di taglio",
+          "Misure",
+          "Descrizione della cintura",
+          "Percentuale di cintura",
+          "Finitura cintura",
+          "Grado di taglio o proporzioni",
+          "Simmetria",
+          "Polacco",
+          "Grado di chiarezza",
+          "Trama chiara",
+          "Commenti",
+          "Dettagli dell'iscrizione"
+        ]
+      },
+      {
+        "id": "step-2-match-the-report-to-the-diamond",
+        "title": "Passaggio 2: abbina il rapporto al diamante",
+        "paragraphsBefore": [
+          "Controllo:"
+        ],
+        "bullets": [
+          "Iscrizione laser",
+          "Misure",
+          "Peso in carati",
+          "Forma",
+          "Caratteristiche di chiarezza",
+          "Fluorescenza",
+          "Numero del rapporto",
+          "Risultati di corrispondenza professionali"
+        ],
+        "paragraphsAfter": [
+          "Non fare affidamento solo sulla descrizione della cintura."
+        ]
+      },
+      {
+        "id": "step-3-identify-the-minimum-and-maximum-thickness",
+        "title": "Passaggio 3: identificare lo spessore minimo e massimo",
+        "paragraphsBefore": [
+          "Leggi l'intervallo nell'ordine corretto.",
+          "Per esempio:"
+        ],
+        "bullets": [
+          "Da molto sottile a medio",
+          "Da sottile a leggermente spesso",
+          "Da medio a molto spesso"
+        ],
+        "paragraphsAfter": [
+          "Determinare se uno degli estremi merita un esame più approfondito."
+        ]
+      },
+      {
+        "id": "step-4-identify-the-girdle-finish",
+        "title": "Passaggio 4: identificare la finitura della cintura",
+        "paragraphsBefore": [
+          "Determina se è:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished",
+          "Bruted",
+          "Parzialmente sfaccettato",
+          "Modificato o riparato"
+        ],
+        "paragraphsAfter": [
+          "Non confondere la finitura con lo spessore."
+        ]
+      },
+      {
+        "id": "step-5-inspect-the-entire-circumference",
+        "title": "Passaggio 5: ispezionare l'intera circonferenza",
+        "paragraphsBefore": [
+          "Ruotare il diamante allentato in modo sicuro e ispezionare:"
+        ],
+        "bullets": [
+          "Aree minime",
+          "Aree massime",
+          "Angoli",
+          "Punti",
+          "Spalle",
+          "Ali",
+          "Lati piatti",
+          "Aree vicine alle inclusioni",
+          "Aree sotto le iscrizioni"
+        ],
+        "paragraphsAfter": [
+          "Una sezione visibile non rappresenta la cintura completa."
+        ]
+      },
+      {
+        "id": "step-6-examine-under-10x-magnification",
+        "title": "Passaggio 6: esaminare con ingrandimento 10×",
+        "paragraphsBefore": [
+          "Cercare:"
+        ],
+        "bullets": [
+          "Patatine",
+          "Abrasione",
+          "Barba",
+          "Cavità",
+          "Naturali",
+          "Naturali rientrati",
+          "Piume",
+          "Lividi",
+          "Sfaccettature extra",
+          "Segni di lucidatura",
+          "Iscrizione",
+          "Impostazione del danno"
+        ]
+      },
+      {
+        "id": "step-7-compare-the-clarity-plot",
+        "title": "Passaggio 7: confrontare il grafico di chiarezza",
+        "paragraphsBefore": [
+          "Determinare se le caratteristiche tracciate raggiungono o si avvicinano alla cintura.",
+          "Prestare particolare attenzione a:"
+        ],
+        "bullets": [
+          "Piume",
+          "Cavità",
+          "Patatine",
+          "Naturali rientrati",
+          "Naturali",
+          "Cristalli che creano aperture sulla superficie"
+        ]
+      },
+      {
+        "id": "step-8-inspect-corners-and-points",
+        "title": "Passaggio 8: ispeziona angoli e punti",
+        "paragraphsBefore": [
+          "Ciò è particolarmente importante per:"
+        ],
+        "bullets": [
+          "Principessa",
+          "Pera",
+          "Marchesa",
+          "Cuore",
+          "Smeraldo",
+          "Asscher",
+          "Radiante",
+          "Altre forme ad angolo"
+        ],
+        "paragraphsAfter": [
+          "Verificare se le aree vulnerabili saranno protette dall'impostazione prevista."
+        ]
+      },
+      {
+        "id": "step-9-compare-face-up-measurements",
+        "title": "Passaggio 9: confrontare le misurazioni a faccia in su",
+        "paragraphsBefore": [
+          "Confronta le dimensioni millimetriche del diamante con pietre veramente simili.",
+          "Cercare:"
+        ],
+        "bullets": [
+          "Diffusione ridotta",
+          "Profondità totale eccessiva",
+          "Ritenzione del peso molto spessa",
+          "Rigonfiante",
+          "Contorno insolito",
+          "Spalle irregolari"
+        ]
+      },
+      {
+        "id": "step-10-inspect-the-setting",
+        "title": "Passaggio 10: ispezionare l'impostazione",
+        "paragraphsBefore": [
+          "Per un diamante montato, controlla:"
+        ],
+        "bullets": [
+          "Posizione del polo",
+          "Contatto metallico",
+          "Movimento del diamante",
+          "Aree scheggiate",
+          "Protezione del punto",
+          "Lacune",
+          "Abrasione causata dalle pietre vicine",
+          "Se l'iscrizione rimane accessibile"
+        ],
+        "paragraphsAfter": [
+          "Non rimuovere un diamante dalla sua incastonatura senza l'attrezzatura professionale e l'esperienza adeguate."
+        ]
+      },
+      {
+        "id": "step-11-compare-with-similar-diamonds",
+        "title": "Passaggio 11: confrontare con diamanti simili",
+        "paragraphsBefore": [
+          "Mantieni quanto segue il più coerente possibile:"
+        ],
+        "bullets": [
+          "Forma",
+          "Carati",
+          "Colore",
+          "Chiarezza",
+          "Laboratorio",
+          "Grado di taglio",
+          "Misure",
+          "Cintura",
+          "Condizione",
+          "Stile antico o moderno"
+        ],
+        "paragraphsAfter": [
+          "Quindi confrontare:",
+          "Dimensioni a faccia in su",
+          "Luminosità",
+          "Fuoco",
+          "Scintillazione",
+          "Simmetria",
+          "Durabilità",
+          "Idoneità all'impostazione",
+          "Prezzo"
+        ]
+      },
+      {
+        "id": "step-12-arrange-professional-examination",
+        "title": "Passaggio 12: organizzare l'esame professionale",
+        "paragraphsBefore": [
+          "L’ispezione professionale è particolarmente importante quando:"
+        ],
+        "bullets": [
+          "La cintura è estremamente sottile",
+          "Aree molto sottili si verificano nei punti o negli angoli",
+          "La gamma si estende da Molto sottile a Molto spesso",
+          "Si sospetta una scheggiatura o una cavità",
+          "Una piuma raggiunge la cintura",
+          "Il diamante è antico",
+          "Il rapporto è vecchio",
+          "Il diamante ha un valore elevato",
+          "La pietra è già montata",
+          "L'iscrizione è mancante o incoerente",
+          "Si sta valutando il ritaglio",
+          "Il diamante viene acquistato a distanza"
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Usa il"
+        },
+        {
+          "type": "link",
+          "text": "Guida al rapporto sulla classificazione dei diamanti",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": "per il processo di verifica completo."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Confronto tra cinture di diamanti lavorate",
+    "introParagraphs": [
+      "Consideriamo quattro ipotetici diamanti naturali."
+    ],
+    "table": {
+      "caption": "Confronto tra cinture diamantate lavorate",
+      "headers": [
+        "Caratteristica",
+        "Diamante A",
+        "Diamante B",
+        "Diamante C",
+        "Diamante D"
+      ],
+      "rows": [
+        [
+          "Forma",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Pera"
+        ],
+        [
+          "Carati",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Colore",
+          "G",
+          "G",
+          "G",
+          "G"
+        ],
+        [
+          "Chiarezza",
+          "VS2",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Cintura",
+          "Medio, sfaccettato",
+          "Da molto sottile a medio, sfaccettato",
+          "Da spesso a molto spesso, sfaccettato",
+          "Da sottile a molto spesso, sfaccettato"
+        ],
+        [
+          "Preoccupazione principale",
+          "Prestazioni di taglio complete",
+          "Posizione ed estensione dell'area molto sottile",
+          "Peso nascosto e dimensioni a faccia in su",
+          "Protezione dei punti e distribuzione degli spessori"
+        ],
+        [
+          "Approccio dell'acquirente",
+          "Utilizzare come riferimento bilanciato",
+          "Controllare la durabilità e l'idoneità all'impostazione",
+          "Confronta diametro e profondità totale",
+          "Ispezionare punto, spalle, contorno e impostazione"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Confronto dei diamanti A e B",
+        "paragraphsBefore": [
+          "Il Diamante B non dovrebbe essere rifiutato solo perché il suo minimo è Molto Sottile.",
+          "L'acquirente dovrebbe determinare:"
+        ],
+        "bullets": [
+          "Dove si verifica l'area molto sottile",
+          "Quanta parte della cintura è interessata",
+          "Se c'è una piuma o un chip nelle vicinanze",
+          "Se l'impostazione lo proteggerà",
+          "Se il suo taglio e l'aspetto rivolto verso l'alto sono superiori",
+          "Se il prezzo riflette eventuali rischi aggiuntivi"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Confronto dei diamanti A e C",
+        "paragraphsBefore": [
+          "Il diamante C può contenere più peso nella sua cintura.",
+          "Confrontare:"
+        ],
+        "bullets": [
+          "Diametro rivolto verso l'alto",
+          "Profondità totale",
+          "Luminosità",
+          "Grado di taglio",
+          "Impostazione del profilo",
+          "Prezzo"
+        ],
+        "paragraphsAfter": [
+          "Se il Diamante C appare notevolmente più piccolo senza offrire un altro vantaggio significativo, il Diamante A può fornire una migliore efficienza in termini di peso."
+        ]
+      },
+      {
+        "title": "Confronto dei diamanti A e D",
+        "paragraphsBefore": [
+          "Le descrizioni delle cinture non possono essere confrontate meccanicamente perché le forme differiscono.",
+          "Il massimo molto spesso del diamante D può verificarsi vicino all'estremità arrotondata, alla punta o alle spalle. Il suo minimo sottile può verificarsi altrove.",
+          "L'acquirente deve esaminare:"
+        ],
+        "bullets": [
+          "Spessore del punto",
+          "Equilibrio alare",
+          "Simmetria delle spalle",
+          "Papillon",
+          "Rapporto lunghezza-larghezza",
+          "Impostazione della protezione"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Cosa dimostra questo confronto",
+        "paragraphsBefore": [
+          "L'etichetta della cintura deve essere interpretata all'interno del diamante completo.",
+          "La corretta decisione di acquisto dipende da:"
+        ],
+        "bullets": [
+          "Forma",
+          "Posizione degli estremi di spessore",
+          "Dimensioni a faccia in su",
+          "Durabilità",
+          "Taglio",
+          "Simmetria",
+          "Condizione",
+          "Collocamento",
+          "Documentazione",
+          "Prezzo"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-girdle-myths",
+    "title": "Miti comuni sulla cintura di diamanti",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Miti comuni sulla cintura di diamanti",
+      "headers": [
+        "Mito",
+        "Interpretazione accurata"
+      ],
+      "rows": [
+        [
+          "Il medio è l'unico buon grado di cintura",
+          "Possono essere adatti anche sottili e leggermente spessi"
+        ],
+        [
+          "Ogni cintura molto sottile si scheggerà",
+          "Il rischio dipende dalla posizione, dall'estensione, dalla forma, dalle inclusioni, dall'impostazione e dall'usura"
+        ],
+        [
+          "Sottile significa che il diamante è già danneggiato",
+          "Lo spessore e il danno sono caratteristiche separate"
+        ],
+        [
+          "Una cintura spessa rende un diamante più forte di ogni altro diamante",
+          "Lo spessore è solo uno dei fattori di durabilità"
+        ],
+        [
+          "Una cintura spessa rovina sempre lo splendore",
+          "Colpisce principalmente la distribuzione del peso e le dimensioni; le proporzioni complete determinano la prestazione"
+        ],
+        [
+          "Una cintura molto spessa significa sempre un taglio scadente",
+          "Merita il confronto ma non determina il voto completo"
+        ],
+        [
+          "La percentuale media mostra la parte più sottile",
+          "La percentuale media e la descrizione verbale minima sono valutazioni diverse"
+        ],
+        [
+          "Da sottile a spesso significa che la media è media",
+          "Le categorie verbali non dovrebbero essere mediate"
+        ],
+        [
+          "Una vasta gamma significa sempre un danno",
+          "Può derivare dal disegno del taglio, dalla forma o da una variazione normale"
+        ],
+        [
+          "Sfaccettato è sempre meglio che lucido",
+          "Entrambi possono essere finiture legittime"
+        ],
+        [
+          "Le cinture brutali sono false o non finite",
+          "Le cinture brutali sono riconosciute e possono essere storicamente appropriate"
+        ],
+        [
+          "Le sfaccettature della cintura fanno parte del conteggio standard di 57 faccette",
+          "La sfaccettatura della cintura viene normalmente trattata separatamente dal conteggio delle sfaccettature principali"
+        ],
+        [
+          "Un'iscrizione laser garantisce l'autenticità",
+          "È una caratteristica identificativa e deve essere abbinata al diamante completo"
+        ],
+        [
+          "Un'iscrizione mancante dimostra che il diamante è diverso",
+          "L'iscrizione può essere nascosta, assente, sporca o rimossa mediante rilucidatura"
+        ],
+        [
+          "Un naturale sulla cintura dimostra l'origine naturale",
+          "L'origine richiede un'identificazione di laboratorio credibile"
+        ],
+        [
+          "Lo spessore della cintura dimostra se un diamante è naturale o coltivato in laboratorio",
+          "Entrambi possono avere configurazioni di cintura simili"
+        ],
+        [
+          "Ogni cintura antica dovrebbe essere sfaccettata",
+          "La sfaccettatura successiva può rimuovere il carattere originale"
+        ],
+        [
+          "Ogni cintura scheggiata dovrebbe essere ritagliata",
+          "Il ritaglio richiede una valutazione professionale della perdita di peso, del valore e del rischio"
+        ],
+        [
+          "GIA e HRD utilizzano categorie di cinture identiche",
+          "La loro terminologia e le strutture di classificazione differiscono"
+        ],
+        [
+          "Un rapporto di valutazione garantisce le condizioni attuali della cintura",
+          "Possono verificarsi danni dopo la classificazione"
+        ],
+        [
+          "Una cintura più spessa significa sempre un valore in carati più elevato",
+          "Il peso mantenuto potrebbe non migliorare le dimensioni visibili o la desiderabilità del mercato"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Lista di controllo della cintura di diamanti naturali",
+    "introLead": "Prima dell'acquisto confermare:",
+    "items": [
+      "Il diamante è esplicitamente identificato come naturale.",
+      "È stato fornito un rapporto di valutazione credibile.",
+      "Il numero del rapporto è stato verificato.",
+      "Il rapporto è stato abbinato al diamante fisico.",
+      "Il laboratorio emittente è stato identificato.",
+      "È stata utilizzata la metodologia della cintura propria del laboratorio.",
+      "È stato letto lo spessore minimo della cintura.",
+      "È stato letto lo spessore massimo della cintura.",
+      "La percentuale media della cintura è stata rivista laddove fornita.",
+      "L'intervallo verbale non è stato mediato in modo errato.",
+      "È stata identificata la finitura della cintura.",
+      "La circonferenza completa è stata ispezionata.",
+      "Sono state individuate le zone di spessore minimo.",
+      "Sono state individuate le zone di massimo spessore.",
+      "Angoli e punti sono stati ispezionati.",
+      "La cintura è stata controllata con un ingrandimento 10×.",
+      "Sono state controllate scheggiature e abrasioni.",
+      "I naturali e i naturali rientrati sono stati rivisti.",
+      "Sono state esaminate le cavità e le penne che raggiungono la superficie.",
+      "La barba è stata controllata.",
+      "Sono stati presi in considerazione aspetti aggiuntivi.",
+      "Il diagramma di chiarezza e i commenti del rapporto sono stati letti.",
+      "L'iscrizione laser è stata controllata ove applicabile.",
+      "L'iscrizione non è stata utilizzata come unico metodo di identificazione.",
+      "Le dimensioni millimetriche del diamante sono state confrontate.",
+      "Sono state valutate la profondità totale e la diffusione a faccia in su.",
+      "È stato considerato il peso nascosto.",
+      "Il grado di taglio o proporzione è stato rivisto.",
+      "La simmetria e la lucidatura sono state riviste.",
+      "L'impostazione prevista è stata considerata.",
+      "Le aree molto sottili non verranno esposte inutilmente.",
+      "Punti e angoli riceveranno un'adeguata protezione.",
+      "La cintura non è stata utilizzata come prova dell'origine naturale.",
+      "Non è stato previsto alcuno sconto o premio fisso sulla cintura.",
+      "Il diamante è stato confrontato con pietre veramente simili.",
+      "La condizione attuale è stata confrontata con il rapporto.",
+      "Ove necessario è stata organizzata un'ispezione professionale.",
+      "Le condizioni di pagamento, ispezione, consegna e restituzione sono chiare."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Stai già confrontando i diamanti naturali?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Lo spessore della cintura deve essere valutato insieme al taglio, alla simmetria, alle condizioni, alla documentazione, alle dimensioni a faccia in su, all'idoneità dell'impostazione e al prezzo."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Con S2S – Secure To Source, gli acquirenti che hanno già selezionato un diamante naturale sciolto possono inviarlo a Dalila Diamonds per il coordinamento del controllo qualità applicabile, il pagamento in euro e la consegna programmata in Belgio o in un'altra destinazione confermata dell'Unione Europea."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Se non hai ancora selezionato un diamante, usalo"
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": "per richiedere assistenza personalizzata per l'approvvigionamento di diamanti naturali."
+        }
+      ]
+    ],
+    "primaryButtonText": "Invia un diamante selezionato",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Sfoglia i diamanti naturali",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Asporto finale",
+    "introParagraphs": [
+      "La cintura è lo stretto bordo esterno che separa la corona e il padiglione di un diamante.",
+      "Il suo spessore influisce su tre principali considerazioni di acquisto:",
+      "Durabilità",
+      "Distribuzione del peso",
+      "Idoneità all'impostazione",
+      "Per molti diamanti naturali moderni, le gamme Sottile, Medio e Leggermente Grosso forniscono un equilibrio pratico. Una cintura estremamente sottile o ampiamente molto sottile merita un'attenzione maggiore perché le aree vulnerabili possono essere più suscettibili alla scheggiatura. Una cintura molto spessa o estremamente spessa merita un confronto perché può mantenere il peso in carati senza migliorare le dimensioni a faccia in su.",
+      "L'intervallo riportato deve essere esaminato anziché mediato. Una descrizione come Da molto sottile a spessa fornisce le categorie minima e massima; ciò non significa che la cintura completa sia media.",
+      "Anche la finitura va considerata a parte. Sfaccettato, levigato e grezzo descrivono come è stata completata la superficie della cintura, non se il suo spessore è adeguato.",
+      "Soprattutto, non chiedere solo:",
+      "Che grado di cintura è scritto sul rapporto?",
+      "Chiedere:",
+      "Dove sono le zone più sottili e quelle più spesse, la cintura è integra e adatta all'incastonatura e il diamante completo ne giustifica il peso e il prezzo?"
+    ],
+    "primaryButtonText": "Utilizza Sicuro alla fonte",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contatta Dalila Diamanti",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "title": "Domande frequenti sulle cinture diamantate",
+    "items": [
+      {
+        "question": "Qual è la cintura di un diamante?",
+        "answer": "La cintura è lo stretto bordo esterno dove la corona del diamante incontra il suo padiglione. Definisce il contorno e solitamente fornisce il bordo utilizzato per fissare il diamante nei gioielli."
+      },
+      {
+        "question": "Dove si trova la cintura?",
+        "answer": "Percorre tutto il perimetro del diamante tra corona e padiglione."
+      },
+      {
+        "question": "Cosa significa cintura su un rapporto di diamanti?",
+        "answer": "Descrive lo spessore e talvolta la finitura del bordo esterno del diamante."
+      },
+      {
+        "question": "Cos'è la scala della cintura GIA?",
+        "answer": "GIA utilizza Estremamente sottile, Molto sottile, Sottile, Medio, Leggermente spesso, Spesso, Molto spesso ed Estremamente spesso."
+      },
+      {
+        "question": "Qual è lo spessore migliore della cintura diamantata?",
+        "answer": "Sottile, Medio e Leggermente Grosso, o intervalli ragionevoli che coinvolgono queste descrizioni, sono comunemente pratici. Il miglior risultato dipende dalla forma, dalle proporzioni, dalle condizioni e dall’incastonatura del diamante."
+      },
+      {
+        "question": "Medium è la guaina ideale?",
+        "answer": "Media è una descrizione equilibrata ma non è automaticamente migliore di ogni cintura sottile o leggermente spessa."
+      },
+      {
+        "question": "Da sottile a media è una buona cintura?",
+        "answer": "È comunemente accettabile quando la cintura non è danneggiata e adatta alla forma e all’incastonatura del diamante."
+      },
+      {
+        "question": "È da medio a leggermente spesso buono?",
+        "answer": "Può essere completamente accettabile. Controllare le dimensioni a faccia in su, la profondità totale, il taglio e il prezzo."
+      },
+      {
+        "question": "È accettabile un prodotto da sottile a leggermente spesso?",
+        "answer": "Sì, a condizione che la variazione non crei problemi di durabilità, simmetria, peso o impostazione."
+      },
+      {
+        "question": "Da molto sottile a medio è un male?",
+        "answer": "Non automaticamente. Individuare l'area molto sottile e determinarne l'estensione, le inclusioni vicine e l'impostazione dell'esposizione."
+      },
+      {
+        "question": "Una guaina molto sottile è pericolosa?",
+        "answer": "Può aumentare il rischio di scheggiatura, soprattutto in punti, angoli o aree vicine a inclusioni che raggiungono la superficie. Il rischio reale dipende dal diamante."
+      },
+      {
+        "question": "Una cintura molto sottile si scheggerà definitivamente?",
+        "answer": "No. Indica una maggiore vulnerabilità, non un danno garantito."
+      },
+      {
+        "question": "Cos'è una cintura estremamente sottile?",
+        "answer": "È una cintura con poco o nessun materiale in una o più aree rilevanti. Richiede un'attenta valutazione della durabilità e dell'impostazione."
+      },
+      {
+        "question": "Cos'è una cintura a lama di coltello?",
+        "answer": "È un'area in cui la corona e il padiglione si incontrano senza alcuna cintura tra loro, creando un bordo molto netto."
+      },
+      {
+        "question": "Una cintura di diamanti spessa è cattiva?",
+        "answer": "Non necessariamente. Una cintura spessa può essere accettabile, ma gli acquirenti dovrebbero confrontare le dimensioni a faccia in su e la distribuzione del peso."
+      },
+      {
+        "question": "Una cintura spessa fa sembrare un diamante più piccolo?",
+        "answer": "Ciò è possibile se il peso in carati sostanziale viene mantenuto attorno alla cintura anziché contribuire alle dimensioni a faccia in su."
+      },
+      {
+        "question": "È da molto spesso a estremamente spesso un male?",
+        "answer": "Merita un attento confronto perché può aggiungere peso nascosto e profondità totale. Ciò non rende automaticamente il diamante poco attraente."
+      },
+      {
+        "question": "Una cintura spessa migliora la durata?",
+        "answer": "Può fornire più materiale di taglio, ma il diamante può comunque essere danneggiato da urti, inclusioni o pressione di installazione inadeguata."
+      },
+      {
+        "question": "Lo spessore della cintura influisce sulla brillantezza?",
+        "answer": "Non determina in modo indipendente la brillantezza. La corona completa, il padiglione, il motivo sfaccettato e le proporzioni determinano le prestazioni luminose."
+      },
+      {
+        "question": "Lo spessore della cintura influisce sulla qualità di taglio?",
+        "answer": "SÌ. Guaine eccessivamente sottili o spesse possono limitare il grado di taglio di un Brillante Rotondo qualificante per considerazioni di durata o di rapporto peso."
+      },
+      {
+        "question": "Il GIA attribuisce ai diamanti di forma fantasia un grado di taglio complessivo?",
+        "answer": "Il tradizionale grado di taglio complessivo del GIA si applica ai diamanti taglio brillante tondo standard qualificati. Le forme fantasiose ricevono ancora misurazioni, lucidatura, simmetria e una descrizione della cintura."
+      },
+      {
+        "question": "Cosa significa da sottile a spesso?",
+        "answer": "Significa che l'area rilevante più sottile è Sottile e quella più spessa è Spessa."
+      },
+      {
+        "question": "Posso calcolare la media di Sottile e Spesso come Medio?",
+        "answer": "No. L'intervallo descrive due estremi e non deve essere convertito in una presunta categoria verbale media."
+      },
+      {
+        "question": "Perché la cintura di un diamante varia?",
+        "answer": "La variazione può derivare dalla normale smerlatura, dal disegno della forma, dal posizionamento delle sfaccettature, dalla verniciatura, dallo scavo, dal mantenimento della sgrossatura, dalle sfaccettature aggiuntive o da altre caratteristiche di taglio."
+      },
+      {
+        "question": "Cos'è una cintura sfaccettata?",
+        "answer": "È una cintura divisa in una serie di piccole superfici lucide."
+      },
+      {
+        "question": "È meglio una cintura sfaccettata?",
+        "answer": "Non automaticamente. È uno stile di finitura e non garantisce un taglio, una durata o un valore migliori."
+      },
+      {
+        "question": "Cos'è una cintura lucida?",
+        "answer": "È una cintura liscia e lucida senza piccole sfaccettature visibili separatamente."
+      },
+      {
+        "question": "Cos'è una cintura bruta?",
+        "answer": "Una cintura bruta ha una superficie smerigliata o granulare prodotta durante il processo di modellatura."
+      },
+      {
+        "question": "Una cintura brutale è cattiva?",
+        "answer": "No. Può essere accettabile e storicamente appropriato per un diamante antico."
+      },
+      {
+        "question": "Cos'è una cintura barbuta?",
+        "answer": "Una cintura barbuta contiene piccolissime caratteristiche simili a piume che si estendono dalla superficie della cintura fino al diamante."
+      },
+      {
+        "question": "Una cintura barbuta influisce sulla chiarezza?",
+        "answer": "Può, a seconda della sua estensione, profondità e visibilità."
+      },
+      {
+        "question": "Cos'è il dipinto su una cintura di diamanti?",
+        "answer": "La pittura è una tecnica di taglio che altera il rapporto tra semisfaccettature, sfaccettature della lunetta, struttura del padiglione e spessore della cintura."
+      },
+      {
+        "question": "Cosa sta scavando?",
+        "answer": "Lo scavo è la relazione sfaccettatura-angolo opposta rispetto alla pittura e crea una variazione diversa tra le giunzioni della cintura."
+      },
+      {
+        "question": "Dipingere e scavare sono sempre difetti?",
+        "answer": "No. Gli esempi minimi possono avere un significato limitato, mentre gli esempi più forti possono influenzare l'aspetto e la qualità del taglio."
+      },
+      {
+        "question": "Cos'è un naturale sulla cintura?",
+        "answer": "È una porzione della superficie ruvida originale lasciata intenzionalmente sul diamante lucidato."
+      },
+      {
+        "question": "Una cintura è naturale come un danno?",
+        "answer": "No. Viene mantenuta una superficie ruvida, sebbene le sue dimensioni, profondità e posizione richiedano ancora una valutazione."
+      },
+      {
+        "question": "Cos'è un naturale indentato?",
+        "answer": "Viene mantenuta una superficie ruvida che si estende al di sotto del contorno lucidato previsto del diamante."
+      },
+      {
+        "question": "Cos'è una cintura scheggiata?",
+        "answer": "Si tratta di materiale mancante accidentale lungo il bordo del diamante."
+      },
+      {
+        "question": "È possibile riparare una cintura scheggiata?",
+        "answer": "Potrebbe essere possibile rilucidare o tagliare nuovamente, ma ciò può ridurre il peso in carati e alterare le proporzioni. È richiesta una valutazione professionale."
+      },
+      {
+        "question": "Può un diamante scheggiarsi mentre viene incastonato?",
+        "answer": "SÌ. L'impostazione della pressione può danneggiare un bordo estremamente sottile, un angolo vulnerabile o un'area interessata da un'inclusione."
+      },
+      {
+        "question": "Una cintura di diamanti può essere danneggiata durante la normale usura?",
+        "answer": "SÌ. Urti violenti, griffe usurate, contatto con altri diamanti o movimenti nell'incastonatura possono danneggiare la cintura."
+      },
+      {
+        "question": "Cos'è un'iscrizione sulla cintura?",
+        "answer": "Si tratta di testo microscopico, numeri o simboli applicati alla cintura, che spesso includono il numero del rapporto di valutazione."
+      },
+      {
+        "question": "Un'iscrizione laser dimostra l'autenticità?",
+        "answer": "No. Supporta l'identificazione ma deve essere confrontato con il rapporto, le misurazioni e le caratteristiche del diamante."
+      },
+      {
+        "question": "È possibile rimuovere un'iscrizione sulla cintura?",
+        "answer": "Può essere rimosso o ridotto se la cintura viene rilucidata."
+      },
+      {
+        "question": "Perché non riesco a vedere l'iscrizione?",
+        "answer": "Può essere nascosto da una punta, sporco, estremamente piccolo, assente o rimosso. Sono necessari un ingrandimento e un'illuminazione adeguati."
+      },
+      {
+        "question": "Ogni diamante naturale GIA ha un'iscrizione?",
+        "answer": "No. La disponibilità dell'iscrizione dipende dal servizio report e se il servizio è stato richiesto o incluso."
+      },
+      {
+        "question": "Lo spessore della cintura può identificare un diamante naturale?",
+        "answer": "No. I diamanti naturali e quelli coltivati ​​in laboratorio possono avere spessori e finiture della cintura simili."
+      },
+      {
+        "question": "Un'iscrizione laser può identificare un diamante coltivato in laboratorio?",
+        "answer": "Un'iscrizione di laboratorio applicabile può indicare che un diamante è coltivato in laboratorio, ma il rapporto completo e l'identificazione professionale devono comunque essere verificati."
+      },
+      {
+        "question": "Le percentuali delle cinture GIA e HRD sono le stesse?",
+        "answer": "No. La loro terminologia, strutture di misurazione e sistemi di classificazione devono essere interpretati separatamente."
+      },
+      {
+        "question": "Lo spessore della cintura è più importante del taglio complessivo?",
+        "answer": "No. Fa parte della durabilità del diamante, del rapporto peso e della valutazione della maestria."
+      },
+      {
+        "question": "Dovrei rifiutare un diamante perché la sua cintura è molto sottile?",
+        "answer": "Non automaticamente. Determina la posizione, l'estensione, la condizione, la forma, l'impostazione e il prezzo prima di decidere."
+      },
+      {
+        "question": "Dovrei rifiutare un diamante perché la sua cintura è molto spessa?",
+        "answer": "Non automaticamente. Confronta le sue dimensioni a faccia in su, la profondità totale, l'aspetto e il prezzo con diamanti simili."
+      }
+    ]
+  }
+}

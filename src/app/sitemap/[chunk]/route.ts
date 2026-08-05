@@ -16,6 +16,10 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/sell-your-diamond-safely", priority: 0.8, changefreq: "monthly" },
   { path: "/elongated-cushion-cut-diamond-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-grading-report-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-quality-chart", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-fluorescence-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-culet-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-girdle-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/blogs", priority: 0.8, changefreq: "weekly" },
   { path: "/inventory", priority: 0.9, changefreq: "daily" },
 ];

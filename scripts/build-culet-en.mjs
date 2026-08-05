@@ -1,0 +1,1373 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const out = path.join(__dirname, "../src/data/resources/diamond-culet-guide.json");
+
+const data = {
+  meta: {
+    title: "Diamond Culet Guide: Size & Meaning | Dalila Diamonds",
+    description:
+      "Learn what a diamond culet is, how GIA and HRD describe culet size, and how pointed, open, large or chipped culets can affect appearance and buying.",
+    canonical: "https://www.daliladiamonds.com/resources/diamond-culet-guide",
+    dateModified: "2026-07-30",
+  },
+  urls: {
+    giaAnatomy: "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    giaChipping: "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    giaCuletFinish: "https://4cs.gia.edu/en-us/diamond-cut/",
+    giaOldMine: "https://4cs.gia.edu/en-us/old-mine-cut-diamond/",
+    hrdCutGrade: "https://www.hrdantwerp.com/",
+  },
+  banner: {
+    title: "Diamond Culet Guide",
+    breadcrumbHome: "Home",
+    breadcrumbResources: "Resources",
+    breadcrumbCurrent: "Diamond Culet Guide",
+    imageAlt: "Diamond Culet Guide resource banner for natural diamond buyers",
+  },
+  hero: {
+    title: "Diamond Culet Guide for Natural Diamond Buyers",
+    subheading:
+      "Understand where the culet is located, why diamonds may have pointed or faceted culets and how culet size can influence appearance, durability, grading and price.",
+    reviewDateLabel: "Last reviewed:",
+    reviewDate: "30 July 2026",
+  },
+  introduction: {
+    paragraphs: [
+      "The culet is one of the smallest parts of a polished diamond, yet it often causes unnecessary confusion.",
+      "A grading report may describe the culet as None, Pointed, Small, Medium, Large or another laboratory-specific term. Some buyers interpret “None” as a missing feature or defect. Others reject every diamond with a visible culet without considering whether it is a modern brilliant, an antique cut or an intentionally styled diamond.",
+      "Neither approach is reliable.",
+      "In a modern Round Brilliant diamond, a small or pointed culet is generally preferred because it preserves a continuous central reflection pattern. In an Old Mine or Old European cut, a larger open culet may be an intentional part of the diamond’s historic appearance.",
+      "The correct assessment depends on:",
+    ],
+    bullets: [
+      "Diamond shape and cutting style",
+      "Culet size",
+      "Culet position",
+      "Whether the culet is faceted, pointed or damaged",
+      "Face-up appearance",
+      "Overall cut and symmetry",
+      "The grading laboratory",
+      "Whether the diamond is modern or antique",
+      "Personal visual preference",
+      "Price",
+    ],
+  },
+  quickAnswer: {
+    title: "Quick Answer",
+    introParagraphs: [
+      "The culet is located at the bottom of a diamond’s pavilion, directly opposite the table.",
+      "A diamond may have:",
+    ],
+    attributes: [
+      "A pointed bottom where the pavilion main facets meet",
+      "A very small polished facet",
+      "A larger flat culet facet",
+      "A keel or different pavilion termination in certain cutting styles",
+      "A damaged or chipped culet that requires separate assessment",
+      "On GIA reports, culet size for a standard Round Brilliant can be described as: None, Very Small, Small, Medium, Slightly Large, Large, Very Large, Extremely Large",
+    ],
+    closingParagraphs: [
+      "“None” does not mean the diamond is incomplete. It means there is no polished culet facet. The pavilion facets meet at a point, sometimes described in the trade as a pointed culet.",
+      "A larger culet may become visible through the table and interrupt the diamond’s central reflection pattern. However, a visible culet is not automatically a defect. Larger open culets are characteristic of many genuine antique cutting styles.",
+      "A culet facet was historically used to reduce the risk of damage to the pavilion point. GIA explains that pointed culets can be vulnerable when loose diamonds strike each other, although the risk is much lower once the diamond is securely set in jewellery.",
+      "The practical answer is:",
+      "For a modern Round Brilliant, None, Very Small or Small is normally preferred. For an antique or intentionally vintage-style diamond, a larger culet may be part of its character. In every case, inspect the actual diamond rather than accepting or rejecting it from the culet description alone.",
+    ],
+  },
+  keyTakeaways: {
+    title: "Key Takeaways",
+    items: [
+      "The culet is at the bottom of the diamond’s pavilion.",
+      "A true culet is normally a small polished facet placed near or parallel to the table.",
+      "A standard Round Brilliant has 57 facets without a culet facet and 58 when the culet is counted as an additional facet.",
+      "“None” on a GIA report means no culet facet is present.",
+      "A diamond with None culet normally terminates in a point.",
+      "A pointed culet is not automatically a defect.",
+      "Very Small and Small culets are usually difficult to see without magnification.",
+      "A larger culet can appear as a light, dark or transparent-looking area in the centre.",
+      "An open culet is a facet, not a hole drilled through the diamond.",
+      "Culet size can influence the face-up reflection pattern of a modern Round Brilliant.",
+      "Culet size is only one part of cut assessment.",
+      "GIA and HRD Antwerp use different culet-reporting systems.",
+      "Laboratory scales should not be treated as directly interchangeable.",
+      "A large culet may reduce a modern Round Brilliant’s cut or proportion assessment.",
+      "A large culet can be historically appropriate in an Old Mine or Old European cut.",
+      "A faceted culet may protect the pavilion point while the diamond is loose.",
+      "A pointed culet can be vulnerable if loose diamonds strike one another.",
+      "Once securely set, the culet normally has limited exposure during ordinary wear.",
+      "A chipped culet is different from an intentionally polished culet facet.",
+      "An off-centre culet concerns symmetry, not simply culet size.",
+      "A culet does not establish whether a diamond is natural or laboratory-grown.",
+      "Culet size does not determine colour, clarity, carat weight or geographic origin.",
+      "There is no universal culet-related price discount.",
+      "The complete diamond and its intended use must be assessed.",
+    ],
+  },
+  overviewNav: {
+    title: "Guide Overview",
+    items: [
+      { id: "what-is-a-diamond-culet", label: "What a diamond culet is" },
+      { id: "where-the-culet-is-located", label: "Where the culet is located" },
+      { id: "why-diamonds-have-culets", label: "Why diamonds have culets" },
+      { id: "pointed-closed-and-open-culets", label: "Pointed, closed and open culets" },
+      { id: "gia-diamond-culet-scale", label: "GIA diamond culet scale" },
+      { id: "hrd-antwerp-culet-measurements", label: "HRD Antwerp culet measurements" },
+      { id: "gia-versus-hrd-culet-reporting", label: "GIA versus HRD culet reporting" },
+      { id: "how-culet-size-affects-appearance", label: "How culet size affects appearance" },
+      { id: "culet-size-and-diamond-cut-grade", label: "Culet size and diamond cut grade" },
+      { id: "centred-and-off-centre-culets", label: "Centred and off-centre culets" },
+      { id: "culets-in-different-diamond-shapes", label: "Culets in different diamond shapes" },
+      { id: "antique-and-vintage-diamond-culets", label: "Antique and vintage diamond culets" },
+      { id: "culet-damage-and-chipping", label: "Culet damage and chipping" },
+      { id: "culet-versus-other-diamond-features", label: "Culet versus other diamond features" },
+      { id: "culet-size-and-diamond-price", label: "Culet size and diamond price" },
+      { id: "natural-versus-laboratory-grown-diamond-culets", label: "Natural versus laboratory-grown diamond culets" },
+      { id: "how-to-inspect-a-diamond-culet", label: "How to inspect a diamond culet" },
+      { id: "worked-diamond-comparison", label: "Worked diamond comparison" },
+      { id: "common-culet-myths", label: "Common culet myths" },
+      { id: "natural-diamond-buying-checklist", label: "Natural-diamond buying checklist" },
+      { id: "culet-guide-faq-heading", label: "Frequently asked questions" },
+    ],
+  },
+};
+
+// Continue building remaining sections in same object via Object.assign in next part of script
+Object.assign(data, {
+  whatIs: {
+    id: "what-is-a-diamond-culet",
+    title: "What Is a Diamond Culet?",
+    introParagraphs: [
+      "The culet is the area at the lowest point of a diamond’s pavilion.",
+      "In a standard Round Brilliant, eight pavilion main facets descend from the girdle towards the bottom of the diamond. They may:",
+    ],
+    bullets: [
+      "Meet at a single point",
+      "Be finished with a very small facet",
+      "Terminate around a larger polished facet",
+    ],
+    closingParagraphs: [
+      "When a facet is present, it is normally polished approximately parallel to the table.",
+      "The principal purpose of the facet is to remove the extremely sharp pavilion point and reduce its vulnerability to abrasion or chipping while the diamond is loose.",
+    ],
+    richClosingParagraphs: [
+      [
+        { type: "text", value: "GIA defines the culet as a small facet at the bottom of the diamond. Its size can affect face-up appearance and is described according to the average width of that facet. " },
+        { type: "link", text: "GIA’s diamond-anatomy guide", href: "https://4cs.gia.edu/en-us/diamond-anatomy/", external: true },
+        { type: "text", value: " explains the culet within the complete proportion system." },
+      ],
+      [
+        { type: "text", value: "For the broader quality scales that include cut and proportions, see the " },
+        { type: "link", text: "Diamond Quality Chart", href: "/resources/diamond-quality-chart" },
+        { type: "text", value: ". For fluorescence assessment, see the " },
+        { type: "link", text: "Diamond Fluorescence Guide", href: "/resources/diamond-fluorescence-guide" },
+        { type: "text", value: "." },
+      ],
+    ],
+    subsections: [
+      {
+        id: "is-the-culet-always-a-facet",
+        title: "Is the Culet Always a Facet?",
+        paragraphsBefore: [
+          "Not necessarily.",
+          "The word “culet” is frequently used in two related ways:",
+        ],
+        bullets: [
+          "To describe the bottom point or termination of the pavilion",
+          "More precisely, to describe a polished facet placed at that point",
+        ],
+        paragraphsAfter: [
+          "This creates apparently contradictory phrases such as:",
+          "No culet",
+          "Pointed culet",
+          "Closed culet",
+          "Faceted culet",
+          "Open culet",
+          "A grading report stating “None” normally means there is no separate culet facet. It does not mean the pavilion has no bottom point.",
+        ],
+      },
+      {
+        id: "is-the-culet-the-same-as-the-pavilion",
+        title: "Is the Culet the Same as the Pavilion?",
+        paragraphsBefore: [
+          "No.",
+          "The pavilion is the complete lower section of the diamond beneath the girdle. The culet is only the small point or facet at its lowest part.",
+        ],
+      },
+      {
+        id: "is-the-culet-the-same-as-the-table",
+        title: "Is the Culet the Same as the Table?",
+        paragraphsBefore: [
+          "No.",
+          "The table is the large upper facet through which the diamond is commonly viewed. The culet is located on the opposite side at the bottom of the pavilion.",
+        ],
+      },
+    ],
+  },
+  whereLocated: {
+    id: "where-the-culet-is-located",
+    title: "Where Is the Culet Located?",
+    introParagraphs: [
+      "Viewed from the side, a polished diamond is generally divided into:",
+    ],
+    bullets: ["Crown", "Girdle", "Pavilion", "Culet or pavilion termination"],
+    closingParagraphs: [
+      "The crown is above the girdle. The pavilion is below it. The culet is at the pavilion’s lowest point.",
+      "When a Round Brilliant is viewed face-up, the culet is seen through the table near the centre of the diamond.",
+      "Its face-up position depends on:",
+    ],
+    positionBullets: [
+      "Facet alignment",
+      "Pavilion symmetry",
+      "Table position",
+      "Culet position",
+      "Viewing angle",
+      "Diamond tilt",
+      "Reflections within the stone",
+    ],
+    finalParagraphs: [
+      "An accurately centred culet should appear near the optical centre when the diamond is held in a suitable face-up position.",
+      "A culet that appears displaced may indicate:",
+    ],
+    displacedBullets: [
+      "The culet is off-centre",
+      "The table is off-centre",
+      "The table and culet are misaligned",
+      "The diamond is tilted",
+      "Reflections are creating a misleading appearance",
+      "The outline or pavilion symmetry requires further examination",
+    ],
+    closingNote: ["A single photograph should not be used to diagnose an off-centre culet."],
+  },
+});
+
+Object.assign(data, {
+  whyHaveCulets: {
+    id: "why-diamonds-have-culets",
+    title: "Why Do Diamonds Have Culets?",
+    introParagraphs: [
+      "A culet facet exists primarily for practical reasons connected to a diamond’s shape and its handling before it is set.",
+      "The point where the pavilion main facets meet is the thinnest and most exposed part of the diamond. Historically, cutters often replaced that point with a small polished facet to reduce its vulnerability.",
+    ],
+    subsections: [
+      {
+        id: "protection-of-the-pavilion-point",
+        title: "Protection of the Pavilion Point",
+        paragraphsBefore: [
+          "A pointed pavilion tip can be exposed to contact during several stages before a diamond is set in jewellery, including:",
+        ],
+        bullets: ["Cutting", "Polishing", "Sorting", "Transport", "Storage", "Handling", "Jewellery manufacture"],
+        paragraphsAfter: [
+          "GIA notes that a pointed culet can be vulnerable to chipping when loose diamonds come into contact with each other or with hard surfaces.",
+          "Once a diamond is securely set in a mounting, the pavilion point is normally protected by the prongs, bezel or other setting style, which reduces its exposure during ordinary wear.",
+        ],
+      },
+      {
+        id: "influence-on-face-up-appearance",
+        title: "Influence on Face-Up Appearance",
+        paragraphsBefore: [
+          "Beyond protection, culet size and finish can influence what an observer sees when looking through the table of a polished diamond. Depending on its size, position and the diamond’s internal reflections, a culet may appear as:",
+        ],
+        bullets: [
+          "A small, hard-to-notice point",
+          "A light-coloured area",
+          "A dark area",
+          "A grey area",
+          "A transparent-looking area",
+          "An octagonal-shaped feature",
+          "A circular-shaped feature",
+          "An irregular-shaped feature",
+        ],
+        paragraphsAfter: [
+          "The exact appearance depends on the individual diamond, including its proportions, symmetry and the lighting environment in which it is viewed.",
+        ],
+      },
+      {
+        id: "why-most-modern-diamonds-have-pointed-or-very-small-culets",
+        title: "Why Do Most Modern Diamonds Have Pointed or Very Small Culets?",
+        paragraphsBefore: [
+          "Modern diamond cutting generally favours None, Very Small or Small culets in a standard Round Brilliant.",
+          "A smaller or absent culet facet helps preserve a continuous central reflection pattern when the diamond is viewed face-up, rather than interrupting it with a separately visible facet.",
+        ],
+      },
+    ],
+  },
+  pointedClosedOpen: {
+    id: "pointed-closed-and-open-culets",
+    title: "Pointed, Closed and Open Culets",
+    introParagraphs: [
+      "Culet-related terminology is used inconsistently across the trade. The table below summarises common terms and clarifies frequent points of confusion.",
+    ],
+    table: {
+      caption: "Common diamond culet terminology",
+      headers: ["Term", "General meaning", "Important clarification"],
+      rows: [
+        ["None", "No separate culet facet is present; the pavilion facets meet at a point", "Also described in the trade as a pointed culet; this is not a missing or incomplete diamond"],
+        ["Pointed", "The pavilion facets converge to a point rather than a flat facet", "Equivalent in practice to a GIA “None” culet description"],
+        ["Closed", "A term sometimes used to describe a very small or absent culet", "Usage varies; always confirm what a specific report or seller means by “closed”"],
+        ["Faceted", "A polished facet is present at the bottom of the pavilion", "May be very small or large depending on the diamond"],
+        ["Open", "A visible facet or opening-like appearance at the culet, common in some antique cuts", "This is a polished facet, not a hole through the diamond"],
+        ["Large open", "A larger, more clearly visible culet facet", "Common and often intentional in Old Mine and Old European cuts"],
+        ["Chipped", "Damage at or near the culet, rather than an intentional polished facet", "Requires separate assessment from clarity and durability perspectives"],
+        ["Off-centre", "The culet is not aligned with the optical centre of the table", "A symmetry consideration, distinct from culet size"],
+      ],
+    },
+    subsections: [
+      {
+        id: "is-an-open-culet-a-hole",
+        title: "Is an Open Culet a Hole?",
+        paragraphsBefore: [
+          "No.",
+          "An “open” culet describes a visible polished facet, not a hole drilled or cut through the diamond. Light entering the diamond can reflect from this facet, which is why it may be visible when viewed face-up.",
+        ],
+      },
+      {
+        id: "does-closed-mean-none",
+        title: "Does Closed Mean None?",
+        paragraphsBefore: [
+          "Sometimes.",
+          "The word “closed” is used inconsistently. In some contexts it refers to a diamond with no separate culet facet. In others, it may refer to a very small culet that is difficult to see. Always confirm the precise meaning intended by a specific report, seller or description rather than assuming a single universal definition.",
+        ],
+      },
+    ],
+  },
+  giaScale: {
+    id: "gia-diamond-culet-scale",
+    title: "GIA Diamond Culet Scale",
+    introParagraphs: [
+      "For a standard Round Brilliant, GIA describes culet size using the following terms, based on visual assessment, typically under 10x magnification.",
+    ],
+    table: {
+      caption: "GIA diamond culet size scale",
+      headers: ["GIA description", "General interpretation", "Practical buyer approach"],
+      rows: [
+        ["None", "No separate culet facet; the pavilion terminates in a point", "Normally no additional visual concern for a modern Round Brilliant"],
+        ["Very Small", "A very small culet facet, typically difficult to see without magnification", "Usually acceptable; inspect if the diamond has other proportion concerns"],
+        ["Small", "A small culet facet that is still generally difficult to notice in normal viewing", "Falls within GIA’s Excellent culet-size range for cut-grade purposes"],
+        ["Medium", "A more noticeable culet facet that may occasionally be visible face-up", "Inspect the actual diamond under magnification and in normal viewing conditions"],
+        ["Slightly Large", "A culet facet that can become visible without magnification in some diamonds", "Examine face-up appearance before purchase"],
+        ["Large", "A clearly visible culet facet in many diamonds", "Assess face-up appearance, symmetry and overall cut carefully"],
+        ["Very Large", "A prominent culet facet, more typical of certain antique cutting styles", "Expected and can be appropriate in genuinely antique diamonds; inspect carefully in modern diamonds"],
+        ["Extremely Large", "The most prominent culet-size category on the GIA scale", "Requires careful visual and cut assessment regardless of cutting style"],
+      ],
+    },
+    richClosingParagraphs: [
+      [
+        { type: "text", value: "GIA’s guidance on " },
+        { type: "link", text: "diamond cut", href: "https://4cs.gia.edu/en-us/diamond-cut/", external: true },
+        { type: "text", value: " explains how culet size fits within the broader proportion and finish assessment for a standard Round Brilliant." },
+      ],
+    ],
+    subsections: [
+      {
+        id: "how-does-gia-calculate-culet-size",
+        title: "How Does GIA Calculate Culet Size?",
+        paragraphsBefore: [
+          "GIA generally expresses culet size by relating the width of the culet facet to the diamond’s average diameter.",
+          "Practical caveats apply to this calculation, including:",
+        ],
+        bullets: [
+          "The measurement depends on accurate assessment of a very small facet",
+          "Different diamonds within the same culet-size category can still vary in appearance",
+          "The resulting figure relates to size only, not to position, symmetry or condition",
+          "Many consumer report formats state the resulting size category rather than the underlying percentage",
+        ],
+      },
+      {
+        id: "what-does-none-mean",
+        title: "What Does “None” Mean?",
+        paragraphsBefore: [
+          "“None” means no separate polished culet facet was identified.",
+          "A standard Round Brilliant is often described as having 57 facets without a culet facet, or 58 facets when the culet is counted as an additional facet. “None” corresponds to the 57-facet description.",
+        ],
+      },
+      {
+        id: "is-none-better-than-very-small",
+        title: "Is None Better Than Very Small?",
+        paragraphsBefore: [
+          "Not automatically.",
+          "Both are normally difficult to notice in ordinary viewing, and both fall within the ranges that GIA associates with its highest cut-grade potential for a standard Round Brilliant. The complete cut assessment depends on many additional proportion and finish factors, not culet size alone.",
+        ],
+      },
+      {
+        id: "is-small-bad",
+        title: "Is a Small Culet Bad?",
+        paragraphsBefore: [
+          "No.",
+          "GIA’s methodology for the Round Brilliant cut grade treats None, Very Small and Small culet sizes as consistent with an Excellent cut-grade assessment, provided the diamond also satisfies the other required proportion and finish criteria.",
+        ],
+      },
+    ],
+  },
+  hrdMeasurements: {
+    id: "hrd-antwerp-culet-measurements",
+    title: "HRD Antwerp Culet Measurements",
+    introParagraphs: [
+      "HRD Antwerp applies its own culet-size guidance, which differs in structure from GIA’s descriptive scale.",
+      "Under HRD’s January 2025 guidance for the Round Brilliant cut, culet size is considered approximately as follows:",
+    ],
+    table: {
+      caption: "HRD Antwerp culet-size guidance (January 2025)",
+      headers: ["Culet description", "Approximate culet size", "Indicative contribution to cut assessment"],
+      rows: [
+        ["Pointed", "Below approximately 0.033 mm, treated as 0.0%", "Consistent with an Excellent culet-size contribution"],
+        ["0.0% to 0.9%", "0.0% to 0.9% of average diameter", "Excellent"],
+        ["1.0% to 1.9%", "1.0% to 1.9% of average diameter", "Very Good"],
+        ["2.0% to 3.9%", "2.0% to 3.9% of average diameter", "Good"],
+        ["4.0% and above", "4.0% of average diameter or larger", "Fair"],
+      ],
+    },
+    closingParagraphs: [
+      "This guidance describes only the culet-size contribution within HRD’s system. It is not, by itself, a guarantee of a diamond’s final overall cut grade, which also depends on other proportion, polish and symmetry factors.",
+    ],
+    subsections: [
+      {
+        id: "why-is-hrds-approach-relevant-to-european-buyers",
+        title: "Why Is HRD’s Approach Relevant to European Buyers?",
+        paragraphsBefore: [
+          "HRD Antwerp is a laboratory based in Antwerp, Belgium, and its reports are commonly encountered by buyers purchasing natural diamonds within the European market.",
+        ],
+        bullets: [
+          "HRD reports may be encountered more frequently when sourcing diamonds through European suppliers",
+          "HRD’s numeric percentage-based approach differs from GIA’s descriptive scale",
+          "Buyers comparing diamonds across laboratories should understand both systems rather than assuming they are identical",
+          "Documentation should always be read in full rather than relying on a single data point",
+        ],
+      },
+    ],
+  },
+  giaVsHrd: {
+    id: "gia-versus-hrd-culet-reporting",
+    title: "GIA Versus HRD Culet Reporting",
+    introParagraphs: [
+      "GIA and HRD Antwerp both assess culet size, but their systems are structured differently and should not be treated as directly interchangeable.",
+    ],
+    table: {
+      caption: "GIA versus HRD culet reporting comparison",
+      headers: ["Feature", "GIA", "HRD Antwerp"],
+      rows: [
+        ["Reporting format", "Descriptive terms (for example None, Small, Medium, Large)", "Percentage-based ranges combined with descriptive terms (for example Excellent, Very Good, Good, Fair)"],
+        ["Underlying measurement", "Culet width expressed as a percentage of average diameter, summarised as a descriptive term on many consumer reports", "Culet size expressed as an approximate percentage, mapped to a cut-contribution category"],
+        ["Cut-grade integration", "One of several factors considered within the overall Round Brilliant cut grade", "One of several factors considered within HRD’s overall cut assessment"],
+        ["Applicable shapes", "Primarily standardised for the Round Brilliant; fancy shapes are not assigned an overall GIA cut grade", "Guidance is primarily structured for the Round Brilliant cut"],
+        ["Report terminology examples", "None, Very Small, Small, Medium, Slightly Large, Large, Very Large, Extremely Large", "Pointed, and percentage ranges mapped to Excellent, Very Good, Good, Fair"],
+      ],
+    },
+    closingParagraphs: [
+      "Because the two systems use different measurement conventions and terminology, buyers should not treat a GIA culet description and an HRD culet description as mathematically equivalent labels for the same physical measurement.",
+      "Examples of incorrect assumptions include:",
+      "Assuming that GIA’s “Medium” corresponds to a specific HRD percentage range without checking the actual measurement.",
+      "Assuming that an HRD “Good” culet-size contribution looks visually identical to any particular GIA culet-size term.",
+      "Assuming that a diamond re-certified by a different laboratory will automatically receive the same descriptive culet term.",
+      "When comparing diamonds across laboratories, examine the complete report and, where possible, the actual diamond, rather than converting one laboratory’s terminology into another’s.",
+    ],
+  },
+  appearance: {
+    id: "how-culet-size-affects-appearance",
+    title: "How Culet Size Affects Face-Up Appearance",
+    introParagraphs: [
+      "Culet size can influence what is visible when a diamond is viewed face-up through the table, although the effect varies between individual diamonds.",
+    ],
+    subsections: [
+      {
+        id: "none-very-small-and-small-culets",
+        title: "None, Very Small and Small Culets",
+        paragraphsBefore: [
+          "These culet sizes are normally difficult to notice without magnification. In most standard Round Brilliant diamonds, they are not expected to create a distracting face-up feature.",
+        ],
+      },
+      {
+        id: "medium-culets",
+        title: "Medium Culets",
+        paragraphsBefore: ["Whether a Medium culet becomes noticeable depends on several factors, including:"],
+        bullets: [
+          "Diamond depth and proportions",
+          "Facet alignment and symmetry",
+          "Lighting conditions",
+          "Contrast against surrounding facets",
+          "Viewing angle",
+          "Individual eyesight and viewing distance",
+        ],
+      },
+      {
+        id: "slightly-large-to-extremely-large-culets",
+        title: "Slightly Large to Extremely Large Culets",
+        paragraphsBefore: [
+          "As culet size increases from Slightly Large through Extremely Large, the culet facet becomes progressively more likely to be visible without magnification in a modern Round Brilliant.",
+          "This does not mean every such diamond looks the same. Visibility still depends on proportions, symmetry, lighting and the diamond’s other characteristics.",
+        ],
+      },
+      {
+        id: "the-black-dot-appearance",
+        title: "The “Black Dot” Appearance",
+        paragraphsBefore: [
+          "A larger culet is sometimes described in the trade as creating a “black dot” or dark central area when viewed face-up.",
+          "This description refers to one possible appearance among several. Depending on the individual diamond and lighting, a visible culet may instead appear light, grey, transparent, or take on a defined shape such as octagonal or circular rather than a simple dark dot.",
+        ],
+      },
+      {
+        id: "culet-related-light-leakage",
+        title: "Culet-Related Light Leakage",
+        paragraphsBefore: [
+          "A larger or improperly positioned culet can, in some diamonds, be associated with light leakage or a reduction in the continuity of the central reflection pattern.",
+          "Light leakage is a broader cut-quality consideration that can also result from other proportion or symmetry factors. A visible culet is one possible contributing factor rather than the only cause of light leakage.",
+        ],
+      },
+    ],
+  },
+  cutGrade: {
+    id: "culet-size-and-diamond-cut-grade",
+    title: "Culet Size and Diamond Cut Grade",
+    introParagraphs: ["GIA’s overall cut grade for a standard Round Brilliant considers several factors together, including:"],
+    bullets: ["Brightness", "Fire", "Scintillation", "Weight ratio", "Durability", "Polish", "Symmetry"],
+    closingParagraphs: [
+      "Culet size is one factor within this broader assessment. GIA does not assign an overall cut grade to fancy-shape diamonds, so culet-related cut-grade discussion in this guide primarily concerns the standard Round Brilliant.",
+    ],
+    subsections: [
+      {
+        id: "can-a-diamond-with-a-larger-culet-receive-an-excellent-cut-grade",
+        title: "Can a Diamond With a Larger Culet Receive an Excellent Cut Grade?",
+        paragraphsBefore: [
+          "Generally, no, once culet size moves beyond the range GIA associates with its Excellent cut-grade category for the Round Brilliant.",
+          "GIA’s published methodology associates its Excellent cut grade with culet sizes of None, Very Small or Small. A Medium or larger culet is generally inconsistent with an overall Excellent cut grade under that methodology, even if other proportions are favourable.",
+        ],
+      },
+      {
+        id: "does-medium-always-mean-a-lower-cut-grade",
+        title: "Does Medium Always Mean a Lower Cut Grade?",
+        paragraphsBefore: [
+          "Not automatically, although it can limit the diamond from reaching GIA’s highest cut-grade category.",
+          "The diamond’s other proportions, polish and symmetry still contribute to whichever overall grade it does receive.",
+        ],
+      },
+      {
+        id: "can-a-diamond-with-a-large-culet-still-be-well-cut",
+        title: "Can a Diamond With a Large Culet Still Be Well Cut?",
+        paragraphsBefore: [
+          "It is possible for a diamond with a larger culet to display good brightness, fire and scintillation, particularly in antique cutting styles that were never assessed under GIA’s modern Round Brilliant cut-grading system.",
+          "For a modern Round Brilliant specifically submitted for a GIA overall cut grade, however, a larger culet is likely to limit the highest achievable grade category.",
+        ],
+      },
+      {
+        id: "round-brilliant-excellent-cut-grade-criteria",
+        title: "Round Brilliant Excellent Cut-Grade Criteria",
+        paragraphsBefore: [
+          "Among the multiple criteria GIA applies when assessing a standard Round Brilliant for its Excellent overall cut grade are limits relating to lower-half facet length, star facet length and culet size, alongside table size, crown angle, pavilion angle and other proportions.",
+          "For example, GIA’s published parameters for an Excellent cut grade include a lower-half facet length of approximately 65% or less, a star facet length of approximately 50% or less, and a culet size of Medium or smaller.",
+        ],
+        paragraphsAfter: [
+          "These figures illustrate that culet size is only one of several interacting proportion requirements rather than a stand-alone determinant of cut grade.",
+        ],
+      },
+    ],
+  },
+  centredOffCentre: {
+    id: "centred-and-off-centre-culets",
+    title: "Centred and Off-Centre Culets",
+    introParagraphs: [
+      "Culet assessment involves at least three related but distinct considerations: culet size, culet position and alignment between the table and the culet.",
+    ],
+    bullets: [
+      "Culet size: how large the culet facet is",
+      "Culet position: where the culet is located relative to the pavilion’s overall geometry",
+      "Table-culet alignment: whether the table and culet appear centred relative to each other when viewed face-up",
+    ],
+    closingParagraphs: [
+      "An off-centre culet can affect the visual symmetry of the diamond’s central reflection pattern, independently of the culet’s size category.",
+    ],
+    subsections: [
+      {
+        id: "is-an-off-centre-culet-fake",
+        title: "Is an Off-Centre Culet a Sign of a Fake Diamond?",
+        paragraphsBefore: [
+          "No.",
+          "An off-centre culet is a cutting or symmetry characteristic. It does not, by itself, indicate that a diamond is not genuine or not natural.",
+        ],
+      },
+      {
+        id: "can-a-photograph-mislead-buyers-about-culet-position",
+        title: "Can a Photograph Mislead Buyers About Culet Position?",
+        paragraphsBefore: [
+          "Yes.",
+          "A single still photograph, particular lighting angle or camera distortion can make a centred culet appear off-centre, or make a genuinely off-centre culet difficult to notice. Where possible, review video from multiple angles or request a professional in-person or remote inspection before relying on a single image.",
+        ],
+      },
+      {
+        id: "should-a-diamond-be-rejected-automatically-for-an-off-centre-culet",
+        title: "Should a Diamond Be Rejected Automatically for an Off-Centre Culet?",
+        paragraphsBefore: [
+          "Not automatically.",
+          "The significance of an off-centre culet depends on how noticeable it is face-up, its relationship to the diamond’s broader symmetry grade, and the buyer’s own visual preference. Inspect the actual diamond, ideally alongside its full grading report, before deciding.",
+        ],
+      },
+    ],
+  },
+  shapes: {
+    id: "culets-in-different-diamond-shapes",
+    title: "Culets in Different Diamond Shapes",
+    introParagraphs: ["Culet appearance and relevance vary across diamond shapes and cutting styles."],
+    subsections: [
+      {
+        id: "round-brilliant-culets",
+        title: "Round Brilliant",
+        paragraphsBefore: [
+          "The standard Round Brilliant is the shape for which GIA’s Round Brilliant culet-size scale and overall cut grade are specifically designed. None, Very Small and Small culets are generally associated with its highest cut-grade category.",
+        ],
+      },
+      {
+        id: "oval-culets",
+        title: "Oval",
+        paragraphsBefore: [
+          "Oval diamonds do not receive an overall GIA cut grade. Culet size and position should be assessed visually alongside the diamond’s brightness, symmetry, bow-tie effect and overall proportions.",
+        ],
+      },
+      {
+        id: "pear-and-marquise-culets",
+        title: "Pear and Marquise",
+        paragraphsBefore: [
+          "Pear and Marquise diamonds also do not receive an overall GIA cut grade. Their elongated outlines and pointed ends mean culet position and symmetry should be considered together with the diamond’s overall outline and light performance.",
+        ],
+      },
+      {
+        id: "cushion-culets",
+        title: "Cushion",
+        paragraphsBefore: [
+          "Cushion diamonds vary considerably in facet style and proportions. Culet size and visibility should be assessed on the individual diamond rather than assumed from the shape alone.",
+        ],
+      },
+      {
+        id: "old-mine-cut-culets",
+        title: "Old Mine Cut",
+        paragraphsBefore: [
+          "The Old Mine cut is an antique cutting style historically associated with a larger, often clearly visible culet facet. This is generally considered a characteristic of the style rather than a flaw.",
+        ],
+      },
+      {
+        id: "emerald-and-asscher-culets",
+        title: "Emerald and Asscher Cuts",
+        paragraphsBefore: [
+          "Step-cut diamonds such as Emerald and Asscher cuts have broader, more open facet patterns. A culet, when present, may be more easily observed directly because of the step-cut facet arrangement.",
+        ],
+      },
+      {
+        id: "princess-and-radiant-culets",
+        title: "Princess and Radiant",
+        paragraphsBefore: [
+          "Princess and Radiant cuts are modified brilliant styles with their own facet arrangements. Culet size and position should be inspected on the individual diamond, since these shapes do not receive an overall GIA cut grade.",
+        ],
+      },
+    ],
+  },
+  antique: {
+    id: "antique-and-vintage-diamond-culets",
+    title: "Antique and Vintage Diamond Culets",
+    introParagraphs: [
+      "Antique and vintage cutting styles were produced with different tools, techniques and aesthetic preferences than modern diamonds, and their culets should be assessed with that context in mind.",
+    ],
+    richClosingParagraphs: [
+      [
+        { type: "text", value: "GIA’s guidance on the " },
+        { type: "link", text: "Old Mine cut", href: "https://4cs.gia.edu/en-us/old-mine-cut-diamond/", external: true },
+        { type: "text", value: " describes characteristics historically associated with this antique cutting style, including its culet." },
+      ],
+    ],
+    subsections: [
+      {
+        id: "old-mine-cut-characteristics",
+        title: "Old Mine Cut Characteristics",
+        paragraphsBefore: [
+          "The Old Mine cut is an antique cutting style generally associated with a more cushion-like outline, a higher crown, and a larger, often clearly visible culet facet compared with a modern Round Brilliant.",
+        ],
+      },
+      {
+        id: "old-european-cut-culets",
+        title: "Old European Cut Culets",
+        paragraphsBefore: [
+          "The Old European cut is a later antique style that generally has a smaller culet than a typical Old Mine cut.",
+          "Even so, an Old European cut’s culet is generally still more visible than that of a modern Round Brilliant cut to GIA’s contemporary Excellent-range proportions.",
+        ],
+      },
+      {
+        id: "is-a-large-culet-a-defect-in-an-antique-diamond",
+        title: "Is a Large Culet a Defect in an Antique Diamond?",
+        paragraphsBefore: [
+          "Not automatically.",
+          "A larger, visible culet can be a characteristic feature of genuine antique cutting styles rather than a manufacturing flaw.",
+        ],
+      },
+      {
+        id: "does-a-large-culet-prove-a-diamond-is-antique",
+        title: "Does a Large Culet Prove a Diamond Is Antique?",
+        paragraphsBefore: [
+          "No.",
+          "A large culet alone does not prove that a diamond is genuinely antique. Establishing whether a diamond is an authentic antique cut, a modern reproduction or a recut stone requires assessment of its complete proportions, facet arrangement, inclusions and other characteristics, ideally supported by professional or laboratory documentation.",
+        ],
+      },
+      {
+        id: "should-an-antique-culet-be-recut",
+        title: "Should an Antique Culet Be Recut?",
+        paragraphsBefore: [
+          "Not automatically.",
+          "Recutting an antique diamond to reduce or remove its culet, or to convert it toward modern proportions, can permanently change its historic character and may reduce its appeal to buyers who specifically seek genuine antique cutting styles.",
+          "Consequences of recutting can include:",
+        ],
+        bullets: [
+          "Loss of original carat weight",
+          "Loss of the historic facet pattern and proportions",
+          "Reduced appeal to antique-diamond buyers and collectors",
+          "An outcome that cannot be reversed",
+        ],
+        paragraphsAfter: [
+          "Any recutting decision should be considered carefully and discussed with a qualified professional before proceeding.",
+        ],
+      },
+    ],
+  },
+  damage: {
+    id: "culet-damage-and-chipping",
+    title: "Culet Damage and Chipping",
+    introParagraphs: ["A culet facet that was intentionally polished during cutting is different from damage that occurs afterwards."],
+    subsections: [
+      {
+        id: "intentional-facet-versus-chip-warning-signs",
+        title: "Intentional Facet Versus Chip: Warning Signs",
+        paragraphsBefore: ["Signs that may indicate damage rather than an intentional culet facet include:"],
+        bullets: [
+          "An irregular or jagged outline rather than a clean polished shape",
+          "Visible feathering or breakage extending from the culet area",
+          "A rough or unpolished surface texture at the culet",
+          "A grading report comment specifically noting a chip or damage at the culet",
+          "A recent impact, drop or other incident affecting the diamond",
+        ],
+      },
+      {
+        id: "is-a-chipped-culet-the-same-as-a-none-culet",
+        title: "Is a Chipped Culet the Same as a “None” Culet?",
+        paragraphsBefore: [
+          "No.",
+          "“None” describes the absence of a separate polished culet facet, with the pavilion terminating cleanly in a point. A chip is damage, and a report will normally note it separately as a clarity characteristic or comment rather than simply describing the culet as “None.”",
+        ],
+      },
+      {
+        id: "how-is-culet-damage-recorded-on-a-report",
+        title: "How Is Culet Damage Recorded on a Report?",
+        paragraphsBefore: [
+          "Culet damage is generally treated as a clarity characteristic and may be noted in the report’s comments section, plotted on a clarity diagram, or both, depending on the laboratory and report type.",
+        ],
+      },
+      {
+        id: "is-a-chipped-culet-dangerous",
+        title: "Is a Chipped Culet Dangerous to the Diamond’s Durability?",
+        paragraphsBefore: [
+          "A chip can be a starting point for further damage if it is struck again, particularly if the diamond is worn or handled roughly. It is not necessarily dangerous in every case, but it does warrant professional assessment.",
+        ],
+      },
+      {
+        id: "can-a-culet-chip-while-a-diamond-is-set",
+        title: "Can a Culet Chip While a Diamond Is Set?",
+        paragraphsBefore: [
+          "It is less common than damage occurring while a diamond is loose, because a securely set diamond’s culet is normally protected by the setting. However, a severe impact could still cause damage even while the diamond is set.",
+        ],
+      },
+      {
+        id: "why-loose-diamonds-require-careful-handling",
+        title: "Why Do Loose Diamonds Require Careful Handling?",
+        paragraphsBefore: [
+          "Loose diamonds, particularly those with a pointed or very small culet, can be more exposed to abrasion or chipping if they strike each other or hard surfaces. Careful, individual handling and storage reduce this risk.",
+        ],
+      },
+    ],
+  },
+  vsOtherFeatures: {
+    id: "culet-versus-other-diamond-features",
+    title: "Culet Versus Other Diamond Features",
+    introParagraphs: [
+      "The culet is sometimes confused with other facets or characteristics recorded on a grading report. The table below distinguishes the culet from related terms.",
+    ],
+    table: {
+      caption: "Culet compared with other diamond features",
+      headers: ["Feature", "Definition", "How it differs from a culet"],
+      rows: [
+        ["Extra facet", "An additional facet not part of the standard faceting pattern", "An extra facet can occur anywhere on the diamond; it is a separate clarity characteristic from the culet facet itself"],
+        ["Natural", "A small remnant of the original rough diamond’s surface, usually left near the girdle", "A natural is a clarity characteristic located at or near the girdle, not the pavilion’s bottom point"],
+        ["Chip", "Damage causing a small piece to break away from the diamond’s surface", "A chip can occur at the culet or elsewhere; an intentional culet facet is not a chip"],
+        ["Cavity", "An opening or indentation below the diamond’s surface", "A cavity is a clarity characteristic that can occur in various locations, distinct from the culet facet"],
+        ["Inclusion", "An internal clarity characteristic within the diamond", "Inclusions are unrelated to the presence or size of the culet facet"],
+        ["Reflection", "A visual duplication of internal facets or inclusions seen through the diamond’s facets", "A reflection is an optical effect, not a physical facet like the culet"],
+        ["Keel line", "The ridge-like line found at the bottom of certain fancy-shape pavilions, such as Pear or Marquise cuts, replacing a single culet point", "A keel line is a linear pavilion termination used in some shapes instead of a single-point culet"],
+        ["Girdle", "The narrow band forming the diamond’s outer edge between the crown and pavilion", "The girdle is a separate structural boundary, located away from the culet at the pavilion’s bottom"],
+        ["Bow tie", "A dark, bow-tie-shaped area sometimes visible in elongated shapes such as Oval, Marquise and Pear cuts", "A bow tie results from the diamond’s overall geometry and light behaviour, not specifically from culet size"],
+      ],
+    },
+  },
+  price: {
+    id: "culet-size-and-diamond-price",
+    title: "Culet Size and Diamond Price",
+    introParagraphs: [
+      "Culet size can influence a diamond’s price indirectly, primarily through its relationship with overall cut grade and buyer preference. There is no universal, fixed culet-related discount or premium.",
+    ],
+    subsections: [
+      {
+        id: "modern-diamonds-and-culet-related-price",
+        title: "Modern Diamonds and Culet-Related Price",
+        paragraphsBefore: [
+          "In a modern Round Brilliant, a larger culet that limits the achievable cut grade may correspond to a lower price relative to an otherwise similar diamond with an Excellent cut grade.",
+          "The price relationship reflects the overall cut-grade outcome and market demand for that grade, rather than culet size in isolation.",
+        ],
+      },
+      {
+        id: "antique-diamonds-and-culet-related-price",
+        title: "Antique Diamonds and Culet-Related Price",
+        paragraphsBefore: [
+          "In genuine antique diamonds, a larger culet is often expected and is generally not treated as a price-reducing flaw by buyers who specifically seek antique cutting styles.",
+          "Value for antique diamonds tends to depend more on authenticity, condition, craftsmanship, provenance and rarity than on culet size alone.",
+        ],
+      },
+      {
+        id: "chipped-culets-and-price",
+        title: "Chipped Culets and Price",
+        paragraphsBefore: [
+          "A chipped or damaged culet is treated as a clarity-related consideration and may affect price depending on its visibility, size and the diamond’s overall clarity grade.",
+          "The specific impact should be assessed on the individual diamond and its complete grading report rather than assumed in advance.",
+        ],
+      },
+      {
+        id: "no-fixed-culet-pricing-formula",
+        title: "No Fixed Culet-Pricing Formula",
+        paragraphsBefore: ["Avoid assumptions such as:"],
+        bullets: [
+          "A Medium culet always reduces price by a fixed percentage.",
+          "A Large culet always makes a diamond a bargain.",
+          "An antique diamond’s large culet always increases its value.",
+          "A None culet always commands the highest fair price.",
+        ],
+        paragraphsAfter: [
+          "A proper price comparison requires diamonds that are genuinely similar in shape, carat weight, colour, clarity, cut or visual performance, measurements, documentation and transaction conditions.",
+        ],
+      },
+    ],
+  },
+  naturalVsLab: {
+    id: "natural-versus-laboratory-grown-diamond-culets",
+    title: "Natural Versus Laboratory-Grown Diamond Culets",
+    introParagraphs: [
+      "Culet size and style are primarily the result of a cutting decision made by the person or workshop shaping the diamond, rather than an inherent property that differs systematically between natural and laboratory-grown diamonds.",
+      "Both natural and laboratory-grown diamonds can be cut with None, Small, Medium or larger culets, and both can be produced in modern or antique-inspired cutting styles.",
+      "A culet, by itself, cannot establish whether a diamond formed naturally over geological time or was produced in a controlled laboratory environment.",
+      "Reliable determination of a diamond’s origin requires appropriate documentation from a qualified gemmological laboratory rather than visual inspection of the culet or any single facet.",
+    ],
+  },
+  howToInspect: {
+    id: "how-to-inspect-a-diamond-culet",
+    title: "How to Inspect a Diamond Culet",
+    introParagraphs: [
+      "A structured inspection process helps buyers assess a diamond’s culet in proper context, alongside its complete quality profile.",
+    ],
+    subsections: [
+      {
+        id: "step-1-read-the-complete-grading-report",
+        title: "Step 1: Read the Complete Grading Report",
+        paragraphsBefore: ["Confirm:"],
+        bullets: [
+          "The issuing laboratory",
+          "Report type and number",
+          "Diamond shape and measurements",
+          "Culet size, as described",
+          "Cut grade, where assigned",
+          "Polish and symmetry",
+          "Colour and clarity grades",
+          "Clarity characteristics and comments",
+          "Any noted damage",
+        ],
+      },
+      {
+        id: "step-2-verify-that-the-report-matches-the-diamond",
+        title: "Step 2: Verify That the Report Matches the Diamond",
+        paragraphsBefore: ["Match available identifiers such as:"],
+        bullets: [
+          "Laser inscription",
+          "Measurements",
+          "Carat weight",
+          "Shape",
+          "Clarity characteristics",
+          "Report number",
+          "Professional inspection results",
+        ],
+      },
+      {
+        id: "step-3-examine-the-culet-under-magnification",
+        title: "Step 3: Examine the Culet Under Magnification",
+        paragraphsBefore: ["Use a loupe or microscope to check:"],
+        bullets: [
+          "Whether a facet is present or the pavilion terminates in a point",
+          "The apparent size of any facet",
+          "Whether the facet appears cleanly polished",
+          "Any signs of chipping or damage",
+          "Approximate centring relative to the table",
+        ],
+      },
+      {
+        id: "step-4-view-the-diamond-face-up",
+        title: "Step 4: View the Diamond Face-Up",
+        paragraphsBefore: ["Hold or place the diamond table-up under suitable lighting and check:"],
+        bullets: [
+          "Whether a culet is visible without magnification",
+          "Its apparent size, shape and colour",
+          "Whether it appears centred",
+          "Whether it interrupts the central reflection pattern",
+        ],
+      },
+      {
+        id: "step-5-compare-face-up-appearance-in-different-lighting",
+        title: "Step 5: Compare Face-Up Appearance in Different Lighting",
+        paragraphsBefore: ["Culet visibility can vary with lighting. Compare the diamond under:"],
+        bullets: ["Normal indoor lighting", "Bright, focused lighting", "Natural daylight where possible"],
+      },
+      {
+        id: "step-6-assess-overall-cut-and-symmetry",
+        title: "Step 6: Assess Overall Cut and Symmetry",
+        paragraphsBefore: ["Culet size should be considered together with:"],
+        bullets: ["Proportions", "Polish", "Symmetry", "Brightness", "Fire", "Scintillation"],
+      },
+      {
+        id: "step-7-consider-the-cutting-style",
+        title: "Step 7: Consider the Cutting Style",
+        paragraphsBefore: [
+          "Determine whether the diamond is a modern Round Brilliant, a modern fancy shape, or an antique style such as an Old Mine or Old European cut.",
+          "Expectations for an appropriate culet size differ between these categories.",
+        ],
+      },
+      {
+        id: "step-8-check-for-damage-specifically",
+        title: "Step 8: Check for Damage Specifically",
+        paragraphsBefore: [
+          "Distinguish an intentional polished facet from a chip by reviewing the report’s clarity comments and, where possible, requesting professional confirmation.",
+        ],
+      },
+      {
+        id: "step-9-compare-with-a-similar-diamond",
+        title: "Step 9: Compare With a Similar Diamond",
+        paragraphsBefore: [
+          "Where possible, compare the diamond with another of similar shape, carat weight, colour, clarity and cut but a different culet description, to assess whether the difference is visually meaningful to you.",
+        ],
+      },
+      {
+        id: "step-10-obtain-professional-inspection-where-appropriate",
+        title: "Step 10: Obtain Professional Inspection Where Appropriate",
+        paragraphsBefore: ["Professional inspection becomes more valuable when:"],
+        bullets: [
+          "The culet is described as Large, Very Large or Extremely Large on a modern diamond",
+          "Damage or chipping is suspected",
+          "The diamond is presented as a genuine antique cut",
+          "The report is old or details do not match the physical diamond",
+          "The diamond is being purchased remotely",
+          "Natural origin is not clearly documented",
+        ],
+      },
+    ],
+    step1RichParagraphs: [
+      [
+        { type: "text", value: "Use the separate " },
+        { type: "link", text: "Diamond Grading Report Guide", href: "/resources/diamond-grading-report-guide" },
+        { type: "text", value: " for the complete report-verification process." },
+      ],
+    ],
+  },
+  workedComparison: {
+    id: "worked-diamond-comparison",
+    title: "Worked Diamond Culet Comparison",
+    introParagraphs: ["Consider four hypothetical natural diamonds."],
+    table: {
+      caption: "Worked culet comparison of four natural diamonds",
+      headers: ["Characteristic", "Diamond A", "Diamond B", "Diamond C", "Diamond D"],
+      rows: [
+        ["Shape", "Round Brilliant", "Round Brilliant", "Old Mine cut (antique)", "Round Brilliant"],
+        ["Carat", "1.00 ct", "1.00 ct", "1.20 ct", "1.00 ct"],
+        ["Colour", "G", "G", "J", "G"],
+        ["Clarity", "VS2", "VS2", "SI1", "VS2"],
+        ["Culet", "None", "Large", "Very Large", "Large, with a noted chip"],
+        ["Cut grade", "Excellent", "Very Good", "Not applicable (antique, not GIA-cut-graded)", "Not applicable (chip noted)"],
+        ["Price", "Reference price", "Lower than Diamond A", "Priced according to antique-market factors", "Lower than Diamond A, reflecting the clarity-related chip"],
+      ],
+    },
+    analyses: [
+      {
+        title: "Comparing Diamonds A and B",
+        paragraphsBefore: [
+          "Both are modern Round Brilliants with the same colour, clarity and carat weight. The stated difference is culet size, which corresponds to a different overall cut grade.",
+          "The buyer should consider:",
+        ],
+        bullets: [
+          "Is the Large culet visible face-up on Diamond B?",
+          "Does the visible culet noticeably interrupt Diamond B’s central reflection pattern?",
+          "How does the price difference compare with the visual difference?",
+          "Is Diamond B’s overall brightness, fire and scintillation still acceptable?",
+        ],
+        paragraphsAfter: [
+          "If Diamond B remains visually attractive to the buyer despite its lower cut grade, its lower price may represent good value. If the visible culet is distracting, Diamond A’s Excellent cut grade may be preferred.",
+        ],
+      },
+      {
+        title: "Comparing Diamonds A and C",
+        paragraphsBefore: [
+          "Diamond C is a genuine antique Old Mine cut with a Very Large culet, a warmer colour grade and a different clarity grade. It is not assessed under GIA’s modern Round Brilliant cut-grading system.",
+          "Its Very Large culet is generally a characteristic of the cutting style rather than a manufacturing flaw. Directly comparing it against Diamond A’s modern cut-grade criteria would not be an appropriate comparison.",
+        ],
+        bullets: [
+          "Authenticity and condition of the antique cutting",
+          "Historic facet pattern and proportions",
+          "Overall handcrafted appearance",
+          "Buyer’s preference for modern brilliance versus antique character",
+        ],
+        paragraphsAfter: [
+          "The two diamonds serve different buyer preferences rather than representing a simple “better or worse” comparison.",
+        ],
+      },
+      {
+        title: "Comparing Diamonds C and D",
+        paragraphsBefore: [
+          "Diamond C has an intentional Very Large culet consistent with its antique cutting style. Diamond D has a Large culet with a noted chip, which is a damage-related clarity consideration rather than an intentional design characteristic.",
+          "The buyer should distinguish between:",
+        ],
+        bullets: [
+          "An intentional, cleanly polished antique culet facet (Diamond C)",
+          "Damage requiring separate clarity and durability assessment (Diamond D)",
+        ],
+        paragraphsAfter: [
+          "Diamond D’s price reduction reflects the clarity-related chip, not simply a larger culet size.",
+        ],
+      },
+      {
+        title: "What This Comparison Demonstrates",
+        paragraphsBefore: [
+          "A culet description alone cannot determine whether a diamond is a good purchase.",
+          "The decision still depends on:",
+        ],
+        bullets: [
+          "Cutting style and shape",
+          "Overall cut, colour, clarity and carat weight",
+          "Whether the culet is an intentional facet or damage",
+          "Face-up visual appearance",
+          "Price relative to genuinely comparable diamonds",
+          "Personal preference for modern or antique character",
+        ],
+        paragraphsAfter: [],
+      },
+    ],
+  },
+  myths: {
+    id: "common-culet-myths",
+    title: "Common Diamond Culet Myths",
+    introParagraphs: [],
+    table: {
+      caption: "Common diamond culet myths and accurate interpretations",
+      headers: ["Myth", "Accurate interpretation"],
+      rows: [
+        ["A “None” culet means the diamond is incomplete or defective", "“None” means no separate culet facet is present; the pavilion terminates cleanly in a point, which is a normal and often preferred outcome for a modern Round Brilliant"],
+        ["An open culet is a hole in the diamond", "An open culet is a polished facet, not a hole or opening through the diamond"],
+        ["Every visible culet is a defect", "A visible culet can be an intentional and appropriate characteristic, particularly in antique cutting styles"],
+        ["A large culet proves a diamond is antique", "A large culet alone does not prove antique origin; authenticity requires assessment of the diamond’s complete proportions and characteristics"],
+        ["A Small culet prevents a diamond from receiving an Excellent cut grade", "GIA associates None, Very Small and Small culet sizes with its Excellent cut-grade category for the Round Brilliant, provided other criteria are also met"],
+        ["Culet size alone determines a diamond’s cut grade", "Cut grade depends on multiple interacting factors, including proportions, polish, symmetry and brightness, not culet size alone"],
+        ["A large culet always destroys a diamond’s sparkle", "A large culet can affect the central reflection pattern, but overall sparkle depends on proportions, symmetry and craftsmanship as a whole"],
+        ["An off-centre culet proves a diamond is fake", "An off-centre culet is a symmetry characteristic and does not, by itself, indicate that a diamond is not genuine"],
+        ["GIA and HRD culet terms are directly equivalent", "The two laboratories use different measurement conventions and terminology that should not be treated as interchangeable"],
+        ["A culet proves a diamond’s natural origin", "Culet size and style result from a cutting decision and cannot establish natural or laboratory-grown origin"],
+        ["There is a fixed price discount for every culet size", "Culet-related pricing depends on cut grade, market preference, laboratory and the individual diamond; there is no universal fixed discount"],
+        ["Every antique diamond with a large culet should be recut", "Recutting is not automatic; it can permanently alter historic character, reduce carat weight and lower appeal to antique-diamond buyers"],
+        ["A chipped culet is the same as a “None” culet", "A chip is damage recorded as a clarity characteristic; “None” describes the absence of a separate polished facet with no damage implied"],
+        ["A visible culet always looks like a black dot", "A visible culet can appear dark, light, grey, transparent or take on a defined shape depending on the individual diamond and lighting"],
+      ],
+    },
+  },
+  checklist: {
+    id: "natural-diamond-buying-checklist",
+    title: "Natural Diamond Culet Checklist",
+    introLead: "Before purchasing, confirm:",
+    items: [
+      "The diamond is explicitly identified as natural on credible documentation.",
+      "The complete grading report has been provided.",
+      "The report number has been verified.",
+      "The report has been matched with the physical diamond.",
+      "Culet size has been read from the report.",
+      "Culet position and centring have been considered, not size alone.",
+      "Whether the culet is a polished facet, a pointed termination or damage has been established.",
+      "The issuing laboratory’s specific culet-reporting system is understood.",
+      "GIA and HRD (or other laboratory) culet terms have not been assumed to be directly equivalent.",
+      "The diamond’s overall cut grade or visual performance has been assessed, not culet size in isolation.",
+      "The diamond has been viewed face-up under normal lighting.",
+      "The diamond has been examined under magnification.",
+      "Any chip, damage or clarity comment near the culet has been reviewed.",
+      "The cutting style, modern or antique, has been identified.",
+      "Antique-style diamonds have been assessed against antique-appropriate expectations rather than modern Round Brilliant criteria.",
+      "No assumption has been made that a large culet proves antique authenticity.",
+      "No assumption has been made that culet size alone determines origin.",
+      "The asking price has been compared with genuinely similar stones.",
+      "No fixed culet-related discount or premium has been assumed.",
+      "Photographs and video show the actual diamond, ideally from multiple angles.",
+      "Professional inspection has been arranged where appropriate.",
+      "Payment, delivery and inspection terms are clear.",
+    ],
+  },
+  cta: {
+    id: "already-comparing-natural-diamonds",
+    title: "Already Comparing Natural Diamonds With Different Culets?",
+    richParagraphs: [
+      [
+        {
+          type: "text",
+          value: "A culet description should be considered alongside the diamond’s shape, cutting style, cut grade, colour, clarity, carat weight, documentation, price and actual face-up appearance.",
+        },
+      ],
+      [
+        { type: "text", value: "With " },
+        { type: "link", text: "S2S – Secure To Source", href: "/secure-to-source" },
+        {
+          type: "text",
+          value: ", buyers who have already shortlisted a loose natural diamond can submit it to Dalila Diamonds for applicable quality-control coordination, euro payment and scheduled delivery to Belgium or another confirmed European Union destination.",
+        },
+      ],
+      [
+        { type: "text", value: "If you have not yet selected a diamond, use " },
+        { type: "link", text: "DS4U – Diamond Source For You", href: "/diamond-source" },
+        { type: "text", value: " to request customised natural-diamond sourcing assistance." },
+      ],
+    ],
+    primaryButtonText: "Submit a Shortlisted Diamond",
+    primaryButtonHref: "/contact",
+    secondaryButtonText: "Browse Natural Diamonds",
+    secondaryButtonHref: "/inventory",
+  },
+  faqs: {
+    title: "Frequently Asked Questions About Diamond Culets",
+    items: [
+      {
+        question: "What is a culet on a diamond?",
+        answer: "The culet is the area at the very bottom of a diamond’s pavilion, directly opposite the table. It may be a pointed termination with no separate facet, or a small to large polished facet, depending on how the diamond was cut.",
+      },
+      {
+        question: "What does culet mean on a grading report?",
+        answer: "It describes the size, and sometimes the condition, of the facet or point at the bottom of the pavilion. GIA reports on standard Round Brilliants use terms from None through Extremely Large.",
+      },
+      {
+        question: "Is a culet good or bad?",
+        answer: "Neither automatically. In a modern Round Brilliant, None, Very Small or Small culets are generally preferred. In genuine antique cuts, a larger, visible culet can be an intentional and appropriate part of the diamond’s character.",
+      },
+      {
+        question: "What does “None” mean for a diamond’s culet?",
+        answer: "“None” means there is no separate polished culet facet. The pavilion facets meet at a point, sometimes described in the trade as a pointed culet. It does not mean the diamond is incomplete.",
+      },
+      {
+        question: "Is a pointed culet the same as a “None” culet?",
+        answer: "In practice, yes. “Pointed” and “None” both describe a pavilion that terminates at a point rather than a separate polished facet.",
+      },
+      {
+        question: "What is a Very Small culet?",
+        answer: "Very Small describes a very small polished culet facet that is typically difficult to see without magnification. It falls within GIA’s range associated with its highest cut-grade category.",
+      },
+      {
+        question: "What is a Small culet?",
+        answer: "Small describes a small polished culet facet that is generally difficult to notice in normal viewing. GIA treats Small as consistent with an Excellent cut-grade assessment, provided other criteria are also met.",
+      },
+      {
+        question: "What is a Medium culet?",
+        answer: "Medium describes a more noticeable culet facet that may occasionally be visible face-up depending on the diamond’s proportions and lighting. It can limit a modern Round Brilliant from reaching GIA’s highest cut-grade category.",
+      },
+      {
+        question: "What is a Slightly Large culet?",
+        answer: "Slightly Large describes a culet facet that can become visible without magnification in some diamonds. Face-up appearance should be examined before purchase.",
+      },
+      {
+        question: "What is a Large culet?",
+        answer: "Large describes a clearly visible culet facet in many diamonds. It should be assessed together with the diamond’s face-up appearance, symmetry and overall cut.",
+      },
+      {
+        question: "What is a Very Large or Extremely Large culet?",
+        answer: "These describe increasingly prominent culet facets. They are more typical of certain antique cutting styles and require careful visual and cut assessment in modern diamonds.",
+      },
+      {
+        question: "Does GIA calculate culet size as a percentage?",
+        answer: "GIA generally relates the culet facet’s width to the diamond’s average diameter and expresses the result through descriptive size categories on many consumer report formats.",
+      },
+      {
+        question: "Is a “None” culet better than a “Very Small” culet?",
+        answer: "Not automatically. Both are normally difficult to notice and both fall within GIA’s range associated with higher cut-grade potential. The complete cut assessment depends on additional proportion and finish factors.",
+      },
+      {
+        question: "Is a Small culet a defect?",
+        answer: "No. GIA treats None, Very Small and Small culet sizes as consistent with an Excellent cut-grade assessment for a standard Round Brilliant, provided the diamond also meets other proportion and finish criteria.",
+      },
+      {
+        question: "How does HRD Antwerp measure culet size?",
+        answer: "Under HRD’s January 2025 guidance, culet size is expressed as an approximate percentage of average diameter, mapped to categories such as Excellent, Very Good, Good and Fair, alongside a Pointed description for the smallest culets.",
+      },
+      {
+        question: "Why does HRD’s culet guidance matter to European buyers?",
+        answer: "HRD Antwerp is based in Belgium and its reports are commonly encountered when sourcing diamonds through European suppliers. Understanding its percentage-based system helps buyers compare reports issued by different laboratories.",
+      },
+      {
+        question: "Are GIA and HRD culet scales the same?",
+        answer: "No. GIA uses descriptive terms while HRD uses percentage ranges mapped to descriptive categories. The two systems should not be treated as directly interchangeable.",
+      },
+      {
+        question: "Does an HRD “Good” culet rating correspond to a specific GIA term?",
+        answer: "Not reliably. The two laboratories use different measurement conventions, so a percentage-based HRD category should not be assumed to match a particular GIA descriptive term without checking the actual measurement.",
+      },
+      {
+        question: "Is an open culet a hole in the diamond?",
+        answer: "No. An open culet is a visible polished facet, not a hole or opening drilled through the diamond.",
+      },
+      {
+        question: "Does “closed” always mean the same thing as “None”?",
+        answer: "Not always. “Closed” is used inconsistently in the trade to mean either no separate culet facet or a very small, hard-to-see facet. Confirm the specific meaning intended in a given context.",
+      },
+      {
+        question: "Is a chipped culet the same as a “None” culet?",
+        answer: "No. “None” describes a clean pavilion termination with no separate facet. A chip is damage, and it is normally recorded separately as a clarity characteristic or report comment.",
+      },
+      {
+        question: "Is a chipped culet dangerous?",
+        answer: "A chip can be a starting point for further damage if struck again, particularly while the diamond is loose or handled roughly. It is not automatically dangerous, but professional assessment is recommended.",
+      },
+      {
+        question: "Can a culet chip while a diamond is set in jewellery?",
+        answer: "It is less common than damage occurring while loose, because a set diamond’s culet is normally protected by the mounting. A severe impact could still cause damage even while set.",
+      },
+      {
+        question: "Why are loose diamonds more vulnerable at the culet?",
+        answer: "A pointed or very small culet can be exposed to abrasion or chipping if loose diamonds strike each other or hard surfaces during cutting, sorting, transport, storage or handling.",
+      },
+      {
+        question: "Can a diamond with a Medium culet receive an Excellent cut grade?",
+        answer: "Generally, no. GIA’s Excellent cut-grade methodology for a standard Round Brilliant is associated with None, Very Small or Small culet sizes.",
+      },
+      {
+        question: "Does a Medium culet always mean a lower cut grade?",
+        answer: "It can limit the diamond from reaching GIA’s highest cut-grade category, but the diamond’s other proportions, polish and symmetry still contribute to whichever overall grade it receives.",
+      },
+      {
+        question: "Can a diamond with a Large culet still be well cut?",
+        answer: "It is possible, particularly in antique cutting styles never assessed under GIA’s modern cut-grading system. In a modern Round Brilliant submitted for a GIA cut grade, a Large culet is likely to limit the highest achievable grade.",
+      },
+      {
+        question: "What are GIA’s Excellent cut-grade proportion limits related to the culet?",
+        answer: "Among several criteria, GIA’s published parameters for an Excellent Round Brilliant cut grade include a lower-half facet length of approximately 65% or less, a star facet length of approximately 50% or less, and a culet size of Medium or smaller.",
+      },
+      {
+        question: "Is culet size the only factor in a diamond’s cut grade?",
+        answer: "No. Cut grade depends on multiple interacting factors, including proportions, polish, symmetry, brightness, fire and scintillation, alongside culet size.",
+      },
+      {
+        question: "What is the difference between culet size and culet position?",
+        answer: "Culet size describes how large the culet facet is. Culet position describes where the culet sits relative to the pavilion’s geometry, including whether it is centred beneath the table.",
+      },
+      {
+        question: "Is an off-centre culet proof that a diamond is fake?",
+        answer: "No. An off-centre culet is a symmetry characteristic and does not, by itself, indicate that a diamond is not genuine or not natural.",
+      },
+      {
+        question: "Can a photograph make a diamond’s culet look off-centre when it is not?",
+        answer: "Yes. A single still photograph, lighting angle or camera distortion can be misleading. Reviewing video from multiple angles or requesting a professional inspection is more reliable.",
+      },
+      {
+        question: "Should a diamond be rejected automatically for an off-centre culet?",
+        answer: "Not automatically. The significance depends on how noticeable it is face-up, its relationship to the diamond’s symmetry grade, and personal preference. Inspect the actual diamond before deciding.",
+      },
+      {
+        question: "Do all diamond shapes use the same culet scale?",
+        answer: "GIA’s Round Brilliant culet-size scale and overall cut grade are specifically designed for the standard Round Brilliant. Fancy shapes such as Oval, Pear, Cushion and Marquise do not receive an overall GIA cut grade.",
+      },
+      {
+        question: "Do fancy-shape diamonds have culets?",
+        answer: "Many do, although some elongated shapes such as Pear and Marquise may have a keel line at the bottom of the pavilion instead of a single-point culet. The individual diamond should be inspected.",
+      },
+      {
+        question: "What is an Old Mine cut culet like?",
+        answer: "The Old Mine cut is an antique cutting style generally associated with a larger, often clearly visible culet facet, along with a cushion-like outline and higher crown, compared with a modern Round Brilliant.",
+      },
+      {
+        question: "How does an Old European cut culet compare with an Old Mine cut culet?",
+        answer: "An Old European cut generally has a smaller culet than a typical Old Mine cut, although it is usually still more visible than a modern Round Brilliant cut to contemporary Excellent-range proportions.",
+      },
+      {
+        question: "Is a large culet a defect in an antique diamond?",
+        answer: "Not automatically. A larger, visible culet can be a characteristic feature of genuine antique cutting styles rather than a manufacturing flaw.",
+      },
+      {
+        question: "Does a large culet prove a diamond is antique?",
+        answer: "No. A large culet alone does not prove antique origin. Authenticity requires assessment of the diamond’s complete proportions, facet arrangement, inclusions and other characteristics.",
+      },
+      {
+        question: "Should an antique diamond with a large culet be recut?",
+        answer: "Not automatically. Recutting can permanently alter historic character, reduce carat weight and lower appeal to antique-diamond buyers. Any decision should be discussed with a qualified professional.",
+      },
+      {
+        question: "What is the difference between a culet and a natural (inclusion)?",
+        answer: "A culet is a facet or point at the bottom of the pavilion. A “natural” is a clarity characteristic consisting of a small remnant of the original rough diamond’s surface, usually near the girdle.",
+      },
+      {
+        question: "What is the difference between a culet and a keel line?",
+        answer: "A culet is typically a single point or facet, common in shapes such as the Round Brilliant. A keel line is a ridge-like pavilion termination found in certain elongated fancy shapes, such as Pear or Marquise cuts.",
+      },
+      {
+        question: "Does culet size affect diamond price?",
+        answer: "It can influence price indirectly, mainly through its relationship with overall cut grade and buyer preference. There is no universal, fixed culet-related discount or premium.",
+      },
+      {
+        question: "Does a large culet always lower a diamond’s price?",
+        answer: "Not always. In a modern Round Brilliant it may correspond to a lower cut grade and price. In a genuine antique diamond, a large culet is often expected and generally not treated as a price-reducing flaw.",
+      },
+      {
+        question: "Does a chipped culet lower a diamond’s price?",
+        answer: "It may, depending on the chip’s visibility, size and the diamond’s overall clarity grade. The specific impact should be assessed on the individual diamond and its complete report.",
+      },
+      {
+        question: "Can culet size prove whether a diamond is natural or laboratory-grown?",
+        answer: "No. Culet size and style result from a cutting decision and can occur in both natural and laboratory-grown diamonds. Origin should be established through documentation from a qualified gemmological laboratory.",
+      },
+      {
+        question: "How should I inspect a diamond’s culet before buying?",
+        answer: "Read the complete grading report, verify it matches the physical diamond, examine the culet under magnification, view the diamond face-up under different lighting, and consider the cutting style and any noted damage.",
+      },
+      {
+        question: "Is culet size more important than overall cut quality?",
+        answer: "No. Culet size is only one factor within a diamond’s broader cut and visual-performance assessment. Proportions, polish, symmetry, brightness, fire and scintillation should all be considered together.",
+      },
+    ],
+  },
+  finalTakeaway: {
+    id: "final-takeaway",
+    title: "Final Takeaway",
+    introParagraphs: [
+      "The culet is a small but sometimes misunderstood part of a diamond’s structure.",
+      "“None” does not mean a diamond is incomplete, and a visible culet is not automatically a defect. In a modern Round Brilliant, None, Very Small or Small culets are generally preferred and are associated with GIA’s highest cut-grade category. In genuine antique cuts such as the Old Mine or Old European, a larger, clearly visible culet can be an intentional and appropriate part of the diamond’s historic character.",
+      "Culet size, position and condition should be read from the complete grading report and confirmed through direct inspection of the actual diamond, ideally face-up and under more than one lighting condition.",
+      "Do not reject a natural diamond simply because it has a visible culet.",
+      "Do not assume that a larger culet automatically proves a diamond is antique, or that a smaller culet automatically proves superior quality.",
+      "Ask:",
+      "Does this particular diamond’s complete cut, condition and documentation justify its price, and is its face-up appearance, including any visible culet, acceptable to you?",
+    ],
+    primaryButtonText: "Use Secure To Source",
+    primaryButtonHref: "/secure-to-source",
+    secondaryButtonText: "Contact Dalila Diamonds",
+    secondaryButtonHref: "/contact",
+  },
+});
+
+fs.writeFileSync(out, JSON.stringify(data, null, 2));
+
+const requiredKeys = [
+  "meta", "urls", "banner", "hero", "introduction", "quickAnswer", "keyTakeaways", "overviewNav",
+  "whatIs", "whereLocated", "whyHaveCulets", "pointedClosedOpen", "giaScale", "hrdMeasurements",
+  "giaVsHrd", "appearance", "cutGrade", "centredOffCentre", "shapes", "antique", "damage",
+  "vsOtherFeatures", "price", "naturalVsLab", "howToInspect", "workedComparison", "myths",
+  "checklist", "cta", "faqs", "finalTakeaway",
+];
+const missing = requiredKeys.filter((key) => !(key in data));
+
+console.log("Written:", out);
+console.log("Top-level keys:", Object.keys(data).length);
+console.log("FAQ count:", data.faqs.items.length);
+console.log("Missing required keys:", missing.length ? missing.join(", ") : "none");

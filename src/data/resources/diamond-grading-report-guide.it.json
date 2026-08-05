@@ -520,6 +520,23 @@
           "Lo confronti con un diamante simile privo di fluorescenza",
           "Stabilisca se la fluorescenza ha influenzato il prezzo richiesto",
           "Non rifiuti o acquisti un diamante basandosi solo sull'etichetta della fluorescenza."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Per una valutazione completa di intensità, colore, trasparenza ed effetti sul prezzo, consulti la "
+            },
+            {
+              "type": "link",
+              "text": "Guida alla fluorescenza del diamante",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Calotte",
           "La calotte è il punto o la piccola faccetta nella parte inferiore del diamante. Una calotte grande può essere visibile attraverso la tavola.",
           "Utilizzi il diagramma delle proporzioni come strumento di screening e confronto, non come sostituto della visione o dell'ispezione del diamante."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Per una spiegazione completa dello spessore della cintura, dei report GIA e HRD, della finitura, della durata e delle implicazioni di montatura, consulti la "
+            },
+            {
+              "type": "link",
+              "text": "Guida alla cintura del diamante",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Per la dimensione del culet e i culet a punta o aperti, consulti la "
+            },
+            {
+              "type": "link",
+              "text": "Guida al culet del diamante",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {

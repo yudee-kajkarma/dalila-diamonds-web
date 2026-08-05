@@ -520,6 +520,23 @@
           "Vergleichen Sie ihn mit einem ähnlichen Diamanten ohne Fluoreszenz",
           "Stellen Sie fest, ob die Fluoreszenz den Angebotspreis beeinflusst hat",
           "Lehnen Sie einen Diamanten nicht ab und kaufen Sie ihn nicht allein nach der Fluoreszenzbezeichnung."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Für eine vollständige Bewertung von Fluoreszenzintensität, Farbe, Transparenz und Preiseffekten siehe den "
+            },
+            {
+              "type": "link",
+              "text": "Leitfaden zur Diamantfluoreszenz",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Kulette",
           "Die Kulette ist die Spitze oder kleine Facette am unteren Ende des Diamanten. Eine große Kulette kann durch die Tafel sichtbar sein.",
           "Nutzen Sie das Proportionsdiagramm als Screening- und Vergleichsinstrument, nicht als Ersatz für das Sehen oder Begutachten des Diamanten."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Eine vollständige Erklärung der Rondiste-Dicke, der GIA- und HRD-Berichterstattung, der Bearbeitung, der Haltbarkeit und der Fassungsimplikationen finden Sie im "
+            },
+            {
+              "type": "link",
+              "text": "Diamant-Rondiste-Leitfaden",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Zur Culet-Größe sowie zu spitzen und offenen Culets siehe den "
+            },
+            {
+              "type": "link",
+              "text": "Diamant-Culet-Leitfaden",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {

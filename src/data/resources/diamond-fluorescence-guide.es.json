@@ -1,0 +1,1702 @@
+{
+  "meta": {
+    "title": "Guía de fluorescencia del diamante | Dalila Diamonds",
+    "description": "Comprenda la fluorescencia del diamante, la fluorescencia azul y los niveles de intensidad. Aprenda cómo la fluorescencia puede afectar la apariencia y el precio antes de comprar un diamante natural.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-fluorescence-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaFluorescence": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+    "giaFluorescenceMyths": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+    "giaFluorescenceResearch": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence"
+  },
+  "banner": {
+    "title": "Guía de fluorescencia del diamante",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Guía de fluorescencia del diamante",
+    "imageAlt": "Banner de recursos de la Guía de fluorescencia de diamantes para compradores de diamantes naturales"
+  },
+  "hero": {
+    "title": "Guía de fluorescencia de diamantes para compradores de diamantes naturales",
+    "subheading": "Comprenda qué significa la fluorescencia del diamante, cómo los laboratorios describen su intensidad y cómo evaluar su posible efecto sobre la apariencia y el precio de un diamante natural.",
+    "reviewDateLabel": "Última revisión:",
+    "reviewDate": "30 de julio de 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Con frecuencia se malinterpreta la fluorescencia del diamante.",
+      "Algunos compradores rechazan automáticamente todos los diamantes con fluorescencia Fuerte o Muy Fuerte. Otros suponen que la fluorescencia azul siempre hará que un diamante más cálido parezca más blanco. Ninguno de los enfoques considera cómo funciona realmente la fluorescencia o en qué se diferencian los diamantes individuales.",
+      "La fluorescencia es una reacción que ocurre cuando algunos diamantes se exponen a la radiación ultravioleta. No es una de las 4 C, no mejora ni daña automáticamente un diamante y no puede establecer de forma independiente si un diamante es natural.",
+      "Para la mayoría de los diamantes, la fluorescencia tiene poco o ningún efecto perceptible en condiciones de observación normales. Sin embargo, aún debe leerse en el informe de clasificación, considerarse en relación con el color y la transparencia e inspeccionarse con una iluminación adecuada antes de comprarlo."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Respuesta rápida",
+    "introParagraphs": [
+      "La fluorescencia del diamante es la luz visible que emiten algunos diamantes cuando se exponen a la radiación ultravioleta.",
+      "El color de fluorescencia observado con más frecuencia es el azul. Otros colores, incluidos el amarillo, naranja, blanco, rojo y verde, pueden aparecer con menos frecuencia.",
+      "En los informes de diamantes del GIA, la intensidad de la fluorescencia se describe como:"
+    ],
+    "attributes": [
+      "None",
+      "Faint",
+      "Medium",
+      "Strong",
+      "Very Strong"
+    ],
+    "closingParagraphs": [
+      "La fluorescencia es una característica de identificación más que una de las 4C. No altera el grado de color asignado por el laboratorio, no reduce la durabilidad estructural ni nubla automáticamente el diamante.",
+      "GIA informa que aproximadamente entre el 25% y el 35% de los diamantes representados en los datos de su presentación citada muestran algún grado de fluorescencia bajo luz ultravioleta de onda larga. Más del 95% de esos diamantes fluorescentes muestran una reacción azul. La guía de fluorescencia del GIA también explica que la fluorescencia generalmente no tiene un efecto visible sistemático para el observador promedio.",
+      "No obstante, se debe evaluar una fuerte fluorescencia en cada diamante. En casos poco comunes, puede intensificar una apariencia nebulosa preexistente asociada con características estructurales o nanoinclusiones que dispersan la luz.",
+      "Por tanto, la respuesta práctica es:",
+      "La fluorescencia del diamante no es ni automáticamente buena ni automáticamente mala. Lea el informe, inspeccione el diamante real bajo diferentes condiciones de iluminación y compare su transparencia, apariencia de color y precio con piedras genuinamente similares."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Conclusiones clave",
+    "items": [
+      "La fluorescencia es la reacción de un diamante a la radiación ultravioleta.",
+      "No es una de las 4C.",
+      "La intensidad de la fluorescencia y el color de la fluorescencia son características independientes.",
+      "GIA utiliza Ninguno, Débil, Medio, Fuerte y Muy fuerte para describir la intensidad.",
+      "El azul es el color fluorescente más común.",
+      "La mayoría de los diamantes no muestran una fluorescencia perceptible bajo el examen UV estándar de onda larga.",
+      "La fluorescencia sólo está activa cuando está presente una fuente de excitación adecuada.",
+      "La iluminación interior normal puede contener poca o ninguna radiación ultravioleta.",
+      "La luz natural puede contener radiación ultravioleta, pero su efecto depende del medio ambiente.",
+      "La fluorescencia azul puede hacer que algunos diamantes de colores más cálidos parezcan menos amarillos bajo luz que contiene rayos ultravioleta.",
+      "La fluorescencia no cambia el grado de color impreso en un informe de laboratorio.",
+      "Una fluorescencia intensa no hace que un diamante se vuelva turbio automáticamente.",
+      "La fluorescencia no causa defectos de dispersión de luz preexistentes, aunque puede intensificar su efecto visible en diamantes raros.",
+      "La fluorescencia no debilita inherentemente un diamante.",
+      "Un diamante sin fluorescencia no es automáticamente mejor que uno con fluorescencia.",
+      "La fluorescencia no es una prueba confiable que pueda realizar usted mismo para determinar la identidad del diamante natural.",
+      "Los diamantes naturales, los diamantes cultivados en laboratorio y algunos simulantes de diamantes pueden mostrar fluorescencia.",
+      "La fluorescencia puede influir en los precios comerciales, pero no existe un descuento o prima universal.",
+      "La decisión final debe basarse en el diamante real, no sólo en la etiqueta de fluorescencia."
+    ]
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "what-is-diamond-fluorescence",
+        "label": "¿Qué significa la fluorescencia del diamante?"
+      },
+      {
+        "id": "why-some-diamonds-fluoresce",
+        "label": "¿Por qué algunos diamantes son fluorescentes?"
+      },
+      {
+        "id": "diamond-fluorescence-scale",
+        "label": "Escala de fluorescencia de diamante"
+      },
+      {
+        "id": "fluorescence-intensity-versus-colour",
+        "label": "Intensidad de fluorescencia versus color."
+      },
+      {
+        "id": "how-fluorescence-appears-under-different-lighting",
+        "label": "Cómo aparece la fluorescencia bajo diferentes luces"
+      },
+      {
+        "id": "blue-fluorescence-and-diamond-colour",
+        "label": "Fluorescencia azul y color diamante."
+      },
+      {
+        "id": "strong-fluorescence-haziness-and-transparency",
+        "label": "Fuerte fluorescencia, turbidez y transparencia."
+      },
+      {
+        "id": "fluorescence-sparkle-and-cut-quality",
+        "label": "Fluorescencia, brillo y calidad de corte."
+      },
+      {
+        "id": "fluorescence-and-diamond-shape",
+        "label": "Fluorescencia y forma de diamante."
+      },
+      {
+        "id": "fluorescence-and-multi-stone-jewellery",
+        "label": "Joyería fluorescente y multipiedra"
+      },
+      {
+        "id": "diamond-fluorescence-and-price",
+        "label": "Fluorescencia del diamante y precio."
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-fluorescence",
+        "label": "Fluorescencia de diamantes naturales versus fluorescencia de laboratorio"
+      },
+      {
+        "id": "fluorescence-versus-phosphorescence",
+        "label": "Fluorescencia versus fosforescencia"
+      },
+      {
+        "id": "how-to-inspect-a-fluorescent-diamond",
+        "label": "Cómo inspeccionar un diamante fluorescente"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Comparación de diamantes trabajados"
+      },
+      {
+        "id": "common-fluorescence-myths",
+        "label": "Mitos comunes sobre la fluorescencia"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Lista de verificación para la compra de diamantes naturales"
+      },
+      {
+        "id": "fluorescence-guide-faq-heading",
+        "label": "Preguntas frecuentes"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-diamond-fluorescence",
+    "title": "¿Qué es la fluorescencia del diamante?",
+    "introParagraphs": [
+      "La fluorescencia del diamante es la luz visible emitida por un diamante mientras se expone a una fuente adecuada de excitación, más comúnmente radiación ultravioleta.",
+      "La radiación ultravioleta se encuentra más allá del extremo violeta del espectro de luz visible. Los ojos humanos no pueden ver directamente la radiación ultravioleta, pero pueden ver el brillo visible que se produce cuando un material fluorescente reacciona ante ella.",
+      "Por lo tanto, un diamante fluorescente puede parecer normal bajo un tipo de iluminación y mostrar un brillo azul o de otro color bajo otro.",
+      "La reacción normalmente se detiene cuando se elimina la fuente de excitación. Un resplandor continuo se conoce como fosforescencia, que es un fenómeno relacionado pero diferente.",
+      "No debe confundirse la fluorescencia con:"
+    ],
+    "bullets": [
+      "El color del cuerpo del diamante.",
+      "Reflejo de luz blanca",
+      "Brillo",
+      "Fuego",
+      "Centelleo",
+      "Dispersión",
+      "Fosforescencia",
+      "un tratamiento",
+      "Una garantía de origen natural"
+    ],
+    "closingParagraphs": [
+      "Un diamante no necesita ser fluorescente para ser natural, valioso o atractivo."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Para las escalas de calidad más amplias que cubren talla, color, pureza y quilates, consulte la "
+        },
+        {
+          "type": "link",
+          "text": "Tabla de calidad del diamante",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whyFluoresce": {
+    "id": "why-some-diamonds-fluoresce",
+    "title": "¿Por qué algunos diamantes son fluorescentes?",
+    "introParagraphs": [
+      "El diamante se compone principalmente de carbono, pero ningún diamante natural tiene que ser estructuralmente idéntico a nivel atómico a cualquier otro diamante.",
+      "Las trazas de impurezas y los defectos estructurales pueden crear centros ópticos que interactúan con la energía entrante. Cuando esos centros absorben la energía adecuada, pueden liberar parte de ella en forma de luz visible.",
+      "Diferentes defectos e impurezas pueden contribuir a diferentes colores, intensidades y patrones espaciales de fluorescencia.",
+      "En muchos diamantes naturales, la fluorescencia azul se asocia con defectos relacionados con el nitrógeno. Sin embargo, la presencia de fluorescencia azul por sí sola no es suficiente para establecer el origen del diamante, su historial de tratamiento o su estructura atómica completa.",
+      "Los laboratorios profesionales podrán analizar:"
+    ],
+    "bullets": [
+      "Intensidad de fluorescencia",
+      "color fluorescente",
+      "Reacción UV de onda larga",
+      "Reacción UV de onda corta",
+      "Imágenes ultravioleta profunda",
+      "Patrón de fluorescencia",
+      "Fosforescencia",
+      "Espectros de absorción",
+      "Espectros de fotoluminiscencia",
+      "Otras características gemológicas"
+    ],
+    "closingParagraphs": [
+      "Esta combinación puede ayudar a los laboratorios capacitados a identificar y caracterizar un diamante. Una linterna UV de consumo no puede reproducir este proceso completo."
+    ]
+  },
+  "fluorescenceScale": {
+    "id": "diamond-fluorescence-scale",
+    "title": "Escala de fluorescencia de diamante",
+    "introParagraphs": [
+      "En los informes de diamantes del GIA, la intensidad de la fluorescencia bajo luz ultravioleta de onda larga se describe mediante cinco términos."
+    ],
+    "table": {
+      "caption": "Escala de intensidad de fluorescencia de diamantes GIA para compradores de diamantes naturales",
+      "headers": [
+        "Descripción de fluorescencia",
+        "Interpretación general",
+        "Enfoque práctico del comprador"
+      ],
+      "rows": [
+        [
+          "None",
+          "No hay fluorescencia observable en las condiciones estándar del laboratorio.",
+          "Normalmente no se requiere ninguna evaluación visual relacionada con la fluorescencia más allá de confirmar el informe y el diamante real."
+        ],
+        [
+          "Faint",
+          "Una reacción de fluorescencia débil.",
+          "Generalmente es difícil notarlo fuera de un examen UV controlado."
+        ],
+        [
+          "Medium",
+          "Una reacción claramente observable bajo luz ultravioleta.",
+          "Compare el diamante con iluminación interior normal, iluminación equivalente a luz diurna y luz natural"
+        ],
+        [
+          "Strong",
+          "Una reacción pronunciada bajo los rayos UV.",
+          "Inspeccione cuidadosamente la apariencia del color y la transparencia y compárelo con un diamante no fluorescente similar."
+        ],
+        [
+          "Very Strong",
+          "Una reacción muy pronunciada bajo los rayos UV.",
+          "Realice una comparación visual completa y compruebe si hay turbidez preexistente, contraste reducido o apariencia inusual."
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Estos términos describen la fuerza de la reacción en condiciones de laboratorio definidas. No son juicios de que el diamante es bueno, malo, hermoso o poco atractivo."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA describe la fluorescencia como una característica de identificación en lugar de un grado de calidad 4C. Cuando la fluorescencia es Media, Fuerte o Muy Fuerte, GIA también registra el color de fluorescencia observado."
+        },
+        {
+          "type": "link",
+          "text": "Guía de fluorescencia del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explica este sistema de informes."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "does-none-mean-better-than-faint",
+        "title": "¿Ninguno significa mejor que desmayarse?",
+        "paragraphsBefore": [
+          "No.",
+          "\"Ninguno\" simplemente indica que no se observó fluorescencia en las condiciones de examen estándar del laboratorio. “Desmayarse” indica una reacción débil.",
+          "Para la mayoría de los compradores, la diferencia visual entre ninguna fluorescencia y tenue no será evidente en el uso normal. La elección debe basarse en el diamante completo, incluyendo:"
+        ],
+        "bullets": [
+          "Cortar",
+          "Color",
+          "Claridad",
+          "Peso en quilates",
+          "Medidas",
+          "Transparencia",
+          "Precio",
+          "Documentación",
+          "Preferencia de apariencia personal"
+        ]
+      },
+      {
+        "id": "does-strong-mean-poor-quality",
+        "title": "¿Fuerte significa mala calidad?",
+        "paragraphsBefore": [
+          "No.",
+          "Fuerte describe la intensidad de la fluorescencia. No describe la calidad del corte, la claridad, la durabilidad ni el rendimiento visual general.",
+          "Un diamante fluorescente de color azul fuerte puede ser transparente, brillante y visualmente atractivo. Otro diamante con la misma descripción de fluorescencia puede requerir un examen más detenido debido a su transparencia, color o precio individuales.",
+          "La etiqueta es un motivo para inspeccionar, no un motivo automático para rechazar."
+        ]
+      }
+    ]
+  },
+  "intensityVsColour": {
+    "id": "fluorescence-intensity-versus-colour",
+    "title": "Intensidad de fluorescencia y color de fluorescencia",
+    "introParagraphs": [
+      "Intensidad y color responden a diferentes preguntas.",
+      "Intensidad: ¿Qué tan fuerte es la reacción?",
+      "Color: ¿Qué color visible se emite?",
+      "Por lo tanto, un informe podría describir la fluorescencia como:"
+    ],
+    "bullets": [
+      "Medium Blue",
+      "Strong Blue",
+      "Very Strong Blue",
+      "Medium Yellow",
+      "Strong Yellow",
+      "Very Strong White"
+    ],
+    "closingParagraphs": [
+      "Las convenciones de redacción y presentación de informes exactas pueden variar según el laboratorio y el tipo de informe.",
+      "El azul es el color fluorescente más común en los diamantes. GIA afirma que más del 95% de los diamantes fluorescentes en sus datos citados muestran fluorescencia azul.",
+      "Los colores fluorescentes menos comunes pueden incluir:"
+    ],
+    "colourBullets": [
+      "Amarillo",
+      "Amarillo anaranjado",
+      "Naranja",
+      "Blanco",
+      "Verde",
+      "Rojo",
+      "naranja rosado"
+    ],
+    "finalParagraphs": [
+      "Un color de fluorescencia menos común no prueba de forma independiente que el diamante haya sido tratado, cultivado en laboratorio o no sea auténtico. Sin embargo, puede justificar un examen profesional más detenido cuando se lo considera junto con otras características del diamante."
+    ]
+  },
+  "fluorescenceChart": {
+    "id": "diamond-fluorescence-chart",
+    "title": "Gráfico de fluorescencia de diamantes",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Práctica tabla de fluorescencia de diamantes para compradores.",
+      "headers": [
+        "Reacción reportada",
+        "Apariencia bajo iluminación normal sin rayos UV",
+        "Apariencia bajo iluminación UV adecuada",
+        "Posible relevancia de compra"
+      ],
+      "rows": [
+        [
+          "None",
+          "No se espera ningún efecto relacionado con la fluorescencia",
+          "No hay fluorescencia visible en las condiciones de prueba indicadas.",
+          "Compare utilizando las 4C normales y otros factores de calidad"
+        ],
+        [
+          "Faint",
+          "Normalmente no hay ningún efecto perceptible relacionado con la fluorescencia.",
+          "Un brillo débil puede ser visible en condiciones controladas",
+          "Generalmente una consideración menor"
+        ],
+        [
+          "Medium Blue",
+          "A menudo, poca o ninguna diferencia obvia",
+          "Resplandor azul claro",
+          "Puede afectar el color percibido en luz que contiene rayos UV."
+        ],
+        [
+          "Strong Blue",
+          "Puede parecer similar a un diamante no fluorescente; inspeccionar la transparencia",
+          "Resplandor azul pronunciado",
+          "Compara color, contraste, transparencia y precio."
+        ],
+        [
+          "Very Strong Blue",
+          "Requiere evaluación visual individual",
+          "Brillo azul muy pronunciado.",
+          "Inspeccione cuidadosamente para detectar cualquier neblina preexistente que se vuelva más evidente."
+        ],
+        [
+          "Medio a muy fuerte no azul",
+          "Requiere evaluación individual",
+          "Amarillo, naranja, blanco, verde u otro brillo.",
+          "Confirme los detalles del informe y evalúe la apariencia bajo diferentes luces."
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "El gráfico es una herramienta práctica de interpretación. No reemplaza el informe de laboratorio ni la inspección física."
+    ]
+  },
+  "lightingAppearance": {
+    "id": "how-fluorescence-appears-under-different-lighting",
+    "title": "Cómo aparece la fluorescencia del diamante bajo diferentes luces",
+    "introParagraphs": [
+      "La fluorescencia no aparece con la misma intensidad en todos los entornos porque diferentes fuentes de luz contienen diferentes cantidades y longitudes de onda de radiación ultravioleta."
+    ],
+    "subsections": [
+      {
+        "id": "standard-indoor-lighting",
+        "title": "Iluminación interior estándar",
+        "paragraphsBefore": [
+          "Muchos ambientes de iluminación interior contienen poca radiación ultravioleta. Por lo tanto, un diamante fluorescente puede tener el mismo aspecto que un diamante no fluorescente bajo una luz interior normal.",
+          "El resultado exacto depende de:"
+        ],
+        "bullets": [
+          "Tecnología de fuente de luz",
+          "contenido ultravioleta",
+          "Intensidad de la luz",
+          "Colores circundantes",
+          "Distancia de visualización",
+          "Fuerza de fluorescencia del diamante",
+          "color fluorescente"
+        ]
+      },
+      {
+        "id": "natural-daylight",
+        "title": "Luz natural",
+        "paragraphsBefore": [
+          "La luz del día incluye radiación ultravioleta, aunque la cantidad que llega al diamante varía.",
+          "Los factores incluyen:"
+        ],
+        "bullets": [
+          "Luz solar directa versus indirecta",
+          "Hora del día",
+          "Cubierta de nubes",
+          "Vidrio de ventana",
+          "Ubicación geográfica",
+          "Sombra",
+          "Luz reflejada",
+          "La orientación del diamante."
+        ],
+        "paragraphsAfter": [
+          "Un diamante con fluorescencia media, fuerte o muy fuerte puede mostrar una respuesta más notable en exteriores que bajo iluminación interior normal."
+        ]
+      },
+      {
+        "id": "daylight-equivalent-jewellery-lighting",
+        "title": "Iluminación de joyería equivalente a la luz diurna",
+        "paragraphsBefore": [
+          "Algunos sistemas de visualización profesionales están diseñados para aproximarse a la luz del día. Estos pueden ayudar a comparar la transparencia, la apariencia del color y el contraste boca arriba del diamante en condiciones constantes.",
+          "Sin embargo, las lámparas “equivalentes a la luz del día” no son todas idénticas. Su salida espectral y contenido ultravioleta pueden diferir."
+        ]
+      },
+      {
+        "id": "ultraviolet-or-black-light",
+        "title": "Luz ultravioleta o negra",
+        "paragraphsBefore": [
+          "Una lámpara ultravioleta adecuada puede hacer que la fluorescencia sea mucho más fácil de observar.",
+          "El espectacular brillo azul que se ve bajo una potente lámpara UV no debe confundirse con el aspecto que tendrá el diamante durante el uso diario normal.",
+          "Una demostración UV responde:",
+          "¿El diamante fluoresce bajo esta fuente?",
+          "No responde automáticamente:",
+          "¿La fluorescencia afectará notablemente a este diamante en condiciones de observación normales?"
+        ]
+      },
+      {
+        "id": "through-glass",
+        "title": "A través del vidrio",
+        "paragraphsBefore": [
+          "Algunos tipos de vidrio reducen partes del espectro ultravioleta. Por lo tanto, un diamante visto al lado de una ventana puede reaccionar de manera diferente que el mismo diamante visto al aire libre bajo la luz directa del día.",
+          "Ésta es una de las razones por las que un comprador debería utilizar más de una condición de visualización."
+        ]
+      }
+    ]
+  },
+  "blueAndColour": {
+    "id": "blue-fluorescence-and-diamond-colour",
+    "title": "Fluorescencia azul y color diamante.",
+    "introParagraphs": [
+      "El azul y el amarillo son colores aproximadamente complementarios. En consecuencia, la fluorescencia azul puede reducir la impresión visual del amarillo en algunos diamantes mientras esté presente un componente ultravioleta apropiado.",
+      "Esto es más relevante para los diamantes que ya muestran un color de cuerpo ligeramente amarillento.",
+      "Un diamante con un grado de color I, J, K, L, M o cercano y una fluorescencia azul de media a muy fuerte a veces puede parecer menos amarillo en una iluminación que contiene rayos UV que un diamante no fluorescente similar.",
+      "Sin embargo, varias limitaciones son importantes."
+    ],
+    "subsections": [
+      {
+        "id": "fluorescence-does-not-change-reported-colour-grade",
+        "title": "La fluorescencia no cambia el grado de color informado",
+        "paragraphsBefore": [
+          "GIA asigna grados de color de D a Z en condiciones de visualización controladas destinadas a minimizar la influencia de la fluorescencia.",
+          "Un diamante de color J no se convierte en un diamante de color H en su informe de clasificación porque tiene una fuerte fluorescencia azul.",
+          "La fluorescencia puede afectar la forma en que una persona percibe el diamante en ciertos entornos, pero el grado de color oficial sigue siendo J."
+        ]
+      },
+      {
+        "id": "the-effect-is-lighting-dependent",
+        "title": "El efecto depende de la iluminación",
+        "paragraphsBefore": [
+          "La fluorescencia azul requiere una excitación adecuada.",
+          "En iluminación con poca o ninguna radiación ultravioleta, el efecto de enmascaramiento del color puede estar ausente o ser mínimo.",
+          "Un comprador no debe asumir que el diamante parecerá más blanco en cada habitación, fotografía o ambiente exterior."
+        ]
+      },
+      {
+        "id": "the-effect-varies-between-diamonds",
+        "title": "El efecto varía entre diamantes",
+        "paragraphsBefore": [
+          "Dos diamantes de color J con fluorescencia azul fuerte aún pueden verse diferentes debido a:"
+        ],
+        "bullets": [
+          "Cortar",
+          "Forma",
+          "Tamaño",
+          "Distribución de colores",
+          "patrón de faceta",
+          "Transparencia",
+          "Contraste",
+          "Intensidad de fluorescencia exacta",
+          "Orientación de visualización"
+        ]
+      },
+      {
+        "id": "higher-colour-diamonds",
+        "title": "Diamantes de colores más intensos",
+        "paragraphsBefore": [
+          "En los diamantes D a H, el mercado comercial puede tratar la fluorescencia azul fuerte o muy fuerte de manera menos favorable, incluso cuando el diamante permanece transparente y visualmente atractivo.",
+          "Esto está relacionado en parte con la preocupación comercial de larga data de que una fuerte fluorescencia pueda crear una apariencia turbia o aceitosa.",
+          "La investigación actual del GIA indica que la fluorescencia por sí sola no causa esta turbidez. Sin embargo, la percepción del mercado todavía puede influir en los precios de venta.",
+          "El comprador deberá distinguir entre:"
+        ],
+        "bullets": [
+          "Un problema visual científicamente observable",
+          "Una preferencia comercial",
+          "Un descuento de precio",
+          "preferencia personal"
+        ],
+        "paragraphsAfter": [
+          "Estos no son lo mismo."
+        ]
+      }
+    ]
+  },
+  "haziness": {
+    "id": "strong-fluorescence-haziness-and-transparency",
+    "title": "¿La fuerte fluorescencia hace que un diamante se vuelva turbio?",
+    "introParagraphs": [
+      "Una fluorescencia fuerte no hace que un diamante se vuelva turbio, turbio, lechoso o aceitoso automáticamente."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La investigación científica del GIA encontró que una fuerte fluorescencia por sí sola no producía una turbidez notable en los diamantes sin defectos estructurales preexistentes de dispersión de luz o nanoinclusiones."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "En diamantes poco comunes donde estas características ya están presentes, la fluorescencia puede intensificar la reducción del contraste y hacer que la turbidez existente sea más notoria."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "El GIA informa que el efecto turbio “sobreazul”, frecuentemente discutido, ocurre en menos del 0,2% de los diamantes fluorescentes que se le presentan."
+        },
+        {
+          "type": "link",
+          "text": "La investigación del GIA sobre fluorescencia y fosforescencia",
+          "href": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "concluye que las características estructurales o nanoinclusiones son las principales causas de la apariencia lechosa, más que la fluorescencia sola."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-should-buyers-look-for",
+        "title": "¿Qué deberían buscar los compradores?",
+        "paragraphsBefore": [
+          "Inspeccione el diamante en busca de:"
+        ],
+        "bullets": [
+          "Transparencia reducida",
+          "Aspecto lechoso o aceitoso",
+          "Neblina visible a través del diamante",
+          "Débil contraste boca arriba",
+          "Falta de definición nítida de las facetas",
+          "Nubosidad en iluminación equivalente a la luz del día",
+          "Una marcada diferencia con diamantes comparables.",
+          "Informar comentarios que mencionen nubes u otras características de claridad",
+          "Nubes extensas o puntos que no están completamente representados en un gráfico de claridad"
+        ],
+        "paragraphsAfter": [
+          "Un diamante puede parecer turbio sin tener fluorescencia. También puede tener una fluorescencia muy fuerte y permanecer transparente.",
+          "La pregunta correcta no es:",
+          "¿Este diamante tiene una fuerte fluorescencia?",
+          "Es:",
+          "¿Este diamante en particular permanece transparente, nítido y atractivo bajo la iluminación con la que será visto?"
+        ]
+      },
+      {
+        "id": "is-haziness-always-caused-by-clarity-grade",
+        "title": "¿La turbidez siempre es causada por el grado de claridad?",
+        "paragraphsBefore": [
+          "No.",
+          "Una calificación de claridad registra la visibilidad y la importancia de las inclusiones y las imperfecciones según el sistema de calificación del laboratorio. La transparencia a veces puede requerir una consideración visual adicional.",
+          "Dos diamantes con el mismo grado de claridad pueden diferir en:"
+        ],
+        "bullets": [
+          "Tipo de inclusión",
+          "Concentración de inclusión",
+          "Distribución de nubes",
+          "Defectos estructurales",
+          "Nano-inclusiones",
+          "Transparencia",
+          "Contraste boca arriba"
+        ],
+        "paragraphsAfter": [
+          "Lea los comentarios del informe e inspeccione el diamante físico."
+        ]
+      }
+    ]
+  },
+  "sparkleAndCut": {
+    "id": "fluorescence-sparkle-and-cut-quality",
+    "title": "Fluorescencia, brillo y calidad de corte",
+    "introParagraphs": [
+      "La fluorescencia no crea el brillo fundamental de un diamante.",
+      "La interacción de un diamante con la luz visible se rige principalmente por su diseño, proporciones y mano de obra.",
+      "Los factores importantes incluyen:"
+    ],
+    "bullets": [
+      "Ángulo de la corona",
+      "Ángulo del pabellón",
+      "Tamaño de la mesa",
+      "Profundidad total",
+      "Alineación de facetas",
+      "Polaco",
+      "Simetría",
+      "Retorno de luz",
+      "Fuego",
+      "Centelleo",
+      "Patrón de contraste"
+    ],
+    "closingParagraphs": [
+      "Un diamante sin fluorescencia puede tener un rendimiento de luz débil. Un diamante con fuerte fluorescencia puede tener un excelente rendimiento lumínico.",
+      "La fluorescencia puede agregar emisión visible cuando hay energía ultravioleta presente, pero esto no debe confundirse con:",
+      "Brillo: la luz blanca regresa al observador.",
+      "Fuego: Destellos de color espectral producidos por dispersión.",
+      "Centelleo: brillo y contraste visibles cuando el diamante, la luz o el observador se mueven.",
+      "La investigación de fluorescencia del GIA encontró poco o ningún efecto directo sobre el brillo. La calidad del corte sigue siendo la consideración más importante para el rendimiento de la luz visible."
+    ],
+    "subsections": [
+      {
+        "id": "can-fluorescence-compensate-for-poor-cut",
+        "title": "¿Puede la fluorescencia compensar un corte deficiente?",
+        "paragraphsBefore": [
+          "No.",
+          "La fluorescencia azul puede afectar la percepción del color en determinadas condiciones de iluminación, pero no puede corregir:"
+        ],
+        "bullets": [
+          "Fuga de luz",
+          "profundidad excesiva",
+          "Mala alineación facetaria",
+          "Centelleo débil",
+          "Contraste desequilibrado",
+          "Mala simetría",
+          "Un patrón de forma elegante y poco atractivo"
+        ],
+        "paragraphsAfter": [
+          "El rendimiento visual o de corte debe evaluarse por separado."
+        ]
+      }
+    ]
+  },
+  "shape": {
+    "id": "fluorescence-and-diamond-shape",
+    "title": "Fluorescencia y forma del diamante",
+    "introParagraphs": [
+      "Se pueden aplicar los mismos términos generales de intensidad de fluorescencia a diferentes formas de diamantes. No existe una escala de fluorescencia separada para diamantes de talla redonda, ovalada, pera o esmeralda.",
+      "Sin embargo, la forma afecta la apariencia general del diamante y puede influir en la facilidad con la que los compradores notan el color del cuerpo, la transparencia o el contraste de las facetas."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Diamantes redondos brillantes",
+        "paragraphsBefore": [
+          "Las numerosas facetas de un brillante redondo pueden crear un brillo y un centelleo intensos. Evalúe la fluorescencia junto con:"
+        ],
+        "bullets": [
+          "Grado de corte general",
+          "Dimensiones",
+          "Color boca arriba",
+          "Transparencia",
+          "Patrón de contraste"
+        ],
+        "paragraphsAfter": [
+          "No permita que la fluorescencia distraiga la atención de la evaluación más importante de la calidad del corte."
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Diamantes ovalados",
+        "paragraphsBefore": [
+          "Los diamantes ovalados varían significativamente en cuanto a contorno, efecto de pajarita, patrón de facetas y extensión visible.",
+          "Al considerar un óvalo con fluorescencia media, fuerte o muy fuerte, evalúe:"
+        ],
+        "bullets": [
+          "Color boca arriba",
+          "Fuerza de la pajarita",
+          "Transparencia",
+          "Contraste",
+          "Concentración de color cerca de las puntas.",
+          "Aparición a la luz del día",
+          "Precio frente a óvalos comparables"
+        ],
+        "paragraphsAfter": [
+          "No se debe culpar a la fluorescencia por el efecto pajarita. La pajarita es el resultado de la geometría y el comportamiento ligero del diamante."
+        ]
+      },
+      {
+        "id": "pear-and-marquise-diamonds",
+        "title": "Diamantes pera y marquesa",
+        "paragraphsBefore": [
+          "Los diamantes pera y marquesa pueden mostrar el color del cuerpo de manera diferente a lo largo de sus contornos alargados.",
+          "Inspeccionar:"
+        ],
+        "bullets": [
+          "Concentración de color",
+          "Zonas oscuras",
+          "Transparencia",
+          "Simetría",
+          "Condición de la punta",
+          "Apariencia en el entorno previsto"
+        ],
+        "paragraphsAfter": [
+          "La descripción de la fluorescencia por sí sola no puede predecir cómo se verán estas formas."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Cortes Esmeralda y Asscher",
+        "paragraphsBefore": [
+          "Los diamantes de talla escalonada tienen patrones de facetas más amplios y abiertos. Sus características de claridad, color y transparencia pueden ser más fáciles de examinar directamente.",
+          "Para un corte Esmeralda o Asscher fluorescente, compare:"
+        ],
+        "bullets": [
+          "Transparencia general",
+          "ventanas",
+          "Extinción",
+          "color del cuerpo",
+          "Visibilidad de inclusión",
+          "Nitidez del patrón de pasos",
+          "Apariencia en iluminación equivalente a la luz del día"
+        ],
+        "paragraphsAfter": [
+          "Una fuerte descripción de fluorescencia no vuelve automáticamente turbio un diamante de talla escalonada."
+        ]
+      },
+      {
+        "id": "cushion-and-radiant-diamonds",
+        "title": "Diamantes acolchados y radiantes",
+        "paragraphsBefore": [
+          "Los diamantes Cushion y Radiant pueden variar considerablemente en la disposición de las facetas y la retención del color.",
+          "Compare ejemplos fluorescentes usando:"
+        ],
+        "bullets": [
+          "Grados de color equivalentes",
+          "Patrones de facetas similares",
+          "Dimensiones similares",
+          "Iluminación similar",
+          "Vídeo de alta resolución",
+          "Observación física directa cuando sea posible."
+        ],
+        "paragraphsAfter": [
+          "La forma debe elegirse por su apariencia completa, no sólo por la fluorescencia."
+        ]
+      }
+    ]
+  },
+  "multiStone": {
+    "id": "fluorescence-and-multi-stone-jewellery",
+    "title": "Fluorescencia en joyería de varias piedras",
+    "introParagraphs": [
+      "Los diamantes en aretes, pulseras, collares, anillos de eternidad y diseños de halos pueden tener diferentes reacciones de fluorescencia.",
+      "Bajo una iluminación interior normal, las piedras pueden parecer bien combinadas. Bajo iluminación ultravioleta, algunos pueden brillar intensamente mientras que otros permanecen inertes.",
+      "Esta diferencia no necesariamente indica que:"
+    ],
+    "bullets": [
+      "Las joyas están defectuosas.",
+      "Los diamantes son imitaciones.",
+      "Las piedras tienen diferentes grados de color.",
+      "Una piedra ha sido tratada.",
+      "La joya ha sido montada incorrectamente."
+    ],
+    "closingParagraphs": [
+      "Significa que los diamantes tienen diferentes características de fluorescencia."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-matching-fluorescence-matter",
+        "title": "¿Cuándo es importante igualar la fluorescencia?",
+        "paragraphsBefore": [
+          "La coincidencia de fluorescencia puede ser importante cuando:"
+        ],
+        "bullets": [
+          "Un comprador quiere una apariencia uniforme bajo iluminación ultravioleta",
+          "Las joyas se usarán con frecuencia en entornos con luz negra.",
+          "Una piedra central y piedras laterales muestran reacciones visiblemente desiguales.",
+          "La coherencia es parte de una especificación personalizada de alto valor.",
+          "Las joyas están siendo documentadas para un propósito específico."
+        ],
+        "paragraphsAfter": [
+          "Para la mayoría de las joyas de uso diario, la apariencia bajo iluminación normal es más importante que la perfecta combinación de fluorescencia."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "diamond-fluorescence-and-price",
+    "title": "¿La fluorescencia del diamante afecta el precio?",
+    "introParagraphs": [
+      "La fluorescencia puede influir en el precio comercial, pero no existe una fórmula universal.",
+      "El efecto depende de:"
+    ],
+    "bullets": [
+      "Grado de color",
+      "Fuerza de fluorescencia",
+      "color fluorescente",
+      "forma de diamante",
+      "Peso en quilates",
+      "Transparencia",
+      "Laboratorio",
+      "Preferencias del mercado",
+      "Proveedor",
+      "Disponibilidad",
+      "Calidad general del diamante"
+    ],
+    "subsections": [
+      {
+        "id": "d-to-h-colour-diamonds",
+        "title": "Diamantes de colores de D a H",
+        "paragraphsBefore": [
+          "Los diamantes en gamas de colores más altas con fluorescencia fuerte o muy fuerte a veces pueden ofrecerse a un precio más bajo que los diamantes no fluorescentes comparables.",
+          "Esto no significa automáticamente que el diamante tenga un defecto visual. La diferencia puede reflejar la preferencia del mercado o la preocupación por la aceptación de la reventa.",
+          "Puede valer la pena considerar un diamante transparente y atractivo ofrecido con un descuento razonable relacionado con la fluorescencia."
+        ]
+      },
+      {
+        "id": "i-to-n-colour-diamonds",
+        "title": "Diamantes de colores I a N",
+        "paragraphsBefore": [
+          "Algunos participantes del mercado pueden valorar más favorablemente la fluorescencia azul de media a muy fuerte en los diamantes más cálidos de la D a la Z porque la emisión azul puede reducir la impresión visible del amarillo bajo luz que contiene rayos UV.",
+          "El beneficio no está presente en todos los entornos de iluminación y no debe tratarse como una mejora permanente del color."
+        ]
+      },
+      {
+        "id": "non-blue-fluorescence",
+        "title": "Fluorescencia no azul",
+        "paragraphsBefore": [
+          "Los compradores individuales y los participantes del mercado pueden evaluar de manera diferente los colores fluorescentes menos comunes.",
+          "No aplique una suposición de fijación de precios de fluorescencia azul a la fluorescencia amarilla, naranja, blanca, verde o roja sin examinar la piedra real."
+        ]
+      },
+      {
+        "id": "no-fixed-fluorescence-discount",
+        "title": "Sin descuento fijo por fluorescencia",
+        "paragraphsBefore": [
+          "Evite afirmaciones como:"
+        ],
+        "bullets": [
+          "La fuerte fluorescencia siempre reduce el precio en un porcentaje fijo.",
+          "La fluorescencia muy fuerte siempre hace que un diamante sea una ganga.",
+          "El azul medio siempre aumenta el valor de un diamante más cálido.",
+          "Ninguno siempre exige el precio justo más alto."
+        ],
+        "paragraphsAfter": [
+          "Una comparación de precios adecuada requiere diamantes que sean realmente similares en:"
+        ]
+      },
+      {
+        "id": "price-comparison-factors",
+        "title": "Factores para una comparación de precios adecuada",
+        "paragraphsBefore": [],
+        "bullets": [
+          "Forma",
+          "Quilate",
+          "Color",
+          "Claridad",
+          "Corte o rendimiento visual",
+          "Medidas",
+          "Polaco",
+          "Simetría",
+          "Fluorescencia",
+          "Transparencia",
+          "Documentación de laboratorio",
+          "Estado del tratamiento",
+          "Condiciones de transacción"
+        ]
+      },
+      {
+        "id": "purchase-price-versus-resale-value",
+        "title": "Precio de compra versus valor de reventa",
+        "paragraphsBefore": [
+          "Un descuento en la compra relacionado con la fluorescencia no garantiza el rendimiento futuro de la reventa.",
+          "La reventa futura depende de:"
+        ],
+        "bullets": [
+          "Demanda del mercado",
+          "Preferencias del comprador",
+          "Condición del diamante",
+          "Documentación",
+          "Calidad",
+          "Liquidez",
+          "Piedras comparables disponibles",
+          "El canal de ventas",
+          "Márgenes comerciales"
+        ],
+        "paragraphsAfter": [
+          "Un informe de calificación describe la fluorescencia. No promete un precio de compra, valor de seguro o valor de reventa en particular."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-fluorescence",
+    "title": "Fluorescencia de diamantes naturales versus fluorescencia de laboratorio",
+    "introParagraphs": [
+      "La fluorescencia no debe utilizarse como prueba independiente que puede realizar usted mismo para determinar el origen del diamante natural.",
+      "Algunos diamantes naturales emiten fluorescencia y muchos no. Algunos diamantes cultivados en laboratorio también son fluorescentes. Ciertos simulantes también pueden mostrar fluorescencia.",
+      "GIA señala que pueden ocurrir diferencias en la intensidad de la fluorescencia, el color y el patrón entre los diamantes naturales y los cultivados en laboratorio, pero existe superposición. Por lo tanto, una simple observación como “brilla en azul” o “no brilla” no puede establecer el origen.",
+      "Los laboratorios profesionales pueden examinar una combinación de:"
+    ],
+    "bullets": [
+      "Reacción UV de onda larga",
+      "Reacción UV de onda corta",
+      "Fluorescencia ultravioleta profunda",
+      "Patrón de fluorescencia",
+      "Patrón de crecimiento",
+      "Fosforescencia",
+      "Espectros de absorción",
+      "Espectros de fotoluminiscencia",
+      "Inclusiones",
+      "Estructura interna",
+      "Características relacionadas con oligoelementos"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La investigación del GIA sobre"
+        },
+        {
+          "type": "link",
+          "text": "fluorescencia y fosforescencia",
+          "href": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explica cómo el análisis avanzado de luminiscencia contribuye a la caracterización de los diamantes."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "can-blue-fluorescence-prove-natural",
+        "title": "¿Puede la fluorescencia azul demostrar que un diamante es natural?",
+        "paragraphsBefore": [
+          "No.",
+          "La fluorescencia azul es común en los diamantes naturales fluorescentes, pero su presencia no es una prueba concluyente de formación natural."
+        ]
+      },
+      {
+        "id": "can-no-fluorescence-prove-lab-grown",
+        "title": "¿La fluorescencia no puede demostrar que un diamante ha sido cultivado en laboratorio?",
+        "paragraphsBefore": [
+          "No.",
+          "Muchos diamantes naturales no muestran fluorescencia observable bajo un examen UV estándar de onda larga."
+        ]
+      },
+      {
+        "id": "can-a-uv-torch-replace-a-laboratory-report",
+        "title": "¿Puede una antorcha ultravioleta reemplazar un informe de laboratorio?",
+        "paragraphsBefore": [
+          "No.",
+          "Las antorchas UV de consumo varían en:"
+        ],
+        "bullets": [
+          "Longitud de onda",
+          "Producción",
+          "Patrón de haz",
+          "Filtración",
+          "Calibración",
+          "Distancia",
+          "Estado de la batería"
+        ],
+        "paragraphsAfter": [
+          "Una antorcha puede demostrar que se produce una reacción bajo esa fuente en particular. No puede proporcionar una identificación completa del origen ni reproducir el proceso de clasificación controlado de un laboratorio gemológico.",
+          "Para la compra de diamantes naturales, confíe en documentación creíble que identifique explícitamente el diamante como natural."
+        ]
+      }
+    ]
+  },
+  "vsPhosphorescence": {
+    "id": "fluorescence-versus-phosphorescence",
+    "title": "Fluorescencia de diamante versus fosforescencia",
+    "introParagraphs": [
+      "La fluorescencia y la fosforescencia son fenómenos de luminiscencia relacionados, pero difieren en el momento."
+    ],
+    "table": {
+      "caption": "Comparación de fluorescencia versus fosforescencia",
+      "headers": [
+        "Característica",
+        "Fluorescencia",
+        "Fosforescencia"
+      ],
+      "rows": [
+        [
+          "Cuando sea visible",
+          "Durante la exposición a la fuente excitante.",
+          "Continúa después de que se haya eliminado la fuente interesante."
+        ],
+        [
+          "Descripción común",
+          "Resplandor bajo luz ultravioleta",
+          "Resplandor después de la exposición ultravioleta"
+        ],
+        [
+          "Relevancia del informe",
+          "Comúnmente registrado como una observación de fluorescencia.",
+          "Puede usarse en análisis gemológicos avanzados, pero no siempre se incluye en los informes estándar de los consumidores."
+        ],
+        [
+          "Valor de identificación del consumidor",
+          "No puede establecer el origen por sí solo",
+          "No puede establecer el origen por sí solo"
+        ],
+        [
+          "Evaluación requerida",
+          "Observación controlada de fuerza y ​​color.",
+          "Observación controlada del color, duración e intensidad después de la excitación."
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Si un diamante deja de brillar tan pronto como se elimina la fuente de rayos UV, la reacción observada es fluorescencia.",
+      "Si el brillo continúa durante un período mensurable, se trata de fosforescencia.",
+      "Los laboratorios profesionales pueden utilizar patrones de fluorescencia y fosforescencia como parte de un proceso de identificación más amplio. Los consumidores no deberían utilizar ninguno de los dos como prueba de origen concluyente."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-fluorescent-diamond",
+    "title": "Cómo inspeccionar un diamante con fluorescencia",
+    "introParagraphs": [
+      "Una etiqueta de fluorescencia debería conducir a una evaluación visual estructurada."
+    ],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Paso 1: lea el informe de calificaciones completo",
+        "paragraphsBefore": [
+          "Confirmar:"
+        ],
+        "bullets": [
+          "El laboratorio emisor",
+          "Tipo de informe",
+          "Número de informe",
+          "Identificación de diamantes",
+          "Intensidad de fluorescencia",
+          "Color de fluorescencia, donde se indique",
+          "Grado de color",
+          "Grado de claridad",
+          "Características de claridad",
+          "Reportar comentarios",
+          "Medidas",
+          "Información de corte y acabado",
+          "Divulgaciones de tratamiento"
+        ]
+      },
+      {
+        "id": "step-2-verify-that-the-report-matches-the-diamond",
+        "title": "Paso 2: Verifique que el informe coincida con el diamante",
+        "paragraphsBefore": [
+          "La información de fluorescencia sólo es útil si el informe pertenece al diamante físico que se ofrece.",
+          "Coincidir con identificadores disponibles como:"
+        ],
+        "bullets": [
+          "Inscripción láser",
+          "Medidas",
+          "Peso en quilates",
+          "Forma",
+          "Características de claridad",
+          "Número de informe",
+          "Resultados de inspección profesional"
+        ]
+      },
+      {
+        "id": "step-3-clean-the-diamond",
+        "title": "Paso 3: Limpiar el diamante",
+        "paragraphsBefore": [
+          "La suciedad, el aceite y los residuos pueden reducir la transparencia y el brillo.",
+          "Un diamante sucio puede parecer opaco o turbio incluso cuando la causa no es la fluorescencia.",
+          "El diamante debe limpiarse de forma segura antes de evaluar:"
+        ],
+        "bullets": [
+          "Transparencia",
+          "Color",
+          "Brillo",
+          "Contraste",
+          "Fluorescencia"
+        ]
+      },
+      {
+        "id": "step-4-inspect-under-neutral-indoor-lighting",
+        "title": "Paso 4: inspeccionar bajo iluminación interior neutra",
+        "paragraphsBefore": [
+          "Comience con la apariencia normal de luz blanca.",
+          "Controlar:"
+        ],
+        "bullets": [
+          "Transparencia",
+          "Brillo",
+          "Color boca arriba",
+          "Patrón de contraste",
+          "Frescura",
+          "Inclusiones visibles",
+          "Atractivo general"
+        ],
+        "paragraphsAfter": [
+          "No comience con una lámpara UV intensa. La principal decisión de compra tiene que ver con el aspecto del diamante durante su uso normal."
+        ]
+      },
+      {
+        "id": "step-5-inspect-under-daylight-equivalent-lighting",
+        "title": "Paso 5: inspeccionar bajo iluminación equivalente a la luz del día",
+        "paragraphsBefore": [
+          "Un entorno de visualización constante equivalente a la luz del día puede ayudar a revelar:"
+        ],
+        "bullets": [
+          "Diferencias de color",
+          "Transparencia",
+          "Neblina preexistente",
+          "Contraste reducido",
+          "La relación entre fluorescencia y apariencia."
+        ],
+        "paragraphsAfter": [
+          "Compare el diamante con otra piedra de calidad similar siempre que sea posible."
+        ]
+      },
+      {
+        "id": "step-6-inspect-in-natural-daylight",
+        "title": "Paso 6: inspeccionar a la luz natural del día",
+        "paragraphsBefore": [
+          "Ver el diamante:"
+        ],
+        "bullets": [
+          "Al aire libre con luz diurna indirecta",
+          "A la luz del día más brillante",
+          "cerca de una ventana",
+          "Lejos de entornos fuertemente coloreados"
+        ],
+        "paragraphsAfter": [
+          "Determina si la apariencia cambia y si ese cambio te resulta atractivo."
+        ]
+      },
+      {
+        "id": "step-7-observe-the-uv-reaction-separately",
+        "title": "Paso 7: observe la reacción UV por separado",
+        "paragraphsBefore": [
+          "Una demostración UV controlada puede confirmar la reacción de fluorescencia visible.",
+          "Evaluar:"
+        ],
+        "bullets": [
+          "Fortaleza",
+          "Color",
+          "Igualdad",
+          "Distribución",
+          "Comparación con el informe de calificaciones."
+        ],
+        "paragraphsAfter": [
+          "No interprete la dramática apariencia UV como la apariencia permanente del diamante."
+        ]
+      },
+      {
+        "id": "step-8-compare-with-a-similar-non-fluorescent-diamond",
+        "title": "Paso 8: Compare con un diamante no fluorescente similar",
+        "paragraphsBefore": [
+          "La comparación más útil mantiene consistentes tantas otras características como sea posible.",
+          "Compara diamantes con similares:"
+        ],
+        "bullets": [
+          "Forma",
+          "Quilate",
+          "Color",
+          "Claridad",
+          "Cortar",
+          "Medidas",
+          "Transparencia",
+          "patrón de faceta"
+        ],
+        "paragraphsAfter": [
+          "Entonces pregunta:",
+          "¿Hay una diferencia de color visible?",
+          "¿Alguno de los diamantes está turbio?",
+          "¿Cuál tiene un contraste más fuerte?",
+          "¿Se nota la diferencia sin aumento?",
+          "¿El diamante fluorescente cuesta menos o más?",
+          "¿La diferencia de precio justifica la diferencia visual real?"
+        ]
+      },
+      {
+        "id": "step-9-review-video-carefully",
+        "title": "Paso 9: revise el video detenidamente",
+        "paragraphsBefore": [
+          "Los vídeos en línea pueden ayudar, pero se ven afectados por:"
+        ],
+        "bullets": [
+          "Balance de blancos de la cámara",
+          "Exposición",
+          "Espectro de iluminación",
+          "Edición",
+          "Compresión",
+          "Calibración de pantalla",
+          "Color de fondo"
+        ],
+        "paragraphsAfter": [
+          "Solicite un vídeo del diamante real bajo más de una condición de iluminación.",
+          "Es posible que un único vídeo giratorio sobre un fondo brillante no revele diferencias de transparencia o color relacionadas con la fluorescencia."
+        ]
+      },
+      {
+        "id": "step-10-obtain-professional-inspection",
+        "title": "Paso 10: Obtenga una inspección profesional cuando corresponda",
+        "paragraphsBefore": [
+          "La inspección profesional se vuelve más valiosa cuando:"
+        ],
+        "bullets": [
+          "El diamante tiene una fluorescencia fuerte o muy fuerte.",
+          "El diamante es de alto valor.",
+          "La transparencia parece incierta",
+          "El color de la fluorescencia es inusual.",
+          "el informe es viejo",
+          "Los detalles del informe no coinciden",
+          "El diamante se compra de forma remota.",
+          "La piedra ha sido recortada, tratada o dañada.",
+          "El origen natural no está claramente documentado."
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Utilice el separado"
+        },
+        {
+          "type": "link",
+          "text": "Guía del informe de clasificación de diamantes",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": "para el proceso completo de verificación de informes."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Comparación de fluorescencia de diamantes trabajados",
+    "introParagraphs": [
+      "Considere tres diamantes naturales hipotéticos con brillo redondo."
+    ],
+    "table": {
+      "caption": "Comparación de fluorescencia trabajada de tres diamantes naturales.",
+      "headers": [
+        "Característica",
+        "Diamante A",
+        "Diamante B",
+        "Diamante C"
+      ],
+      "rows": [
+        [
+          "Quilate",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Color",
+          "G",
+          "G",
+          "J"
+        ],
+        [
+          "Claridad",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Cortar",
+          "Excellent",
+          "Excellent",
+          "Excellent"
+        ],
+        [
+          "Fluorescencia",
+          "None",
+          "Strong Blue",
+          "Strong Blue"
+        ],
+        [
+          "Transparencia",
+          "Claro en el examen suministrado",
+          "Requiere confirmación",
+          "Claro en el examen suministrado"
+        ],
+        [
+          "Precio",
+          "Precio de referencia",
+          "Más bajo que el Diamante A",
+          "Más bajo que ambos diamantes de color G"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Comparando los diamantes A y B",
+        "paragraphsBefore": [
+          "Los titulares de las 4C son los mismos. La principal diferencia declarada es la fluorescencia.",
+          "El comprador debe determinar:"
+        ],
+        "bullets": [
+          "¿Diamond B sigue siendo transparente?",
+          "¿Hay alguna diferencia visible a la luz del día?",
+          "¿El Diamante B muestra un contraste reducido?",
+          "¿Es personalmente aceptable la reacción de Strong Blue?",
+          "¿Qué tan grande es la diferencia de precio?",
+          "¿Son comparables las medidas y proporciones?"
+        ],
+        "paragraphsAfter": [
+          "Si el Diamante B es transparente y visualmente similar en condiciones normales, su precio más bajo puede hacerlo atractivo.",
+          "Si el Diamante B parece confuso o si el comprador da prioridad a la aceptación en el mercado de un diamante de color G no fluorescente, es posible que se prefiera el Diamante A."
+        ]
+      },
+      {
+        "title": "Comparando diamantes B y C",
+        "paragraphsBefore": [
+          "Ambos tienen fluorescencia azul fuerte, pero tienen diferentes grados de color.",
+          "La fluorescencia de Diamond C puede reducir la impresión visible de amarillo en algunos entornos que contienen rayos UV. No cambiará la calificación J en el informe.",
+          "El comprador debe comparar:"
+        ],
+        "bullets": [
+          "Apariencia bajo iluminación interior.",
+          "Apariencia al aire libre",
+          "Color de metal deseado",
+          "Corte general y transparencia.",
+          "Precio",
+          "Sensibilidad personal al color cálido."
+        ],
+        "paragraphsAfter": [
+          "Diamond C puede ofrecer un equilibrio adecuado para un comprador que se sienta cómodo con la calidez. No debe representarse como un equivalente permanente de un diamante de color G."
+        ]
+      },
+      {
+        "title": "Lo que demuestra esta comparación",
+        "paragraphsBefore": [
+          "Una etiqueta fluorescente no puede decidir por sí sola la compra.",
+          "La decisión aún depende de:"
+        ],
+        "bullets": [
+          "Color",
+          "Cortar",
+          "Transparencia",
+          "Medidas",
+          "Precio",
+          "Iluminación",
+          "Configuración prevista",
+          "Preferencia del comprador"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-fluorescence-myths",
+    "title": "Mitos comunes sobre la fluorescencia del diamante",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Mitos comunes sobre la fluorescencia de los diamantes e interpretaciones precisas",
+      "headers": [
+        "Mito",
+        "Interpretación precisa"
+      ],
+      "rows": [
+        [
+          "Cada diamante natural fluorescente",
+          "La mayoría de los diamantes en los datos de presentación citados por el GIA no mostraron fluorescencia bajo el examen UV estándar de onda larga."
+        ],
+        [
+          "La fluorescencia azul demuestra que un diamante es natural",
+          "Los materiales naturales, cultivados en laboratorio y de imitación pueden mostrar fluorescencia"
+        ],
+        [
+          "Un diamante sin fluorescencia se cultiva en laboratorio",
+          "Muchos diamantes naturales no tienen ninguna fluorescencia."
+        ],
+        [
+          "La fuerte fluorescencia siempre vuelve turbio al diamante.",
+          "La fluorescencia por sí sola no causa turbidez; puede intensificar raros efectos de dispersión de luz preexistentes"
+        ],
+        [
+          "La fluorescencia cambia el grado de color del laboratorio.",
+          "Los laboratorios clasifican el color en condiciones controladas; La fluorescencia no reescribe el grado de color indicado."
+        ],
+        [
+          "La fluorescencia azul siempre hace que un diamante parezca más blanco",
+          "El efecto depende del color del cuerpo, la intensidad de la fluorescencia, la iluminación y el diamante individual."
+        ],
+        [
+          "La fluorescencia reduce el brillo",
+          "El brillo se rige principalmente por el corte, las proporciones y el rendimiento en luz visible."
+        ],
+        [
+          "Una fluorescencia muy fuerte significa mala calidad.",
+          "Describe la intensidad de la reacción y requiere una evaluación visual individual."
+        ],
+        [
+          "La fluorescencia debilita un diamante",
+          "La fluorescencia no reduce inherentemente la integridad estructural"
+        ],
+        [
+          "La débil fluorescencia es un defecto.",
+          "Desmayo simplemente describe una reacción débil bajo las condiciones de prueba."
+        ],
+        [
+          "La fluorescencia siempre reduce el precio",
+          "Los efectos del mercado varían según el color, la fuerza, la transparencia y la demanda."
+        ],
+        [
+          "Una linterna ultravioleta puede identificar un diamante natural",
+          "La observación UV del consumidor no puede reemplazar el análisis de laboratorio"
+        ],
+        [
+          "La fluorescencia y la fosforescencia son lo mismo.",
+          "La fluorescencia ocurre durante la excitación; La fosforescencia continúa después de eliminar la fuente."
+        ],
+        [
+          "Un informe de calificación garantiza una transparencia normal",
+          "El informe proporciona información importante, pero el diamante físico y el estado actual aún requieren evaluación."
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Lista de verificación de fluorescencia del diamante natural",
+    "introLead": "Antes de comprar, confirme:",
+    "items": [
+      "El diamante está explícitamente identificado como natural en documentación creíble.",
+      "Se ha proporcionado el informe de calificaciones completo.",
+      "El número del informe ha sido verificado.",
+      "El informe se ha comparado con el diamante físico.",
+      "Se ha leído la intensidad de la fluorescencia.",
+      "Se ha comprobado el color de la fluorescencia, donde se indica.",
+      "Se comprende el grado de color del diamante.",
+      "La fluorescencia no se ha presentado como una mejora del grado de color.",
+      "Se han revisado el grado de claridad y las características de claridad.",
+      "Se han leído los comentarios del informe.",
+      "El diamante ha sido inspeccionado con iluminación interior normal.",
+      "El diamante ha sido inspeccionado bajo iluminación equivalente a la luz del día.",
+      "El diamante se ha visto a la luz natural siempre que ha sido posible.",
+      "Se ha comprobado la transparencia.",
+      "Se ha investigado cualquier aspecto turbio, aceitoso o lechoso.",
+      "La calidad del corte o el rendimiento visual de las formas elegantes se evaluaron por separado.",
+      "La reacción de fluorescencia se ha comparado con el informe.",
+      "Siempre que fue posible, el diamante se ha comparado con una piedra similar.",
+      "Fotografías y vídeos muestran el diamante real.",
+      "El precio de venta se ha comparado con piedras realmente similares.",
+      "No se ha asumido ningún descuento o prima fija por fluorescencia.",
+      "La fluorescencia no se ha utilizado como prueba de origen natural.",
+      "Se ha organizado una inspección profesional cuando correspondía.",
+      "Los términos de pago, entrega e inspección son claros."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-fluorescent-natural-diamonds",
+    "title": "¿Ya estás comparando diamantes naturales fluorescentes?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Se debe considerar una descripción de fluorescencia junto con el color, la transparencia, el corte, la claridad, las medidas, la documentación, el precio y la apariencia real del diamante."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Con"
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", los compradores que ya hayan preseleccionado un diamante natural suelto pueden enviarlo a Dalila Diamonds para la coordinación del control de calidad aplicable, el pago en euros y la entrega programada a Bélgica u otro destino confirmado de la Unión Europea."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si aún no ha seleccionado un diamante, utilice"
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": "para solicitar asistencia personalizada para el abastecimiento de diamantes naturales."
+        }
+      ]
+    ],
+    "primaryButtonText": "Enviar un diamante preseleccionado",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Explorar diamantes naturales",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes sobre la fluorescencia del diamante",
+    "items": [
+      {
+        "question": "¿Qué es la fluorescencia del diamante?",
+        "answer": "La fluorescencia del diamante es la luz visible que emiten algunos diamantes mientras están expuestos a la radiación ultravioleta. El azul es el color de fluorescencia más común, aunque pueden aparecer amarillo, naranja, blanco, verde y otros colores."
+      },
+      {
+        "question": "¿Qué significa la fluorescencia del diamante en un informe de calificación?",
+        "answer": "Describe la reacción del diamante bajo las condiciones de examen ultravioleta especificadas por el laboratorio emisor. En los informes GIA, la intensidad de la fluorescencia se registra como Ninguna, Débil, Media, Fuerte o Muy fuerte."
+      },
+      {
+        "question": "¿La fluorescencia del diamante es buena o mala?",
+        "answer": "No es ni bueno ni malo automáticamente. La mayoría de los diamantes fluorescentes no muestran un efecto negativo muy perceptible. El diamante real debe evaluarse en cuanto a apariencia de color, transparencia, rendimiento visual y precio."
+      },
+      {
+        "question": "¿Todos los diamantes naturales son fluorescentes?",
+        "answer": "No. Los datos de la presentación citada del GIA indican que aproximadamente entre el 25% y el 35% de los diamantes muestran cierta fluorescencia bajo luz ultravioleta de onda larga. La mayoría no muestra ninguna reacción observable en esas condiciones."
+      },
+      {
+        "question": "¿Qué es la fluorescencia azul en un diamante?",
+        "answer": "La fluorescencia azul es una emisión azul visible que se produce cuando un diamante sensible se expone a una radiación ultravioleta adecuada. Es el color fluorescente más comúnmente observado en los diamantes."
+      },
+      {
+        "question": "¿Qué es la escala de fluorescencia del diamante?",
+        "answer": "La escala de intensidad del GIA es Ninguna, Débil, Media, Fuerte y Muy Fuerte. Estos términos describen la fuerza de la reacción, no la calidad completa del diamante."
+      },
+      {
+        "question": "¿Es mala la fluorescencia tenue?",
+        "answer": "No. La fluorescencia tenue es una reacción débil y normalmente es difícil de notar sin un examen ultravioleta controlado."
+      },
+      {
+        "question": "¿Es aceptable la fluorescencia media?",
+        "answer": "La fluorescencia media puede ser aceptable si el diamante tiene un color, transparencia y rendimiento visual atractivos. Examine el diamante real bajo luz interior, luz equivalente a luz diurna y luz natural."
+      },
+      {
+        "question": "¿Debo evitar la fluorescencia azul fuerte?",
+        "answer": "No automáticamente. Puede producirse una fuerte fluorescencia azul en diamantes transparentes y atractivos. Inspeccione la piedra individual y determine si su apariencia y precio se ajustan a sus necesidades."
+      },
+      {
+        "question": "¿Es la fluorescencia muy fuerte un problema?",
+        "answer": "La fluorescencia muy fuerte requiere un examen más detenido, pero la etiqueta por sí sola no constituye un problema. Compruebe la transparencia del diamante, el contraste nítido y cualquier apariencia borrosa preexistente bajo diferentes condiciones de iluminación."
+      },
+      {
+        "question": "¿La fluorescencia enturbia un diamante?",
+        "answer": "La fluorescencia por sí sola no causa turbidez. La investigación del GIA indica que una fuerte fluorescencia puede intensificar una rara neblina preexistente asociada con características estructurales o nanoinclusiones, pero no crea esa neblina por sí sola."
+      },
+      {
+        "question": "¿Qué tan común es el efecto brumoso “sobreazul”?",
+        "answer": "El GIA informa que el efecto se produce en menos del 0,2% de los diamantes fluorescentes que se le presentan. Los compradores aún deben inspeccionar los diamantes fluorescentes fuertes y muy fuertes individuales."
+      },
+      {
+        "question": "¿La fluorescencia afecta el grado de color de un diamante?",
+        "answer": "No cambia el grado de color asignado bajo las condiciones controladas del laboratorio. La fluorescencia azul puede afectar el color percibido en la iluminación que contiene rayos UV, particularmente en diamantes con un color de cuerpo amarillento."
+      },
+      {
+        "question": "¿Puede la fluorescencia azul hacer que un diamante de color J parezca más blanco?",
+        "answer": "Puede reducir la impresión visible de amarillo en algunos entornos que contienen rayos UV. No cambia permanentemente el diamante a un grado de color superior y puede tener poco efecto en la iluminación sin suficiente radiación ultravioleta."
+      },
+      {
+        "question": "¿La fluorescencia mejora un diamante de color D?",
+        "answer": "Un diamante de color D ya se encuentra en el extremo incoloro de la escala D a Z. La fluorescencia no mejora su grado de color oficial. Se debe evaluar la transparencia, la apariencia y el precio de mercado del diamante."
+      },
+      {
+        "question": "¿La fluorescencia afecta el brillo?",
+        "answer": "La fluorescencia tiene poco o ningún efecto directo sobre el brillo fundamental. El brillo, el fuego y el centelleo están determinados principalmente por el corte, las proporciones y la mano de obra del diamante."
+      },
+      {
+        "question": "¿La fluorescencia afecta la durabilidad del diamante?",
+        "answer": "No. Las características a escala atómica asociadas con la fluorescencia no debilitan inherentemente el diamante ni reducen su integridad estructural."
+      },
+      {
+        "question": "¿Puede la fluorescencia demostrar que un diamante es natural?",
+        "answer": "No. Algunos diamantes naturales no emiten fluorescencia, mientras que algunos diamantes y simulantes cultivados en laboratorio sí lo hacen. El origen natural debe establecerse mediante documentación gemológica creíble."
+      },
+      {
+        "question": "¿Los diamantes cultivados en laboratorio son fluorescentes?",
+        "answer": "Algunos lo hacen. Su color, intensidad y patrón de fluorescencia pueden diferir de los que se observan comúnmente en los diamantes naturales, pero existe superposición. Se requieren pruebas profesionales para una identificación confiable."
+      },
+      {
+        "question": "¿Puedo probar la fluorescencia del diamante con una antorcha UV?",
+        "answer": "Una linterna ultravioleta puede revelar una reacción visible, pero no puede reproducir pruebas de laboratorio completas ni demostrar el origen natural. Diferentes antorchas pueden producir resultados diferentes porque su longitud de onda y su potencia varían."
+      },
+      {
+        "question": "¿Se puede ver la fluorescencia de los diamantes a la luz del sol?",
+        "answer": "Puede volverse visible a la luz del sol porque la luz del día contiene radiación ultravioleta. La fuerza del efecto depende del diamante, el entorno y la cantidad de rayos UV que llegan a la piedra."
+      },
+      {
+        "question": "¿Brillará un diamante fluorescente en el interior?",
+        "answer": "Sólo si la fuente de luz interior contiene suficiente radiación ultravioleta adecuada. Muchos ambientes interiores ordinarios producirán poca o ninguna fluorescencia visible."
+      },
+      {
+        "question": "¿Brillará un diamante fluorescente en una discoteca?",
+        "answer": "Puede brillar bajo luces negras u otras fuentes ultravioleta potentes utilizadas en algunos lugares. El efecto se detiene cuando se elimina la fuente excitante, a menos que el material también muestre fosforescencia."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre fluorescencia y fosforescencia?",
+        "answer": "La fluorescencia es visible mientras el diamante está expuesto a la fuente de excitación. La fosforescencia es un resplandor que continúa después de que se elimina la fuente."
+      },
+      {
+        "question": "¿Un diamante sin fluorescencia tiene mejor calidad?",
+        "answer": "No necesariamente. Ninguno describe únicamente la reacción UV. El diamante aún podría tener un corte deficiente, poca transparencia u otras características indeseables."
+      },
+      {
+        "question": "¿Por qué los diamantes del mismo anillo brillan de manera diferente bajo los rayos UV?",
+        "answer": "Cada diamante puede tener diferentes características de fluorescencia. Un anillo puede contener piedras con fluorescencia Ninguna, Débil, Media o Fuerte incluso cuando lucen combinadas bajo iluminación normal."
+      },
+      {
+        "question": "¿La forma del diamante afecta la fluorescencia?",
+        "answer": "La forma no crea una escala de fluorescencia separada. Sin embargo, la forma y el patrón de las facetas pueden influir en la visibilidad del color del cuerpo, la transparencia y el contraste, por lo que se debe evaluar el diamante completo."
+      },
+      {
+        "question": "¿Es mala la fluorescencia en un diamante ovalado?",
+        "answer": "No. Evalúe la transparencia, el color, la pajarita, el patrón de facetas, la extensión y el precio del óvalo. La fluorescencia es sólo una característica y no provoca el efecto pajarita."
+      },
+      {
+        "question": "¿Es mala la fluorescencia en un diamante talla esmeralda?",
+        "answer": "No automáticamente. Debido a que los patrones de corte escalonado pueden hacer que la claridad y la transparencia sean más fáciles de observar, examine cuidadosamente el diamante real. Una fluorescencia intensa no vuelve automáticamente turbia una talla esmeralda."
+      },
+      {
+        "question": "¿La fluorescencia reduce el precio de un diamante?",
+        "answer": "Puede afectar los precios comerciales, particularmente en ciertas combinaciones de colores y fluorescencia, pero no existe un descuento universal. Compare la piedra real con diamantes genuinamente similares."
+      },
+      {
+        "question": "¿Puede un diamante fluorescente ser una compra a buen precio?",
+        "answer": "Sí. Un diamante transparente y atractivo puede ofrecerse por debajo del precio de una piedra comparable no fluorescente debido a las preferencias del mercado. Confirme la calidad visual y las condiciones de transacción antes de decidir."
+      },
+      {
+        "question": "¿Debería pagar más por la fluorescencia azul en un diamante más cálido?",
+        "answer": "No automáticamente. La fluorescencia azul puede hacer que el diamante parezca menos amarillo con cierta iluminación, pero el efecto no es constante. Base la decisión en la apariencia real y en la comparación completa de precios."
+      },
+      {
+        "question": "¿Es suficiente un informe de fluorescencia para evaluar el diamante?",
+        "answer": "No. Revise todo el informe de clasificación e inspeccione el corte, el color, la claridad, las medidas, la transparencia, el estado actual y la apariencia visual del diamante."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusión final",
+    "introParagraphs": [
+      "La fluorescencia del diamante es una característica identificativa, no una ventaja o un defecto automático.",
+      "La mayoría de los diamantes fluorescentes no muestran un efecto negativo muy perceptible en condiciones normales de visualización. La fluorescencia azul a veces puede reducir la apariencia amarilla percibida de un diamante más cálido cuando está presente una radiación ultravioleta adecuada. La fluorescencia intensa no crea turbidez de forma independiente, no debilita el diamante ni reduce el brillo.",
+      "Sin embargo, no se debe ignorar la fluorescencia.",
+      "Lea su intensidad y color en el informe de calificación. Inspeccione el diamante real bajo luz interior, luz equivalente a la luz diurna y luz natural. Compare su transparencia, contraste, color y precio con piedras genuinamente similares.",
+      "No rechace un diamante natural simplemente porque su informe dice Azul Fuerte.",
+      "No lo compre simplemente porque alguien afirme que la fluorescencia hace que parezca permanentemente más blanco.",
+      "Preguntar:",
+      "¿Este diamante en particular sigue siendo transparente y atractivo en uso normal y su calidad completa justifica el precio?"
+    ],
+    "primaryButtonText": "Utilice la fuente segura",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contacto Dalila Diamantes",
+    "secondaryButtonHref": "/contact"
+  }
+}

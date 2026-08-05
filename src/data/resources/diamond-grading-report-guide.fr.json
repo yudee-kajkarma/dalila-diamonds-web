@@ -520,6 +520,23 @@
           "Comparez-le avec un diamant similaire sans fluorescence",
           "Déterminez si la fluorescence a affecté le prix demandé",
           "Ne rejetez ni n'achetez pas un diamant uniquement en fonction de l'étiquette de fluorescence."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Pour une évaluation complète de l’intensité, de la couleur, de la transparence et des effets sur le prix, consultez le "
+            },
+            {
+              "type": "link",
+              "text": "Guide de la fluorescence des diamants",
+              "href": "/resources/diamond-fluorescence-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
@@ -555,6 +572,32 @@
           "Culette",
           "La culette est le point ou la petite facette au bas du diamant. Une culette de grande taille peut être visible à travers la table.",
           "Utilisez le diagramme des proportions comme outil de filtrage et de comparaison, et non comme substitut à la visualisation ou à l'inspection du diamant."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Pour une explication complète de l’épaisseur de la ceinture, des rapports GIA et HRD, de la finition, de la durabilité et du sertissage, consultez le "
+            },
+            {
+              "type": "link",
+              "text": "Guide de la ceinture du diamant",
+              "href": "/resources/diamond-girdle-guide"
+            },
+            {
+              "type": "text",
+              "value": ". Pour la taille du culot et les culots pointus ou ouverts, consultez le "
+            },
+            {
+              "type": "link",
+              "text": "Guide du culot du diamant",
+              "href": "/resources/diamond-culet-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
         ]
       },
       {
