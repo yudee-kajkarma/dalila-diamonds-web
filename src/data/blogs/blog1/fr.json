@@ -1,0 +1,695 @@
+{
+  "meta": {
+    "title": "Formes de diamant les plus chères : guide des prix et de la valeur | Dalila",
+    "description": "Découvrez quelles formes de diamants coûtent le plus cher, pourquoi les diamants ronds sont plus chers et comment comparer les diamants naturels en termes de prix, de taille et de qualité de taille.",
+    "canonical": "https://www.daliladiamonds.com/blogs/most-expensive-diamond-shapes",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Most expensive diamond shapes",
+    "inLanguage": "fr"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/most-expensive-diamond-shapes.webp",
+      "alt": "Comparaison des formes d'émeraude coussin de poire ovale ronde et de diamant naturel radiant",
+      "width": 1600,
+      "height": 900
+    },
+    "roughYield": {
+      "src": "/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
+      "alt": "Comparaison de l'utilisation du diamant brut pour les diamants ronds et de forme fantaisie",
+      "width": 1400,
+      "height": 1000
+    },
+    "priceDrivers": {
+      "src": "/images/blogs/diamond-shape-price-drivers.webp",
+      "alt": "Facteurs affectant les prix des diamants naturels par forme",
+      "width": 1400,
+      "height": 1000
+    },
+    "faceUpSize": {
+      "src": "/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
+      "alt": "Comparaison de la taille face vers le haut des formes de diamants d'un carat",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Formes de diamant les plus chères",
+    "breadcrumbHome": "Maison",
+    "breadcrumbBlogs": "Blogues",
+    "breadcrumbCurrent": "Quelles formes de diamant sont les plus chères ?",
+    "imageAlt": "Bannière de guide des formes de diamants les plus chères pour les acheteurs de diamants naturels"
+  },
+  "hero": {
+    "title": "Quelles formes de diamant sont les plus chères et pourquoi ?",
+    "subheading": "Comparez les formes de diamants naturels incolores en fonction de leur position de prix typique, comprenez pourquoi les brillants ronds ont une prime et apprenez à évaluer la valeur au-delà de la seule forme.",
+    "reviewDateLabel": "Dernière révision :",
+    "reviewDate": "6 août 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Le brillant rond est généralement la forme de diamant par carat la plus chère si l'on compare des diamants naturels incolores avec un poids en carats, une couleur, une clarté, des rapports de classement et une qualité globale similaires.",
+      "Son prix plus élevé s'explique par une combinaison de la forte demande du marché, de la quantité de diamant brut retirée lors de la taille, des exigences strictes en matière de proportions et de sa capacité à produire une brillance exceptionnelle.",
+      "Cependant, cela ne signifie pas que chaque diamant rond coûte plus cher que chaque diamant taille ovale, coussin ou émeraude. Un diamant de taille fantaisie de grande taille, rare ou exceptionnellement bien taillé, peut coûter beaucoup plus cher qu'un diamant rond de moindre qualité.",
+      "La comparaison correcte doit toujours être effectuée entre des diamants ayant des spécifications similaires."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Réponse rapide",
+    "question": "Quelle forme de diamant est la plus chère ?",
+    "introParagraphs": [
+      "Le brillant rond est généralement la forme de diamant courante la plus chère par carat. Une plus grande partie du cristal brut d'origine peut être retirée pour produire un diamant rond bien proportionné, tandis que la demande pour la forme reste toujours forte.",
+      "Les formes fantaisie, notamment ovale, poire, coussin, princesse, émeraude, radiant et marquise, coûtent souvent moins cher par carat que les diamants ronds comparables. Leurs prix exacts dépendent de la demande, de la rareté, des proportions, des performances visuelles et de l’efficacité avec laquelle chaque forme peut être produite à partir du diamant brut."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Points clés à retenir",
+    "items": [
+      "Les diamants ronds brillants ont normalement le prix par carat le plus élevé.",
+      "La forme d’un diamant ne doit jamais être comparée sans contrôler le carat, la couleur, la clarté et la certification.",
+      "Les formes fantaisie ne suivent pas un classement de prix permanent.",
+      "Les diamants ovales, poires et marquises peuvent offrir une apparence plus grande face vers le haut pour leur poids.",
+      "Les tailles princesse et radiantes peuvent conserver davantage le cristal brut d'origine qu'un brillant rond.",
+      "Les diamants de forme fantaisie nécessitent une inspection visuelle car un rapport de classement ne décrit pas tous les aspects de leur apparence.",
+      "La pierre la moins chère n’est pas automatiquement la pierre la plus avantageuse pour un bijoutier ou un client."
+    ]
+  },
+  "overviewNav": {
+    "title": "Aperçu de l'article",
+    "items": [
+      {
+        "id": "diamond-shape-versus-diamond-cut",
+        "label": "Forme du diamant versus taille du diamant"
+      },
+      {
+        "id": "diamond-shapes-by-typical-price-position",
+        "label": "Formes de diamants par position de prix typique"
+      },
+      {
+        "id": "why-are-round-diamonds-more-expensive",
+        "label": "Pourquoi les diamants ronds sont-ils plus chers ?"
+      },
+      {
+        "id": "are-oval-diamonds-the-second-most-expensive-shape",
+        "label": "Les diamants ovales sont-ils la deuxième forme la plus chère ?"
+      },
+      {
+        "id": "pear-and-marquise-diamonds",
+        "label": "Diamants poire et marquise : prix versus taille visible"
+      },
+      {
+        "id": "cushion-radiant-and-princess-diamonds",
+        "label": "Diamants coussin, radiant et princesse"
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "label": "Tailles émeraude et Asscher"
+      },
+      {
+        "id": "are-heart-shaped-diamonds-expensive",
+        "label": "Les diamants en forme de cœur sont-ils chers ?"
+      },
+      {
+        "id": "which-diamond-shape-looks-biggest",
+        "label": "Quelle forme de diamant semble la plus grande pour son prix ?"
+      },
+      {
+        "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+        "label": "La forme la plus chère signifie-t-elle le meilleur diamant ?"
+      },
+      {
+        "id": "how-to-compare-diamond-prices-by-shape",
+        "label": "Comment comparer correctement les prix des diamants par forme"
+      },
+      {
+        "id": "wholesale-diamond-buying-checklist",
+        "label": "Liste de contrôle pour l’achat de diamants en gros"
+      },
+      {
+        "id": "an-antwerp-sourcing-perspective",
+        "label": "Une perspective de sourcing à Anvers"
+      },
+      {
+        "id": "final-answer",
+        "label": "Réponse finale : quelle forme de diamant coûte le plus cher ?"
+      }
+    ]
+  },
+  "shapeVsCut": {
+    "id": "diamond-shape-versus-diamond-cut",
+    "title": "Forme du diamant et taille du diamant",
+    "introParagraphs": [
+      "La forme et la taille du diamant sont liées, mais elles ne sont pas identiques.",
+      "La forme décrit le contour visible du diamant. Les exemples incluent rond, ovale, poire, émeraude, coussin et marquise.",
+      "La qualité de taille décrit la façon dont les proportions, les facettes et la finition du diamant gèrent la lumière. Cela affecte la luminosité, le feu, la scintillation et l’apparence générale du diamant.",
+      "Cette distinction est importante lorsque les gens recherchent la « taille de diamant la plus chère ». On se demande souvent quelle forme de diamant coûte le plus cher, mais deux diamants de même forme peuvent quand même avoir des valeurs très différentes en raison de leur qualité de taille."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "celle de Dalila"
+        },
+        {
+          "type": "link",
+          "text": "guide de connaissances sur les diamants",
+          "href": "/diamondKnowledge"
+        },
+        {
+          "type": "text",
+          "value": "explique comment la forme, la coupe, la couleur, la clarté et le poids en carats fonctionnent ensemble."
+        }
+      ]
+    ]
+  },
+  "shapesByPrice": {
+    "id": "diamond-shapes-by-typical-price-position",
+    "title": "Formes de diamant par position de prix typique",
+    "introParagraphs": [
+      "Il n’existe pas de liste de prix permanente s’appliquant à chaque diamant. La comparaison suivante montre la position habituelle des formes courantes de diamants naturels incolores lorsque leurs autres caractéristiques de qualité sont raisonnablement similaires."
+    ],
+    "table": {
+      "caption": "Position de prix typique des formes courantes de diamants naturels incolores",
+      "headers": [
+        "Forme de diamant",
+        "Position de prix typique",
+        "Facteurs de prix importants"
+      ],
+      "rows": [
+        [
+          "Round brilliant",
+          "Généralement le plus cher",
+          "Exigence, perte de brut, précision et brillance"
+        ],
+        [
+          "Oval",
+          "Souvent l'une des formes fantaisie les plus chères",
+          "Popularité, rapport longueur/largeur, étendue et visibilité du nœud papillon"
+        ],
+        [
+          "Pear",
+          "Plage moyenne à haute variable",
+          "Symétrie, nœud papillon, contour et alignement des points"
+        ],
+        [
+          "Marquise",
+          "Variable",
+          "Taille face vers le haut, symétrie, rapport longueur/largeur et disponibilité"
+        ],
+        [
+          "Radiant",
+          "Généralement en dessous du rond",
+          "Brillance, contour, tenue des couleurs et qualité des proportions"
+        ],
+        [
+          "Cushion",
+          "Généralement en dessous du rond",
+          "Rapport de forme, motif de facettes, profondeur et performances visuelles"
+        ],
+        [
+          "Princess",
+          "Généralement en dessous du rond",
+          "Rétention brute, qualité des coins et brillance"
+        ],
+        [
+          "Emerald",
+          "Souvent en dessous du niveau rond, avec des primes pour une qualité élevée",
+          "Clarté, couleur, fenêtrage et précision de coupe par étapes"
+        ],
+        [
+          "Asscher",
+          "Variable et parfois spécialisée",
+          "Symétrie, profondeur, motif de moulin à vent et disponibilité limitée"
+        ],
+        [
+          "Heart",
+          "Très variable",
+          "Demande de niche, contour, fente, lobes et symétrie"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Il s'agit d'un guide pratique et non d'un devis en direct. Les prix des diamants changent en fonction des stocks, de la demande du marché, des seuils en carats et des caractéristiques individuelles de chaque pierre."
+    ]
+  },
+  "whyRoundExpensive": {
+    "id": "why-are-round-diamonds-more-expensive",
+    "title": "Pourquoi les diamants ronds sont-ils plus chers ?",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "more-of-the-rough-diamond-may-be-removed",
+        "title": "1. Une plus grande partie du diamant brut peut être supprimée",
+        "paragraphsBefore": [
+          "Un diamant poli commence comme un cristal naturel irrégulier. Le tailleur doit décider quelle forme produira le meilleur équilibre entre beauté, poids et valeur commerciale.",
+          "La production d'un brillant rond symétrique et bien proportionné peut nécessiter l'élimination de matériaux plus rugueux que les formes qui suivent de plus près le cristal d'origine.",
+          "Par exemple, le GIA explique que les diamants taille princesse peuvent coûter moins cher par carat parce que les tailleurs peuvent conserver une plus grande partie du cristal de diamant d'origine.",
+          "Lorsqu’il reste moins de poids poli d’une pièce brute coûteuse, le coût associé à chaque carat conservé augmente."
+        ]
+      },
+      {
+        "id": "round-brilliant-diamonds-have-consistently-strong-demand",
+        "title": "2. Les diamants ronds brillants ont une demande toujours forte",
+        "paragraphsBefore": [
+          "Les diamants ronds sont largement utilisés pour les bagues de fiançailles, les boucles d'oreilles, les pendentifs, les pierres latérales et les créations de bijoux classiques. Cette large demande commerciale soutient leurs prix.",
+          "Un bijoutier peut utiliser un brillant rond dans de nombreuses collections et marchés. Certaines formes fantaisie s'adressent à un groupe de clients plus restreint et peuvent prendre plus de temps à se vendre, même lorsque la pierre elle-même est attrayante."
+        ]
+      },
+      {
+        "id": "round-brilliants-are-designed-for-strong-light-performance",
+        "title": "3. Les brillants ronds sont conçus pour une forte performance lumineuse",
+        "paragraphsBefore": [
+          "Un brillant rond a une structure de facettes hautement standardisée conçue pour produire de la luminosité, du feu et des scintillations.",
+          "Le guide des formes de diamant du GIA décrit le brillant rond comme la seule forme qui reçoit actuellement une note de taille globale du GIA allant d'Excellent à Mauvais.",
+          "Ce système de classement standardisé offre aux acheteurs un moyen supplémentaire de comparer les diamants ronds. Les formes fantaisie reçoivent toujours des informations telles que le poli, la symétrie, les mesures et les proportions, mais leur performance visuelle complète ne peut pas être réduite à une seule qualité de coupe GIA globale."
+        ]
+      },
+      {
+        "id": "high-quality-cutting-requires-precision",
+        "title": "4. Une coupe de haute qualité nécessite de la précision",
+        "paragraphsBefore": [
+          "De petites différences dans la taille de la table, la profondeur, l’angle du pavillon, l’angle de la couronne, l’épaisseur du rondiste et l’alignement des facettes peuvent affecter l’apparence d’un diamant rond.",
+          "Les coupeurs doivent équilibrer le poids poli et les performances légères. Conserver un poids supplémentaire peut augmenter le nombre de carats, mais de mauvaises proportions peuvent donner au diamant un aspect sombre, petit ou moins vivant.",
+          "Les diamants ronds bien taillés ont donc de la valeur non seulement en raison de leur forme, mais aussi en raison de la précision requise pour leur production."
+        ]
+      }
+    ]
+  },
+  "ovalSecondMost": {
+    "id": "are-oval-diamonds-the-second-most-expensive-shape",
+    "title": "Les diamants ovales sont-ils la deuxième forme la plus chère ?",
+    "introParagraphs": [
+      "Pas toujours.",
+      "Les diamants ovales font souvent partie des formes fantaisie les plus chères car ils sont populaires, élégants et peuvent paraître gros pour leur poids en carats. Cependant, les prix des ovales varient considérablement selon :"
+    ],
+    "bullets": [
+      "Rapport longueur/largeur",
+      "Mesures face vers le haut",
+      "Visibilité du nœud papillon",
+      "Symétrie du contour",
+      "Forme des épaules",
+      "Répartition des couleurs",
+      "Disponibilité dans une plage de carats particulière"
+    ],
+    "closingParagraphs": [
+      "Un ovale vivant avec un contour attrayant et un nœud papillon minimal peut coûter plus cher qu'un ovale avec les mêmes notes mais des performances visuelles plus faibles.",
+      "Les recherches du GIA sur les diamants ovales, poires et marquises démontrent également comment les préférences de contour et les rapports longueur/largeur varient. C'est l'une des raisons pour lesquelles les diamants de forme fantaisie doivent être inspectés visuellement au lieu d'être sélectionnés uniquement à partir des notes des rapports."
+    ]
+  },
+  "pearMarquise": {
+    "id": "pear-and-marquise-diamonds",
+    "title": "Diamants poire et marquise : prix par rapport à la taille visible",
+    "introParagraphs": [
+      "Les diamants poire et marquise offrent souvent une forte présence face vers le haut car leur poids est réparti sur un contour allongé.",
+      "Une marquise d'un carat peut paraître plus grosse vue de dessus qu'un diamant rond d'un carat, même si les deux pierres ont le même poids. Les diamants poire peuvent offrir un avantage visuel similaire.",
+      "Cependant, les acheteurs doivent inspecter :"
+    ],
+    "bullets": [
+      "Symétrie du contour",
+      "Ténèbres du nœud papillon",
+      "Alignement des points",
+      "Épaules ou ailes inégales",
+      "Profondeur excessive",
+      "Zones très fines de la ceinture",
+      "Risques d'écaillage autour des extrémités pointues"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Comparez les mesures indiquées sur le rapport de classement avec celles de Dalila."
+        },
+        {
+          "type": "link",
+          "text": "guide de la taille des diamants en millimètres",
+          "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Le carat mesure le poids ; les mesures en millimètres montrent la taille du diamant face vers le haut."
+        }
+      ]
+    ]
+  },
+  "cushionRadiantPrincess": {
+    "id": "cushion-radiant-and-princess-diamonds",
+    "title": "Diamants Coussin, Radiants et Princesse",
+    "introParagraphs": [
+      "Ces formes coûtent généralement moins cher par carat que les brillants ronds comparables, mais leur apparence peut varier considérablement."
+    ],
+    "subsections": [
+      {
+        "id": "cushion-cut-diamonds",
+        "title": "Diamants taille coussin",
+        "paragraphsBefore": [
+          "Les coussins peuvent être carrés, rectangulaires ou allongés. Ils peuvent également avoir différents motifs de facettes, allant de larges éclairs définis à un aspect plus dense de « glace pilée ».",
+          "Deux coussins avec des qualités de carat, de couleur et de clarté identiques peuvent être complètement différents."
+        ]
+      },
+      {
+        "id": "radiant-cut-diamonds",
+        "title": "Diamants taille radiant",
+        "paragraphsBefore": [
+          "Les diamants radiants combinent un contour rectangulaire ou carré avec un agencement de facettes de style brillant. Ils peuvent fournir un fort éclat tout en coûtant généralement moins cher par carat que les diamants ronds.",
+          "Le contour, la profondeur, le retour de lumière et la concentration de la couleur peuvent influencer la valeur d'un radiant individuel."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Diamants taille princesse",
+        "paragraphsBefore": [
+          "Les diamants princesse peuvent conserver une plus grande partie du cristal brut d'origine, ce qui les aide à offrir des prix compétitifs. Les acheteurs doivent toujours inspecter la durabilité des coins, l’épaisseur des ceintures, la symétrie et les zones de fuite de lumière."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Notre"
+        },
+        {
+          "type": "link",
+          "text": "comparaison de diamants princesse, coussin et radiant",
+          "href": "/blogs/princess-vs-cushion-vs-radiant-diamond"
+        },
+        {
+          "type": "text",
+          "value": "explique plus en détail les différences entre ces trois formes."
+        }
+      ]
+    ]
+  },
+  "emeraldAsscher": {
+    "id": "emerald-and-asscher-cuts",
+    "title": "Coupes émeraude et Asscher",
+    "introParagraphs": [
+      "Les diamants émeraude et Asscher utilisent des facettes taillées en gradins plutôt que les petites facettes de style brillant que l'on trouve dans les diamants ronds et radiants.",
+      "Leur prix peut être inférieur à celui des diamants ronds comparables, mais la sélection d'une belle taille en gradins peut nécessiter de dépenser davantage en couleur ou en clarté.",
+      "De grandes facettes ouvertes peuvent faciliter la visualisation des inclusions. Ils peuvent également révéler la couleur plus clairement qu’un motif à facettes de style brillant. Les pierres faiblement proportionnées peuvent présenter des fenêtres, des zones sombres ou une petite apparence face vers le haut par rapport à leur poids.",
+      "Cela signifie qu'un acheteur peut économiser de l'argent sur la forme premium, mais choisir une clarté ou une qualité de couleur plus élevée pour obtenir l'apparence souhaitée."
+    ]
+  },
+  "heartShaped": {
+    "id": "are-heart-shaped-diamonds-expensive",
+    "title": "Les diamants en forme de cœur sont-ils chers ?",
+    "introParagraphs": [
+      "Les diamants en forme de cœur ont des prix très variables.",
+      "La demande est plus restreinte que pour les diamants ronds ou ovales, mais tailler une forme de cœur équilibrée nécessite du savoir-faire. Les deux lobes doivent paraître égaux, la fente doit être nette et la pointe doit être alignée avec le centre de la pierre.",
+      "Les cœurs bien formés peuvent être plus difficiles à trouver dans certaines spécifications. Un cœur mal formé peut coûter moins cher, mais ce prix inférieur ne lui confère pas une meilleure valeur."
+    ]
+  },
+  "looksBiggest": {
+    "id": "which-diamond-shape-looks-biggest",
+    "title": "Quelle forme de diamant semble la plus grande pour son prix ?",
+    "introParagraphs": [
+      "Les formes allongées offrent souvent la plus forte répartition face vers le haut.",
+      "Ceux-ci peuvent inclure :"
+    ],
+    "bullets": [
+      "Marquise",
+      "Oval",
+      "Pear",
+      "Elongated cushion",
+      "Elongated radiant"
+    ],
+    "closingParagraphs": [
+      "Cependant, la taille apparente ne doit pas être considérée seule. Un diamant peu profond peut paraître gros mais souffrir d’un faible retour de lumière. Un diamant profond peut conserver son poids en carats tout en paraissant plus petit vu d’en haut.",
+      "La forme au meilleur rapport qualité/prix équilibre :"
+    ],
+    "closingBullets": [
+      "Dimensions face vers le haut",
+      "Des proportions attrayantes",
+      "Luminosité et contraste",
+      "Couleur et clarté appropriées",
+      "Définition des exigences",
+      "Prix ​​total"
+    ]
+  },
+  "mostExpensiveBest": {
+    "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+    "title": "La forme la plus chère signifie-t-elle le meilleur diamant ?",
+    "introParagraphs": [
+      "Non.",
+      "Un brillant rond est peut-être la forme la plus chère par carat, mais cela n'en fait pas le bon choix pour chaque client, conception de bijou ou plan de stock.",
+      "Pour les acheteurs qui privilégient une brillance maximale et une large connaissance du marché, un brillant rond bien taillé peut justifier sa prime.",
+      "Pour les acheteurs qui souhaitent une apparence visuelle plus grande, un design distinctif ou un prix au carat inférieur, une forme fantaisie bien sélectionnée peut offrir un meilleur rapport qualité-prix.",
+      "Le meilleur diamant est la pierre qui répond à l’apparence, à la qualité, au budget et à l’objectif commercial requis, et pas seulement celle dont le prix est le plus élevé."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-prices-by-shape",
+    "title": "Comment comparer correctement les prix des diamants par forme",
+    "introParagraphs": [
+      "Avant de décider qu’une forme est moins chère qu’une autre, comparez les diamants sur une base égale."
+    ],
+    "subsections": [
+      {
+        "id": "use-the-same-diamond-type",
+        "title": "Utilisez le même type de diamant",
+        "paragraphsBefore": [
+          "Ne comparez pas le prix d’un diamant naturel avec celui d’un diamant synthétique. Leurs structures d’approvisionnement et leurs prix de marché sont fondamentalement différents."
+        ]
+      },
+      {
+        "id": "keep-the-carat-range-consistent",
+        "title": "Gardez la gamme de carats cohérente",
+        "paragraphsBefore": [
+          "Comparez les pierres dans la même gamme de carats. Les prix des diamants peuvent augmenter sensiblement autour des seuils de poids populaires tels que 0,50, 1,00, 1,50 et 2,00 carats."
+        ]
+      },
+      {
+        "id": "match-colour-and-clarity",
+        "title": "Faites correspondre la couleur et la clarté",
+        "paragraphsBefore": [
+          "Un diamant rond de couleur ou de pureté inférieure peut coûter moins cher qu'une forme fantaisie de couleur et de clarté élevées. Cela ne prouve pas que la forme ronde soit moins chère."
+        ]
+      },
+      {
+        "id": "review-the-grading-laboratory",
+        "title": "Examiner le laboratoire de notation",
+        "paragraphsBefore": [
+          "Comparez les rapports de classement de laboratoires reconnus et vérifiez que le rapport correspond au diamant proposé."
+        ]
+      },
+      {
+        "id": "calculate-price-per-carat",
+        "title": "Calculer le prix par carat",
+        "paragraphsBefore": [
+          "Utilisez le calcul suivant :",
+          "Prix ​​au carat = prix total des diamants en vrac ÷ poids en carats",
+          "Le prix au carat aide à normaliser les comparaisons, mais il ne mesure toujours pas la beauté, les proportions ou la valeur marchande."
+        ]
+      },
+      {
+        "id": "compare-face-up-measurements",
+        "title": "Comparez les mesures face vers le haut",
+        "paragraphsBefore": [
+          "Vérifiez la longueur, la largeur et la profondeur, pas seulement le poids en carats. Cela montrera si le diamant porte un excès de poids sous le rondiste ou s'il offre une bonne répartition visible."
+        ]
+      },
+      {
+        "id": "inspect-videos-and-images",
+        "title": "Inspecter les vidéos et les images",
+        "paragraphsBefore": [
+          "Ceci est essentiel pour les formes fantaisie. Vérifiez :"
+        ],
+        "bullets": [
+          "Ténèbres du nœud papillon",
+          "Fenêtrage",
+          "Retour de lumière inégal",
+          "Mauvaise symétrie",
+          "Des contours peu attrayants",
+          "Inclusions visibles",
+          "Concentration excessive de couleur"
+        ]
+      }
+    ]
+  },
+  "wholesaleChecklist": {
+    "id": "wholesale-diamond-buying-checklist",
+    "title": "Liste de contrôle pour l’achat de diamants en gros",
+    "introParagraphs": [
+      "Avant d’approuver un diamant naturel, vérifiez :"
+    ],
+    "items": [
+      "Forme du diamant et poids exact en carats",
+      "Degrés de couleur et de clarté",
+      "Numéro de laboratoire et de rapport",
+      "Dimensions et rapport longueur/largeur",
+      "Qualité de coupe le cas échéant",
+      "Polonais et symétrie",
+      "Pourcentages de table et de profondeur",
+      "Épaisseur de la ceinture",
+      "Fluorescence",
+      "Lieu d'inclusion",
+      "Luminosité face vers le haut",
+      "Noeud papillon ou fenêtrage",
+      "Prix ​​au carat",
+      "Coût total au débarquement",
+      "Paramétrage et exigences du client"
+    ],
+    "closingParagraphs": [
+      "Un diamant qui semble bon marché sur une feuille de calcul peut devenir un stock de mauvaise valeur s'il présente des proportions faibles, une obscurité visible ou un contour rejeté par les clients."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "Une perspective de sourcing à Anvers",
+    "introParagraphs": [
+      "Pour les bijoutiers et les acheteurs en gros européens, la meilleure forme n’est pas nécessairement celle avec le pourcentage de remise le plus élevé.",
+      "La valeur commerciale dépend également :"
+    ],
+    "bullets": [
+      "Demande du client",
+      "Rapidité de vente",
+      "Disponibilité de remplacement",
+      "Correspondance avec les paramètres existants",
+      "Cohérence entre les commandes répétées",
+      "Préférences de certification",
+      "Frais de livraison et d'assurance"
+    ],
+    "closingParagraphs": [
+      "Les diamants ronds coûtent souvent plus cher mais peuvent servir une clientèle plus large. Les formes fantaisie peuvent offrir une taille visuelle plus forte et des marges attrayantes, mais elles nécessitent une sélection minutieuse car leur apparence varie davantage d'une pierre à l'autre."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Grâce à Dalila Diamonds"
+        },
+        {
+          "type": "link",
+          "text": "Service sécurisé vers la source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", les acheteurs commerciaux peuvent présélectionner des diamants naturels et bénéficier d'un contrôle qualité professionnel avant que les pierres sélectionnées ne leur parviennent."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Les acheteurs peuvent également"
+        },
+        {
+          "type": "link",
+          "text": "parcourir l’inventaire des diamants de Dalila",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": "ou soumettez des exigences spécifiques en matière de forme, de carat, de couleur, de clarté, de certification et de budget."
+        }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Réponse finale : quelle forme de diamant coûte le plus cher ?",
+    "introParagraphs": [
+      "Le brillant rond est normalement la forme de diamant courante la plus chère par carat lorsque tous les autres facteurs de qualité importants sont comparables.",
+      "Sa prime vient d'une forte demande, d'une rétention d'ébauche plus faible dans de nombreuses situations de coupe, d'exigences de fabrication précises et de sa réputation bien établie de brillance.",
+      "Les formes fantaisie peuvent coûter moins cher par carat et peuvent offrir une plus grande taille visible, mais il n'existe pas de classement permanent unique pour chaque diamant ovale, poire, coussin, émeraude ou radiant.",
+      "Comparez toujours la pierre dans son ensemble, pas seulement sa forme ou sa remise."
+    ]
+  },
+  "cta": {
+    "id": "source-natural-diamonds-by-shape",
+    "title": "Source de diamants naturels par forme avec Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Que vous ayez besoin de brillants ronds ou de formes fantaisie soigneusement sélectionnées, Dalila Diamonds aide les acheteurs professionnels à comparer la qualité, les mesures et le coût au débarquement avec le support d'approvisionnement d'Anvers."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Parcourir l'inventaire",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Quelle est la forme de diamant la plus chère ?",
+        "answer": "Le brillant rond est généralement la forme de diamant courante la plus chère par carat par rapport aux diamants naturels de carat, de couleur, de clarté et de qualité similaires."
+      },
+      {
+        "question": "Pourquoi les diamants ronds sont-ils plus chers ?",
+        "answer": "Les diamants ronds sont généralement plus chers, car leur production permet d'éliminer une plus grande partie du cristal brut d'origine, la demande du marché est toujours forte et des proportions précises sont nécessaires pour une performance lumineuse de haute qualité."
+      },
+      {
+        "question": "Un diamant ovale est-il plus cher qu’un diamant rond ?",
+        "answer": "Un ovale comparable coûte normalement moins cher par carat qu’un brillant rond. Cependant, un ovale exceptionnel peut coûter plus cher qu'un diamant rond de moindre qualité, car le prix dépend également du carat, de la couleur, de la clarté, des proportions et de la disponibilité."
+      },
+      {
+        "question": "Quelle est la forme de diamant la moins chère ?",
+        "answer": "Il n’existe pas de forme la moins chère en permanence. Princesse, coussin, émeraude et certaines autres formes fantaisie peuvent coûter moins cher par carat que les rondes comparables, mais la pierre individuelle la moins chère peut avoir une couleur, une clarté, des proportions ou des performances visuelles plus faibles."
+      },
+      {
+        "question": "Quelle forme de diamant semble la plus grande ?",
+        "answer": "Les diamants marquise, ovales et poires semblent souvent plus gros face vers le haut que les diamants ronds du même poids en carats, car leurs contours allongés répartissent leur poids sur une plus grande zone visible."
+      },
+      {
+        "question": "La forme du diamant affecte-t-elle le prix par carat ?",
+        "answer": "Oui. La forme affecte la rétention du diamant brut, la complexité de coupe, la demande du marché, la disponibilité et l'apparence face visible. Ces facteurs peuvent tous influencer le prix par carat."
+      },
+      {
+        "question": "La forme de diamant la plus chère brille-t-elle le plus ?",
+        "answer": "Un brillant rond bien taillé est conçu pour une forte luminosité, feu et scintillation. Cependant, le prix à lui seul ne garantit pas l’éclat. Les diamants ronds mal proportionnés peuvent être moins performants que les formes fantaisies bien sélectionnées."
+      },
+      {
+        "question": "Pourquoi les rapports GIA n'affichent-ils pas une note de coupe globale pour la plupart des formes sophistiquées ?",
+        "answer": "Depuis juillet 2026, le GIA donne une note de taille globale aux diamants ronds brillants standard, tandis que les formes fantaisie reçoivent des mesures, du poli, de la symétrie et d'autres informations. Leurs contours variés et la disposition de leurs facettes nécessitent une évaluation visuelle supplémentaire."
+      },
+      {
+        "question": "Comment les bijoutiers devraient-ils comparer les prix des diamants ?",
+        "answer": "Les bijoutiers doivent comparer les diamants ayant un carat, une couleur, une clarté, une certification et une qualité similaires, puis examiner le prix par carat, les mesures face visible, les performances visuelles et le coût total au débarquement."
+      },
+      {
+        "question": "Les mêmes règles de forme et de prix s’appliquent-elles aux diamants de couleur fantaisie ?",
+        "answer": "Pas nécessairement. Dans les diamants de couleur fantaisie, la rareté, la force et la répartition des couleurs peuvent influencer la valeur davantage que la hiérarchie habituelle des formes des diamants incolores."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Comparez le diamant complet, pas seulement sa forme",
+    "introParagraphs": [
+      "Les brillants ronds ont généralement le prix par carat le plus élevé parmi les formes incolores courantes, mais le meilleur choix commercial dépend de l'apparence, de la demande, des besoins de sertissage et du coût total au débarquement.",
+      "Utilisez des comparaisons à base égale, inspectez visuellement les formes fantaisistes et sélectionnez la pierre qui correspond à votre client et à votre plan de stock."
+    ],
+    "primaryButtonText": "Contacter Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Guide de connaissances sur les diamants",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Nos articles",
+    "findUsTitle": "Trouvez-nous",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Rue Hoveniers 30, Boîte - 105",
+      "Suite 326, 2018 Anvers",
+      "Belgique"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Parcourez notre inventaire",
+    "inventoryDescription": "Découvrez notre exquise collection de diamants haut de gamme",
+    "inventoryButtonText": "Voir l'inventaire",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Retour aux articles",
+    "blogsHref": "/blogs"
+  }
+}

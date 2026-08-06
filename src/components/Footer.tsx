@@ -42,7 +42,7 @@ export default function Footer() {
     const serviceLinks = [
         { name: dictionary?.nav?.s2s || "S2S - Secure To Source", href: "/secure-to-source" },
         { name: dictionary?.nav?.ds4u || "DS4U - Diamond Source For You", href: "/diamond-source" },
-        { name: dictionary?.nav?.syd || "SYD - Sell Your Diamonds", href: "/sud" },
+        { name: dictionary?.nav?.syd || "SYD - Sell Your Diamonds", href: "/sell-your-diamond" },
     ];
 
     const handleNavigation = (href: string) => {

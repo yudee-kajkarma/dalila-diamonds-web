@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "title": "Tableau des tailles des diamants : carat en mm par forme | Dalila",
+    "description": "Utilisez le tableau des tailles de diamants de Dalila pour comparer les mesures approximatives carats/mm des diamants ronds, ovales, poire, coussin, émeraude et autres diamants naturels.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-size-chart",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "banner": {
+    "title": "Tableau des tailles des diamants",
+    "breadcrumbHome": "Maison",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Tableau des tailles des diamants",
+    "imageAlt": "Bannière de ressources Tableau des tailles de diamants pour les acheteurs de diamants naturels"
+  },
+  "hero": {
+    "title": "Tableau des tailles des diamants : guide carat-mm par forme",
+    "paragraphs": [
+      "Le poids en carats vous indique combien pèse un diamant. Les mesures millimétriques vous indiquent sa taille vue d’en haut.",
+      "Un diamant rond brillant bien proportionné de 1 carat mesure généralement environ 6,4 à 6,5 mm de diamètre, tandis qu'un diamant rond de 2 carats mesure généralement environ 8,0 à 8,2 mm. Les diamants de forme fantaisie nécessitent des mesures de longueur et de largeur, et leur taille visible peut varier considérablement en fonction de la forme, des proportions et de la profondeur.",
+      "Utilisez ce tableau des tailles de diamants pour comparer les mesures approximatives des diamants naturels ronds, ovales, coussins, princesse, émeraude, radiant, poire, marquise, Asscher et en forme de cœur."
+    ],
+    "importantNote": "Important : Chaque mesure sur cette page est une référence approximative. Le carat mesure le poids, et non le diamètre, la longueur, la largeur ou la surface. Confirmez toujours les mesures de chaque diamant individuel à l’aide de son rapport de classement.",
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "SOURCE UN DIAMANT PAR DES MESURES EXACTES",
+    "secondaryButtonHref": "/diamond-source",
+    "image": {
+      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "alt": "Tableau des tailles de diamant comparant le poids en carats et les dimensions en millimètres par forme",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "oneCaratComparison": {
+      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "alt": "Diamants naturels d'un carat de différentes formes comparés côte à côte",
+      "width": 1400,
+      "height": 900
+    },
+    "depthComparison": {
+      "src": "/b2b/close-up.jpg",
+      "alt": "Diamants peu profonds équilibrés et profonds comparés à la propagation face vers le haut",
+      "width": 1400,
+      "height": 900
+    },
+    "fingerComparison": {
+      "src": "/diamonds_source/handshake.jpg",
+      "alt": "Tailles de diamants ronds comparées sur un même doigt",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Réponse rapide : quelle est la taille d’un diamant d’un carat ?"
+      },
+      {
+        "id": "diamond-carat-to-mm-converter",
+        "label": "Convertisseur de carats de diamant en mm"
+      },
+      {
+        "id": "diamond-size-chart-by-shape",
+        "label": "Tableau des tailles de diamants par forme"
+      },
+      {
+        "id": "round-diamond-size-chart",
+        "label": "Tableau des tailles des diamants ronds"
+      },
+      {
+        "id": "small-round-diamond-mm-to-carat-chart",
+        "label": "Tableau des millimètres en carats des petits diamants ronds"
+      },
+      {
+        "id": "what-do-carat-and-mm-mean",
+        "label": "Que signifient carat et mm ?"
+      },
+      {
+        "id": "why-same-carat-can-look-different",
+        "label": "Pourquoi deux diamants du même carat peuvent-ils être différents ?"
+      },
+      {
+        "id": "which-diamond-shape-looks-largest",
+        "label": "Quelle forme de diamant semble la plus grande ?"
+      },
+      {
+        "id": "what-size-is-a-two-carat-diamond",
+        "label": "Quelle est la taille d'un diamant de deux carats ?"
+      },
+      {
+        "id": "how-to-compare-diamond-size",
+        "label": "Comment comparer correctement la taille des diamants"
+      },
+      {
+        "id": "how-large-on-a-finger",
+        "label": "Quelle taille aura un diamant sur un doigt ?"
+      },
+      {
+        "id": "choosing-for-existing-setting",
+        "label": "Choisir un diamant pour une monture existante"
+      },
+      {
+        "id": "choosing-matched-diamonds",
+        "label": "Choisir des diamants assortis"
+      },
+      {
+        "id": "does-larger-looking-mean-better",
+        "label": "Un diamant plus gros signifie-t-il toujours un meilleur diamant ?"
+      },
+      {
+        "id": "find-a-natural-diamond",
+        "label": "Trouvez un diamant naturel dans la taille dont vous avez besoin"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Questions fréquemment posées"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Réponse rapide : quelle est la taille d'un diamant d'un carat ?",
+    "intro": [
+      "Un diamant rond brillant d’un carat mesure généralement environ 6,4 à 6,5 mm de diamètre.",
+      "Un diamant de forme fantaisie d’un carat peut avoir des dimensions très différentes :"
+    ],
+    "measurements": [
+      {
+        "shape": "Round",
+        "value": "approximately 6.4–6.5 mm"
+      },
+      {
+        "shape": "Oval",
+        "value": "approximately 7.5–8.2 × 5.3–5.8 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "approximately 8.3–9.1 × 5.4–5.8 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "approximately 9.5–10.5 × 4.7–5.3 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "approximately 6.5–7.0 × 4.5–5.0 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "approximately 6.5–7.3 × 5.0–5.5 mm"
+      },
+      {
+        "shape": "Square cushion",
+        "value": "approximately 5.5–6.1 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "approximately 5.3–5.6 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "approximately 5.3–5.7 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "approximately 6.3–6.8 mm"
+      }
+    ],
+    "closing": [
+      "Deux diamants d’un carat peuvent donc avoir des contours et des dimensions face visible sensiblement différents."
+    ]
+  },
+  "converter": {
+    "id": "diamond-carat-to-mm-converter",
+    "title": "Convertisseur de carats de diamant en MM",
+    "subtitle": "Comparez la taille approximative d’un diamant",
+    "shapeLabel": "Sélectionnez la forme du diamant :",
+    "caratLabel": "Sélectionnez le poids en carats :",
+    "resultHeading": "Mesures approximatives face vers le haut",
+    "resultText": "Il s’agit d’une plage de référence estimée. Le diamant réel peut avoir des mesures différentes en raison de sa profondeur, de ses proportions, de son rondiste, de son contour et de son rapport longueur/largeur.",
+    "viewInventoryText": "Voir les diamants dans cette gamme de carats",
+    "viewInventoryHref": "/inventory",
+    "requestDs4uText": "Demandez ces mesures via DS4U",
+    "requestDs4uHref": "/diamond-source",
+    "unavailableMessage": "Les mesures approximatives pour cette combinaison ne sont pas répertoriées dans le tableau. Consultez les tableaux ci-dessous ou demandez des mesures exactes via DS4U.",
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Princess",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Marquise",
+      "Asscher",
+      "Heart"
+    ],
+    "carats": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "1.00",
+      "1.25",
+      "1.50",
+      "2.00",
+      "2.50",
+      "3.00",
+      "4.00",
+      "5.00"
+    ],
+    "results": {
+      "Round|0.25": "4.0–4.1 mm",
+      "Round|0.50": "5.0–5.2 mm",
+      "Round|0.75": "5.7–5.9 mm",
+      "Round|1.00": "6.4–6.5 mm",
+      "Round|1.25": "6.8–7.0 mm",
+      "Round|1.50": "7.3–7.5 mm",
+      "Round|2.00": "8.0–8.2 mm",
+      "Round|2.50": "8.7–8.9 mm",
+      "Round|3.00": "9.2–9.4 mm",
+      "Round|4.00": "10.1–10.3 mm",
+      "Round|5.00": "10.9–11.1 mm",
+      "Oval|0.50": "5.8–6.3 × 3.8–4.2 mm",
+      "Oval|1.00": "7.5–8.2 × 5.3–5.8 mm",
+      "Oval|1.50": "8.5–9.2 × 6.0–6.5 mm",
+      "Oval|2.00": "9.5–10.5 × 6.7–7.2 mm",
+      "Oval|3.00": "11.0–12.0 × 7.5–8.0 mm",
+      "Cushion|0.50": "4.7–5.0 mm",
+      "Cushion|1.00": "5.5–6.1 mm",
+      "Cushion|1.50": "6.3–6.8 mm",
+      "Cushion|2.00": "7.0–8.0 mm",
+      "Cushion|3.00": "8.0–9.0 mm",
+      "Princess|0.50": "4.3–4.6 mm",
+      "Princess|1.00": "5.3–5.6 mm",
+      "Princess|1.50": "6.2–6.6 mm",
+      "Princess|2.00": "6.8–7.2 mm",
+      "Princess|3.00": "7.8–8.2 mm",
+      "Emerald|0.50": "5.5–6.0 × 3.8–4.2 mm",
+      "Emerald|1.00": "6.5–7.0 × 4.5–5.0 mm",
+      "Emerald|1.50": "7.3–7.8 × 5.2–5.7 mm",
+      "Emerald|2.00": "8.3–8.8 × 6.0–6.5 mm",
+      "Emerald|3.00": "9.3–10.0 × 6.8–7.5 mm",
+      "Radiant|0.50": "5.5–6.0 × 4.0–4.5 mm",
+      "Radiant|1.00": "6.5–7.3 × 5.0–5.5 mm",
+      "Radiant|1.50": "7.2–7.8 × 5.6–6.1 mm",
+      "Radiant|2.00": "7.8–8.5 × 6.2–7.0 mm",
+      "Radiant|3.00": "9.0–9.8 × 7.0–7.8 mm",
+      "Pear|0.50": "6.5–7.3 × 4.3–4.7 mm",
+      "Pear|1.00": "8.3–9.1 × 5.4–5.8 mm",
+      "Pear|1.50": "9.5–10.2 × 6.2–6.6 mm",
+      "Pear|2.00": "10.5–11.5 × 6.8–7.3 mm",
+      "Pear|3.00": "12.0–13.0 × 7.8–8.3 mm",
+      "Marquise|0.50": "7.8–8.5 × 3.8–4.2 mm",
+      "Marquise|1.00": "9.5–10.5 × 4.7–5.3 mm",
+      "Marquise|1.50": "11.5–12.3 × 5.7–6.2 mm",
+      "Marquise|2.00": "12.5–13.5 × 6.2–6.8 mm",
+      "Marquise|3.00": "14.5–15.5 × 7.0–7.7 mm",
+      "Asscher|0.50": "4.3–4.6 mm",
+      "Asscher|1.00": "5.3–5.7 mm",
+      "Asscher|1.50": "6.2–6.6 mm",
+      "Asscher|2.00": "6.8–7.2 mm",
+      "Asscher|3.00": "7.8–8.2 mm",
+      "Heart|0.50": "4.8–5.2 mm",
+      "Heart|1.00": "6.3–6.8 mm",
+      "Heart|1.50": "7.2–7.6 mm",
+      "Heart|2.00": "7.8–8.3 mm",
+      "Heart|3.00": "8.8–9.3 mm"
+    }
+  },
+  "sizeChartByShape": {
+    "id": "diamond-size-chart-by-shape",
+    "title": "Tableau des tailles de diamant par forme",
+    "intro": [
+      "Le tableau suivant montre les mesures approximatives face vers le haut pour les poids en carats les plus recherchés.",
+      "Pour les diamants ronds, la mesure correspond au diamètre approximatif. Pour les formes fantaisie, les mesures sont indiquées sous forme de longueur × largeur approximative."
+    ],
+    "table": {
+      "caption": "Mesures approximatives du diamant face vers le haut par forme et carat",
+      "headers": [
+        "Forme de diamant",
+        "0,50 ct",
+        "1,00 ct",
+        "1,50 ct",
+        "2,00 cts",
+        "3,00 cts"
+      ],
+      "rows": [
+        [
+          "Round",
+          "5.0–5.2 mm",
+          "6.4–6.5 mm",
+          "7.3–7.5 mm",
+          "8.0–8.2 mm",
+          "9.2–9.4 mm"
+        ],
+        [
+          "Oval",
+          "5.8–6.3 × 3.8–4.2 mm",
+          "7.5–8.2 × 5.3–5.8 mm",
+          "8.5–9.2 × 6.0–6.5 mm",
+          "9.5–10.5 × 6.7–7.2 mm",
+          "11.0–12.0 × 7.5–8.0 mm"
+        ],
+        [
+          "Cushion",
+          "4.7–5.0 mm",
+          "5.5–6.1 mm",
+          "6.3–6.8 mm",
+          "7.0–8.0 mm",
+          "8.0–9.0 mm"
+        ],
+        [
+          "Princess",
+          "4.3–4.6 mm",
+          "5.3–5.6 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Emerald",
+          "5.5–6.0 × 3.8–4.2 mm",
+          "6.5–7.0 × 4.5–5.0 mm",
+          "7.3–7.8 × 5.2–5.7 mm",
+          "8.3–8.8 × 6.0–6.5 mm",
+          "9.3–10.0 × 6.8–7.5 mm"
+        ],
+        [
+          "Radiant",
+          "5.5–6.0 × 4.0–4.5 mm",
+          "6.5–7.3 × 5.0–5.5 mm",
+          "7.2–7.8 × 5.6–6.1 mm",
+          "7.8–8.5 × 6.2–7.0 mm",
+          "9.0–9.8 × 7.0–7.8 mm"
+        ],
+        [
+          "Pear",
+          "6.5–7.3 × 4.3–4.7 mm",
+          "8.3–9.1 × 5.4–5.8 mm",
+          "9.5–10.2 × 6.2–6.6 mm",
+          "10.5–11.5 × 6.8–7.3 mm",
+          "12.0–13.0 × 7.8–8.3 mm"
+        ],
+        [
+          "Marquise",
+          "7.8–8.5 × 3.8–4.2 mm",
+          "9.5–10.5 × 4.7–5.3 mm",
+          "11.5–12.3 × 5.7–6.2 mm",
+          "12.5–13.5 × 6.2–6.8 mm",
+          "14.5–15.5 × 7.0–7.7 mm"
+        ],
+        [
+          "Asscher",
+          "4.3–4.6 mm",
+          "5.3–5.7 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Heart",
+          "4.8–5.2 mm",
+          "6.3–6.8 mm",
+          "7.2–7.6 mm",
+          "7.8–8.3 mm",
+          "8.8–9.3 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Ces plages sont destinées à une comparaison visuelle. Ils ne doivent pas être utilisés pour fabriquer une monture ou confirmer si un diamant s'adaptera à un bijou existant."
+    ]
+  },
+  "roundChart": {
+    "id": "round-diamond-size-chart",
+    "title": "Tableau des tailles des diamants ronds",
+    "intro": [
+      "Les diamants ronds brillants utilisent des mesures de diamètre. Un rapport de classement enregistre normalement le diamètre minimum, le diamètre maximum et la profondeur totale."
+    ],
+    "table": {
+      "caption": "Diamètre approximatif du diamant rond en poids en carats",
+      "headers": [
+        "Poids en carats",
+        "Diamètre approximatif"
+      ],
+      "rows": [
+        [
+          "0,01 ct",
+          "1.3 mm"
+        ],
+        [
+          "0,02 ct",
+          "1.7 mm"
+        ],
+        [
+          "0,03 ct",
+          "2.0 mm"
+        ],
+        [
+          "0,05 ct",
+          "2.4 mm"
+        ],
+        [
+          "0,06 ct",
+          "2.5 mm"
+        ],
+        [
+          "0,10 ct",
+          "3.0 mm"
+        ],
+        [
+          "0,20 ct",
+          "3.8 mm"
+        ],
+        [
+          "0,25 ct",
+          "4.0–4.1 mm"
+        ],
+        [
+          "0,30 ct",
+          "4.3 mm"
+        ],
+        [
+          "0,40 ct",
+          "4.7–4.8 mm"
+        ],
+        [
+          "0,50 ct",
+          "5.0–5.2 mm"
+        ],
+        [
+          "0,75 ct",
+          "5.7–5.9 mm"
+        ],
+        [
+          "1,00 ct",
+          "6.4–6.5 mm"
+        ],
+        [
+          "1,25 ct",
+          "6.8–7.0 mm"
+        ],
+        [
+          "1,50 ct",
+          "7.3–7.5 mm"
+        ],
+        [
+          "1,75 ct",
+          "7.7–7.9 mm"
+        ],
+        [
+          "2,00 cts",
+          "8.0–8.2 mm"
+        ],
+        [
+          "2,50 cts",
+          "8.7–8.9 mm"
+        ],
+        [
+          "3,00 cts",
+          "9.2–9.4 mm"
+        ],
+        [
+          "4,00 cts",
+          "10.1–10.3 mm"
+        ],
+        [
+          "5,00 cts",
+          "10.9–11.1 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Un diamant en dehors de ces gammes n’est pas automatiquement mal taillé. Ses proportions complètes, ses performances lumineuses, son gainage et son aspect visible doivent être évalués avant de tirer une conclusion."
+    ]
+  },
+  "smallRoundChart": {
+    "id": "small-round-diamond-mm-to-carat-chart",
+    "title": "Tableau MM-carats des petits diamants ronds",
+    "intro": [
+      "Les petits diamants ronds sont fréquemment sélectionnés par taille millimétrique pour les applications de pavé, de halo, de pierre latérale et de bijoux assortis."
+    ],
+    "table": {
+      "caption": "Poids approximatif pour les petits diamants ronds par diamètre",
+      "headers": [
+        "Diamètre approximatif",
+        "Poids approximatif par diamant"
+      ],
+      "rows": [
+        [
+          "1.0 mm",
+          "0,005 ct"
+        ],
+        [
+          "1.3 mm",
+          "0,01 ct"
+        ],
+        [
+          "1.5 mm",
+          "0,015 ct"
+        ],
+        [
+          "1.7 mm",
+          "0,02 ct"
+        ],
+        [
+          "2.0 mm",
+          "0,03 ct"
+        ],
+        [
+          "2.2 mm",
+          "0,04 ct"
+        ],
+        [
+          "2.4 mm",
+          "0,05 ct"
+        ],
+        [
+          "2.5 mm",
+          "0,06 ct"
+        ],
+        [
+          "2.7 mm",
+          "0,07 ct"
+        ],
+        [
+          "2.8 mm",
+          "0,08 ct"
+        ],
+        [
+          "3.0 mm",
+          "0,10 ct"
+        ],
+        [
+          "3.2 mm",
+          "0,12 ct"
+        ],
+        [
+          "3.4 mm",
+          "0,14 ct"
+        ],
+        [
+          "3.6 mm",
+          "0,17 ct"
+        ],
+        [
+          "3.8 mm",
+          "0,20 ct"
+        ],
+        [
+          "4.0–4.1 mm",
+          "0,25 ct"
+        ],
+        [
+          "4.3 mm",
+          "0,30 ct"
+        ],
+        [
+          "5.0–5.2 mm",
+          "0,50 ct"
+        ]
+      ]
+    },
+    "closing": [
+      "Les chiffres sont des poids approximatifs pour des diamants ronds individuels. Le poids total en carats d'une pièce est le poids combiné de tous les diamants, et non le poids de chaque pierre."
+    ]
+  },
+  "whatDoCaratAndMmMean": {
+    "id": "what-do-carat-and-mm-mean",
+    "title": "Que signifient Carat et MM ?",
+    "subsections": [
+      {
+        "id": "carat-measures-weight",
+        "title": "Le carat mesure le poids",
+        "paragraphs": [
+          "Carat, abrégé en ct, mesure le poids d’un diamant. Un carat métrique équivaut à 200 milligrammes et est divisé en 100 points.",
+          "Par exemple:"
+        ],
+        "bullets": [
+          "0,25 ct = 25 points",
+          "0,50 ct = 50 points",
+          "0,75 ct = 75 points",
+          "1,00 ct = 100 points"
+        ],
+        "closing": [
+          "Le guide du GIA sur le poids en carats des diamants explique pourquoi le carat ne doit pas être interprété comme une mesure directe de la taille visible."
+        ],
+        "giaCaratGuideUrl": "https://4cs.gia.edu/en-us/diamond-carat-weight/"
+      },
+      {
+        "id": "millimetres-measure-dimensions",
+        "title": "Dimensions en millimètres",
+        "paragraphs": [
+          "Les mesures millimétriques décrivent les dimensions physiques d'un diamant.",
+          "Pour un diamant rond, le rapport enregistre généralement :",
+          "diamètre minimum × diamètre maximum × profondeur",
+          "Pour un diamant de forme fantaisie, on enregistre généralement :",
+          "longueur × largeur × profondeur",
+          "La longueur et la largeur vous aident à comprendre l’empreinte face vers le haut. La profondeur montre jusqu'où le diamant s'étend de sa table à sa colette."
+        ]
+      }
+    ]
+  },
+  "whyLookDifferent": {
+    "id": "why-same-carat-can-look-different",
+    "title": "Pourquoi deux diamants du même carat peuvent-ils être différents ?",
+    "subsections": [
+      {
+        "id": "depth",
+        "title": "Profondeur",
+        "paragraphs": [
+          "Un diamant peut porter une plus grande proportion de son poids sous le rondiste. Cela peut le faire paraître plus petit vu d'en haut qu'un autre diamant du même poids.",
+          "Un diamant peu profond peut avoir une face plus large, mais un diamètre plus grand ne signifie pas automatiquement une meilleure apparence ou une meilleure performance lumineuse."
+        ],
+        "showDepthImage": true
+      },
+      {
+        "id": "shape",
+        "title": "Forme",
+        "paragraphs": [
+          "Les formes allongées telles que l'ovale, la poire et la marquise peuvent créer un contour face vers le haut plus long que les diamants ronds ou carrés du même poids.",
+          "Cela ne signifie pas que tous les diamants allongés sont meilleurs. Le contour, la symétrie, les proportions et le contraste visible du nœud papillon doivent également être pris en compte."
+        ]
+      },
+      {
+        "id": "length-to-width-ratio",
+        "title": "Rapport longueur/largeur",
+        "paragraphs": [
+          "Les diamants de forme fantaisie peuvent être compacts, moyennement allongés ou fortement allongés.",
+          "Deux diamants ovales d'un carat peuvent avoir des mesures de longueur et de largeur différentes car l'un d'entre eux a un contour plus long. La même variation se produit avec les diamants taille coussin, poire, radiant, marquise et émeraude."
+        ]
+      },
+      {
+        "id": "girdle-thickness",
+        "title": "Épaisseur de la ceinture",
+        "paragraphs": [
+          "Le rondiste forme le bord extérieur du diamant. Une ceinture très épaisse peut retenir un poids supplémentaire sans produire une augmentation correspondante de la taille face vers le haut."
+        ]
+      },
+      {
+        "id": "cut-and-proportions",
+        "title": "Coupe et proportions",
+        "paragraphs": [
+          "La table, la profondeur, la couronne, le pavillon et les proportions globales du diamant influencent ses dimensions face vers le haut et ses performances visuelles.",
+          "Pour les brillants ronds, la qualité de taille ne doit pas être sacrifiée simplement pour obtenir un diamètre légèrement plus grand."
+        ]
+      }
+    ]
+  },
+  "whichShapeLooksLargest": {
+    "id": "which-diamond-shape-looks-largest",
+    "title": "Quelle forme de diamant semble la plus grande pour son poids en carats ?",
+    "paragraphs": [
+      "Les diamants allongés marquise, poire et ovale créent souvent un contour plus large car leur longueur couvre une plus grande partie du doigt.",
+      "Les émeraudes et les diamants rayonnants allongés peuvent également fournir une couverture considérable des doigts. Les coupes coussin, Asscher et princesse peuvent sembler plus compactes car une plus grande partie de leur poids peut être répartie à travers leur profondeur ou leur contour carré.",
+      "La taille visible ne doit pas être jugée uniquement par la longueur. La largeur, la surface, le style de sertissage, la brillance et l'équilibre du design complet affectent tous la taille d'un diamant."
+    ]
+  },
+  "twoCarat": {
+    "id": "what-size-is-a-two-carat-diamond",
+    "title": "Quelle est la taille d'un diamant de deux carats ?",
+    "intro": [
+      "Un diamant rond brillant de deux carats mesure généralement environ 8,0 à 8,2 mm de diamètre.",
+      "Les mesures approximatives de forme fantaisie de deux carats comprennent :"
+    ],
+    "measurements": [
+      {
+        "shape": "Oval",
+        "value": "9.5–10.5 × 6.7–7.2 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "10.5–11.5 × 6.8–7.3 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "12.5–13.5 × 6.2–6.8 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "8.3–8.8 × 6.0–6.5 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "7.8–8.5 × 6.2–7.0 mm"
+      },
+      {
+        "shape": "Cushion",
+        "value": "7.0–8.0 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "7.8–8.3 mm"
+      }
+    ],
+    "closing": [
+      "Comparez toujours les mesures indiquées sur le rapport de classement plutôt que de supposer que chaque diamant de deux carats a la même taille visible."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-size",
+    "title": "Comment comparer correctement la taille des diamants",
+    "steps": [
+      {
+        "title": "1. Comparez les mesures complètes",
+        "paragraphs": [
+          "Ne comparez pas deux diamants en utilisant uniquement le poids en carats. Vérifiez leur longueur, leur largeur et leur profondeur.",
+          "Pour les diamants ronds, comparez les diamètres minimum et maximum. Une grande différence entre eux peut indiquer un contour déformé."
+        ]
+      },
+      {
+        "title": "2. Considérez la forme",
+        "paragraphs": [
+          "Comparez uniquement le diamètre directement lors de l’examen des diamants ronds. Les formes fantaisie nécessitent à la fois de la longueur et de la largeur."
+        ]
+      },
+      {
+        "title": "3. Vérifiez le rapport longueur/largeur",
+        "paragraphs": [
+          "Le rapport longueur/largeur est calculé en divisant la longueur du diamant par sa largeur.",
+          "Par exemple:",
+          "9,0 mm ÷ 6,0 mm = rapport 1,50",
+          "Le rapport préféré est en partie une question d’apparence et de conception de bijoux. Il n’existe pas de ratio unique qui soit automatiquement le meilleur pour chaque acheteur."
+        ]
+      },
+      {
+        "title": "4. Vérifiez le rapport de notation",
+        "paragraphs": [
+          "Utilisez les mesures imprimées sur le rapport de classement réel. Le guide de Dalila pour lire un rapport sur les diamants du GIA explique où apparaissent les principales mesures et informations de classement."
+        ],
+        "reportGuideHref": "/blogs/how-to-read-gia-diamond-certificate",
+        "reportGuideText": "lire un rapport sur les diamants du GIA"
+      },
+      {
+        "title": "5. Examinez les images ou la vidéo",
+        "paragraphs": [
+          "Les mesures décrivent la taille mais ne peuvent pas communiquer complètement le contour, la symétrie, la brillance, le contraste ou la visibilité du nœud papillon.",
+          "Le cas échéant, examinez des images ou des vidéos claires à côté des informations du rapport."
+        ]
+      }
+    ]
+  },
+  "fingerSize": {
+    "id": "how-large-on-a-finger",
+    "title": "Quelle sera la taille d’un diamant sur un doigt ?",
+    "intro": [
+      "L’apparence d’un diamant sur une main ne dépend pas seulement de son poids en carats.",
+      "Les facteurs importants comprennent :"
+    ],
+    "factors": [
+      "Forme de diamant",
+      "Dimensions face vers le haut",
+      "Taille du doigt et de la bague",
+      "Largeur de bande",
+      "Conception à griffes ou à lunette",
+      "Solitaire, halo ou monture trois pierres",
+      "Orientation du diamant",
+      "Pierres latérales environnantes",
+      "Distance de visualisation et photographie"
+    ],
+    "closing": [
+      "Les illustrations en ligne doivent donc être traitées comme des guides visuels plutôt que comme des représentations exactes.",
+      "Si Dalila fournit un guide des tailles imprimable, imprimez-le à l'échelle 100 % et vérifiez la ligne de calibrage avec une règle. Ne jugez pas la taille réelle à partir d’un écran de téléphone ou d’ordinateur non calibré."
+    ]
+  },
+  "existingSetting": {
+    "id": "choosing-for-existing-setting",
+    "title": "Choisir un diamant pour une monture existante",
+    "intro": [
+      "Si un diamant doit s'adapter à une monture existante, le poids en carats à lui seul est insuffisant.",
+      "Fournir:"
+    ],
+    "bullets": [
+      "Longueur requise",
+      "Largeur requise",
+      "Profondeur maximale acceptable",
+      "Forme de diamant",
+      "Exigences de coin ou de point",
+      "Régler les mesures",
+      "Images de référence",
+      "Rapport sur les diamants existant, le cas échéant"
+    ],
+    "closing": [
+      "La monture doit être évaluée par un bijoutier qualifié avant d'acheter un autre diamant. Une petite différence dimensionnelle peut avoir une incidence sur la tenue de la pierre en toute sécurité.",
+      "Le service d’approvisionnement en diamants personnalisé de Dalila peut être utilisé pour demander un diamant naturel dans une plage de mesure spécifique, sous réserve de disponibilité."
+    ]
+  },
+  "matchedDiamonds": {
+    "id": "choosing-matched-diamonds",
+    "title": "Choisir des diamants assortis",
+    "intro": [
+      "Les diamants des boucles d'oreilles, des pierres latérales et des bijoux multi-pierres ne doivent pas être comparés uniquement en fonction du poids en carats.",
+      "Une paire convaincante doit normalement être comparée pour :"
+    ],
+    "bullets": [
+      "Longueur et largeur",
+      "Taille visible face vers le haut",
+      "Forme et contour",
+      "Rapport longueur/largeur",
+      "Couleur",
+      "Clarté",
+      "Motif à facettes",
+      "Fluorescence",
+      "Bilan visuel global"
+    ],
+    "closing": [
+      "Si vous avez besoin d’une paire ou d’un groupe aux dimensions contrôlées, soumettez le besoin complet via le service DS4U de Dalila."
+    ]
+  },
+  "largerLooking": {
+    "id": "does-larger-looking-mean-better",
+    "title": "Un diamant plus gros signifie-t-il toujours un meilleur diamant ?",
+    "paragraphs": [
+      "Non. Une mesure face vers le haut plus grande peut être attrayante, mais la taille visible n’est qu’un élément à prendre en compte.",
+      "Un diamant avec un écart excessif peut être trop peu profond. Un diamant avec un poids caché peut paraître plus petit que prévu. Aucune des deux conclusions ne peut être tirée des seules mesures.",
+      "Examinez les proportions complètes du diamant, le rapport de classification, le contour et l’apparence avant de prendre une décision.",
+      "Le prix dépend également du poids en carats, de la forme, de la couleur, de la clarté, de la qualité de la taille, du rapport de classement, de la rareté et de la disponibilité actuelle. Le guide des prix des diamants de Dalila explique les principaux facteurs de tarification."
+    ]
+  },
+  "cta": {
+    "id": "find-a-natural-diamond",
+    "title": "Trouvez un diamant naturel dans la taille dont vous avez besoin",
+    "paragraphs": [
+      "Utilisez les tableaux comme première comparaison, puis vérifiez les mesures de chaque diamant individuel.",
+      "Vous pouvez parcourir l’inventaire actuel de diamants naturels de Dalila ou soumettre une exigence exacte en matière de forme, de carat et de mesure via DS4U."
+    ],
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "SOURCE UN DIAMANT PAR DES MESURES EXACTES",
+    "secondaryButtonHref": "/diamond-source",
+    "notice": "Soumettre une demande de sourcing ne garantit pas la disponibilité ni ne réserve un diamant. Le diamant spécifique, le rapport de classification, les dimensions, le prix et les conditions commerciales doivent être confirmés par écrit."
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Le carat est-il la même chose que la taille du diamant ?",
+        "answer": "Non. Le carat mesure le poids, tandis que les millimètres mesurent les dimensions physiques. Les diamants du même poids en carats peuvent avoir des mesures face visible différentes."
+      },
+      {
+        "question": "Combien de millimètres fait un diamant d’un carat ?",
+        "answer": "Un diamant rond d'un carat bien proportionné mesure généralement environ 6,4 à 6,5 mm de diamètre. Les diamants d'un carat de forme fantaisie ont des mesures de longueur et de largeur différentes."
+      },
+      {
+        "question": "Combien de millimètres fait un diamant rond de deux carats ?",
+        "answer": "Un diamant rond brillant de deux carats mesure généralement environ 8,0 à 8,2 mm de diamètre. Les mesures réelles dépendent des proportions et de la profondeur du diamant."
+      },
+      {
+        "question": "Combien de carats fait un diamant rond de 2 mm ?",
+        "answer": "Un diamant rond de 2 mm pèse environ 0,03 carat. Il s'agit d'une conversion estimée et les pierres individuelles peuvent varier."
+      },
+      {
+        "question": "Combien de carats fait un diamant rond de 2,5 mm ?",
+        "answer": "Un diamant rond de 2,5 mm pèse généralement environ 0,06 carat. Son poids exact dépend de la profondeur et des proportions."
+      },
+      {
+        "question": "Les millimètres de diamant peuvent-ils être convertis exactement en carats ?",
+        "answer": "Pas uniquement en termes de diamètre, de longueur ou de largeur. Une estimation du poids plus fiable nécessite également la profondeur, la forme et les proportions du diamant. Le poids réel en carats doit être établi à l’aide d’une balance à diamant calibrée."
+      },
+      {
+        "question": "Pourquoi un diamant semble-t-il plus gros qu’un autre du même carat ?",
+        "answer": "Un diamant peut avoir une face plus large, une profondeur moins profonde, un contour différent ou une forme plus allongée. L’épaisseur de la ceinture et ses proportions globales peuvent également affecter la taille visible."
+      },
+      {
+        "question": "Quelle forme de diamant semble la plus grande ?",
+        "answer": "Les diamants marquise, ovales et en forme de poire créent souvent une plus grande couverture apparente des doigts en raison de leurs contours allongés. Le résultat dépend toujours de la longueur, de la largeur, des proportions et du sertissage de chaque diamant."
+      },
+      {
+        "question": "Où les mesures des diamants sont-elles indiquées sur un rapport de classement ?",
+        "answer": "Les mesures sont normalement affichées en haut du rapport de notation. Les diamants ronds présentent généralement un diamètre minimum, un diamètre maximum et une profondeur. Les formes fantaisie montrent généralement la longueur, la largeur et la profondeur."
+      },
+      {
+        "question": "Les mesures incluent-elles le sertissage de la bague ?",
+        "answer": "Non. Les mesures des diamants se réfèrent à la pierre en vrac. Le sertissage, le halo, la lunette, les griffes et le bracelet peuvent modifier la taille de la bague finie."
+      },
+      {
+        "question": "Puis-je utiliser ce tableau pour fabriquer un décor ?",
+        "answer": "Non. Le tableau fournit des références pédagogiques approximatives. Une monture doit être fabriquée en utilisant les mesures exactes du diamant sélectionné."
+      },
+      {
+        "question": "Dalila peut-elle trouver un diamant en utilisant des mesures millimétriques exactes ?",
+        "answer": "Oui, une plage de mesure exacte peut être incluse dans une demande DS4U. La disponibilité dépendra de la forme complète, du carat, de la qualité, du rapport de classement et des exigences budgétaires."
+      }
+    ]
+  }
+}

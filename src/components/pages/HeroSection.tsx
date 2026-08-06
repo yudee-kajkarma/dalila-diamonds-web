@@ -45,7 +45,7 @@ export default function HeroSection() {
             image: "/dalila_img/banners/new/Banner_03.jpg",
             title: "Exclusive Collection",
             buttonPosition: "center",
-            buttonLink: "/sud",
+            buttonLink: "/sell-your-diamond",
         },
     ];
 

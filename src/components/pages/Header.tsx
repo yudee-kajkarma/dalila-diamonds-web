@@ -10,6 +10,7 @@ import LanguageSwitcher from "../LanguageSwitcher";
 import { blogApi, type Blog } from "@/lib/api";
 import { getBlogSlug } from "@/utils/helpers";
 import { useLanguage } from "@/context/LanguageContext";
+import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
 
 export default function Header() {
     const { locale, dictionary } = useLanguage();
@@ -124,7 +125,7 @@ export default function Header() {
                                             {dictionary?.nav?.ds4u || "DS4U - Diamond Source For You"}
                                         </Link>
                                         <Link
-                                            href={localizedPath("/sud")}
+                                            href={localizedPath("/sell-your-diamond")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                         >
                                             {dictionary?.nav?.syd || "SYD - Sell Your Diamonds"}
@@ -167,10 +168,10 @@ export default function Header() {
                                         onMouseLeave={() => {
                                             setIsResourcesDropdownOpen(false);
                                         }}
-                                        className="absolute left-0 top-full mt-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
+                                        className="absolute left-0 top-full mt-0 w-[min(42rem,calc(100vw-2rem))] bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                     >
                                         {/* Articles with nested dropdown */}
-                                        <div className="relative group/articles">
+                                        <div className="relative group/articles border-b border-gray-100">
                                             <button
                                                 onClick={() =>
                                                     router.push(localizedPath("/blogs"))
@@ -185,7 +186,7 @@ export default function Header() {
                                                         false,
                                                     )
                                                 }
-                                                className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100 flex items-center justify-between cursor-pointer"
+                                                className="w-full text-left px-3 py-2 text-xs text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors flex items-center justify-between cursor-pointer"
                                             >
                                                 <span>{dictionary?.nav?.articles || "Articles"}</span>
                                                 <ChevronDown
@@ -251,61 +252,19 @@ export default function Header() {
                                                 )}
                                         </div>
 
-                                        <Link
-                                            href={localizedPath("/premium-b2b-diamond-supplier-belgium")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleB2b || "Premium B2B Diamond Supplier in Belgium"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/sell-your-diamond-safely")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleSell || "Sell Your Diamond Safely"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/elongated-cushion-cut-diamond-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/resources/diamond-grading-report-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleGradingReport || "Diamond Grading Report Guide"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/resources/diamond-quality-chart")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleQualityChart || "Diamond Quality Chart"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/resources/diamond-fluorescence-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleFluorescenceGuide || "Diamond Fluorescence Guide"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/resources/diamond-culet-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleCuletGuide || "Diamond Culet Guide"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/resources/diamond-girdle-guide")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
-                                        >
-                                            {dictionary?.nav?.articleGirdleGuide || "Diamond Girdle Guide"}
-                                        </Link>
+                                        <div className="max-h-[min(70vh,24rem)] overflow-y-auto overscroll-contain">
+                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-0.5 p-1">
+                                                {RESOURCE_NAV_ITEMS.map((item) => (
+                                                    <Link
+                                                        key={item.key}
+                                                        href={localizedPath(item.href)}
+                                                        className="block px-3 py-2 text-xs leading-snug text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors rounded-sm"
+                                                    >
+                                                        {getResourceNavLabel(dictionary, item)}
+                                                    </Link>
+                                                ))}
+                                            </div>
+                                        </div>
                                     </div>
                                 )}
                             </div>

@@ -1,0 +1,838 @@
+{
+  "meta": {
+    "title": "IGI Certification: Read & Verify an IGI Certificate | Dalila",
+    "description": "Learn what an IGI diamond certificate shows, how to verify the report number and laser inscription, and which inconsistencies require expert checks.",
+    "canonical": "https://www.daliladiamonds.com/blogs/igi-diamond-certification",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "IGI certification",
+    "inLanguage": "en-GB",
+    "parentHub": "https://www.daliladiamonds.com/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/igi-diamond-certification-guide.webp",
+      "alt": "IGI natural diamond report and loose diamond checked under magnification",
+      "width": 1600,
+      "height": 900
+    },
+    "annotatedReport": {
+      "src": "/images/blogs/how-to-read-igi-diamond-report.webp",
+      "alt": "IGI natural diamond report fields for number measurements colour clarity and cut",
+      "width": 1400,
+      "height": 1100
+    },
+    "verificationProcess": {
+      "src": "/images/blogs/verify-igi-diamond-certificate.webp",
+      "alt": "IGI report number online record and physical diamond verification process",
+      "width": 1400,
+      "height": 1000
+    },
+    "laserInscription": {
+      "src": "/images/blogs/igi-diamond-laser-inscription-check.webp",
+      "alt": "IGI report-number laser inscription inspected on a natural diamond girdle",
+      "width": 1400,
+      "height": 1000
+    },
+    "inconsistencyMap": {
+      "src": "/images/blogs/igi-report-inconsistency-warning-signs.webp",
+      "alt": "Warning signs in an IGI report number measurements inscription and diamond description",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "IGI Certification Guide",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "IGI Certification Guide",
+    "imageAlt": "IGI certification guide banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "IGI Certification Guide: How to Read and Verify an IGI Diamond Certificate",
+    "subheading": "Learn what an IGI diamond certificate shows, how to verify the report number and laser inscription, and which inconsistencies require expert checks.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "6 August 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "An IGI certificate can help a buyer understand whether a diamond is natural or laboratory-grown and review important characteristics such as carat weight, colour, clarity, cut, measurements, polish, symmetry and fluorescence.",
+      "However, possessing a document with an IGI logo is not enough.",
+      "The report number should be checked through IGI’s official database. The information shown online should match the physical report, and the report should match the actual diamond. Where a laser inscription is present, its number should also correspond with the report.",
+      "These checks matter because a genuine report can be paired with the wrong diamond, a document can be altered, and an inscription alone does not prove that the stone matches every grading detail."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "question": "To verify an IGI diamond certificate:",
+    "introParagraphs": [],
+    "attributes": [
+      "Find the unique IGI report number.",
+      "Enter it into IGI’s official Verify Your Report tool.",
+      "Confirm whether the report identifies the diamond as natural or laboratory-grown.",
+      "Compare the shape, carat weight, measurements and every grade with the physical document.",
+      "Check the report date, comments and recorded inscription.",
+      "Ask a diamond professional to inspect the girdle inscription under magnification.",
+      "Match the measurements and clarity characteristics to the actual stone.",
+      "Stop the purchase if any important detail is inconsistent."
+    ],
+    "closingParagraphs": [],
+    "closingBullets": [],
+    "finalParagraphs": [
+      "“IGI certification” is the phrase buyers commonly search for, but the formal document is an IGI grading report. IGI states that its report provides a professional opinion and is not a guarantee, appraisal or warranty."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "IGI stands for the International Gemological Institute.",
+      "IGI grades both natural and laboratory-grown diamonds.",
+      "The report description must clearly identify which type of diamond was examined.",
+      "A natural-diamond report does not automatically prove the diamond’s mining country.",
+      "The report number should be checked only on IGI’s official website.",
+      "The online record, physical report and diamond should agree.",
+      "Natural-diamond laser inscriptions may be requested rather than automatically applied.",
+      "IGI states that laboratory-grown diamonds it grades receive an inscription identifying their laboratory-grown origin.",
+      "The absence of an inscription on a natural diamond does not automatically make its report false.",
+      "A matching inscription is helpful, but it is not sufficient by itself.",
+      "Carat weight and face-up measurements should be reviewed together.",
+      "Colour and clarity grades describe quality but do not guarantee beauty.",
+      "Cut, polish and symmetry are separate assessments.",
+      "Not every report format contains the same diagrams or fields.",
+      "An IGI grading report is not a retail valuation or ownership document.",
+      "It does not guarantee resale value or future price appreciation.",
+      "A report describes the diamond when it was examined; later damage or repolishing may change the stone.",
+      "Important inconsistencies require professional inspection or direct confirmation from IGI."
+    ]
+  },
+  "overviewNav": {
+    "title": "Article Overview",
+    "items": [
+      { "id": "what-is-igi-certification", "label": "What is IGI certification?" },
+      { "id": "what-an-igi-report-can-and-cannot-confirm", "label": "What an IGI report can and cannot confirm" },
+      { "id": "how-to-read-an-igi-diamond-certificate", "label": "How to read an IGI diamond certificate" },
+      { "id": "how-to-verify-an-igi-certificate-online", "label": "How to verify an IGI certificate online" },
+      { "id": "does-every-igi-natural-diamond-have-a-laser-inscription", "label": "Does every IGI natural diamond have a laser inscription?" },
+      { "id": "is-a-matching-laser-inscription-enough", "label": "Is a matching laser inscription enough?" },
+      { "id": "document-inconsistencies-that-require-investigation", "label": "Document inconsistencies that require investigation" },
+      { "id": "expert-note", "label": "Expert note" },
+      { "id": "physical-igi-report-security-features", "label": "Physical IGI report security features" },
+      { "id": "is-igi-certification-reliable", "label": "Is IGI certification reliable?" },
+      { "id": "can-an-igi-report-prove-country-of-origin", "label": "Can an IGI report prove country of origin?" },
+      { "id": "how-to-use-an-igi-report-when-buying", "label": "How to use an IGI report when buying" },
+      { "id": "an-antwerp-sourcing-perspective", "label": "An Antwerp sourcing perspective" },
+      { "id": "final-answer", "label": "Final answer: should you buy an IGI-certified diamond?" }
+    ]
+  },
+  "whatIsIgi": {
+    "id": "what-is-igi-certification",
+    "title": "What Is IGI Certification?",
+    "introParagraphs": [
+      "IGI certification is the commonly used term for the independent identification and grading of a diamond by the International Gemological Institute.",
+      "After examining the diamond, IGI issues a report containing identifying and quality information. According to IGI’s Natural Diamond Report guidance, its grading process assesses characteristics including carat weight, colour and clarity under controlled conditions.",
+      "An IGI natural-diamond report may contain:"
+    ],
+    "bullets": [
+      "Unique report number",
+      "Report date",
+      "Description of the gemstone",
+      "Natural-diamond identification",
+      "Shape and cutting style",
+      "Measurements",
+      "Carat weight",
+      "Colour grade",
+      "Clarity grade",
+      "Cut grade where applicable",
+      "Polish",
+      "Symmetry",
+      "Fluorescence",
+      "Proportion information",
+      "Clarity-characteristic diagram where included",
+      "Comments or remarks",
+      "Laser-inscription information where applicable"
+    ],
+    "closingParagraphs": [
+      "Report formats can vary according to the diamond, service, issuing location and date. Do not assume that every IGI report must contain every possible field or diagram."
+    ]
+  },
+  "canCannotConfirm": {
+    "id": "what-an-igi-report-can-and-cannot-confirm",
+    "title": "What an IGI Report Can and Cannot Confirm",
+    "introParagraphs": [],
+    "table": {
+      "caption": "What an IGI report can help confirm versus what it does not automatically confirm",
+      "headers": ["An IGI report can help confirm", "It does not automatically confirm"],
+      "rows": [
+        ["Whether the examined stone was identified as natural or laboratory-grown", "The diamond’s country of mining origin"],
+        ["Carat weight at the time of examination", "Current retail or resale value"],
+        ["Colour and clarity grades", "That the diamond is eye-clean"],
+        ["Shape, cutting style and measurements", "That the buyer will find the diamond attractive"],
+        ["Cut information where provided", "Perfect light performance"],
+        ["Polish, symmetry and fluorescence", "Future price appreciation"],
+        ["Recorded clarity characteristics", "Ownership or legal title"],
+        ["An inscription recorded at examination", "That the same diamond is still paired with the report"],
+        ["Laboratory comments and treatments where stated", "Complete supply-chain traceability"],
+        ["Information held in IGI’s database", "That the physical document has never been altered"]
+      ]
+    },
+    "closingParagraphs": [
+      "A grading report should therefore support the purchase decision, not replace inspection of the diamond."
+    ]
+  },
+  "howToRead": {
+    "id": "how-to-read-an-igi-diamond-certificate",
+    "title": "How to Read an IGI Diamond Certificate",
+    "introParagraphs": [],
+    "richIntroParagraphs": [
+      [
+        { "type": "text", "value": "For comparison with GIA report fields and verification habits, see Dalila’s " },
+        { "type": "link", "text": "GIA report-reading guide", "href": "/blogs/how-to-read-gia-diamond-certificate" },
+        { "type": "text", "value": "." }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "report-number",
+        "title": "1. Report Number",
+        "paragraphsBefore": [
+          "The report number is the document’s primary reference.",
+          "It should appear on the physical or digital report and may also be inscribed on the diamond’s girdle. Use the number to retrieve the corresponding record through IGI’s official verification system.",
+          "Do not rely on a seller-provided screenshot when the report can be checked directly."
+        ]
+      },
+      {
+        "id": "report-date",
+        "title": "2. Report Date",
+        "paragraphsBefore": [
+          "The report date shows when IGI examined the diamond.",
+          "A report does not necessarily become invalid simply because it is old. However, a diamond may have been:"
+        ],
+        "bullets": [
+          "Chipped",
+          "Repolished",
+          "Recut",
+          "Scratched",
+          "Damaged during setting",
+          "Removed and replaced",
+          "Exposed to an undisclosed treatment after grading"
+        ],
+        "paragraphsAfter": [
+          "Older reports should therefore receive a fresh condition and identity check."
+        ]
+      },
+      {
+        "id": "description-and-diamond-origin",
+        "title": "3. Description and Diamond Origin",
+        "paragraphsBefore": [
+          "This field is essential.",
+          "It should identify whether the examined stone is:"
+        ],
+        "bullets": [
+          "A natural diamond",
+          "A laboratory-grown diamond",
+          "Another gemstone or article type"
+        ],
+        "paragraphsAfter": [
+          "For Dalila’s natural-diamond buyers, the document must explicitly identify the diamond as natural.",
+          "“Natural” describes how the diamond formed. It does not state the country in which the diamond was mined. Geographic provenance requires separate origin and supply-chain documentation."
+        ]
+      },
+      {
+        "id": "shape-and-cutting-style",
+        "title": "4. Shape and Cutting Style",
+        "paragraphsBefore": [
+          "This field may describe the diamond as:"
+        ],
+        "bullets": [
+          "Round brilliant",
+          "Oval brilliant",
+          "Pear brilliant",
+          "Cushion modified brilliant",
+          "Emerald cut",
+          "Marquise brilliant",
+          "Radiant cut",
+          "Another recognised shape and cutting style"
+        ],
+        "paragraphsAfter": [
+          "The wording should correspond with the actual outline and facet arrangement.",
+          "Small wording differences should be assessed carefully, but a completely different shape is an immediate warning sign."
+        ]
+      },
+      {
+        "id": "measurements",
+        "title": "5. Measurements",
+        "paragraphsBefore": [
+          "Measurements help identify the diamond and explain how large it appears.",
+          "Round diamonds are normally recorded using minimum diameter, maximum diameter and depth. Fancy shapes generally show length, width and depth.",
+          "Compare the report measurements with the actual diamond using professional measuring equipment. A material difference can indicate:"
+        ],
+        "bullets": [
+          "The wrong diamond",
+          "A recut stone",
+          "Measurement error",
+          "Damage",
+          "An altered document"
+        ],
+        "paragraphsAfter": [
+          "Carat weight alone is not enough because different diamonds can share the same weight while having different dimensions."
+        ]
+      },
+      {
+        "id": "carat-weight",
+        "title": "6. Carat Weight",
+        "paragraphsBefore": [
+          "Carat measures weight rather than visible size.",
+          "Two one-carat diamonds may appear different because of their:"
+        ],
+        "bullets": [
+          "Shape",
+          "Depth",
+          "Diameter",
+          "Length-to-width ratio",
+          "Girdle thickness",
+          "Facet arrangement"
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "Use Dalila’s " },
+            { "type": "link", "text": "diamond size in millimetres guide", "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide" },
+            { "type": "text", "value": " to compare report measurements with expected face-up appearance." }
+          ]
+        ]
+      },
+      {
+        "id": "colour-grade",
+        "title": "7. Colour Grade",
+        "paragraphsBefore": [
+          "IGI grades natural diamonds within the D-to-Z colour range under controlled viewing conditions.",
+          "D represents the highest colourless grade.",
+          "Grades progress through near-colourless and faint-colour ranges.",
+          "Z represents the end of the standard light-yellow or light-brown range.",
+          "Colour grade does not independently determine whether a diamond will appear attractive. Shape, size, fluorescence, cut, setting metal and viewing environment can influence face-up colour."
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "When balancing colour with clarity and setting metal, use Dalila’s " },
+            { "type": "link", "text": "best diamond colour and clarity combination guide", "href": "/blogs/best-diamond-colour-clarity-combination" },
+            { "type": "text", "value": "." }
+          ]
+        ]
+      },
+      {
+        "id": "clarity-grade",
+        "title": "8. Clarity Grade",
+        "paragraphsBefore": [
+          "Clarity assesses internal and surface characteristics at 10× magnification.",
+          "The grade is affected by:"
+        ],
+        "bullets": [
+          "Size of characteristics",
+          "Number",
+          "Position",
+          "Nature",
+          "Relief or visibility",
+          "Effect on transparency",
+          "Potential durability implications"
+        ],
+        "paragraphsAfter": [
+          "A clarity grade does not automatically tell the buyer whether the diamond is eye-clean. A professional should inspect the actual stone, especially when the report shows SI or Included clarity."
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "Dalila’s " },
+            { "type": "link", "text": "4Cs of natural diamonds guide", "href": "/blogs/4cs-of-natural-diamonds-explained" },
+            { "type": "text", "value": " explains how colour, clarity, cut and carat work together when comparing natural diamonds." }
+          ]
+        ]
+      },
+      {
+        "id": "cut-grade",
+        "title": "9. Cut Grade",
+        "paragraphsBefore": [
+          "Cut should not be confused with shape.",
+          "Shape describes the outline. Cut quality describes aspects of craftsmanship, proportions and performance.",
+          "IGI’s current diamond-grading process explains that it assesses round brilliant diamonds for cut, polish and symmetry and may provide optional cut grading for fancy-shaped diamonds.",
+          "Because IGI services and report formats evolve, read the actual field rather than assuming which grade should be present.",
+          "Do not judge fancy-shaped diamonds from the report alone."
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "Use Dalila’s " },
+            { "type": "link", "text": "fancy-shaped diamond cut quality guide", "href": "/blogs/fancy-shaped-diamond-cut-quality" },
+            { "type": "text", "value": " to assess outline, spread, brightness, contrast and movement." }
+          ]
+        ]
+      },
+      {
+        "id": "polish-and-symmetry",
+        "title": "10. Polish and Symmetry",
+        "paragraphsBefore": [
+          "Polish evaluates the quality of the finished facet surfaces.",
+          "Symmetry evaluates the alignment, placement and relationship of the diamond’s facets.",
+          "These grades are important, but Excellent polish and symmetry do not independently guarantee:"
+        ],
+        "bullets": [
+          "Strong brightness",
+          "Minimal bow tie",
+          "Attractive contrast",
+          "Good spread",
+          "Absence of windowing",
+          "Balanced scintillation"
+        ],
+        "paragraphsAfter": [
+          "The diamond must still be viewed."
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "11. Fluorescence",
+        "paragraphsBefore": [
+          "Fluorescence describes the diamond’s reaction to ultraviolet light.",
+          "The report may state:"
+        ],
+        "bullets": [
+          "None",
+          "Faint",
+          "Medium",
+          "Strong",
+          "Very Strong"
+        ],
+        "paragraphsAfter": [
+          "Fluorescence is not automatically positive or negative. The diamond should be checked under daylight-equivalent, ordinary indoor and ultraviolet lighting when fluorescence is significant."
+        ]
+      },
+      {
+        "id": "proportions-clarity-plot-and-comments",
+        "title": "12. Proportions, Clarity Plot and Comments",
+        "paragraphsBefore": [
+          "Depending on the report format, the document may contain:"
+        ],
+        "bullets": [
+          "Table percentage",
+          "Total depth percentage",
+          "Crown angle",
+          "Pavilion angle",
+          "Girdle description",
+          "Culet information",
+          "Proportion diagram",
+          "Clarity-characteristic plot",
+          "Comments",
+          "Treatment disclosures",
+          "Inscription details"
+        ],
+        "paragraphsAfter": [
+          "The comments section should never be ignored. It may contain information that is not obvious from the main grade fields."
+        ]
+      }
+    ]
+  },
+  "howToVerifyOnline": {
+    "id": "how-to-verify-an-igi-certificate-online",
+    "title": "How to Verify an IGI Certificate Online",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-use-the-official-igi-website",
+        "title": "Step 1: Use the Official IGI Website",
+        "paragraphsBefore": [
+          "Go directly to IGI’s official verification page."
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "Use " },
+            {
+              "type": "link",
+              "text": "IGI’s official Verify Your Report tool",
+              "href": "https://www.igi.org/Verify-Your-Report/",
+              "external": true
+            },
+            { "type": "text", "value": "." }
+          ],
+          [
+            { "type": "text", "value": "Avoid search advertisements, shortened links and unofficial certificate-checking websites." }
+          ]
+        ]
+      },
+      {
+        "id": "step-2-enter-the-exact-report-number",
+        "title": "Step 2: Enter the Exact Report Number",
+        "paragraphsBefore": [
+          "Enter the complete number as printed.",
+          "If no result appears:"
+        ],
+        "bullets": [
+          "Check for typing mistakes",
+          "Confirm spaces and punctuation",
+          "Try removing the J_ prefix where applicable, following IGI’s current instructions",
+          "Do not assume the report is genuine merely because it looks professional"
+        ],
+        "paragraphsAfter": [
+          "IGI provides a Missing or Problematic Report form for records that cannot be retrieved normally."
+        ]
+      },
+      {
+        "id": "step-3-compare-the-online-and-physical-reports",
+        "title": "Step 3: Compare the Online and Physical Reports",
+        "paragraphsBefore": [
+          "Confirm that both records show the same:"
+        ],
+        "bullets": [
+          "Report number",
+          "Date",
+          "Diamond description",
+          "Natural or laboratory-grown origin",
+          "Shape and cutting style",
+          "Measurements",
+          "Carat weight",
+          "Colour",
+          "Clarity",
+          "Cut information",
+          "Polish",
+          "Symmetry",
+          "Fluorescence",
+          "Comments",
+          "Inscription details"
+        ],
+        "paragraphsAfter": [
+          "A successful lookup proves that the number exists in IGI’s database. It does not, by itself, prove that the seller has paired the report with the correct diamond."
+        ]
+      },
+      {
+        "id": "step-4-inspect-the-laser-inscription",
+        "title": "Step 4: Inspect the Laser Inscription",
+        "paragraphsBefore": [
+          "Where an inscription is present, ask a trained professional to inspect it under suitable magnification.",
+          "The inscription should correspond with:"
+        ],
+        "bullets": [
+          "The IGI report number",
+          "Any natural or laboratory-grown wording recorded on the report",
+          "Additional registered logos or messages where stated"
+        ],
+        "paragraphsAfter": [
+          "Photograph the inscription when possible, but do not treat a photograph as a substitute for examining the actual diamond."
+        ]
+      },
+      {
+        "id": "step-5-match-the-report-to-the-diamond",
+        "title": "Step 5: Match the Report to the Diamond",
+        "paragraphsBefore": [
+          "Verify the diamond using:"
+        ],
+        "bullets": [
+          "Measurements",
+          "Carat weight where the stone is loose",
+          "Shape and cutting style",
+          "Clarity characteristics",
+          "Girdle condition",
+          "Laser inscription",
+          "Professional gemmological screening"
+        ],
+        "paragraphsAfter": [
+          "This final step connects the database record to the physical stone."
+        ]
+      }
+    ]
+  },
+  "doesEveryHaveInscription": {
+    "id": "does-every-igi-natural-diamond-have-a-laser-inscription",
+    "title": "Does Every IGI Natural Diamond Have a Laser Inscription?",
+    "introParagraphs": [
+      "No.",
+      "IGI states that laser inscription is generally applied to natural diamonds at the owner’s request. Therefore, the absence of an inscription on a natural diamond does not automatically prove that the report is false.",
+      "By contrast, IGI’s current grading-process guidance states that laboratory-grown diamonds it grades receive an inscription identifying laboratory-grown origin.",
+      "Use the IGI Laserscribe guidance to understand how report numbers and other characters can be placed on a diamond’s girdle."
+    ]
+  },
+  "isMatchingInscriptionEnough": {
+    "id": "is-a-matching-laser-inscription-enough",
+    "title": "Is a Matching Laser Inscription Enough?",
+    "introParagraphs": [
+      "No.",
+      "A matching inscription is an important identity check, but it should be combined with:"
+    ],
+    "bullets": [
+      "Official online verification",
+      "Measurements",
+      "Shape",
+      "Carat weight",
+      "Clarity characteristics",
+      "Natural-versus-laboratory-grown screening",
+      "Professional inspection"
+    ],
+    "closingParagraphs": [
+      "In 2024, IGI reported identifying a laboratory-grown diamond carrying a fraudulent inscription connected with a natural-diamond report number. The IGI case report demonstrates why inscription checking should not be the only verification step."
+    ]
+  },
+  "documentInconsistencies": {
+    "id": "document-inconsistencies-that-require-investigation",
+    "title": "Document Inconsistencies That Require Investigation",
+    "introParagraphs": [],
+    "table": {
+      "caption": "IGI report inconsistencies, possible explanations and required actions",
+      "headers": ["Inconsistency", "Possible explanation", "Required action"],
+      "rows": [
+        ["Report number produces no online result", "Typing error, prefix issue, unavailable record or false document", "Recheck the number and contact IGI"],
+        ["Online record differs from paper report", "Altered, outdated or mismatched document", "Stop the purchase and verify with IGI"],
+        ["Seller says natural but report says laboratory-grown", "Misrepresentation or wrong report", "Reject until independently resolved"],
+        ["Shape differs", "Wrong diamond or document", "Stop immediately"],
+        ["Measurements materially differ", "Wrong stone, recutting or inaccurate document", "Professional remeasurement"],
+        ["Inscription number differs", "Wrong stone or suspicious inscription", "Independent identification"],
+        ["Report records an inscription but none can be found", "Dirty girdle, setting obstruction, repolishing or mismatch", "Clean and inspect professionally"],
+        ["Carat weight differs on a loose stone", "Wrong stone, damage or recutting", "Reweigh and investigate"],
+        ["Clarity plot does not correspond with the stone", "Wrong diamond or incomplete visual matching", "Gemmologist comparison"],
+        ["QR code opens a non-IGI domain", "Unofficial or manipulated link", "Close the page and visit IGI directly"],
+        ["Seller supplies only a cropped screenshot", "Missing context or unverifiable document", "Request the complete report and number"],
+        ["Report is genuine but diamond condition has changed", "Later wear, damage or repolishing", "Updated condition assessment"]
+      ]
+    }
+  },
+  "expertNote": {
+    "id": "expert-note",
+    "title": "Expert Note",
+    "introParagraphs": [
+      "One inconsistency does not always prove fraud. A girdle inscription may be difficult to locate when the diamond is dirty or mounted, and older report formats may look different from current documents.",
+      "However, explanations should be verified, not assumed.",
+      "When the report description, diamond origin, measurements, inscription or online record does not agree, the transaction should pause until IGI or an independent gemmologist resolves the discrepancy."
+    ]
+  },
+  "physicalSecurityFeatures": {
+    "id": "physical-igi-report-security-features",
+    "title": "Physical IGI Report Security Features",
+    "introParagraphs": [
+      "IGI states that printed grading reports use advanced security paper with at least five security features, including tear-resistant material, microprinting and a holographic feature.",
+      "Report designs can change. Therefore:"
+    ],
+    "bullets": [
+      "Do not authenticate a report from colour or layout alone.",
+      "Do not reject an older genuine report because it looks different from a current design.",
+      "Do not accept a document merely because it contains a hologram.",
+      "Always prioritise the official online record and physical diamond match."
+    ]
+  },
+  "isReliable": {
+    "id": "is-igi-certification-reliable",
+    "title": "Is IGI Certification Reliable?",
+    "introParagraphs": [
+      "An authentic IGI report provides an independent professional assessment of the examined diamond.",
+      "However, IGI’s official verification page explains that the report is an opinion and is not a guarantee, appraisal or warranty. It also acknowledges that laboratory opinions can vary according to when, how and by whom an article was examined.",
+      "A responsible buyer should therefore use the report to:"
+    ],
+    "bullets": [
+      "Confirm identity",
+      "Review the 4Cs",
+      "Compare diamonds",
+      "Check measurements",
+      "Identify disclosed treatments",
+      "Support stock records",
+      "Request further inspection"
+    ],
+    "closingParagraphs": [
+      "It should not be used to guarantee market value, investment performance or personal visual preference."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "For a wider comparison of laboratory recognition and use cases, read Dalila’s " },
+        { "type": "link", "text": "GIA vs IGI vs HRD diamond certification guide", "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification" },
+        { "type": "text", "value": "." }
+      ]
+    ]
+  },
+  "canProveCountryOfOrigin": {
+    "id": "can-an-igi-report-prove-country-of-origin",
+    "title": "Can an IGI Report Prove a Diamond’s Country of Origin?",
+    "introParagraphs": [
+      "No. A standard natural-diamond grading report identifies the stone as natural but does not automatically confirm the country where it was mined.",
+      "Keep grading records separate from:"
+    ],
+    "bullets": [
+      "Kimberley Process documentation",
+      "Supplier-origin declarations",
+      "Sanctions-compliance records",
+      "Import documents",
+      "Chain-of-custody information",
+      "Provenance programmes"
+    ],
+    "closingParagraphs": [
+      "“Natural diamond”, “Antwerp sourced” and “polished in India” describe different facts. None should be presented as the diamond’s mining country without supporting documentation."
+    ]
+  },
+  "howToUseWhenBuying": {
+    "id": "how-to-use-an-igi-report-when-buying",
+    "title": "How to Use an IGI Report When Buying",
+    "introParagraphs": [
+      "After verifying the report, compare:"
+    ],
+    "bullets": [
+      "Carat weight and dimensions",
+      "Colour and face-up appearance",
+      "Clarity and eye-cleanliness",
+      "Cut and light performance",
+      "Polish and symmetry",
+      "Fluorescence",
+      "Girdle and durability",
+      "Inclusion position",
+      "Transparency",
+      "Price",
+      "Available provenance documentation"
+    ],
+    "closingParagraphs": [
+      "The report should help create a shortlist. The final choice should depend on the actual diamond."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "An Antwerp Sourcing Perspective",
+    "introParagraphs": [
+      "For trade buyers, an IGI report is most useful when it remains connected to the complete stock record.",
+      "The supplier file should connect:"
+    ],
+    "bullets": [
+      "Diamond",
+      "Report number",
+      "Laser inscription where present",
+      "Supplier stock number",
+      "Invoice",
+      "Carat weight",
+      "Measurements",
+      "Natural-diamond description",
+      "Origin and compliance documents where available",
+      "Inspection photographs or videos",
+      "Customer sale record"
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Through Dalila Diamonds’ " },
+        { "type": "link", "text": "Secure to Source service", "href": "/secure-to-source" },
+        { "type": "text", "value": ", jewellers and trade buyers can request natural diamonds according to shape, carat, colour, clarity, certification, measurements and budget." }
+      ],
+      [
+        { "type": "text", "value": "Buyers can also " },
+        { "type": "link", "text": "browse Dalila’s natural-diamond inventory", "href": "/inventory" },
+        { "type": "text", "value": " and request report verification or additional inspection information before purchasing." }
+      ],
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "Diamond Knowledge Guide", "href": "/diamondKnowledge" },
+        { "type": "text", "value": " provides an overview of shapes, the 4Cs and certification." }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Final Answer: Should You Buy an IGI-Certified Diamond?",
+    "introParagraphs": [
+      "An IGI-certified natural diamond can be a suitable purchase when:"
+    ],
+    "bullets": [
+      "The official database confirms the report",
+      "The report identifies the stone as natural",
+      "The digital and physical records match",
+      "The inscription corresponds where present",
+      "The measurements and identifying characteristics match the diamond",
+      "The stone performs well during visual inspection",
+      "The price reflects its complete quality",
+      "Separate origin documentation is available where required"
+    ],
+    "closingParagraphs": [
+      "Do not approve a diamond solely because a report number exists.",
+      "The strongest verification connects three elements:",
+      "Official IGI record → Physical report → Actual diamond",
+      "If any important detail fails to match, pause the transaction and obtain professional confirmation."
+    ]
+  },
+  "cta": {
+    "id": "source-igi-certified-diamonds",
+    "title": "Source IGI-Certified Natural Diamonds with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Request natural diamonds with verified IGI reports, Antwerp inspection support and clear commercial guidance—so report number, inscription and stone stay connected before you buy."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Browse Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is an IGI certificate?",
+        "answer": "An IGI certificate is the commonly used name for an IGI grading report. It records the laboratory’s identification and assessment of a diamond’s characteristics, which may include the 4Cs, measurements, finish, fluorescence and comments."
+      },
+      {
+        "question": "How can I check an IGI certificate online?",
+        "answer": "Enter the report number into IGI’s official Verify Your Report tool. Compare the retrieved information with the physical report and the actual diamond."
+      },
+      {
+        "question": "Does an IGI report confirm that a diamond is natural?",
+        "answer": "The report description should state whether the examined diamond was identified as natural or laboratory-grown. Always read this field instead of relying on the seller’s description."
+      },
+      {
+        "question": "Does every IGI diamond have a laser inscription?",
+        "answer": "No. IGI states that natural-diamond inscriptions may be applied at the owner’s request. Laboratory-grown diamonds graded by IGI receive an inscription identifying laboratory-grown origin under its current process."
+      },
+      {
+        "question": "Is a matching IGI inscription enough to verify a diamond?",
+        "answer": "No. Also compare the official online record, shape, measurements, carat weight, clarity characteristics and natural-versus-laboratory-grown identification."
+      },
+      {
+        "question": "What should I do if an IGI report number produces no result?",
+        "answer": "Check the number carefully and follow IGI’s instructions for prefixes such as J_. If the record remains unavailable, use IGI’s Missing or Problematic Report form and pause the purchase."
+      },
+      {
+        "question": "Does an IGI report show the diamond’s value?",
+        "answer": "A standard IGI grading report is not a retail valuation or guarantee of price. Market value depends on the diamond, demand, supply and selling context."
+      },
+      {
+        "question": "Does an IGI natural-diamond report show mining origin?",
+        "answer": "Not automatically. “Natural diamond” identifies formation origin, not the country of extraction. Mining origin requires separate provenance documentation."
+      },
+      {
+        "question": "Does an IGI certificate expire?",
+        "answer": "A grading report does not normally become false simply because it is old. However, the diamond may later be damaged, repolished, recut or switched, so older reports require identity and condition checks."
+      },
+      {
+        "question": "Is IGI better than GIA or HRD?",
+        "answer": "There is no universal answer for every diamond and market. IGI is widely used internationally, while GIA and HRD have their own recognition and commercial strengths. Compare them through Dalila’s dedicated certification-comparison guide."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Verify the Number, Match the Report, Then Inspect the Diamond",
+    "introParagraphs": [
+      "An IGI report supports the purchase when the official record, physical document and actual diamond agree.",
+      "Pause the transaction whenever origin wording, measurements, inscription or online details conflict."
+    ],
+    "primaryButtonText": "Contact Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Diamond Knowledge Guide",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Our Articles",
+    "findUsTitle": "Find Us",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "Belgium"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Browse Our Inventory",
+    "inventoryDescription": "Discover our exquisite collection of premium diamonds",
+    "inventoryButtonText": "View Inventory",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Back to Articles",
+    "blogsHref": "/blogs"
+  }
+}

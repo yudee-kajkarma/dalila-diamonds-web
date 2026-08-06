@@ -22,14 +22,18 @@
     "diamondKnowledgeDescription": "Erfahren Sie mehr über die 4Cs von Diamanten, die Unterschiede zwischen natürlichen und Labor-Diamanten, Zertifizierungen und die Pflege.",
     "gradingReportTitle": "Leitfaden zum Diamant-Bewertungsbericht | Dalila Diamonds",
     "gradingReportDescription": "Verstehen Sie Diamant-Bewertungsberichte, überprüfen Sie Berichtsnummern, vergleichen Sie die 4Cs, Proportionen und Fluoreszenz und prüfen Sie einen Naturdiamanten vor dem Kauf.",
-    "qualityChartTitle": "Diamant-Qualitätsdiagramm | Dalila Diamonds",
-    "qualityChartDescription": "Vergleichen Sie Schliff-, Farb-, Reinheits- und Karatnoten von Diamanten. Nutzen Sie dieses Qualitätsdiagramm für Naturdiamanten, um die 4Cs zu verstehen und die richtige Balance zu wählen.",
+    "qualityChartTitle": "Diamant-Qualitätstabelle: 4Cs, Farbe und Reinheit | Dalila",
+    "qualityChartDescription": "Vergleichen Sie die Diamantqualität anhand der 4Cs, D–Z-Farbgrade, FL–I3-Klarheit, Schliff, Karat, Politur, Symmetrie und Fluoreszenz, bevor Sie sich für einen natürlichen Diamanten entscheiden.",
     "fluorescenceGuideTitle": "Leitfaden zur Diamantfluoreszenz | Dalila Diamonds",
     "fluorescenceGuideDescription": "Verstehen Sie Diamantfluoreszenz, blaue Fluoreszenz und Intensitätsstufen. Erfahren Sie, wie Fluoreszenz Aussehen und Preis vor dem Kauf eines Naturdiamanten beeinflussen kann.",
     "culetGuideTitle": "Diamant-Culet-Leitfaden: Größe & Bedeutung | Dalila Diamonds",
     "culetGuideDescription": "Erfahren Sie, was ein Diamant-Culet ist, wie GIA und HRD die Culet-Größe beschreiben und wie spitze, offene, große oder beschädigte Culets Aussehen und Kaufentscheidung beeinflussen können.",
     "girdleGuideTitle": "Diamant-Rondiste-Leitfaden: Dicke & Grade | Dalila Diamonds",
-    "girdleGuideDescription": "Erfahren Sie, was eine Diamant-Rondiste ist, wie GIA und HRD ihre Dicke bewerten und wie dünne oder dicke Rondisten Haltbarkeit, Größe, Fassung und Wert beeinflussen."
+    "girdleGuideDescription": "Erfahren Sie, was eine Diamant-Rondiste ist, wie GIA und HRD ihre Dicke bewerten und wie dünne oder dicke Rondisten Haltbarkeit, Größe, Fassung und Wert beeinflussen.",
+    "sizeChartTitle": "Diamantgrößentabelle: Karat bis MM nach Form | Dalila",
+    "sizeChartDescription": "Verwenden Sie die Diamantgrößentabelle von Dalila, um ungefähre Karat-zu-Millimeter-Maße für runde, ovale, birnenförmige, Kissen-, Smaragd- und andere natürliche Diamanten zu vergleichen.",
+    "naturalVsLabTitle": "Natürliche und im Labor gezüchtete Diamanten: Vollständiger Vergleich | Dalila",
+    "naturalVsLabDescription": "Vergleichen Sie natürliche und im Labor gezüchtete Diamanten nach Herkunft, Aussehen, Preis, Einstufung, Seltenheit, Weiterverkauf und Beschaffung, um zu entscheiden, welcher Diamant Ihren Prioritäten entspricht."
   },
   "nav": {
     "home": "Startseite",
@@ -59,7 +63,14 @@
     "articleQualityChart": "Diamant-Qualitätsdiagramm",
     "articleFluorescenceGuide": "Leitfaden zur Diamantfluoreszenz",
     "articleCuletGuide": "Diamant-Culet-Leitfaden",
-    "articleGirdleGuide": "Diamant-Rondiste-Leitfaden"
+    "articleGirdleGuide": "Diamant-Rondiste-Leitfaden",
+    "articleSizeChart": "Diamant-Größentabelle",
+    "articleNaturalVsLab": "Natürliche vs. im Labor gezüchtete Diamanten",
+    "articleValuationCalculator": "Diamond Valuation Calculator",
+    "articleWhereToSellRing": "Where to Sell a Diamond Ring",
+    "articleHowToSellRing": "How to Sell a Diamond Ring Safely",
+    "articleAppraisalAntwerp": "Diamond Appraisal in Antwerp",
+    "articleSellWithoutCert": "Sell a Diamond Without a Certificate"
   },
   "header": {
     "search": "Diamanten suchen...",

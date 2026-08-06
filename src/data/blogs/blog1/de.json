@@ -1,0 +1,695 @@
+{
+  "meta": {
+    "title": "Die teuersten Diamantformen: Preis- und Wertführer | Dalila",
+    "description": "Erfahren Sie, welche Diamantformen am meisten kosten, warum runde Diamanten teurer sind und wie Sie natürliche Diamanten nach Preis, Größe und Schliffqualität vergleichen können.",
+    "canonical": "https://www.daliladiamonds.com/blogs/most-expensive-diamond-shapes",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Most expensive diamond shapes",
+    "inLanguage": "de"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/most-expensive-diamond-shapes.webp",
+      "alt": "Runde ovale Birnenkissen-Smaragd- und strahlende natürliche Diamantformen im Vergleich",
+      "width": 1600,
+      "height": 900
+    },
+    "roughYield": {
+      "src": "/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
+      "alt": "Vergleich der Verwendung von Rohdiamanten für runde und ausgefallene Diamanten",
+      "width": 1400,
+      "height": 1000
+    },
+    "priceDrivers": {
+      "src": "/images/blogs/diamond-shape-price-drivers.webp",
+      "alt": "Faktoren, die den Preis von Naturdiamanten je nach Form beeinflussen",
+      "width": 1400,
+      "height": 1000
+    },
+    "faceUpSize": {
+      "src": "/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
+      "alt": "Offener Größenvergleich von Einkaräter-Diamantformen",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Die teuersten Diamantformen",
+    "breadcrumbHome": "Heim",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "Welche Diamantformen sind die teuersten?",
+    "imageAlt": "Leitbanner zu den teuersten Diamantformen für Käufer von Naturdiamanten"
+  },
+  "hero": {
+    "title": "Welche Diamantformen sind die teuersten – und warum?",
+    "subheading": "Vergleichen Sie die Formen farbloser natürlicher Diamanten nach typischer Preisposition, verstehen Sie, warum runde Brillanten einen Aufpreis haben, und erfahren Sie, wie Sie den Wert über die reine Form hinaus bewerten.",
+    "reviewDateLabel": "Zuletzt bewertet:",
+    "reviewDate": "6. August 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Der runde Brillant ist in der Regel die teuerste Diamantform pro Karat, wenn man farblose Naturdiamanten mit ähnlichem Karatgewicht, ähnlicher Farbe, ähnlicher Reinheit, Bewertungsberichten und allgemeiner Qualität vergleicht.",
+      "Sein höherer Preis ist auf eine Kombination aus starker Marktnachfrage, der Menge des beim Schleifen entfernten Rohdiamanten, strengen Proportionsanforderungen und seiner Fähigkeit, außergewöhnlichen Glanz zu erzeugen, zurückzuführen.",
+      "Dies bedeutet jedoch nicht, dass jeder runde Diamant mehr kostet als jeder Diamant im Oval-, Kissen- oder Smaragdschliff. Ein großer, seltener oder außergewöhnlich gut geschliffener Diamant in Fantasieform kann erheblich mehr kosten als ein runder Diamant von geringerer Qualität.",
+      "Der richtige Vergleich muss immer zwischen Diamanten mit ähnlichen Spezifikationen erfolgen."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Schnelle Antwort",
+    "question": "Welche Diamantform ist die teuerste?",
+    "introParagraphs": [
+      "Der runde Brillant ist im Allgemeinen die teuerste übliche Diamantform pro Karat. Um einen gut proportionierten runden Diamanten herzustellen, kann mehr vom ursprünglichen Rohkristall entfernt werden, während die Nachfrage nach dieser Form gleichbleibend groß bleibt.",
+      "Ausgefallene Formen – darunter Oval, Birne, Kissen, Prinzessin, Smaragd, Radiant und Marquise – kosten oft weniger pro Karat als vergleichbare runde Diamanten. Ihre genauen Preise hängen von der Nachfrage, der Seltenheit, den Proportionen, der optischen Leistung und davon ab, wie effizient jede Form aus dem Rohdiamanten hergestellt werden kann."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Wichtige Erkenntnisse",
+    "items": [
+      "Diamanten mit rundem Brillantschliff erzielen normalerweise den höchsten Preis pro Karat.",
+      "Die Form eines Diamanten sollte niemals ohne Prüfung auf Karat, Farbe, Reinheit und Zertifizierung verglichen werden.",
+      "Ausgefallene Formen folgen keiner festen Preisrangfolge.",
+      "Oval-, Tropfen- und Marquise-Diamanten können für ihr Gewicht ein größeres Erscheinungsbild verleihen.",
+      "Princess- und Radiant-Schliffe können mehr vom ursprünglichen Rohkristall behalten als ein runder Brillant.",
+      "Ausgefallen geformte Diamanten erfordern eine Sichtprüfung, da ein Bewertungsbericht nicht jeden Aspekt ihres Aussehens beschreibt.",
+      "Der günstigste Stein ist für einen Juwelier oder Kunden nicht automatisch der Stein mit dem besten Preis-Leistungs-Verhältnis."
+    ]
+  },
+  "overviewNav": {
+    "title": "Artikelübersicht",
+    "items": [
+      {
+        "id": "diamond-shape-versus-diamond-cut",
+        "label": "Diamantform versus Diamantschliff"
+      },
+      {
+        "id": "diamond-shapes-by-typical-price-position",
+        "label": "Diamantformen nach typischer Preisposition"
+      },
+      {
+        "id": "why-are-round-diamonds-more-expensive",
+        "label": "Warum sind runde Diamanten teurer?"
+      },
+      {
+        "id": "are-oval-diamonds-the-second-most-expensive-shape",
+        "label": "Sind ovale Diamanten die zweitteuerste Form?"
+      },
+      {
+        "id": "pear-and-marquise-diamonds",
+        "label": "Birnen- und Marquise-Diamanten: Preis im Vergleich zur sichtbaren Größe"
+      },
+      {
+        "id": "cushion-radiant-and-princess-diamonds",
+        "label": "Kissen-, Strahlen- und Prinzessdiamanten"
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "label": "Smaragd- und Asscher-Schliffe"
+      },
+      {
+        "id": "are-heart-shaped-diamonds-expensive",
+        "label": "Sind herzförmige Diamanten teuer?"
+      },
+      {
+        "id": "which-diamond-shape-looks-biggest",
+        "label": "Welche Diamantform sieht für ihren Preis am größten aus?"
+      },
+      {
+        "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+        "label": "Bedeutet die teuerste Form den besten Diamanten?"
+      },
+      {
+        "id": "how-to-compare-diamond-prices-by-shape",
+        "label": "So vergleichen Sie die Diamantenpreise richtig nach Form"
+      },
+      {
+        "id": "wholesale-diamond-buying-checklist",
+        "label": "Checkliste für den Diamanten-Großhandel"
+      },
+      {
+        "id": "an-antwerp-sourcing-perspective",
+        "label": "Eine Antwerpener Sourcing-Perspektive"
+      },
+      {
+        "id": "final-answer",
+        "label": "Endgültige Antwort: Welche Diamantform kostet am meisten?"
+      }
+    ]
+  },
+  "shapeVsCut": {
+    "id": "diamond-shape-versus-diamond-cut",
+    "title": "Diamantform versus Diamantschliff",
+    "introParagraphs": [
+      "Diamantform und Diamantschliff hängen zusammen, sind aber nicht dasselbe.",
+      "Die Form beschreibt den sichtbaren Umriss des Diamanten. Beispiele hierfür sind rund, oval, birnenförmig, smaragdgrün, kissenförmig und marquisefarben.",
+      "Die Schliffqualität beschreibt, wie erfolgreich die Proportionen, Facetten und das Finish des Diamanten mit dem Licht umgehen. Es beeinflusst Helligkeit, Feuer, Funkeln und das Gesamterscheinungsbild des Diamanten.",
+      "Diese Unterscheidung ist wichtig, wenn Menschen nach dem „teuersten Diamantschliff“ suchen. Sie fragen sich oft, welche Diamantform am meisten kostet, aber zwei Diamanten derselben Form können aufgrund ihrer Schliffqualität dennoch sehr unterschiedliche Werte haben."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Dalilas"
+        },
+        {
+          "type": "link",
+          "text": "Diamant-Wissensführer",
+          "href": "/diamondKnowledge"
+        },
+        {
+          "type": "text",
+          "value": "erklärt, wie Form, Schliff, Farbe, Reinheit und Karatgewicht zusammenwirken."
+        }
+      ]
+    ]
+  },
+  "shapesByPrice": {
+    "id": "diamond-shapes-by-typical-price-position",
+    "title": "Diamantformen nach typischer Preisposition",
+    "introParagraphs": [
+      "Es gibt keine permanente Preisliste, die für jeden Diamanten gilt. Der folgende Vergleich zeigt die übliche Position gängiger farbloser natürlicher Diamantformen, wenn ihre anderen Qualitätsmerkmale einigermaßen ähnlich sind."
+    ],
+    "table": {
+      "caption": "Typische Preislage gängiger farbloser natürlicher Diamantformen",
+      "headers": [
+        "Rautenform",
+        "Typische Preisposition",
+        "Wichtige Preistreiber"
+      ],
+      "rows": [
+        [
+          "Round brilliant",
+          "Normalerweise das teuerste",
+          "Anspruch, grober Verlust, Präzision und Brillanz"
+        ],
+        [
+          "Oval",
+          "Oftmals eine der höherpreisigen Fancy-Formen",
+          "Beliebtheit, Verhältnis von Länge zu Breite, Spreizung und Sichtbarkeit der Fliege"
+        ],
+        [
+          "Pear",
+          "Variabler mittlerer bis oberer Bereich",
+          "Symmetrie, Fliege, Umriss und Punktausrichtung"
+        ],
+        [
+          "Marquise",
+          "Variable",
+          "Größe der Vorderseite, Symmetrie, Verhältnis von Länge zu Breite und Verfügbarkeit"
+        ],
+        [
+          "Radiant",
+          "Normalerweise unten rund",
+          "Brillanz, Kontur, Farbbeständigkeit und Proportionsqualität"
+        ],
+        [
+          "Cushion",
+          "Normalerweise unten rund",
+          "Formverhältnis, Facettenmuster, Tiefe und visuelle Leistung"
+        ],
+        [
+          "Princess",
+          "Normalerweise unten rund",
+          "Rauhaltigkeit, Eckenqualität und Brillanz"
+        ],
+        [
+          "Emerald",
+          "Oftmals unterrund, mit Prämien für hohe Qualität",
+          "Klarheit, Farbe, Fensterung und Stufenschnittpräzision"
+        ],
+        [
+          "Asscher",
+          "Variabel und manchmal spezialisiert",
+          "Symmetrie, Tiefe, Windmühlenmuster und begrenzte Verfügbarkeit"
+        ],
+        [
+          "Heart",
+          "Sehr variabel",
+          "Nischenanspruch, Umriss, Spaltung, Lappen und Symmetrie"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Dies ist ein praktischer Leitfaden – kein Live-Preisangebot. Die Diamantpreise ändern sich je nach Lagerbestand, Marktnachfrage, Karatschwellen und den individuellen Eigenschaften jedes Steins."
+    ]
+  },
+  "whyRoundExpensive": {
+    "id": "why-are-round-diamonds-more-expensive",
+    "title": "Warum sind runde Diamanten teurer?",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "more-of-the-rough-diamond-may-be-removed",
+        "title": "1. Möglicherweise wird mehr Rohdiamant entfernt",
+        "paragraphsBefore": [
+          "Ein geschliffener Diamant beginnt als unregelmäßiger natürlicher Kristall. Der Schneider muss entscheiden, welche Form das beste Gleichgewicht zwischen Schönheit, Gewicht und kommerziellem Wert bietet.",
+          "Die Herstellung eines symmetrischen, gut proportionierten runden Brillanten kann die Entfernung von rauerem Material erfordern als bei Formen, die dem ursprünglichen Kristall besser folgen.",
+          "Das GIA erklärt beispielsweise, dass Diamanten im Prinzessschliff möglicherweise weniger pro Karat kosten, da Schleifer mehr vom ursprünglichen Diamantkristall behalten können.",
+          "Wenn von einem teuren Rohling weniger Poliergewicht übrig bleibt, erhöhen sich die Kosten für jedes verbleibende Karat."
+        ]
+      },
+      {
+        "id": "round-brilliant-diamonds-have-consistently-strong-demand",
+        "title": "2. Runde Brillantdiamanten erfreuen sich einer anhaltend starken Nachfrage",
+        "paragraphsBefore": [
+          "Runde Diamanten werden häufig für Verlobungsringe, Ohrringe, Anhänger, Nebensteine ​​und klassische Schmuckdesigns verwendet. Diese breite kommerzielle Nachfrage stützt ihre Preisgestaltung.",
+          "Ein Juwelier kann einen runden Brillant in zahlreichen Kollektionen und Märkten verwenden. Einige ausgefallene Formen sprechen eine kleinere Kundengruppe an und der Verkauf kann länger dauern, selbst wenn der Stein selbst attraktiv ist."
+        ]
+      },
+      {
+        "id": "round-brilliants-are-designed-for-strong-light-performance",
+        "title": "3. Runde Brillanten sind für eine starke Lichtleistung ausgelegt",
+        "paragraphsBefore": [
+          "Ein runder Brillant hat eine hochgradig standardisierte Facettenstruktur, die Helligkeit, Feuer und Funkeln erzeugen soll.",
+          "Der GIA-Diamantformführer beschreibt den runden Brillant als die einzige Form, die derzeit eine Gesamtbewertung des GIA-Schliffs von „Ausgezeichnet“ bis „Schlecht“ erhält.",
+          "Dieses standardisierte Bewertungssystem bietet Käufern eine zusätzliche Möglichkeit, runde Diamanten zu vergleichen. Ausgefallene Formen erhalten weiterhin Informationen wie Politur, Symmetrie, Maße und Proportionen, ihre gesamte visuelle Leistung kann jedoch nicht auf eine Gesamt-GIA-Schliffklasse reduziert werden."
+        ]
+      },
+      {
+        "id": "high-quality-cutting-requires-precision",
+        "title": "4. Hochwertiges Schneiden erfordert Präzision",
+        "paragraphsBefore": [
+          "Kleine Unterschiede in Tischgröße, Tiefe, Pavillonwinkel, Kronenwinkel, Rundistedicke und Facettenausrichtung können das Aussehen eines runden Diamanten beeinträchtigen.",
+          "Fräser müssen ein ausgewogenes Verhältnis zwischen poliertem Gewicht und leichter Leistung erzielen. Die Beibehaltung von zusätzlichem Gewicht kann die Karatzahl erhöhen, aber schlechte Proportionen können dazu führen, dass ein Diamant dunkel, klein oder weniger lebendig aussieht.",
+          "Gut geschliffene runde Diamanten sind daher nicht nur wegen ihrer Form wertvoll, sondern auch wegen der Präzision, die bei ihrer Herstellung erforderlich ist."
+        ]
+      }
+    ]
+  },
+  "ovalSecondMost": {
+    "id": "are-oval-diamonds-the-second-most-expensive-shape",
+    "title": "Sind ovale Diamanten die zweitteuerste Form?",
+    "introParagraphs": [
+      "Nicht immer.",
+      "Ovale Diamanten gehören oft zu den teureren ausgefallenen Formen, weil sie beliebt und elegant sind und für ihr Karatgewicht groß aussehen können. Die Preise für Ovale variieren jedoch erheblich je nach:"
+    ],
+    "bullets": [
+      "Verhältnis von Länge zu Breite",
+      "Face-up-Messungen",
+      "Sichtbarkeit durch Fliege",
+      "Umrisssymmetrie",
+      "Schulterform",
+      "Farbverteilung",
+      "Verfügbarkeit innerhalb eines bestimmten Karatbereichs"
+    ],
+    "closingParagraphs": [
+      "Ein lebhaftes Oval mit einem attraktiven Umriss und minimaler Fliege kann einen höheren Preis erzielen als ein Oval mit den gleichen Prüfqualitäten, aber einer schwächeren visuellen Leistung.",
+      "Die Forschung des GIA zu Oval-, Birnen- und Marquise-Diamanten zeigt auch, wie unterschiedlich die Konturpräferenzen und das Verhältnis von Länge zu Breite sind. Dies ist einer der Gründe, warum Diamanten mit ausgefallenen Formen einer visuellen Prüfung unterzogen werden sollten, anstatt nur anhand der Berichtsqualitäten ausgewählt zu werden."
+    ]
+  },
+  "pearMarquise": {
+    "id": "pear-and-marquise-diamonds",
+    "title": "Birnen- und Marquise-Diamanten: Preis im Vergleich zur sichtbaren Größe",
+    "introParagraphs": [
+      "Birnen- und Marquise-Diamanten bieten oft eine starke Face-Up-Präsenz, da ihr Gewicht über einen länglichen Umriss verteilt ist.",
+      "Ein einkarätiger Marquise-Diamant kann von oben betrachtet größer aussehen als ein einkarätiger runder Diamant, obwohl beide Steine ​​das gleiche Gewicht haben. Birnendiamanten können einen ähnlichen optischen Vorteil bieten.",
+      "Käufer sollten jedoch Folgendes prüfen:"
+    ],
+    "bullets": [
+      "Umrisssymmetrie",
+      "Fliege-Dunkelheit",
+      "Punktausrichtung",
+      "Unebene Schultern oder Flügel",
+      "Übermäßige Tiefe",
+      "Sehr dünne Bereiche des Gürtels",
+      "Absplittergefahr an spitzen Enden"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Vergleichen Sie die im Bewertungsbericht angegebenen Maße mit denen von Dalila"
+        },
+        {
+          "type": "link",
+          "text": "Diamantgröße in Millimetern",
+          "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Karat misst das Gewicht; Millimetermessungen zeigen, wie groß der Diamant nach oben erscheinen kann."
+        }
+      ]
+    ]
+  },
+  "cushionRadiantPrincess": {
+    "id": "cushion-radiant-and-princess-diamonds",
+    "title": "Kissen-, Strahlen- und Prinzessinnendiamanten",
+    "introParagraphs": [
+      "Diese Formen kosten in der Regel weniger pro Karat als vergleichbare runde Brillanten, ihr Aussehen kann jedoch erheblich variieren."
+    ],
+    "subsections": [
+      {
+        "id": "cushion-cut-diamonds",
+        "title": "Diamanten im Kissenschliff",
+        "paragraphsBefore": [
+          "Kissen können quadratisch, rechteckig oder länglich sein. Sie können auch unterschiedliche Facettenmuster aufweisen, die von breiten, definierten Blitzen bis hin zu einem dichteren „Crushed Ice“-Erscheinungsbild reichen.",
+          "Zwei Kissen mit identischem Karat-, Farb- und Reinheitsgrad können völlig unterschiedlich aussehen."
+        ]
+      },
+      {
+        "id": "radiant-cut-diamonds",
+        "title": "Diamanten im Strahlenschliff",
+        "paragraphsBefore": [
+          "Strahlende Diamanten kombinieren einen rechteckigen oder quadratischen Grundriss mit einer facettierten Anordnung im Brillantstil. Sie können für starken Glanz sorgen und kosten im Allgemeinen weniger pro Karat als runde Diamanten.",
+          "Der Umriss, die Tiefe, die Lichtrückgabe und die Farbkonzentration können den Wert eines einzelnen Strahlers beeinflussen."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Diamanten im Prinzessschliff",
+        "paragraphsBefore": [
+          "Princess-Diamanten können mehr vom ursprünglichen Rohkristall behalten, was ihnen zu wettbewerbsfähigen Preisen verhilft. Käufer sollten dennoch die Haltbarkeit der Ecken, die Dicke des Gürtels, die Symmetrie und Bereiche mit Lichtaustritt prüfen."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Unser"
+        },
+        {
+          "type": "link",
+          "text": "Prinzessinnen-, Kissen- und strahlender Diamant-Vergleich",
+          "href": "/blogs/princess-vs-cushion-vs-radiant-diamond"
+        },
+        {
+          "type": "text",
+          "value": "erläutert die Unterschiede zwischen diesen drei Formen ausführlicher."
+        }
+      ]
+    ]
+  },
+  "emeraldAsscher": {
+    "id": "emerald-and-asscher-cuts",
+    "title": "Smaragd- und Asscher-Schliffe",
+    "introParagraphs": [
+      "Smaragd- und Asscher-Diamanten verwenden Facetten im Stufenschliff anstelle der kleineren Facetten im Brillantstil, die man bei runden und strahlenden Diamanten findet.",
+      "Der Preis liegt möglicherweise unter dem vergleichbarer runder Diamanten, aber die Auswahl eines schönen Stufenschliffs erfordert möglicherweise mehr Ausgaben für Farbe oder Reinheit.",
+      "Große, offene Facetten können die Sichtbarkeit von Einschlüssen erleichtern. Außerdem können sie Farben deutlicher zur Geltung bringen als ein Facettenmuster im Brillantstil. Schwach proportionierte Steine ​​können aufgrund ihres Gewichts Fenster, dunkle Bereiche oder eine kleine nach oben gerichtete Erscheinung aufweisen.",
+      "Dies bedeutet, dass ein Käufer möglicherweise Geld für den Formaufschlag spart, aber eine höhere Klarheit oder einen höheren Farbgrad wählt, um das gewünschte Erscheinungsbild zu erzielen."
+    ]
+  },
+  "heartShaped": {
+    "id": "are-heart-shaped-diamonds-expensive",
+    "title": "Sind herzförmige Diamanten teuer?",
+    "introParagraphs": [
+      "Herzförmige Diamanten haben sehr variable Preise.",
+      "Die Nachfrage ist geringer als bei runden oder ovalen Diamanten, aber das Schleifen einer ausgewogenen Herzform erfordert Geschick. Die beiden Lappen sollten gleichmäßig erscheinen, die Spalte sollte frei sein und die Spitze sollte mit der Mitte des Steins übereinstimmen.",
+      "In bestimmten Spezifikationen kann es schwieriger sein, gut geformte Herzen zu finden. Ein schlecht geformtes Herz kostet vielleicht weniger, aber der niedrigere Preis macht es nicht wertvoller."
+    ]
+  },
+  "looksBiggest": {
+    "id": "which-diamond-shape-looks-biggest",
+    "title": "Welche Diamantform sieht für ihren Preis am größten aus?",
+    "introParagraphs": [
+      "Längliche Formen sorgen häufig für die stärkste Ausbreitung mit der Vorderseite nach oben.",
+      "Dazu können gehören:"
+    ],
+    "bullets": [
+      "Marquise",
+      "Oval",
+      "Pear",
+      "Elongated cushion",
+      "Elongated radiant"
+    ],
+    "closingParagraphs": [
+      "Allerdings sollte die scheinbare Größe nicht allein betrachtet werden. Ein flacher Diamant sieht vielleicht groß aus, leidet aber unter einer schwachen Lichtrückführung. Ein tiefer Diamant kann sein Karatgewicht behalten, während er von oben betrachtet kleiner aussieht.",
+      "Die günstigsten Formwaagen:"
+    ],
+    "closingBullets": [
+      "Offene Abmessungen",
+      "Attraktive Proportionen",
+      "Helligkeit und Kontrast",
+      "Passende Farbe und Klarheit",
+      "Anforderungen festlegen",
+      "Gesamtpreis"
+    ]
+  },
+  "mostExpensiveBest": {
+    "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+    "title": "Bedeutet die teuerste Form den besten Diamanten?",
+    "introParagraphs": [
+      "NEIN.",
+      "Ein runder Brillant ist vielleicht die teuerste Form pro Karat, aber das macht ihn nicht zur richtigen Wahl für jeden Kunden, jedes Schmuckdesign oder jeden Lagerplan.",
+      "Für Käufer, die Wert auf maximale Brillanz und breite Marktbekanntheit legen, kann ein gut geschliffener runder Brillant seinen Aufpreis rechtfertigen.",
+      "Für Käufer, die ein größeres Erscheinungsbild, ein unverwechselbares Design oder einen niedrigeren Preis pro Karat wünschen, bietet eine gut ausgewählte ausgefallene Form möglicherweise ein besseres Preis-Leistungs-Verhältnis.",
+      "Der beste Diamant ist der Stein, der das erforderliche Aussehen, die Qualität, das Budget und den kommerziellen Zweck erfüllt – und nicht einfach derjenige mit dem höchsten Preis."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-prices-by-shape",
+    "title": "So vergleichen Sie die Preise für Diamanten nach Form richtig",
+    "introParagraphs": [
+      "Bevor Sie entscheiden, dass eine Form günstiger ist als eine andere, vergleichen Sie die Diamanten auf gleicher Basis."
+    ],
+    "subsections": [
+      {
+        "id": "use-the-same-diamond-type",
+        "title": "Verwenden Sie denselben Diamanttyp",
+        "paragraphsBefore": [
+          "Vergleichen Sie nicht den Preis eines natürlichen Diamanten mit dem eines im Labor gezüchteten Diamanten. Ihre Angebotsstrukturen und Marktpreise sind grundsätzlich unterschiedlich."
+        ]
+      },
+      {
+        "id": "keep-the-carat-range-consistent",
+        "title": "Halten Sie den Karatbereich konstant",
+        "paragraphsBefore": [
+          "Vergleichen Sie Steine ​​im gleichen Karatbereich. Die Preise für Diamanten können in der Nähe beliebter Gewichtsgrenzen wie 0,50, 1,00, 1,50 und 2,00 Karat deutlich steigen."
+        ]
+      },
+      {
+        "id": "match-colour-and-clarity",
+        "title": "Passen Sie Farbe und Klarheit an",
+        "paragraphsBefore": [
+          "Ein runder Diamant mit niedrigerer Farbe oder geringerer Reinheit kostet möglicherweise weniger als ein ausgefallener Diamant mit hoher Farbe und hoher Reinheit. Das beweist nicht, dass die runde Form günstiger ist."
+        ]
+      },
+      {
+        "id": "review-the-grading-laboratory",
+        "title": "Sehen Sie sich das Bewertungslabor an",
+        "paragraphsBefore": [
+          "Vergleichen Sie Bewertungsberichte von anerkannten Labors und stellen Sie sicher, dass der Bericht mit dem angebotenen Diamanten übereinstimmt."
+        ]
+      },
+      {
+        "id": "calculate-price-per-carat",
+        "title": "Berechnen Sie den Preis pro Karat",
+        "paragraphsBefore": [
+          "Verwenden Sie die folgende Berechnung:",
+          "Preis pro Karat = Gesamtpreis für lose Diamanten ÷ Karatgewicht",
+          "Der Preis pro Karat hilft dabei, Vergleiche zu normalisieren, misst aber immer noch nicht Schönheit, Proportionen oder Verkaufsfähigkeit."
+        ]
+      },
+      {
+        "id": "compare-face-up-measurements",
+        "title": "Vergleichen Sie Face-Up-Messungen",
+        "paragraphsBefore": [
+          "Überprüfen Sie die Länge, Breite und Tiefe – nicht nur das Karatgewicht. Dies zeigt, ob der Diamant unterhalb der Rundiste übergewichtig ist oder eine gute sichtbare Streuung aufweist."
+        ]
+      },
+      {
+        "id": "inspect-videos-and-images",
+        "title": "Untersuchen Sie Videos und Bilder",
+        "paragraphsBefore": [
+          "Dies ist für ausgefallene Formen unerlässlich. Prüfen Sie auf:"
+        ],
+        "bullets": [
+          "Fliege-Dunkelheit",
+          "Fensterbau",
+          "Ungleichmäßige Lichtrückgabe",
+          "Schlechte Symmetrie",
+          "Unattraktive Umrisse",
+          "Sichtbare Einschlüsse",
+          "Übermäßige Farbkonzentration"
+        ]
+      }
+    ]
+  },
+  "wholesaleChecklist": {
+    "id": "wholesale-diamond-buying-checklist",
+    "title": "Checkliste für den Kauf von Diamanten im Großhandel",
+    "introParagraphs": [
+      "Bevor Sie einen natürlichen Diamanten genehmigen, überprüfen Sie Folgendes:"
+    ],
+    "items": [
+      "Diamantform und genaues Karatgewicht",
+      "Farb- und Reinheitsgrade",
+      "Labor- und Berichtsnummer",
+      "Maße und Verhältnis von Länge zu Breite",
+      "Gegebenenfalls Schnittgüte",
+      "Polnisch und Symmetrie",
+      "Tabellen- und Tiefenprozentsätze",
+      "Gürtelstärke",
+      "Fluoreszenz",
+      "Aufnahmeort",
+      "Helligkeit nach oben",
+      "Fliege oder Fensterdekoration",
+      "Preis pro Karat",
+      "Gesamte Anschaffungskosten",
+      "Einstellung und Kundenanforderungen"
+    ],
+    "closingParagraphs": [
+      "Ein Diamant, der auf einer Tabelle billig aussieht, kann zu einem minderwertigen Bestand werden, wenn er schwache Proportionen, sichtbare Dunkelheit oder einen Umriss aufweist, den Kunden ablehnen."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "Eine Antwerpener Beschaffungsperspektive",
+    "introParagraphs": [
+      "Für europäische Juweliere und Großhandelseinkäufer ist die beste Form nicht unbedingt diejenige mit dem größten prozentualen Rabatt.",
+      "Der kommerzielle Wert hängt auch ab von:"
+    ],
+    "bullets": [
+      "Kundennachfrage",
+      "Verkaufsgeschwindigkeit",
+      "Ersatzverfügbarkeit",
+      "Anpassung an bestehende Einstellungen",
+      "Konsistenz zwischen Nachbestellungen",
+      "Zertifizierungseinstellungen",
+      "Liefer- und Versicherungskosten"
+    ],
+    "closingParagraphs": [
+      "Runde Diamanten kosten oft mehr, können aber einen breiteren Kundenkreis bedienen. Ausgefallene Formen können eine stärkere optische Größe und attraktive Ränder bieten, erfordern jedoch eine sorgfältige Auswahl, da ihr Aussehen von Stein zu Stein stärker variiert."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Durch Dalila Diamonds‘"
+        },
+        {
+          "type": "link",
+          "text": "Secure-to-Source-Dienst",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": "können gewerbliche Käufer natürliche Diamanten in die engere Auswahl nehmen und professionelle Unterstützung bei der Qualitätskontrolle erhalten, bevor die ausgewählten Steine ​​sie erreichen."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Käufer können das auch"
+        },
+        {
+          "type": "link",
+          "text": "Stöbern Sie im Diamantenbestand von Dalila",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": "oder geben Sie spezifische Anforderungen an Form, Karat, Farbe, Reinheit, Zertifizierung und Budget ein."
+        }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Abschließende Antwort: Welche Diamantform kostet am meisten?",
+    "introParagraphs": [
+      "Der runde Brillant ist in der Regel die teuerste gängige Diamantform pro Karat, wenn alle anderen wichtigen Qualitätsfaktoren vergleichbar sind.",
+      "Seine Prämie ergibt sich aus der starken Nachfrage, der geringeren Rauheitsrückhaltung in vielen Schneidsituationen, präzisen Fertigungsanforderungen und seinem etablierten Ruf für Brillanz.",
+      "Ausgefallene Formen können weniger pro Karat kosten und eine größere sichtbare Größe bieten, aber es gibt keine einheitliche, dauerhafte Rangfolge für jedes Oval, jeden Tropfen, jedes Kissen, jeden Smaragd oder jeden strahlenden Diamanten.",
+      "Vergleichen Sie immer den gesamten Stein – nicht nur seine Form oder seinen Abschlag."
+    ]
+  },
+  "cta": {
+    "id": "source-natural-diamonds-by-shape",
+    "title": "Beschaffen Sie natürliche Diamanten von Shape mit Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Ganz gleich, ob Sie runde Brillanten oder sorgfältig ausgewählte ausgefallene Formen benötigen, Dalila Diamonds hilft gewerblichen Käufern beim Vergleich von Qualität, Abmessungen und Anschaffungskosten mit der Antwerpener Beschaffungsunterstützung."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Durchsuchen Sie das Inventar",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Welche Diamantform ist die teuerste?",
+        "answer": "Der runde Brillant ist im Allgemeinen die teuerste übliche Diamantform pro Karat im Vergleich zu natürlichen Diamanten mit ähnlichem Karat, ähnlicher Farbe, Klarheit und Qualität."
+      },
+      {
+        "question": "Warum sind runde Diamanten teurer?",
+        "answer": "Runde Diamanten haben in der Regel einen Aufpreis, da bei ihrer Herstellung mehr vom ursprünglichen Rohkristall entfernt werden kann, die Marktnachfrage konstant groß ist und für eine hochwertige Lichtleistung präzise Proportionen erforderlich sind."
+      },
+      {
+        "question": "Ist ein ovaler Diamant teurer als ein runder Diamant?",
+        "answer": "Ein vergleichbares Oval kostet normalerweise weniger pro Karat als ein runder Brillant. Ein außergewöhnliches Oval kann jedoch mehr kosten als ein runder Diamant von geringerer Qualität, da der Preis auch von Karat, Farbe, Reinheit, Proportionen und Verfügbarkeit abhängt."
+      },
+      {
+        "question": "Welche Diamantform ist die günstigste?",
+        "answer": "Die dauerhaft günstigste Form gibt es nicht. Prinzess-, Kissen-, Smaragd- und einige andere ausgefallene Formen können weniger pro Karat kosten als vergleichbare runde Steine, aber der preisgünstigste Einzelstein kann eine schwächere Farbe, Klarheit, Proportionen oder optische Leistung aufweisen."
+      },
+      {
+        "question": "Welche Diamantform sieht am größten aus?",
+        "answer": "Marquise-, Oval- und Tropfendiamanten sehen von oben oft größer aus als runde Diamanten mit dem gleichen Karatgewicht, da ihre länglichen Umrisse das Gewicht auf eine größere sichtbare Fläche verteilen."
+      },
+      {
+        "question": "Beeinflusst die Diamantform den Preis pro Karat?",
+        "answer": "Ja. Die Form beeinflusst die Retention des Rohdiamanten, die Komplexität des Schliffs, die Marktnachfrage, die Verfügbarkeit und das Erscheinungsbild der Oberfläche. Diese Faktoren können alle den Preis pro Karat beeinflussen."
+      },
+      {
+        "question": "Funkelt die teuerste Diamantform am meisten?",
+        "answer": "Ein gut geschliffener runder Brillant ist für starke Helligkeit, Feuer und Funkeln ausgelegt. Allerdings ist der Preis allein kein Garant für Glanz. Schlecht proportionierte runde Diamanten schneiden möglicherweise schlechter ab als gut ausgewählte ausgefallene Formen."
+      },
+      {
+        "question": "Warum zeigen GIA-Berichte für die meisten ausgefallenen Formen keinen Gesamtschnittgrad an?",
+        "answer": "Ab Juli 2026 gibt GIA den Standard-Diamanten im runden Brillantschliff einen Gesamtschliffgrad an, während ausgefallene Formen Maße, Politur, Symmetrie und andere Informationen erhalten. Ihre vielfältigen Umrisse und Facettenanordnungen erfordern eine zusätzliche visuelle Beurteilung."
+      },
+      {
+        "question": "Wie sollten Juweliere die Preise für Diamanten vergleichen?",
+        "answer": "Juweliere sollten Diamanten mit ähnlichem Karat, Farbe, Reinheit, Zertifizierung und Qualität vergleichen und dann den Preis pro Karat, die aufgedruckten Maße, die visuelle Leistung und die Gesamteinstandskosten überprüfen."
+      },
+      {
+        "question": "Gelten für Diamanten in Fancy-Farben die gleichen Form-Preis-Regeln?",
+        "answer": "Nicht unbedingt. Bei Diamanten mit Fancy-Farben können Seltenheit, Stärke und Verteilung der Farbe den Wert stärker beeinflussen als die übliche Formhierarchie bei farblosen Diamanten."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Vergleichen Sie den kompletten Diamanten – nicht nur seine Form",
+    "introParagraphs": [
+      "Runde Brillanten erzielen in der Regel den höchsten Preis pro Karat unter den gängigen farblosen Formen, aber die beste kommerzielle Wahl hängt vom Aussehen, der Nachfrage, den Fassungsanforderungen und den Gesamteinstandskosten ab.",
+      "Nutzen Sie gleichberechtigte Vergleiche, überprüfen Sie ausgefallene Formen visuell und wählen Sie den Stein aus, der zu Ihrem Kunden- und Lagerplan passt."
+    ],
+    "primaryButtonText": "Kontaktieren Sie Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Diamant-Wissensleitfaden",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Unsere Artikel",
+    "findUsTitle": "Finden Sie uns",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "Belgien"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Durchsuchen Sie unser Inventar",
+    "inventoryDescription": "Entdecken Sie unsere exquisite Sammlung erstklassiger Diamanten",
+    "inventoryButtonText": "Inventar anzeigen",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Zurück zu Artikeln",
+    "blogsHref": "/blogs"
+  }
+}

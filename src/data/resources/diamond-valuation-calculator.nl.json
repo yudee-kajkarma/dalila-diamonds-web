@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "title": "Diamantwaarderingscalculator: wat is mijn diamant waard?",
+    "description": "Gebruik onze diamantwaarderingscalculator om erachter te komen wat uw natuurlijke diamant waard kan zijn. Dien het rapport en de foto's in voor een particuliere deskundige taxatie.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-valuation-calculator",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaFairMarket": "https://www.gia.edu/gia-news-research-selling-jewelry",
+    "giaBuyersGuide": "https://www.gia.edu/gia-news-research-buying-diamonds",
+    "giaTreatments": "https://www.gia.edu/gia-news-research-diamond-treatment"
+  },
+  "banner": {
+    "title": "Diamantwaarderingscalculator",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Diamantwaarderingscalculator",
+    "imageAlt": "Resourcebanner voor diamantwaarderingscalculator"
+  },
+  "hero": {
+    "title": "Diamantwaarderingscalculator: wat is mijn diamant waard?",
+    "paragraphs": [
+      "Als u een natuurlijke diamant, een diamanten ring of een ander diamanten juweel bezit, vraagt ​​u zich misschien af ​​wat deze vandaag de dag waard is. De Dalila diamantwaarderingscalculator helpt u dat proces te starten door de kenmerken te verzamelen die de potentiële verkoopwaarde van een diamant beïnvloeden.",
+      "Voer de informatie in die op uw beoordelingsrapport staat en upload duidelijke foto's van de diamant of het sieraad. Indien u niet over een certificaat beschikt, kunt u toch de gegevens doorgeven die u wel kent. Dalila Diamonds kan de informatie bekijken en uitleggen of een fysieke evaluatie in Antwerpen nodig is.",
+      "Een online diamanttaxatie is eerder een initiële beoordeling dan een gegarandeerd aankoopaanbod. Voor een definitief bod kan verificatie van de diamant, het beoordelingsrapport, de staat, het eigendom en de huidige marktvraag nodig zijn."
+    ],
+    "primaryButtonText": "BEGIN MIJN DIAMANT TAXATIE",
+    "primaryButtonHref": "#valuation-calculator",
+    "image": {
+      "src": "/images/resources/diamond-valuation-calculator.webp",
+      "alt": "Natuurlijke diamant en beoordelingsrapport naast een online diamantwaarderingscalculator",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "valueFactors": {
+      "src": "/images/resources/natural-diamond-value-factors.webp",
+      "alt": "Factoren die worden gebruikt om de waarde van een natuurlijke diamant te berekenen",
+      "width": 1400,
+      "height": 1000
+    },
+    "retailVsResale": {
+      "src": "/images/resources/diamond-retail-vs-resale-value.webp",
+      "alt": "Vergelijking van de verkoopprijs van diamanten, verzekeringstaxatie en wederverkoopwaarde",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/dalila-diamond-valuation-process.webp",
+      "alt": "Dalila Diamonds online en diamantwaarderingsproces in Antwerpen",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "valuation-calculator",
+        "label": "Start uw online diamantwaardering"
+      },
+      {
+        "id": "how-much-worth",
+        "label": "Hoeveel is mijn diamant waard?"
+      },
+      {
+        "id": "retail-vs-resale",
+        "label": "De waardering is geen winkelprijs"
+      },
+      {
+        "id": "value-factors",
+        "label": "Wat bepaalt de diamantwaarde?"
+      },
+      {
+        "id": "online-valuation",
+        "label": "Kan een diamant online gewaardeerd worden?"
+      },
+      {
+        "id": "without-certificate",
+        "label": "Waarde zonder certificaat"
+      },
+      {
+        "id": "valuation-process",
+        "label": "Hoe het Dalila-proces werkt"
+      },
+      {
+        "id": "why-antwerp",
+        "label": "Waarom taxeren in Antwerpen?"
+      },
+      {
+        "id": "prepare",
+        "label": "Wat te bereiden"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      },
+      {
+        "id": "find-out-worth",
+        "label": "Ontdek wat uw diamant waard kan zijn"
+      }
+    ]
+  },
+  "form": {
+    "id": "valuation-calculator",
+    "leadSource": "diamond_valuation_calculator",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP en PDF",
+    "stickyButtonText": "Waardeer mijn diamant",
+    "progressLabel": "Stap {stap} van {totaal}",
+    "savedDraftNotice": "Je voortgang is in deze browser opgeslagen.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Wat zou je willen waarderen?",
+        "subtitle": "Selecteer de optie die uw artikel het beste beschrijft."
+      },
+      {
+        "number": 2,
+        "title": "Heeft u een diamantbeoordelingsrapport?",
+        "subtitle": "Een rapport van GIA, HRD Antwerpen, IGI of een ander gemmologisch laboratorium kan belangrijke informatie opleveren. U kunt nog steeds een taxatie aanvragen als het rapport verloren is gegaan of de diamant nooit is gecertificeerd."
+      },
+      {
+        "number": 3,
+        "title": "Vertel ons over de sieraden",
+        "subtitle": "Als de diamant is gemonteerd, geef dan basisinformatie over het volledige item. De zetting, het metaal, het vakmanschap, het merk en de staat moeten mogelijk los van de middelste diamant worden bekeken."
+      },
+      {
+        "number": 4,
+        "title": "Upload foto's en documenten",
+        "subtitle": "Voor de duidelijkste beoordeling uploadt u een foto van het complete item, een close-up van de diamant van bovenaf en een zijaanzicht van de zetting."
+      },
+      {
+        "number": 5,
+        "title": "Kies hoe u gecontacteerd wilt worden",
+        "subtitle": "Vertel ons hoe we u kunnen bereiken en hoe snel u overweegt te verkopen."
+      }
+    ],
+    "itemTypes": [
+      "Losse natuurlijke diamant",
+      "Natuurlijke diamanten ring",
+      "Diamanten oorbellen",
+      "Diamanten halsketting of hanger",
+      "Diamanten armband",
+      "Andere diamanten sieraden",
+      "Ik weet het niet zeker"
+    ],
+    "certificateStatuses": [
+      "GIA-rapport",
+      "HRD Antwerpen rapport",
+      "IGI-rapport",
+      "Verslag van een ander laboratorium",
+      "Ik heb een rapport, maar ken het laboratorium niet",
+      "Ik heb geen beoordelingsrapport",
+      "Ik weet het niet zeker"
+    ],
+    "reportFieldsHelp": "Normaal gesproken vindt u deze details op uw diamantbeoordelingsrapport. Als u het niet zeker weet, upload dan een duidelijke foto van het volledige rapport, zodat ons team de informatie kan bekijken.",
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Princess",
+      "Marquise",
+      "Asscher",
+      "Heart",
+      "Other"
+    ],
+    "origins": [
+      "Natuurlijk",
+      "Laboratorium gekweekt",
+      "Ik weet het niet zeker"
+    ],
+    "fluorescenceOptions": [
+      "None",
+      "Flauwvallen",
+      "Medium",
+      "Sterk",
+      "Zeer sterk",
+      "Niet vermeld / onbekend"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefoon",
+      "Ofwel e-mail of telefoon"
+    ],
+    "evaluationPreferences": [
+      "Alleen online beoordeling",
+      "Privé afspraak in Antwerpen",
+      "Nog niet zeker"
+    ],
+    "sellingTimelines": [
+      "Zo snel mogelijk",
+      "Binnen de volgende maand",
+      "Ik vergelijk mijn opties",
+      "Ik wil alleen de waarde begrijpen",
+      "Ik weet het niet zeker"
+    ],
+    "uploadHints": [
+      "Het volledige beoordelingsrapport",
+      "De originele aankoopbon",
+      "Een eerdere taxatie",
+      "Foto's van kenmerken of branding",
+      "Eventuele beschikbare herkomstdocumenten"
+    ],
+    "consentText": "Ik ga ermee akkoord dat Dalila Diamonds contact met mij opneemt over dit taxatieverzoek. Ik begrijp dat een online beoordeling voorlopig is en dat een definitieve aanbieding mogelijk fysieke inspectie en verificatie vereist.",
+    "privacyLinkText": "privacybeleid",
+    "privacyHref": "/contact",
+    "submitButton": "Vraag mijn privéwaardering aan",
+    "submittingButton": "Verzenden…",
+    "nextButton": "Doorgaan",
+    "backButton": "Rug",
+    "successMessage": "Bedankt. Uw diamantinformatie is ter beoordeling ingediend. Een lid van het Dalila Diamonds-team zal contact met u opnemen via de door u gewenste contactmethode.",
+    "errorMessage": "We konden uw verzoek niet indienen. Controleer de verplichte velden en probeer het opnieuw.",
+    "validation": {
+      "itemTypeRequired": "Selecteer wat u wilt waarderen.",
+      "certificateRequired": "Selecteer uw certificaatstatus.",
+      "imageRequired": "Upload minimaal één foto of document.",
+      "nameRequired": "Voer uw volledige naam in.",
+      "contactRequired": "Geef een e-mailadres of telefoonnummer op.",
+      "countryRequired": "Voer uw land in.",
+      "consentRequired": "Bevestig de toestemmingsverklaring voordat u deze verzendt."
+    },
+    "resultMessages": {
+      "ready": {
+        "heading": "Uw diamant is klaar voor beoordeling door een specialist",
+        "message": "De door u verstrekte informatie geeft ons een nuttig uitgangspunt. Een specialist zal de sorteringsdetails, foto's en de huidige vraag naar vergelijkbare natuurlijke diamanten beoordelen. Elke online indicatie is voorlopig en vormt geen bindend aankoopaanbod. Fysieke inspectie en rapportverificatie kunnen vereist zijn voordat een definitief bod kan worden bevestigd.",
+        "button": "Dien mijn diamant in ter beoordeling"
+      },
+      "missing": {
+        "heading": "We hebben wat meer informatie nodig",
+        "message": "Op basis van de huidige beschikbare informatie kan geen verantwoorde waardebepaling worden berekend. U kunt nog steeds foto's en eventuele documenten indienen. Dalila Diamonds legt u uit welke gegevens of controles vervolgens nodig zijn.",
+        "button": "Vraag een specialistisch onderzoek aan"
+      },
+      "noCertificate": {
+        "heading": "U kunt nog steeds een taxatie aanvragen",
+        "message": "Een ontbrekend beoordelingsrapport verhindert niet automatisch dat uw diamant wordt gewaardeerd. Upload duidelijke foto's en eventuele beschikbare ontvangstbewijzen, taxaties of ondersteunende informatie om te beginnen.",
+        "button": "Waardeer mijn diamant zonder certificaat"
+      }
+    },
+    "labels": {
+      "gradingLaboratory": "Beoordeling laboratorium",
+      "reportNumber": "Rapportnummer",
+      "reportDate": "Rapportdatum, indien bekend",
+      "origin": "Natuurlijk of laboratorium gekweekt",
+      "shape": "Diamond shape",
+      "caratWeight": "Karaat gewicht",
+      "colourGrade": "Kleur kwaliteit",
+      "clarityGrade": "Duidelijkheidsgraad",
+      "cutGrade": "Snijd kwaliteit",
+      "polish": "Pools",
+      "symmetry": "Symmetrie",
+      "fluorescence": "Fluorescentie",
+      "jewelleryType": "Soort sieraden",
+      "metal": "Metaal, indien bekend",
+      "diamondCount": "Aantal diamanten",
+      "approximateAge": "Geschatte leeftijd",
+      "brand": "Merk of ontwerper, indien van toepassing",
+      "boxReceipt": "Originele doos of bon aanwezig",
+      "altered": "Is het artikel gerepareerd, vergroot of verkleind?",
+      "jewelleryNotes": "Aanvullende informatie",
+      "uploadLabel": "Upload foto's en documenten",
+      "dragDrop": "Sleep hier bestanden en zet ze neer, of kies bestanden",
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "country": "Land",
+      "postcode": "Postcode",
+      "contactMethod": "Voorkeur contactmethode",
+      "evaluationPreference": "Online review of privé afspraak in Antwerpen",
+      "sellingTimeline": "Op welke termijn overweegt u te verkopen?",
+      "optional": "Optioneel"
+    }
+  },
+  "formIntro": {
+    "id": "start-valuation",
+    "title": "Start uw online diamanttaxatie",
+    "paragraphs": [
+      "Vertel ons zoveel u weet over uw diamant. Nauwkeurige rapportinformatie en duidelijke foto's kunnen ons helpen een nuttiger eerste beoordeling te geven."
+    ]
+  },
+  "howMuchWorth": {
+    "id": "how-much-worth",
+    "title": "Hoeveel is mijn diamant waard?",
+    "paragraphs": [
+      "Er is geen enkele prijs voor een diamant die alleen gebaseerd is op zijn grootte. Een natuurlijke diamant van één karaat kan bijvoorbeeld een heel andere waarde hebben dan een andere diamant van één karaat vanwege verschillen in vorm, kleur, helderheid, slijpkwaliteit, fluorescentie, certificering en algehele staat.",
+      "De eerste vraag is of de diamant natuurlijk is of in een laboratorium is gekweekt. Deze diamanten moeten afzonderlijk worden gewaardeerd omdat ze verschillende aanbodvoorwaarden en wederverkoopmarkten hebben. Een beoordelingsrapport, indien beschikbaar, moet de oorsprong van de diamant vermelden.",
+      "Nadat de herkomst is vastgesteld, houdt de beoordelaar rekening met de kwaliteit van de diamant en de huidige vraag naar vergelijkbare stenen. Ook de staat van de steen, beschikbare documentatie en of deze los zit of in sieraden zit, kan van invloed zijn op de beoordeling.",
+      "Een online diamantwaarderingscalculator kan daarom een ​​nuttig uitgangspunt bieden, maar een betrouwbare verkoopprijs vereist normaal gesproken meer dan een eenvoudige karaat-en-graadberekening."
+    ],
+    "factorsIntro": "De belangrijkste informatie die wordt gebruikt bij een initiële diamanttaxatie omvat:",
+    "factors": [
+      "Natuurlijke of laboratoriumgekweekte oorsprong",
+      "Vorm en karaatgewicht",
+      "Kleur- en helderheidsgraden",
+      "Slijpen, polijsten en symmetrie",
+      "Fluorescentie",
+      "Beoordeling laboratorium",
+      "Eventuele behandelingen",
+      "Huidige toestand",
+      "Huidige vraag van kopers"
+    ],
+    "closing": "Als een deel van deze informatie niet beschikbaar is, dient u de gegevens en foto's in waarover u beschikt. Dalila kan uitleggen welke aanvullende verificatie nodig kan zijn.",
+    "ctaText": "ONTDEK WAT MIJN DIAMANT DE WAARD KAN ZIJN",
+    "ctaHref": "#valuation-calculator"
+  },
+  "retailVsResale": {
+    "id": "retail-vs-resale",
+    "title": "De waardering van diamanten is niet hetzelfde als de oorspronkelijke verkoopprijs",
+    "paragraphs": [
+      "Veel verkopers verwachten dat de huidige waarde van hun diamant dicht bij het oorspronkelijk betaalde bedrag zal liggen. De oorspronkelijke verkoopprijs en het bedrag dat een professionele koper kan bieden, dienen echter verschillende doeleinden.",
+      "De verkoopprijs kan de bedrijfskosten, het ontwerpwerk, de setting, de branding, belastingen, klantenservice en winstmarge van de juwelier omvatten. Een verzekeringstaxatie kan hoger zijn omdat hierin wordt geschat wat het zou kunnen kosten om het artikel via een detailhandelaar te vervangen. Geen van beide cijfers vertegenwoordigt automatisch waarvoor de diamant vandaag kan worden verkocht."
+    ],
+    "table": {
+      "caption": "Soorten diamantwaarde vergeleken",
+      "headers": [
+        "Type waarde",
+        "Wat het vertegenwoordigt"
+      ],
+      "rows": [
+        [
+          "Originele verkoopprijs",
+          "Het bedrag dat is betaald bij de oorspronkelijke aankoop van het sieraad"
+        ],
+        [
+          "Taxatie van verzekeringen",
+          "Een geschatte vervangingswaarde die wordt gebruikt voor verzekeringsdoeleinden"
+        ],
+        [
+          "Eerlijke marktwaarde",
+          "Een mening over waar een bereidwillige koper en verkoper het over eens kunnen zijn"
+        ],
+        [
+          "Verkoopwaarde",
+          "Het bedrag dat de diamant kan opleveren op de secundaire markt"
+        ],
+        [
+          "Aankoop aanbieding",
+          "Het bedrag dat een bepaalde koper na evaluatie bereid is te betalen"
+        ]
+      ]
+    },
+    "giaNote": "GIA verklaart de reële marktwaarde als de mening van een taxateur over wat een bereidwillige koper een bereidwillige verkoper zou betalen. Dit is iets anders dan simpelweg de oorspronkelijke verkoopprijs van de diamant herhalen.",
+    "giaLinkText": "Zie de richtlijnen van GIA over het verkopen van sieraden",
+    "closing": "Een huidig ​​aankoopaanbod wordt beïnvloed door de fysieke diamant, de documentatie ervan, de staat ervan en de huidige vraag. Om die reden mag een eerdere taxatie niet worden behandeld als een gegarandeerde verkoopprijs."
+  },
+  "valueFactors": {
+    "id": "value-factors",
+    "title": "Wat bepaalt de waarde van een natuurlijke diamant?",
+    "subsections": [
+      {
+        "id": "carat-weight",
+        "title": "Karaat gewicht",
+        "paragraphs": [
+          "Karaat meet het gewicht van een diamant in plaats van de zichtbare breedte. Eén karaat is gelijk aan 0,20 gram, maar de waarde van een diamant stijgt niet met een vast tarief voor elke extra fractie van een karaat.",
+          "Diamanten die erkende drempels bereiken, zoals 1,00, 1,50 of 2,00 karaat, kunnen een andere prijs per karaat aantrekken dan stenen die net onder dat gewicht liggen. GIA merkt op dat de prijzen per karaat gewoonlijk stijgen wanneer een diamant belangrijke gewichtsdrempels overschrijdt.",
+          "Toch is een grotere diamant niet automatisch waardevoller dan een kleinere steen met een aanzienlijk betere kleur, helderheid en slijpvorm. Het karaatgewicht moet altijd worden beoordeeld naast de andere kenmerken van de diamant."
+        ],
+        "linkText": "Zie de GIA Natural Diamond Buyer’s Guide",
+        "linkHref": "https://www.gia.edu/gia-news-research-buying-diamonds"
+      },
+      {
+        "id": "diamond-shape",
+        "title": "Diamantvorm",
+        "paragraphs": [
+          "De vorm van een diamant beïnvloedt het uiterlijk, de slijpopbrengst, de vraag en de beschikbaarheid van vergelijkbare stenen. Ronde briljante diamanten volgen vaak andere prijspatronen dan ovale, smaragdgroene, kussenvormige of peervormige diamanten."
+        ],
+        "shapes": [
+          "Round",
+          "Oval",
+          "Cushion",
+          "Emerald",
+          "Radiant",
+          "Pear",
+          "Princess",
+          "Marquise",
+          "Asscher",
+          "Heart"
+        ],
+        "closing": "Zelfs binnen dezelfde vorm kan de visuele aantrekkingskracht verschillen vanwege de verhoudingen, symmetrie en de kwaliteit van de uiteindelijke omtrek. Voor mooie vormen kan een beoordelaar rekening houden met kenmerken zoals lengte-breedteverhouding, vlinderdaseffect, vensters en algehele visuele balans."
+      },
+      {
+        "id": "colour-grade",
+        "title": "Kleurkwaliteit",
+        "paragraphs": [
+          "Voor diamanten die zijn geclassificeerd op de D-tot-Z-kleurenschaal betekent een hogere kwaliteit doorgaans dat er minder lichaamskleur zichtbaar is. Kleine kleurverschillen kunnen de waarde beïnvloeden, vooral bij grotere diamanten of diamanten met een hogere zuiverheid.",
+          "Natuurlijke fancy colour diamanten worden anders beoordeeld. Roze, blauwe, groene en bepaalde gele diamanten kunnen worden gewaardeerd vanwege de sterkte, verspreiding en zeldzaamheid van hun kleur, in plaats van vanwege hun nabijheid tot kleurloos.",
+          "Het beoordelingsrapport moet zorgvuldig worden beoordeeld om te bepalen of de diamant op de standaard D-tot-Z-schaal valt of een natuurlijke fancy-colour-kwaliteit heeft."
+        ]
+      },
+      {
+        "id": "clarity-grade",
+        "title": "Duidelijkheidsgraad",
+        "paragraphs": [
+          "Duidelijkheid beschrijft de insluitsels en oppervlaktekenmerken die in of op een diamant voorkomen. De kwaliteit is afhankelijk van hun grootte, aantal, type, positie en zichtbaarheid onder vergroting.",
+          "De erkende helderheidsschaal varieert van Flawless en Internally Flawless via VVS-, VS- en SI-graden tot Inbegrepen kwaliteiten. Twee diamanten met dezelfde zuiverheidsgraad zijn echter mogelijk niet even wenselijk.",
+          "Een insluitsel nabij het midden van de diamant kan bijvoorbeeld het uiterlijk anders beïnvloeden dan een insluitsel dat zich dicht bij de rand bevindt. De aard en locatie van de insluitsels kunnen daarom van belang zijn naast het cijfer dat op het rapport wordt afgedrukt."
+        ]
+      },
+      {
+        "id": "cut-quality",
+        "title": "Snijkwaliteit",
+        "paragraphs": [
+          "De slijpkwaliteit beïnvloedt hoe effectief een diamant met licht omgaat. In een goed geslepen diamant werken proporties, symmetrie en glans samen om helderheid, vuur en schittering te ondersteunen.",
+          "Rond-briljante beoordelingsrapporten kunnen een algemeen snijcijfer bevatten. Fancy-vormige diamanten zijn complexer omdat ze mogelijk niet dezelfde volledige slijpkwaliteit krijgen. Hun waardering kan een nader onderzoek van proporties, omtrek, symmetrie en visuele prestaties vereisen.",
+          "Twee diamanten met een vergelijkbare kleur, helderheid en karaatgewicht kunnen nog steeds verschillende waarden hebben als de ene een merkbaar sterkere slijpkwaliteit en visuele aantrekkingskracht heeft."
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "Fluorescentie",
+        "paragraphs": [
+          "Fluorescentie beschrijft de reactie van een diamant wanneer deze wordt blootgesteld aan ultraviolet licht. Het wordt gewoonlijk gerapporteerd als geen, zwak, gemiddeld, sterk of zeer sterk.",
+          "Fluorescentie is niet automatisch goed of slecht. De invloed ervan hangt af van de kleur, de fluorescentiesterkte, het uiterlijk en de huidige marktvoorkeuren van de diamant. Bij sommige diamanten heeft fluorescentie weinig praktisch effect. In andere gevallen, vooral wanneer een steen er wazig of olieachtig uitziet, kan dit de wenselijkheid beïnvloeden.",
+          "Het moet daarom worden beschouwd in relatie tot de volledige diamant en niet worden gebruikt als een geïsoleerde waarderingsregel."
+        ]
+      },
+      {
+        "id": "certification",
+        "title": "Certificering en rapportverificatie",
+        "paragraphs": [
+          "Een erkend gradatierapport geeft een onafhankelijke beschrijving van de diamant. Het kan karaatgewicht, afmetingen, kleur, helderheid, snitinformatie, fluorescentie en identificerende kenmerken omvatten.",
+          "Het rapportnummer moet worden gecontroleerd via het verificatiesysteem van het relevante laboratorium. De fysieke diamant moet ook worden gematcht met het rapport voordat een definitieve taxatie wordt bevestigd.",
+          "Een geldig beoordelingsrapport beschrijft een diamant, maar stelt geen gegarandeerde verkoop- of wederverkoopprijs vast. Als het rapport oud is, moet de steen mogelijk ook worden gecontroleerd op schade of wijzigingen die zijn opgetreden na het sorteren."
+        ],
+        "linkText": "beoordelingsrapport verificatiegids",
+        "linkHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "treatments-condition",
+        "title": "Behandelingen en conditie",
+        "paragraphs": [
+          "Sommige diamanten ondergaan behandelingen die bedoeld zijn om hun schijnbare kleur of helderheid te veranderen. Behandelingen kunnen de duurzaamheid, de vraag van de koper en de waarde beïnvloeden. Daarom moet elke bekende behandeling tijdens het taxatieproces openbaar worden gemaakt.",
+          "GIA stelt dat bekende behandelingen worden vastgelegd in haar beoordelingsrapporten en dat geavanceerde tests nodig kunnen zijn om bepaalde behandelingen te identificeren.",
+          "De staat van de diamant is minstens zo belangrijk. Chips, schaafwonden, gaatjes of beschadigingen rond de gordel kunnen de waarde ervan beïnvloeden. Wanneer een diamant in sieraden wordt gemonteerd, kan de zetting een deel van de steen verbergen, waardoor een exacte beoordeling moeilijker wordt.",
+          "Een lichamelijk onderzoek helpt bepalen of de huidige staat van het artikel overeenkomt met de online verstrekte informatie."
+        ],
+        "linkText": "Zie GIA’s uitleg over diamantbehandelingen",
+        "linkHref": "https://www.gia.edu/gia-news-research-diamond-treatment"
+      },
+      {
+        "id": "market-demand",
+        "title": "Huidige marktvraag",
+        "paragraphs": [
+          "De waarde van diamanten wordt ook beïnvloed door de vraag naar vergelijkbare stenen. Bepaalde vormen, maten, kleur- en helderheidscombinaties en beoordelingsrapporten zijn mogelijk gemakkelijker door te verkopen dan andere.",
+          "Marktomstandigheden kunnen veranderen. Een taxatie die enkele jaren geleden is opgesteld, vertegenwoordigt mogelijk niet langer het huidige verkoopklimaat. Bij een bruikbare taxatie moet daarom rekening worden gehouden met de huidige vraag, in plaats van alleen te vertrouwen op een oud document of de oorspronkelijke aankoopprijs."
+        ]
+      }
+    ]
+  },
+  "onlineValuation": {
+    "id": "online-valuation",
+    "title": "Kan een diamant nauwkeurig online worden gewaardeerd?",
+    "paragraphs": [
+      "Een online diamanttaxatie kan nuttig zijn als de verkoper over een gedetailleerd beoordelingsrapport beschikt en nauwkeurige informatie verstrekt. Hiermee kan een specialist een eerste beoordeling uitvoeren voordat hij de verkoper vraagt ​​om te reizen of het artikel ter onderzoek op te sturen.",
+      "De sterkste online inzendingen omvatten het volledige beoordelingsrapport, een verifieerbaar rapportnummer, nauwkeurige karaat-, kleur- en helderheidsinformatie, duidelijke foto's en details over eventuele schade of wijzigingen.",
+      "Foto's en certificaatgegevens kunnen echter niet alles bevestigen. Een fysieke evaluatie kan nog steeds nodig zijn om:"
+    ],
+    "bullets": [
+      "Bevestig dat het item een ​​diamant bevat",
+      "Bepaal of de diamant natuurlijk is",
+      "Zorg ervoor dat de diamant overeenkomt met het beoordelingsrapport",
+      "Inspecteer op schade of behandelingen",
+      "Controleer de afmetingen en staat ervan",
+      "Onderzoek de sieradensetting",
+      "Bevestig de vereiste eigendomsinformatie"
+    ],
+    "closing": "Een online assessment moet daarom worden gezien als de eerste fase van het proces. Het kan helpen bepalen of de diamant geschikt is voor verdere evaluatie, maar een definitief bod kan veranderen nadat het item fysiek is geïnspecteerd."
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Kan ik een diamant taxeren zonder certificaat?",
+    "paragraphs": [
+      "Ja. Het verliezen van een beoordelingsrapport verhindert niet noodzakelijkerwijs dat een diamant wordt beoordeeld.",
+      "Als u niet over een certificaat beschikt, zorg dan voor duidelijke foto's en eventuele beschikbare informatie uit de originele bon, verzekeringsdocumenten of eerdere taxatie. Details zoals het geschatte karaatgewicht, aankoopdatum, juwelier en metaalsoort kunnen helpen bij de eerste beoordeling.",
+      "Afhankelijk van de diamant kan Dalila een fysieke inspectie of een nieuw laboratoriumrapport aanbevelen voordat ze een definitief aankoopaanbod doet. Certificering kan met name nuttig zijn voor grotere diamanten van hogere kwaliteit of potentieel fancy colour diamanten.",
+      "De rekenmachine bevat daarom een ​​duidelijke optie ‘Ik heb geen beoordelingsrapport’. Het certificaatnummer mag nooit een verplicht veld zijn voor elke verkoper."
+    ],
+    "ctaText": "WAARDE MIJN DIAMANT ZONDER CERTIFICAAT",
+    "ctaHref": "#valuation-calculator"
+  },
+  "valuationProcess": {
+    "id": "valuation-process",
+    "title": "Hoe het Dalila Diamond-waarderingsproces werkt",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Dien uw diamantinformatie in",
+        "paragraphs": [
+          "Vul de diamantwaarderingscalculator in en geef de details op die u kent. Upload het beoordelingsrapport, foto's, ontvangstbewijs of eerdere taxatie, indien beschikbaar.",
+          "Je hoeft niet elk leerjaar te kennen voordat je begint. Het doel van de eerste stap is om Dalila voldoende informatie te geven om te bepalen hoe de diamant gewaardeerd moet worden."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Eerste specialistbeoordeling",
+        "paragraphs": [
+          "Dalila beoordeelt de ingediende kenmerken, foto's en documenten. Als er belangrijke informatie ontbreekt, kan het team contact met u opnemen voor aanvullende foto's of verduidelijking.",
+          "Deze beoordeling is voorlopig. Het helpt bepalen of de diamant geschikt is voor een nadere beoordeling en welke controles eventueel nog nodig zijn."
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Fysieke verificatie",
+        "paragraphs": [
+          "Als de diamant geschikt is voor verdere evaluatie, kan een privéafspraak in Antwerpen worden geregeld. Vervolgens kan de diamant worden onderzocht, aan het rapport worden gekoppeld en worden gecontroleerd op staat, behandelingen of wijzigingen.",
+          "De verkoper mag een gemonteerde diamant niet uit zijn zetting verwijderen voordat hij professionele begeleiding heeft gekregen."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Aankoopaanbieding",
+        "paragraphs": [
+          "Na de noodzakelijke verificatie kan Dalila een aankoopaanbod doen op basis van de kenmerken, documentatie, staat en huidige vraag van de diamant.",
+          "Het aanbod moet duidelijk worden onderscheiden van de oorspronkelijke verkoopprijs en een eventuele taxatie van de verzekering."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Jouw beslissing",
+        "paragraphs": [
+          "U kunt het aanbod bekijken en beslissen of u door wilt gaan. Als u het taxatieformulier indient, hoeft u uw diamant niet te verkopen of een bod te accepteren."
+        ]
+      }
+    ],
+    "ctaText": "VRAAG MIJN PRIVÉ TAXATIE AAN",
+    "ctaHref": "#valuation-calculator"
+  },
+  "whyAntwerp": {
+    "id": "why-antwerp",
+    "title": "Waarom uw diamant laten taxeren in Antwerpen?",
+    "paragraphs": [
+      "Antwerpen beschikt over een reeds lang bestaande infrastructuur voor de diamanthandel en blijft een belangrijk centrum voor de professionele beoordeling, aan- en verkoop van diamanten.",
+      "Door samen te werken met een diamantbedrijf in Antwerpen krijgen verkopers toegang tot specialisten die inzicht hebben in de beoordelingsrapporten, de kenmerken van natuurlijke diamanten en de commerciële factoren die de huidige vraag van kopers beïnvloeden.",
+      "Met Dalila Diamonds kunnen verkopers online beginnen door een rapport en foto's in te dienen. Als er nader onderzoek nodig is, kan de volgende stap worden besproken voordat een privéafspraak wordt gemaakt."
+    ],
+    "bullets": [
+      "Een privé online inzending",
+      "Beoordelingsrapport en foto-upload",
+      "Overzicht van informatie over natuurlijke diamant",
+      "Een privé Antwerpse evaluatie indien nodig",
+      "Een duidelijke uitleg van de volgende stap",
+      "Geen verplichting om een ​​aanbod te accepteren"
+    ],
+    "primaryButtonText": "VRAAG EEN PRIVÉ DIAMOND TAXATIE AAN",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "BOEK EEN AFSPRAAK IN ANTWERPEN",
+    "secondaryButtonHref": "/sud"
+  },
+  "prepare": {
+    "id": "prepare",
+    "title": "Wat moet ik voorbereiden voordat ik een taxatie aanvraag?",
+    "paragraphs": [
+      "U hoeft niet elk document te hebben voordat u begint. Niettemin kan het verzamelen van de beschikbare informatie de initiële beoordeling efficiënter maken.",
+      "Maak indien mogelijk het beoordelingsrapport, het originele aankoopbewijs, de eerdere verzekeringsbeoordeling en eventuele documenten met betrekking tot het merk of de herkomst van het sieraad klaar. Maak heldere foto's bij natuurlijk licht en vermijd het gebruik van filters die het uiterlijk van de diamant of het metaal veranderen.",
+      "Als het item meerdere diamanten bevat, fotografeer dan het volledige stuk en identificeer welke steen u wilt laten taxeren. Gebruik voor een losse diamant een schoon, veilig oppervlak en houd hem niet boven een gootsteen, open vloer of een ander gebied waar hij verloren kan gaan.",
+      "Probeer niet zelf een diamant uit zijn zetting te verwijderen. Als de steen los moet worden onderzocht, moet dit na de eerste beoordeling met een geschikte professional worden besproken."
+    ]
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Hoe nauwkeurig is een diamantwaarderingscalculator?",
+        "answer": "Een diamantwaarderingscalculator kan een nuttige voorlopige beoordeling geven als er nauwkeurige beoordelingsinformatie beschikbaar is. Een definitieve waarde kan veranderen nadat de oorsprong, het beoordelingsrapport, de toestand en de behandelingen van de diamant fysiek zijn geverifieerd."
+      },
+      {
+        "question": "Hoeveel is een diamant van één karaat waard?",
+        "answer": "Er is geen enkele waarde voor elke diamant van één karaat. De waarde ervan hangt af van het feit of het natuurlijk of in een laboratorium is gekweekt, evenals van de vorm, kleur, helderheid, snit, fluorescentie, beoordelingsrapport, staat en de huidige marktvraag."
+      },
+      {
+        "question": "Is mijn diamant waard wat ik oorspronkelijk heb betaald?",
+        "answer": "Niet noodzakelijkerwijs. De oorspronkelijke aankoopprijs kan het sieraadontwerp, de setting, de branding, de kosten van de verkoper, belastingen en diensten omvatten. Deze kosten worden mogelijk niet verhaald wanneer de diamant wordt doorverkocht."
+      },
+      {
+        "question": "Is een verzekeringstaxatie hetzelfde als de verkoopwaarde?",
+        "answer": "Nee. Normaal gesproken wordt een verzekeringstaxatie opgesteld voor vervangingsdoeleinden. Bij de wederverkoopwaarde wordt gekeken naar wat een koper onder de huidige marktomstandigheden bereid zou zijn te betalen voor de diamant."
+      },
+      {
+        "question": "Toont een GIA-, HRD- of IGI-rapport de waarde van de diamant?",
+        "answer": "Nee. Een beoordelingsrapport beschrijft de kenmerken van de diamant. Er wordt geen verkoop-, wederverkoop- of aankoopprijs vermeld of gegarandeerd."
+      },
+      {
+        "question": "Kan Dalila een diamanten ring waarderen?",
+        "answer": "Een gemonteerde diamanten ring kan worden ingediend voor een eerste beoordeling. Een lichamelijk onderzoek kan nodig zijn omdat de zetting delen van de diamant kan verbergen en de nauwkeurigheid van een beoordeling kan beïnvloeden."
+      },
+      {
+        "question": "Kan ik een diamant indienen zonder certificaat?",
+        "answer": "Ja. Stuur duidelijke foto's en eventuele beschikbare aankoop- of taxatiedocumenten mee. Er kunnen aanvullende tests of certificeringen nodig zijn voordat een definitieve aanbieding kan worden gedaan."
+      },
+      {
+        "question": "Kan ik een geërfde diamant laten taxeren?",
+        "answer": "Ja. Erfelijke losse diamanten en diamanten juwelen kunnen worden ingediend. Geef eventuele beoordelingsrapporten, kwitanties, eerdere taxaties of herkomstdocumenten die voor u beschikbaar zijn."
+      },
+      {
+        "question": "Krijg ik direct een aankoopprijs?",
+        "answer": "Niet noodzakelijkerwijs. Een specialist moet eerst de ingediende informatie beoordelen. Voor een definitieve aankoopprijs kan lichamelijk onderzoek, verificatie van het beoordelingsrapport en bevestiging van de toestand van de diamant nodig zijn."
+      },
+      {
+        "question": "Zal Dalila elke ingediende diamant kopen?",
+        "answer": "Het indienen van een taxatieverzoek garandeert niet dat Dalila een bod uitbrengt. Het bedrijf moet eerst vaststellen of het artikel aan de inkoopcriteria voldoet."
+      },
+      {
+        "question": "Moet ik verkopen nadat ik een bod heb ontvangen?",
+        "answer": "Nee. Voor het aanvragen van een evaluatie hoeft u geen aanbod te accepteren. U kunt de verstrekte informatie bekijken en beslissen of u verder wilt gaan."
+      },
+      {
+        "question": "Waar vindt de fysieke evaluatie plaats?",
+        "answer": "Wanneer een fysieke beoordeling vereist is, kunnen in aanmerking komende verkopers een privé-evaluatie regelen bij Dalila Diamonds in Antwerpen."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-out-worth",
+    "title": "Ontdek wat uw natuurlijke diamant waard kan zijn",
+    "paragraphs": [
+      "Of u nu een gecertificeerde losse diamant, een verlovingsring, een geërfd juweel of een diamant zonder origineel certificaat heeft, u kunt beginnen met een privé online inzending.",
+      "Geef de informatie op die u kent, upload uw foto's en laat Dalila Diamonds de volgende stap bekijken."
+    ],
+    "primaryButtonText": "BEGIN MIJN DIAMANT TAXATIE",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "BOEK EEN PRIVÉ-AFSPRAAK IN ANTWERPEN",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "Verkoop uw diamant in Antwerpen"
+    },
+    "sellGuide": {
+      "href": "/sell-your-diamond-safely",
+      "text": "Leer hoe u uw diamant kunt verkopen"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "GIA-, IGI- en HRD-rapportverificatiegids"
+    },
+    "qualityChart": {
+      "href": "/resources/diamond-quality-chart",
+      "text": "diamantkwaliteitsgrafiek"
+    },
+    "colourGuide": {
+      "href": "/blogs/best-diamond-colour-clarity-combination",
+      "text": "diamant kleurengids"
+    },
+    "clarityGuide": {
+      "href": "/blogs/vs1-vs-vs2-diamond-clarity",
+      "text": "gids voor diamanthelderheid"
+    },
+    "withoutCertGuide": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "Kunt u een diamant verkopen zonder certificaat?"
+    },
+    "bestPlaceSell": {
+      "href": "/sell-your-diamond-safely",
+      "text": "Waar kan ik het beste een diamanten ring verkopen?"
+    }
+  }
+}

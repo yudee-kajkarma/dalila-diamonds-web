@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: pageData.meta.description,
     url: pageData.meta.canonical,
     siteName: "Dalila Diamonds",
-    locale: "en_US",
+    locale: "en_GB",
     type: "website",
     images: [
       {

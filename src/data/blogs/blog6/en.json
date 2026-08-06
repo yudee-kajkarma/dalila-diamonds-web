@@ -1,0 +1,1121 @@
+{
+  "meta": {
+    "title": "Diamond Bow Tie Effect: When Is It a Problem? | Dalila",
+    "description": "Learn why oval, pear and marquise diamonds show a bow tie effect, how to judge its darkness and movement, and when the pattern should stop a purchase.",
+    "canonical": "https://www.daliladiamonds.com/blogs/diamond-bow-tie-effect",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Diamond bow tie effect",
+    "inLanguage": "en-GB"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/diamond-bow-tie-effect-guide.webp",
+      "alt": "Oval pear and marquise natural diamonds compared for bow-tie effect",
+      "width": 1600,
+      "height": 900
+    },
+    "howItForms": {
+      "src": "/images/blogs/what-causes-diamond-bow-tie-effect.webp",
+      "alt": "Light observer obstruction and facet arrangement causing a diamond bow-tie effect",
+      "width": 1400,
+      "height": 1000
+    },
+    "severity": {
+      "src": "/images/blogs/minimal-moderate-strong-diamond-bow-tie.webp",
+      "alt": "Minimal moderate and strong bow-tie effects compared in oval diamonds",
+      "width": 1400,
+      "height": 1000
+    },
+    "inspection": {
+      "src": "/images/blogs/diamond-bow-tie-inspection-checklist.webp",
+      "alt": "Face-up movement lighting and comparison checks for a diamond bow tie",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Diamond Bow Tie Effect",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "Diamond Bow Tie Effect",
+    "imageAlt": "Diamond bow tie effect guide banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "Diamond Bow Tie Effect: What It Is and When It Becomes a Problem",
+    "subheading": "Learn why oval, pear and marquise diamonds show a central bow-tie pattern, how to judge its darkness and movement, and when the effect should stop a purchase.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "6 August 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "A bow-tie effect is a dark pattern that appears across the centre of certain elongated diamonds. It is most commonly associated with oval, pear and marquise diamonds, although related contrast patterns can appear in some heart, radiant and elongated cushion diamonds.",
+      "The pattern receives its name because its two darker sections can resemble the shape of a bow tie.",
+      "A visible bow tie does not automatically mean that a diamond is poorly cut. Contrast is necessary for a diamond’s facet pattern to look defined and lively. A subtle bow tie may add character and disappear into a balanced pattern as the diamond moves.",
+      "The concern begins when the bow tie is excessively dark, wide, uneven or persistent. A strong bow tie can divide the diamond visually and make the centre appear lifeless even while the ends remain bright.",
+      "Because the strength of a bow tie is not adequately communicated by carat, colour, clarity, polish or symmetry grades, the actual diamond must be inspected."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "question": "A diamond bow tie is acceptable when it:",
+    "introParagraphs": [],
+    "attributes": [
+      "Appears light grey rather than black",
+      "Covers only a limited central area",
+      "Blends into the surrounding facet pattern",
+      "Brightens as the diamond moves",
+      "Does not dominate the face-up appearance",
+      "Looks balanced on both sides",
+      "Remains unobtrusive at a normal viewing distance"
+    ],
+    "closingParagraphs": [
+      "A bow tie becomes a concern when it:"
+    ],
+    "closingBullets": [
+      "Appears black or nearly black",
+      "Forms a wide band across the complete centre",
+      "Remains dark during movement",
+      "Is visible under several types of lighting",
+      "Divides the diamond into two bright ends",
+      "Appears more noticeable than the diamond’s sparkle",
+      "Creates an uneven or distracting central pattern"
+    ],
+    "finalParagraphs": [
+      "There is no official universal percentage or table-and-depth combination that can guarantee a minimal bow tie. The actual diamond must be viewed face-up, in motion and under realistic lighting."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "Bow ties occur most commonly in oval, pear and marquise brilliant-style diamonds.",
+      "The pattern is caused by the interaction between the diamond’s facet arrangement, proportions, lighting and observer obstruction.",
+      "A bow tie is not an inclusion, colour concentration or surface damage.",
+      "A slight bow tie is not automatically a defect.",
+      "Contrast can help define a diamond’s pattern and apparent brightness.",
+      "Large, dark and persistent bow ties are generally less desirable.",
+      "A bow tie that brightens during movement is usually less concerning than one that remains dark.",
+      "The observer’s distance and position can change how strong the pattern appears.",
+      "A close-up photograph can exaggerate or hide a bow tie.",
+      "High-intensity spotlights can disguise inactive areas.",
+      "Table and depth percentages cannot independently predict bow-tie severity.",
+      "Length-to-width ratio describes the outline but does not provide a bow-tie grade.",
+      "Excellent polish and symmetry do not prove that the bow tie is minimal.",
+      "Standard GIA reports do not provide a separate bow-tie severity rating.",
+      "The setting cannot repair an unattractive facet pattern.",
+      "Compare similar diamonds under the same lighting and camera conditions.",
+      "The final decision should be based on darkness, width, balance, persistence and overall appearance."
+    ]
+  },
+  "overviewNav": {
+    "title": "Article Overview",
+    "items": [
+      { "id": "what-is-the-diamond-bow-tie-effect", "label": "What is the diamond bow tie effect?" },
+      { "id": "what-causes-a-bow-tie", "label": "What causes a bow tie in a diamond?" },
+      { "id": "is-a-bow-tie-always-bad", "label": "Is a bow tie always bad?" },
+      { "id": "when-does-a-bow-tie-become-a-problem", "label": "When does a bow tie become a problem?" },
+      { "id": "practical-bow-tie-severity-guide", "label": "Practical bow-tie severity guide" },
+      { "id": "oval-diamond-bow-tie-effect", "label": "Oval diamond bow tie effect" },
+      { "id": "pear-shaped-diamond-bow-tie-effect", "label": "Pear-shaped diamond bow tie effect" },
+      { "id": "marquise-diamond-bow-tie-effect", "label": "Marquise diamond bow tie effect" },
+      { "id": "can-other-shapes-have-bow-ties", "label": "Can other diamond shapes have bow ties?" },
+      { "id": "bow-tie-versus-normal-contrast", "label": "Bow tie versus normal contrast" },
+      { "id": "bow-tie-versus-windowing", "label": "Bow tie versus windowing" },
+      { "id": "does-gia-report-show-bow-tie", "label": "Does a GIA report show the bow-tie effect?" },
+      { "id": "can-table-and-depth-predict-bow-tie", "label": "Can table and depth predict the bow tie?" },
+      { "id": "does-ratio-cause-a-bow-tie", "label": "Does length-to-width ratio cause a bow tie?" },
+      { "id": "do-polish-and-symmetry-prevent-bow-tie", "label": "Do excellent polish and symmetry prevent a bow tie?" },
+      { "id": "can-a-setting-hide-a-bow-tie", "label": "Can a setting hide or repair a bow tie?" },
+      { "id": "can-a-photograph-show-a-bow-tie", "label": "Can a photograph accurately show a bow tie?" },
+      { "id": "how-to-evaluate-a-bow-tie-online", "label": "How to evaluate a bow tie online" },
+      { "id": "five-step-bow-tie-inspection", "label": "Five-step bow-tie inspection" },
+      { "id": "buyer-comparison-table", "label": "Buyer comparison table" },
+      { "id": "warning-signs", "label": "Warning signs" },
+      { "id": "common-buying-mistakes", "label": "Common buying mistakes" },
+      { "id": "complete-bow-tie-checklist", "label": "Complete bow-tie checklist" },
+      { "id": "an-antwerp-sourcing-perspective", "label": "An Antwerp sourcing perspective" },
+      { "id": "final-answer", "label": "Final answer: should you buy a diamond with a bow tie?" }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-the-diamond-bow-tie-effect",
+    "title": "What Is the Diamond Bow Tie Effect?",
+    "introParagraphs": [
+      "A bow tie is a central area of dark contrast that normally extends across the width of an elongated diamond.",
+      "GIA’s current technical definition describes the bow-tie effect as a darkened region in the centre of elongated shapes such as oval, pear and marquise diamonds. It occurs when light obscured by the observer is directed into the central viewing area by the diamond’s facet arrangement.",
+      "In simpler terms, a diamond’s facets act like small mirrors. They collect and return light from different directions. When the observer’s head and shoulders block part of that light, certain facets can reflect the darker obstruction back towards the observer.",
+      "The result is a bow-shaped pattern across the centre.",
+      "The pattern can appear:"
+    ],
+    "bullets": [
+      "Light grey",
+      "Medium grey",
+      "Dark grey",
+      "Nearly black",
+      "Thin and separated",
+      "Wide and continuous",
+      "Symmetrical",
+      "Uneven",
+      "Temporary during movement",
+      "Persistent from several angles"
+    ],
+    "closingParagraphs": [
+      "The word “bow tie” describes an appearance. It is not an official clarity characteristic or colour grade."
+    ]
+  },
+  "whatCauses": {
+    "id": "what-causes-a-bow-tie",
+    "title": "What Causes a Bow Tie in a Diamond?",
+    "introParagraphs": [
+      "The bow-tie effect comes from several interacting factors."
+    ],
+    "subsections": [
+      {
+        "id": "elongated-shape",
+        "title": "Elongated Shape",
+        "paragraphsBefore": [
+          "Oval, pear and marquise diamonds distribute their brilliant-style facets across an elongated outline. This geometry creates different reflection patterns from those seen in a standard round brilliant.",
+          "GIA’s research into oval, pear and marquise diamond appearance found that elongation tends to produce bow ties across many proportion combinations and facet arrangements."
+        ]
+      },
+      {
+        "id": "facet-arrangement",
+        "title": "Facet Arrangement",
+        "paragraphsBefore": [
+          "A diamond’s pavilion and crown facets determine how light travels through the stone and returns to the viewer.",
+          "Certain arrangements direct more observer-obscured light into the centre, producing a stronger dark pattern. Other arrangements distribute contrast more evenly across the diamond."
+        ]
+      },
+      {
+        "id": "pavilion-proportions",
+        "title": "Pavilion Proportions",
+        "paragraphsBefore": [
+          "Diamonds with unsuitable pavilion angles or depth relationships may show a more distracting bow tie.",
+          "A number printed on a report cannot independently predict the result because many facet angles and relationships influence the face-up pattern."
+        ]
+      },
+      {
+        "id": "observer-obstruction",
+        "title": "Observer Obstruction",
+        "paragraphsBefore": [
+          "The viewer’s head, shoulders, camera and surrounding dark objects can block light.",
+          "This explains why a bow tie may appear stronger when:"
+        ],
+        "bullets": [
+          "The diamond is held close to the face",
+          "A camera lens is positioned very near the stone",
+          "The observer wears dark clothing",
+          "The surrounding environment contains large dark areas",
+          "Light reaches the diamond from limited directions"
+        ]
+      },
+      {
+        "id": "lighting-diffused",
+        "title": "Lighting: Diffused Light",
+        "paragraphsBefore": [
+          "Different lighting environments emphasise different aspects of the diamond.",
+          "Diffused lighting can reveal:"
+        ],
+        "bullets": [
+          "Broad contrast patterns",
+          "Grey or inactive areas",
+          "Windowing",
+          "Edge-to-edge brightness",
+          "Persistent darkness"
+        ]
+      },
+      {
+        "id": "lighting-spotlighting",
+        "title": "Lighting: Spotlighting",
+        "paragraphsBefore": [
+          "Spotlighting can emphasise:"
+        ],
+        "bullets": [
+          "Fire",
+          "Small flashes",
+          "Sparkle",
+          "Scintillation"
+        ],
+        "paragraphsAfter": [
+          "A diamond should therefore be viewed under more than one type of light."
+        ]
+      }
+    ]
+  },
+  "isAlwaysBad": {
+    "id": "is-a-bow-tie-always-bad",
+    "title": "Is a Bow Tie Always Bad?",
+    "introParagraphs": [
+      "No. A bow tie is not automatically bad.",
+      "Dark and bright facets work together to create contrast. Without contrast, a diamond can appear flat, washed out or visually undefined.",
+      "A mild bow tie may:"
+    ],
+    "bullets": [
+      "Add pattern definition",
+      "Create visual depth",
+      "Contribute to scintillation",
+      "Brighten and darken attractively during movement",
+      "Blend with the diamond’s complete facet pattern"
+    ],
+    "closingParagraphs": [
+      "GIA’s marquise guidance explains that a slight bow tie can be visually appealing, while an excessively dark or wide pattern can become distracting.",
+      "The correct objective is therefore not necessarily to find a diamond with absolutely no dark contrast.",
+      "The objective is to avoid a bow tie that dominates the stone."
+    ]
+  },
+  "whenProblem": {
+    "id": "when-does-a-bow-tie-become-a-problem",
+    "title": "When Does a Bow Tie Become a Problem?",
+    "introParagraphs": [
+      "A bow tie becomes problematic when its negative effect is stronger than its contribution to contrast."
+    ],
+    "subsections": [
+      {
+        "id": "excessive-darkness",
+        "title": "Excessive Darkness",
+        "paragraphsBefore": [
+          "A light or medium-grey pattern may integrate naturally with the rest of the diamond.",
+          "A nearly black central band can make the stone appear divided and may immediately attract attention away from its brightness."
+        ]
+      },
+      {
+        "id": "excessive-width",
+        "title": "Excessive Width",
+        "paragraphsBefore": [
+          "A thin central pattern may be acceptable. A wide pattern that covers much of the diamond’s centre can reduce its lively face-up appearance."
+        ]
+      },
+      {
+        "id": "persistence",
+        "title": "Persistence",
+        "paragraphsBefore": [
+          "Some bow ties brighten when the diamond moves. Others remain dark through several viewing angles.",
+          "GIA’s research distinguishes between bow ties that change during movement and those that remain persistent. Large, dark and persistent bow ties are generally considered a negative appearance factor."
+        ]
+      },
+      {
+        "id": "unevenness",
+        "title": "Unevenness",
+        "paragraphsBefore": [
+          "A bow tie should be assessed for balance.",
+          "One side should not appear:"
+        ],
+        "bullets": [
+          "Much darker",
+          "Larger",
+          "Wider",
+          "More fragmented",
+          "More persistent"
+        ],
+        "paragraphsAfter": [
+          "An uneven bow tie can make the complete facet pattern appear unbalanced."
+        ]
+      },
+      {
+        "id": "separation-of-the-diamond",
+        "title": "Separation of the Diamond",
+        "paragraphsBefore": [
+          "A severe bow tie can visually divide the diamond into two bright ends with a dead central band.",
+          "This is particularly noticeable when the centre remains dark while the tips or rounded ends flash brightly."
+        ]
+      }
+    ]
+  },
+  "severityGuide": {
+    "id": "practical-bow-tie-severity-guide",
+    "title": "Practical Bow-Tie Severity Guide",
+    "introParagraphs": [
+      "The following descriptions are practical inspection terms. They are not official GIA grades."
+    ],
+    "table": {
+      "caption": "Practical bow-tie severity descriptions for inspection",
+      "headers": ["Appearance", "Practical interpretation", "Buying action"],
+      "rows": [
+        ["Very slight", "Thin, light contrast that quickly brightens", "Normally acceptable if the complete diamond performs well"],
+        ["Slight", "Visible but balanced and integrated into the pattern", "Compare with similar diamonds"],
+        ["Moderate", "Clearly visible and sometimes persistent", "Inspect under multiple lights and viewing distances"],
+        ["Strong", "Wide, dark or dominant across the centre", "Usually choose a better-performing candidate"],
+        ["Very strong", "Nearly black, broad and persistent", "Reject unless intentionally chosen and heavily reflected in the price"]
+      ]
+    },
+    "closingParagraphs": [
+      "Do not publish these descriptions as a laboratory grading scale."
+    ]
+  },
+  "ovalBowTie": {
+    "id": "oval-diamond-bow-tie-effect",
+    "title": "Oval Diamond Bow Tie Effect",
+    "introParagraphs": [
+      "The oval diamond bow tie is generally visible across the stone’s middle, between its two rounded ends.",
+      "An attractive oval should show:"
+    ],
+    "bullets": [
+      "A graceful and balanced outline",
+      "Brightness across both ends",
+      "An active central pattern",
+      "A bow tie that does not remain black",
+      "Balanced movement from left to right",
+      "No large dull areas beside the bow tie"
+    ],
+    "closingParagraphs": [
+      "GIA’s oval-cut diamond guide explains that observer obstruction creates the central contrast pattern and that the effect can become more noticeable when the face is closer to the diamond."
+    ],
+    "subsections": [
+      {
+        "id": "oval-warning-signs",
+        "title": "Oval Warning Signs",
+        "paragraphsBefore": [
+          "Pause when:"
+        ],
+        "bullets": [
+          "The centre appears like a solid black band",
+          "The bow tie remains unchanged while the stone moves",
+          "One side is darker than the other",
+          "The ends sparkle but the centre remains inactive",
+          "The seller provides only a single face-up photograph",
+          "The video uses intense spotlighting without diffused light"
+        ],
+        "paragraphsAfter": [
+          "A more elongated oval may show a prominent bow tie, but ratio alone cannot predict severity. Two ovals with the same length-to-width ratio can display very different patterns."
+        ]
+      }
+    ]
+  },
+  "pearBowTie": {
+    "id": "pear-shaped-diamond-bow-tie-effect",
+    "title": "Pear-Shaped Diamond Bow Tie Effect",
+    "introParagraphs": [
+      "The bow tie in a pear-shaped diamond normally crosses the belly between the rounded head and pointed end.",
+      "A well-performing pear should show:"
+    ],
+    "bullets": [
+      "A balanced transition from head to point",
+      "A centred table",
+      "Symmetrical wings and shoulders",
+      "Brightness through the belly",
+      "A bow tie that blends with movement",
+      "No large dark centre separating the head from the point"
+    ],
+    "closingParagraphs": [
+      "GIA’s pear-shaped diamond buying guidance notes that bow ties can range from light grey to black. The darker or larger the bow tie, the more it may detract from the face-up appearance."
+    ],
+    "subsections": [
+      {
+        "id": "pear-warning-signs",
+        "title": "Pear Warning Signs",
+        "paragraphsBefore": [
+          "Look carefully when:"
+        ],
+        "bullets": [
+          "The rounded head is bright but the belly is dark",
+          "The bow tie stretches deeply into both wings",
+          "The pattern is visibly off-centre",
+          "One wing becomes dark while the other remains bright",
+          "A strong bow tie is combined with a crooked outline",
+          "The pointed area also appears dull or grey"
+        ],
+        "paragraphsAfter": [
+          "The bow tie should be evaluated separately from durability. The pear’s point must also be checked for inclusions and protected by an appropriate setting."
+        ]
+      }
+    ]
+  },
+  "marquiseBowTie": {
+    "id": "marquise-diamond-bow-tie-effect",
+    "title": "Marquise Diamond Bow Tie Effect",
+    "introParagraphs": [
+      "Marquise diamonds commonly show a central bow tie between their two pointed ends.",
+      "Because the shape is strongly elongated, the bow tie can become an important part of its face-up appearance.",
+      "An attractive marquise should show:"
+    ],
+    "bullets": [
+      "Balanced wings",
+      "Two defined and aligned points",
+      "Symmetry along both axes",
+      "Brightness through the centre",
+      "An integrated contrast pattern",
+      "Movement across the complete stone"
+    ],
+    "closingParagraphs": [
+      "GIA’s marquise diamond guide explains that the darker and wider the bow tie becomes, the more it can negatively affect appearance."
+    ],
+    "subsections": [
+      {
+        "id": "marquise-warning-signs",
+        "title": "Marquise Warning Signs",
+        "paragraphsBefore": [
+          "Pause when:"
+        ],
+        "bullets": [
+          "The centre forms a broad black band",
+          "The two ends look disconnected",
+          "Dark wings accompany the central bow tie",
+          "One point appears brighter than the other",
+          "The bow tie dominates the entire face-up view",
+          "The darkness remains unchanged during rotation"
+        ],
+        "paragraphsAfter": [
+          "Both marquise points must also be inspected for inclusions, extremely thin girdle areas and setting protection."
+        ]
+      }
+    ]
+  },
+  "otherShapes": {
+    "id": "can-other-shapes-have-bow-ties",
+    "title": "Can Other Diamond Shapes Have Bow Ties?",
+    "introParagraphs": [
+      "Yes. Similar contrast patterns can appear in:"
+    ],
+    "bullets": [
+      "Heart-shaped diamonds",
+      "Radiant-cut diamonds",
+      "Some elongated cushion diamonds",
+      "Other modified brilliant-style fancy shapes"
+    ],
+    "closingParagraphs": [
+      "However, oval, pear and marquise diamonds are the shapes most consistently associated with the classic bow-tie pattern.",
+      "The presence of a dark area in another shape should not automatically be labelled a bow tie. It may instead involve:"
+    ],
+    "closingBullets": [
+      "Normal contrast",
+      "Extinction",
+      "Windowing",
+      "Light leakage",
+      "Crushed-ice faceting",
+      "Reflection of the environment",
+      "A combination of optical effects"
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "For elongated cushion patterns and crushed-ice appearance, see Dalila’s " },
+        { "type": "link", "text": "Cushion Cut Diamond Guide", "href": "/blogs/cushion-cut-diamond" },
+        { "type": "text", "value": "." }
+      ]
+    ]
+  },
+  "vsContrast": {
+    "id": "bow-tie-versus-normal-contrast",
+    "title": "Bow Tie Versus Normal Contrast",
+    "introParagraphs": [
+      "Contrast describes the relationship between bright and dark reflections.",
+      "Good contrast normally appears:"
+    ],
+    "bullets": [
+      "Balanced",
+      "Clearly defined",
+      "Distributed across the diamond",
+      "Responsive to movement",
+      "Integrated with the facet pattern"
+    ],
+    "closingParagraphs": [
+      "A problematic bow tie normally appears:"
+    ],
+    "closingBullets": [
+      "Concentrated across the centre",
+      "Disproportionately dark",
+      "Excessively wide",
+      "Visually dominant",
+      "Persistent during movement"
+    ],
+    "finalParagraphs": [
+      "The existence of darkness is not the complete problem. Its strength, placement and behaviour determine whether it harms the diamond’s appearance."
+    ]
+  },
+  "vsWindowing": {
+    "id": "bow-tie-versus-windowing",
+    "title": "Bow Tie Versus Windowing",
+    "introParagraphs": [
+      "A bow tie and windowing are different."
+    ],
+    "subsections": [
+      {
+        "id": "bow-tie",
+        "title": "Bow Tie",
+        "paragraphsBefore": [
+          "A bow tie is normally a dark contrast pattern connected to faceting and observer obstruction."
+        ]
+      },
+      {
+        "id": "windowing",
+        "title": "Windowing",
+        "paragraphsBefore": [
+          "Windowing occurs when the viewer can see through part of the diamond rather than receiving attractive light return.",
+          "A window may allow:"
+        ],
+        "bullets": [
+          "The background",
+          "A printed line",
+          "Skin colour",
+          "The setting beneath the diamond"
+        ],
+        "paragraphsAfter": [
+          "to remain visibly apparent through the stone.",
+          "A diamond can show both a bow tie and windowing, but one should not be mistaken for the other."
+        ]
+      }
+    ]
+  },
+  "doesGiaReport": {
+    "id": "does-gia-report-show-bow-tie",
+    "title": "Does a GIA Report Show the Bow-Tie Effect?",
+    "introParagraphs": [
+      "A standard GIA grading report does not provide a separate bow-tie grade or severity score.",
+      "As of 30 July 2026, GIA’s established overall cut-grading system remains restricted to standard round brilliant diamonds in the D-to-Z colour range. GIA is researching more advanced approaches for evaluating fancy-shaped diamond appearance.",
+      "Its June 2026 discussion, The Transformation of Diamond Cut Quality Grading, explains why fancy shapes require evaluation of movement, contrast, observer obstruction, patterning and personal visual preferences.",
+      "A report may still provide:"
+    ],
+    "bullets": [
+      "Shape and cutting style",
+      "Measurements",
+      "Carat weight",
+      "Table percentage",
+      "Depth percentage",
+      "Girdle description",
+      "Culet",
+      "Polish",
+      "Symmetry",
+      "Colour",
+      "Clarity",
+      "Fluorescence",
+      "Report comments"
+    ],
+    "closingParagraphs": [
+      "None of these fields independently tells the buyer how dark, wide or persistent the bow tie will appear."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Use Dalila’s " },
+        { "type": "link", "text": "fancy-shaped diamond cut quality guide", "href": "/blogs/fancy-shaped-diamond-cut-quality" },
+        { "type": "text", "value": " for the wider report-plus-visual-inspection process." }
+      ],
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "GIA report-reading guide", "href": "/blogs/how-to-read-gia-diamond-certificate" },
+        { "type": "text", "value": " explains how to verify and interpret the remaining report fields." }
+      ],
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "4Cs of natural diamonds guide", "href": "/blogs/4cs-of-natural-diamonds-explained" },
+        { "type": "text", "value": " covers how colour, clarity, cut and carat work together when comparing natural diamonds." }
+      ]
+    ]
+  },
+  "canTableDepthPredict": {
+    "id": "can-table-and-depth-predict-bow-tie",
+    "title": "Can Table and Depth Predict the Bow Tie?",
+    "introParagraphs": [
+      "No universal table and depth combination can guarantee a minimal bow tie.",
+      "Bow-tie appearance depends on relationships involving:"
+    ],
+    "bullets": [
+      "Outline",
+      "Length-to-width ratio",
+      "Pavilion angles",
+      "Crown angles",
+      "Facet arrangement",
+      "Facet indexing",
+      "Symmetry",
+      "Observer distance",
+      "Lighting",
+      "Movement"
+    ],
+    "closingParagraphs": [
+      "Two diamonds can have similar report percentages while showing different contrast patterns.",
+      "Table and depth measurements remain useful for screening unusual proportions and comparing candidates, but they should not be used as automatic approval rules."
+    ]
+  },
+  "doesRatioCause": {
+    "id": "does-ratio-cause-a-bow-tie",
+    "title": "Does Length-to-Width Ratio Cause a Bow Tie?",
+    "introParagraphs": [
+      "Ratio can influence the diamond’s appearance, but it does not independently cause or grade the bow tie.",
+      "A longer outline may increase the opportunity for a strong central pattern, particularly when combined with unsuitable pavilion relationships. However, a strongly elongated diamond can still have an attractive and responsive centre.",
+      "Use ratio to choose the preferred outline.",
+      "Use visual inspection to judge the bow tie."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "When comparing face-up size alongside outline, use Dalila’s " },
+        { "type": "link", "text": "diamond size in millimetres guide", "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide" },
+        { "type": "text", "value": " to separate carat weight from visible dimensions." }
+      ]
+    ]
+  },
+  "doPolishSymmetryPrevent": {
+    "id": "do-polish-and-symmetry-prevent-bow-tie",
+    "title": "Do Excellent Polish and Symmetry Prevent a Bow Tie?",
+    "introParagraphs": [
+      "No.",
+      "Polish evaluates the quality of the diamond’s finished facet surfaces. Symmetry evaluates the alignment, shape and placement of facets.",
+      "Excellent polish and symmetry are positive characteristics, but they do not guarantee:"
+    ],
+    "bullets": [
+      "Minimal bow-tie darkness",
+      "Strong brightness",
+      "Good face-up spread",
+      "Attractive contrast",
+      "Absence of windowing",
+      "Balanced scintillation"
+    ],
+    "closingParagraphs": [
+      "A diamond can have Excellent polish and symmetry while still showing a distracting central bow tie."
+    ]
+  },
+  "canSettingHide": {
+    "id": "can-a-setting-hide-a-bow-tie",
+    "title": "Can a Setting Hide or Repair a Bow Tie?",
+    "introParagraphs": [
+      "A setting cannot correct the diamond’s internal facet pattern.",
+      "Prongs, halos and side stones may change the visual context around the centre diamond, but they do not repair a large, dark and persistent bow tie.",
+      "A setting may also alter:"
+    ],
+    "bullets": [
+      "The amount of surrounding light",
+      "Reflections from the metal",
+      "Perceived colour",
+      "Contrast with the band",
+      "Ease of cleaning"
+    ],
+    "closingParagraphs": [
+      "Do not purchase a poorly performing diamond with the expectation that the setting will fix it."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Metal colour can still change how warmth appears around the stone—use Dalila’s " },
+        { "type": "link", "text": "best diamond colour and clarity combination guide", "href": "/blogs/best-diamond-colour-clarity-combination" },
+        { "type": "text", "value": " when balancing grades with the intended setting." }
+      ]
+    ]
+  },
+  "canPhotographShow": {
+    "id": "can-a-photograph-show-a-bow-tie",
+    "title": "Can a Photograph Accurately Show a Bow Tie?",
+    "introParagraphs": [
+      "A photograph can reveal a bow tie, but a single photograph cannot provide a complete assessment.",
+      "The pattern may change according to:"
+    ],
+    "bullets": [
+      "Camera distance",
+      "Lens size",
+      "Camera colour",
+      "Photographer position",
+      "Clothing",
+      "Background",
+      "Light direction",
+      "Exposure settings",
+      "Image processing"
+    ],
+    "closingParagraphs": [
+      "A close camera can create greater obstruction and make the centre appear darker. Strong image editing can also hide dark areas.",
+      "Request video whenever possible."
+    ]
+  },
+  "howToEvaluateOnline": {
+    "id": "how-to-evaluate-a-bow-tie-online",
+    "title": "How to Evaluate a Bow Tie Online",
+    "introParagraphs": [
+      "A useful online comparison should include:"
+    ],
+    "bullets": [
+      "Face-up video",
+      "Slow left-to-right movement",
+      "Forward and backward tilting",
+      "A side-profile view",
+      "Neutral or diffused lighting",
+      "Ordinary indoor lighting",
+      "Limited editing",
+      "Similar magnification between diamonds",
+      "The complete diamond remaining inside the frame",
+      "More than one viewing distance"
+    ],
+    "closingParagraphs": [
+      "Ask the seller to show the diamond:"
+    ],
+    "closingBullets": [
+      "Stationary under diffused light.",
+      "Moving slowly under the same light.",
+      "Under ordinary room lighting.",
+      "At a normal viewing distance.",
+      "Beside a comparable diamond of the same shape."
+    ],
+    "finalParagraphs": [
+      "Do not rely on a video that uses only rotating equipment and intense spotlights."
+    ]
+  },
+  "fiveStepInspection": {
+    "id": "five-step-bow-tie-inspection",
+    "title": "Five-Step Bow-Tie Inspection",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-begin-at-a-normal-viewing-distance",
+        "title": "Step 1: Begin at a Normal Viewing Distance",
+        "paragraphsBefore": [
+          "Look at the diamond face-up without magnification, as if it were being worn.",
+          "Do not start with the stone extremely close to the eye because proximity may increase observer obstruction."
+        ]
+      },
+      {
+        "id": "step-2-observe-the-complete-centre",
+        "title": "Step 2: Observe the Complete Centre",
+        "paragraphsBefore": [
+          "Identify whether the dark pattern is:"
+        ],
+        "bullets": [
+          "Thin or wide",
+          "Grey or black",
+          "Balanced or uneven",
+          "Connected or fragmented",
+          "Integrated or dominant"
+        ]
+      },
+      {
+        "id": "step-3-move-the-diamond-slowly",
+        "title": "Step 3: Move the Diamond Slowly",
+        "paragraphsBefore": [
+          "Tilt and rotate the stone.",
+          "Watch whether the bow tie:"
+        ],
+        "bullets": [
+          "Brightens",
+          "Breaks into smaller reflections",
+          "Changes sides",
+          "Remains fixed",
+          "Becomes darker"
+        ],
+        "paragraphsAfter": [
+          "A responsive pattern is normally preferable to a static black band."
+        ]
+      },
+      {
+        "id": "step-4-change-the-lighting",
+        "title": "Step 4: Change the Lighting",
+        "paragraphsBefore": [
+          "Use diffused daylight, ordinary indoor light and controlled spotlighting.",
+          "A strong diamond should not rely entirely on jewellery-store spotlights to appear lively."
+        ]
+      },
+      {
+        "id": "step-5-compare-similar-candidates",
+        "title": "Step 5: Compare Similar Candidates",
+        "paragraphsBefore": [
+          "Compare ovals with ovals, pears with pears and marquises with marquises.",
+          "Match similar:"
+        ],
+        "bullets": [
+          "Carat weights",
+          "Length-to-width ratios",
+          "Face-up measurements",
+          "Colour and clarity ranges",
+          "Camera conditions"
+        ],
+        "paragraphsAfter": [
+          "Direct comparison makes differences in darkness and persistence easier to identify."
+        ]
+      }
+    ]
+  },
+  "buyerComparisonTable": {
+    "id": "buyer-comparison-table",
+    "title": "Buyer Comparison Table",
+    "introParagraphs": [],
+    "table": {
+      "caption": "More acceptable versus more concerning bow-tie features",
+      "headers": ["Feature", "More acceptable", "More concerning"],
+      "rows": [
+        ["Colour of bow tie", "Light to medium grey", "Very dark grey or black"],
+        ["Width", "Thin or limited", "Broad central band"],
+        ["Movement", "Brightens and changes", "Remains persistently dark"],
+        ["Balance", "Similar on both sides", "Uneven or off-centre"],
+        ["Integration", "Blends with facet pattern", "Dominates the diamond"],
+        ["Lighting", "Acceptable under ordinary light", "Attractive only under spotlights"],
+        ["Viewing distance", "Subtle at normal distance", "Immediately visible from normal distance"],
+        ["Complete performance", "Centre and ends remain lively", "Ends sparkle while centre looks dead"]
+      ]
+    }
+  },
+  "warningSigns": {
+    "id": "warning-signs",
+    "title": "Warning Signs",
+    "introParagraphs": [
+      "Pause before purchasing when:"
+    ],
+    "bullets": [
+      "The bow tie appears black in several lighting environments",
+      "It covers a large proportion of the centre",
+      "It remains dark throughout movement",
+      "One side is much stronger than the other",
+      "The pattern visually divides the diamond",
+      "Only the ends show brightness",
+      "The seller avoids providing diffused-light video",
+      "Every image uses intense spotlighting",
+      "The seller claims that Excellent symmetry guarantees no bow tie",
+      "The seller claims that one table-and-depth range eliminates bow ties",
+      "The video is heavily edited",
+      "The diamond is shown only at an extreme close-up distance",
+      "The report details are used as a substitute for visual inspection",
+      "A severe bow tie is priced as though the diamond has premium visual performance"
+    ]
+  },
+  "commonMistakes": {
+    "id": "common-buying-mistakes",
+    "title": "Common Buying Mistakes",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "rejecting-every-visible-bow-tie",
+        "title": "Rejecting Every Visible Bow Tie",
+        "paragraphsBefore": [
+          "A slight, balanced bow tie may contribute attractive contrast."
+        ]
+      },
+      {
+        "id": "accepting-a-black-centre-as-normal",
+        "title": "Accepting a Black Centre as “Normal”",
+        "paragraphsBefore": [
+          "Bow ties are common, but a large persistent black band does not have to be accepted."
+        ]
+      },
+      {
+        "id": "buying-from-the-report-alone",
+        "title": "Buying from the Report Alone",
+        "paragraphsBefore": [
+          "The report does not communicate bow-tie severity."
+        ]
+      },
+      {
+        "id": "choosing-only-by-ratio",
+        "title": "Choosing Only by Ratio",
+        "paragraphsBefore": [
+          "Two diamonds with the same ratio can have very different central patterns."
+        ]
+      },
+      {
+        "id": "trusting-one-photograph",
+        "title": "Trusting One Photograph",
+        "paragraphsBefore": [
+          "A single image captures only one combination of angle, light and obstruction."
+        ]
+      },
+      {
+        "id": "judging-only-under-spotlights",
+        "title": "Judging Only Under Spotlights",
+        "paragraphsBefore": [
+          "Strong spotlights can produce flashes that distract from inactive areas."
+        ]
+      },
+      {
+        "id": "assuming-the-setting-will-fix-it",
+        "title": "Assuming the Setting Will Fix It",
+        "paragraphsBefore": [
+          "A setting cannot change the diamond’s facet arrangement."
+        ]
+      },
+      {
+        "id": "comparing-different-shapes-identically",
+        "title": "Comparing Different Shapes as Though They Behave Identically",
+        "paragraphsBefore": [
+          "An oval, pear and marquise distribute contrast differently. Compare each candidate with similar shapes."
+        ]
+      }
+    ]
+  },
+  "buyingChecklist": {
+    "id": "complete-bow-tie-checklist",
+    "title": "Complete Bow-Tie Checklist",
+    "introParagraphs": [
+      "Before approving an elongated diamond, verify:"
+    ],
+    "items": [
+      "Natural-diamond identification",
+      "Laboratory report",
+      "Report number",
+      "Report authenticity",
+      "Laser inscription where applicable",
+      "Shape and cutting style",
+      "Carat weight",
+      "Measurements",
+      "Length-to-width ratio",
+      "Table",
+      "Depth",
+      "Girdle",
+      "Culet",
+      "Polish",
+      "Symmetry",
+      "Colour",
+      "Clarity",
+      "Fluorescence",
+      "Outline balance",
+      "Face-up spread",
+      "Central brightness",
+      "Bow-tie colour",
+      "Bow-tie width",
+      "Bow-tie symmetry",
+      "Bow-tie persistence",
+      "Behaviour during movement",
+      "Performance under diffused light",
+      "Performance under ordinary indoor light",
+      "Performance under spotlighting",
+      "Brightness at both ends",
+      "Windowing",
+      "Crushed-ice areas",
+      "Dark or dull patches",
+      "Transparency",
+      "Inclusion position",
+      "Point durability for pear and marquise shapes",
+      "Setting suitability",
+      "Comparison with similar diamonds",
+      "Price relative to complete visual performance",
+      "Final professional inspection"
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "An Antwerp Sourcing Perspective",
+    "introParagraphs": [
+      "Oval, pear and marquise natural diamonds cannot be selected reliably from report data alone.",
+      "A professional comparison should evaluate whether the centre diamond offers:"
+    ],
+    "bullets": [
+      "Attractive face-up dimensions",
+      "A balanced outline",
+      "Brightness across the complete stone",
+      "A responsive central contrast pattern",
+      "Minimal persistent darkness",
+      "Good transparency",
+      "Safe girdle and point construction",
+      "A price supported by its visual performance"
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Through Dalila Diamonds’ " },
+        { "type": "link", "text": "Secure to Source service", "href": "/secure-to-source" },
+        { "type": "text", "value": ", jewellers and trade buyers can request natural diamonds according to shape, carat, colour, clarity, certification, measurements and budget." }
+      ],
+      [
+        { "type": "text", "value": "Buyers can also " },
+        { "type": "link", "text": "browse Dalila’s natural-diamond inventory", "href": "/inventory" },
+        { "type": "text", "value": " and request additional inspection videos before making a sourcing decision." }
+      ],
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "Diamond Knowledge Guide", "href": "/diamondKnowledge" },
+        { "type": "text", "value": " provides an overview of shapes, the 4Cs and certification." }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Final Answer: Should You Buy a Diamond with a Bow Tie?",
+    "introParagraphs": [
+      "Yes, a diamond with a slight bow tie can still be an excellent choice.",
+      "Do not reject a diamond merely because you can identify some central contrast. Instead, assess:"
+    ],
+    "bullets": [
+      "How dark the bow tie is",
+      "How wide it appears",
+      "Whether both sides are balanced",
+      "Whether it brightens during movement",
+      "Whether it remains distracting at a normal distance",
+      "Whether the complete diamond remains lively"
+    ],
+    "closingParagraphs": [
+      "Avoid diamonds where the bow tie is large, black, uneven and persistent.",
+      "The best oval, pear or marquise diamond does not necessarily have zero contrast. It has a balanced pattern in which the bow tie supports the diamond’s appearance rather than dominating it."
+    ]
+  },
+  "cta": {
+    "id": "source-elongated-diamonds",
+    "title": "Source Oval, Pear and Marquise Diamonds with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Shortlist elongated natural diamonds with Antwerp sourcing support, inspection videos and clear commercial guidance—so bow-tie performance is judged before you buy."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Browse Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is the bow-tie effect in a diamond?",
+        "answer": "The bow-tie effect is a dark contrast pattern that appears across the centre of certain elongated diamonds. It is most common in oval, pear and marquise brilliant-style diamonds."
+      },
+      {
+        "question": "What causes a diamond bow tie?",
+        "answer": "It is caused by the interaction between the diamond’s elongated geometry, facet arrangement, proportions, surrounding light and observer obstruction. Some facets return the darker reflection created when the viewer blocks part of the available light."
+      },
+      {
+        "question": "Is a bow tie in a diamond always bad?",
+        "answer": "No. A subtle and balanced bow tie can contribute useful contrast and visual depth. It becomes a concern when it is excessively dark, wide, uneven or persistent."
+      },
+      {
+        "question": "Which diamond shapes have the strongest bow-tie risk?",
+        "answer": "Oval, pear and marquise diamonds are most commonly associated with the effect. Similar dark patterns can also appear in some heart, radiant and elongated cushion diamonds."
+      },
+      {
+        "question": "Does GIA grade the bow-tie effect?",
+        "answer": "A standard GIA grading report does not provide a separate bow-tie grade or severity score. The diamond must be assessed visually under appropriate lighting and during movement."
+      },
+      {
+        "question": "How can I tell if a bow tie is too strong?",
+        "answer": "A bow tie may be too strong when it appears black, covers a wide central area, divides the diamond visually and remains dark as the stone moves."
+      },
+      {
+        "question": "Can a diamond have no bow tie at all?",
+        "answer": "Some diamonds show very little obvious central bow-tie contrast. However, the goal should be balanced light performance rather than the complete absence of dark reflections."
+      },
+      {
+        "question": "Can a setting hide a diamond bow tie?",
+        "answer": "A setting may change the visual surroundings, but it cannot correct the diamond’s facet pattern. A large and persistent bow tie will generally remain visible after setting."
+      },
+      {
+        "question": "Can I judge a bow tie from an online video?",
+        "answer": "A high-quality video can help when it shows slow movement, normal magnification, diffused lighting and ordinary room light. A single edited video under intense spotlights is insufficient."
+      },
+      {
+        "question": "Should I buy an oval diamond with a visible bow tie?",
+        "answer": "You can buy it when the bow tie is subtle, balanced and responsive during movement. Avoid an oval with a broad black centre that remains distracting under several lighting conditions."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Judge the Bow Tie by Darkness, Width and Movement—Not by the Report Alone",
+    "introParagraphs": [
+      "A slight bow tie can support contrast; a large, black and persistent pattern should stop a purchase.",
+      "Inspect elongated diamonds face-up, in motion and under realistic lighting before approving the stone."
+    ],
+    "primaryButtonText": "Contact Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Diamond Knowledge Guide",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Our Articles",
+    "findUsTitle": "Find Us",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "Belgium"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Browse Our Inventory",
+    "inventoryDescription": "Discover our exquisite collection of premium diamonds",
+    "inventoryButtonText": "View Inventory",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Back to Articles",
+    "blogsHref": "/blogs"
+  }
+}

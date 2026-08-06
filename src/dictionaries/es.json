@@ -22,14 +22,18 @@
     "diamondKnowledgeDescription": "Conozca las 4C de los diamantes, las diferencias entre diamantes naturales y creados en laboratorio, certificaciones y cuidado.",
     "gradingReportTitle": "Guía del informe de certificación de diamantes | Dalila Diamonds",
     "gradingReportDescription": "Comprenda los informes de certificación de diamantes, verifique los números de informe, compare las 4C, las proporciones y la fluorescencia, y revise un diamante natural antes de comprar.",
-    "qualityChartTitle": "Tabla de calidad del diamante | Dalila Diamonds",
-    "qualityChartDescription": "Compare los grados de talla, color, pureza y quilates. Utilice esta tabla de calidad de diamantes naturales para comprender las 4C y elegir el equilibrio adecuado.",
+    "qualityChartTitle": "Tabla de calidad de los diamantes: 4C, color y claridad | dalila",
+    "qualityChartDescription": "Compare la calidad del diamante utilizando las 4C, los grados de color D–Z, la claridad, el corte, los quilates, el pulido, la simetría y la fluorescencia FL–I3 antes de elegir un diamante natural.",
     "fluorescenceGuideTitle": "Guía de fluorescencia del diamante | Dalila Diamonds",
     "fluorescenceGuideDescription": "Comprenda la fluorescencia del diamante, la fluorescencia azul y los niveles de intensidad. Aprenda cómo la fluorescencia puede afectar la apariencia y el precio antes de comprar un diamante natural.",
     "culetGuideTitle": "Guía del culet del diamante: tamaño y significado | Dalila Diamonds",
     "culetGuideDescription": "Aprenda qué es el culet de un diamante, cómo GIA y HRD describen su tamaño, y cómo los culets puntiagudos, abiertos, grandes o astillados pueden afectar la apariencia y la compra.",
     "girdleGuideTitle": "Guía del filetín del diamante: grosor y grados | Dalila Diamonds",
-    "girdleGuideDescription": "Aprenda qué es el filetín de un diamante, cómo GIA y HRD califican su grosor, y cómo los filetines finos o gruesos afectan la durabilidad, el tamaño, el engaste y el valor."
+    "girdleGuideDescription": "Aprenda qué es el filetín de un diamante, cómo GIA y HRD califican su grosor, y cómo los filetines finos o gruesos afectan la durabilidad, el tamaño, el engaste y el valor.",
+    "sizeChartTitle": "Tabla de tallas de diamantes: de quilates a mm por forma | dalila",
+    "sizeChartDescription": "Utilice la tabla de tamaños de diamantes de Dalila para comparar las medidas aproximadas de quilates a mm de diamantes redondos, ovalados, pera, cojín, esmeralda y otros diamantes naturales.",
+    "naturalVsLabTitle": "Diamantes naturales versus diamantes cultivados en laboratorio: comparación completa | dalila",
+    "naturalVsLabDescription": "Compare diamantes naturales y cultivados en laboratorio por origen, apariencia, precio, clasificación, rareza, reventa y abastecimiento para decidir qué diamante se adapta a sus prioridades."
   },
   "nav": {
     "home": "Inicio",
@@ -59,7 +63,14 @@
     "articleQualityChart": "Tabla de calidad del diamante",
     "articleFluorescenceGuide": "Guía de fluorescencia del diamante",
     "articleCuletGuide": "Guía del culet del diamante",
-    "articleGirdleGuide": "Guía del filetín del diamante"
+    "articleGirdleGuide": "Guía del filetín del diamante",
+    "articleSizeChart": "Tabla de tallas de diamantes",
+    "articleNaturalVsLab": "Diamantes naturales versus diamantes cultivados en laboratorio",
+    "articleValuationCalculator": "Diamond Valuation Calculator",
+    "articleWhereToSellRing": "Where to Sell a Diamond Ring",
+    "articleHowToSellRing": "How to Sell a Diamond Ring Safely",
+    "articleAppraisalAntwerp": "Diamond Appraisal in Antwerp",
+    "articleSellWithoutCert": "Sell a Diamond Without a Certificate"
   },
   "header": {
     "search": "Buscar diamantes...",

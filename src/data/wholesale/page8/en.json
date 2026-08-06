@@ -1,0 +1,683 @@
+{
+  "meta": {
+    "title": "Loose Diamonds for Sale | Wholesale Natural Diamonds",
+    "description": "Browse certified natural loose diamonds for sale through Dalila Diamonds in Antwerp. Request matched stones, grading reports and a wholesale quote.",
+    "canonical": "https://www.daliladiamonds.com/wholesale/buy-wholesale-diamonds-online",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Loose diamonds for sale",
+    "inLanguage": "en-GB",
+    "parentHub": "https://www.daliladiamonds.com/premium-b2b-diamond-supplier-belgium"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/wholesale/wholesale-loose-diamonds-for-sale.webp",
+      "alt": "Certified natural loose diamonds for wholesale buyers in Antwerp",
+      "width": 1600,
+      "height": 900
+    },
+    "sourcingBrief": {
+      "src": "/images/wholesale/wholesale-diamond-sourcing-brief.webp",
+      "alt": "Natural diamond sourcing brief with shape carat colour clarity and certification",
+      "width": 1400,
+      "height": 1000
+    },
+    "verification": {
+      "src": "/images/wholesale/verify-wholesale-loose-diamonds.webp",
+      "alt": "Diamond report number inscription measurements and loose stone verification",
+      "width": 1400,
+      "height": 1000
+    },
+    "matched": {
+      "src": "/images/wholesale/matched-wholesale-natural-diamonds.webp",
+      "alt": "Matched natural diamonds compared for measurements colour clarity and appearance",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Loose Diamonds for Sale",
+    "breadcrumbHome": "Home",
+    "breadcrumbWholesale": "Wholesale Diamonds",
+    "breadcrumbWholesaleHref": "/premium-b2b-diamond-supplier-belgium",
+    "breadcrumbCurrent": "Loose Diamonds for Sale",
+    "imageAlt": "Certified natural loose diamonds for wholesale buyers in Antwerp"
+  },
+  "hero": {
+    "title": "Loose Diamonds for Sale | Wholesale Natural Diamonds",
+    "subheading": "Certified Natural Diamonds for Professional Buyers",
+    "introParagraphs": [
+      "Dalila Diamonds supplies loose natural diamonds to jewellers, jewellery manufacturers, wholesalers, diamond dealers and luxury retailers."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse available diamonds through our "
+        },
+        {
+          "type": "link",
+          "text": "live natural-diamond inventory",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", or send us a sourcing brief for stones that meet your exact commercial, manufacturing or customer requirements."
+        }
+      ]
+    ],
+    "availableSpecsIntro": "Available specifications may include different:",
+    "availableSpecs": [
+      "Shapes and cutting styles",
+      "Carat weights",
+      "Colour and clarity combinations",
+      "Cut, polish and symmetry grades",
+      "Fluorescence preferences",
+      "Length-to-width ratios",
+      "Measurements and proportion requirements",
+      "GIA, IGI or HRD grading reports",
+      "Matched pairs and layouts",
+      "Calibrated production requirements"
+    ],
+    "primaryButtonText": "Request a Wholesale Sourcing Quote",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "View Available Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Professional buyers can purchase loose natural diamonds from Dalila Diamonds by selecting stones from the "
+        },
+        {
+          "type": "link",
+          "text": "available inventory",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submitting a detailed sourcing request."
+        }
+      ]
+    ],
+    "paragraphs": [
+      "Before approving a diamond, the buyer should receive and review its grading information, measurements, report number, availability, price and relevant inspection material. Laboratory information should be verified through the issuing laboratory’s official database.",
+      "Final payment, shipping, insurance, customs responsibilities and delivery estimates should be confirmed in the written quotation before the order is approved."
+    ]
+  },
+  "whoCanRequest": {
+    "id": "who-can-request-wholesale-loose-diamonds",
+    "title": "Who Can Request Wholesale Loose Diamonds?",
+    "introParagraphs": [
+      "This service is designed for professional diamond and jewellery buyers, including:"
+    ],
+    "bullets": [
+      "Independent jewellers",
+      "Jewellery manufacturers",
+      "Bridal jewellery businesses",
+      "Luxury retailers",
+      "Diamond wholesalers and dealers",
+      "Designers producing bespoke pieces",
+      "Businesses sourcing matched stones",
+      "Buyers replenishing commercial inventory"
+    ],
+    "closingParagraphs": [
+      "Buyer and order eligibility are confirmed during the quotation process. Any minimum order value or quantity should be stated clearly before the buyer commits to the transaction."
+    ]
+  },
+  "submitRequirements": {
+    "id": "submit-your-diamond-requirements",
+    "title": "Submit Your Diamond Requirements",
+    "introParagraphs": [
+      "A complete sourcing brief helps the Dalila team return more relevant options and reduces unnecessary comparisons."
+    ],
+    "table": {
+      "headers": ["Information to provide", "Example"],
+      "rows": [
+        ["Diamond type", "Natural diamond"],
+        ["Shape", "Round, oval, emerald, pear or cushion"],
+        ["Quantity", "One stone, matched pair or multiple stones"],
+        ["Carat requirement", "Exact weight or acceptable range"],
+        ["Colour", "Preferred grade or range"],
+        ["Clarity", "Preferred grade and eye-clean requirement"],
+        ["Cut or make", "Cut grade, proportion or visual preference"],
+        ["Polish and symmetry", "Minimum acceptable grades"],
+        ["Fluorescence", "None, faint or acceptable range"],
+        ["Measurements", "Minimum diameter, spread or ratio"],
+        ["Grading laboratory", "GIA, IGI, HRD or flexible"],
+        ["Budget", "Per stone or complete order"],
+        ["Destination", "Country and delivery postcode"],
+        ["Deadline", "Required approval or delivery date"]
+      ]
+    }
+  },
+  "sampleBrief": {
+    "id": "sample-sourcing-brief",
+    "title": "Sample Sourcing Brief",
+    "paragraphs": [
+      "We require five matched pairs of oval natural diamonds for an earring collection. Each stone should be between 0.50 and 0.60 carat, G–H colour and VS2–SI1 clarity, with consistent face-up appearance, balanced outlines and the same fluorescence preference. Please provide report details, measurements, videos, total quotation and estimated delivery terms."
+    ],
+    "note": "This is an illustrative brief, not a completed Dalila customer case."
+  },
+  "buyingProcess": {
+    "id": "how-the-buying-process-works",
+    "title": "How the Buying Process Works",
+    "steps": [
+      {
+        "number": 1,
+        "id": "browse-or-submit-a-request",
+        "title": "Browse or Submit a Request",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Search the "
+            },
+            {
+              "type": "link",
+              "text": "available inventory",
+              "href": "/inventory"
+            },
+            {
+              "type": "text",
+              "value": " or send the Dalila team your required specifications, quantity, budget and destination."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "receive-suitable-options",
+        "title": "Receive Suitable Options",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Available diamonds can be shortlisted according to the submitted criteria. Where a request is unusually specific or unavailable in current stock, Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Diamond Source For You",
+              "href": "/diamond-source"
+            },
+            {
+              "type": "text",
+              "value": " service can be used for a customised search."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-the-diamond-information",
+        "title": "Review the Diamond Information",
+        "introParagraphs": [
+          "Before approving an option, review the available:"
+        ],
+        "bullets": [
+          "Report number",
+          "Shape and cutting style",
+          "Carat weight",
+          "Measurements",
+          "Colour and clarity",
+          "Cut information",
+          "Polish and symmetry",
+          "Fluorescence",
+          "Report comments",
+          "Photographs or videos",
+          "Price and availability"
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For face-up size context, see Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "diamond size in millimetres guide",
+              "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 4,
+        "id": "verify-the-grading-report",
+        "title": "Verify the Grading Report",
+        "introParagraphs": [
+          "Check the report directly through the laboratory’s official system:"
+        ],
+        "labLinks": [
+          {
+            "text": "GIA Report Check",
+            "href": "https://www.gia.edu/report-check-landing"
+          },
+          {
+            "text": "IGI Verify Your Report",
+            "href": "https://www.igi.org/Verify-Your-Report/"
+          },
+          {
+            "text": "My HRD Antwerp",
+            "href": "https://my.hrdantwerp.com/"
+          }
+        ],
+        "paragraphs": [
+          "Where a laser inscription is present, its number should be compared with the report and the physical diamond under appropriate magnification.",
+          "A valid report number confirms that a laboratory record exists. The report, inscription, measurements and actual diamond should still be matched."
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Compare laboratory approaches in the "
+            },
+            {
+              "type": "link",
+              "text": "GIA vs IGI vs HRD diamond certification guide",
+              "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", read an "
+            },
+            {
+              "type": "link",
+              "text": "IGI certification guide",
+              "href": "/blogs/igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", or use the "
+            },
+            {
+              "type": "link",
+              "text": "GIA report-reading guide",
+              "href": "/blogs/how-to-read-gia-diamond-certificate"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 5,
+        "id": "confirm-the-quotation",
+        "title": "Confirm the Quotation",
+        "introParagraphs": [
+          "The written quotation should identify:"
+        ],
+        "bullets": [
+          "Selected diamond or stock reference",
+          "Quantity",
+          "Price and currency",
+          "Payment conditions",
+          "Availability period",
+          "Shipping method",
+          "Insurance arrangement",
+          "Customs responsibilities",
+          "Applicable taxes or duties",
+          "Expected dispatch and delivery timing",
+          "Documents supplied with the order"
+        ]
+      },
+      {
+        "number": 6,
+        "id": "approve-and-arrange-delivery",
+        "title": "Approve and Arrange Delivery",
+        "paragraphs": [
+          "Once the selection and commercial terms are approved, the order can proceed according to the confirmed payment and delivery conditions."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For structured repeat sourcing, read about Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Secure To Source",
+              "href": "/secure-to-source"
+            },
+            {
+              "type": "text",
+              "value": " service."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "gradingConsistency": {
+    "id": "grading-consistency-for-pairs-and-multiple-stones",
+    "title": "Grading Consistency for Pairs and Multiple Stones",
+    "introParagraphs": [
+      "Diamonds with identical colour and clarity grades do not necessarily look identical.",
+      "For matched pairs, layouts or repeat production, consistency may also require comparison of:"
+    ],
+    "bullets": [
+      "Face-up colour",
+      "Inclusion visibility",
+      "Transparency",
+      "Diameter or physical dimensions",
+      "Length-to-width ratio",
+      "Outline and corner shape",
+      "Table and total depth",
+      "Cut or make",
+      "Fluorescence",
+      "Brightness and contrast",
+      "Girdle characteristics",
+      "Overall visual balance"
+    ],
+    "closingParagraphs": [
+      "The acceptable tolerance should be agreed before sourcing begins. This is particularly important for earrings, multi-stone rings, line bracelets and repeat jewellery production."
+    ]
+  },
+  "pricing": {
+    "id": "how-wholesale-loose-diamond-pricing-is-determined",
+    "title": "How Wholesale Loose-Diamond Pricing Is Determined",
+    "introParagraphs": [
+      "There is no dependable universal price-per-carat figure for every diamond.",
+      "A quotation can be affected by:"
+    ],
+    "bullets": [
+      "Natural-diamond market availability",
+      "Shape",
+      "Exact carat weight",
+      "Colour and clarity",
+      "Cut quality",
+      "Measurements and spread",
+      "Fluorescence",
+      "Laboratory report",
+      "Visual performance",
+      "Quantity",
+      "Matching difficulty",
+      "Sourcing urgency",
+      "Currency",
+      "Shipping, insurance and import requirements"
+    ],
+    "closingParagraphs": [
+      "Two diamonds with the same headline 4Cs may receive different quotations because their proportions, appearance, report details or availability differ.",
+      "For this reason, compare complete diamond specifications instead of choosing solely by the lowest price."
+    ]
+  },
+  "documentation": {
+    "id": "documentation-and-provenance",
+    "title": "Documentation and Provenance",
+    "introParagraphs": [
+      "A grading report describes the diamond’s identification and quality characteristics. It does not automatically establish ownership, purchase value, chain of custody or mining country.",
+      "When provenance or compliance documentation is important, specify this in the sourcing brief before receiving options.",
+      "The Kimberley Process Certification Scheme regulates international trade in rough diamonds. It should not be presented as automatic country-of-origin proof for every polished diamond.",
+      "Depending on the transaction and destination, buyers may also require:"
+    ],
+    "bullets": [
+      "Commercial invoice",
+      "Packing information",
+      "Grading-report copy",
+      "Shipping and insurance confirmation",
+      "Export or customs documentation",
+      "Supplier declaration",
+      "Sanctions or compliance checks",
+      "Separate provenance documentation where available"
+    ],
+    "closingParagraphs": [
+      "The exact document set should be confirmed in writing for each order."
+    ]
+  },
+  "whyDalila": {
+    "id": "why-source-through-dalila-diamonds",
+    "title": "Why Source Through Dalila Diamonds?",
+    "introParagraphs": [
+      "Dalila Diamonds is an Antwerp-based natural-diamond business serving professional buyers.",
+      "Buyers can use Dalila to:"
+    ],
+    "bullets": [
+      "Review available loose natural diamonds",
+      "Request specific colour, clarity and carat combinations",
+      "Source major fancy shapes",
+      "Request matched pairs and layouts",
+      "Compare grading reports",
+      "Access customised sourcing for rare requirements",
+      "Arrange structured repeat procurement",
+      "Confirm international delivery terms"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Learn more about Dalila’s experience, services and professional sourcing model through the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B Diamond Supplier in Belgium",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ]
+  },
+  "requestQuote": {
+    "id": "request-a-wholesale-diamond-quote",
+    "title": "Request a Wholesale Diamond Quote",
+    "introParagraphs": [
+      "Send the following information to receive relevant options:"
+    ],
+    "bullets": [
+      "Business name and location",
+      "Required shape",
+      "Quantity",
+      "Carat range",
+      "Colour and clarity",
+      "Cut or proportion requirements",
+      "Laboratory preference",
+      "Fluorescence preference",
+      "Budget",
+      "Delivery destination",
+      "Required date"
+    ],
+    "primaryButtonText": "Request a Wholesale Sourcing Quote",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "supportingText": "Availability, order eligibility, pricing, payment conditions and delivery terms will be confirmed before purchase."
+  },
+  "inventoryPreview": {
+    "id": "browse-available-loose-diamonds",
+    "title": "Browse Available Loose Diamonds",
+    "description": "Review live natural-diamond stock, then request a quote for selected stones or a matched sourcing brief.",
+    "buttonText": "View Available Inventory",
+    "buttonHref": "/inventory"
+  },
+  "form": {
+    "id": "wholesale-sourcing-form",
+    "tag": "Wholesale Enquiry",
+    "title": "Request a Wholesale Diamond Quote",
+    "subtitle": "Share your business details and diamond requirements. Availability, eligibility, pricing and delivery terms will be confirmed in a written quotation before purchase.",
+    "labels": {
+      "businessName": "Business name *",
+      "location": "Business location",
+      "fullName": "Full name",
+      "email": "Email address *",
+      "phone": "Phone number",
+      "shape": "Shape *",
+      "quantity": "Quantity",
+      "caratRange": "Carat range *",
+      "colour": "Colour",
+      "clarity": "Clarity",
+      "cut": "Cut or make",
+      "laboratory": "Grading laboratory",
+      "fluorescence": "Fluorescence",
+      "budget": "Budget",
+      "destination": "Delivery destination",
+      "requiredDate": "Required date",
+      "message": "Additional requirements"
+    },
+    "placeholders": {
+      "businessName": "Your company name",
+      "location": "City, country",
+      "fullName": "Contact name",
+      "email": "name@company.com",
+      "phone": "+32 …",
+      "quantity": "e.g. 1 stone, matched pair, or 10 stones",
+      "caratRange": "e.g. 0.50–0.60 ct",
+      "colour": "e.g. G–H",
+      "clarity": "e.g. VS2–SI1, eye-clean",
+      "cut": "e.g. Excellent / preferred proportions",
+      "budget": "Per stone or total order",
+      "destination": "Country and postcode",
+      "requiredDate": "Approval or delivery date",
+      "message": "Matched pairs, fluorescence, measurements, report preference…"
+    },
+    "shapeOptions": [
+      "Round",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Cushion",
+      "Marquise",
+      "Radiant",
+      "Princess",
+      "Asscher",
+      "Heart",
+      "Other"
+    ],
+    "laboratoryOptions": ["GIA", "IGI", "HRD", "Flexible"],
+    "fluorescenceOptions": [
+      "None",
+      "Faint",
+      "Medium",
+      "Strong",
+      "Very Strong",
+      "Flexible"
+    ],
+    "submitButton": "Request a Wholesale Sourcing Quote",
+    "requiredNote": "* Required fields. Buyer eligibility and commercial terms are confirmed during quotation.",
+    "successMessage": "Your wholesale sourcing request has been submitted. We will review your brief and respond with relevant options.",
+    "errorMessage": "Failed to submit your request. Please try again or contact Dalila Diamonds directly.",
+    "incompleteMessage": "Please complete the required fields before submitting your wholesale sourcing request."
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Does Dalila Diamonds sell natural or laboratory-grown diamonds?",
+        "answer": "Dalila Diamonds’ core wholesale offering is natural diamonds. The report description should always be checked to confirm that each selected stone is identified as natural."
+      },
+      {
+        "question": "Who can request wholesale loose diamonds?",
+        "answer": "The service is intended for professional buyers such as jewellers, manufacturers, retailers, wholesalers, dealers and jewellery designers. Buyer eligibility is confirmed during the enquiry process."
+      },
+      {
+        "question": "Is there a minimum wholesale order?",
+        "answer": "Minimum order requirements may depend on the diamond, quantity, sourcing route and destination. The applicable minimum should be confirmed in the written quotation rather than assumed."
+      },
+      {
+        "question": "Which grading reports are available?",
+        "answer": "Available diamonds may carry reports from laboratories such as GIA, IGI or HRD Antwerp. Laboratory availability depends on the selected stone and sourcing request."
+      },
+      {
+        "question": "Can I verify the diamond report before purchasing?",
+        "answer": "Yes. Buyers should verify the report number through the issuing laboratory’s official database and compare the retrieved information with the diamond offered."
+      },
+      {
+        "question": "Can Dalila source matched diamond pairs?",
+        "answer": "Matched pairs and layouts can be requested. Provide acceptable tolerances for carat weight, measurements, colour, clarity, fluorescence, shape and overall appearance."
+      },
+      {
+        "question": "Why are wholesale diamond prices not displayed as one price per carat?",
+        "answer": "Diamond pricing depends on more than carat weight. Shape, colour, clarity, cut, measurements, report, appearance, availability, quantity and logistics can all affect the quotation."
+      },
+      {
+        "question": "Can I request a diamond that is not in the live inventory?",
+        "answer": "Yes. Submit the complete specifications through Dalila’s customised sourcing service when a suitable diamond is not available in the current inventory."
+      },
+      {
+        "question": "Does a grading report prove where a natural diamond was mined?",
+        "answer": "Not usually. A standard grading report identifies and grades the stone but does not automatically confirm its mining country. Geographic-origin or provenance claims require separate supporting documentation."
+      },
+      {
+        "question": "How long does wholesale diamond delivery take?",
+        "answer": "Timing depends on availability, inspection, payment, destination, carrier and customs processing. The expected dispatch and delivery window should be confirmed in the quotation before purchase."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "source-wholesale-loose-diamonds",
+    "title": "Source Wholesale Loose Diamonds with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse the "
+        },
+        {
+          "type": "link",
+          "text": "live natural-diamond inventory",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submit a wholesale sourcing brief for matched stones, calibrated layouts and certified natural diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For rare or highly specific searches, use "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ". For structured repeat procurement, explore the "
+        },
+        {
+          "type": "link",
+          "text": "Secure To Source service",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ". Learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B Diamond Supplier in Belgium",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page, or "
+        },
+        {
+          "type": "link",
+          "text": "contact Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "primaryButtonText": "Request a Wholesale Sourcing Quote",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "View Available Inventory",
+    "secondaryButtonHref": "/inventory"
+  }
+}

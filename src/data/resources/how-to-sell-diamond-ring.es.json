@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "title": "Cómo vender un anillo de diamantes de forma segura: 10 pasos | dalila",
+    "description": "Aprenda a vender un anillo de diamantes de forma segura: verifique su informe, controle al comprador, proteja la entrega y confirme el pago antes de entregar su anillo.",
+    "canonical": "https://www.daliladiamonds.com/resources/how-to-sell-diamond-ring",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaSellingJewellery": "https://www.gia.edu/gia-news-research-selling-jewellery"
+  },
+  "banner": {
+    "title": "Cómo vender un anillo de diamantes de forma segura",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Cómo vender un anillo de diamantes de forma segura",
+    "imageAlt": "Banner de recursos sobre cómo vender un anillo de diamantes de forma segura"
+  },
+  "hero": {
+    "title": "Cómo vender un anillo de diamantes de forma segura: una guía paso a paso",
+    "paragraphs": [
+      "Vender un anillo de diamantes de forma segura requiere más que encontrar a alguien dispuesto a hacer una oferta. Debe comprender qué contiene el anillo, verificar su documentación, verificar al comprador, proteger el anillo durante el examen o el transporte y confirmar el pago antes de que se transfiera la propiedad.",
+      "El proceso más seguro comienza antes de entregarle el anillo a alguien. Reúna los documentos disponibles, tome fotografías claras y cree un registro básico del estado del anillo. Luego podrá solicitar una valoración inicial y decidir si está justificada una inspección física.",
+      "Un comprador legítimo debe poder explicar cómo se evaluará el anillo, si se aplicará algún cargo, cómo se protegerá el artículo y qué sucederá si decide no venderlo."
+    ],
+    "primaryButtonText": "INICIAR UNA EVALUACIÓN PRIVADA DE ANILLO DE DIAMANTES",
+    "primaryButtonHref": "#secure-evaluation-form"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/how-to-sell-diamond-ring-safely.webp",
+      "alt": "Anillo de diamantes naturales y documentos preparados para una venta profesional segura.",
+      "width": 1600,
+      "height": 900
+    },
+    "safetySteps": {
+      "src": "/images/resources/diamond-ring-selling-safety-steps.webp",
+      "alt": "Pasos de seguridad para vender un anillo de diamantes naturales",
+      "width": 1400,
+      "height": 1000
+    },
+    "transport": {
+      "src": "/images/resources/safe-diamond-ring-transport.webp",
+      "alt": "Embalaje seguro y transporte documentado para un anillo de diamantes",
+      "width": 1400,
+      "height": 1000
+    },
+    "payment": {
+      "src": "/images/resources/diamond-ring-payment-verification.webp",
+      "alt": "Recibo de oferta por escrito y pago verificado para la venta de un anillo de diamantes.",
+      "width": 1400,
+      "height": 1000
+    },
+    "checklistCover": {
+      "src": "/images/resources/diamond-seller-safety-checklist.webp",
+      "alt": "Lista de verificación de seguridad del vendedor de diamantes para preparar y completar una venta segura",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "respuesta rapida"
+      },
+      {
+        "id": "step-1",
+        "label": "Paso 1: confirmar la propiedad"
+      },
+      {
+        "id": "step-2",
+        "label": "Paso 2: Reúna los documentos"
+      },
+      {
+        "id": "step-3",
+        "label": "Paso 3: fotografía el anillo"
+      },
+      {
+        "id": "step-4",
+        "label": "Paso 4: Verificar el informe"
+      },
+      {
+        "id": "step-5",
+        "label": "Paso 5: comprender el valor"
+      },
+      {
+        "id": "step-6",
+        "label": "Paso 6: elige una ruta de venta"
+      },
+      {
+        "id": "step-7",
+        "label": "Paso 7: Verificar al comprador"
+      },
+      {
+        "id": "step-8",
+        "label": "Paso 8: revisión en línea"
+      },
+      {
+        "id": "step-9",
+        "label": "Paso 9: Evaluación presencial"
+      },
+      {
+        "id": "step-10",
+        "label": "Paso 10: Transporte seguro"
+      },
+      {
+        "id": "step-11",
+        "label": "Paso 11: Revisa la oferta"
+      },
+      {
+        "id": "step-12",
+        "label": "Paso 12: Confirmar pago"
+      },
+      {
+        "id": "step-13",
+        "label": "Paso 13: Mantenga registros"
+      },
+      {
+        "id": "safety-checklist",
+        "label": "Lista de verificación de seguridad"
+      },
+      {
+        "id": "common-scams",
+        "label": "Estafas comunes"
+      },
+      {
+        "id": "clean-or-repair",
+        "label": "¿Limpiar o reparar?"
+      },
+      {
+        "id": "without-certificate",
+        "label": "Vender sin certificado"
+      },
+      {
+        "id": "inherited-ring",
+        "label": "anillo heredado"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Cómo ayuda Dalila"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Preguntas frecuentes"
+      },
+      {
+        "id": "sell-with-confidence",
+        "label": "Vender con confianza"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Respuesta rápida: ¿Cuál es la forma más segura de vender un anillo de diamantes?",
+    "intro": "La forma más segura de vender un anillo de diamantes es trabajar con un comprador profesional identificable, obtener términos claros por escrito, mantener un registro del estado y la documentación del anillo y entregar el artículo sólo después de que el pago acordado haya sido confirmado de forma independiente.",
+    "beforeAcceptingIntro": "Antes de aceptar una oferta:",
+    "bullets": [
+      "Reúna el informe de calificación y los documentos de propiedad.",
+      "Registre el estado del anillo con fotografías.",
+      "Verifique el informe de diamantes.",
+      "Comprenda la diferencia entre valor de tasación y valor de reventa.",
+      "Investigue al comprador y los detalles físicos de su negocio.",
+      "Solicite el proceso de evaluación y tarifas por escrito.",
+      "Utilice una cita segura o un transporte asegurado totalmente documentado.",
+      "Confirma lo que incluye la oferta.",
+      "Verifique el pago liquidado de forma independiente.",
+      "Conserve un recibo y un registro de transacciones."
+    ],
+    "closing": "No envíe un anillo valioso a una dirección desconocida, no confíe en una captura de pantalla del pago ni acepte presiones para decidir de inmediato."
+  },
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "title": "Confirme que tiene derecho a vender el anillo",
+      "paragraphs": [
+        "Antes de solicitar ofertas, establezca que tiene derecho legal a vender el anillo. Normalmente, esto es sencillo si lo compró usted mismo, lo recibió como un regalo completo o lo heredó a través de un patrimonio liquidado.",
+        "La situación puede requerir aclaración cuando el anillo es de propiedad conjunta, está sujeto a una herencia no resuelta, está relacionado con un reclamo de seguro o está involucrado en una separación o disputa de propiedad. Un comprador puede solicitar identificación y evidencia de propiedad legal antes de completar la transacción."
+      ],
+      "documentsIntro": "Los documentos de respaldo útiles pueden incluir:",
+      "bullets": [
+        "Recibo de compra original",
+        "Documentación de regalo completa, cuando esté disponible",
+        "Trámites de herencia o herencia",
+        "Calendario de seguros anterior",
+        "Informe de calificaciones",
+        "Tasación previa",
+        "Historial de reparación o servicio",
+        "Documentación de marca"
+      ],
+      "closing": [
+        "No todos los vendedores tendrán todos estos documentos. La falta de documentación no impide automáticamente una evaluación, pero el comprador puede necesitar información adicional antes de completar una compra.",
+        "No altere, oculte ni invente información sobre la propiedad, la historia, el origen o los tratamientos del diamante."
+      ]
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "title": "Reúna los documentos del anillo",
+      "paragraphs": [
+        "Mientras más información precisa pueda proporcionar, más fácil será obtener una revisión inicial significativa.",
+        "Comience con el informe de clasificación de diamantes. Los informes de laboratorios como GIA, HRD Antwerp e IGI pueden describir el origen, la forma, el peso en quilates, el color, la claridad, la información de corte, las medidas, la fluorescencia y las características de identificación del diamante.",
+        "No es lo mismo un informe de calificaciones que una tasación. El informe describe la calidad del diamante, mientras que una tasación asigna un valor monetario para un propósito particular. GIA explica esta distinción en su guía sobre informes y valoraciones de clasificación de diamantes."
+      ],
+      "gatherIntro": "También debes reunir:",
+      "bullets": [
+        "la factura original",
+        "Tasaciones de seguros anteriores",
+        "Caja y embalaje originales.",
+        "Certificados de marca",
+        "Reparar y cambiar el tamaño de registros",
+        "Recibos de piedras de reemplazo",
+        "Cualquier información de procedencia disponible"
+      ],
+      "closing": "Mantenga seguros los documentos originales. Para una presentación inicial en línea, una copia clara o una fotografía normalmente será más apropiada que entregar el único documento original."
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "title": "Fotografíe y registre el anillo antes de la evaluación.",
+      "paragraphs": [
+        "Cree un registro visual del anillo antes de transportarlo, enviarlo o entregarlo a otra persona. Estas fotografías ayudan a documentar su estado actual e identificar el artículo completo.",
+        "Tome fotografías con luz clara y neutra sin filtros de belleza ni alteraciones digitales."
+      ],
+      "photoIntro": "Incluir:",
+      "bullets": [
+        "El anillo completo desde arriba",
+        "El anillo de ambos lados.",
+        "El interior de la banda",
+        "Sellos y firmas de marca.",
+        "El diamante central",
+        "piedras laterales",
+        "Astillas, rayones o daños visibles",
+        "El informe de calificaciones completo.",
+        "Embalaje original, cuando corresponda."
+      ],
+      "closing": [
+        "Si el informe de clasificación contiene un diagrama de trazado, puede mostrar la ubicación de las características de claridad dentro del diamante. Estas características a veces pueden ayudar a un especialista a hacer coincidir la piedra con el informe, aunque la coincidencia adecuada del informe aún puede requerir una ampliación y un examen profesional.",
+        "No intentes crear una mejor apariencia puliendo agresivamente un anillo antiguo o firmado. El pulido, reparación o desmontaje pueden alterar el estado y eliminar detalles importantes para una evaluación especializada."
+      ]
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "title": "Verificar el informe de calificación del diamante",
+      "paragraphs": [
+        "Un informe de calificación debe consultarse con el laboratorio que lo emitió. Por ejemplo, GIA Report Check permite a los usuarios confirmar si la información de un informe coincide con la información contenida en la base de datos de GIA.",
+        "HRD Antwerp e IGI también ofrecen servicios de verificación de informes en línea. Utilice el sitio web oficial del laboratorio en lugar de un verificador de informes externo desconocido.",
+        "La verificación del informe confirma que existe un número de informe y sus detalles en la base de datos del laboratorio. Por sí solo, no prueba que el diamante físico del anillo sea el mismo diamante descrito en el informe."
+      ],
+      "compareIntro": "Es posible que un comprador aún necesite comparar:",
+      "bullets": [
+        "Peso en quilates y medidas.",
+        "Forma y proporciones",
+        "Inscripción láser, si está presente",
+        "Características de claridad",
+        "Apariencia de color y claridad.",
+        "Fluorescencia",
+        "polaco y simetría",
+        "Evidencia de daño o alteración."
+      ],
+      "closing": "Si el número del informe no se verifica, deténgase y comuníquese con el laboratorio emisor o con un especialista calificado antes de continuar.",
+      "giaLinkText": "Verificar un informe GIA utilizando GIA Report Check"
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "title": "Comprenda el valor del anillo",
+      "paragraphs": [
+        "Una venta segura es también una venta informada. Antes de aceptar una oferta, comprenda que el anillo puede tener varios valores diferentes."
+      ],
+      "table": {
+        "caption": "Tipos de valor del anillo de diamantes.",
+        "headers": [
+          "Tipo de valor",
+          "lo que significa"
+        ],
+        "rows": [
+          [
+            "Precio de venta original",
+            "El monto pagado originalmente al minorista."
+          ],
+          [
+            "Valor de reposición del seguro",
+            "Una estimación del costo de reemplazar el artículo a través de un canal minorista."
+          ],
+          [
+            "Tasación de mercado justo",
+            "La opinión de un tasador sobre lo que un comprador dispuesto puede pagar a un vendedor dispuesto."
+          ],
+          [
+            "Valor de reventa",
+            "El monto que el anillo puede alcanzar en el mercado secundario"
+          ],
+          [
+            "oferta de compra directa",
+            "La cantidad que un comprador específico está dispuesto a pagar después de la evaluación."
+          ]
+        ]
+      },
+      "afterTable": [
+        "El precio de compra original puede incluir servicios minoristas, impuestos, marca, diseño, entorno, marketing y el margen del minorista. Estos elementos no necesariamente se recuperan cuando se revende el anillo.",
+        "GIA describe el valor justo de mercado como la opinión de un tasador sobre lo que un comprador dispuesto pagaría a un vendedor dispuesto. Por tanto, se diferencia de una valoración de sustitución de un seguro.",
+        "El diamante central, las piedras laterales, el engaste, el metal precioso, el estado, la marca y la demanda actual pueden influir en una oferta. Pregunte si se ha considerado cada parte del anillo."
+      ],
+      "giaLinkText": "Lea la guía de GIA sobre la venta de piedras preciosas y joyas.",
+      "ctaText": "UTILICE LA CALCULADORA DE VALORACIÓN DE DIAMANTES",
+      "ctaHref": "/resources/diamond-valuation-calculator"
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "title": "Elija una ruta de venta que se ajuste al anillo",
+      "paragraphs": [
+        "La ruta de venta debe coincidir tanto con el anillo como con tus prioridades. Un comprador especialista en diamantes naturales puede proporcionar una evaluación directa y una oferta de compra. La subasta o la consignación pueden ser apropiadas para algunos anillos raros, antiguos o firmados, mientras que la venta privada requiere que el propietario administre el listado, la seguridad, el pago y la entrega.",
+        "Esta página se centra en realizar la transacción de forma segura en lugar de comparar todos los canales de venta.",
+        "Cualquiera que sea el método que elija, confirme si el monto propuesto es:"
+      ],
+      "bullets": [
+        "Una oferta de compra directa",
+        "Una estimación de subasta",
+        "Un envío pidiendo precio",
+        "Un crédito de intercambio",
+        "Un valor de préstamo",
+        "Un presupuesto informal en línea"
+      ],
+      "closing": "Estas cifras no son intercambiables. Una estimación de subasta o un precio de consignación no son dinero garantizado, mientras que una oferta directa puede ser pagadera después de que se hayan completado verificaciones específicas.",
+      "linkText": "¿Cuál es el mejor lugar para vender un anillo de diamantes?",
+      "linkHref": "/resources/where-to-sell-diamond-ring"
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "title": "Verifique al comprador antes de entregar el anillo",
+      "paragraphs": [
+        "El comprador debe ser identificable más allá de una cuenta de redes sociales, un número de teléfono o un perfil de mensajería.",
+        "Verifique el nombre comercial de la empresa, la dirección física, el sitio web, los datos de contacto y la información comercial pública. Las revisiones pueden proporcionar un contexto útil, pero las revisiones por sí solas no deben reemplazar la verificación de los términos comerciales y de transacción reales."
+      ],
+      "questionsIntro": "Pregúntale al comprador:",
+      "questions": [
+        "¿Quién evaluará el anillo?",
+        "¿La empresa compra diamantes naturales?",
+        "¿Se evaluará la piedra central por separado?",
+        "¿Se verificará el informe de calificaciones?",
+        "¿Se cobra alguna tarifa?",
+        "¿La revisión preliminar es sin compromiso?",
+        "¿Se proporcionará la oferta final por escrito?",
+        "¿Cómo se protegerá el anillo durante el examen?",
+        "¿Qué pasa si se rechaza la oferta?",
+        "¿Cómo y cuándo se realizará el pago?",
+        "¿Qué evidencia de identificación o propiedad se requiere?"
+      ],
+      "cautionTitle": "Reclamaciones que requieren precaución",
+      "cautionParagraphs": [
+        "Un comprador experimentado debería estar dispuesto a explicar el proceso con claridad. Evite a cualquiera que garantice un precio final antes de recibir suficiente información sobre el diamante.",
+        "Frases como “precio más alto garantizado”, “valoración final instantánea” o “sin preguntas” deben tratarse con cuidado. Un comprador responsable necesita información suficiente para identificar el diamante, evaluar su estado y confirmar que el vendedor tiene derecho a completar la transacción.",
+        "No interprete un sitio web pulido como prueba de que cada detalle o promesa comercial es genuino. Verifique la empresa de forma independiente."
+      ]
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "title": "Comience con una revisión preliminar en línea",
+      "paragraphs": [
+        "Un envío en línea permite al comprador revisar la información básica antes de mover el anillo. Esto puede reducir los viajes innecesarios y ayudar a determinar si el anillo se ajusta a los criterios de compra del comprador."
+      ],
+      "submissionIntro": "Una presentación preliminar útil incluye:",
+      "bullets": [
+        "forma de diamante",
+        "Peso aproximado en quilates",
+        "Color y claridad, cuando se conocen.",
+        "Laboratorio de clasificación",
+        "Número de informe",
+        "Fotografías claras",
+        "Joyas metálicas",
+        "Marca o diseñador, si aplica",
+        "Reparaciones o daños conocidos",
+        "País del vendedor",
+        "Método de evaluación preferido"
+      ],
+      "closing": [
+        "No incluya información confidencial innecesaria en la primera consulta. El comprador no necesita contraseñas, credenciales bancarias ni copias ilimitadas de cada documento personal simplemente para mirar fotografías.",
+        "Una valoración preliminar debe considerarse indicativa. Las fotografías no pueden confirmar todas las características del diamante ni garantizar un precio de compra final."
+      ],
+      "ctaText": "ENVIAR MI ANILLO PARA UNA REVISIÓN PRIVADA",
+      "ctaHref": "#secure-evaluation-form"
+    },
+    {
+      "id": "step-9",
+      "number": 9,
+      "title": "Proteja el anillo durante una evaluación en persona",
+      "paragraphs": [
+        "Generalmente es preferible una cita privada en una dirección comercial establecida que reunirse con un comprador desconocido en un hotel, vehículo, casa o café público.",
+        "Confirme los detalles de la cita con antelación. Lleva el anillo, la documentación pertinente y la identificación en un contenedor seguro y discreto. Evite exhibir el artículo antes de llegar al área de evaluación."
+      ],
+      "appointmentIntro": "En la cita:",
+      "bullets": [
+        "Pregunte quién manejará el anillo.",
+        "Confirme si el examen se realizará en su presencia.",
+        "Solicite un recibo si el anillo debe permanecer en manos del comprador.",
+        "Asegúrese de que el recibo describa con precisión el artículo.",
+        "Registre el número de informe y la información de identificación visible.",
+        "Pregunte antes de retirar el diamante de su engaste.",
+        "Confirme quién es responsable si el artículo se pierde o se daña.",
+        "Guarde copias de cada documento que firme."
+      ],
+      "closing": [
+        "Si el anillo necesita salir de las instalaciones para pruebas de laboratorio, certificación u otro examen especializado, solicite términos escritos que expliquen dónde irá, cómo se transportará, cómo se asegurará y cuándo se devolverá.",
+        "Nunca firme un documento de transferencia de propiedad a menos que comprenda que está completando la venta."
+      ]
+    },
+    {
+      "id": "step-10",
+      "number": 10,
+      "title": "Utilice transporte seguro y documentado",
+      "paragraphs": [
+        "Cuando una cita en persona no es práctica, algunos compradores pueden ofrecer un proceso de envío o recogida. No envíe un anillo de diamantes valioso hasta que comprenda todos los detalles del transporte."
+      ],
+      "termsIntro": "Los términos escritos deben identificar:",
+      "bullets": [
+        "El remitente y el destinatario",
+        "La dirección de entrega correcta",
+        "El proveedor de transporte",
+        "Requisitos de seguimiento",
+        "Requisitos de firma",
+        "El valor declarado",
+        "El alcance del seguro.",
+        "Exclusiones de seguro",
+        "Requisitos de embalaje",
+        "Responsabilidad durante el tránsito",
+        "¿Qué pasa si el envío se retrasa o se pierde?",
+        "Cómo se devuelve el anillo si no se produce la venta"
+      ],
+      "closing": [
+        "El embalaje exterior no debe anunciar que contiene joyas, pero cada declaración hecha al transportista o al asegurador debe ser precisa. Utilice un embalaje interior seguro que impida que la caja del anillo se mueva y conserve fotografías del artículo y el embalaje antes del envío.",
+        "Un número de seguimiento por sí solo no prueba que un envío esté asegurado por su valor total. Confirme el límite real del seguro y las exclusiones por escrito.",
+        "No realice envíos a una dirección recibida únicamente a través de un mensaje no verificado. Confirme la dirección a través de los datos de contacto oficiales del comprador."
+      ]
+    },
+    {
+      "id": "step-11",
+      "number": 11,
+      "title": "Revisar el examen y la oferta escrita",
+      "paragraphs": [
+        "Después de inspeccionar el anillo, el comprador debe explicar si la oferta cubre el anillo completo o componentes específicos."
+      ],
+      "offerIntro": "La oferta podrá considerar:",
+      "bullets": [
+        "Origen natural o cultivado en laboratorio.",
+        "Calidad del diamante central",
+        "Informe de calificaciones",
+        "Daño o condición",
+        "diamantes laterales",
+        "Contenido de metales preciosos",
+        "Marca o diseñador",
+        "Interés antiguo o de coleccionista",
+        "Demanda de compra actual",
+        "Recorte o certificación necesarios",
+        "Canal de reventa previsto por el comprador"
+      ],
+      "closing": [
+        "Solicite la oferta por escrito. El documento debe identificar el artículo y mostrar el monto que recibirá después de las deducciones acordadas.",
+        "No compare una oferta neta directa con una estimación de subasta o un precio de venta de consignación sin tener en cuenta las comisiones, los honorarios, la probabilidad de venta y el momento de pago.",
+        "Si un presupuesto en línea cambia después de la inspección, pregunte qué característica verificada provocó el cambio. Las razones legítimas pueden incluir una discrepancia con la información enviada, daños, un informe incorrecto, un tratamiento no revelado o la confirmación de que el diamante es cultivado en laboratorio y no natural.",
+        "El comprador debería poder explicar el ajuste."
+      ]
+    },
+    {
+      "id": "step-12",
+      "number": 12,
+      "title": "Confirmar el pago antes de soltar el anillo",
+      "paragraphs": [
+        "Acuerde el método de pago antes de firmar los documentos de venta. El método más seguro depende de la transacción y de las partes involucradas, pero el pago debe confirmarse de forma independiente.",
+        "Una captura de pantalla, un correo electrónico, un mensaje de texto o un recibo generado por el comprador no son prueba de que los fondos se hayan liquidado. Verifique el pago a través de su propio banco o proveedor financiero utilizando un método de inicio de sesión confiable."
+      ],
+      "confirmIntro": "Antes de completar la transacción, confirme:",
+      "bullets": [
+        "la cantidad acordada",
+        "El método de pago",
+        "La cuenta del destinatario",
+        "Cualquier cargo de transacción",
+        "Tiempo de procesamiento esperado",
+        "Si el pago se puede revertir",
+        "Cuando se transfiere la propiedad",
+        "Cuando se soltará el anillo."
+      ],
+      "closing": [
+        "No comparta contraseñas bancarias, códigos de seguridad ni acceso remoto a su dispositivo. Un comprador legítimo no necesita estos datos para pagarle.",
+        "Si el pago no se ha liquidado según los términos acordados, no entregue el anillo simplemente porque el comprador diga que la transferencia está pendiente."
+      ]
+    },
+    {
+      "id": "step-13",
+      "number": 13,
+      "title": "Mantenga un registro de transacciones completo",
+      "paragraphs": [
+        "Después de la venta, conserve una copia de:"
+      ],
+      "bullets": [
+        "La oferta final por escrito.",
+        "El acuerdo de compra",
+        "La descripción del artículo",
+        "Los datos del comprador.",
+        "El número del informe de calificaciones.",
+        "Confirmación de pago",
+        "Registro de recogida o entrega",
+        "Correspondencia sobre la transacción."
+      ],
+      "closing": [
+        "El recibo final debe identificar lo que se vendió y la fecha de transferencia. Si el engaste y el diamante fueron valorados o comprados por separado, la documentación debe dejar esto claro.",
+        "No cancele la cobertura del seguro hasta que se haya completado la venta, se haya liquidado el pago y se haya transferido la responsabilidad del artículo. Comuníquese con la aseguradora si no está seguro de cuándo debe finalizar la cobertura."
+      ]
+    }
+  ],
+  "form": {
+    "id": "secure-evaluation-form",
+    "leadSource": "how_to_sell_diamond_ring_safely",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP y PDF",
+    "title": "Comience su evaluación segura de anillos de diamantes",
+    "subtitle": "Envíe los detalles que conoce y suba fotografías claras. Un especialista de Dalila se pondrá en contacto contigo utilizando tu método preferido.",
+    "ringTypes": [
+      "Anillo de compromiso con diamantes naturales",
+      "Otro anillo de diamantes naturales.",
+      "Anillo antiguo o vintage",
+      "Anillo de marca o firmado",
+      "Anillo de diamantes cultivados en laboratorio",
+      "no estoy seguro"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Otro laboratorio",
+      "Sin informe",
+      "no estoy seguro"
+    ],
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Princess",
+      "Marquise",
+      "Asscher",
+      "Heart",
+      "Other",
+      "Unknown"
+    ],
+    "contactMethods": [
+      "Correo electrónico",
+      "Teléfono",
+      "Ya sea correo electrónico o teléfono"
+    ],
+    "evaluationPreferences": [
+      "Solo revisión en línea",
+      "Cita privada en Amberes",
+      "No estoy seguro todavía"
+    ],
+    "consentText": "Acepto que Dalila Diamonds pueda comunicarse conmigo sobre esta solicitud de evaluación. Entiendo que una revisión en línea es preliminar y que una oferta final puede requerir inspección física, verificación de informes y controles de propiedad.",
+    "privacyLinkText": "política de privacidad",
+    "privacyHref": "/contact",
+    "submitButton": "Iniciar mi evaluación segura",
+    "submittingButton": "Sumisión…",
+    "successMessage": "Gracias. Los detalles de su anillo se han enviado para su revisión. Un miembro del equipo de Dalila Diamonds se comunicará con usted en breve.",
+    "errorMessage": "No pudimos enviar su solicitud. Por favor verifique los campos requeridos e inténtelo nuevamente.",
+    "labels": {
+      "ringType": "¿Qué tipo de anillo vendes?",
+      "reportStatus": "¿Tienes un informe de calificaciones?",
+      "reportNumber": "Número de informe",
+      "caratWeight": "Peso aproximado en quilates",
+      "shape": "Diamond shape",
+      "uploadPhotos": "Subir fotografías",
+      "uploadReport": "Subir informe de calificaciones",
+      "dragDrop": "Arrastre y suelte archivos aquí, o elija archivos",
+      "fullName": "nombre completo",
+      "email": "Dirección de correo electrónico",
+      "phone": "Número telefónico",
+      "country": "País",
+      "contactMethod": "Método de contacto preferido",
+      "evaluationPreference": "Revisión en línea o cita en Amberes",
+      "additionalInfo": "Información adicional",
+      "optional": "Opcional"
+    },
+    "validation": {
+      "ringTypeRequired": "Seleccione qué tipo de anillo está vendiendo.",
+      "reportRequired": "Seleccione el estado de su informe de calificaciones.",
+      "nameRequired": "Por favor ingrese su nombre completo.",
+      "contactRequired": "Por favor proporcione una dirección de correo electrónico o un número de teléfono.",
+      "countryRequired": "Por favor ingrese su país.",
+      "consentRequired": "Confirme la declaración de consentimiento antes de enviarla."
+    }
+  },
+  "checklistForm": {
+    "leadSource": "diamond_seller_safety_checklist",
+    "title": "Envíeme por correo electrónico la lista de verificación de seguridad para vendedores de diamantes",
+    "subtitle": "Reciba una lista de verificación descargable que cubre documentación, verificación del comprador, confirmación de pago y entrega segura.",
+    "submitButton": "Envíame la lista de verificación",
+    "submittingButton": "Envío…",
+    "successMessage": "Gracias. Le enviaremos por correo electrónico la lista de verificación de seguridad del vendedor de diamantes en breve.",
+    "errorMessage": "No pudimos procesar su solicitud. Por favor revisa los campos y vuelve a intentarlo.",
+    "consentText": "Acepto recibir la lista de verificación y la información de seguimiento relacionada de Dalila Diamonds.",
+    "labels": {
+      "firstName": "Nombre de pila",
+      "email": "Dirección de correo electrónico",
+      "country": "País"
+    },
+    "validation": {
+      "firstNameRequired": "Por favor ingrese su nombre.",
+      "emailRequired": "Por favor ingrese su dirección de correo electrónico.",
+      "countryRequired": "Por favor ingrese su país.",
+      "consentRequired": "Confirme el consentimiento antes de enviar."
+    }
+  },
+  "safetyChecklist": {
+    "id": "safety-checklist",
+    "title": "Lista de verificación de seguridad para la venta de anillos de diamantes",
+    "intro": "Utilice esta lista de verificación antes de completar la venta.",
+    "sections": [
+      {
+        "title": "Anillo y Documentación",
+        "items": [
+          "He fotografiado el anillo completo.",
+          "He copiado el informe de calificaciones.",
+          "He verificado el informe a través del laboratorio oficial.",
+          "He registrado daños o reparaciones existentes.",
+          "He reunido los documentos de propiedad disponibles.",
+          "Yo no me he quitado el diamante."
+        ]
+      },
+      {
+        "title": "Verificación del comprador",
+        "items": [
+          "He confirmado el nombre comercial y la dirección del comprador.",
+          "Entiendo quién evaluará el anillo.",
+          "Sé si se aplican cargos.",
+          "Entiendo lo que sucede si rechazo la oferta.",
+          "Sé cómo se protegerá el anillo.",
+          "He recibido los términos importantes por escrito."
+        ]
+      },
+      {
+        "title": "Oferta y Pago",
+        "items": [
+          "Entiendo si el importe es una oferta, un presupuesto o un precio de consignación.",
+          "Sé si la oferta incluye el engaste y las piedras laterales.",
+          "Entiendo cada deducción.",
+          "He confirmado el método de pago.",
+          "Verificaré el pago liquidado de forma independiente.",
+          "Mantendré un recibo completo y un registro de transacciones."
+        ]
+      }
+    ]
+  },
+  "commonScams": {
+    "id": "common-scams",
+    "title": "Estafas comunes de venta de diamantes y señales de advertencia",
+    "intro": "Los vendedores de joyas valiosas pueden ser blanco de compradores falsos, estafas de pago y prácticas de valoración engañosas. La respuesta más segura a la presión o la incertidumbre es hacer una pausa.",
+    "items": [
+      {
+        "title": "Confirmación de pago falsa",
+        "text": "El vendedor recibe una captura de pantalla o un correo electrónico indicando que se ha enviado el pago. El mensaje puede imitar a un banco o proveedor de pagos. Verifique su cuenta de forma independiente. No siga un enlace de inicio de sesión proporcionado por el comprador y no suelte el anillo hasta que el pago se haya liquidado de acuerdo con los términos acordados."
+      },
+      {
+        "title": "Estafa de sobrepago",
+        "text": "El comprador afirma haber pagado demasiado y pide al vendedor que le reembolse la diferencia. El pago original puede fallar o revertirse posteriormente. No envíe un reembolso hasta que su banco o proveedor de pagos haya confirmado de forma independiente la transacción y le haya informado cómo proceder."
+      },
+      {
+        "title": "Sustitución de dirección",
+        "text": "Un supuesto comprador cambia la dirección de entrega a través de un mensaje privado una vez concertada la transacción. Confirme los cambios a través de la información de contacto comercial oficial del comprador y asegúrese de que la nueva dirección permanezca cubierta por los términos de transporte y seguro."
+      },
+      {
+        "title": "Presión para decidir inmediatamente",
+        "text": "Un comprador afirma que la oferta desaparecerá en cuestión de minutos o le disuade de leer los documentos. Las ofertas del mercado de diamantes pueden tener un período de validez, pero se debe explicar claramente un límite de tiempo legítimo. No firme bajo presión artificial."
+      },
+      {
+        "title": "Reducción de precio inexplicable",
+        "text": "Un comprador da una estimación preliminar alta y la reduce drásticamente después de recibir el anillo sin identificar qué cambió. Solicite el motivo verificado por escrito. Si la explicación no es clara, rechace la oferta y solicite la devolución del anillo en los términos acordados."
+      },
+      {
+        "title": "Reclamo de envío sin seguro",
+        "text": "Un comprador describe un envío como \"totalmente asegurado\" sin indicar el límite de valor real, las exclusiones ni la parte responsable. Solicite evidencia escrita de cobertura. No asuma que la compensación de paquete estándar cubre un anillo de diamantes de alto valor."
+      },
+      {
+        "title": "Preocupación por la sustitución",
+        "text": "Al vendedor le preocupa que el diamante o el anillo puedan ser reemplazados durante un examen. Fotografíe el anillo, registre el número del informe de calificación, recurra a un profesional y pregunte cómo se comparará el diamante con su informe. Si el artículo debe permanecer en manos del comprador, obtenga un recibo detallado."
+      }
+    ]
+  },
+  "cleanOrRepair": {
+    "id": "clean-or-repair",
+    "title": "¿Debo limpiar o reparar el anillo antes de venderlo?",
+    "paragraphs": [
+      "Una limpieza suave puede facilitar la fotografía del anillo, pero no siempre es recomendable una limpieza, pulido o reparación agresivos.",
+      "La pátina antigua, los acabados originales, los contrastes y los detalles de construcción pueden ser importantes para un especialista. Reparar un engaste dañado sin saber si el comprador quiere el anillo completo también puede agregar un costo que no se recupera en la oferta.",
+      "No utilice herramientas afiladas para limpiar detrás del diamante y no pruebe el engaste empujando o girando la piedra. Si el diamante parece suelto, deje de usar el anillo e infórmeselo al comprador antes de transportarlo o examinarlo.",
+      "En caso de duda, envíe el anillo en su estado actual y pregunte si se recomienda realizar alguna limpieza, reparación o trabajo de laboratorio."
+    ]
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "¿Puedo vender un anillo de diamantes sin certificado?",
+    "paragraphs": [
+      "Sí. La falta de un certificado no impide automáticamente la venta de un anillo de diamantes.",
+      "Comience proporcionando fotografías claras, la fecha aproximada de compra y cualquier recibo, tasación o registro de seguro disponible. Es posible que un especialista pueda realizar una revisión inicial y explicar si valdría la pena realizar una prueba física o un nuevo informe de laboratorio."
+    ],
+    "confirmIntro": "La oferta final puede depender de la confirmación de:",
+    "bullets": [
+      "Si la piedra es un diamante",
+      "Ya sea natural o cultivado en laboratorio",
+      "Peso aproximado en quilates",
+      "Color y claridad",
+      "Tratos",
+      "Daño",
+      "Estado general"
+    ],
+    "closing": "No inventes calificaciones si no las conoces. Seleccione \"desconocido\" en el formulario y permita que el comprador explique el siguiente paso.",
+    "ctaText": "VALORAR MI ANILLO DE DIAMANTES SIN CERTIFICADO",
+    "ctaHref": "/resources/sell-diamond-without-certificate"
+  },
+  "inheritedRing": {
+    "id": "inherited-ring",
+    "title": "¿Puedo vender con seguridad un anillo de diamantes heredado?",
+    "paragraphs": [
+      "Un anillo heredado se puede evaluar de la misma manera que otro anillo de diamantes, pero es posible que el vendedor deba establecer la propiedad legal.",
+      "Reúna documentos patrimoniales, tasaciones antiguas, recibos, registros familiares, cronogramas de seguros y el informe de calificación original, cuando esté disponible. Evite cambiar el anillo antes de haber evaluado su edad, diseño y posible importancia de la marca.",
+      "Algunos anillos heredados valen más como joyas antiguas o firmadas. Otros obtienen la mayor parte de su valor comercial del diamante central y del metal precioso. Una evaluación especializada puede ayudar a determinar qué situación se aplica.",
+      "Si varias personas comparten la propiedad a través de un patrimonio, confirme que la persona que organiza la venta tiene autoridad para hacerlo."
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Cómo le ayuda Dalila a comenzar el proceso de forma segura",
+    "paragraphs": [
+      "Dalila Diamonds permite a los vendedores comenzar con una presentación en línea en lugar de entregar el anillo inmediatamente.",
+      "Podrás proporcionar la información de calificación disponible, subir fotografías y explicar si el anillo tiene certificado. Luego, Dalila puede revisar si el artículo se ajusta a sus criterios de compra y si es apropiada una evaluación física en Amberes."
+    ],
+    "stepsTitle": "El proceso",
+    "steps": [
+      "Envíe los detalles del anillo y fotografías.",
+      "Reciba una revisión privada inicial.",
+      "Proporcionar cualquier documentación adicional solicitada.",
+      "Organizar la verificación física en Amberes cuando sea necesario.",
+      "Reciba una oferta si el anillo cumple con los criterios de compra de Dalila.",
+      "Decide si quieres continuar."
+    ],
+    "closing": "Enviar un anillo para revisión no debería requerir que el vendedor acepte una oferta.",
+    "ctaText": "COMENZAR MI EVALUACIÓN SEGURA DE ANILLO DE DIAMANTES",
+    "ctaHref": "#secure-evaluation-form"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cuál es la forma más segura de vender un anillo de diamantes?",
+        "answer": "El proceso más seguro es verificar al comprador, documentar el anillo, comprender la valoración, utilizar transporte seguro o una ubicación comercial establecida y confirmar el pago liquidado antes de entregar el artículo."
+      },
+      {
+        "question": "¿Cómo puedo vender mi anillo de diamantes sin que me estafen?",
+        "answer": "Evite compradores anónimos, capturas de pantalla de pagos, envíos sin seguro y presión para decidir de inmediato. Verifique los detalles comerciales del comprador y obtenga los términos escritos antes de entregar el anillo."
+      },
+      {
+        "question": "¿Necesito una tasación antes de vender mi anillo de diamantes?",
+        "answer": "No siempre. Una tasación independiente de mercado justo puede ayudarle a comprender el artículo, pero no es lo mismo que una oferta de compra. Un comprador especializado también puede comenzar con el informe de calificación y las fotografías."
+      },
+      {
+        "question": "¿Es lo mismo un informe de clasificación de diamantes que una tasación?",
+        "answer": "No. Un informe de clasificación describe características como el peso en quilates, el color, la claridad y el corte. Una tasación asigna un valor monetario para un propósito particular."
+      },
+      {
+        "question": "¿Puedo vender un anillo de diamantes sin certificado?",
+        "answer": "Sí. Un comprador puede comenzar con fotografías y documentos disponibles, pero es posible que sea necesario realizar pruebas o un nuevo informe de calificación antes de hacer una oferta final."
+      },
+      {
+        "question": "¿Debo quitar el diamante de su engaste antes de venderlo?",
+        "answer": "No. No retire el diamante usted mismo. Permita que un especialista revise el anillo completo y le explique si es necesario retirarlo."
+      },
+      {
+        "question": "¿Es seguro vender un anillo de diamantes online?",
+        "answer": "Un envío en línea puede ser una forma segura de comenzar cuando el comprador es verificable y el sitio web utiliza un manejo seguro de documentos. El envío físico requiere condiciones escritas de transporte, seguro y devolución."
+      },
+      {
+        "question": "¿Cómo debo enviar un anillo de diamantes a un comprador?",
+        "answer": "Utilice únicamente un proceso de envío o recogida documentado con seguimiento, requisitos de firma y seguro adecuados al valor del anillo. Confirme la dirección y la responsabilidad por la pérdida antes de enviarlo."
+      },
+      {
+        "question": "¿Cómo sé si un pago es genuino?",
+        "answer": "Consulta el pago de forma independiente a través de tu propio banco o proveedor financiero. No confíe en capturas de pantalla, correos electrónicos o enlaces proporcionados por el comprador."
+      },
+      {
+        "question": "¿Puedo vender un anillo de diamantes heredado?",
+        "answer": "Sí, siempre que tengas derecho a venderlo. Los documentos patrimoniales, los recibos, los informes de calificación y las tasaciones previas pueden ayudar a establecer la propiedad e identificar el anillo."
+      },
+      {
+        "question": "¿Debo aceptar la primera oferta de un anillo de diamantes?",
+        "answer": "No es necesario que acepte la primera oferta. Asegúrese de comprender qué se ha valorado, si se aplican deducciones y cómo se compara la oferta con otros métodos de venta."
+      },
+      {
+        "question": "¿Puede cambiar un presupuesto en línea después de una inspección física?",
+        "answer": "Sí. Una estimación puede cambiar si el diamante físico difiere de la información presentada, tiene daños o tratamiento, no coincide con el informe o es cultivado en laboratorio en lugar de natural."
+      },
+      {
+        "question": "¿Tengo que vender después de que Dalila evalúe mi anillo?",
+        "answer": "No. Solicitar una evaluación no requiere que acepte una oferta."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "sell-with-confidence",
+    "title": "Venda su anillo de diamantes con mayor confianza",
+    "paragraphs": [
+      "La venta segura de anillos de diamantes se basa en la documentación, la transparencia y el control. Comprenda lo que posee, verifique al comprador, proteja el anillo durante cada transferencia y confirme el pago antes de completar la transacción.",
+      "Si posee un anillo de diamantes naturales y desea comenzar con una revisión confidencial, envíe la información del informe disponible y las fotografías a Dalila Diamonds."
+    ],
+    "primaryButtonText": "SOLICITAR MI EVALUACIÓN PRIVADA DE ANILLO DE DIAMANTES",
+    "primaryButtonHref": "#secure-evaluation-form",
+    "secondaryButtonText": "RESERVAR UNA CITA PRIVADA EN AMBERES",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "venda su diamante de forma segura en Amberes"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calculadora de valoración de diamantes"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "El mejor lugar para vender un anillo de diamantes."
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "verificar un informe GIA, HRD o IGI"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "vender un diamante sin certificado"
+    }
+  },
+  "howToSteps": [
+    {
+      "position": 1,
+      "name": "Confirmar propiedad",
+      "text": "Confirme que tiene derecho a vender el anillo y recopile los documentos de propiedad disponibles."
+    },
+    {
+      "position": 2,
+      "name": "Reúne los documentos del anillo.",
+      "text": "Recopile el informe de calificación, recibo, tasación, documentos de marca y registros de reparación."
+    },
+    {
+      "position": 3,
+      "name": "Fotografiar el anillo",
+      "text": "Cree fotografías claras del anillo completo, el diamante, los sellos, las firmas y el estado actual."
+    },
+    {
+      "position": 4,
+      "name": "Verificar el informe de calificaciones",
+      "text": "Consultar el número de informe a través del sistema de verificación oficial del laboratorio emisor."
+    },
+    {
+      "position": 5,
+      "name": "entender el valor",
+      "text": "Distinga entre precio de venta original, tasación del seguro, valor justo de mercado, valor de reventa y oferta de compra directa."
+    },
+    {
+      "position": 6,
+      "name": "Elige una ruta de venta",
+      "text": "Elige un comprador especialista, subasta, consignación o venta privada según el anillo y tus prioridades."
+    },
+    {
+      "position": 7,
+      "name": "Verificar al comprador",
+      "text": "Confirme la identidad del comprador, dirección comercial, proceso de evaluación, tarifas y condiciones de pago."
+    },
+    {
+      "position": 8,
+      "name": "Solicitar una revisión preliminar",
+      "text": "Envíe la información de calificación y fotografías antes de transportar o entregar el anillo."
+    },
+    {
+      "position": 9,
+      "name": "Proteger la entrega",
+      "text": "Utilice una ubicación comercial establecida o transporte documentado con seguro y seguimiento adecuados."
+    },
+    {
+      "position": 10,
+      "name": "Revisar la oferta escrita",
+      "text": "Confirme qué incluye la oferta, qué deducciones se aplican y por qué el monto final puede diferir de una estimación."
+    },
+    {
+      "position": 11,
+      "name": "Confirmar pago",
+      "text": "Verifique el pago liquidado de forma independiente antes de transferir la propiedad o liberar el anillo."
+    },
+    {
+      "position": 12,
+      "name": "Mantenga un registro de transacciones",
+      "text": "Conserve la oferta, el acuerdo de compra, la descripción del artículo, los datos del comprador y la confirmación de pago."
+    }
+  ]
+}

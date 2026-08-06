@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "title": "Diamantmaattabel: karaat tot MM per vorm | Dalila",
+    "description": "Gebruik de diamantmaattabel van Dalila om de afmetingen van karaat tot mm bij benadering te vergelijken voor ronde, ovale, peervormige, kussenvormige, smaragdgroene en andere natuurlijke diamanten.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-size-chart",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "banner": {
+    "title": "Diamant maattabel",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Diamant maattabel",
+    "imageAlt": "Informatiebanner voor diamantmaattabellen voor kopers van natuurlijke diamanten"
+  },
+  "hero": {
+    "title": "Diamantmaattabel: karaat-tot-MM-gids per vorm",
+    "paragraphs": [
+      "Het karaatgewicht geeft aan hoeveel een diamant weegt. Millimetermetingen vertellen je hoe groot het van bovenaf lijkt.",
+      "Een goed geproportioneerde ronde briljant van 1 karaat heeft gewoonlijk een diameter van ongeveer 6,4-6,5 mm, terwijl een ronde diamant van 2 karaat gewoonlijk ongeveer 8,0-8,2 mm meet. Fancy-vormige diamanten vereisen zowel lengte- als breedtematen, en hun zichtbare grootte kan aanzienlijk variëren afhankelijk van vorm, proporties en diepte.",
+      "Gebruik deze diamantmaattabel om geschatte afmetingen te vergelijken voor ronde, ovale, kussen-, prinses-, smaragd-, stralende, peer-, marquise-, Asscher- en hartvormige natuurlijke diamanten."
+    ],
+    "importantNote": "Belangrijk: elke meting op deze pagina is een referentie bij benadering. Karaat meet het gewicht, niet de diameter, lengte, breedte of oppervlakte. Bevestig altijd de afmetingen van de individuele diamant met behulp van het beoordelingsrapport.",
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "BRON EEN DIAMANT DOOR EXACTE METINGEN",
+    "secondaryButtonHref": "/diamond-source",
+    "image": {
+      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "alt": "Diamantmaattabel waarin karaatgewicht en millimeterafmetingen per vorm worden vergeleken",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "oneCaratComparison": {
+      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "alt": "Natuurlijke diamanten van één karaat in verschillende vormen naast elkaar",
+      "width": 1400,
+      "height": 900
+    },
+    "depthComparison": {
+      "src": "/b2b/close-up.jpg",
+      "alt": "Ondiepe gebalanceerde en diepe diamanten vergeleken met face-up spread",
+      "width": 1400,
+      "height": 900
+    },
+    "fingerComparison": {
+      "src": "/diamonds_source/handshake.jpg",
+      "alt": "Ronde diamantgroottes vergeleken op dezelfde vinger",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Snel antwoord: hoe groot is een diamant van één karaat?"
+      },
+      {
+        "id": "diamond-carat-to-mm-converter",
+        "label": "Diamant-karaat-naar-mm-omzetter"
+      },
+      {
+        "id": "diamond-size-chart-by-shape",
+        "label": "Diamantmaattabel per vorm"
+      },
+      {
+        "id": "round-diamond-size-chart",
+        "label": "Ronde diamantmaattabel"
+      },
+      {
+        "id": "small-round-diamond-mm-to-carat-chart",
+        "label": "Kleine ronde diamanten mm-tot-karaatgrafiek"
+      },
+      {
+        "id": "what-do-carat-and-mm-mean",
+        "label": "Wat betekenen karaat en mm?"
+      },
+      {
+        "id": "why-same-carat-can-look-different",
+        "label": "Waarom kunnen twee diamanten van dezelfde karaat er verschillend uitzien?"
+      },
+      {
+        "id": "which-diamond-shape-looks-largest",
+        "label": "Welke diamantvorm lijkt het grootst?"
+      },
+      {
+        "id": "what-size-is-a-two-carat-diamond",
+        "label": "Welke maat heeft een diamant van twee karaat?"
+      },
+      {
+        "id": "how-to-compare-diamond-size",
+        "label": "Hoe diamantgrootte correct te vergelijken"
+      },
+      {
+        "id": "how-large-on-a-finger",
+        "label": "Hoe groot zal een diamant op een vinger lijken?"
+      },
+      {
+        "id": "choosing-for-existing-setting",
+        "label": "Een diamant kiezen voor een bestaande zetting"
+      },
+      {
+        "id": "choosing-matched-diamonds",
+        "label": "Matchende diamanten kiezen"
+      },
+      {
+        "id": "does-larger-looking-mean-better",
+        "label": "Betekent een groter uitziende diamant altijd een betere diamant?"
+      },
+      {
+        "id": "find-a-natural-diamond",
+        "label": "Vind een natuurlijke diamant in de maat die u nodig heeft"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Snel antwoord: hoe groot is een diamant van één karaat?",
+    "intro": [
+      "Een ronde briljante diamant van één karaat heeft gewoonlijk een diameter van ongeveer 6,4-6,5 mm.",
+      "Een fantasievormige diamant van één karaat kan heel verschillende afmetingen hebben:"
+    ],
+    "measurements": [
+      {
+        "shape": "Round",
+        "value": "approximately 6.4–6.5 mm"
+      },
+      {
+        "shape": "Oval",
+        "value": "approximately 7.5–8.2 × 5.3–5.8 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "approximately 8.3–9.1 × 5.4–5.8 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "approximately 9.5–10.5 × 4.7–5.3 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "approximately 6.5–7.0 × 4.5–5.0 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "approximately 6.5–7.3 × 5.0–5.5 mm"
+      },
+      {
+        "shape": "Square cushion",
+        "value": "approximately 5.5–6.1 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "approximately 5.3–5.6 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "approximately 5.3–5.7 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "approximately 6.3–6.8 mm"
+      }
+    ],
+    "closing": [
+      "Twee diamanten van één karaat kunnen daarom merkbaar verschillende contouren en afmetingen naar boven hebben."
+    ]
+  },
+  "converter": {
+    "id": "diamond-carat-to-mm-converter",
+    "title": "Diamant karaat-naar-MM-converter",
+    "subtitle": "Vergelijk de geschatte grootte van een diamant",
+    "shapeLabel": "Selecteer diamantvorm:",
+    "caratLabel": "Selecteer karaatgewicht:",
+    "resultHeading": "Geschatte metingen met de voorkant naar boven",
+    "resultText": "Dit is een geschat referentiebereik. De daadwerkelijke diamant kan verschillende afmetingen hebben vanwege de diepte, verhoudingen, gordel, omtrek en lengte-breedteverhouding.",
+    "viewInventoryText": "Bekijk diamanten in dit karaatbereik",
+    "viewInventoryHref": "/inventory",
+    "requestDs4uText": "Vraag deze metingen aan via DS4U",
+    "requestDs4uHref": "/diamond-source",
+    "unavailableMessage": "Geschatte afmetingen voor deze combinatie staan ​​niet in de tabel. Bekijk de onderstaande tabellen of vraag exacte metingen aan via DS4U.",
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Princess",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Marquise",
+      "Asscher",
+      "Heart"
+    ],
+    "carats": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "1.00",
+      "1.25",
+      "1.50",
+      "2.00",
+      "2.50",
+      "3.00",
+      "4.00",
+      "5.00"
+    ],
+    "results": {
+      "Round|0.25": "4.0–4.1 mm",
+      "Round|0.50": "5.0–5.2 mm",
+      "Round|0.75": "5.7–5.9 mm",
+      "Round|1.00": "6.4–6.5 mm",
+      "Round|1.25": "6.8–7.0 mm",
+      "Round|1.50": "7.3–7.5 mm",
+      "Round|2.00": "8.0–8.2 mm",
+      "Round|2.50": "8.7–8.9 mm",
+      "Round|3.00": "9.2–9.4 mm",
+      "Round|4.00": "10.1–10.3 mm",
+      "Round|5.00": "10.9–11.1 mm",
+      "Oval|0.50": "5.8–6.3 × 3.8–4.2 mm",
+      "Oval|1.00": "7.5–8.2 × 5.3–5.8 mm",
+      "Oval|1.50": "8.5–9.2 × 6.0–6.5 mm",
+      "Oval|2.00": "9.5–10.5 × 6.7–7.2 mm",
+      "Oval|3.00": "11.0–12.0 × 7.5–8.0 mm",
+      "Cushion|0.50": "4.7–5.0 mm",
+      "Cushion|1.00": "5.5–6.1 mm",
+      "Cushion|1.50": "6.3–6.8 mm",
+      "Cushion|2.00": "7.0–8.0 mm",
+      "Cushion|3.00": "8.0–9.0 mm",
+      "Princess|0.50": "4.3–4.6 mm",
+      "Princess|1.00": "5.3–5.6 mm",
+      "Princess|1.50": "6.2–6.6 mm",
+      "Princess|2.00": "6.8–7.2 mm",
+      "Princess|3.00": "7.8–8.2 mm",
+      "Emerald|0.50": "5.5–6.0 × 3.8–4.2 mm",
+      "Emerald|1.00": "6.5–7.0 × 4.5–5.0 mm",
+      "Emerald|1.50": "7.3–7.8 × 5.2–5.7 mm",
+      "Emerald|2.00": "8.3–8.8 × 6.0–6.5 mm",
+      "Emerald|3.00": "9.3–10.0 × 6.8–7.5 mm",
+      "Radiant|0.50": "5.5–6.0 × 4.0–4.5 mm",
+      "Radiant|1.00": "6.5–7.3 × 5.0–5.5 mm",
+      "Radiant|1.50": "7.2–7.8 × 5.6–6.1 mm",
+      "Radiant|2.00": "7.8–8.5 × 6.2–7.0 mm",
+      "Radiant|3.00": "9.0–9.8 × 7.0–7.8 mm",
+      "Pear|0.50": "6.5–7.3 × 4.3–4.7 mm",
+      "Pear|1.00": "8.3–9.1 × 5.4–5.8 mm",
+      "Pear|1.50": "9.5–10.2 × 6.2–6.6 mm",
+      "Pear|2.00": "10.5–11.5 × 6.8–7.3 mm",
+      "Pear|3.00": "12.0–13.0 × 7.8–8.3 mm",
+      "Marquise|0.50": "7.8–8.5 × 3.8–4.2 mm",
+      "Marquise|1.00": "9.5–10.5 × 4.7–5.3 mm",
+      "Marquise|1.50": "11.5–12.3 × 5.7–6.2 mm",
+      "Marquise|2.00": "12.5–13.5 × 6.2–6.8 mm",
+      "Marquise|3.00": "14.5–15.5 × 7.0–7.7 mm",
+      "Asscher|0.50": "4.3–4.6 mm",
+      "Asscher|1.00": "5.3–5.7 mm",
+      "Asscher|1.50": "6.2–6.6 mm",
+      "Asscher|2.00": "6.8–7.2 mm",
+      "Asscher|3.00": "7.8–8.2 mm",
+      "Heart|0.50": "4.8–5.2 mm",
+      "Heart|1.00": "6.3–6.8 mm",
+      "Heart|1.50": "7.2–7.6 mm",
+      "Heart|2.00": "7.8–8.3 mm",
+      "Heart|3.00": "8.8–9.3 mm"
+    }
+  },
+  "sizeChartByShape": {
+    "id": "diamond-size-chart-by-shape",
+    "title": "Diamantmaattabel per vorm",
+    "intro": [
+      "De volgende tabel toont geschatte metingen met de voorkant naar boven bij vaak gezochte karaatgewichten.",
+      "Voor ronde diamanten is de maat de geschatte diameter. Voor mooie vormen worden de afmetingen weergegeven als geschatte lengte x breedte."
+    ],
+    "table": {
+      "caption": "Geschatte diamantafmetingen naar boven op vorm en karaat",
+      "headers": [
+        "Diamantvorm",
+        "0,50 ct",
+        "1,00 ct",
+        "1,50 ct",
+        "2,00 ct",
+        "3,00 ct"
+      ],
+      "rows": [
+        [
+          "Round",
+          "5.0–5.2 mm",
+          "6.4–6.5 mm",
+          "7.3–7.5 mm",
+          "8.0–8.2 mm",
+          "9.2–9.4 mm"
+        ],
+        [
+          "Oval",
+          "5.8–6.3 × 3.8–4.2 mm",
+          "7.5–8.2 × 5.3–5.8 mm",
+          "8.5–9.2 × 6.0–6.5 mm",
+          "9.5–10.5 × 6.7–7.2 mm",
+          "11.0–12.0 × 7.5–8.0 mm"
+        ],
+        [
+          "Cushion",
+          "4.7–5.0 mm",
+          "5.5–6.1 mm",
+          "6.3–6.8 mm",
+          "7.0–8.0 mm",
+          "8.0–9.0 mm"
+        ],
+        [
+          "Princess",
+          "4.3–4.6 mm",
+          "5.3–5.6 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Emerald",
+          "5.5–6.0 × 3.8–4.2 mm",
+          "6.5–7.0 × 4.5–5.0 mm",
+          "7.3–7.8 × 5.2–5.7 mm",
+          "8.3–8.8 × 6.0–6.5 mm",
+          "9.3–10.0 × 6.8–7.5 mm"
+        ],
+        [
+          "Radiant",
+          "5.5–6.0 × 4.0–4.5 mm",
+          "6.5–7.3 × 5.0–5.5 mm",
+          "7.2–7.8 × 5.6–6.1 mm",
+          "7.8–8.5 × 6.2–7.0 mm",
+          "9.0–9.8 × 7.0–7.8 mm"
+        ],
+        [
+          "Pear",
+          "6.5–7.3 × 4.3–4.7 mm",
+          "8.3–9.1 × 5.4–5.8 mm",
+          "9.5–10.2 × 6.2–6.6 mm",
+          "10.5–11.5 × 6.8–7.3 mm",
+          "12.0–13.0 × 7.8–8.3 mm"
+        ],
+        [
+          "Marquise",
+          "7.8–8.5 × 3.8–4.2 mm",
+          "9.5–10.5 × 4.7–5.3 mm",
+          "11.5–12.3 × 5.7–6.2 mm",
+          "12.5–13.5 × 6.2–6.8 mm",
+          "14.5–15.5 × 7.0–7.7 mm"
+        ],
+        [
+          "Asscher",
+          "4.3–4.6 mm",
+          "5.3–5.7 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Heart",
+          "4.8–5.2 mm",
+          "6.3–6.8 mm",
+          "7.2–7.6 mm",
+          "7.8–8.3 mm",
+          "8.8–9.3 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Deze bereiken zijn bedoeld voor visuele vergelijking. Ze mogen niet worden gebruikt om een ​​zetting te vervaardigen of om te bevestigen of een diamant in een bestaand sieraad past."
+    ]
+  },
+  "roundChart": {
+    "id": "round-diamond-size-chart",
+    "title": "Ronde diamant maattabel",
+    "intro": [
+      "Ronde briljante diamanten gebruiken diametermetingen. Een sorteerrapport registreert normaal gesproken de minimale diameter, maximale diameter en totale diepte."
+    ],
+    "table": {
+      "caption": "Ronde diamant geschatte diameter per karaatgewicht",
+      "headers": [
+        "Karaat gewicht",
+        "Geschatte diameter"
+      ],
+      "rows": [
+        [
+          "0,01 ct",
+          "1.3 mm"
+        ],
+        [
+          "0,02 ct",
+          "1.7 mm"
+        ],
+        [
+          "0,03 ct",
+          "2.0 mm"
+        ],
+        [
+          "0,05 ct",
+          "2.4 mm"
+        ],
+        [
+          "0,06 ct",
+          "2.5 mm"
+        ],
+        [
+          "0,10 ct",
+          "3.0 mm"
+        ],
+        [
+          "0,20 ct",
+          "3.8 mm"
+        ],
+        [
+          "0,25 ct",
+          "4.0–4.1 mm"
+        ],
+        [
+          "0,30 ct",
+          "4.3 mm"
+        ],
+        [
+          "0,40 ct",
+          "4.7–4.8 mm"
+        ],
+        [
+          "0,50 ct",
+          "5.0–5.2 mm"
+        ],
+        [
+          "0,75 ct",
+          "5.7–5.9 mm"
+        ],
+        [
+          "1,00 ct",
+          "6.4–6.5 mm"
+        ],
+        [
+          "1,25 ct",
+          "6.8–7.0 mm"
+        ],
+        [
+          "1,50 ct",
+          "7.3–7.5 mm"
+        ],
+        [
+          "1,75 ct",
+          "7.7–7.9 mm"
+        ],
+        [
+          "2,00 ct",
+          "8.0–8.2 mm"
+        ],
+        [
+          "2,50 ct",
+          "8.7–8.9 mm"
+        ],
+        [
+          "3,00 ct",
+          "9.2–9.4 mm"
+        ],
+        [
+          "4,00 ct",
+          "10.1–10.3 mm"
+        ],
+        [
+          "5,00 ct",
+          "10.9–11.1 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Een diamant buiten deze bereiken is niet automatisch slecht geslepen. De volledige proporties, lichtprestaties, gordel en zichtbare verschijning moeten worden beoordeeld voordat er een conclusie wordt getrokken."
+    ]
+  },
+  "smallRoundChart": {
+    "id": "small-round-diamond-mm-to-carat-chart",
+    "title": "Kleine ronde diamant MM-naar-karaatgrafiek",
+    "intro": [
+      "Kleine ronde diamanten worden vaak geselecteerd op millimetergrootte voor pavé-, halo-, zijsteen- en bijpassende sieradentoepassingen."
+    ],
+    "table": {
+      "caption": "Geschat gewicht voor kleine ronde diamanten qua diameter",
+      "headers": [
+        "Geschatte diameter",
+        "Geschat gewicht per diamant"
+      ],
+      "rows": [
+        [
+          "1.0 mm",
+          "0,005 ct"
+        ],
+        [
+          "1.3 mm",
+          "0,01 ct"
+        ],
+        [
+          "1.5 mm",
+          "0,015 ct"
+        ],
+        [
+          "1.7 mm",
+          "0,02 ct"
+        ],
+        [
+          "2.0 mm",
+          "0,03 ct"
+        ],
+        [
+          "2.2 mm",
+          "0,04 ct"
+        ],
+        [
+          "2.4 mm",
+          "0,05 ct"
+        ],
+        [
+          "2.5 mm",
+          "0,06 ct"
+        ],
+        [
+          "2.7 mm",
+          "0,07 ct"
+        ],
+        [
+          "2.8 mm",
+          "0,08 ct"
+        ],
+        [
+          "3.0 mm",
+          "0,10 ct"
+        ],
+        [
+          "3.2 mm",
+          "0,12 ct"
+        ],
+        [
+          "3.4 mm",
+          "0,14 ct"
+        ],
+        [
+          "3.6 mm",
+          "0,17 ct"
+        ],
+        [
+          "3.8 mm",
+          "0,20 ct"
+        ],
+        [
+          "4.0–4.1 mm",
+          "0,25 ct"
+        ],
+        [
+          "4.3 mm",
+          "0,30 ct"
+        ],
+        [
+          "5.0–5.2 mm",
+          "0,50 ct"
+        ]
+      ]
+    },
+    "closing": [
+      "De cijfers zijn geschatte gewichten voor individuele ronde diamanten. Het totale karaatgewicht van een stuk is het gecombineerde gewicht van alle diamanten, niet het gewicht van elke steen."
+    ]
+  },
+  "whatDoCaratAndMmMean": {
+    "id": "what-do-carat-and-mm-mean",
+    "title": "Wat betekenen karaat en MM?",
+    "subsections": [
+      {
+        "id": "carat-measures-weight",
+        "title": "Karaat meet gewicht",
+        "paragraphs": [
+          "Karaat, afgekort als ct, meet het gewicht van een diamant. Eén metrische karaat is gelijk aan 200 milligram en is verdeeld in 100 punten.",
+          "Bijvoorbeeld:"
+        ],
+        "bullets": [
+          "0,25 ct = 25 punten",
+          "0,50 ct = 50 punten",
+          "0,75 ct = 75 punten",
+          "1,00 ct = 100 punten"
+        ],
+        "closing": [
+          "De GIA-gids voor het karaatgewicht van diamant legt uit waarom karaat niet mag worden geïnterpreteerd als een directe meting van de zichtbare grootte."
+        ],
+        "giaCaratGuideUrl": "https://4cs.gia.edu/en-us/diamond-carat-weight/"
+      },
+      {
+        "id": "millimetres-measure-dimensions",
+        "title": "Millimeters meten afmetingen",
+        "paragraphs": [
+          "Millimetermetingen beschrijven de fysieke afmetingen van een diamant.",
+          "Voor een ronde diamant vermeldt het rapport over het algemeen:",
+          "minimale diameter x maximale diameter x diepte",
+          "Voor een diamant met een mooie vorm registreert het over het algemeen:",
+          "lengte × breedte × diepte",
+          "Lengte en breedte helpen u de voetafdruk met het gezicht naar boven te begrijpen. Diepte laat zien hoe ver de diamant zich uitstrekt van zijn tafel tot zijn culet."
+        ]
+      }
+    ]
+  },
+  "whyLookDifferent": {
+    "id": "why-same-carat-can-look-different",
+    "title": "Waarom kunnen twee diamanten van dezelfde karaat er anders uitzien?",
+    "subsections": [
+      {
+        "id": "depth",
+        "title": "Diepte",
+        "paragraphs": [
+          "Een diamant kan een groter deel van zijn gewicht onder de gordel dragen. Hierdoor kan hij er van bovenaf kleiner uitzien dan een andere diamant met hetzelfde gewicht.",
+          "Een ondiepe diamant kan een bredere face-up spreiding hebben, maar een grotere diameter betekent niet automatisch een beter uiterlijk of betere lichtprestaties."
+        ],
+        "showDepthImage": true
+      },
+      {
+        "id": "shape",
+        "title": "Vorm",
+        "paragraphs": [
+          "Langwerpige vormen zoals ovaal, peer en marquise kunnen een langere omtrek naar boven creëren dan ronde of vierkante diamanten van hetzelfde gewicht.",
+          "Dit betekent niet dat elke langwerpige diamant beter is. Er moet ook rekening worden gehouden met de omtrek, symmetrie, proporties en het zichtbare vlinderdascontrast."
+        ]
+      },
+      {
+        "id": "length-to-width-ratio",
+        "title": "Lengte-breedteverhouding",
+        "paragraphs": [
+          "Fancy-vormige diamanten kunnen compact, matig langwerpig of sterk langwerpig zijn.",
+          "Twee ovale diamanten van één karaat kunnen verschillende lengte- en breedtematen hebben omdat de ene een langere omtrek heeft. Dezelfde variatie doet zich voor bij kussen-, peer-, stralende, marquise- en smaragdgeslepen diamanten."
+        ]
+      },
+      {
+        "id": "girdle-thickness",
+        "title": "Gordeldikte",
+        "paragraphs": [
+          "De gordel vormt de buitenrand van de diamant. Een zeer dikke gordel kan extra gewicht vasthouden zonder een overeenkomstige toename van de afmeting naar boven te veroorzaken."
+        ]
+      },
+      {
+        "id": "cut-and-proportions",
+        "title": "Snit en verhoudingen",
+        "paragraphs": [
+          "De tafel, diepte, kroon, paviljoen en algemene verhoudingen van de diamant beïnvloeden de afmetingen naar boven en de visuele prestaties.",
+          "Bij ronde briljanten mag de slijpkwaliteit niet worden opgeofferd om simpelweg een iets grotere diameter te verkrijgen."
+        ]
+      }
+    ]
+  },
+  "whichShapeLooksLargest": {
+    "id": "which-diamond-shape-looks-largest",
+    "title": "Welke diamantvorm ziet er het grootst uit vanwege zijn karaatgewicht?",
+    "paragraphs": [
+      "Langwerpige marquise-, peer- en ovale diamanten creëren vaak een groter ogende omtrek omdat hun lengte een groter deel van de vinger bedekt.",
+      "Smaragdgroene en langwerpige stralende diamanten kunnen ook een aanzienlijke vingerbedekking bieden. Kussen-, Asscher- en prinsessensneden kunnen compacter lijken omdat een groter gewicht kan worden verdeeld door hun diepte of vierkante omtrek.",
+      "Zichtbare maat mag niet alleen op lengte worden beoordeeld. Breedte, oppervlakte, zettingsstijl, schittering en de balans van het volledige ontwerp hebben allemaal invloed op hoe groot een diamant lijkt."
+    ]
+  },
+  "twoCarat": {
+    "id": "what-size-is-a-two-carat-diamond",
+    "title": "Welke maat is een tweekaraats diamant?",
+    "intro": [
+      "Een ronde briljante diamant van twee karaat heeft gewoonlijk een diameter van ongeveer 8,0-8,2 mm.",
+      "Geschatte twee-karaats fancy-vormmetingen zijn onder meer:"
+    ],
+    "measurements": [
+      {
+        "shape": "Oval",
+        "value": "9.5–10.5 × 6.7–7.2 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "10.5–11.5 × 6.8–7.3 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "12.5–13.5 × 6.2–6.8 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "8.3–8.8 × 6.0–6.5 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "7.8–8.5 × 6.2–7.0 mm"
+      },
+      {
+        "shape": "Cushion",
+        "value": "7.0–8.0 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "7.8–8.3 mm"
+      }
+    ],
+    "closing": [
+      "Vergelijk altijd de afmetingen die op het beoordelingsrapport staan, in plaats van ervan uit te gaan dat elke diamant van twee karaat dezelfde zichtbare grootte heeft."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-size",
+    "title": "Hoe diamantgrootte correct te vergelijken",
+    "steps": [
+      {
+        "title": "1. Vergelijk de volledige metingen",
+        "paragraphs": [
+          "Vergelijk twee diamanten niet alleen op basis van het karaatgewicht. Bekijk hun lengte, breedte en diepte.",
+          "Vergelijk voor ronde diamanten de minimale en maximale diameter. Een groot verschil daartussen kan wijzen op een onrond overzicht."
+        ]
+      },
+      {
+        "title": "2. Denk na over de vorm",
+        "paragraphs": [
+          "Vergelijk de diameter alleen rechtstreeks bij het onderzoeken van ronde diamanten. Fancy vormen vereisen zowel lengte als breedte."
+        ]
+      },
+      {
+        "title": "3. Bekijk de lengte-breedteverhouding",
+        "paragraphs": [
+          "De lengte-breedteverhouding wordt berekend door de lengte van de diamant te delen door de breedte.",
+          "Bijvoorbeeld:",
+          "9,0 mm ÷ 6,0 mm = 1,50 verhouding",
+          "De voorkeursverhouding is deels een kwestie van uiterlijk en sieraadontwerp. Er is niet één enkele verhouding die automatisch het beste is voor iedere koper."
+        ]
+      },
+      {
+        "title": "4. Controleer het beoordelingsrapport",
+        "paragraphs": [
+          "Gebruik de metingen die op het daadwerkelijke beoordelingsrapport zijn afgedrukt. Dalila’s gids voor het lezen van een GIA-diamantrapport legt uit waar de belangrijkste metingen en beoordelingsinformatie verschijnen."
+        ],
+        "reportGuideHref": "/blogs/how-to-read-gia-diamond-certificate",
+        "reportGuideText": "het lezen van een GIA-diamantenrapport"
+      },
+      {
+        "title": "5. Bekijk afbeeldingen of video",
+        "paragraphs": [
+          "Metingen beschrijven de grootte, maar kunnen de omtrek, symmetrie, schittering, contrast of zichtbaarheid van de vlinderdas niet volledig overbrengen.",
+          "Bekijk, indien beschikbaar, duidelijke afbeeldingen of video naast de rapportinformatie."
+        ]
+      }
+    ]
+  },
+  "fingerSize": {
+    "id": "how-large-on-a-finger",
+    "title": "Hoe groot zal een diamant er uitzien op een vinger?",
+    "intro": [
+      "Het uiterlijk van een diamant op een hand hangt van meer af dan het karaatgewicht.",
+      "Belangrijke factoren zijn onder meer:"
+    ],
+    "factors": [
+      "Diamantvorm",
+      "Afmetingen naar boven gericht",
+      "Vinger- en ringmaat",
+      "Bandbreedte",
+      "Prong- of ringontwerp",
+      "Solitaire, halo of drie-stenen zetting",
+      "Oriëntatie van de diamant",
+      "Omliggende zijstenen",
+      "Kijkafstand en fotografie"
+    ],
+    "closing": [
+      "Onlineillustraties moeten daarom worden behandeld als visuele leidraad en niet als exacte weergave.",
+      "Als Dalila een afdrukbare maattabel levert, drukt u deze af op een schaal van 100% en controleert u de kalibratielijn met een liniaal. Beoordeel de werkelijke grootte niet vanaf een ongekalibreerd telefoon- of computerscherm."
+    ]
+  },
+  "existingSetting": {
+    "id": "choosing-for-existing-setting",
+    "title": "Een diamant kiezen voor een bestaande zetting",
+    "intro": [
+      "Als een diamant in een bestaande zetting moet passen, is het karaatgewicht alleen onvoldoende.",
+      "Voorzien:"
+    ],
+    "bullets": [
+      "Vereiste lengte",
+      "Vereiste breedte",
+      "Maximaal aanvaardbare diepte",
+      "Diamantvorm",
+      "Hoek- of puntvereisten",
+      "Metingen instellen",
+      "Referentie afbeeldingen",
+      "Bestaand diamantrapport, indien beschikbaar"
+    ],
+    "closing": [
+      "De zetting moet worden beoordeeld door een gekwalificeerde juwelier voordat er een nieuwe diamant wordt gekocht. Een klein maatverschil kan van invloed zijn op de vraag of de steen veilig kan worden vastgehouden.",
+      "Dalila’s op maat gemaakte diamantinkoopservice kan worden gebruikt om een ​​natuurlijke diamant aan te vragen binnen een specifiek meetbereik, afhankelijk van beschikbaarheid."
+    ]
+  },
+  "matchedDiamonds": {
+    "id": "choosing-matched-diamonds",
+    "title": "Matched diamanten kiezen",
+    "intro": [
+      "Diamanten voor oorbellen, zijstenen en sieraden met meerdere stenen mogen niet alleen op karaatgewicht worden gecombineerd.",
+      "Een overtuigend paar moet normaal gesproken worden vergeleken op:"
+    ],
+    "bullets": [
+      "Lengte en breedte",
+      "Zichtbare maat naar boven",
+      "Vorm en omtrek",
+      "Lengte-breedteverhouding",
+      "Kleur",
+      "Helderheid",
+      "Facetpatroon",
+      "Fluorescentie",
+      "Algehele visuele balans"
+    ],
+    "closing": [
+      "Als u een paar of groep met gecontroleerde afmetingen nodig heeft, dient u de volledige vereiste in via de DS4U-service van Dalila."
+    ]
+  },
+  "largerLooking": {
+    "id": "does-larger-looking-mean-better",
+    "title": "Betekent een groter uitziende diamant altijd een betere diamant?",
+    "paragraphs": [
+      "Nee. Een grotere meting naar boven kan aantrekkelijk zijn, maar de zichtbare grootte is slechts één overweging.",
+      "Een diamant met overmatige spreiding kan te ondiep zijn. Een diamant met verborgen gewicht kan kleiner lijken dan verwacht. Geen van beide conclusies kan op basis van metingen alleen worden getrokken.",
+      "Bekijk de volledige verhoudingen, het beoordelingsrapport, de omtrek en het uiterlijk van de diamant voordat u een beslissing neemt.",
+      "Prijs is ook afhankelijk van karaatgewicht, vorm, kleur, helderheid, slijpkwaliteit, keuringsrapport, zeldzaamheid en huidige beschikbaarheid. Dalila’s diamantprijsgids legt de belangrijkste prijsfactoren uit."
+    ]
+  },
+  "cta": {
+    "id": "find-a-natural-diamond",
+    "title": "Vind een natuurlijke diamant in de maat die u nodig heeft",
+    "paragraphs": [
+      "Gebruik de tabellen als een eerste vergelijking en controleer vervolgens de afmetingen van de individuele diamant.",
+      "U kunt door de huidige inventaris van natuurlijke diamanten van Dalila bladeren of via DS4U een exacte vorm-, karaat- en maatvereiste indienen."
+    ],
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "BRON EEN DIAMANT DOOR EXACTE METINGEN",
+    "secondaryButtonHref": "/diamond-source",
+    "notice": "Het indienen van een inkoopaanvraag garandeert niet de beschikbaarheid of het reserveren van een diamant. De specifieke diamant, het keuringsrapport, de afmetingen, de prijs en de commerciële voorwaarden moeten schriftelijk worden bevestigd."
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Is karaat hetzelfde als diamantgrootte?",
+        "answer": "Nee. Karaat meet het gewicht, terwijl millimeters de fysieke afmetingen meten. Diamanten met hetzelfde karaatgewicht kunnen verschillende face-up afmetingen hebben."
+      },
+      {
+        "question": "Hoeveel millimeter is een diamant van één karaat?",
+        "answer": "Een goed geproportioneerde ronde diamant van één karaat heeft gewoonlijk een diameter van ongeveer 6,4-6,5 mm. Fancy-vormige diamanten van één karaat hebben verschillende lengte- en breedtematen."
+      },
+      {
+        "question": "Hoeveel millimeter is een ronde diamant van twee karaat?",
+        "answer": "Een ronde briljante diamant van twee karaat heeft gewoonlijk een diameter van ongeveer 8,0-8,2 mm. De werkelijke afmetingen zijn afhankelijk van de proporties en diepte van de diamant."
+      },
+      {
+        "question": "Hoeveel karaat is een ronde diamant van 2 mm?",
+        "answer": "Een ronde diamant van 2 mm weegt ongeveer 0,03 karaat. Dit is een geschatte conversie en individuele stenen kunnen variëren."
+      },
+      {
+        "question": "Hoeveel karaat is een ronde diamant van 2,5 mm?",
+        "answer": "Een ronde diamant van 2,5 mm weegt gewoonlijk ongeveer 0,06 karaat. Het exacte gewicht hangt af van de diepte en verhoudingen."
+      },
+      {
+        "question": "Kunnen diamantmillimeters precies in karaat worden omgezet?",
+        "answer": "Niet alleen op basis van diameter, lengte of breedte. Voor een betrouwbaardere gewichtsschatting zijn ook de diepte, vorm en verhoudingen van de diamant vereist. Het werkelijke karaatgewicht moet worden vastgesteld met behulp van een gekalibreerde diamantweegschaal."
+      },
+      {
+        "question": "Waarom lijkt de ene diamant groter dan de andere van dezelfde karaat?",
+        "answer": "Eén diamant kan een bredere face-up spreiding, een geringere diepte, een andere omtrek of een meer langwerpige vorm hebben. De dikte van de gordel en de algehele verhoudingen kunnen ook de zichtbare grootte beïnvloeden."
+      },
+      {
+        "question": "Welke diamantvorm lijkt het grootst?",
+        "answer": "Marquise, ovale en peervormige diamanten creëren vaak een grotere zichtbare vingerbedekking vanwege hun langwerpige contouren. Het resultaat hangt nog steeds af van de lengte, breedte, verhoudingen en zetting van de individuele diamant."
+      },
+      {
+        "question": "Waar worden diamantmetingen weergegeven op een beoordelingsrapport?",
+        "answer": "Metingen worden normaal gesproken bovenaan het beoordelingsrapport weergegeven. Ronde diamanten tonen meestal de minimale diameter, maximale diameter en diepte. Fancy vormen tonen meestal lengte, breedte en diepte."
+      },
+      {
+        "question": "Zijn de metingen inclusief de ringzetting?",
+        "answer": "Nee. Diamantmetingen hebben betrekking op de losse steen. De setting, halo, ring, tanden en band kunnen veranderen hoe groot de voltooide ring lijkt."
+      },
+      {
+        "question": "Kan ik dit diagram gebruiken om een ​​instelling te maken?",
+        "answer": "Nee. Het diagram geeft geschatte educatieve referenties. Er moet een zetting worden vervaardigd met behulp van de exacte afmetingen van de geselecteerde diamant."
+      },
+      {
+        "question": "Kan Dalila een diamant verkrijgen met behulp van exacte millimeterafmetingen?",
+        "answer": "Ja, in een DS4U-aanvraag kan een exact meetbereik worden opgenomen. Beschikbaarheid zal afhangen van de volledige vorm, karaat, kwaliteit, keuringsrapport en budgetvereisten."
+      }
+    ]
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "meta": {
+    "title": "Kunt u een diamant verkopen zonder certificaat? | Dalila",
+    "description": "Ja, u kunt een natuurlijke diamant verkopen zonder certificaat. Ontdek wat kopers controleren, of u een nieuw rapport nodig heeft en een Antwerpse evaluatie aanvraagt.",
+    "canonical": "https://www.daliladiamonds.com/resources/sell-diamond-without-certificate",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportLimitations": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaLostReports": "https://www.gia.edu/gia-news-research-lost-report",
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "hrdMyReports": "https://my.hrdantwerp.com/",
+    "igiVerify": "https://www.igi.org/verify-your-report"
+  },
+  "banner": {
+    "title": "Verkoop een diamant zonder certificaat",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Verkoop een diamant zonder certificaat",
+    "imageAlt": "Verkoop een diamant zonder een certificaatbronbanner"
+  },
+  "hero": {
+    "title": "Kunt u een diamant verkopen zonder certificaat?",
+    "paragraphs": [
+      "Ja, u kunt beginnen met het verkopen van een diamant zonder het originele certificaat of beoordelingsrapport. Veel geërfde diamanten, oudere verlovingsringen en losse diamanten hebben niet langer de originele papieren.",
+      "Het ontbreken van een rapport betekent niet dat de diamant geen waarde heeft. Het betekent wel dat een professionele koper mogelijk moet verifiëren of de steen een diamant is, of deze natuurlijk is of in een laboratorium is gekweekt en wat de kwaliteit en staat ervan is voordat hij een definitief bod kan doen.",
+      "U kunt de informatie en foto's waarover u beschikt, doorgeven aan Dalila Diamonds. Als het artikel voldoet aan de aankoopcriteria van Dalila, kan het team uitleggen of een lichamelijk onderzoek of een nieuw laboratoriumrapport nodig is."
+    ],
+    "primaryButtonText": "WAARDE MIJN DIAMANT ZONDER CERTIFICAAT",
+    "primaryButtonHref": "#uncertified-diamond-form-top"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "alt": "Natuurlijke diamanten ring ter taxatie aangeboden zonder origineel certificaat",
+      "width": 1600,
+      "height": 900
+    },
+    "lostReportRecovery": {
+      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "alt": "Manieren om informatie uit een verloren diamantbeoordelingsrapport te herstellen",
+      "width": 1400,
+      "height": 1000
+    },
+    "evaluation": {
+      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "alt": "Professionele evaluatie van een niet-gecertificeerde natuurlijke diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "certificationDecision": {
+      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "alt": "Beslissingsgids voor het verkrijgen van een nieuw diamantbeoordelingsrapport voordat het wordt verkocht",
+      "width": 1400,
+      "height": 1000
+    },
+    "dalilaProcess": {
+      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "alt": "Dalila Diamonds-proces voor het beoordelen van een diamant zonder certificaat",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Snel antwoord"
+      },
+      {
+        "id": "what-is-certificate",
+        "label": "Wat is een diamantcertificaat?"
+      },
+      {
+        "id": "certificate-required",
+        "label": "Is een certificaat vereist?"
+      },
+      {
+        "id": "lost-or-never-certified",
+        "label": "Verloren of nooit gecertificeerd"
+      },
+      {
+        "id": "lost-gia",
+        "label": "GIA-certificaat verloren"
+      },
+      {
+        "id": "lost-hrd",
+        "label": "Verloren HRD-rapport"
+      },
+      {
+        "id": "lost-igi",
+        "label": "Verloren IGI-rapport"
+      },
+      {
+        "id": "buyer-evaluation",
+        "label": "Kopersevaluatie zonder certificaat"
+      },
+      {
+        "id": "natural-at-home",
+        "label": "Natuurlijke diamant in huis?"
+      },
+      {
+        "id": "lose-value",
+        "label": "Verliest het waarde?"
+      },
+      {
+        "id": "new-certificate",
+        "label": "Een nieuw certificaat aanvragen?"
+      },
+      {
+        "id": "certification-decision",
+        "label": "Certificeringsbeslissingstabel"
+      },
+      {
+        "id": "mounted-certification",
+        "label": "Gemonteerde diamantcertificering"
+      },
+      {
+        "id": "helpful-documents",
+        "label": "Documenten die helpen"
+      },
+      {
+        "id": "inherited-diamond",
+        "label": "Erfelijke diamant"
+      },
+      {
+        "id": "without-receipt",
+        "label": "Verkoop zonder bon"
+      },
+      {
+        "id": "what-not-to-do",
+        "label": "Wat je niet moet doen"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Evaluatieproces van Dalila"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      },
+      {
+        "id": "start-anyway",
+        "label": "Begin zonder certificaat"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Snel antwoord",
+    "paragraphs": [
+      "Voor het aanvragen van een eerste diamanttaxatie heeft u geen certificaat nodig. Een certificaat is nuttig omdat het de kenmerken van de diamant beschrijft, maar het is niet de diamant zelf en het is geen bewijs van eigendom."
+    ],
+    "checksIntro": "Als er geen rapport beschikbaar is, moet de koper mogelijk het volgende controleren:",
+    "checks": [
+      "Of de steen een diamant is",
+      "Of het nu natuurlijk is of in een laboratorium is gekweekt",
+      "Of er behandelingen aanwezig zijn",
+      "Geschatte karaatgewicht",
+      "Kleur en helderheid",
+      "Snij-eigenschappen",
+      "Schade en staat",
+      "Of de diamant een bestaande laserinscriptie heeft",
+      "Of een eerder rapport kan worden hersteld",
+      "Of de verkoper het recht heeft om het artikel te verkopen"
+    ],
+    "closing": "Mogelijk kan de koper na fysieke verificatie een bod uitbrengen. In andere gevallen kan eerst een onafhankelijke laboratoriumbeoordeling worden aanbevolen.",
+    "ctaText": "INDIEN MIJN ONGECERTIFICEERDE DIAMANT",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "whatIsCertificate": {
+    "id": "what-is-certificate",
+    "title": "Wat is een diamantcertificaat?",
+    "paragraphs": [
+      "“Diamantcertificaat” is de veelgebruikte term voor een diamantbeoordelingsrapport. Het document wordt afgegeven nadat een laboratorium de diamant heeft onderzocht en de kenmerken ervan heeft vastgelegd."
+    ],
+    "containsIntro": "Een beoordelingsrapport kan het volgende bevatten:",
+    "contains": [
+      "Natuurlijke of laboratoriumgekweekte oorsprong",
+      "Vorm en snijstijl",
+      "Karaat gewicht",
+      "Afmetingen",
+      "Kleur kwaliteit",
+      "Duidelijkheidsgraad",
+      "Snijkwaliteit, indien van toepassing",
+      "Pools",
+      "Symmetrie",
+      "Fluorescentie",
+      "Behandelingen",
+      "Laserinscriptie",
+      "Duidelijkheidskenmerken identificeren"
+    ],
+    "labsParagraph": "GIA, HRD Antwerpen en IGI zijn voorbeelden van laboratoria die diamantbeoordelingsrapporten uitbrengen.",
+    "giaLinkText": "GIA's rapportbeperkingen",
+    "closing": "Het rapport moet daarom worden behandeld als technische documentatie en niet als een koopaanbod."
+  },
+  "certificateRequired": {
+    "id": "certificate-required",
+    "title": "Is een certificaat vereist om een ​​diamant te verkopen?",
+    "paragraphs": [
+      "Een certificaat is niet overal vereist om een ​​diamant te verkopen. Een professionele koper met de juiste apparatuur en expertise kan een niet-gecertificeerde diamant mogelijk rechtstreeks onderzoeken.",
+      "De koper zal echter nog steeds voldoende informatie nodig hebben om een ​​verantwoorde aankoopbeslissing te kunnen nemen. Zonder erkend rapport moeten mogelijk meer kenmerken onafhankelijk worden gecontroleerd."
+    ],
+    "resultsIntro": "Dit kan resulteren in:",
+    "results": [
+      "A longer evaluation process",
+      "A conditional preliminary offer",
+      "Additional testing",
+      "A recommendation for laboratory grading",
+      "Costs for unsetting or resetting",
+      "More conservative assumptions until the stone is verified"
+    ],
+    "closing": "Het ontbreken van een certificaat mag de diamant niet automatisch waardeloos maken. Het betekent eenvoudigweg dat het document niet kan worden gebruikt om de gerapporteerde kenmerken ervan vast te stellen."
+  },
+  "lostOrNeverCertified": {
+    "id": "lost-or-never-certified",
+    "title": "Certificaat kwijt of nooit gecertificeerd: welke situatie is van toepassing?",
+    "intro": "De volgende stap hangt ervan af of de diamant ooit een rapport heeft gehad.",
+    "scenarios": [
+      {
+        "title": "Het oorspronkelijke rapport is verloren gegaan",
+        "paragraphs": [
+          "Als de diamant eerder een GIA-, HRD Antwerp- of IGI-rapport had, is het wellicht mogelijk om de rapportinformatie online te achterhalen."
+        ],
+        "lookForIntro": "Zoek naar:",
+        "lookFor": [
+          "Een oude fotokopie",
+          "Een rapportnummer op de aankoopbon",
+          "Een rapportnummer bij een verzekeringstaxatie",
+          "Een e-mail van de oorspronkelijke juwelier",
+          "Een aantal vastgelegd in een sieradeninventaris",
+          "Een laserinscriptie op de diamant",
+          "Een foto van het originele rapport",
+          "Een QR-code of digitale meldlink"
+        ],
+        "closing": "Als het rapportnummer wordt gevonden, gebruikt u de officiële website van het uitgevende laboratorium om de informatie op te halen of te verifiëren."
+      },
+      {
+        "title": "De diamant is nooit gecertificeerd",
+        "paragraphs": [
+          "Als de diamant nooit door een erkend laboratorium is beoordeeld, moet de koper vertrouwen op lichamelijk onderzoek en eventuele beschikbare ondersteunende documenten.",
+          "Afhankelijk van de waarschijnlijke kwaliteit en potentiële waarde van de diamant kan een nieuw beoordelingsrapport wel of niet de moeite waard zijn."
+        ]
+      },
+      {
+        "title": "Je weet niet of het gecertificeerd is",
+        "paragraphs": [
+          "Dien de ring of diamant in als “certificaatstatus onbekend”. Een specialist kan controleren op een laserinscriptie en oude bonnen of taxaties bekijken op verwijzingen naar een rapportnummer.",
+          "Raad het laboratorium of de cijfers niet als u niet zeker bent."
+        ]
+      }
+    ]
+  },
+  "lostGia": {
+    "id": "lost-gia",
+    "title": "Wat moet ik doen als ik een GIA-certificaat ben kwijtgeraakt?",
+    "paragraphs": [
+      "GIA geeft geen dubbele beoordelingsrapporten uit. Als u echter het rapportnummer kent, kunt u GIA Report Check gebruiken om de beoordelingsinformatie te bekijken.",
+      "GIA stelt dat er ook PDF-versies beschikbaar zijn om te bekijken of te downloaden voor rapporten gedateerd na 1 juli 2010."
+    ],
+    "giaLostLinkText": "GIA's instructies voor verloren rapporten",
+    "giaReportCheckText": "GIA-rapportcontrole",
+    "tryIntro": "Probeer het volgende",
+    "steps": [
+      "Zoek in uw e-mails en cloudopslag naar het rapportnummer.",
+      "Controleer het originele aankoopbewijs of de verzekeringstaxatie.",
+      "Vraag de oorspronkelijke juwelier of het nummer in de administratie blijft staan.",
+      "Laat de diamant controleren op een laserinscriptie.",
+      "Voer het rapportnummer in GIA Report Check in.",
+      "Download de beschikbare rapportgegevens of PDF.",
+      "Vraag een specialist om te bevestigen of de fysieke diamant overeenkomt met het rapport."
+    ],
+    "closing": "Het vinden van een geldig rapportnummer is slechts de eerste stap. De fysieke diamant moet nog steeds overeenkomen met het rapport. Een laserinscriptie kan helpen bij identificatie, maar moet onder vergroting worden onderzocht en naast metingen en andere kenmerken worden overwogen."
+  },
+  "lostHrd": {
+    "id": "lost-hrd",
+    "title": "Wat als ik een HRD Antwerp-rapport kwijt ben?",
+    "paragraphs": [
+      "My HRD Antwerp biedt online toegang tot het archief met beoordelingsrapporten. Als u het rapportnummer of het externe identificatienummer kent, kunt u het diamant- of juwelenrapport wellicht online terugvinden.",
+      "Gebruik de officiële My HRD Antwerp-rapportzoekopdracht in plaats van te vertrouwen op een niet-officiële database.",
+      "Een rapport van HRD Antwerp kan informatie bevatten over de 4C’s van de diamant. Sieradenrapporten kunnen ook details bevatten over het metaal en de zetting van het item.",
+      "Als u het rapportnummer niet weet, controleer dan oude facturen, taxaties, e-mails, verpakkingen en eventuele inscripties die zichtbaar zijn op de diamant."
+    ],
+    "hrdLinkText": "Mijn HRD Antwerp rapport zoeken"
+  },
+  "lostIgi": {
+    "id": "lost-igi",
+    "title": "Wat moet ik doen als ik een IGI-rapport ben kwijtgeraakt?",
+    "paragraphs": [
+      "IGI biedt een officiële online tool voor rapportverificatie. Als het rapportnummer beschikbaar is, voert u dit in via IGI Verify Your Report om de beoordelingsinformatie te controleren.",
+      "Digitale rapportinformatie kan ook toegankelijk zijn via een QR-code of rapportnummer dat aan het originele document is gekoppeld.",
+      "IGI biedt in sommige markten dubbele of bijgewerkte rapportdiensten aan, maar de beschikbaarheid en voorwaarden variëren. Bevestig de huidige service rechtstreeks bij IGI voordat u ervan uitgaat dat een gedrukt vervangingsproduct in België kan worden geleverd."
+    ],
+    "igiLinkText": "IGI Controleer uw rapport"
+  },
+  "buyerEvaluation": {
+    "id": "buyer-evaluation",
+    "title": "Hoe kan een koper een diamant beoordelen zonder certificaat?",
+    "intro": [
+      "Een koper kan beginnen met het onderzoeken van de diamant of het sieraad en het bekijken van de beschikbare informatie. Het exacte proces hangt af van het feit of de steen los of gemonteerd is."
+    ],
+    "sections": [
+      {
+        "title": "Initiële identificatie",
+        "paragraphs": [
+          "De eerste stap is bepalen of de steen een diamant is. Visueel uiterlijk alleen is niet voldoende, omdat sommige simulanten er hetzelfde uit kunnen zien.",
+          "De beoordelaar kan geschikte instrumenten gebruiken om diamant te onderscheiden van materialen zoals zirkonia, moissaniet of glas."
+        ]
+      },
+      {
+        "title": "Natuurlijke of laboratoriumgekweekte oorsprong",
+        "paragraphs": [
+          "Natuurlijke en in een laboratorium gekweekte diamanten hebben dezelfde chemische basissamenstelling en kunnen zeer op elkaar lijken. De oorsprong mag niet alleen op basis van het uiterlijk worden geraden.",
+          "Professionele screeningapparatuur of laboratoriumonderzoek kunnen nodig zijn om te bepalen of de diamant natuurlijk is, in een laboratorium is gekweekt of verder moet worden getest."
+        ]
+      },
+      {
+        "title": "Karaat gewicht",
+        "paragraphs": [
+          "Een losse diamant kan op een gekalibreerde weegschaal worden gewogen. Als de diamant gemonteerd blijft, moet het gewicht mogelijk worden geschat op basis van de metingen en de zetting.",
+          "Het geschatte gewicht moet worden geïdentificeerd als een schatting en niet als een exact karaatgewicht."
+        ]
+      },
+      {
+        "title": "Kleur en helderheid",
+        "paragraphs": [
+          "De beoordelaar onderzoekt de zichtbare kleur, insluitsels en oppervlaktekenmerken van de diamant. Een gemonteerde diamant kan moeilijker nauwkeurig te beoordelen zijn, omdat de zetting het uiterlijk kan beïnvloeden of een deel van de steen kan verbergen."
+        ]
+      },
+      {
+        "title": "Snit en verhoudingen",
+        "paragraphs": [
+          "Bij een losse steen kunnen de afmetingen en verhoudingen nauwkeuriger worden beoordeeld. Bij een gemonteerde diamant kunnen sommige afmetingen beperkt zijn door de zetting."
+        ]
+      },
+      {
+        "title": "Fluorescentie, behandelingen en conditie",
+        "paragraphs": [
+          "De diamant kan ook worden onderzocht op fluorescentie, behandelingen, schilfers, schaafwonden, gaatjes of beschadigingen. Voor sommige behandelingen en vragen over de oorsprong zijn geavanceerde laboratoriumtests vereist."
+        ]
+      },
+      {
+        "title": "Sieraden en Metaal",
+        "paragraphs": [
+          "Voor een gemonteerde diamant kan de koper ook beoordelen:"
+        ],
+        "bullets": [
+          "Edelmetaaltype",
+          "Keurmerken",
+          "Instelling",
+          "Zijstenen",
+          "Voorwaarde",
+          "Merk of ontwerper",
+          "Leeftijd en stijl",
+          "Repareren of vergroten/verkleinen"
+        ],
+        "closing": "De middelste diamant en zetting kunnen afzonderlijk getaxeerd worden."
+      }
+    ]
+  },
+  "naturalAtHome": {
+    "id": "natural-at-home",
+    "title": "Kunt u zien of een diamant thuis natuurlijk is?",
+    "paragraphs": [
+      "Thuistests kunnen niet op betrouwbare wijze bepalen of een diamant natuurlijk, in een laboratorium gekweekt of behandeld is.",
+      "Misttesten, krastesten, krantentesten en soortgelijke online methoden zijn onbetrouwbaar en kunnen de sieraden beschadigen. Een in een laboratorium gekweekte diamant is nog steeds een diamant, dus veel basis diamanttesters kunnen deze niet onderscheiden van een natuurlijke diamant.",
+      "Maak geen krassen op de steen, stel hem niet bloot aan ongecontroleerde hitte en gebruik geen chemicaliën die de setting kunnen beschadigen. Als de diamant los lijkt, ga dan niet verder met het hanteren of dragen van de sieraden.",
+      "Professionele screening of laboratoriumonderzoek is de verantwoorde route als de herkomst onbekend is."
+    ]
+  },
+  "loseValue": {
+    "id": "lose-value",
+    "title": "Verliest een diamant waarde zonder zijn certificaat?",
+    "paragraphs": [
+      "Het verliezen van het fysieke rapport verandert niets aan de inherente kenmerken van de diamant. De diamant wordt niet kleiner, meer ingesloten of minder goed geslepen omdat er een document ontbreekt.",
+      "Ontbrekende documentatie kan echter voor onzekerheid zorgen. Een koper moet mogelijk rekening houden met de mogelijkheid dat:"
+    ],
+    "uncertainties": [
+      "De diamant is in het laboratorium gekweekt en niet natuurlijk",
+      "De ingediende cijfers zijn onjuist",
+      "Er is een behandeling aanwezig",
+      "De diamant komt niet overeen met een oude taxatie",
+      "De schade is ontstaan ​​na een eerder onderzoek",
+      "Laboratoriumbeoordeling is vereist",
+      "De steen moet worden uitgeschakeld en opnieuw worden ingesteld"
+    ],
+    "closing": "Deze extra onzekerheid en kosten kunnen het initiële bod beïnvloeden of voorwaardelijk maken. Als een bestaand digitaal rapport kan worden hersteld en aan de diamant kan worden gekoppeld, is het wellicht niet nodig om een ​​volledig nieuw rapport aan te vragen."
+  },
+  "newCertificate": {
+    "id": "new-certificate",
+    "title": "Moet ik een nieuw certificaat krijgen voordat ik verkoop?",
+    "intro": [
+      "Niet elke niet-gecertificeerde diamant mag ter beoordeling in het laboratorium worden verzonden voordat deze aan een koper wordt aangeboden. Bij de beslissing moet rekening worden gehouden met de waarschijnlijke kwaliteit, grootte, zetting, staat en verwachte markt van de diamant."
+    ],
+    "worthwhileIntro": "Een nieuw rapport kan de moeite waard zijn als:",
+    "worthwhile": [
+      "De diamant blijkt een natuursteen van betekenis te zijn",
+      "De steen kan een hoge kleur of helderheid hebben",
+      "Het kan een natuurlijke fancy colour diamant zijn",
+      "De diamant heeft geen betrouwbare documentatie",
+      "Een rapport zou de kopersmarkt kunnen verbreden",
+      "De koper brengt een bod uit onder voorbehoud van waardering",
+      "Er bestaat onzekerheid over herkomst of behandelingen",
+      "Het bestaande rapport is niet meer bruikbaar of komt niet overeen"
+    ],
+    "notWorthwhileIntro": "Een nieuw rapport is mogelijk niet de moeite waard als:",
+    "notWorthwhile": [
+      "De sorteer- en verwerkingskosten zijn hoog in verhouding tot de waarschijnlijke waarde",
+      "De diamant is klein",
+      "In de sieraden zitten veel kleine steentjes",
+      "Een directe koper kan het artikel zonder rapport beoordelen",
+      "De steen zou kostbaar of riskant moeten worden verwijderd",
+      "De verkoper heeft nog niet vastgesteld of het artikel voldoet aan de criteria van een koper"
+    ],
+    "closing": "Vraag een voorlopige professionele beoordeling aan voordat u voor de beoordeling betaalt. Een inkoper of onafhankelijke specialist kan uitleggen of certificering het verkoopproces kan verbeteren.",
+    "ctaText": "VRAAG OF MIJN DIAMANT CERTIFICERING NODIG HEEFT",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "certificationDecision": {
+    "id": "certification-decision",
+    "title": "Tabel met diamantcertificeringsbeslissingen",
+    "table": {
+      "caption": "Aanbevolen eerste stappen bij niet-gecertificeerde diamantsituatie",
+      "headers": [
+        "Situatie",
+        "Aanbevolen eerste stap"
+      ],
+      "rows": [
+        [
+          "Rapport kwijtgeraakt, maar rapportnummer is bekend",
+          "Haal het rapport op via de officiële laboratoriumdatabase"
+        ],
+        [
+          "Verloren rapport en laserinscriptie zijn zichtbaar",
+          "Noteer de inscriptie en verifieer deze bij het laboratorium van afgifte"
+        ],
+        [
+          "Geen rapport maar originele aankoopbon aanwezig",
+          "Dien het ontvangstbewijs en de foto's in voor een voorlopige beoordeling"
+        ],
+        [
+          "Geërfde sieraden zonder documenten",
+          "Begin met fysieke identificatie en eigendomsdocumentatie"
+        ],
+        [
+          "Grote losse diamant zonder rapport",
+          "Win specialistisch advies in over laboratoriumbeoordeling"
+        ],
+        [
+          "Gemonteerde diamant met onbekende herkomst",
+          "Vraag professionele screening aan voordat u het apparaat uitschakelt"
+        ],
+        [
+          "Ring met veel kleine diamanten",
+          "Vraag of het evalueren van complete sieraden praktischer is"
+        ],
+        [
+          "Mogelijk fancy colour diamant",
+          "Zoek een specialistisch onderzoek voordat u het schoonmaakt, wijzigt of egaliseert"
+        ],
+        [
+          "Vermoedelijk in laboratorium gekweekte diamant",
+          "Bevestig of de beoogde koper in een laboratorium gekweekte diamanten koopt"
+        ],
+        [
+          "Beschadigde diamant",
+          "Zorg dat u conditieadvies krijgt voordat u certificeert of opnieuw zaagt"
+        ]
+      ]
+    }
+  },
+  "mountedCertification": {
+    "id": "mounted-certification",
+    "title": "Kan een gemonteerde diamant worden gecertificeerd?",
+    "paragraphs": [
+      "Sommige laboratoria bieden sieradenrapporten voor gemonteerde stenen. Voor een volledig beoordelingsrapport van losse diamanten kan het echter nodig zijn dat de middelste diamant uit de zetting wordt verwijderd."
+    ],
+    "limitsIntro": "De instelling kan het vermogen van het laboratorium beperken om te bepalen:",
+    "limits": [
+      "Exact karaatgewicht",
+      "Volledige metingen",
+      "Kleur",
+      "Helderheid",
+      "Conditie van de gordel",
+      "Behandelingen",
+      "Laserinscriptie",
+      "Allemaal identificerende kenmerken"
+    ],
+    "labsParagraph": "HRD Antwerp levert rapporten voor zowel losse diamanten als sieraden, terwijl IGI ook sieradenrapporten levert waarin de gemonteerde edelstenen en de zetting worden beschreven. Het beschikbare rapporttype en detailniveau moeten rechtstreeks bij het gekozen laboratorium worden bevestigd.",
+    "closing": "Verwijder de diamant niet zelf. Vragen:",
+    "questions": [
+      "Is uitzetten noodzakelijk?",
+      "Wie zal de diamant verwijderen?",
+      "Kan de bestaande instelling hergebruikt worden?",
+      "Wie is verantwoordelijk voor schade?",
+      "Is resetten inbegrepen?",
+      "Is het artikel verzekerd tijdens het proces?",
+      "Is een sieradenrapport voldoende?"
+    ],
+    "finalNote": "Bij een antieke, gesigneerde of delicate ring kan verwijdering de staat van het item of de interesse van de verzamelaar beïnvloeden."
+  },
+  "helpfulDocuments": {
+    "id": "helpful-documents",
+    "title": "Welke documenten kunnen helpen als er geen certificaat is?",
+    "paragraphs": [
+      "Een beoordelingsrapport is nuttig, maar het is niet het enige document dat kan helpen bij het identificeren van de diamant of het vaststellen van de geschiedenis ervan."
+    ],
+    "itemsIntro": "Dien alle beschikbare in:",
+    "items": [
+      "Aankoopbon",
+      "Taxatie van verzekeringen",
+      "Inventaris van het landgoed",
+      "Overervingsdocumentatie",
+      "Originele doos",
+      "Merkcertificaat",
+      "Reparatiebon",
+      "Formaat van record wijzigen",
+      "Foto van het oude certificaat",
+      "E-mail van de oorspronkelijke juwelier",
+      "Diamantrapportnummer",
+      "Laser-inscriptierecord",
+      "Eerdere verkoop- of veilingdocumentatie"
+    ],
+    "closing": "Deze documenten vervangen de fysieke verificatie niet, maar kunnen wel nuttige informatie verschaffen en helpen bij het vaststellen van het rechtmatig eigendom. Een beoordelingsrapport is geen eigendomsbewijs. Iemand zou een kopie van een rapport kunnen bezitten zonder de diamant te bezitten die daarin wordt beschreven. De koper kan daarom nog steeds om identificatie en ondersteunende eigendomsinformatie vragen."
+  },
+  "inheritedDiamond": {
+    "id": "inherited-diamond",
+    "title": "Kan ik een geërfde diamant verkopen zonder papieren?",
+    "paragraphs": [
+      "Ja, geërfde diamanten en sieraden komen vaak aan zonder de originele ontvangstbewijzen of beoordelingsrapporten.",
+      "Begin met het verzamelen van de documenten die via de nalatenschap beschikbaar zijn, zoals een inventaris, testament, distributieakte, oud verzekeringsschema of eerdere taxatie. Familiefoto's en de originele verpakking kunnen ook helpen bij het identificeren van een ouder artikel of een merkartikel.",
+      "Maak een geërfde ring niet schoon, polijst, repareer of demonteer deze voordat er rekening is gehouden met de leeftijd en het ontwerp. Het volledige sieraad kan een antieke, merk- of verzamelwaarde hebben buiten de middelste diamant.",
+      "Als meerdere mensen het eigendom delen, zorg er dan voor dat de persoon die de verkoop regelt de bevoegdheid heeft om de verkoop af te ronden."
+    ],
+    "ctaText": "Dien een geërfde diamant in ter beoordeling",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "withoutReceipt": {
+    "id": "without-receipt",
+    "title": "Kan ik een diamanten ring verkopen zonder ontvangstbewijs?",
+    "paragraphs": [
+      "Voor een eerste evaluatie is niet altijd een ontvangstbewijs vereist, maar een koper heeft mogelijk redelijk bewijs nodig dat de verkoper eigenaar is van de ring en het recht heeft deze te verkopen.",
+      "Als de originele kassabon ontbreekt, geef dan alle beschikbare documentatie mee:"
+    ],
+    "alternatives": [
+      "Identificatie",
+      "Eerdere verzekeringsgegevens",
+      "Cadeaudocumentatie",
+      "Boedeldocumenten",
+      "Reparatiegeschiedenis",
+      "Oude foto's",
+      "Correspondentie van de oorspronkelijke juwelier"
+    ],
+    "closing": "De vereiste controles zijn afhankelijk van het artikel en de voorgestelde transactie. Probeer niet een ontvangstbewijs, certificaat of eigendomsrecord aan te maken of te wijzigen."
+  },
+  "whatNotToDo": {
+    "id": "what-not-to-do",
+    "title": "Wat u niet moet doen met een niet-gecertificeerde diamant",
+    "intro": "Ontbrekend papierwerk kan verkopers kwetsbaar maken voor slecht advies. Vermijd onomkeerbare of dure actie voordat de diamant is beoordeeld.",
+    "warnings": [
+      {
+        "title": "Ga er niet van uit dat het waardeloos is",
+        "text": "Het ontbreken van een rapport wist de fysieke kenmerken van de diamant niet uit. Vraag welke tests vereist zijn voordat u de bewering accepteert dat deze weinig of geen waarde heeft."
+      },
+      {
+        "title": "Vind geen cijfers uit",
+        "text": "Beschrijf de diamant niet als D-kleur, onberispelijk of met een specifiek karaatgewicht, tenzij de informatie afkomstig is van een betrouwbare bron. Gebruik waar nodig ‘onbekend’."
+      },
+      {
+        "title": "Gebruik geen schadelijke thuistests",
+        "text": "Kras-, hitte- en chemische tests kunnen de ring beschadigen en nog steeds niet bepalen of de diamant natuurlijk is."
+      },
+      {
+        "title": "Verwijder de diamant niet zelf",
+        "text": "Het ongedaan maken vereist de juiste hulpmiddelen en ervaring. Als u het thuis probeert, kan de diamant kapot gaan of de sieraden beschadigd raken."
+      },
+      {
+        "title": "Betaal niet automatisch voor certificering",
+        "text": "Vraag of een nieuw rapport waarschijnlijk de verkoop zal verbeteren voordat u betaalt voor sortering, transport, uitzetten en resetten."
+      },
+      {
+        "title": "Stuur de ring niet naar een niet-geverifieerd adres",
+        "text": "Begin met foto's en beschikbare documenten. Bevestig de koper-, transport-, verzekerings- en retourvoorwaarden voordat u het fysieke artikel verzendt."
+      },
+      {
+        "title": "Verwar een taxatie niet met een certificaat",
+        "text": "Een taxatie geeft een oordeel over de waarde. Een beoordelingsrapport beschrijft de gemmologische kenmerken van de diamant. Het een vervangt niet automatisch het ander."
+      }
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Hoe Dalila een diamant evalueert zonder certificaat",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Dien de informatie in die u kent",
+        "text": "Vertel ons of de diamant los of gemonteerd is, hoe deze is verkregen en of er mogelijk eerder papierwerk aanwezig is. Upload duidelijke foto's van het volledige item, centrale diamant, zijaanzicht, kenmerken en beschikbare documenten."
+      },
+      {
+        "number": 2,
+        "title": "Voorlopige beoordeling",
+        "text": "Dalila beoordeelt de foto's en informatie om te bepalen of het artikel aan de aankoopcriteria voldoet en welke verificatiestappen mogelijk vereist zijn. Er mag geen eindcijfer of aankoopprijs worden beloofd op basis van alleen foto's."
+      },
+      {
+        "number": 3,
+        "title": "Rapport zoeken",
+        "text": "Als er een rapportnummer of laserinscriptie beschikbaar is, kan de informatie worden gecontroleerd via het officiële systeem van het uitgevende laboratorium. De fysieke diamant moet nog steeds overeenkomen met het rapport."
+      },
+      {
+        "number": 4,
+        "title": "Lichamelijk onderzoek",
+        "text": "Indien nodig kan een privé-evaluatie in Antwerpen worden geregeld. Vervolgens kan de diamant worden onderzocht op identiteit, herkomst, kwaliteit, behandelingen en staat."
+      },
+      {
+        "number": 5,
+        "title": "Certificeringsaanbeveling",
+        "text": "Als een nieuw laboratoriumrapport de verkoop materieel zou kunnen ondersteunen, kan Dalila uitleggen waarom dit het overwegen waard kan zijn. Bij de beslissing moet rekening worden gehouden met de kosten voor sorteren, hanteren, transport, ontzetten en opnieuw instellen."
+      },
+      {
+        "number": 6,
+        "title": "Aankoopaanbieding",
+        "text": "Als het artikel voldoet aan de inkoopcriteria van Dalila en de vereiste controles zijn uitgevoerd, kan Dalila een koopaanbod doen. De verkoper kan het bod beoordelen zonder dat hij daartoe verplicht is."
+      }
+    ],
+    "primaryCtaText": "WAARDE MIJN DIAMANT ZONDER CERTIFICAAT",
+    "primaryCtaHref": "#uncertified-diamond-form-bottom",
+    "secondaryCtaText": "BOEK EEN PRIVÉ ANTWERPEN EVALUATIE",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "idTop": "niet-gecertificeerde diamantvorm-top",
+    "idBottom": "niet-gecertificeerde diamantvormige bodem",
+    "leadSource": "sell_diamond_without_certificate",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP en PDF",
+    "title": "Waardeer mijn diamant zonder certificaat",
+    "subtitle": "Een beoordelingsrapport is optioneel. Stuur in wat je weet en upload duidelijke foto's. Dalila zal de volgende verificatiestappen uitleggen.",
+    "optionalNote": "Rapportnummer, exact karaatgewicht, kleur, helderheid en originele bon zijn niet vereist.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Wat dient u in?"
+      },
+      {
+        "number": 2,
+        "title": "Wat is de certificaatstatus?"
+      },
+      {
+        "number": 3,
+        "title": "Welke informatie kent u?"
+      },
+      {
+        "number": 4,
+        "title": "Upload foto's en documenten"
+      },
+      {
+        "number": 5,
+        "title": "Contactgegevens"
+      }
+    ],
+    "itemTypes": [
+      "Losse diamant",
+      "Diamanten verlovingsring",
+      "Andere diamanten ring",
+      "Diamanten oorbellen",
+      "Diamanten halsketting of hanger",
+      "Diamanten armband",
+      "Erfelijke diamanten juwelen",
+      "Ik weet het niet zeker"
+    ],
+    "certificateStatuses": [
+      "Ik heb het originele rapport",
+      "Ik heb een digitaal exemplaar",
+      "Ik ken het rapportnummer",
+      "Ik ben het rapport kwijtgeraakt",
+      "De diamant is nooit gecertificeerd",
+      "Ik heb het item geërfd zonder papierwerk",
+      "Ik weet het niet zeker"
+    ],
+    "originOptions": [
+      "Natuurlijke diamant",
+      "In laboratorium gekweekte diamant",
+      "Herkomst onbekend"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Ander",
+      "Onbekend"
+    ],
+    "labOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Nog een laboratorium",
+      "Onbekend",
+      "Niet van toepassing"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefoon",
+      "Ofwel e-mail of telefoon"
+    ],
+    "evaluationPreferences": [
+      "Alleen online beoordeling",
+      "Privé afspraak in Antwerpen",
+      "Nog niet zeker"
+    ],
+    "uploadHints": [
+      "Compleet sieraad",
+      "Weergave van de diamant van dichtbij",
+      "Zijaanzicht van de instelling",
+      "Keurmerken of handtekeningen",
+      "Oude bon",
+      "Vorige beoordeling",
+      "Foto of kopie van oud rapport",
+      "Erfdocumenten indien relevant"
+    ],
+    "consentText": "Ik ga ermee akkoord dat Dalila Diamonds contact met mij opneemt over dit evaluatieverzoek. Ik begrijp dat een beoordelingsrapport niet vereist is voor een eerste beoordeling, maar lichamelijk onderzoek of laboratoriumtests kunnen noodzakelijk zijn voordat een definitieve aanbieding wordt gedaan.",
+    "submitButton": "Waardeer mijn diamant zonder certificaat",
+    "submittingButton": "Verzenden…",
+    "nextButton": "Doorgaan",
+    "backButton": "Rug",
+    "successMessage": "Bedankt. Uw niet-gecertificeerde diamantgegevens zijn ingediend. Een lid van het Dalila Diamonds-team zal binnenkort contact met u opnemen.",
+    "errorMessage": "We konden uw verzoek niet indienen. Controleer de verplichte velden en probeer het opnieuw.",
+    "labels": {
+      "itemType": "Wat dien je in?",
+      "certificateStatus": "Certificaatstatus",
+      "origin": "Natuurlijk of in een laboratorium gekweekt, indien bekend",
+      "caratWeight": "Geschatte karaatgewicht",
+      "shape": "Diamond shape",
+      "gradingLaboratory": "Beoordelingslaboratorium, indien bekend",
+      "reportNumber": "Rapportnummer, indien bekend",
+      "purchaseDate": "Originele aankoopdatum, indien bekend",
+      "brand": "Merk of juwelier, indien bekend",
+      "upload": "Upload foto's en documenten",
+      "dragDrop": "Sleep hier bestanden en zet ze neer, of kies bestanden",
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "country": "Land",
+      "postcode": "Postcode",
+      "contactMethod": "Voorkeur contactmethode",
+      "evaluationPreference": "Online review of afspraak in Antwerpen",
+      "additionalInfo": "Aanvullende informatie",
+      "optional": "Optioneel"
+    },
+    "validation": {
+      "itemTypeRequired": "Selecteer wat u indient.",
+      "certificateRequired": "Selecteer de certificaatstatus.",
+      "nameRequired": "Voer uw volledige naam in.",
+      "contactRequired": "Geef een e-mailadres of telefoonnummer op.",
+      "countryRequired": "Voer uw land in.",
+      "consentRequired": "Bevestig de toestemmingsverklaring voordat u deze verzendt."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Kun je een diamant verkopen zonder certificaat?",
+        "answer": "Ja. Een professionele koper mag een diamant taxeren zonder het originele certificaat. Er kunnen aanvullende tests of laboratoriumbeoordelingen nodig zijn voordat een definitieve aanbieding wordt gedaan."
+      },
+      {
+        "question": "Kan ik mijn diamanten ring verkopen zonder GIA-certificaat?",
+        "answer": "Ja. De koper kan beginnen met foto's en beschikbare documenten. Als de diamant eerder een GIA-rapport had, kan de rapportinformatie mogelijk online worden opgehaald als het nummer bekend is."
+      },
+      {
+        "question": "Verliest een diamant waarde als het certificaat verloren gaat?",
+        "answer": "Het verlies van het document verandert niets aan de fysieke kwaliteit van de diamant. Ontbrekende documentatie kan echter tot onzekerheid en extra verificatiekosten leiden, wat van invloed kan zijn op het initiële aanbod."
+      },
+      {
+        "question": "Kan ik een verloren GIA-rapport vervangen?",
+        "answer": "GIA verstrekt geen dubbele rapporten. Als het rapportnummer bekend is, kunnen de gegevens ervan worden bekeken via GIA Report Check en zijn van veel rapporten van na 1 juli 2010 pdf's beschikbaar."
+      },
+      {
+        "question": "Kan ik een diamantrapport van HRD Antwerp online opvragen?",
+        "answer": "Ja. My HRD Antwerp biedt online toegang tot haar meldingenarchief wanneer het betreffende meldingsnummer of externe identificatiegegevens beschikbaar zijn."
+      },
+      {
+        "question": "Kan ik een IGI-rapport online verifiëren?",
+        "answer": "Ja. IGI biedt een officiële Verify Your Report-service waar gebruikers het rapportnummer kunnen invoeren."
+      },
+      {
+        "question": "Kan een juwelier mijn diamant identificeren zonder certificaat?",
+        "answer": "Een goed uitgeruste professional mag een eerste identificatie uitvoeren. Er kunnen nog steeds geavanceerde tests nodig zijn om te bepalen of de diamant natuurlijk, in een laboratorium gekweekt of behandeld is."
+      },
+      {
+        "question": "Moet ik een nieuw certificaat krijgen voordat ik mijn diamant verkoop?",
+        "answer": "Niet altijd. Vraag eerst om een ​​voorlopige evaluatie. De kosten en baten van het sorteren zijn afhankelijk van de waarschijnlijke kwaliteit, grootte, staat en zetting van de diamant."
+      },
+      {
+        "question": "Kan een gemonteerde diamant een beoordelingsrapport ontvangen?",
+        "answer": "Sommige laboratoria geven sieradenrapporten uit voor gemonteerde diamanten. Voor een compleet rapport met losse diamanten kan het nodig zijn dat de steen uit zijn zetting wordt verwijderd."
+      },
+      {
+        "question": "Kan ik een geërfde diamant verkopen zonder papierwerk?",
+        "answer": "Ja. Geef alle beschikbare boedeldocumenten, eerdere taxaties, foto's en eigendomsinformatie op. Lichamelijk onderzoek kan nodig zijn."
+      },
+      {
+        "question": "Is een diamanttaxatie hetzelfde als een certificaat?",
+        "answer": "Nee. Bij een taxatie wordt een geldwaarde toegekend voor een bepaald doel. Een beoordelingsrapport beschrijft de technische kenmerken van de diamant."
+      },
+      {
+        "question": "Kan Dalila een directe prijs geven zonder certificaat?",
+        "answer": "Er mag niet alleen op basis van foto's een onmiddellijke eindprijs worden beloofd. Dalila kan beginnen met een voorlopig onderzoek en uitleggen welke verificatie vereist is."
+      },
+      {
+        "question": "Koopt Dalila elke niet-gecertificeerde diamant?",
+        "answer": "Nee. Dalila moet eerst vaststellen of de diamant aan de aankoopcriteria voldoet en de nodige controles uitvoeren."
+      },
+      {
+        "question": "Moet ik na de evaluatie verkopen?",
+        "answer": "Nee. Voor het aanvragen van een evaluatie hoeft u geen aanbod te accepteren."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "start-anyway",
+    "title": "Het missen van een certificaat mag u er niet van weerhouden om te beginnen",
+    "paragraphs": [
+      "Een beoordelingsrapport kan ervoor zorgen dat een diamant gemakkelijker te identificeren en te vergelijken is, maar het verlies van het document maakt de steen niet waardeloos.",
+      "Begin met de informatie die je hebt. Stuur duidelijke foto's, oude bonnen, taxaties of rapportnummers mee en laat een specialist de juiste vervolgstap bepalen.",
+      "Als u een natuurlijke diamant of diamanten ring bezit zonder het originele certificaat, vraag dan een privébeoordeling aan bij Dalila Diamonds."
+    ],
+    "primaryButtonText": "INDIEN MIJN DIAMANT ZONDER CERTIFICAAT",
+    "primaryButtonHref": "#uncertified-diamond-form-bottom",
+    "secondaryButtonText": "SPREEK MET EEN DIAMANTSPECIALIST",
+    "secondaryButtonHref": "/contact"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "verkoop uw diamant in Antwerpen"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "diamantwaarderingscalculator"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "waar een diamanten ring te verkopen"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "veilig een diamanten ring verkopen"
+    },
+    "appraisalAntwerp": {
+      "href": "/resources/diamond-appraisal-antwerp-belgium",
+      "text": "diamanttaxatie in Antwerpen"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "een GIA-, HRD- of IGI-rapport verifiëren"
+    }
+  }
+}

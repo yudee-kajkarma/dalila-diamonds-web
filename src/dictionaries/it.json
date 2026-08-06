@@ -22,14 +22,18 @@
     "diamondKnowledgeDescription": "Scopri le 4C dei diamanti, le differenze tra diamanti naturali e coltivati in laboratorio, le certificazioni e la cura.",
     "gradingReportTitle": "Guida al rapporto di certificazione del diamante | Dalila Diamonds",
     "gradingReportDescription": "Comprenda i rapporti di certificazione del diamante, verifichi i numeri di rapporto, confronti le 4C, le proporzioni e la fluorescenza e controlli un diamante naturale prima dell'acquisto.",
-    "qualityChartTitle": "Tabella della qualità dei diamanti | Dalila Diamonds",
-    "qualityChartDescription": "Confronti i gradi di taglio, colore, purezza e carati. Usi questa tabella della qualità dei diamanti naturali per comprendere le 4C e scegliere il giusto equilibrio.",
+    "qualityChartTitle": "Tabella della qualità dei diamanti: 4C, colore e purezza | Dalila",
+    "qualityChartDescription": "Confronta la qualità del diamante utilizzando le 4C, i gradi di colore D–Z, la purezza FL–I3, il taglio, i carati, la lucidatura, la simmetria e la fluorescenza prima di scegliere un diamante naturale.",
     "fluorescenceGuideTitle": "Guida alla fluorescenza del diamante | Dalila Diamonds",
     "fluorescenceGuideDescription": "Comprenda la fluorescenza del diamante, la fluorescenza blu e i livelli di intensità. Scopra come la fluorescenza può influire su aspetto e prezzo prima di acquistare un diamante naturale.",
     "culetGuideTitle": "Guida al culet del diamante: dimensione e significato | Dalila Diamonds",
     "culetGuideDescription": "Scopra cos’è il culet di un diamante, come GIA e HRD ne descrivono la dimensione e come culet a punta, aperti, grandi o scheggiati possono influenzare aspetto e acquisto.",
     "girdleGuideTitle": "Guida alla cintura del diamante: spessore e gradi | Dalila Diamonds",
-    "girdleGuideDescription": "Scopra cos’è la cintura di un diamante, come GIA e HRD ne valutano lo spessore e come cinture sottili o spesse influenzano durata, dimensione, montatura e valore."
+    "girdleGuideDescription": "Scopra cos’è la cintura di un diamante, come GIA e HRD ne valutano lo spessore e come cinture sottili o spesse influenzano durata, dimensione, montatura e valore.",
+    "sizeChartTitle": "Tabella delle dimensioni del diamante: da carati a MM per forma | Dalila",
+    "sizeChartDescription": "Utilizza la tabella delle dimensioni dei diamanti di Dalila per confrontare le misurazioni approssimative in carati in mm per diamanti rotondi, ovali, a pera, a cuscino, smeraldi e altri diamanti naturali.",
+    "naturalVsLabTitle": "Diamanti naturali e coltivati ​​in laboratorio: confronto completo | Dalila",
+    "naturalVsLabDescription": "Confronta i diamanti naturali e coltivati ​​in laboratorio per origine, aspetto, prezzo, classificazione, rarità, rivendita e approvvigionamento per decidere quale diamante si adatta alle tue priorità."
   },
   "nav": {
     "home": "Home",
@@ -59,7 +63,14 @@
     "articleQualityChart": "Tabella della qualità dei diamanti",
     "articleFluorescenceGuide": "Guida alla fluorescenza del diamante",
     "articleCuletGuide": "Guida al culet del diamante",
-    "articleGirdleGuide": "Guida alla cintura del diamante"
+    "articleGirdleGuide": "Guida alla cintura del diamante",
+    "articleSizeChart": "Tabella delle dimensioni dei diamanti",
+    "articleNaturalVsLab": "Diamanti naturali e coltivati ​​in laboratorio",
+    "articleValuationCalculator": "Diamond Valuation Calculator",
+    "articleWhereToSellRing": "Where to Sell a Diamond Ring",
+    "articleHowToSellRing": "How to Sell a Diamond Ring Safely",
+    "articleAppraisalAntwerp": "Diamond Appraisal in Antwerp",
+    "articleSellWithoutCert": "Sell a Diamond Without a Certificate"
   },
   "header": {
     "search": "Cerca diamanti...",

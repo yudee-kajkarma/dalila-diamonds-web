@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "title": "Lose Diamanten zum Verkauf | Großhandel mit natürlichen Diamanten",
+    "description": "Durchsuchen Sie zertifizierte natürliche lose Diamanten zum Verkauf bei Dalila Diamonds in Antwerpen. Fordern Sie passende Steine, Bewertungsberichte und ein Großhandelsangebot an.",
+    "canonical": "https://www.daliladiamonds.com/wholesale/buy-wholesale-diamonds-online",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Loose diamonds for sale",
+    "inLanguage": "de",
+    "parentHub": "https://www.daliladiamonds.com/premium-b2b-diamond-supplier-belgium"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/wholesale/wholesale-loose-diamonds-for-sale.webp",
+      "alt": "Zertifizierte natürliche lose Diamanten für Großkäufer in Antwerpen",
+      "width": 1600,
+      "height": 900
+    },
+    "sourcingBrief": {
+      "src": "/images/wholesale/wholesale-diamond-sourcing-brief.webp",
+      "alt": "Übersicht über die Beschaffung natürlicher Diamanten mit Form, Karat, Farbe, Klarheit und Zertifizierung",
+      "width": 1400,
+      "height": 1000
+    },
+    "verification": {
+      "src": "/images/wholesale/verify-wholesale-loose-diamonds.webp",
+      "alt": "Messungen der Nummernbeschriftung des Diamantenberichts und Überprüfung des losen Steins",
+      "width": 1400,
+      "height": 1000
+    },
+    "matched": {
+      "src": "/images/wholesale/matched-wholesale-natural-diamonds.webp",
+      "alt": "Passende natürliche Diamanten wurden hinsichtlich der Messung von Farbreinheit und Aussehen verglichen",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Lose Diamanten zum Verkauf",
+    "breadcrumbHome": "Heim",
+    "breadcrumbWholesale": "Großhandel mit Diamanten",
+    "breadcrumbWholesaleHref": "/premium-b2b-diamond-supplier-belgium",
+    "breadcrumbCurrent": "Lose Diamanten zum Verkauf",
+    "imageAlt": "Zertifizierte natürliche lose Diamanten für Großkäufer in Antwerpen"
+  },
+  "hero": {
+    "title": "Lose Diamanten zum Verkauf | Großhandel mit natürlichen Diamanten",
+    "subheading": "Zertifizierte Naturdiamanten für professionelle Käufer",
+    "introParagraphs": [
+      "Dalila Diamonds liefert lose Naturdiamanten an Juweliere, Schmuckhersteller, Großhändler, Diamantenhändler und Luxuseinzelhändler."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse available diamonds through our "
+        },
+        {
+          "type": "link",
+          "text": "Live-Inventar mit Naturdiamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", or send us a sourcing brief for stones that meet your exact commercial, manufacturing or customer requirements."
+        }
+      ]
+    ],
+    "availableSpecsIntro": "Zu den verfügbaren Spezifikationen können unterschiedliche gehören:",
+    "availableSpecs": [
+      "Formen und Schnittstile",
+      "Karatgewichte",
+      "Farb- und Klarheitskombinationen",
+      "Schnitt-, Polier- und Symmetriegrade",
+      "Fluoreszenzpräferenzen",
+      "Verhältnisse von Länge zu Breite",
+      "Maß- und Proportionsanforderungen",
+      "GIA-, IGI- oder HRD-Bewertungsberichte",
+      "Passende Paare und Layouts",
+      "Kalibrierte Produktionsanforderungen"
+    ],
+    "primaryButtonText": "Fordern Sie ein Angebot für die Beschaffung im Großhandel an",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "Verfügbaren Bestand anzeigen",
+    "secondaryButtonHref": "/inventory"
+  },
+  "quickAnswer": {
+    "title": "Schnelle Antwort",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Professional buyers can purchase loose natural diamonds from Dalila Diamonds by selecting stones from the "
+        },
+        {
+          "type": "link",
+          "text": "verfügbarer Bestand",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submitting a detailed sourcing request."
+        }
+      ]
+    ],
+    "paragraphs": [
+      "Vor der Genehmigung eines Diamanten sollte der Käufer dessen Bewertungsinformationen, Maße, Berichtsnummer, Verfügbarkeit, Preis und relevantes Inspektionsmaterial erhalten und überprüfen. Laborinformationen sollten anhand der offiziellen Datenbank des ausstellenden Labors überprüft werden.",
+      "Restzahlung, Versand, Versicherung, Zollverantwortung und Liefervoranschläge sollten im schriftlichen Angebot bestätigt werden, bevor die Bestellung genehmigt wird."
+    ]
+  },
+  "whoCanRequest": {
+    "id": "who-can-request-wholesale-loose-diamonds",
+    "title": "Wer kann lose Diamanten im Großhandel anfordern?",
+    "introParagraphs": [
+      "Dieser Service richtet sich an professionelle Käufer von Diamanten und Schmuck, darunter:"
+    ],
+    "bullets": [
+      "Unabhängige Juweliere",
+      "Schmuckhersteller",
+      "Unternehmen für Brautschmuck",
+      "Luxus-Einzelhändler",
+      "Diamantengroßhändler und -händler",
+      "Designer produzieren maßgeschneiderte Stücke",
+      "Unternehmen, die passende Steine ​​beschaffen",
+      "Käufer füllen den kommerziellen Lagerbestand auf"
+    ],
+    "closingParagraphs": [
+      "Käufer und Bestellberechtigung werden während des Angebotsprozesses bestätigt. Der Mindestbestellwert oder die Mindestbestellmenge sollte klar angegeben werden, bevor der Käufer sich zur Transaktion verpflichtet."
+    ]
+  },
+  "submitRequirements": {
+    "id": "submit-your-diamond-requirements",
+    "title": "Reichen Sie Ihre Diamantanforderungen ein",
+    "introParagraphs": [
+      "Eine vollständige Beschaffungsbeschreibung hilft dem Dalila-Team, relevantere Optionen bereitzustellen und unnötige Vergleiche zu reduzieren."
+    ],
+    "table": {
+      "headers": [
+        "Informationen zur Verfügung zu stellen",
+        "Beispiel"
+      ],
+      "rows": [
+        [
+          "Diamanttyp",
+          "Natürlicher Diamant"
+        ],
+        [
+          "Form",
+          "Rund, oval, Smaragd, Birne oder Kissen"
+        ],
+        [
+          "Menge",
+          "Ein Stein, passendes Paar oder mehrere Steine"
+        ],
+        [
+          "Karatanforderung",
+          "Genaues Gewicht oder akzeptabler Bereich"
+        ],
+        [
+          "Farbe",
+          "Bevorzugte Sorte oder Bereich"
+        ],
+        [
+          "Klarheit",
+          "Bevorzugte Qualität und Augenreinheitsanforderung"
+        ],
+        [
+          "Schneiden oder herstellen",
+          "Schnittqualität, Proportionen oder optische Vorlieben"
+        ],
+        [
+          "Polnisch und Symmetrie",
+          "Akzeptable Mindestnoten"
+        ],
+        [
+          "Fluoreszenz",
+          "Keine, schwacher oder akzeptabler Bereich"
+        ],
+        [
+          "Messungen",
+          "Mindestdurchmesser, -spreizung oder -verhältnis"
+        ],
+        [
+          "Bewertungslabor",
+          "GIA, IGI, HRD oder flexibel"
+        ],
+        [
+          "Budget",
+          "Pro Stein oder Komplettbestellung"
+        ],
+        [
+          "Ziel",
+          "Land und Postleitzahl der Zustellung"
+        ],
+        [
+          "Frist",
+          "Erforderliches Genehmigungs- oder Lieferdatum"
+        ]
+      ]
+    }
+  },
+  "sampleBrief": {
+    "id": "sample-sourcing-brief",
+    "title": "Musterbeschaffungsübersicht",
+    "paragraphs": [
+      "Für eine Ohrringkollektion benötigen wir fünf passende Paare ovaler Naturdiamanten. Jeder Stein sollte zwischen 0,50 und 0,60 Karat haben, die Farbe G–H und die Reinheit VS2–SI1 haben, ein konsistentes Erscheinungsbild mit der Vorderseite nach oben, ausgewogene Umrisse und die gleiche Fluoreszenzpräferenz aufweisen. Bitte geben Sie Berichtsdetails, Maße, Videos, Gesamtangebot und voraussichtliche Lieferbedingungen an."
+    ],
+    "note": "Hierbei handelt es sich um eine veranschaulichende Kurzdarstellung, nicht um einen vollständigen Dalila-Kundenfall."
+  },
+  "buyingProcess": {
+    "id": "how-the-buying-process-works",
+    "title": "So funktioniert der Kaufprozess",
+    "steps": [
+      {
+        "number": 1,
+        "id": "browse-or-submit-a-request",
+        "title": "Durchsuchen oder eine Anfrage senden",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Search the "
+            },
+            {
+              "type": "link",
+              "text": "verfügbarer Bestand",
+              "href": "/inventory"
+            },
+            {
+              "type": "text",
+              "value": " or send the Dalila team your required specifications, quantity, budget and destination."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "receive-suitable-options",
+        "title": "Erhalten Sie passende Optionen",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Available diamonds can be shortlisted according to the submitted criteria. Where a request is unusually specific or unavailable in current stock, Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Diamantenquelle für Sie",
+              "href": "/diamond-source"
+            },
+            {
+              "type": "text",
+              "value": " service can be used for a customised search."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-the-diamond-information",
+        "title": "Sehen Sie sich die Diamantinformationen an",
+        "introParagraphs": [
+          "Bevor Sie eine Option genehmigen, prüfen Sie die verfügbaren Optionen:"
+        ],
+        "bullets": [
+          "Berichtsnummer",
+          "Form und Schnittstil",
+          "Karatgewicht",
+          "Messungen",
+          "Farbe und Klarheit",
+          "Informationen ausschneiden",
+          "Polnisch und Symmetrie",
+          "Fluoreszenz",
+          "Kommentare melden",
+          "Fotos oder Videos",
+          "Preis und Verfügbarkeit"
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For face-up size context, see Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Diamantgröße in Millimetern",
+              "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 4,
+        "id": "verify-the-grading-report",
+        "title": "Überprüfen Sie den Bewertungsbericht",
+        "introParagraphs": [
+          "Überprüfen Sie den Bericht direkt über das offizielle System des Labors:"
+        ],
+        "labLinks": [
+          {
+            "text": "GIA-Berichtsprüfung",
+            "href": "https://www.gia.edu/report-check-landing"
+          },
+          {
+            "text": "IGI überprüft Ihren Bericht",
+            "href": "https://www.igi.org/Verify-Your-Report/"
+          },
+          {
+            "text": "Mein HRD Antwerpen",
+            "href": "https://my.hrdantwerp.com/"
+          }
+        ],
+        "paragraphs": [
+          "Wenn eine Laserbeschriftung vorhanden ist, sollte deren Nummer unter geeigneter Vergrößerung mit dem Bericht und dem physischen Diamanten verglichen werden.",
+          "Eine gültige Berichtsnummer bestätigt, dass eine Laboraufzeichnung vorhanden ist. Bericht, Inschrift, Maße und tatsächlicher Diamant sollten weiterhin übereinstimmen."
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Compare laboratory approaches in the "
+            },
+            {
+              "type": "link",
+              "text": "GIA vs. IGI vs. HRD-Diamantenzertifizierungsleitfaden",
+              "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", read an "
+            },
+            {
+              "type": "link",
+              "text": "IGI-Zertifizierungsleitfaden",
+              "href": "/blogs/igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", or use the "
+            },
+            {
+              "type": "link",
+              "text": "Leitfaden zum Lesen von GIA-Berichten",
+              "href": "/blogs/how-to-read-gia-diamond-certificate"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 5,
+        "id": "confirm-the-quotation",
+        "title": "Bestätigen Sie das Angebot",
+        "introParagraphs": [
+          "Das schriftliche Angebot sollte Folgendes enthalten:"
+        ],
+        "bullets": [
+          "Ausgewählte Diamant- oder Aktienreferenz",
+          "Menge",
+          "Preis und Währung",
+          "Zahlungsbedingungen",
+          "Verfügbarkeitszeitraum",
+          "Versandart",
+          "Versicherungsvereinbarung",
+          "Zollpflichten",
+          "Anfallende Steuern oder Abgaben",
+          "Voraussichtlicher Versand- und Liefertermin",
+          "Mit der Bestellung gelieferte Dokumente"
+        ]
+      },
+      {
+        "number": 6,
+        "id": "approve-and-arrange-delivery",
+        "title": "Lieferung genehmigen und arrangieren",
+        "paragraphs": [
+          "Sobald die Auswahl und die Geschäftsbedingungen genehmigt sind, kann die Bestellung gemäß den bestätigten Zahlungs- und Lieferbedingungen ausgeführt werden."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For structured repeat sourcing, read about Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Secure To Source",
+              "href": "/secure-to-source"
+            },
+            {
+              "type": "text",
+              "value": " service."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "gradingConsistency": {
+    "id": "grading-consistency-for-pairs-and-multiple-stones",
+    "title": "Konsistenz der Bewertung für Paare und mehrere Steine",
+    "introParagraphs": [
+      "Diamanten mit identischen Farb- und Reinheitsgraden sehen nicht unbedingt identisch aus.",
+      "Bei abgestimmten Paaren, Layouts oder Wiederholungsproduktionen erfordert die Konsistenz möglicherweise auch einen Vergleich von:"
+    ],
+    "bullets": [
+      "Offene Farbe",
+      "Sichtbarkeit der Inklusion",
+      "Transparenz",
+      "Durchmesser oder physikalische Abmessungen",
+      "Verhältnis von Länge zu Breite",
+      "Umriss und Eckform",
+      "Tisch und Gesamttiefe",
+      "Schneiden oder herstellen",
+      "Fluoreszenz",
+      "Helligkeit und Kontrast",
+      "Eigenschaften des Gürtels",
+      "Insgesamt visuelle Ausgewogenheit"
+    ],
+    "closingParagraphs": [
+      "Die akzeptable Toleranz sollte vor Beginn der Beschaffung vereinbart werden. Dies ist besonders wichtig für Ohrringe, Mehrsteinringe, Linienarmbänder und die wiederholte Schmuckherstellung."
+    ]
+  },
+  "pricing": {
+    "id": "how-wholesale-loose-diamond-pricing-is-determined",
+    "title": "Wie die Preise für lose Diamanten im Großhandel bestimmt werden",
+    "introParagraphs": [
+      "Es gibt keinen verlässlichen, universellen Preis pro Karat für jeden Diamanten.",
+      "Ein Angebot kann beeinflusst werden durch:"
+    ],
+    "bullets": [
+      "Marktverfügbarkeit von Naturdiamanten",
+      "Form",
+      "Genaues Karatgewicht",
+      "Farbe und Klarheit",
+      "Schnittqualität",
+      "Maße und Verbreitung",
+      "Fluoreszenz",
+      "Laborbericht",
+      "Visuelle Leistung",
+      "Menge",
+      "Matching-Schwierigkeit",
+      "Dringlichkeit der Beschaffung",
+      "Währung",
+      "Versand-, Versicherungs- und Einfuhrbestimmungen"
+    ],
+    "closingParagraphs": [
+      "Zwei Diamanten mit der gleichen Überschrift „4Cs“ erhalten möglicherweise unterschiedliche Angebote, da ihre Proportionen, ihr Aussehen, ihre Berichtsdetails oder ihre Verfügbarkeit unterschiedlich sind.",
+      "Vergleichen Sie daher die vollständigen Diamantenspezifikationen, anstatt sich ausschließlich nach dem niedrigsten Preis zu entscheiden."
+    ]
+  },
+  "documentation": {
+    "id": "documentation-and-provenance",
+    "title": "Dokumentation und Provenienz",
+    "introParagraphs": [
+      "Ein Bewertungsbericht beschreibt die Identifikations- und Qualitätsmerkmale des Diamanten. Eigentum, Kaufwert, Lieferkette oder Bergbauland werden dadurch nicht automatisch festgestellt.",
+      "Wenn eine Herkunfts- oder Compliance-Dokumentation wichtig ist, geben Sie dies im Beschaffungsauftrag an, bevor Sie Optionen erhalten.",
+      "Das Zertifizierungssystem des Kimberley-Prozesses regelt den internationalen Handel mit Rohdiamanten. Es sollte nicht als automatischer Herkunftslandnachweis für jeden geschliffenen Diamanten vorgelegt werden.",
+      "Abhängig von der Transaktion und dem Bestimmungsort benötigen Käufer möglicherweise auch Folgendes:"
+    ],
+    "bullets": [
+      "Handelsrechnung",
+      "Verpackungsinformationen",
+      "Kopie des Bewertungsberichts",
+      "Versand- und Versicherungsbestätigung",
+      "Export- oder Zolldokumentation",
+      "Lieferantenerklärung",
+      "Sanktionen oder Compliance-Prüfungen",
+      "Separate Herkunftsdokumentation, sofern verfügbar"
+    ],
+    "closingParagraphs": [
+      "Der genaue Dokumentensatz sollte bei jedem Auftrag schriftlich bestätigt werden."
+    ]
+  },
+  "whyDalila": {
+    "id": "why-source-through-dalila-diamonds",
+    "title": "Warum bei Dalila Diamonds einkaufen?",
+    "introParagraphs": [
+      "Dalila Diamonds ist ein in Antwerpen ansässiges Unternehmen für Naturdiamanten, das professionelle Käufer bedient.",
+      "Käufer können Dalila nutzen, um:"
+    ],
+    "bullets": [
+      "Sehen Sie sich die verfügbaren losen Naturdiamanten an",
+      "Fordern Sie spezifische Farb-, Reinheits- und Karatkombinationen an",
+      "Finden Sie die wichtigsten ausgefallenen Formen",
+      "Fordern Sie passende Paare und Layouts an",
+      "Vergleichen Sie Bewertungsberichte",
+      "Greifen Sie auf maßgeschneiderte Beschaffung für seltene Anforderungen zu",
+      "Vereinbaren Sie eine strukturierte Wiederbeschaffung",
+      "Bestätigen Sie die internationalen Lieferbedingungen"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Learn more about Dalila’s experience, services and professional sourcing model through the "
+        },
+        {
+          "type": "link",
+          "text": "Premium-B2B-Diamantenlieferant in Belgien",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ]
+  },
+  "requestQuote": {
+    "id": "request-a-wholesale-diamond-quote",
+    "title": "Fordern Sie ein Großhandelsangebot für Diamanten an",
+    "introParagraphs": [
+      "Senden Sie die folgenden Informationen, um relevante Optionen zu erhalten:"
+    ],
+    "bullets": [
+      "Firmenname und Standort",
+      "Gewünschte Form",
+      "Menge",
+      "Karatbereich",
+      "Farbe und Klarheit",
+      "Schnitt- oder Proportionsanforderungen",
+      "Laborpräferenz",
+      "Fluoreszenzpräferenz",
+      "Budget",
+      "Lieferziel",
+      "Gewünschtes Datum"
+    ],
+    "primaryButtonText": "Fordern Sie ein Angebot für die Beschaffung im Großhandel an",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "supportingText": "Verfügbarkeit, Bestellberechtigung, Preise, Zahlungsbedingungen und Lieferbedingungen werden vor dem Kauf bestätigt."
+  },
+  "inventoryPreview": {
+    "id": "browse-available-loose-diamonds",
+    "title": "Durchsuchen Sie verfügbare lose Diamanten",
+    "description": "Überprüfen Sie den aktuellen Bestand an Naturdiamanten und fordern Sie dann ein Angebot für ausgewählte Steine ​​oder eine passende Beschaffungsbeschreibung an.",
+    "buttonText": "Verfügbaren Bestand anzeigen",
+    "buttonHref": "/inventory"
+  },
+  "form": {
+    "id": "wholesale-sourcing-form",
+    "tag": "Großhandelsanfrage",
+    "title": "Fordern Sie ein Großhandelsangebot für Diamanten an",
+    "subtitle": "Teilen Sie Ihre Geschäftsdaten und Ihren Diamantenbedarf mit. Verfügbarkeit, Berechtigung, Preise und Lieferbedingungen werden vor dem Kauf in einem schriftlichen Angebot bestätigt.",
+    "labels": {
+      "businessName": "Firmenname *",
+      "location": "Unternehmensstandort",
+      "fullName": "Vollständiger Name",
+      "email": "Email address *",
+      "phone": "Phone number",
+      "shape": "Form *",
+      "quantity": "Menge",
+      "caratRange": "Karatbereich *",
+      "colour": "Farbe",
+      "clarity": "Klarheit",
+      "cut": "Schneiden oder herstellen",
+      "laboratory": "Bewertungslabor",
+      "fluorescence": "Fluoreszenz",
+      "budget": "Budget",
+      "destination": "Lieferziel",
+      "requiredDate": "Gewünschtes Datum",
+      "message": "Zusätzliche Anforderungen"
+    },
+    "placeholders": {
+      "businessName": "Ihr Firmenname",
+      "location": "Stadt, Land",
+      "fullName": "Kontaktname",
+      "email": "name@company.com",
+      "phone": "+32 …",
+      "quantity": "z.B. 1 Stein, passendes Paar oder 10 Steine",
+      "caratRange": "z.B. 0,50–0,60 ct",
+      "colour": "z.B. G–H",
+      "clarity": "z.B. VS2–SI1, augenrein",
+      "cut": "z.B. Ausgezeichnete / bevorzugte Proportionen",
+      "budget": "Pro Stein oder Gesamtbestellung",
+      "destination": "Land und Postleitzahl",
+      "requiredDate": "Genehmigungs- oder Lieferdatum",
+      "message": "Übereinstimmende Paare, Fluoreszenz, Messungen, Berichtspräferenz ..."
+    },
+    "shapeOptions": [
+      "Round",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Cushion",
+      "Marquise",
+      "Radiant",
+      "Princess",
+      "Asscher",
+      "Heart",
+      "Other"
+    ],
+    "laboratoryOptions": [
+      "GIA",
+      "IGI",
+      "HRD",
+      "Flexible"
+    ],
+    "fluorescenceOptions": [
+      "None",
+      "Faint",
+      "Medium",
+      "Strong",
+      "Very Strong",
+      "Flexible"
+    ],
+    "submitButton": "Fordern Sie ein Angebot für die Beschaffung im Großhandel an",
+    "requiredNote": "* Erforderliche Felder. Die Berechtigung des Käufers und die Geschäftsbedingungen werden während des Angebots bestätigt.",
+    "successMessage": "Ihre Großhandelsbeschaffungsanfrage wurde übermittelt. Wir werden Ihr Briefing prüfen und mit relevanten Optionen antworten.",
+    "errorMessage": "Ihre Anfrage konnte nicht übermittelt werden. Bitte versuchen Sie es erneut oder wenden Sie sich direkt an Dalila Diamonds.",
+    "incompleteMessage": "Bitte füllen Sie die erforderlichen Felder aus, bevor Sie Ihre Anfrage zur Großhandelsbeschaffung absenden."
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Verkauft Dalila Diamonds natürliche oder im Labor gezüchtete Diamanten?",
+        "answer": "Das Kernangebot von Dalila Diamonds im Großhandel sind natürliche Diamanten. Die Beschreibung des Berichts sollte immer überprüft werden, um sicherzustellen, dass jeder ausgewählte Stein als natürlich identifiziert wird."
+      },
+      {
+        "question": "Wer kann lose Diamanten im Großhandel anfordern?",
+        "answer": "Der Service richtet sich an professionelle Einkäufer wie Juweliere, Hersteller, Einzelhändler, Großhändler, Händler und Schmuckdesigner. Die Berechtigung des Käufers wird während des Anfrageprozesses bestätigt."
+      },
+      {
+        "question": "Gibt es eine Mindestbestellmenge im Großhandel?",
+        "answer": "Die Mindestbestellanforderungen können vom Diamanten, der Menge, dem Beschaffungsweg und dem Bestimmungsort abhängen. Das geltende Minimum sollte im schriftlichen Angebot bestätigt und nicht angenommen werden."
+      },
+      {
+        "question": "Welche Notenberichte gibt es?",
+        "answer": "Verfügbare Diamanten können Berichte von Laboren wie GIA, IGI oder HRD Antwerpen enthalten. Die Verfügbarkeit des Labors hängt vom ausgewählten Stein und der Beschaffungsanfrage ab."
+      },
+      {
+        "question": "Kann ich den Diamantenbericht vor dem Kauf überprüfen?",
+        "answer": "Ja. Käufer sollten die Berichtsnummer anhand der offiziellen Datenbank des ausstellenden Labors überprüfen und die abgerufenen Informationen mit dem angebotenen Diamanten vergleichen."
+      },
+      {
+        "question": "Kann Dalila passende Diamantpaare beschaffen?",
+        "answer": "Passende Paare und Layouts können angefragt werden. Sorgen Sie für akzeptable Toleranzen für Karatgewicht, Maße, Farbe, Klarheit, Fluoreszenz, Form und Gesamterscheinung."
+      },
+      {
+        "question": "Warum werden die Großhandelspreise für Diamanten nicht als ein Preis pro Karat angezeigt?",
+        "answer": "Der Diamantpreis hängt von mehr als dem Karatgewicht ab. Form, Farbe, Klarheit, Schnitt, Maße, Bericht, Aussehen, Verfügbarkeit, Menge und Logistik können sich alle auf das Angebot auswirken."
+      },
+      {
+        "question": "Kann ich einen Diamanten anfordern, der nicht im Live-Inventar ist?",
+        "answer": "Ja. Senden Sie die vollständigen Spezifikationen über Dalilas maßgeschneiderten Beschaffungsservice, wenn ein geeigneter Diamant im aktuellen Bestand nicht verfügbar ist."
+      },
+      {
+        "question": "Belegt ein Bewertungsbericht, wo ein natürlicher Diamant abgebaut wurde?",
+        "answer": "Normalerweise nicht. Ein Standardbewertungsbericht identifiziert und bewertet den Stein, bestätigt jedoch nicht automatisch das Abbauland. Angaben zur geografischen Herkunft oder Herkunft erfordern separate Belege."
+      },
+      {
+        "question": "Wie lange dauert die Lieferung von Diamanten im Großhandel?",
+        "answer": "Der Zeitpunkt hängt von Verfügbarkeit, Inspektion, Zahlung, Bestimmungsort, Spediteur und Zollabwicklung ab. Das voraussichtliche Versand- und Lieferfenster sollte vor dem Kauf im Angebot bestätigt werden."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "source-wholesale-loose-diamonds",
+    "title": "Finden Sie lose Diamanten im Großhandel bei Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse the "
+        },
+        {
+          "type": "link",
+          "text": "Live-Inventar mit Naturdiamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submit a wholesale sourcing brief for matched stones, calibrated layouts and certified natural diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For rare or highly specific searches, use "
+        },
+        {
+          "type": "link",
+          "text": "Diamantenquelle für Sie",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ". For structured repeat procurement, explore the "
+        },
+        {
+          "type": "link",
+          "text": "Secure To Source-Dienst",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ". Learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium-B2B-Diamantenlieferant in Belgien",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page, or "
+        },
+        {
+          "type": "link",
+          "text": "Kontaktieren Sie Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "primaryButtonText": "Fordern Sie ein Angebot für die Beschaffung im Großhandel an",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "Verfügbaren Bestand anzeigen",
+    "secondaryButtonHref": "/inventory"
+  }
+}

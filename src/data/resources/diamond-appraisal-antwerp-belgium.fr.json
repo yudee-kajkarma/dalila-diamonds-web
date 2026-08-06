@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "title": "Diamond Appraisal Anvers : coût, processus et options",
+    "description": "Découvrez comment fonctionne l'évaluation d'un diamant à Anvers, ce que cela peut coûter et si vous avez besoin d'une évaluation, d'un rapport de classification ou d'une offre d'achat pour votre diamant.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-appraisal-antwerp-belgium",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaAppraisalAssociations": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaAppraisalSelection": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaJewelleryAnalysis": "https://www.gia.edu/gem-lab-service/jewelry",
+    "hrdAntwerp": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Estimation de diamants à Anvers",
+    "breadcrumbHome": "Maison",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Estimation de diamants à Anvers",
+    "imageAlt": "Évaluation des diamants dans la bannière de ressources d'Anvers"
+  },
+  "hero": {
+    "title": "Évaluation de diamants à Anvers : coût, processus et options",
+    "paragraphs": [
+      "Une évaluation de diamant fournit une opinion sur la valeur monétaire d’un diamant ou d’un bijou dans un but déclaré. Cet objectif est important car une évaluation d’assurance, une évaluation de succession et une évaluation de revente peuvent produire des chiffres différents pour le même diamant.",
+      "Avant d’organiser une estimation de diamant à Anvers, décidez pour quoi vous avez besoin d’une estimation. Si vous souhaitez des documents d'assurance, des rapports de succession ou une opinion écrite formelle, vous aurez peut-être besoin d'un évaluateur qualifié indépendant. Si vous avez besoin d’une confirmation de l’identité et de la qualité du diamant, vous pouvez exiger un rapport de classement d’un laboratoire de gemmologie. Si votre intention est de vendre, vous recherchez peut-être plutôt une évaluation et une offre d’achat d’un acheteur.",
+      "Dalila Diamonds peut examiner les diamants naturels en vue d'un achat potentiel, mais une évaluation d'achat ne doit pas être présentée comme une assurance indépendante ou une évaluation juridique."
+    ],
+    "primaryButtonText": "DITES-NOUS CE DONT VOUS AVEZ BESOIN",
+    "primaryButtonHref": "#purpose-selector"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "alt": "Diamant naturel soumis à une expertise professionnelle à Anvers",
+      "width": 1600,
+      "height": 900
+    },
+    "comparison": {
+      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "alt": "Différence entre le rapport d'évaluation des diamants et l'offre d'achat",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/diamond-appraisal-process.webp",
+      "alt": "Étapes suivies lors d’une évaluation professionnelle d’un diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "costFactors": {
+      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "alt": "Facteurs affectant le coût d’une évaluation de diamant à Anvers",
+      "width": 1400,
+      "height": 1000
+    },
+    "purposeTypes": {
+      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "alt": "Types d'évaluation des diamants pour la vente d'héritage d'assurance et de certification",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "purpose-selector",
+        "label": "De quelle valorisation avez-vous besoin ?"
+      },
+      {
+        "id": "quick-answer",
+        "label": "Réponse rapide"
+      },
+      {
+        "id": "appraisal-vs-grading",
+        "label": "Évaluation vs notation vs offre"
+      },
+      {
+        "id": "gia-appraisals",
+        "label": "Le GIA évalue-t-il les diamants ?"
+      },
+      {
+        "id": "hrd-antwerp",
+        "label": "Ce que propose HRD Anvers"
+      },
+      {
+        "id": "appraisal-cost",
+        "label": "Coût d’expertise à Anvers"
+      },
+      {
+        "id": "free-appraisal",
+        "label": "Estimation gratuite du diamant"
+      },
+      {
+        "id": "appraisal-types",
+        "label": "Types d’évaluation nécessaires"
+      },
+      {
+        "id": "appraisal-process",
+        "label": "Que se passe-t-il pendant l'évaluation"
+      },
+      {
+        "id": "mounted-diamond",
+        "label": "Précision du diamant monté"
+      },
+      {
+        "id": "written-appraisal",
+        "label": "Contenu de l’évaluation écrite"
+      },
+      {
+        "id": "choose-appraiser",
+        "label": "Choisissez un évaluateur"
+      },
+      {
+        "id": "what-to-bring",
+        "label": "Quoi apporter"
+      },
+      {
+        "id": "how-long",
+        "label": "Combien de temps cela prend"
+      },
+      {
+        "id": "online-appraisal",
+        "label": "Fiabilité des évaluations en ligne"
+      },
+      {
+        "id": "before-selling",
+        "label": "Expertise avant vente"
+      },
+      {
+        "id": "dalila-evaluation",
+        "label": "Évaluation de Dalila à vendre"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "FAQ"
+      },
+      {
+        "id": "find-right-valuation",
+        "label": "Trouver la bonne valorisation"
+      }
+    ]
+  },
+  "purposeSelector": {
+    "id": "purpose-selector",
+    "title": "De quel type d’évaluation de diamant avez-vous besoin ?",
+    "intro": "Utilisez ce sélecteur pour vous orienter vers la bonne étape suivante.",
+    "options": [
+      {
+        "id": "sell",
+        "title": "Je veux vendre mon diamant",
+        "description": "Vous avez probablement besoin d’une évaluation d’acheteur plutôt que d’une évaluation d’assurance. Dalila peut examiner le rapport de notation et les photographies disponibles avant de déterminer si une évaluation physique à Anvers est appropriée.",
+        "ctaText": "Demander une évaluation d'achat privée",
+        "ctaHref": "#diamond-evaluation-form",
+        "formPurpose": "I want to sell my diamond"
+      },
+      {
+        "id": "insurance",
+        "title": "J'ai besoin d'une évaluation pour une assurance",
+        "description": "Vous avez normalement besoin d’une évaluation écrite indépendante basée sur la valeur de remplacement. Demandez à votre assureur quelles informations, date d’évaluation et qualifications de l’évaluateur il a besoin avant de réserver le service.",
+        "ctaText": "Découvrez ce qu’une évaluation d’assurance devrait inclure",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an insurance appraisal"
+      },
+      {
+        "id": "inheritance",
+        "title": "J'ai besoin d'une évaluation à des fins successorales, successorales ou juridiques",
+        "description": "La base d'évaluation requise peut dépendre de l'objectif et des conseils professionnels pertinents. Demandez à l'avocat, au notaire, à l'assureur, au comptable ou à l'autorité concernée quel type de rapport et la date d'évaluation sont requis.",
+        "ctaText": "Préparez-vous à une évaluation indépendante",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an inheritance or estate valuation"
+      },
+      {
+        "id": "certificate",
+        "title": "J'ai besoin d'un certificat de diamant ou d'un rapport de classement",
+        "description": "Il vous faut un laboratoire de gemmologie plutôt qu'une expertise monétaire. Un laboratoire peut évaluer si le diamant est naturel ou cultivé en laboratoire et décrire des caractéristiques telles que le poids en carats, la couleur, la clarté et la taille.",
+        "ctaText": "Comprendre les rapports de classification des diamants",
+        "ctaHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "approximate",
+        "title": "Je veux seulement savoir ce que vaut mon diamant",
+        "description": "Commencez par une demande d’évaluation en ligne. Soumettez les informations de classement et les photographies disponibles, en sachant qu'une inspection physique peut être nécessaire pour un résultat fiable.",
+        "ctaText": "Utilisez le calculateur d'évaluation des diamants",
+        "ctaHref": "/resources/diamond-valuation-calculator"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Réponse rapide : Qu'est-ce qu'une évaluation de diamant ?",
+    "paragraphs": [
+      "Une évaluation de diamant est une opinion documentée de valeur préparée dans un but spécifique et avec une date d’entrée en vigueur. Il doit identifier l'article, décrire le diamant et les bijoux, expliquer le type de valeur déclarée et indiquer comment la conclusion a été tirée."
+    ],
+    "considerationsIntro": "Une évaluation peut prendre en compte :",
+    "considerations": [
+      "Que le diamant soit naturel ou cultivé en laboratoire",
+      "Poids en carats",
+      "Couleur et clarté",
+      "Qualité de coupe et proportions",
+      "Forme",
+      "Fluorescence",
+      "Traitements",
+      "Condition",
+      "Bijouterie métal et construction",
+      "Marque ou créateur",
+      "Informations actuelles sur le marché",
+      "L’utilisation prévue de l’évaluation"
+    ],
+    "closing": "Une évaluation n’est pas automatiquement une offre d’achat. Il ne s’agit pas non plus nécessairement du montant payé initialement par le propriétaire ou du montant qu’un assureur paierait en espèces."
+  },
+  "appraisalVsGrading": {
+    "id": "appraisal-vs-grading",
+    "title": "Évaluation des diamants, rapport de classement et offre d’achat : quelle est la différence ?",
+    "intro": [
+      "Ces trois documents ou évaluations sont souvent confondus, mais ils répondent à des questions différentes."
+    ],
+    "table": {
+      "caption": "Comparaison de l'évaluation des diamants, du rapport de classement et de l'offre d'achat",
+      "headers": [
+        "Évaluation",
+        "Réponse à la question principale",
+        "Habituellement fourni par",
+        "Est-ce que cela inclut une valeur monétaire ?"
+      ],
+      "rows": [
+        [
+          "Rapport de classification des diamants",
+          "Qu'est-ce que le diamant et quelles sont ses caractéristiques de qualité ?",
+          "Laboratoire de gemmologie",
+          "Normalement non"
+        ],
+        [
+          "Évaluation indépendante",
+          "Quelle est la valeur de l’objet pour un usage et une date déclarés ?",
+          "Évaluateur indépendant qualifié",
+          "Oui"
+        ],
+        [
+          "Évaluation d'assurance",
+          "Quel peut coûter le remplacement de l'article sur le marché concerné ?",
+          "Évaluateur qualifié",
+          "Oui"
+        ],
+        [
+          "Évaluation de l'acheteur",
+          "Qu’est-ce que cet acheteur est prêt à payer pour l’article ?",
+          "Acheteur de diamants ou de bijoux",
+          "Oui, à titre d'offre ou d'indication préalable"
+        ],
+        [
+          "Estimation des enchères",
+          "Dans quelle fourchette les enchères peuvent-elles avoir lieu ?",
+          "Maison de vente aux enchères",
+          "Une plage estimée, pas un résultat garanti"
+        ],
+        [
+          "Devis de consignation",
+          "A quel prix l'article peut-il être commercialisé ?",
+          "Bijoutier ou revendeur",
+          "Une recommandation de prix demandé"
+        ]
+      ]
+    },
+    "giaLinkText": "Explication du GIA sur les évaluations et les rapports de notation",
+    "closing": "Cette distinction est importante lors de la comparaison des chiffres. Une valeur de remplacement d’assurance élevée ne doit pas être comparée directement à l’offre d’achat nette d’un acheteur."
+  },
+  "giaAppraisals": {
+    "id": "gia-appraisals",
+    "title": "GIA fournit-il des évaluations de diamants ?",
+    "paragraphs": [
+      "GIA ne fournit pas de valeurs monétaires estimées pour les diamants ou les bijoux. Il fournit des rapports de laboratoire qui identifient et décrivent les diamants et les pierres précieuses.",
+      "Le GIA stipule que l'évaluation monétaire doit être réalisée par un évaluateur indépendant et qu'une évaluation doit contenir une analyse de la qualité, une description et une évaluation de l'article. Le GIA fournit également des informations sur les associations d'évaluateurs professionnels, mais ne recommande pas d'évaluateurs individuels."
+    ],
+    "giaAssociationsLinkText": "Conseils d’association d’évaluation du GIA",
+    "educationParagraph": "Une personne peut avoir suivi une formation gemmologique du GIA, mais cela ne signifie pas que le GIA a certifié cette personne en tant qu'évaluateur. La formation en gemmologie et la formation en évaluation sont des domaines d’expertise liés mais différents.",
+    "giaAppraisalIntro": "Si quelqu’un décrit un service comme une « évaluation GIA », demandez-lui s’il veut dire :",
+    "giaAppraisalBullets": [
+      "Un diamant avec un rapport de classement GIA",
+      "Un évaluateur qui a terminé ses études au GIA",
+      "Une évaluation monétaire utilisant les informations d’un rapport GIA"
+    ],
+    "closing": "Le libellé ne doit pas impliquer que le GIA a attribué la valeur monétaire alors que ce n'est pas le cas."
+  },
+  "hrdAntwerp": {
+    "id": "hrd-antwerp",
+    "title": "Que propose le HRD Anvers ?",
+    "paragraphs": [
+      "HRD Anvers propose des services d'examen et de classement en laboratoire pour les diamants et les bijoux. Ses rapports de classification des diamants naturels décrivent des caractéristiques telles que le carat, la couleur, la clarté et la taille.",
+      "HRD Anvers propose également des rapports sur les bijoux qui peuvent décrire le bijou complet, les diamants qu'il contient et les métaux précieux utilisés. HRD déclare que ses rapports sur les bijoux peuvent être utilisés à des fins notamment d’assurance, d’héritage ou d’achat et peuvent aider à déterminer la valeur marchande d’un bijou."
+    ],
+    "hrdLinkText": "Services officiels de classement et de rapport sur les bijoux du HRD Anvers",
+    "closing": "Un rapport de laboratoire est une documentation précieuse, mais le service exact doit être sélectionné en fonction du but du propriétaire. Les prix du laboratoire peuvent varier selon le type de rapport, le poids en carats, la complexité des bijoux et les services supplémentaires. Les tarifs actuels doivent être confirmés directement à partir de la dernière liste de prix anversoise du laboratoire."
+  },
+  "appraisalCost": {
+    "id": "appraisal-cost",
+    "title": "Combien coûte une évaluation de diamant à Anvers ?",
+    "paragraphs": [
+      "Il n’existe pas de prix standard unique pour chaque évaluation de diamant à Anvers. Le coût dépend du type de rapport, de la complexité de l’objet, de la méthode de facturation de l’évaluateur et de la nécessité ou non de travaux de laboratoire.",
+      "Certains fournisseurs annoncent publiquement des évaluations écrites de base des diamants à partir d'environ 50 €. Il convient de considérer cela comme un exemple plutôt que comme un prix universel à Anvers. Une évaluation détaillée à des fins d’assurance, successorales, juridiques ou de grande valeur peut coûter plus cher."
+    ],
+    "feeIntro": "Avant de réserver, demandez si les frais sont :",
+    "feeQuestions": [
+      "Un tarif fixe par article",
+      "Un tarif horaire",
+      "Basé sur le nombre de diamants",
+      "Basé sur la complexité du bijou",
+      "TVA incluse ou exclue",
+      "Comprenant des photographies et un rapport écrit",
+      "Séparé des tests en laboratoire",
+      "Séparé du désarmement et de la réinitialisation",
+      "Séparé du transport et de l'assurance"
+    ],
+    "feeClosing": "Pour une évaluation indépendante, un honoraire professionnel fixe ou horaire est généralement plus facile à comprendre qu'un honoraire calculé en pourcentage de la valeur finale. Un système basé sur un pourcentage peut inciter à déclarer un chiffre plus élevé.",
+    "separateCostsTitle": "Coûts pouvant être distincts",
+    "separateCostsIntro": "Les frais d’évaluation indiqués ne peuvent pas comprendre :",
+    "separateCosts": [
+      "Classement en laboratoire",
+      "Tests naturels ou cultivés en laboratoire",
+      "Détection du traitement",
+      "Retrait du diamant de sa monture",
+      "Réinitialiser le diamant",
+      "Nettoyage ou réparation",
+      "Inscription au laser",
+      "Transport sécurisé",
+      "Assurance transport",
+      "Service urgent",
+      "Copies supplémentaires du rapport",
+      "Objectifs d’évaluation multiples"
+    ],
+    "closing": "Demandez un devis écrit avant de quitter l'article. Le devis doit expliquer exactement ce qui sera livré."
+  },
+  "freeAppraisal": {
+    "id": "free-appraisal",
+    "title": "Puis-je obtenir une évaluation gratuite de mon diamant ?",
+    "paragraphs": [
+      "Certains acheteurs, maisons de ventes aux enchères et bijouteries proposent une évaluation préliminaire gratuite. Cela peut être utile lorsque le propriétaire souhaite savoir si l’article correspond aux critères d’achat ou de vente de cette entreprise.",
+      "Cependant, une évaluation gratuite de l’acheteur n’est pas nécessairement une évaluation indépendante. L’entreprise est peut-être en train d’évaluer ce qu’elle est prête à payer plutôt que de produire un rapport écrit objectif à des fins d’assurance, d’héritage ou d’utilisation légale.",
+      "Un avis verbal gratuit peut également être différent d’une évaluation écrite signée."
+    ],
+    "questionsIntro": "Avant d’accepter une évaluation gratuite, demandez :",
+    "questions": [
+      "Vais-je recevoir un rapport écrit ?",
+      "Quel type de valeur sera fourni ?",
+      "La personne qui évalue l’article propose-t-elle également de l’acheter ?",
+      "L'évaluation a-t-elle une date d'effet indiquée ?",
+      "Des photographies et une description complète de l'article sont-elles incluses ?",
+      "Le rapport sera-t-il accepté par mon assureur ou mon conseiller ?",
+      "Y a-t-il des frais pour les tests, la certification ou le retour ?",
+      "Suis-je obligé de vendre ou de consigner l'article ?"
+    ],
+    "closing": "Une évaluation d’achat gratuite peut être tout à fait légitime lorsque son objectif est clair. Il ne faut tout simplement pas la confondre avec une évaluation indépendante."
+  },
+  "appraisalTypes": {
+    "id": "appraisal-types",
+    "title": "De quel type d’évaluation de diamant ai-je besoin ?",
+    "types": [
+      {
+        "title": "Évaluation de remplacement d’assurance",
+        "paragraphs": [
+          "Une évaluation d'assurance estime ce qu'il pourrait en coûter pour remplacer le diamant ou le bijou sur un marché de détail approprié. Le rapport doit décrire suffisamment l'article pour que l'assureur puisse comprendre ce qui devrait être remplacé.",
+          "Une évaluation d’assurance gonflée peut conduire à des primes inutilement élevées sans garantir un règlement en espèces plus important. Demandez à l'assureur comment il gère le remplacement, la réparation, la valeur convenue et le règlement en espèces avant de vous fier à l'expertise."
+        ],
+        "includesIntro": "Le rapport peut inclure :",
+        "includes": [
+          "Description détaillée du bijou",
+          "Caractéristiques du diamant",
+          "Métal et construction",
+          "Mesures",
+          "Poinçons",
+          "Condition",
+          "Photographies",
+          "Conclusion sur la valeur de remplacement",
+          "Date d'entrée en vigueur",
+          "Qualifications et signature de l’évaluateur"
+        ]
+      },
+      {
+        "title": "Évaluation du marché équitable ou de la revente",
+        "paragraphs": [
+          "Une évaluation équitable du marché prend en compte ce qu'un acheteur consentant peut payer à un vendeur consentant sur le marché concerné. Elle est normalement inférieure à une évaluation de remplacement au détail car l’objectif et le marché sont différents.",
+          "Le rapport doit indiquer quel marché a été pris en compte. Un marché de concessionnaire à concessionnaire, un marché aux enchères et un marché de revente aux consommateurs peuvent produire des conclusions différentes."
+        ]
+      },
+      {
+        "title": "Évaluation d’une succession ou d’un héritage",
+        "paragraphs": [
+          "Une évaluation d’héritage ou de succession peut nécessiter une date d’entrée en vigueur spécifique et une définition de valeur. La personne demandant l'évaluation doit confirmer les exigences auprès du notaire, de l'avocat, du comptable ou de l'autorité compétente.",
+          "Une évaluation de remplacement au détail en cours ne devrait pas automatiquement remplacer une évaluation successorale à une date spécifique."
+        ]
+      },
+      {
+        "title": "Divorce ou évaluation du partage des biens",
+        "paragraphs": [
+          "Une évaluation utilisée pour le partage d’actifs peut également devoir suivre une norme juridique définie et une date d’entrée en vigueur. Les deux parties peuvent bénéficier du recours à un évaluateur indépendant dûment qualifié dont le rôle et la méthodologie sont clairement énoncés."
+        ]
+      },
+      {
+        "title": "Estimation des enchères",
+        "paragraphs": [
+          "Une estimation d’enchères prédit une fourchette d’enchères possible plutôt que de signaler un montant garanti. Il peut être influencé par l’audience de la maison de ventes, la date de vente, la réserve, la commission et l’intérêt pour la catégorie."
+        ]
+      },
+      {
+        "title": "Évaluation de vente ou d'achat",
+        "paragraphs": [
+          "L’évaluation d’un acheteur répond à une question commerciale plus directe : qu’est-ce que cet acheteur est prêt à offrir en échange du diamant ou du bijou ?",
+          "C’est la voie pertinente lorsque l’objectif premier du propriétaire est de vendre. L’acheteur peut prendre en compte la qualité, l’état, le rapport de classification et la demande actuelle du diamant avant de présenter une offre."
+        ],
+        "ctaText": "DEMANDER UNE ÉVALUATION D'ACHAT DE DIAMANT",
+        "ctaHref": "#diamond-evaluation-form"
+      }
+    ]
+  },
+  "appraisalProcess": {
+    "id": "appraisal-process",
+    "title": "Que se passe-t-il lors d’une évaluation de diamant ?",
+    "intro": [
+      "Une évaluation professionnelle commence normalement par définir le but. Sans objectif clair, l’évaluateur ne peut pas sélectionner la base d’évaluation ou le marché correct."
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Objectif et apport",
+        "paragraphs": [
+          "L’évaluateur demande pourquoi l’évaluation est requise et enregistre les informations disponibles auprès du propriétaire. La bague ou le diamant peut être photographié, pesé et attribué une référence d'admission.",
+          "Le propriétaire doit fournir tout rapport de classement disponible, reçu, évaluation précédente, historique des réparations et documentation de la marque."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Examen d’identité et de condition",
+        "paragraphs": [
+          "L'évaluateur examine si l'article contient un diamant et s'il semble naturel, cultivé en laboratoire, traité ou nécessitant des tests avancés."
+        ],
+        "bulletsIntro": "L’examen peut également identifier :",
+        "bullets": [
+          "Éclats et abrasions",
+          "Pierres en vrac",
+          "Griffes ou réglages usés",
+          "Réparations",
+          "Redimensionnement",
+          "Composants remplacés",
+          "Poinçons métalliques",
+          "Signatures de marque",
+          "Etat général"
+        ],
+        "closing": "Certaines conclusions ne peuvent être confirmées sans équipement de laboratoire."
+      },
+      {
+        "number": 3,
+        "title": "Évaluation des diamants",
+        "paragraphs": [
+          "L’évaluateur examine la forme du diamant, ses dimensions, son poids estimé ou réel, sa couleur, sa clarté, ses caractéristiques de taille et sa fluorescence.",
+          "Lorsqu'un diamant est monté, la monture peut limiter l'accès à la pierre. Certaines qualités et mesures peuvent donc être estimées plutôt que déterminées avec la précision possible pour un diamant en vrac."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Évaluation des bijoux",
+        "paragraphs": [
+          "Pour un diamant monté, l'évaluateur peut examiner le métal, le style de sertissage, les pierres latérales, la fabrication, l'âge, l'état et l'importance possible de la marque.",
+          "Une bague signée, ancienne ou de collection peut nécessiter une étude de marché au-delà de la valeur des matériaux qui la composent."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Étude de marché",
+        "paragraphs": [
+          "L'évaluateur considère le marché pertinent pour la mission. Le remplacement des assurances, la revente au juste marché, les évaluations immobilières et les évaluations aux enchères ne devraient pas toutes utiliser les mêmes hypothèses de marché.",
+          "Le rapport doit indiquer la base d'évaluation et la date d'entrée en vigueur."
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Rapport écrit",
+        "paragraphs": [
+          "Lorsqu'une expertise écrite a été demandée, le propriétaire reçoit un rapport contenant la description, la conclusion de l'évaluation et les limitations pertinentes.",
+          "L'évaluateur doit être disponible pour expliquer ce que signifie le chiffre rapporté et à quoi il ne doit pas être utilisé."
+        ]
+      }
+    ]
+  },
+  "mountedDiamond": {
+    "id": "mounted-diamond",
+    "title": "Un diamant monté peut-il être évalué avec précision ?",
+    "paragraphs": [
+      "Un diamant monté peut être expertisé, mais le sertissage peut limiter la précision de certaines mesures et observations.",
+      "Les griffes, les chatons et les décors peuvent dissimuler des parties du rondiste, des inclusions ou de la couleur. Le poids exact du diamant devra peut-être être estimé à partir de mesures si la pierre ne peut pas être retirée.",
+      "Cela ne signifie pas que chaque anneau doit être démonté. Le retrait d’un diamant peut entraîner des coûts et des risques, et peut s’avérer inutile aux fins de l’évaluation."
+    ],
+    "questionsIntro": "Demandez à l'évaluateur :",
+    "questions": [
+      "Quelles caractéristiques peuvent être confirmées une fois montés ?",
+      "Quelles caractéristiques seront estimées ?",
+      "Le désarmement est-il nécessaire ?",
+      "Qui retirera et réinitialisera le diamant ?",
+      "La bague est-elle assurée pendant le processus ?",
+      "Le retrait affectera-t-il la valeur de l'antiquité ou de la marque ?",
+      "La suppression et la réinitialisation sont-elles incluses dans le devis ?"
+    ],
+    "giaLinkText": "Les services d’analyse de bijoux du GIA",
+    "closing": "GIA note que le classement des bijoux est effectué dans la mesure où le montage le permet, tandis que ses rapports sur les bijoux peuvent inclure des informations sur les diamants estimés, les tests de métaux, le poids et les marquages ​​des articles."
+  },
+  "writtenAppraisal": {
+    "id": "written-appraisal",
+    "title": "Que doit inclure une évaluation écrite d’un diamant ?",
+    "intro": [
+      "Une évaluation écrite utile doit être suffisamment précise pour qu'un autre professionnel puisse comprendre ce qui a été examiné, pourquoi cela a été évalué et comment le chiffre doit être interprété."
+    ],
+    "includes": [
+      "Référence du propriétaire ou du client",
+      "Date de l'examen",
+      "Date d'évaluation effective",
+      "Objet de l'évaluation",
+      "Définition de la valeur utilisée",
+      "Description détaillée de l'article",
+      "Informations sur les diamants et les pierres précieuses",
+      "Détails métalliques et de construction",
+      "Poinçons et signatures",
+      "Condition",
+      "Photographies",
+      "Informations sur le rapport de notation",
+      "Hypothèses et limites pertinentes",
+      "Marché considéré",
+      "Conclusion monétaire",
+      "Nom et qualifications de l’évaluateur",
+      "Signature",
+      "Coordonnées"
+    ],
+    "closing": "Si le rapport ne donne qu'un prix sans identifier l'article, son objectif et la base d'évaluation, il peut ne pas être suffisant pour une utilisation en matière d'assurance, de succession ou juridique."
+  },
+  "chooseAppraiser": {
+    "id": "choose-appraiser",
+    "title": "Comment choisir un évaluateur de diamants près de chez vous",
+    "paragraphs": [
+      "Les recherches sur « évaluation de diamants à proximité » renvoient souvent des bijoutiers, des acheteurs, des maisons de ventes aux enchères, des laboratoires et des évaluateurs indépendants. Ils ne fournissent pas tous le même service.",
+      "Commencez par demander si la personne possède à la fois des connaissances en gemmologie et une formation en évaluation. Le GIA conseille aux évaluateurs de bijoux de comprendre les pierres précieuses, leur évaluation et la construction de bijoux. Le GIA prévient également qu'il ne « certifie » pas les évaluateurs simplement parce qu'ils ont suivi une formation au GIA."
+    ],
+    "giaLinkText": "Conseils d’évaluation et de sélection du GIA",
+    "questionsIntro": "Un évaluateur approprié doit être capable d’expliquer :",
+    "questions": [
+      "Formation gemmologique pertinente",
+      "Qualifications et expérience en matière d’évaluation",
+      "Expérience avec le type d'article",
+      "Équipement de test disponible",
+      "Si l'évaluation est indépendante",
+      "Comment les frais sont calculés",
+      "Ce que comprend le rapport écrit",
+      "Quel marché et quelle base d'évaluation seront utilisés",
+      "Comment l'article est protégé",
+      "Délai d'exécution",
+      "Assurance professionnelle",
+      "Que se passe-t-il si des tests en laboratoire sont requis"
+    ],
+    "closing": "Si l'évaluation est nécessaire à des fins formelles, demandez à l'assureur, à l'avocat, au notaire ou à un autre professionnel si elle comporte des exigences spécifiques."
+  },
+  "whatToBring": {
+    "id": "what-to-bring",
+    "title": "Que devez-vous apporter lors d’une évaluation de diamant ?",
+    "paragraphs": [
+      "Apportez toutes les informations disponibles, même si certains documents sont anciens. L'évaluateur peut décider de ce qui reste pertinent."
+    ],
+    "itemsIntro": "Les éléments utiles incluent :",
+    "items": [
+      "Rapport de classification des diamants",
+      "Reçu original",
+      "Évaluation précédente",
+      "Calendrier d'assurance",
+      "Boîte d'origine",
+      "Certificat de marque",
+      "Dossiers de réparation et d'entretien",
+      "Documents de succession",
+      "Photographies de l'article original",
+      "Toute information de provenance disponible",
+      "Identification"
+    ],
+    "closing": "Ne nettoyez pas, ne réparez pas, ne polissez pas ou ne démontez pas un objet antique ou signé avant de vous demander si ces actions sont appropriées. Si le diamant semble lâche dans sa monture, arrêtez de porter le bijou et informez-en l'expert avant le transport."
+  },
+  "howLong": {
+    "id": "how-long",
+    "title": "Combien de temps dure une évaluation de diamant ?",
+    "paragraphs": [
+      "Le temps requis dépend du service.",
+      "Une évaluation préliminaire verbale d’un élément simple peut être effectuée lors d’un rendez-vous. Une évaluation écrite détaillée peut prendre plus de temps car elle peut nécessiter des photographies, des recherches, la rédaction d'un rapport et un examen."
+    ],
+    "additionalIntro": "Un délai supplémentaire peut être nécessaire lorsque :",
+    "additional": [
+      "Le diamant n'a pas de rapport de classement",
+      "L'article contient plusieurs pierres",
+      "La pièce est ancienne ou signée",
+      "Des tests en laboratoire sont requis",
+      "Le diamant central doit être non serti",
+      "Le rapport a besoin d'une date d'évaluation historique",
+      "Plusieurs finalités de valorisation sont demandées",
+      "Un transport sécurisé doit être organisé"
+    ],
+    "closing": "Demandez le délai d'exécution prévu avant de laisser l'article."
+  },
+  "onlineAppraisal": {
+    "id": "online-appraisal",
+    "title": "Une évaluation de diamant en ligne est-elle fiable ?",
+    "paragraphs": [
+      "Une évaluation en ligne peut fournir une indication préliminaire lorsque le propriétaire soumet un rapport de classement complet et des photographies claires. Cela peut être utile pour décider si un rendez-vous physique vaut la peine.",
+      "Cependant, les photographies ne peuvent pas confirmer de manière fiable toutes les caractéristiques. Un évaluateur en ligne peut ne pas être en mesure d'établir :"
+    ],
+    "limitations": [
+      "Origine naturelle ou cultivée en laboratoire",
+      "Couleur ou clarté exacte",
+      "Traitements",
+      "Dommage",
+      "Correspondance des rapports",
+      "Pureté du métal",
+      "État précis",
+      "Si le diamant a été remplacé"
+    ],
+    "closing": "Pour cette raison, une évaluation en ligne doit être clairement qualifiée de préliminaire, à moins que le service n'ait effectué les vérifications requises pour l'objectif déclaré.",
+    "ctaText": "COMMENCER UNE ÉVALUATION DE DIAMANTS EN LIGNE",
+    "ctaHref": "/resources/diamond-valuation-calculator"
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "Ai-je besoin d’une évaluation avant de vendre mon diamant ?",
+    "paragraphs": [
+      "Pas toujours.",
+      "Si vous disposez déjà d'un rapport de nivellement récent et que votre objectif est simplement de recevoir une offre, un acheteur spécialisé pourra peut-être commencer par le rapport et les photographies. Une inspection physique peut alors confirmer si le diamant correspond aux informations soumises."
+    ],
+    "usefulIntro": "Une évaluation indépendante peut être utile lorsque :",
+    "usefulWhen": [
+      "Vous ne comprenez pas ce que contient le bijou",
+      "La bague peut être ancienne, signée ou de collection",
+      "Plusieurs personnes partagent la propriété",
+      "Il faut un avis neutre avant de comparer les canaux de vente",
+      "L'objet fait partie d'une succession",
+      "Vous avez besoin d'un document écrit formel",
+      "L’évaluation de l’acheteur n’est pas claire"
+    ],
+    "closing": "N'oubliez pas qu'une évaluation indépendante ne garantit toujours pas que l'acheteur paiera le montant estimé. Une offre d’achat reflète la demande, les coûts et le canal de revente de l’acheteur."
+  },
+  "dalilaEvaluation": {
+    "id": "dalila-evaluation",
+    "title": "L’évaluation de Dalila est en vente potentielle",
+    "paragraphs": [
+      "Le service de vente de Dalila Diamonds est destiné aux propriétaires qui souhaitent que leur diamant naturel soit examiné en vue d’un éventuel achat.",
+      "Le processus commence par les informations de classement et les photographies disponibles. Si le diamant répond aux critères d’achat de Dalila, une évaluation physique à Anvers peut être organisée avant la préparation d’une offre.",
+      "Ce service doit être décrit comme une évaluation de l’acheteur, et non comme une évaluation indépendante pour les assurances, les homologations, les divorces, les impôts ou les rapports juridiques."
+    ],
+    "processTitle": "Le processus de Dalila",
+    "processSteps": [
+      "Soumettez des informations sur le diamant ou les bijoux.",
+      "Téléchargez le rapport de notation et des photographies claires.",
+      "Recevez un premier avis privé.",
+      "Fournissez des informations supplémentaires sur demande.",
+      "Organisez une vérification physique à Anvers, le cas échéant.",
+      "Recevez une offre d’achat si l’article répond aux critères de Dalila.",
+      "Décidez si vous souhaitez continuer."
+    ],
+    "closing": "La soumission d’une demande d’évaluation ne devrait pas obliger le vendeur à accepter une offre.",
+    "primaryCtaText": "DEMANDER MON ÉVALUATION D'ACHAT PRIVÉ",
+    "primaryCtaHref": "#diamond-evaluation-form",
+    "secondaryCtaText": "PRENDRE RENDEZ-VOUS À ANVERS",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "id": "diamond-evaluation-form",
+    "leadSource": "diamond_appraisal_antwerp",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP et PDF",
+    "title": "Demander mon évaluation de diamant",
+    "subtitle": "Dites-nous pourquoi vous avez besoin d’une évaluation et fournissez les informations disponibles. Dalila vous contactera en utilisant la méthode de votre choix.",
+    "step1Title": "Étape 1 : Pourquoi avez-vous besoin d’une évaluation ?",
+    "purposeOptions": [
+      {
+        "value": "I want to sell my diamond",
+        "mode": "sell"
+      },
+      {
+        "value": "I want to sell diamond jewellery",
+        "mode": "sell"
+      },
+      {
+        "value": "I need an insurance appraisal",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need an inheritance or estate valuation",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need a grading report or certificate",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I only want to know the approximate value",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I am not sure",
+        "mode": "inquiry"
+      }
+    ],
+    "inquiryNotice": "Dalila Diamonds fournit des évaluations d'acheteurs pour un achat potentiel, et non des évaluations indépendantes d'assurance, successorales ou juridiques. Vous pouvez toujours soumettre votre question ci-dessous et un membre de l'équipe vous expliquera ce que Dalila peut et ne peut pas fournir.",
+    "sellRedirectCalculator": "Si vous souhaitez seulement une valeur approximative, vous préférerez peut-être la",
+    "sellRedirectGrading": "Si vous avez besoin d'un rapport de notation ou d'un certificat, lisez notre guide sur",
+    "itemTypes": [
+      "Bague de fiançailles en diamant naturel",
+      "Diamant naturel en vrac",
+      "Bijoux en diamants naturels",
+      "Bijoux anciens ou vintage",
+      "Bijoux griffés ou signés",
+      "Diamant cultivé en laboratoire",
+      "je ne suis pas sûr"
+    ],
+    "originOptions": [
+      "Diamant naturel",
+      "Diamant cultivé en laboratoire",
+      "je ne suis pas sûr"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Un autre laboratoire",
+      "Aucun rapport",
+      "je ne suis pas sûr"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Autre",
+      "je ne suis pas sûr"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Téléphone",
+      "Soit par email, soit par téléphone"
+    ],
+    "evaluationPreferences": [
+      "Examen en ligne uniquement",
+      "Rendez-vous privé à Anvers",
+      "Je ne suis pas encore sûr"
+    ],
+    "consentText": "J'accepte que Dalila Diamonds me contacte concernant cette demande. Je comprends que l’évaluation d’un acheteur est différente d’une évaluation indépendante en matière d’assurance, de succession ou juridique et qu’une offre d’achat finale peut nécessiter une vérification physique.",
+    "submitButton": "Demander mon évaluation de diamant",
+    "submittingButton": "Soumission…",
+    "successMessage": "Merci. Votre demande a été soumise. Un membre de l'équipe Dalila Diamonds vous contactera sous peu.",
+    "errorMessage": "Nous n'avons pas pu soumettre votre demande. Veuillez vérifier les champs obligatoires et réessayer.",
+    "labels": {
+      "purpose": "Pourquoi avez-vous besoin d’une évaluation ?",
+      "itemType": "Type d'article",
+      "origin": "Naturel ou cultivé en laboratoire, si connu",
+      "reportStatus": "Laboratoire de classement",
+      "reportNumber": "Numéro de rapport",
+      "caratWeight": "Poids approximatif en carats",
+      "shape": "Diamond shape",
+      "uploadReport": "Télécharger le rapport de notation",
+      "uploadPhotos": "Télécharger des photos",
+      "dragDrop": "Faites glisser et déposez des fichiers ici, ou choisissez des fichiers",
+      "fullName": "Nom et prénom",
+      "email": "Adresse email",
+      "phone": "Numéro de téléphone",
+      "country": "Pays",
+      "contactMethod": "Méthode de contact préférée",
+      "evaluationPreference": "Évaluation en ligne préférée ou rendez-vous à Anvers",
+      "additionalInfo": "Informations Complémentaires",
+      "optional": "Facultatif"
+    },
+    "validation": {
+      "purposeRequired": "Veuillez sélectionner pourquoi vous avez besoin d'une évaluation.",
+      "itemTypeRequired": "Veuillez sélectionner le type d'article.",
+      "nameRequired": "Veuillez entrer votre nom complet.",
+      "contactRequired": "Veuillez fournir une adresse e-mail ou un numéro de téléphone.",
+      "countryRequired": "Veuillez entrer votre pays.",
+      "consentRequired": "Veuillez confirmer la déclaration de consentement avant de la soumettre."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Combien coûte une estimation de diamant à Anvers ?",
+        "answer": "Il n’y a pas de frais universels. Certains services écrits de base sont annoncés à partir d'environ 50 €, tandis que les évaluations détaillées, complexes ou formelles peuvent coûter plus cher. Les travaux de laboratoire, le désarmement, le réarmement, le transport et l'assurance peuvent être facturés séparément."
+      },
+      {
+        "question": "Où puis-je faire estimer un diamant à Anvers ?",
+        "answer": "Selon votre objectif, vous aurez peut-être besoin d'un évaluateur de bijoux indépendant, d'un laboratoire de gemmologie, d'un spécialiste des enchères ou d'un acheteur de diamants professionnel. Confirmez le type de rapport ou proposez des fournitures à chaque fournisseur."
+      },
+      {
+        "question": "Le GIA évalue-t-il les diamants ?",
+        "answer": "Non. Le GIA fournit des rapports de classement et d'identification, mais n'attribue pas de valeurs d'évaluation monétaire. Les évaluations monétaires doivent être réalisées par un évaluateur dûment qualifié."
+      },
+      {
+        "question": "Un rapport de classification de diamant est-il la même chose qu'une évaluation ?",
+        "answer": "Non. Un rapport de classement décrit les caractéristiques de qualité d’un diamant. Une évaluation fournit une opinion sur la valeur monétaire pour un objectif et une date déclarés."
+      },
+      {
+        "question": "Une estimation gratuite de diamant est-elle fiable ?",
+        "answer": "Une évaluation préliminaire gratuite peut être utile, mais il peut s’agir de l’opinion d’un acheteur plutôt que d’une évaluation écrite indépendante. Demandez quel type de valeur est fourni et si l'évaluateur a l'intention d'acheter l'article."
+      },
+      {
+        "question": "Une bague en diamant montée peut-elle être expertisée ?",
+        "answer": "Oui, mais le réglage peut limiter la précision des observations de poids, de couleur, de clarté et d'état. Le rapport doit identifier les caractéristiques qui ont été estimées."
+      },
+      {
+        "question": "Dois-je retirer le diamant de sa monture ?",
+        "answer": "Pas toujours. Le retrait ne doit être envisagé que lorsque cela est nécessaire pour les tests ou le rapport requis. Demandez qui retirera et réinitialisera le diamant et comment l'article sera assuré."
+      },
+      {
+        "question": "Un diamant peut-il être estimé sans certificat ?",
+        "answer": "Oui. Une évaluation initiale peut commencer sans rapport de notation, mais des tests en laboratoire ou un nouveau rapport peuvent être recommandés avant de parvenir à une conclusion fiable."
+      },
+      {
+        "question": "Une évaluation d’assurance est-elle le montant pour lequel je peux vendre mon diamant ?",
+        "answer": "Non. L’évaluation de l’assurance tient généralement compte du coût de remplacement. Une valeur de revente ou une offre d’achat reflète un marché et un objectif différents."
+      },
+      {
+        "question": "Quelle est la durée de validité d'une évaluation de diamant ?",
+        "answer": "Il n’y a pas de durée de validité universelle. Les caractéristiques du diamant peuvent rester stables, mais les prix du marché et les coûts de remplacement peuvent changer. Les assureurs et autres utilisateurs peuvent avoir leurs propres exigences en matière de mise à jour."
+      },
+      {
+        "question": "Puis-je faire estimer un diamant en ligne ?",
+        "answer": "Vous pouvez recevoir une évaluation préliminaire en ligne à partir des informations du rapport et des photographies. Une conclusion formelle ou finale peut nécessiter un examen physique."
+      },
+      {
+        "question": "Ai-je besoin d’une évaluation avant de vendre à Dalila ?",
+        "answer": "Pas nécessairement. Dalila peut commencer par examiner le rapport de notation et les photographies disponibles. Une évaluation indépendante peut être appropriée lorsque le propriétaire a besoin d’une évaluation neutre ou formelle."
+      },
+      {
+        "question": "Dalila achètera-t-elle tous les diamants soumis ?",
+        "answer": "Non. Dalila doit d'abord déterminer si le diamant correspond à ses critères d'achat et effectuer la vérification requise."
+      },
+      {
+        "question": "Dois-je vendre après avoir reçu une offre ?",
+        "answer": "Non. Demander une évaluation ne nécessite pas que vous acceptiez une offre."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-valuation",
+    "title": "Trouvez la bonne évaluation de diamant à Anvers",
+    "paragraphs": [
+      "Le service correct dépend de la question à laquelle vous souhaitez répondre.",
+      "Choisissez un évaluateur indépendant lorsque vous avez besoin d’un avis monétaire formel pour une assurance, un héritage ou un usage légal. Choisissez un laboratoire de gemmologie lorsque vous avez besoin d'une identification ou d'un classement. Choisissez un acheteur professionnel lorsque vous souhaitez savoir si l’entreprise achètera votre diamant et ce qu’elle est prête à offrir.",
+      "Si votre objectif est de vendre un diamant naturel, commencez par une soumission privée en ligne à Dalila Diamonds."
+    ],
+    "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
+    "primaryButtonHref": "#diamond-evaluation-form",
+    "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "Vendez votre diamant à Anvers"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calculateur d'évaluation de diamant en ligne"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "où vendre une bague en diamant"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "comment vendre une bague en diamant en toute sécurité"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "vendre un diamant sans certificat"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "vérifier un rapport de classification des diamants"
+    }
+  }
+}

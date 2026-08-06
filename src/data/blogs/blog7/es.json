@@ -1,0 +1,1064 @@
+{
+  "meta": {
+    "title": "Certificación IGI: leer y verificar un certificado IGI | dalila",
+    "description": "Descubra lo que muestra un certificado de diamantes IGI, cómo verificar el número de informe y la inscripción láser, y qué inconsistencias requieren controles de expertos.",
+    "canonical": "https://www.daliladiamonds.com/blogs/igi-diamond-certification",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "IGI certification",
+    "inLanguage": "es",
+    "parentHub": "https://www.daliladiamonds.com/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/igi-diamond-certification-guide.webp",
+      "alt": "Informe IGI sobre diamantes naturales y diamantes sueltos comprobados con aumento",
+      "width": 1600,
+      "height": 900
+    },
+    "annotatedReport": {
+      "src": "/images/blogs/how-to-read-igi-diamond-report.webp",
+      "alt": "Campos de informe de diamantes naturales IGI para mediciones numéricas, claridad de color y corte",
+      "width": 1400,
+      "height": 1100
+    },
+    "verificationProcess": {
+      "src": "/images/blogs/verify-igi-diamond-certificate.webp",
+      "alt": "Número de informe IGI, registro en línea y proceso de verificación física de diamantes",
+      "width": 1400,
+      "height": 1000
+    },
+    "laserInscription": {
+      "src": "/images/blogs/igi-diamond-laser-inscription-check.webp",
+      "alt": "Inscripción láser del número de informe IGI inspeccionada en una faja de diamante natural",
+      "width": 1400,
+      "height": 1000
+    },
+    "inconsistencyMap": {
+      "src": "/images/blogs/igi-report-inconsistency-warning-signs.webp",
+      "alt": "Señales de advertencia en un informe IGI, número de medidas, inscripción y descripción del diamante",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Guía de certificación IGI",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "Guía de certificación IGI",
+    "imageAlt": "Banner de la guía de certificación IGI para compradores de diamantes naturales"
+  },
+  "hero": {
+    "title": "Guía de certificación IGI: cómo leer y verificar un certificado de diamante IGI",
+    "subheading": "Descubra lo que muestra un certificado de diamantes IGI, cómo verificar el número de informe y la inscripción láser, y qué inconsistencias requieren controles de expertos.",
+    "reviewDateLabel": "Última revisión:",
+    "reviewDate": "6 de agosto de 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Un certificado IGI puede ayudar al comprador a comprender si un diamante es natural o cultivado en laboratorio y revisar características importantes como el peso en quilates, el color, la claridad, el corte, las medidas, el pulido, la simetría y la fluorescencia.",
+      "Sin embargo, no basta con poseer un documento con el logo del IGI.",
+      "El número de informe debe verificarse a través de la base de datos oficial del IGI. La información que se muestra en línea debe coincidir con el informe físico y el informe debe coincidir con el diamante real. Cuando exista una inscripción láser, su número también deberá corresponder con el informe.",
+      "Estas comprobaciones son importantes porque un informe auténtico puede combinarse con el diamante equivocado, un documento puede modificarse y una inscripción por sí sola no prueba que la piedra coincida con todos los detalles de clasificación."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Respuesta rápida",
+    "question": "Para verificar un certificado de diamantes IGI:",
+    "introParagraphs": [],
+    "attributes": [
+      "Encuentre el número único de informe IGI.",
+      "Ingréselo en la herramienta oficial Verificar su informe de IGI.",
+      "Confirme si el informe identifica el diamante como natural o cultivado en laboratorio.",
+      "Compare la forma, el peso en quilates, las medidas y cada grado con el documento físico.",
+      "Consulta la fecha del informe, comentarios e inscripción grabada.",
+      "Pídale a un profesional de diamantes que inspeccione la inscripción de la faja con aumento.",
+      "Haga coincidir las medidas y las características de claridad con la piedra real.",
+      "Detenga la compra si algún detalle importante no coincide."
+    ],
+    "closingParagraphs": [],
+    "closingBullets": [],
+    "finalParagraphs": [
+      "“Certificación IGI” es la frase que suelen buscar los compradores, pero el documento formal es un informe de calificación IGI. IGI declara que su informe proporciona una opinión profesional y no es una garantía, tasación o garantía."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Conclusiones clave",
+    "items": [
+      "IGI significa Instituto Gemológico Internacional.",
+      "IGI clasifica diamantes tanto naturales como cultivados en laboratorio.",
+      "La descripción del informe debe identificar claramente qué tipo de diamante se examinó.",
+      "Un informe sobre diamantes naturales no prueba automáticamente el país donde se extrae el diamante.",
+      "El número del informe debe comprobarse únicamente en el sitio web oficial del IGI.",
+      "El registro en línea, el informe físico y el diamante deben coincidir.",
+      "Es posible que se soliciten inscripciones láser de diamantes naturales en lugar de aplicarse automáticamente.",
+      "El IGI afirma que los diamantes cultivados en laboratorio que clasifica reciben una inscripción que identifica su origen.",
+      "La ausencia de una inscripción en un diamante natural no hace que su informe sea automáticamente falso.",
+      "Una inscripción correspondiente es útil, pero no es suficiente por sí sola.",
+      "El peso en quilates y las medidas boca arriba deben revisarse juntas.",
+      "Los grados de color y claridad describen la calidad pero no garantizan la belleza.",
+      "El corte, el pulido y la simetría son evaluaciones separadas.",
+      "No todos los formatos de informe contienen los mismos diagramas o campos.",
+      "Un informe de calificación IGI no es una valoración minorista ni un documento de propiedad.",
+      "No garantiza el valor de reventa ni la apreciación futura del precio.",
+      "Un informe describe el diamante cuando fue examinado; un daño posterior o un repulido pueden cambiar la piedra.",
+      "Las inconsistencias importantes requieren una inspección profesional o una confirmación directa de IGI."
+    ]
+  },
+  "overviewNav": {
+    "title": "Descripción general del artículo",
+    "items": [
+      {
+        "id": "what-is-igi-certification",
+        "label": "¿Qué es la certificación IGI?"
+      },
+      {
+        "id": "what-an-igi-report-can-and-cannot-confirm",
+        "label": "Lo que un informe del IGI puede y no puede confirmar"
+      },
+      {
+        "id": "how-to-read-an-igi-diamond-certificate",
+        "label": "Cómo leer un certificado de diamantes IGI"
+      },
+      {
+        "id": "how-to-verify-an-igi-certificate-online",
+        "label": "Cómo verificar un certificado IGI en línea"
+      },
+      {
+        "id": "does-every-igi-natural-diamond-have-a-laser-inscription",
+        "label": "¿Todos los diamantes naturales IGI tienen una inscripción láser?"
+      },
+      {
+        "id": "is-a-matching-laser-inscription-enough",
+        "label": "¿Es suficiente con una inscripción láser adecuada?"
+      },
+      {
+        "id": "document-inconsistencies-that-require-investigation",
+        "label": "Inconsistencias en los documentos que requieren investigación"
+      },
+      {
+        "id": "expert-note",
+        "label": "Nota del experto"
+      },
+      {
+        "id": "physical-igi-report-security-features",
+        "label": "Funciones de seguridad del informe IGI físico"
+      },
+      {
+        "id": "is-igi-certification-reliable",
+        "label": "¿Es confiable la certificación IGI?"
+      },
+      {
+        "id": "can-an-igi-report-prove-country-of-origin",
+        "label": "¿Puede un informe del IGI demostrar el país de origen?"
+      },
+      {
+        "id": "how-to-use-an-igi-report-when-buying",
+        "label": "Cómo utilizar un informe IGI al comprar"
+      },
+      {
+        "id": "an-antwerp-sourcing-perspective",
+        "label": "Una perspectiva del abastecimiento de Amberes"
+      },
+      {
+        "id": "final-answer",
+        "label": "Respuesta final: ¿debería comprar un diamante con certificación IGI?"
+      }
+    ]
+  },
+  "whatIsIgi": {
+    "id": "what-is-igi-certification",
+    "title": "¿Qué es la certificación IGI?",
+    "introParagraphs": [
+      "La certificación IGI es el término comúnmente utilizado para la identificación y clasificación independiente de un diamante por parte del Instituto Gemológico Internacional.",
+      "Después de examinar el diamante, IGI emite un informe que contiene información identificativa y de calidad. De acuerdo con la guía del Informe de diamantes naturales de IGI, su proceso de clasificación evalúa características que incluyen el peso en quilates, el color y la claridad en condiciones controladas.",
+      "Un informe IGI de diamantes naturales puede contener:"
+    ],
+    "bullets": [
+      "Número de informe único",
+      "Fecha del informe",
+      "Descripción de la piedra preciosa",
+      "Identificación de diamantes naturales",
+      "Forma y estilo de corte.",
+      "Medidas",
+      "Peso en quilates",
+      "Grado de color",
+      "Grado de claridad",
+      "Grado de corte cuando corresponda",
+      "Polaco",
+      "Simetría",
+      "Fluorescencia",
+      "Información de proporción",
+      "Diagrama de claridad-característica cuando se incluya",
+      "Comentarios o observaciones",
+      "Información de inscripción láser cuando corresponda"
+    ],
+    "closingParagraphs": [
+      "Los formatos de informes pueden variar según el diamante, el servicio, el lugar de emisión y la fecha. No asuma que cada informe IGI debe contener todos los campos o diagramas posibles."
+    ]
+  },
+  "canCannotConfirm": {
+    "id": "what-an-igi-report-can-and-cannot-confirm",
+    "title": "Lo que un informe IGI puede y no puede confirmar",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Lo que un informe IGI puede ayudar a confirmar versus lo que no confirma automáticamente",
+      "headers": [
+        "Un informe del IGI puede ayudar a confirmar",
+        "No confirma automáticamente"
+      ],
+      "rows": [
+        [
+          "Si la piedra examinada fue identificada como natural o cultivada en laboratorio.",
+          "El país de origen minero del diamante"
+        ],
+        [
+          "Peso en quilates en el momento del examen.",
+          "Valor actual de venta al por menor o de reventa"
+        ],
+        [
+          "Grados de color y claridad.",
+          "Que el diamante está limpio de ojos."
+        ],
+        [
+          "Forma, estilo de corte y medidas.",
+          "Que el comprador encuentre atractivo el diamante."
+        ],
+        [
+          "Cortar la información donde se proporciona",
+          "Rendimiento luminoso perfecto"
+        ],
+        [
+          "Polaco, simetría y fluorescencia.",
+          "Apreciación futura del precio"
+        ],
+        [
+          "Características de claridad grabadas",
+          "Propiedad o título legal"
+        ],
+        [
+          "Una inscripción registrada en el examen.",
+          "Que el mismo diamante sigue emparejado con el informe."
+        ],
+        [
+          "Comentarios de laboratorio y tratamientos donde se indique",
+          "Trazabilidad completa de la cadena de suministro"
+        ],
+        [
+          "Información mantenida en la base de datos del IGI",
+          "Que el documento físico nunca haya sido alterado"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Por lo tanto, un informe de clasificación debe respaldar la decisión de compra y no reemplazar la inspección del diamante."
+    ]
+  },
+  "howToRead": {
+    "id": "how-to-read-an-igi-diamond-certificate",
+    "title": "Cómo leer un certificado de diamante IGI",
+    "introParagraphs": [],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Para comparar con los campos del informe GIA y los hábitos de verificación, consulte el artículo de Dalila."
+        },
+        {
+          "type": "link",
+          "text": "Guía de lectura de informes GIA",
+          "href": "/blogs/how-to-read-gia-diamond-certificate"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "report-number",
+        "title": "1. Número de informe",
+        "paragraphsBefore": [
+          "El número de informe es la referencia principal del documento.",
+          "Debe aparecer en el informe físico o digital y también podrá estar inscrito en el cinturón del diamante. Utilice el número para recuperar el registro correspondiente a través del sistema de verificación oficial del IGI.",
+          "No confíe en una captura de pantalla proporcionada por el vendedor cuando el informe se puede verificar directamente."
+        ]
+      },
+      {
+        "id": "report-date",
+        "title": "2. Fecha del informe",
+        "paragraphsBefore": [
+          "La fecha del informe muestra cuándo IGI examinó el diamante.",
+          "Un informe no necesariamente deja de ser válido simplemente porque sea antiguo. Sin embargo, un diamante pudo haber sido:"
+        ],
+        "bullets": [
+          "astillado",
+          "Repulido",
+          "Recortar",
+          "rayado",
+          "Dañado durante el fraguado",
+          "Eliminado y reemplazado",
+          "Expuesto a un tratamiento no revelado después de la calificación"
+        ],
+        "paragraphsAfter": [
+          "Por lo tanto, los informes más antiguos deberían someterse a una nueva verificación de estado y de identidad."
+        ]
+      },
+      {
+        "id": "description-and-diamond-origin",
+        "title": "3. Descripción y origen del diamante",
+        "paragraphsBefore": [
+          "Este campo es esencial.",
+          "Se debe identificar si el cálculo examinado es:"
+        ],
+        "bullets": [
+          "Un diamante natural",
+          "Un diamante cultivado en laboratorio",
+          "Otra piedra preciosa o tipo de artículo"
+        ],
+        "paragraphsAfter": [
+          "Para los compradores de diamantes naturales de Dalila, el documento debe identificar explícitamente el diamante como natural.",
+          "\"Natural\" describe cómo se formó el diamante. No indica el país en el que se extrajo el diamante. La procedencia geográfica requiere documentación separada del origen y de la cadena de suministro."
+        ]
+      },
+      {
+        "id": "shape-and-cutting-style",
+        "title": "4. Forma y estilo de corte",
+        "paragraphsBefore": [
+          "Este campo puede describir el diamante como:"
+        ],
+        "bullets": [
+          "Brillante redondo",
+          "Ovalado brillante",
+          "Pera brillante",
+          "Cojín modificado brillante",
+          "talla esmeralda",
+          "marquesa brillante",
+          "corte radiante",
+          "Otra forma y estilo de corte reconocidos."
+        ],
+        "paragraphsAfter": [
+          "La redacción debe corresponder con el contorno real y la disposición de las facetas.",
+          "Las pequeñas diferencias en la redacción deben evaluarse cuidadosamente, pero una forma completamente diferente es una señal de advertencia inmediata."
+        ]
+      },
+      {
+        "id": "measurements",
+        "title": "5. Medidas",
+        "paragraphsBefore": [
+          "Las medidas ayudan a identificar el diamante y explican su tamaño.",
+          "Los diamantes redondos normalmente se registran utilizando el diámetro mínimo, el diámetro máximo y la profundidad. Las formas elegantes generalmente muestran longitud, ancho y profundidad.",
+          "Compare las medidas del informe con el diamante real utilizando equipos de medición profesionales. Una diferencia material puede indicar:"
+        ],
+        "bullets": [
+          "El diamante equivocado",
+          "Una piedra recortada",
+          "Error de medición",
+          "Daño",
+          "Un documento alterado"
+        ],
+        "paragraphsAfter": [
+          "El peso en quilates por sí solo no es suficiente porque diferentes diamantes pueden compartir el mismo peso y tener diferentes dimensiones."
+        ]
+      },
+      {
+        "id": "carat-weight",
+        "title": "6. Peso en quilates",
+        "paragraphsBefore": [
+          "El quilate mide el peso en lugar del tamaño visible.",
+          "Dos diamantes de un quilate pueden parecer diferentes debido a su:"
+        ],
+        "bullets": [
+          "Forma",
+          "Profundidad",
+          "Diámetro",
+          "Relación largo-ancho",
+          "Grosor de la faja",
+          "Disposición de facetas"
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Usa el de Dalila"
+            },
+            {
+              "type": "link",
+              "text": "guía de tamaño de diamante en milímetros",
+              "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+            },
+            {
+              "type": "text",
+              "value": "para comparar las medidas del informe con la apariencia esperada boca arriba."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "colour-grade",
+        "title": "7. Grado de color",
+        "paragraphsBefore": [
+          "IGI clasifica los diamantes naturales dentro de la gama de colores de D a Z bajo condiciones de visualización controladas.",
+          "D representa el grado incoloro más alto.",
+          "Los grados progresan a través de gamas de colores casi incoloros y tenues.",
+          "Z representa el final de la gama estándar de amarillo claro o marrón claro.",
+          "El grado de color no determina de forma independiente si un diamante parecerá atractivo. La forma, el tamaño, la fluorescencia, el corte, el ajuste del metal y el entorno de visualización pueden influir en el color boca arriba."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Al equilibrar el color con la claridad y fijar el metal, utilice Dalila's"
+            },
+            {
+              "type": "link",
+              "text": "La mejor guía de combinación de claridad y color de diamantes.",
+              "href": "/blogs/best-diamond-colour-clarity-combination"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "clarity-grade",
+        "title": "8. Grado de claridad",
+        "paragraphsBefore": [
+          "La claridad evalúa las características internas y superficiales con un aumento de 10x.",
+          "La calificación se ve afectada por:"
+        ],
+        "bullets": [
+          "Tamaño de las características",
+          "Número",
+          "Posición",
+          "Naturaleza",
+          "Relieve o visibilidad",
+          "Efecto sobre la transparencia",
+          "Posibles implicaciones para la durabilidad"
+        ],
+        "paragraphsAfter": [
+          "Un grado de claridad no le dice automáticamente al comprador si el diamante está limpio para los ojos. Un profesional debe inspeccionar la piedra real, especialmente cuando el informe muestra claridad SI o Incluida."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Dalila"
+            },
+            {
+              "type": "link",
+              "text": "Guía de las 4C de los diamantes naturales",
+              "href": "/blogs/4cs-of-natural-diamonds-explained"
+            },
+            {
+              "type": "text",
+              "value": "explica cómo el color, la claridad, el corte y los quilates funcionan juntos al comparar diamantes naturales."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "cut-grade",
+        "title": "9. Grado de corte",
+        "paragraphsBefore": [
+          "No se debe confundir corte con forma.",
+          "La forma describe el contorno. La calidad de corte describe aspectos de artesanía, proporciones y rendimiento.",
+          "El proceso actual de clasificación de diamantes de IGI explica que evalúa el corte, el pulido y la simetría de los diamantes redondos brillantes y puede proporcionar una clasificación de corte opcional para los diamantes con formas elegantes.",
+          "Debido a que los servicios IGI y los formatos de informes evolucionan, lea el campo real en lugar de asumir qué grado debería estar presente.",
+          "No juzgue los diamantes con formas elegantes únicamente por el informe."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Usa el de Dalila"
+            },
+            {
+              "type": "link",
+              "text": "guía de calidad de corte de diamante en forma elegante",
+              "href": "/blogs/fancy-shaped-diamond-cut-quality"
+            },
+            {
+              "type": "text",
+              "value": "evaluar contorno, extensión, brillo, contraste y movimiento."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "polish-and-symmetry",
+        "title": "10. Polaco y simetría",
+        "paragraphsBefore": [
+          "Polish evalúa la calidad de las superficies facetadas acabadas.",
+          "La simetría evalúa la alineación, ubicación y relación de las facetas del diamante.",
+          "Estos grados son importantes, pero un pulido y una simetría excelentes no garantizan de forma independiente:"
+        ],
+        "bullets": [
+          "Brillo fuerte",
+          "Pajarita mínima",
+          "Atractivo contraste",
+          "Buena difusión",
+          "Ausencia de ventanas",
+          "Centelleo equilibrado"
+        ],
+        "paragraphsAfter": [
+          "El diamante aún debe verse."
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "11. Fluorescencia",
+        "paragraphsBefore": [
+          "La fluorescencia describe la reacción del diamante a la luz ultravioleta.",
+          "El informe puede indicar:"
+        ],
+        "bullets": [
+          "Ninguno",
+          "Débil",
+          "Medio",
+          "Fuerte",
+          "Acérrimo"
+        ],
+        "paragraphsAfter": [
+          "La fluorescencia no es automáticamente positiva o negativa. El diamante debe comprobarse bajo iluminación interior ordinaria y ultravioleta equivalente a la luz del día cuando la fluorescencia sea significativa."
+        ]
+      },
+      {
+        "id": "proportions-clarity-plot-and-comments",
+        "title": "12. Proporciones, claridad de la trama y comentarios.",
+        "paragraphsBefore": [
+          "Dependiendo del formato del informe, el documento puede contener:"
+        ],
+        "bullets": [
+          "Porcentaje de la tabla",
+          "Porcentaje de profundidad total",
+          "Ángulo de la corona",
+          "Ángulo del pabellón",
+          "Descripción de la faja",
+          "Información sobre culet",
+          "Diagrama de proporciones",
+          "Trama característica de claridad",
+          "Comentarios",
+          "Divulgaciones de tratamiento",
+          "Detalles de inscripción"
+        ],
+        "paragraphsAfter": [
+          "La sección de comentarios nunca debe ignorarse. Puede contener información que no sea obvia en los campos de calificación principales."
+        ]
+      }
+    ]
+  },
+  "howToVerifyOnline": {
+    "id": "how-to-verify-an-igi-certificate-online",
+    "title": "Cómo verificar un certificado IGI en línea",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-use-the-official-igi-website",
+        "title": "Paso 1: utilice el sitio web oficial de IGI",
+        "paragraphsBefore": [
+          "Vaya directamente a la página de verificación oficial de IGI."
+        ],
+        "richParagraphsAfter": [
+          [
+            {
+              "type": "text",
+              "value": "Usar"
+            },
+            {
+              "type": "link",
+              "text": "La herramienta oficial Verifique su informe de IGI",
+              "href": "https://www.igi.org/Verify-Your-Report/",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "value": "Evite anuncios de búsqueda, enlaces abreviados y sitios web no oficiales de verificación de certificados."
+            }
+          ]
+        ]
+      },
+      {
+        "id": "step-2-enter-the-exact-report-number",
+        "title": "Paso 2: Ingrese el número exacto del informe",
+        "paragraphsBefore": [
+          "Ingrese el número completo tal como está impreso.",
+          "Si no aparece ningún resultado:"
+        ],
+        "bullets": [
+          "Compruebe si hay errores tipográficos",
+          "Confirmar espacios y puntuación.",
+          "Intente eliminar el prefijo J_ cuando corresponda, siguiendo las instrucciones actuales de IGI.",
+          "No asuma que el informe es genuino simplemente porque parece profesional."
+        ],
+        "paragraphsAfter": [
+          "IGI proporciona un formulario de Informe perdido o problemático para registros que no se pueden recuperar normalmente."
+        ]
+      },
+      {
+        "id": "step-3-compare-the-online-and-physical-reports",
+        "title": "Paso 3: compare los informes físicos y en línea",
+        "paragraphsBefore": [
+          "Confirme que ambos registros muestren lo mismo:"
+        ],
+        "bullets": [
+          "Número de informe",
+          "Fecha",
+          "Descripción del diamante",
+          "Origen natural o cultivado en laboratorio.",
+          "Forma y estilo de corte.",
+          "Medidas",
+          "Peso en quilates",
+          "Color",
+          "Claridad",
+          "Cortar información",
+          "Polaco",
+          "Simetría",
+          "Fluorescencia",
+          "Comentarios",
+          "Detalles de inscripción"
+        ],
+        "paragraphsAfter": [
+          "Una búsqueda exitosa demuestra que el número existe en la base de datos de IGI. Por sí solo, no prueba que el vendedor haya emparejado el informe con el diamante correcto."
+        ]
+      },
+      {
+        "id": "step-4-inspect-the-laser-inscription",
+        "title": "Paso 4: inspeccionar la inscripción láser",
+        "paragraphsBefore": [
+          "Cuando haya una inscripción, solicite a un profesional capacitado que la inspeccione con un aumento adecuado.",
+          "La inscripción debe corresponder con:"
+        ],
+        "bullets": [
+          "El número del informe IGI",
+          "Cualquier texto natural o cultivado en laboratorio registrado en el informe.",
+          "Logotipos o mensajes registrados adicionales donde se indique"
+        ],
+        "paragraphsAfter": [
+          "Fotografíe la inscripción cuando sea posible, pero no trate la fotografía como un sustituto del examen del diamante real."
+        ]
+      },
+      {
+        "id": "step-5-match-the-report-to-the-diamond",
+        "title": "Paso 5: haga coincidir el informe con el diamante",
+        "paragraphsBefore": [
+          "Verifique el diamante usando:"
+        ],
+        "bullets": [
+          "Medidas",
+          "Peso en quilates donde la piedra está suelta.",
+          "Forma y estilo de corte.",
+          "Características de claridad",
+          "Condición de faja",
+          "Inscripción láser",
+          "Cribado gemológico profesional"
+        ],
+        "paragraphsAfter": [
+          "Este último paso conecta el registro de la base de datos con la piedra física."
+        ]
+      }
+    ]
+  },
+  "doesEveryHaveInscription": {
+    "id": "does-every-igi-natural-diamond-have-a-laser-inscription",
+    "title": "¿Todos los diamantes naturales IGI tienen una inscripción láser?",
+    "introParagraphs": [
+      "No.",
+      "IGI afirma que la inscripción láser generalmente se aplica a los diamantes naturales a petición del propietario. Por tanto, la ausencia de una inscripción en un diamante natural no prueba automáticamente que el informe sea falso.",
+      "Por el contrario, la guía actual sobre el proceso de calificación del IGI establece que los diamantes cultivados en laboratorio que clasifica reciben una inscripción que identifica su origen.",
+      "Utilice la guía de IGI Laserscribe para comprender cómo se pueden colocar los números de informe y otros caracteres en el cinturón de un diamante."
+    ]
+  },
+  "isMatchingInscriptionEnough": {
+    "id": "is-a-matching-laser-inscription-enough",
+    "title": "¿Es suficiente una inscripción láser a juego?",
+    "introParagraphs": [
+      "No.",
+      "Una inscripción coincidente es un control de identidad importante, pero debe combinarse con:"
+    ],
+    "bullets": [
+      "Verificación oficial en línea",
+      "Medidas",
+      "Forma",
+      "Peso en quilates",
+      "Características de claridad",
+      "Detección natural versus cultivada en laboratorio",
+      "Inspección profesional"
+    ],
+    "closingParagraphs": [
+      "En 2024, IGI informó haber identificado un diamante cultivado en laboratorio que llevaba una inscripción fraudulenta relacionada con un número de informe de diamante natural. El informe del caso del IGI demuestra por qué la verificación de la inscripción no debería ser el único paso de verificación."
+    ]
+  },
+  "documentInconsistencies": {
+    "id": "document-inconsistencies-that-require-investigation",
+    "title": "Inconsistencias en documentos que requieren investigación",
+    "introParagraphs": [],
+    "table": {
+      "caption": "IGI informa inconsistencias, posibles explicaciones y acciones requeridas",
+      "headers": [
+        "Inconsecuencia",
+        "Posible explicación",
+        "Acción requerida"
+      ],
+      "rows": [
+        [
+          "El número de informe no produce ningún resultado en línea",
+          "Error de mecanografía, problema de prefijo, registro no disponible o documento falso",
+          "Vuelva a verificar el número y comuníquese con IGI."
+        ],
+        [
+          "El registro en línea difiere del informe en papel",
+          "Documento alterado, desactualizado o no coincidente",
+          "Detener la compra y verificar con IGI"
+        ],
+        [
+          "El vendedor dice que es natural pero el informe dice que fue cultivado en laboratorio",
+          "Tergiversación o informe incorrecto",
+          "Rechazar hasta que se resuelva de forma independiente"
+        ],
+        [
+          "La forma difiere",
+          "Diamante o documento equivocado",
+          "Detenerse inmediatamente"
+        ],
+        [
+          "Las medidas difieren materialmente",
+          "Piedra equivocada, recorte o documento inexacto",
+          "Remedición profesional"
+        ],
+        [
+          "El número de inscripción difiere",
+          "Piedra equivocada o inscripción sospechosa",
+          "Identificación independiente"
+        ],
+        [
+          "El informe registra una inscripción pero no se puede encontrar ninguna.",
+          "Faja sucia, obstrucción de fijación, repulido o desajuste",
+          "Limpiar e inspeccionar profesionalmente"
+        ],
+        [
+          "El peso en quilates difiere en una piedra suelta",
+          "Piedra incorrecta, daño o recorte",
+          "Volver a pesar e investigar"
+        ],
+        [
+          "La claridad de la trama no se corresponde con la piedra.",
+          "Diamante incorrecto o coincidencia visual incompleta",
+          "Comparación de gemólogos"
+        ],
+        [
+          "El código QR abre un dominio que no es IGI",
+          "Enlace no oficial o manipulado",
+          "Cierra la página y visita IGI directamente."
+        ],
+        [
+          "El vendedor solo proporciona una captura de pantalla recortada.",
+          "Falta contexto o documento no verificable",
+          "Solicite el informe completo y el número"
+        ],
+        [
+          "El informe es genuino pero la condición del diamante ha cambiado.",
+          "Desgaste posterior, daño o repulido.",
+          "Evaluación de condición actualizada"
+        ]
+      ]
+    }
+  },
+  "expertNote": {
+    "id": "expert-note",
+    "title": "Nota del experto",
+    "introParagraphs": [
+      "Una inconsistencia no siempre prueba fraude. Una inscripción de faja puede ser difícil de localizar cuando el diamante está sucio o montado, y los formatos de informes más antiguos pueden verse diferentes a los documentos actuales.",
+      "Sin embargo, las explicaciones deben verificarse, no asumirse.",
+      "Cuando la descripción del informe, origen del diamante, medidas, inscripción o registro en línea no concuerden, la transacción debe pausarse hasta que IGI o un gemólogo independiente resuelva la discrepancia."
+    ]
+  },
+  "physicalSecurityFeatures": {
+    "id": "physical-igi-report-security-features",
+    "title": "Funciones de seguridad del informe IGI físico",
+    "introParagraphs": [
+      "IGI afirma que los informes de calificación impresos utilizan papel de seguridad avanzada con al menos cinco características de seguridad, incluido material resistente al desgarro, microimpresión y una característica holográfica.",
+      "Los diseños de informes pueden cambiar. Por lo tanto:"
+    ],
+    "bullets": [
+      "No autentique un informe únicamente por el color o el diseño.",
+      "No rechace un informe genuino más antiguo porque se ve diferente de un diseño actual.",
+      "No acepte un documento simplemente porque contiene un holograma.",
+      "Priorice siempre el récord oficial en línea y la coincidencia física de diamantes."
+    ]
+  },
+  "isReliable": {
+    "id": "is-igi-certification-reliable",
+    "title": "¿Es confiable la certificación IGI?",
+    "introParagraphs": [
+      "Un informe auténtico del IGI proporciona una evaluación profesional independiente del diamante examinado.",
+      "Sin embargo, la página oficial de verificación de IGI explica que el informe es una opinión y no es una garantía, tasación o garantía. También reconoce que las opiniones de los laboratorios pueden variar según cuándo, cómo y quién fue examinado un artículo.",
+      "Por lo tanto, un comprador responsable debería utilizar el informe para:"
+    ],
+    "bullets": [
+      "Confirmar identidad",
+      "Revisa las 4C",
+      "comparar diamantes",
+      "Consultar medidas",
+      "Identificar los tratamientos divulgados",
+      "Soporte de registros de stock",
+      "Solicitar una inspección adicional"
+    ],
+    "closingParagraphs": [
+      "No debe utilizarse para garantizar el valor de mercado, el rendimiento de la inversión o la preferencia visual personal."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Para una comparación más amplia de casos de uso y reconocimiento de laboratorio, lea el artículo de Dalila"
+        },
+        {
+          "type": "link",
+          "text": "Guía de certificación de diamantes GIA vs IGI vs HRD",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "canProveCountryOfOrigin": {
+    "id": "can-an-igi-report-prove-country-of-origin",
+    "title": "¿Puede un informe IGI demostrar el país de origen de un diamante?",
+    "introParagraphs": [
+      "No. Un informe estándar de clasificación de diamantes naturales identifica la piedra como natural pero no confirma automáticamente el país donde se extrajo.",
+      "Mantenga los registros de calificaciones separados de:"
+    ],
+    "bullets": [
+      "Documentación del Proceso de Kimberley",
+      "Declaraciones de origen del proveedor",
+      "Registros de cumplimiento de sanciones",
+      "Importar documentos",
+      "Información de cadena de custodia",
+      "Programas de procedencia"
+    ],
+    "closingParagraphs": [
+      "“Diamante natural”, “procedente de Amberes” y “pulido en la India” describen hechos diferentes. Ninguno debe presentarse como país minero del diamante sin documentación de respaldo."
+    ]
+  },
+  "howToUseWhenBuying": {
+    "id": "how-to-use-an-igi-report-when-buying",
+    "title": "Cómo utilizar un informe IGI al comprar",
+    "introParagraphs": [
+      "Después de verificar el informe, compare:"
+    ],
+    "bullets": [
+      "Peso en quilates y dimensiones.",
+      "Color y apariencia boca arriba.",
+      "Claridad y limpieza de ojos.",
+      "Corte y rendimiento ligero",
+      "polaco y simetría",
+      "Fluorescencia",
+      "Faja y durabilidad",
+      "Posición de inclusión",
+      "Transparencia",
+      "Precio",
+      "Documentación de procedencia disponible"
+    ],
+    "closingParagraphs": [
+      "El informe debería ayudar a crear una lista corta. La elección final debería depender del diamante real."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "Una perspectiva de abastecimiento de Amberes",
+    "introParagraphs": [
+      "Para los compradores comerciales, un informe IGI es más útil cuando permanece conectado al registro de acciones completo.",
+      "El expediente del proveedor debe conectar:"
+    ],
+    "bullets": [
+      "Diamante",
+      "Número de informe",
+      "Inscripción láser donde esté presente.",
+      "Número de stock del proveedor",
+      "Factura",
+      "Peso en quilates",
+      "Medidas",
+      "Descripción del diamante natural",
+      "Documentos de origen y cumplimiento cuando estén disponibles",
+      "Fotografías o vídeos de inspección.",
+      "Registro de ventas del cliente"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A través de Dalila Diamonds"
+        },
+        {
+          "type": "link",
+          "text": "Servicio seguro al origen",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", los joyeros y compradores comerciales pueden solicitar diamantes naturales según la forma, los quilates, el color, la claridad, la certificación, las medidas y el presupuesto."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Los compradores también pueden"
+        },
+        {
+          "type": "link",
+          "text": "explore el inventario de diamantes naturales de Dalila",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": "y solicite verificación de informes o información de inspección adicional antes de comprar."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Dalila"
+        },
+        {
+          "type": "link",
+          "text": "Guía de conocimientos sobre diamantes",
+          "href": "/diamondKnowledge"
+        },
+        {
+          "type": "text",
+          "value": "proporciona una descripción general de las formas, las 4C y la certificación."
+        }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Respuesta final: ¿Debería comprar un diamante certificado por IGI?",
+    "introParagraphs": [
+      "Un diamante natural con certificación IGI puede ser una compra adecuada cuando:"
+    ],
+    "bullets": [
+      "La base de datos oficial confirma el informe.",
+      "El informe identifica la piedra como natural",
+      "Los registros digitales y físicos coinciden",
+      "La inscripción corresponde donde esté presente.",
+      "Las medidas y características identificativas coinciden con el diamante.",
+      "La piedra funciona bien durante la inspección visual.",
+      "El precio refleja su calidad completa.",
+      "La documentación de origen separada está disponible cuando sea necesario."
+    ],
+    "closingParagraphs": [
+      "No apruebe un diamante únicamente porque existe un número de informe.",
+      "La verificación más sólida conecta tres elementos:",
+      "Registro oficial IGI → Informe físico → Diamante real",
+      "Si algún detalle importante no coincide, suspenda la transacción y obtenga confirmación profesional."
+    ]
+  },
+  "cta": {
+    "id": "source-igi-certified-diamonds",
+    "title": "Obtenga diamantes naturales certificados por IGI con Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Solicite diamantes naturales con informes IGI verificados, soporte de inspección de Amberes y orientación comercial clara, para que el número del informe, la inscripción y la piedra permanezcan conectados antes de comprar."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Explorar inventario",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Qué es un certificado IGI?",
+        "answer": "Un certificado IGI es el nombre comúnmente utilizado para un informe de calificación IGI. Registra la identificación y evaluación por parte del laboratorio de las características de un diamante, que pueden incluir las 4C, medidas, acabado, fluorescencia y comentarios."
+      },
+      {
+        "question": "¿Cómo puedo consultar un certificado IGI en línea?",
+        "answer": "Ingrese el número del informe en la herramienta oficial Verifique su informe de IGI. Compare la información recuperada con el informe físico y el diamante real."
+      },
+      {
+        "question": "¿Un informe del IGI confirma que un diamante es natural?",
+        "answer": "La descripción del informe debe indicar si el diamante examinado fue identificado como natural o cultivado en laboratorio. Lea siempre este campo en lugar de confiar en la descripción del vendedor."
+      },
+      {
+        "question": "¿Todos los diamantes IGI tienen una inscripción láser?",
+        "answer": "No. IGI establece que se pueden aplicar inscripciones de diamantes naturales a petición del propietario. Los diamantes cultivados en laboratorio clasificados por IGI reciben una inscripción que identifica el origen cultivado en laboratorio según su proceso actual."
+      },
+      {
+        "question": "¿Es suficiente una inscripción IGI coincidente para verificar un diamante?",
+        "answer": "No. Compare también el registro oficial en línea, la forma, las medidas, el peso en quilates, las características de claridad y la identificación natural versus cultivada en laboratorio."
+      },
+      {
+        "question": "¿Qué debo hacer si un número de informe IGI no produce ningún resultado?",
+        "answer": "Verifique el número cuidadosamente y siga las instrucciones de IGI para prefijos como J_. Si el registro sigue sin estar disponible, utilice el formulario de Informe de problemas o faltantes de IGI y suspenda la compra."
+      },
+      {
+        "question": "¿Un informe del IGI muestra el valor del diamante?",
+        "answer": "Un informe de calificación IGI estándar no es una valoración minorista ni una garantía de precio. El valor de mercado depende del diamante, la demanda, la oferta y el contexto de venta."
+      },
+      {
+        "question": "¿Un informe del IGI sobre diamantes naturales muestra el origen minero?",
+        "answer": "No automáticamente. El “diamante natural” identifica el origen de la formación, no el país de extracción. El origen minero requiere documentación de procedencia separada."
+      },
+      {
+        "question": "¿Caduca un certificado IGI?",
+        "answer": "Un informe de calificación normalmente no se vuelve falso simplemente porque sea antiguo. Sin embargo, el diamante puede dañarse, volverse a pulir, recortarse o cambiarse posteriormente, por lo que los informes más antiguos requieren comprobaciones de identidad y estado."
+      },
+      {
+        "question": "¿IGI es mejor que GIA o HRD?",
+        "answer": "No existe una respuesta universal para cada diamante y mercado. IGI se utiliza ampliamente a nivel internacional, mientras que GIA y HRD tienen su propio reconocimiento y fortalezas comerciales. Compárelos a través de la guía de comparación de certificaciones dedicada de Dalila."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Verifique el número, haga coincidir el informe y luego inspeccione el diamante",
+    "introParagraphs": [
+      "Un informe IGI respalda la compra cuando el registro oficial, el documento físico y el diamante real coinciden.",
+      "Pause la transacción siempre que la redacción del origen, las medidas, la inscripción o los detalles en línea entren en conflicto."
+    ],
+    "primaryButtonText": "Contactar dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Guía de conocimientos sobre diamantes",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Nuestros artículos",
+    "findUsTitle": "Encuéntranos",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Amberes",
+      "Bélgica"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Explore nuestro inventario",
+    "inventoryDescription": "Descubra nuestra exquisita colección de diamantes premium",
+    "inventoryButtonText": "Ver inventario",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Volver a artículos",
+    "blogsHref": "/blogs"
+  }
+}

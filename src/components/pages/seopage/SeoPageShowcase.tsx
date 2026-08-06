@@ -17,6 +17,7 @@ const jost = Jost({
 });
 
 export interface ShowcaseSection {
+  id?: string;
   label: string;
   heading: string;
   description: string;
@@ -36,7 +37,8 @@ export default function SeoPageShowcase({ sections }: SeoPageShowcaseProps) {
         {sections.map((section, index) => (
           <div
             key={index}
-            className={`flex flex-col md:grid md:grid-cols-2 gap-12 md:gap-14 lg:gap-16 items-center ${
+            id={section.id}
+            className={`scroll-mt-28 flex flex-col md:grid md:grid-cols-2 gap-12 md:gap-14 lg:gap-16 items-center ${
               index < sections.length - 1 ? "mb-20" : ""
             }`}
           >

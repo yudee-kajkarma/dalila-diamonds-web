@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "title": "Calculateur d’évaluation des diamants : quelle est la valeur de mon diamant ?",
+    "description": "Utilisez notre calculateur d’évaluation de diamant pour découvrir ce que peut valoir votre diamant naturel. Soumettre son rapport et ses photos pour une expertise privée.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-valuation-calculator",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaFairMarket": "https://www.gia.edu/gia-news-research-selling-jewelry",
+    "giaBuyersGuide": "https://www.gia.edu/gia-news-research-buying-diamonds",
+    "giaTreatments": "https://www.gia.edu/gia-news-research-diamond-treatment"
+  },
+  "banner": {
+    "title": "Calculateur d'évaluation des diamants",
+    "breadcrumbHome": "Maison",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Calculateur d'évaluation des diamants",
+    "imageAlt": "Bannière de ressources du calculateur d'évaluation des diamants"
+  },
+  "hero": {
+    "title": "Calculateur d’évaluation des diamants : quelle est la valeur de mon diamant ?",
+    "paragraphs": [
+      "Si vous possédez un diamant naturel, une bague en diamant ou un autre bijou en diamant, vous vous demandez peut-être ce qu'il vaut aujourd'hui. Le calculateur d’évaluation des diamants Dalila vous aide à démarrer ce processus en collectant les caractéristiques qui influencent la valeur de vente potentielle d’un diamant.",
+      "Saisissez les informations indiquées sur votre rapport de notation et téléchargez des photographies claires du diamant ou du bijou. Si vous n'avez pas de certificat, vous pouvez toujours soumettre les détails que vous connaissez. Dalila Diamonds peut examiner les informations et expliquer si une évaluation physique à Anvers est nécessaire.",
+      "Une évaluation de diamant en ligne est une évaluation initiale plutôt qu’une offre d’achat garantie. Une offre finale peut nécessiter une vérification du diamant, de son rapport de classification, de son état, de sa propriété et de la demande actuelle du marché."
+    ],
+    "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
+    "primaryButtonHref": "#valuation-calculator",
+    "image": {
+      "src": "/images/resources/diamond-valuation-calculator.webp",
+      "alt": "Rapport sur les diamants naturels et leur classement à côté d'un calculateur d'évaluation des diamants en ligne",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "valueFactors": {
+      "src": "/images/resources/natural-diamond-value-factors.webp",
+      "alt": "Facteurs utilisés pour calculer la valeur d'un diamant naturel",
+      "width": 1400,
+      "height": 1000
+    },
+    "retailVsResale": {
+      "src": "/images/resources/diamond-retail-vs-resale-value.webp",
+      "alt": "Comparaison de l'évaluation de l'assurance du prix de détail des diamants et de la valeur de revente",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/dalila-diamond-valuation-process.webp",
+      "alt": "Processus d'évaluation des diamants en ligne de Dalila Diamonds et d'Anvers",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "valuation-calculator",
+        "label": "Commencez votre évaluation de diamant en ligne"
+      },
+      {
+        "id": "how-much-worth",
+        "label": "Combien vaut mon diamant ?"
+      },
+      {
+        "id": "retail-vs-resale",
+        "label": "L'évaluation n'est pas le prix de détail"
+      },
+      {
+        "id": "value-factors",
+        "label": "Qu’est-ce qui détermine la valeur d’un diamant ?"
+      },
+      {
+        "id": "online-valuation",
+        "label": "Un diamant peut-il être estimé en ligne ?"
+      },
+      {
+        "id": "without-certificate",
+        "label": "Valeur sans certificat"
+      },
+      {
+        "id": "valuation-process",
+        "label": "Comment fonctionne le processus Dalila"
+      },
+      {
+        "id": "why-antwerp",
+        "label": "Pourquoi valoriser à Anvers ?"
+      },
+      {
+        "id": "prepare",
+        "label": "Que préparer"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Questions fréquemment posées"
+      },
+      {
+        "id": "find-out-worth",
+        "label": "Découvrez ce que vaut votre diamant"
+      }
+    ]
+  },
+  "form": {
+    "id": "valuation-calculator",
+    "leadSource": "diamond_valuation_calculator",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP et PDF",
+    "stickyButtonText": "Valoriser mon diamant",
+    "progressLabel": "Étape {étape} sur {total}",
+    "savedDraftNotice": "Votre progression a été enregistrée dans ce navigateur.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Qu’aimeriez-vous valoriser ?",
+        "subtitle": "Sélectionnez l'option qui décrit le mieux votre article."
+      },
+      {
+        "number": 2,
+        "title": "Avez-vous un rapport de classification des diamants ?",
+        "subtitle": "Un rapport du GIA, du HRD Anvers, de l'IGI ou d'un autre laboratoire de gemmologie peut fournir des informations importantes. Vous pouvez toujours demander une évaluation si le rapport a été perdu ou si le diamant n'a jamais été certifié."
+      },
+      {
+        "number": 3,
+        "title": "Parlez-nous des bijoux",
+        "subtitle": "Si le diamant est monté, fournissez des informations de base sur l'article complet. La monture, le métal, l’artisanat, la marque et l’état peuvent devoir être considérés séparément du diamant central."
+      },
+      {
+        "number": 4,
+        "title": "Télécharger des photographies et des documents",
+        "subtitle": "Pour une évaluation plus claire, téléchargez une photographie de l'article complet, un gros plan du diamant vu du dessus et une vue latérale montrant le sertissage."
+      },
+      {
+        "number": 5,
+        "title": "Choisissez comment vous souhaitez être contacté",
+        "subtitle": "Dites-nous comment vous joindre et dans combien de temps vous envisagez de vendre."
+      }
+    ],
+    "itemTypes": [
+      "Diamant naturel en vrac",
+      "Bague diamant naturel",
+      "Boucles d'oreilles diamant",
+      "Collier ou pendentif en diamant",
+      "Bracelet diamant",
+      "Autres bijoux en diamant",
+      "je ne suis pas sûr"
+    ],
+    "certificateStatuses": [
+      "Rapport GIA",
+      "Rapport du DRH Anvers",
+      "Rapport IGI",
+      "Rapport d'un autre laboratoire",
+      "J'ai un rapport mais je ne connais pas le laboratoire",
+      "Je n'ai pas de rapport de notation",
+      "je ne suis pas sûr"
+    ],
+    "reportFieldsHelp": "Vous pouvez normalement trouver ces détails sur votre rapport de classification des diamants. En cas de doute, téléchargez une photo claire du rapport complet et notre équipe pourra examiner les informations.",
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Princess",
+      "Marquise",
+      "Asscher",
+      "Heart",
+      "Other"
+    ],
+    "origins": [
+      "Naturel",
+      "Cultivé en laboratoire",
+      "je ne suis pas sûr"
+    ],
+    "fluorescenceOptions": [
+      "None",
+      "S'évanouir",
+      "Medium",
+      "Fort",
+      "Très fort",
+      "Non répertorié / inconnu"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Téléphone",
+      "Soit par email, soit par téléphone"
+    ],
+    "evaluationPreferences": [
+      "Examen en ligne uniquement",
+      "Rendez-vous privé à Anvers",
+      "Je ne suis pas encore sûr"
+    ],
+    "sellingTimelines": [
+      "Dès que possible",
+      "Dans le mois prochain",
+      "Je compare mes options",
+      "Je veux seulement comprendre la valeur",
+      "je ne suis pas sûr"
+    ],
+    "uploadHints": [
+      "Le rapport de notation complet",
+      "Le reçu d'achat original",
+      "Une évaluation antérieure",
+      "Photographies de poinçons ou de marque",
+      "Tous documents de provenance disponibles"
+    ],
+    "consentText": "J'accepte que Dalila Diamonds me contacte concernant cette demande d'évaluation. Je comprends qu'une évaluation en ligne est préliminaire et qu'une offre finale peut nécessiter une inspection et une vérification physiques.",
+    "privacyLinkText": "politique de confidentialité",
+    "privacyHref": "/contact",
+    "submitButton": "Demander mon évaluation privée",
+    "submittingButton": "Soumission…",
+    "nextButton": "Continuer",
+    "backButton": "Dos",
+    "successMessage": "Merci. Les informations relatives à votre diamant ont été soumises pour examen. Un membre de l'équipe Dalila Diamonds vous contactera en utilisant votre méthode de contact préférée.",
+    "errorMessage": "Nous n'avons pas pu soumettre votre demande. Veuillez vérifier les champs obligatoires et réessayer.",
+    "validation": {
+      "itemTypeRequired": "Veuillez sélectionner ce que vous souhaitez valoriser.",
+      "certificateRequired": "Veuillez sélectionner le statut de votre certificat.",
+      "imageRequired": "Veuillez télécharger au moins une photo ou un document.",
+      "nameRequired": "Veuillez entrer votre nom complet.",
+      "contactRequired": "Veuillez fournir une adresse e-mail ou un numéro de téléphone.",
+      "countryRequired": "Veuillez entrer votre pays.",
+      "consentRequired": "Veuillez confirmer la déclaration de consentement avant de la soumettre."
+    },
+    "resultMessages": {
+      "ready": {
+        "heading": "Votre diamant est prêt pour un examen spécialisé",
+        "message": "Les informations que vous avez fournies nous fournissent un point de départ utile. Un spécialiste examinera les détails du classement, les photographies et la demande actuelle de diamants naturels comparables. Toute indication en ligne est préliminaire et ne constitue pas une offre d'achat ferme. Une inspection physique et une vérification du rapport peuvent être nécessaires avant qu'une offre finale puisse être confirmée.",
+        "button": "Soumettre mon diamant pour examen"
+      },
+      "missing": {
+        "heading": "Nous avons besoin d'un peu plus d'informations",
+        "message": "Une évaluation responsable ne peut être calculée à partir des informations actuellement disponibles. Vous pouvez toujours soumettre des photographies et tous les documents dont vous disposez. Dalila Diamonds vous expliquera quels détails ou quels contrôles sont requis ensuite.",
+        "button": "Demander un avis spécialisé"
+      },
+      "noCertificate": {
+        "heading": "Vous pouvez toujours demander une évaluation",
+        "message": "Un rapport de notation manquant n'empêche pas automatiquement l'évaluation de votre diamant. Téléchargez des photographies claires et tout reçu, évaluation ou information justificative disponible pour commencer.",
+        "button": "Valoriser mon diamant sans certificat"
+      }
+    },
+    "labels": {
+      "gradingLaboratory": "Laboratoire de classement",
+      "reportNumber": "Numéro de rapport",
+      "reportDate": "Date du rapport, si connue",
+      "origin": "Naturel ou cultivé en laboratoire",
+      "shape": "Diamond shape",
+      "caratWeight": "Poids en carats",
+      "colourGrade": "Qualité de couleur",
+      "clarityGrade": "Degré de clarté",
+      "cutGrade": "Qualité de coupe",
+      "polish": "polonais",
+      "symmetry": "Symétrie",
+      "fluorescence": "Fluorescence",
+      "jewelleryType": "Type de bijoux",
+      "metal": "Métal, si connu",
+      "diamondCount": "Nombre de diamants",
+      "approximateAge": "Âge approximatif",
+      "brand": "Marque ou designer, le cas échéant",
+      "boxReceipt": "Boîte d'origine ou reçu disponible",
+      "altered": "L'article a-t-il été réparé, redimensionné ou modifié ?",
+      "jewelleryNotes": "Informations Complémentaires",
+      "uploadLabel": "Téléchargez des photographies et des documents",
+      "dragDrop": "Faites glisser et déposez des fichiers ici, ou choisissez des fichiers",
+      "fullName": "Nom et prénom",
+      "email": "Adresse email",
+      "phone": "Numéro de téléphone",
+      "country": "Pays",
+      "postcode": "Code postal",
+      "contactMethod": "Méthode de contact préférée",
+      "evaluationPreference": "Bilan en ligne ou rendez-vous privé à Anvers",
+      "sellingTimeline": "Dans combien de temps envisagez-vous de vendre ?",
+      "optional": "Facultatif"
+    }
+  },
+  "formIntro": {
+    "id": "start-valuation",
+    "title": "Commencez votre évaluation de diamants en ligne",
+    "paragraphs": [
+      "Dites-nous tout ce que vous savez sur votre diamant. Des informations précises dans le rapport et des photographies claires peuvent nous aider à fournir une évaluation initiale plus utile."
+    ]
+  },
+  "howMuchWorth": {
+    "id": "how-much-worth",
+    "title": "Combien vaut mon diamant ?",
+    "paragraphs": [
+      "Il n’existe pas de prix unique pour un diamant basé uniquement sur sa taille. Un diamant naturel d'un carat, par exemple, peut avoir une valeur très différente d'un autre diamant d'un carat en raison des différences de forme, de couleur, de clarté, de qualité de taille, de fluorescence, de certification et d'état général.",
+      "La première question est de savoir si le diamant est naturel ou cultivé en laboratoire. Ces diamants doivent être évalués séparément car ils ont des conditions d’approvisionnement et des marchés de revente différents. Un rapport de classification, lorsqu’il est disponible, doit indiquer l’origine du diamant.",
+      "Une fois l’origine établie, l’évaluateur prend en compte la qualité du diamant et la demande actuelle pour des pierres comparables. L'état de la pierre, la documentation disponible et le fait qu'elle soit lâche ou montée en bijou peuvent également affecter l'évaluation.",
+      "Un calculateur d'évaluation de diamants en ligne peut donc constituer un point de départ utile, mais un prix de vente fiable nécessite normalement plus qu'un simple calcul du carat et de la qualité."
+    ],
+    "factorsIntro": "Les principales informations utilisées dans une évaluation initiale d’un diamant comprennent :",
+    "factors": [
+      "Origine naturelle ou cultivée en laboratoire",
+      "Forme et poids en carats",
+      "Degrés de couleur et de clarté",
+      "Coupe, polissage et symétrie",
+      "Fluorescence",
+      "Laboratoire de classement",
+      "Traitements, le cas échéant",
+      "État actuel",
+      "Demande actuelle des acheteurs"
+    ],
+    "closing": "Si certaines de ces informations ne sont pas disponibles, soumettez les détails et les photographies dont vous disposez. Dalila peut vous expliquer quelles vérifications supplémentaires pourraient être nécessaires.",
+    "ctaText": "DÉCOUVREZ CE QUE PEUT VALER MON DIAMANT",
+    "ctaHref": "#valuation-calculator"
+  },
+  "retailVsResale": {
+    "id": "retail-vs-resale",
+    "title": "La valorisation des diamants n'est pas la même que le prix de détail d'origine",
+    "paragraphs": [
+      "De nombreux vendeurs s’attendent à ce que la valeur actuelle de leur diamant soit proche du montant initialement payé. Cependant, le prix de vente initial et le montant qu’un acheteur professionnel peut proposer répondent à des objectifs différents.",
+      "Le prix de détail peut inclure les frais d’exploitation du bijoutier, les travaux de conception, le sertissage, l’image de marque, les taxes, le service client et la marge bénéficiaire. Une évaluation d'assurance peut être plus élevée car elle estime ce qu'il pourrait en coûter pour remplacer l'article par l'intermédiaire d'un vendeur au détail. Aucun de ces chiffres ne représente automatiquement le prix auquel le diamant peut être vendu aujourd’hui."
+    ],
+    "table": {
+      "caption": "Types de valeur de diamant comparés",
+      "headers": [
+        "Type de valeur",
+        "Ce que cela représente"
+      ],
+      "rows": [
+        [
+          "Prix ​​de vente d'origine",
+          "Le montant payé lors de l'achat initial du bijou"
+        ],
+        [
+          "Évaluation d'assurance",
+          "Une valeur de remplacement estimée utilisée à des fins d’assurance"
+        ],
+        [
+          "Juste valeur marchande",
+          "Une opinion sur ce sur quoi un acheteur et un vendeur consentants peuvent s'entendre"
+        ],
+        [
+          "Valeur de revente",
+          "Le montant que le diamant peut rapporter sur le marché secondaire"
+        ],
+        [
+          "Offre d'achat",
+          "Le montant qu'un acheteur particulier est prêt à payer après évaluation"
+        ]
+      ]
+    },
+    "giaNote": "GIA explique la juste valeur marchande comme l’opinion d’un évaluateur sur ce qu’un acheteur consentant paierait à un vendeur consentant. Ceci est différent de la simple répétition du prix de détail original du diamant.",
+    "giaLinkText": "Consultez les conseils du GIA sur la vente de bijoux",
+    "closing": "Une offre d'achat actuelle est influencée par le diamant physique, sa documentation, son état et la demande actuelle. Pour cette raison, une évaluation antérieure ne doit pas être considérée comme un prix de vente garanti."
+  },
+  "valueFactors": {
+    "id": "value-factors",
+    "title": "Qu'est-ce qui détermine la valeur d'un diamant naturel ?",
+    "subsections": [
+      {
+        "id": "carat-weight",
+        "title": "Poids en carats",
+        "paragraphs": [
+          "Le carat mesure le poids d’un diamant plutôt que sa largeur visible. Un carat équivaut à 0,20 gramme, mais la valeur d’un diamant n’augmente pas à un taux fixe pour chaque fraction supplémentaire de carat.",
+          "Les diamants qui atteignent des seuils reconnus tels que 1,00, 1,50 ou 2,00 carats peuvent attirer un prix par carat différent de celui des pierres juste en dessous de ces poids. Le GIA note que les prix par carat augmentent généralement lorsqu'un diamant dépasse des seuils de poids importants.",
+          "Néanmoins, un diamant plus gros n’a pas automatiquement plus de valeur qu’une pierre plus petite avec une couleur, une clarté et une taille nettement meilleures. Le poids en carats doit toujours être évalué parallèlement aux autres caractéristiques du diamant."
+        ],
+        "linkText": "Consultez le guide d’achat des diamants naturels GIA",
+        "linkHref": "https://www.gia.edu/gia-news-research-buying-diamonds"
+      },
+      {
+        "id": "diamond-shape",
+        "title": "Forme de diamant",
+        "paragraphs": [
+          "La forme d'un diamant affecte son apparence, son rendement de taille, la demande et la disponibilité de pierres comparables. Les diamants ronds brillants suivent souvent des modèles de prix différents de ceux des diamants ovales, émeraude, coussin ou poire."
+        ],
+        "shapes": [
+          "Round",
+          "Oval",
+          "Cushion",
+          "Emerald",
+          "Radiant",
+          "Pear",
+          "Princess",
+          "Marquise",
+          "Asscher",
+          "Heart"
+        ],
+        "closing": "Même au sein d’une même forme, l’attrait visuel peut différer en raison des proportions, de la symétrie et de la qualité du contour fini. Pour les formes fantaisie, un évaluateur peut prendre en compte des caractéristiques telles que le rapport longueur/largeur, l'effet nœud papillon, le fenêtrage et l'équilibre visuel global."
+      },
+      {
+        "id": "colour-grade",
+        "title": "Qualité de couleur",
+        "paragraphs": [
+          "Pour les diamants classés sur l’échelle de couleurs D à Z, une qualité plus élevée signifie généralement que moins de couleur corporelle est visible. De petites différences de couleur peuvent influencer la valeur, en particulier dans le cas des diamants plus gros ou de plus grande pureté.",
+          "Les diamants naturels de couleur fantaisie sont évalués différemment. Les diamants roses, bleus, verts et certains diamants jaunes peuvent être appréciés pour la force, la répartition et la rareté de leur couleur plutôt que pour leur proximité avec l'incolore.",
+          "Le rapport de classement doit être examiné attentivement pour déterminer si le diamant se situe sur l'échelle standard de D à Z ou s'il a une note de couleur naturelle fantaisie."
+        ]
+      },
+      {
+        "id": "clarity-grade",
+        "title": "Degré de clarté",
+        "paragraphs": [
+          "La clarté décrit les inclusions et les caractéristiques de surface trouvées dans ou sur un diamant. La qualité dépend de leur taille, de leur nombre, de leur type, de leur position et de leur visibilité au grossissement.",
+          "L'échelle de clarté reconnue va de Flawless et Internally Flawless aux grades VVS, VS et SI jusqu'aux grades inclus. Cependant, deux diamants ayant le même degré de pureté peuvent ne pas être également souhaitables.",
+          "Une inclusion près du centre du diamant, par exemple, peut affecter son apparence différemment d’une inclusion située près du bord. La nature et l'emplacement des inclusions peuvent donc avoir une importance parallèlement à la note imprimée sur le rapport."
+        ]
+      },
+      {
+        "id": "cut-quality",
+        "title": "Qualité de coupe",
+        "paragraphs": [
+          "La qualité de la taille affecte l’efficacité avec laquelle un diamant gère la lumière. Dans un diamant bien taillé, les proportions, la symétrie et le poli travaillent ensemble pour soutenir la luminosité, le feu et la scintillation.",
+          "Les rapports de notation ronds brillants peuvent inclure une note globale de coupe. Les diamants de forme fantaisie sont plus complexes car ils peuvent ne pas recevoir la même qualité de taille complète. Leur évaluation peut nécessiter un examen plus approfondi des proportions, du contour, de la symétrie et des performances visuelles.",
+          "Deux diamants de couleur, de pureté et de poids en carats similaires peuvent toujours avoir des valeurs différentes lorsque l'un d'entre eux a une qualité de taille et un attrait visuel sensiblement plus élevés."
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "Fluorescence",
+        "paragraphs": [
+          "La fluorescence décrit la réaction d'un diamant lorsqu'il est exposé à la lumière ultraviolette. Il est généralement signalé comme étant nul, faible, moyen, fort ou très fort.",
+          "La fluorescence n’est pas automatiquement bonne ou mauvaise. Son influence dépend de la couleur du diamant, de la force de fluorescence, de l’apparence visuelle et des préférences actuelles du marché. Dans certains diamants, la fluorescence a peu d’effet pratique. Dans d’autres, en particulier lorsqu’un calcul semble trouble ou huileux, cela peut influencer son attrait.",
+          "Elle doit donc être considérée par rapport au diamant complet plutôt que utilisée comme règle d’évaluation isolée."
+        ]
+      },
+      {
+        "id": "certification",
+        "title": "Certification et vérification des rapports",
+        "paragraphs": [
+          "Un rapport de classification reconnu fournit une description indépendante du diamant. Il peut inclure le poids en carats, les mesures, la couleur, la clarté, les informations de coupe, la fluorescence et les caractéristiques d'identification.",
+          "Le numéro du rapport doit être vérifié via le système de vérification du laboratoire concerné. Le diamant physique doit également être associé au rapport avant qu'une évaluation finale ne soit confirmée.",
+          "Un rapport de classification valide décrit un diamant, mais il n'établit pas de prix de détail ou de revente garanti. Si le rapport est ancien, il faudra peut-être également vérifier la pierre pour détecter tout dommage ou altération survenu après le classement."
+        ],
+        "linkText": "guide de vérification du rapport de notation",
+        "linkHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "treatments-condition",
+        "title": "Traitements et condition",
+        "paragraphs": [
+          "Certains diamants subissent des traitements destinés à altérer leur couleur ou leur clarté apparente. Les traitements peuvent influencer la durabilité, la demande des acheteurs et la valeur, c'est pourquoi tout traitement connu doit être divulgué lors du processus d'évaluation.",
+          "GIA déclare que les traitements connus sont enregistrés sur ses rapports de notation et que des tests avancés peuvent être nécessaires pour identifier certains traitements.",
+          "L’état du diamant est tout aussi important. Les éclats, abrasions, cavités ou dommages autour de la ceinture peuvent affecter sa valeur. Lorsqu'un diamant est monté dans un bijou, la monture peut dissimuler une partie de la pierre et rendre plus difficile une évaluation exacte.",
+          "Un examen physique permet de déterminer si l’état actuel de l’article correspond aux informations fournies en ligne."
+        ],
+        "linkText": "Voir l'explication du GIA sur les traitements au diamant",
+        "linkHref": "https://www.gia.edu/gia-news-research-diamond-treatment"
+      },
+      {
+        "id": "market-demand",
+        "title": "Demande actuelle du marché",
+        "paragraphs": [
+          "La valeur des diamants est également influencée par la demande de pierres comparables. Certaines formes, tailles, combinaisons de couleurs et de clarté et rapports de classement peuvent être plus faciles à revendre que d'autres.",
+          "Les conditions du marché peuvent changer. Une évaluation préparée il y a plusieurs années peut ne plus représenter l'environnement de vente actuel. Une évaluation utile doit donc tenir compte de la demande actuelle plutôt que de s'appuyer uniquement sur un ancien document ou sur le prix d'achat initial."
+        ]
+      }
+    ]
+  },
+  "onlineValuation": {
+    "id": "online-valuation",
+    "title": "Un diamant peut-il être évalué avec précision en ligne ?",
+    "paragraphs": [
+      "Une évaluation de diamant en ligne peut être utile lorsque le vendeur dispose d’un rapport de classification détaillé et fournit des informations précises. Il permet à un spécialiste de procéder à un premier examen avant de demander au vendeur de se déplacer ou d'envoyer l'objet pour examen.",
+      "Les soumissions en ligne les plus solides incluent le rapport de classement complet, un numéro de rapport vérifiable, des informations précises sur le carat, la couleur et la clarté, des photographies claires et des détails sur tout dommage ou modification.",
+      "Cependant, les photographies et les détails du certificat ne peuvent pas tout confirmer. Une évaluation physique peut encore être nécessaire pour :"
+    ],
+    "bullets": [
+      "Confirmez que l'article contient un diamant",
+      "Déterminer si le diamant est naturel",
+      "Faites correspondre le diamant à son rapport de classification",
+      "Inspecter les dommages ou les traitements",
+      "Vérifier ses mesures et son état",
+      "Examinez la monture du bijou",
+      "Confirmez les informations de propriété requises"
+    ],
+    "closing": "Une évaluation en ligne doit donc être considérée comme la première étape du processus. Cela peut aider à déterminer si le diamant convient à une évaluation plus approfondie, mais l'offre finale peut changer une fois l'article inspecté physiquement."
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Puis-je évaluer un diamant sans certificat ?",
+    "paragraphs": [
+      "Oui. La perte d'un rapport de notation n'empêche pas nécessairement l'évaluation d'un diamant.",
+      "Si vous n'avez pas de certificat, fournissez des photographies claires et toute information disponible provenant du reçu original, des documents d'assurance ou de l'évaluation précédente. Des détails tels que le poids approximatif en carats, la date d’achat, le bijoutier et le type de métal peuvent faciliter l’examen initial.",
+      "Selon le diamant, Dalila peut recommander une inspection physique ou un nouveau rapport de laboratoire avant de faire une offre d'achat définitive. La certification peut être particulièrement utile pour les diamants plus gros, de meilleure qualité ou potentiellement de couleur fantaisie.",
+      "Le calculateur inclut donc une option claire « Je n'ai pas de rapport de notation ». Le numéro de certificat ne doit jamais être un champ obligatoire pour chaque vendeur."
+    ],
+    "ctaText": "ÉVALUER MON DIAMANT SANS CERTIFICAT",
+    "ctaHref": "#valuation-calculator"
+  },
+  "valuationProcess": {
+    "id": "valuation-process",
+    "title": "Comment fonctionne le processus d'évaluation des diamants Dalila",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Soumettez vos informations sur le diamant",
+        "paragraphs": [
+          "Remplissez le calculateur d’évaluation des diamants et fournissez les détails que vous connaissez. Téléchargez le rapport de notation, les photographies, le reçu ou l'évaluation précédente lorsqu'ils sont disponibles.",
+          "Vous n'avez pas besoin de connaître chaque niveau avant de commencer. Le but de la première étape est de donner à Dalila suffisamment d’informations pour déterminer comment le diamant doit être évalué."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Examen spécialisé initial",
+        "paragraphs": [
+          "Dalila examine les caractéristiques, photographies et documents soumis. S'il manque des informations importantes, l'équipe pourra vous contacter pour des photographies supplémentaires ou des éclaircissements.",
+          "Cet examen est préliminaire. Cela permet de déterminer si le diamant se prête à une évaluation plus approfondie et quels contrôles peuvent encore être nécessaires."
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Vérification physique",
+        "paragraphs": [
+          "Si le diamant se prête à une évaluation plus approfondie, un rendez-vous privé peut être organisé à Anvers. Le diamant peut ensuite être examiné, comparé à son rapport et vérifié pour son état, ses traitements ou ses altérations.",
+          "Le vendeur ne doit pas retirer un diamant monté de sa monture avant d’avoir reçu les conseils d’un professionnel."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Offre d'achat",
+        "paragraphs": [
+          "Après les vérifications nécessaires, Dalila pourra proposer une offre d’achat basée sur les caractéristiques du diamant, la documentation, l’état et la demande actuelle.",
+          "L'offre doit être clairement distinguée du prix de détail original et de toute évaluation d'assurance."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Votre décision",
+        "paragraphs": [
+          "Vous pouvez consulter l'offre et décider si vous souhaitez continuer. La soumission du formulaire d'évaluation ne vous oblige pas à vendre votre diamant ou à accepter une offre."
+        ]
+      }
+    ],
+    "ctaText": "DEMANDER MON ÉVALUATION PRIVÉE",
+    "ctaHref": "#valuation-calculator"
+  },
+  "whyAntwerp": {
+    "id": "why-antwerp",
+    "title": "Pourquoi faire évaluer votre diamant à Anvers ?",
+    "paragraphs": [
+      "Anvers dispose d'une infrastructure de commerce de diamants établie de longue date et reste un centre important pour l'évaluation professionnelle, l'achat et la vente de diamants.",
+      "Travailler avec une entreprise diamantaire située à Anvers donne aux vendeurs l'accès à des spécialistes qui comprennent les rapports de classification, les caractéristiques des diamants naturels et les facteurs commerciaux qui influencent la demande actuelle des acheteurs.",
+      "Dalila Diamonds permet aux vendeurs de commencer en ligne en soumettant un rapport et des photographies. Si un examen plus approfondi est nécessaire, la prochaine étape peut être discutée avant de fixer un rendez-vous privé."
+    ],
+    "bullets": [
+      "Une soumission privée en ligne",
+      "Rapport de notation et téléchargement de photos",
+      "Examen des informations sur les diamants naturels",
+      "Une évaluation privée à Anvers si nécessaire",
+      "Une explication claire de la prochaine étape",
+      "Aucune obligation d'accepter une offre"
+    ],
+    "primaryButtonText": "DEMANDER UNE ÉVALUATION PRIVÉE DE DIAMANTS",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "PRENDRE RENDEZ-VOUS À ANVERS",
+    "secondaryButtonHref": "/sud"
+  },
+  "prepare": {
+    "id": "prepare",
+    "title": "Que dois-je préparer avant de demander une évaluation ?",
+    "paragraphs": [
+      "Vous n’avez pas besoin d’avoir tous les documents avant de commencer. Néanmoins, la collecte des informations disponibles peut rendre l’évaluation initiale plus efficace.",
+      "Si possible, préparez le rapport de notation, le reçu original, l’expertise d’assurance précédente et tout document relatif à la marque ou à la provenance du bijou. Prenez des photos claires à la lumière naturelle et évitez d'utiliser des filtres qui modifient l'apparence du diamant ou du métal.",
+      "Si l'article contient plusieurs diamants, photographiez la pièce complète et identifiez quelle pierre vous souhaitez faire estimer. Pour un diamant libre, utilisez une surface propre et sûre et évitez de le tenir au-dessus d'un évier, d'un sol ouvert ou de tout autre endroit où il pourrait être perdu.",
+      "N'essayez pas de retirer vous-même un diamant de sa monture. Si la pierre doit être examinée en vrac, cela doit être discuté avec un professionnel approprié après l'examen initial."
+    ]
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Quelle est la précision d’un calculateur d’évaluation de diamants ?",
+        "answer": "Un calculateur d’évaluation des diamants peut fournir une évaluation préliminaire utile lorsque des informations précises sur la classification sont disponibles. Une valeur finale peut changer après que l’origine du diamant, le rapport de classification, l’état et les traitements aient été physiquement vérifiés."
+      },
+      {
+        "question": "Combien vaut un diamant d’un carat ?",
+        "answer": "Il n’existe pas de valeur unique pour chaque diamant d’un carat. Sa valeur dépend du fait qu'il soit naturel ou cultivé en laboratoire, ainsi que de sa forme, de sa couleur, de sa clarté, de sa coupe, de sa fluorescence, de son rapport de classement, de son état et de la demande actuelle du marché."
+      },
+      {
+        "question": "Mon diamant vaut-il ce que j’ai payé initialement ?",
+        "answer": "Pas nécessairement. Le prix d'achat initial peut inclure la conception du bijou, la monture, l'image de marque, les dépenses du détaillant, les taxes et les services. Ces frais peuvent ne pas être récupérés lors de la revente du diamant."
+      },
+      {
+        "question": "Une évaluation d'assurance est-elle la même que la valeur de revente ?",
+        "answer": "Non. Une évaluation d’assurance est normalement préparée à des fins de remplacement. La valeur de revente prend en compte ce qu'un acheteur est prêt à payer pour le diamant dans les conditions actuelles du marché."
+      },
+      {
+        "question": "Un rapport GIA, HRD ou IGI montre-t-il la valeur du diamant ?",
+        "answer": "Non. Un rapport de classification décrit les caractéristiques du diamant. Il n’indique ni ne garantit un prix de détail, de revente ou d’achat."
+      },
+      {
+        "question": "Dalila peut-elle valoriser une bague en diamant montée ?",
+        "answer": "Une bague en diamant montée peut être soumise à un premier examen. Un examen physique peut être nécessaire car le sertissage peut dissimuler des parties du diamant et affecter l’exactitude d’une évaluation."
+      },
+      {
+        "question": "Puis-je soumettre un diamant sans certificat ?",
+        "answer": "Oui. Soumettez des photographies claires et tous les documents d’achat ou d’évaluation disponibles. Des tests ou une certification supplémentaires peuvent être requis avant qu'une offre finale puisse être faite."
+      },
+      {
+        "question": "Puis-je faire estimer un diamant hérité ?",
+        "answer": "Oui. Les diamants en vrac et les bijoux en diamant hérités peuvent être soumis. Fournissez tous les rapports de classement, reçus, évaluations antérieures ou documents de provenance dont vous disposez."
+      },
+      {
+        "question": "Vais-je recevoir un prix d’achat instantané ?",
+        "answer": "Pas nécessairement. Un spécialiste doit d'abord examiner les informations soumises. Le prix d’achat final peut nécessiter un examen physique, une vérification du rapport de classement et une confirmation de l’état du diamant."
+      },
+      {
+        "question": "Dalila achètera-t-elle tous les diamants soumis ?",
+        "answer": "Le dépôt d'une demande d'évaluation ne garantit pas que Dalila fera une offre. L'entreprise doit d'abord déterminer si l'article répond à ses critères d'achat."
+      },
+      {
+        "question": "Dois-je vendre après avoir reçu une offre ?",
+        "answer": "Non. Demander une évaluation ne nécessite pas que vous acceptiez une offre. Vous pouvez consulter les informations fournies et décider si vous souhaitez continuer."
+      },
+      {
+        "question": "Où aura lieu l’évaluation physique ?",
+        "answer": "Lorsqu'une évaluation physique est requise, les vendeurs éligibles peuvent organiser une évaluation privée avec Dalila Diamonds à Anvers."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-out-worth",
+    "title": "Découvrez ce que peut valoir votre diamant naturel",
+    "paragraphs": [
+      "Que vous ayez un diamant certifié en vrac, une bague de fiançailles, un bijou hérité ou un diamant sans son certificat original, vous pouvez commencer par une soumission privée en ligne.",
+      "Fournissez les informations que vous connaissez, téléchargez vos photos et laissez Dalila Diamonds passer à l'étape suivante."
+    ],
+    "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "Vendez votre diamant à Anvers"
+    },
+    "sellGuide": {
+      "href": "/sell-your-diamond-safely",
+      "text": "Apprenez à vendre votre diamant"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "Guide de vérification des rapports GIA, IGI et HRD"
+    },
+    "qualityChart": {
+      "href": "/resources/diamond-quality-chart",
+      "text": "tableau de qualité des diamants"
+    },
+    "colourGuide": {
+      "href": "/blogs/best-diamond-colour-clarity-combination",
+      "text": "guide des couleurs des diamants"
+    },
+    "clarityGuide": {
+      "href": "/blogs/vs1-vs-vs2-diamond-clarity",
+      "text": "guide de pureté des diamants"
+    },
+    "withoutCertGuide": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "Peut-on vendre un diamant sans certificat ?"
+    },
+    "bestPlaceSell": {
+      "href": "/sell-your-diamond-safely",
+      "text": "Quel est le meilleur endroit pour vendre une bague en diamant ?"
+    }
+  }
+}

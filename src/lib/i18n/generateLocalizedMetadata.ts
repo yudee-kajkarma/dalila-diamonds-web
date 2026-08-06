@@ -3,7 +3,7 @@ import { Locale, DEFAULT_LOCALE, LOCALES, getLocalizedPath } from "./config";
 import { getDictionary } from "./getDictionary";
 
 interface MetadataOptions {
-  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport" | "qualityChart" | "fluorescenceGuide" | "culetGuide" | "girdleGuide";
+  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport" | "qualityChart" | "sizeChart" | "naturalVsLab" | "fluorescenceGuide" | "culetGuide" | "girdleGuide";
   path: string;
   searchParams?: { [key: string]: string | string[] | undefined };
 }
@@ -33,8 +33,10 @@ export function generateLocalizedMetadata(
     title = (dict.meta as any).ds4uTitle || "DS4U – Diamond Source For You | Dalila Diamonds";
     description = (dict.meta as any).ds4uDescription || "";
   } else if (pageKey === "syd") {
-    title = (dict.meta as any).sydTitle || "Sell Your Diamond Safely | Dalila Diamonds";
-    description = (dict.meta as any).sydDescription || "";
+    title = (dict.meta as any).sydTitle || "Sell Your Diamond in Antwerp | Dalila Diamonds";
+    description =
+      (dict.meta as any).sydDescription ||
+      "Sell your diamond or diamond ring through a confidential Antwerp evaluation. Submit details for a free estimate, expert review and secure payment.";
   } else if (pageKey === "b2b") {
     title = (dict.meta as any).b2bTitle || "Premium B2B Diamond Supplier Belgium | Dalila Diamonds";
     description = (dict.meta as any).b2bDescription || "";
@@ -54,6 +56,16 @@ export function generateLocalizedMetadata(
     description =
       (dict.meta as any).qualityChartDescription ||
       "Compare diamond cut, colour, clarity and carat grades. Use this natural diamond quality chart to understand the 4Cs and choose the right balance.";
+  } else if (pageKey === "sizeChart") {
+    title = (dict.meta as any).sizeChartTitle || "Diamond Size Chart: Carat to MM by Shape | Dalila";
+    description =
+      (dict.meta as any).sizeChartDescription ||
+      "Use Dalila's diamond size chart to compare approximate carat-to-mm measurements for round, oval, pear, cushion, emerald and other natural diamonds.";
+  } else if (pageKey === "naturalVsLab") {
+    title = (dict.meta as any).naturalVsLabTitle || "Natural vs Lab-Grown Diamonds | Dalila Diamonds";
+    description =
+      (dict.meta as any).naturalVsLabDescription ||
+      "Compare natural and lab-grown diamonds: origin, value, appearance, certification and resale. Make an informed choice for your natural diamond purchase.";
   } else if (pageKey === "fluorescenceGuide") {
     title = (dict.meta as any).fluorescenceGuideTitle || "Diamond Fluorescence Guide | Dalila Diamonds";
     description =

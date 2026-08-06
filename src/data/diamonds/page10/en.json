@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "title": "Natural Rough Diamonds: Sourcing Guide | Dalila",
+    "description": "Learn how natural rough diamonds are evaluated, documented and traded, including yield, pricing, Kimberley Process checks and professional sourcing.",
+    "canonical": "https://www.daliladiamonds.com/diamonds/natural-rough-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "noindex, nofollow",
+    "primaryKeyword": "Rough natural diamonds",
+    "inLanguage": "en-GB",
+    "parentHub": "https://www.daliladiamonds.com/diamond-source"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "alt": "Natural rough diamonds arranged for professional evaluation in Antwerp",
+      "width": 1600,
+      "height": 900
+    },
+    "evaluation": {
+      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "alt": "Natural rough diamond evaluated for shape inclusions and polished yield",
+      "width": 1400,
+      "height": 1000
+    },
+    "roughVsPolished": {
+      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "alt": "Natural rough diamond compared with its planned polished diamond result",
+      "width": 1400,
+      "height": 1000
+    },
+    "documentation": {
+      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "alt": "Rough diamond parcel checked with Kimberley Process and trade documents",
+      "width": 1400,
+      "height": 1000
+    },
+    "naturalVsLab": {
+      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "alt": "Natural and laboratory-grown rough diamonds requiring professional identification",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Natural Rough Diamonds",
+    "breadcrumbHome": "Home",
+    "breadcrumbParent": "Diamond Sourcing",
+    "breadcrumbParentHref": "/diamond-source",
+    "breadcrumbCurrent": "Natural Rough Diamonds",
+    "imageAlt": "Natural rough diamonds arranged for professional evaluation in Antwerp"
+  },
+  "hero": {
+    "title": "Natural Rough Diamonds: Professional Sourcing and Trade Guide",
+    "introParagraphs": [
+      "Rough natural diamonds are diamonds that have been recovered from the earth but have not yet completed the cutting and polishing process.",
+      "They are also called uncut diamonds or, less precisely, raw diamonds. Within the professional diamond trade, “rough diamond” is the standard term.",
+      "Buying rough is fundamentally different from purchasing a polished diamond. The buyer must evaluate the stone’s identity, morphology, inclusions, potential polished yield, legal trade documentation and commercial manufacturing risk before agreeing to a price."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "This guide explains how natural rough diamonds are evaluated, documented and traded. For polished natural-diamond sourcing, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Source For You service",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " and the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B Diamond Supplier in Belgium",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contact an Antwerp Diamond Expert",
+    "primaryButtonHref": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "paragraphs": [
+      "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers.",
+      "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand.",
+      "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements."
+    ],
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements. For background on natural diamonds themselves, read "
+        },
+        {
+          "type": "link",
+          "text": "what is a natural diamond",
+          "href": "/blogs/what-is-a-natural-diamond"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-natural-rough-diamond",
+    "title": "What Is a Natural Rough Diamond?",
+    "introParagraphs": [
+      "A natural rough diamond is a diamond formed through geological processes and recovered before being fashioned into a polished gemstone.",
+      "Rough diamonds can appear as complete or broken crystals and may have different shapes, surface features, colours and inclusion patterns. Depending on quality and manufacturing potential, they may be classified as:"
+    ],
+    "bullets": [
+      "Gem quality",
+      "Near-gem quality",
+      "Industrial quality"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Antwerp World Diamond Centre explains that rough sorting considers size, shape, quality, clarity, colour and the potential yield after cutting. Specialist scanning and three-dimensional mapping may also be used to plan the most valuable polished outcome. Read the official "
+        },
+        {
+          "type": "link",
+          "text": "AWDC rough-diamond sorting and valuation guide",
+          "href": "https://www.awdc.be/en/rough-diamonds",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "roughVsPolished": {
+    "id": "natural-rough-diamonds-versus-polished-diamonds",
+    "title": "Natural Rough Diamonds Versus Polished Diamonds",
+    "table": {
+      "headers": ["Natural rough diamond", "Polished natural diamond"],
+      "rows": [
+        [
+          "Has not completed cutting and polishing",
+          "Has been fashioned into a finished shape"
+        ],
+        [
+          "Evaluated partly through projected yield",
+          "Evaluated through its finished characteristics"
+        ],
+        [
+          "May produce one or more polished diamonds",
+          "Already has a final carat weight"
+        ],
+        [
+          "Carries manufacturing and breakage risk",
+          "Manufacturing outcome is already visible"
+        ],
+        [
+          "Requires specialist rough-diamond expertise",
+          "Can normally be evaluated using established polished grading systems"
+        ],
+        [
+          "Subject to specific rough-diamond trade controls",
+          "Different documentation may apply after polishing"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A standard polished-diamond grading report should not be expected for ordinary rough material. GIA states that its normal natural-diamond grading reports are issued for loose polished diamonds. Its rough analysis is mainly connected to the Diamond Origin programme, with the polished diamond returning for grading after manufacturing. Review the "
+        },
+        {
+          "type": "link",
+          "text": "GIA rough-identification explanation",
+          "href": "https://www.gia.edu/gia-news-research-diamond-origin",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": ". For polished report comparison, see the "
+        },
+        {
+          "type": "link",
+          "text": "GIA vs IGI vs HRD diamond certification guide",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": ". Browse Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "live certified polished-diamond inventory",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " when you need finished stones rather than rough."
+        }
+      ]
+    ]
+  },
+  "whoPurchases": {
+    "id": "who-normally-purchases-rough-diamonds",
+    "title": "Who Normally Purchases Rough Diamonds?",
+    "introParagraphs": [
+      "Rough-diamond buying is generally intended for eligible professional participants such as:"
+    ],
+    "bullets": [
+      "Diamond manufacturers and polishing facilities",
+      "Registered diamond dealers",
+      "Rough-diamond traders",
+      "Jewellery manufacturers with an established cutting partner",
+      "Mining companies and authorised tender participants",
+      "Specialist investors with professional manufacturing and compliance support"
+    ],
+    "closingParagraphs": [
+      "Consumers seeking a diamond for a ring will usually find a polished, independently graded natural diamond more practical. Rough weight does not indicate the size, grade or value of the finished stone."
+    ]
+  },
+  "howEvaluated": {
+    "id": "how-are-rough-natural-diamonds-evaluated",
+    "title": "How Are Rough Natural Diamonds Evaluated?",
+    "subsections": [
+      {
+        "number": 1,
+        "id": "natural-origin-identification",
+        "title": "Natural Origin Identification",
+        "introParagraphs": [
+          "A rough crystal should not be accepted as natural based only on appearance."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Natural, HPHT-grown and CVD-grown diamonds can require professional gemmological testing to distinguish them reliably. GIA notes that laboratory-grown and natural diamonds have closely related chemical, physical and optical properties and may require trained specialists and advanced instruments for separation. See the "
+            },
+            {
+              "type": "link",
+              "text": "GIA natural versus laboratory-grown diamond research",
+              "href": "https://www.gia.edu/gems-gemology/summer-2022-labnotes-identification-of-laboratory-grown-diamonds",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "shape-and-crystal-structure",
+        "title": "Shape and Crystal Structure",
+        "paragraphs": [
+          "The buyer examines the rough shape, growth form, surface condition and internal structure to determine possible cutting plans.",
+          "An attractive rough weight does not necessarily produce one large polished diamond. The manufacturer may decide that two smaller stones create a better commercial result."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "inclusions-and-manufacturing-risk",
+        "title": "Inclusions and Manufacturing Risk",
+        "introParagraphs": [
+          "Internal features, fractures, stress, cavities and surface-reaching inclusions can affect:"
+        ],
+        "bullets": [
+          "Cutting direction",
+          "Weight retention",
+          "Breakage risk",
+          "Finished clarity",
+          "Transparency",
+          "Number of stones produced"
+        ],
+        "closingParagraphs": [
+          "A stone that appears clean from one direction may contain an inclusion that becomes significant during sawing or polishing."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "projected-polished-yield",
+        "title": "Projected Polished Yield",
+        "paragraphs": [
+          "Projected yield is the estimated polished weight recoverable from the rough.",
+          "The highest weight retention is not automatically the most valuable plan. A lighter polished diamond with stronger proportions, better clarity or a more desirable shape may be worth more than a heavier but poorly performing result."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "colour-and-market-position",
+        "title": "Colour and Market Position",
+        "paragraphs": [
+          "The buyer considers body colour, zoning and whether the expected polished result may fall within the colourless, near-colourless, fancy-colour or industrial market.",
+          "Final colour cannot always be judged safely from photographs or uncontrolled lighting."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "documentation-and-provenance",
+        "title": "Documentation and Provenance",
+        "introParagraphs": [
+          "The transaction file may need to establish:"
+        ],
+        "bullets": [
+          "Seller identity",
+          "Legal ownership",
+          "Country of mining origin where documented",
+          "Exporting country",
+          "Parcel number",
+          "Quantity",
+          "Weight",
+          "Invoice value",
+          "Kimberley Process certificate",
+          "Previous import documentation",
+          "Sanctions-screening result",
+          "Chain-of-custody information"
+        ],
+        "closingParagraphs": [
+          "Documentation should be reviewed before payment or shipment."
+        ]
+      }
+    ]
+  },
+  "whatDeterminesPrice": {
+    "id": "what-determines-a-rough-diamonds-price",
+    "title": "What Determines a Rough Diamond’s Price?",
+    "introParagraphs": [
+      "Rough natural-diamond pricing may be influenced by:"
+    ],
+    "bullets": [
+      "Total rough weight",
+      "Number of stones",
+      "Crystal shape",
+      "Gem, near-gem or industrial quality",
+      "Colour",
+      "Transparency",
+      "Inclusions and fractures",
+      "Projected polished yield",
+      "Expected polished shape",
+      "Manufacturing costs",
+      "Breakage and recutting risk",
+      "Market demand for the expected result",
+      "Parcel consistency",
+      "Country of origin and supporting evidence",
+      "Transaction and logistics costs"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A polished-diamond price-per-carat list cannot simply be multiplied by the rough weight. The expected polished value must be assessed against weight loss, manufacturing costs, uncertainty and buyer margin. For polished pricing context, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "diamond price guide",
+          "href": "/blogs/diamond-price-guide"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "kimberleyProcess": {
+    "id": "kimberley-process-requirements",
+    "title": "Kimberley Process Requirements",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Kimberley Process Certification Scheme applies specifically to international trade in rough diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "The Belgian FPS Economy states that rough diamonds entering or leaving the European Union must be accompanied by a valid Kimberley Process certificate, packed in a tamper-proof container and traded only between Kimberley Process participants. Belgian rough-diamond exports also require evidence showing how the exporter obtained the goods. Review the current "
+        },
+        {
+          "type": "link",
+          "text": "Belgian rough-diamond administrative requirements",
+          "href": "https://economie.fgov.be/en/themes/diamond/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "A Kimberley Process certificate should not be presented as proof of every possible ethical, labour, environmental or human-rights claim. Belgian Foreign Affairs has acknowledged that the scheme’s conflict-diamond definition has limitations. Additional supplier due diligence and provenance evidence may therefore be necessary. See the official discussion of "
+        },
+        {
+          "type": "link",
+          "text": "what “conflict-free” means under the Kimberley Process",
+          "href": "https://diplomatie.belgium.be/en/policy/policy-areas/peace-and-security/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sanctions and origin restrictions can change. Eligibility must be checked against the rules applying on the contract and shipment dates."
+        }
+      ]
+    ]
+  },
+  "verificationChecklist": {
+    "id": "rough-diamond-verification-checklist",
+    "title": "Rough-Diamond Verification Checklist",
+    "introParagraphs": [
+      "Before committing to a transaction, confirm:"
+    ],
+    "bullets": [
+      "Seller identity and authority to sell",
+      "Buyer eligibility",
+      "Natural-versus-laboratory-grown testing",
+      "Exact parcel weight and quantity",
+      "Rough description and quality assumptions",
+      "Inspection access",
+      "Proposed manufacturing plan",
+      "Estimated polished yield",
+      "Kimberley Process documentation",
+      "Country-of-origin and provenance evidence",
+      "Current sanctions compliance",
+      "Payment, insurance and shipping terms",
+      "Dispute, rejection and return conditions"
+    ],
+    "closingParagraphs": [
+      "Do not transfer funds solely from photographs, videos or an unverified certificate copy."
+    ]
+  },
+  "enquiryProcess": {
+    "id": "professional-rough-diamond-enquiry-process",
+    "title": "Professional Rough-Diamond Enquiry Process",
+    "introParagraphs": [
+      "A properly controlled enquiry should follow these stages:"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "id": "submit-the-requirement",
+        "title": "Submit the Requirement",
+        "paragraphs": [
+          "Provide the preferred size, quantity, crystal type, quality, colour, budget, manufacturing objective and destination."
+        ]
+      },
+      {
+        "number": 2,
+        "id": "confirm-eligibility",
+        "title": "Confirm Eligibility",
+        "paragraphs": [
+          "The parties should confirm dealer-registration, KYC, AML, sanctions and destination requirements before discussing shipment."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-availability-and-documents",
+        "title": "Review Availability and Documents",
+        "paragraphs": [
+          "The seller should identify the parcel, ownership evidence, weight, quantity, origin documentation and applicable Kimberley Process records."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "complete-specialist-evaluation",
+        "title": "Complete Specialist Evaluation",
+        "paragraphs": [
+          "The rough should be examined by someone qualified to assess identity, manufacturing risk and projected polished yield."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "issue-a-written-quotation",
+        "title": "Issue a Written Quotation",
+        "paragraphs": [
+          "The quotation should state the exact goods, assumptions, currency, validity period, payment terms, inspection conditions and delivery responsibilities."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "complete-export-and-import-controls",
+        "title": "Complete Export and Import Controls",
+        "paragraphs": [
+          "The shipment must follow all relevant Kimberley Process, customs, sanctions, insurance and tamper-resistant packaging requirements."
+        ]
+      }
+    ]
+  },
+  "contactExpert": {
+    "id": "contact-an-antwerp-diamond-expert",
+    "title": "Contact an Antwerp Diamond Expert",
+    "introParagraphs": [
+      "Send the following information so Dalila Diamonds can confirm whether the enquiry falls within its available services:"
+    ],
+    "bullets": [
+      "Business name",
+      "Country and company-registration details",
+      "Buyer role",
+      "Required quantity",
+      "Rough carat range",
+      "Preferred quality or expected polished result",
+      "Country-of-origin requirements",
+      "Budget",
+      "Delivery country",
+      "Required date",
+      "Intended manufacturing location"
+    ],
+    "primaryButtonText": "Contact an Antwerp Diamond Expert",
+    "primaryButtonHref": "/contact",
+    "supportingNotice": "Rough-diamond availability, buyer eligibility, documentation, inspection, pricing, payment and delivery conditions must be confirmed in writing. Do not send rough diamonds to Dalila without prior written acceptance and custody instructions."
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is a natural rough diamond?",
+        "answer": "A natural rough diamond is a diamond formed through geological processes that has not yet completed cutting and polishing."
+      },
+      {
+        "question": "Are rough and raw diamonds the same?",
+        "answer": "“Raw diamond” is an informal description. “Rough diamond” is the standard trade and regulatory term."
+      },
+      {
+        "question": "Can anyone buy rough diamonds?",
+        "answer": "Eligibility depends on the jurisdiction and transaction. International rough-diamond trade is normally conducted between authorised professional participants and is subject to compliance controls."
+      },
+      {
+        "question": "Do rough diamonds have GIA grading reports?",
+        "answer": "Standard GIA natural-diamond grading reports are intended for loose polished diamonds. GIA’s rough analysis is primarily connected to its Diamond Origin programme and does not function like a normal polished grading report."
+      },
+      {
+        "question": "How can I confirm that a rough diamond is natural?",
+        "answer": "Appearance alone is insufficient. Reliable separation from laboratory-grown material may require professional gemmological examination and advanced testing."
+      },
+      {
+        "question": "How is a rough diamond valued?",
+        "answer": "Value depends on identity, weight, shape, colour, inclusions, projected polished yield, cutting risk, manufacturing cost, documentation and demand for the expected polished result."
+      },
+      {
+        "question": "Does a Kimberley Process certificate prove the mining country?",
+        "answer": "The certificate records information required for the shipment, but complete mine-level provenance may require additional evidence. Review the original certificate, invoice and supporting chain-of-custody documents."
+      },
+      {
+        "question": "Does Kimberley Process compliance prove that a diamond is ethically sourced?",
+        "answer": "It addresses conflict diamonds under the scheme’s defined scope. It does not automatically prove every labour, environmental, human-rights or sustainability claim."
+      },
+      {
+        "question": "Can I value a rough diamond from photographs?",
+        "answer": "Photographs may support an initial discussion but cannot reliably establish identity, internal condition, manufacturing risk or polished yield."
+      },
+      {
+        "question": "Can Dalila Diamonds source natural rough diamonds?",
+        "answer": "This must be confirmed directly for the requested parcel, buyer, destination and transaction. Dalila should not be represented as a rough-diamond supplier until its service scope and regulatory eligibility are documented."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "discuss-a-professional-rough-diamond-enquiry",
+    "title": "Discuss a Professional Rough-Diamond Enquiry",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use this page to understand rough-diamond evaluation, documentation and trade controls before starting an enquiry. For polished natural diamonds, review the "
+        },
+        {
+          "type": "link",
+          "text": "live certified polished-diamond inventory",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", request sourcing through "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ", or learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B Diamond Supplier in Belgium",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "To discuss whether a rough enquiry may fall within Dalila’s available services, "
+        },
+        {
+          "type": "link",
+          "text": "contact Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": ". Availability, eligibility, documentation and commercial terms must be confirmed in writing."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contact an Antwerp Diamond Expert",
+    "primaryButtonHref": "/contact"
+  }
+}

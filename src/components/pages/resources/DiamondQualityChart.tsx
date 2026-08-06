@@ -1,28 +1,27 @@
-import type { ReactNode } from "react";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
-import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { getQualityChartData, type QualityChartPageData } from "@/lib/i18n/getQualityChartData";
-import { getLocalizedPath, Locale } from "@/lib/i18n/config";
+import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 
 const marcellus = Marcellus({
-  variable: "--font-marcellus",
   subsets: ["latin"],
   weight: "400",
 });
 
 const jost = Jost({
-  variable: "--font-jost",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   display: "swap",
 });
 
-type RichSegment =
-  | { type: "text"; value: string }
-  | { type: "link"; text: string; href: string; external?: boolean };
+function localizedPath(path: string, locale: Locale) {
+  if (path.startsWith("http")) return path;
+  return getLocalizedPath(path, locale);
+}
 
 type TableData = {
   caption?: string;
@@ -30,222 +29,7 @@ type TableData = {
   rows: string[][];
 };
 
-type Subsection = {
-  id: string;
-  title: string;
-  paragraphs?: string[];
-  paragraphsBefore?: string[];
-  paragraphsAfter?: string[];
-  bullets?: string[];
-  numberedSteps?: string[];
-  table?: TableData;
-  richParagraphsAfter?: RichSegment[][];
-};
-
-const ORGANIZATION_ID = "https://www.daliladiamonds.com/#organization";
-const WEBSITE_ID = "https://www.daliladiamonds.com/#website";
-
-function buildStructuredDataGraph(data: QualityChartPageData, locale: Locale) {
-  const webpageId = `${data.meta.canonical}#webpage`;
-  const articleId = `${data.meta.canonical}#article`;
-  const faqId = `${data.meta.canonical}#faq`;
-  const breadcrumbId = `${data.meta.canonical}#breadcrumb`;
-
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": ORGANIZATION_ID },
-      {
-        "@type": "WebPage",
-        "@id": webpageId,
-        url: data.meta.canonical,
-        name: data.meta.title,
-        description: data.meta.description,
-        isPartOf: { "@id": WEBSITE_ID },
-        about: { "@id": articleId },
-        mainEntity: { "@id": faqId },
-        breadcrumb: { "@id": breadcrumbId },
-        inLanguage: locale,
-        primaryImageOfPage: {
-          "@type": "ImageObject",
-          url: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
-        },
-      },
-      {
-        "@type": "Article",
-        "@id": articleId,
-        headline: data.hero.title,
-        description: data.meta.description,
-        url: data.meta.canonical,
-        dateModified: data.meta.dateModified,
-        author: { "@id": ORGANIZATION_ID },
-        publisher: { "@id": ORGANIZATION_ID },
-        isPartOf: { "@id": webpageId },
-        mainEntityOfPage: { "@id": webpageId },
-        inLanguage: locale,
-        image: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
-      },
-      {
-        "@type": "FAQPage",
-        "@id": faqId,
-        url: data.meta.canonical,
-        isPartOf: { "@id": webpageId },
-        mainEntity: data.faqs.items.map((item) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: { "@type": "Answer", text: item.answer },
-        })),
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": breadcrumbId,
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: data.banner.breadcrumbHome,
-            item: "https://www.daliladiamonds.com/",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: data.banner.breadcrumbResources,
-            item: "https://www.daliladiamonds.com/blogs",
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: data.banner.breadcrumbCurrent,
-            item: data.meta.canonical,
-          },
-        ],
-      },
-    ],
-  };
-}
-
-function localizedPath(path: string, locale: Locale) {
-  return getLocalizedPath(path, locale);
-}
-
-function PlainParagraphs({ items, className = "" }: { items: string[]; className?: string }) {
-  if (items.length === 0) return null;
-
-  return (
-    <>
-      {items.map((paragraph) => (
-        <p
-          key={paragraph.slice(0, 48)}
-          className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className} ${className}`.trim()}
-        >
-          {paragraph}
-        </p>
-      ))}
-    </>
-  );
-}
-
-function RichParagraph({
-  segments,
-  className = "",
-  locale = "en",
-}: {
-  segments: RichSegment[];
-  className?: string;
-  locale?: Locale;
-}) {
-  return (
-    <p className={`${className} ${jost.className}`.trim()}>
-      {segments.map((segment, index) => {
-        if (segment.type === "text") {
-          return <span key={index}>{segment.value}</span>;
-        }
-
-        if (segment.external) {
-          return (
-            <a
-              key={index}
-              href={segment.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#c89e3a] hover:underline font-medium"
-            >
-              {segment.text}
-            </a>
-          );
-        }
-
-        return (
-          <Link
-            key={index}
-            href={localizedPath(segment.href, locale)}
-            className="text-[#c89e3a] hover:underline font-medium"
-          >
-            {segment.text}
-          </Link>
-        );
-      })}
-    </p>
-  );
-}
-
-function RichParagraphList({
-  paragraphs,
-  className = "",
-  locale = "en",
-}: {
-  paragraphs: RichSegment[][];
-  className?: string;
-  locale?: Locale;
-}) {
-  if (paragraphs.length === 0) return null;
-
-  return (
-    <>
-      {paragraphs.map((segments, index) => (
-        <RichParagraph
-          key={index}
-          segments={segments}
-          locale={locale}
-          className={`text-base md:text-lg leading-relaxed mb-6 ${className}`.trim()}
-        />
-      ))}
-    </>
-  );
-}
-
-function BulletList({ items, className = "" }: { items: string[]; className?: string }) {
-  if (items.length === 0) return null;
-
-  return (
-    <ul className={`space-y-4 mb-6 ${jost.className} ${className}`.trim()}>
-      {items.map((item) => (
-        <li key={item.slice(0, 48)} className="flex items-start gap-3 text-gray-700 text-base md:text-lg leading-relaxed">
-          <span className="text-[#c89e3a] mt-1 font-bold text-xl shrink-0">•</span>
-          <span className="flex-1">{item}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-function OrderedList({ items, className = "" }: { items: string[]; className?: string }) {
-  if (items.length === 0) return null;
-
-  return (
-    <ol className={`space-y-4 mb-6 list-decimal list-inside ${jost.className} ${className}`.trim()}>
-      {items.map((item) => (
-        <li key={item.slice(0, 48)} className="text-gray-700 text-base md:text-lg leading-relaxed pl-2">
-          {item}
-        </li>
-      ))}
-    </ol>
-  );
-}
-
 function DataTable({ table }: { table: TableData }) {
-  if (table.headers.length === 0) return null;
-
   return (
     <div className="overflow-x-auto mb-6">
       <table className={`min-w-full border border-gray-200 text-left text-sm md:text-base ${jost.className}`}>
@@ -259,111 +43,168 @@ function DataTable({ table }: { table: TableData }) {
             ))}
           </tr>
         </thead>
-        {table.rows.length > 0 ? (
-          <tbody>
-            {table.rows.map((row, rowIndex) => (
-              <tr key={rowIndex} className="even:bg-gray-50/60">
-                {row.map((cell, cellIndex) => (
-                  <td key={cellIndex} className="border border-gray-200 px-4 py-3 text-gray-700 align-top">
-                    {cell}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        ) : null}
+        <tbody>
+          {table.rows.map((row, rowIndex) => (
+            <tr key={rowIndex} className="even:bg-gray-50/60">
+              {row.map((cell, cellIndex) => (
+                <td key={cellIndex} className="border border-gray-200 px-4 py-3 text-gray-700 align-top">
+                  {cell}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
   );
 }
 
-function renderSection({
-  id,
-  title,
-  headingLevel = 2,
-  paragraphsBefore = [],
-  paragraphsAfter = [],
-  bullets = [],
-  numberedSteps = [],
-  table,
-  children,
-}: {
-  id?: string;
-  title: string;
-  headingLevel?: 2 | 3;
-  paragraphsBefore?: string[];
-  paragraphsAfter?: string[];
-  bullets?: string[];
-  numberedSteps?: string[];
-  table?: TableData;
-  children?: ReactNode;
-}) {
-  const HeadingTag = headingLevel === 3 ? "h3" : "h2";
-  const headingClass =
-    headingLevel === 3
-      ? `text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 leading-tight ${marcellus.className}`
-      : `text-3xl md:text-4xl lg:text-4xl font-bold text-[#1a1a1a] mb-6 leading-tight ${marcellus.className}`;
-
+function SectionHeading({ id, title }: { id: string; title: string }) {
   return (
-    <div className="mb-12">
-      <AnimatedContainer direction="up">
-        <section id={id} className="scroll-mt-28 bg-white" aria-labelledby={id ? `${id}-heading` : undefined}>
-          {title ? (
-            <>
-              <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-              <HeadingTag id={id ? `${id}-heading` : undefined} className={headingClass}>
-                {title}
-              </HeadingTag>
-            </>
-          ) : null}
-          <PlainParagraphs items={paragraphsBefore} />
-          <BulletList items={bullets} />
-          <OrderedList items={numberedSteps} />
-          {table && table.headers.length > 0 ? <DataTable table={table} /> : null}
-          <PlainParagraphs items={paragraphsAfter} />
-          {children}
-        </section>
-      </AnimatedContainer>
+    <>
+      <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
+      <h2
+        id={`${id}-heading`}
+        className={`text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 leading-tight ${marcellus.className}`}
+      >
+        {title}
+      </h2>
+    </>
+  );
+}
+
+function Paragraphs({ items }: { items: string[] }) {
+  return (
+    <>
+      {items.map((p) => (
+        <p key={p.slice(0, 48)} className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+          {p}
+        </p>
+      ))}
+    </>
+  );
+}
+
+function BulletList({ items }: { items: string[] }) {
+  return (
+    <ul className={`space-y-2 mb-6 ${jost.className}`}>
+      {items.map((item) => (
+        <li key={item} className="flex items-start gap-3 text-gray-700 text-base md:text-lg">
+          <span className="text-[#c89e3a] font-bold" aria-hidden="true">
+            •
+          </span>
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ContentImage({
+  src,
+  alt,
+  width,
+  height,
+  priority = false,
+}: {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  priority?: boolean;
+}) {
+  return (
+    <div className="relative w-full overflow-hidden bg-slate-100 border border-slate-200 shadow-lg mb-8 aspect-[14/10]">
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className="object-cover w-full h-full"
+        priority={priority}
+        loading={priority ? undefined : "lazy"}
+      />
     </div>
   );
 }
 
-function renderSubsection(subsection: any, locale: Locale = "en") {
-  const richAfter = subsection.richParagraphsAfter as RichSegment[][] | undefined;
-  return renderSection({
-    id: subsection.id,
-    title: subsection.title,
-    headingLevel: 3,
-    paragraphsBefore: subsection.paragraphsBefore ?? subsection.paragraphs ?? [],
-    bullets: subsection.bullets,
-    numberedSteps: subsection.numberedSteps,
-    paragraphsAfter: subsection.paragraphsAfter,
-    table: subsection.table,
-    children:
-      richAfter && richAfter.length > 0 ? (
-        <RichParagraphList paragraphs={richAfter} locale={locale} />
-      ) : undefined,
-  });
+function buildStructuredData(data: QualityChartPageData, locale: Locale) {
+  const homeUrl = `https://www.daliladiamonds.com${getLocalizedPath("/", locale)}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${data.meta.canonical}#webpage`,
+        url: data.meta.canonical,
+        name: data.meta.title,
+        description: data.meta.description,
+        inLanguage: data.meta.inLanguage,
+        datePublished: data.meta.datePublished,
+        dateModified: data.meta.dateModified,
+        isPartOf: { "@id": "https://www.daliladiamonds.com/#website" },
+        breadcrumb: { "@id": `${data.meta.canonical}#breadcrumb` },
+        primaryImageOfPage: { "@id": `${data.meta.canonical}#primaryimage` },
+      },
+      {
+        "@type": "ImageObject",
+        "@id": `${data.meta.canonical}#primaryimage`,
+        url: `https://www.daliladiamonds.com${data.hero.image.src}`,
+        contentUrl: `https://www.daliladiamonds.com${data.hero.image.src}`,
+        width: data.hero.image.width,
+        height: data.hero.image.height,
+        caption: data.hero.image.alt,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${data.meta.canonical}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: data.banner.breadcrumbHome,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: data.banner.breadcrumbResources,
+            item: "https://www.daliladiamonds.com/resources",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: data.banner.breadcrumbCurrent,
+            item: data.meta.canonical,
+          },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${data.meta.canonical}#faq`,
+        mainEntity: data.faqs.items.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
+      },
+    ],
+  };
 }
 
-interface DiamondQualityChartProps {
-  locale?: Locale;
-}
-
-export default function DiamondQualityChart({ locale = "en" }: DiamondQualityChartProps) {
+export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale }) {
   const data = getQualityChartData(locale);
 
   return (
-    <main className={`${marcellus.variable} ${jost.variable} bg-white min-h-screen`}>
+    <main className={`${marcellus.className} ${jost.className} bg-white min-h-screen`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildStructuredDataGraph(data, locale)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildStructuredData(data, locale)) }}
       />
 
-      {/* Banner */}
       <div className="relative bg-slate-900">
         <section
-          className="relative h-[36vh] xs:h-[44vh] sm:h-[60vh] md:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden"
+          className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden"
           aria-label="Page banner"
         >
           <div className="absolute inset-0">
@@ -376,374 +217,410 @@ export default function DiamondQualityChart({ locale = "en" }: DiamondQualityCha
             />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
-
-          <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center py-8 sm:py-14">
-            <AnimatedContainer direction="right">
-              <p
-                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
-                style={{ lineHeight: 1.15 }}
-              >
-                {data.banner.title}
-              </p>
-              <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
-            </AnimatedContainer>
-
+          <div className="container mx-auto px-4 relative z-10 text-center py-8">
+            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 mt-8 ${marcellus.className}`}>
+              {data.banner.title}
+            </p>
+            <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
             <nav
               aria-label="Breadcrumb"
-              className="mt-4 sm:mt-6 flex flex-wrap items-center justify-center gap-2 text-gray-300 text-xs xs:text-sm md:text-base"
+              className={`flex flex-wrap items-center justify-center gap-2 text-gray-300 text-sm md:text-base ${jost.className}`}
             >
-              <Link href={localizedPath("/", locale)} className={`hover:text-amber-400 transition-colors ${jost.className}`}>
+              <Link href={localizedPath("/", locale)} className="hover:text-amber-400 transition-colors">
                 {data.banner.breadcrumbHome}
               </Link>
               <span aria-hidden="true">›</span>
-              <Link
-                href={localizedPath("/blogs", locale)}
-                className={`hover:text-amber-400 transition-colors ${jost.className}`}
-              >
+              <Link href={localizedPath("/blogs", locale)} className="hover:text-amber-400 transition-colors">
                 {data.banner.breadcrumbResources}
               </Link>
               <span aria-hidden="true">›</span>
-              <span className={jost.className}>{data.banner.breadcrumbCurrent}</span>
+              <span>{data.banner.breadcrumbCurrent}</span>
             </nav>
           </div>
         </section>
       </div>
 
-      {/* Hero */}
-      <section className="bg-white py-10 md:py-14" aria-labelledby="quality-chart-hero-heading">
+      <section className="bg-white py-10 md:py-14" aria-labelledby="dqc-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <h1
-              id="quality-chart-hero-heading"
-              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-4 tracking-tight leading-tight ${marcellus.className}`}
+          <h1
+            id="dqc-hero-heading"
+            className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-6 tracking-tight ${marcellus.className}`}
+          >
+            {data.hero.title}
+          </h1>
+
+          <ContentImage
+            src={data.hero.image.src}
+            alt={data.hero.image.alt}
+            width={data.hero.image.width}
+            height={data.hero.image.height}
+            priority
+          />
+
+          <Paragraphs items={data.hero.paragraphs} />
+
+          <p
+            className={`inline-flex items-center rounded-full border border-[#c89e3a]/40 bg-[#FAF6EB] px-4 py-2 text-sm text-gray-800 mb-8 ${jost.className}`}
+          >
+            <span className="font-medium">{data.hero.reviewDateLabel}</span>
+            <span className="ml-2">{data.hero.reviewDate}</span>
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <Link
+              href={localizedPath(data.hero.primaryButtonHref, locale)}
+              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
             >
-              {data.hero.title}
-            </h1>
-            <p className={`text-lg md:text-xl text-gray-700 leading-relaxed mb-6 ${jost.className}`}>{data.hero.subheading}</p>
-            <p
-              className={`inline-flex items-center rounded-full border border-[#c89e3a]/40 bg-[#FAF6EB] px-4 py-2 text-sm text-gray-800 ${jost.className}`}
+              {data.hero.primaryButtonText}
+            </Link>
+            <Link
+              href={localizedPath(data.hero.secondaryButtonHref, locale)}
+              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-[#faf6eb] font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
             >
-              <span className="font-medium">{data.hero.reviewDateLabel}</span>
-              <span className="ml-2">{data.hero.reviewDate}</span>
-            </p>
-          </AnimatedContainer>
+              {data.hero.secondaryButtonText}
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Quick Answer */}
-      <section className="bg-[#FAF6EB] border-y border-[#c89e3a]/20 py-10 md:py-12" aria-labelledby="quality-chart-quick-answer">
-        <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <h2
-              id="quality-chart-quick-answer"
-              className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 ${marcellus.className}`}
-            >
-              {data.quickAnswer.title}
-            </h2>
-            <PlainParagraphs items={data.quickAnswer.introParagraphs} className="text-gray-800 mb-3" />
-            <BulletList items={data.quickAnswer.attributes} className="text-gray-800 mb-3" />
-            <PlainParagraphs items={data.quickAnswer.closingParagraphs} className="text-gray-800 mb-0 last:mb-0" />
-          </AnimatedContainer>
-        </div>
-      </section>
-
-      {/* Main content with sidebar */}
       <div className="container mx-auto max-w-7xl px-4 py-8">
         <div className="flex flex-col lg:flex-row gap-12">
           <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="diamond-quality-chart" />
-              </div>
-            </AnimatedContainer>
+            <div className="sticky top-4">
+              <ResourceSidebar currentPage="diamond-quality-chart" />
+            </div>
           </aside>
 
           <article className="flex-1 w-full min-w-0">
-            {renderSection({ title: "", paragraphsBefore: data.introduction.paragraphs })}
+            <nav className="mb-12">
+              <SectionHeading id="overview" title={data.overviewNav.title} />
+              <ol className={`space-y-3 list-decimal list-inside ${jost.className}`}>
+                {data.overviewNav.items.map((item) => (
+                  <li key={item.id} className="text-gray-700 text-base md:text-lg">
+                    <a href={`#${item.id}`} className="hover:text-[#c89e3a] underline-offset-2 hover:underline">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
 
-            {renderSection({
-              id: "quality-chart-key-takeaways",
-              title: data.keyTakeaways.title,
-              bullets: data.keyTakeaways.items,
-            })}
+            <section id={data.quickAnswer.id} className="scroll-mt-28 mb-12 bg-[#FAF6EB] border border-[#c89e3a]/20 p-6 md:p-8">
+              <SectionHeading id={data.quickAnswer.id} title={data.quickAnswer.title} />
+              <Paragraphs items={data.quickAnswer.intro} />
+              <BulletList items={data.quickAnswer.bullets} />
+              <Paragraphs items={data.quickAnswer.closing} />
+            </section>
 
-            <div className="mb-12">
-              <AnimatedContainer direction="up">
-                <nav className="bg-white scroll-mt-28" aria-labelledby="quality-chart-overview-nav">
-                  <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-                  <h2
-                    id="quality-chart-overview-nav"
-                    className={`text-3xl md:text-4xl lg:text-4xl font-bold text-[#1a1a1a] mb-6 leading-tight ${marcellus.className}`}
-                  >
-                    {data.overviewNav.title}
-                  </h2>
-                  <ol className={`space-y-4 list-decimal list-inside ${jost.className}`}>
-                    {data.overviewNav.items.map((item) => (
-                      <li key={item.id} className="text-gray-700 text-base md:text-lg leading-relaxed pl-2">
-                        <a href={`#${item.id}`} className="text-[#1a1a1a] hover:text-[#c89e3a] underline-offset-2 hover:underline">
-                          {item.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ol>
-                </nav>
-              </AnimatedContainer>
-            </div>
+            <section id={data.completeChart.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.completeChart.id} title={data.completeChart.title} />
+              <DataTable table={data.completeChart.table} />
+              <Paragraphs items={data.completeChart.closing} />
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
+                <Link
+                  href={localizedPath(data.download.href, locale)}
+                  className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+                >
+                  {data.download.buttonText}
+                </Link>
+              </div>
+              <p className={`text-gray-600 text-sm md:text-base ${jost.className}`}>{data.download.printNote}</p>
+              <div className="mt-8">
+                <ContentImage
+                  src={data.images.colourClarity.src}
+                  alt={data.images.colourClarity.alt}
+                  width={data.images.colourClarity.width}
+                  height={data.images.colourClarity.height}
+                />
+              </div>
+            </section>
 
-            {renderSection({
-              id: data.qualityAtAGlance.id,
-              title: data.qualityAtAGlance.title,
-              paragraphsBefore: data.qualityAtAGlance.introParagraphs,
-              table: data.qualityAtAGlance.table,
-              paragraphsAfter: data.qualityAtAGlance.closingParagraphs,
-            })}
+            <section id={data.overallGrade.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.overallGrade.id} title={data.overallGrade.title} />
+              <Paragraphs items={data.overallGrade.paragraphs} />
+              <BulletList items={data.overallGrade.bullets} />
+              <Paragraphs items={data.overallGrade.mid} />
+              <BulletList items={data.overallGrade.exampleBullets} />
+              <Paragraphs items={data.overallGrade.closing} />
+            </section>
 
-            {renderSection({
-              id: data.how4CsWork.id,
-              title: data.how4CsWork.title,
-              paragraphsBefore: data.how4CsWork.introParagraphs,
-              bullets: data.how4CsWork.examples,
-              paragraphsAfter: data.how4CsWork.closingParagraphs,
-            })}
+            <section id={data.cutChart.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.cutChart.id} title={data.cutChart.title} />
+              <Paragraphs items={data.cutChart.intro} />
+              <DataTable table={data.cutChart.table} />
+              <Paragraphs items={data.cutChart.afterTable} />
+              <BulletList items={data.cutChart.fancyBullets} />
+              <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>
+                {data.cutChart.cutVsShapeTitle}
+              </h3>
+              <Paragraphs items={data.cutChart.cutVsShapeParagraphs} />
+              <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>
+                {data.cutChart.tripleExcellentTitle}
+              </h3>
+              <Paragraphs items={data.cutChart.tripleExcellentIntro} />
+              <BulletList items={data.cutChart.tripleExcellentBullets} />
+              <Paragraphs items={data.cutChart.tripleExcellentClosing} />
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
+                Read more in Dalila’s guide to{" "}
+                <Link href={localizedPath(data.cutChart.cutGuideHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.cutChart.cutGuideText}
+                </Link>
+                .
+              </p>
+              <ContentImage
+                src={data.images.cutPerformance.src}
+                alt={data.images.cutPerformance.alt}
+                width={data.images.cutPerformance.width}
+                height={data.images.cutPerformance.height}
+              />
+            </section>
 
-            {renderSection({
-              id: data.cutQuality.id,
-              title: data.cutQuality.title,
-              paragraphsBefore: data.cutQuality.introParagraphs,
-              children: (
-                <>
-                  <RichParagraphList
-                    paragraphs={data.cutQuality.richIntroParagraphs as RichSegment[][]}
-                    locale={locale}
-                  />
-                  {data.cutQuality.subsections.map((subsection) => renderSubsection(subsection, locale))}
-                </>
-              ),
-            })}
+            <section id={data.colourChart.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.colourChart.id} title={data.colourChart.title} />
+              <Paragraphs items={data.colourChart.intro} />
+              <DataTable table={data.colourChart.table} />
+              <Paragraphs items={data.colourChart.afterTable} />
+              <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>
+                {data.colourChart.whyDTitle}
+              </h3>
+              <Paragraphs items={data.colourChart.whyDParagraphs} />
+              <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>
+                {data.colourChart.bestColourTitle}
+              </h3>
+              <Paragraphs items={data.colourChart.bestColourParagraphs} />
+              <BulletList items={data.colourChart.bestColourBullets} />
+              <Paragraphs items={data.colourChart.bestColourClosing} />
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
+                For a deeper colour guide, read{" "}
+                <Link href={localizedPath(data.colourChart.colourGuideHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.colourChart.colourGuideText}
+                </Link>
+                .
+              </p>
+            </section>
 
-            {renderSection({
-              id: data.colourChart.id,
-              title: data.colourChart.title,
-              paragraphsBefore: data.colourChart.introParagraphs,
-              children: (
-                <>
-                  <RichParagraphList
-                    paragraphs={data.colourChart.richIntroParagraphs as RichSegment[][]}
-                    locale={locale}
-                  />
-                  {data.colourChart.subsections.map((subsection) => renderSubsection(subsection, locale))}
-                </>
-              ),
-            })}
+            <section id={data.clarityChart.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.clarityChart.id} title={data.clarityChart.title} />
+              <Paragraphs items={data.clarityChart.intro} />
+              <DataTable table={data.clarityChart.table} />
+              <Paragraphs items={data.clarityChart.afterTable} />
+              <BulletList items={data.clarityChart.factors} />
+              <Paragraphs items={data.clarityChart.closing} />
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
+                For a deeper clarity guide, read{" "}
+                <Link href={localizedPath(data.clarityChart.clarityGuideHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.clarityChart.clarityGuideText}
+                </Link>
+                .
+              </p>
+            </section>
 
-            {renderSection({
-              id: data.clarityChart.id,
-              title: data.clarityChart.title,
-              paragraphsBefore: data.clarityChart.introParagraphs,
-              children: (
-                <>
-                  <RichParagraphList
-                    paragraphs={data.clarityChart.richIntroParagraphs as RichSegment[][]}
-                    locale={locale}
-                  />
-                  {data.clarityChart.subsections.map((subsection) => renderSubsection(subsection, locale))}
-                </>
-              ),
-            })}
+            <section id={data.vs1Vs2.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.vs1Vs2.id} title={data.vs1Vs2.title} />
+              <Paragraphs items={data.vs1Vs2.intro} />
+              <DataTable table={data.vs1Vs2.table} />
+              <Paragraphs items={data.vs1Vs2.closing} />
+            </section>
 
-            {renderSection({
-              id: data.caratChart.id,
-              title: data.caratChart.title,
-              paragraphsBefore: data.caratChart.introParagraphs,
-              children: (
-                <>
-                  <RichParagraphList
-                    paragraphs={data.caratChart.richIntroParagraphs as RichSegment[][]}
-                    locale={locale}
-                  />
-                  {data.caratChart.subsections.map((subsection) => renderSubsection(subsection, locale))}
-                </>
-              ),
-            })}
+            <section id={data.eyeClean.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.eyeClean.id} title={data.eyeClean.title} />
+              <Paragraphs items={data.eyeClean.paragraphs} />
+              <BulletList items={data.eyeClean.bullets} />
+              <Paragraphs items={data.eyeClean.askIntro} />
+              <BulletList items={data.eyeClean.questions} />
+              <Paragraphs items={data.eyeClean.closing} />
+            </section>
 
-            {renderSection({
-              id: data.fancyShapes.id,
-              title: data.fancyShapes.title,
-              paragraphsBefore: data.fancyShapes.introParagraphs,
-            })}
-            {data.fancyShapes.subsections.map((subsection) => renderSubsection(subsection, locale))}
+            <section id={data.caratChart.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.caratChart.id} title={data.caratChart.title} />
+              <Paragraphs items={data.caratChart.intro} />
+              <DataTable table={data.caratChart.table} />
+              <Paragraphs items={data.caratChart.afterTable} />
+              <BulletList items={data.caratChart.differenceBullets} />
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                Use Dalila’s{" "}
+                <Link href={localizedPath(data.caratChart.sizeChartHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.caratChart.sizeChartText}
+                </Link>{" "}
+                to compare carat weight with approximate millimetre dimensions.
+              </p>
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
+                For carat thresholds and pricing context, read the{" "}
+                <Link href={localizedPath(data.caratChart.caratGuideHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.caratChart.caratGuideText}
+                </Link>
+                .
+              </p>
+            </section>
 
-            {renderSection({
-              id: data.beyond4Cs.id,
-              title: data.beyond4Cs.title,
-              paragraphsBefore: data.beyond4Cs.introParagraphs,
-            })}
-            {data.beyond4Cs.subsections.map((subsection) => renderSubsection(subsection, locale))}
+            <section id={data.price4cs.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.price4cs.id} title={data.price4cs.title} />
+              <Paragraphs items={data.price4cs.intro} />
+              <BulletList items={data.price4cs.equalBullets} />
+              <Paragraphs items={data.price4cs.mid} />
+              <BulletList items={data.price4cs.influences} />
+              <Paragraphs items={data.price4cs.closing} />
+            </section>
 
-            {renderSection({
-              id: data.chooseBalance.id,
-              title: data.chooseBalance.title,
-              paragraphsBefore: data.chooseBalance.introParagraphs,
-            })}
-            {data.chooseBalance.subsections.map((subsection) => {
-              if (subsection.id === "step-7-review-the-complete-laboratory-report") {
-                return (
-                  <div key={subsection.id}>
-                    {renderSubsection(subsection, locale)}
-                    <div className="mb-12 -mt-6">
-                      <RichParagraphList
-                        paragraphs={data.chooseBalance.step7RichParagraphs as RichSegment[][]}
-                        locale={locale}
-                      />
-                    </div>
-                  </div>
-                );
-              }
-              return <div key={subsection.id}>{renderSubsection(subsection, locale)}</div>;
-            })}
+            <ContentImage
+              src={data.images.priorities.src}
+              alt={data.images.priorities.alt}
+              width={data.images.priorities.width}
+              height={data.images.priorities.height}
+            />
 
-            {renderSection({
-              id: data.workedComparison.id,
-              title: data.workedComparison.title,
-              paragraphsBefore: data.workedComparison.introParagraphs,
-              table: data.workedComparison.table,
-              children: (
-                <>
-                  <h3
-                    className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 mt-6 leading-tight ${marcellus.className}`}
-                  >
-                    {data.workedComparison.analysis.title}
-                  </h3>
-                  <PlainParagraphs items={data.workedComparison.analysis.paragraphsBefore} />
-                  <BulletList items={data.workedComparison.analysis.bullets} />
-                  <PlainParagraphs items={data.workedComparison.analysis.paragraphsAfter} />
-                </>
-              ),
-            })}
+            <section id={data.practicalCombinations.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.practicalCombinations.id} title={data.practicalCombinations.title} />
+              <Paragraphs items={data.practicalCombinations.intro} />
+              <DataTable table={data.practicalCombinations.table} />
+              <Paragraphs items={data.practicalCombinations.closing} />
+            </section>
 
-            {renderSection({
-              id: data.rarityPriceValue.id,
-              title: data.rarityPriceValue.title,
-              paragraphsBefore: data.rarityPriceValue.introParagraphs,
-            })}
-            {data.rarityPriceValue.subsections.map((subsection) => renderSubsection(subsection, locale))}
+            <section id={data.threeDiamonds.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.threeDiamonds.id} title={data.threeDiamonds.title} />
+              <Paragraphs items={data.threeDiamonds.intro} />
+              <DataTable table={data.threeDiamonds.table} />
+              <Paragraphs items={data.threeDiamonds.closing} />
+            </section>
 
-            {renderSection({
-              id: data.checklist.id,
-              title: data.checklist.title,
-              paragraphsBefore: [data.checklist.introLead],
-              bullets: data.checklist.items,
-            })}
+            <section id={data.polishSymmetry.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.polishSymmetry.id} title={data.polishSymmetry.title} />
+              <Paragraphs items={data.polishSymmetry.paragraphs} />
+              <BulletList items={data.polishSymmetry.bullets} />
+              <Paragraphs items={data.polishSymmetry.closing} />
+            </section>
+
+            <section id={data.fluorescence.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.fluorescence.id} title={data.fluorescence.title} />
+              <Paragraphs items={data.fluorescence.intro} />
+              <BulletList items={data.fluorescence.strengths} />
+              <Paragraphs items={data.fluorescence.mid} />
+              <BulletList items={data.fluorescence.factors} />
+              <Paragraphs items={data.fluorescence.closing} />
+            </section>
+
+            <section id={data.beyond4cs.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.beyond4cs.id} title={data.beyond4cs.title} />
+              <Paragraphs items={data.beyond4cs.intro} />
+              {data.beyond4cs.subsections.map((sub) => (
+                <div key={sub.title} className="mb-8">
+                  <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>{sub.title}</h3>
+                  <Paragraphs items={sub.paragraphs} />
+                </div>
+              ))}
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                For a comparison of recognised laboratories, read{" "}
+                <Link href={localizedPath(data.beyond4cs.labCompareHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.beyond4cs.labCompareText}
+                </Link>
+                .
+              </p>
+              <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
+                See also Dalila’s guide to{" "}
+                <Link href={localizedPath(data.beyond4cs.advancedHref, locale)} className="text-[#c89e3a] hover:underline font-medium">
+                  {data.beyond4cs.advancedText}
+                </Link>
+                .
+              </p>
+            </section>
+
+            <section id={data.goodQuality.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.goodQuality.id} title={data.goodQuality.title} />
+              <Paragraphs items={data.goodQuality.intro} />
+              <BulletList items={data.goodQuality.bullets} />
+              <Paragraphs items={data.goodQuality.closing} />
+            </section>
+
+            <section id={data.readReport.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.readReport.id} title={data.readReport.title} />
+              <Paragraphs items={data.readReport.intro} />
+              <BulletList items={data.readReport.bullets} />
+              <Paragraphs items={data.readReport.closing} />
+            </section>
+
+            <section id={data.checklist.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.checklist.id} title={data.checklist.title} />
+              <Paragraphs items={data.checklist.intro} />
+              <BulletList items={data.checklist.items} />
+            </section>
           </article>
         </div>
       </div>
 
-      {/* CTA */}
-      <section
-        id={data.cta.id}
-        className="scroll-mt-28 bg-slate-900 text-white py-12 md:py-16"
-        aria-labelledby="quality-chart-cta-heading"
-      >
-        <div className="container mx-auto max-w-7xl px-4 text-center">
-          <AnimatedContainer direction="up">
-            <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full mx-auto" />
-            <h2
-              id="quality-chart-cta-heading"
-              className={`text-3xl md:text-4xl font-bold mb-6 ${marcellus.className}`}
+      <section id={data.cta.id} className="scroll-mt-28 bg-[#0B1A33] py-12 md:py-16 text-white">
+        <div className="container mx-auto max-w-7xl px-4">
+          <h2 className={`text-3xl md:text-4xl mb-6 ${marcellus.className}`}>{data.cta.title}</h2>
+          {data.cta.intro.map((p) => (
+            <p key={p.slice(0, 40)} className={`text-white/80 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+              {p}
+            </p>
+          ))}
+          <ul className={`space-y-2 mb-6 ${jost.className}`}>
+            {data.cta.bullets.map((item) => (
+              <li key={item} className="flex items-start gap-3 text-white/80 text-base md:text-lg">
+                <span className="text-[#e4c75f] font-bold" aria-hidden="true">
+                  •
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          {data.cta.closing.map((p) => (
+            <p key={p.slice(0, 40)} className={`text-white/80 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
+              {p}
+            </p>
+          ))}
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6">
+            <Link
+              href={localizedPath(data.cta.primaryButtonHref, locale)}
+              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
             >
-              {data.cta.title}
-            </h2>
-            <div className="text-gray-200">
-              <RichParagraphList paragraphs={data.cta.richParagraphs as RichSegment[][]} locale={locale} />
-            </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-              <Link
-                href={localizedPath(data.cta.primaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
-              >
-                {data.cta.primaryButtonText}
-              </Link>
-              <Link
-                href={localizedPath(data.cta.secondaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 text-white font-medium hover:bg-white/10 transition-colors ${jost.className}`}
-              >
-                {data.cta.secondaryButtonText}
-              </Link>
-            </div>
-          </AnimatedContainer>
+              {data.cta.primaryButtonText}
+            </Link>
+            <Link
+              href={localizedPath(data.cta.secondaryButtonHref, locale)}
+              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#e4c75f] hover:bg-white/5 font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+            >
+              {data.cta.secondaryButtonText}
+            </Link>
+          </div>
+          <p className={`text-white/50 text-sm mb-4 ${jost.className}`}>{data.cta.notice}</p>
+          <p className={`text-white/70 text-sm ${jost.className}`}>
+            Related:{" "}
+            <Link href={localizedPath(data.cta.relatedHref, locale)} className="text-[#e4c75f] underline hover:text-white">
+              {data.cta.relatedText}
+            </Link>
+          </p>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="bg-white py-12 md:py-16" aria-labelledby="quality-chart-faq-heading">
-        <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-            <h2
-              id="quality-chart-faq-heading"
-              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-8 tracking-tight ${marcellus.className}`}
-            >
-              {data.faqs.title}
-            </h2>
-            <div className="space-y-4">
-              {data.faqs.items.map((item, index) => (
-                <details
-                  key={item.question}
-                  className="group border border-gray-200 bg-white open:bg-[#FAF6EB]/40"
-                  open={index === 0}
-                >
-                  <summary className="cursor-pointer list-none px-5 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c89e3a] focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden">
-                    <span className="flex items-start justify-between gap-4">
-                      <h3 className={`text-lg text-gray-900 text-left ${marcellus.className}`}>{item.question}</h3>
-                      <span
-                        className="text-[#c89e3a] text-xl shrink-0 group-open:rotate-45 transition-transform"
-                        aria-hidden="true"
-                      >
-                        +
-                      </span>
+      <section id={data.faqs.id} className="scroll-mt-28 bg-white py-12 md:py-16">
+        <div className="container mx-auto max-w-4xl px-4">
+          <SectionHeading id={data.faqs.id} title={data.faqs.title} />
+          <div className="space-y-4">
+            {data.faqs.items.map((item, index) => (
+              <details
+                key={item.question}
+                className="group border border-gray-200 bg-white open:bg-[#FAF6EB]/40"
+                open={index === 0}
+              >
+                <summary className="cursor-pointer list-none px-5 py-4 [&::-webkit-details-marker]:hidden">
+                  <span className="flex items-start justify-between gap-4">
+                    <h3 className={`text-lg text-gray-900 text-left ${marcellus.className}`}>{item.question}</h3>
+                    <span
+                      className="text-[#c89e3a] text-xl shrink-0 group-open:rotate-45 transition-transform"
+                      aria-hidden="true"
+                    >
+                      +
                     </span>
-                  </summary>
-                  <div className={`px-5 pb-5 text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
-                    <p>{item.answer}</p>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </AnimatedContainer>
-        </div>
-      </section>
-
-      {/* Final Takeaway */}
-      <section
-        id={data.finalTakeaway.id}
-        className="scroll-mt-28 bg-[#FAF6EB] py-12 md:py-16 border-t border-[#c89e3a]/20"
-        aria-labelledby="quality-chart-final-takeaway-heading"
-      >
-        <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-            <h2
-              id="quality-chart-final-takeaway-heading"
-              className={`text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 ${marcellus.className}`}
-            >
-              {data.finalTakeaway.title}
-            </h2>
-            <PlainParagraphs items={data.finalTakeaway.introParagraphs} />
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-8">
-              <Link
-                href={localizedPath(data.finalTakeaway.primaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
-              >
-                {data.finalTakeaway.primaryButtonText}
-              </Link>
-              <Link
-                href={localizedPath(data.finalTakeaway.secondaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md border border-gray-300 px-6 py-3 text-gray-900 font-medium hover:bg-white transition-colors ${jost.className}`}
-              >
-                {data.finalTakeaway.secondaryButtonText}
-              </Link>
-            </div>
-          </AnimatedContainer>
+                  </span>
+                </summary>
+                <div className={`px-5 pb-5 text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
+                  <p>{item.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
         </div>
       </section>
     </main>

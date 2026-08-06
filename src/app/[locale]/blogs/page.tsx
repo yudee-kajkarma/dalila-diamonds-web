@@ -3,6 +3,8 @@ import { Marcellus, Jost } from "next/font/google";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
+import type { Locale } from "@/lib/i18n/config";
 import BlogAdminBar from "@/app/blogs/BlogAdminBar";
 import BlogCardActions from "@/app/blogs/BlogCardActions";
 import BlogsPagination from "@/app/blogs/BlogsPagination";
@@ -27,21 +29,71 @@ type Props = {
   searchParams: Promise<{ page?: string }>;
 };
 
+type ListingItem =
+  | {
+      kind: "static";
+      id: string;
+      slug: string;
+      href: string;
+      title: string;
+      featuredImage?: string;
+    }
+  | {
+      kind: "api";
+      id: string;
+      slug: string;
+      href: string;
+      title: string;
+      featuredImage?: string;
+      blog: Awaited<ReturnType<typeof getAllBlogs>>[number];
+    };
+
 export default async function Page({ params, searchParams }: Props) {
-  const { locale } = await params;
+  const { locale: localeParam } = await params;
+  const locale = (localeParam || "en") as Locale;
   const { page } = await searchParams;
-  const allBlogs = await getAllBlogs();
-  const totalRecords = allBlogs.length;
-  const totalPages = Math.max(1, Math.ceil(totalRecords / ITEMS_PER_PAGE));
-  const parsed = Number.parseInt(page ?? "1", 10);
-  const currentPage = Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), totalPages);
-  const start = (currentPage - 1) * ITEMS_PER_PAGE;
-  const pageBlogs = allBlogs.slice(start, start + ITEMS_PER_PAGE);
+
+  const [apiBlogs, staticBlogs] = await Promise.all([
+    getAllBlogs(),
+    Promise.resolve(getStaticBlogCards(locale)),
+  ]);
 
   const localizedPath = (path: string) => {
     if (!locale || locale === "en") return path;
     return `/${locale}${path}`;
   };
+
+  const staticItems: ListingItem[] = staticBlogs.map((blog) => ({
+    kind: "static",
+    id: blog.id,
+    slug: blog.slug,
+    href: localizedPath(blog.path),
+    title: blog.title,
+    featuredImage: blog.featuredImage,
+  }));
+
+  const apiItems: ListingItem[] = apiBlogs
+    .filter((blog) => !isStaticBlogSlug(blogToSlug(blog)))
+    .map((blog) => {
+      const slug = blogToSlug(blog);
+      return {
+        kind: "api" as const,
+        id: blog._id || slug,
+        slug,
+        href: localizedPath(`/blogs/${slug}`),
+        title: blog.title,
+        featuredImage: blog.featuredImage,
+        blog,
+      };
+    });
+
+  const allItems = [...staticItems, ...apiItems];
+  const totalRecords = allItems.length;
+  const totalPages = Math.max(1, Math.ceil(totalRecords / ITEMS_PER_PAGE));
+  const parsed = Number.parseInt(page ?? "1", 10);
+  const currentPage = Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), totalPages);
+  const start = (currentPage - 1) * ITEMS_PER_PAGE;
+  const pageBlogs = allItems.slice(start, start + ITEMS_PER_PAGE);
 
   return (
     <div className="bg-white min-h-screen">
@@ -58,48 +110,47 @@ export default async function Page({ params, searchParams }: Props) {
           ) : (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {pageBlogs.map((blog, index) => {
-                  const slug = blogToSlug(blog);
-                  return (
-                    <AnimatedContainer key={blog._id || slug} direction="up" delay={index * 0.1}>
-                      <Link
-                        href={localizedPath(`/blogs/${slug}`)}
-                        className="bg-white border border-gray-200 hover:border-[#c89e3a] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer h-full flex flex-col relative group overflow-hidden"
-                      >
-                        {blog.featuredImage && (
-                          <div className="w-full h-56 overflow-hidden">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src={blog.featuredImage}
-                              alt={blog.title}
-                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                            />
-                          </div>
-                        )}
+                {pageBlogs.map((item, index) => (
+                  <AnimatedContainer key={item.id} direction="up" delay={index * 0.1}>
+                    <Link
+                      href={item.href}
+                      className="bg-white border border-gray-200 hover:border-[#c89e3a] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer h-full flex flex-col relative group overflow-hidden"
+                    >
+                      {item.featuredImage && (
+                        <div className="w-full h-56 overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={item.featuredImage}
+                            alt={item.title}
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                          />
+                        </div>
+                      )}
+                      {item.kind === "api" ? (
                         <BlogCardActions
                           blog={{
-                            _id: blog._id || "",
-                            title: blog.title,
-                            h2Subtitle: blog.h2Subtitle,
-                            customSlug: blog.customSlug,
-                            featuredImage: blog.featuredImage,
-                            content: blog.content,
-                            description: blog.description,
-                            metaTitle: blog.metaTitle,
-                            metaDescription: blog.metaDescription,
+                            _id: item.blog._id || "",
+                            title: item.blog.title,
+                            h2Subtitle: item.blog.h2Subtitle,
+                            customSlug: item.blog.customSlug,
+                            featuredImage: item.blog.featuredImage,
+                            content: item.blog.content,
+                            description: item.blog.description,
+                            metaTitle: item.blog.metaTitle,
+                            metaDescription: item.blog.metaDescription,
                           }}
                         />
-                        <div className="p-6 flex-1 flex flex-col justify-center">
-                          <h3
-                            className={`text-xl md:text-2xl font-bold text-[#1a1a1a] group-hover:text-[#c89e3a] transition-colors line-clamp-3 ${marcellus.className}`}
-                          >
-                            {blog.title}
-                          </h3>
-                        </div>
-                      </Link>
-                    </AnimatedContainer>
-                  );
-                })}
+                      ) : null}
+                      <div className="p-6 flex-1 flex flex-col justify-center">
+                        <h3
+                          className={`text-xl md:text-2xl font-bold text-[#1a1a1a] group-hover:text-[#c89e3a] transition-colors line-clamp-3 ${marcellus.className}`}
+                        >
+                          {item.title}
+                        </h3>
+                      </div>
+                    </Link>
+                  </AnimatedContainer>
+                ))}
               </div>
               <BlogsPagination currentPage={currentPage} totalPages={totalPages} locale={locale} />
               <div className="text-center mt-8">

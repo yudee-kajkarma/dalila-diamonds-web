@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "title": "Natuurlijke ruwe diamanten: inkoopgids | Dalila",
+    "description": "Ontdek hoe natuurlijke ruwe diamanten worden geëvalueerd, gedocumenteerd en verhandeld, inclusief opbrengst, prijsstelling, Kimberley Process-controles en professionele inkoop.",
+    "canonical": "https://www.daliladiamonds.com/diamonds/natural-rough-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "noindex, nofollow",
+    "primaryKeyword": "Rough natural diamonds",
+    "inLanguage": "nl",
+    "parentHub": "https://www.daliladiamonds.com/diamond-source"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "alt": "Natuurlijke ruwe diamanten gearrangeerd voor professionele evaluatie in Antwerpen",
+      "width": 1600,
+      "height": 900
+    },
+    "evaluation": {
+      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "alt": "Natuurlijke ruwe diamant beoordeeld op vorminsluitsels en gepolijste opbrengst",
+      "width": 1400,
+      "height": 1000
+    },
+    "roughVsPolished": {
+      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "alt": "Natuurlijke ruwe diamant vergeleken met het geplande resultaat van geslepen diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "documentation": {
+      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "alt": "Ruw diamantpakket gecontroleerd met Kimberley-proces- en handelsdocumenten",
+      "width": 1400,
+      "height": 1000
+    },
+    "naturalVsLab": {
+      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "alt": "Natuurlijke en in het laboratorium gekweekte ruwe diamanten die professionele identificatie vereisen",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Natuurlijke ruwe diamanten",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbParent": "Diamantinkoop",
+    "breadcrumbParentHref": "/diamond-source",
+    "breadcrumbCurrent": "Natuurlijke ruwe diamanten",
+    "imageAlt": "Natuurlijke ruwe diamanten gearrangeerd voor professionele evaluatie in Antwerpen"
+  },
+  "hero": {
+    "title": "Natuurlijke ruwe diamanten: professionele inkoop- en handelsgids",
+    "introParagraphs": [
+      "Ruwe natuurlijke diamanten zijn diamanten die uit de aarde zijn teruggevonden, maar het slijp- en polijstproces nog niet hebben voltooid.",
+      "Ze worden ook wel ongeslepen diamanten of, minder precies, ruwe diamanten genoemd. Binnen de professionele diamanthandel is ‘ruwe diamant’ de standaardterm.",
+      "Ruw kopen is fundamenteel anders dan het kopen van een gepolijste diamant. De koper moet de identiteit, de morfologie, de insluitsels, de potentiële gepolijste opbrengst, de wettelijke handelsdocumentatie en het commerciële productierisico van de steen beoordelen voordat hij akkoord gaat met een prijs."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "This guide explains how natural rough diamonds are evaluated, documented and traded. For polished natural-diamond sourcing, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Source For You-service",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " and the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B-diamantleverancier in België",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contacteer een Antwerpse Diamantexpert",
+    "primaryButtonHref": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Snel antwoord",
+    "paragraphs": [
+      "Natuurlijke ruwe diamanten worden voornamelijk verhandeld tussen mijnbouwbedrijven, fabrikanten, geregistreerde diamantairs en andere in aanmerking komende professionele kopers.",
+      "Hun waarde kan niet alleen worden vastgesteld op basis van het ruwe karaatgewicht. Een koper moet inschatten welke geslepen diamant of diamanten er geproduceerd kunnen worden, hoeveel gewicht er tijdens de productie verloren kan gaan, wat het slijprisico is en of er voor het verwachte geslepen resultaat voldoende marktvraag is.",
+      "Elke internationale transactie met ruwe diamant moet ook voldoen aan de toepasselijke vereisten van het Kimberley-proces, de douane, de sancties en de registratie van dealers."
+    ],
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements. For background on natural diamonds themselves, read "
+        },
+        {
+          "type": "link",
+          "text": "wat is een natuurlijke diamant",
+          "href": "/blogs/what-is-a-natural-diamond"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-natural-rough-diamond",
+    "title": "Wat is een natuurlijke ruwe diamant?",
+    "introParagraphs": [
+      "Een natuurlijke ruwe diamant is een diamant die door geologische processen wordt gevormd en wordt teruggewonnen voordat hij tot een gepolijste edelsteen wordt gevormd.",
+      "Ruwe diamanten kunnen verschijnen als complete of gebroken kristallen en kunnen verschillende vormen, oppervlaktekenmerken, kleuren en insluitingspatronen hebben. Afhankelijk van de kwaliteit en het productiepotentieel kunnen ze worden geclassificeerd als:"
+    ],
+    "bullets": [
+      "Gem kwaliteit",
+      "Bijna-edelsteenkwaliteit",
+      "Industriële kwaliteit"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Antwerp World Diamond Centre explains that rough sorting considers size, shape, quality, clarity, colour and the potential yield after cutting. Specialist scanning and three-dimensional mapping may also be used to plan the most valuable polished outcome. Read the official "
+        },
+        {
+          "type": "link",
+          "text": "AWDC-gids voor het sorteren en waarderen van ruwe diamant",
+          "href": "https://www.awdc.be/en/rough-diamonds",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "roughVsPolished": {
+    "id": "natural-rough-diamonds-versus-polished-diamonds",
+    "title": "Natuurlijke ruwe diamanten versus gepolijste diamanten",
+    "table": {
+      "headers": [
+        "Natuurlijke ruwe diamant",
+        "Gepolijste natuurlijke diamant"
+      ],
+      "rows": [
+        [
+          "Is nog niet klaar met snijden en polijsten",
+          "Is in een afgewerkte vorm verwerkt"
+        ],
+        [
+          "Gedeeltelijk geëvalueerd op basis van het verwachte rendement",
+          "Geëvalueerd op basis van de voltooide kenmerken"
+        ],
+        [
+          "Kan een of meer gepolijste diamanten opleveren",
+          "Heeft al een definitief karaatgewicht"
+        ],
+        [
+          "Brengt productie- en breukrisico met zich mee",
+          "Het productieresultaat is al zichtbaar"
+        ],
+        [
+          "Vereist specialistische expertise op het gebied van ruwe diamant",
+          "Kan normaal gesproken worden geëvalueerd met behulp van gevestigde gepolijste beoordelingssystemen"
+        ],
+        [
+          "Onderworpen aan specifieke controles op de handel in ruwe diamant",
+          "Na het polijsten kunnen afwijkende documentatie van toepassing zijn"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A standard polished-diamond grading report should not be expected for ordinary rough material. GIA states that its normal natural-diamond grading reports are issued for loose polished diamonds. Its rough analysis is mainly connected to the Diamond Origin programme, with the polished diamond returning for grading after manufacturing. Review the "
+        },
+        {
+          "type": "link",
+          "text": "GIA ruwe identificatie uitleg",
+          "href": "https://www.gia.edu/gia-news-research-diamond-origin",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": ". For polished report comparison, see the "
+        },
+        {
+          "type": "link",
+          "text": "GIA versus IGI versus HRD diamantcertificeringsgids",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": ". Browse Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "live gecertificeerde inventaris van gepolijste diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " when you need finished stones rather than rough."
+        }
+      ]
+    ]
+  },
+  "whoPurchases": {
+    "id": "who-normally-purchases-rough-diamonds",
+    "title": "Wie koopt normaal gesproken ruwe diamanten?",
+    "introParagraphs": [
+      "Het kopen van ruwe diamant is over het algemeen bedoeld voor in aanmerking komende professionele deelnemers, zoals:"
+    ],
+    "bullets": [
+      "Diamantfabrikanten en polijstfaciliteiten",
+      "Geregistreerde diamantairs",
+      "Handelaars in ruwe diamant",
+      "Sieradenfabrikanten met een gevestigde snijpartner",
+      "Mijnbouwbedrijven en geautoriseerde aanbestedingsdeelnemers",
+      "Gespecialiseerde investeerders met professionele productie- en compliance-ondersteuning"
+    ],
+    "closingParagraphs": [
+      "Consumenten die op zoek zijn naar een diamant voor een ring, zullen een gepolijste, onafhankelijk gegradeerde natuurlijke diamant doorgaans praktischer vinden. Het ruwe gewicht geeft niet de grootte, kwaliteit of waarde van de afgewerkte steen aan."
+    ]
+  },
+  "howEvaluated": {
+    "id": "how-are-rough-natural-diamonds-evaluated",
+    "title": "Hoe worden ruwe natuurlijke diamanten beoordeeld?",
+    "subsections": [
+      {
+        "number": 1,
+        "id": "natural-origin-identification",
+        "title": "Identificatie van natuurlijke oorsprong",
+        "introParagraphs": [
+          "Een ruw kristal mag niet alleen op basis van het uiterlijk als natuurlijk worden geaccepteerd."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Natural, HPHT-grown and CVD-grown diamonds can require professional gemmological testing to distinguish them reliably. GIA notes that laboratory-grown and natural diamonds have closely related chemical, physical and optical properties and may require trained specialists and advanced instruments for separation. See the "
+            },
+            {
+              "type": "link",
+              "text": "GIA-onderzoek naar natuurlijke versus in het laboratorium gekweekte diamant",
+              "href": "https://www.gia.edu/gems-gemology/summer-2022-labnotes-identification-of-laboratory-grown-diamonds",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "shape-and-crystal-structure",
+        "title": "Vorm en kristalstructuur",
+        "paragraphs": [
+          "De koper onderzoekt de ruwe vorm, groeivorm, oppervlakteconditie en interne structuur om mogelijke stekplannen te bepalen.",
+          "Een aantrekkelijk ruw gewicht levert niet noodzakelijkerwijs één grote gepolijste diamant op. De fabrikant kan besluiten dat twee kleinere stenen een beter commercieel resultaat opleveren."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "inclusions-and-manufacturing-risk",
+        "title": "Insluitsels en productierisico",
+        "introParagraphs": [
+          "Interne kenmerken, breuken, spanningen, gaatjes en oppervlaktereikende insluitsels kunnen van invloed zijn op:"
+        ],
+        "bullets": [
+          "Snijrichting",
+          "Gewichtsbehoud",
+          "Risico op breuk",
+          "Afgewerkte duidelijkheid",
+          "Transparantie",
+          "Aantal geproduceerde stenen"
+        ],
+        "closingParagraphs": [
+          "Een steen die er vanuit één richting schoon uitziet, kan een insluiting bevatten die significant wordt tijdens het zagen of polijsten."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "projected-polished-yield",
+        "title": "Geprojecteerde gepolijste opbrengst",
+        "paragraphs": [
+          "De verwachte opbrengst is het geschatte gepolijste gewicht dat uit het ruwe materiaal kan worden gewonnen.",
+          "Het hoogste gewichtsbehoud is niet automatisch het meest waardevolle plan. Een lichtere gepolijste diamant met sterkere proporties, betere helderheid of een meer wenselijke vorm kan meer waard zijn dan een zwaarder maar slecht presterend resultaat."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "colour-and-market-position",
+        "title": "Kleur en marktpositie",
+        "paragraphs": [
+          "De koper houdt rekening met de carrosseriekleur, de zonering en of het verwachte polijstresultaat binnen de kleurloze, bijna kleurloze, fancy colour of industriële markt kan vallen.",
+          "De uiteindelijke kleur kan niet altijd veilig worden beoordeeld op basis van foto's of ongecontroleerde verlichting."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "documentation-and-provenance",
+        "title": "Documentatie en herkomst",
+        "introParagraphs": [
+          "Het transactiebestand moet mogelijk het volgende vastleggen:"
+        ],
+        "bullets": [
+          "Identiteit van de verkoper",
+          "Juridisch eigendom",
+          "Land van herkomst van de mijnbouw, waar gedocumenteerd",
+          "Exporterend land",
+          "Pakketnummer",
+          "Hoeveelheid",
+          "Gewicht",
+          "Factuurwaarde",
+          "Kimberley Process-certificaat",
+          "Eerdere importdocumentatie",
+          "Resultaat sanctiescreening",
+          "Chain-of-custody-informatie"
+        ],
+        "closingParagraphs": [
+          "Documentatie moet vóór betaling of verzending worden gecontroleerd."
+        ]
+      }
+    ]
+  },
+  "whatDeterminesPrice": {
+    "id": "what-determines-a-rough-diamonds-price",
+    "title": "Wat bepaalt de prijs van een ruwe diamant?",
+    "introParagraphs": [
+      "De ruwe prijsstelling voor natuurlijke diamant kan worden beïnvloed door:"
+    ],
+    "bullets": [
+      "Totaal ruw gewicht",
+      "Aantal stenen",
+      "Kristalvorm",
+      "Parel, bijna-edelsteen of industriële kwaliteit",
+      "Kleur",
+      "Transparantie",
+      "Insluitsels en fracturen",
+      "Geprojecteerde gepolijste opbrengst",
+      "Verwachte gepolijste vorm",
+      "Productiekosten",
+      "Risico op breuk en hersnijden",
+      "Vraag van de markt naar het verwachte resultaat",
+      "Consistentie van het pakket",
+      "Land van herkomst en ondersteunend bewijsmateriaal",
+      "Transactie- en logistieke kosten"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A polished-diamond price-per-carat list cannot simply be multiplied by the rough weight. The expected polished value must be assessed against weight loss, manufacturing costs, uncertainty and buyer margin. For polished pricing context, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "diamant prijsgids",
+          "href": "/blogs/diamond-price-guide"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "kimberleyProcess": {
+    "id": "kimberley-process-requirements",
+    "title": "Kimberley-procesvereisten",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Kimberley Process Certification Scheme applies specifically to international trade in rough diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "The Belgian FPS Economy states that rough diamonds entering or leaving the European Union must be accompanied by a valid Kimberley Process certificate, packed in a tamper-proof container and traded only between Kimberley Process participants. Belgian rough-diamond exports also require evidence showing how the exporter obtained the goods. Review the current "
+        },
+        {
+          "type": "link",
+          "text": "Belgische administratieve vereisten voor ruwe diamant",
+          "href": "https://economie.fgov.be/en/themes/diamond/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "A Kimberley Process certificate should not be presented as proof of every possible ethical, labour, environmental or human-rights claim. Belgian Foreign Affairs has acknowledged that the scheme’s conflict-diamond definition has limitations. Additional supplier due diligence and provenance evidence may therefore be necessary. See the official discussion of "
+        },
+        {
+          "type": "link",
+          "text": "wat ‘conflictvrij’ betekent onder het Kimberley-proces",
+          "href": "https://diplomatie.belgium.be/en/policy/policy-areas/peace-and-security/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sanctions and origin restrictions can change. Eligibility must be checked against the rules applying on the contract and shipment dates."
+        }
+      ]
+    ]
+  },
+  "verificationChecklist": {
+    "id": "rough-diamond-verification-checklist",
+    "title": "Controlelijst voor ruwe diamantverificatie",
+    "introParagraphs": [
+      "Voordat u een transactie aangaat, bevestigt u:"
+    ],
+    "bullets": [
+      "Identiteit van de verkoper en bevoegdheid om te verkopen",
+      "Geschiktheid van de koper",
+      "Natuurlijk versus laboratoriumonderzoek",
+      "Exact pakketgewicht en hoeveelheid",
+      "Ruwe beschrijving en kwaliteitsaannames",
+      "Toegang voor inspectie",
+      "Voorgesteld productieplan",
+      "Geschatte gepolijste opbrengst",
+      "Kimberley-procesdocumentatie",
+      "Bewijs van land van herkomst en herkomst",
+      "Huidige naleving van sancties",
+      "Betalings-, verzekerings- en verzendvoorwaarden",
+      "Betwist-, afwijzings- en retourvoorwaarden"
+    ],
+    "closingParagraphs": [
+      "Maak geen geld over alleen van foto's, video's of een niet-geverifieerde kopie van het certificaat."
+    ]
+  },
+  "enquiryProcess": {
+    "id": "professional-rough-diamond-enquiry-process",
+    "title": "Professioneel onderzoeksproces voor ruwe diamanten",
+    "introParagraphs": [
+      "Een goed gecontroleerd onderzoek moet de volgende fasen volgen:"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "id": "submit-the-requirement",
+        "title": "Dien de vereiste in",
+        "paragraphs": [
+          "Geef de gewenste maat, hoeveelheid, kristaltype, kwaliteit, kleur, budget, productiedoelstelling en bestemming op."
+        ]
+      },
+      {
+        "number": 2,
+        "id": "confirm-eligibility",
+        "title": "Bevestig geschiktheid",
+        "paragraphs": [
+          "De partijen moeten de dealerregistratie, KYC, AML, sancties en bestemmingsvereisten bevestigen voordat ze de verzending bespreken."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-availability-and-documents",
+        "title": "Controleer beschikbaarheid en documenten",
+        "paragraphs": [
+          "De verkoper moet het pakket, het eigendomsbewijs, het gewicht, de hoeveelheid, de oorsprongsdocumentatie en de toepasselijke Kimberley Process-gegevens identificeren."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "complete-specialist-evaluation",
+        "title": "Volledige specialistische evaluatie",
+        "paragraphs": [
+          "Het ruwe materiaal moet worden onderzocht door iemand die gekwalificeerd is om de identiteit, het productierisico en het verwachte gepolijste rendement te beoordelen."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "issue-a-written-quotation",
+        "title": "Breng een schriftelijke offerte uit",
+        "paragraphs": [
+          "De offerte moet de exacte goederen, uitgangspunten, valuta, geldigheidsduur, betalingsvoorwaarden, inspectievoorwaarden en leveringsverantwoordelijkheden vermelden."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "complete-export-and-import-controls",
+        "title": "Voltooi de export- en importcontroles",
+        "paragraphs": [
+          "De zending moet voldoen aan alle relevante Kimberley-proces-, douane-, sancties-, verzekerings- en fraudebestendige verpakkingsvereisten."
+        ]
+      }
+    ]
+  },
+  "contactExpert": {
+    "id": "contact-an-antwerp-diamond-expert",
+    "title": "Contacteer een Antwerpse Diamantexpert",
+    "introParagraphs": [
+      "Stuur de volgende informatie zodat Dalila Diamonds kan bevestigen of de aanvraag binnen de beschikbare diensten valt:"
+    ],
+    "bullets": [
+      "Bedrijfsnaam",
+      "Land- en bedrijfsregistratiegegevens",
+      "Rol van koper",
+      "Benodigde hoeveelheid",
+      "Ruw karaatbereik",
+      "Gewenste kwaliteit of verwacht polijstresultaat",
+      "Vereisten voor het land van herkomst",
+      "Begroting",
+      "Land van levering",
+      "Vereiste datum",
+      "Beoogde productielocatie"
+    ],
+    "primaryButtonText": "Contacteer een Antwerpse Diamantexpert",
+    "primaryButtonHref": "/contact",
+    "supportingNotice": "Beschikbaarheid van ruwe diamant, geschiktheid van de koper, documentatie, inspectie, prijsstelling, betaling en leveringsvoorwaarden moeten schriftelijk worden bevestigd. Stuur geen ruwe diamanten naar Dalila zonder voorafgaande schriftelijke aanvaarding en bewaarinstructies."
+  },
+  "faqs": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Wat is een natuurlijke ruwe diamant?",
+        "answer": "Een natuurlijke ruwe diamant is een diamant die is gevormd door geologische processen die nog niet zijn geslepen en gepolijst."
+      },
+      {
+        "question": "Zijn ruwe en ruwe diamanten hetzelfde?",
+        "answer": "‘Ruwe diamant’ is een informele omschrijving. ‘Ruwe diamant’ is de standaardterm in de handel en regelgeving."
+      },
+      {
+        "question": "Kan iedereen ruwe diamant kopen?",
+        "answer": "Of u in aanmerking komt, hangt af van het rechtsgebied en de transactie. De internationale handel in ruwe diamant vindt normaliter plaats tussen geautoriseerde professionele deelnemers en is onderworpen aan nalevingscontroles."
+      },
+      {
+        "question": "Hebben ruwe diamanten GIA-beoordelingsrapporten?",
+        "answer": "Standaard GIA-beoordelingsrapporten voor natuurlijke diamanten zijn bedoeld voor losgeslepen diamanten. De ruwe analyse van GIA houdt voornamelijk verband met het Diamond Origin-programma en functioneert niet als een normaal gepolijst beoordelingsrapport."
+      },
+      {
+        "question": "Hoe kan ik bevestigen dat een ruwe diamant natuurlijk is?",
+        "answer": "Uiterlijk alleen is onvoldoende. Voor een betrouwbare scheiding van in het laboratorium gekweekt materiaal kan professioneel gemmologisch onderzoek en geavanceerde tests nodig zijn."
+      },
+      {
+        "question": "Hoe wordt een ruwe diamant gewaardeerd?",
+        "answer": "De waarde hangt af van identiteit, gewicht, vorm, kleur, insluitsels, verwachte gepolijste opbrengst, snijrisico, productiekosten, documentatie en de vraag naar het verwachte gepolijste resultaat."
+      },
+      {
+        "question": "Bewijst een Kimberley Process-certificaat het mijnbouwland?",
+        "answer": "Het certificaat registreert de informatie die nodig is voor de zending, maar voor de volledige herkomst op mijnniveau kan aanvullend bewijs nodig zijn. Controleer het originele certificaat, de factuur en de ondersteunende Chain of Custody-documenten."
+      },
+      {
+        "question": "Bewijst naleving van het Kimberley-proces dat een diamant op ethische wijze is verkregen?",
+        "answer": "Het richt zich op conflictdiamanten binnen de gedefinieerde reikwijdte van de regeling. Het bewijst niet automatisch elke claim op het gebied van arbeid, milieu, mensenrechten of duurzaamheid."
+      },
+      {
+        "question": "Kan ik een ruwe diamant taxeren op basis van foto's?",
+        "answer": "Foto's kunnen een eerste discussie ondersteunen, maar kunnen niet op betrouwbare wijze de identiteit, de interne toestand, het fabricagerisico of de gepolijste opbrengst vaststellen."
+      },
+      {
+        "question": "Kan Dalila Diamonds natuurlijke ruwe diamanten verkrijgen?",
+        "answer": "Dit dient direct bevestigd te worden voor het aangevraagde pakket, koper, bestemming en transactie. Dalila mag niet worden voorgesteld als een leverancier van ruwe diamant totdat de omvang van de dienstverlening en de geschiktheid voor de regelgeving zijn gedocumenteerd."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "discuss-a-professional-rough-diamond-enquiry",
+    "title": "Bespreek een professioneel onderzoek naar ruwe diamanten",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use this page to understand rough-diamond evaluation, documentation and trade controls before starting an enquiry. For polished natural diamonds, review the "
+        },
+        {
+          "type": "link",
+          "text": "live gecertificeerde inventaris van gepolijste diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", request sourcing through "
+        },
+        {
+          "type": "link",
+          "text": "Diamantbron voor jou",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ", or learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B-diamantleverancier in België",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "To discuss whether a rough enquiry may fall within Dalila’s available services, "
+        },
+        {
+          "type": "link",
+          "text": "Neem contact op met Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": ". Availability, eligibility, documentation and commercial terms must be confirmed in writing."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contacteer een Antwerpse Diamantexpert",
+    "primaryButtonHref": "/contact"
+  }
+}

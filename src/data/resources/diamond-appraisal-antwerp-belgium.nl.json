@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "title": "Diamanttaxatie Antwerpen: kosten, proces en opties",
+    "description": "Ontdek hoe diamanttaxatie in Antwerpen werkt, wat het kan kosten en of u een taxatie, taxatierapport of aankoopofferte nodig heeft voor uw diamant.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-appraisal-antwerp-belgium",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaAppraisalAssociations": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaAppraisalSelection": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaJewelleryAnalysis": "https://www.gia.edu/gem-lab-service/jewelry",
+    "hrdAntwerp": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Diamanttaxatie in Antwerpen",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Diamanttaxatie in Antwerpen",
+    "imageAlt": "Diamanttaxatie in de resourcebanner van Antwerpen"
+  },
+  "hero": {
+    "title": "Diamanttaxatie in Antwerpen: kosten, proces en opties",
+    "paragraphs": [
+      "Een diamanttaxatie geeft een oordeel over de geldwaarde van een diamant of juweel voor een bepaald doel. Dat doel is belangrijk omdat een verzekeringstaxatie, boedeltaxatie en wederverkooptaxatie voor dezelfde diamant verschillende cijfers kunnen opleveren.",
+      "Voordat u een diamanttaxatie in Antwerpen regelt, moet u beslissen waarvoor u de taxatie nodig heeft. Als u verzekeringsdocumentatie, successierapportage of een formeel schriftelijk advies wilt, heeft u mogelijk een onafhankelijke gekwalificeerde taxateur nodig. Als u bevestiging nodig heeft van de identiteit en kwaliteit van de diamant, heeft u mogelijk een beoordelingsrapport van een gemmologisch laboratorium nodig. Als het uw bedoeling is om te verkopen, bent u wellicht op zoek naar de evaluatie en het aankoopaanbod van een koper.",
+      "Dalila Diamonds kan natuurlijke diamanten beoordelen voor mogelijke aankoop, maar een aankoopevaluatie mag niet worden gepresenteerd als een onafhankelijke verzekerings- of juridische taxatie."
+    ],
+    "primaryButtonText": "VERTEL ONS WAT U NODIG HEBT",
+    "primaryButtonHref": "#purpose-selector"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "alt": "Natuurlijke diamant ondergaat een professionele taxatie in Antwerpen",
+      "width": 1600,
+      "height": 900
+    },
+    "comparison": {
+      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "alt": "Verschil tussen diamanttaxatierapport en aankoopaanbod",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/diamond-appraisal-process.webp",
+      "alt": "Stappen gevolgd tijdens een professionele diamanttaxatie",
+      "width": 1400,
+      "height": 1000
+    },
+    "costFactors": {
+      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "alt": "Factoren die de kosten van een diamanttaxatie in Antwerpen beïnvloeden",
+      "width": 1400,
+      "height": 1000
+    },
+    "purposeTypes": {
+      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "alt": "Soorten diamanttaxatie voor de verkoop van verzekeringsovererving en certificering",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "purpose-selector",
+        "label": "Welke taxatie heeft u nodig?"
+      },
+      {
+        "id": "quick-answer",
+        "label": "Snel antwoord"
+      },
+      {
+        "id": "appraisal-vs-grading",
+        "label": "Beoordeling versus beoordeling versus aanbod"
+      },
+      {
+        "id": "gia-appraisals",
+        "label": "Taxeert GIA diamanten?"
+      },
+      {
+        "id": "hrd-antwerp",
+        "label": "Wat HRD Antwerpen biedt"
+      },
+      {
+        "id": "appraisal-cost",
+        "label": "Taxatiekosten in Antwerpen"
+      },
+      {
+        "id": "free-appraisal",
+        "label": "Gratis diamanttaxatie"
+      },
+      {
+        "id": "appraisal-types",
+        "label": "Soorten beoordelingen die nodig zijn"
+      },
+      {
+        "id": "appraisal-process",
+        "label": "Wat gebeurt er tijdens de beoordeling"
+      },
+      {
+        "id": "mounted-diamond",
+        "label": "Gemonteerde diamantnauwkeurigheid"
+      },
+      {
+        "id": "written-appraisal",
+        "label": "Inhoud schriftelijke beoordeling"
+      },
+      {
+        "id": "choose-appraiser",
+        "label": "Kies een taxateur"
+      },
+      {
+        "id": "what-to-bring",
+        "label": "Wat mee te nemen"
+      },
+      {
+        "id": "how-long",
+        "label": "Hoe lang het duurt"
+      },
+      {
+        "id": "online-appraisal",
+        "label": "Betrouwbaarheid van online taxaties"
+      },
+      {
+        "id": "before-selling",
+        "label": "Taxatie vóór verkoop"
+      },
+      {
+        "id": "dalila-evaluation",
+        "label": "Dalila's evaluatie te koop"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      },
+      {
+        "id": "find-right-valuation",
+        "label": "Vind de juiste waardering"
+      }
+    ]
+  },
+  "purposeSelector": {
+    "id": "purpose-selector",
+    "title": "Welk type diamanttaxatie heeft u nodig?",
+    "intro": "Gebruik deze selector om uzelf naar de juiste volgende stap te leiden.",
+    "options": [
+      {
+        "id": "sell",
+        "title": "Ik wil mijn diamant verkopen",
+        "description": "U heeft waarschijnlijk een kopersevaluatie nodig in plaats van een verzekeringstaxatie. Dalila kan het beschikbare beoordelingsrapport en de foto's bekijken alvorens te bepalen of een fysieke Antwerpse evaluatie passend is.",
+        "ctaText": "Vraag een particuliere aankoopevaluatie aan",
+        "ctaHref": "#diamond-evaluation-form",
+        "formPurpose": "I want to sell my diamond"
+      },
+      {
+        "id": "insurance",
+        "title": "Ik heb een taxatie nodig voor een verzekering",
+        "description": "Normaal gesproken heeft u een onafhankelijke schriftelijke taxatie op basis van vervangingswaarde nodig. Vraag uw verzekeraar welke informatie, taxatiedatum en kwalificaties van taxateur hij nodig heeft voordat u de service boekt.",
+        "ctaText": "Ontdek wat een verzekeringstaxatie moet omvatten",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an insurance appraisal"
+      },
+      {
+        "id": "inheritance",
+        "title": "Ik heb een taxatie nodig voor erfenis-, nalatenschaps- of juridische doeleinden",
+        "description": "De vereiste taxatiegrondslag kan afhankelijk zijn van het doel en relevant professioneel advies. Vraag bij de betrokken advocaat, notaris, verzekeraar, accountant of instantie welk soort rapport en taxatiedatum nodig zijn.",
+        "ctaText": "Bereid u voor op een onafhankelijke taxatie",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an inheritance or estate valuation"
+      },
+      {
+        "id": "certificate",
+        "title": "Ik heb een diamantcertificaat of beoordelingsrapport nodig",
+        "description": "Je hebt een gemmologisch laboratorium nodig in plaats van een monetaire taxatie. Een laboratorium kan beoordelen of de diamant natuurlijk is of in een laboratorium is gekweekt en kenmerken beschrijven zoals karaatgewicht, kleur, helderheid en slijpvorm.",
+        "ctaText": "Begrijp diamantbeoordelingsrapporten",
+        "ctaHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "approximate",
+        "title": "Ik wil alleen weten wat mijn diamant waard kan zijn",
+        "description": "Begin met een online taxatieaanvraag. Dien de beschikbare beoordelingsinformatie en foto's in, met dien verstande dat een fysieke inspectie nodig kan zijn voor een betrouwbaar resultaat.",
+        "ctaText": "Gebruik de diamantwaarderingscalculator",
+        "ctaHref": "/resources/diamond-valuation-calculator"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Snel antwoord: wat is een diamanttaxatie?",
+    "paragraphs": [
+      "Een diamanttaxatie is een gedocumenteerde waardewaardering, opgesteld voor een specifiek doel en ingangsdatum. Het moet het voorwerp identificeren, de diamant en de sieraden beschrijven, uitleggen welk type waarde wordt gerapporteerd en aangeven hoe tot de conclusie is gekomen."
+    ],
+    "considerationsIntro": "Bij een taxatie kan worden gekeken naar:",
+    "considerations": [
+      "Of de diamant nu natuurlijk is of in een laboratorium is gekweekt",
+      "Karaat gewicht",
+      "Kleur en helderheid",
+      "Snijkwaliteit en verhoudingen",
+      "Vorm",
+      "Fluorescentie",
+      "Behandelingen",
+      "Voorwaarde",
+      "Sieraden metaal en constructie",
+      "Merk of ontwerper",
+      "Actuele marktinformatie",
+      "Het beoogde gebruik van de taxatie"
+    ],
+    "closing": "Een taxatie is niet automatisch een koopaanbod. Het is ook niet noodzakelijkerwijs het bedrag dat de eigenaar oorspronkelijk heeft betaald of het bedrag dat een verzekeraar contant zou betalen."
+  },
+  "appraisalVsGrading": {
+    "id": "appraisal-vs-grading",
+    "title": "Diamanttaxatie, beoordelingsrapport en aankoopaanbieding: wat is het verschil?",
+    "intro": [
+      "Deze drie documenten of beoordelingen worden vaak met elkaar verward, maar ze beantwoorden verschillende vragen."
+    ],
+    "table": {
+      "caption": "Vergelijking van diamanttaxatie, beoordelingsrapport en aankoopaanbod",
+      "headers": [
+        "Onderzoek",
+        "Hoofdvraag beantwoord",
+        "Meestal verstrekt door",
+        "Bevat het een geldwaarde?"
+      ],
+      "rows": [
+        [
+          "Diamantbeoordelingsrapport",
+          "Wat is de diamant en wat zijn de kwaliteitskenmerken ervan?",
+          "Gemmologisch laboratorium",
+          "Normaal gesproken niet"
+        ],
+        [
+          "Onafhankelijke beoordeling",
+          "Wat is het item waard voor een aangegeven doel en datum?",
+          "Gediplomeerde onafhankelijke taxateur",
+          "Ja"
+        ],
+        [
+          "Taxatie van verzekeringen",
+          "Wat mag het kosten om het artikel via de relevante markt te vervangen?",
+          "Gekwalificeerd taxateur",
+          "Ja"
+        ],
+        [
+          "Evaluatie van de koper",
+          "Wat is deze koper bereid te betalen voor het artikel?",
+          "Koper van diamanten of sieraden",
+          "Ja, als aanbieding of voorlopige indicatie"
+        ],
+        [
+          "Schatting van de veiling",
+          "Binnen welk bereik kan er geboden worden?",
+          "Veilinghuis",
+          "Een geschat bereik, geen gegarandeerd resultaat"
+        ],
+        [
+          "Schatting van de zending",
+          "Tegen welke prijs kan het artikel op de markt worden gebracht?",
+          "Juwelier of wederverkoper",
+          "Een vraagprijsadvies"
+        ]
+      ]
+    },
+    "giaLinkText": "GIA’s uitleg over taxaties en beoordelingsrapporten",
+    "closing": "Dit onderscheid is van belang bij het vergelijken van cijfers. Een hoge vervangingswaarde van de verzekering mag niet rechtstreeks worden vergeleken met het netto aankoopaanbod van een koper."
+  },
+  "giaAppraisals": {
+    "id": "gia-appraisals",
+    "title": "Biedt GIA diamanttaxaties?",
+    "paragraphs": [
+      "GIA verstrekt geen geschatte geldwaarden voor diamanten of sieraden. Het biedt laboratoriumrapporten die diamanten en edelstenen identificeren en beschrijven.",
+      "GIA stelt dat een monetaire taxatie moet worden uitgevoerd door een onafhankelijke taxateur en dat een taxatie een kwaliteitsanalyse, beschrijving en waardering van het object moet bevatten. GIA geeft ook informatie over professionele taxatieverenigingen, maar beveelt geen individuele taxateurs aan."
+    ],
+    "giaAssociationsLinkText": "GIA’s begeleiding voor beoordelingsverenigingen",
+    "educationParagraph": "Het kan zijn dat iemand een gemmologische opleiding bij GIA heeft gevolgd, maar dat betekent niet dat GIA die persoon als taxateur heeft gecertificeerd. Gemmologische trainingen en taxatietrainingen zijn verwant, maar verschillende expertisegebieden.",
+    "giaAppraisalIntro": "Als iemand een dienst omschrijft als een “GIA-taxatie”, vraag dan of hij/zij bedoelt:",
+    "giaAppraisalBullets": [
+      "Een diamant met een GIA-beoordelingsrapport",
+      "Een taxateur die de GIA-opleiding heeft afgerond",
+      "Een monetaire taxatie op basis van informatie uit een GIA-rapport"
+    ],
+    "closing": "De bewoordingen mogen niet impliceren dat GIA de geldwaarde toekent, terwijl dat niet het geval is."
+  },
+  "hrdAntwerp": {
+    "id": "hrd-antwerp",
+    "title": "Wat biedt HRD Antwerpen?",
+    "paragraphs": [
+      "HRD Antwerp biedt laboratoriumonderzoek en beoordelingsdiensten voor diamanten en juwelen. De classificatierapporten voor natuurlijke diamanten beschrijven kenmerken zoals karaat, kleur, helderheid en slijpvorm.",
+      "HRD Antwerp biedt ook juweelrapporten aan die het volledige juweel, de diamanten die het bevat en de gebruikte edelmetalen kunnen beschrijven. HRD stelt dat haar sieradenrapporten onder meer kunnen worden gebruikt voor verzekeringen, erfenissen of aankopen en kunnen ondersteunen bij het bepalen van de marktwaarde van een juweel."
+    ],
+    "hrdLinkText": "De officiële beoordelings- en sieradenrapportagediensten van HRD Antwerpen",
+    "closing": "Een laboratoriumrapport is waardevolle documentatie, maar de exacte service moet worden geselecteerd op basis van het doel van de eigenaar. Laboratoriumprijzen kunnen variëren per rapporttype, karaatgewicht, complexiteit van sieraden en aanvullende diensten. De huidige tarieven moeten rechtstreeks worden bevestigd op basis van de meest recente Antwerpse prijslijst van het laboratorium."
+  },
+  "appraisalCost": {
+    "id": "appraisal-cost",
+    "title": "Hoeveel kost een diamanttaxatie in Antwerpen?",
+    "paragraphs": [
+      "Er bestaat niet één standaardprijs voor elke diamanttaxatie in Antwerpen. De kosten zijn afhankelijk van het soort rapport, de complexiteit van het item, de wijze waarop de taxateur in rekening brengt en of er laboratoriumwerk nodig is.",
+      "Sommige aanbieders maken publiekelijk reclame voor eenvoudige schriftelijke diamanttaxaties vanaf ongeveer € 50. Dit moet eerder als voorbeeld worden beschouwd dan als een universele Antwerpse prijs. Een gedetailleerde taxatie voor verzekerings-, nalatenschaps-, juridische of hoogwaardige doeleinden kan meer kosten."
+    ],
+    "feeIntro": "Vraag voordat u boekt of de kosten:",
+    "feeQuestions": [
+      "Een vast bedrag per artikel",
+      "Een uurtarief",
+      "Gebaseerd op het aantal diamanten",
+      "Gebaseerd op de complexiteit van de sieraden",
+      "Inclusief of exclusief BTW",
+      "Inclusief foto's en een schriftelijk verslag",
+      "Los van laboratoriumtesten",
+      "Los van uitzetten en resetten",
+      "Los van transport en verzekering"
+    ],
+    "feeClosing": "Voor een onafhankelijke taxatie is een vast honorarium of een honorarium per uur over het algemeen gemakkelijker te begrijpen dan een honorarium dat wordt berekend als een percentage van de uiteindelijke waarde. Een procentuele regeling kan een prikkel creëren om een ​​hoger cijfer te rapporteren.",
+    "separateCostsTitle": "Kosten die afzonderlijk kunnen zijn",
+    "separateCostsIntro": "Het genoemde taxatietarief omvat mogelijk niet:",
+    "separateCosts": [
+      "Laboratoriumbeoordeling",
+      "Natuurlijk versus laboratoriumonderzoek",
+      "Behandelingsdetectie",
+      "Verwijdering van de diamant uit zijn zetting",
+      "Het resetten van de diamant",
+      "Reinigen of repareren",
+      "Laserinscriptie",
+      "Veilig transport",
+      "Transitverzekering",
+      "Dringende dienst",
+      "Extra exemplaren van het rapport",
+      "Meerdere waarderingsdoeleinden"
+    ],
+    "closing": "Vraag om een ​​schriftelijke offerte voordat u het artikel achterlaat. In de offerte moet duidelijk worden uitgelegd wat er precies wordt geleverd."
+  },
+  "freeAppraisal": {
+    "id": "free-appraisal",
+    "title": "Kan ik een gratis diamanttaxatie krijgen?",
+    "paragraphs": [
+      "Sommige kopers, veilinghuizen en juwelierszaken bieden een gratis voorlopige taxatie aan. Dit kan handig zijn als de eigenaar wil weten of het item voldoet aan de inkoop- of verkoopcriteria van het bedrijf.",
+      "Een gratis kopersevaluatie is echter niet noodzakelijkerwijs een onafhankelijke taxatie. Het bedrijf beoordeelt mogelijk wat het bereid is te betalen in plaats van een objectief schriftelijk rapport op te stellen voor verzekeringen, erfenissen of juridisch gebruik.",
+      "Een gratis mondeling advies kan ook verschillen van een ondertekende schriftelijke taxatie."
+    ],
+    "questionsIntro": "Voordat u een gratis taxatie accepteert, vraagt ​​u zich af:",
+    "questions": [
+      "Krijg ik een schriftelijk rapport?",
+      "Welk type waarde wordt verstrekt?",
+      "Biedt de persoon die het artikel beoordeelt ook aan om het te kopen?",
+      "Heeft de taxatie een vermelde ingangsdatum?",
+      "Zijn er foto's en een volledige artikelbeschrijving opgenomen?",
+      "Wordt de melding geaccepteerd door mijn verzekeraar of adviseur?",
+      "Zijn er kosten verbonden aan het testen, certificeren of retourneren?",
+      "Ben ik verplicht het artikel te verkopen of te verzenden?"
+    ],
+    "closing": "Een gratis aankoopevaluatie kan volkomen legitiem zijn als het doel ervan duidelijk is. Het mag eenvoudigweg niet worden verward met een onafhankelijke beoordeling."
+  },
+  "appraisalTypes": {
+    "id": "appraisal-types",
+    "title": "Welk type diamanttaxatie heb ik nodig?",
+    "types": [
+      {
+        "title": "Beoordeling van vervanging van verzekeringen",
+        "paragraphs": [
+          "Bij een verzekeringstaxatie wordt geschat wat het kan kosten om de diamant of het sieraad via een geschikte detailhandelsmarkt te vervangen. Het rapport moet het item voldoende beschrijven zodat de verzekeraar kan begrijpen wat er vervangen moet worden.",
+          "Een te hoge verzekeringstaxatie kan leiden tot onnodig hoge premies zonder een grotere contante afwikkeling te garanderen. Vraag de verzekeraar hoe hij omgaat met vervanging, reparatie, overeengekomen waarde en contante afwikkeling voordat hij op de taxatie vertrouwt."
+        ],
+        "includesIntro": "Het rapport kan het volgende bevatten:",
+        "includes": [
+          "Gedetailleerde sieradenbeschrijving",
+          "Kenmerken van diamant",
+          "Metaal en constructie",
+          "Afmetingen",
+          "Keurmerken",
+          "Voorwaarde",
+          "Foto's",
+          "Vervangingswaarde conclusie",
+          "Ingangsdatum",
+          "Kwalificaties en handtekening van de taxateur"
+        ]
+      },
+      {
+        "title": "Fair-market- of wederverkoopbeoordeling",
+        "paragraphs": [
+          "Bij een eerlijke marktbeoordeling wordt gekeken naar wat een bereidwillige koper een bereidwillige verkoper op de relevante markt mag betalen. Het is normaal gesproken lager dan een vervangingswaardering in de detailhandel, omdat het doel en de markt verschillend zijn.",
+          "In het rapport moet worden vermeld welke markt in aanmerking is genomen. Een dealer-tot-dealer-markt, een veilingmarkt en een consumentenwederverkoopmarkt kunnen tot verschillende conclusies leiden."
+        ]
+      },
+      {
+        "title": "Taxatie van nalatenschap of erfenis",
+        "paragraphs": [
+          "Voor een taxatie van een erfenis of nalatenschap kan een specifieke ingangsdatum en een definitie van de waarde nodig zijn. Degene die om de taxatie verzoekt, dient de vereisten te bevestigen bij de betreffende notaris, advocaat, accountant of autoriteit.",
+          "Een actuele beoordeling van de vervanging van een winkelpand mag niet automatisch in de plaats komen van een datumspecifieke waardebepaling van een onroerend goed."
+        ]
+      },
+      {
+        "title": "Echtscheiding of vermogensverdeling",
+        "paragraphs": [
+          "Een taxatie die wordt gebruikt voor de verdeling van activa moet mogelijk ook een gedefinieerde wettelijke norm en ingangsdatum volgen. Beide partijen kunnen baat hebben bij het inschakelen van een voldoende gekwalificeerde onafhankelijke taxateur wiens rol en methodologie duidelijk worden uiteengezet."
+        ]
+      },
+      {
+        "title": "Schatting van de veiling",
+        "paragraphs": [
+          "Een veilingschatting voorspelt een mogelijk biedbereik in plaats van een gegarandeerd bedrag te rapporteren. Het kan worden beïnvloed door het publiek van het veilinghuis, de verkoopdatum, de reservering, de commissie en de interesse in de categorie."
+        ]
+      },
+      {
+        "title": "Verkoop- of aankoopevaluatie",
+        "paragraphs": [
+          "De evaluatie van een koper geeft antwoord op een meer directe commerciële vraag: wat is deze koper bereid te bieden voor de diamant of het sieraad?",
+          "Dit is de relevante route wanneer het primaire doel van de eigenaar verkopen is. De koper kan de kwaliteit, de staat, het beoordelingsrapport en de huidige vraag van de diamant in overweging nemen voordat hij een bod uitbrengt."
+        ],
+        "ctaText": "VRAAG EEN DIAMANTAANKOOPBEOORDELING AAN",
+        "ctaHref": "#diamond-evaluation-form"
+      }
+    ]
+  },
+  "appraisalProcess": {
+    "id": "appraisal-process",
+    "title": "Wat gebeurt er tijdens een diamanttaxatie?",
+    "intro": [
+      "Een professionele beoordeling begint normaal gesproken met het definiëren van het doel. Zonder een duidelijk doel kan de taxateur niet de juiste waarderingsgrondslag of markt selecteren."
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Doel en Inname",
+        "paragraphs": [
+          "De taxateur vraagt ​​waarom de taxatie nodig is en legt de beschikbare informatie van de eigenaar vast. De ring of diamant kan worden gefotografeerd, gewogen en voorzien van een intakereferentie.",
+          "De eigenaar moet alle beschikbare beoordelingsrapporten, ontvangstbewijzen, eerdere taxaties, reparatiegeschiedenis en merkdocumentatie overleggen."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Identiteits- en conditieonderzoek",
+        "paragraphs": [
+          "De taxateur onderzoekt of het item een ​​diamant bevat en of het er natuurlijk uitziet, in een laboratorium is gekweekt, is behandeld of geavanceerde tests nodig heeft."
+        ],
+        "bulletsIntro": "Het onderzoek kan ook het volgende identificeren:",
+        "bullets": [
+          "Chips en schaafwonden",
+          "Losse stenen",
+          "Versleten klauwen of instellingen",
+          "Reparaties",
+          "Formaat wijzigen",
+          "Vervangen componenten",
+          "Metaalkenmerken",
+          "Merkhandtekeningen",
+          "Algemene staat"
+        ],
+        "closing": "Sommige conclusies kunnen niet worden bevestigd zonder laboratoriumapparatuur."
+      },
+      {
+        "number": 3,
+        "title": "Diamantbeoordeling",
+        "paragraphs": [
+          "De taxateur beoordeelt de vorm, de afmetingen, het geschatte of werkelijke gewicht, de kleur, de helderheid, de slijpeigenschappen en de fluorescentie van de diamant.",
+          "Wanneer een diamant is gemonteerd, kan de zetting de toegang tot de steen beperken. Sommige kwaliteiten en afmetingen kunnen daarom worden geschat in plaats van bepaald met de nauwkeurigheid die mogelijk is voor een losse diamant."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Beoordeling van sieraden",
+        "paragraphs": [
+          "Voor een gemonteerde diamant kan de taxateur het metaal, de zettingsstijl, de zijstenen, het vakmanschap, de leeftijd, de staat en de mogelijke betekenis van het merk onderzoeken.",
+          "Voor een gesigneerde, antieke of verzamelring kan marktonderzoek nodig zijn dat verder gaat dan de waarde van de samenstellende materialen."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Marktonderzoek",
+        "paragraphs": [
+          "De taxateur acht de marktrelevant voor de opdracht. Verzekeringsvervanging, wederverkoop op een eerlijke markt, taxaties van onroerend goed en veilingen mogen niet allemaal op dezelfde marktaannames gebaseerd zijn.",
+          "Het rapport dient de waarderingsgrondslag en ingangsdatum te vermelden."
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Schriftelijk rapport",
+        "paragraphs": [
+          "Wanneer een schriftelijke taxatie is aangevraagd, ontvangt de eigenaar een rapport met daarin de omschrijving, taxatieconclusie en relevante beperkingen.",
+          "De taxateur moet beschikbaar zijn om uit te leggen wat het gerapporteerde cijfer betekent en waarvoor het niet mag worden gebruikt."
+        ]
+      }
+    ]
+  },
+  "mountedDiamond": {
+    "id": "mounted-diamond",
+    "title": "Kan een gemonteerde diamant nauwkeurig worden getaxeerd?",
+    "paragraphs": [
+      "Een gemonteerde diamant kan worden getaxeerd, maar de zetting kan de nauwkeurigheid van bepaalde metingen en waarnemingen beperken.",
+      "Tanden, randen en decoratieve instellingen kunnen delen van de gordel, insluitsels of kleur verbergen. Het exacte diamantgewicht moet mogelijk op basis van metingen worden geschat als de steen niet kan worden verwijderd.",
+      "Dit betekent niet dat elke ring gedemonteerd moet worden. Het verwijderen van een diamant kan kosten en risico's met zich meebrengen, en kan voor het doel van de taxatie onnodig zijn."
+    ],
+    "questionsIntro": "Vraag het aan de taxateur:",
+    "questions": [
+      "Welke kenmerken kunnen tijdens montage worden bevestigd?",
+      "Welke kenmerken worden geschat?",
+      "Is uitzetten noodzakelijk?",
+      "Wie zal de diamant verwijderen en opnieuw instellen?",
+      "Is de ring verzekerd tijdens het traject?",
+      "Heeft de verwijdering invloed op de antieke of merkwaarde?",
+      "Zijn verwijderen en resetten inbegrepen in de offerte?"
+    ],
+    "giaLinkText": "GIA's sieradenanalysediensten",
+    "closing": "GIA merkt op dat de beoordeling van sieraden wordt uitgevoerd voor zover de montage dit toelaat, terwijl haar sieradenrapporten geschatte diamantinformatie, metaaltesten, het gewicht van het item en markeringen kunnen bevatten."
+  },
+  "writtenAppraisal": {
+    "id": "written-appraisal",
+    "title": "Wat moet een schriftelijke diamanttaxatie omvatten?",
+    "intro": [
+      "Een nuttige schriftelijke beoordeling moet zo specifiek zijn dat een andere professional kan begrijpen wat er is onderzocht, waarom het werd gewaardeerd en hoe het cijfer moet worden geïnterpreteerd."
+    ],
+    "includes": [
+      "Eigenaar of klantreferentie",
+      "Datum van onderzoek",
+      "Effectieve waarderingsdatum",
+      "Doel van de taxatie",
+      "Definitie van gebruikte waarde",
+      "Gedetailleerde beschrijving van het artikel",
+      "Informatie over diamanten en edelstenen",
+      "Metaal- en constructiedetails",
+      "Keurmerken en handtekeningen",
+      "Voorwaarde",
+      "Foto's",
+      "Beoordelingsrapportinformatie",
+      "Relevante aannames en beperkingen",
+      "Markt overwogen",
+      "Monetaire conclusie",
+      "Naam en kwalificaties van de taxateur",
+      "Handtekening",
+      "Contactgegevens"
+    ],
+    "closing": "Als het rapport alleen een prijs vermeldt zonder het item, het doel en de taxatiebasis te identificeren, is het mogelijk niet voldoende voor verzekeringen, nalatenschappen of legaal gebruik."
+  },
+  "chooseAppraiser": {
+    "id": "choose-appraiser",
+    "title": "Hoe u een diamanttaxateur bij u in de buurt kiest",
+    "paragraphs": [
+      "Zoekopdrachten naar ‘diamantentaxatie bij mij in de buurt’ leveren vaak juweliers, kopers, veilinghuizen, laboratoria en onafhankelijke taxateurs op. Ze bieden niet allemaal dezelfde service.",
+      "Begin door te vragen of de persoon zowel gemmologische kennis als beoordelingstraining heeft. GIA adviseert dat taxateurs van edelstenen inzicht moeten hebben in edelstenen, taxatie en de constructie van sieraden. GIA waarschuwt ook dat zij taxateurs niet “certificeert” alleen maar omdat zij een GIA-opleiding hebben afgerond."
+    ],
+    "giaLinkText": "GIA’s beoordelings-selectierichtlijnen",
+    "questionsIntro": "Een geschikte taxateur moet het volgende kunnen uitleggen:",
+    "questions": [
+      "Relevante gemmologische opleiding",
+      "Beoordelingskwalificaties en ervaring",
+      "Ervaring met het itemtype",
+      "Beschikbare testapparatuur",
+      "Of de taxatie onafhankelijk is",
+      "Hoe de vergoeding wordt berekend",
+      "Wat het schriftelijke rapport inhoudt",
+      "Welke markt- en waarderingsgrondslag zal worden gebruikt",
+      "Hoe het item wordt beschermd",
+      "Doorlooptijd",
+      "Professionele verzekering",
+      "Wat gebeurt er als laboratoriumonderzoek nodig is?"
+    ],
+    "closing": "Als de taxatie nodig is voor een formeel doel, vraag dan aan de verzekeraar, advocaat, notaris of andere professional of er specifieke vereisten zijn."
+  },
+  "whatToBring": {
+    "id": "what-to-bring",
+    "title": "Wat moet u meenemen naar een diamanttaxatie?",
+    "paragraphs": [
+      "Breng alle beschikbare informatie mee, zelfs als sommige documenten oud zijn. De taxateur kan bepalen wat relevant blijft."
+    ],
+    "itemsIntro": "Nuttige items zijn onder meer:",
+    "items": [
+      "Diamantbeoordelingsrapport",
+      "Originele bon",
+      "Vorige beoordeling",
+      "Verzekeringsschema",
+      "Originele doos",
+      "Merkcertificaat",
+      "Reparatie- en servicegegevens",
+      "Erfdocumenten",
+      "Foto's van het originele item",
+      "Alle beschikbare herkomstinformatie",
+      "Identificatie"
+    ],
+    "closing": "Maak een antiek of gesigneerd item niet schoon, repareer, polijst of demonteer voordat u vraagt ​​of deze handelingen gepast zijn. Als de diamant los lijkt te zitten in de zetting, stop dan met het dragen van het sieraad en informeer de taxateur vóór transport."
+  },
+  "howLong": {
+    "id": "how-long",
+    "title": "Hoe lang duurt een diamanttaxatie?",
+    "paragraphs": [
+      "De benodigde tijd is afhankelijk van de dienst.",
+      "Een mondelinge voorevaluatie van een eenvoudig onderwerp kan tijdens een afspraak plaatsvinden. Een gedetailleerde schriftelijke beoordeling kan langer duren omdat er fotografie, onderzoek, het schrijven van rapporten en beoordelingen nodig zijn."
+    ],
+    "additionalIntro": "Extra tijd kan nodig zijn wanneer:",
+    "additional": [
+      "De diamant heeft geen beoordelingsrapport",
+      "Het item bevat verschillende stenen",
+      "Het stuk is antiek of gesigneerd",
+      "Laboratoriumonderzoek is vereist",
+      "De middelste diamant moet ongezet zijn",
+      "Het rapport heeft een historische taxatiedatum nodig",
+      "Er worden verschillende taxatiedoeleinden gevraagd",
+      "Er moet veilig transport geregeld worden"
+    ],
+    "closing": "Vraag naar de verwachte levertijd voordat u het artikel achterlaat."
+  },
+  "onlineAppraisal": {
+    "id": "online-appraisal",
+    "title": "Is een online diamanttaxatie betrouwbaar?",
+    "paragraphs": [
+      "Een online taxatie kan een voorlopige indicatie geven wanneer de eigenaar een compleet beoordelingsrapport en duidelijke foto's indient. Het kan handig zijn om te bepalen of een fysieke afspraak de moeite waard is.",
+      "Foto's kunnen echter niet op betrouwbare wijze elk kenmerk bevestigen. Een online reviewer kan mogelijk niet vaststellen:"
+    ],
+    "limitations": [
+      "Natuurlijke of laboratoriumgekweekte oorsprong",
+      "Exacte kleur of helderheid",
+      "Behandelingen",
+      "Schade",
+      "Matching melden",
+      "Metaalzuiverheid",
+      "Nauwkeurige staat",
+      "Of de diamant is vervangen"
+    ],
+    "closing": "Om deze reden moet een online taxatie duidelijk als voorlopig worden bestempeld, tenzij de dienst de controles heeft uitgevoerd die nodig zijn voor het aangegeven doel.",
+    "ctaText": "START EEN ONLINE DIAMANT TAXATIE",
+    "ctaHref": "/resources/diamond-valuation-calculator"
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "Heb ik een taxatie nodig voordat ik mijn diamant verkoop?",
+    "paragraphs": [
+      "Niet altijd.",
+      "Als u al over een recent beoordelingsrapport beschikt en het uw doel is eenvoudigweg een aanbieding te ontvangen, kan een gespecialiseerde koper wellicht beginnen met het rapport en de foto's. Een fysieke inspectie kan vervolgens bevestigen of de diamant overeenkomt met de ingediende informatie."
+    ],
+    "usefulIntro": "Een onafhankelijke taxatie kan nuttig zijn als:",
+    "usefulWhen": [
+      "Je begrijpt niet wat de sieraden inhouden",
+      "De ring kan antiek, gesigneerd of verzamelobject zijn",
+      "Verschillende mensen delen het eigendom",
+      "Voordat u verkoopkanalen vergelijkt, heeft u een neutraal advies nodig",
+      "Het object maakt deel uit van een nalatenschap",
+      "U hebt een formeel schriftelijk document nodig",
+      "Het oordeel van de koper is onduidelijk"
+    ],
+    "closing": "Houd er rekening mee dat een onafhankelijke taxatie nog steeds geen garantie biedt dat een koper het getaxeerde bedrag zal betalen. Een koopaanbod weerspiegelt de vraag, de kosten en het wederverkoopkanaal van de specifieke koper."
+  },
+  "dalilaEvaluation": {
+    "id": "dalila-evaluation",
+    "title": "Dalila's evaluatie is voor potentiële verkoop",
+    "paragraphs": [
+      "De verkoopservice van Dalila Diamonds is bedoeld voor eigenaren die hun natuurlijke diamant willen laten beoordelen voor mogelijke aankoop.",
+      "Het proces begint met de beschikbare beoordelingsinformatie en foto's. Als de diamant voldoet aan de aankoopcriteria van Dalila, kan er een fysieke taxatie in Antwerpen plaatsvinden voordat er een bod wordt opgesteld.",
+      "Deze service moet worden omschreven als een kopersevaluatie, en niet als een onafhankelijke taxatie voor verzekeringen, nalatenschappen, echtscheidingen, belasting- of juridische rapportages."
+    ],
+    "processTitle": "Dalila’s proces",
+    "processSteps": [
+      "Geef informatie op over de diamant of het sieraad.",
+      "Upload het beoordelingsrapport en duidelijke foto's.",
+      "Ontvang een eerste privébeoordeling.",
+      "Geef aanvullende informatie wanneer daarom wordt gevraagd.",
+      "Regel indien nodig een fysieke verificatie in Antwerpen.",
+      "Ontvang een koopaanbod als het artikel aan de criteria van Dalila voldoet.",
+      "Bepaal of u door wilt gaan."
+    ],
+    "closing": "Het indienen van een evaluatieverzoek mag niet vereisen dat de verkoper een bod aanvaardt.",
+    "primaryCtaText": "VRAAG MIJN PRIVÉ-AANKOOP EVALUATIE AAN",
+    "primaryCtaHref": "#diamond-evaluation-form",
+    "secondaryCtaText": "BOEK EEN AFSPRAAK IN ANTWERPEN",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "id": "diamond-evaluation-form",
+    "leadSource": "diamond_appraisal_antwerp",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP en PDF",
+    "title": "Vraag mijn diamantevaluatie aan",
+    "subtitle": "Vertel ons waarom u een taxatie nodig heeft en geef de beschikbare informatie. Dalila zal contact met u opnemen via de door u gewenste methode.",
+    "step1Title": "Stap 1: Waarom heeft u een taxatie nodig?",
+    "purposeOptions": [
+      {
+        "value": "I want to sell my diamond",
+        "mode": "sell"
+      },
+      {
+        "value": "I want to sell diamond jewellery",
+        "mode": "sell"
+      },
+      {
+        "value": "I need an insurance appraisal",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need an inheritance or estate valuation",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need a grading report or certificate",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I only want to know the approximate value",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I am not sure",
+        "mode": "inquiry"
+      }
+    ],
+    "inquiryNotice": "Dalila Diamonds biedt kopersbeoordelingen voor potentiële aankoop, geen onafhankelijke verzekeringen, nalatenschappen of juridische taxaties. U kunt uw vraag hieronder nog stellen. Een lid van het team zal u dan uitleggen wat Dalila wel en niet kan bieden.",
+    "sellRedirectCalculator": "Als u alleen een geschatte waarde wilt, geeft u wellicht de voorkeur aan de",
+    "sellRedirectGrading": "Als je een beoordelingsrapport of certificaat nodig hebt, lees dan onze gids op",
+    "itemTypes": [
+      "Verlovingsring van natuurlijke diamant",
+      "Losse natuurlijke diamant",
+      "Sieraden met natuurlijke diamant",
+      "Antieke of vintage sieraden",
+      "Merk- of gesigneerde sieraden",
+      "In laboratorium gekweekte diamant",
+      "Ik weet het niet zeker"
+    ],
+    "originOptions": [
+      "Natuurlijke diamant",
+      "In laboratorium gekweekte diamant",
+      "Ik weet het niet zeker"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Nog een laboratorium",
+      "Geen rapport",
+      "Ik weet het niet zeker"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Ander",
+      "Ik weet het niet zeker"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefoon",
+      "Ofwel e-mail of telefoon"
+    ],
+    "evaluationPreferences": [
+      "Alleen online beoordeling",
+      "Privé afspraak in Antwerpen",
+      "Nog niet zeker"
+    ],
+    "consentText": "Ik ga ermee akkoord dat Dalila Diamonds contact met mij opneemt over dit verzoek. Ik begrijp dat de evaluatie van een koper anders is dan een onafhankelijke verzekerings-, nalatenschaps- of juridische taxatie en dat een definitief aankoopaanbod mogelijk fysieke verificatie vereist.",
+    "submitButton": "Vraag mijn diamantevaluatie aan",
+    "submittingButton": "Verzenden…",
+    "successMessage": "Bedankt. Uw aanvraag is ingediend. Een lid van het Dalila Diamonds-team zal binnenkort contact met u opnemen.",
+    "errorMessage": "We konden uw verzoek niet indienen. Controleer de verplichte velden en probeer het opnieuw.",
+    "labels": {
+      "purpose": "Waarom heeft u een taxatie nodig?",
+      "itemType": "Artikeltype",
+      "origin": "Natuurlijk of in een laboratorium gekweekt, indien bekend",
+      "reportStatus": "Beoordeling laboratorium",
+      "reportNumber": "Rapportnummer",
+      "caratWeight": "Geschatte karaatgewicht",
+      "shape": "Diamond shape",
+      "uploadReport": "Beoordelingsrapport uploaden",
+      "uploadPhotos": "Upload foto's",
+      "dragDrop": "Sleep hier bestanden en zet ze neer, of kies bestanden",
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "country": "Land",
+      "contactMethod": "Voorkeur contactmethode",
+      "evaluationPreference": "Voorkeur online review of afspraak in Antwerpen",
+      "additionalInfo": "Aanvullende informatie",
+      "optional": "Optioneel"
+    },
+    "validation": {
+      "purposeRequired": "Selecteer waarom u een taxatie nodig heeft.",
+      "itemTypeRequired": "Selecteer het artikeltype.",
+      "nameRequired": "Voer uw volledige naam in.",
+      "contactRequired": "Geef een e-mailadres of telefoonnummer op.",
+      "countryRequired": "Voer uw land in.",
+      "consentRequired": "Bevestig de toestemmingsverklaring voordat u deze verzendt."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Wat kost een diamanttaxatie in Antwerpen?",
+        "answer": "Er is geen universele vergoeding. Sommige eenvoudige schriftelijke diensten worden aangeboden vanaf ongeveer € 50, terwijl gedetailleerde, complexe of formele taxaties meer kunnen kosten. Laboratoriumwerk, ontzetten, resetten, transport en verzekering kunnen afzonderlijk in rekening worden gebracht."
+      },
+      {
+        "question": "Waar kan ik een diamant laten taxeren in Antwerpen?",
+        "answer": "Afhankelijk van uw doel heeft u mogelijk een onafhankelijke juwelentaxateur, een gemmologisch laboratorium, een veilingspecialist of een professionele diamantkoper nodig. Bevestig welk type rapport of aanbieding elke aanbieder levert."
+      },
+      {
+        "question": "Taxeert GIA diamanten?",
+        "answer": "Nee. GIA levert beoordelings- en identificatierapporten, maar kent geen monetaire taxatiewaarden toe. Monetaire taxaties moeten worden uitgevoerd door een voldoende gekwalificeerde taxateur."
+      },
+      {
+        "question": "Is een diamantbeoordelingsrapport hetzelfde als een taxatie?",
+        "answer": "Nee. Een beoordelingsrapport beschrijft de kwaliteitskenmerken van een diamant. Een taxatie geeft een oordeel over de geldwaarde voor een bepaald doel en een bepaalde datum."
+      },
+      {
+        "question": "Is een gratis diamanttaxatie betrouwbaar?",
+        "answer": "Een gratis voorlopige taxatie kan nuttig zijn, maar het kan ook de mening van een koper zijn in plaats van een onafhankelijke schriftelijke taxatie. Vraag welk type waarde wordt geboden en of de beoordelaar van plan is het item te kopen."
+      },
+      {
+        "question": "Kan een gemonteerde diamanten ring getaxeerd worden?",
+        "answer": "Ja, maar de instelling kan de nauwkeurigheid van gewichts-, kleur-, helderheids- en conditiewaarnemingen beperken. In het rapport moet worden aangegeven welke kenmerken zijn geschat."
+      },
+      {
+        "question": "Moet ik de diamant uit zijn zetting halen?",
+        "answer": "Niet altijd. Verwijdering mag alleen worden overwogen als dit noodzakelijk is voor de vereiste testen of rapportage. Vraag wie de diamant zal verwijderen en opnieuw instellen en hoe het item verzekerd zal zijn."
+      },
+      {
+        "question": "Kan een diamant getaxeerd worden zonder certificaat?",
+        "answer": "Ja. Een eerste beoordeling kan beginnen zonder een beoordelingsrapport, maar laboratoriumtests of een nieuw rapport kunnen worden aanbevolen voordat een betrouwbare conclusie wordt bereikt."
+      },
+      {
+        "question": "Is een verzekeringstaxatie het bedrag waarvoor ik mijn diamant kan verkopen?",
+        "answer": "Nee. Bij de beoordeling van de verzekering wordt doorgaans rekening gehouden met de vervangingskosten. Een wederverkoopwaarde of aankoopaanbod weerspiegelt een andere markt en een ander doel."
+      },
+      {
+        "question": "Hoe lang is een diamanttaxatie geldig?",
+        "answer": "Er is geen universele geldigheidsduur. De kenmerken van de diamant kunnen stabiel blijven, maar de marktprijzen en vervangingskosten kunnen veranderen. Verzekeraars en andere gebruikers kunnen hun eigen updatevereisten hebben."
+      },
+      {
+        "question": "Kan ik een diamant online laten taxeren?",
+        "answer": "U kunt een voorlopige online beoordeling ontvangen op basis van rapportinformatie en foto's. Voor een formele of definitieve conclusie kan lichamelijk onderzoek nodig zijn."
+      },
+      {
+        "question": "Heb ik een taxatie nodig voordat ik aan Dalila verkoop?",
+        "answer": "Niet noodzakelijkerwijs. Dalila kan beginnen met het bekijken van het beoordelingsrapport en de beschikbare foto's. Een onafhankelijke taxatie kan passend zijn wanneer de eigenaar een neutrale of formele taxatie nodig heeft."
+      },
+      {
+        "question": "Zal Dalila elke ingediende diamant kopen?",
+        "answer": "Nee. Dalila moet eerst bepalen of de diamant aan de aankoopcriteria voldoet en de vereiste verificatie voltooien."
+      },
+      {
+        "question": "Moet ik verkopen nadat ik een bod heb ontvangen?",
+        "answer": "Nee. Voor het aanvragen van een evaluatie hoeft u geen aanbod te accepteren."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-valuation",
+    "title": "Vind de juiste diamanttaxatie in Antwerpen",
+    "paragraphs": [
+      "De juiste service is afhankelijk van de vraag die u beantwoord wilt hebben.",
+      "Kies een onafhankelijke taxateur als u een formeel monetair advies nodig heeft voor verzekeringen, erfenissen of juridisch gebruik. Kies een gemmologisch laboratorium als u identificatie of beoordeling nodig heeft. Kies een professionele koper als u wilt weten of het bedrijf uw diamant zal kopen en wat het bereid is te bieden.",
+      "Als het uw doel is om een ​​natuurlijke diamant te verkopen, begin dan met een privé online inzending bij Dalila Diamonds."
+    ],
+    "primaryButtonText": "START MIJN DIAMANT EVALUATIE",
+    "primaryButtonHref": "#diamond-evaluation-form",
+    "secondaryButtonText": "BOEK EEN PRIVÉ-AFSPRAAK IN ANTWERPEN",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "verkoop uw diamant in Antwerpen"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "online diamantwaarderingscalculator"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "waar een diamanten ring te verkopen"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "hoe u veilig een diamanten ring kunt verkopen"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "een diamant verkopen zonder certificaat"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "een diamantbeoordelingsrapport verifiëren"
+    }
+  }
+}

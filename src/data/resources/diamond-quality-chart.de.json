@@ -1,1511 +1,1105 @@
 {
   "meta": {
-    "title": "Diamant-Qualitätsdiagramm | Dalila Diamonds",
-    "description": "Vergleichen Sie Schliff-, Farb-, Reinheits- und Karatnoten von Diamanten. Nutzen Sie dieses Qualitätsdiagramm für Naturdiamanten, um die 4Cs zu verstehen und die richtige Balance zu wählen.",
+    "title": "Diamant-Qualitätstabelle: 4Cs, Farbe und Reinheit | Dalila",
+    "description": "Vergleichen Sie die Diamantqualität anhand der 4Cs, D–Z-Farbgrade, FL–I3-Klarheit, Schliff, Karat, Politur, Symmetrie und Fluoreszenz, bevor Sie sich für einen natürlichen Diamanten entscheiden.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
-    "dateModified": "2026-07-30"
-  },
-  "urls": {
-    "gia4Cs": "https://4cs.gia.edu/en-us/4cs-of-diamond-quality/",
-    "giaCut": "https://4cs.gia.edu/en-us/diamond-cut/",
-    "giaColour": "https://4cs.gia.edu/en-us/diamond-color/",
-    "giaClarity": "https://4cs.gia.edu/en-us/diamond-clarity/",
-    "giaCarat": "https://4cs.gia.edu/en-us/diamond-carat-weight/"
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
   },
   "banner": {
-    "title": "Diamant-Qualitätsdiagramm",
-    "breadcrumbHome": "Startseite",
+    "title": "Diamant-Qualitätstabelle",
+    "breadcrumbHome": "Heim",
     "breadcrumbResources": "Ressourcen",
-    "breadcrumbCurrent": "Diamant-Qualitätsdiagramm",
-    "imageAlt": "Banner zum Diamant-Qualitätsdiagramm für Käufer natürlicher Diamanten"
+    "breadcrumbCurrent": "Diamant-Qualitätstabelle",
+    "imageAlt": "Ressourcenbanner „Diamond Quality Chart“."
   },
   "hero": {
-    "title": "Diamant-Qualitätsdiagramm für Käufer natürlicher Diamanten",
-    "subheading": "Vergleichen Sie Schliff-, Farb-, Reinheits- und Karatnoten, verstehen Sie die Bedeutung der einzelnen Qualitätsstufen und entscheiden Sie, welche Merkmale für Ihren Naturdiamanten am wichtigsten sind.",
-    "reviewDateLabel": "Zuletzt überprüft:",
-    "reviewDate": "30. Juli 2026"
-  },
-  "introduction": {
+    "title": "Diamant-Qualitätstabelle: So vergleichen Sie die 4Cs",
     "paragraphs": [
-      "Die Qualität eines Diamanten lässt sich nicht durch eine einzige Note ausdrücken.",
-      "Zwei Diamanten mit demselben Karatgewicht können sich erheblich in Brillanz, Farbe, Reinheit, sichtbarer Größe und Preis unterscheiden. Selbst zwei Diamanten mit identischen Hauptnoten können aufgrund ihrer Proportionen, Einschlusslagen, Fluoreszenz, Transparenz und ihres Facettenmusters unterschiedlich wirken.",
-      "Diese Ressource führt die wichtigsten Skalen zur Diamantqualität an einem Ort zusammen. Nutzen Sie sie, um die 4Cs zu verstehen, ausgewählte Naturdiamanten zu vergleichen und Details zu erkennen, die vor dem Kauf genauer geprüft werden sollten."
-    ]
-  },
-  "quickAnswer": {
-    "title": "Kurzantwort",
-    "introParagraphs": [
-      "Der international anerkannte Rahmen zur Beschreibung der Diamantqualität besteht aus vier Merkmalen, den sogenannten 4Cs:"
+      "Mithilfe einer Diamantqualitätstabelle können Sie Schliff, Farbe, Reinheit und Karatgewicht vergleichen – die vier Merkmale, die allgemein als 4Cs bekannt sind.",
+      "Die höchste Note in jeder Kategorie ist nicht automatisch für jeden Käufer der beste Kauf. Einige Unterschiede wirken sich auf die sichtbare Schönheit aus, während andere hauptsächlich die Seltenheit und den Preis beeinflussen. Die richtige Balance hängt von der Form, Größe, Fassung des Diamanten, dem Verwendungszweck und Ihren Prioritäten ab.",
+      "Verwenden Sie diese Tabelle, um die Bewertungsterminologie zu verstehen, natürliche Diamanten genauer zu vergleichen und zu erkennen, wann ein technisch höherer Grad möglicherweise keinen deutlichen sichtbaren Vorteil bietet."
     ],
-    "attributes": [
-      "Schliff: Wie Design, Proportionen und handwerkliche Ausführung des Diamanten seine Wechselwirkung mit Licht beeinflussen",
-      "Farbe: Das relative Fehlen von Farbe bei Diamanten, die im Bereich D bis Z bewertet werden",
-      "Reinheit: Das relative Fehlen innerer Einschlüsse und äußerer Oberflächenmerkmale",
-      "Karat: Das Gewicht des Diamanten, nicht seine sichtbare Größe"
-    ],
-    "closingParagraphs": [
-      "Die 4Cs des Gemological Institute of America bieten eine Standardsprache zur Beschreibung und zum Vergleich von Diamanten.",
-      "Eine hochwertige Kaufentscheidung sollte jedoch auch Abmessungen, Proportionen, Politur, Symmetrie, Fluoreszenz, Transparenz, Behandlungen, aktuellen Zustand und die Verlässlichkeit des Bewertungsberichts berücksichtigen.",
-      "Es gibt keine einzige Notenkombination, die für jeden Käufer automatisch die beste ist. Die richtige Balance hängt von Form, Schmuckdesign, visueller Erscheinung, Budget und persönlichen Prioritäten des Diamanten ab."
-    ]
+    "reviewDateLabel": "Letzte Aktualisierung:",
+    "reviewDate": "Juli 2026",
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "Fordern Sie einen Diamanten über DS4U an",
+    "secondaryButtonHref": "/diamond-source",
+    "image": {
+      "src": "/images/resources/diamond-quality-chart-4cs.webp",
+      "alt": "Diamant-Qualitätstabelle mit Erläuterungen zur Klarheit der Schlifffarbe und zum Karatgewicht",
+      "width": 1600,
+      "height": 900
+    }
   },
-  "keyTakeaways": {
-    "title": "Wichtigste Erkenntnisse",
-    "items": [
-      "Die 4Cs sollten zusammen und nicht getrennt bewertet werden.",
-      "Die Schliffqualität kann Brillanz, Feuer, Kontrast und Funkeln maßgeblich beeinflussen.",
-      "Die GIA-Gesamtschliffnote gilt derzeit für Standard-Round-Brilliant-Diamanten im Farbbereich D bis Z.",
-      "D ist die höchste Farbnote im normalen Bereich D bis Z, während Z eine deutlichere gelbe oder braune Farbe zeigt.",
-      "Die GIA-Reinheitsskala reicht von Flawless bis Included 3.",
-      "Eine Reinheitsnote bestätigt nicht automatisch, ob ein Diamant ohne Vergrößerung rein erscheint.",
-      "Karat misst Gewicht, nicht sichtbaren Durchmesser oder Größe von oben.",
-      "Ein größerer Diamant ist nicht automatisch ein Diamant höherer Qualität.",
-      "Höhere Noten weisen im Allgemeinen auf größere Seltenheit hin, führen aber nicht immer zu einer offensichtlichen visuellen Verbesserung.",
-      "Fancy-Formen benötigen eine zusätzliche visuelle Beurteilung, da ihre Umrisse und Facettenmuster variieren.",
-      "Ein Bewertungsbericht hilft bei der Beschreibung der Qualität, garantiert jedoch weder Schönheit, Preis noch Wert.",
-      "Ein Naturdiamant muss in glaubwürdigen Labordokumenten eindeutig als natürlich ausgewiesen sein."
-    ]
+  "images": {
+    "colourClarity": {
+      "src": "/images/resources/diamond-colour-clarity-quality-chart.webp",
+      "alt": "Die Farb- und Reinheitsgrade natürlicher Diamanten werden in einer Vergleichstabelle angezeigt",
+      "width": 1400,
+      "height": 1000
+    },
+    "cutPerformance": {
+      "src": "/images/resources/diamond-cut-quality-performance-chart.webp",
+      "alt": "Runde Diamanten im Vergleich nach Schliffqualität und Lichtleistung",
+      "width": 1400,
+      "height": 1000
+    },
+    "priorities": {
+      "src": "/images/resources/diamond-quality-priority-comparison.webp",
+      "alt": "Diamantqualitätskombinationen im Vergleich nach Seltenheit, Aussehen und Budget",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "download": {
+    "buttonText": "Laden Sie die Diamantqualitätstabelle herunter",
+    "href": "/downloads/dalila-diamond-quality-chart",
+    "printNote": "Nutzen Sie diese Tabelle als Vergleichshilfe. Die endgültige Auswahl sollte auf dem einzelnen Diamanten und seinem überprüften Bewertungsbericht basieren."
   },
   "overviewNav": {
-    "title": "Leitfaden-Übersicht",
+    "title": "Leitfadenübersicht",
     "items": [
       {
-        "id": "diamond-quality-at-a-glance",
-        "label": "Diamantqualität auf einen Blick"
+        "id": "quick-answer",
+        "label": "Schnelle Antwort"
       },
       {
-        "id": "how-the-4cs-work-together",
-        "label": "So wirken die 4Cs zusammen"
+        "id": "complete-diamond-quality-chart",
+        "label": "Vollständige Diamantqualitätstabelle"
+      },
+      {
+        "id": "overall-quality-grade",
+        "label": "Gibt es eine allgemeine Qualitätsstufe für Diamanten?"
       },
       {
         "id": "diamond-cut-quality-chart",
-        "label": "Diagramm zur Diamantschliffqualität"
+        "label": "Qualitätstabelle für Diamantschliff"
       },
       {
-        "id": "diamond-colour-chart",
-        "label": "Diamantfarbdiagramm"
+        "id": "diamond-colour-quality-chart",
+        "label": "Farbqualitätsdiagramm für Diamanten"
       },
       {
-        "id": "diamond-clarity-chart",
-        "label": "Diamantreinheitsdiagramm"
+        "id": "diamond-clarity-quality-chart",
+        "label": "Qualitätsdiagramm für die Reinheit von Diamanten"
+      },
+      {
+        "id": "vs1-vs-vs2",
+        "label": "VS1 gegen VS2"
+      },
+      {
+        "id": "eye-clean",
+        "label": "Was bedeutet augenrein?"
       },
       {
         "id": "diamond-carat-weight-chart",
-        "label": "Diagramm zum Diamant-Karatgewicht"
+        "label": "Karatgewichtstabelle für Diamanten"
       },
       {
-        "id": "quality-considerations-for-fancy-shapes",
-        "label": "Qualitätsaspekte bei Fancy-Formen"
+        "id": "how-4cs-affect-price",
+        "label": "Wie sich die 4Cs auf den Diamantenpreis auswirken"
       },
       {
-        "id": "diamond-quality-beyond-the-4cs",
-        "label": "Diamantqualität über die 4Cs hinaus"
+        "id": "practical-combinations",
+        "label": "Praktische Diamant-Qualitätskombinationen"
       },
       {
-        "id": "how-to-choose-the-right-quality-balance",
-        "label": "So wählen Sie die richtige Qualitätsbalance"
+        "id": "comparing-three-diamonds",
+        "label": "Vergleich dreier natürlicher Diamanten"
       },
       {
-        "id": "worked-diamond-comparison",
-        "label": "Praxisvergleich von Diamanten"
+        "id": "polish-and-symmetry",
+        "label": "Polnisch und Symmetrie"
       },
       {
-        "id": "diamond-quality-versus-rarity-price-and-value",
-        "label": "Diamantqualität im Verhältnis zu Seltenheit, Preis und Wert"
+        "id": "diamond-fluorescence",
+        "label": "Diamantfluoreszenz"
       },
       {
-        "id": "natural-diamond-buying-checklist",
-        "label": "Kaufcheckliste für Naturdiamanten"
+        "id": "factors-beyond-the-4cs",
+        "label": "Faktoren, die über die 4Cs hinausgehen"
       },
       {
-        "id": "quality-chart-faq-heading",
+        "id": "what-is-good-quality",
+        "label": "Was ist eine gute Diamantqualität?"
+      },
+      {
+        "id": "how-to-read-grading-report",
+        "label": "So lesen Sie einen Diamantbewertungsbericht"
+      },
+      {
+        "id": "buying-checklist",
+        "label": "Checkliste für den Kauf"
+      },
+      {
+        "id": "source-by-quality",
+        "label": "Besorgen Sie sich einen natürlichen Diamanten anhand der exakten Qualität"
+      },
+      {
+        "id": "frequently-asked-questions",
         "label": "Häufig gestellte Fragen"
       }
     ]
   },
-  "qualityAtAGlance": {
-    "id": "diamond-quality-at-a-glance",
-    "title": "Diamantqualität auf einen Blick",
-    "introParagraphs": [],
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Kurze Antwort: Was bestimmt die Qualität eines Diamanten?",
+    "intro": [
+      "Die Diamantqualität wird hauptsächlich anhand von vier Faktoren beschrieben:"
+    ],
+    "bullets": [
+      "Schliff: Wie effektiv die Proportionen und die Verarbeitung des Diamanten mit dem Licht interagieren",
+      "Farbe: Wie farblos ein D-bis-Z-Diamant erscheint",
+      "Klarheit: Das relative Fehlen innerer Einschlüsse und äußerer Schönheitsfehler",
+      "Karatgewicht: Wie viel der Diamant wiegt"
+    ],
+    "closing": [
+      "Bei einem Diamanten mit rundem Brillantschliff hat die Schliffqualität normalerweise den größten unmittelbaren Einfluss auf Helligkeit, Feuer und Funkeln. Farbe und Reinheit beeinflussen Seltenheit und Aussehen, während Karat eher das Gewicht als die sichtbare Größe oder Schönheit misst.",
+      "Ein ausgewogener natürlicher Diamant könnte einen starken Schliff, ein nahezu farbloses Aussehen und Klarheit ohne mit dem Auge sichtbare Einschlüsse vereinen. Allerdings garantiert keine Kombination aus Farbe und Klarheit Schönheit. Der einzelne Diamant muss noch auf Proportionen, Maße, Transparenz, Fluoreszenz und sichtbare Leistung überprüft werden."
+    ]
+  },
+  "completeChart": {
+    "id": "complete-diamond-quality-chart",
+    "title": "Vollständige Diamantqualitätstabelle",
     "table": {
-      "caption": "Qualitätsfaktoren, Skalen und Käuferprüfungen für Diamanten",
+      "caption": "Vollständige Diamantqualitätsfaktoren und Kaufüberlegungen",
       "headers": [
         "Qualitätsfaktor",
-        "Wichtigste Skala oder Messung",
-        "Was sie beschreibt",
-        "Wichtige Käuferprüfung"
+        "Maßstab oder Messung",
+        "Was es beschreibt",
+        "Praktische Kaufüberlegung"
       ],
       "rows": [
         [
-          "Schliff",
-          "Excellent bis Poor für anwendbare, von GIA bewertete Round-Brilliant-Diamanten",
-          "Wie Proportionen, Design und handwerkliche Ausführung das Lichtverhalten beeinflussen",
-          "Brillanz, Feuer, Kontrast, Proportionen und Muster von oben prüfen"
+          "Schneiden",
+          "Ausgezeichnet bis Schlecht für geeignete runde Brillanten",
+          "Proportionen, Verarbeitung und Interaktion mit Licht",
+          "Priorisieren Sie sichtbare Leistung, nicht nur das Wort „Ausgezeichnet“."
         ],
         [
           "Farbe",
-          "D bis Z für Diamanten im normalen Farbbereich",
-          "Das relative Fehlen gelber oder brauner Farbe",
-          "Den tatsächlichen Diamanten bei gleichbleibender Beleuchtung vergleichen"
+          "D bis Z",
+          "Zunehmendes Vorhandensein von Gelb, Braun oder Grau im normalen Farbbereich",
+          "Vergleichen Sie den losen Diamanten und die gewünschte Metallfarbe"
         ],
         [
-          "Reinheit",
+          "Klarheit",
           "FL bis I3",
-          "Sichtbarkeit und Bedeutung von Einschlüssen und Oberflächenmerkmalen",
-          "Art, Lage, Sichtbarkeit und mögliche Relevanz für die Haltbarkeit von Einschlüssen prüfen"
+          "Einschlüsse und Schönheitsfehler wurden bei 10-facher Vergrößerung beurteilt",
+          "Prüfen Sie, ob Einschlüsse sichtbar sind und ob diese die Transparenz oder Haltbarkeit beeinträchtigen"
         ],
         [
           "Karat",
-          "Numerisch angegeben, beispielsweise 0,75 ct oder 1,00 ct",
+          "Numerisches Gewicht",
           "Das Gewicht des Diamanten",
-          "Gewicht mit den tatsächlichen Millimetermaßen und der sichtbaren Spannweite vergleichen"
+          "Vergleichen Sie Millimetermaße, da gleiche Gewichte unterschiedlich aussehen können"
         ],
         [
-          "Politur",
-          "Excellent bis Poor, je nach Labor",
+          "Polieren",
+          "Ausgezeichnet bis schlecht",
           "Qualität der fertigen Facettenoberflächen",
-          "Prüfen, ob Finishmerkmale die Erscheinung beeinflussen"
+          "Für wichtige Mittelsteine ​​wird normalerweise „Sehr gut“ oder „Ausgezeichnet“ bevorzugt"
         ],
         [
           "Symmetrie",
-          "Excellent bis Poor, je nach Labor",
-          "Ausrichtung und Präzision von Facetten und Umriss",
-          "Facettenausrichtung und Ausgewogenheit des Umrisses prüfen"
+          "Ausgezeichnet bis schlecht",
+          "Präzision und Ausrichtung von Facetten und Umrissen",
+          "Überprüfen Sie sowohl den Bericht als auch die sichtbare visuelle Balance"
         ],
         [
           "Fluoreszenz",
-          "Auf GIA-Berichten üblicherweise None bis Very Strong",
-          "Reaktion auf langwellige ultraviolette Strahlung",
-          "Diamanten bei normalem Innenlicht und Tageslicht prüfen"
+          "Keine bis sehr stark",
+          "Reaktion auf langwelliges ultraviolettes Licht",
+          "Bewerten Sie den einzelnen Diamanten bei normaler und UV-beeinflusster Beleuchtung"
         ],
         [
-          "Abmessungen",
+          "Messungen",
           "Millimeter",
-          "Länge, Breite, Durchmesser und Tiefe",
-          "Bestimmen, wie groß der Diamant von oben erscheint"
+          "Länge, Breite und Tiefe",
+          "Bestimmt die tatsächliche Aufteilung der Vorderseite nach oben und die Einstellungskompatibilität"
         ],
         [
           "Proportionen",
-          "Prozentwerte, Winkel und beschreibende Noten",
-          "Die physische Konstruktion des Diamanten",
-          "Informationen zu Tafel, Tiefe, Krone, Pavillon, Rondiste und Kulette prüfen"
+          "Prozentsätze und Winkel",
+          "Verteilung des Gewichts und der Facettenverhältnisse des Diamanten",
+          "Schlechte Proportionen können die sichtbare Größe oder die Lichtleistung beeinträchtigen"
         ],
         [
-          "Transparenz",
-          "Erfordert visuelle oder professionelle Beurteilung",
-          "Ob der Diamant klar, trüb, ölig oder milchig wirkt",
-          "Den physischen Diamanten oder ein hochwertiges Video prüfen"
-        ],
-        [
-          "Zustand",
-          "Erfordert aktuelle Prüfung",
-          "Ausbrüche, Abschürfungen, Beschädigungen oder Veränderungen nach der Bewertung",
-          "Nicht davon ausgehen, dass ein älterer Bericht den aktuellen Zustand bestätigt"
+          "Bewertungsbericht",
+          "Laborspezifisch",
+          "Unabhängige Identifikation und Qualitätsinformationen",
+          "Überprüfen Sie den Bericht durch das ausstellende Labor"
         ]
       ]
     },
-    "closingParagraphs": [
-      "Das Diagramm ist ein Ausgangspunkt. Die vollständige Kombination der Merkmale bestimmt, ob ein Naturdiamant für einen bestimmten Käufer geeignet ist."
+    "closing": [
+      "Die 4Cs bieten eine Standardsprache für die Qualität von Diamanten, ersetzen jedoch nicht die visuelle Beurteilung. Zwei Diamanten mit ähnlichen Qualitäten können sich dennoch in den Maßen, der Lage der Einschlüsse, der Transparenz, dem Muster und dem Gesamterscheinungsbild unterscheiden."
     ]
   },
-  "how4CsWork": {
-    "id": "how-the-4cs-work-together",
-    "title": "So wirken die 4Cs zusammen",
-    "introParagraphs": [
-      "Ein Diamant sollte nicht ausgewählt werden, indem in jeder Kategorie die höchstmögliche Note gewählt wird.",
-      "Jeder Qualitätsfaktor beeinflusst einen anderen Aspekt der Erscheinung und Seltenheit eines Diamanten.",
-      "Zum Beispiel:"
+  "overallGrade": {
+    "id": "overall-quality-grade",
+    "title": "Gibt es eine allgemeine Qualitätsstufe für Diamanten?",
+    "paragraphs": [
+      "Keine universelle Laborqualität fasst jeden natürlichen Diamanten in einer einzigen Gesamtbewertung wie A, AA oder AAA zusammen.",
+      "Begriffe wie:"
     ],
-    "examples": [
-      "Eine hohe Farbnote kann eine schwache Lichtleistung nicht ausgleichen.",
-      "Eine hohe Reinheitsnote garantiert keine attraktiven Proportionen.",
-      "Ein hohes Karatgewicht garantiert keine große Erscheinung von oben.",
-      "Eine Excellent-Schliffnote bedeutet nicht, dass jeder Diamant mit Excellent-Schliff identisch aussieht."
+    "bullets": [
+      "AAA-Diamant",
+      "Premium-Qualität",
+      "Anlagequalität",
+      "Kommerzielle Qualität",
+      "Beste Qualität",
+      "Sammlungsqualität"
     ],
-    "closingParagraphs": [
-      "Zwei Diamanten mit derselben Farbnote können aufgrund ihrer Größe, Form und ihres Facettenmusters Farbe unterschiedlich zeigen.",
-      "Zwei Diamanten mit derselben Reinheitsnote können völlig unterschiedliche Arten von Einschlüssen enthalten.",
-      "Ziel des Qualitätsdiagramms ist daher nicht, einen universell „perfekten“ Diamanten zu bestimmen. Es soll Käufern helfen zu verstehen, wo sichtbare Verbesserungen auftreten und wo zusätzliche Notensteigerungen hauptsächlich Seltenheit bedeuten können."
+    "mid": [
+      "Möglicherweise handelt es sich eher um vom Verkäufer erstellte Beschreibungen als um Standard-Laborqualitäten.",
+      "In einem anerkannten Notenbericht werden in der Regel die relevanten Merkmale gesondert aufgeführt. Dadurch kann der Käufer erkennen, ob es sich bei dem Diamanten beispielsweise um:"
+    ],
+    "exampleBullets": [
+      "1,00 Karat",
+      "G-Farbe",
+      "VS2-Klarheit",
+      "Ausgezeichneter Schnitt",
+      "Ausgezeichnete Politur",
+      "Sehr gute Symmetrie",
+      "Schwache Fluoreszenz"
+    ],
+    "closing": [
+      "Vermeiden Sie es, sich auf ein ungeklärtes Gesamtqualitätssiegel zu verlassen. Fordern Sie die vollständigen Spezifikationen an und ermitteln Sie, welches Labor den Bericht ausgestellt hat."
     ]
   },
-  "cutQuality": {
+  "cutChart": {
     "id": "diamond-cut-quality-chart",
-    "title": "Diagramm zur Diamantschliffqualität",
-    "introParagraphs": [
-      "Schliff beschreibt, wie effektiv Design, Proportionen und handwerkliche Ausführung eines Diamanten Brillanz, Feuer, Szintillation und ein geordnetes Muster heller und dunkler Bereiche erzeugen.",
-      "Er sollte nicht mit der Form verwechselt werden.",
-      "Die Form bezeichnet den Umriss, beispielsweise Round, Oval, Pear oder Emerald.",
-      "Die Schliffqualität beschreibt, wie erfolgreich der Diamant gestaltet und fertiggestellt wurde."
+    "title": "Qualitätstabelle für Diamantschliff",
+    "intro": [
+      "Die Schliffqualität beschreibt, wie erfolgreich Design, Proportionen und Verarbeitung eines Diamanten ein attraktives Erscheinungsbild erzeugen.",
+      "Für geeignete Standard-Diamanten mit rundem Brillantschliff beträgt die GIA-Schliffskala:"
     ],
-    "richIntroParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Das Standard-Gesamtschliffbewertungssystem der GIA gilt für Standard-Round-Brilliant-Diamanten im Farbbereich D bis Z. Die offizielle Skala umfasst fünf Noten: Excellent, Very Good, Good, Fair und Poor. "
-        },
-        {
-          "type": "link",
-          "text": "Die GIA-Richtlinien zum Diamantschliff",
-          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
-          "external": true
-        },
-        {
-          "type": "text",
-          "value": " erläutern Umfang und Zweck dieses Systems."
-        }
+    "table": {
+      "caption": "GIA-Schliffgrade für geeignete Diamanten im runden Brillantschliff",
+      "headers": [
+        "Schnittqualität",
+        "Allgemeine Interpretation",
+        "Überlegung des Käufers"
+      ],
+      "rows": [
+        [
+          "Excellent",
+          "Starkes Potenzial für Helligkeit, Feuer, Funkeln und ausgewogene Muster",
+          "Vergleichen Sie dennoch Proportionen, Maße und tatsächliches Aussehen"
+        ],
+        [
+          "Very Good",
+          "Hochwertige Verarbeitung mit geringfügigen Unterschieden zu Excellent",
+          "Kann eine starke visuelle Leistung und einen hohen Wert bieten"
+        ],
+        [
+          "Good",
+          "Akzeptable Leistung, bei höheren Noten können jedoch Unterschiede sichtbar sein",
+          "Auf verringerte Helligkeit, Streuung oder Muster prüfen"
+        ],
+        [
+          "Fair",
+          "Stärkere Leistungs- oder Proportionseinschränkungen",
+          "Normalerweise ungeeignet, wenn die Brillanz im Vordergrund steht"
+        ],
+        [
+          "Poor",
+          "Erhebliche Einschränkungen in Aussehen, Proportionen oder Lichtleistung",
+          "Vermeiden Sie im Allgemeinen einen wichtigen Diamanten in der Mitte"
+        ]
       ]
+    },
+    "afterTable": [
+      "Der aktuelle GIA-Schliffgrad gilt für geeignete Standarddiamanten mit rundem Brillantschliff im Farbbereich D bis Z. Standard-GIA-Berichte liefern nicht für jede ausgefallene Form den gleichen Gesamtschnittgrad.",
+      "Bewerten Sie für Oval-, Birnen-, Marquise-, Smaragd-, Kissen-, Strahlen- und andere ausgefallene Diamanten Folgendes:"
     ],
-    "subsections": [
-      {
-        "id": "round-brilliant-cut-grade-chart",
-        "title": "Schliffnotendiagramm für Round Brilliant",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "GIA-Schliffnotendiagramm für Round Brilliant für Käufer natürlicher Diamanten",
-          "headers": [
-            "Schliffnote",
-            "Allgemeine Interpretation",
-            "Was Käufer prüfen sollten"
-          ],
-          "rows": [
-            [
-              "Excellent",
-              "Der höchste GIA-Schliffnotenbereich, der im Allgemeinen mit starker Brillanz, Feuer und ausgewogenem Kontrast verbunden ist",
-              "Proportionen und Erscheinung vergleichen, da die Note verschiedene mögliche Designs umfasst"
-            ],
-            [
-              "Very Good",
-              "Starke Gesamtschliffqualität mit geringfügigen Unterschieden zum Excellent-Bereich",
-              "Den Diamanten direkt mit Optionen im Excellent-Schliff vergleichen und bewerten, ob der sichtbare Unterschied den Preis rechtfertigt"
-            ],
-            [
-              "Good",
-              "Akzeptable Schliffqualität, doch Lichtleistung oder sichtbare Spannweite können weniger effektiv sein",
-              "Auf verringerte Brillanz, weniger ausgewogenen Kontrast oder Gewicht in weniger sichtbaren Bereichen prüfen"
-            ],
-            [
-              "Fair",
-              "Deutlichere Einschränkungen bei Proportionen oder handwerklicher Ausführung",
-              "Auf matte Bereiche, Lichtaustritt, vermindertes Funkeln oder ein unattraktives Muster von oben prüfen"
-            ],
-            [
-              "Poor",
-              "Erhebliche Einschränkungen der Schliffqualität",
-              "Sorgfältig prüfen, ob die schwache Lichtleistung den Diamanten ungeeignet macht"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Diese Beschreibungen dienen als allgemeine Vorauswahlhilfe. Eine Schliffnote steht für einen Bereich, nicht für eine einzige exakte Kombination von Proportionen."
-        ]
-      },
-      {
-        "id": "what-contributes-to-cut-quality",
-        "title": "Was trägt zur Schliffqualität bei?",
-        "paragraphsBefore": [
-          "Bei einem Standard-Round-Brilliant-Diamanten kann die Schliffbeurteilung Folgendes umfassen:"
-        ],
-        "bullets": [
-          "Brillanz",
-          "Feuer",
-          "Szintillation",
-          "Gewichtsverhältnis",
-          "Haltbarkeit",
-          "Politur",
-          "Symmetrie",
-          "Tafelgröße",
-          "Gesamttiefe",
-          "Kronenwinkel",
-          "Pavillonwinkel",
-          "Rondistenstärke",
-          "Kulettengröße",
-          "Facettenbeziehungen",
-          "Muster von oben"
-        ],
-        "paragraphsAfter": [
-          "Ein einzelner Tafelprozentsatz oder Tiefenprozentsatz kann die Schliffqualität nicht allein bestimmen. Unterschiedliche Proportionskombinationen können attraktive Diamanten hervorbringen."
-        ]
-      },
-      {
-        "id": "does-excellent-cut-mean-perfect",
-        "title": "Bedeutet Excellent-Schliff, dass der Diamant perfekt ist?",
-        "paragraphsBefore": [
-          "Nein.",
-          "Excellent ist die höchste Kategorie auf der GIA-Schliffskala für Round Brilliant, umfasst jedoch mehrere Proportionskombinationen und Erscheinungen von oben. Zwei Diamanten mit Excellent-Schliff können unterschiedliche Kontrastmuster, sichtbare Spannweiten und Charaktere zeigen.",
-          "Die Note ist ein wichtiges Instrument für die Vorauswahl. Sie sollte dennoch zusammen mit Folgendem betrachtet werden:"
-        ],
-        "bullets": [
-          "Exakte Abmessungen",
-          "Tafel und Tiefe",
-          "Informationen zu Krone und Pavillon",
-          "Politur",
-          "Symmetrie",
-          "Hochauflösendes Video",
-          "Transparenz",
-          "Preis",
-          "Persönliche Präferenz für die Erscheinung"
-        ]
-      },
-      {
-        "id": "polish-and-symmetry-chart",
-        "title": "Diagramm für Politur und Symmetrie",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "Notendiagramm für Politur und Symmetrie",
-          "headers": [
-            "Note",
-            "Allgemeine Bedeutung"
-          ],
-          "rows": [
-            [
-              "Excellent",
-              "Keine Finishmerkmale, die die vergebene Note im System des Labors wesentlich beeinflussen"
-            ],
-            [
-              "Very Good",
-              "Geringfügige Finishmerkmale, die ohne Vergrößerung im Allgemeinen schwer zu erkennen sind"
-            ],
-            [
-              "Good",
-              "Erkennbare Finishmerkmale können vorhanden sein, obwohl der Diamant kommerziell akzeptabel bleiben kann"
-            ],
-            [
-              "Fair",
-              "Einschränkungen beim Finish können deutlicher sichtbar sein und die Erscheinung beeinflussen"
-            ],
-            [
-              "Poor",
-              "Erhebliche Einschränkungen in der handwerklichen Ausführung sind vorhanden"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Politur und Symmetrie sind Bestandteile des Finishs. Sie sollten nicht als Ersatz für eine Gesamtschliffbeurteilung behandelt werden."
-        ]
-      }
-    ]
+    "fancyBullets": [
+      "Verhältnis von Länge zu Breite",
+      "Tabellenprozentsatz",
+      "Tiefenprozentsatz",
+      "Gürtel",
+      "Culet",
+      "Polieren",
+      "Symmetrie",
+      "Gliederung",
+      "Offener Aufstrich",
+      "Wo relevant, mit Fliege-Effekt",
+      "Facettenmuster",
+      "Tatsächliche Video- oder visuelle Leistung"
+    ],
+    "cutVsShapeTitle": "Schnitt ist nicht dasselbe wie Form",
+    "cutVsShapeParagraphs": [
+      "Die Form beschreibt den Umriss des Diamanten, z. B. rund, oval, birnenförmig oder smaragdgrün.",
+      "Die Schnittqualität beschreibt, wie gut die Form geplant, proportioniert, facettiert, poliert und fertiggestellt wurde.",
+      "Ein Käufer kann sich daher für einen Diamanten mit ovaler Form entscheiden, aber die Beschreibung als „Oval mit ausgezeichnetem Schliff“ erfordert Vorsicht, da Labore nicht alle Gesamtschliffgrade für Fancy-Shapes auf die gleiche Weise vergeben."
+    ],
+    "tripleExcellentTitle": "Was bedeutet „Triple Excellent“?",
+    "tripleExcellentIntro": [
+      "„Triple Excellent“ ist ein Handelsbegriff, der normalerweise für einen runden Diamanten mit Brillanteffekt verwendet wird:"
+    ],
+    "tripleExcellentBullets": [
+      "Ausgezeichneter Schnitt",
+      "Ausgezeichnete Politur",
+      "Ausgezeichnete Symmetrie"
+    ],
+    "tripleExcellentClosing": [
+      "Triple Excellent garantiert nicht, dass jeder Diamant identisch aussieht. Innerhalb derselben Sortenkombination können unterschiedliche Proportionskombinationen, Transparenzeigenschaften und Face-Up-Muster vorhanden sein."
+    ],
+    "cutGuideHref": "/blogs/diamond-cut-quality-explained",
+    "cutGuideText": "Diamantschliffqualität erklärt"
   },
   "colourChart": {
-    "id": "diamond-colour-chart",
-    "title": "Diamantfarbdiagramm",
-    "introParagraphs": [
-      "Bei Diamanten im normalen Farbbereich misst die Farbbewertung das relative Fehlen von Farbe."
+    "id": "diamond-colour-quality-chart",
+    "title": "Diamant-Farbqualitätstabelle",
+    "intro": [
+      "Die GIA D-bis-Z-Farbskala misst den Farbgrad von Diamanten innerhalb des normalen Farbbereichs."
     ],
-    "richIntroParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Die GIA-Farbskala beginnt bei D und reicht bis Z. D steht für farblos, während Noten näher an Z eine zunehmend deutlichere hellgelbe oder braune Erscheinung zeigen. Diamanten werden unter kontrollierten Bedingungen mit Vergleichssteinen verglichen. "
-        },
-        {
-          "type": "link",
-          "text": "Die offiziellen GIA-Richtlinien zur Farbe",
-          "href": "https://4cs.gia.edu/en-us/diamond-color/",
-          "external": true
-        },
-        {
-          "type": "text",
-          "value": " erläutern das System D bis Z."
-        }
+    "table": {
+      "caption": "GIA D-bis-Z-Diamantfarbkategorien",
+      "headers": [
+        "Farbklassen",
+        "Kategorie",
+        "Allgemeines Erscheinungsbild",
+        "Überlegung beim Kauf"
+      ],
+      "rows": [
+        [
+          "D–F",
+          "Farblos",
+          "Unter kontrollierten Sortierbedingungen ist kaum oder keine Farbe erkennbar",
+          "Selten und hochpreisig; Unterschiede zwischen benachbarten Klassen können geringfügig sein"
+        ],
+        [
+          "G–J",
+          "Nahezu farblos",
+          "Bei kontrolliertem Vergleich kann eine leichte Verfärbung erkennbar sein",
+          "Bietet oft ein gutes Gleichgewicht zwischen Aussehen und Preis"
+        ],
+        [
+          "K–M",
+          "Schwach",
+          "Wärme wird deutlicher spürbar",
+          "Kann gut mit gelbem oder rosafarbenem Metall und antik inspirierten Designs kombiniert werden"
+        ],
+        [
+          "N–R",
+          "Sehr leicht",
+          "Auffälligeres gelbes, braunes oder graues Aussehen",
+          "Am besten unter Berücksichtigung des fertigen Schmuckdesigns auswählen"
+        ],
+        [
+          "S–Z",
+          "Licht",
+          "Deutlich sichtbare Farbe im normalen Bereich",
+          "Sollte bewusst aufgrund des Aussehens und des Budgets ausgewählt werden"
+        ]
       ]
+    },
+    "afterTable": [
+      "Dieses Diagramm gilt für den D-bis-Z-Bereich. Natürliche Fancy-Diamanten verwenden einen anderen Ansatz zur Farbabstufung."
     ],
-    "subsections": [
-      {
-        "id": "d-to-z-diamond-colour-scale",
-        "title": "Diamantfarbskala D bis Z",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "Diagramm der Diamantfarbskala D bis Z",
-          "headers": [
-            "Farbnoten",
-            "Kategorie",
-            "Allgemeine Erscheinung"
-          ],
-          "rows": [
-            [
-              "D–F",
-              "Farblos",
-              "Wenig oder keine erkennbare Farbe unter Standardbewertungsbedingungen"
-            ],
-            [
-              "G–J",
-              "Fast farblos",
-              "Geringe Farbmengen, die bei Betrachtung des Diamanten von oben subtil wirken können"
-            ],
-            [
-              "K–M",
-              "Leichte Farbe",
-              "Eine leichte gelbe oder braune Farbe kann deutlicher erkennbar sein"
-            ],
-            [
-              "N–R",
-              "Sehr leichte Farbe",
-              "Die Farbe wird zunehmend sichtbar"
-            ],
-            [
-              "S–Z",
-              "Helle Farbe",
-              "Hellgelbe oder braune Farbe ist normalerweise erkennbar"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Der Kategoriename sagt nicht aus, ob ein einzelner Käufer den Diamanten attraktiv findet.",
-          "Einige Käufer bevorzugen eine kühle, farblose Erscheinung. Andere wählen bewusst einen wärmeren Diamanten, insbesondere wenn dieser Gelb- oder Roségold ergänzt."
-        ]
-      },
-      {
-        "id": "factors-that-influence-perceived-colour",
-        "title": "Faktoren, die die wahrgenommene Farbe beeinflussen",
-        "paragraphsBefore": [
-          "Die Sichtbarkeit von Farbe kann sich verändern, abhängig von:"
-        ],
-        "bullets": [
-          "Diamantgröße",
-          "Form",
-          "Facettenmuster",
-          "Schliffqualität",
-          "Betrachtungswinkel",
-          "Beleuchtung",
-          "Umgebungsfarben",
-          "Schmuckmetall",
-          "Ob der Stein lose oder montiert ist",
-          "Fluoreszenz",
-          "Vergleich mit anderen Diamanten"
-        ],
-        "paragraphsAfter": [
-          "Bei größeren Diamanten kann die Körperfarbe leichter erkennbar sein. Bestimmte Formen können Farbe auch unterschiedlich halten oder zeigen."
-        ]
-      },
-      {
-        "id": "does-higher-colour-always-look-better",
-        "title": "Sieht eine höhere Farbnote immer besser aus?",
-        "paragraphsBefore": [
-          "Nicht unbedingt.",
-          "D ist seltener als G, H oder I, doch ein Käufer sieht möglicherweise keinen bedeutsamen Unterschied, wenn der Diamant gefasst ist und unter gewöhnlichen Bedingungen betrachtet wird.",
-          "Eine höhere Farbnote kann aufgrund ihrer Seltenheit einen Aufpreis erzielen. Ob dieser Aufpreis eine lohnende visuelle Verbesserung schafft, hängt vom einzelnen Diamanten und Käufer ab."
-        ]
-      },
-      {
-        "id": "colourless-versus-fancy-colour-diamonds",
-        "title": "Farblose Diamanten im Vergleich zu Fancy-Farbdiamanten",
-        "paragraphsBefore": [
-          "Das Diagramm D bis Z sollte nicht zur Beurteilung von Fancy-Farbdiamanten verwendet werden.",
-          "Fancy-gelbe, -rosa, -blaue, -grüne und andere farbige Diamanten werden nach anderen Kriterien beurteilt, darunter:"
-        ],
-        "bullets": [
-          "Farbton",
-          "Ton",
-          "Sättigung",
-          "Farbverteilung",
-          "Fancy-Farbnote"
-        ],
-        "paragraphsAfter": [
-          "GIA erklärt, dass das System D bis Z das relative Fehlen von Farbe beurteilt, während die Bewertung von Fancy-Farben das Vorhandensein und die Stärke der Farbe bewertet."
-        ]
-      }
-    ]
+    "whyDTitle": "Warum beginnt die Farbskala bei D?",
+    "whyDParagraphs": [
+      "GIA begann die Skala bei D, um sein System von älteren, inkonsistenten Beschreibungen und der auf A, B oder C basierenden kommerziellen Terminologie zu trennen.",
+      "Die Farbbewertung erfolgt unter kontrollierten Bedingungen anhand von Vergleichssteinen. Fotos, Monitoreinstellungen, Schmuckbeleuchtung und umgebendes Metall können die Farbdarstellung verändern."
+    ],
+    "bestColourTitle": "Welche Diamantfarbe ist die beste?",
+    "bestColourParagraphs": [
+      "D ist die höchste Note im D-bis-Z-System, aber nicht automatisch der beste Wert für jeden Käufer.",
+      "Viele Käufer vergleichen G-, H- oder I-Diamanten, weil sie zu einem niedrigeren Preis als D–F-Diamanten ein nahezu farbloses Aussehen bieten können. Das Ergebnis hängt jedoch ab von:"
+    ],
+    "bestColourBullets": [
+      "Rautenform",
+      "Karatgewicht",
+      "Schnittqualität",
+      "Fluoreszenz",
+      "Einstellungsstil",
+      "Metallfarbe",
+      "Individuelle Farbempfindlichkeit",
+      "Ob Diamanten gematcht werden"
+    ],
+    "bestColourClosing": [
+      "Eine Farbstufe sollte daher im Kontext betrachtet und nicht nur anhand des Buchstabens ausgewählt werden."
+    ],
+    "colourGuideHref": "/blogs/diamond-color-grades-explained-d-to-z",
+    "colourGuideText": "Diamant-Farbgrade erklärt"
   },
   "clarityChart": {
-    "id": "diamond-clarity-chart",
-    "title": "Diamantreinheitsdiagramm",
-    "introParagraphs": [
-      "Reinheit beschreibt das relative Fehlen von Einschlüssen und Oberflächenmerkmalen.",
-      "Einschlüsse sind innere Merkmale. Oberflächenmerkmale befinden sich auf der Oberfläche oder beeinträchtigen diese."
+    "id": "diamond-clarity-quality-chart",
+    "title": "Diamant-Reinheitsqualitätsdiagramm",
+    "intro": [
+      "Clarity bewertet interne Merkmale, die als Einschlüsse bezeichnet werden, und äußere Merkmale, die als Schönheitsfehler bezeichnet werden.",
+      "Die GIA-Klarheitsskala enthält 11 Stufen:"
     ],
-    "richIntroParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Die GIA-Reinheitsskala umfasst 11 Noten von Flawless bis Included 3. Bei der Bewertung werden Größe, Art, Anzahl, Lage sowie Farbe oder Relief der unter 10-facher Vergrößerung sichtbaren Merkmale berücksichtigt. "
-        },
-        {
-          "type": "link",
-          "text": "Die GIA-Richtlinien zur Reinheit",
-          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
-          "external": true
-        },
-        {
-          "type": "text",
-          "value": " erläutern, wie die Skala angewendet wird."
-        }
+    "table": {
+      "caption": "Reinheitsgrade von GIA-Diamanten",
+      "headers": [
+        "Klarheitsgrad",
+        "Bedeutung",
+        "Allgemeine Bewertungsbeschreibung",
+        "Praktische Kaufüberlegung"
+      ],
+      "rows": [
+        [
+          "FL",
+          "Einwandfrei",
+          "Bei 10-facher Vergrößerung sind für einen erfahrenen Prüfer keine Einschlüsse oder Fehler erkennbar",
+          "Äußerst selten und dem Seltenheitspreis angemessen"
+        ],
+        [
+          "IF",
+          "Innerlich einwandfrei",
+          "Keine Einschlüsse und nur bei 10-facher Vergrößerung sichtbare Schönheitsfehler",
+          "Hohe Seltenheit; Der sichtbare Vorteil kann begrenzt sein"
+        ],
+        [
+          "VVS1",
+          "Sehr, sehr leicht enthalten 1",
+          "Winzige Einschlüsse sind äußerst schwer zu beobachten",
+          "Erstklassige Klarheit"
+        ],
+        [
+          "VVS2",
+          "Sehr, sehr leicht enthalten 2",
+          "Winzige Einschlüsse sind sehr schwer zu erkennen",
+          "Erstklassige Klarheit mit etwas höherer Verfügbarkeit"
+        ],
+        [
+          "VS1",
+          "Sehr leicht enthalten 1",
+          "Kleinere Einschlüsse sind schwer zu erkennen",
+          "Gängige hochwertige Wahl"
+        ],
+        [
+          "VS2",
+          "Sehr leicht enthalten 2",
+          "Kleinere Einschlüsse sind etwas leichter zu erkennen",
+          "Bietet oft ein ausgewogenes Verhältnis zwischen Klarheit und Preis"
+        ],
+        [
+          "SI1",
+          "Leicht enthalten 1",
+          "Auffällige Einschlüsse bei 10×",
+          "Manche Steine ​​sehen ohne Vergrößerung möglicherweise sauber aus; Eine Einzelbesichtigung ist unbedingt erforderlich"
+        ],
+        [
+          "SI2",
+          "Leicht enthalten 2",
+          "Deutlichere Einschlüsse bei 10-facher Vergrößerung",
+          "Sichtbarkeit und Transparenz des Auges variieren erheblich"
+        ],
+        [
+          "I1",
+          "Enthalten 1",
+          "Offensichtliche Einschlüsse",
+          "Kann Aussehen, Transparenz oder Haltbarkeit beeinträchtigen"
+        ],
+        [
+          "I2",
+          "Enthalten 2",
+          "Auffälligere offensichtliche Einschlüsse",
+          "Erhöhtes Risiko sichtbarer und struktureller Auswirkungen"
+        ],
+        [
+          "I3",
+          "Enthalten 3",
+          "Signifikante offensichtliche Einschlüsse",
+          "Kann Transparenz, Brillanz und Haltbarkeit erheblich beeinträchtigen"
+        ]
       ]
+    },
+    "afterTable": [
+      "Klarheit wird bestimmt durch die Berücksichtigung von:"
     ],
-    "subsections": [
-      {
-        "id": "diamond-clarity-scale",
-        "title": "Diamantreinheitsskala",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "GIA-Diagramm der Diamantreinheitsskala",
-          "headers": [
-            "Reinheitsnote",
-            "Vollständige Bezeichnung",
-            "Allgemeine Interpretation unter 10-facher Vergrößerung"
-          ],
-          "rows": [
-            [
-              "FL",
-              "Fehlerfrei (Flawless)",
-              "Für einen erfahrenen Bewerter sind keine Einschlüsse oder Oberflächenmerkmale sichtbar"
-            ],
-            [
-              "IF",
-              "Intern fehlerfrei (Internally Flawless)",
-              "Keine Einschlüsse und nur unbedeutende Oberflächenmerkmale sichtbar"
-            ],
-            [
-              "VVS1",
-              "Sehr, sehr geringfügig eingeschlossen 1",
-              "Winzige Einschlüsse, die äußerst schwer zu finden sind"
-            ],
-            [
-              "VVS2",
-              "Sehr, sehr geringfügig eingeschlossen 2",
-              "Winzige Einschlüsse, die sehr schwer zu finden sind"
-            ],
-            [
-              "VS1",
-              "Sehr geringfügig eingeschlossen 1",
-              "Geringfügige Einschlüsse, die schwer zu finden sind"
-            ],
-            [
-              "VS2",
-              "Sehr geringfügig eingeschlossen 2",
-              "Geringfügige Einschlüsse, die leichter zu finden sein können als bei VS1"
-            ],
-            [
-              "SI1",
-              "Geringfügig eingeschlossen 1",
-              "Erkennbare Einschlüsse, die unter Vergrößerung leichter zu sehen sind"
-            ],
-            [
-              "SI2",
-              "Geringfügig eingeschlossen 2",
-              "Erkennbare Einschlüsse, die unter Vergrößerung leichter sichtbar sind"
-            ],
-            [
-              "I1",
-              "Eingeschlossen 1",
-              "Offensichtliche Einschlüsse, die Erscheinung, Transparenz oder Haltbarkeit beeinträchtigen können"
-            ],
-            [
-              "I2",
-              "Eingeschlossen 2",
-              "Deutlichere Einschlüsse, die Erscheinung, Transparenz oder Haltbarkeit beeinträchtigen können"
-            ],
-            [
-              "I3",
-              "Eingeschlossen 3",
-              "Erhebliche Einschlüsse, die den Diamanten wesentlich beeinflussen können"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Die Tabelle fasst die Skala zusammen. Die einzelnen Merkmale innerhalb eines Diamanten bleiben wichtig."
+    "factors": [
+      "Größe des Merkmals",
+      "Anzahl der Merkmale",
+      "Position",
+      "Natur",
+      "Farbe oder Relief"
+    ],
+    "closing": [
+      "Der Grad allein beschreibt nicht den Ort des Einschlusses. Ein Einschluss unter dem Tisch kann das Erscheinungsbild anders beeinflussen als ein Einschluss in der Nähe des Gürtels."
+    ],
+    "clarityGuideHref": "/blogs/diamond-clarity-grades-explained",
+    "clarityGuideText": "Reinheitsgrade von Diamanten erklärt"
+  },
+  "vs1Vs2": {
+    "id": "vs1-vs-vs2",
+    "title": "VS1 vs. VS2: Was ist der Unterschied?",
+    "intro": [
+      "Sowohl VS1- als auch VS2-Diamanten fallen in die Kategorie „Very Slightly Included“."
+    ],
+    "table": {
+      "caption": "Vergleich der Klarheit von VS1 und VS2",
+      "headers": [
+        "Vergleich",
+        "VS1",
+        "VS2"
+      ],
+      "rows": [
+        [
+          "Einschlusssichtbarkeit bei 10-facher Vergrößerung",
+          "Im Allgemeinen schwieriger zu finden",
+          "Im Allgemeinen etwas einfacher zu finden"
+        ],
+        [
+          "Darstellung ohne Vergrößerung",
+          "Oft sauber aussehend",
+          "Sieht häufig sauber aus, dennoch ist eine Inspektion erforderlich"
+        ],
+        [
+          "Seltenheit",
+          "Höher",
+          "Untere"
+        ],
+        [
+          "Preis, alles andere gleich",
+          "Generell höher",
+          "Im Allgemeinen niedriger"
+        ],
+        [
+          "Beste Verwendung",
+          "Käufer legen Wert auf höhere technische Klarheit",
+          "Käufer, die ein Gleichgewicht zwischen Aussehen und Kosten suchen"
         ]
-      },
-      {
-        "id": "what-determines-a-clarity-grade",
-        "title": "Was bestimmt eine Reinheitsnote?",
-        "paragraphsBefore": [
-          "Ein Labor berücksichtigt:"
-        ],
-        "bullets": [
-          "Größe: Wie groß jedes Merkmal ist",
-          "Art: Welche Art von Einschluss oder Oberflächenmerkmal vorhanden ist",
-          "Anzahl: Wie viele notenrelevante Merkmale sichtbar sind",
-          "Lage: Ob Merkmale zentral, nahe der Rondiste oder in einem anderen Bereich liegen",
-          "Relief: Wie stark sich ein Merkmal vom umgebenden Diamanten abhebt"
-        ],
-        "paragraphsAfter": [
-          "Die Note basiert auf der kombinierten Wirkung dieser Faktoren, nicht einfach auf der Anzahl der Einschlüsse."
-        ]
-      },
-      {
-        "id": "does-vs2-or-si1-mean-eye-clean",
-        "title": "Bedeutet VS2 oder SI1 „eye-clean“?",
-        "paragraphsBefore": [
-          "Nicht automatisch.",
-          "„Eye-clean“ ist keine universelle Labor-Reinheitsnote. Es ist eine praktische Beschreibung, wenn Einschlüsse unter bestimmten Betrachtungsbedingungen ohne Vergrößerung nicht leicht sichtbar sind.",
-          "Die Sichtbarkeit kann abhängen von:"
-        ],
-        "bullets": [
-          "Diamantgröße",
-          "Form",
-          "Farbe des Einschlusses",
-          "Lage des Einschlusses",
-          "Betrachtungsabstand",
-          "Beleuchtung",
-          "Beobachter",
-          "Sehschärfe",
-          "Ob der Diamant lose oder montiert ist"
-        ],
-        "paragraphsAfter": [
-          "Zwei VS2-Diamanten können daher ohne Vergrößerung unterschiedlich aussehen. Einer kann einen kleinen, blassen Einschluss nahe dem Rand enthalten. Ein anderer kann ein dunkleres Merkmal unter der Tafel aufweisen."
-        ]
-      },
-      {
-        "id": "clarity-characteristics-requiring-closer-examination",
-        "title": "Reinheitsmerkmale, die genauer geprüft werden sollten",
-        "paragraphsBefore": [
-          "Achten Sie besonders auf:"
-        ],
-        "bullets": [
-          "Dunkle Einschlüsse unter der Tafel",
-          "Große zentral positionierte Kristalle",
-          "Federn, die sich zur Rondiste erstrecken",
-          "Hohlräume",
-          "Ausbrüche",
-          "Ausgedehnte Wolken",
-          "Anmerkungen zu Wolken oder Punkt-Einschlüssen",
-          "Einschlüsse, die die Transparenz verringern können",
-          "An der Oberfläche offene Merkmale",
-          "Merkmale nahe empfindlicher Ecken oder Spitzen"
-        ],
-        "paragraphsAfter": [
-          "Das Vorhandensein eines Einschlusses macht einen Diamanten nicht automatisch ungeeignet. Art, Ausmaß, Lage und Wirkung müssen beurteilt werden."
-        ]
-      }
+      ]
+    },
+    "closing": [
+      "Ein VS1-Diamant hat technisch gesehen eine höhere Reinheit, aber das bedeutet nicht, dass er brillanter erscheint als jeder VS2-Diamant. Schnitt, Transparenz und Einschlussart können für das sichtbare Ergebnis von größerer Bedeutung sein.",
+      "Bei Stufenschliffen wie Smaragd- und Asscher-Formen können Einschlüsse durch die großen offenen Facetten leichter erkennbar sein. Ein höherer Reinheitsgrad kann daher sinnvoller sein als bei einem Brillantschliff."
+    ]
+  },
+  "eyeClean": {
+    "id": "eye-clean",
+    "title": "Was bedeutet „augenrein“?",
+    "paragraphs": [
+      "„Augenrein“ ist ein Branchenausdruck und kein offizieller GIA-Reinheitsgrad.",
+      "Dies bedeutet normalerweise, dass Einschlüsse unter bestimmten Betrachtungsbedingungen ohne Vergrößerung nicht sichtbar sind. Verkäufer können jedoch Folgendes verwenden:"
+    ],
+    "bullets": [
+      "Betrachtungsentfernungen",
+      "Lichtverhältnisse",
+      "Beobachtungswinkel",
+      "Fristen",
+      "Definitionen des normalen Sehvermögens"
+    ],
+    "askIntro": [
+      "Bevor Sie sich auf den Begriff verlassen, fragen Sie:"
+    ],
+    "questions": [
+      "Aus welcher Entfernung wurde der Diamant untersucht?",
+      "Wurde es von oben, von der Seite oder von beiden Seiten betrachtet?",
+      "War es lose oder montiert?",
+      "Unter welcher Beleuchtung?",
+      "Waren in der Nähe der Mitte Einschlüsse sichtbar?",
+      "Gilt die Einschätzung des Verkäufers für eine Person mit normalem Sehvermögen ohne Sehhilfe?"
+    ],
+    "closing": [
+      "Ein Klarheitsgrad und eine Augenreinheitsbewertung beantworten unterschiedliche Fragen. Der Bewertungsbericht sollte die technische Referenz bleiben."
     ]
   },
   "caratChart": {
     "id": "diamond-carat-weight-chart",
-    "title": "Diagramm zum Diamant-Karatgewicht",
-    "introParagraphs": [
-      "Karat misst Gewicht, nicht Qualität, Durchmesser oder sichtbare Größe."
-    ],
-    "richIntroParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Ein metrisches Karat entspricht 200 Milligramm oder 0,20 Gramm. Ein Karat enthält 100 Punkte; ein Diamant mit 0,50 Karat kann daher auch als 50-Punkte-Diamant bezeichnet werden. "
-        },
-        {
-          "type": "link",
-          "text": "Die GIA-Erklärung zum Karatgewicht",
-          "href": "https://4cs.gia.edu/en-us/diamond-carat-weight/",
-          "external": true
-        },
-        {
-          "type": "text",
-          "value": " bestätigt die metrische Umrechnung."
-        }
-      ]
-    ],
-    "subsections": [
-      {
-        "id": "carat-conversion-chart",
-        "title": "Karat-Umrechnungsdiagramm",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "Umrechnungsdiagramm für Diamantkarat in Punkte und Gramm",
-          "headers": [
-            "Karatgewicht",
-            "Punkte",
-            "Gewicht in Gramm"
-          ],
-          "rows": [
-            [
-              "0.25 ct",
-              "25 Punkte",
-              "0.05 g"
-            ],
-            [
-              "0.50 ct",
-              "50 Punkte",
-              "0.10 g"
-            ],
-            [
-              "0.75 ct",
-              "75 Punkte",
-              "0.15 g"
-            ],
-            [
-              "1.00 ct",
-              "100 Punkte",
-              "0.20 g"
-            ],
-            [
-              "1.25 ct",
-              "125 Punkte",
-              "0.25 g"
-            ],
-            [
-              "1.50 ct",
-              "150 Punkte",
-              "0.30 g"
-            ],
-            [
-              "2.00 ct",
-              "200 Punkte",
-              "0.40 g"
-            ],
-            [
-              "3.00 ct",
-              "300 Punkte",
-              "0.60 g"
-            ],
-            [
-              "5.00 ct",
-              "500 Punkte",
-              "1.00 g"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Dies ist ein Umrechnungsdiagramm für Gewicht. Es sollte nicht als exaktes Diagramm für Diamantdurchmesser verwendet werden."
-        ]
-      },
-      {
-        "id": "why-same-carat-can-look-different",
-        "title": "Warum zwei Diamanten mit demselben Karatgewicht unterschiedlich aussehen können",
-        "paragraphsBefore": [
-          "Die Größe von oben hängt ab von:"
-        ],
-        "bullets": [
-          "Form",
-          "Länge und Breite",
-          "Durchmesser",
-          "Gesamttiefe",
-          "Rondistenstärke",
-          "Pavillontiefe",
-          "Kronenhöhe",
-          "Umriss",
-          "Schliffart",
-          "Gewichtsverteilung"
-        ],
-        "paragraphsAfter": [
-          "Ein tief geschliffener Diamant kann mehr Gewicht unterhalb der Rondiste behalten und von oben kleiner erscheinen.",
-          "Ein längliches Oval, Pear oder Marquise kann aufgrund seiner Länge und sichtbaren Oberfläche größer wirken als eine andere Form gleichen Gewichts. Das macht nicht automatisch eine Form besser; es verändert, wie das Gewicht dargestellt wird."
-        ]
-      },
-      {
-        "id": "important-carat-thresholds",
-        "title": "Wichtige Karatschwellenwerte",
-        "paragraphsBefore": [
-          "Diamanten mit häufig nachgefragten Gewichten wie 0,50, 1,00, 1,50 und 2,00 Karat können am Markt mehr Aufmerksamkeit erhalten.",
-          "Ein Diamant knapp unterhalb eines beliebten Schwellenwerts kann manchmal eine ähnliche sichtbare Größe bieten, dies muss jedoch anhand seiner tatsächlichen Abmessungen und Erscheinung bestätigt werden.",
-          "Vergleichen Sie Preise niemals nur anhand des Karatgewichts."
-        ]
-      }
-    ]
-  },
-  "fancyShapes": {
-    "id": "quality-considerations-for-fancy-shapes",
-    "title": "Diamantqualität bei Fancy-Formen",
-    "introParagraphs": [
-      "Oval, Pear, Cushion, Emerald, Marquise, Radiant, Princess und andere nicht runde Formen werden üblicherweise als Fancy-Formen bezeichnet.",
-      "GIA vergibt derzeit für diese Formen keine Standard-Gesamtschliffnote. Das bedeutet nicht, dass die Schliffqualität unwichtig ist. Es bedeutet, dass Käufer eine breitere Kombination von Abmessungen und visuellen Merkmalen beurteilen müssen."
-    ],
-    "subsections": [
-      {
-        "id": "fancy-shape-quality-checks",
-        "title": "Qualitätsprüfungen bei Fancy-Formen",
-        "paragraphsBefore": [],
-        "table": {
-          "caption": "Qualitätscheckliste für Diamanten in Fancy-Formen",
-          "headers": [
-            "Qualitätsfaktor",
-            "Was zu prüfen ist"
-          ],
-          "rows": [
-            [
-              "Umriss",
-              "Ist die Form ausgewogen und attraktiv?"
-            ],
-            [
-              "Symmetrie",
-              "Sind beide Seiten und wesentliche Merkmale korrekt ausgerichtet?"
-            ],
-            [
-              "Längen-Breiten-Verhältnis",
-              "Hat der Diamant die breite oder längliche Erscheinung, die Sie bevorzugen?"
-            ],
-            [
-              "Sichtbare Spannweite",
-              "Präsentiert der Diamant sein Gewicht wirkungsvoll?"
-            ],
-            [
-              "Facettenmuster",
-              "Ist das Muster geordnet, lebendig und optisch ansprechend?"
-            ],
-            [
-              "Bow-Tie-Effekt",
-              "Gibt es ein unattraktives dunkles Band über einem Oval, Pear oder Marquise?"
-            ],
-            [
-              "Fensterbildung",
-              "Kann man durch Teile eines Emerald- oder anderen Stufenschliffdiamanten hindurchsehen?"
-            ],
-            [
-              "Extinktion",
-              "Sind erhebliche Bereiche dauerhaft dunkel?"
-            ],
-            [
-              "Ecken und Spitzen",
-              "Sind empfindliche Bereiche geschützt und frei von bedenklichen Beschädigungen?"
-            ],
-            [
-              "Politur und Symmetrie",
-              "Welche Finishnoten erscheinen im Laborbericht?"
-            ],
-            [
-              "Farbverteilung",
-              "Konzentriert die Form sichtbare Körperfarbe?"
-            ],
-            [
-              "Lage der Einschlüsse",
-              "Sind Einschlüsse durch größere oder offenere Facetten leicht sichtbar?"
-            ]
-          ]
-        },
-        "paragraphsAfter": [
-          "Die Qualität von Fancy-Formen lässt sich nicht auf eine bevorzugte Tafel, Tiefe oder ein einzelnes Längen-Breiten-Verhältnis reduzieren.",
-          "Zwei Käufer können vernünftigerweise unterschiedliche Umrisse bei Oval oder Cushion bevorzugen. Ziel ist es, einen Stein mit attraktivem Muster, ausgewogenem Umriss und passenden Abmessungen für das vorgesehene Schmuckdesign zu finden."
-        ]
-      }
-    ]
-  },
-  "beyond4Cs": {
-    "id": "diamond-quality-beyond-the-4cs",
-    "title": "Diamantqualität über die 4Cs hinaus",
-    "introParagraphs": [
-      "Die 4Cs bieten ein strukturiertes Vergleichssystem, erfassen jedoch nicht jeden Aspekt der Qualität oder Eignung eines Diamanten."
-    ],
-    "subsections": [
-      {
-        "id": "measurements-and-visible-spread",
-        "title": "Abmessungen und sichtbare Spannweite",
-        "paragraphsBefore": [
-          "Abmessungen zeigen, wie sich das Gewicht eines Diamanten in physische Dimensionen übersetzt.",
-          "Vergleichen Sie das Karatgewicht immer mit:"
-        ],
-        "bullets": [
-          "Durchmesser bei runden Diamanten",
-          "Länge und Breite bei Fancy-Formen",
-          "Gesamttiefe",
-          "Rondistenstärke",
-          "Erscheinung von oben"
-        ]
-      },
-      {
-        "id": "proportions",
-        "title": "Proportionen",
-        "paragraphsBefore": [
-          "Informationen zu Tafel, Tiefe, Krone, Pavillon, Rondiste und Kulette können helfen, Brillanz, Kontrast und sichtbare Spannweite eines Diamanten zu erklären.",
-          "Proportionen sollten als Kombination interpretiert werden. Keine einzelne Zahl garantiert einen schönen Diamanten."
-        ],
-        "richParagraphsAfter": [
-          [
-            {
-              "type": "text",
-              "value": "Rondiste-Dicke, Haltbarkeit und Gewichtsverteilung werden im "
-            },
-            {
-              "type": "link",
-              "text": "Diamant-Rondiste-Leitfaden",
-              "href": "/resources/diamond-girdle-guide"
-            },
-            {
-              "type": "text",
-              "value": " erklärt. Culet-Größe und -Position behandelt der "
-            },
-            {
-              "type": "link",
-              "text": "Diamant-Culet-Leitfaden",
-              "href": "/resources/diamond-culet-guide"
-            },
-            {
-              "type": "text",
-              "value": "."
-            }
-          ]
-        ]
-      },
-      {
-        "id": "transparency",
-        "title": "Transparenz",
-        "paragraphsBefore": [
-          "Ein Diamant kann akzeptable Hauptnoten haben und dennoch trüb, ölig oder milchig erscheinen.",
-          "Die Transparenz sollte geprüft werden anhand von:"
-        ],
-        "bullets": [
-          "Klarem Video",
-          "Mehreren Lichtverhältnissen",
-          "Vergleich mit einem anderen Diamanten",
-          "Professioneller Begutachtung"
-        ]
-      },
-      {
-        "id": "fluorescence",
-        "title": "Fluoreszenz",
-        "paragraphsBefore": [
-          "Fluoreszenz beschreibt die Reaktion eines Diamanten auf ultraviolette Strahlung. Sie ist nicht automatisch ein Mangel.",
-          "Die Wirkung kann je nach Stärke, Farbe und einzelnem Diamanten variieren. Käufer sollten Medium-, Strong- oder Very-Strong-Fluoreszenz bei normaler Beleuchtung und Tageslicht beurteilen, statt allein auf Grundlage der Bezeichnung zu entscheiden."
-        ],
-        "richParagraphsAfter": [
-          [
-            {
-              "type": "text",
-              "value": "Dieses Thema wird vollständig im speziellen "
-            },
-            {
-              "type": "link",
-              "text": "Leitfaden zur Diamantfluoreszenz",
-              "href": "/resources/diamond-fluorescence-guide"
-            },
-            {
-              "type": "text",
-              "value": " behandelt."
-            }
-          ]
-        ]
-      },
-      {
-        "id": "treatments",
-        "title": "Behandlungen",
-        "paragraphsBefore": [
-          "Einige Diamanten können Behandlungen unterzogen werden, die Farbe oder Reinheit verändern sollen.",
-          "Jede festgestellte Behandlung sollte in glaubwürdigen Labordokumenten offengelegt werden. Ein behandelter Naturdiamant sollte nicht allein anhand der 4Cs mit einem unbehandelten Naturdiamanten verglichen werden."
-        ]
-      },
-      {
-        "id": "current-condition",
-        "title": "Aktueller Zustand",
-        "paragraphsBefore": [
-          "Ein Bewertungsbericht dokumentiert den Diamanten in dem Zustand, in dem er untersucht wurde.",
-          "Ein Diamant kann später:"
-        ],
-        "bullets": [
-          "Ausbrechen",
-          "Abgeschürft werden",
-          "Poliert werden",
-          "Neu geschliffen werden",
-          "Behandelt werden",
-          "Beim Fassen oder Tragen beschädigt werden"
-        ],
-        "paragraphsAfter": [
-          "Der aktuelle Zustand kann daher eine gesonderte Prüfung erfordern."
-        ]
-      },
-      {
-        "id": "natural-or-laboratory-grown-identity",
-        "title": "Natürliche oder im Labor gezüchtete Herkunft",
-        "paragraphsBefore": [
-          "Die 4Cs bestimmen nicht, ob ein Diamant natürlich entstanden ist oder im Labor hergestellt wurde.",
-          "Sowohl Naturdiamanten als auch im Labor gezüchtete Diamanten können Angaben zu Farbe, Reinheit, Schliff und Karat erhalten. Die Identifikationsformulierung im Bericht muss eindeutig angeben, welcher Diamanttyp untersucht wurde.",
-          "Bei einem Kauf eines Naturdiamanten bestätigen Sie, dass das Labordokument den Diamanten ausdrücklich als natürlich ausweist."
-        ]
-      }
-    ]
-  },
-  "chooseBalance": {
-    "id": "how-to-choose-the-right-quality-balance",
-    "title": "So wählen Sie die richtige Qualitätsbalance für einen Diamanten",
-    "introParagraphs": [],
-    "subsections": [
-      {
-        "id": "step-1-define-the-intended-use",
-        "title": "Schritt 1: Den vorgesehenen Verwendungszweck festlegen",
-        "paragraphsBefore": [
-          "Beginnen Sie mit dem Schmuckdesign und der Art, wie der Diamant getragen wird.",
-          "Ein Mittelstein für einen Verlobungsring kann andere visuelle und haltbarkeitsbezogene Anforderungen haben als:"
-        ],
-        "bullets": [
-          "Diamant-Ohrstecker",
-          "Ein Anhänger",
-          "Ein Armband",
-          "Ein Ring mit mehreren Steinen",
-          "Ein Schmuckstück für gelegentliches Tragen"
-        ]
-      },
-      {
-        "id": "step-2-choose-the-shape",
-        "title": "Schritt 2: Die Form wählen",
-        "paragraphsBefore": [
-          "Die Form beeinflusst:"
-        ],
-        "bullets": [
-          "Größe von oben",
-          "Facettenmuster",
-          "Sichtbarkeit der Farbe",
-          "Sichtbarkeit von Einschlüssen",
-          "Anforderungen an die Fassung",
-          "Gesamterscheinung"
-        ],
-        "paragraphsAfter": [
-          "Legen Sie Ihre Präferenzen für Farbe oder Reinheit nicht fest, bevor Sie die Form berücksichtigt haben."
-        ]
-      },
-      {
-        "id": "step-3-establish-a-carat-or-size-range",
-        "title": "Schritt 3: Einen Karat- oder Größenbereich festlegen",
-        "paragraphsBefore": [
-          "Entscheiden Sie, ob Ihre Priorität ist:"
-        ],
-        "bullets": [
-          "Ein bestimmter Karatschwellenwert",
-          "Ein spezifischer sichtbarer Durchmesser",
-          "Eine bevorzugte Länge und Breite",
-          "Eine Anforderung der Schmuckfassung",
-          "Eine ausgewogene Kombination aus Größe und Qualität"
-        ],
-        "paragraphsAfter": [
-          "Nutzen Sie Millimetermaße zusätzlich zum Karatgewicht."
-        ]
-      },
-      {
-        "id": "step-4-protect-light-performance",
-        "title": "Schritt 4: Die Lichtleistung schützen",
-        "paragraphsBefore": [
-          "Bei Standard-Round-Brilliant-Diamanten prüfen Sie die Gesamtschliffnote und die Proportionsinformationen.",
-          "Bei Fancy-Formen prüfen Sie Videos, Umriss, Facettenmuster, Bow-Tie-Effekt, Fensterbildung, Spannweite, Politur und Symmetrie.",
-          "Opfern Sie nicht einen großen Teil der sichtbaren Leistung, nur um einen höheren Karatschwellenwert zu erreichen."
-        ]
-      },
-      {
-        "id": "step-5-select-a-suitable-colour-range",
-        "title": "Schritt 5: Einen passenden Farbbereich wählen",
-        "paragraphsBefore": [
-          "Vergleichen Sie Farbe anhand von:"
-        ],
-        "bullets": [
-          "Vorgesehenem Metall",
-          "Diamantform",
-          "Diamantgröße",
-          "Betrachtungsbedingungen",
-          "Empfindlichkeit des Käufers für warme oder kühle Töne"
-        ],
-        "paragraphsAfter": [
-          "Eine Farbnote, die in Gelbgold passend wirkt, kann in Weißmetall anders erscheinen."
-        ]
-      },
-      {
-        "id": "step-6-examine-clarity-visually",
-        "title": "Schritt 6: Reinheit visuell prüfen",
-        "paragraphsBefore": [
-          "Nutzen Sie die Reinheitsnote als Filter und prüfen Sie dann:"
-        ],
-        "bullets": [
-          "Lage der Einschlüsse",
-          "Farbe der Einschlüsse",
-          "Sichtbarkeit ohne Vergrößerung",
-          "Transparenz",
-          "Mögliche Relevanz für die Haltbarkeit",
-          "Reinheitsanmerkungen im Bericht"
-        ],
-        "paragraphsAfter": [
-          "Zahlen Sie nicht für unsichtbare Seltenheit, sofern diese Seltenheit für den Käufer keine Bedeutung hat."
-        ]
-      },
-      {
-        "id": "step-7-review-the-complete-laboratory-report",
-        "title": "Schritt 7: Den vollständigen Laborbericht prüfen",
-        "paragraphsBefore": [
-          "Prüfen Sie:"
-        ],
-        "bullets": [
-          "Identifikation als Naturdiamant",
-          "Berichtsnummer",
-          "Abmessungen",
-          "Noten",
-          "Proportionen",
-          "Fluoreszenz",
-          "Anmerkungen",
-          "Reinheitsmerkmale",
-          "Lasergravur, sofern vorhanden"
-        ],
-        "paragraphsAfter": []
-      },
-      {
-        "id": "step-8-compare-the-actual-diamonds",
-        "title": "Schritt 8: Die tatsächlichen Diamanten vergleichen",
-        "paragraphsBefore": [
-          "Vergleichen Sie ausgewählte Diamanten unter gleichwertigen Bedingungen.",
-          "Nutzen Sie, wann immer möglich:"
-        ],
-        "bullets": [
-          "Gleichbleibende Beleuchtung",
-          "Hochauflösende Fotos",
-          "360-Grad-Video",
-          "Vergrößerte Bilder",
-          "Direkten Vergleich",
-          "Unabhängige oder professionelle Begutachtung"
-        ]
-      },
-      {
-        "id": "step-9-compare-price-only-after-quality",
-        "title": "Schritt 9: Den Preis erst nach der Qualität vergleichen",
-        "paragraphsBefore": [
-          "Zwei Angebote sind nicht wirklich vergleichbar, nur weil sie dieselben Karat-, Farb- und Reinheitsnoten aufweisen.",
-          "Vergleichen Sie:"
-        ],
-        "bullets": [
-          "Labor",
-          "Berichtstyp",
-          "Form",
-          "Abmessungen",
-          "Schliff",
-          "Proportionen",
-          "Politur",
-          "Symmetrie",
-          "Fluoreszenz",
-          "Reinheitsmerkmale",
-          "Transparenz",
-          "Behandlungsstatus",
-          "Verfügbarkeit",
-          "Transaktionsbedingungen"
-        ]
-      }
-    ],
-    "step7RichParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Nutzen Sie den separaten "
-        },
-        {
-          "type": "link",
-          "text": "Leitfaden zum Diamant-Bewertungsbericht",
-          "href": "/resources/diamond-grading-report-guide"
-        },
-        {
-          "type": "text",
-          "value": " für einen schrittweisen Prozess zur Überprüfung eines Berichts."
-        }
-      ]
-    ]
-  },
-  "workedComparison": {
-    "id": "worked-diamond-comparison",
-    "title": "Praxisvergleich der Diamantqualität",
-    "introParagraphs": [
-      "Betrachten Sie zwei hypothetische natürliche Round-Brilliant-Diamanten."
+    "title": "Diamant-Karat-Gewichtstabelle",
+    "intro": [
+      "Karat misst das Gewicht, nicht den physischen Durchmesser oder die sichtbare Größe.",
+      "Ein metrisches Karat entspricht 200 Milligramm und wird in 100 Punkte unterteilt."
     ],
     "table": {
-      "caption": "Praxisvergleich zweier Naturdiamanten",
+      "caption": "Karatgewicht, Punkte und ungefähres Milligrammgewicht",
       "headers": [
-        "Merkmal",
-        "Diamant A",
-        "Diamant B"
+        "Karatgewicht",
+        "Punkte",
+        "Ungefähres Gewicht"
       ],
       "rows": [
         [
-          "Karat",
-          "1.00 ct",
-          "1.10 ct"
+          "0,25 ct",
+          "25 Punkte",
+          "50 mg"
         ],
         [
-          "Farbe",
-          "G",
-          "H"
+          "0,50 ct",
+          "50 Punkte",
+          "100 mg"
         ],
         [
-          "Reinheit",
-          "VS2",
-          "SI1"
+          "0,75 ct",
+          "75 Punkte",
+          "150 mg"
         ],
         [
-          "Schliff",
-          "Excellent",
-          "Very Good"
+          "1,00 ct",
+          "100 Punkte",
+          "200 mg"
         ],
         [
-          "Politur",
-          "Excellent",
-          "Excellent"
+          "1,50 ct",
+          "150 Punkte",
+          "300 mg"
         ],
         [
-          "Symmetrie",
-          "Excellent",
-          "Very Good"
+          "2,00 ct",
+          "200 Punkte",
+          "400 mg"
         ],
         [
-          "Fluoreszenz",
-          "None",
-          "Medium"
-        ],
-        [
-          "Bericht",
-          "Unabhängig bewertet",
-          "Unabhängig bewertet"
+          "3,00 ct",
+          "300 Punkte",
+          "600 mg"
         ]
       ]
     },
-    "analysis": {
-      "title": "Was das Diagramm zeigt",
-      "paragraphsBefore": [
-        "Diamant A hat höhere Noten bei Schliff, Farbe, Reinheit und Symmetrie. Diamant B hat ein höheres Karatgewicht.",
-        "Dies bestimmt nicht automatisch, welcher Diamant vorzuziehen ist.",
-        "Der Käufer muss weiterhin bestimmen:"
-      ],
-      "bullets": [
-        "Welcher Diamant hat die besseren Abmessungen von oben?",
-        "Ist der SI1-Einschluss ohne Vergrößerung sichtbar?",
-        "Hat der Einschluss Auswirkungen auf Transparenz oder Haltbarkeit?",
-        "Wie wirkt Diamant B visuell trotz seiner Very-Good-Schliffnote?",
-        "Beeinflusst Medium-Fluoreszenz die Erscheinung von Diamant B?",
-        "Ist der Farbunterschied in der vorgesehenen Fassung erkennbar?",
-        "Welcher Diamant bietet beim genannten Preis die bevorzugte Balance?"
-      ],
-      "paragraphsAfter": [
-        "Ein Käufer, der Schliffpräzision priorisiert, könnte Diamant A bevorzugen.",
-        "Ein Käufer, der sichtbare Größe priorisiert, könnte Diamant B in Betracht ziehen, wenn dieser eine attraktive Erscheinung, passende Abmessungen und akzeptable Einschlüsse aufweist.",
-        "Das Qualitätsdiagramm grenzt die Entscheidung ein. Es ersetzt keine Prüfung."
-      ]
-    }
+    "afterTable": [
+      "Bei Carat gibt es keine Note „gut“ oder „schlecht“. Es zeichnet auf, wie viel der Diamant wiegt.",
+      "Zwei einkarätige Diamanten können unterschiedlich sein:"
+    ],
+    "differenceBullets": [
+      "Durchmesser",
+      "Längen",
+      "Breiten",
+      "Tiefe",
+      "Offene Bereiche",
+      "Proportionen",
+      "Visuelle Wirkung"
+    ],
+    "sizeChartHref": "/resources/diamond-size-chart",
+    "sizeChartText": "Diamant-Größentabelle",
+    "caratGuideHref": "/blogs/diamond-carat-weight-guide",
+    "caratGuideText": "Leitfaden zum Karatgewicht von Diamanten"
   },
-  "rarityPriceValue": {
-    "id": "diamond-quality-versus-rarity-price-and-value",
-    "title": "Diamantqualität, Seltenheit, Preis und Wert",
-    "introParagraphs": [
-      "Diese Begriffe hängen zusammen, sind jedoch nicht identisch."
+  "price4cs": {
+    "id": "how-4cs-affect-price",
+    "title": "Wie sich die 4Cs auf den Diamantenpreis auswirken",
+    "intro": [
+      "Die 4Cs interagieren, anstatt unabhängig voneinander zu agieren.",
+      "Wenn alle anderen Faktoren gleich sind:"
+    ],
+    "equalBullets": [
+      "Ein höherer Farbgrad erhöht im Allgemeinen die Seltenheit und den Preis",
+      "Ein höherer Reinheitsgrad erhöht im Allgemeinen die Seltenheit und den Preis",
+      "Ein höheres Karatgewicht erhöht im Allgemeinen den Preis",
+      "Eine bessere Schnittqualität kann den Preis erhöhen und das Erscheinungsbild verbessern"
+    ],
+    "mid": [
+      "In der Praxis sind alle anderen Faktoren selten gleich.",
+      "Ein einkarätiger runder D/VVS1-Diamant und ein einkarätiger runder G/VS2-Diamant können aufgrund von Farbe und Reinheit unterschiedliche Preise haben. Allerdings ist ihr sichtbarer Unterschied für einen Käufer möglicherweise weniger bedeutsam als der Unterschied zwischen einem ausgezeichneten und einem schlecht funktionierenden Schnitt.",
+      "Die Preise können auch beeinflusst werden durch:"
+    ],
+    "influences": [
+      "Form",
+      "Genaue Maße",
+      "Karat-Grenzwerte",
+      "Fluoreszenz",
+      "Polnisch und Symmetrie",
+      "Bewertungslabor",
+      "Behandlungen",
+      "Natürlicher Ursprung",
+      "Dokumentation der geografischen Herkunft",
+      "Marktverfügbarkeit",
+      "Passende Anforderungen",
+      "Lieferanten- und Einzelhandelsdienstleistungen"
+    ],
+    "closing": [
+      "Eine Diamantqualitätstabelle hilft bei der Organisation des Vergleichs, es handelt sich jedoch nicht um eine Preisliste."
+    ]
+  },
+  "practicalCombinations": {
+    "id": "practical-combinations",
+    "title": "Praktische Diamantqualitätskombinationen",
+    "intro": [
+      "Die folgende Tabelle bietet Vergleichsstartpunkte. Hierbei handelt es sich nicht um im Labor erstellte Gesamtbewertungen oder Aussehensgarantien."
+    ],
+    "table": {
+      "caption": "Praktische Ausgangspunkte für die Diamantqualität nach Käuferpriorität",
+      "headers": [
+        "Käuferpriorität",
+        "Ausgangspunkt für die Farbe",
+        "Klarheit als Ausgangspunkt",
+        "Priorität schneiden oder beenden",
+        "Was muss überprüft werden"
+      ],
+      "rows": [
+        [
+          "Maximale Seltenheit",
+          "D–F",
+          "FL–VVS",
+          "Hervorragender Schnitt für geeignete Runden",
+          "Ob die Seltenheitsprämie für den Käufer von Bedeutung ist"
+        ],
+        [
+          "Premium sichtbare Qualität",
+          "F–H",
+          "VS1–VS2",
+          "Hervorragend oder stark. Sehr gute Runde",
+          "Tatsächliches Aussehen und Proportionen"
+        ],
+        [
+          "Ausgewogene Qualität und Preis",
+          "G–J",
+          "VS2–SI1",
+          "Legen Sie Wert auf starken Schnitt und Transparenz",
+          "Augensichtbarkeit, Einschlussart und Maße"
+        ],
+        [
+          "Design in warmen Farbtönen",
+          "ICH BIN",
+          "VS2–SI2",
+          "Formgerechte Proportionen",
+          "Metallische Farbe und nach oben gerichtete Wärme"
+        ],
+        [
+          "Großer Diamant innerhalb des Budgets",
+          "Vergleichen Sie mehrere Noten",
+          "Betrachten Sie sorgfältig ausgewählte VS2–SI",
+          "Schnitt und Haltbarkeit erhalten",
+          "Die Sichtbarkeit von Einschlüssen nimmt mit der Größe zu"
+        ],
+        [
+          "Smaragd- oder Asscher-Schliff",
+          "Vergleichen Sie die Farbe persönlich",
+          "Oft VS oder besser",
+          "Symmetrie, Stufen und Umriss",
+          "Offene Facetten können Farben und Einschlüsse offenbaren"
+        ],
+        [
+          "Passendes Paar",
+          "Eng abgestimmt",
+          "Eng abgestimmt",
+          "Passende Abmessungen und Leistung",
+          "Visuelle Übereinstimmung ist wichtiger als identische Etiketten allein"
+        ]
+      ]
+    },
+    "closing": [
+      "Bei diesen Spannen handelt es sich um Ausgangspunkte, nicht um feste Kaufregeln."
+    ]
+  },
+  "threeDiamonds": {
+    "id": "comparing-three-diamonds",
+    "title": "Beispiel: Vergleich von drei natürlichen Diamanten",
+    "intro": [
+      "Stellen Sie sich drei runde, brillante Naturdiamanten vor:"
+    ],
+    "table": {
+      "caption": "Beispielvergleich von drei Naturdiamanten",
+      "headers": [
+        "Diamant",
+        "Karat",
+        "Farbe",
+        "Klarheit",
+        "Schneiden",
+        "Allgemeine Interpretation"
+      ],
+      "rows": [
+        [
+          "A",
+          "1.00",
+          "D",
+          "VVS1",
+          "Very Good",
+          "Hohe Farb- und Klarheitsrarität, aber der Schliff sollte sorgfältig verglichen werden"
+        ],
+        [
+          "B",
+          "1.00",
+          "G",
+          "VS2",
+          "Excellent",
+          "Ausgewogene technische Spezifikationen mit starkem Schnittpotenzial"
+        ],
+        [
+          "C",
+          "0.92",
+          "H",
+          "SI1",
+          "Excellent",
+          "Potenzielle Wertoption, wenn Einschlüsse nicht stören und die Messungen stark sind"
+        ]
+      ]
+    },
+    "closing": [
+      "Anhand dieser Tabelle allein ist es nicht möglich, den schönsten Diamanten zu bestimmen.",
+      "Diamant A trägt möglicherweise die höchste Seltenheitsprämie. Diamond B bietet möglicherweise die ausgewogensten Papierspezifikationen. Diamond C bietet für seinen Preis möglicherweise ein konkurrenzfähiges visuelles Ergebnis – aber nur, wenn seine Einbeziehung, Transparenz, Abmessungen und Leistung akzeptabel sind.",
+      "Aus diesem Grund empfiehlt Dalila, den Bericht und den tatsächlichen Diamanten miteinander zu vergleichen."
+    ]
+  },
+  "polishSymmetry": {
+    "id": "polish-and-symmetry",
+    "title": "Polnisch und Symmetrie",
+    "paragraphs": [
+      "Polieren beschreibt die Qualität der Facettenoberflächen des Diamanten nach dem Schleifen.",
+      "Bei der Symmetrie wird die Präzision der Form, Facettenausrichtung und Anordnung des Diamanten bewertet.",
+      "Die allgemeine GIA-Abschlussskala umfasst:"
+    ],
+    "bullets": [
+      "Excellent",
+      "Very Good",
+      "Good",
+      "Fair",
+      "Poor"
+    ],
+    "closing": [
+      "Für viele Mitteldiamanten sind ausgezeichnete oder sehr gute Politur und Symmetrie ein praktischer Ausgangspunkt.",
+      "Ein standardmäßiger runder Brillant kann immer noch einen ausgezeichneten GIA-Schliffgrad mit sehr guter Politur oder Symmetrie erhalten. Bei Triple Excellent handelt es sich also um eine bestimmte Sortenkombination und nicht um die Mindestanforderung für einen attraktiven Diamanten.",
+      "Auch ausgefallene Formen sollten auf ihre Umrisssymmetrie untersucht werden. Das Symmetrieergebnis eines Bewertungsberichts ersetzt nicht die Prüfung, ob ein Oval, eine Birne, eine Marquise oder ein Kissen optisch ausgewogen aussieht."
+    ]
+  },
+  "fluorescence": {
+    "id": "diamond-fluorescence",
+    "title": "Diamantfluoreszenz",
+    "intro": [
+      "Fluoreszenz beschreibt die Reaktion eines Diamanten, wenn er langwelliger ultravioletter Strahlung ausgesetzt wird.",
+      "GIA-Berichte verwenden die folgenden Stärkebeschreibungen:"
+    ],
+    "strengths": [
+      "None",
+      "Schwach",
+      "Medium",
+      "Stark",
+      "Sehr stark"
+    ],
+    "mid": [
+      "Fluoreszenz gehört nicht zu den 4Cs und ist nicht automatisch gut oder schlecht.",
+      "Es sollte anhand des einzelnen Diamanten bewertet werden, da seine kommerzielle und visuelle Relevanz von Folgendem abhängen kann:"
+    ],
+    "factors": [
+      "Fluoreszenzstärke",
+      "Fluoreszenzfarbe",
+      "Diamantfarbe",
+      "Transparenz",
+      "Lichtverhältnisse",
+      "Marktpräferenz"
+    ],
+    "closing": [
+      "GIA-Untersuchungen ergaben, dass etwa 25–35 % der zur Bewertung eingereichten Diamanten ein gewisses Maß an Fluoreszenz aufwiesen. Die meisten fluoreszierenden Diamanten zeigten blaue Fluoreszenz.",
+      "Gehen Sie nicht davon aus, dass jeder stark fluoreszierende Diamant verschwommen ist. Überprüfen Sie Transparenz und Aussehen, anstatt den Diamanten allein aufgrund der Fluoreszenzbeschreibung abzulehnen oder zu akzeptieren."
+    ]
+  },
+  "beyond4cs": {
+    "id": "factors-beyond-the-4cs",
+    "title": "Faktoren jenseits der 4Cs",
+    "intro": [
+      "Die 4Cs sind die Grundlage für den Vergleich, aber bei der professionellen Auswahl werden auch Folgendes berücksichtigt:"
     ],
     "subsections": [
       {
-        "id": "quality",
-        "title": "Qualität",
-        "paragraphsBefore": [
-          "Qualität beschreibt Merkmale wie Schliff, Farbe und Reinheit sowie die handwerkliche Ausführung und Erscheinung des Diamanten."
+        "title": "Maße und Aufstrich nach oben",
+        "paragraphs": [
+          "Messungen zeigen, wie groß der Diamant von oben erscheint und ob seine Abmessungen zur vorgesehenen Fassung passen.",
+          "Ein tief geschliffener Diamant kann unterhalb der Rundiste mehr Gewicht behalten und kleiner erscheinen als ein anderer Diamant mit gleichem Karatgewicht."
         ]
       },
       {
-        "id": "rarity",
-        "title": "Seltenheit",
-        "paragraphsBefore": [
-          "Höhere Noten und größere Karatgewichte können seltener sein. Seltenheit kann zu einem höheren Preis beitragen, auch wenn der visuelle Unterschied subtil ist."
+        "title": "Proportionen",
+        "paragraphs": [
+          "Tischgröße, Gesamttiefe, Scheitelwinkel, Pavillonwinkel, Rundiste und Kalette können das Aussehen, die Haltbarkeit und die Gewichtsverteilung beeinflussen.",
+          "Anteilszahlen sollten zusammen interpretiert werden und nicht anhand eines einzelnen Prozentsatzes beurteilt werden."
         ]
       },
       {
-        "id": "price",
-        "title": "Preis",
-        "paragraphsBefore": [
-          "Der Preis ist der Betrag, der bei einer bestimmten Transaktion verlangt wird. Er kann beeinflusst werden durch:"
-        ],
-        "bullets": [
-          "Qualität",
-          "Seltenheit",
-          "Form",
-          "Karatschwellenwerte",
-          "Marktbedingungen",
-          "Lieferant",
-          "Verfügbarkeit",
-          "Zertifizierung",
-          "Behandlungsstatus",
-          "Kommerzielle Bedingungen"
+        "title": "Transparenz",
+        "paragraphs": [
+          "Ein Diamant kann einen hohen Reinheitsgrad haben, aber aufgrund seiner Transparenz oder Lichtstreuungseigenschaften dennoch weniger scharf erscheinen.",
+          "Die Transparenz muss durch geeignete Bilder, Videos oder physische Inspektion überprüft werden."
         ]
       },
       {
-        "id": "value",
-        "title": "Wert",
-        "paragraphsBefore": [
-          "Der Wert hängt vom Zweck und Kontext ab, in dem er betrachtet wird.",
-          "Kaufpreis, Wiederbeschaffungswert und zukünftiger Wiederverkaufswert sind nicht automatisch gleich.",
-          "Ein Diamant-Bewertungsbericht bestimmt keinen Geldwert. Ein Qualitätsdiagramm kann ebenfalls nicht angeben, was ein bestimmter Diamant kosten sollte, ohne den vollständigen Stein und den aktuellen Marktvergleich zu prüfen."
+        "title": "Art und Position des Einschlusses",
+        "paragraphs": [
+          "Ein kleiner dunkler Einschluss in der Mitte kann störender sein als ein ähnlich großer Einschluss am Rand. Ein Einschluss, der bis zur Oberfläche reicht oder sich an einer gefährdeten Stelle befindet, kann ebenfalls eine genauere Beurteilung der Haltbarkeit erfordern."
         ]
       },
       {
-        "id": "does-highest-grade-provide-best-value",
-        "title": "Bietet die höchste Note den besten Wert?",
-        "paragraphsBefore": [
-          "Nicht immer.",
-          "Ein farbloser Diamant der Farbe D mit der Reinheit Flawless kann äußerst selten sein, doch ein anderer Käufer zieht es möglicherweise vor, einen größeren Teil des Budgets in Größe, Form oder Schliff zu investieren und eine niedrigere Farb- oder Reinheitsnote zu wählen.",
-          "Die beste Balance ist die Kombination, die:"
-        ],
-        "bullets": [
-          "Die visuellen Erwartungen des Käufers erfüllt",
-          "Glaubwürdige Dokumentation hat",
-          "Für das vorgesehene Schmuckstück geeignet ist",
-          "Inakzeptable Bedenken hinsichtlich Transparenz oder Haltbarkeit vermeidet",
-          "Im Vergleich mit wirklich ähnlichen Diamanten wettbewerbsfähig bepreist ist",
-          "In das verfügbare Budget passt"
+        "title": "Fliege-Effekt",
+        "paragraphs": [
+          "Ovale, birnenförmige, marquiseförmige und einige andere längliche Formen können ein dunkles Fliegenmuster aufweisen. Eine Fliege ist nicht automatisch inakzeptabel, aber ihre Stärke und Beständigkeit sollte überprüft werden."
+        ]
+      },
+      {
+        "title": "Behandlungen",
+        "paragraphs": [
+          "Einige natürliche Diamanten werden behandelt, um ihre Farbe oder scheinbare Reinheit zu verändern. Behandlungen sollten offengelegt und dokumentiert werden."
+        ]
+      },
+      {
+        "title": "Bewertungslabor",
+        "paragraphs": [
+          "Es sollte nicht davon ausgegangen werden, dass Berichte verschiedener Labore austauschbar sind. Bestätigen Sie das verwendete Bewertungssystem und verifizieren Sie den Bericht durch das ausstellende Labor."
         ]
       }
+    ],
+    "labCompareHref": "/blogs/hrd-vs-gia-vs-igi-diamond-certification",
+    "labCompareText": "GIA vs. IGI vs. HRD",
+    "advancedHref": "/blogs/advanced-diamond-grading-factors",
+    "advancedText": "Erweiterte Diamant-Bewertungsfaktoren"
+  },
+  "goodQuality": {
+    "id": "what-is-good-quality",
+    "title": "Was ist eine gute Diamantqualität?",
+    "intro": [
+      "Es gibt keine einzelne Spezifikation, die für jeden Käufer richtig ist.",
+      "Für einen runden, brillanten Naturdiamanten kann ein praktischer Vergleich beginnen mit:"
+    ],
+    "bullets": [
+      "Ausgezeichneter oder sehr guter Schnitt",
+      "G–J-Farbe",
+      "VS2 oder sorgfältig bewertete SI1-Klarheit",
+      "Sehr gute oder ausgezeichnete Politur",
+      "Sehr gute oder ausgezeichnete Symmetrie",
+      "Maße entsprechend dem Karatgewicht"
+    ],
+    "closing": [
+      "Dies ist keine allgemeingültige Empfehlung. Ein D/VVS-Diamant könnte für einen Käufer geeignet sein, der Wert auf Seltenheit legt. Ein wärmerer Diamant könnte zu einem Gelbgold-Design passen. Ein Diamant im Stufenschliff erfordert möglicherweise eine andere Reinheitsbalance als ein runder Brillant.",
+      "Die richtige Qualität ist die Kombination, die das gewünschte Aussehen, die Dokumentation und die Seltenheit liefert, ohne für Qualitäten zu zahlen, die nicht den Prioritäten des Käufers entsprechen."
+    ]
+  },
+  "readReport": {
+    "id": "how-to-read-grading-report",
+    "title": "So lesen Sie einen Diamantbewertungsbericht",
+    "intro": [
+      "Suchen und überprüfen Sie vor dem Kauf Folgendes:"
+    ],
+    "bullets": [
+      "Berichtsnummer",
+      "Identifizierung von Naturdiamanten",
+      "Form und Schnittstil",
+      "Messungen",
+      "Karatgewicht",
+      "Farbgrad",
+      "Klarheitsgrad",
+      "Gegebenenfalls Schnittgrad",
+      "Polieren",
+      "Symmetrie",
+      "Fluoreszenz",
+      "Proportionsdiagramm",
+      "Klarheitsdiagramm, sofern bereitgestellt",
+      "Kommentare",
+      "Erkannte Behandlungen",
+      "Informationen zur Laserbeschriftung"
+    ],
+    "closing": [
+      "Geben Sie die Berichtsnummer in den offiziellen Berichtprüfdienst des ausstellenden Labors ein. Bestätigen Sie, dass die Online-Angaben mit dem Dokument und dem angebotenen Diamanten übereinstimmen.",
+      "Bei einem Bewertungsbericht handelt es sich in der Regel nicht um eine Wertermittlung, Preisgarantie oder einen vollständigen Nachweis der Bergbauherkunft."
     ]
   },
   "checklist": {
-    "id": "natural-diamond-buying-checklist",
-    "title": "Qualitätscheckliste für Naturdiamanten",
-    "introLead": "Bestätigen Sie vor dem Kauf:",
+    "id": "buying-checklist",
+    "title": "Checkliste für den Kauf von Diamantqualität",
+    "intro": [
+      "Bevor Sie sich für einen Naturdiamanten entscheiden:"
+    ],
     "items": [
-      "Der Diamant ist eindeutig als natürlich ausgewiesen.",
-      "Der Bewertungsbericht stammt von einem glaubwürdigen unabhängigen Labor.",
-      "Die Berichtsnummer wurde über das ausstellende Labor überprüft.",
-      "Form und Schliffart stimmen mit dem Angebot überein.",
-      "Karatgewicht und Abmessungen stimmen überein.",
-      "Die Abmessungen von oben wurden verglichen.",
-      "Schliffqualität oder Erscheinung der Fancy-Form wurde beurteilt.",
-      "Tafel, Tiefe und relevante Proportionen wurden geprüft.",
-      "Die Farbe wurde in Bezug auf Form, Größe und Metall berücksichtigt.",
-      "Reinheitsmerkmale und Anmerkungen wurden geprüft.",
-      "Die ohne Vergrößerung sichtbare Erscheinung des Diamanten wurde kontrolliert.",
-      "Die Transparenz wurde beurteilt.",
-      "Politur und Symmetrie wurden geprüft.",
-      "Fluoreszenz wurde berücksichtigt.",
-      "Offenlegungen zu Behandlungen wurden geprüft.",
-      "Die Lasergravur stimmt überein, sofern vorhanden.",
-      "Der aktuelle physische Zustand wurde berücksichtigt.",
-      "Fotos und Video zeigen den tatsächlichen Diamanten.",
-      "Der Preis wurde mit wirklich ähnlichen Diamanten verglichen.",
-      "Zahlungs-, Prüfungs-, Liefer- und Rückgabebedingungen sind klar."
+      "Bestätigen Sie, dass es sich bei dem angebotenen Stein um einen natürlichen Diamanten handelt.",
+      "Fordern Sie einen unabhängigen Bewertungsbericht an.",
+      "Überprüfen Sie den Bericht durch das Labor.",
+      "Vergleichen Sie alle vier Cs und nicht nur eine Note.",
+      "Priorisieren Sie den Schnitt und das tatsächliche Erscheinungsbild.",
+      "Überprüfen Sie die Millimetermaße und die Ausbreitung der Vorderseite nach oben.",
+      "Überprüfen Sie das Einschlussdiagramm und die tatsächlichen vergrößerten Medien.",
+      "Fragen Sie, ob der Diamant ohne Vergrößerung sauber erscheint.",
+      "Überprüfen Sie Transparenz und Unschärfe.",
+      "Überprüfen Sie die Fluoreszenz unter relevanter Beleuchtung.",
+      "Überprüfen Sie Politur und Symmetrie.",
+      "Bewerten Sie ggf. ausgefallene Konturen und eine Fliege.",
+      "Bestätigen Sie alle Behandlungen schriftlich.",
+      "Überprüfen Sie ggf. die Laserbeschriftung.",
+      "Vergleichen Sie den Gesamtpreis und die Geschäftsbedingungen.",
+      "Halten Sie den Bericht, die Rechnung und die Beschaffungsdokumente zusammen."
     ]
   },
   "cta": {
-    "id": "already-comparing-natural-diamonds",
-    "title": "Vergleichen Sie bereits Naturdiamanten?",
-    "richParagraphs": [
-      [
-        {
-          "type": "text",
-          "value": "Ein Diamant-Qualitätsdiagramm kann Ihnen helfen, die Noten zu verstehen, doch die endgültige Entscheidung sollte auf dem vollständigen Stein, seiner Dokumentation, visuellen Erscheinung, dem Preis und den Transaktionsbedingungen beruhen."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Mit "
-        },
-        {
-          "type": "link",
-          "text": "S2S – Secure To Source",
-          "href": "/secure-to-source"
-        },
-        {
-          "type": "text",
-          "value": " können Käufer, die bereits einen losen Naturdiamanten gefunden haben, den ausgewählten Stein bei Dalila Diamonds für die anwendbare Koordination der Qualitätskontrolle, Euro-Zahlung und terminierte Lieferung nach Belgien oder an ein anderes bestätigtes Ziel in der Europäischen Union einreichen."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Wenn Sie noch keinen Stein ausgewählt haben, nutzen Sie "
-        },
-        {
-          "type": "link",
-          "text": "DS4U – Diamond Source For You",
-          "href": "/diamond-source"
-        },
-        {
-          "type": "text",
-          "value": ", um individuelle Beschaffungsunterstützung für Naturdiamanten anzufordern."
-        }
-      ]
+    "id": "source-by-quality",
+    "title": "Beschaffen Sie einen natürlichen Diamanten nach genauen Qualitätsanforderungen",
+    "intro": [
+      "Dalila Diamonds kann natürliche Diamanten anhand einer vollständigen Spezifikation anstelle einer einzelnen Qualität beschaffen.",
+      "Eine DS4U-Anfrage kann Folgendes umfassen:"
     ],
-    "primaryButtonText": "Ausgewählten Diamanten einreichen",
-    "primaryButtonHref": "/contact",
-    "secondaryButtonText": "Naturdiamanten durchsuchen",
-    "secondaryButtonHref": "/inventory"
+    "bullets": [
+      "Form",
+      "Karatbereich",
+      "Genaue Maße",
+      "Farbpalette",
+      "Klarheitsbereich",
+      "Schnitt- oder Proportionsanforderungen",
+      "Polieren",
+      "Symmetrie",
+      "Fluoreszenz",
+      "Bewertungslabor",
+      "Budget",
+      "Passende Anforderungen",
+      "Beabsichtigtes Schmuckdesign",
+      "Dokumentationsanforderungen"
+    ],
+    "closing": [
+      "Dadurch können Käufer, Juweliere und Designer einen ausgewogenen Diamanten anfordern, der zum tatsächlichen Projekt passt."
+    ],
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "Fordern Sie einen Diamanten über DS4U an",
+    "secondaryButtonHref": "/diamond-source",
+    "notice": "Verfügbarkeit und Eignung müssen für den einzelnen Diamanten bestätigt werden.",
+    "relatedHref": "/resources/natural-vs-lab-grown-diamonds",
+    "relatedText": "natürliche vs. im Labor gezüchtete Diamanten"
   },
   "faqs": {
-    "title": "Häufig gestellte Fragen zur Diamantqualität",
+    "id": "frequently-asked-questions",
+    "title": "Häufig gestellte Fragen",
     "items": [
       {
-        "question": "Was ist ein Diamant-Qualitätsdiagramm?",
-        "answer": "Ein Diamant-Qualitätsdiagramm ordnet die anerkannten Skalen zur Beschreibung von Schliff, Farbe, Reinheit und Karatgewicht. Es hilft Käufern, die Bedeutung verschiedener Noten zu verstehen und Naturdiamanten einheitlicher zu vergleichen."
-      },
-      {
-        "question": "Wie wird Diamantqualität gemessen?",
-        "answer": "Diamantqualität wird hauptsächlich durch Schliff, Farbe, Reinheit und Karatgewicht beschrieben. Käufer sollten auch Abmessungen, Proportionen, Politur, Symmetrie, Fluoreszenz, Transparenz, Behandlungen und aktuellen Zustand berücksichtigen."
-      },
-      {
         "question": "Was sind die 4Cs der Diamantqualität?",
-        "answer": "Die 4Cs sind Schliff, Farbe, Reinheit und Karatgewicht. Sie bieten einen Standardrahmen zur Beschreibung und zum Vergleich von Diamanten."
+        "answer": "Die 4Cs sind Schliff, Farbe, Reinheit und Karatgewicht. Zusammen bilden sie einen Standardrahmen für die Beschreibung und den Vergleich der Diamantqualität."
+      },
+      {
+        "question": "Was ist die beste Diamantqualität?",
+        "answer": "Es gibt keine optimale Spezifikation für jeden Käufer. Die beste Wahl ist ein ausgewogenes Verhältnis zwischen sichtbarem Erscheinungsbild, Seltenheit, Dokumentation, beabsichtigter Umgebung und Budget."
+      },
+      {
+        "question": "Was ist eine gute Diamantfarbe und -reinheit?",
+        "answer": "Die G–J-Farbe mit VS2- oder sorgfältig bewerteter SI1-Klarheit kann für viele Käufer einen nützlichen Ausgangspunkt bieten. Die passende Kombination hängt von Form, Größe, Einstellung und persönlichen Vorlieben ab."
+      },
+      {
+        "question": "Ist VS1 besser als VS2?",
+        "answer": "VS1 hat einen höheren technischen Klarheitsgrad als VS2. Allerdings erscheinen viele Diamanten in beiden Qualitäten ohne Vergrößerung sauber, sodass der sichtbare Unterschied möglicherweise begrenzt ist."
+      },
+      {
+        "question": "Ist die VS2-Klarheit gut?",
+        "answer": "VS2 bietet ein ausgewogenes Verhältnis zwischen Aussehen, Seltenheit und Preis. Der einzelne Diamant muss noch auf Einschlussart, Position, Sichtbarkeit und Transparenz überprüft werden."
+      },
+      {
+        "question": "Ist die SI1-Klarheit augenrein?",
+        "answer": "Einige SI1-Diamanten erscheinen ohne Vergrößerung sauber, während andere sichtbare Einschlüsse aufweisen. „Augensauber“ ist kein offizieller GIA-Grad und muss für den einzelnen Diamanten beurteilt werden."
       },
       {
         "question": "Welches der 4Cs ist am wichtigsten?",
-        "answer": "Es gibt keine universelle Reihenfolge für jeden Kauf. Der Schliff hat oft starken Einfluss auf sichtbare Brillanz und Funkeln, während Farbe, Reinheit und Karat Erscheinung, Seltenheit und Preis beeinflussen. Die vorgesehene Form und das Schmuckdesign sollten die Balance bestimmen."
+        "answer": "Der Schliff hat oft den größten unmittelbaren Einfluss auf die sichtbare Schönheit eines runden Brillanten, da er Helligkeit, Feuer und Funkeln beeinflusst. Die anderen Cs beeinflussen weiterhin Aussehen, Seltenheit und Preis."
       },
       {
-        "question": "Was ist die höchste Diamantfarbnote?",
-        "answer": "D ist die höchste Note auf der normalen Farbskala D bis Z. Sie steht für das farblose Ende der Skala. Fancy-Farbdiamanten verwenden ein anderes Bewertungssystem."
+        "question": "Bedeutet ein höherer Karatwert einen besseren Diamanten?",
+        "answer": "Nein. Karat misst das Gewicht, nicht die allgemeine Schönheit oder Qualität. Ein kleinerer, gut geschliffener Diamant kann attraktiver erscheinen als ein größerer Diamant mit schwächeren Proportionen."
       },
       {
-        "question": "Gilt die Farbe G als gute Qualität?",
-        "answer": "G gehört zur Kategorie fast farblos. Ob sie passend ist, hängt vom einzelnen Diamanten, seiner Größe, Form, seinem Schliff, dem Fassungsmetall und der Farbempfindlichkeit des Käufers ab."
+        "question": "Bewertet GIA den Schliff von ovalen oder tropfenförmigen Diamanten?",
+        "answer": "Der GIA-Standard-Gesamtschliffgrad gilt für geeignete Standard-Diamanten mit rundem Brillantschliff. Ausgefallene Formen wie Oval- und Tropfendiamanten erfordern eine Beurteilung der Proportionen, der Verarbeitung, des Umrisses und des tatsächlichen Erscheinungsbilds."
       },
       {
-        "question": "Was ist die beste Diamantreinheit?",
-        "answer": "Flawless ist die höchste GIA-Reinheitsnote, gefolgt von Internally Flawless. Viele Diamanten mit niedrigerer Reinheit können jedoch ohne Vergrößerung rein erscheinen und für manche Käufer eine passendere Balance bieten."
+        "question": "Ist Triple Excellent die beste Diamantqualität?",
+        "answer": "Triple Excellent bedeutet exzellenter Schliff, Glanz und Symmetrie bei einem qualifizierten Diamanten im runden Brillantschliff. Dies ist eine wünschenswerte Spezifikation, aber Diamanten innerhalb dieser Kombination können dennoch unterschiedliche Proportionen und Erscheinungsbilder haben."
       },
       {
-        "question": "Ist die Reinheit VS2 eye-clean?",
-        "answer": "Viele VS2-Diamanten können ohne Vergrößerung rein erscheinen, doch die Note garantiert dies nicht. Art, Lage und Farbe des Einschlusses, Diamantgröße und Betrachtungsbedingungen müssen berücksichtigt werden."
+        "question": "Ist die Fluoreszenz von Diamanten schlecht?",
+        "answer": "Nein. Fluoreszenz ist nicht automatisch gut oder schlecht. Seine Wirkung sollte am einzelnen Diamanten unter entsprechenden Lichtverhältnissen beurteilt werden."
       },
       {
-        "question": "Ist die Reinheit SI1 für einen Naturdiamanten geeignet?",
-        "answer": "Ein SI1-Diamant kann geeignet sein, wenn seine Einschlüsse in der Erscheinung akzeptabel sind und keine Bedenken hinsichtlich Transparenz oder Haltbarkeit hervorrufen. Jeder SI1-Diamant sollte einzeln beurteilt werden."
-      },
-      {
-        "question": "Wie lautet die Skala für Diamantschliffnoten?",
-        "answer": "Für anwendbare, von GIA bewertete Standard-Round-Brilliant-Diamanten lautet die Skala Excellent, Very Good, Good, Fair und Poor."
-      },
-      {
-        "question": "Warum hat mein Oval-Diamant keine GIA-Schliffnote?",
-        "answer": "Die GIA-Standard-Gesamtschliffnote gilt derzeit für Standard-Round-Brilliant-Diamanten im Farbbereich D bis Z. Oval und andere Fancy-Formen müssen anhand ihrer Abmessungen, ihres Umrisses, Facettenmusters, ihrer Politur, Symmetrie und visuellen Erscheinung beurteilt werden."
-      },
-      {
-        "question": "Ist Karat ein Maß für die Größe eines Diamanten?",
-        "answer": "Karat misst Gewicht. Die sichtbare Größe hängt von Form, Abmessungen, Tiefe, Rondiste und Gewichtsverteilung des Diamanten ab."
-      },
-      {
-        "question": "Kann ein kleinerer Diamant größer aussehen als ein schwererer Diamant?",
-        "answer": "Ja. Ein gut proportionierter oder länglicher Diamant kann von oben größer erscheinen als ein schwererer Diamant, der mehr Gewicht in seiner Tiefe behält."
-      },
-      {
-        "question": "Bedeutet ein höheres Karat bessere Qualität?",
-        "answer": "Nein. Ein größerer Diamant kann niedrigere Schliff-, Farb- oder Reinheitsnoten haben. Das Karatgewicht sollte zusammen mit den anderen Qualitätsmerkmalen betrachtet werden."
-      },
-      {
-        "question": "Können zwei Diamanten mit denselben 4Cs unterschiedlich aussehen?",
-        "answer": "Ja. Sie können sich in exakten Proportionen, Einschlusslagen, Fluoreszenz, Transparenz, Facettenmuster, sichtbarer Spannweite und aktuellem Zustand unterscheiden."
-      },
-      {
-        "question": "Garantiert eine Excellent-Schliffnote maximales Funkeln?",
-        "answer": "Excellent ist die höchste GIA-Schliffnotenkategorie für anwendbare Round-Brilliant-Diamanten, doch Diamanten innerhalb dieser Kategorie können weiterhin unterschiedliche Proportionen und Erscheinungsmuster aufweisen. Der tatsächliche Stein sollte geprüft werden."
-      },
-      {
-        "question": "Verringert Fluoreszenz die Diamantqualität?",
-        "answer": "Nicht automatisch. Fluoreszenz ist ein identifizierendes Merkmal. Ihre praktische Wirkung hängt von ihrer Stärke, Farbe und der Erscheinung des einzelnen Diamanten unter verschiedenen Lichtverhältnissen ab."
-      },
-      {
-        "question": "Können die 4Cs beweisen, dass ein Diamant natürlich ist?",
-        "answer": "Nein. Auch im Labor gezüchtete Diamanten können 4Cs-Noten erhalten. Der Laborbericht muss eindeutig angeben, ob der untersuchte Diamant natürlich oder im Labor gezüchtet ist."
-      },
-      {
-        "question": "Zeigt ein Diamant-Qualitätsdiagramm, was ein Diamant wert ist?",
-        "answer": "Nein. Das Diagramm erläutert Qualitätsskalen. Der Geldwert erfordert die Prüfung des vollständigen Diamanten, relevante Marktvergleiche und den Zweck der Bewertung."
-      },
-      {
-        "question": "Was ist ein Diamant guter Qualität für sein Geld?",
-        "answer": "Ein Diamant guter Qualität für sein Geld wirkt attraktiv, hat akzeptable Farbe und Reinheit, nutzt sein Karatgewicht effektiv, verfügt über glaubwürdige Dokumentation und ist im Vergleich mit wirklich ähnlichen Steinen wettbewerbsfähig bepreist. Es gibt keine einzelne Notenkombination, die für jeden Käufer geeignet ist."
-      },
-      {
-        "question": "Sollte ich höhere Reinheit oder ein größeres Karatgewicht wählen?",
-        "answer": "Das hängt davon ab, ob der Diamant mit niedrigerer Reinheit sichtbare oder bedeutsame Einschlüsse aufweist. Wenn er rein erscheint und keine bedenklichen Merkmale hat, ziehen manche Käufer es vor, mehr Budget für Größe oder Schliff einzusetzen."
-      },
-      {
-        "question": "Sollte ich Farbe D oder Excellent-Schliff wählen?",
-        "answer": "Diese Noten beschreiben unterschiedliche Merkmale. Eine höhere Farbnote kann eine schwache Lichtleistung nicht korrigieren. Vergleichen Sie die vollständigen Diamanten und entscheiden Sie, welcher visuelle Unterschied für Sie wichtiger ist."
-      },
-      {
-        "question": "Reicht ein Bewertungsbericht aus, um die Diamantqualität zu beurteilen?",
-        "answer": "Nein. Ein Bewertungsbericht liefert wesentliche technische Informationen, doch Fotos, Video, physische Prüfung, Transparenz, aktueller Zustand, Preis und Verlässlichkeit des Verkäufers müssen ebenfalls berücksichtigt werden."
+        "question": "Können zwei Diamanten mit identischem Gehalt unterschiedlich aussehen?",
+        "answer": "Ja. Diamanten mit ähnlichen Berichtsqualitäten können sich in Maßen, Proportionen, Einschlussort, Transparenz, Facettenmuster und sichtbarer Leistung unterscheiden."
       }
     ]
-  },
-  "finalTakeaway": {
-    "id": "final-takeaway",
-    "title": "Abschließende Zusammenfassung",
-    "introParagraphs": [
-      "Das Diamant-Qualitätsdiagramm bietet Käufern eine strukturierte Möglichkeit, Schliff, Farbe, Reinheit und Karatgewicht zu vergleichen, doch keine einzelne Note sollte den Kauf allein bestimmen.",
-      "Beginnen Sie mit der Form und dem vorgesehenen Schmuckstück. Schützen Sie die visuelle Leistung des Diamanten. Vergleichen Sie Farbe und Reinheit danach, was tatsächlich sichtbar ist. Prüfen Sie, ob das Karatgewicht die erwartete Größe von oben erzeugt. Bewerten Sie anschließend Proportionen, Fluoreszenz, Transparenz, Dokumentation, aktuellen Zustand und Preis.",
-      "Ziel ist nicht einfach, den Diamanten mit den höchsten Noten zu kaufen.",
-      "Ziel ist es, einen Naturdiamanten zu wählen, dessen vollständige Kombination aus Qualität, Erscheinung, Dokumentation und Preis für den Käufer sinnvoll ist."
-    ],
-    "primaryButtonText": "Secure To Source nutzen",
-    "primaryButtonHref": "/secure-to-source",
-    "secondaryButtonText": "Dalila Diamonds kontaktieren",
-    "secondaryButtonHref": "/contact"
   }
 }

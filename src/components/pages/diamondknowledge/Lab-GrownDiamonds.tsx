@@ -79,7 +79,7 @@ export default function NaturalVsLabDiamonds() {
               <p
                 className={`text-gray-600 leading-relaxed text-base md:text-lg max-w-5xl mx-auto font-light mb-3 ${jost.className}`}
               >
-                {dictionary?.dk?.labDesc || "Lab-grown diamonds are real diamonds created in modern laboratories using advanced technology that replicates the natural diamond-growing process. They share the same physical, chemical, and optical properties as mined diamonds, offering brilliance and beauty at a more accessible price point. What sets them apart is their eco-conscious origin they're crafted with minimal environmental impact and are completely conflict-free. Ideal for those who value sustainability and innovation, lab-grown diamonds bring together elegance, responsibility, and affordability without compromising on sparkle or quality."}
+                {dictionary?.dk?.labDesc || "Laboratory-grown diamonds are manufactured in controlled facilities and generally have a lower initial price than comparable natural diamonds. Their environmental impact varies according to growth method, electricity source, material inputs, cutting, transport and the individual producer. Buyers should request specific evidence for sustainability or traceability claims rather than assume every laboratory-grown diamond has the same impact."}
               </p>
             </div>
           </AnimatedContainer>

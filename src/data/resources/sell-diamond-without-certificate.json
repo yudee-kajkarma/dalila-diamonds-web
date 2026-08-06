@@ -1,0 +1,714 @@
+{
+  "meta": {
+    "title": "Can You Sell a Diamond Without a Certificate? | Dalila",
+    "description": "Yes, you can sell a natural diamond without its certificate. Learn what buyers check, whether you need a new report and request an Antwerp evaluation.",
+    "canonical": "https://www.daliladiamonds.com/resources/sell-diamond-without-certificate",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportLimitations": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaLostReports": "https://www.gia.edu/gia-news-research-lost-report",
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "hrdMyReports": "https://my.hrdantwerp.com/",
+    "igiVerify": "https://www.igi.org/verify-your-report"
+  },
+  "banner": {
+    "title": "Sell a Diamond Without a Certificate",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Sell a Diamond Without a Certificate",
+    "imageAlt": "Sell a diamond without a certificate resource banner"
+  },
+  "hero": {
+    "title": "Can You Sell a Diamond Without a Certificate?",
+    "paragraphs": [
+      "Yes, you can begin the process of selling a diamond without its original certificate or grading report. Many inherited diamonds, older engagement rings and loose diamonds no longer have their original paperwork.",
+      "The absence of a report does not mean that the diamond has no value. It does mean that a professional buyer may need to verify whether the stone is a diamond, whether it is natural or laboratory-grown and what its quality and condition are before making a final offer.",
+      "You can submit the information and photographs you have to Dalila Diamonds. If the item fits Dalila’s purchasing criteria, the team can explain whether a physical examination or a new laboratory report is required."
+    ],
+    "primaryButtonText": "VALUE MY DIAMOND WITHOUT A CERTIFICATE",
+    "primaryButtonHref": "#uncertified-diamond-form-top"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "alt": "Natural diamond ring submitted for valuation without its original certificate",
+      "width": 1600,
+      "height": 900
+    },
+    "lostReportRecovery": {
+      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "alt": "Ways to recover information from a lost diamond grading report",
+      "width": 1400,
+      "height": 1000
+    },
+    "evaluation": {
+      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "alt": "Professional evaluation of an uncertified natural diamond",
+      "width": 1400,
+      "height": 1000
+    },
+    "certificationDecision": {
+      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "alt": "Decision guide for obtaining a new diamond grading report before selling",
+      "width": 1400,
+      "height": 1000
+    },
+    "dalilaProcess": {
+      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "alt": "Dalila Diamonds process for evaluating a diamond without a certificate",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      { "id": "quick-answer", "label": "Quick answer" },
+      { "id": "what-is-certificate", "label": "What is a diamond certificate?" },
+      { "id": "certificate-required", "label": "Is a certificate required?" },
+      { "id": "lost-or-never-certified", "label": "Lost or never certified" },
+      { "id": "lost-gia", "label": "Lost GIA certificate" },
+      { "id": "lost-hrd", "label": "Lost HRD report" },
+      { "id": "lost-igi", "label": "Lost IGI report" },
+      { "id": "buyer-evaluation", "label": "Buyer evaluation without certificate" },
+      { "id": "natural-at-home", "label": "Natural diamond at home?" },
+      { "id": "lose-value", "label": "Does it lose value?" },
+      { "id": "new-certificate", "label": "Get a new certificate?" },
+      { "id": "certification-decision", "label": "Certification decision table" },
+      { "id": "mounted-certification", "label": "Mounted diamond certification" },
+      { "id": "helpful-documents", "label": "Documents that help" },
+      { "id": "inherited-diamond", "label": "Inherited diamond" },
+      { "id": "without-receipt", "label": "Sell without receipt" },
+      { "id": "what-not-to-do", "label": "What not to do" },
+      { "id": "dalila-process", "label": "Dalila evaluation process" },
+      { "id": "frequently-asked-questions", "label": "FAQs" },
+      { "id": "start-anyway", "label": "Start without a certificate" }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Quick Answer",
+    "paragraphs": [
+      "You do not need a certificate to request an initial diamond evaluation. A certificate is helpful because it describes the diamond’s characteristics, but it is not the diamond itself and it is not proof of ownership."
+    ],
+    "checksIntro": "When no report is available, the buyer may need to check:",
+    "checks": [
+      "Whether the stone is a diamond",
+      "Whether it is natural or laboratory-grown",
+      "Whether treatments are present",
+      "Approximate carat weight",
+      "Colour and clarity",
+      "Cut characteristics",
+      "Damage and condition",
+      "Whether the diamond has an existing laser inscription",
+      "Whether any previous report can be recovered",
+      "Whether the seller has the right to sell the item"
+    ],
+    "closing": "The buyer may be able to prepare an offer after physical verification. In other cases, independent laboratory grading may be recommended first.",
+    "ctaText": "SUBMIT MY UNCERTIFIED DIAMOND",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "whatIsCertificate": {
+    "id": "what-is-certificate",
+    "title": "What Is a Diamond Certificate?",
+    "paragraphs": [
+      "“Diamond certificate” is the commonly used term for a diamond grading report. The document is issued after a laboratory examines the diamond and records its characteristics."
+    ],
+    "containsIntro": "A grading report may contain:",
+    "contains": [
+      "Natural or laboratory-grown origin",
+      "Shape and cutting style",
+      "Carat weight",
+      "Measurements",
+      "Colour grade",
+      "Clarity grade",
+      "Cut grade, where applicable",
+      "Polish",
+      "Symmetry",
+      "Fluorescence",
+      "Treatments",
+      "Laser inscription",
+      "Identifying clarity characteristics"
+    ],
+    "labsParagraph": "GIA, HRD Antwerp and IGI are examples of laboratories that issue diamond grading reports.",
+    "giaLinkText": "GIA’s report limitations",
+    "closing": "The report should therefore be treated as technical documentation rather than a purchase offer."
+  },
+  "certificateRequired": {
+    "id": "certificate-required",
+    "title": "Is a Certificate Required to Sell a Diamond?",
+    "paragraphs": [
+      "A certificate is not universally required to sell a diamond. A professional buyer with appropriate equipment and expertise may be able to examine an uncertified diamond directly.",
+      "However, the buyer will still need enough information to make a responsible purchasing decision. Without a recognised report, more characteristics may need to be independently checked."
+    ],
+    "resultsIntro": "This can result in:",
+    "results": [
+      "A longer evaluation process",
+      "A conditional preliminary offer",
+      "Additional testing",
+      "A recommendation for laboratory grading",
+      "Costs for unsetting or resetting",
+      "More conservative assumptions until the stone is verified"
+    ],
+    "closing": "The absence of a certificate should not automatically make the diamond worthless. It simply means that the document cannot be used to establish its reported characteristics."
+  },
+  "lostOrNeverCertified": {
+    "id": "lost-or-never-certified",
+    "title": "Lost Certificate or Never Certified: Which Situation Applies?",
+    "intro": "The next step depends on whether the diamond once had a report.",
+    "scenarios": [
+      {
+        "title": "The Original Report Has Been Lost",
+        "paragraphs": [
+          "If the diamond previously had a GIA, HRD Antwerp or IGI report, it may be possible to recover the report information online."
+        ],
+        "lookForIntro": "Look for:",
+        "lookFor": [
+          "An old photocopy",
+          "A report number on the purchase receipt",
+          "A report number in an insurance appraisal",
+          "An email from the original jeweller",
+          "A number recorded in a jewellery inventory",
+          "A laser inscription on the diamond",
+          "A photograph of the original report",
+          "A QR code or digital report link"
+        ],
+        "closing": "If the report number is found, use the issuing laboratory’s official website to retrieve or verify the information."
+      },
+      {
+        "title": "The Diamond Was Never Certified",
+        "paragraphs": [
+          "If the diamond has never been graded by a recognised laboratory, the buyer must rely on physical examination and any available supporting documents.",
+          "Depending on the diamond’s likely quality and potential value, a new grading report may or may not be worthwhile."
+        ]
+      },
+      {
+        "title": "You Do Not Know Whether It Was Certified",
+        "paragraphs": [
+          "Submit the ring or diamond as “certificate status unknown”. A specialist may check for a laser inscription and review old receipts or appraisals for references to a report number.",
+          "Do not guess the laboratory or grades when you are unsure."
+        ]
+      }
+    ]
+  },
+  "lostGia": {
+    "id": "lost-gia",
+    "title": "What Should I Do If I Lost a GIA Certificate?",
+    "paragraphs": [
+      "GIA does not issue duplicate grading reports. However, if you know the report number, you can use GIA Report Check to view the grading information.",
+      "GIA states that PDF versions are also available to view or download for reports dated after 1 July 2010."
+    ],
+    "giaLostLinkText": "GIA’s instructions for lost reports",
+    "giaReportCheckText": "GIA Report Check",
+    "tryIntro": "Try the Following",
+    "steps": [
+      "Search your emails and cloud storage for the report number.",
+      "Check the original receipt or insurance appraisal.",
+      "Ask the original jeweller whether the number remains in its records.",
+      "Have the diamond checked for a laser inscription.",
+      "Enter the report number in GIA Report Check.",
+      "Download the available report data or PDF.",
+      "Ask a specialist to confirm whether the physical diamond matches the report."
+    ],
+    "closing": "Finding a valid report number is only the first step. The physical diamond must still be matched to the report. A laser inscription can assist with identification, but it should be examined under magnification and considered alongside measurements and other characteristics."
+  },
+  "lostHrd": {
+    "id": "lost-hrd",
+    "title": "What If I Lost an HRD Antwerp Report?",
+    "paragraphs": [
+      "My HRD Antwerp provides online access to its grading-report archive. If you know the report number or external identification number, you may be able to locate the diamond or jewellery report online.",
+      "Use the official My HRD Antwerp report search rather than relying on an unofficial database.",
+      "An HRD Antwerp report may contain information about the diamond’s 4Cs. Jewellery reports may also include details of the item’s metal and setting.",
+      "If you do not know the report number, check old invoices, appraisals, emails, packaging and any inscription visible on the diamond."
+    ],
+    "hrdLinkText": "My HRD Antwerp report search"
+  },
+  "lostIgi": {
+    "id": "lost-igi",
+    "title": "What If I Lost an IGI Report?",
+    "paragraphs": [
+      "IGI provides an official online report-verification tool. If the report number is available, enter it through IGI Verify Your Report to check the grading information.",
+      "Digital report information may also be accessible through a QR code or report number connected to the original document.",
+      "IGI offers duplicate or updated report services in some markets, but availability and conditions vary. Confirm the current service directly with IGI before assuming that a printed replacement can be supplied in Belgium."
+    ],
+    "igiLinkText": "IGI Verify Your Report"
+  },
+  "buyerEvaluation": {
+    "id": "buyer-evaluation",
+    "title": "How Can a Buyer Evaluate a Diamond Without a Certificate?",
+    "intro": [
+      "A buyer can begin by examining the diamond or jewellery and reviewing the available information. The exact process depends on whether the stone is loose or mounted."
+    ],
+    "sections": [
+      {
+        "title": "Initial Identification",
+        "paragraphs": [
+          "The first step is determining whether the stone is a diamond. Visual appearance alone is not sufficient because some simulants can look similar.",
+          "The evaluator may use appropriate instruments to distinguish diamond from materials such as cubic zirconia, moissanite or glass."
+        ]
+      },
+      {
+        "title": "Natural or Laboratory-Grown Origin",
+        "paragraphs": [
+          "Natural and laboratory-grown diamonds have the same basic chemical composition and can look extremely similar. Origin should not be guessed from appearance alone.",
+          "Professional screening equipment or laboratory examination may be necessary to determine whether the diamond is natural, laboratory-grown or requires further testing."
+        ]
+      },
+      {
+        "title": "Carat Weight",
+        "paragraphs": [
+          "A loose diamond can be weighed on a calibrated scale. If the diamond remains mounted, its weight may need to be estimated from measurements and the setting.",
+          "Estimated weight should be identified as an estimate rather than presented as an exact carat weight."
+        ]
+      },
+      {
+        "title": "Colour and Clarity",
+        "paragraphs": [
+          "The evaluator examines the diamond’s visible colour, inclusions and surface characteristics. A mounted diamond may be more difficult to assess accurately because the setting can affect appearance or conceal part of the stone."
+        ]
+      },
+      {
+        "title": "Cut and Proportions",
+        "paragraphs": [
+          "For a loose stone, measurements and proportions can be assessed more accurately. For a mounted diamond, some measurements may be limited by the setting."
+        ]
+      },
+      {
+        "title": "Fluorescence, Treatments and Condition",
+        "paragraphs": [
+          "The diamond may also be examined for fluorescence, treatments, chips, abrasions, cavities or damage. Some treatments and origin questions require advanced laboratory testing."
+        ]
+      },
+      {
+        "title": "Jewellery and Metal",
+        "paragraphs": [
+          "For a mounted diamond, the buyer may also assess:"
+        ],
+        "bullets": [
+          "Precious-metal type",
+          "Hallmarks",
+          "Setting",
+          "Side stones",
+          "Condition",
+          "Brand or designer",
+          "Age and style",
+          "Repairs or resizing"
+        ],
+        "closing": "The centre diamond and setting may be valued separately."
+      }
+    ]
+  },
+  "naturalAtHome": {
+    "id": "natural-at-home",
+    "title": "Can You Tell Whether a Diamond Is Natural at Home?",
+    "paragraphs": [
+      "Home tests cannot reliably determine whether a diamond is natural, laboratory-grown or treated.",
+      "Fog tests, scratch tests, newspaper tests and similar online methods are unreliable and may damage the jewellery. A laboratory-grown diamond is still a diamond, so many basic diamond testers cannot distinguish it from a natural diamond.",
+      "Do not scratch the stone, expose it to uncontrolled heat or use chemicals that may damage the setting. If the diamond appears loose, do not continue handling or wearing the jewellery.",
+      "Professional screening or laboratory testing is the responsible route when origin is unknown."
+    ]
+  },
+  "loseValue": {
+    "id": "lose-value",
+    "title": "Does a Diamond Lose Value Without Its Certificate?",
+    "paragraphs": [
+      "Losing the physical report does not change the diamond’s inherent characteristics. The diamond does not become smaller, more included or less well-cut because a document is missing.",
+      "However, missing documentation can create uncertainty. A buyer may need to allow for the possibility that:"
+    ],
+    "uncertainties": [
+      "The diamond is laboratory-grown rather than natural",
+      "The submitted grades are inaccurate",
+      "A treatment is present",
+      "The diamond does not match an old appraisal",
+      "Damage occurred after a previous examination",
+      "Laboratory grading will be required",
+      "The stone must be unset and reset"
+    ],
+    "closing": "This additional uncertainty and expense can affect the initial offer or make it conditional. If an existing digital report can be recovered and matched to the diamond, there may be no need to obtain a completely new report."
+  },
+  "newCertificate": {
+    "id": "new-certificate",
+    "title": "Should I Get a New Certificate Before Selling?",
+    "intro": [
+      "Not every uncertified diamond should be sent for laboratory grading before it is offered to a buyer. The decision should consider the diamond’s likely quality, size, setting, condition and expected market."
+    ],
+    "worthwhileIntro": "A new report may be worthwhile when:",
+    "worthwhile": [
+      "The diamond appears to be a significant natural stone",
+      "The stone may have high colour or clarity",
+      "It may be a natural fancy-colour diamond",
+      "The diamond has no reliable documentation",
+      "A report could broaden the buyer market",
+      "The buyer makes an offer conditional on grading",
+      "There is uncertainty about origin or treatments",
+      "The existing report is no longer usable or does not match"
+    ],
+    "notWorthwhileIntro": "A new report may not be worthwhile when:",
+    "notWorthwhile": [
+      "The grading and handling cost is high relative to likely value",
+      "The diamond is small",
+      "The jewellery contains many small stones",
+      "A direct buyer can evaluate the item without a report",
+      "The stone would need costly or risky removal",
+      "The seller has not yet established whether the item fits a buyer’s criteria"
+    ],
+    "closing": "Request a preliminary professional review before paying for grading. A buyer or independent specialist can explain whether certification is likely to improve the selling process.",
+    "ctaText": "ASK WHETHER MY DIAMOND NEEDS CERTIFICATION",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "certificationDecision": {
+    "id": "certification-decision",
+    "title": "Diamond Certification Decision Table",
+    "table": {
+      "caption": "Recommended first steps by uncertified diamond situation",
+      "headers": ["Situation", "Recommended first step"],
+      "rows": [
+        ["Lost report but report number is known", "Retrieve the report through the official laboratory database"],
+        ["Lost report and laser inscription is visible", "Record the inscription and verify it with the issuing laboratory"],
+        ["No report but original receipt is available", "Submit the receipt and photographs for preliminary review"],
+        ["Inherited jewellery with no documents", "Begin with physical identification and ownership documentation"],
+        ["Large loose diamond with no report", "Obtain specialist advice about laboratory grading"],
+        ["Mounted diamond with unknown origin", "Request professional screening before unsetting"],
+        ["Ring containing many small diamonds", "Ask whether complete-jewellery evaluation is more practical"],
+        ["Possible fancy-colour diamond", "Seek specialist examination before cleaning, altering or grading"],
+        ["Laboratory-grown diamond suspected", "Confirm whether the intended buyer purchases laboratory-grown diamonds"],
+        ["Damaged diamond", "Obtain condition advice before certification or recutting"]
+      ]
+    }
+  },
+  "mountedCertification": {
+    "id": "mounted-certification",
+    "title": "Can a Mounted Diamond Be Certified?",
+    "paragraphs": [
+      "Some laboratories provide jewellery reports for mounted stones. However, a full loose-diamond grading report may require the centre diamond to be removed from its setting."
+    ],
+    "limitsIntro": "The setting can limit the laboratory’s ability to determine:",
+    "limits": [
+      "Exact carat weight",
+      "Complete measurements",
+      "Colour",
+      "Clarity",
+      "Girdle condition",
+      "Treatments",
+      "Laser inscription",
+      "All identifying characteristics"
+    ],
+    "labsParagraph": "HRD Antwerp provides reports for both loose diamonds and jewellery, while IGI also provides jewellery reports describing mounted gemstones and the setting. The available report type and level of detail should be confirmed directly with the chosen laboratory.",
+    "closing": "Do not remove the diamond yourself. Ask:",
+    "questions": [
+      "Is unsetting necessary?",
+      "Who will remove the diamond?",
+      "Can the existing setting be reused?",
+      "Who is responsible for damage?",
+      "Is resetting included?",
+      "Is the item insured during the process?",
+      "Is a jewellery report sufficient instead?"
+    ],
+    "finalNote": "For an antique, signed or delicate ring, removal may affect the item’s condition or collector interest."
+  },
+  "helpfulDocuments": {
+    "id": "helpful-documents",
+    "title": "What Documents Can Help If There Is No Certificate?",
+    "paragraphs": [
+      "A grading report is useful, but it is not the only document that may help identify the diamond or establish its history."
+    ],
+    "itemsIntro": "Submit any available:",
+    "items": [
+      "Purchase receipt",
+      "Insurance appraisal",
+      "Estate inventory",
+      "Inheritance documentation",
+      "Original box",
+      "Brand certificate",
+      "Repair receipt",
+      "Resizing record",
+      "Photograph of the old certificate",
+      "Email from the original jeweller",
+      "Diamond report number",
+      "Laser-inscription record",
+      "Previous sale or auction documentation"
+    ],
+    "closing": "These documents do not replace physical verification, but they can provide useful information and help establish lawful ownership. A grading report is not proof of ownership. A person could possess a copy of a report without owning the diamond described in it. The buyer may therefore still request identification and supporting ownership information."
+  },
+  "inheritedDiamond": {
+    "id": "inherited-diamond",
+    "title": "Can I Sell an Inherited Diamond Without Papers?",
+    "paragraphs": [
+      "Yes, inherited diamonds and jewellery frequently arrive without their original receipts or grading reports.",
+      "Begin by gathering the documents that are available through the estate, such as an inventory, will, distribution record, old insurance schedule or previous appraisal. Family photographs and original packaging may also help identify an older or branded item.",
+      "Do not clean, polish, repair or dismantle an inherited ring before its age and design have been considered. The complete jewellery item may have antique, branded or collector value beyond the centre diamond.",
+      "If several people share ownership, make sure the person arranging the sale has authority to complete it."
+    ],
+    "ctaText": "SUBMIT AN INHERITED DIAMOND FOR REVIEW",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "withoutReceipt": {
+    "id": "without-receipt",
+    "title": "Can I Sell a Diamond Ring Without a Receipt?",
+    "paragraphs": [
+      "A receipt is not always required for an initial evaluation, but a buyer may need reasonable evidence that the seller owns the ring and has the right to sell it.",
+      "If the original receipt is missing, provide whatever documentation is available:"
+    ],
+    "alternatives": [
+      "Identification",
+      "Previous insurance records",
+      "Gift documentation",
+      "Estate documents",
+      "Repair history",
+      "Old photographs",
+      "Correspondence from the original jeweller"
+    ],
+    "closing": "The checks required will depend on the item and the proposed transaction. Do not attempt to create or alter a receipt, certificate or ownership record."
+  },
+  "whatNotToDo": {
+    "id": "what-not-to-do",
+    "title": "What Not to Do With an Uncertified Diamond",
+    "intro": "Missing paperwork can make sellers vulnerable to poor advice. Avoid taking irreversible or expensive action before the diamond has been reviewed.",
+    "warnings": [
+      {
+        "title": "Do Not Assume It Is Worthless",
+        "text": "The absence of a report does not erase the diamond’s physical characteristics. Ask what testing is required before accepting a claim that it has little or no value."
+      },
+      {
+        "title": "Do Not Invent Grades",
+        "text": "Do not describe the diamond as D colour, flawless or a specific carat weight unless the information comes from a reliable source. Use “unknown” where necessary."
+      },
+      {
+        "title": "Do Not Use Damaging Home Tests",
+        "text": "Scratch, heat and chemical tests can damage the ring and still fail to determine whether the diamond is natural."
+      },
+      {
+        "title": "Do Not Remove the Diamond Yourself",
+        "text": "Unsetting requires appropriate tools and experience. Attempting it at home can chip the diamond or damage the jewellery."
+      },
+      {
+        "title": "Do Not Pay for Certification Automatically",
+        "text": "Ask whether a new report is likely to improve the sale before paying for grading, transport, unsetting and resetting."
+      },
+      {
+        "title": "Do Not Send the Ring to an Unverified Address",
+        "text": "Begin with photographs and available documents. Confirm the buyer, transport, insurance and return terms before sending the physical item."
+      },
+      {
+        "title": "Do Not Confuse an Appraisal With a Certificate",
+        "text": "An appraisal provides an opinion of value. A grading report describes the diamond’s gemmological characteristics. One does not automatically replace the other."
+      }
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "How Dalila Evaluates a Diamond Without a Certificate",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Submit the Information You Know",
+        "text": "Tell us whether the diamond is loose or mounted, how it was acquired and whether any previous paperwork may exist. Upload clear photographs of the complete item, centre diamond, side view, hallmarks and available documents."
+      },
+      {
+        "number": 2,
+        "title": "Preliminary Review",
+        "text": "Dalila reviews the photographs and information to determine whether the item fits its purchasing criteria and which verification steps may be required. No final grade or purchase price should be promised from photographs alone."
+      },
+      {
+        "number": 3,
+        "title": "Report Search",
+        "text": "If a report number or laser inscription is available, the information can be checked through the issuing laboratory’s official system. The physical diamond must still be matched to the report."
+      },
+      {
+        "number": 4,
+        "title": "Physical Examination",
+        "text": "When appropriate, a private Antwerp evaluation may be arranged. The diamond can then be examined for identity, origin, quality, treatments and condition."
+      },
+      {
+        "number": 5,
+        "title": "Certification Recommendation",
+        "text": "If a new laboratory report could materially support the sale, Dalila can explain why it may be worth considering. The decision should account for grading, handling, transport, unsetting and resetting costs."
+      },
+      {
+        "number": 6,
+        "title": "Purchase Offer",
+        "text": "If the item meets Dalila’s purchasing criteria and the required checks have been completed, Dalila may provide a purchase offer. The seller can review the offer without an obligation to proceed."
+      }
+    ],
+    "primaryCtaText": "VALUE MY DIAMOND WITHOUT A CERTIFICATE",
+    "primaryCtaHref": "#uncertified-diamond-form-bottom",
+    "secondaryCtaText": "BOOK A PRIVATE ANTWERP EVALUATION",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "idTop": "uncertified-diamond-form-top",
+    "idBottom": "uncertified-diamond-form-bottom",
+    "leadSource": "sell_diamond_without_certificate",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP and PDF",
+    "title": "Value My Diamond Without a Certificate",
+    "subtitle": "A grading report is optional. Submit what you know and upload clear photographs. Dalila will explain the next verification steps.",
+    "optionalNote": "Report number, exact carat weight, colour, clarity and original receipt are not required.",
+    "steps": [
+      { "number": 1, "title": "What Are You Submitting?" },
+      { "number": 2, "title": "What Is the Certificate Status?" },
+      { "number": 3, "title": "What Information Do You Know?" },
+      { "number": 4, "title": "Upload Photographs and Documents" },
+      { "number": 5, "title": "Contact Information" }
+    ],
+    "itemTypes": [
+      "Loose diamond",
+      "Diamond engagement ring",
+      "Other diamond ring",
+      "Diamond earrings",
+      "Diamond necklace or pendant",
+      "Diamond bracelet",
+      "Inherited diamond jewellery",
+      "I am not sure"
+    ],
+    "certificateStatuses": [
+      "I have the original report",
+      "I have a digital copy",
+      "I know the report number",
+      "I lost the report",
+      "The diamond was never certified",
+      "I inherited the item without paperwork",
+      "I am not sure"
+    ],
+    "originOptions": ["Natural diamond", "Laboratory-grown diamond", "Origin unknown"],
+    "shapeOptions": ["Round", "Princess", "Cushion", "Oval", "Emerald", "Pear", "Marquise", "Radiant", "Asscher", "Heart", "Other", "Unknown"],
+    "labOptions": ["GIA", "HRD Antwerp", "IGI", "Another laboratory", "Unknown", "Not applicable"],
+    "contactMethods": ["Email", "Telephone", "Either email or telephone"],
+    "evaluationPreferences": ["Online review only", "Private Antwerp appointment", "Not sure yet"],
+    "uploadHints": [
+      "Complete jewellery item",
+      "Close view of the diamond",
+      "Side view of the setting",
+      "Hallmarks or signatures",
+      "Old receipt",
+      "Previous appraisal",
+      "Photograph or copy of old report",
+      "Inheritance documents where relevant"
+    ],
+    "consentText": "I agree that Dalila Diamonds may contact me regarding this evaluation request. I understand that a grading report is not required for an initial review, but physical examination or laboratory testing may be necessary before a final offer is made.",
+    "submitButton": "Value My Diamond Without a Certificate",
+    "submittingButton": "Submitting…",
+    "nextButton": "Continue",
+    "backButton": "Back",
+    "successMessage": "Thank you. Your uncertified diamond details have been submitted. A member of the Dalila Diamonds team will contact you shortly.",
+    "errorMessage": "We could not submit your request. Please check the required fields and try again.",
+    "labels": {
+      "itemType": "What are you submitting?",
+      "certificateStatus": "Certificate status",
+      "origin": "Natural or laboratory-grown, if known",
+      "caratWeight": "Approximate carat weight",
+      "shape": "Diamond shape",
+      "gradingLaboratory": "Grading laboratory, if known",
+      "reportNumber": "Report number, if known",
+      "purchaseDate": "Original purchase date, if known",
+      "brand": "Brand or jeweller, if known",
+      "upload": "Upload photographs and documents",
+      "dragDrop": "Drag and drop files here, or choose files",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "country": "Country",
+      "postcode": "Postcode",
+      "contactMethod": "Preferred contact method",
+      "evaluationPreference": "Online review or Antwerp appointment",
+      "additionalInfo": "Additional information",
+      "optional": "Optional"
+    },
+    "validation": {
+      "itemTypeRequired": "Please select what you are submitting.",
+      "certificateRequired": "Please select the certificate status.",
+      "nameRequired": "Please enter your full name.",
+      "contactRequired": "Please provide an email address or telephone number.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm the consent statement before submitting."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Can you sell a diamond without a certificate?",
+        "answer": "Yes. A professional buyer may evaluate a diamond without its original certificate. Additional testing or laboratory grading may be required before a final offer is made."
+      },
+      {
+        "question": "Can I sell my diamond ring without a GIA certificate?",
+        "answer": "Yes. The buyer can begin with photographs and available documents. If the diamond previously had a GIA report, the report information may be recoverable online when the number is known."
+      },
+      {
+        "question": "Does a diamond lose value if the certificate is lost?",
+        "answer": "Losing the document does not change the diamond’s physical quality. However, missing documentation can create uncertainty and additional verification costs, which may affect the initial offer."
+      },
+      {
+        "question": "Can I replace a lost GIA report?",
+        "answer": "GIA does not provide duplicate reports. If the report number is known, its data can be viewed through GIA Report Check, and PDFs are available for many reports dated after 1 July 2010."
+      },
+      {
+        "question": "Can I retrieve an HRD Antwerp diamond report online?",
+        "answer": "Yes. My HRD Antwerp provides online access to its report archive when the relevant report number or external identification information is available."
+      },
+      {
+        "question": "Can I verify an IGI report online?",
+        "answer": "Yes. IGI provides an official Verify Your Report service where users can enter the report number."
+      },
+      {
+        "question": "Can a jeweller identify my diamond without a certificate?",
+        "answer": "A suitably equipped professional may conduct an initial identification. Advanced testing may still be required to determine whether the diamond is natural, laboratory-grown or treated."
+      },
+      {
+        "question": "Should I get a new certificate before selling my diamond?",
+        "answer": "Not always. Ask for a preliminary evaluation first. The cost and benefit of grading depend on the diamond’s likely quality, size, condition and setting."
+      },
+      {
+        "question": "Can a mounted diamond receive a grading report?",
+        "answer": "Some laboratories issue jewellery reports for mounted diamonds. A complete loose-diamond report may require the stone to be removed from its setting."
+      },
+      {
+        "question": "Can I sell an inherited diamond without paperwork?",
+        "answer": "Yes. Provide any available estate documents, previous appraisals, photographs and ownership information. Physical examination may be required."
+      },
+      {
+        "question": "Is a diamond appraisal the same as a certificate?",
+        "answer": "No. An appraisal assigns a monetary value for a stated purpose. A grading report describes the diamond’s technical characteristics."
+      },
+      {
+        "question": "Can Dalila provide an instant price without a certificate?",
+        "answer": "An immediate final price should not be promised from photographs alone. Dalila can begin with a preliminary review and explain what verification is required."
+      },
+      {
+        "question": "Does Dalila buy every uncertified diamond?",
+        "answer": "No. Dalila must first determine whether the diamond fits its purchasing criteria and complete the necessary checks."
+      },
+      {
+        "question": "Do I have to sell after the evaluation?",
+        "answer": "No. Requesting an evaluation does not require you to accept an offer."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "start-anyway",
+    "title": "Missing a Certificate Should Not Stop You From Starting",
+    "paragraphs": [
+      "A grading report can make a diamond easier to identify and compare, but losing the document does not make the stone worthless.",
+      "Start with the information you have. Submit clear photographs, old receipts, appraisals or report numbers and allow a specialist to determine the appropriate next step.",
+      "If you own a natural diamond or diamond ring without its original certificate, request a private review from Dalila Diamonds."
+    ],
+    "primaryButtonText": "SUBMIT MY DIAMOND WITHOUT A CERTIFICATE",
+    "primaryButtonHref": "#uncertified-diamond-form-bottom",
+    "secondaryButtonText": "SPEAK WITH A DIAMOND SPECIALIST",
+    "secondaryButtonHref": "/contact"
+  },
+  "internalLinks": {
+    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "diamond valuation calculator" },
+    "whereToSell": { "href": "/resources/where-to-sell-diamond-ring", "text": "where to sell a diamond ring" },
+    "howToSell": { "href": "/resources/how-to-sell-diamond-ring", "text": "sell a diamond ring safely" },
+    "appraisalAntwerp": { "href": "/resources/diamond-appraisal-antwerp-belgium", "text": "diamond appraisal in Antwerp" },
+    "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "verify a GIA, HRD or IGI report" }
+  }
+}

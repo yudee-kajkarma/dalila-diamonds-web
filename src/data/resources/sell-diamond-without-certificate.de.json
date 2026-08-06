@@ -1,0 +1,872 @@
+{
+  "meta": {
+    "title": "Kann man einen Diamanten ohne Zertifikat verkaufen? | Dalila",
+    "description": "Ja, Sie können einen Naturdiamanten ohne Zertifikat verkaufen. Erfahren Sie, was Käufer prüfen, ob Sie einen neuen Bericht benötigen und eine Antwerpener Bewertung anfordern.",
+    "canonical": "https://www.daliladiamonds.com/resources/sell-diamond-without-certificate",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportLimitations": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaLostReports": "https://www.gia.edu/gia-news-research-lost-report",
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "hrdMyReports": "https://my.hrdantwerp.com/",
+    "igiVerify": "https://www.igi.org/verify-your-report"
+  },
+  "banner": {
+    "title": "Verkaufen Sie einen Diamanten ohne Zertifikat",
+    "breadcrumbHome": "Heim",
+    "breadcrumbResources": "Ressourcen",
+    "breadcrumbCurrent": "Verkaufen Sie einen Diamanten ohne Zertifikat",
+    "imageAlt": "Verkaufen Sie einen Diamanten ohne Ressourcenbanner mit Zertifikat"
+  },
+  "hero": {
+    "title": "Kann man einen Diamanten ohne Zertifikat verkaufen?",
+    "paragraphs": [
+      "Ja, Sie können mit dem Verkauf eines Diamanten ohne Originalzertifikat oder Bewertungsbericht beginnen. Viele geerbte Diamanten, ältere Verlobungsringe und lose Diamanten haben ihre Originalpapiere nicht mehr.",
+      "Das Fehlen eines Berichts bedeutet nicht, dass der Diamant keinen Wert hat. Dies bedeutet jedoch, dass ein professioneller Käufer möglicherweise überprüfen muss, ob es sich bei dem Stein um einen Diamanten handelt, ob er natürlich oder im Labor gezüchtet ist und wie seine Qualität und sein Zustand sind, bevor er ein endgültiges Angebot abgibt.",
+      "Sie können die Informationen und Fotos, die Sie haben, an Dalila Diamonds senden. Wenn der Artikel Dalilas Kaufkriterien entspricht, kann das Team erklären, ob eine körperliche Untersuchung oder ein neuer Laborbericht erforderlich ist."
+    ],
+    "primaryButtonText": "Schätzen Sie meinen Diamanten ohne Zertifikat",
+    "primaryButtonHref": "#uncertified-diamond-form-top"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "alt": "Ring mit natürlichem Diamant, der ohne Originalzertifikat zur Bewertung eingereicht wurde",
+      "width": 1600,
+      "height": 900
+    },
+    "lostReportRecovery": {
+      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "alt": "Möglichkeiten, Informationen aus einem verlorenen Diamantbewertungsbericht wiederherzustellen",
+      "width": 1400,
+      "height": 1000
+    },
+    "evaluation": {
+      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "alt": "Professionelle Bewertung eines nicht zertifizierten Naturdiamanten",
+      "width": 1400,
+      "height": 1000
+    },
+    "certificationDecision": {
+      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "alt": "Entscheidungshilfe für den Erhalt eines neuen Diamantbewertungsberichts vor dem Verkauf",
+      "width": 1400,
+      "height": 1000
+    },
+    "dalilaProcess": {
+      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "alt": "Dalila Diamonds Verfahren zur Bewertung eines Diamanten ohne Zertifikat",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Leitfadenübersicht",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Schnelle Antwort"
+      },
+      {
+        "id": "what-is-certificate",
+        "label": "Was ist ein Diamantzertifikat?"
+      },
+      {
+        "id": "certificate-required",
+        "label": "Ist ein Zertifikat erforderlich?"
+      },
+      {
+        "id": "lost-or-never-certified",
+        "label": "Verloren oder nie zertifiziert"
+      },
+      {
+        "id": "lost-gia",
+        "label": "GIA-Zertifikat verloren"
+      },
+      {
+        "id": "lost-hrd",
+        "label": "HRD-Bericht verloren"
+      },
+      {
+        "id": "lost-igi",
+        "label": "IGI-Bericht verloren"
+      },
+      {
+        "id": "buyer-evaluation",
+        "label": "Käuferbewertung ohne Zertifikat"
+      },
+      {
+        "id": "natural-at-home",
+        "label": "Natürlicher Diamant zu Hause?"
+      },
+      {
+        "id": "lose-value",
+        "label": "Verliert es an Wert?"
+      },
+      {
+        "id": "new-certificate",
+        "label": "Ein neues Zertifikat erhalten?"
+      },
+      {
+        "id": "certification-decision",
+        "label": "Entscheidungstabelle zur Zertifizierung"
+      },
+      {
+        "id": "mounted-certification",
+        "label": "Zertifizierter montierter Diamant"
+      },
+      {
+        "id": "helpful-documents",
+        "label": "Dokumente, die helfen"
+      },
+      {
+        "id": "inherited-diamond",
+        "label": "Geerbter Diamant"
+      },
+      {
+        "id": "without-receipt",
+        "label": "Ohne Quittung verkaufen"
+      },
+      {
+        "id": "what-not-to-do",
+        "label": "Was man nicht tun sollte"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Dalila-Bewertungsprozess"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "FAQs"
+      },
+      {
+        "id": "start-anyway",
+        "label": "Starten Sie ohne Zertifikat"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Schnelle Antwort",
+    "paragraphs": [
+      "Sie benötigen kein Zertifikat, um eine erste Diamantenbewertung anzufordern. Ein Zertifikat ist hilfreich, da es die Eigenschaften des Diamanten beschreibt, aber es ist nicht der Diamant selbst und kein Eigentumsnachweis."
+    ],
+    "checksIntro": "Wenn kein Bericht verfügbar ist, muss der Käufer möglicherweise Folgendes überprüfen:",
+    "checks": [
+      "Ob der Stein ein Diamant ist",
+      "Ob natürlich oder im Labor gezüchtet",
+      "Ob Behandlungen vorhanden sind",
+      "Ungefähres Karatgewicht",
+      "Farbe und Klarheit",
+      "Schnitteigenschaften",
+      "Beschädigung und Zustand",
+      "Ob der Diamant bereits über eine Laserbeschriftung verfügt",
+      "Ob ein früherer Bericht wiederhergestellt werden kann",
+      "Ob der Verkäufer das Recht hat, den Artikel zu verkaufen"
+    ],
+    "closing": "Nach der physischen Überprüfung kann der Käufer möglicherweise ein Angebot erstellen. In anderen Fällen kann zunächst eine unabhängige Laborbewertung empfohlen werden.",
+    "ctaText": "Reichen Sie meinen nicht zertifizierten Diamanten ein",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "whatIsCertificate": {
+    "id": "what-is-certificate",
+    "title": "Was ist ein Diamantzertifikat?",
+    "paragraphs": [
+      "„Diamantzertifikat“ ist die häufig verwendete Bezeichnung für einen Diamantbewertungsbericht. Das Dokument wird ausgestellt, nachdem ein Labor den Diamanten untersucht und seine Eigenschaften aufgezeichnet hat."
+    ],
+    "containsIntro": "Ein Bewertungsbericht kann Folgendes enthalten:",
+    "contains": [
+      "Natürlichen oder im Labor gezüchteten Ursprungs",
+      "Form und Schnittstil",
+      "Karatgewicht",
+      "Messungen",
+      "Farbgrad",
+      "Klarheitsgrad",
+      "Gegebenenfalls Schnittgrad",
+      "Polieren",
+      "Symmetrie",
+      "Fluoreszenz",
+      "Behandlungen",
+      "Laserbeschriftung",
+      "Klarheitsmerkmale identifizieren"
+    ],
+    "labsParagraph": "GIA, HRD Antwerpen und IGI sind Beispiele für Labore, die Diamantbewertungsberichte ausstellen.",
+    "giaLinkText": "GIA-Berichtsbeschränkungen",
+    "closing": "Der Bericht ist daher als technische Dokumentation und nicht als Kaufangebot zu betrachten."
+  },
+  "certificateRequired": {
+    "id": "certificate-required",
+    "title": "Ist für den Verkauf eines Diamanten ein Zertifikat erforderlich?",
+    "paragraphs": [
+      "Für den Verkauf eines Diamanten ist nicht immer ein Zertifikat erforderlich. Ein professioneller Käufer mit entsprechender Ausrüstung und Fachwissen kann möglicherweise einen nicht zertifizierten Diamanten direkt untersuchen.",
+      "Dennoch benötigt der Käufer genügend Informationen, um eine verantwortungsvolle Kaufentscheidung treffen zu können. Ohne einen anerkannten Bericht müssen möglicherweise weitere Merkmale unabhängig überprüft werden."
+    ],
+    "resultsIntro": "Dies kann Folgendes zur Folge haben:",
+    "results": [
+      "A longer evaluation process",
+      "A conditional preliminary offer",
+      "Additional testing",
+      "A recommendation for laboratory grading",
+      "Costs for unsetting or resetting",
+      "More conservative assumptions until the stone is verified"
+    ],
+    "closing": "Das Fehlen eines Zertifikats sollte den Diamanten nicht automatisch wertlos machen. Es bedeutet lediglich, dass das Dokument nicht zur Feststellung der gemeldeten Merkmale verwendet werden kann."
+  },
+  "lostOrNeverCertified": {
+    "id": "lost-or-never-certified",
+    "title": "Zertifikat verloren oder nie zertifiziert: Welche Situation trifft zu?",
+    "intro": "Der nächste Schritt hängt davon ab, ob der Diamant einmal ein Gutachten hatte.",
+    "scenarios": [
+      {
+        "title": "Der Originalbericht ist verloren gegangen",
+        "paragraphs": [
+          "Wenn für den Diamanten zuvor ein GIA-, HRD-Antwerpen- oder IGI-Bericht vorhanden war, ist es möglicherweise möglich, die Berichtsinformationen online wiederherzustellen."
+        ],
+        "lookForIntro": "Suchen:",
+        "lookFor": [
+          "Eine alte Fotokopie",
+          "Eine Berichtsnummer auf dem Kaufbeleg",
+          "Eine Berichtsnummer in einem Versicherungsgutachten",
+          "Eine E-Mail vom ursprünglichen Juwelier",
+          "Eine in einem Schmuckinventar erfasste Nummer",
+          "Eine Laserbeschriftung auf dem Diamanten",
+          "Ein Foto des Originalberichts",
+          "Ein QR-Code oder ein digitaler Berichtslink"
+        ],
+        "closing": "Wenn die Berichtsnummer gefunden wird, nutzen Sie die offizielle Website des ausstellenden Labors, um die Informationen abzurufen oder zu überprüfen."
+      },
+      {
+        "title": "Der Diamant wurde nie zertifiziert",
+        "paragraphs": [
+          "Wenn der Diamant noch nie von einem anerkannten Labor bewertet wurde, muss sich der Käufer auf eine körperliche Untersuchung und alle verfügbaren Belege verlassen.",
+          "Abhängig von der voraussichtlichen Qualität und dem potenziellen Wert des Diamanten kann sich ein neuer Bewertungsbericht lohnen oder auch nicht."
+        ]
+      },
+      {
+        "title": "Sie wissen nicht, ob es zertifiziert wurde",
+        "paragraphs": [
+          "Reichen Sie den Ring oder Diamanten als „Zertifikatsstatus unbekannt“ ein. Ein Spezialist kann nach einer Laserbeschriftung suchen und alte Quittungen oder Gutachten auf Hinweise auf eine Berichtsnummer überprüfen.",
+          "Raten Sie nicht über das Labor oder die Noten, wenn Sie unsicher sind."
+        ]
+      }
+    ]
+  },
+  "lostGia": {
+    "id": "lost-gia",
+    "title": "Was soll ich tun, wenn ich ein GIA-Zertifikat verloren habe?",
+    "paragraphs": [
+      "GIA stellt keine doppelten Bewertungsberichte aus. Wenn Sie jedoch die Berichtsnummer kennen, können Sie mit GIA Report Check die Bewertungsinformationen anzeigen.",
+      "GIA gibt an, dass für Berichte, die nach dem 1. Juli 2010 datiert sind, auch PDF-Versionen zur Ansicht oder zum Herunterladen verfügbar sind."
+    ],
+    "giaLostLinkText": "GIA-Anweisungen für verlorene Berichte",
+    "giaReportCheckText": "GIA-Berichtsprüfung",
+    "tryIntro": "Versuchen Sie Folgendes",
+    "steps": [
+      "Durchsuchen Sie Ihre E-Mails und Ihren Cloud-Speicher nach der Berichtsnummer.",
+      "Überprüfen Sie den Originalbeleg oder das Versicherungsgutachten.",
+      "Fragen Sie den ursprünglichen Juwelier, ob die Nummer noch in seinen Unterlagen vorhanden ist.",
+      "Lassen Sie den Diamanten auf eine Laserbeschriftung überprüfen.",
+      "Geben Sie die Berichtsnummer in GIA Report Check ein.",
+      "Laden Sie die verfügbaren Berichtsdaten oder PDF herunter.",
+      "Lassen Sie sich von einem Spezialisten bestätigen, ob der physische Diamant mit dem Bericht übereinstimmt."
+    ],
+    "closing": "Eine gültige Meldenummer zu finden ist nur der erste Schritt. Der physische Diamant muss noch mit dem Bericht übereinstimmen. Eine Laserbeschriftung kann bei der Identifizierung hilfreich sein, sie sollte jedoch unter Vergrößerung untersucht und neben Maßen und anderen Merkmalen berücksichtigt werden."
+  },
+  "lostHrd": {
+    "id": "lost-hrd",
+    "title": "Was passiert, wenn ich einen Bericht von HRD Antwerpen verloren habe?",
+    "paragraphs": [
+      "My HRD Antwerp bietet Online-Zugriff auf sein Bewertungsberichtsarchiv. Wenn Sie die Berichtsnummer oder die externe Identifikationsnummer kennen, können Sie den Diamanten- oder Schmuckbericht möglicherweise online finden.",
+      "Nutzen Sie die offizielle Berichtssuche von My HRD Antwerpen, anstatt sich auf eine inoffizielle Datenbank zu verlassen.",
+      "Ein Bericht von HRD Antwerpen kann Informationen über die 4Cs des Diamanten enthalten. Schmuckberichte können auch Angaben zum Metall und zur Fassung des Artikels enthalten.",
+      "Wenn Sie die Berichtsnummer nicht kennen, überprüfen Sie alte Rechnungen, Gutachten, E-Mails, Verpackungen und alle auf dem Diamanten sichtbaren Inschriften."
+    ],
+    "hrdLinkText": "Meine HRD Antwerpen-Berichtssuche"
+  },
+  "lostIgi": {
+    "id": "lost-igi",
+    "title": "Was passiert, wenn ich einen IGI-Bericht verloren habe?",
+    "paragraphs": [
+      "IGI bietet ein offizielles Online-Tool zur Berichtsüberprüfung. Wenn die Berichtsnummer verfügbar ist, geben Sie sie über IGI Verify Your Report ein, um die Bewertungsinformationen zu überprüfen.",
+      "Auf digitale Berichtsinformationen kann möglicherweise auch über einen QR-Code oder eine Berichtsnummer zugegriffen werden, die mit dem Originaldokument verbunden sind.",
+      "IGI bietet in einigen Märkten doppelte oder aktualisierte Berichtsdienste an, aber Verfügbarkeit und Bedingungen variieren. Bestätigen Sie den aktuellen Service direkt bei IGI, bevor Sie davon ausgehen, dass in Belgien ein gedruckter Ersatz geliefert werden kann."
+    ],
+    "igiLinkText": "IGI überprüft Ihren Bericht"
+  },
+  "buyerEvaluation": {
+    "id": "buyer-evaluation",
+    "title": "Wie kann ein Käufer einen Diamanten ohne Zertifikat bewerten?",
+    "intro": [
+      "Ein Käufer kann damit beginnen, den Diamanten oder das Schmuckstück zu untersuchen und die verfügbaren Informationen zu überprüfen. Der genaue Vorgang hängt davon ab, ob der Stein lose oder montiert ist."
+    ],
+    "sections": [
+      {
+        "title": "Erstidentifizierung",
+        "paragraphs": [
+          "Der erste Schritt besteht darin, festzustellen, ob es sich bei dem Stein um einen Diamanten handelt. Das visuelle Erscheinungsbild allein reicht nicht aus, da einige Simulanzien ähnlich aussehen können.",
+          "Der Gutachter kann geeignete Instrumente verwenden, um Diamanten von Materialien wie Zirkonia, Moissanit oder Glas zu unterscheiden."
+        ]
+      },
+      {
+        "title": "Natürlichen oder im Labor angebauten Ursprungs",
+        "paragraphs": [
+          "Natürliche und im Labor gezüchtete Diamanten haben die gleiche grundlegende chemische Zusammensetzung und können sehr ähnlich aussehen. Die Herkunft sollte nicht allein anhand des Aussehens erraten werden.",
+          "Um festzustellen, ob der Diamant natürlich ist, im Labor gezüchtet wurde oder weitere Tests erfordert, sind möglicherweise professionelle Screening-Geräte oder eine Laboruntersuchung erforderlich."
+        ]
+      },
+      {
+        "title": "Karatgewicht",
+        "paragraphs": [
+          "Ein loser Diamant kann auf einer geeichten Waage gewogen werden. Wenn der Diamant montiert bleibt, muss sein Gewicht möglicherweise anhand der Maße und der Fassung geschätzt werden.",
+          "Das geschätzte Gewicht sollte als Schätzung und nicht als genaues Karatgewicht angegeben werden."
+        ]
+      },
+      {
+        "title": "Farbe und Klarheit",
+        "paragraphs": [
+          "Der Gutachter untersucht die sichtbare Farbe, Einschlüsse und Oberflächeneigenschaften des Diamanten. Die genaue Beurteilung eines gefassten Diamanten kann schwieriger sein, da die Fassung das Aussehen beeinträchtigen oder einen Teil des Steins verdecken kann."
+        ]
+      },
+      {
+        "title": "Schnitt und Proportionen",
+        "paragraphs": [
+          "Bei einem losen Stein können Maße und Proportionen genauer beurteilt werden. Bei einem gefassten Diamanten können einige Maße durch die Fassung eingeschränkt sein."
+        ]
+      },
+      {
+        "title": "Fluoreszenz, Behandlungen und Zustand",
+        "paragraphs": [
+          "Der Diamant kann auch auf Fluoreszenz, Behandlungen, Absplitterungen, Abrieb, Hohlräume oder Beschädigungen untersucht werden. Einige Behandlungen und Herkunftsfragen erfordern erweiterte Labortests."
+        ]
+      },
+      {
+        "title": "Schmuck und Metall",
+        "paragraphs": [
+          "Bei einem gefassten Diamanten kann der Käufer außerdem Folgendes beurteilen:"
+        ],
+        "bullets": [
+          "Edelmetalltyp",
+          "Markenzeichen",
+          "Einstellung",
+          "Seitensteine",
+          "Zustand",
+          "Marke oder Designer",
+          "Alter und Stil",
+          "Reparaturen oder Größenänderungen"
+        ],
+        "closing": "Der mittlere Diamant und die Fassung können separat bewertet werden."
+      }
+    ]
+  },
+  "naturalAtHome": {
+    "id": "natural-at-home",
+    "title": "Können Sie zu Hause erkennen, ob ein Diamant natürlich ist?",
+    "paragraphs": [
+      "Heimtests können nicht zuverlässig feststellen, ob ein Diamant natürlich, im Labor gezüchtet oder behandelt ist.",
+      "Nebeltests, Kratztests, Zeitungstests und ähnliche Online-Methoden sind unzuverlässig und können den Schmuck beschädigen. Ein im Labor gezüchteter Diamant ist immer noch ein Diamant, daher können viele einfache Diamanttester ihn nicht von einem natürlichen Diamanten unterscheiden.",
+      "Zerkratzen Sie den Stein nicht, setzen Sie ihn keiner unkontrollierten Hitze aus und verwenden Sie keine Chemikalien, die die Fassung beschädigen könnten. Wenn der Diamant lose erscheint, berühren oder tragen Sie den Schmuck nicht weiter.",
+      "Wenn die Herkunft unbekannt ist, sind professionelle Untersuchungen oder Labortests der verantwortungsvolle Weg."
+    ]
+  },
+  "loseValue": {
+    "id": "lose-value",
+    "title": "Verliert ein Diamant ohne Zertifikat an Wert?",
+    "paragraphs": [
+      "Der Verlust des physischen Berichts ändert nichts an den inhärenten Eigenschaften des Diamanten. Der Diamant wird nicht kleiner, stärker eingefasst oder weniger gut geschliffen, weil ein Dokument fehlt.",
+      "Allerdings kann eine fehlende Dokumentation zu Unsicherheit führen. Ein Käufer muss möglicherweise die Möglichkeit berücksichtigen, dass:"
+    ],
+    "uncertainties": [
+      "Der Diamant ist eher im Labor gezüchtet als natürlich",
+      "Die eingereichten Noten sind ungenau",
+      "Eine Behandlung liegt vor",
+      "Der Diamant entspricht nicht einem alten Gutachten",
+      "Nach vorheriger Untersuchung ist ein Schaden entstanden",
+      "Eine Laborbewertung ist erforderlich",
+      "Der Stein muss entschärft und zurückgesetzt werden"
+    ],
+    "closing": "Diese zusätzliche Unsicherheit und dieser zusätzliche Aufwand können sich auf das Erstangebot auswirken oder es an Bedingungen geknüpft machen. Wenn ein vorhandener digitaler Bericht wiederhergestellt und dem Diamanten zugeordnet werden kann, besteht möglicherweise keine Notwendigkeit, einen völlig neuen Bericht anzufordern."
+  },
+  "newCertificate": {
+    "id": "new-certificate",
+    "title": "Sollte ich mir vor dem Verkauf ein neues Zertifikat besorgen?",
+    "intro": [
+      "Nicht jeder nicht zertifizierte Diamant sollte zur Laborbewertung geschickt werden, bevor er einem Käufer angeboten wird. Bei der Entscheidung sollten die voraussichtliche Qualität, Größe, Fassung, der Zustand und der erwartete Markt des Diamanten berücksichtigt werden."
+    ],
+    "worthwhileIntro": "Ein neuer Bericht kann sich lohnen, wenn:",
+    "worthwhile": [
+      "Der Diamant scheint ein bedeutender Naturstein zu sein",
+      "Der Stein kann eine hohe Farbe oder Reinheit aufweisen",
+      "Es kann sich um einen natürlichen Fancy-Diamanten handeln",
+      "Für den Diamanten gibt es keine verlässliche Dokumentation",
+      "Ein Bericht könnte den Käufermarkt erweitern",
+      "Der Käufer gibt ein Angebot unter der Bedingung der Einstufung ab",
+      "Es besteht Unsicherheit über den Ursprung oder die Behandlung",
+      "Der vorhandene Bericht ist nicht mehr verwendbar oder stimmt nicht überein"
+    ],
+    "notWorthwhileIntro": "Ein neuer Bericht lohnt sich möglicherweise nicht, wenn:",
+    "notWorthwhile": [
+      "Die Sortier- und Bearbeitungskosten sind im Verhältnis zum wahrscheinlichen Wert hoch",
+      "Der Diamant ist klein",
+      "Der Schmuck enthält viele kleine Steine",
+      "Ein Direktkäufer kann den Artikel ohne Gutachten bewerten",
+      "Der Stein müsste kostspielig oder riskant entfernt werden",
+      "Der Verkäufer hat noch nicht festgestellt, ob der Artikel den Kriterien des Käufers entspricht"
+    ],
+    "closing": "Fordern Sie eine vorläufige professionelle Bewertung an, bevor Sie für die Benotung bezahlen. Ein Käufer oder ein unabhängiger Spezialist kann erklären, ob eine Zertifizierung den Verkaufsprozess voraussichtlich verbessern wird.",
+    "ctaText": "FRAGEN SIE, OB MEIN DIAMANT EINE ZERTIFIZIERUNG BENÖTIGT",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "certificationDecision": {
+    "id": "certification-decision",
+    "title": "Entscheidungstabelle zur Diamant-Zertifizierung",
+    "table": {
+      "caption": "Empfohlene erste Schritte bei nicht zertifizierten Diamanten",
+      "headers": [
+        "Situation",
+        "Empfohlener erster Schritt"
+      ],
+      "rows": [
+        [
+          "Bericht verloren, aber Berichtsnummer ist bekannt",
+          "Rufen Sie den Bericht über die offizielle Labordatenbank ab"
+        ],
+        [
+          "Verlorener Bericht und Laserbeschriftung sind sichtbar",
+          "Notieren Sie die Beschriftung und überprüfen Sie sie beim ausstellenden Labor"
+        ],
+        [
+          "Kein Gutachten, aber Originalbeleg vorhanden",
+          "Reichen Sie die Quittung und die Fotos zur vorläufigen Prüfung ein"
+        ],
+        [
+          "Geerbter Schmuck ohne Papiere",
+          "Beginnen Sie mit der physischen Identifizierung und Eigentumsdokumentation"
+        ],
+        [
+          "Großer loser Diamant ohne Gutachten",
+          "Holen Sie sich fachkundigen Rat zur Laborbewertung ein"
+        ],
+        [
+          "Eingefasster Diamant mit unbekannter Herkunft",
+          "Fordern Sie vor der Deaktivierung eine professionelle Untersuchung an"
+        ],
+        [
+          "Ring mit vielen kleinen Diamanten",
+          "Fragen Sie, ob die Bewertung eines vollständigen Schmucks praktischer ist"
+        ],
+        [
+          "Möglicher Diamant in Fancy-Farbe",
+          "Lassen Sie sich vor der Reinigung, Änderung oder Einstufung von einem Spezialisten untersuchen"
+        ],
+        [
+          "Verdacht auf im Labor gezüchteten Diamanten",
+          "Bestätigen Sie, ob der beabsichtigte Käufer im Labor gezüchtete Diamanten kauft"
+        ],
+        [
+          "Beschädigter Diamant",
+          "Lassen Sie sich vor der Zertifizierung oder dem Nachschneiden über den Zustand beraten"
+        ]
+      ]
+    }
+  },
+  "mountedCertification": {
+    "id": "mounted-certification",
+    "title": "Kann ein gefasster Diamant zertifiziert werden?",
+    "paragraphs": [
+      "Einige Labore stellen Schmuckgutachten für gefasste Steine ​​zur Verfügung. Für einen vollständigen Bewertungsbericht für lose Diamanten kann es jedoch erforderlich sein, dass der mittlere Diamant aus seiner Fassung entfernt wird."
+    ],
+    "limitsIntro": "Die Einstellung kann die Fähigkeit des Labors einschränken, Folgendes zu bestimmen:",
+    "limits": [
+      "Genaues Karatgewicht",
+      "Komplette Messungen",
+      "Farbe",
+      "Klarheit",
+      "Gürtelzustand",
+      "Behandlungen",
+      "Laserbeschriftung",
+      "Alle identifizierenden Merkmale"
+    ],
+    "labsParagraph": "HRD Antwerpen erstellt Berichte sowohl für lose Diamanten als auch für Schmuck, während IGI auch Schmuckberichte bereitstellt, die gefasste Edelsteine ​​und die Fassung beschreiben. Der verfügbare Berichtstyp und der Detaillierungsgrad sollten direkt mit dem ausgewählten Labor bestätigt werden.",
+    "closing": "Entfernen Sie den Diamanten nicht selbst. Fragen:",
+    "questions": [
+      "Ist eine Unscharfschaltung notwendig?",
+      "Wer entfernt den Diamanten?",
+      "Kann die bestehende Einstellung wiederverwendet werden?",
+      "Wer haftet für Schäden?",
+      "Ist das Zurücksetzen inbegriffen?",
+      "Ist der Artikel während des Prozesses versichert?",
+      "Reicht stattdessen ein Schmuckgutachten?"
+    ],
+    "finalNote": "Bei einem antiken, signierten oder empfindlichen Ring kann die Entfernung den Zustand des Artikels oder sein Sammlerinteresse beeinträchtigen."
+  },
+  "helpfulDocuments": {
+    "id": "helpful-documents",
+    "title": "Welche Dokumente können helfen, wenn kein Zertifikat vorhanden ist?",
+    "paragraphs": [
+      "Ein Bewertungsbericht ist nützlich, aber er ist nicht das einzige Dokument, das bei der Identifizierung des Diamanten oder der Feststellung seiner Geschichte helfen kann."
+    ],
+    "itemsIntro": "Senden Sie alle verfügbaren:",
+    "items": [
+      "Kaufbeleg",
+      "Versicherungsgutachten",
+      "Nachlassinventar",
+      "Erbschaftsdokumentation",
+      "Originalverpackung",
+      "Markenzertifikat",
+      "Reparaturbeleg",
+      "Größenänderung des Datensatzes",
+      "Foto des alten Zertifikats",
+      "E-Mail vom ursprünglichen Juwelier",
+      "Diamond-Berichtsnummer",
+      "Schallplatte mit Laserbeschriftung",
+      "Frühere Verkaufs- oder Auktionsunterlagen"
+    ],
+    "closing": "Diese Dokumente ersetzen nicht die physische Überprüfung, können jedoch nützliche Informationen liefern und dabei helfen, den rechtmäßigen Besitz festzustellen. Ein Bewertungsbericht ist kein Eigentumsnachweis. Eine Person könnte eine Kopie eines Berichts besitzen, ohne den darin beschriebenen Diamanten zu besitzen. Der Käufer kann daher weiterhin Identifikations- und Eigentumsinformationen anfordern."
+  },
+  "inheritedDiamond": {
+    "id": "inherited-diamond",
+    "title": "Kann ich einen geerbten Diamanten ohne Papiere verkaufen?",
+    "paragraphs": [
+      "Ja, geerbte Diamanten und Schmuckstücke kommen häufig ohne Originalbelege oder Bewertungsberichte an.",
+      "Beginnen Sie mit dem Sammeln der Dokumente, die im Nachlass verfügbar sind, wie z. B. ein Inventar, ein Testament, ein Verteilungsprotokoll, ein alter Versicherungsplan oder eine frühere Schätzung. Familienfotos und die Originalverpackung können ebenfalls dabei helfen, einen älteren Artikel oder einen Markenartikel zu identifizieren.",
+      "Reinigen, polieren, reparieren oder zerlegen Sie einen geerbten Ring nicht, bevor sein Alter und sein Design berücksichtigt wurden. Das gesamte Schmuckstück kann über den zentralen Diamanten hinaus Antiquitäten-, Marken- oder Sammlerwert haben.",
+      "Wenn sich mehrere Personen das Eigentum teilen, stellen Sie sicher, dass die Person, die den Verkauf arrangiert, befugt ist, den Verkauf abzuschließen."
+    ],
+    "ctaText": "Reichen Sie einen geerbten Diamanten zur Überprüfung ein",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "withoutReceipt": {
+    "id": "without-receipt",
+    "title": "Kann ich einen Diamantring ohne Quittung verkaufen?",
+    "paragraphs": [
+      "Für eine erste Bewertung ist nicht immer eine Quittung erforderlich, aber ein Käufer benötigt möglicherweise einen angemessenen Nachweis, dass der Verkäufer Eigentümer des Rings ist und das Recht hat, ihn zu verkaufen.",
+      "Wenn die Originalquittung fehlt, legen Sie alle verfügbaren Unterlagen vor:"
+    ],
+    "alternatives": [
+      "Identifikation",
+      "Frühere Versicherungsunterlagen",
+      "Geschenkdokumentation",
+      "Nachlassdokumente",
+      "Reparaturverlauf",
+      "Alte Fotos",
+      "Korrespondenz des ursprünglichen Juweliers"
+    ],
+    "closing": "Die erforderlichen Prüfungen hängen vom Artikel und der vorgeschlagenen Transaktion ab. Versuchen Sie nicht, eine Quittung, ein Zertifikat oder einen Eigentumsnachweis zu erstellen oder zu ändern."
+  },
+  "whatNotToDo": {
+    "id": "what-not-to-do",
+    "title": "Was Sie mit einem nicht zertifizierten Diamanten nicht tun sollten",
+    "intro": "Fehlende Unterlagen können Verkäufer anfällig für schlechte Beratung machen. Vermeiden Sie irreversible oder teure Maßnahmen, bevor der Diamant überprüft wurde.",
+    "warnings": [
+      {
+        "title": "Gehen Sie nicht davon aus, dass es wertlos ist",
+        "text": "Durch das Fehlen eines Berichts werden die physikalischen Eigenschaften des Diamanten nicht gelöscht. Erkundigen Sie sich, welche Tests erforderlich sind, bevor Sie die Behauptung akzeptieren, dass sie nur einen geringen oder keinen Wert haben."
+      },
+      {
+        "title": "Erfinden Sie keine Noten",
+        "text": "Beschreiben Sie den Diamanten nicht als D-Farbe, makellos oder mit einem bestimmten Karatgewicht, es sei denn, die Informationen stammen aus einer zuverlässigen Quelle. Verwenden Sie bei Bedarf „unbekannt“."
+      },
+      {
+        "title": "Verwenden Sie keine schädlichen Heimtests",
+        "text": "Kratz-, Hitze- und chemische Tests können den Ring beschädigen und trotzdem nicht feststellen, ob der Diamant natürlich ist."
+      },
+      {
+        "title": "Entfernen Sie den Diamanten nicht selbst",
+        "text": "Das Entschärfen erfordert entsprechende Werkzeuge und Erfahrung. Wenn Sie es zu Hause versuchen, kann der Diamant absplittern oder der Schmuck beschädigt werden."
+      },
+      {
+        "title": "Bezahlen Sie die Zertifizierung nicht automatisch",
+        "text": "Fragen Sie, ob ein neuer Bericht den Verkauf wahrscheinlich verbessern wird, bevor Sie für Sortierung, Transport, Unschärfe und Neueinstellung bezahlen."
+      },
+      {
+        "title": "Senden Sie den Ring nicht an eine nicht bestätigte Adresse",
+        "text": "Beginnen Sie mit Fotos und verfügbaren Dokumenten. Bestätigen Sie die Käufer-, Transport-, Versicherungs- und Rückgabebedingungen, bevor Sie den physischen Artikel versenden."
+      },
+      {
+        "title": "Verwechseln Sie ein Gutachten nicht mit einem Zertifikat",
+        "text": "Ein Wertgutachten vermittelt eine Wertschätzung. Ein Bewertungsbericht beschreibt die gemmologischen Eigenschaften des Diamanten. Das eine ersetzt nicht automatisch das andere."
+      }
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Wie Dalila einen Diamanten ohne Zertifikat bewertet",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Senden Sie die Informationen, die Sie kennen",
+        "text": "Teilen Sie uns mit, ob der Diamant lose oder montiert ist, wie er erworben wurde und ob möglicherweise frühere Papiere vorhanden sind. Laden Sie klare Fotos des gesamten Artikels, des mittleren Diamanten, der Seitenansicht, der Markenzeichen und der verfügbaren Dokumente hoch."
+      },
+      {
+        "number": 2,
+        "title": "Vorläufige Überprüfung",
+        "text": "Dalila überprüft die Fotos und Informationen, um festzustellen, ob der Artikel seinen Kaufkriterien entspricht und welche Überprüfungsschritte möglicherweise erforderlich sind. Allein anhand von Fotos lässt sich weder eine Endnote noch ein Kaufpreis versprechen."
+      },
+      {
+        "number": 3,
+        "title": "Berichtssuche",
+        "text": "Wenn eine Berichtsnummer oder eine Laserbeschriftung verfügbar ist, können die Informationen über das offizielle System des ausstellenden Labors überprüft werden. Der physische Diamant muss noch mit dem Bericht übereinstimmen."
+      },
+      {
+        "number": 4,
+        "title": "Körperliche Untersuchung",
+        "text": "Gegebenenfalls kann eine private Beurteilung in Antwerpen vereinbart werden. Anschließend kann der Diamant auf Identität, Herkunft, Qualität, Behandlung und Zustand untersucht werden."
+      },
+      {
+        "number": 5,
+        "title": "Zertifizierungsempfehlung",
+        "text": "Wenn ein neuer Laborbericht den Verkauf materiell stützen könnte, kann Dalila erklären, warum dies eine Überlegung wert sein könnte. Bei der Entscheidung sollten die Kosten für Sortierung, Handhabung, Transport, Unschärfe und Neueinstellung berücksichtigt werden."
+      },
+      {
+        "number": 6,
+        "title": "Kaufangebot",
+        "text": "Wenn der Artikel die Kaufkriterien von Dalila erfüllt und die erforderlichen Prüfungen abgeschlossen wurden, kann Dalila ein Kaufangebot unterbreiten. Der Verkäufer kann das Angebot prüfen, ohne dass eine Verpflichtung besteht, fortzufahren."
+      }
+    ],
+    "primaryCtaText": "Schätzen Sie meinen Diamanten ohne Zertifikat",
+    "primaryCtaHref": "#uncertified-diamond-form-bottom",
+    "secondaryCtaText": "BUCHEN SIE EINE PRIVATE BEWERTUNG IN ANTWERPEN",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "idTop": "uncertified-diamond-form-top",
+    "idBottom": "nicht zertifizierter Diamantformboden",
+    "leadSource": "sell_diamond_without_certificate",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP und PDF",
+    "title": "Bewerten Sie meinen Diamanten ohne Zertifikat",
+    "subtitle": "Ein Notenbericht ist optional. Reichen Sie ein, was Sie wissen, und laden Sie klare Fotos hoch. Dalila erklärt Ihnen die nächsten Verifizierungsschritte.",
+    "optionalNote": "Berichtsnummer, genaues Karatgewicht, Farbe, Reinheit und Originalquittung sind nicht erforderlich.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Was reichen Sie ein?"
+      },
+      {
+        "number": 2,
+        "title": "Was ist der Zertifikatsstatus?"
+      },
+      {
+        "number": 3,
+        "title": "Welche Informationen kennen Sie?"
+      },
+      {
+        "number": 4,
+        "title": "Laden Sie Fotos und Dokumente hoch"
+      },
+      {
+        "number": 5,
+        "title": "Kontaktinformationen"
+      }
+    ],
+    "itemTypes": [
+      "Loser Diamant",
+      "Diamant-Verlobungsring",
+      "Anderer Diamantring",
+      "Diamantohrringe",
+      "Diamanthalskette oder -anhänger",
+      "Diamantarmband",
+      "Geerbter Diamantschmuck",
+      "ich bin nicht sicher"
+    ],
+    "certificateStatuses": [
+      "Ich habe den Originalbericht",
+      "Ich habe eine digitale Kopie",
+      "Ich kenne die Berichtsnummer",
+      "Ich habe den Bericht verloren",
+      "Der Diamant wurde nie zertifiziert",
+      "Ich habe den Gegenstand ohne Papierkram geerbt",
+      "ich bin nicht sicher"
+    ],
+    "originOptions": [
+      "Natürlicher Diamant",
+      "Im Labor gezüchteter Diamant",
+      "Herkunft unbekannt"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Andere",
+      "Unbekannt"
+    ],
+    "labOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Ein anderes Labor",
+      "Unbekannt",
+      "Nicht zutreffend"
+    ],
+    "contactMethods": [
+      "E-Mail",
+      "Telefon",
+      "Entweder per E-Mail oder Telefon"
+    ],
+    "evaluationPreferences": [
+      "Nur Online-Rezension",
+      "Privater Termin in Antwerpen",
+      "Noch nicht sicher"
+    ],
+    "uploadHints": [
+      "Komplettes Schmuckstück",
+      "Nahansicht des Diamanten",
+      "Seitenansicht der Umgebung",
+      "Punzen oder Signaturen",
+      "Alte Quittung",
+      "Vorheriges Gutachten",
+      "Foto oder Kopie eines alten Berichts",
+      "Gegebenenfalls Erbschaftsdokumente"
+    ],
+    "consentText": "Ich bin damit einverstanden, dass Dalila Diamonds mich bezüglich dieser Bewertungsanfrage kontaktieren darf. Mir ist bewusst, dass für eine erste Überprüfung kein Bewertungsbericht erforderlich ist, jedoch möglicherweise eine körperliche Untersuchung oder Labortests erforderlich sind, bevor ein endgültiges Angebot abgegeben wird.",
+    "submitButton": "Bewerten Sie meinen Diamanten ohne Zertifikat",
+    "submittingButton": "Einreichen…",
+    "nextButton": "Weitermachen",
+    "backButton": "Zurück",
+    "successMessage": "Danke schön. Ihre Daten zu nicht zertifizierten Diamanten wurden übermittelt. Ein Mitglied des Dalila Diamonds-Teams wird sich in Kürze mit Ihnen in Verbindung setzen.",
+    "errorMessage": "Wir konnten Ihre Anfrage nicht abschicken. Bitte überprüfen Sie die erforderlichen Felder und versuchen Sie es erneut.",
+    "labels": {
+      "itemType": "Was reichen Sie ein?",
+      "certificateStatus": "Zertifikatsstatus",
+      "origin": "Sofern bekannt, natürlich oder im Labor gezüchtet",
+      "caratWeight": "Ungefähres Karatgewicht",
+      "shape": "Diamond shape",
+      "gradingLaboratory": "Bewertungslabor, falls bekannt",
+      "reportNumber": "Meldenummer, falls bekannt",
+      "purchaseDate": "Ursprüngliches Kaufdatum, falls bekannt",
+      "brand": "Marke oder Juwelier, falls bekannt",
+      "upload": "Laden Sie Fotos und Dokumente hoch",
+      "dragDrop": "Ziehen Sie Dateien hierher und legen Sie sie dort ab, oder wählen Sie Dateien aus",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "country": "Land",
+      "postcode": "Postleitzahl",
+      "contactMethod": "Bevorzugte Kontaktmethode",
+      "evaluationPreference": "Online-Bewertung oder Termin in Antwerpen",
+      "additionalInfo": "Weitere Informationen",
+      "optional": "Optional"
+    },
+    "validation": {
+      "itemTypeRequired": "Bitte wählen Sie aus, was Sie einreichen.",
+      "certificateRequired": "Bitte wählen Sie den Zertifikatsstatus aus.",
+      "nameRequired": "Bitte geben Sie Ihren vollständigen Namen ein.",
+      "contactRequired": "Bitte geben Sie eine E-Mail-Adresse oder Telefonnummer an.",
+      "countryRequired": "Bitte geben Sie Ihr Land ein.",
+      "consentRequired": "Bitte bestätigen Sie die Einwilligungserklärung vor dem Absenden."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Kann man einen Diamanten ohne Zertifikat verkaufen?",
+        "answer": "Ja. Ein professioneller Käufer kann einen Diamanten ohne Originalzertifikat bewerten. Möglicherweise sind zusätzliche Tests oder Laborbewertungen erforderlich, bevor ein endgültiges Angebot abgegeben wird."
+      },
+      {
+        "question": "Kann ich meinen Diamantring ohne GIA-Zertifikat verkaufen?",
+        "answer": "Ja. Der Käufer kann mit Fotos und verfügbaren Dokumenten beginnen. Wenn für den Diamanten zuvor ein GIA-Bericht vorhanden war, können die Berichtsinformationen möglicherweise online wiederhergestellt werden, wenn die Nummer bekannt ist."
+      },
+      {
+        "question": "Verliert ein Diamant an Wert, wenn das Zertifikat verloren geht?",
+        "answer": "Der Verlust des Dokuments ändert nichts an der physischen Qualität des Diamanten. Allerdings kann eine fehlende Dokumentation zu Unsicherheiten und zusätzlichen Prüfkosten führen, die sich auf das Erstangebot auswirken können."
+      },
+      {
+        "question": "Kann ich einen verlorenen GIA-Bericht ersetzen?",
+        "answer": "GIA stellt keine doppelten Berichte zur Verfügung. Wenn die Berichtsnummer bekannt ist, können die Daten über GIA Report Check eingesehen werden. Für viele Berichte, die nach dem 1. Juli 2010 datiert sind, sind PDFs verfügbar."
+      },
+      {
+        "question": "Kann ich einen Diamantenbericht von HRD Antwerpen online abrufen?",
+        "answer": "Ja. My HRD Antwerp bietet Online-Zugriff auf sein Berichtsarchiv, wenn die entsprechende Berichtsnummer oder externe Identifikationsinformationen verfügbar sind."
+      },
+      {
+        "question": "Kann ich einen IGI-Bericht online überprüfen?",
+        "answer": "Ja. IGI bietet einen offiziellen Verify Your Report-Dienst an, bei dem Benutzer die Berichtsnummer eingeben können."
+      },
+      {
+        "question": "Kann ein Juwelier meinen Diamanten ohne Zertifikat identifizieren?",
+        "answer": "Ein entsprechend ausgerüsteter Fachmann kann eine Erstidentifizierung durchführen. Möglicherweise sind noch erweiterte Tests erforderlich, um festzustellen, ob der Diamant natürlich, im Labor gezüchtet oder behandelt ist."
+      },
+      {
+        "question": "Sollte ich mir vor dem Verkauf meines Diamanten ein neues Zertifikat besorgen?",
+        "answer": "Nicht immer. Bitten Sie zunächst um eine vorläufige Bewertung. Kosten und Nutzen der Einstufung hängen von der voraussichtlichen Qualität, Größe, dem Zustand und der Fassung des Diamanten ab."
+      },
+      {
+        "question": "Kann ein gefasster Diamant einen Bewertungsbericht erhalten?",
+        "answer": "Einige Labore stellen Schmuckgutachten für gefasste Diamanten aus. Ein vollständiger Bericht über lose Diamanten kann erfordern, dass der Stein aus seiner Fassung entfernt wird."
+      },
+      {
+        "question": "Kann ich einen geerbten Diamanten ohne Papierkram verkaufen?",
+        "answer": "Ja. Stellen Sie alle verfügbaren Nachlassdokumente, frühere Schätzungen, Fotos und Eigentumsinformationen bereit. Möglicherweise ist eine körperliche Untersuchung erforderlich."
+      },
+      {
+        "question": "Ist ein Diamantgutachten dasselbe wie ein Zertifikat?",
+        "answer": "Nein. Ein Gutachten weist einen Geldwert für einen bestimmten Zweck zu. Ein Bewertungsbericht beschreibt die technischen Eigenschaften des Diamanten."
+      },
+      {
+        "question": "Kann Dalila ohne Zertifikat einen Sofortpreis anbieten?",
+        "answer": "Ein sofortiger Endpreis lässt sich nicht allein anhand von Fotos versprechen. Dalila kann mit einer Vorprüfung beginnen und erklären, welche Überprüfung erforderlich ist."
+      },
+      {
+        "question": "Kauft Dalila jeden nicht zertifizierten Diamanten?",
+        "answer": "Nein. Dalila muss zunächst feststellen, ob der Diamant seine Kaufkriterien erfüllt, und die erforderlichen Prüfungen durchführen."
+      },
+      {
+        "question": "Muss ich nach der Bewertung verkaufen?",
+        "answer": "Nein. Um eine Bewertung anzufordern, müssen Sie kein Angebot annehmen."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "start-anyway",
+    "title": "Das Fehlen eines Zertifikats sollte Sie nicht vom Start abhalten",
+    "paragraphs": [
+      "Ein Bewertungsbericht kann die Identifizierung und den Vergleich eines Diamanten erleichtern, aber der Verlust des Dokuments macht den Stein nicht wertlos.",
+      "Beginnen Sie mit den Informationen, die Sie haben. Reichen Sie klare Fotos, alte Quittungen, Gutachten oder Berichtsnummern ein und lassen Sie einen Spezialisten den geeigneten nächsten Schritt festlegen.",
+      "Wenn Sie einen Naturdiamanten oder einen Diamantring ohne Originalzertifikat besitzen, fordern Sie bei Dalila Diamonds eine private Bewertung an."
+    ],
+    "primaryButtonText": "MEINEN DIAMANTEN OHNE ZERTIFIKAT EINREICHEN",
+    "primaryButtonHref": "#uncertified-diamond-form-bottom",
+    "secondaryButtonText": "SPRECHEN SIE MIT EINEM DIAMANTSPEZIALISTEN",
+    "secondaryButtonHref": "/contact"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "Verkaufen Sie Ihren Diamanten in Antwerpen"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "Diamantenbewertungsrechner"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "Wo kann man einen Diamantring verkaufen?"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "Einen Diamantring sicher verkaufen"
+    },
+    "appraisalAntwerp": {
+      "href": "/resources/diamond-appraisal-antwerp-belgium",
+      "text": "Diamantbewertung in Antwerpen"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "Überprüfen Sie einen GIA-, HRD- oder IGI-Bericht"
+    }
+  }
+}

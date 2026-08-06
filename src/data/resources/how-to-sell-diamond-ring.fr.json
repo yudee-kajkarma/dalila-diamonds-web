@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "title": "Comment vendre une bague en diamant en toute sécurité : 10 étapes | Dalila",
+    "description": "Apprenez à vendre une bague en diamant en toute sécurité : vérifiez son rapport, contrôlez l'acheteur, protégez la remise et confirmez le paiement avant de libérer votre bague.",
+    "canonical": "https://www.daliladiamonds.com/resources/how-to-sell-diamond-ring",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaSellingJewellery": "https://www.gia.edu/gia-news-research-selling-jewellery"
+  },
+  "banner": {
+    "title": "Comment vendre une bague en diamant en toute sécurité",
+    "breadcrumbHome": "Maison",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Comment vendre une bague en diamant en toute sécurité",
+    "imageAlt": "Bannière de ressources Comment vendre une bague en diamant en toute sécurité"
+  },
+  "hero": {
+    "title": "Comment vendre une bague en diamant en toute sécurité : un guide étape par étape",
+    "paragraphs": [
+      "Vendre une bague en diamant en toute sécurité nécessite plus que trouver quelqu’un prêt à faire une offre. Vous devez comprendre ce que contient la bague, vérifier sa documentation, vérifier l'acheteur, protéger la bague pendant l'examen ou le transport et confirmer le paiement avant le transfert de propriété.",
+      "Le processus le plus sûr commence avant de remettre la bague à qui que ce soit. Rassemblez les documents disponibles, prenez des photographies claires et créez un enregistrement de base de l’état de la bague. Vous pourrez alors demander une première expertise et décider si une inspection physique est justifiée.",
+      "Un acheteur légitime doit être en mesure d'expliquer comment la bague sera évaluée, si des frais s'appliquent, comment l'article sera protégé et ce qui se passera si vous décidez de ne pas vendre."
+    ],
+    "primaryButtonText": "COMMENCER UNE ÉVALUATION PRIVÉE DE BAGUE EN DIAMANT",
+    "primaryButtonHref": "#secure-evaluation-form"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/how-to-sell-diamond-ring-safely.webp",
+      "alt": "Bague diamant naturel et documents préparés pour une vente professionnelle en toute sécurité",
+      "width": 1600,
+      "height": 900
+    },
+    "safetySteps": {
+      "src": "/images/resources/diamond-ring-selling-safety-steps.webp",
+      "alt": "Étapes de sécurité pour vendre une bague en diamant naturel",
+      "width": 1400,
+      "height": 1000
+    },
+    "transport": {
+      "src": "/images/resources/safe-diamond-ring-transport.webp",
+      "alt": "Emballage sécurisé et transport documenté pour une bague en diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "payment": {
+      "src": "/images/resources/diamond-ring-payment-verification.webp",
+      "alt": "Reçu d'offre écrit et paiement vérifié pour une vente de bague en diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "checklistCover": {
+      "src": "/images/resources/diamond-seller-safety-checklist.webp",
+      "alt": "Liste de contrôle de sécurité du vendeur de diamants pour préparer et réaliser une vente sécurisée",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Réponse rapide"
+      },
+      {
+        "id": "step-1",
+        "label": "Étape 1 : Confirmer la propriété"
+      },
+      {
+        "id": "step-2",
+        "label": "Étape 2 : Rassembler les documents"
+      },
+      {
+        "id": "step-3",
+        "label": "Étape 3 : Photographiez la bague"
+      },
+      {
+        "id": "step-4",
+        "label": "Étape 4 : Vérifiez le rapport"
+      },
+      {
+        "id": "step-5",
+        "label": "Étape 5 : Comprendre la valeur"
+      },
+      {
+        "id": "step-6",
+        "label": "Étape 6 : Choisissez un itinéraire de vente"
+      },
+      {
+        "id": "step-7",
+        "label": "Étape 7 : Vérifiez l'acheteur"
+      },
+      {
+        "id": "step-8",
+        "label": "Étape 8 : Examen en ligne"
+      },
+      {
+        "id": "step-9",
+        "label": "Étape 9 : Évaluation en personne"
+      },
+      {
+        "id": "step-10",
+        "label": "Étape 10 : Transport sécurisé"
+      },
+      {
+        "id": "step-11",
+        "label": "Étape 11 : Examinez l'offre"
+      },
+      {
+        "id": "step-12",
+        "label": "Étape 12 : Confirmer le paiement"
+      },
+      {
+        "id": "step-13",
+        "label": "Étape 13 : Tenir des registres"
+      },
+      {
+        "id": "safety-checklist",
+        "label": "Liste de contrôle de sécurité"
+      },
+      {
+        "id": "common-scams",
+        "label": "Escroqueries courantes"
+      },
+      {
+        "id": "clean-or-repair",
+        "label": "Nettoyer ou réparer ?"
+      },
+      {
+        "id": "without-certificate",
+        "label": "Vendre sans certificat"
+      },
+      {
+        "id": "inherited-ring",
+        "label": "Anneau hérité"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Comment Dalila aide"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "FAQ"
+      },
+      {
+        "id": "sell-with-confidence",
+        "label": "Vendez en toute confiance"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Réponse rapide : quel est le moyen le plus sûr de vendre une bague en diamant ?",
+    "intro": "Le moyen le plus sûr de vendre une bague en diamant est de travailler avec un acheteur professionnel identifiable, d’obtenir des conditions écrites claires, de conserver une trace de l’état et de la documentation de la bague et de ne libérer l’article qu’après que le paiement convenu ait été confirmé de manière indépendante.",
+    "beforeAcceptingIntro": "Avant d'accepter une offre :",
+    "bullets": [
+      "Rassemblez le rapport de classement et les documents de propriété.",
+      "Enregistrez l’état de la bague avec des photographies.",
+      "Vérifiez le rapport sur les diamants.",
+      "Comprenez la différence entre la valeur d’évaluation et la valeur de revente.",
+      "Recherchez l'acheteur et les détails physiques de son entreprise.",
+      "Demandez le processus d’évaluation et les frais par écrit.",
+      "Utilisez un rendez-vous sécurisé ou un transport assuré entièrement documenté.",
+      "Confirmez ce que comprend l'offre.",
+      "Vérifiez le paiement autorisé de manière indépendante.",
+      "Conservez un reçu et un relevé de transaction."
+    ],
+    "closing": "N'envoyez pas une bague de valeur à une adresse inconnue, ne vous fiez pas à une capture d'écran de paiement et n'acceptez pas la pression pour décider immédiatement."
+  },
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "title": "Confirmez que vous avez le droit de vendre la bague",
+      "paragraphs": [
+        "Avant de demander des offres, vérifiez que vous êtes légalement autorisé à vendre la bague. Cela est normalement simple lorsque vous l'avez acheté vous-même, que vous l'avez reçu sous forme de don complet ou que vous en avez hérité par le biais d'une succession réglée.",
+        "La situation peut nécessiter des éclaircissements lorsque la bague est en propriété conjointe, soumise à une succession non résolue, liée à une réclamation d'assurance ou impliquée dans un litige de séparation ou de propriété. Un acheteur peut demander une pièce d’identité et une preuve de propriété légale avant de finaliser la transaction."
+      ],
+      "documentsIntro": "Les pièces justificatives utiles peuvent inclure :",
+      "bullets": [
+        "Reçu d'achat original",
+        "Documentation sur le cadeau complétée, lorsqu'elle est disponible",
+        "Documents de succession ou d'héritage",
+        "Tableau d'assurance précédent",
+        "Rapport de notation",
+        "Évaluation précédente",
+        "Historique de réparation ou d'entretien",
+        "Documentation de la marque"
+      ],
+      "closing": [
+        "Tous les vendeurs ne disposeront pas de tous ces documents. L’absence de documents n’empêche pas automatiquement une évaluation, mais l’acheteur peut avoir besoin d’informations supplémentaires avant de finaliser un achat.",
+        "Ne modifiez pas, ne cachez pas et n’inventez pas d’informations sur la propriété, l’histoire, l’origine ou les traitements du diamant."
+      ]
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "title": "Rassemblez les documents de l'anneau",
+      "paragraphs": [
+        "Plus vous pouvez fournir des informations précises, plus il devient facile d’obtenir un premier examen significatif.",
+        "Commencez par le rapport de classification des diamants. Les rapports de laboratoires tels que le GIA, le HRD Anvers et l'IGI peuvent décrire l'origine, la forme, le poids en carats, la couleur, la clarté, les informations de taille, les mesures, la fluorescence et les caractéristiques d'identification du diamant.",
+        "Un rapport de notation n’est pas la même chose qu’une évaluation. Le rapport décrit la qualité du diamant, tandis qu’une évaluation attribue une valeur monétaire dans un but particulier. Le GIA explique cette distinction dans ses conseils sur les rapports et évaluations de classification des diamants."
+      ],
+      "gatherIntro": "Vous devez également rassembler :",
+      "bullets": [
+        "La facture originale",
+        "Expertises d’assurance antérieures",
+        "Boîte et emballage d'origine",
+        "Certificats de marque",
+        "Réparation et redimensionnement des enregistrements",
+        "Reçus pour les pierres de remplacement",
+        "Toute information de provenance disponible"
+      ],
+      "closing": "Conservez les documents originaux en lieu sûr. Pour une première soumission en ligne, une copie claire ou une photographie sera généralement plus appropriée que la remise du seul document original."
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "title": "Photographiez et enregistrez la bague avant l'évaluation",
+      "paragraphs": [
+        "Créez un enregistrement visuel de la bague avant qu'elle ne soit transportée, expédiée ou remise à une autre personne. Ces photographies aident à documenter son état actuel et à identifier l'article complet.",
+        "Prenez des photos dans une lumière claire et neutre, sans filtres de beauté ni modifications numériques."
+      ],
+      "photoIntro": "Inclure:",
+      "bullets": [
+        "La bague complète vue d'en haut",
+        "La bague des deux côtés",
+        "L'intérieur du groupe",
+        "Poinçons et signatures de marque",
+        "Le diamant central",
+        "Pierres latérales",
+        "Éclats, rayures ou dommages visibles",
+        "Le rapport de notation complet",
+        "Emballage d'origine, le cas échéant"
+      ],
+      "closing": [
+        "Si le rapport de classification contient un diagramme, celui-ci peut montrer l'emplacement des caractéristiques de pureté dans le diamant. Ces caractéristiques peuvent parfois aider un spécialiste à faire correspondre la pierre au rapport, même si une bonne correspondance du rapport peut toujours nécessiter un grossissement et un examen professionnel.",
+        "N'essayez pas de créer une meilleure apparence en polissant agressivement une bague ancienne ou signée. Le polissage, la réparation ou le démontage peuvent altérer l'état et supprimer des détails importants pour une évaluation spécialisée."
+      ]
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "title": "Vérifiez le rapport de classification du diamant",
+      "paragraphs": [
+        "Un rapport de notation doit être vérifié auprès du laboratoire qui l'a délivré. Par exemple, GIA Report Check permet aux utilisateurs de confirmer si les informations d’un rapport correspondent aux informations contenues dans la base de données de GIA.",
+        "HRD Anvers et IGI proposent également des services de vérification des rapports en ligne. Utilisez le site Web officiel du laboratoire plutôt qu’un vérificateur de rapports tiers inconnu.",
+        "La vérification du rapport confirme qu’un numéro de rapport et ses détails existent dans la base de données du laboratoire. Cela ne prouve pas, en soi, que le diamant physique de la bague est le même que celui décrit dans le rapport."
+      ],
+      "compareIntro": "Un acheteur peut encore avoir besoin de comparer :",
+      "bullets": [
+        "Poids et mesures en carats",
+        "Forme et proportions",
+        "Inscription laser, si présente",
+        "Caractéristiques de clarté",
+        "Aspect couleur et clarté",
+        "Fluorescence",
+        "Polonais et symétrie",
+        "Preuve de dommage ou d'altération"
+      ],
+      "closing": "Si le numéro du rapport ne correspond pas, arrêtez-vous et contactez le laboratoire émetteur ou un spécialiste qualifié avant de continuer.",
+      "giaLinkText": "Vérifier un rapport GIA à l'aide de GIA Report Check"
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "title": "Comprendre ce que peut valoir la bague",
+      "paragraphs": [
+        "Une vente sécuritaire est aussi une vente éclairée. Avant d’accepter une offre, sachez que la bague peut avoir plusieurs valeurs différentes."
+      ],
+      "table": {
+        "caption": "Types de valeur de bague en diamant",
+        "headers": [
+          "Type de valeur",
+          "Ce que cela signifie"
+        ],
+        "rows": [
+          [
+            "Prix ​​de vente d'origine",
+            "Le montant initialement payé au détaillant"
+          ],
+          [
+            "Valeur de remplacement de l'assurance",
+            "Une estimation du coût de remplacement de l'article via un canal de vente au détail"
+          ],
+          [
+            "Évaluation équitable du marché",
+            "L’opinion d’un évaluateur sur ce qu’un acheteur consentant peut payer à un vendeur consentant"
+          ],
+          [
+            "Valeur de revente",
+            "Le montant que la bague peut rapporter sur le marché secondaire"
+          ],
+          [
+            "Offre d'achat direct",
+            "Le montant qu'un acheteur spécifique est prêt à payer après évaluation"
+          ]
+        ]
+      },
+      "afterTable": [
+        "Le prix d’achat initial peut inclure les services de vente au détail, les taxes, l’image de marque, la conception, le réglage, le marketing et la marge du détaillant. Ces éléments ne sont pas forcément récupérés lors de la revente de la bague.",
+        "Le GIA décrit la juste valeur marchande comme l’opinion d’un évaluateur sur ce qu’un acheteur consentant paierait à un vendeur consentant. Elle se distingue donc d’une évaluation de remplacement d’assurance.",
+        "Le diamant central, les pierres latérales, la monture, le métal précieux, l'état, la marque et la demande actuelle peuvent tous influencer une offre. Demandez si chaque partie de l’anneau a été prise en compte."
+      ],
+      "giaLinkText": "Lisez les conseils du GIA sur la vente de pierres précieuses et de bijoux",
+      "ctaText": "UTILISEZ LE CALCULATEUR D'ÉVALUATION DES DIAMANTS",
+      "ctaHref": "/resources/diamond-valuation-calculator"
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "title": "Choisissez un itinéraire de vente qui correspond à l'anneau",
+      "paragraphs": [
+        "Le parcours de vente doit correspondre à la fois au ring et à vos priorités. Un acheteur spécialisé en diamants naturels peut proposer une évaluation directe et une offre d’achat. Les enchères ou la consignation peuvent être appropriées pour certaines bagues rares, anciennes ou signées, tandis que la vente privée nécessite que le propriétaire gère l'inscription, la sécurité, le paiement et la livraison.",
+        "Cette page se concentre sur la réalisation de la transaction en toute sécurité plutôt que sur la comparaison de chaque canal de vente.",
+        "Quelle que soit la méthode choisie, vérifiez si le montant proposé est :"
+      ],
+      "bullets": [
+        "Une offre d'achat direct",
+        "Une estimation aux enchères",
+        "Un envoi à prix demandé",
+        "Un crédit de reprise",
+        "Une valeur de prêt",
+        "Une estimation informelle en ligne"
+      ],
+      "closing": "Ces chiffres ne sont pas interchangeables. Une estimation d'enchère ou un prix de consignation ne constitue pas une somme d'argent garantie, tandis qu'une offre directe peut devenir payable une fois que les contrôles spécifiés ont été effectués.",
+      "linkText": "Quel est le meilleur endroit pour vendre une bague en diamant ?",
+      "linkHref": "/resources/where-to-sell-diamond-ring"
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "title": "Vérifiez l'acheteur avant de remettre la bague",
+      "paragraphs": [
+        "L'acheteur doit être identifiable au-delà d'un compte de réseau social, d'un numéro de téléphone ou d'un profil de messagerie.",
+        "Vérifiez le nom commercial de l’entreprise, son adresse physique, son site Web, ses coordonnées et ses informations publiques sur l’entreprise. Les examens peuvent fournir un contexte utile, mais les examens à eux seuls ne doivent pas remplacer la vérification des conditions commerciales et des transactions réelles."
+      ],
+      "questionsIntro": "Demandez à l'acheteur :",
+      "questions": [
+        "Qui évaluera la bague ?",
+        "L'entreprise achète-t-elle des diamants naturels ?",
+        "La pierre centrale sera-t-elle évaluée séparément ?",
+        "Le rapport de notation sera-t-il vérifié ?",
+        "Des frais sont-ils facturés ?",
+        "L’examen préalable est-il sans engagement ?",
+        "L'offre finale sera-t-elle fournie par écrit ?",
+        "Comment la bague sera-t-elle protégée lors de l’examen ?",
+        "Que se passe-t-il si l'offre est refusée ?",
+        "Comment et quand le paiement sera-t-il effectué ?",
+        "Quelle preuve d’identification ou de propriété est requise ?"
+      ],
+      "cautionTitle": "Réclamations nécessitant de la prudence",
+      "cautionParagraphs": [
+        "Un acheteur expérimenté doit être disposé à expliquer clairement le processus. Évitez toute personne qui garantit un prix final avant d'avoir reçu suffisamment d'informations sur le diamant.",
+        "Des expressions telles que « prix le plus élevé garanti », « évaluation finale instantanée » ou « aucune question posée » doivent être traitées avec prudence. Un acheteur responsable a besoin de suffisamment d’informations pour identifier le diamant, évaluer son état et confirmer que le vendeur est en droit de finaliser la transaction.",
+        "N’interprètez pas un site Web soigné comme une preuve que chaque détail ou promesse commerciale est authentique. Vérifiez l’entreprise de manière indépendante."
+      ]
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "title": "Commencez par un examen préliminaire en ligne",
+      "paragraphs": [
+        "Une soumission en ligne permet à l'acheteur de consulter les informations de base avant de déplacer la bague. Cela peut réduire les déplacements inutiles et aider à déterminer si la bague correspond aux critères d’achat de l’acheteur."
+      ],
+      "submissionIntro": "Une soumission préliminaire utile comprend :",
+      "bullets": [
+        "Forme de diamant",
+        "Poids approximatif en carats",
+        "Couleur et clarté, lorsqu'elles sont connues",
+        "Laboratoire de classement",
+        "Numéro de rapport",
+        "Des photographies claires",
+        "Bijoux en métal",
+        "Marque ou designer, le cas échéant",
+        "Réparations ou dommages connus",
+        "Pays du vendeur",
+        "Méthode d'évaluation préférée"
+      ],
+      "closing": [
+        "N’incluez pas d’informations sensibles inutiles dans la première demande. L'acheteur n'a pas besoin de mots de passe, d'identifiants bancaires ou de copies illimitées de chaque document personnel simplement pour regarder des photographies.",
+        "Une évaluation préliminaire doit être qualifiée d’indicative. Les photographies ne peuvent pas confirmer toutes les caractéristiques du diamant ni garantir un prix d'achat final."
+      ],
+      "ctaText": "SOUMETTRE MA BAGUE POUR UN EXAMEN PRIVÉ",
+      "ctaHref": "#secure-evaluation-form"
+    },
+    {
+      "id": "step-9",
+      "number": 9,
+      "title": "Protégez l'anneau lors d'une évaluation en personne",
+      "paragraphs": [
+        "Un rendez-vous privé à une adresse professionnelle établie est généralement préférable à une rencontre avec un acheteur inconnu dans un hôtel, un véhicule, une maison ou un café public.",
+        "Confirmez les détails du rendez-vous à l’avance. Apportez la bague, les documents pertinents et l'identification dans un conteneur sécurisé et discret. Évitez d’afficher l’élément avant d’atteindre la zone d’évaluation."
+      ],
+      "appointmentIntro": "Au rendez-vous :",
+      "bullets": [
+        "Demandez qui s'occupera de la bague.",
+        "Confirmez si l’examen aura lieu en votre présence.",
+        "Demandez un reçu si la bague doit rester chez l'acheteur.",
+        "Assurez-vous que le reçu décrit avec précision l’article.",
+        "Enregistrez le numéro du rapport et les informations d’identification visibles.",
+        "Renseignez-vous avant que le diamant ne soit retiré de sa monture.",
+        "Confirmez qui est responsable si l'article est perdu ou endommagé.",
+        "Conservez des copies de chaque document que vous signez."
+      ],
+      "closing": [
+        "Si la bague doit quitter les lieux pour des tests en laboratoire, une certification ou un autre examen spécialisé, demandez des conditions écrites expliquant où elle ira, comment elle sera transportée, comment elle sera assurée et quand elle sera restituée.",
+        "Ne signez jamais un document de transfert de propriété à moins que vous compreniez que vous finalisez la vente."
+      ]
+    },
+    {
+      "id": "step-10",
+      "number": 10,
+      "title": "Utiliser un transport sécurisé et documenté",
+      "paragraphs": [
+        "Lorsqu'un rendez-vous en personne n'est pas pratique, certains acheteurs peuvent proposer un processus d'expédition ou de collecte. N'envoyez pas une bague en diamant de valeur tant que vous n'avez pas compris les modalités de transport complètes."
+      ],
+      "termsIntro": "Les termes écrits doivent identifier :",
+      "bullets": [
+        "L'expéditeur et le destinataire",
+        "La bonne adresse de livraison",
+        "Le prestataire de transport",
+        "Exigences de suivi",
+        "Exigences de signature",
+        "La valeur déclarée",
+        "Le champ d'application de l'assurance",
+        "Exclusions d'assurance",
+        "Exigences d'emballage",
+        "Responsabilité pendant le transport",
+        "Que se passe-t-il si l'envoi est retardé ou perdu",
+        "Comment la bague est retournée si aucune vente n'a lieu"
+      ],
+      "closing": [
+        "L'emballage extérieur ne doit pas indiquer qu'il contient des bijoux, mais toute déclaration faite au transporteur ou à l'assureur doit rester exacte. Utilisez un emballage intérieur sécurisé qui empêche la boîte à bagues de bouger et conservez des photographies de l'article et de l'emballage avant l'expédition.",
+        "Un numéro de suivi ne prouve pas à lui seul qu'un envoi est assuré pour sa pleine valeur. Confirmez par écrit la limite d’assurance réelle et les exclusions.",
+        "N'expédiez pas à une adresse reçue uniquement via un message non vérifié. Confirmez l’adresse via les coordonnées officielles de l’acheteur."
+      ]
+    },
+    {
+      "id": "step-11",
+      "number": 11,
+      "title": "Examiner l'examen et l'offre écrite",
+      "paragraphs": [
+        "Après avoir inspecté la bague, l'acheteur doit expliquer si l'offre couvre la bague entière ou des composants spécifiques."
+      ],
+      "offerIntro": "L'offre peut prendre en compte :",
+      "bullets": [
+        "Origine naturelle ou cultivée en laboratoire",
+        "Qualité du diamant central",
+        "Rapport de notation",
+        "Dommage ou état",
+        "Diamants latéraux",
+        "Teneur en métaux précieux",
+        "Marque ou créateur",
+        "Intérêt pour les antiquités ou les collectionneurs",
+        "Demande d'achat actuelle",
+        "Découpe ou certification nécessaire",
+        "Canal de revente prévu par l’acheteur"
+      ],
+      "closing": [
+        "Demandez l'offre par écrit. Le document doit identifier l'article et indiquer le montant que vous recevrez après toutes déductions convenues.",
+        "Ne comparez pas une offre nette directe avec une estimation d'enchère ou un prix demandé en consignation sans tenir compte de la commission, des frais, de la probabilité de vente et du délai de paiement.",
+        "Si une estimation en ligne change après inspection, demandez quelle caractéristique vérifiée a causé le changement. Les raisons légitimes peuvent inclure une inadéquation avec les informations soumises, des dommages, un rapport incorrect, un traitement non divulgué ou la confirmation que le diamant est cultivé en laboratoire plutôt que naturel.",
+        "L'acheteur doit être en mesure d'expliquer l'ajustement."
+      ]
+    },
+    {
+      "id": "step-12",
+      "number": 12,
+      "title": "Confirmer le paiement avant de libérer la bague",
+      "paragraphs": [
+        "Convenez du mode de paiement avant de signer les documents de vente. La méthode la plus sûre dépend de la transaction et des parties impliquées, mais le paiement doit être confirmé de manière indépendante.",
+        "Une capture d'écran, un e-mail, un message texte ou un reçu généré par l'acheteur ne constitue pas une preuve que les fonds ont été compensés. Vérifiez le paiement via votre propre banque ou fournisseur financier en utilisant une méthode de connexion fiable."
+      ],
+      "confirmIntro": "Avant de finaliser la transaction, confirmez :",
+      "bullets": [
+        "Le montant convenu",
+        "Le mode de paiement",
+        "Le compte destinataire",
+        "Tous les frais de transaction",
+        "Délai de traitement prévu",
+        "Si le paiement peut être annulé",
+        "Lors du transfert de propriété",
+        "Quand la bague sera libérée"
+      ],
+      "closing": [
+        "Ne partagez pas les mots de passe bancaires, les codes de sécurité ou l'accès à distance à votre appareil. Un acheteur légitime n'a pas besoin de ces informations pour vous payer.",
+        "Si le paiement n'a pas été effectué selon les conditions convenues, ne libérez pas la bague simplement parce que l'acheteur dit que le transfert est en attente."
+      ]
+    },
+    {
+      "id": "step-13",
+      "number": 13,
+      "title": "Conserver un enregistrement complet des transactions",
+      "paragraphs": [
+        "Après la vente, conservez une copie de :"
+      ],
+      "bullets": [
+        "L'offre écrite finale",
+        "Le contrat d'achat",
+        "La description de l'article",
+        "Les coordonnées de l'acheteur",
+        "Le numéro du rapport de notation",
+        "Confirmation de paiement",
+        "Dossier d’enlèvement ou de livraison",
+        "Correspondance concernant la transaction"
+      ],
+      "closing": [
+        "Le reçu final doit identifier ce qui a été vendu et la date du transfert. Si la monture et le diamant ont été évalués ou achetés séparément, les documents doivent le préciser clairement.",
+        "N’annulez pas la couverture d’assurance tant que la vente n’est pas conclue, que le paiement n’a pas été effectué et que la responsabilité de l’article n’a pas été transférée. Contactez l’assureur si vous ne savez pas quand la couverture doit prendre fin."
+      ]
+    }
+  ],
+  "form": {
+    "id": "secure-evaluation-form",
+    "leadSource": "how_to_sell_diamond_ring_safely",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP et PDF",
+    "title": "Commencez votre évaluation sécurisée de votre bague en diamant",
+    "subtitle": "Soumettez les détails que vous connaissez et téléchargez des photographies claires. Un spécialiste Dalila vous contactera selon la méthode de votre choix.",
+    "ringTypes": [
+      "Bague de fiançailles en diamant naturel",
+      "Autre bague diamant naturel",
+      "Bague ancienne ou vintage",
+      "Bague griffée ou signée",
+      "Bague en diamant cultivé en laboratoire",
+      "je ne suis pas sûr"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Un autre laboratoire",
+      "Aucun rapport",
+      "je ne suis pas sûr"
+    ],
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Princess",
+      "Marquise",
+      "Asscher",
+      "Heart",
+      "Other",
+      "Unknown"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Téléphone",
+      "Soit par email, soit par téléphone"
+    ],
+    "evaluationPreferences": [
+      "Examen en ligne uniquement",
+      "Rendez-vous privé à Anvers",
+      "Je ne suis pas encore sûr"
+    ],
+    "consentText": "J'accepte que Dalila Diamonds me contacte au sujet de cette demande d'évaluation. Je comprends qu'un examen en ligne est préliminaire et qu'une offre finale peut nécessiter une inspection physique, une vérification du rapport et des contrôles de propriété.",
+    "privacyLinkText": "politique de confidentialité",
+    "privacyHref": "/contact",
+    "submitButton": "Démarrer mon évaluation sécurisée",
+    "submittingButton": "Soumission…",
+    "successMessage": "Merci. Les détails de votre bague ont été soumis pour examen. Un membre de l'équipe Dalila Diamonds vous contactera sous peu.",
+    "errorMessage": "Nous n'avons pas pu soumettre votre demande. Veuillez vérifier les champs obligatoires et réessayer.",
+    "labels": {
+      "ringType": "Quel type de bague vendez-vous ?",
+      "reportStatus": "Avez-vous un rapport de notation ?",
+      "reportNumber": "Numéro de rapport",
+      "caratWeight": "Poids approximatif en carats",
+      "shape": "Diamond shape",
+      "uploadPhotos": "Télécharger des photos",
+      "uploadReport": "Télécharger le rapport de notation",
+      "dragDrop": "Faites glisser et déposez des fichiers ici, ou choisissez des fichiers",
+      "fullName": "Nom et prénom",
+      "email": "Adresse email",
+      "phone": "Numéro de téléphone",
+      "country": "Pays",
+      "contactMethod": "Méthode de contact préférée",
+      "evaluationPreference": "Bilan en ligne ou rendez-vous à Anvers",
+      "additionalInfo": "Informations Complémentaires",
+      "optional": "Facultatif"
+    },
+    "validation": {
+      "ringTypeRequired": "Veuillez sélectionner le type de bague que vous vendez.",
+      "reportRequired": "Veuillez sélectionner le statut de votre rapport de notation.",
+      "nameRequired": "Veuillez entrer votre nom complet.",
+      "contactRequired": "Veuillez fournir une adresse e-mail ou un numéro de téléphone.",
+      "countryRequired": "Veuillez entrer votre pays.",
+      "consentRequired": "Veuillez confirmer la déclaration de consentement avant de la soumettre."
+    }
+  },
+  "checklistForm": {
+    "leadSource": "diamond_seller_safety_checklist",
+    "title": "Envoyez-moi par e-mail la liste de contrôle de sécurité du vendeur de diamants",
+    "subtitle": "Recevez une liste de contrôle téléchargeable couvrant la documentation, la vérification de l'acheteur, la confirmation du paiement et la remise sécurisée.",
+    "submitButton": "Envoyez-moi la liste de contrôle",
+    "submittingButton": "Envoi…",
+    "successMessage": "Merci. Nous vous enverrons sous peu par e-mail la liste de contrôle de sécurité du vendeur de diamants.",
+    "errorMessage": "Nous n'avons pas pu traiter votre demande. Veuillez vérifier les champs et réessayer.",
+    "consentText": "J'accepte de recevoir la liste de contrôle et les informations de suivi associées de Dalila Diamonds.",
+    "labels": {
+      "firstName": "Prénom",
+      "email": "Adresse email",
+      "country": "Pays"
+    },
+    "validation": {
+      "firstNameRequired": "Veuillez saisir votre prénom.",
+      "emailRequired": "Veuillez entrer votre adresse e-mail.",
+      "countryRequired": "Veuillez entrer votre pays.",
+      "consentRequired": "Veuillez confirmer votre consentement avant de soumettre."
+    }
+  },
+  "safetyChecklist": {
+    "id": "safety-checklist",
+    "title": "Liste de contrôle de sécurité pour la vente de bagues en diamant",
+    "intro": "Utilisez cette liste de contrôle avant de finaliser la vente.",
+    "sections": [
+      {
+        "title": "Bague et documentation",
+        "items": [
+          "J'ai photographié la bague complète.",
+          "J'ai copié le rapport de notation.",
+          "J'ai vérifié le rapport auprès du laboratoire officiel.",
+          "J'ai enregistré les dommages ou les réparations existants.",
+          "J'ai rassemblé les documents de propriété disponibles.",
+          "Je n'ai pas retiré le diamant moi-même."
+        ]
+      },
+      {
+        "title": "Vérification de l'acheteur",
+        "items": [
+          "J'ai confirmé le nom commercial et l'adresse de l'acheteur.",
+          "Je comprends qui évaluera la bague.",
+          "Je sais si des frais s'appliquent.",
+          "Je comprends ce qui se passe si je refuse l'offre.",
+          "Je sais comment la bague sera protégée.",
+          "J'ai reçu les conditions importantes par écrit."
+        ]
+      },
+      {
+        "title": "Offre et paiement",
+        "items": [
+          "Je comprends si le montant est une offre, une estimation ou un prix de consignation.",
+          "Je sais si l'offre comprend la monture et les pierres latérales.",
+          "Je comprends chaque déduction.",
+          "J'ai confirmé le mode de paiement.",
+          "Je vérifierai le paiement autorisé de manière indépendante.",
+          "Je conserverai un reçu complet et un relevé de transaction."
+        ]
+      }
+    ]
+  },
+  "commonScams": {
+    "id": "common-scams",
+    "title": "Escroqueries courantes liées à la vente de diamants et signes avant-coureurs",
+    "intro": "Les vendeurs de bijoux de valeur peuvent être la cible de faux acheteurs, d’escroqueries en matière de paiement et de pratiques d’évaluation trompeuses. La réponse la plus sûre à la pression ou à l’incertitude est de faire une pause.",
+    "items": [
+      {
+        "title": "Fausse confirmation de paiement",
+        "text": "Le vendeur reçoit une capture d'écran ou un e-mail indiquant que le paiement a été envoyé. Le message peut imiter une banque ou un fournisseur de paiement. Vérifiez votre compte de manière indépendante. Ne suivez pas un lien de connexion fourni par l'acheteur et ne libérez pas la bague tant que le paiement n'a pas été effectué selon les conditions convenues."
+      },
+      {
+        "title": "Escroquerie liée au trop-payé",
+        "text": "L’acheteur prétend avoir payé trop cher et demande au vendeur de lui rembourser la différence. Le paiement initial peut ultérieurement échouer ou être annulé. N'envoyez pas de remboursement tant que votre banque ou votre fournisseur de paiement n'a pas confirmé de manière indépendante la transaction et vous a indiqué comment procéder."
+      },
+      {
+        "title": "Substitution d'adresse",
+        "text": "Un acheteur présumé modifie l'adresse de livraison via un message privé une fois la transaction organisée. Confirmez les modifications via les coordonnées professionnelles officielles de l’acheteur et assurez-vous que la nouvelle adresse reste couverte par les conditions de transport et d’assurance."
+      },
+      {
+        "title": "Pression pour décider immédiatement",
+        "text": "Un acheteur prétend que l’offre disparaîtra en quelques minutes ou vous décourage de lire les documents. Les offres sur le marché du diamant peuvent avoir une période de validité, mais une limite de temps légitime doit être clairement expliquée. Ne signez pas sous une pression artificielle."
+      },
+      {
+        "title": "Réduction de prix inexpliquée",
+        "text": "Un acheteur donne une estimation préliminaire élevée et la réduit fortement après réception de la bague sans identifier ce qui a changé. Demandez la raison vérifiée par écrit. Si l’explication n’est pas claire, déclinez l’offre et demandez le retour de la bague selon les conditions convenues."
+      },
+      {
+        "title": "Réclamation pour expédition non assurée",
+        "text": "Un acheteur décrit un envoi comme « entièrement assuré » sans indiquer la limite de valeur réelle, les exclusions ou la partie responsable. Demandez une preuve écrite de couverture. Ne présumez pas que l’indemnisation standard par colis couvre une bague en diamant de grande valeur."
+      },
+      {
+        "title": "Problème de substitution",
+        "text": "Le vendeur craint que le diamant ou la bague ne soit remplacé lors d'un examen. Photographiez la bague, notez le numéro du rapport de classement, faites appel à un professionnel et demandez comment le diamant sera associé à son rapport. Si l'article doit rester chez l'acheteur, obtenez un reçu détaillé."
+      }
+    ]
+  },
+  "cleanOrRepair": {
+    "id": "clean-or-repair",
+    "title": "Dois-je nettoyer ou réparer la bague avant de la vendre ?",
+    "paragraphs": [
+      "Un nettoyage doux peut faciliter la photographie de la bague, mais un nettoyage, un polissage ou une réparation agressifs ne sont pas toujours conseillés.",
+      "La patine antique, les finitions d'origine, les poinçons et les détails de construction peuvent intéresser un spécialiste. Réparer une monture endommagée sans savoir si l'acheteur souhaite la bague complète peut également ajouter des coûts qui ne sont pas récupérés dans l'offre.",
+      "N'utilisez pas d'outils tranchants pour nettoyer derrière le diamant et ne testez pas le sertissage en poussant ou en tournant la pierre. Si le diamant semble lâche, arrêtez de porter la bague et informez-en l'acheteur avant le transport ou l'examen.",
+      "En cas de doute, soumettez la bague dans son état actuel et demandez si un nettoyage, une réparation ou des travaux de laboratoire sont recommandés."
+    ]
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Puis-je vendre une bague en diamant sans certificat ?",
+    "paragraphs": [
+      "Oui. Un certificat manquant n’empêche pas automatiquement la vente d’une bague en diamant.",
+      "Commencez par fournir des photographies claires, la date d’achat approximative et tous les reçus, évaluations ou dossiers d’assurance disponibles. Un spécialiste pourra peut-être procéder à un premier examen et expliquer si des tests physiques ou un nouveau rapport de laboratoire en vaudraient la peine."
+    ],
+    "confirmIntro": "L'offre finale peut dépendre de la confirmation de :",
+    "bullets": [
+      "Si la pierre est un diamant",
+      "Qu'il soit naturel ou cultivé en laboratoire",
+      "Poids approximatif en carats",
+      "Couleur et clarté",
+      "Traitements",
+      "Dommage",
+      "État général"
+    ],
+    "closing": "N'inventez pas de notes quand vous ne les connaissez pas. Sélectionnez « inconnu » dans le formulaire et permettez à l'acheteur d'expliquer l'étape suivante.",
+    "ctaText": "VALEURER MA BAGUE EN DIAMANT SANS CERTIFICAT",
+    "ctaHref": "/resources/sell-diamond-without-certificate"
+  },
+  "inheritedRing": {
+    "id": "inherited-ring",
+    "title": "Puis-je vendre en toute sécurité une bague en diamant héritée ?",
+    "paragraphs": [
+      "Une bague héritée peut être évaluée de la même manière qu’une autre bague en diamant, mais le vendeur devra peut-être établir la propriété légale.",
+      "Rassemblez les documents de succession, les anciennes évaluations, les reçus, les dossiers familiaux, les calendriers d'assurance et le rapport de notation original, le cas échéant. Évitez de changer la bague avant que son âge, son design et l'éventuelle signification de la marque n'aient été évalués.",
+      "Certaines bagues héritées valent plus en tant que bijoux anciens ou signés. D’autres tirent l’essentiel de leur valeur commerciale du diamant central et du métal précieux. Une évaluation spécialisée peut aider à déterminer quelle situation s’applique.",
+      "Si plusieurs personnes partagent la propriété par le biais d'une succession, confirmez que la personne qui organise la vente a le pouvoir de le faire."
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Comment Dalila vous aide à démarrer le processus en toute sécurité",
+    "paragraphs": [
+      "Dalila Diamonds permet aux vendeurs de commencer par une soumission en ligne plutôt que de remettre immédiatement la bague.",
+      "Vous pouvez fournir les informations de notation disponibles, télécharger des photographies et expliquer si la bague possède un certificat. Dalila peut alors vérifier si l'article correspond à ses critères d'achat et si une évaluation physique à Anvers est appropriée."
+    ],
+    "stepsTitle": "Le processus",
+    "steps": [
+      "Soumettez les détails de la bague et les photographies.",
+      "Recevez un premier avis privé.",
+      "Fournissez toute documentation supplémentaire demandée.",
+      "Organiser une vérification physique à Anvers si nécessaire.",
+      "Recevez une offre si la bague répond aux critères d’achat de Dalila.",
+      "Décidez si vous souhaitez continuer."
+    ],
+    "closing": "Soumettre une bague pour examen ne devrait pas obliger le vendeur à accepter une offre.",
+    "ctaText": "COMMENCER MON ÉVALUATION SÉCURISÉE DE BAGUE EN DIAMANT",
+    "ctaHref": "#secure-evaluation-form"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Quelle est la manière la plus sûre de vendre une bague en diamant ?",
+        "answer": "Le processus le plus sûr consiste à vérifier l'acheteur, à documenter la bague, à comprendre l'évaluation, à utiliser un transport sécurisé ou un site commercial établi et à confirmer le paiement avant de libérer l'article."
+      },
+      {
+        "question": "Comment puis-je vendre ma bague en diamant sans me faire arnaquer ?",
+        "answer": "Évitez les acheteurs anonymes, les captures d’écran de paiement, les expéditions non assurées et la pression pour décider immédiatement. Vérifiez les détails commerciaux de l’acheteur et obtenez les conditions écrites avant de remettre la bague."
+      },
+      {
+        "question": "Ai-je besoin d’une évaluation avant de vendre ma bague en diamant ?",
+        "answer": "Pas toujours. Une évaluation indépendante du marché équitable peut vous aider à comprendre l’article, mais ce n’est pas la même chose qu’une offre d’achat. Un acheteur spécialisé peut également commencer par le rapport de nivellement et les photographies."
+      },
+      {
+        "question": "Un rapport de classification de diamant est-il la même chose qu'une évaluation ?",
+        "answer": "Non. Un rapport de classement décrit des caractéristiques telles que le poids en carats, la couleur, la pureté et la taille. Une évaluation attribue une valeur monétaire dans un but particulier."
+      },
+      {
+        "question": "Puis-je vendre une bague en diamant sans certificat ?",
+        "answer": "Oui. Un acheteur peut commencer avec des photographies et des documents disponibles, mais des tests ou un nouveau rapport de classement peuvent être nécessaires avant qu'une offre finale ne soit faite."
+      },
+      {
+        "question": "Dois-je retirer le diamant de sa monture avant de le vendre ?",
+        "answer": "Non. Ne retirez pas le diamant vous-même. Laissez un spécialiste examiner l’anneau complet et expliquer si son retrait est nécessaire."
+      },
+      {
+        "question": "Est-il sécuritaire de vendre une bague en diamant en ligne ?",
+        "answer": "Une soumission en ligne peut être un moyen sûr de commencer lorsque l'acheteur est vérifiable et que le site Web utilise un traitement sécurisé des documents. L’expédition physique nécessite des conditions écrites de transport, d’assurance et de retour."
+      },
+      {
+        "question": "Comment dois-je expédier une bague en diamant à un acheteur ?",
+        "answer": "Utilisez uniquement un processus d'expédition ou de collecte documenté avec suivi, exigences de signature et assurance adaptées à la valeur de la bague. Confirmez l'adresse et la responsabilité de la perte avant de l'envoyer."
+      },
+      {
+        "question": "Comment savoir si un paiement est authentique ?",
+        "answer": "Vérifiez le paiement de manière indépendante via votre propre banque ou fournisseur financier. Ne vous fiez pas aux captures d'écran, aux e-mails ou aux liens fournis par l'acheteur."
+      },
+      {
+        "question": "Puis-je vendre une bague en diamant héritée ?",
+        "answer": "Oui, à condition que vous ayez le droit de le vendre. Les documents de succession, les reçus, les rapports de classement et les évaluations antérieures peuvent aider à établir la propriété et à identifier la bague."
+      },
+      {
+        "question": "Dois-je accepter la première offre de bague en diamant ?",
+        "answer": "Vous n'êtes pas obligé d'accepter la première offre. Assurez-vous de bien comprendre ce qui a été évalué, si des déductions s'appliquent et comment l'offre se compare aux autres méthodes de vente."
+      },
+      {
+        "question": "Un devis en ligne peut-il changer après une inspection physique ?",
+        "answer": "Oui. Une estimation peut changer si le diamant physique diffère des informations soumises, présente des dommages ou un traitement, ne correspond pas au rapport ou est cultivé en laboratoire plutôt que naturel."
+      },
+      {
+        "question": "Dois-je vendre ma bague après que Dalila ait évalué ma bague ?",
+        "answer": "Non. Demander une évaluation ne nécessite pas que vous acceptiez une offre."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "sell-with-confidence",
+    "title": "Vendez votre bague en diamant en toute confiance",
+    "paragraphs": [
+      "Une vente de bagues en diamant sécurisée repose sur la documentation, la transparence et le contrôle. Comprenez ce que vous possédez, vérifiez l'acheteur, protégez la bague lors de chaque transfert et confirmez le paiement avant de finaliser la transaction.",
+      "Si vous possédez une bague en diamant naturel et que vous souhaitez commencer par un examen confidentiel, soumettez les informations et les photographies du rapport disponibles à Dalila Diamonds."
+    ],
+    "primaryButtonText": "DEMANDER MON ÉVALUATION PRIVÉE DE BAGUE EN DIAMANT",
+    "primaryButtonHref": "#secure-evaluation-form",
+    "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "vendez votre diamant en toute sécurité à Anvers"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calculateur d'évaluation des diamants"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "meilleur endroit pour vendre une bague en diamant"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "vérifier un rapport GIA, HRD ou IGI"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "vendre un diamant sans certificat"
+    }
+  },
+  "howToSteps": [
+    {
+      "position": 1,
+      "name": "Confirmer la propriété",
+      "text": "Confirmez que vous avez le droit de vendre la bague et rassemblez tous les documents de propriété disponibles."
+    },
+    {
+      "position": 2,
+      "name": "Rassemblez les documents de l'anneau",
+      "text": "Rassemblez le rapport de classement, le reçu, l'évaluation, les documents de marque et les dossiers de réparation."
+    },
+    {
+      "position": 3,
+      "name": "Photographiez la bague",
+      "text": "Créez des photographies claires de la bague complète, du diamant, des poinçons, des signatures et de l'état existant."
+    },
+    {
+      "position": 4,
+      "name": "Vérifier le rapport de notation",
+      "text": "Vérifiez le numéro du rapport via le système de vérification officiel du laboratoire émetteur."
+    },
+    {
+      "position": 5,
+      "name": "Comprendre la valeur",
+      "text": "Faites la distinction entre le prix de détail original, l'évaluation d'assurance, la juste valeur marchande, la valeur de revente et une offre d'achat direct."
+    },
+    {
+      "position": 6,
+      "name": "Choisissez un itinéraire de vente",
+      "text": "Choisissez un acheteur spécialisé, une vente aux enchères, un dépôt-vente ou une vente privée selon la bague et vos priorités."
+    },
+    {
+      "position": 7,
+      "name": "Vérifier l'acheteur",
+      "text": "Confirmez l'identité de l'acheteur, l'adresse professionnelle, le processus d'évaluation, les frais et les conditions de paiement."
+    },
+    {
+      "position": 8,
+      "name": "Demander un examen préliminaire",
+      "text": "Soumettez les informations de classement et les photographies avant de transporter ou de remettre l’anneau."
+    },
+    {
+      "position": 9,
+      "name": "Protéger le transfert",
+      "text": "Utilisez un emplacement commercial établi ou un transport documenté avec une assurance et un suivi appropriés."
+    },
+    {
+      "position": 10,
+      "name": "Examiner l'offre écrite",
+      "text": "Confirmez ce que comprend l'offre, quelles déductions s'appliquent et pourquoi le montant final peut différer d'une estimation."
+    },
+    {
+      "position": 11,
+      "name": "Confirmer le paiement",
+      "text": "Vérifiez le paiement autorisé de manière indépendante avant de transférer la propriété ou de libérer la bague."
+    },
+    {
+      "position": 12,
+      "name": "Tenir un registre des transactions",
+      "text": "Conservez l'offre, le contrat d'achat, la description de l'article, les détails de l'acheteur et la confirmation de paiement."
+    }
+  ]
+}

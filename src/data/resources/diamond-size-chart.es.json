@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "title": "Tabla de tallas de diamantes: de quilates a mm por forma | dalila",
+    "description": "Utilice la tabla de tamaños de diamantes de Dalila para comparar las medidas aproximadas de quilates a mm de diamantes redondos, ovalados, pera, cojín, esmeralda y otros diamantes naturales.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-size-chart",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "banner": {
+    "title": "Tabla de tallas de diamantes",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Tabla de tallas de diamantes",
+    "imageAlt": "Banner de recursos sobre la tabla de tamaños de diamantes para compradores de diamantes naturales"
+  },
+  "hero": {
+    "title": "Tabla de tallas de diamantes: guía de quilates a mm por forma",
+    "paragraphs": [
+      "El peso en quilates indica cuánto pesa un diamante. Las medidas milimétricas te dicen qué tan grande parece desde arriba.",
+      "Un diamante brillante redondo de 1 quilate bien proporcionado suele medir aproximadamente entre 6,4 y 6,5 mm de diámetro, mientras que un diamante redondo de 2 quilates suele medir aproximadamente entre 8,0 y 8,2 mm. Los diamantes con formas elegantes requieren medidas tanto de largo como de ancho, y su tamaño visible puede variar considerablemente según la forma, las proporciones y la profundidad.",
+      "Utilice esta tabla de tamaños de diamantes para comparar las medidas aproximadas de diamantes naturales redondos, ovalados, tipo cojín, princesa, esmeralda, radiante, pera, marquesa, Asscher y en forma de corazón."
+    ],
+    "importantNote": "Importante: Cada medida en esta página es una referencia aproximada. El quilate mide el peso, no el diámetro, el largo, el ancho o la superficie. Confirme siempre las medidas del diamante individual utilizando su informe de clasificación.",
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "OBTÉN UN DIAMANTE MEDIANTE MEDIDAS EXACTAS",
+    "secondaryButtonHref": "/diamond-source",
+    "image": {
+      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "alt": "Tabla de tamaños de diamantes que compara el peso en quilates y las dimensiones en milímetros por forma",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "oneCaratComparison": {
+      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "alt": "Diamantes naturales de un quilate en diferentes formas comparados uno al lado del otro",
+      "width": 1400,
+      "height": 900
+    },
+    "depthComparison": {
+      "src": "/b2b/close-up.jpg",
+      "alt": "Diamantes poco profundos, equilibrados y profundos comparados con la extensión boca arriba",
+      "width": 1400,
+      "height": 900
+    },
+    "fingerComparison": {
+      "src": "/diamonds_source/handshake.jpg",
+      "alt": "Tamaños de diamantes redondos comparados en el mismo dedo",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Respuesta rápida: ¿qué tamaño tiene un diamante de un quilate?"
+      },
+      {
+        "id": "diamond-carat-to-mm-converter",
+        "label": "Conversor de quilates a mm de diamante"
+      },
+      {
+        "id": "diamond-size-chart-by-shape",
+        "label": "Tabla de tallas de diamantes por forma"
+      },
+      {
+        "id": "round-diamond-size-chart",
+        "label": "Tabla de tallas de diamantes redondos"
+      },
+      {
+        "id": "small-round-diamond-mm-to-carat-chart",
+        "label": "Tabla de mm a quilates de diamantes redondos pequeños"
+      },
+      {
+        "id": "what-do-carat-and-mm-mean",
+        "label": "¿Qué significan quilates y mm?"
+      },
+      {
+        "id": "why-same-carat-can-look-different",
+        "label": "¿Por qué dos diamantes del mismo quilate pueden verse diferentes?"
+      },
+      {
+        "id": "which-diamond-shape-looks-largest",
+        "label": "¿Qué forma de diamante parece más grande?"
+      },
+      {
+        "id": "what-size-is-a-two-carat-diamond",
+        "label": "¿Qué tamaño tiene un diamante de dos quilates?"
+      },
+      {
+        "id": "how-to-compare-diamond-size",
+        "label": "Cómo comparar correctamente el tamaño de los diamantes"
+      },
+      {
+        "id": "how-large-on-a-finger",
+        "label": "¿Qué tamaño tendrá un diamante en un dedo?"
+      },
+      {
+        "id": "choosing-for-existing-setting",
+        "label": "Elegir un diamante para un engaste existente"
+      },
+      {
+        "id": "choosing-matched-diamonds",
+        "label": "Elegir diamantes combinados"
+      },
+      {
+        "id": "does-larger-looking-mean-better",
+        "label": "¿Un diamante que parece más grande siempre significa un diamante mejor?"
+      },
+      {
+        "id": "find-a-natural-diamond",
+        "label": "Encuentra un diamante natural del tamaño que necesitas"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Preguntas frecuentes"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Respuesta rápida: ¿Qué tamaño tiene un diamante de un quilate?",
+    "intro": [
+      "Un diamante brillante redondo de un quilate suele medir aproximadamente entre 6,4 y 6,5 mm de diámetro.",
+      "Un diamante de talla fantasía de un quilate puede tener medidas muy diferentes:"
+    ],
+    "measurements": [
+      {
+        "shape": "Round",
+        "value": "approximately 6.4–6.5 mm"
+      },
+      {
+        "shape": "Oval",
+        "value": "approximately 7.5–8.2 × 5.3–5.8 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "approximately 8.3–9.1 × 5.4–5.8 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "approximately 9.5–10.5 × 4.7–5.3 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "approximately 6.5–7.0 × 4.5–5.0 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "approximately 6.5–7.3 × 5.0–5.5 mm"
+      },
+      {
+        "shape": "Square cushion",
+        "value": "approximately 5.5–6.1 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "approximately 5.3–5.6 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "approximately 5.3–5.7 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "approximately 6.3–6.8 mm"
+      }
+    ],
+    "closing": [
+      "Por lo tanto, dos diamantes de un quilate pueden tener contornos y dimensiones boca arriba notablemente diferentes."
+    ]
+  },
+  "converter": {
+    "id": "diamond-carat-to-mm-converter",
+    "title": "Convertidor de quilates a mm de diamante",
+    "subtitle": "Comparar el tamaño aproximado de un diamante",
+    "shapeLabel": "Seleccione la forma del diamante:",
+    "caratLabel": "Seleccionar peso en quilates:",
+    "resultHeading": "Medidas aproximadas boca arriba",
+    "resultText": "Este es un rango de referencia estimado. El diamante real puede tener diferentes medidas debido a su profundidad, proporciones, circunferencia, contorno y relación largo-ancho.",
+    "viewInventoryText": "Ver diamantes en este rango de quilates",
+    "viewInventoryHref": "/inventory",
+    "requestDs4uText": "Solicite estas medidas a través de DS4U",
+    "requestDs4uHref": "/diamond-source",
+    "unavailableMessage": "Las medidas aproximadas para esta combinación no aparecen en la tabla. Revise las tablas a continuación o solicite mediciones exactas a través de DS4U.",
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Princess",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Marquise",
+      "Asscher",
+      "Heart"
+    ],
+    "carats": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "1.00",
+      "1.25",
+      "1.50",
+      "2.00",
+      "2.50",
+      "3.00",
+      "4.00",
+      "5.00"
+    ],
+    "results": {
+      "Round|0.25": "4.0–4.1 mm",
+      "Round|0.50": "5.0–5.2 mm",
+      "Round|0.75": "5.7–5.9 mm",
+      "Round|1.00": "6.4–6.5 mm",
+      "Round|1.25": "6.8–7.0 mm",
+      "Round|1.50": "7.3–7.5 mm",
+      "Round|2.00": "8.0–8.2 mm",
+      "Round|2.50": "8.7–8.9 mm",
+      "Round|3.00": "9.2–9.4 mm",
+      "Round|4.00": "10.1–10.3 mm",
+      "Round|5.00": "10.9–11.1 mm",
+      "Oval|0.50": "5.8–6.3 × 3.8–4.2 mm",
+      "Oval|1.00": "7.5–8.2 × 5.3–5.8 mm",
+      "Oval|1.50": "8.5–9.2 × 6.0–6.5 mm",
+      "Oval|2.00": "9.5–10.5 × 6.7–7.2 mm",
+      "Oval|3.00": "11.0–12.0 × 7.5–8.0 mm",
+      "Cushion|0.50": "4.7–5.0 mm",
+      "Cushion|1.00": "5.5–6.1 mm",
+      "Cushion|1.50": "6.3–6.8 mm",
+      "Cushion|2.00": "7.0–8.0 mm",
+      "Cushion|3.00": "8.0–9.0 mm",
+      "Princess|0.50": "4.3–4.6 mm",
+      "Princess|1.00": "5.3–5.6 mm",
+      "Princess|1.50": "6.2–6.6 mm",
+      "Princess|2.00": "6.8–7.2 mm",
+      "Princess|3.00": "7.8–8.2 mm",
+      "Emerald|0.50": "5.5–6.0 × 3.8–4.2 mm",
+      "Emerald|1.00": "6.5–7.0 × 4.5–5.0 mm",
+      "Emerald|1.50": "7.3–7.8 × 5.2–5.7 mm",
+      "Emerald|2.00": "8.3–8.8 × 6.0–6.5 mm",
+      "Emerald|3.00": "9.3–10.0 × 6.8–7.5 mm",
+      "Radiant|0.50": "5.5–6.0 × 4.0–4.5 mm",
+      "Radiant|1.00": "6.5–7.3 × 5.0–5.5 mm",
+      "Radiant|1.50": "7.2–7.8 × 5.6–6.1 mm",
+      "Radiant|2.00": "7.8–8.5 × 6.2–7.0 mm",
+      "Radiant|3.00": "9.0–9.8 × 7.0–7.8 mm",
+      "Pear|0.50": "6.5–7.3 × 4.3–4.7 mm",
+      "Pear|1.00": "8.3–9.1 × 5.4–5.8 mm",
+      "Pear|1.50": "9.5–10.2 × 6.2–6.6 mm",
+      "Pear|2.00": "10.5–11.5 × 6.8–7.3 mm",
+      "Pear|3.00": "12.0–13.0 × 7.8–8.3 mm",
+      "Marquise|0.50": "7.8–8.5 × 3.8–4.2 mm",
+      "Marquise|1.00": "9.5–10.5 × 4.7–5.3 mm",
+      "Marquise|1.50": "11.5–12.3 × 5.7–6.2 mm",
+      "Marquise|2.00": "12.5–13.5 × 6.2–6.8 mm",
+      "Marquise|3.00": "14.5–15.5 × 7.0–7.7 mm",
+      "Asscher|0.50": "4.3–4.6 mm",
+      "Asscher|1.00": "5.3–5.7 mm",
+      "Asscher|1.50": "6.2–6.6 mm",
+      "Asscher|2.00": "6.8–7.2 mm",
+      "Asscher|3.00": "7.8–8.2 mm",
+      "Heart|0.50": "4.8–5.2 mm",
+      "Heart|1.00": "6.3–6.8 mm",
+      "Heart|1.50": "7.2–7.6 mm",
+      "Heart|2.00": "7.8–8.3 mm",
+      "Heart|3.00": "8.8–9.3 mm"
+    }
+  },
+  "sizeChartByShape": {
+    "id": "diamond-size-chart-by-shape",
+    "title": "Tabla de tamaños de diamantes por forma",
+    "intro": [
+      "La siguiente tabla muestra medidas aproximadas boca arriba en pesos en quilates comúnmente buscados.",
+      "Para diamantes redondos, la medida es el diámetro aproximado. Para formas elegantes, las medidas se muestran como largo × ancho aproximado."
+    ],
+    "table": {
+      "caption": "Medidas aproximadas del diamante boca arriba por forma y quilates",
+      "headers": [
+        "forma de diamante",
+        "0,50 quilates",
+        "1,00 quilates",
+        "1,50 quilates",
+        "2,00 quilates",
+        "3,00 quilates"
+      ],
+      "rows": [
+        [
+          "Round",
+          "5.0–5.2 mm",
+          "6.4–6.5 mm",
+          "7.3–7.5 mm",
+          "8.0–8.2 mm",
+          "9.2–9.4 mm"
+        ],
+        [
+          "Oval",
+          "5.8–6.3 × 3.8–4.2 mm",
+          "7.5–8.2 × 5.3–5.8 mm",
+          "8.5–9.2 × 6.0–6.5 mm",
+          "9.5–10.5 × 6.7–7.2 mm",
+          "11.0–12.0 × 7.5–8.0 mm"
+        ],
+        [
+          "Cushion",
+          "4.7–5.0 mm",
+          "5.5–6.1 mm",
+          "6.3–6.8 mm",
+          "7.0–8.0 mm",
+          "8.0–9.0 mm"
+        ],
+        [
+          "Princess",
+          "4.3–4.6 mm",
+          "5.3–5.6 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Emerald",
+          "5.5–6.0 × 3.8–4.2 mm",
+          "6.5–7.0 × 4.5–5.0 mm",
+          "7.3–7.8 × 5.2–5.7 mm",
+          "8.3–8.8 × 6.0–6.5 mm",
+          "9.3–10.0 × 6.8–7.5 mm"
+        ],
+        [
+          "Radiant",
+          "5.5–6.0 × 4.0–4.5 mm",
+          "6.5–7.3 × 5.0–5.5 mm",
+          "7.2–7.8 × 5.6–6.1 mm",
+          "7.8–8.5 × 6.2–7.0 mm",
+          "9.0–9.8 × 7.0–7.8 mm"
+        ],
+        [
+          "Pear",
+          "6.5–7.3 × 4.3–4.7 mm",
+          "8.3–9.1 × 5.4–5.8 mm",
+          "9.5–10.2 × 6.2–6.6 mm",
+          "10.5–11.5 × 6.8–7.3 mm",
+          "12.0–13.0 × 7.8–8.3 mm"
+        ],
+        [
+          "Marquise",
+          "7.8–8.5 × 3.8–4.2 mm",
+          "9.5–10.5 × 4.7–5.3 mm",
+          "11.5–12.3 × 5.7–6.2 mm",
+          "12.5–13.5 × 6.2–6.8 mm",
+          "14.5–15.5 × 7.0–7.7 mm"
+        ],
+        [
+          "Asscher",
+          "4.3–4.6 mm",
+          "5.3–5.7 mm",
+          "6.2–6.6 mm",
+          "6.8–7.2 mm",
+          "7.8–8.2 mm"
+        ],
+        [
+          "Heart",
+          "4.8–5.2 mm",
+          "6.3–6.8 mm",
+          "7.2–7.6 mm",
+          "7.8–8.3 mm",
+          "8.8–9.3 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Estos rangos están destinados a una comparación visual. No deben utilizarse para fabricar un engaste ni para confirmar si un diamante encajará en una pieza de joyería existente."
+    ]
+  },
+  "roundChart": {
+    "id": "round-diamond-size-chart",
+    "title": "Tabla de tallas de diamantes redondos",
+    "intro": [
+      "Los diamantes redondos brillantes utilizan medidas de diámetro. Un informe de clasificación normalmente registra el diámetro mínimo, el diámetro máximo y la profundidad total."
+    ],
+    "table": {
+      "caption": "Diámetro aproximado del diamante redondo por peso en quilates",
+      "headers": [
+        "Peso en quilates",
+        "Diámetro aproximado"
+      ],
+      "rows": [
+        [
+          "0,01 quilates",
+          "1.3 mm"
+        ],
+        [
+          "0,02 quilates",
+          "1.7 mm"
+        ],
+        [
+          "0,03 quilates",
+          "2.0 mm"
+        ],
+        [
+          "0,05 quilates",
+          "2.4 mm"
+        ],
+        [
+          "0,06 quilates",
+          "2.5 mm"
+        ],
+        [
+          "0,10 quilates",
+          "3.0 mm"
+        ],
+        [
+          "0,20 quilates",
+          "3.8 mm"
+        ],
+        [
+          "0,25 quilates",
+          "4.0–4.1 mm"
+        ],
+        [
+          "0,30 quilates",
+          "4.3 mm"
+        ],
+        [
+          "0,40 quilates",
+          "4.7–4.8 mm"
+        ],
+        [
+          "0,50 quilates",
+          "5.0–5.2 mm"
+        ],
+        [
+          "0,75 quilates",
+          "5.7–5.9 mm"
+        ],
+        [
+          "1,00 quilates",
+          "6.4–6.5 mm"
+        ],
+        [
+          "1,25 quilates",
+          "6.8–7.0 mm"
+        ],
+        [
+          "1,50 quilates",
+          "7.3–7.5 mm"
+        ],
+        [
+          "1,75 quilates",
+          "7.7–7.9 mm"
+        ],
+        [
+          "2,00 quilates",
+          "8.0–8.2 mm"
+        ],
+        [
+          "2,50 quilates",
+          "8.7–8.9 mm"
+        ],
+        [
+          "3,00 quilates",
+          "9.2–9.4 mm"
+        ],
+        [
+          "4,00 quilates",
+          "10.1–10.3 mm"
+        ],
+        [
+          "5,00 quilates",
+          "10.9–11.1 mm"
+        ]
+      ]
+    },
+    "closing": [
+      "Un diamante fuera de estos rangos no está automáticamente mal cortado. Antes de llegar a una conclusión se deben valorar sus proporciones completas, rendimiento lumínico, faja y apariencia visible."
+    ]
+  },
+  "smallRoundChart": {
+    "id": "small-round-diamond-mm-to-carat-chart",
+    "title": "Tabla de mm a quilates de diamantes redondos pequeños",
+    "intro": [
+      "Los diamantes redondos pequeños se seleccionan con frecuencia por tamaño milimétrico para aplicaciones de pavé, halo, piedra secundaria y joyería combinada."
+    ],
+    "table": {
+      "caption": "Peso aproximado de diamantes redondos pequeños por diámetro.",
+      "headers": [
+        "Diámetro aproximado",
+        "Peso aproximado por diamante"
+      ],
+      "rows": [
+        [
+          "1.0 mm",
+          "0,005 quilates"
+        ],
+        [
+          "1.3 mm",
+          "0,01 quilates"
+        ],
+        [
+          "1.5 mm",
+          "0,015 quilates"
+        ],
+        [
+          "1.7 mm",
+          "0,02 quilates"
+        ],
+        [
+          "2.0 mm",
+          "0,03 quilates"
+        ],
+        [
+          "2.2 mm",
+          "0,04 quilates"
+        ],
+        [
+          "2.4 mm",
+          "0,05 quilates"
+        ],
+        [
+          "2.5 mm",
+          "0,06 quilates"
+        ],
+        [
+          "2.7 mm",
+          "0,07 quilates"
+        ],
+        [
+          "2.8 mm",
+          "0,08 quilates"
+        ],
+        [
+          "3.0 mm",
+          "0,10 quilates"
+        ],
+        [
+          "3.2 mm",
+          "0,12 quilates"
+        ],
+        [
+          "3.4 mm",
+          "0,14 quilates"
+        ],
+        [
+          "3.6 mm",
+          "0,17 quilates"
+        ],
+        [
+          "3.8 mm",
+          "0,20 quilates"
+        ],
+        [
+          "4.0–4.1 mm",
+          "0,25 quilates"
+        ],
+        [
+          "4.3 mm",
+          "0,30 quilates"
+        ],
+        [
+          "5.0–5.2 mm",
+          "0,50 quilates"
+        ]
+      ]
+    },
+    "closing": [
+      "Las cifras son pesos aproximados de diamantes redondos individuales. El peso total en quilates de una pieza es el peso combinado de todos los diamantes, no el peso de cada piedra."
+    ]
+  },
+  "whatDoCaratAndMmMean": {
+    "id": "what-do-carat-and-mm-mean",
+    "title": "¿Qué significan quilates y mm?",
+    "subsections": [
+      {
+        "id": "carat-measures-weight",
+        "title": "Quilates Medidas Peso",
+        "paragraphs": [
+          "El quilate, abreviado como ct, mide el peso de un diamante. Un quilate métrico equivale a 200 miligramos y se divide en 100 puntos.",
+          "Por ejemplo:"
+        ],
+        "bullets": [
+          "0,25 quilates = 25 puntos",
+          "0,50 ct = 50 puntos",
+          "0,75 quilates = 75 puntos",
+          "1,00 quilates = 100 puntos"
+        ],
+        "closing": [
+          "La guía GIA sobre el peso en quilates de los diamantes explica por qué los quilates no deben interpretarse como una medida directa del tamaño visible."
+        ],
+        "giaCaratGuideUrl": "https://4cs.gia.edu/en-us/diamond-carat-weight/"
+      },
+      {
+        "id": "millimetres-measure-dimensions",
+        "title": "Dimensiones de medida en milímetros",
+        "paragraphs": [
+          "Las medidas milimétricas describen las dimensiones físicas de un diamante.",
+          "Para un diamante redondo, el informe generalmente registra:",
+          "diámetro mínimo × diámetro máximo × profundidad",
+          "Para un diamante de forma elegante, generalmente registra:",
+          "largo × ancho × profundidad",
+          "El largo y el ancho te ayudan a comprender la huella boca arriba. La profundidad muestra qué tan lejos se extiende el diamante desde su mesa hasta su culet."
+        ]
+      }
+    ]
+  },
+  "whyLookDifferent": {
+    "id": "why-same-carat-can-look-different",
+    "title": "¿Por qué dos diamantes del mismo quilate pueden verse diferentes?",
+    "subsections": [
+      {
+        "id": "depth",
+        "title": "Profundidad",
+        "paragraphs": [
+          "Un diamante puede transportar una mayor proporción de su peso por debajo del cinturón. Esto puede hacer que parezca más pequeño desde arriba que otro diamante del mismo peso.",
+          "Un diamante poco profundo puede tener una extensión más amplia hacia arriba, pero un diámetro mayor no significa automáticamente una mejor apariencia o rendimiento lumínico."
+        ],
+        "showDepthImage": true
+      },
+      {
+        "id": "shape",
+        "title": "Forma",
+        "paragraphs": [
+          "Las formas alargadas, como las ovaladas, las de pera y las de marquesa, pueden crear un contorno boca arriba más largo que los diamantes redondos o cuadrados del mismo peso.",
+          "Esto no significa que todo diamante alargado sea mejor. También se deben considerar el contorno, la simetría, las proporciones y el contraste visible de la pajarita."
+        ]
+      },
+      {
+        "id": "length-to-width-ratio",
+        "title": "Relación largo-ancho",
+        "paragraphs": [
+          "Los diamantes de forma elegante pueden ser compactos, moderadamente alargados o muy alargados.",
+          "Dos diamantes ovalados de un quilate pueden tener diferentes medidas de largo y ancho porque uno tiene un contorno más largo. La misma variación ocurre con los diamantes de talla cojín, pera, radiante, marquesa y esmeralda."
+        ]
+      },
+      {
+        "id": "girdle-thickness",
+        "title": "Grosor de la faja",
+        "paragraphs": [
+          "El cinturón forma el borde exterior del diamante. Una faja muy gruesa puede retener peso adicional sin producir un aumento correspondiente en el tamaño boca arriba."
+        ]
+      },
+      {
+        "id": "cut-and-proportions",
+        "title": "Corte y proporciones",
+        "paragraphs": [
+          "La mesa, la profundidad, la corona, el pabellón y las proporciones generales del diamante influyen en sus dimensiones boca arriba y en su rendimiento visual.",
+          "En el caso de los brillantes redondos, no se debe sacrificar la calidad del corte simplemente para obtener un diámetro ligeramente mayor."
+        ]
+      }
+    ]
+  },
+  "whichShapeLooksLargest": {
+    "id": "which-diamond-shape-looks-largest",
+    "title": "¿Qué forma de diamante parece más grande para su peso en quilates?",
+    "paragraphs": [
+      "Los diamantes alargados de talla marquesa, pera y ovalados a menudo crean un contorno que parece más grande porque su longitud cubre una mayor parte del dedo.",
+      "Los diamantes esmeralda y radiantes alargados también pueden proporcionar una cobertura considerable para los dedos. Los cortes cojín, Asscher y princesa pueden parecer más compactos porque se puede distribuir una mayor parte de su peso a través de su profundidad o contorno cuadrado.",
+      "El tamaño visible no debe juzgarse únicamente por la longitud. El ancho, el área de superficie, el estilo de engaste, el brillo y el equilibrio del diseño completo afectan el tamaño de un diamante."
+    ]
+  },
+  "twoCarat": {
+    "id": "what-size-is-a-two-carat-diamond",
+    "title": "¿Qué tamaño tiene un diamante de dos quilates?",
+    "intro": [
+      "Un diamante brillante redondo de dos quilates suele medir aproximadamente entre 8,0 y 8,2 mm de diámetro.",
+      "Las medidas aproximadas de una forma elegante de dos quilates incluyen:"
+    ],
+    "measurements": [
+      {
+        "shape": "Oval",
+        "value": "9.5–10.5 × 6.7–7.2 mm"
+      },
+      {
+        "shape": "Pear",
+        "value": "10.5–11.5 × 6.8–7.3 mm"
+      },
+      {
+        "shape": "Marquise",
+        "value": "12.5–13.5 × 6.2–6.8 mm"
+      },
+      {
+        "shape": "Emerald",
+        "value": "8.3–8.8 × 6.0–6.5 mm"
+      },
+      {
+        "shape": "Radiant",
+        "value": "7.8–8.5 × 6.2–7.0 mm"
+      },
+      {
+        "shape": "Cushion",
+        "value": "7.0–8.0 mm"
+      },
+      {
+        "shape": "Princess",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Asscher",
+        "value": "6.8–7.2 mm"
+      },
+      {
+        "shape": "Heart",
+        "value": "7.8–8.3 mm"
+      }
+    ],
+    "closing": [
+      "Compare siempre las medidas que se muestran en el informe de clasificación en lugar de asumir que cada diamante de dos quilates tiene el mismo tamaño visible."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-size",
+    "title": "Cómo comparar correctamente el tamaño del diamante",
+    "steps": [
+      {
+        "title": "1. Compara las medidas completas",
+        "paragraphs": [
+          "No compare dos diamantes utilizando únicamente el peso en quilates. Revisa su largo, ancho y profundidad.",
+          "Para diamantes redondos, compare los diámetros mínimo y máximo. Una gran diferencia entre ellos puede indicar un contorno desenfocado."
+        ]
+      },
+      {
+        "title": "2. Considere la forma",
+        "paragraphs": [
+          "Sólo compare el diámetro directamente cuando examine diamantes redondos. Las formas elegantes requieren tanto largo como ancho."
+        ]
+      },
+      {
+        "title": "3. Revise la relación largo-ancho",
+        "paragraphs": [
+          "La relación largo-ancho se calcula dividiendo el largo del diamante por su ancho.",
+          "Por ejemplo:",
+          "9,0 mm ÷ 6,0 mm = relación 1,50",
+          "La proporción preferida es en parte una cuestión de apariencia y diseño de joyería. No existe una proporción única que sea automáticamente mejor para cada comprador."
+        ]
+      },
+      {
+        "title": "4. Consulta el informe de calificaciones",
+        "paragraphs": [
+          "Utilice las medidas impresas en el informe de calificación real. La guía de Dalila para leer un informe de diamantes del GIA explica dónde aparecen las principales medidas y la información de clasificación."
+        ],
+        "reportGuideHref": "/blogs/how-to-read-gia-diamond-certificate",
+        "reportGuideText": "leyendo un informe de diamantes del GIA"
+      },
+      {
+        "title": "5. Revisar imágenes o videos",
+        "paragraphs": [
+          "Las medidas describen el tamaño pero no pueden comunicar completamente el contorno, la simetría, el brillo, el contraste o la visibilidad de la pajarita.",
+          "Cuando estén disponibles, revise imágenes o videos claros junto con la información del informe."
+        ]
+      }
+    ]
+  },
+  "fingerSize": {
+    "id": "how-large-on-a-finger",
+    "title": "¿Qué tamaño tendrá un diamante en un dedo?",
+    "intro": [
+      "La apariencia de un diamante en una mano depende de algo más que el peso en quilates.",
+      "Los factores importantes incluyen:"
+    ],
+    "factors": [
+      "forma de diamante",
+      "Dimensiones boca arriba",
+      "Tamaño de dedo y anillo",
+      "Ancho de banda",
+      "Diseño de punta o bisel",
+      "Engaste de solitario, halo o tres piedras",
+      "Orientación del diamante",
+      "Piedras laterales circundantes",
+      "Distancia de visión y fotografía."
+    ],
+    "closing": [
+      "Por lo tanto, las ilustraciones en línea deben tratarse como guías visuales y no como representaciones exactas.",
+      "Si Dalila proporciona una guía de tallas imprimible, imprímala a escala del 100% y verifique la línea de calibración con una regla. No juzgues el tamaño real desde un teléfono o una pantalla de computadora no calibrados."
+    ]
+  },
+  "existingSetting": {
+    "id": "choosing-for-existing-setting",
+    "title": "Elegir un diamante para un engaste existente",
+    "intro": [
+      "Si un diamante debe encajar en un engaste existente, el peso en quilates por sí solo no es suficiente.",
+      "Proporcionar:"
+    ],
+    "bullets": [
+      "Longitud requerida",
+      "Ancho requerido",
+      "Profundidad máxima aceptable",
+      "forma de diamante",
+      "Requisitos de esquina o punto",
+      "Configurar medidas",
+      "Imágenes de referencia",
+      "Informe de diamantes existente, cuando esté disponible"
+    ],
+    "closing": [
+      "Un joyero calificado debe evaluar el engaste antes de comprar otro diamante. Una pequeña diferencia dimensional puede afectar la capacidad de sostener la piedra de forma segura.",
+      "El servicio personalizado de búsqueda de diamantes de Dalila se puede utilizar para solicitar un diamante natural dentro de un rango de medidas específico, sujeto a disponibilidad."
+    ]
+  },
+  "matchedDiamonds": {
+    "id": "choosing-matched-diamonds",
+    "title": "Elegir diamantes combinados",
+    "intro": [
+      "Los diamantes para aretes, piedras secundarias y joyas con varias piedras no deben combinarse utilizando únicamente el peso en quilates.",
+      "Normalmente se debe comparar una pareja convincente por:"
+    ],
+    "bullets": [
+      "Largo y ancho",
+      "Tamaño visible boca arriba",
+      "Forma y contorno",
+      "Relación largo-ancho",
+      "Color",
+      "Claridad",
+      "patrón de facetado",
+      "Fluorescencia",
+      "Equilibrio visual general"
+    ],
+    "closing": [
+      "Si requiere un par o grupo con dimensiones controladas, envíe el requerimiento completo a través del servicio DS4U de Dalila."
+    ]
+  },
+  "largerLooking": {
+    "id": "does-larger-looking-mean-better",
+    "title": "¿Un diamante que parece más grande siempre significa un diamante mejor?",
+    "paragraphs": [
+      "No. Una medida más grande boca arriba puede resultar atractiva, pero el tamaño visible es sólo una consideración.",
+      "Un diamante con una extensión excesiva puede ser demasiado superficial. Un diamante con peso oculto puede parecer más pequeño de lo esperado. No se puede llegar a ninguna conclusión basándose únicamente en las mediciones.",
+      "Revise las proporciones completas, el informe de clasificación, el contorno y la apariencia del diamante antes de tomar una decisión.",
+      "El precio también depende del peso en quilates, la forma, el color, la claridad, la calidad del corte, el informe de clasificación, la rareza y la disponibilidad actual. La guía de precios de diamantes de Dalila explica los principales factores de fijación de precios."
+    ]
+  },
+  "cta": {
+    "id": "find-a-natural-diamond",
+    "title": "Encuentre un diamante natural del tamaño que necesita",
+    "paragraphs": [
+      "Utilice las tablas como comparación inicial y luego verifique las medidas de cada diamante individual.",
+      "Puede explorar el inventario actual de diamantes naturales de Dalila o enviar un requisito de forma, quilates y medidas exactas a través de DS4U."
+    ],
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "OBTÉN UN DIAMANTE MEDIANTE MEDIDAS EXACTAS",
+    "secondaryButtonHref": "/diamond-source",
+    "notice": "Enviar una solicitud de abastecimiento no garantiza la disponibilidad ni la reserva de un diamante. El diamante específico, el informe de clasificación, las dimensiones, el precio y las condiciones comerciales deben confirmarse por escrito."
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿El quilate es lo mismo que el tamaño del diamante?",
+        "answer": "No. Los quilates miden el peso, mientras que los milímetros miden las dimensiones físicas. Los diamantes del mismo peso en quilates pueden tener diferentes medidas boca arriba."
+      },
+      {
+        "question": "¿Cuántos milímetros tiene un diamante de un quilate?",
+        "answer": "Un diamante redondo de un quilate bien proporcionado suele medir aproximadamente entre 6,4 y 6,5 mm de diámetro. Los diamantes de un quilate con formas elegantes tienen diferentes medidas de largo y ancho."
+      },
+      {
+        "question": "¿Cuántos milímetros tiene un diamante redondo de dos quilates?",
+        "answer": "Un diamante brillante redondo de dos quilates suele medir aproximadamente entre 8,0 y 8,2 mm de diámetro. Las medidas reales dependen de las proporciones y la profundidad del diamante."
+      },
+      {
+        "question": "¿Cuántos quilates tiene un diamante redondo de 2 mm?",
+        "answer": "Un diamante redondo de 2 mm pesa aproximadamente 0,03 quilates. Esta es una conversión estimada y las piedras individuales pueden variar."
+      },
+      {
+        "question": "¿Cuántos quilates tiene un diamante redondo de 2,5 mm?",
+        "answer": "Un diamante redondo de 2,5 mm suele pesar aproximadamente 0,06 quilates. Su peso exacto depende de la profundidad y las proporciones."
+      },
+      {
+        "question": "¿Se pueden convertir los milímetros de diamante exactamente en quilates?",
+        "answer": "No sólo por el diámetro, el largo o el ancho. Una estimación del peso más fiable también requiere la profundidad, la forma y las proporciones del diamante. El peso real en quilates debe establecerse utilizando una balanza de diamantes calibrada."
+      },
+      {
+        "question": "¿Por qué un diamante parece más grande que otro del mismo quilate?",
+        "answer": "Un diamante puede tener una extensión más amplia boca arriba, una profundidad menor, un contorno diferente o una forma más alargada. El grosor de la faja y las proporciones generales también pueden afectar el tamaño visible."
+      },
+      {
+        "question": "¿Qué forma de diamante parece más grande?",
+        "answer": "Los diamantes talla marquesa, ovalados y en forma de pera a menudo crean una mayor cobertura aparente de los dedos debido a sus contornos alargados. El resultado aún depende de la longitud, el ancho, las proporciones y el engaste de cada diamante."
+      },
+      {
+        "question": "¿Dónde se muestran las medidas de los diamantes en un informe de clasificación?",
+        "answer": "Las medidas normalmente se muestran cerca de la parte superior del informe de calificaciones. Los diamantes redondos suelen mostrar un diámetro mínimo, un diámetro máximo y una profundidad. Las formas elegantes suelen mostrar largo, ancho y profundidad."
+      },
+      {
+        "question": "¿Las medidas incluyen el ajuste del anillo?",
+        "answer": "No. Las medidas del diamante se refieren a la piedra suelta. El engaste, el halo, el bisel, las puntas y la banda pueden cambiar el tamaño del anillo terminado."
+      },
+      {
+        "question": "¿Puedo utilizar esta tabla para fabricar una configuración?",
+        "answer": "No. El cuadro proporciona referencias educativas aproximadas. Se debe fabricar un engaste utilizando las medidas exactas del diamante seleccionado."
+      },
+      {
+        "question": "¿Puede Dalila conseguir un diamante utilizando medidas milimétricas exactas?",
+        "answer": "Sí, se puede incluir un rango de medición exacto en una solicitud DS4U. La disponibilidad dependerá de la forma completa, los quilates, la calidad, el informe de calificación y los requisitos presupuestarios."
+      }
+    ]
+  }
+}

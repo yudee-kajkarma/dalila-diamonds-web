@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "title": "Veilig een diamanten ring verkopen: 10 stappen | Dalila",
+    "description": "Leer hoe u een diamanten ring veilig kunt verkopen: verifieer het rapport, controleer de koper, bescherm de overdracht en bevestig de betaling voordat u uw ring vrijgeeft.",
+    "canonical": "https://www.daliladiamonds.com/resources/how-to-sell-diamond-ring",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaSellingJewellery": "https://www.gia.edu/gia-news-research-selling-jewellery"
+  },
+  "banner": {
+    "title": "Hoe u een diamanten ring veilig kunt verkopen",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Hoe u een diamanten ring veilig kunt verkopen",
+    "imageAlt": "Hoe u een diamanten ring veilig kunt verkopen, bronbanner"
+  },
+  "hero": {
+    "title": "Hoe u een diamanten ring veilig kunt verkopen: een stapsgewijze handleiding",
+    "paragraphs": [
+      "Om een ​​diamanten ring veilig te verkopen is meer nodig dan iemand vinden die bereid is een bod uit te brengen. U moet begrijpen wat de ring bevat, de documentatie verifiëren, de koper controleren, de ring beschermen tijdens onderzoek of transport en de betaling bevestigen voordat het eigendom wordt overgedragen.",
+      "Het veiligste proces begint voordat u de ring aan iemand anders overhandigt. Verzamel de beschikbare documenten, maak duidelijke foto's en maak een basisregistratie van de staat van de ring. Vervolgens kunt u een eerste taxatie aanvragen en beslissen of een fysieke inspectie gerechtvaardigd is.",
+      "Een legitieme koper moet kunnen uitleggen hoe de ring wordt gewaardeerd, of er kosten aan verbonden zijn, hoe het item wordt beschermd en wat er gebeurt als u besluit niet te verkopen."
+    ],
+    "primaryButtonText": "START EEN PRIVÉ DIAMANTRING EVALUATIE",
+    "primaryButtonHref": "#secure-evaluation-form"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/how-to-sell-diamond-ring-safely.webp",
+      "alt": "Natuurlijke diamanten ring en documenten voorbereid voor een veilige professionele verkoop",
+      "width": 1600,
+      "height": 900
+    },
+    "safetySteps": {
+      "src": "/images/resources/diamond-ring-selling-safety-steps.webp",
+      "alt": "Veiligheidsstappen voor het verkopen van een natuurlijke diamanten ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "transport": {
+      "src": "/images/resources/safe-diamond-ring-transport.webp",
+      "alt": "Veilige verpakking en gedocumenteerd transport voor een diamanten ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "payment": {
+      "src": "/images/resources/diamond-ring-payment-verification.webp",
+      "alt": "Schriftelijk ontvangstbewijs en geverifieerde betaling voor de verkoop van een diamanten ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "checklistCover": {
+      "src": "/images/resources/diamond-seller-safety-checklist.webp",
+      "alt": "Veiligheidschecklist voor diamantverkopers voor het voorbereiden en voltooien van een veilige verkoop",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Snel antwoord"
+      },
+      {
+        "id": "step-1",
+        "label": "Stap 1: Bevestig het eigendom"
+      },
+      {
+        "id": "step-2",
+        "label": "Stap 2: Verzamel documenten"
+      },
+      {
+        "id": "step-3",
+        "label": "Stap 3: Fotografeer de ring"
+      },
+      {
+        "id": "step-4",
+        "label": "Stap 4: Controleer het rapport"
+      },
+      {
+        "id": "step-5",
+        "label": "Stap 5: Begrijp de waarde"
+      },
+      {
+        "id": "step-6",
+        "label": "Stap 6: Kies een verkooproute"
+      },
+      {
+        "id": "step-7",
+        "label": "Stap 7: Verifieer de koper"
+      },
+      {
+        "id": "step-8",
+        "label": "Stap 8: Online beoordeling"
+      },
+      {
+        "id": "step-9",
+        "label": "Stap 9: Persoonlijke evaluatie"
+      },
+      {
+        "id": "step-10",
+        "label": "Stap 10: Veilig transport"
+      },
+      {
+        "id": "step-11",
+        "label": "Stap 11: Bekijk de aanbieding"
+      },
+      {
+        "id": "step-12",
+        "label": "Stap 12: Bevestig de betaling"
+      },
+      {
+        "id": "step-13",
+        "label": "Stap 13: Houd gegevens bij"
+      },
+      {
+        "id": "safety-checklist",
+        "label": "Veiligheidscontrolelijst"
+      },
+      {
+        "id": "common-scams",
+        "label": "Veelvoorkomende oplichting"
+      },
+      {
+        "id": "clean-or-repair",
+        "label": "Schoonmaken of repareren?"
+      },
+      {
+        "id": "without-certificate",
+        "label": "Verkoop zonder certificaat"
+      },
+      {
+        "id": "inherited-ring",
+        "label": "Erfelijke ring"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Hoe Dalila helpt"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      },
+      {
+        "id": "sell-with-confidence",
+        "label": "Verkoop met vertrouwen"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Snel antwoord: wat is de veiligste manier om een ​​diamanten ring te verkopen?",
+    "intro": "De veiligste manier om een ​​diamanten ring te verkopen is door samen te werken met een identificeerbare professionele koper, duidelijke schriftelijke voorwaarden te verkrijgen, de staat en documentatie van de ring bij te houden en het item pas vrij te geven nadat de overeengekomen betaling onafhankelijk is bevestigd.",
+    "beforeAcceptingIntro": "Voordat u een bod accepteert:",
+    "bullets": [
+      "Verzamel het beoordelingsrapport en de eigendomsdocumenten.",
+      "Leg de staat van de ring vast met foto's.",
+      "Controleer het diamantrapport.",
+      "Begrijp het verschil tussen taxatie- en wederverkoopwaarde.",
+      "Onderzoek de koper en zijn fysieke bedrijfsgegevens.",
+      "Vraag schriftelijk naar het evaluatieproces en de kosten.",
+      "Maak gebruik van een veilige afspraak of volledig gedocumenteerd verzekerd transport.",
+      "Bevestig wat de aanbieding inhoudt.",
+      "Controleer de goedgekeurde betaling onafhankelijk.",
+      "Bewaar een ontvangstbewijs en transactiegegevens."
+    ],
+    "closing": "Stuur geen waardevolle ring naar een onbekend adres, vertrouw niet op een betalingsscreenshot en accepteer geen druk om onmiddellijk te beslissen."
+  },
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "title": "Bevestig dat je het recht hebt om de ring te verkopen",
+      "paragraphs": [
+        "Voordat u offertes aanvraagt, moet u vaststellen dat u wettelijk gerechtigd bent om de ring te verkopen. Normaal gesproken is dit eenvoudig als u het zelf heeft gekocht, als een voltooide schenking heeft ontvangen of via een afgewikkelde nalatenschap heeft geërfd.",
+        "De situatie kan verduidelijking vereisen wanneer de ring gezamenlijk eigendom is, onderwerp is van een onopgeloste nalatenschap, verband houdt met een verzekeringsclaim of betrokken is bij een scheidings- of eigendomsgeschil. Een koper kan om identificatie en bewijs van rechtmatige eigendom vragen voordat hij de transactie voltooit."
+      ],
+      "documentsIntro": "Nuttige ondersteunende documenten kunnen zijn:",
+      "bullets": [
+        "Originele aankoopbon",
+        "Ingevulde geschenkdocumentatie, indien beschikbaar",
+        "Nalatenschaps- of erfenispapieren",
+        "Vorig verzekeringsschema",
+        "Beoordelingsrapport",
+        "Vorige beoordeling",
+        "Reparatie- of servicegeschiedenis",
+        "Merkdocumentatie"
+      ],
+      "closing": [
+        "Niet elke verkoper beschikt over al deze documenten. Het ontbreken van papierwerk verhindert niet automatisch een evaluatie, maar de koper heeft mogelijk aanvullende informatie nodig voordat hij een aankoop voltooit.",
+        "Wijzig, verberg of verzin geen informatie over het eigendom van de ring, de geschiedenis, de herkomst van de diamant of de behandelingen ervan."
+      ]
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "title": "Verzamel de documenten van de Ring",
+      "paragraphs": [
+        "Hoe nauwkeuriger de informatie u kunt verstrekken, hoe gemakkelijker het wordt om een ​​zinvolle eerste beoordeling te verkrijgen.",
+        "Begin met het diamantbeoordelingsrapport. Rapporten van laboratoria zoals GIA, HRD Antwerpen en IGI kunnen de oorsprong, vorm, karaatgewicht, kleur, helderheid, slijpinformatie, afmetingen, fluorescentie en identificerende kenmerken van de diamant beschrijven.",
+        "Een beoordelingsrapport is niet hetzelfde als een beoordeling. Het rapport beschrijft de kwaliteit van de diamant, terwijl een taxatie een geldwaarde toekent voor een bepaald doel. GIA legt dit onderscheid uit in haar richtlijnen voor diamantbeoordelingsrapporten en taxaties."
+      ],
+      "gatherIntro": "Je moet ook verzamelen:",
+      "bullets": [
+        "De originele factuur",
+        "Eerdere verzekeringstaxaties",
+        "Originele doos en verpakking",
+        "Merkcertificaten",
+        "Repareer en wijzig het formaat van records",
+        "Ontvangsten voor vervangende stenen",
+        "Alle beschikbare herkomstinformatie"
+      ],
+      "closing": "Bewaar de originele documenten veilig. Voor een eerste online indiening is een duidelijke kopie of foto doorgaans geschikter dan het overhandigen van het enige originele document."
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "title": "Fotografeer en registreer de ring vóór evaluatie",
+      "paragraphs": [
+        "Maak een visueel verslag van de ring voordat deze wordt vervoerd, verzonden of aan iemand anders wordt overhandigd. Deze foto's helpen de bestaande staat te documenteren en het volledige item te identificeren.",
+        "Maak foto's in helder, neutraal licht zonder schoonheidsfilters of digitale aanpassingen."
+      ],
+      "photoIntro": "Erbij betrekken:",
+      "bullets": [
+        "De volledige ring van bovenaf",
+        "De ring van beide kanten",
+        "De binnenkant van de band",
+        "Keurmerken en merkhandtekeningen",
+        "De middelste diamant",
+        "Zijstenen",
+        "Zichtbare chips, krassen of beschadigingen",
+        "Het volledige beoordelingsrapport",
+        "Originele verpakking, indien relevant"
+      ],
+      "closing": [
+        "Als het beoordelingsrapport een plotdiagram bevat, kan dit de locatie van de helderheidskenmerken binnen de diamant weergeven. Deze kenmerken kunnen een specialist soms helpen bij het matchen van de steen met het rapport, hoewel een goede match van rapporten nog steeds vergroting en professioneel onderzoek kan vereisen.",
+        "Probeer niet een beter uiterlijk te creëren door een antieke of gesigneerde ring agressief te polijsten. Polijsten, repareren of demonteren kan de toestand veranderen en details verwijderen die belangrijk zijn voor een specialistisch onderzoek."
+      ]
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "title": "Controleer het beoordelingsrapport van de Diamond",
+      "paragraphs": [
+        "Een beoordelingsrapport moet worden gecontroleerd bij het laboratorium dat het heeft afgegeven. Met GIA Report Check kunnen gebruikers bijvoorbeeld bevestigen of de informatie in een rapport overeenkomt met de informatie in de database van GIA.",
+        "HRD Antwerp en IGI bieden ook online rapportverificatiediensten aan. Gebruik de officiële laboratoriumwebsite in plaats van een onbekende rapportcontroleur van derden.",
+        "Rapportverificatie bevestigt dat een rapportnummer en de details ervan in de database van het laboratorium voorkomen. Het bewijst op zichzelf niet dat de fysieke diamant in de ring dezelfde diamant is als beschreven in het rapport."
+      ],
+      "compareIntro": "Het kan zijn dat een koper nog steeds moet vergelijken:",
+      "bullets": [
+        "Karaatgewicht en afmetingen",
+        "Vorm en verhoudingen",
+        "Laserinscriptie, indien aanwezig",
+        "Duidelijkheidskenmerken",
+        "Kleur en helderheid uiterlijk",
+        "Fluorescentie",
+        "Pools en symmetrie",
+        "Bewijs van schade of wijziging"
+      ],
+      "closing": "Als het rapportnummer niet klopt, stop dan en neem contact op met het laboratorium van afgifte of een gekwalificeerde specialist voordat u verdergaat.",
+      "giaLinkText": "Verifieer een GIA-rapport met GIA Report Check"
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "title": "Begrijp wat de ring waard kan zijn",
+      "paragraphs": [
+        "Een veilige verkoop is ook een geïnformeerde verkoop. Voordat u een bod accepteert, moet u begrijpen dat de ring verschillende waarden kan hebben."
+      ],
+      "table": {
+        "caption": "Soorten diamanten ringwaarde",
+        "headers": [
+          "Type waarde",
+          "Wat het betekent"
+        ],
+        "rows": [
+          [
+            "Originele verkoopprijs",
+            "Het bedrag dat oorspronkelijk aan de detailhandelaar is betaald"
+          ],
+          [
+            "Vervangingswaarde verzekering",
+            "Een schatting van de kosten voor vervanging van het artikel via een detailhandelskanaal"
+          ],
+          [
+            "Eerlijke marktwaardering",
+            "De mening van een taxateur over wat een bereidwillige koper een bereidwillige verkoper mag betalen"
+          ],
+          [
+            "Verkoopwaarde",
+            "Het bedrag dat de ring kan opleveren op de secundaire markt"
+          ],
+          [
+            "Directe aankoopaanbieding",
+            "Het bedrag dat een specifieke koper na evaluatie bereid is te betalen"
+          ]
+        ]
+      },
+      "afterTable": [
+        "De oorspronkelijke aankoopprijs kan detailhandelsdiensten, belastingen, branding, ontwerp, setting, marketing en de marge van de detailhandelaar omvatten. Deze elementen worden niet noodzakelijkerwijs teruggevonden wanneer de ring wordt doorverkocht.",
+        "GIA beschrijft eerlijke marktwaarde als de mening van een taxateur over wat een bereidwillige koper een bereidwillige verkoper zou betalen. Het verschilt dus van een waardebepaling ter vervanging van een verzekering.",
+        "De centrale diamant, de zijstenen, de zetting, het edelmetaal, de staat, het merk en de huidige vraag kunnen allemaal een aanbieding beïnvloeden. Vraag of over elk onderdeel van de ring is nagedacht."
+      ],
+      "giaLinkText": "Lees de richtlijnen van GIA over de verkoop van edelstenen en sieraden",
+      "ctaText": "GEBRUIK DE DIAMANTWAARDE CALCULATOR",
+      "ctaHref": "/resources/diamond-valuation-calculator"
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "title": "Kies een verkooproute die bij de ring past",
+      "paragraphs": [
+        "De verkooproute moet passen bij zowel de ring als uw prioriteiten. Een gespecialiseerde koper van natuurlijke diamant kan een directe evaluatie en een aankoopaanbod doen. Voor sommige zeldzame, antieke of gesigneerde ringen kan een veiling of consignatie geschikt zijn, terwijl bij particuliere verkoop de eigenaar de aanbieding, de beveiliging, de betaling en de levering moet beheren.",
+        "Deze pagina richt zich op het veilig uitvoeren van de transactie in plaats van het vergelijken van elk verkoopkanaal.",
+        "Welke methode u ook kiest, bevestig of het voorgestelde bedrag:"
+      ],
+      "bullets": [
+        "Een directe aankoopaanbieding",
+        "Een veilingschatting",
+        "Een vraagprijs voor verzending",
+        "Een inruilkrediet",
+        "Een leenwaarde",
+        "Een informele online schatting"
+      ],
+      "closing": "Deze cijfers zijn niet uitwisselbaar. Een veilingschatting of consignatieprijs is geen gegarandeerd geld, terwijl een direct bod betaalbaar kan worden nadat bepaalde controles zijn voltooid.",
+      "linkText": "Waar kan ik het beste een diamanten ring verkopen?",
+      "linkHref": "/resources/where-to-sell-diamond-ring"
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "title": "Controleer de koper voordat u de ring overhandigt",
+      "paragraphs": [
+        "De koper moet identificeerbaar zijn op basis van een social-media-account, telefoonnummer of berichtenprofiel.",
+        "Controleer de bedrijfsnaam, het fysieke adres, de website, contactgegevens en openbare bedrijfsinformatie van het bedrijf. Beoordelingen kunnen nuttige context bieden, maar beoordelingen alleen mogen de verificatie van de daadwerkelijke zakelijke en transactievoorwaarden niet vervangen."
+      ],
+      "questionsIntro": "Vraag het aan de koper:",
+      "questions": [
+        "Wie beoordeelt de ring?",
+        "Koopt het bedrijf natuurlijke diamanten?",
+        "Wordt de middensteen apart beoordeeld?",
+        "Wordt het beoordelingsrapport geverifieerd?",
+        "Worden er kosten in rekening gebracht?",
+        "Is het vooronderzoek vrijblijvend?",
+        "Wordt de definitieve offerte schriftelijk uitgebracht?",
+        "Hoe wordt de ring beschermd tijdens onderzoek?",
+        "Wat gebeurt er als het aanbod wordt afgewezen?",
+        "Hoe en wanneer wordt er betaald?",
+        "Welk identificatie- of eigendomsbewijs is vereist?"
+      ],
+      "cautionTitle": "Claims die voorzichtigheid vereisen",
+      "cautionParagraphs": [
+        "Een ervaren koper moet bereid zijn het proces duidelijk uit te leggen. Vermijd iedereen die een definitieve prijs garandeert voordat hij voldoende informatie over de diamant heeft ontvangen.",
+        "Zinnen als ‘hoogste prijs gegarandeerd’, ‘onmiddellijke eindwaardering’ of ‘geen vragen gesteld’ moeten zorgvuldig worden behandeld. Een verantwoordelijke koper heeft voldoende informatie nodig om de diamant te identificeren, de staat ervan te beoordelen en te bevestigen dat de verkoper het recht heeft om de transactie te voltooien.",
+        "Interpreteer een gepolijste website niet als bewijs dat elk zakelijk detail of elke belofte echt is. Verifieer het bedrijf onafhankelijk."
+      ]
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "title": "Begin met een voorlopige online beoordeling",
+      "paragraphs": [
+        "Door een online inzending kan de koper de basisinformatie bekijken voordat de ring wordt verplaatst. Dit kan onnodig reizen verminderen en helpen bepalen of de ring voldoet aan de aankoopcriteria van de koper."
+      ],
+      "submissionIntro": "Een nuttige voorlopige indiening omvat:",
+      "bullets": [
+        "Diamantvorm",
+        "Geschatte karaatgewicht",
+        "Kleur en helderheid, indien bekend",
+        "Beoordeling laboratorium",
+        "Rapportnummer",
+        "Duidelijke foto's",
+        "Sieraden metaal",
+        "Merk of ontwerper, indien van toepassing",
+        "Bekende reparaties of schade",
+        "Land van verkoper",
+        "Geprefereerde evaluatiemethode"
+      ],
+      "closing": [
+        "Neem geen onnodige gevoelige informatie op in het eerste onderzoek. De koper heeft geen wachtwoorden, bankgegevens of onbeperkte kopieën van elk persoonlijk document nodig om alleen maar naar foto's te kijken.",
+        "Een voorlopige taxatie dient als indicatief te worden omschreven. Foto's kunnen niet elk kenmerk van de diamant bevestigen of een definitieve aankoopprijs garanderen."
+      ],
+      "ctaText": "INDIEN MIJN RING VOOR EEN PRIVÉBEOORDELING",
+      "ctaHref": "#secure-evaluation-form"
+    },
+    {
+      "id": "step-9",
+      "number": 9,
+      "title": "Bescherm de ring tijdens een persoonlijke evaluatie",
+      "paragraphs": [
+        "Een privéafspraak op een gevestigd zakenadres verdient doorgaans de voorkeur boven een ontmoeting met een onbekende koper in een hotel, auto, huis of café.",
+        "Bevestig vooraf de afspraakgegevens. Breng de ring, relevante documentatie en identificatie mee in een veilige, discrete container. Vermijd het weergeven van het item voordat u het evaluatiegebied bereikt."
+      ],
+      "appointmentIntro": "Op de afspraak:",
+      "bullets": [
+        "Vraag wie de ring zal hanteren.",
+        "Bevestig of het onderzoek in uw aanwezigheid plaatsvindt.",
+        "Vraag om een ​​ontvangstbewijs als de ring bij de koper moet blijven.",
+        "Zorg ervoor dat de kassabon het artikel nauwkeurig beschrijft.",
+        "Noteer het rapportnummer en zichtbare identificatiegegevens.",
+        "Vraag ernaar voordat de diamant uit zijn zetting wordt verwijderd.",
+        "Bevestig wie verantwoordelijk is als het artikel verloren of beschadigd raakt.",
+        "Bewaar kopieën van elk document dat u ondertekent."
+      ],
+      "closing": [
+        "Als de ring het pand moet verlaten voor laboratoriumtests, certificering of een ander specialistisch onderzoek, vraag dan om schriftelijke voorwaarden waarin wordt uitgelegd waar de ring naartoe gaat, hoe deze wordt vervoerd, hoe deze wordt verzekerd en wanneer deze wordt geretourneerd.",
+        "Onderteken nooit een eigendomsoverdrachtsdocument tenzij u begrijpt dat u de verkoop voltooit."
+      ]
+    },
+    {
+      "id": "step-10",
+      "number": 10,
+      "title": "Maak gebruik van veilig en gedocumenteerd transport",
+      "paragraphs": [
+        "Wanneer een persoonlijke afspraak niet praktisch is, kunnen sommige kopers een verzend- of ophaalproces aanbieden. Stuur geen waardevolle diamanten ring voordat u de volledige transportregeling begrijpt."
+      ],
+      "termsIntro": "De schriftelijke voorwaarden moeten het volgende identificeren:",
+      "bullets": [
+        "De afzender en de ontvanger",
+        "Het juiste afleveradres",
+        "De vervoerder",
+        "Volgvereisten",
+        "Handtekeningvereisten",
+        "De aangegeven waarde",
+        "De reikwijdte van de verzekering",
+        "Uitsluitingen van verzekeringen",
+        "Verpakkingsvereisten",
+        "Verantwoordelijkheid tijdens het transport",
+        "Wat gebeurt er als de zending vertraagd is of verloren gaat?",
+        "Hoe de ring wordt geretourneerd als er geen verkoop plaatsvindt"
+      ],
+      "closing": [
+        "Op de buitenverpakking mag niet worden vermeld dat er sieraden in zitten, maar elke aangifte bij de vervoerder of verzekeraar moet juist blijven. Gebruik een veilige binnenverpakking die voorkomt dat de ringdoos beweegt en bewaar foto's van het artikel en de verpakking vóór verzending.",
+        "Een trackingnummer alleen bewijst niet dat een zending voor de volledige waarde verzekerd is. Bevestig de feitelijke verzekeringslimiet en uitsluitingen schriftelijk.",
+        "Verzend niet naar een adres dat alleen via een niet-geverifieerd bericht is ontvangen. Bevestig het adres via de officiële contactgegevens van de koper."
+      ]
+    },
+    {
+      "id": "step-11",
+      "number": 11,
+      "title": "Bekijk het examen en de schriftelijke aanbieding",
+      "paragraphs": [
+        "Na inspectie van de ring dient de koper uit te leggen of het aanbod betrekking heeft op de gehele ring of op specifieke onderdelen."
+      ],
+      "offerIntro": "Bij het aanbod kan worden gedacht aan:",
+      "bullets": [
+        "Natuurlijke of laboratoriumgekweekte oorsprong",
+        "Centrumdiamantkwaliteit",
+        "Beoordelingsrapport",
+        "Schade of staat",
+        "Diamanten aan de zijkant",
+        "Edelmetaalgehalte",
+        "Merk of ontwerper",
+        "Antiek- of verzamelinteresse",
+        "Huidige inkoopvraag",
+        "Noodzakelijke hersnijden of certificering",
+        "Het beoogde wederverkoopkanaal van de koper"
+      ],
+      "closing": [
+        "Vraag de offerte schriftelijk aan. Het document moet het artikel identificeren en het bedrag weergeven dat u ontvangt na eventuele overeengekomen inhoudingen.",
+        "Vergelijk een direct netto-aanbod niet met een veilingschatting of vraagprijs zonder rekening te houden met commissie, kosten, verkoopwaarschijnlijkheid en betalingsmoment.",
+        "Als een online schatting na inspectie verandert, vraag dan welk geverifieerd kenmerk de verandering heeft veroorzaakt. Legitieme redenen kunnen zijn: een discrepantie met de ingediende informatie, schade, een onjuist rapport, een geheime behandeling of de bevestiging dat de diamant in een laboratorium is gekweekt en niet natuurlijk.",
+        "De koper moet de aanpassing kunnen toelichten."
+      ]
+    },
+    {
+      "id": "step-12",
+      "number": 12,
+      "title": "Bevestig de betaling voordat je de ring vrijgeeft",
+      "paragraphs": [
+        "Maak overeenstemming over de betaalmethode voordat u de verkoopdocumenten ondertekent. De veiligste methode is afhankelijk van de transactie en de betrokken partijen, maar de betaling moet onafhankelijk worden bevestigd.",
+        "Een screenshot, e-mail, sms of door de koper gegenereerde kwitantie is geen bewijs dat het geld is verwerkt. Controleer de betaling via uw eigen bank of financiële dienstverlener met behulp van een vertrouwde inlogmethode."
+      ],
+      "confirmIntro": "Bevestig voordat u de transactie voltooit:",
+      "bullets": [
+        "Het afgesproken bedrag",
+        "De betaalmethode",
+        "Het ontvangersaccount",
+        "Eventuele transactiekosten",
+        "Verwachte verwerkingstijd",
+        "Of de betaling teruggedraaid kan worden",
+        "Wanneer eigendom overgaat",
+        "Wanneer de ring wordt vrijgegeven"
+      ],
+      "closing": [
+        "Deel geen bankwachtwoorden, beveiligingscodes of externe toegang tot uw apparaat. Een legitieme koper heeft deze gegevens niet nodig om u te betalen.",
+        "Als de betaling niet volgens de overeengekomen voorwaarden is voldaan, geef de ring dan niet vrij alleen maar omdat de koper zegt dat de overdracht in behandeling is."
+      ]
+    },
+    {
+      "id": "step-13",
+      "number": 13,
+      "title": "Houd een volledig transactieoverzicht bij",
+      "paragraphs": [
+        "Bewaar na de verkoop een kopie van:"
+      ],
+      "bullets": [
+        "Het definitieve schriftelijke aanbod",
+        "De koopovereenkomst",
+        "De artikelbeschrijving",
+        "Gegevens van de koper",
+        "Het beoordelingsrapportnummer",
+        "Betalingsbevestiging",
+        "Ophaal- of afleverbewijs",
+        "Correspondentie over de transactie"
+      ],
+      "closing": [
+        "Op het definitieve ontvangstbewijs moet worden vermeld wat er is verkocht en de datum van overdracht. Als de zetting en de diamant afzonderlijk werden getaxeerd of gekocht, zou het papierwerk dit duidelijk moeten maken.",
+        "Annuleer de verzekeringsdekking niet voordat de verkoop is voltooid, de betaling is verwerkt en de verantwoordelijkheid voor het artikel is overgedragen. Neem contact op met de verzekeraar als u niet zeker weet wanneer de dekking moet eindigen."
+      ]
+    }
+  ],
+  "form": {
+    "id": "secure-evaluation-form",
+    "leadSource": "how_to_sell_diamond_ring_safely",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP en PDF",
+    "title": "Start uw veilige diamantringevaluatie",
+    "subtitle": "Dien de gegevens in die u kent en upload duidelijke foto's. Een Dalila-specialist neemt contact met u op via de door u gewenste methode.",
+    "ringTypes": [
+      "Verlovingsring van natuurlijke diamant",
+      "Andere natuurlijke diamanten ring",
+      "Antieke of vintage ring",
+      "Gemerkte of ondertekende ring",
+      "In een laboratorium gekweekte diamanten ring",
+      "Ik weet het niet zeker"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Nog een laboratorium",
+      "Geen rapport",
+      "Ik weet het niet zeker"
+    ],
+    "shapes": [
+      "Round",
+      "Oval",
+      "Cushion",
+      "Emerald",
+      "Radiant",
+      "Pear",
+      "Princess",
+      "Marquise",
+      "Asscher",
+      "Heart",
+      "Other",
+      "Unknown"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefoon",
+      "Ofwel e-mail of telefoon"
+    ],
+    "evaluationPreferences": [
+      "Alleen online beoordeling",
+      "Privé afspraak in Antwerpen",
+      "Nog niet zeker"
+    ],
+    "consentText": "Ik ga ermee akkoord dat Dalila Diamonds contact met mij opneemt over dit evaluatieverzoek. Ik begrijp dat een online beoordeling voorlopig is en dat voor een definitieve aanbieding mogelijk een fysieke inspectie, rapportverificatie en eigendomscontroles nodig zijn.",
+    "privacyLinkText": "privacybeleid",
+    "privacyHref": "/contact",
+    "submitButton": "Start mijn veilige evaluatie",
+    "submittingButton": "Verzenden…",
+    "successMessage": "Bedankt. Uw ringgegevens zijn ter beoordeling ingediend. Een lid van het Dalila Diamonds-team zal binnenkort contact met u opnemen.",
+    "errorMessage": "We konden uw verzoek niet indienen. Controleer de verplichte velden en probeer het opnieuw.",
+    "labels": {
+      "ringType": "Welk type ring verkoopt u?",
+      "reportStatus": "Heeft u een beoordelingsrapport?",
+      "reportNumber": "Rapportnummer",
+      "caratWeight": "Geschatte karaatgewicht",
+      "shape": "Diamond shape",
+      "uploadPhotos": "Upload foto's",
+      "uploadReport": "Beoordelingsrapport uploaden",
+      "dragDrop": "Sleep hier bestanden en zet ze neer, of kies bestanden",
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "country": "Land",
+      "contactMethod": "Voorkeur contactmethode",
+      "evaluationPreference": "Online review of afspraak in Antwerpen",
+      "additionalInfo": "Aanvullende informatie",
+      "optional": "Optioneel"
+    },
+    "validation": {
+      "ringTypeRequired": "Selecteer welk type ring u verkoopt.",
+      "reportRequired": "Selecteer de status van je beoordelingsrapport.",
+      "nameRequired": "Voer uw volledige naam in.",
+      "contactRequired": "Geef een e-mailadres of telefoonnummer op.",
+      "countryRequired": "Voer uw land in.",
+      "consentRequired": "Bevestig de toestemmingsverklaring voordat u deze verzendt."
+    }
+  },
+  "checklistForm": {
+    "leadSource": "diamond_seller_safety_checklist",
+    "title": "E-mail mij de veiligheidschecklist voor diamantverkopers",
+    "subtitle": "Ontvang een downloadbare checklist met documentatie, kopersverificatie, betalingsbevestiging en veilige overdracht.",
+    "submitButton": "Stuur mij de checklist",
+    "submittingButton": "Verzenden…",
+    "successMessage": "Bedankt. We zullen de veiligheidschecklist voor diamantverkopers binnenkort naar u e-mailen.",
+    "errorMessage": "We konden uw verzoek niet verwerken. Controleer de velden en probeer het opnieuw.",
+    "consentText": "Ik ga akkoord met het ontvangen van de checklist en gerelateerde vervolginformatie van Dalila Diamonds.",
+    "labels": {
+      "firstName": "Voornaam",
+      "email": "E-mailadres",
+      "country": "Land"
+    },
+    "validation": {
+      "firstNameRequired": "Voer uw voornaam in.",
+      "emailRequired": "Voer uw e-mailadres in.",
+      "countryRequired": "Voer uw land in.",
+      "consentRequired": "Bevestig uw toestemming voordat u deze verzendt."
+    }
+  },
+  "safetyChecklist": {
+    "id": "safety-checklist",
+    "title": "Veiligheidschecklist voor het verkopen van diamanten ringen",
+    "intro": "Gebruik deze checklist voordat u de verkoop voltooit.",
+    "sections": [
+      {
+        "title": "Ring en documentatie",
+        "items": [
+          "Ik heb de volledige ring gefotografeerd.",
+          "Ik heb het beoordelingsrapport gekopieerd.",
+          "Ik heb het rapport geverifieerd via het officiële laboratorium.",
+          "Ik heb bestaande schade of reparaties geregistreerd.",
+          "Ik heb de beschikbare eigendomsdocumenten verzameld.",
+          "Ik heb de diamant niet zelf verwijderd."
+        ]
+      },
+      {
+        "title": "Koperverificatie",
+        "items": [
+          "Ik heb de bedrijfsnaam en het adres van de koper bevestigd.",
+          "Ik begrijp wie de ring zal beoordelen.",
+          "Ik weet of er kosten van toepassing zijn.",
+          "Ik begrijp wat er gebeurt als ik het aanbod afwijs.",
+          "Ik weet hoe de ring beschermd zal worden.",
+          "Ik heb de belangrijke voorwaarden schriftelijk ontvangen."
+        ]
+      },
+      {
+        "title": "Aanbieding en betaling",
+        "items": [
+          "Ik begrijp of het bedrag een aanbiedings-, schattings- of consignatieprijs is.",
+          "Ik weet of het aanbod inclusief zetting en zijstenen is.",
+          "Ik begrijp elke aftrek.",
+          "Ik heb de betaalmethode bevestigd.",
+          "Ik zal de goedgekeurde betaling onafhankelijk verifiëren.",
+          "Ik zal een volledig ontvangst- en transactieoverzicht bijhouden."
+        ]
+      }
+    ]
+  },
+  "commonScams": {
+    "id": "common-scams",
+    "title": "Veelvoorkomende oplichting en waarschuwingssignalen bij de verkoop van diamanten",
+    "intro": "Verkopers van waardevolle sieraden kunnen het doelwit zijn van nepkopers, betalingsfraude en misleidende waarderingspraktijken. De veiligste reactie op druk of onzekerheid is pauzeren.",
+    "items": [
+      {
+        "title": "Valse betalingsbevestiging",
+        "text": "De verkoper ontvangt een screenshot of e-mail waarin wordt beweerd dat de betaling is verzonden. Het bericht kan een bank of betalingsprovider imiteren. Controleer uw account onafhankelijk. Volg geen door de koper verstrekte inloglink en geef de ring pas vrij als de betaling is voldaan volgens de overeengekomen voorwaarden."
+      },
+      {
+        "title": "Overbetaling oplichting",
+        "text": "De koper beweert te veel te hebben betaald en vraagt ​​de verkoper het verschil terug te betalen. De oorspronkelijke betaling kan later mislukken of worden teruggedraaid. Stuur geen restitutie voordat uw bank of betalingsprovider de transactie onafhankelijk heeft bevestigd en u heeft geadviseerd hoe u verder moet gaan."
+      },
+      {
+        "title": "Adresvervanging",
+        "text": "Een vermeende koper wijzigt via een privébericht het afleveradres nadat de transactie is geregeld. Bevestig wijzigingen via de officiële zakelijke contactgegevens van de koper en zorg ervoor dat het nieuwe adres onder de transport- en verzekeringsvoorwaarden blijft vallen."
+      },
+      {
+        "title": "Druk om onmiddellijk te beslissen",
+        "text": "Een koper beweert dat het aanbod binnen enkele minuten verdwijnt of ontmoedigt u om de documenten te lezen. Aanbiedingen op de diamantmarkt kunnen een geldigheidsduur hebben, maar een legitieme termijn moet duidelijk worden uitgelegd. Teken niet onder kunstmatige druk."
+      },
+      {
+        "title": "Onverklaarbare prijsverlaging",
+        "text": "Een koper geeft een hoge voorlopige schatting en verlaagt deze scherp nadat hij de ring heeft ontvangen, zonder te identificeren wat er is veranderd. Vraag schriftelijk naar de geverifieerde reden. Als de uitleg onduidelijk is, wijs dan het aanbod af en vraag de ring terug onder de afgesproken voorwaarden."
+      },
+      {
+        "title": "Onverzekerde verzendclaim",
+        "text": "Een koper beschrijft een zending als “volledig verzekerd” zonder de werkelijke waardelimiet, uitsluitingen of verantwoordelijke partij te vermelden. Vraag om schriftelijk bewijs van dekking. Ga er niet van uit dat de standaardpakketcompensatie een diamanten ring van hoge waarde dekt."
+      },
+      {
+        "title": "Vervangingsprobleem",
+        "text": "De verkoper is bang dat de diamant of ring tijdens een onderzoek wordt vervangen. Maak een foto van de ring, noteer het nummer van het beoordelingsrapport, schakel een professioneel bedrijf in en vraag hoe de diamant aan het rapport zal worden gekoppeld. Als het artikel bij de koper moet blijven, vraag dan een gedetailleerd ontvangstbewijs aan."
+      }
+    ]
+  },
+  "cleanOrRepair": {
+    "id": "clean-or-repair",
+    "title": "Moet ik de ring schoonmaken of repareren voordat ik hem verkoop?",
+    "paragraphs": [
+      "Een zachte reiniging kan het gemakkelijker maken om de ring te fotograferen, maar agressief reinigen, polijsten of repareren is niet altijd aan te raden.",
+      "Antiek patina, originele afwerkingen, kenmerken en constructiedetails kunnen voor een specialist van belang zijn. Het repareren van een beschadigde zetting zonder te weten of de koper de volledige ring wil, kan ook kosten met zich meebrengen die niet in de aanbieding worden vergoed.",
+      "Gebruik geen scherp gereedschap om achter de diamant schoon te maken en test de zetting niet door tegen de steen te duwen of te draaien. Als de diamant los lijkt te zitten, stop dan met het dragen van de ring en informeer de koper vóór transport of onderzoek.",
+      "Lever bij twijfel de ring in de huidige staat in en vraag of er schoonmaak-, reparatie- of laboratoriumwerkzaamheden nodig zijn."
+    ]
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Kan ik een diamanten ring verkopen zonder certificaat?",
+    "paragraphs": [
+      "Ja. Een ontbrekend certificaat verhindert niet automatisch dat een diamanten ring wordt verkocht.",
+      "Begin met het verstrekken van duidelijke foto's, de geschatte aankoopdatum en eventuele beschikbare bonnen, taxaties of verzekeringsgegevens. Een specialist kan mogelijk een eerste beoordeling uitvoeren en uitleggen of fysiek onderzoek of een nieuw laboratoriumrapport de moeite waard is."
+    ],
+    "confirmIntro": "Het definitieve bod kan afhankelijk zijn van de bevestiging van:",
+    "bullets": [
+      "Of de steen een diamant is",
+      "Of het nu natuurlijk is of in een laboratorium is gekweekt",
+      "Geschatte karaatgewicht",
+      "Kleur en helderheid",
+      "Behandelingen",
+      "Schade",
+      "Algemene staat"
+    ],
+    "closing": "Bedenk geen cijfers als je ze niet kent. Selecteer ‘onbekend’ in het formulier en laat de koper de volgende stap uitleggen.",
+    "ctaText": "WAARDE MIJN DIAMANT RING ZONDER CERTIFICAAT",
+    "ctaHref": "/resources/sell-diamond-without-certificate"
+  },
+  "inheritedRing": {
+    "id": "inherited-ring",
+    "title": "Kan ik een geërfde diamanten ring veilig verkopen?",
+    "paragraphs": [
+      "Een geërfde ring kan op dezelfde manier worden gewaardeerd als een andere diamanten ring, maar de verkoper moet mogelijk de wettige eigendom vaststellen.",
+      "Verzamel boedeldocumenten, oude taxaties, kwitanties, familiegegevens, verzekeringsschema's en het originele beoordelingsrapport, indien beschikbaar. Vermijd het vervangen van de ring voordat de leeftijd, het ontwerp en de mogelijke betekenis van het merk zijn beoordeeld.",
+      "Sommige geërfde ringen zijn meer waard als complete antieke of gesigneerde sieraden. Anderen ontlenen het grootste deel van hun commerciële waarde aan de centrale diamant en het edelmetaal. Een specialistisch onderzoek kan helpen bepalen welke situatie van toepassing is.",
+      "Als meerdere mensen het eigendom delen via een nalatenschap, bevestig dan dat de persoon die de verkoop regelt daartoe bevoegd is."
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Hoe Dalila u helpt het proces veilig te starten",
+    "paragraphs": [
+      "Bij Dalila Diamonds kunnen verkopers beginnen met een online inzending in plaats van de ring onmiddellijk te overhandigen.",
+      "U kunt de beschikbare keuringsinformatie doorgeven, foto's uploaden en uitleggen of de ring een certificaat heeft. Dalila kan dan beoordelen of het artikel voldoet aan de aankoopcriteria en of een fysieke Antwerpse evaluatie op zijn plaats is."
+    ],
+    "stepsTitle": "Het proces",
+    "steps": [
+      "Dien de ringgegevens en foto's in.",
+      "Ontvang een eerste privébeoordeling.",
+      "Verstrek alle gevraagde aanvullende documentatie.",
+      "Regel indien nodig fysieke verificatie in Antwerpen.",
+      "Ontvang een aanbieding als de ring voldoet aan de aankoopcriteria van Dalila.",
+      "Bepaal of u door wilt gaan."
+    ],
+    "closing": "Als u een ring ter beoordeling indient, hoeft de verkoper niet verplicht te zijn een bod te accepteren.",
+    "ctaText": "START MIJN VEILIGE DIAMANTRING EVALUATIE",
+    "ctaHref": "#secure-evaluation-form"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Wat is de veiligste manier om een ​​diamanten ring te verkopen?",
+        "answer": "Het veiligste proces is om de koper te verifiëren, de ring te documenteren, de taxatie te begrijpen, gebruik te maken van beveiligd transport of een gevestigde bedrijfslocatie en de goedgekeurde betaling te bevestigen voordat het item wordt vrijgegeven."
+      },
+      {
+        "question": "Hoe kan ik mijn diamanten ring verkopen zonder opgelicht te worden?",
+        "answer": "Vermijd anonieme kopers, betalingsscreenshots, onverzekerde verzending en druk om onmiddellijk te beslissen. Controleer de bedrijfsgegevens van de koper en vraag om schriftelijke voorwaarden voordat u de ring overhandigt."
+      },
+      {
+        "question": "Heb ik een taxatie nodig voordat ik mijn diamanten ring verkoop?",
+        "answer": "Niet altijd. Een onafhankelijke marktwaardering kan u helpen het artikel te begrijpen, maar is niet hetzelfde als een koopaanbod. Een gespecialiseerde koper kan ook beginnen met het beoordelingsrapport en de foto's."
+      },
+      {
+        "question": "Is een diamantbeoordelingsrapport hetzelfde als een taxatie?",
+        "answer": "Nee. Een beoordelingsrapport beschrijft kenmerken zoals karaatgewicht, kleur, helderheid en snit. Bij een taxatie wordt een geldwaarde toegekend aan een bepaald doel."
+      },
+      {
+        "question": "Kan ik een diamanten ring verkopen zonder certificaat?",
+        "answer": "Ja. Een koper kan beginnen met foto's en beschikbare documenten, maar testen of een nieuw beoordelingsrapport kunnen nodig zijn voordat een definitief bod wordt gedaan."
+      },
+      {
+        "question": "Moet ik de diamant uit de zetting halen voordat ik hem verkoop?",
+        "answer": "Nee. Verwijder de diamant niet zelf. Laat een specialist de volledige ring beoordelen en uitleggen of verwijdering nodig is."
+      },
+      {
+        "question": "Is het veilig om een ​​diamanten ring online te verkopen?",
+        "answer": "Een online indiening kan een veilige manier zijn om te beginnen wanneer de koper verifieerbaar is en de website gebruikmaakt van veilige documentverwerking. Voor fysieke verzending zijn schriftelijke transport-, verzekerings- en retourvoorwaarden vereist."
+      },
+      {
+        "question": "Hoe moet ik een diamanten ring naar een koper verzenden?",
+        "answer": "Gebruik alleen een gedocumenteerd verzend- of ophaalproces met tracking, handtekeningvereisten en verzekering die past bij de waarde van de ring. Bevestig het adres en de verantwoordelijkheid voor verlies voordat u het verzendt."
+      },
+      {
+        "question": "Hoe weet ik of een betaling echt is?",
+        "answer": "Controleer de betaling zelfstandig via uw eigen bank of financiële dienstverlener. Vertrouw niet op screenshots, e-mails of links geleverd door de koper."
+      },
+      {
+        "question": "Kan ik een geërfde diamanten ring verkopen?",
+        "answer": "Ja, op voorwaarde dat u het recht heeft om het te verkopen. Nalatenschapsdocumenten, kwitanties, beoordelingsrapporten en eerdere taxaties kunnen helpen bij het vaststellen van het eigendom en het identificeren van de ring."
+      },
+      {
+        "question": "Moet ik het eerste bod op een diamanten ring accepteren?",
+        "answer": "U bent niet verplicht het eerste bod te accepteren. Zorg ervoor dat u begrijpt wat er is getaxeerd, of er inhoudingen van toepassing zijn en hoe het aanbod zich verhoudt tot andere verkoopmethoden."
+      },
+      {
+        "question": "Kan een online prijsopgave veranderen na fysieke inspectie?",
+        "answer": "Ja. Een schatting kan veranderen als de fysieke diamant afwijkt van de ingediende informatie, schade of behandeling heeft, niet overeenkomt met het rapport of in een laboratorium is gekweekt in plaats van natuurlijk."
+      },
+      {
+        "question": "Moet ik verkopen nadat Dalila mijn ring heeft beoordeeld?",
+        "answer": "Nee. Voor het aanvragen van een evaluatie hoeft u geen aanbod te accepteren."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "sell-with-confidence",
+    "title": "Verkoop uw diamanten ring met meer vertrouwen",
+    "paragraphs": [
+      "Een veilige verkoop van diamanten ringen is gebaseerd op documentatie, transparantie en controle. Begrijp wat u bezit, verifieer de koper, bescherm de ring tijdens elke overdracht en bevestig de betaling voordat u de transactie voltooit.",
+      "Als u een ring met natuurlijke diamant bezit en wilt beginnen met een vertrouwelijke beoordeling, dien dan de beschikbare rapportinformatie en foto's in bij Dalila Diamonds."
+    ],
+    "primaryButtonText": "VRAAG MIJN PRIVÉ DIAMANT-RING EVALUATIE AAN",
+    "primaryButtonHref": "#secure-evaluation-form",
+    "secondaryButtonText": "BOEK EEN PRIVÉ-AFSPRAAK IN ANTWERPEN",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "verkoop uw diamant veilig in Antwerpen"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "diamantwaarderingscalculator"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "beste plek om een ​​diamanten ring te verkopen"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "een GIA-, HRD- of IGI-rapport verifiëren"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "een diamant verkopen zonder certificaat"
+    }
+  },
+  "howToSteps": [
+    {
+      "position": 1,
+      "name": "Bevestig eigendom",
+      "text": "Bevestig dat je het recht hebt om de ring te verkopen en verzamel alle beschikbare eigendomsdocumenten."
+    },
+    {
+      "position": 2,
+      "name": "Verzamel de documenten van de ring",
+      "text": "Verzamel het beoordelingsrapport, de kassabon, de beoordeling, de merkdocumenten en de reparatiegegevens."
+    },
+    {
+      "position": 3,
+      "name": "Fotografeer de ring",
+      "text": "Maak duidelijke foto's van de volledige ring, diamant, kenmerken, handtekeningen en bestaande staat."
+    },
+    {
+      "position": 4,
+      "name": "Controleer het beoordelingsrapport",
+      "text": "Controleer het rapportnummer via het officiële verificatiesysteem van het uitgevende laboratorium."
+    },
+    {
+      "position": 5,
+      "name": "Begrijp de waarde",
+      "text": "Maak onderscheid tussen de oorspronkelijke verkoopprijs, verzekeringstaxatie, reële marktwaarde, wederverkoopwaarde en een direct aankoopaanbod."
+    },
+    {
+      "position": 6,
+      "name": "Kies een verkooproute",
+      "text": "Kies een gespecialiseerde koper, veiling, consignatie of privéverkoop, afhankelijk van de ring en uw prioriteiten."
+    },
+    {
+      "position": 7,
+      "name": "Controleer de koper",
+      "text": "Bevestig de identiteit van de koper, het bedrijfsadres, het evaluatieproces, de kosten en de betalingsvoorwaarden."
+    },
+    {
+      "position": 8,
+      "name": "Vraag een voorlopige beoordeling aan",
+      "text": "Dien de beoordelingsinformatie en foto's in voordat u de ring vervoert of overhandigt."
+    },
+    {
+      "position": 9,
+      "name": "Bescherm de overdracht",
+      "text": "Gebruik een gevestigde bedrijfslocatie of gedocumenteerd transport met de juiste verzekering en tracking."
+    },
+    {
+      "position": 10,
+      "name": "Controleer het schriftelijke aanbod",
+      "text": "Bevestig wat de aanbieding inhoudt, welke inhoudingen van toepassing zijn en waarom het uiteindelijke bedrag kan afwijken van een schatting."
+    },
+    {
+      "position": 11,
+      "name": "Bevestig de betaling",
+      "text": "Controleer de betaling onafhankelijk voordat u het eigendom overdraagt ​​of de ring vrijgeeft."
+    },
+    {
+      "position": 12,
+      "name": "Houd een transactierecord bij",
+      "text": "Bewaar de aanbieding, koopovereenkomst, artikelbeschrijving, kopergegevens en betalingsbevestiging."
+    }
+  ]
+}

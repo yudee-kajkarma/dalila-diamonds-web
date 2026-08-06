@@ -1,0 +1,746 @@
+{
+  "meta": {
+    "title": "VS1 vs VS2 Diamond Clarity: Which Is Better? | Dalila",
+    "description": "Compare VS1 and VS2 diamond clarity, visibility, inclusions and value. Learn when VS2 is eye-clean and when paying for VS1 makes sense.",
+    "canonical": "https://www.daliladiamonds.com/blogs/vs1-vs-vs2-diamond-clarity",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "VS1 vs VS2 diamond",
+    "inLanguage": "en-GB"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
+      "alt": "VS1 and VS2 natural diamonds compared under magnification",
+      "width": 1600,
+      "height": 900
+    },
+    "inclusionVisibility": {
+      "src": "/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
+      "alt": "Illustrative comparison of VS1 and VS2 diamond inclusions at ten-times magnification",
+      "width": 1400,
+      "height": 1000
+    },
+    "clarityByShape": {
+      "src": "/images/blogs/vs-diamond-clarity-by-shape.webp",
+      "alt": "VS clarity visibility compared in round emerald oval and cushion diamonds",
+      "width": 1400,
+      "height": 1000
+    },
+    "inspectionChecklist": {
+      "src": "/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
+      "alt": "Professional inspection checklist for VS1 and VS2 natural diamonds",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "VS1 vs VS2 Diamond Clarity",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "VS1 vs VS2 Diamond Clarity",
+    "imageAlt": "VS1 vs VS2 diamond clarity guide banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "VS1 vs VS2 Diamond Clarity: Can You See the Difference?",
+    "subheading": "Compare VS1 and VS2 natural diamonds for inclusion visibility, eye-clean appearance, price and value—and learn when each grade makes commercial sense.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "6 August 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Most people cannot see a difference between a properly selected VS1 and VS2 natural diamond without magnification.",
+      "Both grades belong to the “Very Slightly Included” category of the diamond clarity scale. A VS1 diamond contains minor inclusions that are difficult for a skilled grader to see at 10× magnification. In a VS2 diamond, the inclusions are somewhat easier for a skilled grader to identify at 10× magnification.",
+      "The technical difference is real, and VS1 diamonds generally cost more when all other specifications are equal. However, that does not automatically make VS1 the better purchase.",
+      "For many jewellery buyers and retailers, an eye-clean VS2 diamond provides a stronger balance between visual quality and price. The decision changes when the diamond is large, step-cut or contains an inclusion in a prominent or potentially vulnerable position."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "question": "What is the difference between VS1 and VS2 diamond clarity?",
+    "introParagraphs": [
+      "VS1 is one clarity grade higher than VS2. A skilled grader generally has more difficulty locating the grade-setting inclusions in a VS1 diamond under 10× magnification.",
+      "Most VS1 diamonds and many well-selected VS2 diamonds appear clean to the unaided eye. However, “eye-clean” is an industry description rather than an official GIA clarity grade, and appearance can vary between individual stones.",
+      "Choose the diamond after checking its:"
+    ],
+    "attributes": [
+      "Inclusion type",
+      "Inclusion position",
+      "Face-up visibility",
+      "Shape and facet pattern",
+      "Carat weight",
+      "Transparency",
+      "Grading report",
+      "Images and videos"
+    ],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "VS1 is one clarity grade above VS2.",
+      "Both grades contain minor inclusions.",
+      "Most buyers cannot distinguish VS1 from an eye-clean VS2 without magnification.",
+      "VS2 often provides better value when its inclusions are not visible face-up.",
+      "Larger diamonds can make inclusions easier to notice.",
+      "Emerald and Asscher cuts reveal inclusions more readily than many brilliant cuts.",
+      "Two VS2 diamonds can have very different inclusion patterns and appearances.",
+      "A clarity grade does not replace visual inspection.",
+      "There is no fixed price difference between VS1 and VS2.",
+      "Retailers should compare inclusion quality, not only the grade printed on the report."
+    ]
+  },
+  "overviewNav": {
+    "title": "Article Overview",
+    "items": [
+      { "id": "what-does-vs-diamond-clarity-mean", "label": "What does VS diamond clarity mean?" },
+      { "id": "vs1-vs-vs2-direct-comparison", "label": "VS1 vs VS2: direct comparison" },
+      { "id": "can-you-see-the-difference", "label": "Can you see the difference between VS1 and VS2?" },
+      { "id": "how-are-vs1-and-vs2-grades-determined", "label": "How are VS1 and VS2 grades determined?" },
+      { "id": "what-inclusions-are-found", "label": "What inclusions are found in VS1 and VS2 diamonds?" },
+      { "id": "why-can-two-vs2-diamonds-look-different", "label": "Why can two VS2 diamonds look different?" },
+      { "id": "is-vs2-diamond-quality-good", "label": "Is VS2 diamond quality good?" },
+      { "id": "is-vs2-always-eye-clean", "label": "Is VS2 always eye-clean?" },
+      { "id": "does-diamond-shape-affect-the-decision", "label": "Does diamond shape affect the VS1 vs VS2 decision?" },
+      { "id": "does-carat-weight-affect-inclusion-visibility", "label": "Does carat weight affect inclusion visibility?" },
+      { "id": "is-vs1-worth-more-than-vs2", "label": "Is VS1 worth more than VS2?" },
+      { "id": "which-offers-better-value", "label": "Which offers better value: VS1 or VS2?" },
+      { "id": "does-higher-clarity-mean-more-sparkle", "label": "Does higher clarity mean more sparkle?" },
+      { "id": "does-vs2-clarity-affect-durability", "label": "Does VS2 clarity affect durability?" },
+      { "id": "how-to-read-a-clarity-plot", "label": "How to read a clarity plot" },
+      { "id": "vs1-vs-vs2-buying-checklist", "label": "VS1 vs VS2 buying checklist" },
+      { "id": "guidance-for-retailers", "label": "Guidance for retailers and wholesale buyers" },
+      { "id": "an-antwerp-sourcing-perspective", "label": "An Antwerp sourcing perspective" },
+      { "id": "final-answer", "label": "Final answer: should you choose VS1 or VS2?" }
+    ]
+  },
+  "whatDoesVsMean": {
+    "id": "what-does-vs-diamond-clarity-mean",
+    "title": "What Does VS Diamond Clarity Mean?",
+    "introParagraphs": [
+      "VS means “Very Slightly Included”. The category is divided into two grades:",
+      "VS1",
+      "VS2",
+      "According to the GIA clarity scale, VS diamonds contain minor inclusions that range from difficult to somewhat easy for a skilled grader to see under 10× magnification.",
+      "The complete GIA clarity scale contains 11 grades:"
+    ],
+    "table": {
+      "caption": "GIA diamond clarity scale categories and grades",
+      "headers": ["Clarity category", "Grades"],
+      "rows": [
+        ["Flawless", "FL"],
+        ["Internally Flawless", "IF"],
+        ["Very, Very Slightly Included", "VVS1 and VVS2"],
+        ["Very Slightly Included", "VS1 and VS2"],
+        ["Slightly Included", "SI1 and SI2"],
+        ["Included", "I1, I2 and I3"]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "diamond clarity grades guide", "href": "/blogs/diamond-clarity-grades-explained" },
+        { "type": "text", "value": " explains the complete scale. This article focuses specifically on the decision between VS1 and VS2." }
+      ]
+    ]
+  },
+  "directComparison": {
+    "id": "vs1-vs-vs2-direct-comparison",
+    "title": "VS1 vs VS2: Direct Comparison",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Typical differences between VS1 and VS2 natural diamonds",
+      "headers": ["Factor", "VS1 diamond", "VS2 diamond"],
+      "rows": [
+        ["Clarity position", "Higher", "One grade below VS1"],
+        ["Inclusions at 10×", "Difficult for a skilled grader to see", "Somewhat easier for a skilled grader to see"],
+        ["Naked-eye appearance", "Normally eye-clean", "Frequently eye-clean, but inspection is more important"],
+        ["Price", "Usually higher when other factors are equal", "Usually lower when other factors are equal"],
+        ["Best suited to", "Larger stones, step cuts and premium specifications", "Buyers prioritising visual quality and value"],
+        ["Inspection required", "Yes", "Yes, with closer attention to inclusion type and location"],
+        ["Commercial position", "Premium clarity", "Strong value clarity"]
+      ]
+    },
+    "closingParagraphs": [
+      "This table describes the typical difference. It cannot determine the quality of an individual stone."
+    ]
+  },
+  "canYouSeeDifference": {
+    "id": "can-you-see-the-difference",
+    "title": "Can You See the Difference Between VS1 and VS2?",
+    "introParagraphs": [
+      "In most normal-size, well-selected diamonds, the difference between VS1 and VS2 cannot be seen without magnification.",
+      "The GIA notes that VS inclusions are minor and that, in almost all cases, VS-clarity diamonds do not have eye-visible inclusions. However, it also explains that a large VS diamond may very rarely contain an inclusion that can be seen without magnification.",
+      "This means neither of the following statements is completely reliable:"
+    ],
+    "bullets": [
+      "“Every VS2 diamond is eye-clean.”",
+      "“VS1 always looks better than VS2.”"
+    ],
+    "closingParagraphs": [
+      "A beautiful VS2 may look identical to a VS1 in normal viewing conditions. Another VS2 may contain a dark crystal under the table that is easier to notice.",
+      "The grade is the starting point. The individual diamond must still be inspected."
+    ]
+  },
+  "howGradesDetermined": {
+    "id": "how-are-vs1-and-vs2-grades-determined",
+    "title": "How Are VS1 and VS2 Grades Determined?",
+    "introParagraphs": [
+      "Diamond clarity is not determined simply by counting inclusions.",
+      "The GIA clarity-grading process considers five important factors."
+    ],
+    "subsections": [
+      {
+        "id": "size",
+        "title": "1. Size",
+        "paragraphsBefore": [
+          "A larger clarity characteristic normally has more influence on the grade than a smaller one, particularly when it occupies a noticeable area relative to the diamond."
+        ]
+      },
+      {
+        "id": "number",
+        "title": "2. Number",
+        "paragraphsBefore": [
+          "Several small inclusions may collectively affect the grade. Reflections of one inclusion can also make it appear in multiple areas of the stone."
+        ]
+      },
+      {
+        "id": "position",
+        "title": "3. Position",
+        "paragraphsBefore": [
+          "An inclusion beneath the centre of the table generally attracts more attention than one near the edge.",
+          "An inclusion close to the girdle can sometimes be less visible face-up, but its location should still be assessed before the diamond is set."
+        ]
+      },
+      {
+        "id": "relief",
+        "title": "4. Relief",
+        "paragraphsBefore": [
+          "Relief describes how strongly an inclusion contrasts with the surrounding diamond.",
+          "A dark crystal may be easier to see than a pale or transparent feature of a similar size."
+        ]
+      },
+      {
+        "id": "nature",
+        "title": "5. Nature",
+        "paragraphsBefore": [
+          "Nature refers to the type of clarity characteristic and its possible effect on appearance or condition.",
+          "Examples include:"
+        ],
+        "bullets": [
+          "Crystals",
+          "Feathers",
+          "Clouds",
+          "Needles",
+          "Pinpoints",
+          "Knots",
+          "Cavities",
+          "Internal graining"
+        ],
+        "paragraphsAfter": [
+          "The grade represents the combined effect of these factors. It does not tell the buyer everything about the inclusion pattern."
+        ]
+      }
+    ]
+  },
+  "whatInclusions": {
+    "id": "what-inclusions-are-found",
+    "title": "What Inclusions Are Found in VS1 and VS2 Diamonds?",
+    "introParagraphs": [
+      "Both VS1 and VS2 diamonds may contain similar types of inclusions. The difference comes from their overall visibility and impact, not from a rule assigning one inclusion type exclusively to one grade."
+    ],
+    "subsections": [
+      {
+        "id": "crystals",
+        "title": "Crystals",
+        "paragraphsBefore": [
+          "A crystal is a mineral or diamond crystal enclosed within the stone. It may appear transparent, white, coloured or dark.",
+          "A small crystal near the edge can be unobtrusive. A darker crystal beneath the table may be easier to notice."
+        ]
+      },
+      {
+        "id": "feathers",
+        "title": "Feathers",
+        "paragraphsBefore": [
+          "A feather is an internal break or fissure that can appear white or transparent.",
+          "A small feather enclosed within the diamond may have little effect on normal wear. A surface-reaching feather near the girdle should be reviewed by an experienced professional before purchasing or setting the stone."
+        ]
+      },
+      {
+        "id": "clouds",
+        "title": "Clouds",
+        "paragraphsBefore": [
+          "A cloud consists of grouped pinpoints that may be too small to distinguish individually.",
+          "A minor cloud may have no visible effect. More extensive clouds can sometimes reduce transparency or make part of the diamond look hazy, so videos and direct inspection remain important."
+        ]
+      },
+      {
+        "id": "pinpoints-and-needles",
+        "title": "Pinpoints and Needles",
+        "paragraphsBefore": [
+          "Pinpoints are tiny crystal inclusions, while needles are narrow, elongated inclusions.",
+          "They are frequently difficult to see without magnification and may have little effect on face-up appearance when small and well positioned."
+        ]
+      },
+      {
+        "id": "knots-and-cavities",
+        "title": "Knots and Cavities",
+        "paragraphsBefore": [
+          "A knot is a crystal that reaches the polished surface. A cavity is an opening created when part of a surface-reaching crystal is lost during polishing.",
+          "These characteristics require careful inspection, even when the diamond has a VS grade."
+        ]
+      }
+    ]
+  },
+  "whyTwoVs2LookDifferent": {
+    "id": "why-can-two-vs2-diamonds-look-different",
+    "title": "Why Can Two VS2 Diamonds Look Different?",
+    "introParagraphs": [
+      "A clarity grade describes a range. It does not mean every diamond within that grade has the same appearance.",
+      "Consider two VS2 natural diamonds:",
+      "Diamond A has several pale inclusions positioned near the edge.",
+      "Diamond B has one dark crystal under the centre of the table.",
+      "Both diamonds may receive the same clarity grade, but Diamond B could be easier to recognise without magnification.",
+      "The reverse is also possible. A plot that appears busy may represent several tiny, low-relief characteristics that have little effect on actual appearance.",
+      "This is why buyers should never reject or approve a diamond solely because the report plot looks crowded."
+    ]
+  },
+  "isVs2QualityGood": {
+    "id": "is-vs2-diamond-quality-good",
+    "title": "Is VS2 Diamond Quality Good?",
+    "introParagraphs": [
+      "Yes. VS2 is considered a high clarity grade and can provide excellent quality when the diamond is carefully selected.",
+      "A good VS2 diamond should be assessed for:"
+    ],
+    "bullets": [
+      "No distracting face-up inclusion",
+      "Strong transparency",
+      "No obvious haziness",
+      "Suitable inclusion position",
+      "No condition concern around the girdle",
+      "Attractive cut and light performance",
+      "Reliable grading documentation"
+    ],
+    "closingParagraphs": [
+      "For many buyers, VS2 is the point where the diamond remains visually clean while avoiding part of the premium associated with higher clarity grades.",
+      "However, VS2 does not guarantee superior cut, colour or proportions. A poorly cut VS1 can be less attractive than a well-cut VS2."
+    ]
+  },
+  "isVs2AlwaysEyeClean": {
+    "id": "is-vs2-always-eye-clean",
+    "title": "Is VS2 Always Eye-Clean?",
+    "introParagraphs": [
+      "No. Many VS2 diamonds are eye-clean, but eye-clean is not guaranteed by the grade.",
+      "GIA does not use “eye-clean” as an official grade because unaided-eye visibility depends on variables such as:"
+    ],
+    "bullets": [
+      "Diamond size",
+      "Shape and facet pattern",
+      "Inclusion position",
+      "Inclusion colour or relief",
+      "Lighting",
+      "Viewing angle",
+      "Viewing distance",
+      "Observer’s eyesight",
+      "Whether the diamond is loose or set"
+    ],
+    "closingParagraphs": [
+      "Before buying, the supplier and buyer should agree on what “eye-clean” means.",
+      "A practical inspection should examine the clean diamond:"
+    ],
+    "closingBullets": [
+      "Face-up without magnification",
+      "From the side",
+      "Under neutral diffused lighting",
+      "Under normal jewellery spot lighting",
+      "At a normal viewing distance",
+      "In enlarged images or video",
+      "Under 10× magnification"
+    ],
+    "finalParagraphs": [
+      "If an inclusion becomes visible only after its exact location has been identified through magnification, most customers may never notice it during ordinary wear. The final decision depends on the required quality standard and customer expectations."
+    ]
+  },
+  "shapeAffectsDecision": {
+    "id": "does-diamond-shape-affect-the-decision",
+    "title": "Does Diamond Shape Affect the VS1 vs VS2 Decision?",
+    "introParagraphs": [
+      "Yes. Shape and facet arrangement can change how clearly inclusions are seen."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Round Brilliant Diamonds",
+        "paragraphsBefore": [
+          "The smaller brilliant-style facets and strong light return of a well-cut round diamond can make minor inclusions less noticeable.",
+          "A carefully selected VS2 round brilliant can therefore offer excellent value."
+        ]
+      },
+      {
+        "id": "oval-pear-marquise-and-radiant-diamonds",
+        "title": "Oval, Pear, Marquise and Radiant Diamonds",
+        "paragraphsBefore": [
+          "These brilliant-style fancy shapes can also conceal minor inclusions effectively. However, reflections can sometimes multiply an inclusion across the stone.",
+          "Inspect the central area, points, bow-tie zone and any inclusion near a thin section of the girdle."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Cushion Diamonds",
+        "paragraphsBefore": [
+          "Cushions have several different facet patterns. Some create broad flashes, while others produce a denser appearance.",
+          "The visibility of a VS2 inclusion can change according to the individual facet pattern, so two cushions with the same grade may look very different."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-diamonds",
+        "title": "Emerald and Asscher Diamonds",
+        "paragraphsBefore": [
+          "Step cuts require closer clarity inspection. Their broad, open facets reveal the interior more directly than many brilliant-style diamonds.",
+          "The GIA explains that emerald-cut diamonds can show inclusions more readily because of their long rectangular facets.",
+          "VS1 may be worth considering for:"
+        ],
+        "bullets": [
+          "Larger emerald or Asscher diamonds",
+          "Premium bespoke jewellery",
+          "Customers sensitive to any visible inclusion",
+          "Stones with a large open table",
+          "Situations where the available VS2 options show prominent characteristics"
+        ],
+        "paragraphsAfter": [
+          "An attractive, eye-clean VS2 step cut can still be a good purchase. It simply requires more careful selection."
+        ]
+      }
+    ]
+  },
+  "caratWeightVisibility": {
+    "id": "does-carat-weight-affect-inclusion-visibility",
+    "title": "Does Carat Weight Affect Inclusion Visibility?",
+    "introParagraphs": [
+      "Yes.",
+      "As a diamond becomes larger, its face-up area and individual facets become larger. This can make some clarity characteristics easier to recognise.",
+      "A VS2 grade should not be treated identically across every carat range. A small VS2 brilliant used in a pendant or pair of earrings may appear completely clean, while a much larger VS2 centre stone may require more detailed examination.",
+      "Clarity is also assessed relative to the size of the diamond. The same physical inclusion may not have the same grading impact in two differently sized stones.",
+      "Larger natural diamonds should therefore be inspected individually rather than approved through a clarity filter alone."
+    ]
+  },
+  "isVs1WorthMore": {
+    "id": "is-vs1-worth-more-than-vs2",
+    "title": "Is VS1 Worth More Than VS2?",
+    "introParagraphs": [
+      "When two diamonds are genuinely comparable, VS1 will normally cost more because it represents a higher and rarer clarity grade.",
+      "However, there is no reliable fixed percentage difference.",
+      "The premium changes according to:"
+    ],
+    "bullets": [
+      "Carat weight",
+      "Shape",
+      "Colour",
+      "Cut quality",
+      "Grading laboratory",
+      "Fluorescence",
+      "Market availability",
+      "Inclusion quality",
+      "Customer demand",
+      "Price-per-carat thresholds"
+    ],
+    "closingParagraphs": [
+      "A VS1 diamond may be only moderately more expensive in one specification but substantially more expensive in another.",
+      "Price comparisons should use diamonds with similar:"
+    ],
+    "closingBullets": [
+      "Shape",
+      "Carat range",
+      "Colour",
+      "Cut or proportions",
+      "Polish and symmetry",
+      "Fluorescence",
+      "Grading laboratory",
+      "Face-up appearance"
+    ]
+  },
+  "whichOffersBetterValue": {
+    "id": "which-offers-better-value",
+    "title": "Which Offers Better Value: VS1 or VS2?",
+    "introParagraphs": [
+      "For many buyers, VS2 offers better visual value because its inclusions may be invisible without magnification.",
+      "The money saved by choosing VS2 can potentially be directed towards:"
+    ],
+    "bullets": [
+      "Better cut quality",
+      "A more desirable colour grade",
+      "Greater carat weight",
+      "Better proportions",
+      "A more attractive fancy-shape outline",
+      "The jewellery setting"
+    ],
+    "closingParagraphs": [
+      "VS1 can offer better value when:"
+    ],
+    "closingBullets": [
+      "The available VS2 options are not eye-clean",
+      "The diamond is a large step cut",
+      "The buyer wants a premium clarity specification",
+      "The customer places importance on the report grade",
+      "The VS1 price premium is relatively small",
+      "The VS1 has a cleaner inclusion pattern and better saleability"
+    ],
+    "finalParagraphs": [
+      "The correct answer is not “always buy VS2”. The correct answer is to compare the actual stones."
+    ]
+  },
+  "higherClaritySparkle": {
+    "id": "does-higher-clarity-mean-more-sparkle",
+    "title": "Does Higher Clarity Mean More Sparkle?",
+    "introParagraphs": [
+      "Not automatically.",
+      "Sparkle is driven primarily by the diamond’s cutting, proportions, facet alignment and interaction with light.",
+      "A well-cut VS2 can appear brighter and more attractive than a poorly proportioned VS1. Clarity begins to interfere with light performance when inclusions or clouds materially reduce transparency, but this is not typical of a carefully selected VS diamond."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "The " },
+        { "type": "link", "text": "4Cs of natural diamonds guide", "href": "/blogs/4cs-of-natural-diamonds-explained" },
+        { "type": "text", "value": " explains how clarity must be considered alongside cut, colour and carat weight." }
+      ]
+    ]
+  },
+  "vs2Durability": {
+    "id": "does-vs2-clarity-affect-durability",
+    "title": "Does VS2 Clarity Affect Durability?",
+    "introParagraphs": [
+      "A VS2 grade is not automatically a durability warning.",
+      "Most VS2 inclusions are minor, but clarity grade and structural condition are not identical concepts. A buyer should pay particular attention to:"
+    ],
+    "bullets": [
+      "Surface-reaching feathers",
+      "Cavities",
+      "Chips",
+      "Knots",
+      "Features near the girdle",
+      "Inclusions near pointed corners",
+      "Very thin girdle sections",
+      "Existing abrasions or damage"
+    ],
+    "closingParagraphs": [
+      "An inclusion positioned near the edge may be hidden by a setting, but the setting should not be used to conceal a potential structural concern without professional assessment.",
+      "For important centre stones, inspect the diamond loose before mounting it and review the planned prong positions with the setter."
+    ]
+  },
+  "clarityPlot": {
+    "id": "how-to-read-a-clarity-plot",
+    "title": "How to Read a Clarity Plot",
+    "introParagraphs": [
+      "Where provided, a diamond grading report may include a plotting diagram showing the approximate location and type of clarity characteristics.",
+      "The GIA describes a clarity plot as a map that supports the assigned clarity grade and helps document the stone’s identifying characteristics.",
+      "When comparing VS1 and VS2 reports:"
+    ],
+    "bullets": [
+      "Identify the grade-setting characteristic.",
+      "Check whether it is under the table or near the edge.",
+      "Review whether it reaches the surface.",
+      "Look for reflections of the inclusion.",
+      "Read all report comments.",
+      "Compare the plot with magnified images.",
+      "Inspect the diamond face-up and from the side.",
+      "Confirm that the report information matches the stone."
+    ],
+    "closingParagraphs": [
+      "A plot is not a scale drawing or a photograph. A large symbol does not automatically mean the inclusion will look equally large in the diamond."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "GIA report-reading guide", "href": "/blogs/how-to-read-gia-diamond-certificate" },
+        { "type": "text", "value": " explains the remaining report fields." }
+      ]
+    ]
+  },
+  "buyingChecklist": {
+    "id": "vs1-vs-vs2-buying-checklist",
+    "title": "VS1 vs VS2 Buying Checklist",
+    "introParagraphs": [
+      "Before approving either clarity grade, verify:"
+    ],
+    "items": [
+      "Natural diamond status",
+      "Laboratory name",
+      "Report number",
+      "Online report verification",
+      "Carat weight and measurements",
+      "Shape and cutting style",
+      "Clarity grade",
+      "Grade-setting inclusion",
+      "Inclusion location",
+      "Inclusion relief",
+      "Face-up visibility",
+      "Side-view visibility",
+      "Transparency and haziness",
+      "Surface-reaching features",
+      "Girdle condition",
+      "Cut quality or proportions",
+      "Polish and symmetry",
+      "Fluorescence",
+      "Price per carat",
+      "Total landed price",
+      "Planned setting position",
+      "Customer’s quality expectations"
+    ],
+    "closingParagraphs": [
+      "Use the laboratory’s official verification system, such as GIA Report Check, before completing a high-value purchase."
+    ]
+  },
+  "retailerGuidance": {
+    "id": "guidance-for-retailers",
+    "title": "Guidance for Retailers and Wholesale Buyers",
+    "introParagraphs": [
+      "VS1 and VS2 can serve different purposes within a natural-diamond inventory.",
+      "Consider VS2 For:"
+    ],
+    "vs2Bullets": [
+      "Core engagement-ring inventory",
+      "Price-sensitive custom orders",
+      "Well-cut round brilliants",
+      "Brilliant-style fancy shapes",
+      "Buyers prioritising visible quality over rarity",
+      "Eye-clean stones with favourable inclusion placement"
+    ],
+    "vs1Intro": "Consider VS1 For:",
+    "vs1Bullets": [
+      "Larger centre stones",
+      "Emerald and Asscher cuts",
+      "Premium bridal collections",
+      "High-value bespoke commissions",
+      "Customers who prioritise clarity grades",
+      "Markets where higher report specifications improve saleability"
+    ],
+    "closingParagraphs": [
+      "Retailers should not create a rule stating that every VS2 is value stock and every VS1 is premium stock. The individual appearance and commercial suitability of each diamond remain more important."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "An Antwerp Sourcing Perspective",
+    "introParagraphs": [
+      "For a European jeweller, selecting between VS1 and VS2 is not only a grading decision. It also affects purchasing cost, retail positioning, customer explanation and stock turnover.",
+      "A strong VS2 can offer the visual quality customers expect while protecting budget or margin. A carefully selected VS1 can support premium positioning, particularly for larger stones or step-cut designs.",
+      "The challenge is that grading reports cannot fully communicate unaided-eye appearance, transparency or how an inclusion interacts with the facets."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Through Dalila Diamonds’ " },
+        { "type": "link", "text": "Secure to Source service", "href": "/secure-to-source" },
+        { "type": "text", "value": ", buyers can shortlist natural diamonds and receive quality-control support before the selected stones are delivered." }
+      ],
+      [
+        { "type": "text", "value": "Trade buyers can also " },
+        { "type": "link", "text": "browse Dalila’s natural-diamond inventory", "href": "/inventory" },
+        { "type": "text", "value": " by shape, carat, colour, clarity and certification." }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Final Answer: Should You Choose VS1 or VS2?",
+    "introParagraphs": [
+      "Choose an eye-clean VS2 when it has an unobtrusive inclusion pattern, strong transparency, attractive cut and a meaningful price advantage.",
+      "Choose VS1 when the diamond is large, step-cut, intended for a premium client or when the available VS2 stones contain inclusions that are too visible or unfavourably positioned.",
+      "Most people will not see a difference between a good VS1 and a good VS2 without magnification. The difference on the report is genuine, but the better purchase is the diamond that delivers the right combination of appearance, condition, certification and price.",
+      "Never pay for the grade alone. Compare the complete stone."
+    ]
+  },
+  "cta": {
+    "id": "source-vs-clarity-diamonds",
+    "title": "Source VS1 and VS2 Natural Diamonds with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Compare eye-clean VS2 value stones and premium VS1 options with Antwerp sourcing support, quality control and clear commercial guidance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Browse Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is the main difference between VS1 and VS2 diamonds?",
+        "answer": "VS1 and VS2 both contain minor inclusions. In a VS1 diamond, the inclusions are difficult for a skilled grader to see at 10× magnification. In a VS2 diamond, they are somewhat easier to locate."
+      },
+      {
+        "question": "Can you see the difference between VS1 and VS2?",
+        "answer": "Most buyers cannot see a difference between an eye-clean VS1 and VS2 diamond without magnification. Visibility still depends on the stone’s size, shape and inclusion pattern."
+      },
+      {
+        "question": "Is VS2 diamond clarity good?",
+        "answer": "Yes. VS2 is a high clarity grade and can provide excellent value when the diamond is eye-clean, transparent and free from problematic inclusion placement."
+      },
+      {
+        "question": "Is a VS1 diamond worth the extra money?",
+        "answer": "VS1 may be worth the premium for larger diamonds, step cuts, premium customers or when the available VS2 stones have visible inclusions. Otherwise, an eye-clean VS2 may offer better value."
+      },
+      {
+        "question": "Is every VS2 diamond eye-clean?",
+        "answer": "No. Many VS2 diamonds are eye-clean, but the term is not guaranteed by the grade. Large diamonds and stones with dark or centrally located inclusions require closer inspection."
+      },
+      {
+        "question": "Does VS1 sparkle more than VS2?",
+        "answer": "Not necessarily. Sparkle depends primarily on cut quality and proportions. A well-cut VS2 can sparkle more than a poorly cut VS1."
+      },
+      {
+        "question": "Is VS1 better for emerald-cut diamonds?",
+        "answer": "VS1 can be a sensible choice for larger emerald-cut diamonds because their broad step-cut facets reveal inclusions more easily. An eye-clean VS2 emerald can still be an excellent purchase."
+      },
+      {
+        "question": "Is VS2 clarity safe for an engagement ring?",
+        "answer": "Most VS2 diamonds are suitable for engagement rings. Buyers should still inspect surface-reaching inclusions, the girdle and any clarity characteristic near a vulnerable area."
+      },
+      {
+        "question": "Why are some VS2 diamonds more expensive than VS1 diamonds?",
+        "answer": "A VS2 can cost more if it has a higher carat weight, better colour, better cut, stronger proportions or greater market demand. Clarity is only one component of price."
+      },
+      {
+        "question": "Should jewellers stock VS1 or VS2 diamonds?",
+        "answer": "Most jewellers benefit from stocking both. Eye-clean VS2 diamonds can support value-focused sales, while VS1 diamonds serve premium clients, larger stones and step-cut designs."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Compare the Stone—Not Only the Clarity Grade",
+    "introParagraphs": [
+      "VS1 and VS2 both sit in the Very Slightly Included range. The better commercial choice depends on inclusion pattern, shape, size, transparency, customer expectations and price.",
+      "Inspect each diamond carefully, then select the grade that delivers the right balance of appearance and value."
+    ],
+    "primaryButtonText": "Contact Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Browse Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "sidebar": {
+    "articlesTitle": "Our Articles",
+    "findUsTitle": "Find Us",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "Belgium"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Browse Our Inventory",
+    "inventoryDescription": "Discover our exquisite collection of premium diamonds",
+    "inventoryButtonText": "View Inventory",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Back to Articles",
+    "blogsHref": "/blogs"
+  }
+}
