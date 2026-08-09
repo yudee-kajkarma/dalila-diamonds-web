@@ -121,9 +121,11 @@ export default function Ds4uRequestForm({ content }: Ds4uRequestFormProps) {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
   ) => {
-    const { name, value, type } = e.target;
-    if (type === "checkbox" && e.target instanceof HTMLInputElement) {
-      setForm((prev) => ({ ...prev, [name]: e.target.checked }));
+    const target = e.target;
+    const { name, value, type } = target;
+    if (type === "checkbox" && target instanceof HTMLInputElement) {
+      const { checked } = target;
+      setForm((prev) => ({ ...prev, [name]: checked }));
       return;
     }
     setForm((prev) => ({ ...prev, [name]: value }));
