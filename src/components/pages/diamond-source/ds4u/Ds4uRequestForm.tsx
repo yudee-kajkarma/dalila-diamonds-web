@@ -123,7 +123,10 @@ export default function Ds4uRequestForm({ content }: Ds4uRequestFormProps) {
   ) => {
     const { name, value, type } = e.target;
     if (type === "checkbox" && e.target instanceof HTMLInputElement) {
-      setForm((prev) => ({ ...prev, [name]: e.target.checked }));
+      // Read `checked` before the state callback — the instanceof narrowing
+      // does not survive into the closure.
+      const { checked } = e.target;
+      setForm((prev) => ({ ...prev, [name]: checked }));
       return;
     }
     setForm((prev) => ({ ...prev, [name]: value }));
