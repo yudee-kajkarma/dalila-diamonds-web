@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "title": "Diamantes naturales versus diamantes cultivados en laboratorio: comparación completa | dalila",
+    "description": "Compare diamantes naturales y cultivados en laboratorio por origen, apariencia, precio, clasificación, rareza, reventa y abastecimiento para decidir qué diamante se adapta a sus prioridades.",
+    "canonical": "https://www.daliladiamonds.com/resources/natural-vs-lab-grown-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "banner": {
+    "title": "Diamantes naturales versus diamantes cultivados en laboratorio",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Diamantes naturales versus diamantes cultivados en laboratorio",
+    "imageAlt": "Banner de recursos sobre diamantes naturales versus diamantes cultivados en laboratorio"
+  },
+  "hero": {
+    "title": "Diamantes naturales versus diamantes cultivados en laboratorio: ¿cuál es la diferencia?",
+    "paragraphs": [
+      "Los diamantes naturales y los cultivados en laboratorio pueden parecer extremadamente similares, pero no tienen el mismo origen, rareza, estructura de oferta, comportamiento de precios o posición en el mercado secundario.",
+      "Un diamante natural se forma a través de procesos geológicos en las profundidades de la Tierra. Un diamante cultivado en laboratorio se fabrica utilizando tecnología de alta presión y alta temperatura (HPHT) o deposición química de vapor (CVD).",
+      "Ambos son materiales de diamante con esencialmente las mismas propiedades químicas, físicas y ópticas. Sin embargo, pruebas especializadas pueden identificar sus diferentes historias de crecimiento."
+    ],
+    "reviewDateLabel": "Última actualización:",
+    "reviewDate": "julio 2026",
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "SOLICITA UN DIAMANTE NATURAL A TRAVÉS DE DS4U",
+    "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
+    "image": {
+      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "alt": "Diamantes naturales y cultivados en laboratorio comparados por origen y apariencia",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "formation": {
+      "src": "/b2b/close-up.jpg",
+      "alt": "Formación de diamantes naturales en comparación con el crecimiento de diamantes HPHT y CVD",
+      "width": 1400,
+      "height": 1000
+    },
+    "identification": {
+      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "alt": "Diamantes naturales y cultivados en laboratorio en proceso de identificación profesional.",
+      "width": 1400,
+      "height": 1000
+    },
+    "priorities": {
+      "src": "/diamonds_source/handshake.jpg",
+      "alt": "Prioridades del comprador al elegir entre diamantes naturales y cultivados en laboratorio",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "respuesta rapida"
+      },
+      {
+        "id": "at-a-glance",
+        "label": "Natural versus cultivado en laboratorio de un vistazo"
+      },
+      {
+        "id": "what-is-a-natural-diamond",
+        "label": "¿Qué es un diamante natural?"
+      },
+      {
+        "id": "what-is-a-laboratory-grown-diamond",
+        "label": "¿Qué es un diamante cultivado en laboratorio?"
+      },
+      {
+        "id": "are-lab-grown-diamonds-real",
+        "label": "¿Los diamantes cultivados en laboratorio son diamantes reales?"
+      },
+      {
+        "id": "do-they-look-the-same",
+        "label": "¿Se ven iguales?"
+      },
+      {
+        "id": "can-you-tell-them-apart",
+        "label": "¿Puedes diferenciarlos?"
+      },
+      {
+        "id": "grading-reports",
+        "label": "¿Ambos tipos vienen con informes de calificaciones?"
+      },
+      {
+        "id": "price-comparison",
+        "label": "Precio del diamante natural frente al diamante de laboratorio"
+      },
+      {
+        "id": "how-prices-change",
+        "label": "¿Cómo pueden cambiar los precios con el tiempo?"
+      },
+      {
+        "id": "resale-value",
+        "label": "Valor de reventa"
+      },
+      {
+        "id": "are-natural-diamonds-rarer",
+        "label": "¿Son los diamantes naturales más raros?"
+      },
+      {
+        "id": "sustainability",
+        "label": "¿Son más sostenibles los diamantes cultivados en laboratorio?"
+      },
+      {
+        "id": "ethics",
+        "label": "¿Son los diamantes naturales éticos o libres de conflictos?"
+      },
+      {
+        "id": "traceability",
+        "label": "Trazabilidad"
+      },
+      {
+        "id": "engagement-ring",
+        "label": "Elección del anillo de compromiso"
+      },
+      {
+        "id": "simulants",
+        "label": "Diamantes y simulantes"
+      },
+      {
+        "id": "which-should-you-choose",
+        "label": "¿Qué diamante deberías elegir?"
+      },
+      {
+        "id": "buying-checklist",
+        "label": "Lista de verificación de compra"
+      },
+      {
+        "id": "why-dalila",
+        "label": "Por qué Dalila se especializa en diamantes naturales"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Preguntas frecuentes"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Respuesta rápida: diamantes naturales versus diamantes cultivados en laboratorio",
+    "paragraphs": [
+      "La principal diferencia entre los diamantes naturales y los cultivados en laboratorio es su origen.",
+      "Los diamantes naturales se formaron debajo de la superficie de la Tierra a lo largo de escalas de tiempo geológicas y fueron transportados hacia la superficie por la antigua actividad volcánica. Los diamantes cultivados en laboratorio se producen en instalaciones de fabricación, generalmente durante un período de semanas, utilizando tecnología HPHT o CVD.",
+      "Los diamantes cultivados en laboratorio generalmente cuestan menos en el punto inicial de compra, lo que permite a los compradores elegir un diamante más grande por el mismo presupuesto. Los diamantes naturales están limitados por la oferta geológica y tienen un mercado secundario más establecido, aunque ningún diamante debe comprarse con una expectativa de ganancias garantizada.",
+      "Ninguna de las categorías es automáticamente ética, sostenible o totalmente rastreable. Esas afirmaciones dependen del productor individual, la mina, la fuente de energía, la cadena de suministro y la documentación de respaldo."
+    ]
+  },
+  "atAGlance": {
+    "id": "at-a-glance",
+    "title": "Diamantes naturales versus diamantes cultivados en laboratorio de un vistazo",
+    "table": {
+      "caption": "Comparación de diamantes naturales versus diamantes cultivados en laboratorio",
+      "headers": [
+        "Comparación",
+        "diamante natural",
+        "Diamante cultivado en laboratorio"
+      ],
+      "rows": [
+        [
+          "Origen",
+          "Formado a través de procesos geológicos.",
+          "Fabricado en una instalación controlada."
+        ],
+        [
+          "Periodo de formación",
+          "Escala de tiempo geológica",
+          "Generalmente semanas"
+        ],
+        [
+          "Método de producción principal",
+          "Formación natural y minería.",
+          "HPHT o CVD"
+        ],
+        [
+          "Estructura cristalina",
+          "Diamante",
+          "Diamante"
+        ],
+        [
+          "composición química",
+          "Principalmente carbono",
+          "Principalmente carbono"
+        ],
+        [
+          "Apariencia",
+          "Depende del corte y la calidad.",
+          "Depende del corte y la calidad."
+        ],
+        [
+          "Durabilidad",
+          "Adecuado para joyería diaria",
+          "Adecuado para joyería diaria"
+        ],
+        [
+          "Identificación visual",
+          "El origen no se puede confirmar sólo con la vista",
+          "El origen no se puede confirmar sólo con la vista"
+        ],
+        [
+          "Suministrar",
+          "Limitado por depósitos naturales y recuperación.",
+          "La capacidad de producción se puede ampliar."
+        ],
+        [
+          "Precio de compra inicial",
+          "Generalmente más alto para especificaciones comparables",
+          "Generalmente más bajo para especificaciones comparables"
+        ],
+        [
+          "Mercado secundario",
+          "Más establecido, pero la reventa no está garantizada.",
+          "Las ofertas menos establecidas y de reventa pueden ser limitadas."
+        ],
+        [
+          "Divulgación",
+          "Debe venderse como natural cuando el origen sea relevante.",
+          "Debe indicarse claramente que es cultivado en laboratorio."
+        ],
+        [
+          "Reclamaciones ambientales",
+          "Depende de la mía y de la cadena de suministro",
+          "Dependen de la energía, los materiales y la fabricación."
+        ],
+        [
+          "Más adecuado para",
+          "Compradores que priorizan el origen natural, la rareza y la historia geológica.",
+          "Compradores que priorizan la asequibilidad inicial o un tamaño mayor para el presupuesto."
+        ]
+      ]
+    },
+    "closing": [
+      "Esta tabla proporciona una comparación general. Se deben evaluar el precio, la calidad, la documentación y las prácticas de abastecimiento para cada diamante individual."
+    ]
+  },
+  "whatIsNatural": {
+    "id": "what-is-a-natural-diamond",
+    "title": "¿Qué es un diamante natural?",
+    "paragraphs": [
+      "Un diamante natural es un cristal creado por procesos geológicos debajo de la superficie de la Tierra.",
+      "La mayoría de los diamantes naturales con calidad de gema se formaron a gran profundidad bajo las condiciones de temperatura y presión necesarias para que los átomos de carbono cristalicen como diamante. Luego, antiguos eventos volcánicos transportaron algunos de esos cristales más cerca de la superficie.",
+      "Los diamantes naturales se recuperan de depósitos primarios, como tubos de kimberlita, o de depósitos secundarios donde la erosión ha desplazado material que contiene diamantes.",
+      "No se crean a partir del carbón y la minería no produce diamantes nuevos. Recupera diamantes que ya existen en depósitos geológicos naturales.",
+      "Los diamantes naturales pueden variar en:"
+    ],
+    "bullets": [
+      "Forma",
+      "Peso en quilates",
+      "Color",
+      "Claridad",
+      "Calidad de corte",
+      "Fluorescencia",
+      "Dimensiones",
+      "Inclusiones",
+      "Origen geográfico",
+      "Historial de tratamiento"
+    ],
+    "closing": [
+      "Un informe de calificación describe las características gemológicas de un diamante presentado. Un informe de clasificación estándar no necesariamente confirma la mina o el país de origen a menos que incluya específicamente información de origen verificada."
+    ]
+  },
+  "whatIsLabGrown": {
+    "id": "what-is-a-laboratory-grown-diamond",
+    "title": "¿Qué es un diamante cultivado en laboratorio?",
+    "intro": [
+      "Un diamante cultivado en laboratorio se fabrica utilizando tecnología que produce un cristal de diamante en una instalación controlada.",
+      "Los dos principales métodos de crecimiento son HPHT y CVD."
+    ],
+    "subsections": [
+      {
+        "title": "Diamantes cultivados en laboratorio HPHT",
+        "paragraphs": [
+          "El crecimiento a alta presión y alta temperatura utiliza una semilla de diamante, material de carbono, alta presión y alta temperatura dentro de un equipo especializado.",
+          "El proceso recrea algunas de las condiciones bajo las cuales los diamantes pueden cristalizar, pero sigue siendo un proceso de fabricación industrial más que una formación geológica natural."
+        ]
+      },
+      {
+        "title": "Diamantes CVD cultivados en laboratorio",
+        "paragraphs": [
+          "La deposición química de vapor coloca el material de la semilla de diamante en una cámara que contiene gas rico en carbono.",
+          "La energía activa el gas, permitiendo que el carbono se acumule en la semilla en capas y forme material de diamante. CVD no reproduce la formación natural de diamantes de la misma manera que HPHT.",
+          "Algunos diamantes cultivados en laboratorio reciben un tratamiento posterior al crecimiento para modificar su color. El método de crecimiento y la información detectable sobre el tratamiento pueden incluirse en un informe de laboratorio independiente."
+        ]
+      }
+    ],
+    "closing": [
+      "La explicación del GIA sobre el crecimiento de HPHT y CVD proporciona más información técnica sobre estos métodos de producción."
+    ],
+    "giaGrowthUrl": "https://www.gia.edu/gia-lab-grown-diamond-reports"
+  },
+  "areReal": {
+    "id": "are-lab-grown-diamonds-real",
+    "title": "¿Son los diamantes cultivados en laboratorio diamantes reales?",
+    "paragraphs": [
+      "Los diamantes cultivados en laboratorio son material de diamante. No son lo mismo que la circonita, el cristal o la moissanita.",
+      "Los diamantes naturales y los cultivados en laboratorio tienen sustancialmente la misma estructura cristalina y esencialmente las mismas propiedades químicas, físicas y ópticas. Esto significa que ambos pueden mostrar la dureza, el brillo, el fuego y el centelleo del diamante cuando se cortan correctamente.",
+      "Sin embargo, \"diamante real\" no siempre es una descripción de producto suficientemente precisa porque no revela el origen.",
+      "Los términos más claros son:"
+    ],
+    "bullets": [
+      "diamante natural",
+      "Diamante cultivado en laboratorio",
+      "Diamante creado en laboratorio"
+    ],
+    "closing": [
+      "El origen debe indicarse claramente antes de la compra y en la factura u otra documentación de venta.",
+      "La guía de nomenclatura de diamantes de CIBJO requiere una terminología clara que distinga los diamantes cultivados en laboratorio de los diamantes naturales."
+    ],
+    "cibjoUrl": "https://www.cibjo.org/"
+  },
+  "lookTheSame": {
+    "id": "do-they-look-the-same",
+    "title": "¿Tienen el mismo aspecto los diamantes naturales y los cultivados en laboratorio?",
+    "paragraphs": [
+      "Pueden parecer iguales a simple vista, especialmente cuando tienen forma, tamaño, color, claridad y calidad de corte comparables.",
+      "Ambas categorías pueden incluir diamantes que sean:"
+    ],
+    "bullets": [
+      "Incoloro o visiblemente teñido",
+      "Internamente limpio o visiblemente incluido",
+      "Bien cortado o mal cortado",
+      "Brillante y animado",
+      "Profundo, poco profundo o mal proporcionado",
+      "Tratado o sin tratar, según el diamante individual"
+    ],
+    "closing": [
+      "Un diamante natural no es automáticamente más brillante. Un diamante cultivado en laboratorio no es automáticamente perfecto. La belleza visible depende en gran medida del corte, las proporciones y la calidad de cada piedra.",
+      "Una fotografía ordinaria no es una prueba fiable de origen. Dos diamantes pueden parecer similares en una imagen de joyería y al mismo tiempo tener diferentes historias de formación, tratamientos e información de informes."
+    ]
+  },
+  "tellApart": {
+    "id": "can-you-tell-them-apart",
+    "title": "¿Se pueden distinguir los diamantes naturales de los cultivados en laboratorio?",
+    "paragraphs": [
+      "No es fiable sólo con la vista.",
+      "Los instrumentos tradicionales de observación y pruebas básicas de diamantes pueden confirmar que una piedra es material de diamante, pero es posible que no determinen si es natural o cultivada en laboratorio.",
+      "Laboratorios experimentados utilizan instrumentos avanzados y analizan características como:"
+    ],
+    "bullets": [
+      "Estructuras de crecimiento",
+      "Patrones de fluorescencia",
+      "Fosforescencia",
+      "Oligoelementos",
+      "Respuestas espectroscópicas",
+      "Características internas",
+      "Indicadores de tratamiento post-crecimiento."
+    ],
+    "closing": [
+      "GIA explica que debido a que las dos categorías son esencialmente química y ópticamente similares, se requieren pruebas avanzadas para confirmar el origen.",
+      "No confíe en pruebas caseras, trucos visuales en línea o declaraciones de vendedores no verificados para determinar si un diamante es natural."
+    ]
+  },
+  "gradingReports": {
+    "id": "grading-reports",
+    "title": "¿Ambos tipos vienen con informes de calificaciones?",
+    "paragraphs": [
+      "Tanto los diamantes naturales como los cultivados en laboratorio pueden recibir documentación de laboratorio independiente, pero el formato y la terminología del informe pueden diferir.",
+      "Un informe puede incluir:"
+    ],
+    "bullets": [
+      "Identificación natural o cultivada en laboratorio.",
+      "Forma y estilo de corte.",
+      "Medidas",
+      "Peso en quilates",
+      "Evaluación del color",
+      "Evaluación de claridad",
+      "Cortar o terminar la información",
+      "Fluorescencia",
+      "Método de crecimiento",
+      "Tratamientos detectados",
+      "Información de inscripción láser"
+    ],
+    "closing": [
+      "Los compradores no deben asumir que todos los laboratorios califican ambas categorías utilizando un sistema de informes idéntico.",
+      "Desde octubre de 2025, la evaluación de calidad de GIA para diamantes cultivados en laboratorio desde incoloros hasta casi incoloros elegibles utiliza las categorías descriptivas Premium y Estándar, en lugar de la nomenclatura de color y claridad desarrollada por GIA para diamantes naturales. Otros laboratorios pueden utilizar sistemas diferentes.",
+      "La evaluación actual de la calidad de los diamantes cultivados en laboratorio del GIA también identifica la piedra como cultivada en laboratorio e incluye una inscripción en el cinturón correspondiente.",
+      "Verifique siempre el informe a través del servicio oficial de verificación de informes del laboratorio emisor."
+    ]
+  },
+  "price": {
+    "id": "price-comparison",
+    "title": "Precio del diamante natural frente al diamante de laboratorio",
+    "paragraphs": [
+      "Los diamantes cultivados en laboratorio generalmente tienen un precio de compra inicial más bajo que los diamantes naturales con especificaciones aparentemente comparables.",
+      "Esto puede permitir al comprador priorizar:"
+    ],
+    "budgetBullets": [
+      "Mayor peso en quilates",
+      "Especificaciones de color o claridad más altas",
+      "Una forma más grande",
+      "Un escenario más elaborado",
+      "Un presupuesto total de compra más bajo"
+    ],
+    "mid": [
+      "El precio de los diamantes naturales refleja una estructura de oferta diferente. Los factores importantes incluyen:"
+    ],
+    "naturalFactors": [
+      "Disponibilidad geológica",
+      "Minería y recuperación",
+      "Suministro de diamantes en bruto",
+      "Rendimiento de corte",
+      "Escasez de forma y quilates",
+      "Combinaciones de color y claridad.",
+      "Demanda del mercado",
+      "Informe de calificaciones",
+      "Documentación de trazabilidad",
+      "Costos mayoristas y minoristas."
+    ],
+    "closing": [
+      "Una comparación justa debe utilizar diamantes genuinamente comparables. Comparar un diamante natural bien tallado con un diamante cultivado en laboratorio mal tallado, o viceversa, no proporciona una comparación de precios útil.",
+      "El engaste del anillo, el metal, la artesanía, los impuestos, los servicios minoristas y el posicionamiento de la marca también pueden formar una parte sustancial del precio final de la joyería."
+    ]
+  },
+  "priceChange": {
+    "id": "how-prices-change",
+    "title": "¿Cómo pueden cambiar los precios con el tiempo?",
+    "intro": [
+      "Los precios de los diamantes naturales y cultivados en laboratorio pueden variar. Ninguna categoría tiene un precio futuro fijo."
+    ],
+    "subsections": [
+      {
+        "title": "Comportamiento del precio del diamante natural",
+        "intro": [
+          "Los precios de los diamantes naturales pueden cambiar con:"
+        ],
+        "bullets": [
+          "Demanda del consumidor",
+          "producción minera",
+          "Inventarios existentes",
+          "Condiciones económicas",
+          "Movimientos de divisas",
+          "Sanciones y restricciones a la importación",
+          "Tendencias de forma y calidad.",
+          "Niveles de existencias de distribuidores y minoristas"
+        ],
+        "closing": [
+          "La escasez no significa que todos los diamantes naturales aumentarán de precio."
+        ]
+      },
+      {
+        "title": "Comportamiento del precio de los diamantes cultivados en laboratorio",
+        "intro": [
+          "Los precios de los cultivos en laboratorio pueden cambiar con:"
+        ],
+        "bullets": [
+          "Capacidad de fabricación",
+          "Costos de energía y equipos.",
+          "Eficiencia de producción",
+          "Competencia entre productores",
+          "Márgenes minoristas",
+          "Mejoras en la tecnología",
+          "Demanda del consumidor",
+          "Disponibilidad creciente"
+        ],
+        "closing": [
+          "Dado que la producción puede ampliarse y la tecnología de fabricación puede mejorar, los compradores no deben suponer que el precio de reemplazo futuro de un diamante cultivado en laboratorio seguirá siendo igual a su precio minorista original.",
+          "Evite páginas o vendedores que prometan reconocimiento garantizado para cualquiera de las categorías."
+        ]
+      }
+    ]
+  },
+  "resale": {
+    "id": "resale-value",
+    "title": "Valor de reventa de diamantes naturales frente a diamantes de laboratorio",
+    "paragraphs": [
+      "Los diamantes naturales tienen un mercado mayorista, de subasta, de intercambio y de segunda mano establecido desde hace mucho tiempo. Esto no significa que el comprador recuperará el precio de venta original.",
+      "Los precios minoristas de joyería pueden incluir:"
+    ],
+    "retailBullets": [
+      "Margen minorista",
+      "Valor de marca",
+      "Engaste y metal",
+      "Diseño",
+      "Fabricación",
+      "Impuesto",
+      "Marketing",
+      "Costos de servicio y garantía."
+    ],
+    "mid": [
+      "Es posible que estos importes no sean recuperables cuando se revendan los diamantes sueltos o las joyas terminadas.",
+      "Los diamantes cultivados en laboratorio también se pueden revender, pero los compradores y las ofertas disponibles pueden ser más limitados. Es probable que cualquier oferta de reventa considere el precio actual de los diamantes cultivados en laboratorio recién fabricados en el momento de la reventa.",
+      "Antes de comprar cualquier tipo, pregúntele al vendedor:"
+    ],
+    "questions": [
+      "¿Existe una política de intercambio por escrito?",
+      "¿Existe un programa de actualización de por vida?",
+      "¿La póliza aplica para el diamante suelto o el anillo completo?",
+      "¿Son elegibles los diamantes cultivados en laboratorio?",
+      "¿Qué exclusiones y requisitos mínimos de compra se aplican?",
+      "¿El valor de recompra está garantizado o sólo es estimado?"
+    ],
+    "closing": [
+      "La guía de Dalila sobre la retención del valor de los diamantes naturales explica por qué el valor de reventa y el beneficio de la inversión no son lo mismo."
+    ],
+    "valueRetentionHref": "/blogs/do-natural-diamonds-hold-their-value",
+    "valueRetentionText": "retención del valor del diamante natural"
+  },
+  "rarity": {
+    "id": "are-natural-diamonds-rarer",
+    "title": "¿Son los diamantes naturales más raros?",
+    "paragraphs": [
+      "Los diamantes naturales están limitados por la geología. Los humanos pueden explorar, extraer y recuperar depósitos existentes, pero no pueden crear diamantes naturales adicionales a pedido.",
+      "La rareza todavía varía significativamente dentro de la categoría natural.",
+      "Un pequeño diamante natural de calidad comercial no es igualmente raro que:"
+    ],
+    "bullets": [
+      "Un gran diamante de alto color",
+      "Un diamante con una claridad excepcional",
+      "Un raro diamante natural de color fantasía",
+      "Una combinación inusual de forma y especificaciones",
+      "Una pareja bien combinada",
+      "Un diamante con origen geográfico verificado"
+    ],
+    "closing": [
+      "La producción de diamantes cultivados en laboratorio es escalable. Los fabricantes pueden agregar reactores, mejorar procesos y aumentar la producción cuando la economía y la infraestructura lo permitan.",
+      "Esto no significa que todas las especificaciones desarrolladas en laboratorio estén disponibles de inmediato. Producir y cortar material de gran tamaño y de alta calidad todavía requiere equipo, energía, habilidad y tiempo. La diferencia fundamental es que la oferta se basa en la capacidad de fabricación y no en los depósitos geológicos naturales."
+    ]
+  },
+  "sustainability": {
+    "id": "sustainability",
+    "title": "¿Son más sostenibles los diamantes cultivados en laboratorio?",
+    "paragraphs": [
+      "No automáticamente.",
+      "La producción en laboratorio evita la extracción de diamantes, pero requiere electricidad, equipos, materiales industriales, instalaciones, material de siembra, corte, pulido y transporte.",
+      "Su impacto ambiental puede variar según:"
+    ],
+    "bullets": [
+      "Método de crecimiento HPHT o CVD",
+      "fuente de electricidad",
+      "Eficiencia energética",
+      "Ubicación de la instalación",
+      "Insumos de materiales",
+      "Tratamientos post-crecimiento",
+      "Ubicación de corte y pulido.",
+      "Transporte",
+      "Gestión de residuos",
+      "Alcance de la evaluación ambiental"
+    ],
+    "closing": [
+      "Afirmaciones como “verde”, “neutral en carbono”, “ecológico” o “impacto cero” deben estar respaldadas por evidencia específica, reciente y verificable de forma independiente.",
+      "La CIBJO y las directrices de protección al consumidor advierten contra afirmaciones ambientales amplias que no están debidamente fundamentadas. El nombre de categoría “cultivado en laboratorio” no demuestra por sí solo un impacto menor durante todo el ciclo de vida."
+    ]
+  },
+  "ethics": {
+    "id": "ethics",
+    "title": "¿Son los diamantes naturales éticos o libres de conflictos?",
+    "paragraphs": [
+      "El origen natural por sí solo no establece un abastecimiento responsable.",
+      "Los compradores deben solicitar pruebas que abarquen la cadena de suministro relevante, como por ejemplo:"
+    ],
+    "bullets": [
+      "Identidad del proveedor",
+      "Facturas y registros de transacciones.",
+      "Control de sanciones",
+      "Documentación aplicable del Proceso de Kimberley para diamantes en bruto",
+      "Políticas de abastecimiento responsable",
+      "Registros de cadena de custodia",
+      "Documentación del país de origen, cuando esté disponible",
+      "Auditorías independientes o normas reconocidas",
+      "Divulgaciones escritas para tratamientos y calificaciones."
+    ],
+    "closing": [
+      "Un informe de clasificación estándar de las 4C no confirma automáticamente la mina o el país donde se originó un diamante natural.",
+      "Los servicios especializados pueden proporcionar información adicional sobre el origen. Por ejemplo, el Informe de origen de diamantes de GIA está disponible solo cuando el diamante en bruto ingresó al programa de origen de GIA antes del pulido y cumplió con el proceso de documentación requerido.",
+      "El abastecimiento responsable debe demostrarse, no asumirse."
+    ]
+  },
+  "traceability": {
+    "id": "traceability",
+    "title": "Trazabilidad: ¿Qué tipo es más fácil de rastrear?",
+    "paragraphs": [
+      "Un diamante cultivado en laboratorio puede tener una cadena de producción más corta si el productor, la instalación de corte y el vendedor proporcionan la documentación completa. Sin embargo, una afirmación sobre el país o la facilidad de crecimiento aún necesita evidencia.",
+      "Un diamante natural también puede tener una fuerte trazabilidad cuando recorre una cadena documentada desde la recuperación hasta el corte, la clasificación y la venta.",
+      "Para cualquiera de las categorías, pregunte:"
+    ],
+    "bullets": [
+      "¿Quién produjo o recuperó el diamante?",
+      "¿Dónde se cultivó o extrajo?",
+      "¿Dónde fue cortado y pulido?",
+      "¿Qué laboratorio lo evaluó?",
+      "¿Se puede verificar el informe de forma independiente?",
+      "¿La inscripción láser está presente y es consistente?",
+      "¿Se respaldan las reivindicaciones ambientales o sociales?",
+      "¿La factura indica claramente la categoría de origen del diamante?"
+    ],
+    "closing": [
+      "La trazabilidad es una cuestión de documentación. No se debe decidir únicamente a partir de las palabras “natural” o “cultivado en laboratorio”."
+    ]
+  },
+  "engagementRing": {
+    "id": "engagement-ring",
+    "title": "Diamante natural versus diamante de laboratorio para un anillo de compromiso",
+    "intro": [
+      "Tanto los diamantes naturales como los cultivados en laboratorio son lo suficientemente duraderos para formar un anillo de compromiso cuando se cortan, engarzan y mantienen adecuadamente.",
+      "La pregunta más útil es: ¿Qué origen y estructura de compra se adapta mejor a sus prioridades?"
+    ],
+    "naturalTitle": "Considere un diamante natural si prioriza:",
+    "naturalBullets": [
+      "Origen geológico",
+      "rareza natural",
+      "Una piedra formada independientemente de la fabricación.",
+      "Posicionamiento nupcial tradicional",
+      "Un mercado secundario más consolidado",
+      "Simbolismo de la reliquia de los diamantes naturales",
+      "Acceso a combinaciones raras de calidad natural."
+    ],
+    "labTitle": "Considere un diamante cultivado en laboratorio si prioriza:",
+    "labBullets": [
+      "Menor costo de compra inicial",
+      "Un mayor peso en quilates para un presupuesto ajustado",
+      "Especificaciones más altas dentro de un presupuesto fijo",
+      "Origen manufacturado",
+      "Menos preocupación por la demanda del mercado secundario",
+      "Flexibilidad para gastar más presupuesto en el entorno."
+    ],
+    "closing": [
+      "Ninguna elección prueba la fuerza o el significado de una relación. La opción correcta depende de lo que la pareja quiere que represente el diamante y de cómo esperan utilizar su presupuesto.",
+      "Para consideraciones específicas sobre anillos, lea la guía de Dalila sobre anillos de compromiso naturales o cultivados en laboratorio."
+    ],
+    "engagementGuideHref": "/blogs/natural-vs-lab-grown-diamonds-engagement-rings-2026",
+    "engagementGuideText": "Guía de anillos de compromiso naturales versus cultivados en laboratorio"
+  },
+  "simulants": {
+    "id": "simulants",
+    "title": "Diamantes naturales, diamantes cultivados en laboratorio y simulantes",
+    "intro": [
+      "Los diamantes cultivados en laboratorio no deben confundirse con los simulantes de diamantes."
+    ],
+    "table": {
+      "caption": "Materiales de diamante versus simulantes de diamante",
+      "headers": [
+        "Material",
+        "¿Material de diamante?",
+        "Composición típica",
+        "Propósito principal"
+      ],
+      "rows": [
+        [
+          "diamante natural",
+          "Sí",
+          "Carbono cristalino",
+          "piedras preciosas naturales"
+        ],
+        [
+          "Diamante cultivado en laboratorio",
+          "Sí",
+          "Carbono cristalino",
+          "diamante fabricado"
+        ],
+        [
+          "Moissanita",
+          "No",
+          "Carburo de silicio",
+          "Alternativa al diamante"
+        ],
+        [
+          "circonita cúbica",
+          "No",
+          "Dióxido de circonio",
+          "imitación de diamante"
+        ],
+        [
+          "Vaso",
+          "No",
+          "Varía",
+          "Imitación de bajo costo"
+        ]
+      ]
+    },
+    "closing": [
+      "Un probador de diamantes convencional puede reaccionar de manera diferente a estos materiales, pero un resultado positivo de \"diamante\" no necesariamente confirma si el diamante es natural o cultivado en laboratorio."
+    ]
+  },
+  "whichToChoose": {
+    "id": "which-should-you-choose",
+    "title": "¿Qué diamante debería elegir?",
+    "intro": [
+      "Utilice sus prioridades reales en lugar de afirmaciones generales de marketing."
+    ],
+    "table": {
+      "caption": "Prioridades del comprador y origen de diamantes más relevante",
+      "headers": [
+        "Tu principal prioridad",
+        "Opción más relevante"
+      ],
+      "rows": [
+        [
+          "Formación geológica natural",
+          "diamante natural"
+        ],
+        [
+          "Precio inicial más bajo para un tamaño comparable",
+          "Diamante cultivado en laboratorio"
+        ],
+        [
+          "Mayor peso en quilates dentro del presupuesto",
+          "A menudo cultivados en laboratorio"
+        ],
+        [
+          "rareza natural",
+          "diamante natural"
+        ],
+        [
+          "Participación establecida en el mercado secundario.",
+          "Diamante generalmente natural"
+        ],
+        [
+          "Durabilidad del diamante y brillo potencial.",
+          "Cualquiera"
+        ],
+        [
+          "Origen geográfico o de fabricación comprobado",
+          "O bien, con la documentación adecuada."
+        ],
+        [
+          "Menor impacto ambiental verificado",
+          "Comparar evidencia individual"
+        ],
+        [
+          "Historia tradicional de una reliquia de diamantes naturales",
+          "diamante natural"
+        ],
+        [
+          "Origen fabricado moderno.",
+          "Diamante cultivado en laboratorio"
+        ]
+      ]
+    },
+    "closing": [
+      "Este no es un ranking de calidad. Un diamante mal seleccionado de cualquiera de las categorías puede resultar decepcionante. Compara corte, proporciones, apariencia, informa información, precio y documentación antes de decidir."
+    ]
+  },
+  "checklist": {
+    "id": "buying-checklist",
+    "title": "Lista de verificación de compra",
+    "intro": [
+      "Antes de comprar un diamante natural o cultivado en laboratorio:"
+    ],
+    "items": [
+      "Confirmar la categoría de origen por escrito.",
+      "Solicite el informe de calificación o evaluación de calidad independiente.",
+      "Verifique el informe a través del sitio web oficial del laboratorio.",
+      "Verifique la inscripción láser cuando corresponda.",
+      "Compare las medidas reales, no solo el peso en quilates.",
+      "Revisar imágenes o videos claros.",
+      "Pregunte si el diamante ha recibido tratamiento.",
+      "Solicitar evidencia para reclamos ambientales o de origen.",
+      "Lea las políticas de devolución, actualización y recompra.",
+      "Compara el precio completo, incluyendo configuración e impuestos.",
+      "No trate un valor de tasación como un valor de reventa garantizado.",
+      "Mantenga juntos la factura, el informe y los documentos justificativos."
+    ],
+    "closing": [
+      "También puede utilizar la tabla de tamaños de diamantes de Dalila para comparar el peso en quilates con las medidas visibles aproximadas."
+    ],
+    "sizeChartHref": "/resources/diamond-size-chart",
+    "sizeChartText": "tabla de tallas de diamantes"
+  },
+  "whyDalila": {
+    "id": "why-dalila",
+    "title": "Por qué Dalila se especializa en diamantes naturales",
+    "paragraphs": [
+      "Dalila Diamonds se especializa en diamantes naturales para compradores, joyeros y empresas de joyería que priorizan el origen geológico, la rareza, la verificación profesional y el acceso a la red de abastecimiento de diamantes de Amberes.",
+      "Esta especialización no requiere afirmaciones inexactas sobre los diamantes cultivados en laboratorio. Ambas categorías deben describirse con sinceridad para que los compradores puedan entender lo que están comprando.",
+      "Dalila puede ayudar a obtener:"
+    ],
+    "bullets": [
+      "Diamantes naturales certificados",
+      "Combinaciones exactas de quilates, color y claridad.",
+      "Formas raras",
+      "pares emparejados",
+      "Diseños de piedra lateral",
+      "Diamantes naturales más grandes",
+      "Diamantes con requisitos de informe específicos",
+      "Diamantes naturales dentro de rangos de medición controlados"
+    ],
+    "primaryButtonText": "BROWSE NATURAL DIAMONDS",
+    "primaryButtonHref": "/inventory",
+    "secondaryButtonText": "SOLICITA UN DIAMANTE NATURAL A TRAVÉS DE DS4U",
+    "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
+    "notice": "Se debe confirmar la disponibilidad, la información de origen, la clasificación, el precio y los términos comerciales de cada diamante individual."
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Los diamantes cultivados en laboratorio son diamantes reales?",
+        "answer": "Los diamantes cultivados en laboratorio son materiales de diamante con esencialmente las mismas propiedades químicas, físicas y ópticas que los diamantes naturales. Su diferencia definitoria es que se fabrican en lugar de formarse mediante procesos geológicos naturales."
+      },
+      {
+        "question": "¿Cuál es la principal diferencia entre los diamantes naturales y los cultivados en laboratorio?",
+        "answer": "La principal diferencia es el origen. Los diamantes naturales se forman dentro de la Tierra, mientras que los diamantes cultivados en laboratorio se fabrican utilizando tecnología HPHT o CVD."
+      },
+      {
+        "question": "¿Puedes distinguir un diamante creado en laboratorio de un diamante natural con solo mirar?",
+        "answer": "No de manera confiable. Los diamantes comparables naturales y cultivados en laboratorio pueden parecer iguales a simple vista. La confirmación del origen requiere pruebas y documentación profesionales adecuadas."
+      },
+      {
+        "question": "¿Son los diamantes cultivados en laboratorio más baratos que los diamantes naturales?",
+        "answer": "Los diamantes cultivados en laboratorio generalmente tienen un precio inicial más bajo que los diamantes naturales comparables. La diferencia precisa depende de la forma, el peso en quilates, la calidad, el vendedor y las condiciones del mercado."
+      },
+      {
+        "question": "¿Los diamantes naturales mantienen mejor su valor?",
+        "answer": "Los diamantes naturales tienen un mercado secundario más establecido, pero el valor de reventa nunca está garantizado y normalmente es más bajo que el precio minorista original. Las ofertas de reventa de productos cultivados en laboratorio pueden ser más limitadas."
+      },
+      {
+        "question": "¿Son los diamantes cultivados en laboratorio ecológicos?",
+        "answer": "No automáticamente. Su impacto ambiental depende de la fuente de energía, el método de producción, los materiales, el corte, el transporte y el alcance de la evaluación. Las afirmaciones medioambientales amplias deben estar respaldadas por pruebas específicas."
+      },
+      {
+        "question": "¿Están todos los diamantes naturales libres de conflictos?",
+        "answer": "El origen natural por sí solo no demuestra un abastecimiento responsable. Los compradores deben solicitar la documentación adecuada sobre la cadena de suministro, las sanciones, el origen y la transacción."
+      },
+      {
+        "question": "¿Tienen el mismo brillo los diamantes naturales y los cultivados en laboratorio?",
+        "answer": "Ambos pueden mostrar excelente brillo, fuego y centelleo. El brillo visible depende principalmente del corte, las proporciones y la mano de obra de cada diamante."
+      },
+      {
+        "question": "¿Son igualmente duraderos los diamantes naturales y los cultivados en laboratorio?",
+        "answer": "Ambos son materiales de diamantes y son adecuados para la joyería diaria. Aún se deben considerar la seguridad del entorno, los cuidados, las inclusiones y los posibles tratamientos."
+      },
+      {
+        "question": "¿Se clasifican de la misma manera los diamantes naturales y los cultivados en laboratorio?",
+        "answer": "Ambos pueden recibir documentación de laboratorio independiente, pero los formatos y la terminología de los informes pueden diferir. Los compradores deben verificar el servicio preciso y el sistema de clasificación utilizado por el laboratorio emisor."
+      },
+      {
+        "question": "¿Qué es mejor para un anillo de compromiso?",
+        "answer": "Ninguno de los dos es universalmente mejor. Los diamantes naturales se adaptan a los compradores que priorizan el origen geológico y la rareza, mientras que los diamantes cultivados en laboratorio se adaptan a los compradores que priorizan un precio inicial más bajo o un tamaño más grande para su presupuesto."
+      },
+      {
+        "question": "¿Es la moissanita un diamante cultivado en laboratorio?",
+        "answer": "No. La moissanita es carburo de silicio y es un simulante de diamante. Un diamante cultivado en laboratorio es un material de diamante de origen manufacturado."
+      }
+    ]
+  }
+}

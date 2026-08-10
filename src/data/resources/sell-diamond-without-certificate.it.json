@@ -1,0 +1,872 @@
+{
+  "meta": {
+    "title": "Puoi vendere un diamante senza certificato? | Dalila",
+    "description": "Sì, puoi vendere un diamante naturale senza il suo certificato. Scopri cosa controllano gli acquirenti, se hai bisogno di un nuovo rapporto e richiedi una valutazione ad Anversa.",
+    "canonical": "https://www.daliladiamonds.com/resources/sell-diamond-without-certificate",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportLimitations": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaLostReports": "https://www.gia.edu/gia-news-research-lost-report",
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "hrdMyReports": "https://my.hrdantwerp.com/",
+    "igiVerify": "https://www.igi.org/verify-your-report"
+  },
+  "banner": {
+    "title": "Vendi un diamante senza certificato",
+    "breadcrumbHome": "Casa",
+    "breadcrumbResources": "Risorse",
+    "breadcrumbCurrent": "Vendi un diamante senza certificato",
+    "imageAlt": "Vendi un diamante senza un banner di risorse certificato"
+  },
+  "hero": {
+    "title": "Puoi vendere un diamante senza certificato?",
+    "paragraphs": [
+      "Sì, puoi iniziare il processo di vendita di un diamante senza il suo certificato originale o il rapporto di classificazione. Molti diamanti ereditati, anelli di fidanzamento più vecchi e diamanti sciolti non hanno più la documentazione originale.",
+      "L'assenza di una segnalazione non significa che il diamante non abbia valore. Ciò significa che un acquirente professionista potrebbe dover verificare se la pietra è un diamante, se è naturale o coltivata in laboratorio e quali sono la sua qualità e condizione prima di fare un'offerta finale.",
+      "Puoi inviare le informazioni e le fotografie che possiedi a Dalila Diamonds. Se l’articolo soddisfa i criteri di acquisto di Dalila, il team può spiegare se è necessario un esame fisico o un nuovo rapporto di laboratorio."
+    ],
+    "primaryButtonText": "VALUTA IL MIO DIAMANTE SENZA CERTIFICATO",
+    "primaryButtonHref": "#uncertified-diamond-form-top"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "alt": "Anello con diamante naturale sottoposto a valutazione senza il suo certificato originale",
+      "width": 1600,
+      "height": 900
+    },
+    "lostReportRecovery": {
+      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "alt": "Modi per recuperare informazioni da un rapporto di classificazione dei diamanti smarriti",
+      "width": 1400,
+      "height": 1000
+    },
+    "evaluation": {
+      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "alt": "Valutazione professionale di un diamante naturale non certificato",
+      "width": 1400,
+      "height": 1000
+    },
+    "certificationDecision": {
+      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "alt": "Guida decisionale per ottenere un nuovo rapporto sulla classificazione dei diamanti prima della vendita",
+      "width": 1400,
+      "height": 1000
+    },
+    "dalilaProcess": {
+      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "alt": "Processo Dalila Diamonds per la valutazione di un diamante senza certificato",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Panoramica della guida",
+    "items": [
+      {
+        "id": "quick-answer",
+        "label": "Risposta rapida"
+      },
+      {
+        "id": "what-is-certificate",
+        "label": "Cos'è un certificato di diamante?"
+      },
+      {
+        "id": "certificate-required",
+        "label": "È necessario un certificato?"
+      },
+      {
+        "id": "lost-or-never-certified",
+        "label": "Smarrito o mai certificato"
+      },
+      {
+        "id": "lost-gia",
+        "label": "Certificato GIA smarrito"
+      },
+      {
+        "id": "lost-hrd",
+        "label": "Rapporto sulle risorse umane smarrito"
+      },
+      {
+        "id": "lost-igi",
+        "label": "Rapporto IGI perduto"
+      },
+      {
+        "id": "buyer-evaluation",
+        "label": "Valutazione dell'acquirente senza certificato"
+      },
+      {
+        "id": "natural-at-home",
+        "label": "Diamante naturale a casa?"
+      },
+      {
+        "id": "lose-value",
+        "label": "Perde valore?"
+      },
+      {
+        "id": "new-certificate",
+        "label": "Ottieni un nuovo certificato?"
+      },
+      {
+        "id": "certification-decision",
+        "label": "Tabella decisionale sulla certificazione"
+      },
+      {
+        "id": "mounted-certification",
+        "label": "Certificazione diamante montato"
+      },
+      {
+        "id": "helpful-documents",
+        "label": "Documenti che aiutano"
+      },
+      {
+        "id": "inherited-diamond",
+        "label": "Diamante ereditato"
+      },
+      {
+        "id": "without-receipt",
+        "label": "Vendo senza scontrino"
+      },
+      {
+        "id": "what-not-to-do",
+        "label": "Cosa non fare"
+      },
+      {
+        "id": "dalila-process",
+        "label": "Processo di valutazione di Dalila"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Domande frequenti"
+      },
+      {
+        "id": "start-anyway",
+        "label": "Inizia senza certificato"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Risposta rapida",
+    "paragraphs": [
+      "Non è necessario un certificato per richiedere una valutazione iniziale del diamante. Un certificato è utile perché descrive le caratteristiche del diamante, ma non è il diamante stesso e non è una prova di proprietà."
+    ],
+    "checksIntro": "Quando non è disponibile alcun report, l'acquirente potrebbe dover controllare:",
+    "checks": [
+      "Se la pietra è un diamante",
+      "Che sia naturale o coltivato in laboratorio",
+      "Se sono presenti trattamenti",
+      "Peso in carati approssimativo",
+      "Colore e chiarezza",
+      "Caratteristiche di taglio",
+      "Danni e condizioni",
+      "Se il diamante ha un'iscrizione laser esistente",
+      "Se qualsiasi rapporto precedente può essere recuperato",
+      "Se il venditore ha il diritto di vendere l'oggetto"
+    ],
+    "closing": "L'acquirente potrebbe essere in grado di preparare un'offerta dopo la verifica fisica. In altri casi, può essere raccomandata prima la valutazione di un laboratorio indipendente.",
+    "ctaText": "INVIA IL MIO DIAMANTE NON CERTIFICATO",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "whatIsCertificate": {
+    "id": "what-is-certificate",
+    "title": "Cos'è un certificato di diamante?",
+    "paragraphs": [
+      "“Certificato del diamante” è il termine comunemente usato per un rapporto di classificazione dei diamanti. Il documento viene rilasciato dopo che un laboratorio ha esaminato il diamante e ne ha registrato le caratteristiche."
+    ],
+    "containsIntro": "Un rapporto di valutazione può contenere:",
+    "contains": [
+      "Origine naturale o coltivata in laboratorio",
+      "Forma e stile di taglio",
+      "Peso in carati",
+      "Misure",
+      "Grado di colore",
+      "Grado di chiarezza",
+      "Grado di taglio, ove applicabile",
+      "Polacco",
+      "Simmetria",
+      "Fluorescenza",
+      "Trattamenti",
+      "Iscrizione laser",
+      "Individuazione delle caratteristiche di chiarezza"
+    ],
+    "labsParagraph": "GIA, HRD Anversa e IGI sono esempi di laboratori che rilasciano rapporti sulla classificazione dei diamanti.",
+    "giaLinkText": "Limitazioni del rapporto GIA",
+    "closing": "La relazione dovrebbe quindi essere trattata come documentazione tecnica piuttosto che come offerta di acquisto."
+  },
+  "certificateRequired": {
+    "id": "certificate-required",
+    "title": "È necessario un certificato per vendere un diamante?",
+    "paragraphs": [
+      "Un certificato non è universalmente richiesto per vendere un diamante. Un acquirente professionista con attrezzature e competenze adeguate può essere in grado di esaminare direttamente un diamante non certificato.",
+      "Tuttavia, l’acquirente avrà comunque bisogno di informazioni sufficienti per prendere una decisione di acquisto responsabile. Senza un rapporto riconosciuto, potrebbe essere necessario verificare in modo indipendente più caratteristiche."
+    ],
+    "resultsIntro": "Ciò può comportare:",
+    "results": [
+      "A longer evaluation process",
+      "A conditional preliminary offer",
+      "Additional testing",
+      "A recommendation for laboratory grading",
+      "Costs for unsetting or resetting",
+      "More conservative assumptions until the stone is verified"
+    ],
+    "closing": "L’assenza di un certificato non dovrebbe rendere automaticamente il diamante privo di valore. Significa semplicemente che il documento non può essere utilizzato per stabilire le caratteristiche riportate."
+  },
+  "lostOrNeverCertified": {
+    "id": "lost-or-never-certified",
+    "title": "Certificato smarrito o mai certificato: quale situazione si applica?",
+    "intro": "Il passo successivo dipende dal fatto se il diamante aveva una volta un rapporto.",
+    "scenarios": [
+      {
+        "title": "Il rapporto originale è andato perduto",
+        "paragraphs": [
+          "Se il diamante aveva precedentemente un rapporto GIA, HRD Anversa o IGI, potrebbe essere possibile recuperare le informazioni del rapporto online."
+        ],
+        "lookForIntro": "Cercare:",
+        "lookFor": [
+          "Una vecchia fotocopia",
+          "Un numero di rapporto sulla ricevuta di acquisto",
+          "Un numero di rapporto in una perizia assicurativa",
+          "Un'e-mail dal gioielliere originale",
+          "Un numero registrato in un inventario di gioielli",
+          "Un'iscrizione laser sul diamante",
+          "Una fotografia del rapporto originale",
+          "Un codice QR o un collegamento al report digitale"
+        ],
+        "closing": "Se viene trovato il numero del rapporto, utilizzare il sito Web ufficiale del laboratorio emittente per recuperare o verificare le informazioni."
+      },
+      {
+        "title": "Il diamante non è mai stato certificato",
+        "paragraphs": [
+          "Se il diamante non è mai stato classificato da un laboratorio riconosciuto, l'acquirente deve fare affidamento sull'esame fisico e su eventuali documenti giustificativi disponibili.",
+          "A seconda della probabile qualità e del valore potenziale del diamante, un nuovo rapporto di classificazione può valere o meno la pena."
+        ]
+      },
+      {
+        "title": "Non sai se era certificato",
+        "paragraphs": [
+          "Invia l'anello o il diamante come \"stato del certificato sconosciuto\". Uno specialista può verificare la presenza di un'iscrizione laser e rivedere vecchie ricevute o valutazioni per riferimenti a un numero di rapporto.",
+          "Non indovinare il laboratorio o i voti quando non sei sicuro."
+        ]
+      }
+    ]
+  },
+  "lostGia": {
+    "id": "lost-gia",
+    "title": "Cosa devo fare se ho perso un certificato GIA?",
+    "paragraphs": [
+      "Il GIA non emette rapporti di valutazione duplicati. Tuttavia, se conosci il numero del rapporto, puoi utilizzare GIA Report Check per visualizzare le informazioni sulla valutazione.",
+      "GIA afferma che sono disponibili anche versioni PDF da visualizzare o scaricare per i rapporti datati dopo il 1° luglio 2010."
+    ],
+    "giaLostLinkText": "Istruzioni GIA per segnalazioni smarrite",
+    "giaReportCheckText": "Controllo del rapporto GIA",
+    "tryIntro": "Prova quanto segue",
+    "steps": [
+      "Cerca il numero del rapporto nelle tue e-mail e nell'archivio cloud.",
+      "Controllare la ricevuta originale o la stima dell'assicurazione.",
+      "Chiedi al gioielliere originale se il numero rimane nei suoi registri.",
+      "Fai controllare il diamante per vedere se c'è un'iscrizione laser.",
+      "Immettere il numero del rapporto in GIA Report Check.",
+      "Scarica i dati del report disponibile o il PDF.",
+      "Chiedi a uno specialista di confermare se il diamante fisico corrisponde al rapporto."
+    ],
+    "closing": "Trovare un numero di rapporto valido è solo il primo passo. Il diamante fisico deve comunque essere abbinato al rapporto. Un'iscrizione laser può aiutare nell'identificazione, ma dovrebbe essere esaminata sotto ingrandimento e considerata insieme alle misurazioni e ad altre caratteristiche."
+  },
+  "lostHrd": {
+    "id": "lost-hrd",
+    "title": "Cosa succede se perdo un rapporto HRD di Anversa?",
+    "paragraphs": [
+      "My HRD Antwerp fornisce l'accesso online al suo archivio dei rapporti di valutazione. Se conosci il numero del rapporto o il numero di identificazione esterno, potresti riuscire a individuare il rapporto sui diamanti o sui gioielli online.",
+      "Utilizza la ricerca ufficiale dei rapporti My HRD Antwerp anziché fare affidamento su un database non ufficiale.",
+      "Un rapporto dell’HRD di Anversa può contenere informazioni sulle 4C del diamante. I rapporti sui gioielli possono includere anche dettagli sul metallo e sull'incastonatura dell'articolo.",
+      "Se non conosci il numero del rapporto, controlla vecchie fatture, perizie, e-mail, imballaggi ed eventuali iscrizioni visibili sul diamante."
+    ],
+    "hrdLinkText": "La mia ricerca nel rapporto HRD di Anversa"
+  },
+  "lostIgi": {
+    "id": "lost-igi",
+    "title": "Cosa succede se perdo un rapporto IGI?",
+    "paragraphs": [
+      "IGI fornisce uno strumento ufficiale di verifica dei report online. Se il numero del rapporto è disponibile, inseriscilo tramite IGI Verifica il tuo rapporto per verificare le informazioni sulla valutazione.",
+      "Le informazioni del report digitale possono essere accessibili anche tramite un codice QR o un numero di report collegato al documento originale.",
+      "IGI offre servizi di report duplicati o aggiornati in alcuni mercati, ma la disponibilità e le condizioni variano. Confermare il servizio attuale direttamente con IGI prima di presumere che una sostituzione stampata possa essere fornita in Belgio."
+    ],
+    "igiLinkText": "IGI Verifica il tuo rapporto"
+  },
+  "buyerEvaluation": {
+    "id": "buyer-evaluation",
+    "title": "Come può un acquirente valutare un diamante senza certificato?",
+    "intro": [
+      "Un acquirente può iniziare esaminando il diamante o il gioiello e rivedendo le informazioni disponibili. Il processo esatto dipende dal fatto che la pietra sia sciolta o montata."
+    ],
+    "sections": [
+      {
+        "title": "Identificazione iniziale",
+        "paragraphs": [
+          "Il primo passo è determinare se la pietra è un diamante. L’aspetto visivo da solo non è sufficiente perché alcuni simulanti possono sembrare simili.",
+          "Il valutatore può utilizzare strumenti adeguati per distinguere il diamante da materiali come zirconia cubica, moissanite o vetro."
+        ]
+      },
+      {
+        "title": "Origine naturale o coltivata in laboratorio",
+        "paragraphs": [
+          "I diamanti naturali e quelli coltivati ​​in laboratorio hanno la stessa composizione chimica di base e possono sembrare estremamente simili. L'origine non dovrebbe essere indovinata solo dall'apparenza.",
+          "Potrebbero essere necessari strumenti di screening professionali o esami di laboratorio per determinare se il diamante è naturale, coltivato in laboratorio o richiede ulteriori test."
+        ]
+      },
+      {
+        "title": "Peso in carati",
+        "paragraphs": [
+          "Un diamante sciolto può essere pesato su una bilancia calibrata. Se il diamante rimane montato, potrebbe essere necessario stimarne il peso in base alle misurazioni e all'incastonatura.",
+          "Il peso stimato dovrebbe essere identificato come una stima piuttosto che presentato come un peso in carati esatto."
+        ]
+      },
+      {
+        "title": "Colore e chiarezza",
+        "paragraphs": [
+          "Il valutatore esamina il colore visibile, le inclusioni e le caratteristiche superficiali del diamante. Un diamante montato può essere più difficile da valutare con precisione perché l'incastonatura può influenzare l'aspetto o nascondere parte della pietra."
+        ]
+      },
+      {
+        "title": "Taglio e proporzioni",
+        "paragraphs": [
+          "Per una pietra sciolta, le misure e le proporzioni possono essere valutate in modo più accurato. Per un diamante montato, alcune misurazioni potrebbero essere limitate dalla montatura."
+        ]
+      },
+      {
+        "title": "Fluorescenza, trattamenti e condizioni",
+        "paragraphs": [
+          "Il diamante può anche essere esaminato per verificare fluorescenza, trattamenti, scheggiature, abrasioni, cavità o danni. Alcuni trattamenti e domande sull'origine richiedono test di laboratorio avanzati."
+        ]
+      },
+      {
+        "title": "Gioielli e metalli",
+        "paragraphs": [
+          "Per un diamante montato, l'acquirente può anche valutare:"
+        ],
+        "bullets": [
+          "Tipo di metallo prezioso",
+          "Segni distintivi",
+          "Collocamento",
+          "Pietre laterali",
+          "Condizione",
+          "Marchio o designer",
+          "Età e stile",
+          "Riparazioni o ridimensionamenti"
+        ],
+        "closing": "Il diamante centrale e l'incastonatura possono essere valutati separatamente."
+      }
+    ]
+  },
+  "naturalAtHome": {
+    "id": "natural-at-home",
+    "title": "Puoi dire se un diamante è naturale in casa?",
+    "paragraphs": [
+      "I test fatti in casa non possono determinare in modo affidabile se un diamante è naturale, coltivato in laboratorio o trattato.",
+      "Test di nebbia, test di graffio, test di giornali e simili metodi online non sono affidabili e possono danneggiare i gioielli. Un diamante coltivato in laboratorio è ancora un diamante, quindi molti tester di diamanti di base non riescono a distinguerlo da un diamante naturale.",
+      "Non graffiare la pietra, esporla a calore incontrollato o utilizzare prodotti chimici che potrebbero danneggiare l'incastonatura. Se il diamante appare allentato, non continuare a maneggiare o indossare i gioielli.",
+      "Lo screening professionale o i test di laboratorio sono la via responsabile quando l’origine è sconosciuta."
+    ]
+  },
+  "loseValue": {
+    "id": "lose-value",
+    "title": "Un diamante perde valore senza il suo certificato?",
+    "paragraphs": [
+      "La perdita della relazione fisica non modifica le caratteristiche intrinseche del diamante. Il diamante non diventa più piccolo, più incluso o meno tagliato perché manca un documento.",
+      "Tuttavia, la documentazione mancante può creare incertezza. Un acquirente potrebbe dover prevedere la possibilità che:"
+    ],
+    "uncertainties": [
+      "Il diamante è coltivato in laboratorio e non naturale",
+      "I voti inviati non sono accurati",
+      "È presente un trattamento",
+      "Il diamante non corrisponde ad una vecchia valutazione",
+      "Il danno si è verificato dopo un esame precedente",
+      "Sarà richiesta la valutazione di laboratorio",
+      "La pietra deve essere smontata e ripristinata"
+    ],
+    "closing": "Questa ulteriore incertezza e spesa può influenzare l’offerta iniziale o renderla condizionale. Se un rapporto digitale esistente può essere recuperato e abbinato al diamante, potrebbe non essere necessario ottenere un rapporto completamente nuovo."
+  },
+  "newCertificate": {
+    "id": "new-certificate",
+    "title": "Dovrei ottenere un nuovo certificato prima di vendere?",
+    "intro": [
+      "Non tutti i diamanti non certificati dovrebbero essere inviati per la valutazione di laboratorio prima di essere offerti a un acquirente. La decisione dovrebbe considerare la probabile qualità, dimensione, montatura, condizione e mercato previsto del diamante."
+    ],
+    "worthwhileIntro": "Una nuova relazione può essere utile quando:",
+    "worthwhile": [
+      "Il diamante sembra essere una pietra naturale significativa",
+      "La pietra può avere un colore o una chiarezza elevati",
+      "Potrebbe essere un diamante naturale di colore fantasia",
+      "Il diamante non ha documentazione affidabile",
+      "Un rapporto potrebbe ampliare il mercato degli acquirenti",
+      "L'acquirente fa un'offerta condizionata alla classificazione",
+      "C’è incertezza sull’origine o sui trattamenti",
+      "Il report esistente non è più utilizzabile o non corrisponde"
+    ],
+    "notWorthwhileIntro": "Una nuova relazione potrebbe non essere utile quando:",
+    "notWorthwhile": [
+      "Il costo di classificazione e movimentazione è elevato rispetto al valore probabile",
+      "Il diamante è piccolo",
+      "I gioielli contengono molte piccole pietre",
+      "Un acquirente diretto può valutare l'oggetto senza relazione",
+      "La pietra avrebbe bisogno di una rimozione costosa o rischiosa",
+      "Il venditore non ha ancora stabilito se l’oggetto soddisfa i criteri dell’acquirente"
+    ],
+    "closing": "Richiedi una revisione professionale preliminare prima di pagare per la valutazione. Un acquirente o uno specialista indipendente può spiegare se la certificazione può migliorare il processo di vendita.",
+    "ctaText": "CHIEDI SE IL MIO DIAMANTE HA BISOGNO DI CERTIFICAZIONE",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "certificationDecision": {
+    "id": "certification-decision",
+    "title": "Tabella decisionale sulla certificazione dei diamanti",
+    "table": {
+      "caption": "Primi passi consigliati per la situazione dei diamanti non certificati",
+      "headers": [
+        "Situazione",
+        "Primo passo consigliato"
+      ],
+      "rows": [
+        [
+          "Rapporto smarrito ma è noto il numero del rapporto",
+          "Recupera il referto attraverso il database ufficiale del laboratorio"
+        ],
+        [
+          "Il rapporto smarrito e l'iscrizione laser sono visibili",
+          "Registrare l'iscrizione e verificarla con il laboratorio emittente"
+        ],
+        [
+          "Nessun rapporto ma è disponibile la ricevuta originale",
+          "Invia la ricevuta e le fotografie per un controllo preliminare"
+        ],
+        [
+          "Gioielli ereditati senza documenti",
+          "Inizia con l'identificazione fisica e la documentazione di proprietà"
+        ],
+        [
+          "Grande diamante sciolto senza rapporto",
+          "Ottieni consulenza specialistica sulla valutazione di laboratorio"
+        ],
+        [
+          "Diamante montato di origine sconosciuta",
+          "Richiedi uno screening professionale prima del disinserimento"
+        ],
+        [
+          "Anello contenente tanti piccoli diamanti",
+          "Chiedi se la valutazione completa del gioiello è più pratica"
+        ],
+        [
+          "Possibile diamante di colore fantasia",
+          "Richiedere una visita specialistica prima di pulire, modificare o classificare"
+        ],
+        [
+          "Si sospetta un diamante coltivato in laboratorio",
+          "Conferma se l'acquirente previsto acquista diamanti coltivati ​​in laboratorio"
+        ],
+        [
+          "Diamante danneggiato",
+          "Ottenere consigli sulle condizioni prima della certificazione o del nuovo taglio"
+        ]
+      ]
+    }
+  },
+  "mountedCertification": {
+    "id": "mounted-certification",
+    "title": "Può un diamante montato essere certificato?",
+    "paragraphs": [
+      "Alcuni laboratori forniscono rapporti di gioielleria per pietre montate. Tuttavia, un rapporto completo sulla classificazione dei diamanti sciolti potrebbe richiedere la rimozione del diamante centrale dalla sua montatura."
+    ],
+    "limitsIntro": "L’impostazione può limitare la capacità del laboratorio di determinare:",
+    "limits": [
+      "Peso in carati esatto",
+      "Misurazioni complete",
+      "Colore",
+      "Chiarezza",
+      "Condizioni della cintura",
+      "Trattamenti",
+      "Iscrizione laser",
+      "Tutte caratteristiche identificative"
+    ],
+    "labsParagraph": "HRD Anversa fornisce rapporti sia per i diamanti sciolti che per i gioielli, mentre l'IGI fornisce anche rapporti sui gioielli che descrivono le pietre preziose montate e l'incastonatura. Il tipo di report disponibile e il livello di dettaglio devono essere confermati direttamente con il laboratorio scelto.",
+    "closing": "Non rimuovere il diamante da solo. Chiedere:",
+    "questions": [
+      "È necessario il disinserimento?",
+      "Chi rimuoverà il diamante?",
+      "È possibile riutilizzare l'impostazione esistente?",
+      "Chi è responsabile del danno?",
+      "Il ripristino è incluso?",
+      "L'oggetto è assicurato durante il processo?",
+      "È invece sufficiente una denuncia sui gioielli?"
+    ],
+    "finalNote": "Per un anello antico, firmato o delicato, la rimozione potrebbe influire sulle condizioni dell'oggetto o sull'interesse del collezionista."
+  },
+  "helpfulDocuments": {
+    "id": "helpful-documents",
+    "title": "Quali documenti possono aiutare se non è presente alcun certificato?",
+    "paragraphs": [
+      "Un rapporto di classificazione è utile, ma non è l'unico documento che può aiutare a identificare il diamante o stabilirne la storia."
+    ],
+    "itemsIntro": "Invia quelli disponibili:",
+    "items": [
+      "Ricevuta d'acquisto",
+      "Valutazione assicurativa",
+      "Inventario immobiliare",
+      "Documentazione ereditaria",
+      "Scatola originale",
+      "Certificato di marca",
+      "Ricevuta di riparazione",
+      "Ridimensionamento della registrazione",
+      "Fotografia del vecchio certificato",
+      "E-mail dal gioielliere originale",
+      "Numero del rapporto diamante",
+      "Registrazione con iscrizione laser",
+      "Documentazione di vendita o asta precedente"
+    ],
+    "closing": "Questi documenti non sostituiscono la verifica fisica, ma possono fornire informazioni utili e aiutare a stabilire la legittima proprietà. Un rapporto di valutazione non costituisce prova di proprietà. Una persona potrebbe possedere una copia di un rapporto senza possedere il diamante in esso descritto. L'acquirente può quindi comunque richiedere l'identificazione e le informazioni di supporto sulla proprietà."
+  },
+  "inheritedDiamond": {
+    "id": "inherited-diamond",
+    "title": "Posso vendere un diamante ereditato senza documenti?",
+    "paragraphs": [
+      "Sì, i diamanti e i gioielli ereditati spesso arrivano senza le ricevute originali o i rapporti di classificazione.",
+      "Inizia raccogliendo i documenti disponibili attraverso il patrimonio, come un inventario, un testamento, un registro di distribuzione, un vecchio programma assicurativo o una valutazione precedente. Anche le fotografie di famiglia e la confezione originale possono aiutare a identificare un articolo più vecchio o di marca.",
+      "Non pulire, lucidare, riparare o smontare un anello ereditato prima di averne considerato l'età e il design. Il gioiello completo può avere valore antico, di marca o da collezione oltre al diamante centrale.",
+      "Se più persone condividono la proprietà, assicurati che la persona che organizza la vendita abbia l'autorità per completarla."
+    ],
+    "ctaText": "INVIA UN DIAMANTE EREDITATO PER LA REVISIONE",
+    "ctaHref": "#uncertified-diamond-form-top"
+  },
+  "withoutReceipt": {
+    "id": "without-receipt",
+    "title": "Posso vendere un anello di diamanti senza ricevuta?",
+    "paragraphs": [
+      "Non sempre è necessaria una ricevuta per una valutazione iniziale, ma l'acquirente potrebbe aver bisogno di prove ragionevoli che il venditore sia il proprietario dell'anello e abbia il diritto di venderlo.",
+      "Se manca la ricevuta originale, fornire tutta la documentazione disponibile:"
+    ],
+    "alternatives": [
+      "Identificazione",
+      "Documenti assicurativi precedenti",
+      "Documentazione regalo",
+      "Documenti patrimoniali",
+      "Cronologia delle riparazioni",
+      "Vecchie fotografie",
+      "Corrispondenza del gioielliere originale"
+    ],
+    "closing": "I controlli richiesti dipenderanno dall'oggetto e dalla transazione proposta. Non tentare di creare o alterare ricevute, certificati o registrazioni di proprietà."
+  },
+  "whatNotToDo": {
+    "id": "what-not-to-do",
+    "title": "Cosa non fare con un diamante non certificato",
+    "intro": "La mancanza di documenti può rendere i venditori vulnerabili a una consulenza inadeguata. Evitare di intraprendere azioni irreversibili o costose prima che il diamante sia stato esaminato.",
+    "warnings": [
+      {
+        "title": "Non dare per scontato che sia inutile",
+        "text": "L’assenza di una segnalazione non cancella le caratteristiche fisiche del diamante. Chiedere quali test sono necessari prima di accettare un'affermazione che ha poco o nessun valore."
+      },
+      {
+        "title": "Non inventare i voti",
+        "text": "Non descrivere il diamante come colore D, impeccabile o con un peso in carati specifico a meno che le informazioni non provengano da una fonte affidabile. Utilizzare \"sconosciuto\" dove necessario."
+      },
+      {
+        "title": "Non utilizzare test domestici dannosi",
+        "text": "I test antigraffio, termici e chimici possono danneggiare l'anello e tuttavia non riescono a determinare se il diamante è naturale."
+      },
+      {
+        "title": "Non rimuovere il diamante da soli",
+        "text": "Il disinserimento richiede strumenti ed esperienza adeguati. Tentarlo a casa può scheggiare il diamante o danneggiare i gioielli."
+      },
+      {
+        "title": "Non pagare automaticamente la certificazione",
+        "text": "Chiedi se un nuovo rapporto è in grado di migliorare la vendita prima di pagare per la classificazione, il trasporto, il disallestimento e il ripristino."
+      },
+      {
+        "title": "Non inviare l'anello a un indirizzo non verificato",
+        "text": "Inizia con fotografie e documenti disponibili. Conferma i termini dell'acquirente, del trasporto, dell'assicurazione e della restituzione prima di inviare l'articolo fisico."
+      },
+      {
+        "title": "Non confondere una valutazione con un certificato",
+        "text": "Una perizia fornisce un giudizio di valore. Un rapporto di classificazione descrive le caratteristiche gemmologiche del diamante. L'uno non sostituisce automaticamente l'altro."
+      }
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "Come Dalila valuta un diamante senza certificato",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Invia le informazioni che conosci",
+        "text": "Raccontaci se il diamante è sciolto o montato, come è stato acquisito e se possono esistere documenti precedenti. Carica fotografie chiare dell'articolo completo, del diamante centrale, della vista laterale, dei segni distintivi e dei documenti disponibili."
+      },
+      {
+        "number": 2,
+        "title": "Revisione preliminare",
+        "text": "Dalila esamina le fotografie e le informazioni per determinare se l'articolo soddisfa i suoi criteri di acquisto e quali passaggi di verifica potrebbero essere necessari. Nessun voto finale o prezzo di acquisto dovrebbe essere promesso solo dalle fotografie."
+      },
+      {
+        "number": 3,
+        "title": "Segnala ricerca",
+        "text": "Se è disponibile un numero di rapporto o un'iscrizione laser, le informazioni possono essere verificate tramite il sistema ufficiale del laboratorio emittente. Il diamante fisico deve comunque essere abbinato al rapporto."
+      },
+      {
+        "number": 4,
+        "title": "Esame fisico",
+        "text": "Se opportuno, può essere organizzata una valutazione privata ad Anversa. Il diamante può quindi essere esaminato per identità, origine, qualità, trattamenti e condizioni."
+      },
+      {
+        "number": 5,
+        "title": "Raccomandazione di certificazione",
+        "text": "Se un nuovo rapporto di laboratorio potesse supportare materialmente la vendita, Dalila potrebbe spiegare perché potrebbe valere la pena prenderla in considerazione. La decisione dovrebbe tenere conto dei costi di classificazione, movimentazione, trasporto, disallestimento e ripristino."
+      },
+      {
+        "number": 6,
+        "title": "Offerta di acquisto",
+        "text": "Se l'articolo soddisfa i criteri di acquisto di Dalila e le verifiche richieste sono state completate, Dalila potrà fornire un'offerta di acquisto. Il venditore può rivedere l'offerta senza obbligo di procedere."
+      }
+    ],
+    "primaryCtaText": "VALUTA IL MIO DIAMANTE SENZA CERTIFICATO",
+    "primaryCtaHref": "#uncertified-diamond-form-bottom",
+    "secondaryCtaText": "PRENOTA UNA VALUTAZIONE PRIVATA AD ANVERSA",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "idTop": "parte superiore a forma di diamante non certificata",
+    "idBottom": "fondo a forma di diamante non certificato",
+    "leadSource": "sell_diamond_without_certificate",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP e PDF",
+    "title": "Dai valore al mio diamante senza certificato",
+    "subtitle": "Un rapporto di valutazione è facoltativo. Invia ciò che sai e carica fotografie chiare. Dalila spiegherà i prossimi passaggi di verifica.",
+    "optionalNote": "Non sono richiesti il ​​numero del rapporto, il peso esatto in carati, il colore, la purezza e la ricevuta originale.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Cosa stai inviando?"
+      },
+      {
+        "number": 2,
+        "title": "Qual è lo stato del certificato?"
+      },
+      {
+        "number": 3,
+        "title": "Quali informazioni conosci?"
+      },
+      {
+        "number": 4,
+        "title": "Carica fotografie e documenti"
+      },
+      {
+        "number": 5,
+        "title": "Informazioni sui contatti"
+      }
+    ],
+    "itemTypes": [
+      "Diamante sciolto",
+      "Anello di fidanzamento con diamante",
+      "Altro anello con diamanti",
+      "Orecchini di diamanti",
+      "Collana o pendente con diamanti",
+      "Bracciale di diamanti",
+      "Gioielli con diamanti ereditati",
+      "Non ne sono sicuro"
+    ],
+    "certificateStatuses": [
+      "Ho il rapporto originale",
+      "Ho una copia digitale",
+      "Conosco il numero del rapporto",
+      "Ho perso il rapporto",
+      "Il diamante non è mai stato certificato",
+      "Ho ereditato l'oggetto senza documenti",
+      "Non ne sono sicuro"
+    ],
+    "originOptions": [
+      "Diamante naturale",
+      "Diamante coltivato in laboratorio",
+      "Origine sconosciuta"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Altro",
+      "Sconosciuto"
+    ],
+    "labOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Un altro laboratorio",
+      "Sconosciuto",
+      "Non applicabile"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefono",
+      "O email o telefono"
+    ],
+    "evaluationPreferences": [
+      "Solo revisione online",
+      "Appuntamento privato ad Anversa",
+      "Non sono ancora sicuro"
+    ],
+    "uploadHints": [
+      "Articolo di gioielleria completo",
+      "Vista ravvicinata del diamante",
+      "Vista laterale dell'ambiente",
+      "Segni distintivi o firme",
+      "Vecchia ricevuta",
+      "Valutazione precedente",
+      "Fotografia o copia del vecchio rapporto",
+      "Documenti ereditari, se pertinenti"
+    ],
+    "consentText": "Accetto che Dalila Diamonds possa contattarmi in merito a questa richiesta di valutazione. Comprendo che non è richiesto un rapporto di valutazione per una revisione iniziale, ma potrebbero essere necessari un esame fisico o test di laboratorio prima di presentare un'offerta finale.",
+    "submitButton": "Dai valore al mio diamante senza certificato",
+    "submittingButton": "Invio...",
+    "nextButton": "Continuare",
+    "backButton": "Indietro",
+    "successMessage": "Grazie. I dettagli del tuo diamante non certificato sono stati inviati. Un membro del team di Dalila Diamonds ti contatterà a breve.",
+    "errorMessage": "Non è stato possibile inviare la tua richiesta. Controlla i campi obbligatori e riprova.",
+    "labels": {
+      "itemType": "Cosa stai inviando?",
+      "certificateStatus": "Stato del certificato",
+      "origin": "Naturale o coltivato in laboratorio, se noto",
+      "caratWeight": "Peso in carati approssimativo",
+      "shape": "Diamond shape",
+      "gradingLaboratory": "Laboratorio di valutazione, se noto",
+      "reportNumber": "Numero del rapporto, se noto",
+      "purchaseDate": "Data di acquisto originale, se nota",
+      "brand": "Marchio o gioielliere, se noto",
+      "upload": "Carica fotografie e documenti",
+      "dragDrop": "Trascina e rilascia i file qui oppure scegli i file",
+      "fullName": "Nome e cognome",
+      "email": "Indirizzo e-mail",
+      "phone": "Numero di telefono",
+      "country": "Paese",
+      "postcode": "Codice postale",
+      "contactMethod": "Metodo di contatto preferito",
+      "evaluationPreference": "Recensione online o appuntamento ad Anversa",
+      "additionalInfo": "Ulteriori informazioni",
+      "optional": "Opzionale"
+    },
+    "validation": {
+      "itemTypeRequired": "Seleziona ciò che stai inviando.",
+      "certificateRequired": "Seleziona lo stato del certificato.",
+      "nameRequired": "Inserisci il tuo nome completo.",
+      "contactRequired": "Si prega di fornire un indirizzo email o un numero di telefono.",
+      "countryRequired": "Inserisci il tuo paese.",
+      "consentRequired": "Si prega di confermare la dichiarazione di consenso prima di inviarla."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "È possibile vendere un diamante senza certificato?",
+        "answer": "SÌ. Un acquirente professionista può valutare un diamante senza il suo certificato originale. Potrebbero essere necessari ulteriori test o valutazioni di laboratorio prima che venga fatta un'offerta finale."
+      },
+      {
+        "question": "Posso vendere il mio anello con diamanti senza certificato GIA?",
+        "answer": "SÌ. L'acquirente può iniziare con fotografie e documenti disponibili. Se il diamante aveva precedentemente un rapporto GIA, le informazioni del rapporto potrebbero essere recuperabili online quando il numero sarà noto."
+      },
+      {
+        "question": "Un diamante perde valore se si perde il certificato?",
+        "answer": "La perdita del documento non cambia la qualità fisica del diamante. Tuttavia, la documentazione mancante può creare incertezza e costi di verifica aggiuntivi, che potrebbero influire sull’offerta iniziale."
+      },
+      {
+        "question": "Posso sostituire un rapporto GIA smarrito?",
+        "answer": "GIA non fornisce rapporti duplicati. Se il numero del rapporto è noto, i suoi dati possono essere visualizzati tramite GIA Report Check e sono disponibili PDF per molti rapporti datati dopo il 1° luglio 2010."
+      },
+      {
+        "question": "Posso recuperare un rapporto sui diamanti HRD di Anversa online?",
+        "answer": "SÌ. My HRD Antwerp fornisce l'accesso online al proprio archivio dei rapporti quando sono disponibili il numero del rapporto pertinente o le informazioni di identificazione esterna."
+      },
+      {
+        "question": "Posso verificare un rapporto IGI online?",
+        "answer": "SÌ. IGI fornisce un servizio ufficiale di verifica del rapporto in cui gli utenti possono inserire il numero del rapporto."
+      },
+      {
+        "question": "Un gioielliere può identificare il mio diamante senza certificato?",
+        "answer": "Un professionista adeguatamente attrezzato potrà effettuare una prima identificazione. Potrebbero essere ancora necessari test avanzati per determinare se il diamante è naturale, coltivato in laboratorio o trattato."
+      },
+      {
+        "question": "Dovrei ottenere un nuovo certificato prima di vendere il mio diamante?",
+        "answer": "Non sempre. Richiedi prima una valutazione preliminare. Il costo e il vantaggio della classificazione dipendono dalla probabile qualità, dimensione, condizione e incastonatura del diamante."
+      },
+      {
+        "question": "Un diamante montato può ricevere un rapporto di valutazione?",
+        "answer": "Alcuni laboratori rilasciano rapporti di gioielleria per i diamanti montati. Un rapporto completo sul diamante sciolto può richiedere la rimozione della pietra dalla sua montatura."
+      },
+      {
+        "question": "Posso vendere un diamante ereditato senza documenti?",
+        "answer": "SÌ. Fornire eventuali documenti immobiliari disponibili, valutazioni precedenti, fotografie e informazioni sulla proprietà. Potrebbe essere necessario un esame fisico."
+      },
+      {
+        "question": "La valutazione di un diamante è la stessa cosa di un certificato?",
+        "answer": "No. Una valutazione assegna un valore monetario per uno scopo dichiarato. Un rapporto di classificazione descrive le caratteristiche tecniche del diamante."
+      },
+      {
+        "question": "Dalila può fornire un prezzo istantaneo senza certificato?",
+        "answer": "Un prezzo finale immediato non dovrebbe essere promesso solo dalle fotografie. Dalila può iniziare con una revisione preliminare e spiegare quale verifica è richiesta."
+      },
+      {
+        "question": "Dalila acquista tutti i diamanti non certificati?",
+        "answer": "No. Dalila deve prima determinare se il diamante soddisfa i suoi criteri di acquisto e completare i controlli necessari."
+      },
+      {
+        "question": "Devo vendere dopo la valutazione?",
+        "answer": "No. La richiesta di una valutazione non richiede l'accettazione di un'offerta."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "start-anyway",
+    "title": "La mancanza di un certificato non dovrebbe impedirti di iniziare",
+    "paragraphs": [
+      "Un rapporto di valutazione può rendere un diamante più facile da identificare e confrontare, ma la perdita del documento non rende la pietra priva di valore.",
+      "Inizia con le informazioni che hai. Invia fotografie chiare, vecchie ricevute, valutazioni o numeri di rapporti e consenti a uno specialista di determinare il passaggio successivo appropriato.",
+      "Se possiedi un diamante naturale o un anello con diamante senza il suo certificato originale, richiedi una revisione privata a Dalila Diamonds."
+    ],
+    "primaryButtonText": "INVIA IL MIO DIAMANTE SENZA CERTIFICATO",
+    "primaryButtonHref": "#uncertified-diamond-form-bottom",
+    "secondaryButtonText": "PARLA CON UNO SPECIALISTA DEI DIAMANTI",
+    "secondaryButtonHref": "/contact"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "vendi il tuo diamante ad Anversa"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calcolatore di valutazione dei diamanti"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "dove vendere un anello con diamante"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "vendere un anello di diamanti in modo sicuro"
+    },
+    "appraisalAntwerp": {
+      "href": "/resources/diamond-appraisal-antwerp-belgium",
+      "text": "valutazione dei diamanti ad Anversa"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "verificare un rapporto GIA, HRD o IGI"
+    }
+  }
+}

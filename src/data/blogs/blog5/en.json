@@ -1,0 +1,1413 @@
+{
+  "meta": {
+    "title": "Cushion Cut Diamond Guide | Dalila Diamonds",
+    "description": "Learn how to choose a cushion cut diamond by shape, ratio, facet pattern, colour, clarity, spread and setting. Compare square and elongated cushions.",
+    "canonical": "https://www.daliladiamonds.com/blogs/cushion-cut-diamond",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Cushion cut diamond",
+    "inLanguage": "en-GB"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/cushion-cut-diamond-guide.webp",
+      "alt": "Square and elongated cushion cut natural diamonds compared on an Antwerp inspection tray",
+      "width": 1600,
+      "height": 900
+    },
+    "facetPatterns": {
+      "src": "/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
+      "alt": "Cushion brilliant modified brilliant and crushed-ice facet patterns compared",
+      "width": 1400,
+      "height": 1000
+    },
+    "ratios": {
+      "src": "/images/blogs/square-elongated-cushion-diamond-ratios.webp",
+      "alt": "Square rectangular and elongated cushion diamond length-to-width ratios",
+      "width": 1400,
+      "height": 1000
+    },
+    "inspectionMap": {
+      "src": "/images/blogs/cushion-cut-diamond-quality-checks.webp",
+      "alt": "Outline brightness spread corners and girdle checks for a cushion cut diamond",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Cushion Cut Diamond Guide",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "Cushion Cut Diamond Guide",
+    "imageAlt": "Cushion cut diamond guide banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "Cushion Cut Diamond Guide: How to Choose the Right Shape, Ratio and Quality",
+    "subheading": "Compare square and elongated cushions by outline, ratio, facet pattern, spread, colour, clarity and setting—then inspect the actual stone, because the report alone cannot grade cushion cut quality.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "6 August 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "A cushion cut diamond combines a square or rectangular outline with curved sides and softened corners. Its pillow-like shape can produce anything from broad, defined flashes to a finer crushed-ice appearance.",
+      "That variety is one of the cushion cut’s main attractions—but it also makes cushion diamonds harder to compare.",
+      "Two cushion cut natural diamonds can have the same carat, colour and clarity grades while displaying different outlines, face-up sizes, facet patterns and light performance. One may appear bright and balanced; another may hide weight below the girdle or show a dull centre.",
+      "Choosing well therefore requires more than finding an acceptable ratio or reading the laboratory report."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "question": "A high-quality cushion cut diamond should have:",
+    "introParagraphs": [],
+    "attributes": [
+      "An attractive square or elongated outline",
+      "Balanced sides and corners",
+      "Good face-up size for its carat weight",
+      "Brightness across the complete stone",
+      "A facet pattern that suits the buyer’s preference",
+      "No large persistent dark or watery areas",
+      "Suitable colour and eye-clean clarity",
+      "A secure girdle without vulnerable extremes",
+      "A verified grading report",
+      "A price that reflects its complete visual quality"
+    ],
+    "closingParagraphs": [
+      "GIA reports may describe a diamond as Cushion Brilliant or Cushion Modified Brilliant, but GIA does not currently assign an overall cut grade to cushion diamonds.",
+      "The report should be used as a technical filter. The final decision must include inspection of the actual diamond or a reliable high-quality video."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "Cushion cut diamonds can be square, rectangular or distinctly elongated.",
+      "There is no single ideal cushion cut ratio.",
+      "Ratio describes the outline but does not measure sparkle or cut quality.",
+      "GIA currently does not provide an overall cut grade for cushion diamonds.",
+      "Cushion Brilliant and Cushion Modified Brilliant are laboratory descriptions of facet arrangements.",
+      "“Crushed ice” is a trade description, not a standard GIA quality grade.",
+      "Modified brilliant does not automatically mean crushed ice.",
+      "Cushion diamonds can display broad flashes, fragmented reflections or a mixture of both.",
+      "Table and depth percentages should be used for comparison, not as universal pass-or-fail rules.",
+      "Carat measures weight, not visible size.",
+      "Compare millimetre measurements when judging face-up spread.",
+      "Rounded corners make cushions less vulnerable than shapes with sharp points, but the setting must still protect the stone.",
+      "Colour can appear differently depending on the facet pattern, metal and lighting.",
+      "Many cushion diamonds can be eye-clean at VS2 or carefully selected SI1, but every stone must be inspected.",
+      "The best cushion is the one that balances outline, brightness, spread, durability, documentation and price."
+    ]
+  },
+  "overviewNav": {
+    "title": "Article Overview",
+    "items": [
+      { "id": "what-is-a-cushion-cut-diamond", "label": "What is a cushion cut diamond?" },
+      { "id": "cushion-cut-versus-cushion-shape", "label": "Cushion cut versus cushion shape" },
+      { "id": "cushion-brilliant-versus-modified", "label": "Cushion brilliant versus modified brilliant" },
+      { "id": "what-does-crushed-ice-mean", "label": "What does “crushed ice” mean?" },
+      { "id": "square-versus-elongated", "label": "Square versus elongated cushion cut diamonds" },
+      { "id": "length-to-width-ratio", "label": "Cushion cut length-to-width ratio" },
+      { "id": "ideal-cushion-cut-ratio", "label": "Is there an ideal cushion cut ratio?" },
+      { "id": "does-gia-grade-cushion-cut", "label": "Does GIA grade cushion cut quality?" },
+      { "id": "how-to-read-cushion-report", "label": "How to read a cushion diamond report" },
+      { "id": "table-and-depth-charts", "label": "Should you use table and depth charts?" },
+      { "id": "how-to-evaluate-cushion-cut-quality", "label": "How to evaluate cushion cut quality" },
+      { "id": "broad-facets-versus-crushed-ice", "label": "Broad facets versus crushed-ice facets" },
+      { "id": "best-colour-for-cushion", "label": "What colour is best for a cushion cut diamond?" },
+      { "id": "best-clarity-for-cushion", "label": "What clarity is best for a cushion cut diamond?" },
+      { "id": "does-cushion-look-large", "label": "Does a cushion cut diamond look large?" },
+      { "id": "cushion-size-comparison", "label": "Cushion cut diamond size comparison" },
+      { "id": "cushion-versus-radiant", "label": "Cushion cut versus radiant cut" },
+      { "id": "cushion-versus-princess", "label": "Cushion cut versus princess cut" },
+      { "id": "cushion-versus-old-mine", "label": "Cushion cut versus old mine cut" },
+      { "id": "best-settings-for-cushion", "label": "Best settings for cushion cut diamonds" },
+      { "id": "which-metal-is-best", "label": "Which metal is best?" },
+      { "id": "what-makes-cushion-expensive", "label": "What makes a cushion cut diamond expensive?" },
+      { "id": "buying-decision-table", "label": "Cushion cut buying decision table" },
+      { "id": "warning-signs", "label": "Warning signs" },
+      { "id": "common-buying-mistakes", "label": "Common cushion cut buying mistakes" },
+      { "id": "buying-checklist", "label": "Complete cushion cut diamond checklist" },
+      { "id": "an-antwerp-sourcing-perspective", "label": "An Antwerp sourcing perspective" },
+      { "id": "final-answer", "label": "Final answer: how should you choose a cushion cut diamond?" }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-cushion-cut-diamond",
+    "title": "What Is a Cushion Cut Diamond?",
+    "introParagraphs": [
+      "A cushion cut diamond normally has:"
+    ],
+    "bullets": [
+      "A square or rectangular outline",
+      "Curved sides",
+      "Rounded or softly defined corners",
+      "Brilliant-style facets",
+      "A pillow-like face-up appearance"
+    ],
+    "closingParagraphs": [
+      "According to GIA’s cushion cut diamond history and design guide, modern cushion brilliant diamonds are generally square or squarish-rectangular and can use different pavilion facet arrangements.",
+      "This variation means that cushion cut diamonds do not all sparkle in the same way."
+    ],
+    "subsections": [
+      {
+        "id": "some-cushions-show",
+        "title": "Some Show",
+        "paragraphsBefore": [],
+        "bullets": [
+          "Large, clearly defined flashes",
+          "A balanced central pattern",
+          "Strong contrast during movement"
+        ]
+      },
+      {
+        "id": "others-show",
+        "title": "Others Show",
+        "paragraphsBefore": [],
+        "bullets": [
+          "Smaller fragmented reflections",
+          "A crushed-ice appearance",
+          "Concentrated sparkle near the edges",
+          "A mixture of broad and fine reflections"
+        ],
+        "paragraphsAfter": [
+          "Neither appearance is automatically superior. The decision depends on visual performance and buyer preference."
+        ]
+      }
+    ]
+  },
+  "cushionVsShape": {
+    "id": "cushion-cut-versus-cushion-shape",
+    "title": "Cushion Cut Versus Cushion Shape",
+    "introParagraphs": [
+      "“Cushion” describes the diamond’s outline and cutting style. It does not guarantee a particular level of quality.",
+      "A cushion diamond may be:"
+    ],
+    "bullets": [
+      "Nearly square",
+      "Softly rectangular",
+      "Elongated",
+      "Broad and rounded",
+      "More angular",
+      "Antique in appearance",
+      "Modern and highly scintillating",
+      "Broad-faceted",
+      "Modified or crushed-ice in appearance"
+    ],
+    "closingParagraphs": [
+      "This is why buyers should inspect the exact diamond rather than relying on the word “cushion” alone."
+    ]
+  },
+  "brilliantVsModified": {
+    "id": "cushion-brilliant-versus-modified",
+    "title": "Cushion Brilliant Versus Cushion Modified Brilliant",
+    "introParagraphs": [
+      "The grading report may describe the shape and cutting style as either Cushion Brilliant or Cushion Modified Brilliant."
+    ],
+    "subsections": [
+      {
+        "id": "cushion-brilliant",
+        "title": "Cushion Brilliant",
+        "paragraphsBefore": [
+          "A cushion brilliant generally uses a pavilion arrangement related more closely to traditional brilliant-style cutting.",
+          "It may show:"
+        ],
+        "bullets": [
+          "Broader flashes",
+          "More defined facet reflections",
+          "A visible pattern extending from the centre",
+          "A more organised appearance during movement"
+        ],
+        "paragraphsAfter": [
+          "However, not every cushion brilliant looks identical."
+        ]
+      },
+      {
+        "id": "cushion-modified-brilliant",
+        "title": "Cushion Modified Brilliant",
+        "paragraphsBefore": [
+          "A cushion modified brilliant includes additional or altered facets.",
+          "It may show:"
+        ],
+        "bullets": [
+          "Smaller reflections",
+          "More fragmented scintillation",
+          "A crushed-ice appearance",
+          "A mixture of broad and fine flashes",
+          "Different patterns in the centre and outer areas"
+        ],
+        "paragraphsAfter": [
+          "“Modified” does not mean poor quality. It describes the facet arrangement, not whether the diamond is beautiful."
+        ]
+      },
+      {
+        "id": "important-buying-rule",
+        "title": "Important Buying Rule",
+        "paragraphsBefore": [
+          "Do not choose between Cushion Brilliant and Cushion Modified Brilliant from the report description alone.",
+          "A modified brilliant can be bright and attractive. A cushion brilliant can still show weak areas or an outline the buyer dislikes.",
+          "Always inspect:"
+        ],
+        "bullets": [
+          "Brightness",
+          "Contrast",
+          "Movement",
+          "Central pattern",
+          "Edge-to-edge performance",
+          "Face-up spread",
+          "Outline appeal"
+        ]
+      }
+    ]
+  },
+  "crushedIce": {
+    "id": "what-does-crushed-ice-mean",
+    "title": "What Does “Crushed Ice” Mean?",
+    "introParagraphs": [
+      "“Crushed ice” is a trade term used for a diamond showing many small, fragmented reflections that resemble crushed pieces of ice.",
+      "It is not an official GIA quality grade.",
+      "A crushed-ice cushion can offer:"
+    ],
+    "bullets": [
+      "Lively, fine scintillation",
+      "A soft or romantic appearance",
+      "Less obvious dark contrast",
+      "A distinctive glittering pattern"
+    ],
+    "closingParagraphs": [
+      "However, some crushed-ice cushions can appear:"
+    ],
+    "closingBullets": [
+      "Watery",
+      "Grey",
+      "Mushy",
+      "Weak through the centre",
+      "Bright only around the edges"
+    ],
+    "finalParagraphs": [
+      "The issue is not whether the pattern is called crushed ice. The issue is whether the diamond returns light attractively and remains lively under ordinary lighting.",
+      "A cushion modified brilliant may show a crushed-ice pattern, but the report description alone cannot confirm how strong that effect will be."
+    ]
+  },
+  "squareVsElongated": {
+    "id": "square-versus-elongated",
+    "title": "Square Versus Elongated Cushion Cut Diamonds",
+    "introParagraphs": [
+      "Part of the cushion cut’s appeal is its range of outlines.",
+      "GIA’s cushion cut engagement-ring guide confirms that cushions range from rounded-square shapes to elongated rectangular proportions."
+    ],
+    "subsections": [
+      {
+        "id": "square-cushion-cut",
+        "title": "Square Cushion Cut",
+        "paragraphsBefore": [
+          "A square cushion normally has a length-to-width ratio close to 1.00.",
+          "It can offer:"
+        ],
+        "bullets": [
+          "A balanced, symmetrical appearance",
+          "A traditional cushion silhouette",
+          "Easy use in halo and solitaire designs",
+          "A broad face-up shape"
+        ]
+      },
+      {
+        "id": "elongated-cushion-cut",
+        "title": "Elongated Cushion Cut",
+        "paragraphsBefore": [
+          "An elongated cushion has a visibly greater length than width.",
+          "It can offer:"
+        ],
+        "bullets": [
+          "A longer finger appearance",
+          "A more contemporary silhouette",
+          "Greater visual coverage along the finger",
+          "A shape between a traditional cushion and an elongated radiant"
+        ],
+        "paragraphsAfter": [
+          "The longer outline does not automatically make the diamond larger or better cut. Some elongated cushions carry excess depth or show uneven brightness."
+        ]
+      }
+    ]
+  },
+  "lengthToWidth": {
+    "id": "length-to-width-ratio",
+    "title": "Cushion Cut Length-to-Width Ratio",
+    "introParagraphs": [
+      "Calculate the ratio as:",
+      "Length ÷ Width = Length-to-width ratio",
+      "For example:",
+      "7.50 mm ÷ 6.25 mm = 1.20",
+      "The following ranges can be used as practical sorting descriptions. They are not official GIA quality grades."
+    ],
+    "table": {
+      "caption": "Practical cushion cut length-to-width ratio ranges",
+      "headers": ["Length-to-width ratio", "General appearance"],
+      "rows": [
+        ["1.00–1.05", "Square or nearly square"],
+        ["1.06–1.15", "Softly rectangular"],
+        ["1.16–1.30", "Elongated cushion"],
+        ["Above 1.30", "Strongly elongated"]
+      ]
+    },
+    "closingParagraphs": [
+      "Small differences in corner shape and side curvature can make two diamonds with the same ratio look different.",
+      "Use the ratio to shortlist the preferred silhouette. Do not use it as proof of cut quality."
+    ]
+  },
+  "idealRatio": {
+    "id": "ideal-cushion-cut-ratio",
+    "title": "Is There an Ideal Cushion Cut Ratio?",
+    "introParagraphs": [
+      "No universal ratio is ideal for every cushion diamond.",
+      "The best ratio depends on:"
+    ],
+    "bullets": [
+      "Personal preference",
+      "Finger shape",
+      "Ring design",
+      "Square or elongated styling",
+      "Side stones",
+      "Halo proportions",
+      "Facet pattern",
+      "Actual light performance"
+    ],
+    "closingParagraphs": [
+      "A ratio of 1.20 may look graceful in one diamond and poorly balanced in another because the corners, shoulders and weight distribution differ.",
+      "Outline and ratio must be evaluated together."
+    ]
+  },
+  "doesGiaGrade": {
+    "id": "does-gia-grade-cushion-cut",
+    "title": "Does GIA Grade Cushion Cut Quality?",
+    "introParagraphs": [
+      "As of July 2026, GIA does not assign an overall cut grade to cushion-shaped diamonds.",
+      "GIA’s current cut-grade guidance states that its overall cut grade currently applies to standard round brilliant diamonds in the D-to-Z colour range.",
+      "A standard GIA cushion diamond report may still provide:"
+    ],
+    "bullets": [
+      "Shape and cutting style",
+      "Measurements",
+      "Carat weight",
+      "Colour",
+      "Clarity",
+      "Table percentage",
+      "Depth percentage",
+      "Girdle description",
+      "Culet",
+      "Polish",
+      "Symmetry",
+      "Fluorescence",
+      "Clarity characteristics",
+      "Report comments"
+    ],
+    "closingParagraphs": [
+      "Polish and symmetry are important, but they do not collectively equal an overall cushion cut grade.",
+      "They cannot confirm:"
+    ],
+    "closingBullets": [
+      "Brightness",
+      "Fire",
+      "Scintillation",
+      "Face-up spread",
+      "Outline appeal",
+      "Crushed-ice strength",
+      "Persistent dark areas",
+      "Watery zones",
+      "Personal preference"
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Read Dalila’s " },
+        { "type": "link", "text": "fancy-shaped diamond cut quality guide", "href": "/blogs/fancy-shaped-diamond-cut-quality" },
+        { "type": "text", "value": " for the complete report-plus-visual-inspection process." }
+      ]
+    ]
+  },
+  "howToReadReport": {
+    "id": "how-to-read-cushion-report",
+    "title": "How to Read a Cushion Diamond Report",
+    "introParagraphs": [
+      "Start by confirming the report through the issuing laboratory’s official verification system, such as GIA Report Check.",
+      "Then review the following information."
+    ],
+    "subsections": [
+      {
+        "id": "shape-and-cutting-style",
+        "title": "Shape and Cutting Style",
+        "paragraphsBefore": [
+          "Confirm whether the report states:"
+        ],
+        "bullets": [
+          "Cushion Brilliant",
+          "Cushion Modified Brilliant",
+          "Another related description"
+        ],
+        "paragraphsAfter": [
+          "The laboratory description must correspond with the diamond being offered."
+        ]
+      },
+      {
+        "id": "measurements",
+        "title": "Measurements",
+        "paragraphsBefore": [
+          "Measurements normally show:",
+          "Length × Width × Depth in millimetres",
+          "Use the length and width to:"
+        ],
+        "bullets": [
+          "Calculate the ratio",
+          "Compare visible size",
+          "Identify square or elongated proportions",
+          "Compare stones of similar weight"
+        ]
+      },
+      {
+        "id": "table-percentage",
+        "title": "Table Percentage",
+        "paragraphsBefore": [
+          "The table percentage describes the width of the table relative to the diamond’s width.",
+          "It can help compare candidates, but it cannot prove brightness or overall quality."
+        ]
+      },
+      {
+        "id": "depth-percentage",
+        "title": "Depth Percentage",
+        "paragraphsBefore": [
+          "Depth percentage helps show how much weight is positioned vertically.",
+          "A deep diamond may:"
+        ],
+        "bullets": [
+          "Carry hidden weight",
+          "Appear smaller from above",
+          "Have a smaller face-up spread"
+        ],
+        "paragraphsAfter": [
+          "A shallow diamond may appear wide but can suffer from weak light return."
+        ]
+      },
+      {
+        "id": "girdle",
+        "title": "Girdle",
+        "paragraphsBefore": [
+          "Check whether the girdle contains:"
+        ],
+        "bullets": [
+          "Extremely thin areas",
+          "Excessively thick areas",
+          "Large variations",
+          "Naturals",
+          "Chips",
+          "Abrasions",
+          "Surface-reaching inclusions"
+        ],
+        "paragraphsAfter": [
+          "A thick girdle can hold weight without adding visible size. An extremely thin area may create durability concerns."
+        ]
+      },
+      {
+        "id": "polish-and-symmetry",
+        "title": "Polish and Symmetry",
+        "paragraphsBefore": [
+          "These grades evaluate surface finish and alignment.",
+          "Very Good or Excellent polish and symmetry are positive signs, but the complete diamond must still be inspected visually."
+        ]
+      },
+      {
+        "id": "clarity-plot-and-comments",
+        "title": "Clarity Plot and Comments",
+        "paragraphsBefore": [
+          "Review:"
+        ],
+        "bullets": [
+          "Inclusion type",
+          "Inclusion size",
+          "Inclusion position",
+          "Surface-reaching features",
+          "Reflections of inclusions",
+          "Additional comments",
+          "Laser inscription details"
+        ],
+        "paragraphsAfter": [
+          "An inclusion near a corner or girdle may require closer durability assessment."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "GIA report-reading guide", "href": "/blogs/how-to-read-gia-diamond-certificate" },
+        { "type": "text", "value": " explains the remaining report fields in more detail." }
+      ]
+    ]
+  },
+  "tableDepthCharts": {
+    "id": "table-and-depth-charts",
+    "title": "Should You Use Table and Depth Charts?",
+    "introParagraphs": [
+      "Table and depth percentages are useful screening tools, but there is no single percentage combination that guarantees a beautiful cushion.",
+      "Cushion diamonds vary in:"
+    ],
+    "bullets": [
+      "Outline",
+      "Crown height",
+      "Pavilion structure",
+      "Number and arrangement of facets",
+      "Corner shape",
+      "Weight distribution",
+      "Optical pattern"
+    ],
+    "closingParagraphs": [
+      "Two cushions with similar percentages can show entirely different brightness and face-up patterns.",
+      "Use percentages to identify unusual candidates and support visual inspection—not to approve or reject a diamond automatically."
+    ]
+  },
+  "evaluateQuality": {
+    "id": "how-to-evaluate-cushion-cut-quality",
+    "title": "How to Evaluate Cushion Cut Quality",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-check-the-outline",
+        "title": "Step 1: Check the Outline",
+        "paragraphsBefore": [
+          "View the diamond face-up.",
+          "Look for:"
+        ],
+        "bullets": [
+          "Equal left and right sides",
+          "Balanced top and bottom sections",
+          "Consistent corners",
+          "Graceful curves",
+          "No accidental bulging",
+          "No flat or collapsed side",
+          "Centred table",
+          "Intended square or elongated appearance"
+        ],
+        "paragraphsAfter": [
+          "Personal taste matters, but the outline should appear deliberate and balanced."
+        ]
+      },
+      {
+        "id": "step-2-compare-face-up-size",
+        "title": "Step 2: Compare Face-Up Size",
+        "paragraphsBefore": [
+          "Carat measures weight, not visible size.",
+          "Compare millimetre measurements between diamonds with similar:"
+        ],
+        "bullets": [
+          "Carat weight",
+          "Ratio",
+          "Shape",
+          "Facet pattern"
+        ],
+        "paragraphsAfter": [
+          "A diamond that appears unusually small for its weight may carry extra mass in its depth or girdle."
+        ],
+        "richParagraphsAfter": [
+          [
+            { "type": "text", "value": "Use Dalila’s " },
+            { "type": "link", "text": "diamond size in millimetres guide", "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide" },
+            { "type": "text", "value": " to understand why carat and visible dimensions are different measurements." }
+          ]
+        ]
+      },
+      {
+        "id": "step-3-inspect-the-centre",
+        "title": "Step 3: Inspect the Centre",
+        "paragraphsBefore": [
+          "The centre should not remain:"
+        ],
+        "bullets": [
+          "Dark",
+          "Transparent",
+          "Grey",
+          "Dull",
+          "Watery",
+          "Visually empty"
+        ],
+        "paragraphsAfter": [
+          "Some contrast is necessary because it helps define the facet pattern. The concern is a large inactive area that remains unattractive as the stone moves."
+        ]
+      },
+      {
+        "id": "step-4-check-edge-to-edge-brightness",
+        "title": "Step 4: Check Edge-to-Edge Brightness",
+        "paragraphsBefore": [
+          "Look beyond the centre.",
+          "Inspect whether the corners and outer areas:"
+        ],
+        "bullets": [
+          "Return light",
+          "Remain lively",
+          "Match each other",
+          "Avoid excessive darkness",
+          "Avoid weak transparent zones"
+        ],
+        "paragraphsAfter": [
+          "A diamond that sparkles only around its edges but appears weak through the centre requires closer review."
+        ]
+      },
+      {
+        "id": "step-5-move-the-diamond",
+        "title": "Step 5: Move the Diamond",
+        "paragraphsBefore": [
+          "Scintillation is observed when the stone or light source moves.",
+          "A useful video should include:"
+        ],
+        "bullets": [
+          "Face-up view",
+          "Slow left-to-right movement",
+          "Forward and backward tilt",
+          "Side profile",
+          "Neutral lighting",
+          "A neutral background"
+        ],
+        "paragraphsAfter": [
+          "Look for a balanced alternation of bright and dark facets."
+        ]
+      },
+      {
+        "id": "step-6-change-the-lighting",
+        "title": "Step 6: Change the Lighting",
+        "paragraphsBefore": [
+          "Inspect the diamond under:"
+        ],
+        "bullets": [
+          "Diffused daylight",
+          "Neutral indoor lighting",
+          "Spotlighting",
+          "Mixed ordinary room light"
+        ],
+        "paragraphsAfter": [
+          "Strong retail spotlights can make weak diamonds appear lively. Diffused lighting is better for identifying dark, grey or watery areas."
+        ]
+      },
+      {
+        "id": "step-7-compare-similar-cushion-types",
+        "title": "Step 7: Compare Similar Cushion Types",
+        "paragraphsBefore": [
+          "Compare:"
+        ],
+        "bullets": [
+          "Square cushions with other square cushions",
+          "Elongated cushions with similarly elongated cushions",
+          "Broad-faceted stones with broad-faceted stones",
+          "Crushed-ice patterns with similar patterns"
+        ],
+        "paragraphsAfter": [
+          "This makes the comparison more reliable."
+        ]
+      }
+    ]
+  },
+  "broadVsCrushedIce": {
+    "id": "broad-facets-versus-crushed-ice",
+    "title": "Broad Facets Versus Crushed-Ice Facets",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Broad-faceted versus crushed-ice cushion appearance",
+      "headers": ["Feature", "Broad-faceted appearance", "Crushed-ice appearance"],
+      "rows": [
+        ["Reflections", "Larger and more defined", "Smaller and fragmented"],
+        ["Contrast", "Usually more visible", "Often softer"],
+        ["Movement", "Broad flashes", "Fine glittering scintillation"],
+        ["Pattern", "More organised", "More splintered"],
+        ["Possible concern", "Large dark zones", "Watery or mushy centre"],
+        ["Best choice", "Depends on buyer preference", "Depends on buyer preference"]
+      ]
+    },
+    "closingParagraphs": [
+      "Neither pattern should be presented as universally better.",
+      "The best choice is the one that remains bright, balanced and attractive under normal viewing conditions."
+    ]
+  },
+  "bestColour": {
+    "id": "best-colour-for-cushion",
+    "title": "What Colour Is Best for a Cushion Cut Diamond?",
+    "introParagraphs": [
+      "There is no single best colour grade.",
+      "The appropriate grade depends on:"
+    ],
+    "bullets": [
+      "Facet pattern",
+      "Diamond size",
+      "Square or elongated outline",
+      "Setting metal",
+      "Viewing angle",
+      "Budget",
+      "Personal sensitivity to warmth"
+    ],
+    "closingParagraphs": [
+      "Some cushions may show slight body colour more readily than a well-cut round brilliant. Other cushions face up whiter than expected because of their individual light return.",
+      "A practical starting point is:"
+    ],
+    "table": {
+      "caption": "Starting colour inspection ranges for cushion cut diamonds",
+      "headers": ["Buyer priority", "Starting range for inspection"],
+      "rows": [
+        ["Premium colourless appearance", "D–F"],
+        ["Near-colourless balance", "G–H"],
+        ["Value in warm metal", "H–J"],
+        ["Fancy-colour diamond", "Evaluate colour intensity and distribution separately"]
+      ]
+    },
+    "finalParagraphs": [
+      "These are inspection ranges, not guarantees."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "For a more complete decision, use Dalila’s " },
+        { "type": "link", "text": "best diamond colour and clarity combination guide", "href": "/blogs/best-diamond-colour-clarity-combination" },
+        { "type": "text", "value": "." }
+      ]
+    ]
+  },
+  "bestClarity": {
+    "id": "best-clarity-for-cushion",
+    "title": "What Clarity Is Best for a Cushion Cut Diamond?",
+    "introParagraphs": [
+      "Many cushion cut diamonds can hide small inclusions effectively because of their brilliant-style facets.",
+      "However, visibility depends on:"
+    ],
+    "bullets": [
+      "Inclusion size",
+      "Inclusion position",
+      "Inclusion colour or relief",
+      "Facet pattern",
+      "Diamond size",
+      "Viewing distance",
+      "Inclusion reflections",
+      "Transparency"
+    ],
+    "closingParagraphs": [
+      "VS2 is a strong general starting point. A carefully selected SI1 can provide excellent value when it is genuinely eye-clean and transparent.",
+      "Choose a higher clarity when:"
+    ],
+    "closingBullets": [
+      "The inclusion is visible without magnification",
+      "The diamond is large",
+      "The facet pattern has broad open areas",
+      "An inclusion sits beneath the table",
+      "An inclusion reflects across the stone",
+      "A feature reaches the surface",
+      "A corner or girdle may be weakened"
+    ],
+    "finalParagraphs": [
+      "Do not pay for VVS or Flawless clarity solely because the report grade is rare. Choose it when rarity or prestige is part of the buyer’s objective."
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "4Cs of natural diamonds guide", "href": "/blogs/4cs-of-natural-diamonds-explained" },
+        { "type": "text", "value": " explains how colour, clarity, cut and carat work together when comparing natural diamonds." }
+      ]
+    ]
+  },
+  "looksLarge": {
+    "id": "does-cushion-look-large",
+    "title": "Does a Cushion Cut Diamond Look Large?",
+    "introParagraphs": [
+      "It depends on its measurements and weight distribution.",
+      "Compared with some elongated shapes, a square cushion may appear compact because its weight can be distributed through:"
+    ],
+    "bullets": [
+      "A deeper pavilion",
+      "A high crown",
+      "Rounded corners",
+      "A thick girdle"
+    ],
+    "closingParagraphs": [
+      "An elongated cushion may cover more of the finger from top to bottom, but this does not guarantee greater total face-up area.",
+      "When comparing size:"
+    ],
+    "closingBullets": [
+      "Match similar carat weights.",
+      "Match similar ratios.",
+      "Compare length and width in millimetres.",
+      "Review depth and girdle thickness.",
+      "Check whether the larger-looking diamond still performs well."
+    ],
+    "finalParagraphs": [
+      "Do not select a shallow or poorly performing diamond merely because it has larger face-up dimensions."
+    ]
+  },
+  "sizeComparison": {
+    "id": "cushion-size-comparison",
+    "title": "Cushion Cut Diamond Size Comparison",
+    "introParagraphs": [
+      "Approximate dimensions vary considerably between individual stones. Use the following only as a comparison framework:"
+    ],
+    "table": {
+      "caption": "What to compare by carat weight for cushion cut diamonds",
+      "headers": ["Carat weight", "What to compare"],
+      "rows": [
+        ["0.50 ct", "Millimetre width and outline definition"],
+        ["0.75 ct", "Square versus softly elongated spread"],
+        ["1.00 ct", "Hidden depth and corner shape"],
+        ["1.50 ct", "Colour visibility and central performance"],
+        ["2.00 ct", "Face-up spread, transparency and inclusion visibility"],
+        ["3.00 ct and above", "Detailed light performance, colour distribution and durability"]
+      ]
+    },
+    "closingParagraphs": [
+      "Never assign an exact millimetre size to every cushion of the same carat weight. Measurements change according to ratio, depth, girdle and cutting design."
+    ]
+  },
+  "vsRadiant": {
+    "id": "cushion-versus-radiant",
+    "title": "Cushion Cut Versus Radiant Cut",
+    "introParagraphs": [
+      "Both cushion and radiant diamonds can be square or rectangular and use brilliant-style faceting.",
+      "The primary visual differences are:"
+    ],
+    "table": {
+      "caption": "Cushion cut versus radiant cut visual differences",
+      "headers": ["Cushion cut", "Radiant cut"],
+      "rows": [
+        ["Curved sides and softened corners", "Straighter sides and cropped corners"],
+        ["Pillow-like outline", "More angular outline"],
+        ["Can look romantic or vintage", "Often looks modern and geometric"],
+        ["Broad or crushed-ice patterns", "Frequently shows strong fragmented brilliance"],
+        ["Softer appearance", "Sharper overall silhouette"]
+      ]
+    },
+    "closingParagraphs": [
+      "Neither shape is automatically brighter.",
+      "Compare the actual diamonds for:"
+    ],
+    "closingBullets": [
+      "Outline",
+      "Ratio",
+      "Face-up spread",
+      "Brightness",
+      "Central pattern",
+      "Dark areas",
+      "Colour",
+      "Price"
+    ],
+    "finalParagraphs": [
+      "This article should not be expanded into a complete cushion-versus-radiant comparison unless a separate comparison page is planned."
+    ]
+  },
+  "vsPrincess": {
+    "id": "cushion-versus-princess",
+    "title": "Cushion Cut Versus Princess Cut",
+    "introParagraphs": [
+      "A princess diamond normally has straight sides and sharp corners. A cushion has curved sides and rounded or softened corners.",
+      "The cushion usually provides:"
+    ],
+    "bullets": [
+      "A softer silhouette",
+      "Less exposed corners",
+      "More variation in facet pattern",
+      "A classic or romantic appearance"
+    ],
+    "closingParagraphs": [
+      "The princess usually provides:"
+    ],
+    "closingBullets": [
+      "A sharper square outline",
+      "Strong geometric styling",
+      "Defined corners",
+      "A modern appearance"
+    ],
+    "finalParagraphs": [
+      "Princess-cut corners require careful protection. Cushion corners are less pointed but still require an appropriate setting."
+    ]
+  },
+  "vsOldMine": {
+    "id": "cushion-versus-old-mine",
+    "title": "Cushion Cut Versus Old Mine Cut",
+    "introParagraphs": [
+      "Modern cushion diamonds were influenced by earlier cushion-like cutting styles, including old mine cuts.",
+      "Old mine cut diamonds commonly show:"
+    ],
+    "bullets": [
+      "A high crown",
+      "A small table",
+      "A deep pavilion",
+      "A large open culet",
+      "Irregular hand-cut character",
+      "Broad flashes under softer lighting"
+    ],
+    "closingParagraphs": [
+      "Modern cushion diamonds generally offer:"
+    ],
+    "closingBullets": [
+      "More consistent outlines",
+      "Modern facet arrangements",
+      "Smaller or absent culets",
+      "Different light-performance patterns",
+      "Greater availability of square and elongated shapes"
+    ],
+    "finalParagraphs": [
+      "GIA’s Old Mine Cut Diamond Guide explains the historical distinctions in greater detail.",
+      "Do not label every broad-faceted cushion as an old mine cut."
+    ]
+  },
+  "bestSettings": {
+    "id": "best-settings-for-cushion",
+    "title": "Best Settings for Cushion Cut Diamonds",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "solitaire",
+        "title": "Solitaire",
+        "paragraphsBefore": [
+          "A solitaire keeps attention on the cushion’s outline and facet pattern.",
+          "It works well for:"
+        ],
+        "bullets": [
+          "High-quality centre stones",
+          "Square cushions",
+          "Elongated cushions",
+          "Minimal designs"
+        ]
+      },
+      {
+        "id": "halo",
+        "title": "Halo",
+        "paragraphsBefore": [
+          "A halo can:"
+        ],
+        "bullets": [
+          "Increase the apparent overall size",
+          "Emphasise the cushion outline",
+          "Add more brilliance",
+          "Create a vintage-inspired appearance"
+        ],
+        "paragraphsAfter": [
+          "The halo should follow the exact shape of the centre diamond."
+        ]
+      },
+      {
+        "id": "bezel",
+        "title": "Bezel",
+        "paragraphsBefore": [
+          "A bezel surrounds the diamond with metal and can provide additional edge protection.",
+          "It may:"
+        ],
+        "bullets": [
+          "Create a clean contemporary look",
+          "Reduce exposure around the girdle",
+          "Slightly change the visible outline",
+          "Make precise stone and setting measurements important"
+        ]
+      },
+      {
+        "id": "three-stone-setting",
+        "title": "Three-Stone Setting",
+        "paragraphsBefore": [
+          "Side stones can complement a square or elongated cushion.",
+          "Possible side stones include:"
+        ],
+        "bullets": [
+          "Tapered baguettes",
+          "Trapezoids",
+          "Half-moons",
+          "Pear shapes",
+          "Smaller cushions"
+        ],
+        "paragraphsAfter": [
+          "The side-stone proportions should not overwhelm the centre."
+        ]
+      },
+      {
+        "id": "pave-band",
+        "title": "Pavé Band",
+        "paragraphsBefore": [
+          "A pavé band adds sparkle without changing the central outline. The width and height of the band should remain proportionate to the cushion."
+        ]
+      }
+    ]
+  },
+  "whichMetal": {
+    "id": "which-metal-is-best",
+    "title": "Which Metal Is Best?",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "platinum-or-white-gold",
+        "title": "Platinum or White Gold",
+        "paragraphsBefore": [
+          "White metals can emphasise a colourless or near-colourless appearance.",
+          "Inspect lower colour grades carefully because warmth may be easier to notice against the white metal."
+        ]
+      },
+      {
+        "id": "yellow-gold",
+        "title": "Yellow Gold",
+        "paragraphsBefore": [
+          "Yellow gold can complement warmer colour grades and create a classic look.",
+          "The prongs may still be made in a white metal when a whiter face-up appearance is preferred."
+        ]
+      },
+      {
+        "id": "rose-gold",
+        "title": "Rose Gold",
+        "paragraphsBefore": [
+          "Rose gold creates a warm, romantic contrast and can work well with antique-inspired cushion designs.",
+          "Always view the diamond beside the intended metal before making the final colour decision."
+        ]
+      }
+    ]
+  },
+  "whatMakesExpensive": {
+    "id": "what-makes-cushion-expensive",
+    "title": "What Makes a Cushion Cut Diamond Expensive?",
+    "introParagraphs": [
+      "The price can be affected by:"
+    ],
+    "bullets": [
+      "Carat weight",
+      "Colour",
+      "Clarity",
+      "Natural-diamond origin",
+      "Grading laboratory",
+      "Square or elongated demand",
+      "Face-up spread",
+      "Outline quality",
+      "Light performance",
+      "Facet pattern",
+      "Polish and symmetry",
+      "Fluorescence",
+      "Market availability",
+      "Overall desirability"
+    ],
+    "closingParagraphs": [
+      "Two cushions with identical 4C grades may not deserve the same price if one has better brightness, spread and outline."
+    ]
+  },
+  "buyingDecisionTable": {
+    "id": "buying-decision-table",
+    "title": "Cushion Cut Buying Decision Table",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Cushion cut buying priorities and inspection focus",
+      "headers": ["Buyer priority", "Recommended starting point", "Inspect carefully"],
+      "rows": [
+        ["Traditional square shape", "Ratio around 1.00–1.05", "Side balance, corners and spread"],
+        ["Soft rectangle", "Ratio around 1.06–1.15", "Whether the outline looks intentional"],
+        ["Elongated appearance", "Ratio around 1.16–1.30", "Central brightness and hidden depth"],
+        ["Broad flashes", "Cushion Brilliant candidates", "Dark central zones and symmetry"],
+        ["Fine glittering sparkle", "Modified or crushed-ice candidates", "Watery or mushy areas"],
+        ["Near-colourless value", "G–H colour", "Actual face-up warmth"],
+        ["Eye-clean value", "VS2 or inspected SI1", "Inclusion location and transparency"],
+        ["Vintage styling", "Broad facets or antique-inspired design", "Do not mislabel as old mine cut"],
+        ["Maximum visual size", "Compare millimetre measurements", "Light performance and durability"],
+        ["Daily-wear ring", "Secure prong, halo or bezel setting", "Girdle and corner protection"]
+      ]
+    }
+  },
+  "warningSigns": {
+    "id": "warning-signs",
+    "title": "Warning Signs",
+    "introParagraphs": [
+      "Pause before purchasing when you see:"
+    ],
+    "bullets": [
+      "Report information that does not match the diamond",
+      "An uneven outline",
+      "Mismatched corners",
+      "A crooked rectangular shape",
+      "A large persistent dark centre",
+      "A watery or transparent centre",
+      "Bright edges with a dull middle",
+      "Poor face-up size for the weight",
+      "Excessive depth",
+      "An extremely thick girdle",
+      "An extremely thin vulnerable girdle area",
+      "A visible central inclusion",
+      "Reflected inclusions across several facets",
+      "Surface-reaching inclusions",
+      "Transparency or haziness concerns",
+      "A video using only intense spotlighting",
+      "A seller claiming one universal ideal ratio",
+      "A seller treating polish and symmetry as an overall cut grade",
+      "A price premium unsupported by visual performance"
+    ],
+    "closingParagraphs": [
+      "These issues do not always require automatic rejection. They require explanation, closer inspection and appropriate pricing."
+    ]
+  },
+  "commonMistakes": {
+    "id": "common-buying-mistakes",
+    "title": "Common Cushion Cut Buying Mistakes",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "choosing-only-by-ratio",
+        "title": "Choosing Only by Ratio",
+        "paragraphsBefore": [
+          "Ratio describes the outline, not light performance."
+        ]
+      },
+      {
+        "id": "assuming-modified-means-poor",
+        "title": "Assuming Modified Brilliant Means Poor Quality",
+        "paragraphsBefore": [
+          "Modified describes the facet arrangement. It is not a negative quality grade."
+        ]
+      },
+      {
+        "id": "assuming-every-modified-is-crushed-ice",
+        "title": "Assuming Every Modified Cushion Is Crushed Ice",
+        "paragraphsBefore": [
+          "The actual face-up pattern must be inspected."
+        ]
+      },
+      {
+        "id": "using-universal-table-depth-rule",
+        "title": "Using a Universal Table-and-Depth Rule",
+        "paragraphsBefore": [
+          "Similar percentages can produce different-looking diamonds."
+        ]
+      },
+      {
+        "id": "ignoring-millimetre-measurements",
+        "title": "Ignoring Millimetre Measurements",
+        "paragraphsBefore": [
+          "Carat weight can be hidden in depth or girdle thickness."
+        ]
+      },
+      {
+        "id": "paying-for-high-grades-before-cut",
+        "title": "Paying for High Colour and Clarity Before Evaluating Cut",
+        "paragraphsBefore": [
+          "A high-colour, high-clarity cushion can still appear dull if its light performance is weak."
+        ]
+      },
+      {
+        "id": "comparing-different-cushion-styles",
+        "title": "Comparing Different Cushion Styles as Identical Products",
+        "paragraphsBefore": [
+          "A square broad-faceted cushion and an elongated crushed-ice cushion are intended to look different."
+        ]
+      },
+      {
+        "id": "buying-from-one-photograph",
+        "title": "Buying from One Photograph",
+        "paragraphsBefore": [
+          "A still image cannot show complete scintillation, contrast or persistent dark areas."
+        ]
+      },
+      {
+        "id": "forgetting-the-setting",
+        "title": "Forgetting the Setting",
+        "paragraphsBefore": [
+          "The final metal, halo, prongs and side stones can change the diamond’s apparent colour and outline."
+        ]
+      }
+    ]
+  },
+  "buyingChecklist": {
+    "id": "buying-checklist",
+    "title": "Complete Cushion Cut Diamond Checklist",
+    "introParagraphs": [
+      "Before purchasing, verify:"
+    ],
+    "items": [
+      "Natural or laboratory-grown identification",
+      "Grading laboratory",
+      "Report number",
+      "Report authenticity",
+      "Laser inscription",
+      "Shape and cutting style",
+      "Cushion Brilliant or Cushion Modified Brilliant description",
+      "Carat weight",
+      "Measurements",
+      "Length-to-width ratio",
+      "Table percentage",
+      "Depth percentage",
+      "Girdle",
+      "Culet",
+      "Polish",
+      "Symmetry",
+      "Colour",
+      "Clarity",
+      "Fluorescence",
+      "Clarity plot",
+      "Report comments",
+      "Square or elongated outline",
+      "Corner consistency",
+      "Side balance",
+      "Face-up spread",
+      "Central brightness",
+      "Edge-to-edge brightness",
+      "Facet pattern",
+      "Broad or crushed-ice appearance",
+      "Contrast",
+      "Fire",
+      "Scintillation",
+      "Dark zones",
+      "Watery areas",
+      "Transparency",
+      "Eye cleanliness",
+      "Inclusion reflections",
+      "Girdle durability",
+      "Setting suitability",
+      "Total price",
+      "Price per carat",
+      "Comparison with similar cushions",
+      "Final professional inspection"
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "An Antwerp Sourcing Perspective",
+    "introParagraphs": [
+      "Cushion cut natural diamonds require individual comparison because their outlines and facet patterns vary more than a basic spreadsheet can show.",
+      "A report can narrow the shortlist, but video and professional inspection reveal whether the diamond has:"
+    ],
+    "bullets": [
+      "A balanced shape",
+      "Appropriate face-up spread",
+      "Attractive central performance",
+      "A desirable facet pattern",
+      "Good transparency",
+      "Safe girdle construction",
+      "A price supported by its complete appearance"
+    ],
+    "richClosingParagraphs": [
+      [
+        { "type": "text", "value": "Through Dalila Diamonds’ " },
+        { "type": "link", "text": "Secure to Source service", "href": "/secure-to-source" },
+        { "type": "text", "value": ", jewellers and trade buyers can request cushion cut natural diamonds by carat, colour, clarity, ratio, certification and budget." }
+      ],
+      [
+        { "type": "text", "value": "Buyers can also " },
+        { "type": "link", "text": "browse Dalila’s natural-diamond inventory", "href": "/inventory" },
+        { "type": "text", "value": " and compare available stones before requesting additional inspection support." }
+      ],
+      [
+        { "type": "text", "value": "Dalila’s " },
+        { "type": "link", "text": "Diamond Knowledge Guide", "href": "/diamondKnowledge" },
+        { "type": "text", "value": " provides an overview of shapes, the 4Cs and certification." }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Final Answer: How Should You Choose a Cushion Cut Diamond?",
+    "introParagraphs": [
+      "Start by deciding whether you prefer:"
+    ],
+    "bullets": [
+      "Square or elongated",
+      "Broad flashes or crushed-ice scintillation",
+      "Modern or vintage-inspired styling",
+      "Colourless, near-colourless or warmer value ranges"
+    ],
+    "closingParagraphs": [
+      "Then use the grading report to verify the diamond’s identity, measurements, colour, clarity, polish, symmetry and other technical characteristics.",
+      "Finally, inspect the actual stone for:"
+    ],
+    "closingBullets": [
+      "Outline balance",
+      "Face-up size",
+      "Brightness",
+      "Contrast",
+      "Central performance",
+      "Edge-to-edge activity",
+      "Transparency",
+      "Durability",
+      "Setting suitability"
+    ],
+    "finalParagraphs": [
+      "Do not buy a cushion cut diamond from ratio, table percentage or report terminology alone.",
+      "The strongest cushion cut diamond is the one that combines an appealing outline, attractive light performance, sufficient visible size, eye-clean clarity, suitable colour, reliable documentation and a fair price."
+    ]
+  },
+  "cta": {
+    "id": "source-cushion-cut-diamonds",
+    "title": "Source Cushion Cut Diamonds with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Shortlist square and elongated cushion cut natural diamonds with Antwerp sourcing support, quality control and clear commercial guidance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Browse Inventory",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is a cushion cut diamond?",
+        "answer": "A cushion cut diamond has a square or rectangular outline with curved sides and rounded or softened corners. It uses brilliant-style facets and can display broad flashes, crushed-ice scintillation or a combination of both."
+      },
+      {
+        "question": "Is a square or elongated cushion cut better?",
+        "answer": "Neither is universally better. Square cushions offer a balanced traditional appearance, while elongated cushions provide a longer silhouette. The choice should depend on outline preference, light performance, spread and setting design."
+      },
+      {
+        "question": "What is the best ratio for a cushion cut diamond?",
+        "answer": "There is no universal best ratio. Ratios around 1.00–1.05 generally appear square, while ratios of approximately 1.16–1.30 appear elongated. These are comparison ranges, not quality grades."
+      },
+      {
+        "question": "Does GIA give cushion cut diamonds an overall cut grade?",
+        "answer": "No. GIA currently assigns an overall cut grade only to standard round brilliant diamonds in the D-to-Z colour range. Cushion reports may still include polish, symmetry, table, depth and other technical information."
+      },
+      {
+        "question": "What is the difference between Cushion Brilliant and Cushion Modified Brilliant?",
+        "answer": "The terms describe different facet arrangements. Cushion brilliants often show broader, more defined reflections, while modified brilliants may show smaller or more fragmented reflections. The actual diamond must be inspected because the report description does not guarantee its appearance."
+      },
+      {
+        "question": "Is a crushed-ice cushion diamond bad?",
+        "answer": "No. Crushed ice is a visual style, not a quality grade. It can be attractive when the diamond remains bright and lively. Avoid stones that appear watery, grey, mushy or inactive through the centre."
+      },
+      {
+        "question": "What colour and clarity are best for a cushion cut?",
+        "answer": "G–H colour with VS2 clarity is a strong general starting range. A carefully selected SI1 may provide better value when it is eye-clean and transparent. The ideal combination depends on the diamond, setting and budget."
+      },
+      {
+        "question": "Do cushion cut diamonds look larger than round diamonds?",
+        "answer": "Not always. Some cushions carry more weight in their depth and may appear smaller than expected. Compare length and width measurements rather than relying on carat weight alone."
+      },
+      {
+        "question": "Is a cushion cut better than a radiant cut?",
+        "answer": "Neither is automatically better. Cushions have curved sides and a softer outline, while radiants have straighter sides and cropped corners. Compare brightness, spread, outline and facet pattern before deciding."
+      },
+      {
+        "question": "What setting is best for a cushion cut diamond?",
+        "answer": "Solitaire, halo, bezel, pavé and three-stone settings can all work well. The best setting depends on the cushion’s outline, dimensions, girdle condition and the buyer’s preferred style."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Choose the Cushion That Performs—Not Just the Ratio on Paper",
+    "introParagraphs": [
+      "Cushion cut quality is judged through outline, facet pattern, spread, brightness, durability and documentation—not a single ratio or laboratory label.",
+      "Decide square or elongated, inspect videos carefully, and approve the stone that looks and performs correctly for its intended jewellery."
+    ],
+    "primaryButtonText": "Contact Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Diamond Knowledge Guide",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Our Articles",
+    "findUsTitle": "Find Us",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "Belgium"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Browse Our Inventory",
+    "inventoryDescription": "Discover our exquisite collection of premium diamonds",
+    "inventoryButtonText": "View Inventory",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Back to Articles",
+    "blogsHref": "/blogs"
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "title": "Diamants bruts naturels : Guide d'approvisionnement | Dalila",
+    "description": "Découvrez comment les diamants bruts naturels sont évalués, documentés et négociés, y compris le rendement, les prix, les contrôles du Processus de Kimberley et l'approvisionnement professionnel.",
+    "canonical": "https://www.daliladiamonds.com/diamonds/natural-rough-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "noindex, nofollow",
+    "primaryKeyword": "Rough natural diamonds",
+    "inLanguage": "fr",
+    "parentHub": "https://www.daliladiamonds.com/diamond-source"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "alt": "Diamants bruts naturels soumis à une évaluation professionnelle à Anvers",
+      "width": 1600,
+      "height": 900
+    },
+    "evaluation": {
+      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "alt": "Diamant brut naturel évalué pour ses inclusions de forme et son rendement poli",
+      "width": 1400,
+      "height": 1000
+    },
+    "roughVsPolished": {
+      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "alt": "Diamant brut naturel comparé au résultat prévu en diamant poli",
+      "width": 1400,
+      "height": 1000
+    },
+    "documentation": {
+      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "alt": "Colis de diamants bruts vérifié avec le Processus de Kimberley et les documents commerciaux",
+      "width": 1400,
+      "height": 1000
+    },
+    "naturalVsLab": {
+      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "alt": "Diamants bruts naturels et cultivés en laboratoire nécessitant une identification professionnelle",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Diamants bruts naturels",
+    "breadcrumbHome": "Maison",
+    "breadcrumbParent": "Approvisionnement en diamants",
+    "breadcrumbParentHref": "/diamond-source",
+    "breadcrumbCurrent": "Diamants bruts naturels",
+    "imageAlt": "Diamants bruts naturels soumis à une évaluation professionnelle à Anvers"
+  },
+  "hero": {
+    "title": "Diamants bruts naturels : Guide d'approvisionnement et de commerce professionnel",
+    "introParagraphs": [
+      "Les diamants naturels bruts sont des diamants qui ont été récupérés de la terre mais qui n’ont pas encore terminé le processus de taille et de polissage.",
+      "On les appelle aussi diamants bruts ou, moins précisément, diamants bruts. Dans le commerce professionnel du diamant, le terme « diamant brut » est le terme standard.",
+      "L’achat de brut est fondamentalement différent de l’achat de diamant taillé. L’acheteur doit évaluer l’identité de la pierre, la morphologie, les inclusions, le rendement potentiel du taillé, la documentation commerciale légale et le risque de fabrication commerciale avant d’accepter un prix."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "This guide explains how natural rough diamonds are evaluated, documented and traded. For polished natural-diamond sourcing, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Service Source de diamants pour vous",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " and the "
+        },
+        {
+          "type": "link",
+          "text": "Fournisseur de diamants B2B haut de gamme en Belgique",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contactez un expert diamantaire anversois",
+    "primaryButtonHref": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Réponse rapide",
+    "paragraphs": [
+      "Les diamants bruts naturels font principalement l’objet d’échanges entre sociétés minières, fabricants, diamantaires enregistrés et autres acheteurs professionnels éligibles.",
+      "Leur valeur ne peut pas être établie uniquement à partir du poids brut en carats. Un acheteur doit estimer quel(s) diamant(s) taillé(s) pourraient être produits, combien de poids peut être perdu pendant la fabrication, le risque de coupe et si le résultat taillé attendu répond à une demande suffisante du marché.",
+      "Chaque transaction internationale de diamants bruts doit également respecter les exigences applicables du Processus de Kimberley, des douanes, des sanctions et de l'enregistrement des revendeurs."
+    ],
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements. For background on natural diamonds themselves, read "
+        },
+        {
+          "type": "link",
+          "text": "qu'est-ce qu'un diamant naturel",
+          "href": "/blogs/what-is-a-natural-diamond"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-natural-rough-diamond",
+    "title": "Qu’est-ce qu’un diamant brut naturel ?",
+    "introParagraphs": [
+      "Un diamant brut naturel est un diamant formé par des processus géologiques et récupéré avant d’être transformé en pierre précieuse polie.",
+      "Les diamants bruts peuvent apparaître sous forme de cristaux complets ou brisés et peuvent avoir différentes formes, caractéristiques de surface, couleurs et motifs d'inclusion. En fonction de leur qualité et de leur potentiel de fabrication, ils peuvent être classés comme suit :"
+    ],
+    "bullets": [
+      "Qualité des pierres précieuses",
+      "Qualité proche d'une pierre précieuse",
+      "Qualité industrielle"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Antwerp World Diamond Centre explains that rough sorting considers size, shape, quality, clarity, colour and the potential yield after cutting. Specialist scanning and three-dimensional mapping may also be used to plan the most valuable polished outcome. Read the official "
+        },
+        {
+          "type": "link",
+          "text": "Guide de tri et d’évaluation des diamants bruts de l’AWDC",
+          "href": "https://www.awdc.be/en/rough-diamonds",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "roughVsPolished": {
+    "id": "natural-rough-diamonds-versus-polished-diamonds",
+    "title": "Diamants bruts naturels et diamants polis",
+    "table": {
+      "headers": [
+        "Diamant brut naturel",
+        "Diamant naturel poli"
+      ],
+      "rows": [
+        [
+          "N'a pas terminé la coupe et le polissage",
+          "A été façonné dans une forme finie"
+        ],
+        [
+          "Évalué en partie à travers le rendement projeté",
+          "Évalué à travers ses caractéristiques finies"
+        ],
+        [
+          "Peut produire un ou plusieurs diamants polis",
+          "A déjà un poids final en carats"
+        ],
+        [
+          "Présente des risques de fabrication et de casse",
+          "Le résultat de la fabrication est déjà visible"
+        ],
+        [
+          "Nécessite une expertise spécialisée dans le diamant brut",
+          "Peut normalement être évalué à l’aide de systèmes de notation de poli établis"
+        ],
+        [
+          "Soumis à des contrôles spécifiques au commerce des diamants bruts",
+          "Une documentation différente peut s'appliquer après le polissage"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A standard polished-diamond grading report should not be expected for ordinary rough material. GIA states that its normal natural-diamond grading reports are issued for loose polished diamonds. Its rough analysis is mainly connected to the Diamond Origin programme, with the polished diamond returning for grading after manufacturing. Review the "
+        },
+        {
+          "type": "link",
+          "text": "Explication de l'identification approximative du GIA",
+          "href": "https://www.gia.edu/gia-news-research-diamond-origin",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": ". For polished report comparison, see the "
+        },
+        {
+          "type": "link",
+          "text": "Guide de certification des diamants GIA vs IGI vs HRD",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": ". Browse Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "inventaire en direct de diamants taillés certifiés",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " when you need finished stones rather than rough."
+        }
+      ]
+    ]
+  },
+  "whoPurchases": {
+    "id": "who-normally-purchases-rough-diamonds",
+    "title": "Qui achète normalement des diamants bruts ?",
+    "introParagraphs": [
+      "L’achat de diamants bruts est généralement destiné aux acteurs professionnels éligibles tels que :"
+    ],
+    "bullets": [
+      "Fabricants de diamants et installations de polissage",
+      "Diamantaires enregistrés",
+      "Négociants en diamants bruts",
+      "Fabricants de bijoux avec un partenaire de coupe établi",
+      "Sociétés minières et participants autorisés aux appels d'offres",
+      "Investisseurs spécialisés avec un soutien professionnel en matière de fabrication et de conformité"
+    ],
+    "closingParagraphs": [
+      "Les consommateurs à la recherche d’un diamant pour une bague trouveront généralement plus pratique un diamant naturel poli et classé de manière indépendante. Le poids brut n’indique pas la taille, la qualité ou la valeur de la pierre finie."
+    ]
+  },
+  "howEvaluated": {
+    "id": "how-are-rough-natural-diamonds-evaluated",
+    "title": "Comment les diamants naturels bruts sont-ils évalués ?",
+    "subsections": [
+      {
+        "number": 1,
+        "id": "natural-origin-identification",
+        "title": "Identification d'origine naturelle",
+        "introParagraphs": [
+          "Un cristal brut ne doit pas être considéré comme naturel uniquement en fonction de son apparence."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Natural, HPHT-grown and CVD-grown diamonds can require professional gemmological testing to distinguish them reliably. GIA notes that laboratory-grown and natural diamonds have closely related chemical, physical and optical properties and may require trained specialists and advanced instruments for separation. See the "
+            },
+            {
+              "type": "link",
+              "text": "Recherche sur les diamants naturels et les diamants cultivés en laboratoire par le GIA",
+              "href": "https://www.gia.edu/gems-gemology/summer-2022-labnotes-identification-of-laboratory-grown-diamonds",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "shape-and-crystal-structure",
+        "title": "Forme et structure cristalline",
+        "paragraphs": [
+          "L'acheteur examine la forme brute, la forme de croissance, l'état de surface et la structure interne pour déterminer d'éventuels plans de coupe.",
+          "Un poids brut attrayant ne produit pas nécessairement un gros diamant poli. Le fabricant peut décider que deux pierres plus petites génèrent un meilleur résultat commercial."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "inclusions-and-manufacturing-risk",
+        "title": "Inclusions et risque de fabrication",
+        "introParagraphs": [
+          "Les caractéristiques internes, les fractures, les contraintes, les cavités et les inclusions atteignant la surface peuvent affecter :"
+        ],
+        "bullets": [
+          "Sens de coupe",
+          "Rétention de poids",
+          "Risque de casse",
+          "Clarté finie",
+          "Transparence",
+          "Nombre de pierres produites"
+        ],
+        "closingParagraphs": [
+          "Une pierre qui semble propre dans une certaine direction peut contenir une inclusion qui devient importante lors du sciage ou du polissage."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "projected-polished-yield",
+        "title": "Rendement poli projeté",
+        "paragraphs": [
+          "Le rendement projeté est le poids estimé du taillé récupérable à partir du brut.",
+          "La rétention de poids la plus élevée n’est pas automatiquement le plan le plus précieux. Un diamant poli plus léger avec des proportions plus fortes, une meilleure clarté ou une forme plus désirable peut valoir plus qu'un résultat plus lourd mais peu performant."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "colour-and-market-position",
+        "title": "Couleur et position sur le marché",
+        "paragraphs": [
+          "L'acheteur prend en compte la couleur de la carrosserie, le zonage et si le résultat poli attendu peut relever du marché incolore, presque incolore, de couleur fantaisie ou industriel.",
+          "La couleur finale ne peut pas toujours être jugée en toute sécurité à partir de photographies ou d’un éclairage incontrôlé."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "documentation-and-provenance",
+        "title": "Documentation et provenance",
+        "introParagraphs": [
+          "Le dossier de transaction peut être amené à établir :"
+        ],
+        "bullets": [
+          "Identité du vendeur",
+          "Propriété légale",
+          "Pays d'origine minière où documenté",
+          "Pays exportateur",
+          "Numéro de colis",
+          "Quantité",
+          "Poids",
+          "Valeur de la facture",
+          "Certificat du Processus de Kimberley",
+          "Documentation d'importation précédente",
+          "Résultat du contrôle des sanctions",
+          "Informations sur la chaîne de traçabilité"
+        ],
+        "closingParagraphs": [
+          "La documentation doit être examinée avant le paiement ou l'expédition."
+        ]
+      }
+    ]
+  },
+  "whatDeterminesPrice": {
+    "id": "what-determines-a-rough-diamonds-price",
+    "title": "Qu’est-ce qui détermine le prix d’un diamant brut ?",
+    "introParagraphs": [
+      "Le prix du diamant naturel brut peut être influencé par :"
+    ],
+    "bullets": [
+      "Poids brut total",
+      "Nombre de pierres",
+      "Forme du cristal",
+      "Qualité gemme, quasi-pierre ou industrielle",
+      "Couleur",
+      "Transparence",
+      "Inclusions et fractures",
+      "Rendement projeté du taillé",
+      "Forme polie attendue",
+      "Coûts de fabrication",
+      "Risque de casse et de recoupe",
+      "Demande du marché pour le résultat attendu",
+      "Cohérence des parcelles",
+      "Pays d'origine et preuves à l'appui",
+      "Coûts de transaction et de logistique"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A polished-diamond price-per-carat list cannot simply be multiplied by the rough weight. The expected polished value must be assessed against weight loss, manufacturing costs, uncertainty and buyer margin. For polished pricing context, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "guide des prix des diamants",
+          "href": "/blogs/diamond-price-guide"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "kimberleyProcess": {
+    "id": "kimberley-process-requirements",
+    "title": "Exigences du Processus de Kimberley",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Kimberley Process Certification Scheme applies specifically to international trade in rough diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "The Belgian FPS Economy states that rough diamonds entering or leaving the European Union must be accompanied by a valid Kimberley Process certificate, packed in a tamper-proof container and traded only between Kimberley Process participants. Belgian rough-diamond exports also require evidence showing how the exporter obtained the goods. Review the current "
+        },
+        {
+          "type": "link",
+          "text": "Exigences administratives belges concernant le diamant brut",
+          "href": "https://economie.fgov.be/en/themes/diamond/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "A Kimberley Process certificate should not be presented as proof of every possible ethical, labour, environmental or human-rights claim. Belgian Foreign Affairs has acknowledged that the scheme’s conflict-diamond definition has limitations. Additional supplier due diligence and provenance evidence may therefore be necessary. See the official discussion of "
+        },
+        {
+          "type": "link",
+          "text": "ce que signifie « sans conflit » dans le cadre du Processus de Kimberley",
+          "href": "https://diplomatie.belgium.be/en/policy/policy-areas/peace-and-security/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sanctions and origin restrictions can change. Eligibility must be checked against the rules applying on the contract and shipment dates."
+        }
+      ]
+    ]
+  },
+  "verificationChecklist": {
+    "id": "rough-diamond-verification-checklist",
+    "title": "Liste de contrôle de vérification des diamants bruts",
+    "introParagraphs": [
+      "Avant de vous engager dans une transaction, confirmez :"
+    ],
+    "bullets": [
+      "Identité du vendeur et pouvoir de vendre",
+      "Éligibilité de l'acheteur",
+      "Tests naturels ou cultivés en laboratoire",
+      "Poids et quantité exacts du colis",
+      "Description approximative et hypothèses de qualité",
+      "Accès aux inspections",
+      "Plan de fabrication proposé",
+      "Rendement estimé du taillé",
+      "Documentation du Processus de Kimberley",
+      "Preuve du pays d’origine et de la provenance",
+      "Conformité actuelle aux sanctions",
+      "Conditions de paiement, d'assurance et d'expédition",
+      "Conditions de litige, de refus et de retour"
+    ],
+    "closingParagraphs": [
+      "Ne transférez pas de fonds uniquement à partir de photographies, de vidéos ou d’une copie de certificat non vérifiée."
+    ]
+  },
+  "enquiryProcess": {
+    "id": "professional-rough-diamond-enquiry-process",
+    "title": "Processus professionnel d’enquête sur les diamants bruts",
+    "introParagraphs": [
+      "Une enquête correctement contrôlée doit suivre ces étapes :"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "id": "submit-the-requirement",
+        "title": "Soumettre le besoin",
+        "paragraphs": [
+          "Fournissez la taille, la quantité, le type de cristal, la qualité, la couleur, le budget, l’objectif de fabrication et la destination souhaités."
+        ]
+      },
+      {
+        "number": 2,
+        "id": "confirm-eligibility",
+        "title": "Confirmer l'éligibilité",
+        "paragraphs": [
+          "Les parties doivent confirmer l'enregistrement du concessionnaire, le KYC, l'AML, les sanctions et les exigences de destination avant de discuter de l'expédition."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-availability-and-documents",
+        "title": "Vérifier la disponibilité et les documents",
+        "paragraphs": [
+          "Le vendeur doit identifier le colis, les preuves de propriété, le poids, la quantité, les documents d'origine et les registres applicables du Processus de Kimberley."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "complete-specialist-evaluation",
+        "title": "Évaluation complète du spécialiste",
+        "paragraphs": [
+          "Le brut doit être examiné par une personne qualifiée pour évaluer son identité, les risques de fabrication et le rendement projeté du taillé."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "issue-a-written-quotation",
+        "title": "Émettre un devis écrit",
+        "paragraphs": [
+          "Le devis doit indiquer les marchandises exactes, les hypothèses, la devise, la période de validité, les conditions de paiement, les conditions d'inspection et les responsabilités de livraison."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "complete-export-and-import-controls",
+        "title": "Contrôles complets des exportations et des importations",
+        "paragraphs": [
+          "L’envoi doit respecter toutes les exigences pertinentes du Processus de Kimberley, des douanes, des sanctions, de l’assurance et de l’emballage inviolable."
+        ]
+      }
+    ]
+  },
+  "contactExpert": {
+    "id": "contact-an-antwerp-diamond-expert",
+    "title": "Contactez un expert diamantaire anversois",
+    "introParagraphs": [
+      "Envoyez les informations suivantes afin que Dalila Diamonds puisse confirmer si la demande relève de ses services disponibles :"
+    ],
+    "bullets": [
+      "Nom de l'entreprise",
+      "Détails du pays et de l'enregistrement de la société",
+      "Rôle de l'acheteur",
+      "Quantité requise",
+      "Gamme de carats bruts",
+      "Qualité préférée ou résultat poli attendu",
+      "Exigences relatives au pays d'origine",
+      "Budget",
+      "Pays de livraison",
+      "Date requise",
+      "Lieu de fabrication prévu"
+    ],
+    "primaryButtonText": "Contactez un expert diamantaire anversois",
+    "primaryButtonHref": "/contact",
+    "supportingNotice": "La disponibilité des diamants bruts, l'éligibilité de l'acheteur, la documentation, l'inspection, le prix, le paiement et les conditions de livraison doivent être confirmés par écrit. N'envoyez pas de diamants bruts à Dalila sans instructions écrites préalables d'acceptation et de garde."
+  },
+  "faqs": {
+    "title": "Foire aux questions",
+    "items": [
+      {
+        "question": "Qu'est-ce qu'un diamant brut naturel ?",
+        "answer": "Un diamant brut naturel est un diamant formé par des processus géologiques qui n’ont pas encore été taillés ni polis."
+      },
+      {
+        "question": "Les diamants bruts et bruts sont-ils identiques ?",
+        "answer": "« Diamant brut » est une description informelle. « Diamant brut » est le terme commercial et réglementaire standard."
+      },
+      {
+        "question": "Tout le monde peut-il acheter des diamants bruts ?",
+        "answer": "L’éligibilité dépend de la juridiction et de la transaction. Le commerce international des diamants bruts s’effectue normalement entre participants professionnels autorisés et est soumis à des contrôles de conformité."
+      },
+      {
+        "question": "Les diamants bruts ont-ils des rapports de classification GIA ?",
+        "answer": "Les rapports standard de classement des diamants naturels du GIA sont destinés aux diamants polis en vrac. L’analyse brute du GIA est principalement liée à son programme Diamond Origin et ne fonctionne pas comme un rapport normal de classification du taillé."
+      },
+      {
+        "question": "Comment puis-je confirmer qu’un diamant brut est naturel ?",
+        "answer": "L’apparence seule ne suffit pas. Une séparation fiable des matériaux cultivés en laboratoire peut nécessiter un examen gemmologique professionnel et des tests avancés."
+      },
+      {
+        "question": "Comment est évalué un diamant brut ?",
+        "answer": "La valeur dépend de l'identité, du poids, de la forme, de la couleur, des inclusions, du rendement projeté du taillé, du risque de coupe, du coût de fabrication, de la documentation et de la demande pour le résultat poli attendu."
+      },
+      {
+        "question": "Un certificat du Processus de Kimberley prouve-t-il le pays minier ?",
+        "answer": "Le certificat enregistre les informations requises pour l'envoi, mais la provenance complète au niveau de la mine peut nécessiter des preuves supplémentaires. Examinez le certificat original, la facture et les documents justificatifs de la chaîne de traçabilité."
+      },
+      {
+        "question": "La conformité au Processus de Kimberley prouve-t-elle qu'un diamant provient de sources éthiques ?",
+        "answer": "Il concerne les diamants de la guerre dans le cadre défini du programme. Cela ne prouve pas automatiquement toutes les allégations en matière de travail, d’environnement, de droits de l’homme ou de durabilité."
+      },
+      {
+        "question": "Puis-je évaluer un diamant brut à partir de photographies ?",
+        "answer": "Les photographies peuvent étayer une discussion initiale, mais ne peuvent pas établir de manière fiable l'identité, l'état interne, le risque de fabrication ou le rendement du poli."
+      },
+      {
+        "question": "Dalila Diamonds peut-elle se procurer des diamants bruts naturels ?",
+        "answer": "Cela doit être confirmé directement pour le colis demandé, l'acheteur, la destination et la transaction. Dalila ne devrait pas être représentée en tant que fournisseur de diamants bruts tant que l’étendue de ses services et son éligibilité réglementaire ne seront pas documentées."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "discuss-a-professional-rough-diamond-enquiry",
+    "title": "Discutez d’une enquête professionnelle sur les diamants bruts",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use this page to understand rough-diamond evaluation, documentation and trade controls before starting an enquiry. For polished natural diamonds, review the "
+        },
+        {
+          "type": "link",
+          "text": "inventaire en direct de diamants taillés certifiés",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", request sourcing through "
+        },
+        {
+          "type": "link",
+          "text": "Source de diamants pour vous",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ", or learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Fournisseur de diamants B2B haut de gamme en Belgique",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "To discuss whether a rough enquiry may fall within Dalila’s available services, "
+        },
+        {
+          "type": "link",
+          "text": "contacter Dalila Diamants",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": ". Availability, eligibility, documentation and commercial terms must be confirmed in writing."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contactez un expert diamantaire anversois",
+    "primaryButtonHref": "/contact"
+  }
+}

@@ -65,7 +65,7 @@ export default function HomeContent() {
 
                             <GoldButton
                                 text={dictionary?.home?.sellBtn || "Sell Now"}
-                                onClick={() => router.push(localizedPath("/sud"))}
+                                onClick={() => router.push(localizedPath("/sell-your-diamond"))}
                             />
                         </div>
                     </div>

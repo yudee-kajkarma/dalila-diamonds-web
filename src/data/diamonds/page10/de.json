@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "title": "Natürliche Rohdiamanten: Beschaffungsleitfaden | Dalila",
+    "description": "Erfahren Sie, wie natürliche Rohdiamanten bewertet, dokumentiert und gehandelt werden, einschließlich Ausbeute, Preisgestaltung, Kontrollen des Kimberley-Prozesses und professioneller Beschaffung.",
+    "canonical": "https://www.daliladiamonds.com/diamonds/natural-rough-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "noindex, nofollow",
+    "primaryKeyword": "Rough natural diamonds",
+    "inLanguage": "de",
+    "parentHub": "https://www.daliladiamonds.com/diamond-source"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "alt": "Natürliche Rohdiamanten zur professionellen Bewertung in Antwerpen arrangiert",
+      "width": 1600,
+      "height": 900
+    },
+    "evaluation": {
+      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "alt": "Natürlicher Rohdiamant, bewertet auf Formeinschlüsse und polierte Ausbeute",
+      "width": 1400,
+      "height": 1000
+    },
+    "roughVsPolished": {
+      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "alt": "Natürlicher Rohdiamant im Vergleich zum geplanten Ergebnis aus geschliffenem Diamant",
+      "width": 1400,
+      "height": 1000
+    },
+    "documentation": {
+      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "alt": "Rohdiamantenpaket mit Kimberley-Prozess und Handelsdokumenten überprüft",
+      "width": 1400,
+      "height": 1000
+    },
+    "naturalVsLab": {
+      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "alt": "Natürliche und im Labor gezüchtete Rohdiamanten, die eine professionelle Identifizierung erfordern",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Natürliche Rohdiamanten",
+    "breadcrumbHome": "Heim",
+    "breadcrumbParent": "Diamantenbeschaffung",
+    "breadcrumbParentHref": "/diamond-source",
+    "breadcrumbCurrent": "Natürliche Rohdiamanten",
+    "imageAlt": "Natürliche Rohdiamanten zur professionellen Bewertung in Antwerpen arrangiert"
+  },
+  "hero": {
+    "title": "Natürliche Rohdiamanten: Professioneller Leitfaden für Beschaffung und Handel",
+    "introParagraphs": [
+      "Rohe Naturdiamanten sind Diamanten, die aus der Erde geborgen wurden, aber den Schleif- und Polierprozess noch nicht abgeschlossen haben.",
+      "Sie werden auch ungeschliffene Diamanten oder, weniger präzise, ​​Rohdiamanten genannt. Im professionellen Diamantenhandel ist „Rohdiamant“ der Standardbegriff.",
+      "Der Kauf eines Rohdiamanten unterscheidet sich grundlegend vom Kauf eines geschliffenen Diamanten. Der Käufer muss die Identität des Steins, seine Morphologie, Einschlüsse, potenzielle Polierausbeute, rechtliche Handelsdokumentation und das kommerzielle Herstellungsrisiko bewerten, bevor er einem Preis zustimmt."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "This guide explains how natural rough diamonds are evaluated, documented and traded. For polished natural-diamond sourcing, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Source For You-Service",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " and the "
+        },
+        {
+          "type": "link",
+          "text": "Premium-B2B-Diamantenlieferant in Belgien",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ],
+    "primaryButtonText": "Kontaktieren Sie einen Antwerpener Diamantenexperten",
+    "primaryButtonHref": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Schnelle Antwort",
+    "paragraphs": [
+      "Natürliche Rohdiamanten werden hauptsächlich zwischen Bergbauunternehmen, Herstellern, registrierten Diamantenhändlern und anderen berechtigten professionellen Käufern gehandelt.",
+      "Ihr Wert lässt sich nicht allein anhand des groben Karatgewichts ermitteln. Ein Käufer muss abschätzen, welche geschliffenen Diamanten hergestellt werden könnten, wie viel Gewicht bei der Herstellung verloren gehen könnte, wie hoch das Schnittrisiko ist und ob das erwartete geschliffene Ergebnis auf eine ausreichende Marktnachfrage stößt.",
+      "Bei jeder internationalen Rohdiamantentransaktion müssen außerdem die geltenden Kimberley-Prozess-, Zoll-, Sanktions- und Händlerregistrierungsanforderungen eingehalten werden."
+    ],
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements. For background on natural diamonds themselves, read "
+        },
+        {
+          "type": "link",
+          "text": "Was ist ein natürlicher Diamant?",
+          "href": "/blogs/what-is-a-natural-diamond"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-natural-rough-diamond",
+    "title": "Was ist ein natürlicher Rohdiamant?",
+    "introParagraphs": [
+      "Ein natürlicher Rohdiamant ist ein Diamant, der durch geologische Prozesse entsteht und gewonnen wird, bevor er zu einem polierten Edelstein verarbeitet wird.",
+      "Rohdiamanten können als vollständige oder gebrochene Kristalle erscheinen und unterschiedliche Formen, Oberflächenmerkmale, Farben und Einschlussmuster aufweisen. Je nach Qualität und Fertigungspotenzial können sie wie folgt klassifiziert werden:"
+    ],
+    "bullets": [
+      "Edelsteinqualität",
+      "Nahezu edle Qualität",
+      "Industriequalität"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Antwerp World Diamond Centre explains that rough sorting considers size, shape, quality, clarity, colour and the potential yield after cutting. Specialist scanning and three-dimensional mapping may also be used to plan the most valuable polished outcome. Read the official "
+        },
+        {
+          "type": "link",
+          "text": "AWDC-Leitfaden zur Sortierung und Bewertung von Rohdiamanten",
+          "href": "https://www.awdc.be/en/rough-diamonds",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "roughVsPolished": {
+    "id": "natural-rough-diamonds-versus-polished-diamonds",
+    "title": "Natürliche Rohdiamanten im Vergleich zu polierten Diamanten",
+    "table": {
+      "headers": [
+        "Natürlicher Rohdiamant",
+        "Polierter Naturdiamant"
+      ],
+      "rows": [
+        [
+          "Das Schneiden und Polieren ist noch nicht abgeschlossen",
+          "Wurde in eine fertige Form gebracht"
+        ],
+        [
+          "Teilweise anhand der prognostizierten Rendite bewertet",
+          "Bewertet anhand seiner fertigen Eigenschaften"
+        ],
+        [
+          "Kann einen oder mehrere geschliffene Diamanten produzieren",
+          "Hat bereits ein endgültiges Karatgewicht"
+        ],
+        [
+          "Es besteht ein Herstellungs- und Bruchrisiko",
+          "Das Fertigungsergebnis ist bereits sichtbar"
+        ],
+        [
+          "Erfordert spezielles Rohdiamanten-Know-how",
+          "Kann normalerweise mithilfe etablierter, ausgefeilter Bewertungssysteme bewertet werden"
+        ],
+        [
+          "Vorbehaltlich spezifischer Handelskontrollen für Rohdiamanten",
+          "Nach dem Polieren können abweichende Unterlagen gelten"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A standard polished-diamond grading report should not be expected for ordinary rough material. GIA states that its normal natural-diamond grading reports are issued for loose polished diamonds. Its rough analysis is mainly connected to the Diamond Origin programme, with the polished diamond returning for grading after manufacturing. Review the "
+        },
+        {
+          "type": "link",
+          "text": "GIA-Erklärung zur groben Identifizierung",
+          "href": "https://www.gia.edu/gia-news-research-diamond-origin",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": ". For polished report comparison, see the "
+        },
+        {
+          "type": "link",
+          "text": "GIA vs. IGI vs. HRD-Diamantenzertifizierungsleitfaden",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": ". Browse Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Live-zertifizierter Bestand an polierten Diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " when you need finished stones rather than rough."
+        }
+      ]
+    ]
+  },
+  "whoPurchases": {
+    "id": "who-normally-purchases-rough-diamonds",
+    "title": "Wer kauft normalerweise Rohdiamanten?",
+    "introParagraphs": [
+      "Der Kauf von Rohdiamanten ist im Allgemeinen für berechtigte professionelle Teilnehmer gedacht, wie zum Beispiel:"
+    ],
+    "bullets": [
+      "Diamantenhersteller und Poliereinrichtungen",
+      "Registrierte Diamantenhändler",
+      "Rohdiamantenhändler",
+      "Schmuckhersteller mit einem etablierten Zuschnittpartner",
+      "Bergbauunternehmen und autorisierte Ausschreibungsteilnehmer",
+      "Spezialanleger mit professioneller Fertigungs- und Compliance-Unterstützung"
+    ],
+    "closingParagraphs": [
+      "Verbraucher, die einen Diamanten für einen Ring suchen, werden in der Regel einen polierten, unabhängig bewerteten Naturdiamanten praktischer finden. Das Rohgewicht gibt keinen Aufschluss über die Größe, Qualität oder den Wert des fertigen Steins."
+    ]
+  },
+  "howEvaluated": {
+    "id": "how-are-rough-natural-diamonds-evaluated",
+    "title": "Wie werden rohe Naturdiamanten bewertet?",
+    "subsections": [
+      {
+        "number": 1,
+        "id": "natural-origin-identification",
+        "title": "Identifizierung des natürlichen Ursprungs",
+        "introParagraphs": [
+          "Ein Rohkristall sollte nicht nur aufgrund seines Aussehens als natürlich angesehen werden."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Natural, HPHT-grown and CVD-grown diamonds can require professional gemmological testing to distinguish them reliably. GIA notes that laboratory-grown and natural diamonds have closely related chemical, physical and optical properties and may require trained specialists and advanced instruments for separation. See the "
+            },
+            {
+              "type": "link",
+              "text": "GIA-Forschung zu natürlichen und im Labor gezüchteten Diamanten",
+              "href": "https://www.gia.edu/gems-gemology/summer-2022-labnotes-identification-of-laboratory-grown-diamonds",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "shape-and-crystal-structure",
+        "title": "Form und Kristallstruktur",
+        "paragraphs": [
+          "Der Käufer untersucht die Rohform, Wuchsform, Oberflächenbeschaffenheit und innere Struktur, um mögliche Schnittpläne festzulegen.",
+          "Ein attraktives Rohgewicht führt nicht zwangsläufig zu einem großen geschliffenen Diamanten. Der Hersteller kann entscheiden, dass zwei kleinere Steine ​​ein besseres kommerzielles Ergebnis erzielen."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "inclusions-and-manufacturing-risk",
+        "title": "Einschlüsse und Herstellungsrisiko",
+        "introParagraphs": [
+          "Innere Merkmale, Brüche, Spannungen, Hohlräume und bis zur Oberfläche reichende Einschlüsse können Auswirkungen auf Folgendes haben:"
+        ],
+        "bullets": [
+          "Schnittrichtung",
+          "Gewichtserhaltung",
+          "Bruchgefahr",
+          "Fertige Klarheit",
+          "Transparenz",
+          "Anzahl der produzierten Steine"
+        ],
+        "closingParagraphs": [
+          "Ein Stein, der aus einer Richtung sauber erscheint, kann einen Einschluss enthalten, der beim Sägen oder Polieren deutlich wird."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "projected-polished-yield",
+        "title": "Voraussichtlicher Polierertrag",
+        "paragraphs": [
+          "Die prognostizierte Ausbeute ist das geschätzte Poliergewicht, das aus dem Rohling gewonnen werden kann.",
+          "Die höchste Gewichtserhaltung ist nicht automatisch der wertvollste Plan. Ein leichter geschliffener Diamant mit stärkeren Proportionen, besserer Reinheit oder einer wünschenswerteren Form kann mehr wert sein als ein schwereres, aber leistungsschwaches Ergebnis."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "colour-and-market-position",
+        "title": "Farbe und Marktposition",
+        "paragraphs": [
+          "Der Käufer berücksichtigt die Körperfarbe, die Zoneneinteilung und ob das erwartete polierte Ergebnis in den farblosen, nahezu farblosen, Fancy-Color- oder Industriemarkt fällt.",
+          "Die endgültige Farbe kann anhand von Fotos oder unkontrollierter Beleuchtung nicht immer sicher beurteilt werden."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "documentation-and-provenance",
+        "title": "Dokumentation und Provenienz",
+        "introParagraphs": [
+          "Die Transaktionsdatei muss möglicherweise Folgendes festlegen:"
+        ],
+        "bullets": [
+          "Identität des Verkäufers",
+          "Rechtliches Eigentum",
+          "Herkunftsland des Bergbaus, sofern dokumentiert",
+          "Exportland",
+          "Paketnummer",
+          "Menge",
+          "Gewicht",
+          "Rechnungswert",
+          "Zertifikat des Kimberley-Prozesses",
+          "Bisherige Importdokumentation",
+          "Ergebnis der Sanktionsprüfung",
+          "Informationen zur Lieferkette"
+        ],
+        "closingParagraphs": [
+          "Die Dokumentation sollte vor der Zahlung oder dem Versand überprüft werden."
+        ]
+      }
+    ]
+  },
+  "whatDeterminesPrice": {
+    "id": "what-determines-a-rough-diamonds-price",
+    "title": "Was bestimmt den Preis eines Rohdiamanten?",
+    "introParagraphs": [
+      "Die grobe Preisgestaltung für Naturdiamanten kann beeinflusst werden durch:"
+    ],
+    "bullets": [
+      "Gesamtraugewicht",
+      "Anzahl der Steine",
+      "Kristallform",
+      "Edelstein-, Near-Edelstein- oder Industriequalität",
+      "Farbe",
+      "Transparenz",
+      "Einschlüsse und Brüche",
+      "Voraussichtlicher polierter Ertrag",
+      "Erwartete polierte Form",
+      "Herstellungskosten",
+      "Bruch- und Nachschneidegefahr",
+      "Marktnachfrage nach dem erwarteten Ergebnis",
+      "Paketkonsistenz",
+      "Herkunftsland und Belege",
+      "Transaktions- und Logistikkosten"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A polished-diamond price-per-carat list cannot simply be multiplied by the rough weight. The expected polished value must be assessed against weight loss, manufacturing costs, uncertainty and buyer margin. For polished pricing context, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Preisführer für Diamanten",
+          "href": "/blogs/diamond-price-guide"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "kimberleyProcess": {
+    "id": "kimberley-process-requirements",
+    "title": "Anforderungen des Kimberley-Prozesses",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Kimberley Process Certification Scheme applies specifically to international trade in rough diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "The Belgian FPS Economy states that rough diamonds entering or leaving the European Union must be accompanied by a valid Kimberley Process certificate, packed in a tamper-proof container and traded only between Kimberley Process participants. Belgian rough-diamond exports also require evidence showing how the exporter obtained the goods. Review the current "
+        },
+        {
+          "type": "link",
+          "text": "Verwaltungsanforderungen für belgische Rohdiamanten",
+          "href": "https://economie.fgov.be/en/themes/diamond/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "A Kimberley Process certificate should not be presented as proof of every possible ethical, labour, environmental or human-rights claim. Belgian Foreign Affairs has acknowledged that the scheme’s conflict-diamond definition has limitations. Additional supplier due diligence and provenance evidence may therefore be necessary. See the official discussion of "
+        },
+        {
+          "type": "link",
+          "text": "was „konfliktfrei“ im Kimberley-Prozess bedeutet",
+          "href": "https://diplomatie.belgium.be/en/policy/policy-areas/peace-and-security/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sanctions and origin restrictions can change. Eligibility must be checked against the rules applying on the contract and shipment dates."
+        }
+      ]
+    ]
+  },
+  "verificationChecklist": {
+    "id": "rough-diamond-verification-checklist",
+    "title": "Checkliste zur Überprüfung von Rohdiamanten",
+    "introParagraphs": [
+      "Bevor Sie eine Transaktion durchführen, bestätigen Sie Folgendes:"
+    ],
+    "bullets": [
+      "Identität des Verkäufers und Verkaufsbefugnis",
+      "Käuferberechtigung",
+      "Natürliche versus im Labor angebaute Tests",
+      "Genaues Paketgewicht und -menge",
+      "Grobe Beschreibung und Qualitätsannahmen",
+      "Inspektionszugang",
+      "Vorgeschlagener Fertigungsplan",
+      "Geschätzte Polierausbeute",
+      "Dokumentation des Kimberley-Prozesses",
+      "Herkunftsland- und Provenienznachweise",
+      "Aktuelle Sanktionsbefolgung",
+      "Zahlungs-, Versicherungs- und Versandbedingungen",
+      "Anfechtungs-, Ablehnungs- und Rückgabebedingungen"
+    ],
+    "closingParagraphs": [
+      "Überweisen Sie keine Gelder ausschließlich anhand von Fotos, Videos oder einer nicht verifizierten Zertifikatskopie."
+    ]
+  },
+  "enquiryProcess": {
+    "id": "professional-rough-diamond-enquiry-process",
+    "title": "Professioneller Rohdiamanten-Anfrageprozess",
+    "introParagraphs": [
+      "Eine ordnungsgemäß kontrollierte Untersuchung sollte diesen Schritten folgen:"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "id": "submit-the-requirement",
+        "title": "Senden Sie die Anforderung",
+        "paragraphs": [
+          "Geben Sie die gewünschte Größe, Menge, Kristallart, Qualität, Farbe, Budget, Herstellungsziel und Bestimmungsort an."
+        ]
+      },
+      {
+        "number": 2,
+        "id": "confirm-eligibility",
+        "title": "Bestätigen Sie die Berechtigung",
+        "paragraphs": [
+          "Die Parteien sollten die Händlerregistrierung, KYC, AML, Sanktionen und Zielbestimmungen bestätigen, bevor sie den Versand besprechen."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-availability-and-documents",
+        "title": "Überprüfen Sie die Verfügbarkeit und Dokumente",
+        "paragraphs": [
+          "Der Verkäufer sollte das Paket, den Eigentumsnachweis, das Gewicht, die Menge, die Herkunftsdokumentation und die geltenden Aufzeichnungen des Kimberley-Prozesses identifizieren."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "complete-specialist-evaluation",
+        "title": "Komplette fachärztliche Beurteilung",
+        "paragraphs": [
+          "Der Rohling sollte von einer Person untersucht werden, die für die Beurteilung der Identität, des Herstellungsrisikos und der voraussichtlichen Polierausbeute qualifiziert ist."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "issue-a-written-quotation",
+        "title": "Erstellen Sie ein schriftliches Angebot",
+        "paragraphs": [
+          "Im Angebot sollten die genaue Ware, Annahmen, Währung, Gültigkeitsdauer, Zahlungsbedingungen, Prüfbedingungen und Lieferverpflichtungen aufgeführt sein."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "complete-export-and-import-controls",
+        "title": "Vollständige Export- und Importkontrollen",
+        "paragraphs": [
+          "Die Sendung muss allen relevanten Kimberley-Prozess-, Zoll-, Sanktions-, Versicherungs- und manipulationssicheren Verpackungsanforderungen entsprechen."
+        ]
+      }
+    ]
+  },
+  "contactExpert": {
+    "id": "contact-an-antwerp-diamond-expert",
+    "title": "Kontaktieren Sie einen Antwerpener Diamantenexperten",
+    "introParagraphs": [
+      "Senden Sie die folgenden Informationen, damit Dalila Diamonds bestätigen kann, ob die Anfrage zu den verfügbaren Dienstleistungen gehört:"
+    ],
+    "bullets": [
+      "Firmenname",
+      "Angaben zum Land und zur Firmenregistrierung",
+      "Käuferrolle",
+      "Benötigte Menge",
+      "Grober Karatbereich",
+      "Bevorzugte Qualität oder erwartetes poliertes Ergebnis",
+      "Anforderungen an das Herkunftsland",
+      "Budget",
+      "Lieferland",
+      "Gewünschtes Datum",
+      "Geplanter Produktionsstandort"
+    ],
+    "primaryButtonText": "Kontaktieren Sie einen Antwerpener Diamantenexperten",
+    "primaryButtonHref": "/contact",
+    "supportingNotice": "Verfügbarkeit von Rohdiamanten, Käuferberechtigung, Dokumentation, Inspektion, Preisgestaltung, Zahlungs- und Lieferbedingungen müssen schriftlich bestätigt werden. Senden Sie keine Rohdiamanten ohne vorherige schriftliche Annahme- und Verwahrungsanweisungen an Dalila."
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Was ist ein natürlicher Rohdiamant?",
+        "answer": "Ein natürlicher Rohdiamant ist ein Diamant, der durch geologische Prozesse entstanden ist und noch nicht vollständig geschliffen und poliert wurde."
+      },
+      {
+        "question": "Sind Roh- und Rohdiamanten dasselbe?",
+        "answer": "„Rohdiamant“ ist eine informelle Beschreibung. „Rohdiamant“ ist der gängige Handels- und Regulierungsbegriff."
+      },
+      {
+        "question": "Kann jeder Rohdiamanten kaufen?",
+        "answer": "Die Berechtigung hängt von der Gerichtsbarkeit und der Transaktion ab. Der internationale Handel mit Rohdiamanten wird normalerweise zwischen autorisierten professionellen Teilnehmern abgewickelt und unterliegt Compliance-Kontrollen."
+      },
+      {
+        "question": "Gibt es für Rohdiamanten GIA-Bewertungsberichte?",
+        "answer": "Standard-GIA-Bewertungsberichte für Naturdiamanten sind für lose geschliffene Diamanten gedacht. Die grobe Analyse von GIA ist in erster Linie mit dem Diamond Origin-Programm verbunden und funktioniert nicht wie ein normaler, polierter Bewertungsbericht."
+      },
+      {
+        "question": "Wie kann ich bestätigen, dass ein Rohdiamant natürlich ist?",
+        "answer": "Das Aussehen allein reicht nicht aus. Eine zuverlässige Trennung von im Labor gezüchtetem Material kann eine professionelle gemmologische Untersuchung und fortgeschrittene Tests erfordern."
+      },
+      {
+        "question": "Wie wird ein Rohdiamant bewertet?",
+        "answer": "Der Wert hängt von der Identität, dem Gewicht, der Form, der Farbe, den Einschlüssen, der voraussichtlichen Polierausbeute, dem Schnittrisiko, den Herstellungskosten, der Dokumentation und der Nachfrage nach dem erwarteten Polierergebnis ab."
+      },
+      {
+        "question": "Belegt ein Kimberley-Prozess-Zertifikat das Bergbauland?",
+        "answer": "Das Zertifikat enthält Informationen, die für die Lieferung erforderlich sind. Für eine vollständige Herkunft auf Minenebene sind jedoch möglicherweise zusätzliche Nachweise erforderlich. Überprüfen Sie das Originalzertifikat, die Rechnung und die unterstützenden Chain-of-Custody-Dokumente."
+      },
+      {
+        "question": "Beweist die Einhaltung des Kimberley-Prozesses, dass ein Diamant aus ethischen Gründen stammt?",
+        "answer": "Es befasst sich mit Konfliktdiamanten im Rahmen des definierten Geltungsbereichs des Programms. Es beweist nicht automatisch jeden Arbeits-, Umwelt-, Menschenrechts- oder Nachhaltigkeitsanspruch."
+      },
+      {
+        "question": "Kann ich einen Rohdiamanten anhand von Fotos bewerten?",
+        "answer": "Fotos können ein erstes Gespräch unterstützen, können jedoch nicht zuverlässig Identität, inneren Zustand, Herstellungsrisiko oder polierte Ausbeute belegen."
+      },
+      {
+        "question": "Kann Dalila Diamonds natürliche Rohdiamanten beschaffen?",
+        "answer": "Dies muss direkt für das angeforderte Paket, den Käufer, den Bestimmungsort und die Transaktion bestätigt werden. Dalila sollte nicht als Rohdiamantenlieferant dargestellt werden, bis sein Leistungsumfang und seine behördliche Eignung dokumentiert sind."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "discuss-a-professional-rough-diamond-enquiry",
+    "title": "Besprechen Sie eine professionelle Rohdiamantenanfrage",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use this page to understand rough-diamond evaluation, documentation and trade controls before starting an enquiry. For polished natural diamonds, review the "
+        },
+        {
+          "type": "link",
+          "text": "Live-zertifizierter Bestand an polierten Diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", request sourcing through "
+        },
+        {
+          "type": "link",
+          "text": "Diamantenquelle für Sie",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ", or learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium-B2B-Diamantenlieferant in Belgien",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "To discuss whether a rough enquiry may fall within Dalila’s available services, "
+        },
+        {
+          "type": "link",
+          "text": "Kontaktieren Sie Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": ". Availability, eligibility, documentation and commercial terms must be confirmed in writing."
+        }
+      ]
+    ],
+    "primaryButtonText": "Kontaktieren Sie einen Antwerpener Diamantenexperten",
+    "primaryButtonHref": "/contact"
+  }
+}

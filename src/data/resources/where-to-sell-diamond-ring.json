@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "title": "Where to Sell a Diamond Ring in Belgium | Dalila",
+    "description": "Compare diamond buyers, jewellers, auctions and consignment. Learn where to sell a natural diamond ring securely and request a private Antwerp valuation.",
+    "canonical": "https://www.daliladiamonds.com/resources/where-to-sell-diamond-ring",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal"
+  },
+  "banner": {
+    "title": "Where to Sell a Diamond Ring",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Where to Sell a Diamond Ring",
+    "imageAlt": "Where to sell a diamond ring resource banner"
+  },
+  "hero": {
+    "title": "Where Is the Best Place to Sell a Diamond Ring?",
+    "paragraphs": [
+      "The best place to sell a diamond ring depends on the type of ring, how quickly you want to sell and whether your priority is convenience, privacy or the possibility of reaching a particular type of buyer.",
+      "A specialist natural-diamond buyer can be a practical option for someone who wants a direct evaluation and purchase offer. Auction and consignment may be more appropriate for certain antique, signed or highly unusual pieces, particularly when the seller is prepared to wait. Selling directly to another individual may offer more control over the asking price, but it also requires the seller to manage security, verification, negotiation and payment.",
+      "Before choosing where to sell your diamond ring, understand what you own, compare the selling methods and ask each buyer how the ring will be evaluated."
+    ],
+    "primaryButtonText": "REQUEST A PRIVATE DIAMOND-RING VALUATION",
+    "primaryButtonHref": "#ring-valuation-form-top"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/where-to-sell-diamond-ring.webp",
+      "alt": "Natural diamond ring being evaluated by a specialist diamond buyer",
+      "width": 1600,
+      "height": 900
+    },
+    "sellingOptions": {
+      "src": "/images/resources/diamond-ring-selling-options.webp",
+      "alt": "Comparison of places to sell a natural diamond ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "trustChecklist": {
+      "src": "/images/resources/safe-diamond-ring-buyer-checklist.webp",
+      "alt": "Documents and safety checks before selling a diamond ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "antwerpProcess": {
+      "src": "/images/resources/sell-diamond-ring-antwerp-process.webp",
+      "alt": "Process for selling a natural diamond ring in Antwerp",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      { "id": "quick-answer", "label": "Quick answer" },
+      { "id": "compare-selling-methods", "label": "Compare selling methods" },
+      { "id": "specialist-buyer", "label": "Specialist diamond buyer" },
+      { "id": "jewellery-retailer", "label": "Jewellery retailer" },
+      { "id": "auction", "label": "Auction" },
+      { "id": "consignment", "label": "Consignment" },
+      { "id": "private-marketplace", "label": "Private marketplace" },
+      { "id": "pawn-gold-buyer", "label": "Pawn shop or gold buyer" },
+      { "id": "best-method", "label": "Best method for your ring" },
+      { "id": "trustworthy-buyer", "label": "Trustworthy buyer checklist" },
+      { "id": "warning-signs", "label": "Warning signs" },
+      { "id": "before-selling", "label": "Before selling" },
+      { "id": "compare-offers", "label": "Compare two offers" },
+      { "id": "why-antwerp", "label": "Why sell in Antwerp?" },
+      { "id": "dalila-process", "label": "Dalila evaluation process" },
+      { "id": "frequently-asked-questions", "label": "FAQs" },
+      { "id": "find-right-place", "label": "Find the right place to sell" }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Quick Answer: Where Should I Sell My Diamond Ring?",
+    "paragraphs": [
+      "For a certified natural-diamond ring, the most practical starting point is usually a specialist buyer who understands natural diamonds and can assess the centre stone separately from the jewellery setting.",
+      "A general gold buyer may focus primarily on the metal, while a pawn shop may value the item according to its own short-term resale or lending model. An auction house may be suitable for a rare, branded or collectible ring, but the process can involve commission, additional fees and a longer wait without a guaranteed sale."
+    ],
+    "scenariosIntro": "The right option therefore depends on the ring:",
+    "scenarios": [
+      "A certified natural-diamond solitaire may suit a specialist diamond buyer.",
+      "A signed or collectible ring may justify an auction or specialist estate-jewellery review.",
+      "An ordinary gold ring with small diamonds may require separate consideration of its metal and stones.",
+      "A ring without a certificate may need testing before a reliable offer can be prepared.",
+      "A seller who wants a quick and private process may prefer a direct professional buyer."
+    ],
+    "closing": "A good buyer should be able to explain how the centre diamond, smaller stones, setting and documentation affect the offer."
+  },
+  "compareMethods": {
+    "id": "compare-selling-methods",
+    "title": "Compare the Main Places to Sell a Diamond Ring",
+    "intro": [
+      "No single selling route is best for every ring. The following comparison helps explain the main differences."
+    ],
+    "table": {
+      "caption": "Comparison of diamond ring selling methods",
+      "headers": ["Selling method", "Typical speed", "Main advantage", "Main consideration", "Usually suited to"],
+      "rows": [
+        ["Specialist diamond buyer", "Relatively fast", "Direct diamond assessment and purchase offer", "The offer reflects the buyer’s resale market and purchasing criteria", "Certified natural diamonds, solitaires and valuable centre stones"],
+        ["Jewellery retailer", "Varies", "Convenient local conversation", "Many retailers do not purchase second-hand jewellery", "Rings that fit the retailer’s resale or trade-in policy"],
+        ["Auction house", "Usually slower", "Access to collectors and competitive bidding", "Commission, fees, reserve conditions and no guaranteed sale", "Rare, signed, antique or highly distinctive jewellery"],
+        ["Consignment", "Usually slower", "Potential access to a retail customer", "Payment is normally made only after the ring sells", "Desirable jewellery when the seller is not in a hurry"],
+        ["Private marketplace", "Unpredictable", "Seller controls the listing and asking price", "Security, fraud, shipping, verification and negotiation", "Experienced sellers willing to manage the full transaction"],
+        ["Pawn shop", "Usually fast", "Immediate local access", "The valuation model may prioritise liquidity rather than specialist diamond demand", "Sellers primarily concerned with speed"],
+        ["Gold buyer", "Usually fast", "Straightforward metal assessment", "The centre diamond and design may not receive specialist consideration", "Jewellery whose value is mainly in its precious metal"]
+      ]
+    },
+    "closing": "These differences do not mean that one channel always produces the highest result. The ring’s quality, rarity, condition and documentation can change which route is most appropriate."
+  },
+  "form": {
+    "leadSource": "where_to_sell_diamond_ring",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP and PDF",
+    "title": "Request a Private Ring Valuation",
+    "subtitle": "Tell us about your ring and upload clear photographs. A member of the Dalila team will contact you using your preferred method.",
+    "sellingOptions": [
+      "Natural-diamond engagement ring",
+      "Other natural-diamond ring",
+      "Antique or vintage ring",
+      "Branded or signed ring",
+      "Laboratory-grown diamond ring",
+      "I am not sure"
+    ],
+    "reportOptions": ["GIA", "HRD Antwerp", "IGI", "Another laboratory", "No report", "I am not sure"],
+    "contactMethods": ["Email", "Telephone", "Either email or telephone"],
+    "evaluationPreferences": ["Online review only", "Private Antwerp appointment", "Not sure yet"],
+    "consentText": "I agree that Dalila Diamonds may contact me about this evaluation request. I understand that an online review is preliminary and that a final offer may require physical inspection and verification.",
+    "privacyLinkText": "privacy policy",
+    "privacyHref": "/contact",
+    "submitButton": "Request My Private Ring Valuation",
+    "submittingButton": "Submitting…",
+    "successMessage": "Thank you. Your ring details have been submitted for review. A member of the Dalila Diamonds team will contact you shortly.",
+    "errorMessage": "We could not submit your request. Please check the required fields and try again.",
+    "labels": {
+      "sellingType": "What are you selling?",
+      "reportStatus": "Do you have a grading report?",
+      "reportNumber": "Report number",
+      "caratWeight": "Approximate carat weight",
+      "upload": "Upload photographs",
+      "dragDrop": "Drag and drop files here, or choose files",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "country": "Country",
+      "contactMethod": "Preferred contact method",
+      "evaluationPreference": "Preferred online review or Antwerp appointment",
+      "additionalInfo": "Additional information",
+      "optional": "Optional"
+    },
+    "validation": {
+      "sellingTypeRequired": "Please select what you are selling.",
+      "reportRequired": "Please select your grading report status.",
+      "nameRequired": "Please enter your full name.",
+      "contactRequired": "Please provide an email address or telephone number.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm the consent statement before submitting."
+    }
+  },
+  "specialistBuyer": {
+    "id": "specialist-buyer",
+    "title": "Selling to a Specialist Diamond Buyer",
+    "paragraphs": [
+      "A specialist diamond buyer evaluates the ring primarily as a diamond asset rather than only as a piece of second-hand jewellery. This can be particularly relevant when the ring contains a valuable natural centre diamond.",
+      "The buyer may review the centre stone’s natural or laboratory-grown origin, shape, carat weight, colour, clarity, cut quality, fluorescence, grading report, condition and current buyer demand. The setting, precious metal, side stones, craftsmanship and brand may then be considered separately.",
+      "This route can be useful when the seller wants a direct offer without creating a public listing or waiting for another retail customer. However, a direct purchase offer will not be the same as the ring’s original retail price or insurance replacement value.",
+      "A professional buyer should explain what has been evaluated and whether the offer includes the complete ring, the centre diamond, the setting and any additional stones."
+    ],
+    "whenRightTitle": "When a Specialist Buyer May Be the Right Option",
+    "whenRightBullets": [
+      "The ring contains a natural diamond",
+      "The centre diamond has a GIA, HRD Antwerp or IGI report",
+      "You want to begin with an online review",
+      "You prefer a private transaction",
+      "You want a direct purchase offer",
+      "You need the diamond and setting considered separately",
+      "You are willing to arrange physical verification"
+    ],
+    "ctaText": "SUBMIT MY DIAMOND RING FOR REVIEW",
+    "ctaHref": "#ring-valuation-form-top"
+  },
+  "jewelleryRetailer": {
+    "id": "jewellery-retailer",
+    "title": "Selling a Diamond Ring Through a Jewellery Retailer",
+    "paragraphs": [
+      "Some jewellery retailers purchase pre-owned rings, offer trade-in credit or accept selected pieces for resale. Others only sell new jewellery and do not buy items from the public.",
+      "A retailer may be interested when the ring matches its existing product style, customer demand or trade-in programme. However, a general jeweller may not have a current buying requirement for the particular diamond, shape or design."
+    ],
+    "questionsIntro": "Before visiting, ask:",
+    "questions": [
+      "Does the jeweller purchase rings directly?",
+      "Is the transaction a cash purchase, trade-in or consignment arrangement?",
+      "Will the centre diamond be evaluated separately?",
+      "Are any inspection or administrative fees charged?",
+      "How long is the offer valid?",
+      "When and how will payment be made?"
+    ],
+    "closing": "A jeweller who does not regularly purchase natural diamonds may still be able to recommend an independent appraiser or specialist buyer."
+  },
+  "auction": {
+    "id": "auction",
+    "title": "Selling a Diamond Ring at Auction",
+    "paragraphs": [
+      "An auction house may be worth considering for a signed, antique, historically important or unusually valuable ring. Competitive bidding can work well when several collectors want the same item.",
+      "However, auction results are not guaranteed. The seller may need to wait for the appropriate sale, and the final proceeds can be affected by seller’s commission, photography, insurance, catalogue, transport or unsold-item charges. The applicable costs vary between auction houses and should be confirmed in writing."
+    ],
+    "questionsIntro": "Before consigning a ring to auction, ask for:",
+    "questions": [
+      "The proposed auction estimate",
+      "The reserve price",
+      "The seller’s commission",
+      "Any additional charges",
+      "The expected auction date",
+      "Payment timing after the sale",
+      "Insurance arrangements",
+      "What happens if the ring does not sell"
+    ],
+    "closing": [
+      "An auction estimate is not a guaranteed selling price. It is an indication of the range in which the auction house expects bidding may occur.",
+      "For a standard commercial diamond ring without an important brand, provenance or rare design, a direct specialist buyer may offer a simpler route."
+    ]
+  },
+  "consignment": {
+    "id": "consignment",
+    "title": "Selling a Diamond Ring on Consignment",
+    "paragraphs": [
+      "With consignment, a jeweller or specialist displays and markets the ring on the seller’s behalf. The seller is paid only when another customer purchases it, after the agreed commission and costs have been deducted.",
+      "Consignment may produce a stronger gross selling price than an immediate direct offer because the ring is presented to a retail buyer. However, it may take weeks or months to sell, and there is no certainty that a buyer will be found."
+    ],
+    "agreementIntro": "The written consignment agreement should explain:",
+    "agreementItems": [
+      "The listing or asking price",
+      "The minimum amount the seller will receive",
+      "Commission and other fees",
+      "Insurance responsibility",
+      "The length of the agreement",
+      "Whether the ring can be discounted",
+      "When the seller receives payment",
+      "How the ring can be withdrawn",
+      "What happens if the ring is lost or damaged"
+    ],
+    "closing": "Consignment is generally more suitable for someone who is comfortable waiting and does not require an immediate decision."
+  },
+  "privateMarketplace": {
+    "id": "private-marketplace",
+    "title": "Selling Privately or Through an Online Marketplace",
+    "paragraphs": [
+      "Selling a diamond ring directly to another person allows the seller to choose the asking price and control the listing. However, the apparent selling price should not be confused with the final amount received after platform fees, payment charges, shipping, insurance and possible returns.",
+      "Private selling also places more responsibility on the owner. The seller must accurately describe the ring, answer questions, establish buyer confidence, arrange secure payment and manage delivery or an in-person meeting."
+    ],
+    "risksIntro": "Important risks include:",
+    "risks": [
+      "Fraudulent payment confirmations",
+      "Chargebacks",
+      "Account impersonation",
+      "Uninsured shipping",
+      "Replacement or return fraud",
+      "Unsafe in-person meetings",
+      "Disclosure of private contact or location information",
+      "Disputes about the diamond’s description"
+    ],
+    "closing": [
+      "If selling privately, never rely on a screenshot as proof of payment. Do not release the ring until the payment method has been independently verified and the transaction conditions are clear.",
+      "High-value transactions should not be arranged casually with an unknown buyer."
+    ]
+  },
+  "pawnGoldBuyer": {
+    "id": "pawn-gold-buyer",
+    "title": "Selling to a Pawn Shop or General Gold Buyer",
+    "paragraphs": [
+      "Pawn shops and gold buyers can provide a quick and accessible selling route, but their business models differ from those of specialist diamond buyers.",
+      "A gold buyer may primarily calculate the value of the ring’s precious-metal content. A pawn shop may base its offer on the amount it can lend against the item or the speed at which it believes the ring can be resold.",
+      "This does not automatically make the service unsuitable, but the seller should ask whether the centre diamond has been evaluated as a natural diamond rather than treated as a minor part of the setting.",
+      "If the ring contains a valuable centre stone, obtain a separate specialist diamond assessment before accepting an offer based mainly on the metal weight."
+    ]
+  },
+  "bestMethod": {
+    "id": "best-method",
+    "title": "Which Selling Method Is Best for Your Ring?",
+    "intro": "The best selling method becomes easier to identify once you consider the type of diamond ring you own.",
+    "scenarios": [
+      {
+        "title": "Certified Natural-Diamond Solitaire",
+        "text": "A specialist natural-diamond buyer is usually a logical starting point. The grading report provides information that can support comparison with other diamonds, while physical inspection can confirm condition and report matching."
+      },
+      {
+        "title": "Branded or Signed Diamond Ring",
+        "text": "A ring from a recognised jewellery house may carry value beyond its centre diamond and metal. Original packaging, receipts, service records and documentation should be preserved. An auction house, estate-jewellery specialist or buyer familiar with the brand may be appropriate."
+      },
+      {
+        "title": "Antique or Period Ring",
+        "text": "The design, age, craftsmanship and condition may contribute to the ring’s desirability. Avoid having the ring altered, polished aggressively or dismantled before an antique-jewellery specialist has reviewed it."
+      },
+      {
+        "title": "Ring With No Certificate",
+        "text": "The ring can still be submitted to a specialist buyer, but the diamond may need testing or independent grading before a final offer is made. Photographs and old purchase documents can support the initial review."
+      },
+      {
+        "title": "Ring With Several Small Diamonds",
+        "text": "The value may be divided between the metal, centre stone, side stones and overall design. Some smaller diamonds may have limited individual resale demand, so the complete item should be assessed before it is dismantled."
+      },
+      {
+        "title": "Laboratory-Grown Diamond Ring",
+        "text": "Laboratory-grown and natural diamonds must be valued separately. Ask the buyer whether laboratory-grown diamonds fall within its current purchasing criteria before arranging an appointment."
+      }
+    ]
+  },
+  "trustworthyBuyer": {
+    "id": "trustworthy-buyer",
+    "title": "How Do I Know Whether a Diamond Buyer Is Trustworthy?",
+    "paragraphs": [
+      "A trustworthy selling process should be transparent before the seller hands over the ring.",
+      "The buyer should provide clear business and contact information, explain how the evaluation works and state whether the initial review is free or chargeable. Any shipping, insurance, examination or return conditions should be provided before the ring changes hands."
+    ],
+    "questionsIntro": "A seller should be able to ask:",
+    "questions": [
+      "Who will evaluate the diamond?",
+      "Will the grading report be verified?",
+      "Is the centre stone assessed separately from the setting?",
+      "Is the offer for the complete ring or only part of it?",
+      "Are any fees deducted?",
+      "Is the offer provided in writing?",
+      "How and when is payment made?",
+      "What happens if the offer is declined?",
+      "Who is responsible for the ring during inspection?",
+      "Will identification or ownership documents be required?"
+    ],
+    "closing": "The answer does not need to be complicated. It does need to be clear."
+  },
+  "warningSigns": {
+    "id": "warning-signs",
+    "title": "Warning Signs When Choosing Where to Sell",
+    "intro": "Be cautious when a buyer promises a guaranteed “highest price” without first knowing what the ring contains. No responsible buyer can accurately value a diamond from carat weight alone.",
+    "signsIntro": "Other warning signs include:",
+    "signs": [
+      "Pressure to accept immediately",
+      "Refusal to provide business details",
+      "Unexplained inspection or processing fees",
+      "No written receipt when the ring is handed over",
+      "Unclear payment arrangements",
+      "Requests to ship without documented insurance terms",
+      "Valuing only the gold without examining a valuable centre diamond",
+      "Refusal to explain what the offer includes",
+      "Changing the offer without identifying what changed",
+      "Asking the seller to misrepresent ownership or transaction details"
+    ],
+    "closing": "If the process does not feel clear, pause the transaction and seek another assessment."
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "What Should I Do Before Selling My Diamond Ring?",
+    "paragraphs": [
+      "Preparation helps the buyer understand the ring and makes offers easier to compare.",
+      "Start by gathering the grading report, original receipt, previous appraisal, service history and any branded packaging. If the diamond has a report number, verify it through the issuing laboratory’s website.",
+      "A grading report and an appraisal are not the same. GIA explains that a grading report provides an assessment of diamond quality, while an appraisal assigns a monetary value for a stated purpose.",
+      "Take clear photographs of the ring from above, from the side and inside the band. Include photographs of hallmarks, signatures and the complete report.",
+      "Do not attempt to remove the diamond yourself. You should also avoid aggressive polishing or repairs before evaluation, particularly if the ring is antique or signed."
+    ],
+    "giaLinkText": "Read GIA’s explanation of grading reports and appraisals",
+    "prepareTitle": "Prepare the Following Where Available",
+    "prepareItems": [
+      "Grading report",
+      "Original purchase receipt",
+      "Previous appraisal",
+      "Brand certificate or service record",
+      "Original box",
+      "Clear photographs",
+      "Information about repairs or resizing",
+      "Personal identification",
+      "Evidence of lawful ownership when requested"
+    ],
+    "closing": "Missing documents do not always prevent a sale, but they may affect the checks required before a final offer can be made."
+  },
+  "compareOffers": {
+    "id": "compare-offers",
+    "title": "How Should I Compare Two Diamond-Ring Offers?",
+    "intro": [
+      "The largest number is not always the best offer if the terms are different.",
+      "One buyer may provide a direct net offer with no separate charges. Another may quote an estimated selling price before commission, insurance and other fees. A consignment proposal may appear higher but only becomes payable if the ring eventually sells."
+    ],
+    "table": {
+      "caption": "Questions to compare diamond ring offers",
+      "headers": ["Question", "Why it matters"],
+      "rows": [
+        ["Is this a direct offer or an estimated future sale price?", "One may be payable after verification; the other depends on finding a buyer"],
+        ["Are fees deducted?", "Commission and other charges affect the amount received"],
+        ["Does the offer include the setting and side stones?", "Different buyers may be valuing different parts of the ring"],
+        ["When will payment be made?", "Immediate payment and payment after resale are not equivalent"],
+        ["Is the offer conditional?", "The amount may change after inspection or report verification"],
+        ["What happens if I decline?", "The return process, timing and costs should be clear"],
+        ["How long is the offer valid?", "Diamond-market conditions and buyer demand can change"]
+      ]
+    },
+    "closing": "Ask each buyer to clarify the amount you will actually receive, rather than comparing headline figures prepared on different bases."
+  },
+  "whyAntwerp": {
+    "id": "why-antwerp",
+    "title": "Why Consider Selling a Diamond Ring in Antwerp?",
+    "paragraphs": [
+      "Antwerp has a long-established professional diamond trade. For a seller with a natural-diamond ring, access to businesses that regularly evaluate and trade diamonds can make it easier to obtain a specialist assessment.",
+      "A physical Antwerp evaluation can allow the diamond to be examined, matched to its grading report and assessed separately from the setting. This is particularly relevant for certified natural diamonds, larger centre stones and rings whose value is not primarily in the metal.",
+      "Dalila Diamonds allows sellers to begin online by submitting the grading information and photographs available. If the ring is suitable for further evaluation, the next step can be discussed before a private Antwerp appointment is arranged."
+    ],
+    "ctaText": "SELL MY DIAMOND RING IN ANTWERP",
+    "ctaHref": "/sud"
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "How the Dalila Diamond-Ring Evaluation Works",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Submit the Ring Details",
+        "text": "Tell Dalila about the ring and upload clear photographs. Include the grading report, receipt and previous appraisal when available."
+      },
+      {
+        "number": 2,
+        "title": "Initial Private Review",
+        "text": "The submitted information is reviewed to determine whether the ring fits Dalila’s purchasing criteria and whether additional details are required."
+      },
+      {
+        "number": 3,
+        "title": "Arrange Physical Verification",
+        "text": "If the ring is suitable for further evaluation, Dalila may arrange a private appointment in Antwerp. The diamond can then be inspected and matched to its documentation."
+      },
+      {
+        "number": 4,
+        "title": "Receive a Purchase Offer",
+        "text": "After the necessary checks, Dalila may provide an offer based on the diamond, setting, condition and current purchasing demand."
+      },
+      {
+        "number": 5,
+        "title": "Decide Whether to Sell",
+        "text": "The seller can consider the offer without an obligation to proceed. Submitting the initial form does not require the ring to be sold."
+      }
+    ],
+    "ctaText": "REQUEST MY PRIVATE OFFER",
+    "ctaHref": "#ring-valuation-form-bottom"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Where is the best place to sell my diamond ring?",
+        "answer": "The best place depends on the ring and your priorities. A specialist natural-diamond buyer may suit a certified solitaire or valuable centre stone. Auction or consignment may suit certain rare, branded or antique rings when the seller is prepared to wait."
+      },
+      {
+        "question": "Can I sell my diamond ring directly to a diamond buyer?",
+        "answer": "Yes. A specialist buyer may review the ring and provide a direct purchase offer after completing the necessary verification."
+      },
+      {
+        "question": "Is a jeweller or pawn shop better for selling a diamond ring?",
+        "answer": "The answer depends on how each business evaluates the ring. A specialist jeweller or diamond buyer may assess the centre stone in greater detail, while a pawn shop may prioritise speed and liquidity."
+      },
+      {
+        "question": "Should I have my diamond ring appraised before selling it?",
+        "answer": "An independent fair-market appraisal can help if you do not understand what you own. However, an appraisal is not a purchase offer and should be prepared for the correct valuation purpose."
+      },
+      {
+        "question": "Is my diamond ring worth its insurance valuation?",
+        "answer": "Not necessarily. Insurance valuations are generally prepared for replacement purposes. A resale or purchase offer reflects current buyer demand and the amount a particular buyer is willing to pay."
+      },
+      {
+        "question": "Does a GIA, HRD or IGI certificate increase the selling price?",
+        "answer": "A recognised grading report can make the diamond’s characteristics easier to verify and compare. It does not guarantee a particular price, but it can support a more informed evaluation."
+      },
+      {
+        "question": "Can I sell a diamond ring without its certificate?",
+        "answer": "Yes. A specialist can begin with photographs and the available information. Physical testing or a new grading report may be required before a final offer is made."
+      },
+      {
+        "question": "Should I remove the diamond from the ring before selling it?",
+        "answer": "No. Do not remove the diamond yourself. The ring should first be reviewed in its existing condition so that a specialist can advise whether removal is necessary."
+      },
+      {
+        "question": "Can I sell an inherited diamond ring?",
+        "answer": "Yes. Inherited rings can be submitted for evaluation. Provide any available reports, receipts, appraisals or provenance documents and be prepared to establish your right to sell the item."
+      },
+      {
+        "question": "Is it better to sell a diamond ring online or in person?",
+        "answer": "An online submission is useful for an initial review. A final purchase offer may require an in-person inspection to confirm the diamond’s origin, identity and condition."
+      },
+      {
+        "question": "How quickly can I sell a diamond ring?",
+        "answer": "The timing depends on the selling method. A direct buyer may complete the process relatively quickly after verification, while auction and consignment can take considerably longer."
+      },
+      {
+        "question": "Do I have to accept the offer?",
+        "answer": "No. Requesting an evaluation should not oblige you to sell. You can review the offer and decide whether you want to proceed."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-place",
+    "title": "Find the Right Place to Sell Your Diamond Ring",
+    "paragraphs": [
+      "The best selling route is the one that fits the ring, your timeframe and the level of involvement you are comfortable managing.",
+      "A specialist diamond buyer can provide a direct and private option for natural-diamond rings. Auction and consignment may be considered for pieces with unusual design, brand or collector appeal, while a private sale requires the owner to manage the security and transaction personally.",
+      "If you would like to understand whether Dalila Diamonds is a suitable buyer for your ring, begin with a private online submission."
+    ],
+    "primaryButtonText": "SUBMIT MY DIAMOND RING FOR VALUATION",
+    "primaryButtonHref": "#ring-valuation-form-bottom",
+    "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "diamond valuation calculator" },
+    "sellSafely": { "href": "/sell-your-diamond-safely", "text": "how to sell a diamond ring safely" },
+    "withoutCert": { "href": "/resources/sell-diamond-without-certificate", "text": "sell a diamond without a certificate" },
+    "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "Diamond report-verification guide" },
+    "colourGuide": { "href": "/blogs/best-diamond-colour-clarity-combination", "text": "diamond colour guide" },
+    "clarityGuide": { "href": "/blogs/vs1-vs-vs2-diamond-clarity", "text": "diamond clarity guide" }
+  }
+}

@@ -1,0 +1,1702 @@
+{
+  "meta": {
+    "title": "Diamond Fluorescence Guide | Dalila Diamonds",
+    "description": "Understand diamond fluorescence, blue fluorescence and strength levels. Learn how fluorescence can affect appearance and price before buying a natural diamond.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-fluorescence-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaFluorescence": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+    "giaFluorescenceMyths": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+    "giaFluorescenceResearch": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence"
+  },
+  "banner": {
+    "title": "Diamond Fluorescence Guide",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Diamond Fluorescence Guide",
+    "imageAlt": "Diamond Fluorescence Guide resource banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "Diamond Fluorescence Guide for Natural Diamond Buyers",
+    "subheading": "Understand what diamond fluorescence means, how laboratories describe its intensity and how to evaluate its possible effect on the appearance and price of a natural diamond.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "30 July 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Diamond fluorescence is frequently misunderstood.",
+      "Some buyers automatically reject every diamond with Strong or Very Strong fluorescence. Others assume that blue fluorescence will always make a warmer diamond appear whiter. Neither approach considers how fluorescence actually works or how individual diamonds differ.",
+      "Fluorescence is a reaction that occurs when some diamonds are exposed to ultraviolet radiation. It is not one of the 4Cs, does not automatically improve or damage a diamond and cannot independently establish whether a diamond is natural.",
+      "For most diamonds, fluorescence has little or no noticeable effect under ordinary viewing conditions. However, it should still be read on the grading report, considered in relation to colour and transparency and inspected under suitable lighting before purchasing."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "introParagraphs": [
+      "Diamond fluorescence is the visible light emitted by some diamonds when they are exposed to ultraviolet radiation.",
+      "The most frequently observed fluorescence colour is blue. Other colours, including yellow, orange, white, red and green, can occur less commonly.",
+      "On GIA diamond reports, fluorescence intensity is described as:"
+    ],
+    "attributes": [
+      "None",
+      "Faint",
+      "Medium",
+      "Strong",
+      "Very Strong"
+    ],
+    "closingParagraphs": [
+      "Fluorescence is an identifying characteristic rather than one of the 4Cs. It does not alter the laboratory-assigned colour grade, reduce structural durability or automatically make a diamond cloudy.",
+      "GIA reports that approximately 25% to 35% of the diamonds represented in its cited submission data show some degree of fluorescence under long-wave ultraviolet light. More than 95% of those fluorescent diamonds show a blue reaction. GIA’s fluorescence guidance also explains that fluorescence generally has no systematic visible effect for the average observer.",
+      "Strong fluorescence should nevertheless be evaluated on the individual diamond. In uncommon cases, it can intensify a pre-existing hazy appearance associated with light-scattering structural features or nano-inclusions.",
+      "The practical answer is therefore:",
+      "Diamond fluorescence is neither automatically good nor automatically bad. Read the report, inspect the actual diamond under different lighting conditions and compare its transparency, colour appearance and price with genuinely similar stones."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "Fluorescence is a diamond’s reaction to ultraviolet radiation.",
+      "It is not one of the 4Cs.",
+      "Fluorescence intensity and fluorescence colour are separate characteristics.",
+      "GIA uses None, Faint, Medium, Strong and Very Strong to describe intensity.",
+      "Blue is the most common fluorescence colour.",
+      "The majority of diamonds do not display noticeable fluorescence under standard long-wave UV examination.",
+      "Fluorescence is only active when a suitable excitation source is present.",
+      "Normal indoor lighting may contain little or no ultraviolet radiation.",
+      "Natural daylight can contain ultraviolet radiation, but its effect depends on the environment.",
+      "Blue fluorescence may make some warmer-colour diamonds appear less yellow in UV-containing light.",
+      "Fluorescence does not change the colour grade printed on a laboratory report.",
+      "Strong fluorescence does not automatically make a diamond hazy.",
+      "Fluorescence does not cause pre-existing light-scattering defects, although it may intensify their visible effect in rare diamonds.",
+      "Fluorescence does not inherently weaken a diamond.",
+      "A diamond with no fluorescence is not automatically better than one with fluorescence.",
+      "Fluorescence is not a reliable do-it-yourself test for natural-diamond identity.",
+      "Natural diamonds, laboratory-grown diamonds and some diamond simulants can show fluorescence.",
+      "Fluorescence can influence trade pricing, but there is no universal discount or premium.",
+      "The final decision should be based on the actual diamond, not the fluorescence label alone."
+    ]
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      {
+        "id": "what-is-diamond-fluorescence",
+        "label": "What diamond fluorescence means"
+      },
+      {
+        "id": "why-some-diamonds-fluoresce",
+        "label": "Why some diamonds fluoresce"
+      },
+      {
+        "id": "diamond-fluorescence-scale",
+        "label": "Diamond fluorescence scale"
+      },
+      {
+        "id": "fluorescence-intensity-versus-colour",
+        "label": "Fluorescence intensity versus colour"
+      },
+      {
+        "id": "how-fluorescence-appears-under-different-lighting",
+        "label": "How fluorescence appears under different lighting"
+      },
+      {
+        "id": "blue-fluorescence-and-diamond-colour",
+        "label": "Blue fluorescence and diamond colour"
+      },
+      {
+        "id": "strong-fluorescence-haziness-and-transparency",
+        "label": "Strong fluorescence, haziness and transparency"
+      },
+      {
+        "id": "fluorescence-sparkle-and-cut-quality",
+        "label": "Fluorescence, sparkle and cut quality"
+      },
+      {
+        "id": "fluorescence-and-diamond-shape",
+        "label": "Fluorescence and diamond shape"
+      },
+      {
+        "id": "fluorescence-and-multi-stone-jewellery",
+        "label": "Fluorescence and multi-stone jewellery"
+      },
+      {
+        "id": "diamond-fluorescence-and-price",
+        "label": "Diamond fluorescence and price"
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-fluorescence",
+        "label": "Natural versus laboratory-grown diamond fluorescence"
+      },
+      {
+        "id": "fluorescence-versus-phosphorescence",
+        "label": "Fluorescence versus phosphorescence"
+      },
+      {
+        "id": "how-to-inspect-a-fluorescent-diamond",
+        "label": "How to inspect a fluorescent diamond"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Worked diamond comparison"
+      },
+      {
+        "id": "common-fluorescence-myths",
+        "label": "Common fluorescence myths"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Natural diamond buying checklist"
+      },
+      {
+        "id": "fluorescence-guide-faq-heading",
+        "label": "Frequently asked questions"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-diamond-fluorescence",
+    "title": "What Is Diamond Fluorescence?",
+    "introParagraphs": [
+      "Diamond fluorescence is the visible light emitted by a diamond while it is being exposed to an appropriate source of excitation, most commonly ultraviolet radiation.",
+      "Ultraviolet radiation is located beyond the violet end of the visible-light spectrum. Human eyes cannot directly see ultraviolet radiation, but they may see the visible glow produced when a fluorescent material reacts to it.",
+      "A fluorescent diamond may therefore appear normal under one type of lighting and display a blue or other coloured glow under another.",
+      "The reaction normally stops when the exciting source is removed. A continuing afterglow is known as phosphorescence, which is a related but different phenomenon.",
+      "Fluorescence should not be confused with:"
+    ],
+    "bullets": [
+      "The diamond’s body colour",
+      "White-light reflection",
+      "Brightness",
+      "Fire",
+      "Scintillation",
+      "Dispersion",
+      "Phosphorescence",
+      "A treatment",
+      "A guarantee of natural origin"
+    ],
+    "closingParagraphs": [
+      "A diamond does not need to fluoresce to be natural, valuable or attractive."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "For the broader diamond quality scales covering cut, colour, clarity and carat, see the "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Quality Chart",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whyFluoresce": {
+    "id": "why-some-diamonds-fluoresce",
+    "title": "Why Do Some Diamonds Fluoresce?",
+    "introParagraphs": [
+      "Diamond consists primarily of carbon, but no natural diamond has to be structurally identical at the atomic level to every other diamond.",
+      "Trace impurities and structural defects can create optical centres that interact with incoming energy. When those centres absorb suitable energy, they may release part of it as visible light.",
+      "Different defects and impurities can contribute to different fluorescence colours, intensities and spatial patterns.",
+      "In many natural diamonds, blue fluorescence is associated with nitrogen-related defects. However, the presence of blue fluorescence by itself is not sufficient to establish the diamond’s origin, treatment history or complete atomic structure.",
+      "Professional laboratories may analyse:"
+    ],
+    "bullets": [
+      "Fluorescence intensity",
+      "Fluorescence colour",
+      "Long-wave UV reaction",
+      "Short-wave UV reaction",
+      "Deep-ultraviolet imaging",
+      "Fluorescence pattern",
+      "Phosphorescence",
+      "Absorption spectra",
+      "Photoluminescence spectra",
+      "Other gemmological characteristics"
+    ],
+    "closingParagraphs": [
+      "This combination can help trained laboratories identify and characterise a diamond. A consumer UV torch cannot reproduce this complete process."
+    ]
+  },
+  "fluorescenceScale": {
+    "id": "diamond-fluorescence-scale",
+    "title": "Diamond Fluorescence Scale",
+    "introParagraphs": [
+      "On GIA diamond reports, fluorescence intensity under long-wave ultraviolet light is described using five terms."
+    ],
+    "table": {
+      "caption": "GIA diamond fluorescence intensity scale for natural diamond buyers",
+      "headers": [
+        "Fluorescence description",
+        "General interpretation",
+        "Practical buyer approach"
+      ],
+      "rows": [
+        [
+          "None",
+          "No observable fluorescence under the laboratory’s standard conditions",
+          "No fluorescence-related visual assessment is normally required beyond confirming the report and actual diamond"
+        ],
+        [
+          "Faint",
+          "A weak fluorescence reaction",
+          "Usually difficult to notice outside controlled UV examination"
+        ],
+        [
+          "Medium",
+          "A clearly observable reaction under UV",
+          "Compare the diamond under ordinary indoor lighting, daylight-equivalent lighting and natural daylight"
+        ],
+        [
+          "Strong",
+          "A pronounced reaction under UV",
+          "Inspect colour appearance and transparency carefully and compare with a similar non-fluorescent diamond"
+        ],
+        [
+          "Very Strong",
+          "A highly pronounced reaction under UV",
+          "Conduct a full visual comparison and check for pre-existing haze, reduced contrast or unusual appearance"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "These terms describe the strength of the reaction under defined laboratory conditions. They are not judgements that the diamond is good, bad, beautiful or unattractive."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA describes fluorescence as an identifying characteristic rather than a 4C quality grade. When fluorescence is Medium, Strong or Very Strong, GIA also records the observed fluorescence colour. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s fluorescence guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-fluorescence/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains this reporting system."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "does-none-mean-better-than-faint",
+        "title": "Does None Mean Better Than Faint?",
+        "paragraphsBefore": [
+          "No.",
+          "“None” simply indicates that no fluorescence was observed under the laboratory’s standard examination conditions. “Faint” indicates a weak reaction.",
+          "For most buyers, the visual difference between None and Faint fluorescence will not be apparent in normal use. The choice should be based on the complete diamond, including:"
+        ],
+        "bullets": [
+          "Cut",
+          "Colour",
+          "Clarity",
+          "Carat weight",
+          "Measurements",
+          "Transparency",
+          "Price",
+          "Documentation",
+          "Personal appearance preference"
+        ]
+      },
+      {
+        "id": "does-strong-mean-poor-quality",
+        "title": "Does Strong Mean Poor Quality?",
+        "paragraphsBefore": [
+          "No.",
+          "Strong describes fluorescence intensity. It does not describe cut quality, clarity, durability or overall visual performance.",
+          "A Strong-blue-fluorescent diamond can be transparent, bright and visually attractive. Another diamond with the same fluorescence description may require closer examination because of its individual transparency, colour or price.",
+          "The label is a reason to inspect, not an automatic reason to reject."
+        ]
+      }
+    ]
+  },
+  "intensityVsColour": {
+    "id": "fluorescence-intensity-versus-colour",
+    "title": "Fluorescence Intensity and Fluorescence Colour",
+    "introParagraphs": [
+      "Intensity and colour answer different questions.",
+      "Intensity: How strong is the reaction?",
+      "Colour: What visible colour is emitted?",
+      "A report might therefore describe fluorescence as:"
+    ],
+    "bullets": [
+      "Medium Blue",
+      "Strong Blue",
+      "Very Strong Blue",
+      "Medium Yellow",
+      "Strong Yellow",
+      "Very Strong White"
+    ],
+    "closingParagraphs": [
+      "Exact wording and reporting conventions can vary by laboratory and report type.",
+      "Blue is the most common fluorescence colour in diamonds. GIA states that more than 95% of fluorescent diamonds in its cited data display blue fluorescence.",
+      "Less common fluorescence colours can include:"
+    ],
+    "colourBullets": [
+      "Yellow",
+      "Orangy yellow",
+      "Orange",
+      "White",
+      "Green",
+      "Red",
+      "Pinkish orange"
+    ],
+    "finalParagraphs": [
+      "A less common fluorescence colour does not independently prove that the diamond is treated, laboratory-grown or inauthentic. It may, however, justify closer professional examination when considered with the diamond’s other characteristics."
+    ]
+  },
+  "fluorescenceChart": {
+    "id": "diamond-fluorescence-chart",
+    "title": "Diamond Fluorescence Chart",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Practical diamond fluorescence chart for buyers",
+      "headers": [
+        "Reported reaction",
+        "Appearance under normal non-UV lighting",
+        "Appearance under suitable UV lighting",
+        "Possible buying relevance"
+      ],
+      "rows": [
+        [
+          "None",
+          "No fluorescence-related effect expected",
+          "No visible fluorescence under the stated test conditions",
+          "Compare using the normal 4Cs and other quality factors"
+        ],
+        [
+          "Faint",
+          "Normally no noticeable fluorescence-related effect",
+          "Weak glow may be visible in controlled conditions",
+          "Usually a minor consideration"
+        ],
+        [
+          "Medium Blue",
+          "Often little or no obvious difference",
+          "Clear blue glow",
+          "May affect perceived colour in UV-containing light"
+        ],
+        [
+          "Strong Blue",
+          "May appear similar to a non-fluorescent diamond; inspect transparency",
+          "Pronounced blue glow",
+          "Compare colour, contrast, transparency and price"
+        ],
+        [
+          "Very Strong Blue",
+          "Requires individual visual assessment",
+          "Very pronounced blue glow",
+          "Inspect carefully for any pre-existing haze that becomes more apparent"
+        ],
+        [
+          "Medium to Very Strong non-blue",
+          "Requires individual assessment",
+          "Yellow, orange, white, green or another glow",
+          "Confirm report details and assess appearance under different lighting"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "The chart is a practical interpretation tool. It does not replace the laboratory report or physical inspection."
+    ]
+  },
+  "lightingAppearance": {
+    "id": "how-fluorescence-appears-under-different-lighting",
+    "title": "How Diamond Fluorescence Appears Under Different Lighting",
+    "introParagraphs": [
+      "Fluorescence does not appear with equal strength in every environment because different light sources contain different amounts and wavelengths of ultraviolet radiation."
+    ],
+    "subsections": [
+      {
+        "id": "standard-indoor-lighting",
+        "title": "Standard Indoor Lighting",
+        "paragraphsBefore": [
+          "Many indoor lighting environments contain little ultraviolet radiation. A fluorescent diamond may therefore look the same as a non-fluorescent diamond under ordinary indoor light.",
+          "The exact result depends on:"
+        ],
+        "bullets": [
+          "Light-source technology",
+          "UV content",
+          "Light intensity",
+          "Surrounding colours",
+          "Viewing distance",
+          "Diamond fluorescence strength",
+          "Fluorescence colour"
+        ]
+      },
+      {
+        "id": "natural-daylight",
+        "title": "Natural Daylight",
+        "paragraphsBefore": [
+          "Daylight includes ultraviolet radiation, although the amount reaching the diamond varies.",
+          "Factors include:"
+        ],
+        "bullets": [
+          "Direct versus indirect sunlight",
+          "Time of day",
+          "Cloud cover",
+          "Window glass",
+          "Geographic location",
+          "Shade",
+          "Reflected light",
+          "The diamond’s orientation"
+        ],
+        "paragraphsAfter": [
+          "A diamond with Medium, Strong or Very Strong fluorescence may show a more noticeable response outdoors than under ordinary indoor lighting."
+        ]
+      },
+      {
+        "id": "daylight-equivalent-jewellery-lighting",
+        "title": "Daylight-Equivalent Jewellery Lighting",
+        "paragraphsBefore": [
+          "Some professional viewing systems are designed to approximate daylight. These can help compare the diamond’s transparency, colour appearance and face-up contrast in consistent conditions.",
+          "However, “daylight-equivalent” lamps are not all identical. Their spectral output and ultraviolet content can differ."
+        ]
+      },
+      {
+        "id": "ultraviolet-or-black-light",
+        "title": "Ultraviolet or Black Light",
+        "paragraphsBefore": [
+          "A suitable ultraviolet lamp can make fluorescence much easier to observe.",
+          "The dramatic blue glow seen under a strong UV lamp should not be confused with how the diamond will look during normal daily wear.",
+          "A UV demonstration answers:",
+          "Does the diamond fluoresce under this source?",
+          "It does not automatically answer:",
+          "Will fluorescence noticeably affect this diamond under ordinary viewing conditions?"
+        ]
+      },
+      {
+        "id": "through-glass",
+        "title": "Through Glass",
+        "paragraphsBefore": [
+          "Some types of glass reduce parts of the ultraviolet spectrum. A diamond viewed beside a window may therefore react differently from the same diamond viewed outdoors in direct daylight.",
+          "This is one reason a buyer should use more than one viewing condition."
+        ]
+      }
+    ]
+  },
+  "blueAndColour": {
+    "id": "blue-fluorescence-and-diamond-colour",
+    "title": "Blue Fluorescence and Diamond Colour",
+    "introParagraphs": [
+      "Blue and yellow are approximately complementary colours. Consequently, blue fluorescence can reduce the visual impression of yellow in some diamonds while an appropriate ultraviolet component is present.",
+      "This is most relevant to diamonds that already show a faint yellowish body colour.",
+      "A diamond with an I, J, K, L, M or nearby colour grade and Medium-to-Very-Strong blue fluorescence may sometimes appear less yellow in UV-containing lighting than a similar non-fluorescent diamond.",
+      "However, several limitations are important."
+    ],
+    "subsections": [
+      {
+        "id": "fluorescence-does-not-change-reported-colour-grade",
+        "title": "Fluorescence Does Not Change the Reported Colour Grade",
+        "paragraphsBefore": [
+          "GIA assigns D-to-Z colour grades in controlled viewing conditions intended to minimise fluorescence influence.",
+          "A J-colour diamond does not become an H-colour diamond on its grading report because it has Strong blue fluorescence.",
+          "The fluorescence may affect how a person perceives the diamond in certain environments, but the official colour grade remains J."
+        ]
+      },
+      {
+        "id": "the-effect-is-lighting-dependent",
+        "title": "The Effect Is Lighting-Dependent",
+        "paragraphsBefore": [
+          "Blue fluorescence requires suitable excitation.",
+          "In lighting with little or no ultraviolet radiation, the colour-masking effect may be absent or minimal.",
+          "A buyer should not assume the diamond will appear whiter in every room, photograph or outdoor environment."
+        ]
+      },
+      {
+        "id": "the-effect-varies-between-diamonds",
+        "title": "The Effect Varies Between Diamonds",
+        "paragraphsBefore": [
+          "Two J-colour diamonds with Strong Blue fluorescence can still look different because of:"
+        ],
+        "bullets": [
+          "Cut",
+          "Shape",
+          "Size",
+          "Colour distribution",
+          "Facet pattern",
+          "Transparency",
+          "Contrast",
+          "Exact fluorescence intensity",
+          "Viewing orientation"
+        ]
+      },
+      {
+        "id": "higher-colour-diamonds",
+        "title": "Higher-Colour Diamonds",
+        "paragraphsBefore": [
+          "In D-to-H diamonds, the commercial market may treat Strong or Very Strong blue fluorescence less favourably, even when the diamond remains transparent and visually attractive.",
+          "This is partly connected to longstanding trade concern that strong fluorescence may create a hazy or oily appearance.",
+          "Current GIA research indicates that fluorescence alone does not cause this haziness. Nevertheless, market perception can still influence asking prices.",
+          "The buyer should distinguish between:"
+        ],
+        "bullets": [
+          "A scientifically observable visual issue",
+          "A trade preference",
+          "A price discount",
+          "Personal preference"
+        ],
+        "paragraphsAfter": [
+          "These are not the same thing."
+        ]
+      }
+    ]
+  },
+  "haziness": {
+    "id": "strong-fluorescence-haziness-and-transparency",
+    "title": "Does Strong Fluorescence Make a Diamond Hazy?",
+    "introParagraphs": [
+      "Strong fluorescence does not automatically make a diamond hazy, cloudy, milky or oily."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s scientific research found that strong fluorescence by itself did not produce noticeable haziness in diamonds without pre-existing light-scattering structural defects or nano-inclusions."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "In uncommon diamonds where these features are already present, fluorescence may intensify the reduction in contrast and make the existing haziness more noticeable."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "GIA reports that the frequently discussed “overblue” hazy effect occurs in fewer than 0.2% of the fluorescent diamonds submitted to it. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s research on fluorescence and phosphorescence",
+          "href": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " concludes that structural features or nano-inclusions are the principal causes of the milky appearance, rather than fluorescence alone."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-should-buyers-look-for",
+        "title": "What Should Buyers Look For?",
+        "paragraphsBefore": [
+          "Inspect the diamond for:"
+        ],
+        "bullets": [
+          "Reduced transparency",
+          "Milky or oily appearance",
+          "Haze visible across the diamond",
+          "Weak face-up contrast",
+          "A lack of crisp facet definition",
+          "Cloudiness in daylight-equivalent lighting",
+          "A marked difference from comparable diamonds",
+          "Report comments mentioning clouds or other clarity features",
+          "Extensive clouds or pinpoints not fully represented on a clarity plot"
+        ],
+        "paragraphsAfter": [
+          "A diamond can appear hazy without having fluorescence. It can also have Very Strong fluorescence and remain transparent.",
+          "The correct question is not:",
+          "Does this diamond have Strong fluorescence?",
+          "It is:",
+          "Does this particular diamond remain transparent, crisp and attractive under the lighting in which it will be viewed?"
+        ]
+      },
+      {
+        "id": "is-haziness-always-caused-by-clarity-grade",
+        "title": "Is Haziness Always Caused by Clarity Grade?",
+        "paragraphsBefore": [
+          "No.",
+          "A clarity grade records the visibility and significance of inclusions and blemishes under the laboratory’s grading system. Transparency can sometimes require additional visual consideration.",
+          "Two diamonds with the same clarity grade may differ in:"
+        ],
+        "bullets": [
+          "Inclusion type",
+          "Inclusion concentration",
+          "Distribution of clouds",
+          "Structural defects",
+          "Nano-inclusions",
+          "Transparency",
+          "Face-up contrast"
+        ],
+        "paragraphsAfter": [
+          "Read the report comments and inspect the physical diamond."
+        ]
+      }
+    ]
+  },
+  "sparkleAndCut": {
+    "id": "fluorescence-sparkle-and-cut-quality",
+    "title": "Fluorescence, Sparkle and Cut Quality",
+    "introParagraphs": [
+      "Fluorescence does not create a diamond’s fundamental sparkle.",
+      "A diamond’s interaction with visible light is primarily governed by its design, proportions and workmanship.",
+      "Important factors include:"
+    ],
+    "bullets": [
+      "Crown angle",
+      "Pavilion angle",
+      "Table size",
+      "Total depth",
+      "Facet alignment",
+      "Polish",
+      "Symmetry",
+      "Light return",
+      "Fire",
+      "Scintillation",
+      "Contrast pattern"
+    ],
+    "closingParagraphs": [
+      "A diamond with no fluorescence can have weak light performance. A diamond with Strong fluorescence can have excellent light performance.",
+      "Fluorescence can add visible emission when ultraviolet energy is present, but this should not be confused with:",
+      "Brightness: White light returned to the observer",
+      "Fire: Flashes of spectral colour produced by dispersion",
+      "Scintillation: Sparkle and contrast visible as the diamond, light or observer moves",
+      "GIA’s fluorescence research found little to no direct effect on sparkle. Cut quality remains the more important consideration for visible light performance."
+    ],
+    "subsections": [
+      {
+        "id": "can-fluorescence-compensate-for-poor-cut",
+        "title": "Can Fluorescence Compensate for Poor Cut?",
+        "paragraphsBefore": [
+          "No.",
+          "Blue fluorescence may affect colour perception in some lighting, but it cannot correct:"
+        ],
+        "bullets": [
+          "Light leakage",
+          "Excessive depth",
+          "Poor facet alignment",
+          "Weak scintillation",
+          "Unbalanced contrast",
+          "Poor symmetry",
+          "An unattractive fancy-shape pattern"
+        ],
+        "paragraphsAfter": [
+          "Cut or visual performance should be evaluated separately."
+        ]
+      }
+    ]
+  },
+  "shape": {
+    "id": "fluorescence-and-diamond-shape",
+    "title": "Diamond Fluorescence and Shape",
+    "introParagraphs": [
+      "The same general fluorescence intensity terms can apply across different diamond shapes. There is not a separate fluorescence scale for Round, Oval, Pear or Emerald-cut diamonds.",
+      "However, shape affects the diamond’s overall appearance and may influence how easily buyers notice body colour, transparency or facet contrast."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Round Brilliant Diamonds",
+        "paragraphsBefore": [
+          "A Round Brilliant’s numerous facets can create strong brightness and scintillation. Evaluate fluorescence alongside:"
+        ],
+        "bullets": [
+          "Overall cut grade",
+          "Proportions",
+          "Face-up colour",
+          "Transparency",
+          "Contrast pattern"
+        ],
+        "paragraphsAfter": [
+          "Do not allow fluorescence to distract from the more important cut-quality evaluation."
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Oval Diamonds",
+        "paragraphsBefore": [
+          "Oval diamonds vary significantly in outline, bow-tie effect, facet pattern and visible spread.",
+          "When considering an Oval with Medium, Strong or Very Strong fluorescence, assess:"
+        ],
+        "bullets": [
+          "Face-up colour",
+          "Bow-tie strength",
+          "Transparency",
+          "Contrast",
+          "Colour concentration near the tips",
+          "Appearance in daylight",
+          "Price against comparable Ovals"
+        ],
+        "paragraphsAfter": [
+          "Fluorescence should not be blamed for a bow-tie effect. The bow-tie results from the diamond’s geometry and light behaviour."
+        ]
+      },
+      {
+        "id": "pear-and-marquise-diamonds",
+        "title": "Pear and Marquise Diamonds",
+        "paragraphsBefore": [
+          "Pear and Marquise diamonds can show body colour differently across their elongated outlines.",
+          "Inspect:"
+        ],
+        "bullets": [
+          "Colour concentration",
+          "Dark areas",
+          "Transparency",
+          "Symmetry",
+          "Tip condition",
+          "Appearance in the intended setting"
+        ],
+        "paragraphsAfter": [
+          "The fluorescence description alone cannot predict how these shapes will look."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Emerald and Asscher Cuts",
+        "paragraphsBefore": [
+          "Step-cut diamonds have broader, more open facet patterns. Their clarity characteristics, colour and transparency can be easier to examine directly.",
+          "For a fluorescent Emerald or Asscher cut, compare:"
+        ],
+        "bullets": [
+          "Overall transparency",
+          "Windowing",
+          "Extinction",
+          "Body colour",
+          "Inclusion visibility",
+          "Crispness of the step pattern",
+          "Appearance in daylight-equivalent lighting"
+        ],
+        "paragraphsAfter": [
+          "A strong fluorescence description does not automatically make a step-cut diamond cloudy."
+        ]
+      },
+      {
+        "id": "cushion-and-radiant-diamonds",
+        "title": "Cushion and Radiant Diamonds",
+        "paragraphsBefore": [
+          "Cushion and Radiant diamonds can vary considerably in facet arrangement and colour retention.",
+          "Compare fluorescent examples using:"
+        ],
+        "bullets": [
+          "Equivalent colour grades",
+          "Similar facet patterns",
+          "Similar dimensions",
+          "Similar lighting",
+          "High-resolution video",
+          "Direct physical observation where possible"
+        ],
+        "paragraphsAfter": [
+          "The shape should be chosen for its complete appearance, not according to fluorescence alone."
+        ]
+      }
+    ]
+  },
+  "multiStone": {
+    "id": "fluorescence-and-multi-stone-jewellery",
+    "title": "Fluorescence in Multi-Stone Jewellery",
+    "introParagraphs": [
+      "Diamonds in earrings, bracelets, necklaces, eternity rings and halo designs may have different fluorescence reactions.",
+      "Under ordinary indoor lighting, the stones may appear well matched. Under ultraviolet lighting, some may glow strongly while others remain inert.",
+      "This difference does not necessarily indicate that:"
+    ],
+    "bullets": [
+      "The jewellery is defective",
+      "The diamonds are imitation",
+      "The stones have different colour grades",
+      "One stone has been treated",
+      "The jewellery has been assembled incorrectly"
+    ],
+    "closingParagraphs": [
+      "It means the diamonds have different fluorescence characteristics."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-matching-fluorescence-matter",
+        "title": "When Does Matching Fluorescence Matter?",
+        "paragraphsBefore": [
+          "Fluorescence matching may matter when:"
+        ],
+        "bullets": [
+          "A buyer wants uniform appearance under UV lighting",
+          "Jewellery will be worn frequently in environments using black light",
+          "A centre stone and side stones show visibly uneven reactions",
+          "Consistency is part of a high-value custom specification",
+          "The jewellery is being documented for a specific purpose"
+        ],
+        "paragraphsAfter": [
+          "For most daily jewellery use, appearance under ordinary lighting is more important than perfect fluorescence matching."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "diamond-fluorescence-and-price",
+    "title": "Does Diamond Fluorescence Affect Price?",
+    "introParagraphs": [
+      "Fluorescence can influence commercial price, but there is no universal formula.",
+      "The effect depends on:"
+    ],
+    "bullets": [
+      "Colour grade",
+      "Fluorescence strength",
+      "Fluorescence colour",
+      "Diamond shape",
+      "Carat weight",
+      "Transparency",
+      "Laboratory",
+      "Market preferences",
+      "Supplier",
+      "Availability",
+      "Overall diamond quality"
+    ],
+    "subsections": [
+      {
+        "id": "d-to-h-colour-diamonds",
+        "title": "D-to-H Colour Diamonds",
+        "paragraphsBefore": [
+          "Diamonds in higher colour ranges with Strong or Very Strong fluorescence may sometimes be offered at a lower price than otherwise comparable non-fluorescent diamonds.",
+          "This does not automatically mean the diamond has a visual defect. The difference may reflect market preference or concern about resale acceptance.",
+          "A transparent, attractive diamond offered at a reasonable fluorescence-related discount may be worth considering."
+        ]
+      },
+      {
+        "id": "i-to-n-colour-diamonds",
+        "title": "I-to-N Colour Diamonds",
+        "paragraphsBefore": [
+          "Some market participants may value Medium-to-Very-Strong blue fluorescence more favourably in warmer D-to-Z diamonds because the blue emission can reduce the visible impression of yellow under UV-containing light.",
+          "The benefit is not present in every lighting environment and should not be treated as a permanent colour upgrade."
+        ]
+      },
+      {
+        "id": "non-blue-fluorescence",
+        "title": "Non-Blue Fluorescence",
+        "paragraphsBefore": [
+          "Less common fluorescence colours may be assessed differently by individual buyers and market participants.",
+          "Do not apply a blue-fluorescence pricing assumption to yellow, orange, white, green or red fluorescence without examining the actual stone."
+        ]
+      },
+      {
+        "id": "no-fixed-fluorescence-discount",
+        "title": "No Fixed Fluorescence Discount",
+        "paragraphsBefore": [
+          "Avoid claims such as:"
+        ],
+        "bullets": [
+          "Strong fluorescence always reduces price by a fixed percentage.",
+          "Very Strong fluorescence always makes a diamond a bargain.",
+          "Medium Blue always increases a warmer diamond’s value.",
+          "None always commands the highest fair price."
+        ],
+        "paragraphsAfter": [
+          "A proper price comparison requires diamonds that are genuinely similar in:"
+        ]
+      },
+      {
+        "id": "price-comparison-factors",
+        "title": "Factors for a Proper Price Comparison",
+        "paragraphsBefore": [],
+        "bullets": [
+          "Shape",
+          "Carat",
+          "Colour",
+          "Clarity",
+          "Cut or visual performance",
+          "Measurements",
+          "Polish",
+          "Symmetry",
+          "Fluorescence",
+          "Transparency",
+          "Laboratory documentation",
+          "Treatment status",
+          "Transaction conditions"
+        ]
+      },
+      {
+        "id": "purchase-price-versus-resale-value",
+        "title": "Purchase Price Versus Resale Value",
+        "paragraphsBefore": [
+          "A fluorescence-related purchase discount does not guarantee future resale performance.",
+          "Future resale depends on:"
+        ],
+        "bullets": [
+          "Market demand",
+          "Buyer preferences",
+          "Diamond condition",
+          "Documentation",
+          "Quality",
+          "Liquidity",
+          "Available comparable stones",
+          "The sales channel",
+          "Commercial margins"
+        ],
+        "paragraphsAfter": [
+          "A grading report describes fluorescence. It does not promise a particular purchase price, insurance value or resale value."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-fluorescence",
+    "title": "Natural Versus Laboratory-Grown Diamond Fluorescence",
+    "introParagraphs": [
+      "Fluorescence must not be used as a stand-alone do-it-yourself test for natural-diamond origin.",
+      "Some natural diamonds fluoresce and many do not. Some laboratory-grown diamonds also fluoresce. Certain simulants can show fluorescence as well.",
+      "GIA notes that differences can occur in fluorescence strength, colour and pattern between natural and laboratory-grown diamonds, but overlap exists. Therefore, a simple observation such as “it glows blue” or “it does not glow” cannot establish origin.",
+      "Professional laboratories may examine a combination of:"
+    ],
+    "bullets": [
+      "Long-wave UV reaction",
+      "Short-wave UV reaction",
+      "Deep-ultraviolet fluorescence",
+      "Fluorescence pattern",
+      "Growth pattern",
+      "Phosphorescence",
+      "Absorption spectra",
+      "Photoluminescence spectra",
+      "Inclusions",
+      "Internal structure",
+      "Trace-element-related features"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s research on "
+        },
+        {
+          "type": "link",
+          "text": "fluorescence and phosphorescence",
+          "href": "https://www.gia.edu/gia-news-research/diamond-fluorescence-and-phosphorescence",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains how advanced luminescence analysis contributes to diamond characterisation."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "can-blue-fluorescence-prove-natural",
+        "title": "Can Blue Fluorescence Prove a Diamond Is Natural?",
+        "paragraphsBefore": [
+          "No.",
+          "Blue fluorescence is common in fluorescent natural diamonds, but its presence is not conclusive proof of natural formation."
+        ]
+      },
+      {
+        "id": "can-no-fluorescence-prove-lab-grown",
+        "title": "Can No Fluorescence Prove a Diamond Is Laboratory-Grown?",
+        "paragraphsBefore": [
+          "No.",
+          "Many natural diamonds show no observable fluorescence under standard long-wave UV examination."
+        ]
+      },
+      {
+        "id": "can-a-uv-torch-replace-a-laboratory-report",
+        "title": "Can a UV Torch Replace a Laboratory Report?",
+        "paragraphsBefore": [
+          "No.",
+          "Consumer UV torches vary in:"
+        ],
+        "bullets": [
+          "Wavelength",
+          "Output",
+          "Beam pattern",
+          "Filtering",
+          "Calibration",
+          "Distance",
+          "Battery condition"
+        ],
+        "paragraphsAfter": [
+          "A torch may demonstrate that a reaction occurs under that particular source. It cannot provide complete origin identification or reproduce a gemmological laboratory’s controlled grading process.",
+          "For a natural-diamond purchase, rely on credible documentation that explicitly identifies the diamond as natural."
+        ]
+      }
+    ]
+  },
+  "vsPhosphorescence": {
+    "id": "fluorescence-versus-phosphorescence",
+    "title": "Diamond Fluorescence Versus Phosphorescence",
+    "introParagraphs": [
+      "Fluorescence and phosphorescence are related luminescence phenomena, but they differ in timing."
+    ],
+    "table": {
+      "caption": "Fluorescence versus phosphorescence comparison",
+      "headers": [
+        "Characteristic",
+        "Fluorescence",
+        "Phosphorescence"
+      ],
+      "rows": [
+        [
+          "When visible",
+          "During exposure to the exciting source",
+          "Continues after the exciting source has been removed"
+        ],
+        [
+          "Common description",
+          "Glow under ultraviolet light",
+          "Afterglow following ultraviolet exposure"
+        ],
+        [
+          "Report relevance",
+          "Commonly recorded as a fluorescence observation",
+          "May be used in advanced gemmological analysis but is not always included on standard consumer reports"
+        ],
+        [
+          "Consumer identification value",
+          "Cannot establish origin by itself",
+          "Cannot establish origin by itself"
+        ],
+        [
+          "Required assessment",
+          "Controlled observation of strength and colour",
+          "Controlled observation of colour, duration and intensity after excitation"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "If a diamond stops glowing as soon as the UV source is removed, the observed reaction is fluorescence.",
+      "If the glow continues for a measurable period afterwards, it is phosphorescence.",
+      "Professional laboratories can use fluorescence and phosphorescence patterns as part of a larger identification process. Consumers should not use either as a conclusive origin test."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-fluorescent-diamond",
+    "title": "How to Inspect a Diamond With Fluorescence",
+    "introParagraphs": [
+      "A fluorescence label should lead to a structured visual assessment."
+    ],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Step 1: Read the Complete Grading Report",
+        "paragraphsBefore": [
+          "Confirm:"
+        ],
+        "bullets": [
+          "The issuing laboratory",
+          "Report type",
+          "Report number",
+          "Diamond identification",
+          "Fluorescence intensity",
+          "Fluorescence colour, where stated",
+          "Colour grade",
+          "Clarity grade",
+          "Clarity characteristics",
+          "Report comments",
+          "Measurements",
+          "Cut and finish information",
+          "Treatment disclosures"
+        ]
+      },
+      {
+        "id": "step-2-verify-that-the-report-matches-the-diamond",
+        "title": "Step 2: Verify That the Report Matches the Diamond",
+        "paragraphsBefore": [
+          "Fluorescence information is useful only if the report belongs to the physical diamond being offered.",
+          "Match available identifiers such as:"
+        ],
+        "bullets": [
+          "Laser inscription",
+          "Measurements",
+          "Carat weight",
+          "Shape",
+          "Clarity characteristics",
+          "Report number",
+          "Professional inspection results"
+        ]
+      },
+      {
+        "id": "step-3-clean-the-diamond",
+        "title": "Step 3: Clean the Diamond",
+        "paragraphsBefore": [
+          "Dirt, oil and residue can reduce transparency and brightness.",
+          "A dirty diamond may appear dull or hazy even when fluorescence is not the cause.",
+          "The diamond should be safely cleaned before evaluating:"
+        ],
+        "bullets": [
+          "Transparency",
+          "Colour",
+          "Brightness",
+          "Contrast",
+          "Fluorescence"
+        ]
+      },
+      {
+        "id": "step-4-inspect-under-neutral-indoor-lighting",
+        "title": "Step 4: Inspect Under Neutral Indoor Lighting",
+        "paragraphsBefore": [
+          "Start with normal white-light appearance.",
+          "Check:"
+        ],
+        "bullets": [
+          "Transparency",
+          "Brightness",
+          "Face-up colour",
+          "Contrast pattern",
+          "Crispness",
+          "Visible inclusions",
+          "Overall attractiveness"
+        ],
+        "paragraphsAfter": [
+          "Do not begin with an intense UV lamp. The main purchasing decision concerns how the diamond looks during normal use."
+        ]
+      },
+      {
+        "id": "step-5-inspect-under-daylight-equivalent-lighting",
+        "title": "Step 5: Inspect Under Daylight-Equivalent Lighting",
+        "paragraphsBefore": [
+          "A consistent daylight-equivalent viewing environment can help reveal:"
+        ],
+        "bullets": [
+          "Colour differences",
+          "Transparency",
+          "Pre-existing haze",
+          "Reduced contrast",
+          "The relationship between fluorescence and appearance"
+        ],
+        "paragraphsAfter": [
+          "Compare the diamond with another stone of similar quality where possible."
+        ]
+      },
+      {
+        "id": "step-6-inspect-in-natural-daylight",
+        "title": "Step 6: Inspect in Natural Daylight",
+        "paragraphsBefore": [
+          "View the diamond:"
+        ],
+        "bullets": [
+          "Outdoors in indirect daylight",
+          "In brighter daylight",
+          "Near a window",
+          "Away from strongly coloured surroundings"
+        ],
+        "paragraphsAfter": [
+          "Determine whether the appearance changes and whether that change is attractive to you."
+        ]
+      },
+      {
+        "id": "step-7-observe-the-uv-reaction-separately",
+        "title": "Step 7: Observe the UV Reaction Separately",
+        "paragraphsBefore": [
+          "A controlled UV demonstration can confirm the visible fluorescence reaction.",
+          "Assess:"
+        ],
+        "bullets": [
+          "Strength",
+          "Colour",
+          "Evenness",
+          "Distribution",
+          "Comparison with the grading report"
+        ],
+        "paragraphsAfter": [
+          "Do not interpret the dramatic UV appearance as the diamond’s permanent appearance."
+        ]
+      },
+      {
+        "id": "step-8-compare-with-a-similar-non-fluorescent-diamond",
+        "title": "Step 8: Compare With a Similar Non-Fluorescent Diamond",
+        "paragraphsBefore": [
+          "The most useful comparison keeps as many other characteristics as possible consistent.",
+          "Compare diamonds with similar:"
+        ],
+        "bullets": [
+          "Shape",
+          "Carat",
+          "Colour",
+          "Clarity",
+          "Cut",
+          "Measurements",
+          "Transparency",
+          "Facet pattern"
+        ],
+        "paragraphsAfter": [
+          "Then ask:",
+          "Is there a visible colour difference?",
+          "Is either diamond hazy?",
+          "Which has stronger contrast?",
+          "Is the difference noticeable without magnification?",
+          "Does the fluorescent diamond cost less or more?",
+          "Does the price difference justify the actual visual difference?"
+        ]
+      },
+      {
+        "id": "step-9-review-video-carefully",
+        "title": "Step 9: Review Video Carefully",
+        "paragraphsBefore": [
+          "Online videos can help, but they are affected by:"
+        ],
+        "bullets": [
+          "Camera white balance",
+          "Exposure",
+          "Lighting spectrum",
+          "Editing",
+          "Compression",
+          "Display calibration",
+          "Background colour"
+        ],
+        "paragraphsAfter": [
+          "Request video of the actual diamond under more than one lighting condition.",
+          "A single rotating video against a bright background may not reveal fluorescence-related colour or transparency differences."
+        ]
+      },
+      {
+        "id": "step-10-obtain-professional-inspection",
+        "title": "Step 10: Obtain Professional Inspection Where Appropriate",
+        "paragraphsBefore": [
+          "Professional inspection becomes more valuable when:"
+        ],
+        "bullets": [
+          "The diamond has Strong or Very Strong fluorescence",
+          "The diamond is high-value",
+          "Transparency appears uncertain",
+          "The fluorescence colour is unusual",
+          "The report is old",
+          "Report details do not match",
+          "The diamond is being purchased remotely",
+          "The stone has been recut, treated or damaged",
+          "Natural origin is not clearly documented"
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use the separate "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Grading Report Guide",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": " for the complete report-verification process."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Worked Diamond Fluorescence Comparison",
+    "introParagraphs": [
+      "Consider three hypothetical Round Brilliant natural diamonds."
+    ],
+    "table": {
+      "caption": "Worked fluorescence comparison of three natural diamonds",
+      "headers": [
+        "Characteristic",
+        "Diamond A",
+        "Diamond B",
+        "Diamond C"
+      ],
+      "rows": [
+        [
+          "Carat",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Colour",
+          "G",
+          "G",
+          "J"
+        ],
+        [
+          "Clarity",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Cut",
+          "Excellent",
+          "Excellent",
+          "Excellent"
+        ],
+        [
+          "Fluorescence",
+          "None",
+          "Strong Blue",
+          "Strong Blue"
+        ],
+        [
+          "Transparency",
+          "Clear on supplied examination",
+          "Requires confirmation",
+          "Clear on supplied examination"
+        ],
+        [
+          "Price",
+          "Reference price",
+          "Lower than Diamond A",
+          "Lower than both G-colour diamonds"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Comparing Diamonds A and B",
+        "paragraphsBefore": [
+          "The headline 4Cs are the same. The principal stated difference is fluorescence.",
+          "The buyer should determine:"
+        ],
+        "bullets": [
+          "Does Diamond B remain transparent?",
+          "Is there any visible difference in daylight?",
+          "Does Diamond B show reduced contrast?",
+          "Is the Strong Blue reaction personally acceptable?",
+          "How large is the price difference?",
+          "Are measurements and proportions comparable?"
+        ],
+        "paragraphsAfter": [
+          "If Diamond B is transparent and visually similar under normal conditions, its lower price may make it attractive.",
+          "If Diamond B appears hazy or if the buyer prioritises market acceptance of a non-fluorescent G-colour diamond, Diamond A may be preferred."
+        ]
+      },
+      {
+        "title": "Comparing Diamonds B and C",
+        "paragraphsBefore": [
+          "Both have Strong Blue fluorescence, but they have different colour grades.",
+          "Diamond C’s fluorescence may reduce the visible impression of yellow in some UV-containing environments. It will not change the J grade on the report.",
+          "The buyer should compare:"
+        ],
+        "bullets": [
+          "Appearance under indoor lighting",
+          "Appearance outdoors",
+          "Intended metal colour",
+          "Overall cut and transparency",
+          "Price",
+          "Personal sensitivity to warm colour"
+        ],
+        "paragraphsAfter": [
+          "Diamond C may offer a suitable balance for a buyer comfortable with warmth. It should not be represented as a permanent equivalent of a G-colour diamond."
+        ]
+      },
+      {
+        "title": "What This Comparison Demonstrates",
+        "paragraphsBefore": [
+          "A fluorescence label cannot decide the purchase by itself.",
+          "The decision still depends on:"
+        ],
+        "bullets": [
+          "Colour",
+          "Cut",
+          "Transparency",
+          "Measurements",
+          "Price",
+          "Lighting",
+          "Intended setting",
+          "Buyer preference"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-fluorescence-myths",
+    "title": "Common Diamond Fluorescence Myths",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Common diamond fluorescence myths and accurate interpretations",
+      "headers": [
+        "Myth",
+        "Accurate interpretation"
+      ],
+      "rows": [
+        [
+          "Every natural diamond fluoresces",
+          "Most diamonds in GIA’s cited submission data did not show fluorescence under standard long-wave UV examination"
+        ],
+        [
+          "Blue fluorescence proves a diamond is natural",
+          "Natural, laboratory-grown and imitation materials can display fluorescence"
+        ],
+        [
+          "A diamond without fluorescence is laboratory-grown",
+          "Many natural diamonds have None fluorescence"
+        ],
+        [
+          "Strong fluorescence always makes a diamond cloudy",
+          "Fluorescence alone does not cause haziness; it may intensify rare pre-existing light-scattering effects"
+        ],
+        [
+          "Fluorescence changes the laboratory colour grade",
+          "Laboratories grade colour under controlled conditions; fluorescence does not rewrite the stated colour grade"
+        ],
+        [
+          "Blue fluorescence always makes a diamond look whiter",
+          "The effect depends on the body colour, fluorescence strength, lighting and individual diamond"
+        ],
+        [
+          "Fluorescence reduces sparkle",
+          "Sparkle is primarily governed by cut, proportions and visible-light performance"
+        ],
+        [
+          "Very Strong fluorescence means poor quality",
+          "It describes reaction intensity and requires individual visual assessment"
+        ],
+        [
+          "Fluorescence weakens a diamond",
+          "Fluorescence does not inherently reduce structural integrity"
+        ],
+        [
+          "Faint fluorescence is a defect",
+          "Faint simply describes a weak reaction under the test conditions"
+        ],
+        [
+          "Fluorescence always reduces price",
+          "Market effects vary according to colour, strength, transparency and demand"
+        ],
+        [
+          "A UV torch can identify a natural diamond",
+          "Consumer UV observation cannot replace laboratory analysis"
+        ],
+        [
+          "Fluorescence and phosphorescence are the same",
+          "Fluorescence occurs during excitation; phosphorescence continues after the source is removed"
+        ],
+        [
+          "A grading report guarantees normal transparency",
+          "The report provides important information, but the physical diamond and current condition still require evaluation"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Natural Diamond Fluorescence Checklist",
+    "introLead": "Before purchasing, confirm:",
+    "items": [
+      "The diamond is explicitly identified as natural on credible documentation.",
+      "The complete grading report has been provided.",
+      "The report number has been verified.",
+      "The report has been matched with the physical diamond.",
+      "Fluorescence intensity has been read.",
+      "Fluorescence colour has been checked, where stated.",
+      "The diamond’s colour grade is understood.",
+      "The fluorescence has not been presented as a colour-grade upgrade.",
+      "The clarity grade and clarity characteristics have been reviewed.",
+      "The report comments have been read.",
+      "The diamond has been inspected under normal indoor lighting.",
+      "The diamond has been inspected under daylight-equivalent lighting.",
+      "The diamond has been viewed in natural daylight where possible.",
+      "Transparency has been checked.",
+      "Any hazy, oily or milky appearance has been investigated.",
+      "Cut quality or fancy-shape visual performance has been assessed separately.",
+      "The fluorescence reaction has been compared with the report.",
+      "The diamond has been compared with a similar stone where possible.",
+      "Photographs and video show the actual diamond.",
+      "The asking price has been compared with genuinely similar stones.",
+      "No fixed fluorescence discount or premium has been assumed.",
+      "Fluorescence has not been used as proof of natural origin.",
+      "Professional inspection has been arranged where appropriate.",
+      "Payment, delivery and inspection terms are clear."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-fluorescent-natural-diamonds",
+    "title": "Already Comparing Fluorescent Natural Diamonds?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A fluorescence description should be considered alongside the diamond’s colour, transparency, cut, clarity, measurements, documentation, price and actual appearance."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "With "
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", buyers who have already shortlisted a loose natural diamond can submit it to Dalila Diamonds for applicable quality-control coordination, euro payment and scheduled delivery to Belgium or another confirmed European Union destination."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If you have not yet selected a diamond, use "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " to request customised natural-diamond sourcing assistance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Submit a Shortlisted Diamond",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Browse Natural Diamonds",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Diamond Fluorescence",
+    "items": [
+      {
+        "question": "What is diamond fluorescence?",
+        "answer": "Diamond fluorescence is the visible light emitted by some diamonds while they are exposed to ultraviolet radiation. Blue is the most common fluorescence colour, although yellow, orange, white, green and other colours can occur."
+      },
+      {
+        "question": "What does diamond fluorescence mean on a grading report?",
+        "answer": "It describes the diamond’s reaction under the issuing laboratory’s specified ultraviolet examination conditions. On GIA reports, fluorescence intensity is recorded as None, Faint, Medium, Strong or Very Strong."
+      },
+      {
+        "question": "Is diamond fluorescence good or bad?",
+        "answer": "It is neither automatically good nor bad. Most fluorescent diamonds do not show a widely noticeable negative effect. The actual diamond should be evaluated for colour appearance, transparency, visual performance and price."
+      },
+      {
+        "question": "Do all natural diamonds fluoresce?",
+        "answer": "No. GIA’s cited submission data indicates that approximately 25% to 35% of diamonds show some fluorescence under long-wave ultraviolet light. The majority show no observable reaction under those conditions."
+      },
+      {
+        "question": "What is blue fluorescence in a diamond?",
+        "answer": "Blue fluorescence is a blue visible emission produced when a responsive diamond is exposed to suitable ultraviolet radiation. It is the most commonly observed fluorescence colour in diamonds."
+      },
+      {
+        "question": "What is the diamond fluorescence scale?",
+        "answer": "GIA’s intensity scale is None, Faint, Medium, Strong and Very Strong. These terms describe the strength of the reaction, not the diamond’s complete quality."
+      },
+      {
+        "question": "Is Faint fluorescence bad?",
+        "answer": "No. Faint fluorescence is a weak reaction and is normally difficult to notice without controlled ultraviolet examination."
+      },
+      {
+        "question": "Is Medium fluorescence acceptable?",
+        "answer": "Medium fluorescence may be acceptable if the diamond has attractive colour, transparency and visual performance. Examine the actual diamond under indoor light, daylight-equivalent light and natural daylight."
+      },
+      {
+        "question": "Should I avoid Strong Blue fluorescence?",
+        "answer": "Not automatically. Strong Blue fluorescence can occur in transparent and attractive diamonds. Inspect the individual stone and determine whether its appearance and price suit your requirements."
+      },
+      {
+        "question": "Is Very Strong fluorescence a problem?",
+        "answer": "Very Strong fluorescence requires closer examination, but the label alone does not prove a problem. Check the diamond for transparency, crisp contrast and any pre-existing hazy appearance under different lighting conditions."
+      },
+      {
+        "question": "Does fluorescence make a diamond cloudy?",
+        "answer": "Fluorescence alone does not cause cloudiness. GIA research indicates that strong fluorescence can intensify rare pre-existing haze associated with structural features or nano-inclusions, but it does not create that haze by itself."
+      },
+      {
+        "question": "How common is the hazy “overblue” effect?",
+        "answer": "GIA reports that the effect occurs in fewer than 0.2% of the fluorescent diamonds submitted to it. Buyers should still inspect individual Strong and Very Strong fluorescent diamonds."
+      },
+      {
+        "question": "Does fluorescence affect a diamond’s colour grade?",
+        "answer": "It does not change the colour grade assigned under the laboratory’s controlled conditions. Blue fluorescence may affect perceived colour in UV-containing lighting, particularly in diamonds with a yellowish body colour."
+      },
+      {
+        "question": "Can blue fluorescence make a J-colour diamond look whiter?",
+        "answer": "It may reduce the visible impression of yellow in some UV-containing environments. It does not permanently change the diamond into a higher colour grade and may have little effect in lighting without sufficient ultraviolet radiation."
+      },
+      {
+        "question": "Does fluorescence improve a D-colour diamond?",
+        "answer": "A D-colour diamond is already at the colourless end of the D-to-Z scale. Fluorescence does not improve its official colour grade. The diamond should be assessed for transparency, appearance and market price."
+      },
+      {
+        "question": "Does fluorescence affect sparkle?",
+        "answer": "Fluorescence has little to no direct effect on fundamental sparkle. Brightness, fire and scintillation are primarily determined by the diamond’s cut, proportions and workmanship."
+      },
+      {
+        "question": "Does fluorescence affect diamond durability?",
+        "answer": "No. The atomic-scale features associated with fluorescence do not inherently weaken the diamond or reduce its structural integrity."
+      },
+      {
+        "question": "Can fluorescence prove that a diamond is natural?",
+        "answer": "No. Some natural diamonds do not fluoresce, while some laboratory-grown diamonds and simulants do. Natural origin should be established through credible gemmological documentation."
+      },
+      {
+        "question": "Do laboratory-grown diamonds fluoresce?",
+        "answer": "Some do. Their fluorescence colour, strength and pattern may differ from those commonly observed in natural diamonds, but overlap exists. Professional testing is required for reliable identification."
+      },
+      {
+        "question": "Can I test diamond fluorescence with a UV torch?",
+        "answer": "A UV torch may reveal a visible reaction, but it cannot reproduce complete laboratory testing or prove natural origin. Different torches can produce different results because their wavelength and output vary."
+      },
+      {
+        "question": "Can diamond fluorescence be seen in sunlight?",
+        "answer": "It may become visible in sunlight because daylight contains ultraviolet radiation. The strength of the effect depends on the diamond, environment and amount of UV reaching the stone."
+      },
+      {
+        "question": "Will a fluorescent diamond glow indoors?",
+        "answer": "Only if the indoor light source contains enough suitable ultraviolet radiation. Many ordinary indoor environments will produce little or no visible fluorescence."
+      },
+      {
+        "question": "Will a fluorescent diamond glow in a nightclub?",
+        "answer": "It may glow under black lights or other strong ultraviolet sources used in some venues. The effect stops when the exciting source is removed unless the material also displays phosphorescence."
+      },
+      {
+        "question": "What is the difference between fluorescence and phosphorescence?",
+        "answer": "Fluorescence is visible while the diamond is exposed to the exciting source. Phosphorescence is an afterglow that continues after the source is removed."
+      },
+      {
+        "question": "Does a diamond with None fluorescence have better quality?",
+        "answer": "Not necessarily. None only describes the UV reaction. The diamond could still have poor cut, low transparency or other undesirable characteristics."
+      },
+      {
+        "question": "Why do diamonds in the same ring glow differently under UV?",
+        "answer": "Each diamond can have different fluorescence characteristics. A ring may contain stones with None, Faint, Medium or Strong fluorescence even when they look matched under normal lighting."
+      },
+      {
+        "question": "Does diamond shape affect fluorescence?",
+        "answer": "Shape does not create a separate fluorescence scale. However, shape and facet pattern can influence the visibility of body colour, transparency and contrast, so the complete diamond should be assessed."
+      },
+      {
+        "question": "Is fluorescence in an Oval diamond bad?",
+        "answer": "No. Evaluate the Oval’s transparency, colour, bow-tie, facet pattern, spread and price. Fluorescence is only one characteristic and does not cause the bow-tie effect."
+      },
+      {
+        "question": "Is fluorescence in an Emerald-cut diamond bad?",
+        "answer": "Not automatically. Because step-cut patterns can make clarity and transparency easier to observe, examine the actual diamond carefully. Strong fluorescence does not automatically make an Emerald cut cloudy."
+      },
+      {
+        "question": "Does fluorescence lower a diamond’s price?",
+        "answer": "It can affect commercial pricing, particularly in certain colour and fluorescence combinations, but there is no universal discount. Compare the actual stone with genuinely similar diamonds."
+      },
+      {
+        "question": "Can a fluorescent diamond be a good-value purchase?",
+        "answer": "Yes. A transparent, attractive diamond may be offered below the price of a comparable non-fluorescent stone because of market preferences. Confirm the visual quality and transaction conditions before deciding."
+      },
+      {
+        "question": "Should I pay more for blue fluorescence in a warmer diamond?",
+        "answer": "Not automatically. Blue fluorescence may make the diamond appear less yellow in some lighting, but the effect is not constant. Base the decision on the actual appearance and complete price comparison."
+      },
+      {
+        "question": "Is a fluorescence report enough to assess the diamond?",
+        "answer": "No. Review the entire grading report and inspect the diamond’s cut, colour, clarity, measurements, transparency, current condition and visual appearance."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Final Takeaway",
+    "introParagraphs": [
+      "Diamond fluorescence is an identifying characteristic, not an automatic advantage or defect.",
+      "Most fluorescent diamonds do not show a widely noticeable negative effect under ordinary viewing conditions. Blue fluorescence can sometimes reduce the perceived yellow appearance of a warmer diamond when suitable ultraviolet radiation is present. Strong fluorescence does not independently create cloudiness, weaken the diamond or reduce sparkle.",
+      "However, fluorescence should not be ignored.",
+      "Read its intensity and colour on the grading report. Inspect the actual diamond under indoor light, daylight-equivalent light and natural daylight. Compare its transparency, contrast, colour and price with genuinely similar stones.",
+      "Do not reject a natural diamond simply because its report says Strong Blue.",
+      "Do not purchase it simply because someone claims the fluorescence makes it appear permanently whiter.",
+      "Ask:",
+      "Does this particular diamond remain transparent and attractive in normal use, and does its complete quality justify the price?"
+    ],
+    "primaryButtonText": "Use Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contact Dalila Diamonds",
+    "secondaryButtonHref": "/contact"
+  }
+}

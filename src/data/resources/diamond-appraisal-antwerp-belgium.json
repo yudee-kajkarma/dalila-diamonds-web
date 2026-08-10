@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "title": "Diamond Appraisal Antwerp: Cost, Process & Options",
+    "description": "Learn how diamond appraisal works in Antwerp, what it may cost and whether you need an appraisal, grading report or purchase offer for your diamond.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-appraisal-antwerp-belgium",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaAppraisalAssociations": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaAppraisalSelection": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaJewelleryAnalysis": "https://www.gia.edu/gem-lab-service/jewelry",
+    "hrdAntwerp": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Diamond Appraisal in Antwerp",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Diamond Appraisal in Antwerp",
+    "imageAlt": "Diamond appraisal in Antwerp resource banner"
+  },
+  "hero": {
+    "title": "Diamond Appraisal in Antwerp: Cost, Process and Options",
+    "paragraphs": [
+      "A diamond appraisal provides an opinion of a diamond or jewellery item’s monetary value for a stated purpose. That purpose is important because an insurance appraisal, estate valuation and resale assessment may produce different figures for the same diamond.",
+      "Before arranging a diamond appraisal in Antwerp, decide what you need the valuation for. If you want insurance documentation, inheritance reporting or a formal written opinion, you may need an independent qualified appraiser. If you need confirmation of the diamond’s identity and quality, you may require a grading report from a gemmological laboratory. If your intention is to sell, you may be looking for a buyer’s evaluation and purchase offer instead.",
+      "Dalila Diamonds can review natural diamonds for potential purchase, but a purchase evaluation should not be presented as an independent insurance or legal appraisal."
+    ],
+    "primaryButtonText": "TELL US WHAT YOU NEED",
+    "primaryButtonHref": "#purpose-selector"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "alt": "Natural diamond undergoing a professional appraisal in Antwerp",
+      "width": 1600,
+      "height": 900
+    },
+    "comparison": {
+      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "alt": "Difference between diamond appraisal grading report and purchase offer",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/diamond-appraisal-process.webp",
+      "alt": "Steps followed during a professional diamond appraisal",
+      "width": 1400,
+      "height": 1000
+    },
+    "costFactors": {
+      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "alt": "Factors affecting the cost of a diamond appraisal in Antwerp",
+      "width": 1400,
+      "height": 1000
+    },
+    "purposeTypes": {
+      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "alt": "Types of diamond valuation for selling insurance inheritance and certification",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      { "id": "purpose-selector", "label": "What valuation do you need?" },
+      { "id": "quick-answer", "label": "Quick answer" },
+      { "id": "appraisal-vs-grading", "label": "Appraisal vs grading vs offer" },
+      { "id": "gia-appraisals", "label": "Does GIA appraise diamonds?" },
+      { "id": "hrd-antwerp", "label": "What HRD Antwerp provides" },
+      { "id": "appraisal-cost", "label": "Appraisal cost in Antwerp" },
+      { "id": "free-appraisal", "label": "Free diamond appraisal" },
+      { "id": "appraisal-types", "label": "Types of appraisal needed" },
+      { "id": "appraisal-process", "label": "What happens during appraisal" },
+      { "id": "mounted-diamond", "label": "Mounted diamond accuracy" },
+      { "id": "written-appraisal", "label": "Written appraisal contents" },
+      { "id": "choose-appraiser", "label": "Choose an appraiser" },
+      { "id": "what-to-bring", "label": "What to bring" },
+      { "id": "how-long", "label": "How long it takes" },
+      { "id": "online-appraisal", "label": "Online appraisal reliability" },
+      { "id": "before-selling", "label": "Appraisal before selling" },
+      { "id": "dalila-evaluation", "label": "Dalila’s evaluation for sale" },
+      { "id": "frequently-asked-questions", "label": "FAQs" },
+      { "id": "find-right-valuation", "label": "Find the right valuation" }
+    ]
+  },
+  "purposeSelector": {
+    "id": "purpose-selector",
+    "title": "What Type of Diamond Valuation Do You Need?",
+    "intro": "Use this selector to direct yourself towards the correct next step.",
+    "options": [
+      {
+        "id": "sell",
+        "title": "I Want to Sell My Diamond",
+        "description": "You probably need a buyer’s evaluation rather than an insurance appraisal. Dalila can review the available grading report and photographs before determining whether a physical Antwerp evaluation is appropriate.",
+        "ctaText": "Request a Private Purchase Evaluation",
+        "ctaHref": "#diamond-evaluation-form",
+        "formPurpose": "I want to sell my diamond"
+      },
+      {
+        "id": "insurance",
+        "title": "I Need an Appraisal for Insurance",
+        "description": "You normally need an independent written appraisal based on replacement value. Ask your insurer what information, valuation date and appraiser qualifications it requires before booking the service.",
+        "ctaText": "Learn What an Insurance Appraisal Should Include",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an insurance appraisal"
+      },
+      {
+        "id": "inheritance",
+        "title": "I Need a Valuation for Inheritance, Estate or Legal Purposes",
+        "description": "The required valuation basis may depend on the purpose and relevant professional advice. Ask the solicitor, notary, insurer, accountant or authority involved what type of report and valuation date are required.",
+        "ctaText": "Prepare for an Independent Appraisal",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an inheritance or estate valuation"
+      },
+      {
+        "id": "certificate",
+        "title": "I Need a Diamond Certificate or Grading Report",
+        "description": "You need a gemmological laboratory rather than a monetary appraisal. A laboratory can assess whether the diamond is natural or laboratory-grown and describe characteristics such as carat weight, colour, clarity and cut.",
+        "ctaText": "Understand Diamond Grading Reports",
+        "ctaHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "approximate",
+        "title": "I Only Want to Know What My Diamond May Be Worth",
+        "description": "Begin with an online valuation request. Submit the grading information and photographs available, understanding that a physical inspection may be required for a reliable result.",
+        "ctaText": "Use the Diamond Valuation Calculator",
+        "ctaHref": "/resources/diamond-valuation-calculator"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Quick Answer: What Is a Diamond Appraisal?",
+    "paragraphs": [
+      "A diamond appraisal is a documented opinion of value prepared for a specific purpose and effective date. It should identify the item, describe the diamond and jewellery, explain the type of value being reported and state how the conclusion was reached."
+    ],
+    "considerationsIntro": "An appraisal may consider:",
+    "considerations": [
+      "Whether the diamond is natural or laboratory-grown",
+      "Carat weight",
+      "Colour and clarity",
+      "Cut quality and proportions",
+      "Shape",
+      "Fluorescence",
+      "Treatments",
+      "Condition",
+      "Jewellery metal and construction",
+      "Brand or designer",
+      "Current market information",
+      "The intended use of the appraisal"
+    ],
+    "closing": "An appraisal is not automatically a purchase offer. It is also not necessarily the amount the owner originally paid or the amount an insurer would pay in cash."
+  },
+  "appraisalVsGrading": {
+    "id": "appraisal-vs-grading",
+    "title": "Diamond Appraisal, Grading Report and Purchase Offer: What Is the Difference?",
+    "intro": [
+      "These three documents or assessments are frequently confused, but they answer different questions."
+    ],
+    "table": {
+      "caption": "Comparison of diamond appraisal, grading report and purchase offer",
+      "headers": ["Assessment", "Main question answered", "Usually provided by", "Does it include a monetary value?"],
+      "rows": [
+        ["Diamond grading report", "What is the diamond and what are its quality characteristics?", "Gemmological laboratory", "Normally no"],
+        ["Independent appraisal", "What is the item worth for a stated purpose and date?", "Qualified independent appraiser", "Yes"],
+        ["Insurance appraisal", "What may it cost to replace the item through the relevant market?", "Qualified appraiser", "Yes"],
+        ["Buyer’s evaluation", "What is this buyer prepared to pay for the item?", "Diamond or jewellery buyer", "Yes, as an offer or preliminary indication"],
+        ["Auction estimate", "Within what range might bidding occur?", "Auction house", "An estimated range, not a guaranteed result"],
+        ["Consignment estimate", "At what price might the item be marketed?", "Jeweller or reseller", "An asking-price recommendation"]
+      ]
+    },
+    "giaLinkText": "GIA’s explanation of appraisals and grading reports",
+    "closing": "This distinction matters when comparing figures. A high insurance replacement value should not be compared directly with a buyer’s net purchase offer."
+  },
+  "giaAppraisals": {
+    "id": "gia-appraisals",
+    "title": "Does GIA Provide Diamond Appraisals?",
+    "paragraphs": [
+      "GIA does not provide appraised monetary values for diamonds or jewellery. It provides laboratory reports that identify and describe diamonds and gemstones.",
+      "GIA states that monetary appraisal should be performed by an independent appraiser and that an appraisal should contain a quality analysis, description and valuation of the item. GIA also provides information about professional appraisal associations, but it does not recommend individual appraisers."
+    ],
+    "giaAssociationsLinkText": "GIA’s appraisal-association guidance",
+    "educationParagraph": "A person may have completed GIA gemmological education, but that does not mean GIA has certified that person as an appraiser. Gemmological training and appraisal training are related but different areas of expertise.",
+    "giaAppraisalIntro": "If someone describes a service as a “GIA appraisal”, ask whether they mean:",
+    "giaAppraisalBullets": [
+      "A diamond with a GIA grading report",
+      "An appraiser who has completed GIA education",
+      "A monetary appraisal using information from a GIA report"
+    ],
+    "closing": "The wording should not imply that GIA assigned the monetary value when it did not."
+  },
+  "hrdAntwerp": {
+    "id": "hrd-antwerp",
+    "title": "What Does HRD Antwerp Provide?",
+    "paragraphs": [
+      "HRD Antwerp provides laboratory examination and grading services for diamonds and jewellery. Its natural-diamond grading reports describe characteristics including carat, colour, clarity and cut.",
+      "HRD Antwerp also offers jewellery reports that can describe the complete jewel, the diamonds it contains and the precious metals used. HRD states that its jewellery reports may be used for purposes including insurance, inheritance or purchase and can support the determination of a jewel’s market value."
+    ],
+    "hrdLinkText": "HRD Antwerp’s official grading and jewellery-report services",
+    "closing": "A laboratory report is valuable documentation, but the exact service should be selected according to the owner’s purpose. Laboratory pricing can vary by report type, carat weight, jewellery complexity and additional services. Current charges should be confirmed directly from the laboratory’s latest Antwerp price list."
+  },
+  "appraisalCost": {
+    "id": "appraisal-cost",
+    "title": "How Much Does a Diamond Appraisal Cost in Antwerp?",
+    "paragraphs": [
+      "There is no single standard price for every diamond appraisal in Antwerp. The cost depends on the type of report, the complexity of the item, the appraiser’s charging method and whether laboratory work is required.",
+      "Some providers publicly advertise basic written diamond appraisals starting at approximately €50. This should be treated as an example rather than a universal Antwerp price. A detailed valuation for insurance, estate, legal or high-value purposes may cost more."
+    ],
+    "feeIntro": "Before booking, ask whether the fee is:",
+    "feeQuestions": [
+      "A fixed fee per item",
+      "An hourly rate",
+      "Based on the number of diamonds",
+      "Based on the complexity of the jewellery",
+      "Inclusive or exclusive of VAT",
+      "Inclusive of photographs and a written report",
+      "Separate from laboratory testing",
+      "Separate from unsetting and resetting",
+      "Separate from transport and insurance"
+    ],
+    "feeClosing": "For an independent appraisal, a fixed or hourly professional fee is generally easier to understand than a fee calculated as a percentage of the final value. A percentage-based arrangement may create an incentive to report a higher figure.",
+    "separateCostsTitle": "Costs That May Be Separate",
+    "separateCostsIntro": "The quoted appraisal fee may not include:",
+    "separateCosts": [
+      "Laboratory grading",
+      "Natural-versus-laboratory-grown testing",
+      "Treatment detection",
+      "Removal of the diamond from its setting",
+      "Resetting the diamond",
+      "Cleaning or repair",
+      "Laser inscription",
+      "Secure transport",
+      "Transit insurance",
+      "Urgent service",
+      "Additional copies of the report",
+      "Multiple valuation purposes"
+    ],
+    "closing": "Ask for a written quotation before leaving the item. The quotation should explain exactly what will be delivered."
+  },
+  "freeAppraisal": {
+    "id": "free-appraisal",
+    "title": "Can I Get a Free Diamond Appraisal?",
+    "paragraphs": [
+      "Some buyers, auction houses and jewellery businesses offer a free preliminary evaluation. This can be useful when the owner wants to know whether the item fits that company’s purchasing or selling criteria.",
+      "However, a free buyer evaluation is not necessarily an independent appraisal. The business may be assessing what it is prepared to pay rather than producing an objective written report for insurance, inheritance or legal use.",
+      "A free verbal opinion may also be different from a signed written appraisal."
+    ],
+    "questionsIntro": "Before accepting a free appraisal, ask:",
+    "questions": [
+      "Will I receive a written report?",
+      "What type of value will be provided?",
+      "Is the person evaluating the item also offering to buy it?",
+      "Does the valuation have a stated effective date?",
+      "Are photographs and a full item description included?",
+      "Will the report be accepted by my insurer or adviser?",
+      "Are there fees for testing, certification or return?",
+      "Am I required to sell or consign the item?"
+    ],
+    "closing": "A free purchase evaluation can be entirely legitimate when its purpose is clear. It should simply not be confused with an independent appraisal."
+  },
+  "appraisalTypes": {
+    "id": "appraisal-types",
+    "title": "What Type of Diamond Appraisal Do I Need?",
+    "types": [
+      {
+        "title": "Insurance Replacement Appraisal",
+        "paragraphs": [
+          "An insurance appraisal estimates what it may cost to replace the diamond or jewellery through an appropriate retail market. The report should describe the item sufficiently for the insurer to understand what would need to be replaced.",
+          "An inflated insurance appraisal may lead to unnecessarily high premiums without guaranteeing a larger cash settlement. Ask the insurer how it handles replacement, repair, agreed value and cash settlement before relying on the appraisal."
+        ],
+        "includesIntro": "The report may include:",
+        "includes": [
+          "Detailed jewellery description",
+          "Diamond characteristics",
+          "Metal and construction",
+          "Measurements",
+          "Hallmarks",
+          "Condition",
+          "Photographs",
+          "Replacement-value conclusion",
+          "Effective date",
+          "Appraiser’s qualifications and signature"
+        ]
+      },
+      {
+        "title": "Fair-Market or Resale Appraisal",
+        "paragraphs": [
+          "A fair-market appraisal considers what a willing buyer may pay a willing seller in the relevant market. It is normally lower than a retail replacement valuation because the purpose and market are different.",
+          "The report should state which market was considered. A dealer-to-dealer market, auction market and consumer resale market may produce different conclusions."
+        ]
+      },
+      {
+        "title": "Estate or Inheritance Valuation",
+        "paragraphs": [
+          "An inheritance or estate valuation may require a specific effective date and definition of value. The person requesting the appraisal should confirm the requirements with the relevant notary, solicitor, accountant or authority.",
+          "A current retail replacement appraisal should not automatically be substituted for a date-specific estate valuation."
+        ]
+      },
+      {
+        "title": "Divorce or Asset-Division Appraisal",
+        "paragraphs": [
+          "A valuation used for asset division may also need to follow a defined legal standard and effective date. Both parties may benefit from using a suitably qualified independent appraiser whose role and methodology are clearly stated."
+        ]
+      },
+      {
+        "title": "Auction Estimate",
+        "paragraphs": [
+          "An auction estimate predicts a possible bidding range rather than reporting a guaranteed amount. It may be influenced by the auction house’s audience, sale date, reserve, commission and interest in the category."
+        ]
+      },
+      {
+        "title": "Selling or Purchase Evaluation",
+        "paragraphs": [
+          "A buyer’s evaluation answers a more direct commercial question: what is this buyer prepared to offer for the diamond or jewellery?",
+          "This is the relevant route when the owner’s primary objective is to sell. The buyer may consider the diamond’s quality, condition, grading report and current demand before presenting an offer."
+        ],
+        "ctaText": "REQUEST A DIAMOND PURCHASE EVALUATION",
+        "ctaHref": "#diamond-evaluation-form"
+      }
+    ]
+  },
+  "appraisalProcess": {
+    "id": "appraisal-process",
+    "title": "What Happens During a Diamond Appraisal?",
+    "intro": [
+      "A professional appraisal normally begins by defining the purpose. Without a clear purpose, the appraiser cannot select the correct valuation basis or market."
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Purpose and Intake",
+        "paragraphs": [
+          "The appraiser asks why the valuation is required and records the owner’s available information. The ring or diamond may be photographed, weighed and assigned an intake reference.",
+          "The owner should provide any available grading report, receipt, previous appraisal, repair history and brand documentation."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Identity and Condition Examination",
+        "paragraphs": [
+          "The appraiser examines whether the item contains a diamond and whether it appears natural, laboratory-grown, treated or in need of advanced testing."
+        ],
+        "bulletsIntro": "The examination may also identify:",
+        "bullets": [
+          "Chips and abrasions",
+          "Loose stones",
+          "Worn claws or settings",
+          "Repairs",
+          "Resizing",
+          "Replaced components",
+          "Metal hallmarks",
+          "Brand signatures",
+          "General condition"
+        ],
+        "closing": "Some conclusions cannot be confirmed without laboratory equipment."
+      },
+      {
+        "number": 3,
+        "title": "Diamond Assessment",
+        "paragraphs": [
+          "The appraiser reviews the diamond’s shape, measurements, estimated or actual weight, colour, clarity, cut characteristics and fluorescence.",
+          "When a diamond is mounted, the setting can limit access to the stone. Some grades and measurements may therefore be estimated rather than determined with the precision possible for a loose diamond."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Jewellery Assessment",
+        "paragraphs": [
+          "For a mounted diamond, the appraiser may examine the metal, setting style, side stones, workmanship, age, condition and possible brand significance.",
+          "A signed, antique or collectible ring may require market research beyond the value of its component materials."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Market Research",
+        "paragraphs": [
+          "The appraiser considers the market relevant to the assignment. Insurance replacement, fair-market resale, estate and auction valuations should not all use the same market assumptions.",
+          "The report should state the valuation basis and effective date."
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Written Report",
+        "paragraphs": [
+          "When a written appraisal has been requested, the owner receives a report containing the description, valuation conclusion and relevant limitations.",
+          "The appraiser should be available to explain what the reported figure means and what it should not be used for."
+        ]
+      }
+    ]
+  },
+  "mountedDiamond": {
+    "id": "mounted-diamond",
+    "title": "Can a Mounted Diamond Be Appraised Accurately?",
+    "paragraphs": [
+      "A mounted diamond can be appraised, but the setting may limit the precision of certain measurements and observations.",
+      "Prongs, bezels and decorative settings can conceal parts of the girdle, inclusions or colour. The exact diamond weight may need to be estimated from measurements if the stone cannot be removed.",
+      "This does not mean every ring must be dismantled. Removing a diamond can introduce cost and risk, and it may be unnecessary for the appraisal’s purpose."
+    ],
+    "questionsIntro": "Ask the appraiser:",
+    "questions": [
+      "Which characteristics can be confirmed while mounted?",
+      "Which characteristics will be estimated?",
+      "Is unsetting necessary?",
+      "Who will remove and reset the diamond?",
+      "Is the ring insured during the process?",
+      "Will removal affect antique or branded value?",
+      "Are removal and resetting included in the quotation?"
+    ],
+    "giaLinkText": "GIA’s jewellery analysis services",
+    "closing": "GIA notes that jewellery grading is performed to the extent the mounting permits, while its jewellery reports can include estimated diamond information, metal testing, item weight and markings."
+  },
+  "writtenAppraisal": {
+    "id": "written-appraisal",
+    "title": "What Should a Written Diamond Appraisal Include?",
+    "intro": [
+      "A useful written appraisal should be specific enough that another professional can understand what was examined, why it was valued and how the figure should be interpreted."
+    ],
+    "includes": [
+      "Owner or client reference",
+      "Date of examination",
+      "Effective valuation date",
+      "Purpose of the appraisal",
+      "Definition of value used",
+      "Detailed description of the item",
+      "Diamond and gemstone information",
+      "Metal and construction details",
+      "Hallmarks and signatures",
+      "Condition",
+      "Photographs",
+      "Grading-report information",
+      "Relevant assumptions and limitations",
+      "Market considered",
+      "Monetary conclusion",
+      "Appraiser’s name and qualifications",
+      "Signature",
+      "Contact details"
+    ],
+    "closing": "If the report gives only a price without identifying the item, purpose and valuation basis, it may not be sufficient for insurance, estate or legal use."
+  },
+  "chooseAppraiser": {
+    "id": "choose-appraiser",
+    "title": "How to Choose a Diamond Appraiser Near You",
+    "paragraphs": [
+      "Searches for “diamond appraisal near me” often return jewellers, buyers, auction houses, laboratories and independent valuers. They do not all provide the same service.",
+      "Begin by asking whether the person has both gemmological knowledge and appraisal training. GIA advises that jewellery appraisers should understand gemstones, valuation and jewellery construction. GIA also cautions that it does not “certify” appraisers merely because they have completed GIA education."
+    ],
+    "giaLinkText": "GIA’s appraisal-selection guidance",
+    "questionsIntro": "A suitable appraiser should be able to explain:",
+    "questions": [
+      "Relevant gemmological education",
+      "Appraisal qualifications and experience",
+      "Experience with the item type",
+      "Available testing equipment",
+      "Whether the appraisal is independent",
+      "How the fee is calculated",
+      "What the written report includes",
+      "Which market and valuation basis will be used",
+      "How the item is protected",
+      "Turnaround time",
+      "Professional insurance",
+      "What happens if laboratory testing is required"
+    ],
+    "closing": "If the valuation is needed for a formal purpose, ask the insurer, solicitor, notary or other professional whether it has specific requirements."
+  },
+  "whatToBring": {
+    "id": "what-to-bring",
+    "title": "What Should You Bring to a Diamond Appraisal?",
+    "paragraphs": [
+      "Bring all the information available, even if some documents are old. The appraiser can decide what remains relevant."
+    ],
+    "itemsIntro": "Useful items include:",
+    "items": [
+      "Diamond grading report",
+      "Original receipt",
+      "Previous appraisal",
+      "Insurance schedule",
+      "Original box",
+      "Brand certificate",
+      "Repair and service records",
+      "Inheritance documents",
+      "Photographs of the original item",
+      "Any available provenance information",
+      "Identification"
+    ],
+    "closing": "Do not clean, repair, polish or dismantle an antique or signed item before asking whether those actions are appropriate. If the diamond appears loose in its setting, stop wearing the jewellery and tell the appraiser before transport."
+  },
+  "howLong": {
+    "id": "how-long",
+    "title": "How Long Does a Diamond Appraisal Take?",
+    "paragraphs": [
+      "The time required depends on the service.",
+      "A verbal preliminary evaluation of a straightforward item may be completed during an appointment. A detailed written appraisal may take longer because it can require photography, research, report writing and review."
+    ],
+    "additionalIntro": "Additional time may be needed when:",
+    "additional": [
+      "The diamond has no grading report",
+      "The item contains several stones",
+      "The piece is antique or signed",
+      "Laboratory testing is required",
+      "The centre diamond must be unset",
+      "The report needs a historic valuation date",
+      "Several valuation purposes are requested",
+      "Secure transport must be arranged"
+    ],
+    "closing": "Ask for the expected turnaround time before leaving the item."
+  },
+  "onlineAppraisal": {
+    "id": "online-appraisal",
+    "title": "Is an Online Diamond Appraisal Reliable?",
+    "paragraphs": [
+      "An online appraisal can provide a preliminary indication when the owner submits a complete grading report and clear photographs. It can be useful for deciding whether a physical appointment is worthwhile.",
+      "However, photographs cannot reliably confirm every characteristic. An online reviewer may not be able to establish:"
+    ],
+    "limitations": [
+      "Natural or laboratory-grown origin",
+      "Exact colour or clarity",
+      "Treatments",
+      "Damage",
+      "Report matching",
+      "Metal purity",
+      "Precise condition",
+      "Whether the diamond has been replaced"
+    ],
+    "closing": "For this reason, an online valuation should be clearly labelled as preliminary unless the service has completed the checks required for its stated purpose.",
+    "ctaText": "START AN ONLINE DIAMOND VALUATION",
+    "ctaHref": "/resources/diamond-valuation-calculator"
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "Do I Need an Appraisal Before Selling My Diamond?",
+    "paragraphs": [
+      "Not always.",
+      "If you already have a recent grading report and your objective is simply to receive an offer, a specialist buyer may be able to begin with the report and photographs. A physical inspection can then confirm whether the diamond matches the information submitted."
+    ],
+    "usefulIntro": "An independent appraisal may be useful when:",
+    "usefulWhen": [
+      "You do not understand what the jewellery contains",
+      "The ring may be antique, signed or collectible",
+      "Several people share ownership",
+      "You need a neutral opinion before comparing sales channels",
+      "The item is part of an estate",
+      "You need a formal written document",
+      "The buyer’s assessment is unclear"
+    ],
+    "closing": "Remember that an independent appraisal still does not guarantee that a buyer will pay the appraised amount. A purchase offer reflects the particular buyer’s demand, costs and resale channel."
+  },
+  "dalilaEvaluation": {
+    "id": "dalila-evaluation",
+    "title": "Dalila’s Evaluation Is for Potential Sale",
+    "paragraphs": [
+      "Dalila Diamonds’ selling service is intended for owners who want their natural diamond reviewed for possible purchase.",
+      "The process begins with the grading information and photographs available. If the diamond fits Dalila’s purchasing criteria, a physical evaluation in Antwerp may be arranged before an offer is prepared.",
+      "This service should be described as a buyer’s evaluation, not as an independent appraisal for insurance, probate, divorce, tax or legal reporting."
+    ],
+    "processTitle": "Dalila’s Process",
+    "processSteps": [
+      "Submit information about the diamond or jewellery.",
+      "Upload the grading report and clear photographs.",
+      "Receive an initial private review.",
+      "Provide additional information when requested.",
+      "Arrange physical verification in Antwerp when appropriate.",
+      "Receive a purchase offer if the item meets Dalila’s criteria.",
+      "Decide whether you want to proceed."
+    ],
+    "closing": "Submitting an evaluation request should not require the seller to accept an offer.",
+    "primaryCtaText": "REQUEST MY PRIVATE PURCHASE EVALUATION",
+    "primaryCtaHref": "#diamond-evaluation-form",
+    "secondaryCtaText": "BOOK AN ANTWERP APPOINTMENT",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "id": "diamond-evaluation-form",
+    "leadSource": "diamond_appraisal_antwerp",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP and PDF",
+    "title": "Request My Diamond Evaluation",
+    "subtitle": "Tell us why you need a valuation and provide the information available. Dalila will contact you using your preferred method.",
+    "step1Title": "Step 1: Why Do You Need a Valuation?",
+    "purposeOptions": [
+      { "value": "I want to sell my diamond", "mode": "sell" },
+      { "value": "I want to sell diamond jewellery", "mode": "sell" },
+      { "value": "I need an insurance appraisal", "mode": "inquiry" },
+      { "value": "I need an inheritance or estate valuation", "mode": "inquiry" },
+      { "value": "I need a grading report or certificate", "mode": "inquiry" },
+      { "value": "I only want to know the approximate value", "mode": "inquiry" },
+      { "value": "I am not sure", "mode": "inquiry" }
+    ],
+    "inquiryNotice": "Dalila Diamonds provides buyer evaluations for potential purchase, not independent insurance, estate or legal appraisals. You may still submit your question below and a member of the team will explain what Dalila can and cannot provide.",
+    "sellRedirectCalculator": "If you only want an approximate value, you may prefer the",
+    "sellRedirectGrading": "If you need a grading report or certificate, read our guide on",
+    "itemTypes": [
+      "Natural-diamond engagement ring",
+      "Loose natural diamond",
+      "Natural-diamond jewellery",
+      "Antique or vintage jewellery",
+      "Branded or signed jewellery",
+      "Laboratory-grown diamond",
+      "I am not sure"
+    ],
+    "originOptions": ["Natural diamond", "Laboratory-grown diamond", "I am not sure"],
+    "reportOptions": ["GIA", "HRD Antwerp", "IGI", "Another laboratory", "No report", "I am not sure"],
+    "shapeOptions": ["Round", "Princess", "Cushion", "Oval", "Emerald", "Pear", "Marquise", "Radiant", "Asscher", "Heart", "Other", "I am not sure"],
+    "contactMethods": ["Email", "Telephone", "Either email or telephone"],
+    "evaluationPreferences": ["Online review only", "Private Antwerp appointment", "Not sure yet"],
+    "consentText": "I agree that Dalila Diamonds may contact me regarding this request. I understand that a buyer’s evaluation is different from an independent insurance, estate or legal appraisal and that a final purchase offer may require physical verification.",
+    "submitButton": "Request My Diamond Evaluation",
+    "submittingButton": "Submitting…",
+    "successMessage": "Thank you. Your request has been submitted. A member of the Dalila Diamonds team will contact you shortly.",
+    "errorMessage": "We could not submit your request. Please check the required fields and try again.",
+    "labels": {
+      "purpose": "Why do you need a valuation?",
+      "itemType": "Item type",
+      "origin": "Natural or laboratory-grown, if known",
+      "reportStatus": "Grading laboratory",
+      "reportNumber": "Report number",
+      "caratWeight": "Approximate carat weight",
+      "shape": "Diamond shape",
+      "uploadReport": "Upload grading report",
+      "uploadPhotos": "Upload photographs",
+      "dragDrop": "Drag and drop files here, or choose files",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "country": "Country",
+      "contactMethod": "Preferred contact method",
+      "evaluationPreference": "Preferred online review or Antwerp appointment",
+      "additionalInfo": "Additional information",
+      "optional": "Optional"
+    },
+    "validation": {
+      "purposeRequired": "Please select why you need a valuation.",
+      "itemTypeRequired": "Please select the item type.",
+      "nameRequired": "Please enter your full name.",
+      "contactRequired": "Please provide an email address or telephone number.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm the consent statement before submitting."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How much does a diamond appraisal cost in Antwerp?",
+        "answer": "There is no universal fee. Some basic written services are advertised from approximately €50, while detailed, complex or formal appraisals may cost more. Laboratory work, unsetting, resetting, transport and insurance may be charged separately."
+      },
+      {
+        "question": "Where can I get a diamond appraised in Antwerp?",
+        "answer": "Depending on your purpose, you may need an independent jewellery appraiser, a gemmological laboratory, an auction specialist or a professional diamond buyer. Confirm what type of report or offer each provider supplies."
+      },
+      {
+        "question": "Does GIA appraise diamonds?",
+        "answer": "No. GIA provides grading and identification reports but does not assign monetary appraisal values. Monetary appraisals should be completed by an appropriately qualified appraiser."
+      },
+      {
+        "question": "Is a diamond grading report the same as an appraisal?",
+        "answer": "No. A grading report describes a diamond’s quality characteristics. An appraisal provides an opinion of monetary value for a stated purpose and date."
+      },
+      {
+        "question": "Is a free diamond appraisal reliable?",
+        "answer": "A free preliminary evaluation can be useful, but it may be a buyer’s opinion rather than an independent written appraisal. Ask what type of value is being provided and whether the evaluator intends to purchase the item."
+      },
+      {
+        "question": "Can a mounted diamond ring be appraised?",
+        "answer": "Yes, but the setting may limit the accuracy of weight, colour, clarity and condition observations. The report should identify which characteristics were estimated."
+      },
+      {
+        "question": "Do I need to remove the diamond from its setting?",
+        "answer": "Not always. Removal should only be considered when necessary for the required testing or report. Ask who will remove and reset the diamond and how the item will be insured."
+      },
+      {
+        "question": "Can a diamond be appraised without a certificate?",
+        "answer": "Yes. An initial appraisal can begin without a grading report, but laboratory testing or a new report may be recommended before a reliable conclusion is reached."
+      },
+      {
+        "question": "Is an insurance appraisal the amount I can sell my diamond for?",
+        "answer": "No. Insurance appraisal usually considers replacement cost. A resale value or purchase offer reflects a different market and purpose."
+      },
+      {
+        "question": "How long is a diamond appraisal valid?",
+        "answer": "There is no universal validity period. The diamond’s characteristics may remain stable, but market prices and replacement costs can change. Insurers and other users may have their own update requirements."
+      },
+      {
+        "question": "Can I get a diamond appraised online?",
+        "answer": "You can receive a preliminary online assessment from report information and photographs. A formal or final conclusion may require physical examination."
+      },
+      {
+        "question": "Do I need an appraisal before selling to Dalila?",
+        "answer": "Not necessarily. Dalila can begin by reviewing the grading report and photographs available. An independent appraisal may be appropriate when the owner needs a neutral or formal valuation."
+      },
+      {
+        "question": "Will Dalila buy every diamond submitted?",
+        "answer": "No. Dalila must first determine whether the diamond fits its purchasing criteria and complete the required verification."
+      },
+      {
+        "question": "Do I have to sell after receiving an offer?",
+        "answer": "No. Requesting an evaluation does not require you to accept an offer."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-valuation",
+    "title": "Find the Right Diamond Valuation in Antwerp",
+    "paragraphs": [
+      "The correct service depends on the question you need answered.",
+      "Choose an independent appraiser when you need a formal monetary opinion for insurance, inheritance or legal use. Choose a gemmological laboratory when you need identification or grading. Choose a professional buyer when you want to know whether the business will purchase your diamond and what it is prepared to offer.",
+      "If your objective is to sell a natural diamond, begin with a private online submission to Dalila Diamonds."
+    ],
+    "primaryButtonText": "START MY DIAMOND EVALUATION",
+    "primaryButtonHref": "#diamond-evaluation-form",
+    "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "online diamond valuation calculator" },
+    "whereToSell": { "href": "/resources/where-to-sell-diamond-ring", "text": "where to sell a diamond ring" },
+    "howToSell": { "href": "/resources/how-to-sell-diamond-ring", "text": "how to sell a diamond ring safely" },
+    "withoutCert": { "href": "/resources/sell-diamond-without-certificate", "text": "sell a diamond without a certificate" },
+    "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "verify a diamond grading report" }
+  }
+}

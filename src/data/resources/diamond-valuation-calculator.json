@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Diamond Valuation Calculator: What Is My Diamond Worth?",
+    "description": "Use our diamond valuation calculator to find out what your natural diamond may be worth. Submit its report and photos for a private expert valuation.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-valuation-calculator",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaFairMarket": "https://www.gia.edu/gia-news-research-selling-jewelry",
+    "giaBuyersGuide": "https://www.gia.edu/gia-news-research-buying-diamonds",
+    "giaTreatments": "https://www.gia.edu/gia-news-research-diamond-treatment"
+  },
+  "banner": {
+    "title": "Diamond Valuation Calculator",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Diamond Valuation Calculator",
+    "imageAlt": "Diamond valuation calculator resource banner"
+  },
+  "hero": {
+    "title": "Diamond Valuation Calculator: What Is My Diamond Worth?",
+    "paragraphs": [
+      "If you own a natural diamond, diamond ring or another piece of diamond jewellery, you may be wondering what it is worth today. The Dalila diamond valuation calculator helps you begin that process by collecting the characteristics that influence a diamond’s potential selling value.",
+      "Enter the information shown on your grading report and upload clear photographs of the diamond or jewellery. If you do not have a certificate, you can still submit the details you know. Dalila Diamonds can review the information and explain whether a physical evaluation in Antwerp is required.",
+      "An online diamond valuation is an initial assessment rather than a guaranteed purchase offer. A final offer may require verification of the diamond, its grading report, condition, ownership and current market demand."
+    ],
+    "primaryButtonText": "START MY DIAMOND VALUATION",
+    "primaryButtonHref": "#valuation-calculator",
+    "image": {
+      "src": "/images/resources/diamond-valuation-calculator.webp",
+      "alt": "Natural diamond and grading report beside an online diamond valuation calculator",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "images": {
+    "valueFactors": {
+      "src": "/images/resources/natural-diamond-value-factors.webp",
+      "alt": "Factors used to calculate the value of a natural diamond",
+      "width": 1400,
+      "height": 1000
+    },
+    "retailVsResale": {
+      "src": "/images/resources/diamond-retail-vs-resale-value.webp",
+      "alt": "Comparison of diamond retail price insurance appraisal and resale value",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/dalila-diamond-valuation-process.webp",
+      "alt": "Dalila Diamonds online and Antwerp diamond valuation process",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      { "id": "valuation-calculator", "label": "Start your online diamond valuation" },
+      { "id": "how-much-worth", "label": "How much is my diamond worth?" },
+      { "id": "retail-vs-resale", "label": "Valuation is not retail price" },
+      { "id": "value-factors", "label": "What determines diamond value?" },
+      { "id": "online-valuation", "label": "Can a diamond be valued online?" },
+      { "id": "without-certificate", "label": "Value without a certificate" },
+      { "id": "valuation-process", "label": "How the Dalila process works" },
+      { "id": "why-antwerp", "label": "Why value in Antwerp?" },
+      { "id": "prepare", "label": "What to prepare" },
+      { "id": "frequently-asked-questions", "label": "Frequently asked questions" },
+      { "id": "find-out-worth", "label": "Find out what your diamond may be worth" }
+    ]
+  },
+  "form": {
+    "id": "valuation-calculator",
+    "leadSource": "diamond_valuation_calculator",
+    "totalSteps": 5,
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP and PDF",
+    "stickyButtonText": "Value My Diamond",
+    "progressLabel": "Step {step} of {total}",
+    "savedDraftNotice": "Your progress has been saved in this browser.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "What Would You Like to Value?",
+        "subtitle": "Select the option that best describes your item."
+      },
+      {
+        "number": 2,
+        "title": "Do You Have a Diamond Grading Report?",
+        "subtitle": "A report from GIA, HRD Antwerp, IGI or another gemmological laboratory can provide important information. You can still request a valuation if the report has been lost or the diamond was never certified."
+      },
+      {
+        "number": 3,
+        "title": "Tell Us About the Jewellery",
+        "subtitle": "If the diamond is mounted, provide basic information about the complete item. The setting, metal, craftsmanship, brand and condition may need to be considered separately from the centre diamond."
+      },
+      {
+        "number": 4,
+        "title": "Upload Photographs and Documents",
+        "subtitle": "For the clearest assessment, upload a photograph of the complete item, a close-up of the diamond from above and a side view showing the setting."
+      },
+      {
+        "number": 5,
+        "title": "Choose How You Would Like to Be Contacted",
+        "subtitle": "Tell us how to reach you and how soon you are considering selling."
+      }
+    ],
+    "itemTypes": [
+      "Loose natural diamond",
+      "Natural diamond ring",
+      "Diamond earrings",
+      "Diamond necklace or pendant",
+      "Diamond bracelet",
+      "Other diamond jewellery",
+      "I am not sure"
+    ],
+    "certificateStatuses": [
+      "GIA report",
+      "HRD Antwerp report",
+      "IGI report",
+      "Report from another laboratory",
+      "I have a report but do not know the laboratory",
+      "I do not have a grading report",
+      "I am not sure"
+    ],
+    "reportFieldsHelp": "You can normally find these details on your diamond grading report. If you are unsure, upload a clear photograph of the complete report and our team can review the information.",
+    "shapes": ["Round", "Oval", "Cushion", "Emerald", "Radiant", "Pear", "Princess", "Marquise", "Asscher", "Heart", "Other"],
+    "origins": ["Natural", "Laboratory-grown", "I am not sure"],
+    "fluorescenceOptions": ["None", "Faint", "Medium", "Strong", "Very Strong", "Not listed / unknown"],
+    "contactMethods": ["Email", "Telephone", "Either email or telephone"],
+    "evaluationPreferences": ["Online review only", "Private Antwerp appointment", "Not sure yet"],
+    "sellingTimelines": [
+      "As soon as possible",
+      "Within the next month",
+      "I am comparing my options",
+      "I only want to understand the value",
+      "I am not sure"
+    ],
+    "uploadHints": [
+      "The complete grading report",
+      "The original purchase receipt",
+      "A previous valuation",
+      "Photographs of hallmarks or branding",
+      "Any available provenance documents"
+    ],
+    "consentText": "I agree that Dalila Diamonds may contact me regarding this valuation request. I understand that an online assessment is preliminary and that a final offer may require physical inspection and verification.",
+    "privacyLinkText": "privacy policy",
+    "privacyHref": "/contact",
+    "submitButton": "Request My Private Valuation",
+    "submittingButton": "Submitting…",
+    "nextButton": "Continue",
+    "backButton": "Back",
+    "successMessage": "Thank you. Your diamond information has been submitted for review. A member of the Dalila Diamonds team will contact you using your preferred contact method.",
+    "errorMessage": "We could not submit your request. Please check the required fields and try again.",
+    "validation": {
+      "itemTypeRequired": "Please select what you would like to value.",
+      "certificateRequired": "Please select your certificate status.",
+      "imageRequired": "Please upload at least one photograph or document.",
+      "nameRequired": "Please enter your full name.",
+      "contactRequired": "Please provide an email address or telephone number.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm the consent statement before submitting."
+    },
+    "resultMessages": {
+      "ready": {
+        "heading": "Your Diamond Is Ready for Specialist Review",
+        "message": "The information you provided gives us a useful starting point. A specialist will review the grading details, photographs and current demand for comparable natural diamonds. Any online indication is preliminary and is not a binding purchase offer. Physical inspection and report verification may be required before a final offer can be confirmed.",
+        "button": "Submit My Diamond for Review"
+      },
+      "missing": {
+        "heading": "We Need a Little More Information",
+        "message": "A responsible valuation cannot be calculated from the information currently available. You can still submit photographs and any documents you have. Dalila Diamonds will explain which details or checks are required next.",
+        "button": "Request a Specialist Review"
+      },
+      "noCertificate": {
+        "heading": "You Can Still Request a Valuation",
+        "message": "A missing grading report does not automatically prevent your diamond from being evaluated. Upload clear photographs and any available receipt, appraisal or supporting information to begin.",
+        "button": "Value My Diamond Without a Certificate"
+      }
+    },
+    "labels": {
+      "gradingLaboratory": "Grading laboratory",
+      "reportNumber": "Report number",
+      "reportDate": "Report date, if known",
+      "origin": "Natural or laboratory-grown",
+      "shape": "Diamond shape",
+      "caratWeight": "Carat weight",
+      "colourGrade": "Colour grade",
+      "clarityGrade": "Clarity grade",
+      "cutGrade": "Cut grade",
+      "polish": "Polish",
+      "symmetry": "Symmetry",
+      "fluorescence": "Fluorescence",
+      "jewelleryType": "Jewellery type",
+      "metal": "Metal, if known",
+      "diamondCount": "Number of diamonds",
+      "approximateAge": "Approximate age",
+      "brand": "Brand or designer, if applicable",
+      "boxReceipt": "Original box or receipt available",
+      "altered": "Has the item been repaired, resized or altered?",
+      "jewelleryNotes": "Additional information",
+      "uploadLabel": "Upload photographs and documents",
+      "dragDrop": "Drag and drop files here, or choose files",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "country": "Country",
+      "postcode": "Postcode",
+      "contactMethod": "Preferred contact method",
+      "evaluationPreference": "Online review or private Antwerp appointment",
+      "sellingTimeline": "How soon are you considering selling?",
+      "optional": "Optional"
+    }
+  },
+  "formIntro": {
+    "id": "start-valuation",
+    "title": "Start Your Online Diamond Valuation",
+    "paragraphs": [
+      "Tell us as much as you know about your diamond. Accurate report information and clear photographs can help us provide a more useful initial assessment."
+    ]
+  },
+  "howMuchWorth": {
+    "id": "how-much-worth",
+    "title": "How Much Is My Diamond Worth?",
+    "paragraphs": [
+      "There is no single price for a diamond based only on its size. A one-carat natural diamond, for example, can have a very different value from another one-carat diamond because of differences in shape, colour, clarity, cut quality, fluorescence, certification and overall condition.",
+      "The first question is whether the diamond is natural or laboratory-grown. These diamonds must be valued separately because they have different supply conditions and resale markets. A grading report, when available, should state the diamond’s origin.",
+      "After origin has been established, the evaluator considers the diamond’s quality and current demand for comparable stones. The condition of the stone, available documentation and whether it is loose or mounted in jewellery can also affect the assessment.",
+      "An online diamond valuation calculator can therefore provide a useful starting point, but a reliable selling price normally requires more than a simple carat-and-grade calculation."
+    ],
+    "factorsIntro": "The main information used in an initial diamond valuation includes:",
+    "factors": [
+      "Natural or laboratory-grown origin",
+      "Shape and carat weight",
+      "Colour and clarity grades",
+      "Cut, polish and symmetry",
+      "Fluorescence",
+      "Grading laboratory",
+      "Treatments, if any",
+      "Current condition",
+      "Current buyer demand"
+    ],
+    "closing": "If some of this information is unavailable, submit the details and photographs you have. Dalila can explain what additional verification may be necessary.",
+    "ctaText": "FIND OUT WHAT MY DIAMOND MAY BE WORTH",
+    "ctaHref": "#valuation-calculator"
+  },
+  "retailVsResale": {
+    "id": "retail-vs-resale",
+    "title": "Diamond Valuation Is Not the Same as the Original Retail Price",
+    "paragraphs": [
+      "Many sellers expect their diamond’s current value to be close to the amount originally paid. However, the original retail price and the amount a professional buyer may offer serve different purposes.",
+      "The retail price may include the jeweller’s operating costs, design work, setting, branding, taxes, customer service and profit margin. An insurance appraisal may be higher because it estimates what it could cost to replace the item through a retail seller. Neither figure automatically represents what the diamond can be sold for today."
+    ],
+    "table": {
+      "caption": "Types of diamond value compared",
+      "headers": ["Type of value", "What it represents"],
+      "rows": [
+        ["Original retail price", "The amount paid when the jewellery was originally purchased"],
+        ["Insurance appraisal", "An estimated replacement value used for insurance purposes"],
+        ["Fair-market value", "An opinion of what a willing buyer and seller may agree upon"],
+        ["Resale value", "The amount the diamond may achieve in the secondary market"],
+        ["Purchase offer", "The amount a particular buyer is prepared to pay after evaluation"]
+      ]
+    },
+    "giaNote": "GIA explains fair-market value as an appraiser’s opinion of what a willing buyer would pay a willing seller. This is different from simply repeating the diamond’s original retail price.",
+    "giaLinkText": "See GIA’s guidance about selling jewellery",
+    "closing": "A current purchase offer is influenced by the physical diamond, its documentation, its condition and present demand. For that reason, a previous valuation should not be treated as a guaranteed selling price."
+  },
+  "valueFactors": {
+    "id": "value-factors",
+    "title": "What Determines the Value of a Natural Diamond?",
+    "subsections": [
+      {
+        "id": "carat-weight",
+        "title": "Carat Weight",
+        "paragraphs": [
+          "Carat measures a diamond’s weight rather than its visible width. One carat is equal to 0.20 grams, but the value of a diamond does not increase at a fixed rate for every additional fraction of a carat.",
+          "Diamonds that reach recognised thresholds such as 1.00, 1.50 or 2.00 carats may attract a different price per carat from stones just below those weights. GIA notes that prices per carat commonly increase when a diamond passes important weight thresholds.",
+          "Nevertheless, a larger diamond is not automatically more valuable than a smaller stone with substantially better colour, clarity and cut. Carat weight must always be assessed alongside the diamond’s other characteristics."
+        ],
+        "linkText": "See the GIA Natural Diamond Buyer’s Guide",
+        "linkHref": "https://www.gia.edu/gia-news-research-buying-diamonds"
+      },
+      {
+        "id": "diamond-shape",
+        "title": "Diamond Shape",
+        "paragraphs": [
+          "The shape of a diamond affects its appearance, cutting yield, demand and the availability of comparable stones. Round brilliant diamonds often follow different pricing patterns from oval, emerald, cushion or pear-shaped diamonds."
+        ],
+        "shapes": ["Round", "Oval", "Cushion", "Emerald", "Radiant", "Pear", "Princess", "Marquise", "Asscher", "Heart"],
+        "closing": "Even within the same shape, visual appeal can differ because of proportions, symmetry and the quality of the finished outline. For fancy shapes, an evaluator may consider characteristics such as length-to-width ratio, bow-tie effect, windowing and overall visual balance."
+      },
+      {
+        "id": "colour-grade",
+        "title": "Colour Grade",
+        "paragraphs": [
+          "For diamonds graded on the D-to-Z colour scale, a higher grade generally means that less body colour is visible. Small colour differences can influence value, particularly in larger or higher-clarity diamonds.",
+          "Natural fancy-colour diamonds are assessed differently. Pink, blue, green and certain yellow diamonds can be valued for the strength, distribution and rarity of their colour rather than for their closeness to colourless.",
+          "The grading report should be reviewed carefully to determine whether the diamond falls on the standard D-to-Z scale or has a natural fancy-colour grade."
+        ]
+      },
+      {
+        "id": "clarity-grade",
+        "title": "Clarity Grade",
+        "paragraphs": [
+          "Clarity describes the inclusions and surface characteristics found in or on a diamond. The grade depends on their size, number, type, position and visibility under magnification.",
+          "The recognised clarity scale ranges from Flawless and Internally Flawless through VVS, VS and SI grades to Included grades. However, two diamonds with the same clarity grade may not be equally desirable.",
+          "An inclusion near the centre of the diamond, for example, may affect its appearance differently from an inclusion positioned close to the edge. The nature and location of the inclusions can therefore matter alongside the grade printed on the report."
+        ]
+      },
+      {
+        "id": "cut-quality",
+        "title": "Cut Quality",
+        "paragraphs": [
+          "Cut quality affects how effectively a diamond handles light. In a well-cut diamond, proportions, symmetry and polish work together to support brightness, fire and scintillation.",
+          "Round brilliant grading reports may include an overall cut grade. Fancy-shaped diamonds are more complex because they may not receive the same complete cut grade. Their valuation can require closer examination of proportions, outline, symmetry and visual performance.",
+          "Two diamonds with similar colour, clarity and carat weight can still have different values when one has noticeably stronger cut quality and visual appeal."
+        ]
+      },
+      {
+        "id": "fluorescence",
+        "title": "Fluorescence",
+        "paragraphs": [
+          "Fluorescence describes the reaction of a diamond when it is exposed to ultraviolet light. It is commonly reported as none, faint, medium, strong or very strong.",
+          "Fluorescence is not automatically good or bad. Its influence depends on the diamond’s colour, fluorescence strength, visual appearance and current market preferences. In some diamonds, fluorescence has little practical effect. In others, particularly when a stone appears hazy or oily, it may influence desirability.",
+          "It should therefore be considered in relation to the complete diamond rather than used as an isolated valuation rule."
+        ]
+      },
+      {
+        "id": "certification",
+        "title": "Certification and Report Verification",
+        "paragraphs": [
+          "A recognised grading report provides an independent description of the diamond. It may include carat weight, measurements, colour, clarity, cut information, fluorescence and identifying characteristics.",
+          "The report number should be checked through the relevant laboratory’s verification system. The physical diamond must also be matched to the report before a final valuation is confirmed.",
+          "A valid grading report describes a diamond, but it does not establish a guaranteed retail or resale price. If the report is old, the stone may also need to be checked for damage or alterations that occurred after grading."
+        ],
+        "linkText": "grading report verification guide",
+        "linkHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "treatments-condition",
+        "title": "Treatments and Condition",
+        "paragraphs": [
+          "Some diamonds undergo treatments intended to alter their apparent colour or clarity. Treatments can influence durability, buyer demand and value, so any known treatment should be disclosed during the valuation process.",
+          "GIA states that known treatments are recorded on its grading reports and that advanced testing may be required to identify certain treatments.",
+          "The condition of the diamond is equally important. Chips, abrasions, cavities or damage around the girdle can affect its value. When a diamond is mounted in jewellery, the setting may conceal part of the stone and make an exact assessment more difficult.",
+          "A physical examination helps determine whether the item’s current condition matches the information provided online."
+        ],
+        "linkText": "See GIA’s explanation of diamond treatments",
+        "linkHref": "https://www.gia.edu/gia-news-research-diamond-treatment"
+      },
+      {
+        "id": "market-demand",
+        "title": "Current Market Demand",
+        "paragraphs": [
+          "Diamond values are also influenced by demand for comparable stones. Certain shapes, sizes, colour-and-clarity combinations and grading reports may be easier to resell than others.",
+          "Market conditions can change. A valuation prepared several years ago may no longer represent the current selling environment. A useful valuation should therefore consider present demand rather than relying only on an old document or the original purchase price."
+        ]
+      }
+    ]
+  },
+  "onlineValuation": {
+    "id": "online-valuation",
+    "title": "Can a Diamond Be Accurately Valued Online?",
+    "paragraphs": [
+      "An online diamond valuation can be useful when the seller has a detailed grading report and provides accurate information. It allows a specialist to conduct an initial review before asking the seller to travel or send the item for examination.",
+      "The strongest online submissions include the complete grading report, a verifiable report number, accurate carat, colour and clarity information, clear photographs and details about any damage or alterations.",
+      "However, photographs and certificate details cannot confirm everything. A physical evaluation may still be needed to:"
+    ],
+    "bullets": [
+      "Confirm that the item contains a diamond",
+      "Determine whether the diamond is natural",
+      "Match the diamond to its grading report",
+      "Inspect for damage or treatments",
+      "Verify its measurements and condition",
+      "Examine the jewellery setting",
+      "Confirm the required ownership information"
+    ],
+    "closing": "An online assessment should therefore be viewed as the first stage of the process. It can help determine whether the diamond is suitable for further evaluation, but a final offer may change after the item has been physically inspected."
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Can I Value a Diamond Without a Certificate?",
+    "paragraphs": [
+      "Yes. Losing a grading report does not necessarily prevent a diamond from being evaluated.",
+      "If you do not have a certificate, provide clear photographs and any available information from the original receipt, insurance documents or previous valuation. Details such as the approximate carat weight, purchase date, jeweller and metal type can help with the initial review.",
+      "Depending on the diamond, Dalila may recommend a physical inspection or a new laboratory report before making a final purchase offer. Certification may be particularly useful for larger, higher-quality or potentially fancy-colour diamonds.",
+      "The calculator therefore includes a clear “I do not have a grading report” option. The certificate number should never be a compulsory field for every seller."
+    ],
+    "ctaText": "VALUE MY DIAMOND WITHOUT A CERTIFICATE",
+    "ctaHref": "#valuation-calculator"
+  },
+  "valuationProcess": {
+    "id": "valuation-process",
+    "title": "How the Dalila Diamond Valuation Process Works",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Submit Your Diamond Information",
+        "paragraphs": [
+          "Complete the diamond valuation calculator and provide the details you know. Upload the grading report, photographs, receipt or previous valuation when available.",
+          "You do not need to know every grade before starting. The purpose of the first step is to give Dalila enough information to determine how the diamond should be evaluated."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Initial Specialist Review",
+        "paragraphs": [
+          "Dalila reviews the submitted characteristics, photographs and documents. If important information is missing, the team may contact you for additional photographs or clarification.",
+          "This review is preliminary. It helps identify whether the diamond is suitable for a closer assessment and what checks may still be required."
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Physical Verification",
+        "paragraphs": [
+          "If the diamond is suitable for further evaluation, a private appointment may be arranged in Antwerp. The diamond can then be examined, matched to its report and checked for condition, treatments or alterations.",
+          "The seller should not remove a mounted diamond from its setting before receiving professional guidance."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Purchase Offer",
+        "paragraphs": [
+          "After the necessary verification, Dalila may provide a purchase offer based on the diamond’s characteristics, documentation, condition and current demand.",
+          "The offer should be clearly distinguished from the original retail price and any insurance appraisal."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Your Decision",
+        "paragraphs": [
+          "You can review the offer and decide whether you want to proceed. Submitting the valuation form does not require you to sell your diamond or accept an offer."
+        ]
+      }
+    ],
+    "ctaText": "REQUEST MY PRIVATE VALUATION",
+    "ctaHref": "#valuation-calculator"
+  },
+  "whyAntwerp": {
+    "id": "why-antwerp",
+    "title": "Why Have Your Diamond Valued in Antwerp?",
+    "paragraphs": [
+      "Antwerp has a long-established diamond-trading infrastructure and remains an important centre for the professional assessment, buying and selling of diamonds.",
+      "Working with a diamond business located in Antwerp gives sellers access to specialists who understand grading reports, natural-diamond characteristics and the commercial factors that influence current buyer demand.",
+      "Dalila Diamonds allows sellers to begin online by submitting a report and photographs. If a closer examination is required, the next step can be discussed before arranging a private appointment."
+    ],
+    "bullets": [
+      "A private online submission",
+      "Grading-report and photograph upload",
+      "Review of natural-diamond information",
+      "A private Antwerp evaluation when required",
+      "A clear explanation of the next step",
+      "No obligation to accept an offer"
+    ],
+    "primaryButtonText": "REQUEST A PRIVATE DIAMOND VALUATION",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "BOOK AN ANTWERP APPOINTMENT",
+    "secondaryButtonHref": "/sud"
+  },
+  "prepare": {
+    "id": "prepare",
+    "title": "What Should I Prepare Before Requesting a Valuation?",
+    "paragraphs": [
+      "You do not need to have every document before starting. Nevertheless, gathering the available information can make the initial assessment more efficient.",
+      "If possible, prepare the grading report, original receipt, previous insurance appraisal and any documents relating to the jewellery’s brand or provenance. Take clear photographs in natural light and avoid using filters that change the appearance of the diamond or metal.",
+      "If the item contains several diamonds, photograph the complete piece and identify which stone you want to have valued. For a loose diamond, use a clean, secure surface and avoid holding it over a sink, open floor or other area where it could be lost.",
+      "Do not attempt to remove a diamond from its setting yourself. If the stone needs to be examined loose, this should be discussed with an appropriate professional after the initial review."
+    ]
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How accurate is a diamond valuation calculator?",
+        "answer": "A diamond valuation calculator can provide a useful preliminary assessment when accurate grading information is available. A final value may change after the diamond’s origin, grading report, condition and treatments have been physically verified."
+      },
+      {
+        "question": "How much is a one-carat diamond worth?",
+        "answer": "There is no single value for every one-carat diamond. Its value depends on whether it is natural or laboratory-grown, as well as its shape, colour, clarity, cut, fluorescence, grading report, condition and current market demand."
+      },
+      {
+        "question": "Is my diamond worth what I originally paid?",
+        "answer": "Not necessarily. The original purchase price can include the jewellery design, setting, branding, retailer expenses, taxes and services. These costs may not be recovered when the diamond is resold."
+      },
+      {
+        "question": "Is an insurance valuation the same as resale value?",
+        "answer": "No. An insurance valuation is normally prepared for replacement purposes. Resale value considers what a buyer may be willing to pay for the diamond under current market conditions."
+      },
+      {
+        "question": "Does a GIA, HRD or IGI report show the diamond’s value?",
+        "answer": "No. A grading report describes the diamond’s characteristics. It does not state or guarantee a retail, resale or purchase price."
+      },
+      {
+        "question": "Can Dalila value a mounted diamond ring?",
+        "answer": "A mounted diamond ring can be submitted for an initial review. A physical examination may be necessary because the setting can conceal parts of the diamond and affect the accuracy of an assessment."
+      },
+      {
+        "question": "Can I submit a diamond without a certificate?",
+        "answer": "Yes. Submit clear photographs and any available purchase or valuation documents. Additional testing or certification may be required before a final offer can be made."
+      },
+      {
+        "question": "Can I have an inherited diamond valued?",
+        "answer": "Yes. Inherited loose diamonds and diamond jewellery can be submitted. Provide any grading reports, receipts, previous valuations or provenance documents available to you."
+      },
+      {
+        "question": "Will I receive an instant purchase price?",
+        "answer": "Not necessarily. A specialist must first review the submitted information. A final purchase price may require physical examination, grading-report verification and confirmation of the diamond’s condition."
+      },
+      {
+        "question": "Will Dalila buy every diamond submitted?",
+        "answer": "Submitting a valuation request does not guarantee that Dalila will make an offer. The company must first determine whether the item meets its purchasing criteria."
+      },
+      {
+        "question": "Do I have to sell after receiving an offer?",
+        "answer": "No. Requesting an evaluation does not require you to accept an offer. You can review the information provided and decide whether you want to proceed."
+      },
+      {
+        "question": "Where will the physical evaluation take place?",
+        "answer": "When a physical assessment is required, eligible sellers may arrange a private evaluation with Dalila Diamonds in Antwerp."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-out-worth",
+    "title": "Find Out What Your Natural Diamond May Be Worth",
+    "paragraphs": [
+      "Whether you have a certified loose diamond, an engagement ring, inherited jewellery or a diamond without its original certificate, you can begin with a private online submission.",
+      "Provide the information you know, upload your photographs and let Dalila Diamonds review the next step."
+    ],
+    "primaryButtonText": "START MY DIAMOND VALUATION",
+    "primaryButtonHref": "#valuation-calculator",
+    "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": { "href": "/sud", "text": "Sell your diamond in Antwerp" },
+    "sellGuide": { "href": "/sell-your-diamond-safely", "text": "Learn how to sell your diamond" },
+    "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "GIA, IGI and HRD report-verification guide" },
+    "qualityChart": { "href": "/resources/diamond-quality-chart", "text": "diamond quality chart" },
+    "colourGuide": { "href": "/blogs/best-diamond-colour-clarity-combination", "text": "diamond colour guide" },
+    "clarityGuide": { "href": "/blogs/vs1-vs-vs2-diamond-clarity", "text": "diamond clarity guide" },
+    "withoutCertGuide": { "href": "/resources/sell-diamond-without-certificate", "text": "Can You Sell a Diamond Without a Certificate?" },
+    "bestPlaceSell": { "href": "/sell-your-diamond-safely", "text": "Where Is the Best Place to Sell a Diamond Ring?" }
+  }
+}

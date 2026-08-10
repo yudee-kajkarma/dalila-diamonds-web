@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "title": "Diamanti grezzi naturali: guida all'approvvigionamento | Dalila",
+    "description": "Scopri come i diamanti grezzi naturali vengono valutati, documentati e scambiati, compresi rendimento, prezzi, controlli del processo Kimberley e approvvigionamento professionale.",
+    "canonical": "https://www.daliladiamonds.com/diamonds/natural-rough-diamonds",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "noindex, nofollow",
+    "primaryKeyword": "Rough natural diamonds",
+    "inLanguage": "it",
+    "parentHub": "https://www.daliladiamonds.com/diamond-source"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "alt": "Diamanti grezzi naturali sottoposti a valutazione professionale ad Anversa",
+      "width": 1600,
+      "height": 900
+    },
+    "evaluation": {
+      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "alt": "Diamante grezzo naturale valutato per inclusioni di forma e resa lucida",
+      "width": 1400,
+      "height": 1000
+    },
+    "roughVsPolished": {
+      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "alt": "Diamante grezzo naturale rispetto al risultato di diamante lucido previsto",
+      "width": 1400,
+      "height": 1000
+    },
+    "documentation": {
+      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "alt": "Pacco di diamanti grezzi controllato con il processo Kimberley e documenti commerciali",
+      "width": 1400,
+      "height": 1000
+    },
+    "naturalVsLab": {
+      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "alt": "Diamanti grezzi naturali e coltivati ​​in laboratorio che richiedono un'identificazione professionale",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Diamanti grezzi naturali",
+    "breadcrumbHome": "Casa",
+    "breadcrumbParent": "Approvvigionamento di diamanti",
+    "breadcrumbParentHref": "/diamond-source",
+    "breadcrumbCurrent": "Diamanti grezzi naturali",
+    "imageAlt": "Diamanti grezzi naturali sottoposti a valutazione professionale ad Anversa"
+  },
+  "hero": {
+    "title": "Diamanti grezzi naturali: guida professionale all'approvvigionamento e al commercio",
+    "introParagraphs": [
+      "I diamanti naturali grezzi sono diamanti che sono stati recuperati dalla terra ma non hanno ancora completato il processo di taglio e lucidatura.",
+      "Sono chiamati anche diamanti grezzi o, meno precisamente, diamanti grezzi. Nel commercio professionale dei diamanti, il termine standard è “diamante grezzo”.",
+      "L'acquisto di un diamante grezzo è fondamentalmente diverso dall'acquisto di un diamante lucido. L’acquirente deve valutare l’identità, la morfologia, le inclusioni della pietra, la potenziale resa lucida, la documentazione commerciale legale e il rischio di produzione commerciale prima di concordare un prezzo."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "This guide explains how natural rough diamonds are evaluated, documented and traded. For polished natural-diamond sourcing, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "Servizio Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " and the "
+        },
+        {
+          "type": "link",
+          "text": "Fornitore di diamanti B2B premium in Belgio",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contatta un esperto di diamanti di Anversa",
+    "primaryButtonHref": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Risposta rapida",
+    "paragraphs": [
+      "I diamanti grezzi naturali vengono scambiati principalmente tra società minerarie, produttori, commercianti di diamanti registrati e altri acquirenti professionali idonei.",
+      "Il loro valore non può essere stabilito solo dal peso in carati approssimativi. Un acquirente deve stimare quale diamante o diamanti lucidati potrebbero essere prodotti, quanto peso potrebbe perdere durante la produzione, il rischio di taglio e se il risultato lucidato atteso ha una domanda di mercato sufficiente.",
+      "Ogni transazione internazionale di diamanti grezzi deve inoltre seguire il processo Kimberley applicabile, i requisiti doganali, le sanzioni e la registrazione dei rivenditori."
+    ],
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Natural rough diamonds are primarily traded between mining companies, manufacturers, registered diamond dealers and other eligible professional buyers."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Their value cannot be established from rough carat weight alone. A buyer must estimate what polished diamond or diamonds could be produced, how much weight may be lost during manufacturing, the cutting risk and whether the expected polished result has sufficient market demand."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Every international rough-diamond transaction must also follow the applicable Kimberley Process, customs, sanctions and dealer-registration requirements. For background on natural diamonds themselves, read "
+        },
+        {
+          "type": "link",
+          "text": "cos'è un diamante naturale",
+          "href": "/blogs/what-is-a-natural-diamond"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-natural-rough-diamond",
+    "title": "Cos'è un diamante grezzo naturale?",
+    "introParagraphs": [
+      "Un diamante grezzo naturale è un diamante formato attraverso processi geologici e recuperato prima di essere modellato in una pietra preziosa lucidata.",
+      "I diamanti grezzi possono apparire come cristalli interi o spezzati e possono avere forme, caratteristiche superficiali, colori e motivi di inclusione diversi. A seconda della qualità e del potenziale produttivo, possono essere classificati come:"
+    ],
+    "bullets": [
+      "Qualità della gemma",
+      "Qualità quasi gemma",
+      "Qualità industriale"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Antwerp World Diamond Centre explains that rough sorting considers size, shape, quality, clarity, colour and the potential yield after cutting. Specialist scanning and three-dimensional mapping may also be used to plan the most valuable polished outcome. Read the official "
+        },
+        {
+          "type": "link",
+          "text": "Guida alla selezione e alla valutazione dei diamanti grezzi AWDC",
+          "href": "https://www.awdc.be/en/rough-diamonds",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "roughVsPolished": {
+    "id": "natural-rough-diamonds-versus-polished-diamonds",
+    "title": "Diamanti naturali grezzi contro diamanti lucidati",
+    "table": {
+      "headers": [
+        "Diamante grezzo naturale",
+        "Diamante naturale lucido"
+      ],
+      "rows": [
+        [
+          "Non ha completato il taglio e la lucidatura",
+          "È stato modellato in una forma finita"
+        ],
+        [
+          "Valutato in parte attraverso il rendimento previsto",
+          "Valutato attraverso le sue caratteristiche finite"
+        ],
+        [
+          "Può produrre uno o più diamanti lucidati",
+          "Ha già un peso in carati finale"
+        ],
+        [
+          "Comporta rischi di produzione e rottura",
+          "Il risultato della produzione è già visibile"
+        ],
+        [
+          "Richiede competenze specialistiche nel settore dei diamanti grezzi",
+          "Normalmente può essere valutato utilizzando sistemi di classificazione consolidati"
+        ],
+        [
+          "Soggetto a specifici controlli sul commercio dei diamanti grezzi",
+          "Dopo la lucidatura potrebbe essere applicabile una documentazione diversa"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A standard polished-diamond grading report should not be expected for ordinary rough material. GIA states that its normal natural-diamond grading reports are issued for loose polished diamonds. Its rough analysis is mainly connected to the Diamond Origin programme, with the polished diamond returning for grading after manufacturing. Review the "
+        },
+        {
+          "type": "link",
+          "text": "Spiegazione approssimativa dell'identificazione del GIA",
+          "href": "https://www.gia.edu/gia-news-research-diamond-origin",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": ". For polished report comparison, see the "
+        },
+        {
+          "type": "link",
+          "text": "Guida alla certificazione dei diamanti GIA vs IGI vs HRD",
+          "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+        },
+        {
+          "type": "text",
+          "value": ". Browse Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "inventario di diamanti lucidati certificato in tempo reale",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " when you need finished stones rather than rough."
+        }
+      ]
+    ]
+  },
+  "whoPurchases": {
+    "id": "who-normally-purchases-rough-diamonds",
+    "title": "Chi acquista normalmente i diamanti grezzi?",
+    "introParagraphs": [
+      "L'acquisto di diamanti grezzi è generalmente destinato a partecipanti professionali idonei come:"
+    ],
+    "bullets": [
+      "Produttori di diamanti e impianti di lucidatura",
+      "Commercianti di diamanti registrati",
+      "Commercianti di diamanti grezzi",
+      "Produttori di gioielli con un partner di taglio affermato",
+      "Società minerarie e partecipanti autorizzati alle gare",
+      "Investitori specializzati con supporto professionale in materia di produzione e conformità"
+    ],
+    "closingParagraphs": [
+      "I consumatori che cercano un diamante per un anello troveranno solitamente più pratico un diamante naturale lucidato e classificato in modo indipendente. Il peso approssimativo non indica la dimensione, il grado o il valore della pietra finita."
+    ]
+  },
+  "howEvaluated": {
+    "id": "how-are-rough-natural-diamonds-evaluated",
+    "title": "Come vengono valutati i diamanti naturali grezzi?",
+    "subsections": [
+      {
+        "number": 1,
+        "id": "natural-origin-identification",
+        "title": "Identificazione dell'origine naturale",
+        "introParagraphs": [
+          "Un cristallo grezzo non dovrebbe essere accettato come naturale basandosi solo sull'apparenza."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Natural, HPHT-grown and CVD-grown diamonds can require professional gemmological testing to distinguish them reliably. GIA notes that laboratory-grown and natural diamonds have closely related chemical, physical and optical properties and may require trained specialists and advanced instruments for separation. See the "
+            },
+            {
+              "type": "link",
+              "text": "Ricerca sui diamanti naturali e coltivati ​​in laboratorio del GIA",
+              "href": "https://www.gia.edu/gems-gemology/summer-2022-labnotes-identification-of-laboratory-grown-diamonds",
+              "external": true
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "shape-and-crystal-structure",
+        "title": "Forma e struttura del cristallo",
+        "paragraphs": [
+          "L'acquirente esamina la forma grezza, la forma di crescita, le condizioni della superficie e la struttura interna per determinare possibili piani di taglio.",
+          "Un peso grezzo attraente non produce necessariamente un grande diamante lucidato. Il produttore può decidere che due pietre più piccole creino un risultato commerciale migliore."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "inclusions-and-manufacturing-risk",
+        "title": "Inclusioni e rischio di produzione",
+        "introParagraphs": [
+          "Caratteristiche interne, fratture, stress, cavità e inclusioni che raggiungono la superficie possono influenzare:"
+        ],
+        "bullets": [
+          "Direzione di taglio",
+          "Mantenimento del peso",
+          "Rischio di rottura",
+          "Chiarezza finita",
+          "Trasparenza",
+          "Numero di pietre prodotte"
+        ],
+        "closingParagraphs": [
+          "Una pietra che appare pulita da una direzione può contenere un'inclusione che diventa significativa durante la segatura o la lucidatura."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "projected-polished-yield",
+        "title": "Rendimento lucidato previsto",
+        "paragraphs": [
+          "La resa prevista corrisponde al peso stimato del lucido recuperabile dal grezzo.",
+          "Il mantenimento del peso più elevato non è automaticamente il piano più prezioso. Un diamante lucidato più leggero con proporzioni più forti, una migliore chiarezza o una forma più desiderabile può valere di più di un risultato più pesante ma di scarsa prestazione."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "colour-and-market-position",
+        "title": "Colore e posizione di mercato",
+        "paragraphs": [
+          "L'acquirente considera il colore della carrozzeria, la zonatura e se il risultato lucido atteso può rientrare nel mercato incolore, quasi incolore, fantasia o industriale.",
+          "Non sempre è possibile giudicare con sicurezza il colore finale dalle fotografie o dall'illuminazione incontrollata."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "documentation-and-provenance",
+        "title": "Documentazione e Provenienza",
+        "introParagraphs": [
+          "Potrebbe essere necessario che il file della transazione stabilisca:"
+        ],
+        "bullets": [
+          "Identità del venditore",
+          "Proprietà legale",
+          "Paese di origine mineraria dove documentato",
+          "Paese esportatore",
+          "Numero del pacco",
+          "Quantità",
+          "Peso",
+          "Valore della fattura",
+          "Certificato del processo Kimberley",
+          "Documentazione di importazione precedente",
+          "Risultato dello screening delle sanzioni",
+          "Informazioni sulla catena di custodia"
+        ],
+        "closingParagraphs": [
+          "La documentazione deve essere esaminata prima del pagamento o della spedizione."
+        ]
+      }
+    ]
+  },
+  "whatDeterminesPrice": {
+    "id": "what-determines-a-rough-diamonds-price",
+    "title": "Cosa determina il prezzo di un diamante grezzo?",
+    "introParagraphs": [
+      "Il prezzo approssimativo dei diamanti naturali può essere influenzato da:"
+    ],
+    "bullets": [
+      "Peso approssimativo totale",
+      "Numero di pietre",
+      "Forma di cristallo",
+      "Qualità gemma, quasi gemma o industriale",
+      "Colore",
+      "Trasparenza",
+      "Inclusioni e fratture",
+      "Resa lucida prevista",
+      "Forma lucida prevista",
+      "Costi di produzione",
+      "Rischio di rottura e di retaglio",
+      "La domanda del mercato per il risultato atteso",
+      "Consistenza del pacco",
+      "Paese di origine e prove a sostegno",
+      "Costi di transazione e logistica"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A polished-diamond price-per-carat list cannot simply be multiplied by the rough weight. The expected polished value must be assessed against weight loss, manufacturing costs, uncertainty and buyer margin. For polished pricing context, see Dalila’s "
+        },
+        {
+          "type": "link",
+          "text": "guida al prezzo dei diamanti",
+          "href": "/blogs/diamond-price-guide"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "kimberleyProcess": {
+    "id": "kimberley-process-requirements",
+    "title": "Requisiti del processo Kimberley",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "The Kimberley Process Certification Scheme applies specifically to international trade in rough diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "The Belgian FPS Economy states that rough diamonds entering or leaving the European Union must be accompanied by a valid Kimberley Process certificate, packed in a tamper-proof container and traded only between Kimberley Process participants. Belgian rough-diamond exports also require evidence showing how the exporter obtained the goods. Review the current "
+        },
+        {
+          "type": "link",
+          "text": "Requisiti amministrativi belgi per il diamante grezzo",
+          "href": "https://economie.fgov.be/en/themes/diamond/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "A Kimberley Process certificate should not be presented as proof of every possible ethical, labour, environmental or human-rights claim. Belgian Foreign Affairs has acknowledged that the scheme’s conflict-diamond definition has limitations. Additional supplier due diligence and provenance evidence may therefore be necessary. See the official discussion of "
+        },
+        {
+          "type": "link",
+          "text": "cosa significa “senza conflitti” nell’ambito del processo di Kimberley",
+          "href": "https://diplomatie.belgium.be/en/policy/policy-areas/peace-and-security/kimberley-process",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sanctions and origin restrictions can change. Eligibility must be checked against the rules applying on the contract and shipment dates."
+        }
+      ]
+    ]
+  },
+  "verificationChecklist": {
+    "id": "rough-diamond-verification-checklist",
+    "title": "Lista di controllo per la verifica del diamante grezzo",
+    "introParagraphs": [
+      "Prima di impegnarsi in una transazione, confermare:"
+    ],
+    "bullets": [
+      "Identità del venditore e autorità di vendita",
+      "Idoneità dell'acquirente",
+      "Test di coltivazione naturale e di laboratorio",
+      "Peso e quantità esatti del pacco",
+      "Descrizione approssimativa e ipotesi di qualità",
+      "Accesso per ispezione",
+      "Piano di produzione proposto",
+      "Resa lucidata stimata",
+      "Documentazione del processo Kimberley",
+      "Prova del paese d'origine e della provenienza",
+      "Rispetto delle sanzioni attuali",
+      "Termini di pagamento, assicurazione e spedizione",
+      "Condizioni di contestazione, rifiuto e restituzione"
+    ],
+    "closingParagraphs": [
+      "Non trasferire fondi esclusivamente da fotografie, video o copie di certificati non verificati."
+    ]
+  },
+  "enquiryProcess": {
+    "id": "professional-rough-diamond-enquiry-process",
+    "title": "Processo professionale di richiesta di diamanti grezzi",
+    "introParagraphs": [
+      "Un’indagine adeguatamente controllata dovrebbe seguire queste fasi:"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "id": "submit-the-requirement",
+        "title": "Invia il requisito",
+        "paragraphs": [
+          "Fornisci la dimensione, la quantità, il tipo di cristallo, la qualità, il colore, il budget, l'obiettivo di produzione e la destinazione preferiti."
+        ]
+      },
+      {
+        "number": 2,
+        "id": "confirm-eligibility",
+        "title": "Conferma l'idoneità",
+        "paragraphs": [
+          "Le parti dovrebbero confermare la registrazione del rivenditore, KYC, AML, sanzioni e requisiti di destinazione prima di discutere la spedizione."
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-availability-and-documents",
+        "title": "Controlla disponibilità e documenti",
+        "paragraphs": [
+          "Il venditore deve identificare il pacco, le prove di proprietà, il peso, la quantità, la documentazione di origine e i registri applicabili del Kimberley Process."
+        ]
+      },
+      {
+        "number": 4,
+        "id": "complete-specialist-evaluation",
+        "title": "Valutazione specialistica completa",
+        "paragraphs": [
+          "Il grezzo deve essere esaminato da qualcuno qualificato per valutarne l'identità, il rischio di fabbricazione e la resa lucida prevista."
+        ]
+      },
+      {
+        "number": 5,
+        "id": "issue-a-written-quotation",
+        "title": "Emettere un preventivo scritto",
+        "paragraphs": [
+          "Il preventivo dovrebbe indicare la merce esatta, i presupposti, la valuta, il periodo di validità, i termini di pagamento, le condizioni di ispezione e le responsabilità di consegna."
+        ]
+      },
+      {
+        "number": 6,
+        "id": "complete-export-and-import-controls",
+        "title": "Controlli completi di esportazione e importazione",
+        "paragraphs": [
+          "La spedizione deve seguire tutti i requisiti del Kimberley Process, delle dogane, delle sanzioni, dell'assicurazione e dell'imballaggio a prova di manomissione."
+        ]
+      }
+    ]
+  },
+  "contactExpert": {
+    "id": "contact-an-antwerp-diamond-expert",
+    "title": "Contatta un esperto di diamanti di Anversa",
+    "introParagraphs": [
+      "Invia le seguenti informazioni in modo che Dalila Diamonds possa confermare se la richiesta rientra nei servizi disponibili:"
+    ],
+    "bullets": [
+      "Nome dell'azienda",
+      "Dettagli del paese e della registrazione dell'azienda",
+      "Ruolo dell'acquirente",
+      "Quantità richiesta",
+      "Gamma di carati approssimativa",
+      "Qualità preferita o risultato lucido previsto",
+      "Requisiti del paese d'origine",
+      "Bilancio",
+      "Paese di consegna",
+      "Data richiesta",
+      "Luogo di produzione previsto"
+    ],
+    "primaryButtonText": "Contatta un esperto di diamanti di Anversa",
+    "primaryButtonHref": "/contact",
+    "supportingNotice": "La disponibilità dei diamanti grezzi, l'idoneità dell'acquirente, la documentazione, l'ispezione, i prezzi, le condizioni di pagamento e di consegna devono essere confermate per iscritto. Non inviare diamanti grezzi a Dalila senza previa accettazione scritta e istruzioni di custodia."
+  },
+  "faqs": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Cos’è un diamante grezzo naturale?",
+        "answer": "Un diamante grezzo naturale è un diamante formatosi attraverso processi geologici che non ha ancora completato il taglio e la lucidatura."
+      },
+      {
+        "question": "I diamanti grezzi e grezzi sono la stessa cosa?",
+        "answer": "“Diamante grezzo” è una descrizione informale. “Diamante grezzo” è il termine commerciale e normativo standard."
+      },
+      {
+        "question": "Chiunque può acquistare diamanti grezzi?",
+        "answer": "L’idoneità dipende dalla giurisdizione e dalla transazione. Il commercio internazionale di diamanti grezzi viene normalmente condotto tra partecipanti professionali autorizzati ed è soggetto a controlli di conformità."
+      },
+      {
+        "question": "I diamanti grezzi hanno rapporti di classificazione GIA?",
+        "answer": "I rapporti standard sulla classificazione dei diamanti naturali GIA sono destinati ai diamanti sfusi lucidati. L’analisi approssimativa del GIA è principalmente collegata al suo programma Diamond Origin e non funziona come un normale rapporto di classificazione raffinato."
+      },
+      {
+        "question": "Come posso confermare che un diamante grezzo è naturale?",
+        "answer": "L'apparenza da sola non è sufficiente. Una separazione affidabile dal materiale coltivato in laboratorio può richiedere un esame gemmologico professionale e test avanzati."
+      },
+      {
+        "question": "Come viene valutato un diamante grezzo?",
+        "answer": "Il valore dipende dall'identità, dal peso, dalla forma, dal colore, dalle inclusioni, dalla resa lucida prevista, dal rischio di taglio, dai costi di produzione, dalla documentazione e dalla richiesta del risultato lucido previsto."
+      },
+      {
+        "question": "Un certificato del processo di Kimberley dimostra il paese minerario?",
+        "answer": "Il certificato registra le informazioni richieste per la spedizione, ma la provenienza completa a livello di miniera potrebbe richiedere ulteriori prove. Esaminare il certificato originale, la fattura e i documenti giustificativi della catena di custodia."
+      },
+      {
+        "question": "La conformità al processo di Kimberley dimostra che la provenienza di un diamante è etica?",
+        "answer": "Affronta i diamanti in conflitto nell’ambito definito dal programma. Non dimostra automaticamente ogni affermazione in materia di lavoro, ambiente, diritti umani o sostenibilità."
+      },
+      {
+        "question": "Posso valutare un diamante grezzo dalle fotografie?",
+        "answer": "Le fotografie possono supportare una discussione iniziale ma non possono stabilire in modo affidabile l'identità, le condizioni interne, il rischio di produzione o la resa raffinata."
+      },
+      {
+        "question": "Dalila Diamonds può procurarsi diamanti grezzi naturali?",
+        "answer": "Ciò deve essere confermato direttamente per il pacco richiesto, l'acquirente, la destinazione e la transazione. Dalila non dovrebbe essere rappresentata come fornitore di diamanti grezzi fino a quando non saranno documentati l'ambito del suo servizio e l'idoneità normativa."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "discuss-a-professional-rough-diamond-enquiry",
+    "title": "Discuti una richiesta professionale di diamanti grezzi",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use this page to understand rough-diamond evaluation, documentation and trade controls before starting an enquiry. For polished natural diamonds, review the "
+        },
+        {
+          "type": "link",
+          "text": "inventario di diamanti lucidati certificato in tempo reale",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", request sourcing through "
+        },
+        {
+          "type": "link",
+          "text": "Fonte di diamanti per te",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ", or learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Fornitore di diamanti B2B premium in Belgio",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "To discuss whether a rough enquiry may fall within Dalila’s available services, "
+        },
+        {
+          "type": "link",
+          "text": "contattare Dalila Diamanti",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": ". Availability, eligibility, documentation and commercial terms must be confirmed in writing."
+        }
+      ]
+    ],
+    "primaryButtonText": "Contatta un esperto di diamanti di Anversa",
+    "primaryButtonHref": "/contact"
+  }
+}

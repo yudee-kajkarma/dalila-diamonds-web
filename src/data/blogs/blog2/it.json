@@ -1,0 +1,906 @@
+{
+  "meta": {
+    "title": "Chiarezza del diamante VS1 vs VS2: quale è migliore? | Dalila",
+    "description": "Confronta la purezza, la visibilità, le inclusioni e il valore dei diamanti VS1 e VS2. Scopri quando VS2 è pulito per gli occhi e quando ha senso pagare per VS1.",
+    "canonical": "https://www.daliladiamonds.com/blogs/vs1-vs-vs2-diamond-clarity",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "VS1 vs VS2 diamond",
+    "inLanguage": "it"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
+      "alt": "Diamanti naturali VS1 e VS2 confrontati sotto ingrandimento",
+      "width": 1600,
+      "height": 900
+    },
+    "inclusionVisibility": {
+      "src": "/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
+      "alt": "Confronto illustrativo delle inclusioni di diamanti VS1 e VS2 con ingrandimento dieci volte",
+      "width": 1400,
+      "height": 1000
+    },
+    "clarityByShape": {
+      "src": "/images/blogs/vs-diamond-clarity-by-shape.webp",
+      "alt": "Visibilità di chiarezza VS rispetto allo smeraldo rotondo ovale e ai diamanti cuscino",
+      "width": 1400,
+      "height": 1000
+    },
+    "inspectionChecklist": {
+      "src": "/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
+      "alt": "Lista di controllo per l'ispezione professionale dei diamanti naturali VS1 e VS2",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Chiarezza del diamante VS1 vs VS2",
+    "breadcrumbHome": "Casa",
+    "breadcrumbBlogs": "Blog",
+    "breadcrumbCurrent": "Chiarezza del diamante VS1 vs VS2",
+    "imageAlt": "Banner guida sulla chiarezza dei diamanti VS1 e VS2 per acquirenti di diamanti naturali"
+  },
+  "hero": {
+    "title": "Chiarezza del diamante VS1 vs VS2: riesci a vedere la differenza?",
+    "subheading": "Confronta i diamanti naturali VS1 e VS2 per la visibilità delle inclusioni, l'aspetto gradevole, il prezzo e il valore e scopri quando ogni grado ha un senso commerciale.",
+    "reviewDateLabel": "Ultima revisione:",
+    "reviewDate": "6 agosto 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "La maggior parte delle persone non riesce a vedere la differenza tra un diamante naturale VS1 e VS2 correttamente selezionato senza ingrandimento.",
+      "Entrambi i gradi appartengono alla categoria “Molto leggermente incluso” della scala di purezza dei diamanti. Un diamante VS1 contiene inclusioni minori che sono difficili da vedere per un selezionatore esperto con un ingrandimento 10×. In un diamante VS2, le inclusioni sono in qualche modo più facili da identificare per un selezionatore esperto con un ingrandimento 10×.",
+      "La differenza tecnica è reale e i diamanti VS1 generalmente costano di più quando tutte le altre specifiche sono uguali. Tuttavia, ciò non rende automaticamente VS1 l’acquisto migliore.",
+      "Per molti acquirenti e rivenditori di gioielli, un diamante VS2 perfettamente visibile offre un equilibrio più forte tra qualità visiva e prezzo. La decisione cambia quando il diamante è grande, tagliato a gradini o contiene un'inclusione in una posizione prominente o potenzialmente vulnerabile."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Risposta rapida",
+    "question": "Qual è la differenza tra la purezza del diamante VS1 e VS2?",
+    "introParagraphs": [
+      "VS1 è un grado di chiarezza superiore a VS2. Un selezionatore esperto generalmente ha più difficoltà a localizzare le inclusioni che determinano la classificazione in un diamante VS1 con un ingrandimento 10×.",
+      "La maggior parte dei diamanti VS1 e molti diamanti VS2 ben selezionati appaiono puliti ad occhio nudo. Tuttavia, \"eye-clean\" è una descrizione del settore piuttosto che un grado di purezza ufficiale GIA e l'aspetto può variare da una pietra all'altra.",
+      "Scegli il diamante dopo averne controllato:"
+    ],
+    "attributes": [
+      "Tipo di inclusione",
+      "Posizione di inclusione",
+      "Visibilità a faccia in su",
+      "Forma e modello di sfaccettatura",
+      "Peso in carati",
+      "Trasparenza",
+      "Rapporto di valutazione",
+      "Immagini e video"
+    ],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Punti chiave",
+    "items": [
+      "VS1 è un grado di chiarezza superiore a VS2.",
+      "Entrambi i gradi contengono inclusioni minori.",
+      "La maggior parte degli acquirenti non è in grado di distinguere il VS1 da un VS2 senza ingrandimento.",
+      "VS2 spesso offre un valore migliore quando le sue inclusioni non sono visibili a faccia in su.",
+      "I diamanti più grandi possono rendere le inclusioni più facili da notare.",
+      "I tagli Smeraldo e Asscher rivelano le inclusioni più facilmente di molti tagli brillanti.",
+      "Due diamanti VS2 possono avere modelli di inclusione e aspetti molto diversi.",
+      "Un grado di chiarezza non sostituisce l'ispezione visiva.",
+      "Non esiste una differenza di prezzo fissa tra VS1 e VS2.",
+      "I rivenditori dovrebbero confrontare la qualità dell'inclusione, non solo il voto stampato sul rapporto."
+    ]
+  },
+  "overviewNav": {
+    "title": "Panoramica dell'articolo",
+    "items": [
+      {
+        "id": "what-does-vs-diamond-clarity-mean",
+        "label": "Cosa significa purezza del diamante VS?"
+      },
+      {
+        "id": "vs1-vs-vs2-direct-comparison",
+        "label": "VS1 vs VS2: confronto diretto"
+      },
+      {
+        "id": "can-you-see-the-difference",
+        "label": "Riesci a vedere la differenza tra VS1 e VS2?"
+      },
+      {
+        "id": "how-are-vs1-and-vs2-grades-determined",
+        "label": "Come vengono determinati i gradi VS1 e VS2?"
+      },
+      {
+        "id": "what-inclusions-are-found",
+        "label": "Quali inclusioni si trovano nei diamanti VS1 e VS2?"
+      },
+      {
+        "id": "why-can-two-vs2-diamonds-look-different",
+        "label": "Perché due diamanti VS2 possono avere un aspetto diverso?"
+      },
+      {
+        "id": "is-vs2-diamond-quality-good",
+        "label": "La qualità del diamante VS2 è buona?"
+      },
+      {
+        "id": "is-vs2-always-eye-clean",
+        "label": "VS2 è sempre pulito per gli occhi?"
+      },
+      {
+        "id": "does-diamond-shape-affect-the-decision",
+        "label": "La forma del diamante influenza la decisione VS1 vs VS2?"
+      },
+      {
+        "id": "does-carat-weight-affect-inclusion-visibility",
+        "label": "Il peso in carati influisce sulla visibilità delle inclusioni?"
+      },
+      {
+        "id": "is-vs1-worth-more-than-vs2",
+        "label": "VS1 vale più di VS2?"
+      },
+      {
+        "id": "which-offers-better-value",
+        "label": "Quale offre un valore migliore: VS1 o VS2?"
+      },
+      {
+        "id": "does-higher-clarity-mean-more-sparkle",
+        "label": "Una maggiore chiarezza significa più brillantezza?"
+      },
+      {
+        "id": "does-vs2-clarity-affect-durability",
+        "label": "La chiarezza VS2 influisce sulla durabilità?"
+      },
+      {
+        "id": "how-to-read-a-clarity-plot",
+        "label": "Come leggere una trama di chiarezza"
+      },
+      {
+        "id": "vs1-vs-vs2-buying-checklist",
+        "label": "Lista di controllo per l'acquisto di VS1 vs VS2"
+      },
+      {
+        "id": "guidance-for-retailers",
+        "label": "Guida per rivenditori e acquirenti all'ingrosso"
+      },
+      {
+        "id": "an-antwerp-sourcing-perspective",
+        "label": "Una prospettiva di approvvigionamento da Anversa"
+      },
+      {
+        "id": "final-answer",
+        "label": "Risposta finale: dovresti scegliere VS1 o VS2?"
+      }
+    ]
+  },
+  "whatDoesVsMean": {
+    "id": "what-does-vs-diamond-clarity-mean",
+    "title": "Cosa significa VS purezza del diamante?",
+    "introParagraphs": [
+      "VS significa “Molto leggermente incluso”. La categoria è divisa in due gradi:",
+      "VS1",
+      "VS2",
+      "Secondo la scala di purezza GIA, i diamanti VS contengono inclusioni minori che vanno da difficili a piuttosto facili da vedere per un selezionatore esperto con un ingrandimento 10×.",
+      "La scala di chiarezza GIA completa contiene 11 gradi:"
+    ],
+    "table": {
+      "caption": "Categorie e gradi della scala di purezza dei diamanti GIA",
+      "headers": [
+        "Categoria Chiarezza",
+        "Gradi"
+      ],
+      "rows": [
+        [
+          "Impeccabile",
+          "FL"
+        ],
+        [
+          "Internamente impeccabile",
+          "IF"
+        ],
+        [
+          "Molto, molto leggermente incluso",
+          "VVS1 and VVS2"
+        ],
+        [
+          "Molto leggermente incluso",
+          "VS1 and VS2"
+        ],
+        [
+          "Leggermente incluso",
+          "SI1 and SI2"
+        ],
+        [
+          "Incluso",
+          "I1, I2 and I3"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Quello di Dalila"
+        },
+        {
+          "type": "link",
+          "text": "Guida ai gradi di purezza dei diamanti",
+          "href": "/blogs/diamond-clarity-grades-explained"
+        },
+        {
+          "type": "text",
+          "value": "spiega la scala completa. Questo articolo si concentra specificamente sulla decisione tra VS1 e VS2."
+        }
+      ]
+    ]
+  },
+  "directComparison": {
+    "id": "vs1-vs-vs2-direct-comparison",
+    "title": "VS1 vs VS2: confronto diretto",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Differenze tipiche tra i diamanti naturali VS1 e VS2",
+      "headers": [
+        "Fattore",
+        "Diamante VS1",
+        "Diamante VS2"
+      ],
+      "rows": [
+        [
+          "Posizione di chiarezza",
+          "Più alto",
+          "Un grado inferiore a VS1"
+        ],
+        [
+          "Inclusioni a 10×",
+          "Difficile da vedere per un selezionatore esperto",
+          "Un po' più facile da vedere per un selezionatore esperto"
+        ],
+        [
+          "Aspetto ad occhio nudo",
+          "Normalmente occhi puliti",
+          "Spesso pulire gli occhi, ma l'ispezione è più importante"
+        ],
+        [
+          "Prezzo",
+          "Solitamente più alto a parità di altri fattori",
+          "Di solito inferiore a parità di altri fattori"
+        ],
+        [
+          "Più adatto a",
+          "Pietre più grandi, tagli a gradini e specifiche premium",
+          "Gli acquirenti danno priorità alla qualità visiva e al valore"
+        ],
+        [
+          "Ispezione richiesta",
+          "SÌ",
+          "Sì, con maggiore attenzione al tipo e alla posizione dell'inclusione"
+        ],
+        [
+          "Posizione commerciale",
+          "Chiarezza premium",
+          "Forte chiarezza di valori"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Questa tabella descrive la differenza tipica. Non può determinare la qualità di una singola pietra."
+    ]
+  },
+  "canYouSeeDifference": {
+    "id": "can-you-see-the-difference",
+    "title": "Riesci a vedere la differenza tra VS1 e VS2?",
+    "introParagraphs": [
+      "Nella maggior parte dei diamanti di dimensioni normali e ben selezionati, la differenza tra VS1 e VS2 non può essere vista senza ingrandimento.",
+      "Il GIA rileva che le inclusioni VS sono minori e che, in quasi tutti i casi, i diamanti di purezza VS non hanno inclusioni visibili agli occhi. Tuttavia, spiega anche che un grande diamante VS può molto raramente contenere un’inclusione visibile senza ingrandimento.",
+      "Ciò significa che nessuna delle seguenti affermazioni è completamente affidabile:"
+    ],
+    "bullets": [
+      "\"Ogni diamante VS2 è pulito per gli occhi.\"",
+      "\"VS1 sembra sempre migliore di VS2.\""
+    ],
+    "closingParagraphs": [
+      "Un bellissimo VS2 può sembrare identico a un VS1 in condizioni di visualizzazione normali. Un altro VS2 potrebbe contenere un cristallo scuro sotto il tavolo che è più facile da notare.",
+      "Il voto è il punto di partenza. Il singolo diamante deve ancora essere ispezionato."
+    ]
+  },
+  "howGradesDetermined": {
+    "id": "how-are-vs1-and-vs2-grades-determined",
+    "title": "Come vengono determinati i gradi VS1 e VS2?",
+    "introParagraphs": [
+      "La purezza del diamante non è determinata semplicemente contando le inclusioni.",
+      "Il processo di classificazione della chiarezza GIA considera cinque fattori importanti."
+    ],
+    "subsections": [
+      {
+        "id": "size",
+        "title": "1. Dimensioni",
+        "paragraphsBefore": [
+          "Una caratteristica di purezza maggiore normalmente ha più influenza sul grado rispetto a una più piccola, in particolare quando occupa un'area notevole rispetto al diamante."
+        ]
+      },
+      {
+        "id": "number",
+        "title": "2. Numero",
+        "paragraphsBefore": [
+          "Diverse piccole inclusioni possono influenzare collettivamente il grado. I riflessi di un'inclusione possono anche farla apparire in più aree della pietra."
+        ]
+      },
+      {
+        "id": "position",
+        "title": "3. Posizione",
+        "paragraphsBefore": [
+          "Un'inclusione sotto il centro del tavolo attira generalmente più attenzione di una vicino al bordo.",
+          "Un'inclusione vicino alla cintura a volte può essere meno visibile a faccia in su, ma la sua posizione dovrebbe comunque essere valutata prima che il diamante venga incastonato."
+        ]
+      },
+      {
+        "id": "relief",
+        "title": "4. Sollievo",
+        "paragraphsBefore": [
+          "Il rilievo descrive quanto fortemente un'inclusione contrasta con il diamante circostante.",
+          "Un cristallo scuro può essere più facile da vedere rispetto a un cristallo chiaro o trasparente di dimensioni simili."
+        ]
+      },
+      {
+        "id": "nature",
+        "title": "5. Natura",
+        "paragraphsBefore": [
+          "La natura si riferisce al tipo di caratteristica di chiarezza e al suo possibile effetto sull'aspetto o sulla condizione.",
+          "Gli esempi includono:"
+        ],
+        "bullets": [
+          "Crystals",
+          "Feathers",
+          "Clouds",
+          "Needles",
+          "Pinpoints",
+          "Knots",
+          "Cavities",
+          "Internal graining"
+        ],
+        "paragraphsAfter": [
+          "Il voto rappresenta l'effetto combinato di questi fattori. Non dice all'acquirente tutto sul modello di inclusione."
+        ]
+      }
+    ]
+  },
+  "whatInclusions": {
+    "id": "what-inclusions-are-found",
+    "title": "Quali inclusioni si trovano nei diamanti VS1 e VS2?",
+    "introParagraphs": [
+      "Sia i diamanti VS1 che VS2 possono contenere tipi simili di inclusioni. La differenza deriva dalla loro visibilità e impatto complessivi, non da una regola che assegna un tipo di inclusione esclusivamente a un grado."
+    ],
+    "subsections": [
+      {
+        "id": "crystals",
+        "title": "Crystals",
+        "paragraphsBefore": [
+          "Un cristallo è un cristallo minerale o di diamante racchiuso all'interno della pietra. Può apparire trasparente, bianco, colorato o scuro.",
+          "Un piccolo cristallo vicino al bordo può essere discreto. Un cristallo più scuro sotto il tavolo potrebbe essere più facile da notare."
+        ]
+      },
+      {
+        "id": "feathers",
+        "title": "Feathers",
+        "paragraphsBefore": [
+          "Una piuma è una rottura o fessura interna che può apparire bianca o trasparente.",
+          "Una piccola piuma racchiusa all'interno del diamante potrebbe avere scarso effetto sulla normale usura. Una piuma che raggiunge la superficie vicino alla cintura dovrebbe essere esaminata da un professionista esperto prima di acquistare o incastonare la pietra."
+        ]
+      },
+      {
+        "id": "clouds",
+        "title": "Clouds",
+        "paragraphsBefore": [
+          "Una nuvola è costituita da puntini raggruppati che potrebbero essere troppo piccoli per essere distinti individualmente.",
+          "Una nuvola minore potrebbe non avere alcun effetto visibile. Nuvole più estese a volte possono ridurre la trasparenza o rendere confusa parte del diamante, quindi i video e l'ispezione diretta rimangono importanti."
+        ]
+      },
+      {
+        "id": "pinpoints-and-needles",
+        "title": "Punti e aghi",
+        "paragraphsBefore": [
+          "I puntini sono minuscole inclusioni di cristalli, mentre gli aghi sono inclusioni strette e allungate.",
+          "Spesso sono difficili da vedere senza ingrandimento e possono avere scarso effetto sull'aspetto rivolto verso l'alto quando sono piccoli e ben posizionati."
+        ]
+      },
+      {
+        "id": "knots-and-cavities",
+        "title": "Nodi e cavità",
+        "paragraphsBefore": [
+          "Un nodo è un cristallo che raggiunge la superficie lucida. Una cavità è un'apertura creata quando parte del cristallo che raggiunge la superficie viene persa durante la lucidatura.",
+          "Queste caratteristiche richiedono un'attenta ispezione, anche quando il diamante ha un grado VS."
+        ]
+      }
+    ]
+  },
+  "whyTwoVs2LookDifferent": {
+    "id": "why-can-two-vs2-diamonds-look-different",
+    "title": "Perché due diamanti VS2 possono apparire diversi?",
+    "introParagraphs": [
+      "Un grado di chiarezza descrive un intervallo. Ciò non significa che tutti i diamanti di quella classe abbiano lo stesso aspetto.",
+      "Considera due diamanti naturali VS2:",
+      "Il diamante A ha diverse inclusioni chiare posizionate vicino al bordo.",
+      "Il diamante B ha un cristallo scuro sotto il centro del tavolo.",
+      "Entrambi i diamanti possono ricevere lo stesso grado di purezza, ma il diamante B potrebbe essere più facile da riconoscere senza ingrandimento.",
+      "È possibile anche il contrario. Una trama che appare occupata può rappresentare diverse piccole caratteristiche in bassorilievo che hanno scarso effetto sull'aspetto reale.",
+      "Questo è il motivo per cui gli acquirenti non dovrebbero mai rifiutare o approvare un diamante solo perché la trama del rapporto sembra affollata."
+    ]
+  },
+  "isVs2QualityGood": {
+    "id": "is-vs2-diamond-quality-good",
+    "title": "La qualità del diamante VS2 è buona?",
+    "introParagraphs": [
+      "SÌ. VS2 è considerato un grado di purezza elevata e può fornire una qualità eccellente quando il diamante viene selezionato con cura.",
+      "Un buon diamante VS2 dovrebbe essere valutato per:"
+    ],
+    "bullets": [
+      "Nessuna inclusione a faccia in su che distragga",
+      "Forte trasparenza",
+      "Nessuna nebulosità evidente",
+      "Posizione di inclusione adatta",
+      "Nessuna preoccupazione per le condizioni attorno alla cintura",
+      "Taglio attraente e prestazioni leggere",
+      "Documentazione di valutazione affidabile"
+    ],
+    "closingParagraphs": [
+      "Per molti acquirenti, VS2 è il punto in cui il diamante rimane visivamente pulito evitando parte del premio associato a gradi di purezza più elevati.",
+      "Tuttavia, VS2 non garantisce taglio, colore o proporzioni superiori. Un VS1 tagliato male può essere meno attraente di un VS2 ben tagliato."
+    ]
+  },
+  "isVs2AlwaysEyeClean": {
+    "id": "is-vs2-always-eye-clean",
+    "title": "VS2 ha sempre gli occhi puliti?",
+    "introParagraphs": [
+      "No. Molti diamanti VS2 sono puliti per gli occhi, ma la pulizia degli occhi non è garantita dalla qualità.",
+      "GIA non utilizza \"eye-clean\" come grado ufficiale perché la visibilità a occhio nudo dipende da variabili quali:"
+    ],
+    "bullets": [
+      "Dimensione del diamante",
+      "Forma e modello di sfaccettatura",
+      "Posizione di inclusione",
+      "Colore o rilievo dell'inclusione",
+      "Illuminazione",
+      "Angolo di visione",
+      "Distanza di visualizzazione",
+      "La vista dell'osservatore",
+      "Se il diamante è sciolto o incastonato"
+    ],
+    "closingParagraphs": [
+      "Prima dell’acquisto, il fornitore e l’acquirente dovrebbero concordare cosa significa “occhi puliti”.",
+      "Un’ispezione pratica dovrebbe esaminare il diamante pulito:"
+    ],
+    "closingBullets": [
+      "A faccia in su senza ingrandimento",
+      "Di lato",
+      "Sotto illuminazione diffusa neutra",
+      "Sotto la normale illuminazione spot per gioielli",
+      "A una distanza di visione normale",
+      "Nelle immagini o nei video ingranditi",
+      "Con ingrandimento 10×"
+    ],
+    "finalParagraphs": [
+      "Se un'inclusione diventa visibile solo dopo che la sua posizione esatta è stata identificata tramite ingrandimento, la maggior parte dei clienti potrebbe non notarla mai se indossata normalmente. La decisione finale dipende dallo standard di qualità richiesto e dalle aspettative del cliente."
+    ]
+  },
+  "shapeAffectsDecision": {
+    "id": "does-diamond-shape-affect-the-decision",
+    "title": "La forma del diamante influisce sulla decisione VS1 vs VS2?",
+    "introParagraphs": [
+      "SÌ. La forma e la disposizione delle sfaccettature possono modificare la chiarezza con cui vengono viste le inclusioni."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Diamanti brillanti rotondi",
+        "paragraphsBefore": [
+          "Le sfaccettature più piccole in stile brillante e il forte ritorno di luce di un diamante rotondo ben tagliato possono rendere meno evidenti le inclusioni minori.",
+          "Un brillante rotondo VS2 accuratamente selezionato può quindi offrire un eccellente rapporto qualità-prezzo."
+        ]
+      },
+      {
+        "id": "oval-pear-marquise-and-radiant-diamonds",
+        "title": "Diamanti Ovali, Pera, Marchesa e Radianti",
+        "paragraphsBefore": [
+          "Queste forme fantasiose dallo stile brillante possono anche nascondere efficacemente piccole inclusioni. Tuttavia, i riflessi a volte possono moltiplicare un'inclusione attraverso la pietra.",
+          "Ispeziona la zona centrale, le punte, la zona del papillon e qualsiasi inclusione vicino a una sezione sottile della cintura."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Diamanti cuscino",
+        "paragraphsBefore": [
+          "I cuscini hanno diversi motivi sfaccettati. Alcuni creano ampi lampi, mentre altri producono un aspetto più denso.",
+          "La visibilità di un'inclusione VS2 può cambiare in base al modello di sfaccettatura individuale, quindi due cuscini con lo stesso grado possono apparire molto diversi."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-diamonds",
+        "title": "Smeraldo e diamanti Asscher",
+        "paragraphsBefore": [
+          "I tagli a gradini richiedono un'ispezione più approfondita della chiarezza. Le loro sfaccettature ampie e aperte rivelano l'interno in modo più diretto di molti diamanti in stile brillante.",
+          "Il GIA spiega che i diamanti taglio smeraldo possono mostrare inclusioni più facilmente a causa delle loro lunghe sfaccettature rettangolari.",
+          "Potrebbe valere la pena prendere in considerazione VS1 per:"
+        ],
+        "bullets": [
+          "Smeraldi o diamanti Asscher più grandi",
+          "Gioielli su misura di alta qualità",
+          "Clienti sensibili a qualsiasi inclusione visibile",
+          "Pietre con un grande tavolo aperto",
+          "Situazioni in cui le opzioni VS2 disponibili mostrano caratteristiche importanti"
+        ],
+        "paragraphsAfter": [
+          "Un taglio a gradino VS2 attraente e pulito per gli occhi può comunque essere un buon acquisto. Richiede semplicemente una selezione più attenta."
+        ]
+      }
+    ]
+  },
+  "caratWeightVisibility": {
+    "id": "does-carat-weight-affect-inclusion-visibility",
+    "title": "Il peso in carati influisce sulla visibilità delle inclusioni?",
+    "introParagraphs": [
+      "SÌ.",
+      "Man mano che un diamante diventa più grande, la sua area scoperta e le singole sfaccettature diventano più grandi. Ciò può rendere più facile riconoscere alcune caratteristiche di chiarezza.",
+      "Un grado VS2 non dovrebbe essere trattato in modo identico in ogni intervallo di carati. Un piccolo brillante VS2 utilizzato in un pendente o in un paio di orecchini può apparire completamente pulito, mentre una pietra centrale VS2 molto più grande potrebbe richiedere un esame più dettagliato.",
+      "La purezza viene valutata anche in relazione alla dimensione del diamante. La stessa inclusione fisica potrebbe non avere lo stesso impatto granulometrico in due pietre di dimensioni diverse.",
+      "I diamanti naturali più grandi dovrebbero quindi essere ispezionati individualmente piuttosto che approvati solo attraverso un filtro di chiarezza."
+    ]
+  },
+  "isVs1WorthMore": {
+    "id": "is-vs1-worth-more-than-vs2",
+    "title": "VS1 vale più di VS2?",
+    "introParagraphs": [
+      "Quando due diamanti sono realmente comparabili, VS1 costerà normalmente di più perché rappresenta un grado di purezza più elevato e più raro.",
+      "Tuttavia, non esiste una differenza percentuale fissa affidabile.",
+      "Il premio varia in base a:"
+    ],
+    "bullets": [
+      "Peso in carati",
+      "Forma",
+      "Colore",
+      "Taglio di qualità",
+      "Laboratorio di classificazione",
+      "Fluorescenza",
+      "Disponibilità sul mercato",
+      "Qualità dell'inclusione",
+      "Domanda del cliente",
+      "Soglie di prezzo per carato"
+    ],
+    "closingParagraphs": [
+      "Un diamante VS1 può essere solo moderatamente più costoso in una specifica, ma sostanzialmente più costoso in un'altra.",
+      "I confronti dei prezzi dovrebbero utilizzare diamanti con simili:"
+    ],
+    "closingBullets": [
+      "Forma",
+      "Gamma di carati",
+      "Colore",
+      "Taglio o proporzioni",
+      "Polacco e simmetria",
+      "Fluorescenza",
+      "Laboratorio di classificazione",
+      "Aspetto a faccia in su"
+    ]
+  },
+  "whichOffersBetterValue": {
+    "id": "which-offers-better-value",
+    "title": "Quale offre un valore migliore: VS1 o VS2?",
+    "introParagraphs": [
+      "Per molti acquirenti, VS2 offre un valore visivo migliore perché le sue inclusioni potrebbero essere invisibili senza ingrandimento.",
+      "Il denaro risparmiato scegliendo VS2 può potenzialmente essere indirizzato verso:"
+    ],
+    "bullets": [
+      "Migliore qualità di taglio",
+      "Un grado di colore più desiderabile",
+      "Maggiore peso in carati",
+      "Proporzioni migliori",
+      "Un contorno dalla forma fantasia più attraente",
+      "L'incastonatura dei gioielli"
+    ],
+    "closingParagraphs": [
+      "VS1 può offrire un valore migliore quando:"
+    ],
+    "closingBullets": [
+      "Le opzioni VS2 disponibili non sono pulite per gli occhi",
+      "Il diamante è un taglio a gradino largo",
+      "L'acquirente desidera una specifica di massima chiarezza",
+      "Il cliente attribuisce importanza al voto del rapporto",
+      "Il sovrapprezzo del VS1 è relativamente piccolo",
+      "Il VS1 ha un modello di inclusione più pulito e una migliore vendibilità"
+    ],
+    "finalParagraphs": [
+      "La risposta corretta non è “acquista sempre VS2”. La risposta corretta è confrontare le pietre reali."
+    ]
+  },
+  "higherClaritySparkle": {
+    "id": "does-higher-clarity-mean-more-sparkle",
+    "title": "Una maggiore chiarezza significa più brillantezza?",
+    "introParagraphs": [
+      "Non automaticamente.",
+      "La brillantezza è determinata principalmente dal taglio del diamante, dalle proporzioni, dall’allineamento delle sfaccettature e dall’interazione con la luce.",
+      "Un VS2 ben tagliato può apparire più luminoso e attraente di un VS1 scarsamente proporzionato. La chiarezza inizia a interferire con la resa luminosa quando inclusioni o nubi riducono materialmente la trasparenza, ma questo non è tipico di un diamante VS accuratamente selezionato."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "IL"
+        },
+        {
+          "type": "link",
+          "text": "Guida alle 4C dei diamanti naturali",
+          "href": "/blogs/4cs-of-natural-diamonds-explained"
+        },
+        {
+          "type": "text",
+          "value": "spiega come la limpidezza debba essere considerata insieme al taglio, al colore e alla caratura."
+        }
+      ]
+    ]
+  },
+  "vs2Durability": {
+    "id": "does-vs2-clarity-affect-durability",
+    "title": "La chiarezza di VS2 influisce sulla durabilità?",
+    "introParagraphs": [
+      "Un grado VS2 non è automaticamente un avviso di durabilità.",
+      "La maggior parte delle inclusioni VS2 sono minori, ma il grado di chiarezza e la condizione strutturale non sono concetti identici. Un acquirente dovrebbe prestare particolare attenzione a:"
+    ],
+    "bullets": [
+      "Piume che raggiungono la superficie",
+      "Cavities",
+      "Patatine",
+      "Knots",
+      "Caratteristiche vicino alla cintura",
+      "Inclusioni in prossimità degli angoli appuntiti",
+      "Sezioni di cintura molto sottili",
+      "Abrasioni o danni esistenti"
+    ],
+    "closingParagraphs": [
+      "Un'inclusione posizionata vicino al bordo può essere nascosta da un'impostazione, ma l'impostazione non deve essere utilizzata per nascondere un potenziale problema strutturale senza una valutazione professionale.",
+      "Per le pietre centrali importanti, ispezionare il diamante allentato prima di montarlo e rivedere le posizioni previste dei poli con l'incastonatore."
+    ]
+  },
+  "clarityPlot": {
+    "id": "how-to-read-a-clarity-plot",
+    "title": "Come leggere un grafico chiaro",
+    "introParagraphs": [
+      "Ove previsto, un rapporto di classificazione del diamante può includere un diagramma che mostra la posizione approssimativa e il tipo di caratteristiche di purezza.",
+      "Il GIA descrive un grafico di chiarezza come una mappa che supporta il grado di purezza assegnato e aiuta a documentare le caratteristiche identificative della pietra.",
+      "Quando si confrontano i report VS1 e VS2:"
+    ],
+    "bullets": [
+      "Identificare la caratteristica di impostazione del grado.",
+      "Controlla se è sotto il tavolo o vicino al bordo.",
+      "Controlla se raggiunge la superficie.",
+      "Cerca i riflessi dell'inclusione.",
+      "Leggi tutti i commenti del rapporto.",
+      "Confronta la trama con le immagini ingrandite.",
+      "Ispeziona il diamante rivolto verso l'alto e lateralmente.",
+      "Confermare che le informazioni del rapporto corrispondano alla pietra."
+    ],
+    "closingParagraphs": [
+      "Una trama non è un disegno in scala o una fotografia. Un simbolo grande non significa automaticamente che l'inclusione apparirà altrettanto grande nel diamante."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Quello di Dalila"
+        },
+        {
+          "type": "link",
+          "text": "Guida alla lettura del rapporto GIA",
+          "href": "/blogs/how-to-read-gia-diamond-certificate"
+        },
+        {
+          "type": "text",
+          "value": "spiega i restanti campi del report."
+        }
+      ]
+    ]
+  },
+  "buyingChecklist": {
+    "id": "vs1-vs-vs2-buying-checklist",
+    "title": "Lista di controllo per l'acquisto di VS1 e VS2",
+    "introParagraphs": [
+      "Prima di approvare uno dei gradi di chiarezza, verificare:"
+    ],
+    "items": [
+      "Stato del diamante naturale",
+      "Nome del laboratorio",
+      "Numero del rapporto",
+      "Verifica del rapporto online",
+      "Peso in carati e misure",
+      "Forma e stile di taglio",
+      "Grado di chiarezza",
+      "Inclusione nella definizione dei voti",
+      "Luogo di inclusione",
+      "Agevolazione per l'inclusione",
+      "Visibilità a faccia in su",
+      "Visibilità laterale",
+      "Trasparenza e nebulosità",
+      "Caratteristiche di superficie",
+      "Condizioni della cintura",
+      "Tagliare la qualità o le proporzioni",
+      "Polacco e simmetria",
+      "Fluorescenza",
+      "Prezzo al carato",
+      "Prezzo totale allo sbarco",
+      "Posizione di impostazione prevista",
+      "Aspettative di qualità del cliente"
+    ],
+    "closingParagraphs": [
+      "Utilizza il sistema di verifica ufficiale del laboratorio, come GIA Report Check, prima di completare un acquisto di alto valore."
+    ]
+  },
+  "retailerGuidance": {
+    "id": "guidance-for-retailers",
+    "title": "Guida per rivenditori e acquirenti all'ingrosso",
+    "introParagraphs": [
+      "VS1 e VS2 possono servire a scopi diversi all’interno di un inventario di diamanti naturali.",
+      "Considera VS2 per:"
+    ],
+    "vs2Bullets": [
+      "Inventario principale degli anelli di fidanzamento",
+      "Ordini personalizzati sensibili al prezzo",
+      "Brillanti rotondi ben tagliati",
+      "Forme fantasia dallo stile brillante",
+      "Gli acquirenti danno priorità alla qualità visibile rispetto alla rarità",
+      "Pietre pulite per gli occhi con posizionamento favorevole dell'inclusione"
+    ],
+    "vs1Intro": "Considera VS1 per:",
+    "vs1Bullets": [
+      "Pietre centrali più grandi",
+      "Tagli smeraldo e Asscher",
+      "Collezioni da sposa premium",
+      "Commissioni su misura di alto valore",
+      "Clienti che danno priorità ai gradi di chiarezza",
+      "Mercati in cui specifiche di report più elevate migliorano la vendibilità"
+    ],
+    "closingParagraphs": [
+      "I rivenditori non dovrebbero creare una regola secondo cui ogni VS2 è un titolo value e ogni VS1 è un titolo premium. L’aspetto individuale e l’idoneità commerciale di ciascun diamante rimangono più importanti."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "Una prospettiva di approvvigionamento da Anversa",
+    "introParagraphs": [
+      "Per un gioielliere europeo, scegliere tra VS1 e VS2 non è solo una decisione di classificazione. Influisce anche sui costi di acquisto, sul posizionamento al dettaglio, sulla spiegazione del cliente e sulla rotazione delle scorte.",
+      "Un potente VS2 può offrire la qualità visiva che i clienti si aspettano proteggendo allo stesso tempo il budget o il margine. Un VS1 accuratamente selezionato può supportare il posizionamento premium, in particolare per pietre più grandi o design a gradino.",
+      "La sfida è che i rapporti di valutazione non possono comunicare completamente l'aspetto a occhio nudo, la trasparenza o il modo in cui un'inclusione interagisce con le sfaccettature."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Attraverso Dalila Diamonds"
+        },
+        {
+          "type": "link",
+          "text": "Servizio Secure to Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", gli acquirenti possono selezionare i diamanti naturali e ricevere supporto per il controllo qualità prima che le pietre selezionate vengano consegnate."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Anche gli acquirenti commerciali possono"
+        },
+        {
+          "type": "link",
+          "text": "sfoglia l’inventario dei diamanti naturali di Dalila",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": "per forma, caratura, colore, purezza e certificazione."
+        }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Risposta finale: dovresti scegliere VS1 o VS2?",
+    "introParagraphs": [
+      "Scegli un VS2 pulito per gli occhi quando ha un modello di inclusione discreto, una forte trasparenza, un taglio attraente e un vantaggio di prezzo significativo.",
+      "Scegli VS1 quando il diamante è di grandi dimensioni, tagliato a gradini, destinato ad un cliente premium o quando le pietre VS2 disponibili contengono inclusioni troppo visibili o posizionate in modo sfavorevole.",
+      "La maggior parte delle persone non noterà alcuna differenza tra un buon VS1 e un buon VS2 senza ingrandimento. La differenza nel rapporto è reale, ma l'acquisto migliore è il diamante che offre la giusta combinazione di aspetto, condizione, certificazione e prezzo.",
+      "Non pagare mai solo il voto. Confronta la pietra completa."
+    ]
+  },
+  "cta": {
+    "id": "source-vs-clarity-diamonds",
+    "title": "Ottieni diamanti naturali VS1 e VS2 con Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Confronta le pietre di valore VS2 pulite e le opzioni VS1 premium con il supporto di approvvigionamento di Anversa, il controllo di qualità e una chiara guida commerciale."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Sfoglia l'inventario",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Qual è la differenza principale tra i diamanti VS1 e VS2?",
+        "answer": "VS1 e VS2 contengono entrambi inclusioni minori. In un diamante VS1, le inclusioni sono difficili da vedere per un selezionatore esperto con un ingrandimento 10×. In un diamante VS2, sono un po' più facili da individuare."
+      },
+      {
+        "question": "Riesci a vedere la differenza tra VS1 e VS2?",
+        "answer": "La maggior parte degli acquirenti non riesce a vedere la differenza tra un diamante VS1 e VS2 senza ingrandimento. La visibilità dipende ancora dalla dimensione, dalla forma e dal modello di inclusione della pietra."
+      },
+      {
+        "question": "La purezza del diamante VS2 è buona?",
+        "answer": "SÌ. VS2 è un grado di purezza elevata e può fornire un valore eccellente quando il diamante è pulito per gli occhi, trasparente e privo di inclusioni problematiche."
+      },
+      {
+        "question": "Un diamante VS1 vale i soldi extra?",
+        "answer": "VS1 può valere il premio per diamanti più grandi, tagli a gradini, clienti premium o quando le pietre VS2 disponibili hanno inclusioni visibili. Altrimenti, un VS2 pulito per gli occhi potrebbe offrire un valore migliore."
+      },
+      {
+        "question": "Ogni diamante VS2 è pulito per gli occhi?",
+        "answer": "No. Molti diamanti VS2 sono puliti per gli occhi, ma il termine non è garantito dal grado. I grandi diamanti e le pietre con inclusioni scure o centrali richiedono un'ispezione più attenta."
+      },
+      {
+        "question": "VS1 brilla più di VS2?",
+        "answer": "Non necessariamente. La brillantezza dipende principalmente dalla qualità del taglio e dalle proporzioni. Un VS2 ben tagliato può brillare più di un VS1 tagliato male."
+      },
+      {
+        "question": "VS1 è migliore per i diamanti taglio smeraldo?",
+        "answer": "VS1 può essere una scelta sensata per i diamanti taglio smeraldo più grandi perché le loro ampie sfaccettature a gradino rivelano più facilmente le inclusioni. Uno smeraldo VS2 pulito per gli occhi può comunque essere un ottimo acquisto."
+      },
+      {
+        "question": "La chiarezza VS2 è sicura per un anello di fidanzamento?",
+        "answer": "La maggior parte dei diamanti VS2 sono adatti per gli anelli di fidanzamento. Gli acquirenti dovrebbero comunque ispezionare le inclusioni che raggiungono la superficie, la cintura e qualsiasi caratteristica di chiarezza vicino a un'area vulnerabile."
+      },
+      {
+        "question": "Perché alcuni diamanti VS2 sono più costosi dei diamanti VS1?",
+        "answer": "Un VS2 può costare di più se ha un peso in carati più elevato, un colore migliore, un taglio migliore, proporzioni più forti o una maggiore domanda di mercato. La chiarezza è solo una componente del prezzo."
+      },
+      {
+        "question": "I gioiellieri dovrebbero immagazzinare diamanti VS1 o VS2?",
+        "answer": "La maggior parte dei gioiellieri trae vantaggio dall'immagazzinare entrambi. I diamanti VS2 eye-clean possono supportare vendite incentrate sul valore, mentre i diamanti VS1 servono clienti premium, pietre più grandi e design con taglio a gradini."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Confronta la pietra: non solo il grado di chiarezza",
+    "introParagraphs": [
+      "VS1 e VS2 rientrano entrambi nella gamma Very Slightly Included. La scelta commerciale migliore dipende dal modello di inclusione, dalla forma, dalle dimensioni, dalla trasparenza, dalle aspettative dei clienti e dal prezzo.",
+      "Ispeziona attentamente ogni diamante, quindi seleziona il grado che offre il giusto equilibrio tra aspetto e valore."
+    ],
+    "primaryButtonText": "Contatta Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Sfoglia l'inventario",
+    "secondaryButtonHref": "/inventory"
+  },
+  "sidebar": {
+    "articlesTitle": "I nostri articoli",
+    "findUsTitle": "Trovaci",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Anversa",
+      "Belgio"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Sfoglia il nostro inventario",
+    "inventoryDescription": "Scopri la nostra squisita collezione di diamanti premium",
+    "inventoryButtonText": "Visualizza inventario",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Torna agli articoli",
+    "blogsHref": "/blogs"
+  }
+}

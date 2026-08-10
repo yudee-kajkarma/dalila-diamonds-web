@@ -1,0 +1,695 @@
+{
+  "meta": {
+    "title": "Duurste diamantvormen: prijs- en waardegids | Dalila",
+    "description": "Ontdek welke diamantvormen het meeste kosten, waarom ronde diamanten duurder zijn en hoe u natuurlijke diamanten kunt vergelijken op prijs, maat en slijpkwaliteit.",
+    "canonical": "https://www.daliladiamonds.com/blogs/most-expensive-diamond-shapes",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Most expensive diamond shapes",
+    "inLanguage": "nl"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/blogs/most-expensive-diamond-shapes.webp",
+      "alt": "Rond ovaal perenkussen smaragd en stralende natuurlijke diamantvormen vergeleken",
+      "width": 1600,
+      "height": 900
+    },
+    "roughYield": {
+      "src": "/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
+      "alt": "Vergelijking van het gebruik van ruwe diamant voor ronde en fantasievormige diamanten",
+      "width": 1400,
+      "height": 1000
+    },
+    "priceDrivers": {
+      "src": "/images/blogs/diamond-shape-price-drivers.webp",
+      "alt": "Factoren die de prijs van natuurlijke diamant beïnvloeden, afhankelijk van de vorm",
+      "width": 1400,
+      "height": 1000
+    },
+    "faceUpSize": {
+      "src": "/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
+      "alt": "Face-up vergelijking van diamantvormen van één karaat",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Duurste diamantvormen",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbBlogs": "Blogs",
+    "breadcrumbCurrent": "Welke diamantvormen zijn het duurst?",
+    "imageAlt": "Gidsbanner voor de duurste diamantvormen voor kopers van natuurlijke diamanten"
+  },
+  "hero": {
+    "title": "Welke diamantvormen zijn het duurst – en waarom?",
+    "subheading": "Vergelijk kleurloze natuurlijke diamantvormen op basis van de typische prijspositie, begrijp waarom ronde briljanten een premium hebben en leer hoe u de waarde kunt beoordelen die verder gaat dan alleen de vorm.",
+    "reviewDateLabel": "Laatst beoordeeld:",
+    "reviewDate": "6 augustus 2026"
+  },
+  "introduction": {
+    "paragraphs": [
+      "De ronde briljant is meestal de duurste diamantvorm per karaat bij het vergelijken van kleurloze natuurlijke diamanten met een vergelijkbaar karaatgewicht, kleur, helderheid, beoordelingsrapporten en algehele kwaliteit.",
+      "De hogere prijs wordt bepaald door een combinatie van een sterke marktvraag, de hoeveelheid ruwe diamant die tijdens het slijpen wordt verwijderd, strikte verhoudingseisen en het vermogen om uitzonderlijke schittering te produceren.",
+      "Dit betekent echter niet dat elke ronde diamant meer kost dan elke ovaal, kussen of smaragd geslepen diamant. Een grote, zeldzame of uitzonderlijk goed geslepen diamant met een mooie vorm kan aanzienlijk meer kosten dan een ronde diamant van lagere kwaliteit.",
+      "Er moet altijd een juiste vergelijking gemaakt worden tussen diamanten met vergelijkbare specificaties."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Snel antwoord",
+    "question": "Welke diamantvorm is het duurst?",
+    "introParagraphs": [
+      "De ronde briljant is over het algemeen de duurste diamantvorm per karaat. Er kan meer van het oorspronkelijke ruwe kristal worden verwijderd om een ​​goed geproportioneerde ronde diamant te produceren, terwijl de vraag naar de vorm constant groot blijft.",
+      "Fancy vormen – waaronder ovaal, peer, kussen, prinses, smaragd, stralend en marquise – kosten vaak minder per karaat dan vergelijkbare ronde diamanten. Hun exacte prijzen zijn afhankelijk van de vraag, zeldzaamheid, verhoudingen, visuele prestaties en hoe efficiënt elke vorm uit de ruwe diamant kan worden geproduceerd."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Belangrijkste afhaalrestaurants",
+    "items": [
+      "Ronde briljante diamanten hebben normaal gesproken de hoogste prijs per karaat.",
+      "De vorm van een diamant mag nooit worden vergeleken zonder te controleren op karaat, kleur, helderheid en certificering.",
+      "Fancy vormen volgen niet één permanente prijsrangschikking.",
+      "Ovale, peer- en marquise-diamanten kunnen er vanwege hun gewicht groter uitzien.",
+      "Prinsessen en stralende slijpvormen kunnen meer van het oorspronkelijke ruwe kristal behouden dan een ronde briljant.",
+      "Fancy-vormige diamanten vereisen visuele inspectie omdat een beoordelingsrapport niet elk aspect van hun uiterlijk beschrijft.",
+      "De goedkoopste steen is niet automatisch de voordeligste steen voor een juwelier of klant."
+    ]
+  },
+  "overviewNav": {
+    "title": "Artikeloverzicht",
+    "items": [
+      {
+        "id": "diamond-shape-versus-diamond-cut",
+        "label": "Diamantvorm versus diamantslijpsel"
+      },
+      {
+        "id": "diamond-shapes-by-typical-price-position",
+        "label": "Diamantvormen volgens typische prijspositie"
+      },
+      {
+        "id": "why-are-round-diamonds-more-expensive",
+        "label": "Waarom zijn ronde diamanten duurder?"
+      },
+      {
+        "id": "are-oval-diamonds-the-second-most-expensive-shape",
+        "label": "Zijn ovale diamanten de op een na duurste vorm?"
+      },
+      {
+        "id": "pear-and-marquise-diamonds",
+        "label": "Peer- en marquise-diamanten: prijs versus zichtbare grootte"
+      },
+      {
+        "id": "cushion-radiant-and-princess-diamonds",
+        "label": "Kussen-, stralende en prinsessendiamanten"
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "label": "Smaragd- en Asscher-slijpsels"
+      },
+      {
+        "id": "are-heart-shaped-diamonds-expensive",
+        "label": "Zijn hartvormige diamanten duur?"
+      },
+      {
+        "id": "which-diamond-shape-looks-biggest",
+        "label": "Welke diamantvorm ziet er het grootst uit voor zijn prijs?"
+      },
+      {
+        "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+        "label": "Betekent de duurste vorm de beste diamant?"
+      },
+      {
+        "id": "how-to-compare-diamond-prices-by-shape",
+        "label": "Hoe diamantprijzen correct op vorm te vergelijken"
+      },
+      {
+        "id": "wholesale-diamond-buying-checklist",
+        "label": "Controlelijst voor het kopen van diamanten in de groothandel"
+      },
+      {
+        "id": "an-antwerp-sourcing-perspective",
+        "label": "Een Antwerps inkoopperspectief"
+      },
+      {
+        "id": "final-answer",
+        "label": "Eindantwoord: welke diamantvorm kost het meest?"
+      }
+    ]
+  },
+  "shapeVsCut": {
+    "id": "diamond-shape-versus-diamond-cut",
+    "title": "Diamantvorm versus diamantslijpsel",
+    "introParagraphs": [
+      "Diamantvorm en diamantslijpsel zijn verwant, maar zijn niet hetzelfde.",
+      "Vorm beschrijft de zichtbare omtrek van de diamant. Voorbeelden zijn rond, ovaal, peer, smaragd, kussen en marquise.",
+      "De slijpkwaliteit beschrijft hoe succesvol de proporties, facetten en afwerking van de diamant het licht beheersen. Het beïnvloedt de helderheid, het vuur, de schittering en het algehele uiterlijk van de diamant.",
+      "Dit onderscheid is van belang wanneer mensen zoeken naar de “duurste diamantslijpvorm”. Ze vragen zich vaak af welke diamantvorm het meeste kost, maar twee diamanten met dezelfde vorm kunnen toch heel verschillende waarden hebben vanwege hun slijpkwaliteit."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Dalila's"
+        },
+        {
+          "type": "link",
+          "text": "diamant kennisgids",
+          "href": "/diamondKnowledge"
+        },
+        {
+          "type": "text",
+          "value": "legt uit hoe vorm, snit, kleur, helderheid en karaatgewicht samenwerken."
+        }
+      ]
+    ]
+  },
+  "shapesByPrice": {
+    "id": "diamond-shapes-by-typical-price-position",
+    "title": "Diamantvormen volgens typische prijspositie",
+    "introParagraphs": [
+      "Er is geen permanente prijslijst die voor elke diamant geldt. De volgende vergelijking toont de gebruikelijke positie van veel voorkomende kleurloze natuurlijke diamantvormen wanneer hun andere kwaliteitskenmerken redelijk vergelijkbaar zijn."
+    ],
+    "table": {
+      "caption": "Typische prijspositie van veel voorkomende kleurloze natuurlijke diamantvormen",
+      "headers": [
+        "Diamantvorm",
+        "Typische prijspositie",
+        "Belangrijke prijsdrijvers"
+      ],
+      "rows": [
+        [
+          "Round brilliant",
+          "Meestal het duurst",
+          "Vraag, ruw verlies, precisie en genialiteit"
+        ],
+        [
+          "Oval",
+          "Vaak een van de duurdere mooie vormen",
+          "Populariteit, lengte-breedteverhouding, spreiding en zichtbaarheid van vlinderdasjes"
+        ],
+        [
+          "Pear",
+          "Variabel midden tot hoger bereik",
+          "Symmetrie, vlinderdas, omtrek en puntuitlijning"
+        ],
+        [
+          "Marquise",
+          "Variabel",
+          "Face-up maat, symmetrie, lengte-breedteverhouding en beschikbaarheid"
+        ],
+        [
+          "Radiant",
+          "Meestal onder rond",
+          "Briljantie, omtrek, kleurbehoud en proportiekwaliteit"
+        ],
+        [
+          "Cushion",
+          "Meestal onder rond",
+          "Vormverhouding, facetpatroon, diepte en visuele prestaties"
+        ],
+        [
+          "Princess",
+          "Meestal onder rond",
+          "Ruw behoud, hoekkwaliteit en glans"
+        ],
+        [
+          "Emerald",
+          "Vaak onder rond, met premies voor hoge kwaliteit",
+          "Duidelijkheid, kleur, vensters en stapsgewijze precisie"
+        ],
+        [
+          "Asscher",
+          "Variabel en soms gespecialiseerd",
+          "Symmetrie, diepte, windmolenpatroon en beperkte beschikbaarheid"
+        ],
+        [
+          "Heart",
+          "Zeer variabel",
+          "Nichevraag, omtrek, gespleten, lobben en symmetrie"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Dit is een praktische gids, geen live prijsopgave. Diamantprijzen veranderen afhankelijk van de voorraad, de marktvraag, karaatdrempels en de individuele kenmerken van elke steen."
+    ]
+  },
+  "whyRoundExpensive": {
+    "id": "why-are-round-diamonds-more-expensive",
+    "title": "Waarom zijn ronde diamanten duurder?",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "more-of-the-rough-diamond-may-be-removed",
+        "title": "1. Er mag meer van de ruwe diamant worden verwijderd",
+        "paragraphsBefore": [
+          "Een gepolijste diamant begint als een onregelmatig natuurlijk kristal. De snijder moet beslissen welke vorm de sterkste balans tussen schoonheid, gewicht en commerciële waarde oplevert.",
+          "Voor het produceren van een symmetrische, goed geproportioneerde ronde briljant kan het verwijderen van ruwer materiaal nodig zijn dan vormen die het originele kristal beter volgen.",
+          "De GIA legt bijvoorbeeld uit dat prinsesgeslepen diamanten mogelijk minder per karaat kosten, omdat slijpers meer van het originele diamantkristal kunnen behouden.",
+          "Wanneer er minder gepolijst gewicht overblijft van een duur stuk ruw materiaal, stijgen de kosten die gepaard gaan met elke behouden karaat."
+        ]
+      },
+      {
+        "id": "round-brilliant-diamonds-have-consistently-strong-demand",
+        "title": "2. Ronde briljante diamanten hebben een aanhoudend sterke vraag",
+        "paragraphsBefore": [
+          "Ronde diamanten worden veel gebruikt voor verlovingsringen, oorbellen, hangers, zijstenen en klassieke sieradenontwerpen. Deze brede commerciële vraag ondersteunt hun prijsstelling.",
+          "Een juwelier kan een ronde briljant in talloze collecties en markten gebruiken. Sommige mooie vormen spreken een kleinere klantengroep aan en het kan langer duren om ze te verkopen, zelfs als de steen zelf aantrekkelijk is."
+        ]
+      },
+      {
+        "id": "round-brilliants-are-designed-for-strong-light-performance",
+        "title": "3. Ronde briljanten zijn ontworpen voor sterke lichtprestaties",
+        "paragraphsBefore": [
+          "Een ronde briljant heeft een sterk gestandaardiseerde facetstructuur die is ontworpen om helderheid, vuur en schittering te produceren.",
+          "De GIA-diamantvormgids beschrijft de ronde briljant als de enige vorm die momenteel een algemene GIA-slijpkwaliteit krijgt van Excellent tot Poor.",
+          "Dit gestandaardiseerde beoordelingssysteem biedt kopers een extra manier om ronde diamanten te vergelijken. Fancy vormen ontvangen nog steeds informatie zoals glans, symmetrie, afmetingen en proporties, maar hun volledige visuele prestaties kunnen niet worden teruggebracht tot één algemene GIA-snijkwaliteit."
+        ]
+      },
+      {
+        "id": "high-quality-cutting-requires-precision",
+        "title": "4. Hoogwaardig snijden vereist precisie",
+        "paragraphsBefore": [
+          "Kleine verschillen in tafelgrootte, diepte, paviljoenhoek, kroonhoek, gordeldikte en facetuitlijning kunnen het uiterlijk van een ronde diamant beïnvloeden.",
+          "Snijders moeten het gepolijste gewicht in evenwicht brengen met lichte prestaties. Het behouden van extra gewicht kan het karaatgetal verhogen, maar slechte proporties kunnen ervoor zorgen dat een diamant er donker, klein of minder levendig uitziet.",
+          "Goed geslepen ronde diamanten hebben daarom niet alleen waarde vanwege hun vorm, maar ook vanwege de precisie die nodig is om ze te produceren."
+        ]
+      }
+    ]
+  },
+  "ovalSecondMost": {
+    "id": "are-oval-diamonds-the-second-most-expensive-shape",
+    "title": "Zijn ovale diamanten de op een na duurste vorm?",
+    "introParagraphs": [
+      "Niet altijd.",
+      "Ovale diamanten behoren vaak tot de duurdere mooie vormen omdat ze populair en elegant zijn en er groot uit kunnen zien vanwege hun karaatgewicht. De ovale prijzen variëren echter aanzienlijk afhankelijk van:"
+    ],
+    "bullets": [
+      "Lengte-breedteverhouding",
+      "Metingen naar boven",
+      "Zichtbaarheid van de vlinderdas",
+      "Overzichtssymmetrie",
+      "Schoudervorm",
+      "Kleurverdeling",
+      "Beschikbaarheid binnen een bepaald karaatbereik"
+    ],
+    "closingParagraphs": [
+      "Een levendig ovaal met een aantrekkelijke omtrek en minimale vlinderdas kan een hogere prijs opleveren dan een ovaal met dezelfde rapportcijfers maar zwakkere visuele prestaties.",
+      "Het onderzoek van de GIA naar ovale, peer- en marquise-diamanten laat ook zien hoe de contourvoorkeuren en de lengte-breedteverhoudingen variëren. Dit is een van de redenen waarom diamanten met een fraaie vorm visueel moeten worden geïnspecteerd in plaats van alleen op basis van rapportcijfers te worden geselecteerd."
+    ]
+  },
+  "pearMarquise": {
+    "id": "pear-and-marquise-diamonds",
+    "title": "Peer- en markiezindiamanten: prijs versus zichtbare maat",
+    "introParagraphs": [
+      "Peer- en marquise-diamanten bieden vaak een sterke face-up aanwezigheid omdat hun gewicht over een langwerpige omtrek is verdeeld.",
+      "Een markiezin van één karaat kan er van bovenaf groter uitzien dan een ronde diamant van één karaat, ook al hebben beide stenen hetzelfde gewicht. Perendiamanten kunnen een soortgelijk visueel voordeel bieden.",
+      "Kopers moeten echter het volgende inspecteren:"
+    ],
+    "bullets": [
+      "Overzichtssymmetrie",
+      "Vlinderdas duisternis",
+      "Puntuitlijning",
+      "Ongelijke schouders of vleugels",
+      "Overmatige diepte",
+      "Zeer dunne delen van de gordel",
+      "Er bestaat risico op afbrokkeling rond puntige uiteinden"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Vergelijk de metingen op het beoordelingsrapport met die van Dalila"
+        },
+        {
+          "type": "link",
+          "text": "diamantgrootte in millimeters",
+          "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Karaat meet het gewicht; Millimetermetingen laten zien hoe groot de diamant met de voorkant naar boven lijkt."
+        }
+      ]
+    ]
+  },
+  "cushionRadiantPrincess": {
+    "id": "cushion-radiant-and-princess-diamonds",
+    "title": "Kussen, Radiant en Princess Diamonds",
+    "introParagraphs": [
+      "Deze vormen kosten doorgaans minder per karaat dan vergelijkbare ronde briljanten, maar hun uiterlijk kan aanzienlijk variëren."
+    ],
+    "subsections": [
+      {
+        "id": "cushion-cut-diamonds",
+        "title": "Kussengeslepen diamanten",
+        "paragraphsBefore": [
+          "Kussens kunnen vierkant, rechthoekig of langwerpig zijn. Ze kunnen ook verschillende facetpatronen hebben, variërend van brede, gedefinieerde flitsen tot een dichter ‘vermalen ijs’-uiterlijk.",
+          "Twee kussens met identieke karaat-, kleur- en helderheidsgraden kunnen er totaal verschillend uitzien."
+        ]
+      },
+      {
+        "id": "radiant-cut-diamonds",
+        "title": "Stralend geslepen diamanten",
+        "paragraphsBefore": [
+          "Stralende diamanten combineren een rechthoekige of vierkante omtrek met een briljante facettenarrangement. Ze kunnen voor een sterke schittering zorgen, terwijl ze over het algemeen minder per karaat kosten dan ronde diamanten.",
+          "De omtrek, diepte, lichtopbrengst en kleurconcentratie kunnen de waarde van een individuele straling beïnvloeden."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Prinses geslepen diamanten",
+        "paragraphsBefore": [
+          "Prinsesdiamanten kunnen meer van het oorspronkelijke ruwe kristal behouden, waardoor ze concurrerende prijzen kunnen bieden. Kopers moeten nog steeds de duurzaamheid van de hoeken, de dikte van de gordel, de symmetrie en de gebieden met lichtlekkage inspecteren."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Ons"
+        },
+        {
+          "type": "link",
+          "text": "vergelijking van prinses, kussen en stralende diamant",
+          "href": "/blogs/princess-vs-cushion-vs-radiant-diamond"
+        },
+        {
+          "type": "text",
+          "value": "legt de verschillen tussen deze drie vormen in meer detail uit."
+        }
+      ]
+    ]
+  },
+  "emeraldAsscher": {
+    "id": "emerald-and-asscher-cuts",
+    "title": "Smaragd- en Asscher-snitten",
+    "introParagraphs": [
+      "Smaragd- en Asscher-diamanten gebruiken stapsgewijs geslepen facetten in plaats van de kleinere briljantachtige facetten die te vinden zijn in ronde en stralende diamanten.",
+      "Ze zijn misschien lager geprijsd dan vergelijkbare ronde diamanten, maar als je voor een mooie getrapte slijpvorm kiest, kan het nodig zijn dat je meer moet uitgeven aan kleur of helderheid.",
+      "Grote, open facetten kunnen insluitsels gemakkelijker zichtbaar maken. Ze kunnen kleuren ook duidelijker onthullen dan een briljant facetpatroon. Zwak geproportioneerde stenen kunnen vanwege hun gewicht vensters, donkere gebieden of een klein uiterlijk vertonen.",
+      "Dit betekent dat een koper geld kan besparen op de vormpremie, maar een hogere helderheid of kleurkwaliteit kan kiezen om het gewenste uiterlijk te bereiken."
+    ]
+  },
+  "heartShaped": {
+    "id": "are-heart-shaped-diamonds-expensive",
+    "title": "Zijn hartvormige diamanten duur?",
+    "introParagraphs": [
+      "Hartvormige diamanten hebben zeer variabele prijzen.",
+      "De vraag is kleiner dan die voor ronde of ovale diamanten, maar het snijden van een gebalanceerde hartvorm vereist vaardigheid. De twee lobben moeten gelijk lijken, de kloof moet helder zijn en de punt moet op één lijn liggen met het midden van de steen.",
+      "Goed gevormde harten kunnen bij bepaalde specificaties moeilijker te vinden zijn. Een slecht gevormd hart kost misschien minder, maar de lagere prijs maakt het niet tot een betere waarde."
+    ]
+  },
+  "looksBiggest": {
+    "id": "which-diamond-shape-looks-biggest",
+    "title": "Welke diamantvorm ziet er het grootst uit voor zijn prijs?",
+    "introParagraphs": [
+      "Langwerpige vormen bieden vaak de sterkste face-up spreiding.",
+      "Deze kunnen het volgende omvatten:"
+    ],
+    "bullets": [
+      "Marquise",
+      "Oval",
+      "Pear",
+      "Elongated cushion",
+      "Elongated radiant"
+    ],
+    "closingParagraphs": [
+      "De schijnbare omvang mag echter niet alleen worden beschouwd. Een ondiepe diamant kan er groot uitzien, maar heeft last van een zwakke lichtopbrengst. Een diepe diamant kan het karaatgewicht behouden terwijl hij er van bovenaf kleiner uitziet.",
+      "De voordeligste vormbalansen:"
+    ],
+    "closingBullets": [
+      "Afmetingen naar boven gericht",
+      "Aantrekkelijke proporties",
+      "Helderheid en contrast",
+      "Geschikte kleur en helderheid",
+      "Eisen stellen",
+      "Totale prijs"
+    ]
+  },
+  "mostExpensiveBest": {
+    "id": "does-the-most-expensive-shape-mean-the-best-diamond",
+    "title": "Betekent de duurste vorm de beste diamant?",
+    "introParagraphs": [
+      "Nee.",
+      "Een ronde briljant is misschien wel de duurste vorm per karaat, maar dat maakt hem nog niet voor iedere klant, sieraadontwerp of voorraadplan de juiste keuze.",
+      "Voor kopers die prioriteit geven aan maximale schittering en brede marktbekendheid, kan een goed geslepen ronde briljant zijn premium rechtvaardigen.",
+      "Voor kopers die een grotere visuele uitstraling, een onderscheidend ontwerp of een lagere prijs per karaat willen, kan een goed geselecteerde mooie vorm een ​​betere waarde bieden.",
+      "De beste diamant is de steen die voldoet aan het vereiste uiterlijk, de kwaliteit, het budget en het commerciële doel – en niet alleen de steen met de hoogste prijs."
+    ]
+  },
+  "howToCompare": {
+    "id": "how-to-compare-diamond-prices-by-shape",
+    "title": "Hoe diamantprijzen correct per vorm te vergelijken",
+    "introParagraphs": [
+      "Voordat u besluit dat de ene vorm goedkoper is dan de andere, vergelijkt u de diamanten op gelijke basis."
+    ],
+    "subsections": [
+      {
+        "id": "use-the-same-diamond-type",
+        "title": "Gebruik hetzelfde diamanttype",
+        "paragraphsBefore": [
+          "Vergelijk de prijs van een natuurlijke diamant niet met een in het laboratorium gekweekte diamant. Hun aanbodstructuren en marktprijzen zijn fundamenteel verschillend."
+        ]
+      },
+      {
+        "id": "keep-the-carat-range-consistent",
+        "title": "Houd het karaatbereik consistent",
+        "paragraphsBefore": [
+          "Vergelijk stenen binnen hetzelfde karaatbereik. Diamantprijzen kunnen merkbaar stijgen rond populaire gewichtsdrempels zoals 0,50, 1,00, 1,50 en 2,00 karaat."
+        ]
+      },
+      {
+        "id": "match-colour-and-clarity",
+        "title": "Match kleur en helderheid",
+        "paragraphsBefore": [
+          "Een ronde diamant met een lagere kleur of een lagere helderheid kost mogelijk minder dan een mooie vorm met een hoge kleur en hoge helderheid. Dat bewijst niet dat de ronde vorm goedkoper is."
+        ]
+      },
+      {
+        "id": "review-the-grading-laboratory",
+        "title": "Bekijk het beoordelingslaboratorium",
+        "paragraphsBefore": [
+          "Vergelijk beoordelingsrapporten van erkende laboratoria en controleer of het rapport overeenkomt met de aangeboden diamant."
+        ]
+      },
+      {
+        "id": "calculate-price-per-carat",
+        "title": "Bereken de prijs per karaat",
+        "paragraphsBefore": [
+          "Gebruik de volgende berekening:",
+          "Prijs per karaat = totale prijs van losse diamanten ÷ karaatgewicht",
+          "De prijs per karaat helpt vergelijkingen te normaliseren, maar meet nog steeds niet de schoonheid, proporties of verkoopbaarheid."
+        ]
+      },
+      {
+        "id": "compare-face-up-measurements",
+        "title": "Vergelijk face-up metingen",
+        "paragraphsBefore": [
+          "Controleer de lengte, breedte en diepte, niet alleen het karaatgewicht. Dit zal aantonen of de diamant overtollig gewicht onder de gordel draagt ​​of een goede zichtbare spreiding biedt."
+        ]
+      },
+      {
+        "id": "inspect-videos-and-images",
+        "title": "Video's en afbeeldingen inspecteren",
+        "paragraphsBefore": [
+          "Dit is essentieel voor mooie vormen. Controleer op:"
+        ],
+        "bullets": [
+          "Vlinderdas duisternis",
+          "Ramen",
+          "Ongelijkmatige lichtopbrengst",
+          "Slechte symmetrie",
+          "Onaantrekkelijke contouren",
+          "Zichtbare insluitsels",
+          "Overmatige kleurconcentratie"
+        ]
+      }
+    ]
+  },
+  "wholesaleChecklist": {
+    "id": "wholesale-diamond-buying-checklist",
+    "title": "Controlelijst voor het kopen van diamanten",
+    "introParagraphs": [
+      "Voordat u een natuurlijke diamant goedkeurt, dient u het volgende te verifiëren:"
+    ],
+    "items": [
+      "Diamantvorm en exact karaatgewicht",
+      "Kleur- en helderheidsgraden",
+      "Laboratorium- en rapportnummer",
+      "Afmetingen en lengte-breedteverhouding",
+      "Snijkwaliteit waar van toepassing",
+      "Pools en symmetrie",
+      "Tabel- en dieptepercentages",
+      "Dikte van de gordel",
+      "Fluorescentie",
+      "Inclusie locatie",
+      "Helderheid naar boven",
+      "Vlinderdas of raamdecoratie",
+      "Prijs per karaat",
+      "Totale landkosten",
+      "Instelling en klantvereisten"
+    ],
+    "closingParagraphs": [
+      "Een diamant die er op een spreadsheet goedkoop uitziet, kan een aandeel van slechte waarde worden als hij zwakke proporties, zichtbare duisternis of een omtrek heeft die klanten afwijzen."
+    ]
+  },
+  "antwerpPerspective": {
+    "id": "an-antwerp-sourcing-perspective",
+    "title": "Een Antwerps Sourcing-perspectief",
+    "introParagraphs": [
+      "Voor Europese juweliers en groothandelaren is de beste vorm niet noodzakelijkerwijs degene met het grootste kortingspercentage.",
+      "De commerciële waarde hangt ook af van:"
+    ],
+    "bullets": [
+      "Vraag van de klant",
+      "Snelheid van verkoop",
+      "Beschikbaarheid van vervanging",
+      "Matchen met bestaande instellingen",
+      "Consistentie tussen herhaalbestellingen",
+      "Certificeringsvoorkeuren",
+      "Bezorg- en verzekeringskosten"
+    ],
+    "closingParagraphs": [
+      "Ronde diamanten kosten vaak meer, maar kunnen een bredere klantenbasis bedienen. Fancy vormen kunnen een sterker visueel formaat en aantrekkelijke marges bieden, maar ze vereisen een zorgvuldige selectie omdat hun uiterlijk meer varieert van steen tot steen."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Via Dalila Diamonds’"
+        },
+        {
+          "type": "link",
+          "text": "Secure to Source-service",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": "kunnen handelskopers natuurlijke diamanten op de shortlist zetten en professionele kwaliteitscontrole krijgen voordat de geselecteerde stenen hen bereiken."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Kopers kunnen dat ook"
+        },
+        {
+          "type": "link",
+          "text": "blader door de diamantinventaris van Dalila",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": "of dien specifieke eisen in voor vorm, karaat, kleur, helderheid, certificering en budget."
+        }
+      ]
+    ]
+  },
+  "finalAnswer": {
+    "id": "final-answer",
+    "title": "Laatste antwoord: welke diamantvorm kost het meest?",
+    "introParagraphs": [
+      "De ronde briljant is normaal gesproken de duurste diamantvorm per karaat als alle andere belangrijke kwaliteitsfactoren vergelijkbaar zijn.",
+      "Zijn premium komt voort uit de sterke vraag, de lagere ruwe retentie in veel snijsituaties, nauwkeurige productievereisten en de gevestigde reputatie van briljantheid.",
+      "Fancy vormen kunnen minder kosten per karaat en kunnen een grotere zichtbare grootte opleveren, maar er is geen eenduidige permanente rangschikking voor elke ovale, peer-, kussen-, smaragd- of stralende diamant.",
+      "Vergelijk altijd de volledige steen, niet alleen de vorm of korting."
+    ]
+  },
+  "cta": {
+    "id": "source-natural-diamonds-by-shape",
+    "title": "Bron natuurlijke diamanten op vorm met Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Of u nu ronde briljanten of zorgvuldig geselecteerde mooie vormen nodig heeft, Dalila Diamonds helpt kopers bij het vergelijken van kwaliteit, afmetingen en landkosten met Antwerpse inkoopondersteuning."
+        }
+      ]
+    ],
+    "primaryButtonText": "Secure to Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Blader door inventaris",
+    "secondaryButtonHref": "/inventory"
+  },
+  "faqs": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Wat is de duurste diamantvorm?",
+        "answer": "De ronde briljant is over het algemeen de duurste diamantvorm per karaat in vergelijking met natuurlijke diamanten van vergelijkbare karaat, kleur, helderheid en kwaliteit."
+      },
+      {
+        "question": "Waarom zijn ronde diamanten duurder?",
+        "answer": "Ronde diamanten hebben doorgaans een hogere prijs omdat bij de productie ervan meer van het oorspronkelijke ruwe kristal kan worden verwijderd, de marktvraag voortdurend groot is en nauwkeurige verhoudingen nodig zijn voor hoogwaardige lichtprestaties."
+      },
+      {
+        "question": "Is een ovale diamant duurder dan een ronde diamant?",
+        "answer": "Een vergelijkbaar ovaal kost normaal gesproken minder per karaat dan een ronde briljant. Een uitzonderlijke ovaal kan echter meer kosten dan een ronde diamant van lagere kwaliteit, omdat de prijs ook afhangt van karaat, kleur, helderheid, verhoudingen en beschikbaarheid."
+      },
+      {
+        "question": "Wat is de goedkoopste diamantvorm?",
+        "answer": "Er is geen permanent goedkoopste vorm. Prinses, kussen, smaragd en andere mooie vormen kunnen per karaat minder kosten dan vergelijkbare rondes, maar de laagstgeprijsde individuele steen kan een zwakkere kleur, helderheid, verhoudingen of visuele prestaties hebben."
+      },
+      {
+        "question": "Welke diamantvorm lijkt het grootst?",
+        "answer": "Marquise-, ovale- en peervormige diamanten zien er vaak groter uit dan ronde diamanten met hetzelfde karaatgewicht, omdat hun langwerpige contouren het gewicht over een groter zichtbaar gebied verdelen."
+      },
+      {
+        "question": "Heeft de diamantvorm invloed op de prijs per karaat?",
+        "answer": "Ja. De vorm heeft invloed op het behoud van ruwe diamanten, de complexiteit van het snijden, de marktvraag, de beschikbaarheid en het uiterlijk van de diamant. Deze factoren kunnen allemaal de prijs per karaat beïnvloeden."
+      },
+      {
+        "question": "Schittert de duurste diamantvorm het meest?",
+        "answer": "Een goed geslepen ronde briljant is ontworpen voor sterke helderheid, vuur en schittering. De prijs alleen garandeert echter geen sprankeling. Slecht geproportioneerde ronde diamanten presteren mogelijk slechter dan goed geselecteerde mooie vormen."
+      },
+      {
+        "question": "Waarom tonen GIA-rapporten geen algemeen snijcijfer voor de meeste fraaie vormen?",
+        "answer": "Vanaf juli 2026 geeft GIA een algemeen slijpcijfer aan standaard ronde briljante diamanten, terwijl mooie vormen afmetingen, glans, symmetrie en andere informatie ontvangen. Hun gevarieerde contouren en facetarrangementen vereisen aanvullende visuele beoordeling."
+      },
+      {
+        "question": "Hoe moeten juweliers de prijzen van diamantvormen vergelijken?",
+        "answer": "Juweliers moeten diamanten vergelijken met een vergelijkbare karaat, kleur, helderheid, certificering en kwaliteit, en vervolgens de prijs per karaat, face-up metingen, visuele prestaties en totale landkosten beoordelen."
+      },
+      {
+        "question": "Gelden dezelfde vorm-prijsregels voor fancy colour diamanten?",
+        "answer": "Niet noodzakelijkerwijs. Bij diamanten met fancy kleuren kunnen kleurzeldzaamheid, sterkte en verdeling de waarde sterker beïnvloeden dan de gebruikelijke kleurloze diamantvormhiërarchie."
+      }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Vergelijk de complete diamant, niet alleen zijn vorm",
+    "introParagraphs": [
+      "Ronde briljanten hebben doorgaans de hoogste prijs per karaat onder de gangbare kleurloze vormen, maar de beste commerciële keuze hangt af van het uiterlijk, de vraag, de zettingsbehoeften en de totale landkosten.",
+      "Gebruik vergelijkingen op gelijke basis, inspecteer mooie vormen visueel en selecteer de steen die bij uw klant en voorraadplan past."
+    ],
+    "primaryButtonText": "Neem contact op met Dalila",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Diamant Kennisgids",
+    "secondaryButtonHref": "/diamondKnowledge"
+  },
+  "sidebar": {
+    "articlesTitle": "Onze artikelen",
+    "findUsTitle": "Vind ons",
+    "companyName": "Dalila Diamonds",
+    "addressLines": [
+      "Hoveniersstraat 30, Box - 105",
+      "Suite 326, 2018 Antwerpen",
+      "België"
+    ],
+    "email": "business@daliladiamonds.com",
+    "phone": "+32 487 93 93 51",
+    "phoneHref": "tel:+32487939351",
+    "inventoryTitle": "Blader door onze inventaris",
+    "inventoryDescription": "Ontdek onze prachtige collectie premium diamanten",
+    "inventoryButtonText": "Bekijk voorraad",
+    "inventoryHref": "/inventory",
+    "backToArticles": "Terug naar artikelen",
+    "blogsHref": "/blogs"
+  }
+}

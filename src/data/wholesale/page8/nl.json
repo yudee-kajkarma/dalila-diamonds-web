@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "title": "Losse diamanten te koop | Groothandel natuurlijke diamanten",
+    "description": "Bekijk gecertificeerde natuurlijke losse diamanten die te koop zijn bij Dalila Diamonds in Antwerpen. Vraag bijpassende stenen, beoordelingsrapporten en een groothandelsofferte aan.",
+    "canonical": "https://www.daliladiamonds.com/wholesale/buy-wholesale-diamonds-online",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "primaryKeyword": "Loose diamonds for sale",
+    "inLanguage": "nl",
+    "parentHub": "https://www.daliladiamonds.com/premium-b2b-diamond-supplier-belgium"
+  },
+  "images": {
+    "hero": {
+      "src": "/images/wholesale/wholesale-loose-diamonds-for-sale.webp",
+      "alt": "Gecertificeerde natuurlijke losse diamanten voor groothandelaars in Antwerpen",
+      "width": 1600,
+      "height": 900
+    },
+    "sourcingBrief": {
+      "src": "/images/wholesale/wholesale-diamond-sourcing-brief.webp",
+      "alt": "Inkoopbroekje voor natuurlijke diamant met karaatkleurige kleurhelderheid en certificering",
+      "width": 1400,
+      "height": 1000
+    },
+    "verification": {
+      "src": "/images/wholesale/verify-wholesale-loose-diamonds.webp",
+      "alt": "Diamantrapportnummerinscriptiemetingen en verificatie van losse stenen",
+      "width": 1400,
+      "height": 1000
+    },
+    "matched": {
+      "src": "/images/wholesale/matched-wholesale-natural-diamonds.webp",
+      "alt": "Overeenkomende natuurlijke diamanten vergeleken voor metingen, kleurhelderheid en uiterlijk",
+      "width": 1400,
+      "height": 1000
+    },
+    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+  },
+  "banner": {
+    "title": "Losse diamanten te koop",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbWholesale": "Groothandel diamanten",
+    "breadcrumbWholesaleHref": "/premium-b2b-diamond-supplier-belgium",
+    "breadcrumbCurrent": "Losse diamanten te koop",
+    "imageAlt": "Gecertificeerde natuurlijke losse diamanten voor groothandelaars in Antwerpen"
+  },
+  "hero": {
+    "title": "Losse diamanten te koop | Groothandel natuurlijke diamanten",
+    "subheading": "Gecertificeerde natuurlijke diamanten voor professionele kopers",
+    "introParagraphs": [
+      "Dalila Diamonds levert losse natuurlijke diamanten aan juweliers, sieradenfabrikanten, groothandels, diamantairs en luxe retailers."
+    ],
+    "richIntroParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse available diamonds through our "
+        },
+        {
+          "type": "link",
+          "text": "live inventaris van natuurlijke diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": ", or send us a sourcing brief for stones that meet your exact commercial, manufacturing or customer requirements."
+        }
+      ]
+    ],
+    "availableSpecsIntro": "Beschikbare specificaties kunnen verschillende zijn:",
+    "availableSpecs": [
+      "Vormen en snijstijlen",
+      "Karaat gewichten",
+      "Kleur- en helderheidscombinaties",
+      "Snij-, polijst- en symmetriegraden",
+      "Fluorescentievoorkeuren",
+      "Lengte-breedteverhoudingen",
+      "Metingen en verhoudingsvereisten",
+      "GIA-, IGI- of HRD-beoordelingsrapporten",
+      "Bij elkaar passende paren en lay-outs",
+      "Gekalibreerde productievereisten"
+    ],
+    "primaryButtonText": "Vraag een groothandelsofferte aan",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "Bekijk de beschikbare voorraad",
+    "secondaryButtonHref": "/inventory"
+  },
+  "quickAnswer": {
+    "title": "Snel antwoord",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Professional buyers can purchase loose natural diamonds from Dalila Diamonds by selecting stones from the "
+        },
+        {
+          "type": "link",
+          "text": "beschikbare inventaris",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submitting a detailed sourcing request."
+        }
+      ]
+    ],
+    "paragraphs": [
+      "Voordat een diamant wordt goedgekeurd, moet de koper de beoordelingsinformatie, afmetingen, rapportnummer, beschikbaarheid, prijs en relevant inspectiemateriaal ontvangen en bekijken. Laboratoriuminformatie moet worden geverifieerd via de officiële database van het uitgevende laboratorium.",
+      "De definitieve betaling, verzending, verzekering, douaneverantwoordelijkheden en leveringsschattingen moeten in de schriftelijke offerte worden bevestigd voordat de bestelling wordt goedgekeurd."
+    ]
+  },
+  "whoCanRequest": {
+    "id": "who-can-request-wholesale-loose-diamonds",
+    "title": "Wie kan groothandel losse diamanten aanvragen?",
+    "introParagraphs": [
+      "Deze service is bedoeld voor professionele diamant- en juwelenkopers, waaronder:"
+    ],
+    "bullets": [
+      "Onafhankelijke juweliers",
+      "Fabrikanten van sieraden",
+      "Bedrijven voor bruidssieraden",
+      "Luxe detailhandelaren",
+      "Groothandelaren en handelaren in diamant",
+      "Ontwerpers die op maat gemaakte stukken produceren",
+      "Bedrijven die bij elkaar passende stenen kopen",
+      "Kopers die commerciële inventaris aanvullen"
+    ],
+    "closingParagraphs": [
+      "Tijdens het offerteproces wordt bevestigd of de koper en de bestelling in aanmerking komen. Elke minimale bestelwaarde of hoeveelheid moet duidelijk worden vermeld voordat de koper zich aan de transactie verbindt."
+    ]
+  },
+  "submitRequirements": {
+    "id": "submit-your-diamond-requirements",
+    "title": "Dien uw diamantvereisten in",
+    "introParagraphs": [
+      "Een volledige inkoopopdracht helpt het Dalila-team relevantere opties te bieden en onnodige vergelijkingen te verminderen."
+    ],
+    "table": {
+      "headers": [
+        "Te verstrekken informatie",
+        "Voorbeeld"
+      ],
+      "rows": [
+        [
+          "Diamant soort",
+          "Natuurlijke diamant"
+        ],
+        [
+          "Vorm",
+          "Rond, ovaal, smaragd, peer of kussen"
+        ],
+        [
+          "Hoeveelheid",
+          "Eén steen, een matchend paar of meerdere stenen"
+        ],
+        [
+          "Karaatvereiste",
+          "Exact gewicht of acceptabel bereik"
+        ],
+        [
+          "Kleur",
+          "Voorkeursklasse of -bereik"
+        ],
+        [
+          "Helderheid",
+          "Voorkeursgraad en oogschoonmaakvereiste"
+        ],
+        [
+          "Knippen of maken",
+          "Snijgraad, proportie of visuele voorkeur"
+        ],
+        [
+          "Pools en symmetrie",
+          "Minimaal aanvaardbare cijfers"
+        ],
+        [
+          "Fluorescentie",
+          "Geen, zwak of acceptabel bereik"
+        ],
+        [
+          "Afmetingen",
+          "Minimale diameter, spreiding of verhouding"
+        ],
+        [
+          "Beoordeling laboratorium",
+          "GIA, IGI, HRD of flexibel"
+        ],
+        [
+          "Begroting",
+          "Per steen of complete bestelling"
+        ],
+        [
+          "Bestemming",
+          "Land en bezorgpostcode"
+        ],
+        [
+          "Termijn",
+          "Vereiste goedkeuring of leverdatum"
+        ]
+      ]
+    }
+  },
+  "sampleBrief": {
+    "id": "sample-sourcing-brief",
+    "title": "Voorbeeld inkoopoverzicht",
+    "paragraphs": [
+      "Voor een oorbellencollectie hebben we vijf bij elkaar passende paren ovale natuurlijke diamanten nodig. Elke steen moet tussen 0,50 en 0,60 karaat zijn, G-H-kleur en VS2-SI1-helderheid, met een consistent uiterlijk naar boven, evenwichtige contouren en dezelfde fluorescentievoorkeur. Geef rapportdetails, metingen, video's, totale offerte en geschatte leveringsvoorwaarden op."
+    ],
+    "note": "Dit is een illustratieve opdracht, geen voltooide Dalila-klantcase."
+  },
+  "buyingProcess": {
+    "id": "how-the-buying-process-works",
+    "title": "Hoe het koopproces werkt",
+    "steps": [
+      {
+        "number": 1,
+        "id": "browse-or-submit-a-request",
+        "title": "Blader of dien een verzoek in",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Search the "
+            },
+            {
+              "type": "link",
+              "text": "beschikbare inventaris",
+              "href": "/inventory"
+            },
+            {
+              "type": "text",
+              "value": " or send the Dalila team your required specifications, quantity, budget and destination."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 2,
+        "id": "receive-suitable-options",
+        "title": "Ontvang geschikte opties",
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Available diamonds can be shortlisted according to the submitted criteria. Where a request is unusually specific or unavailable in current stock, Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Diamantbron voor jou",
+              "href": "/diamond-source"
+            },
+            {
+              "type": "text",
+              "value": " service can be used for a customised search."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 3,
+        "id": "review-the-diamond-information",
+        "title": "Bekijk de diamantinformatie",
+        "introParagraphs": [
+          "Voordat u een optie goedkeurt, controleert u de beschikbare:"
+        ],
+        "bullets": [
+          "Rapportnummer",
+          "Vorm en snijstijl",
+          "Karaat gewicht",
+          "Afmetingen",
+          "Kleur en helderheid",
+          "Informatie knippen",
+          "Pools en symmetrie",
+          "Fluorescentie",
+          "Rapporteer opmerkingen",
+          "Foto's of video's",
+          "Prijs en beschikbaarheid"
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For face-up size context, see Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "diamantgrootte in millimeters",
+              "href": "/blogs/diamond-sizes-in-mm-complete-ct-to-mm-diamond-conversion-guide"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 4,
+        "id": "verify-the-grading-report",
+        "title": "Controleer het beoordelingsrapport",
+        "introParagraphs": [
+          "Controleer het rapport rechtstreeks via het officiële systeem van het laboratorium:"
+        ],
+        "labLinks": [
+          {
+            "text": "GIA-rapportcontrole",
+            "href": "https://www.gia.edu/report-check-landing"
+          },
+          {
+            "text": "IGI Controleer uw rapport",
+            "href": "https://www.igi.org/Verify-Your-Report/"
+          },
+          {
+            "text": "Mijn HRD Antwerpen",
+            "href": "https://my.hrdantwerp.com/"
+          }
+        ],
+        "paragraphs": [
+          "Als er een laserinscriptie aanwezig is, moet het nummer ervan onder de juiste vergroting worden vergeleken met het rapport en de fysieke diamant.",
+          "Een geldig rapportnummer bevestigt dat er een laboratoriumrecord bestaat. Het rapport, de inscriptie, de afmetingen en de daadwerkelijke diamant moeten nog steeds overeenkomen."
+        ],
+        "richClosingParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "Compare laboratory approaches in the "
+            },
+            {
+              "type": "link",
+              "text": "GIA versus IGI versus HRD diamantcertificeringsgids",
+              "href": "/blogs/hrd-vs-gia-vs-igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", read an "
+            },
+            {
+              "type": "link",
+              "text": "IGI-certificeringsgids",
+              "href": "/blogs/igi-diamond-certification"
+            },
+            {
+              "type": "text",
+              "value": ", or use the "
+            },
+            {
+              "type": "link",
+              "text": "Leesgids voor GIA-rapporten",
+              "href": "/blogs/how-to-read-gia-diamond-certificate"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        ]
+      },
+      {
+        "number": 5,
+        "id": "confirm-the-quotation",
+        "title": "Bevestig de offerte",
+        "introParagraphs": [
+          "Het schriftelijke citaat moet het volgende vermelden:"
+        ],
+        "bullets": [
+          "Geselecteerde diamant- of voorraadreferentie",
+          "Hoeveelheid",
+          "Prijs en valuta",
+          "Betalingsvoorwaarden",
+          "Beschikbaarheidsperiode",
+          "Verzendmethode",
+          "Verzekeringsregeling",
+          "Douane verantwoordelijkheden",
+          "Toepasselijke belastingen of heffingen",
+          "Verwachte verzending en leveringstijdstip",
+          "Bij de bestelling geleverde documenten"
+        ]
+      },
+      {
+        "number": 6,
+        "id": "approve-and-arrange-delivery",
+        "title": "Levering goedkeuren en regelen",
+        "paragraphs": [
+          "Zodra de selectie en commerciële voorwaarden zijn goedgekeurd, kan de bestelling plaatsvinden volgens de bevestigde betalings- en leveringsvoorwaarden."
+        ],
+        "richParagraphs": [
+          [
+            {
+              "type": "text",
+              "value": "For structured repeat sourcing, read about Dalila’s "
+            },
+            {
+              "type": "link",
+              "text": "Secure To Source",
+              "href": "/secure-to-source"
+            },
+            {
+              "type": "text",
+              "value": " service."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "gradingConsistency": {
+    "id": "grading-consistency-for-pairs-and-multiple-stones",
+    "title": "Beoordelingsconsistentie voor paren en meerdere stenen",
+    "introParagraphs": [
+      "Diamanten met identieke kleur- en helderheidsgraden zien er niet noodzakelijkerwijs identiek uit.",
+      "Voor op elkaar afgestemde paren, lay-outs of herhaalde productie kan consistentie ook een vergelijking vereisen van:"
+    ],
+    "bullets": [
+      "Kleur naar boven",
+      "Zichtbaarheid van inclusie",
+      "Transparantie",
+      "Diameter of fysieke afmetingen",
+      "Lengte-breedteverhouding",
+      "Omtrek en hoekvorm",
+      "Tafel en totale diepte",
+      "Knippen of maken",
+      "Fluorescentie",
+      "Helderheid en contrast",
+      "Kenmerken van de gordel",
+      "Algehele visuele balans"
+    ],
+    "closingParagraphs": [
+      "De aanvaardbare tolerantie moet worden overeengekomen voordat de inkoop begint. Dit is vooral belangrijk voor oorbellen, ringen met meerdere stenen, lijnarmbanden en de productie van herhaalde sieraden."
+    ]
+  },
+  "pricing": {
+    "id": "how-wholesale-loose-diamond-pricing-is-determined",
+    "title": "Hoe de groothandelsprijzen voor losse diamanten worden bepaald",
+    "introParagraphs": [
+      "Er bestaat geen betrouwbare universele prijs per karaat voor elke diamant.",
+      "Een offerte kan worden beïnvloed door:"
+    ],
+    "bullets": [
+      "Beschikbaarheid van de markt voor natuurlijke diamant",
+      "Vorm",
+      "Exact karaatgewicht",
+      "Kleur en helderheid",
+      "Snijkwaliteit",
+      "Metingen en spreiding",
+      "Fluorescentie",
+      "Laboratorium rapport",
+      "Visuele prestaties",
+      "Hoeveelheid",
+      "Overeenkomende moeilijkheidsgraad",
+      "Inkoop urgentie",
+      "Munteenheid",
+      "Verzend-, verzekerings- en importvereisten"
+    ],
+    "closingParagraphs": [
+      "Twee diamanten met dezelfde kop 4C's kunnen verschillende offertes krijgen omdat hun verhoudingen, uiterlijk, rapportdetails of beschikbaarheid verschillen.",
+      "Vergelijk daarom de volledige diamantspecificaties in plaats van uitsluitend op de laagste prijs te kiezen."
+    ]
+  },
+  "documentation": {
+    "id": "documentation-and-provenance",
+    "title": "Documentatie en herkomst",
+    "introParagraphs": [
+      "Een beoordelingsrapport beschrijft de identificatie- en kwaliteitskenmerken van de diamant. Het stelt niet automatisch het eigendom, de aankoopwaarde, de Chain of Custody of het mijnbouwland vast.",
+      "Wanneer herkomst- of nalevingsdocumentatie belangrijk is, specificeer dit dan in de sourcingbrief voordat u opties ontvangt.",
+      "Het Kimberley Process Certification Scheme reguleert de internationale handel in ruwe diamant. Het mag niet worden gepresenteerd als automatisch bewijs van het land van herkomst voor elke geslepen diamant.",
+      "Afhankelijk van de transactie en bestemming kunnen kopers ook het volgende nodig hebben:"
+    ],
+    "bullets": [
+      "Commerciële factuur",
+      "Verpakkingsinformatie",
+      "Kopie van het beoordelingsrapport",
+      "Verzending en verzekeringsbevestiging",
+      "Export- of douanedocumentatie",
+      "Leveranciersverklaring",
+      "Sancties of nalevingscontroles",
+      "Afzonderlijke herkomstdocumentatie, indien beschikbaar"
+    ],
+    "closingParagraphs": [
+      "Bij elke bestelling dient de exacte documentenset schriftelijk te worden bevestigd."
+    ]
+  },
+  "whyDalila": {
+    "id": "why-source-through-dalila-diamonds",
+    "title": "Waarom sourcen via Dalila Diamonds?",
+    "introParagraphs": [
+      "Dalila Diamonds is een Antwerps diamantbedrijf dat professionele kopers bedient.",
+      "Kopers kunnen Dalila gebruiken om:"
+    ],
+    "bullets": [
+      "Bekijk beschikbare losse natuurlijke diamanten",
+      "Vraag specifieke kleur-, helderheid- en karaatcombinaties aan",
+      "Bron van grote mooie vormen",
+      "Vraag bijpassende paren en lay-outs aan",
+      "Vergelijk beoordelingsrapporten",
+      "Krijg toegang tot aangepaste inkoop voor zeldzame vereisten",
+      "Organiseer gestructureerde herhaalinkoop",
+      "Bevestig internationale leveringsvoorwaarden"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Learn more about Dalila’s experience, services and professional sourcing model through the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B-diamantleverancier in België",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page."
+        }
+      ]
+    ]
+  },
+  "requestQuote": {
+    "id": "request-a-wholesale-diamond-quote",
+    "title": "Vraag een groothandel diamantofferte aan",
+    "introParagraphs": [
+      "Stuur de volgende informatie om relevante opties te ontvangen:"
+    ],
+    "bullets": [
+      "Bedrijfsnaam en locatie",
+      "Vereiste vorm",
+      "Hoeveelheid",
+      "Karaat bereik",
+      "Kleur en helderheid",
+      "Vereisten voor knippen of proporties",
+      "Laboratoriumvoorkeur",
+      "Fluorescentievoorkeur",
+      "Begroting",
+      "Leveringsbestemming",
+      "Vereiste datum"
+    ],
+    "primaryButtonText": "Vraag een groothandelsofferte aan",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "supportingText": "Beschikbaarheid, geschiktheid voor bestellingen, prijzen, betalingsvoorwaarden en leveringsvoorwaarden worden vóór aankoop bevestigd."
+  },
+  "inventoryPreview": {
+    "id": "browse-available-loose-diamonds",
+    "title": "Blader door beschikbare losse diamanten",
+    "description": "Bekijk de voorraad levende natuurlijke diamanten en vraag vervolgens een offerte aan voor geselecteerde stenen of een bijpassende inkoopopdracht.",
+    "buttonText": "Bekijk de beschikbare voorraad",
+    "buttonHref": "/inventory"
+  },
+  "form": {
+    "id": "wholesale-sourcing-form",
+    "tag": "Groothandel onderzoek",
+    "title": "Vraag een groothandel diamantofferte aan",
+    "subtitle": "Deel uw bedrijfsgegevens en diamantvereisten. Beschikbaarheid, geschiktheid, prijzen en leveringsvoorwaarden worden vóór aankoop bevestigd in een schriftelijke offerte.",
+    "labels": {
+      "businessName": "Bedrijfsnaam *",
+      "location": "Bedrijfslocatie",
+      "fullName": "Volledige naam",
+      "email": "Email address *",
+      "phone": "Phone number",
+      "shape": "Vorm *",
+      "quantity": "Hoeveelheid",
+      "caratRange": "Karaat bereik *",
+      "colour": "Kleur",
+      "clarity": "Helderheid",
+      "cut": "Knippen of maken",
+      "laboratory": "Beoordeling laboratorium",
+      "fluorescence": "Fluorescentie",
+      "budget": "Begroting",
+      "destination": "Leveringsbestemming",
+      "requiredDate": "Vereiste datum",
+      "message": "Aanvullende vereisten"
+    },
+    "placeholders": {
+      "businessName": "Uw bedrijfsnaam",
+      "location": "Stad, land",
+      "fullName": "Naam contactpersoon",
+      "email": "name@company.com",
+      "phone": "+32 …",
+      "quantity": "bijv. 1 steen, bijpassend paar of 10 stenen",
+      "caratRange": "bijv. 0,50–0,60 ct",
+      "colour": "bijv. G-H",
+      "clarity": "bijv. VS2–SI1, oogschoon",
+      "cut": "bijv. Uitstekende/geprefereerde verhoudingen",
+      "budget": "Per steen of totale bestelling",
+      "destination": "Land en postcode",
+      "requiredDate": "Goedkeurings- of leveringsdatum",
+      "message": "Matched pairs, fluorescentie, metingen, rapportvoorkeur…"
+    },
+    "shapeOptions": [
+      "Round",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Cushion",
+      "Marquise",
+      "Radiant",
+      "Princess",
+      "Asscher",
+      "Heart",
+      "Other"
+    ],
+    "laboratoryOptions": [
+      "GIA",
+      "IGI",
+      "HRD",
+      "Flexible"
+    ],
+    "fluorescenceOptions": [
+      "None",
+      "Faint",
+      "Medium",
+      "Strong",
+      "Very Strong",
+      "Flexible"
+    ],
+    "submitButton": "Vraag een groothandelsofferte aan",
+    "requiredNote": "* Verplichte velden. De geschiktheid van de koper en de commerciële voorwaarden worden tijdens de offerte bevestigd.",
+    "successMessage": "Uw groothandelsaanvraag is ingediend. We zullen uw opdracht beoordelen en reageren met relevante opties.",
+    "errorMessage": "Het is niet gelukt uw verzoek in te dienen. Probeer het opnieuw of neem rechtstreeks contact op met Dalila Diamonds.",
+    "incompleteMessage": "Vul de verplichte velden in voordat u uw groothandelsaanvraag indient."
+  },
+  "faqs": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Verkoopt Dalila Diamonds natuurlijke of in een laboratorium gekweekte diamanten?",
+        "answer": "Het kernaanbod van Dalila Diamonds bestaat uit natuurlijke diamanten. De rapportbeschrijving moet altijd worden gecontroleerd om te bevestigen dat elke geselecteerde steen als natuurlijk wordt geïdentificeerd."
+      },
+      {
+        "question": "Wie kan losse diamanten in de groothandel aanvragen?",
+        "answer": "De dienst is bedoeld voor professionele inkopers zoals juweliers, fabrikanten, detailhandelaren, groothandels, dealers en sieradenontwerpers. De geschiktheid van de koper wordt bevestigd tijdens het aanvraagproces."
+      },
+      {
+        "question": "Is er een minimale groothandelsbestelling?",
+        "answer": "De minimale bestelvereisten kunnen afhankelijk zijn van de diamant, de hoeveelheid, de inkooproute en de bestemming. Het toepasselijke minimum moet in de schriftelijke offerte worden bevestigd en niet worden aangenomen."
+      },
+      {
+        "question": "Welke beoordelingsrapporten zijn beschikbaar?",
+        "answer": "Beschikbare diamanten kunnen rapporten bevatten van laboratoria zoals GIA, IGI of HRD Antwerpen. De beschikbaarheid van laboratoria is afhankelijk van de geselecteerde steen en het inkoopverzoek."
+      },
+      {
+        "question": "Kan ik het diamantrapport verifiëren voordat ik een aankoop doe?",
+        "answer": "Ja. Kopers moeten het rapportnummer verifiëren via de officiële database van het uitgevende laboratorium en de opgehaalde informatie vergelijken met de aangeboden diamant."
+      },
+      {
+        "question": "Kan Dalila gematchte diamantparen vinden?",
+        "answer": "Bijpassende paren en indelingen kunnen worden aangevraagd. Zorg voor aanvaardbare toleranties voor karaatgewicht, afmetingen, kleur, helderheid, fluorescentie, vorm en algehele uitstraling."
+      },
+      {
+        "question": "Waarom worden de groothandelsprijzen voor diamanten niet weergegeven als één prijs per karaat?",
+        "answer": "De prijs van diamanten is afhankelijk van meer dan het karaatgewicht. Vorm, kleur, duidelijkheid, snit, afmetingen, rapport, uiterlijk, beschikbaarheid, hoeveelheid en logistiek kunnen allemaal van invloed zijn op de offerte."
+      },
+      {
+        "question": "Kan ik een diamant aanvragen die niet in de live-inventaris staat?",
+        "answer": "Ja. Dien de volledige specificaties in via de op maat gemaakte inkoopservice van Dalila wanneer een geschikte diamant niet beschikbaar is in de huidige inventaris."
+      },
+      {
+        "question": "Bewijst een beoordelingsrapport waar een natuurlijke diamant werd gedolven?",
+        "answer": "Meestal niet. Een standaard beoordelingsrapport identificeert en beoordeelt de steen, maar bevestigt niet automatisch het mijnland. Voor claims over geografische oorsprong of herkomst is afzonderlijke ondersteunende documentatie vereist."
+      },
+      {
+        "question": "Hoe lang duurt de groothandel diamantlevering?",
+        "answer": "De timing is afhankelijk van beschikbaarheid, inspectie, betaling, bestemming, vervoerder en douaneafhandeling. Het verwachte verzend- en leveringsvenster moet vóór aankoop in de offerte worden bevestigd."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "source-wholesale-loose-diamonds",
+    "title": "Bron Groothandel losse diamanten met Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Browse the "
+        },
+        {
+          "type": "link",
+          "text": "live inventaris van natuurlijke diamanten",
+          "href": "/inventory"
+        },
+        {
+          "type": "text",
+          "value": " or submit a wholesale sourcing brief for matched stones, calibrated layouts and certified natural diamonds."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For rare or highly specific searches, use "
+        },
+        {
+          "type": "link",
+          "text": "Diamantbron voor jou",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": ". For structured repeat procurement, explore the "
+        },
+        {
+          "type": "link",
+          "text": "Secure To Source-service",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ". Learn more on the "
+        },
+        {
+          "type": "link",
+          "text": "Premium B2B-diamantleverancier in België",
+          "href": "/premium-b2b-diamond-supplier-belgium"
+        },
+        {
+          "type": "text",
+          "value": " page, or "
+        },
+        {
+          "type": "link",
+          "text": "Neem contact op met Dalila Diamonds",
+          "href": "/contact"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "primaryButtonText": "Vraag een groothandelsofferte aan",
+    "primaryButtonHref": "#wholesale-sourcing-form",
+    "secondaryButtonText": "Bekijk de beschikbare voorraad",
+    "secondaryButtonHref": "/inventory"
+  }
+}

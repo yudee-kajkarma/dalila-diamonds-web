@@ -193,12 +193,12 @@ export default function SellDiamondsForm() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto bg-white rounded-none shadow-md p-8">
         <div className="text-center mb-8">
-          <h1
+          <h2
             className="text-3xl font-bold text-gray-900 mb-2"
             style={marcellusStyle}
           >
-            {dictionary?.sud?.formTitle || "Sell Your Diamonds"}
-          </h1>
+            {dictionary?.sud?.formTitle || "Get a Free Diamond Estimate"}
+          </h2>
           <p className="text-gray-600" style={jostStyle}>
             {dictionary?.sud?.formSubtitle || "Complete the form below to get a free valuation for your diamonds. Our process is secure, confidential, and designed to get you the best possible price."}
           </p>

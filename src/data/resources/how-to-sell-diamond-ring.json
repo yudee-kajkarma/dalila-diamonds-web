@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "title": "How to Sell a Diamond Ring Safely: 10 Steps | Dalila",
+    "description": "Learn how to sell a diamond ring safely: verify its report, check the buyer, protect the handover and confirm payment before releasing your ring.",
+    "canonical": "https://www.daliladiamonds.com/resources/how-to-sell-diamond-ring",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportCheck": "https://www.gia.edu/report-check-landing",
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaSellingJewellery": "https://www.gia.edu/gia-news-research-selling-jewellery"
+  },
+  "banner": {
+    "title": "How to Sell a Diamond Ring Safely",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "How to Sell a Diamond Ring Safely",
+    "imageAlt": "How to sell a diamond ring safely resource banner"
+  },
+  "hero": {
+    "title": "How to Sell a Diamond Ring Safely: A Step-by-Step Guide",
+    "paragraphs": [
+      "Selling a diamond ring safely requires more than finding someone willing to make an offer. You need to understand what the ring contains, verify its documentation, check the buyer, protect the ring during examination or transport and confirm payment before ownership is transferred.",
+      "The safest process begins before you hand the ring to anyone. Gather the available documents, take clear photographs and create a basic record of the ring’s condition. You can then request an initial valuation and decide whether a physical inspection is justified.",
+      "A legitimate buyer should be able to explain how the ring will be evaluated, whether any fees apply, how the item will be protected and what happens if you decide not to sell."
+    ],
+    "primaryButtonText": "START A PRIVATE DIAMOND-RING EVALUATION",
+    "primaryButtonHref": "#secure-evaluation-form"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/how-to-sell-diamond-ring-safely.webp",
+      "alt": "Natural diamond ring and documents prepared for a safe professional sale",
+      "width": 1600,
+      "height": 900
+    },
+    "safetySteps": {
+      "src": "/images/resources/diamond-ring-selling-safety-steps.webp",
+      "alt": "Safety steps for selling a natural diamond ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "transport": {
+      "src": "/images/resources/safe-diamond-ring-transport.webp",
+      "alt": "Secure packaging and documented transport for a diamond ring",
+      "width": 1400,
+      "height": 1000
+    },
+    "payment": {
+      "src": "/images/resources/diamond-ring-payment-verification.webp",
+      "alt": "Written offer receipt and verified payment for a diamond-ring sale",
+      "width": 1400,
+      "height": 1000
+    },
+    "checklistCover": {
+      "src": "/images/resources/diamond-seller-safety-checklist.webp",
+      "alt": "Diamond seller safety checklist for preparing and completing a secure sale",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      { "id": "quick-answer", "label": "Quick answer" },
+      { "id": "step-1", "label": "Step 1: Confirm ownership" },
+      { "id": "step-2", "label": "Step 2: Gather documents" },
+      { "id": "step-3", "label": "Step 3: Photograph the ring" },
+      { "id": "step-4", "label": "Step 4: Verify the report" },
+      { "id": "step-5", "label": "Step 5: Understand value" },
+      { "id": "step-6", "label": "Step 6: Choose a selling route" },
+      { "id": "step-7", "label": "Step 7: Verify the buyer" },
+      { "id": "step-8", "label": "Step 8: Online review" },
+      { "id": "step-9", "label": "Step 9: In-person evaluation" },
+      { "id": "step-10", "label": "Step 10: Secure transport" },
+      { "id": "step-11", "label": "Step 11: Review the offer" },
+      { "id": "step-12", "label": "Step 12: Confirm payment" },
+      { "id": "step-13", "label": "Step 13: Keep records" },
+      { "id": "safety-checklist", "label": "Safety checklist" },
+      { "id": "common-scams", "label": "Common scams" },
+      { "id": "clean-or-repair", "label": "Clean or repair?" },
+      { "id": "without-certificate", "label": "Sell without certificate" },
+      { "id": "inherited-ring", "label": "Inherited ring" },
+      { "id": "dalila-process", "label": "How Dalila helps" },
+      { "id": "frequently-asked-questions", "label": "FAQs" },
+      { "id": "sell-with-confidence", "label": "Sell with confidence" }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Quick Answer: What Is the Safest Way to Sell a Diamond Ring?",
+    "intro": "The safest way to sell a diamond ring is to work with an identifiable professional buyer, obtain clear written terms, keep a record of the ring’s condition and documentation and release the item only after the agreed payment has been independently confirmed.",
+    "beforeAcceptingIntro": "Before accepting an offer:",
+    "bullets": [
+      "Gather the grading report and ownership documents.",
+      "Record the ring’s condition with photographs.",
+      "Verify the diamond report.",
+      "Understand the difference between appraisal and resale value.",
+      "Research the buyer and its physical business details.",
+      "Ask for the evaluation process and fees in writing.",
+      "Use a secure appointment or fully documented insured transport.",
+      "Confirm what the offer includes.",
+      "Verify cleared payment independently.",
+      "Retain a receipt and transaction record."
+    ],
+    "closing": "Do not send a valuable ring to an unknown address, rely on a payment screenshot or accept pressure to decide immediately."
+  },
+  "steps": [
+    {
+      "id": "step-1",
+      "number": 1,
+      "title": "Confirm That You Have the Right to Sell the Ring",
+      "paragraphs": [
+        "Before requesting offers, establish that you are legally entitled to sell the ring. This is normally straightforward when you purchased it yourself, received it as a completed gift or inherited it through a settled estate.",
+        "The situation may require clarification when the ring is jointly owned, subject to an unresolved estate, connected to an insurance claim or involved in a separation or ownership dispute. A buyer may ask for identification and evidence of lawful ownership before completing the transaction."
+      ],
+      "documentsIntro": "Useful supporting documents can include:",
+      "bullets": [
+        "Original purchase receipt",
+        "Completed gift documentation, when available",
+        "Estate or inheritance paperwork",
+        "Previous insurance schedule",
+        "Grading report",
+        "Previous appraisal",
+        "Repair or service history",
+        "Brand documentation"
+      ],
+      "closing": [
+        "Not every seller will have all of these documents. Missing paperwork does not automatically prevent an evaluation, but the buyer may need additional information before completing a purchase.",
+        "Do not alter, conceal or invent information about the ring’s ownership, history, diamond origin or treatments."
+      ]
+    },
+    {
+      "id": "step-2",
+      "number": 2,
+      "title": "Gather the Ring’s Documents",
+      "paragraphs": [
+        "The more accurate information you can provide, the easier it becomes to obtain a meaningful initial review.",
+        "Start with the diamond grading report. Reports from laboratories such as GIA, HRD Antwerp and IGI may describe the diamond’s origin, shape, carat weight, colour, clarity, cut information, measurements, fluorescence and identifying characteristics.",
+        "A grading report is not the same as an appraisal. The report describes the diamond’s quality, while an appraisal assigns a monetary value for a particular purpose. GIA explains this distinction in its guidance on diamond grading reports and appraisals."
+      ],
+      "gatherIntro": "You should also gather:",
+      "bullets": [
+        "The original invoice",
+        "Previous insurance appraisals",
+        "Original box and packaging",
+        "Brand certificates",
+        "Repair and resizing records",
+        "Receipts for replacement stones",
+        "Any available provenance information"
+      ],
+      "closing": "Keep the original documents secure. For an initial online submission, a clear copy or photograph will usually be more appropriate than handing over the only original document."
+    },
+    {
+      "id": "step-3",
+      "number": 3,
+      "title": "Photograph and Record the Ring Before Evaluation",
+      "paragraphs": [
+        "Create a visual record of the ring before it is transported, shipped or handed to another person. These photographs help document its existing condition and identify the complete item.",
+        "Take photographs in clear, neutral light without beauty filters or digital alterations."
+      ],
+      "photoIntro": "Include:",
+      "bullets": [
+        "The complete ring from above",
+        "The ring from both sides",
+        "The inside of the band",
+        "Hallmarks and brand signatures",
+        "The centre diamond",
+        "Side stones",
+        "Visible chips, scratches or damage",
+        "The complete grading report",
+        "Original packaging, when relevant"
+      ],
+      "closing": [
+        "If the grading report contains a plotting diagram, it may show the location of clarity characteristics within the diamond. These characteristics can sometimes assist a specialist in matching the stone to the report, although proper report matching may still require magnification and professional examination.",
+        "Do not try to create a better appearance by aggressively polishing an antique or signed ring. Polishing, repair or dismantling can alter the condition and may remove details important to a specialist evaluation."
+      ]
+    },
+    {
+      "id": "step-4",
+      "number": 4,
+      "title": "Verify the Diamond’s Grading Report",
+      "paragraphs": [
+        "A grading report should be checked with the laboratory that issued it. For example, GIA Report Check allows users to confirm whether the information on a report matches the information held in GIA’s database.",
+        "HRD Antwerp and IGI also provide online report-verification services. Use the official laboratory website rather than an unfamiliar third-party report checker.",
+        "Report verification confirms that a report number and its details exist in the laboratory’s database. It does not, by itself, prove that the physical diamond in the ring is the same diamond described in the report."
+      ],
+      "compareIntro": "A buyer may still need to compare:",
+      "bullets": [
+        "Carat weight and measurements",
+        "Shape and proportions",
+        "Laser inscription, if present",
+        "Clarity characteristics",
+        "Colour and clarity appearance",
+        "Fluorescence",
+        "Polish and symmetry",
+        "Evidence of damage or alteration"
+      ],
+      "closing": "If the report number does not verify, stop and contact the issuing laboratory or a qualified specialist before continuing.",
+      "giaLinkText": "Verify a GIA report using GIA Report Check"
+    },
+    {
+      "id": "step-5",
+      "number": 5,
+      "title": "Understand What the Ring May Be Worth",
+      "paragraphs": [
+        "A safe sale is also an informed sale. Before accepting an offer, understand that the ring may have several different values."
+      ],
+      "table": {
+        "caption": "Types of diamond ring value",
+        "headers": ["Type of value", "What it means"],
+        "rows": [
+          ["Original retail price", "The amount originally paid to the retailer"],
+          ["Insurance replacement value", "An estimate of the cost of replacing the item through a retail channel"],
+          ["Fair-market appraisal", "An appraiser’s opinion of what a willing buyer may pay a willing seller"],
+          ["Resale value", "The amount the ring may achieve in the secondary market"],
+          ["Direct purchase offer", "The amount a specific buyer is prepared to pay after evaluation"]
+        ]
+      },
+      "afterTable": [
+        "The original purchase price can include retail services, tax, branding, design, setting, marketing and the retailer’s margin. These elements are not necessarily recovered when the ring is resold.",
+        "GIA describes fair-market value as an appraiser’s opinion of what a willing buyer would pay a willing seller. It is therefore different from an insurance replacement valuation.",
+        "The centre diamond, side stones, setting, precious metal, condition, brand and current demand may all influence an offer. Ask whether each part of the ring has been considered."
+      ],
+      "giaLinkText": "Read GIA’s guidance on selling gemstones and jewellery",
+      "ctaText": "USE THE DIAMOND VALUATION CALCULATOR",
+      "ctaHref": "/resources/diamond-valuation-calculator"
+    },
+    {
+      "id": "step-6",
+      "number": 6,
+      "title": "Choose a Selling Route That Fits the Ring",
+      "paragraphs": [
+        "The selling route should match both the ring and your priorities. A specialist natural-diamond buyer may provide a direct evaluation and purchase offer. Auction or consignment may be appropriate for some rare, antique or signed rings, while private selling requires the owner to manage the listing, security, payment and delivery.",
+        "This page focuses on conducting the transaction safely rather than comparing every sales channel.",
+        "Whichever method you choose, confirm whether the proposed amount is:"
+      ],
+      "bullets": [
+        "A direct purchase offer",
+        "An auction estimate",
+        "A consignment asking price",
+        "A trade-in credit",
+        "A loan value",
+        "An informal online estimate"
+      ],
+      "closing": "These figures are not interchangeable. An auction estimate or consignment price is not guaranteed money, while a direct offer may become payable after specified checks have been completed.",
+      "linkText": "Where Is the Best Place to Sell a Diamond Ring?",
+      "linkHref": "/resources/where-to-sell-diamond-ring"
+    },
+    {
+      "id": "step-7",
+      "number": 7,
+      "title": "Verify the Buyer Before Handing Over the Ring",
+      "paragraphs": [
+        "The buyer should be identifiable beyond a social-media account, telephone number or messaging profile.",
+        "Check the company’s business name, physical address, website, contact details and public business information. Reviews may provide useful context, but reviews alone should not replace verification of the actual business and transaction terms."
+      ],
+      "questionsIntro": "Ask the buyer:",
+      "questions": [
+        "Who will evaluate the ring?",
+        "Does the company purchase natural diamonds?",
+        "Will the centre stone be assessed separately?",
+        "Will the grading report be verified?",
+        "Are any fees charged?",
+        "Is the preliminary review without obligation?",
+        "Will the final offer be provided in writing?",
+        "How will the ring be protected during examination?",
+        "What happens if the offer is declined?",
+        "How and when will payment be made?",
+        "What identification or ownership evidence is required?"
+      ],
+      "cautionTitle": "Claims That Require Caution",
+      "cautionParagraphs": [
+        "An experienced buyer should be willing to explain the process clearly. Avoid anyone who guarantees a final price before receiving enough information about the diamond.",
+        "Phrases such as “highest price guaranteed,” “instant final valuation” or “no questions asked” should be treated carefully. A responsible buyer needs sufficient information to identify the diamond, assess its condition and confirm that the seller is entitled to complete the transaction.",
+        "Do not interpret a polished website as proof that every business detail or promise is genuine. Verify the company independently."
+      ]
+    },
+    {
+      "id": "step-8",
+      "number": 8,
+      "title": "Begin With a Preliminary Online Review",
+      "paragraphs": [
+        "An online submission allows the buyer to review the basic information before the ring is moved. This can reduce unnecessary travel and help determine whether the ring fits the buyer’s purchasing criteria."
+      ],
+      "submissionIntro": "A useful preliminary submission includes:",
+      "bullets": [
+        "Diamond shape",
+        "Approximate carat weight",
+        "Colour and clarity, when known",
+        "Grading laboratory",
+        "Report number",
+        "Clear photographs",
+        "Jewellery metal",
+        "Brand or designer, if applicable",
+        "Known repairs or damage",
+        "Seller’s country",
+        "Preferred evaluation method"
+      ],
+      "closing": [
+        "Do not include unnecessary sensitive information in the first enquiry. The buyer does not need passwords, banking credentials or unrestricted copies of every personal document simply to look at photographs.",
+        "A preliminary valuation should be described as indicative. Photographs cannot confirm every feature of the diamond or guarantee a final purchase price."
+      ],
+      "ctaText": "SUBMIT MY RING FOR A PRIVATE REVIEW",
+      "ctaHref": "#secure-evaluation-form"
+    },
+    {
+      "id": "step-9",
+      "number": 9,
+      "title": "Protect the Ring During an In-Person Evaluation",
+      "paragraphs": [
+        "A private appointment at an established business address is generally preferable to meeting an unknown buyer in a hotel, vehicle, home or public café.",
+        "Confirm the appointment details in advance. Bring the ring, relevant documentation and identification in a secure, discreet container. Avoid displaying the item before reaching the evaluation area."
+      ],
+      "appointmentIntro": "At the appointment:",
+      "bullets": [
+        "Ask who will handle the ring.",
+        "Confirm whether the examination will take place in your presence.",
+        "Request a receipt if the ring must remain with the buyer.",
+        "Ensure the receipt accurately describes the item.",
+        "Record the report number and visible identifying information.",
+        "Ask before the diamond is removed from its setting.",
+        "Confirm who is responsible if the item is lost or damaged.",
+        "Keep copies of every document you sign."
+      ],
+      "closing": [
+        "If the ring needs to leave the premises for laboratory testing, certification or another specialist examination, request written terms explaining where it will go, how it will be transported, how it will be insured and when it will be returned.",
+        "Never sign a transfer-of-ownership document unless you understand that you are completing the sale."
+      ]
+    },
+    {
+      "id": "step-10",
+      "number": 10,
+      "title": "Use Secure and Documented Transport",
+      "paragraphs": [
+        "When an in-person appointment is not practical, some buyers may offer a shipping or collection process. Do not send a valuable diamond ring until you understand the complete transport arrangement."
+      ],
+      "termsIntro": "The written terms should identify:",
+      "bullets": [
+        "The sender and recipient",
+        "The correct delivery address",
+        "The transport provider",
+        "Tracking requirements",
+        "Signature requirements",
+        "The declared value",
+        "The scope of insurance",
+        "Insurance exclusions",
+        "Packaging requirements",
+        "Responsibility during transit",
+        "What happens if the shipment is delayed or lost",
+        "How the ring is returned if no sale occurs"
+      ],
+      "closing": [
+        "The outer packaging should not advertise that it contains jewellery, but every declaration made to the transport provider or insurer must remain accurate. Use secure inner packaging that prevents the ring box from moving and retain photographs of the item and packaging before dispatch.",
+        "A tracking number alone does not prove that a shipment is insured for its full value. Confirm the actual insurance limit and exclusions in writing.",
+        "Do not ship to an address received only through an unverified message. Confirm the address through the buyer’s official contact details."
+      ]
+    },
+    {
+      "id": "step-11",
+      "number": 11,
+      "title": "Review the Examination and Written Offer",
+      "paragraphs": [
+        "After inspecting the ring, the buyer should explain whether the offer covers the entire ring or specific components."
+      ],
+      "offerIntro": "The offer may consider:",
+      "bullets": [
+        "Natural or laboratory-grown origin",
+        "Centre-diamond quality",
+        "Grading report",
+        "Damage or condition",
+        "Side diamonds",
+        "Precious-metal content",
+        "Brand or designer",
+        "Antique or collector interest",
+        "Current purchasing demand",
+        "Necessary recutting or certification",
+        "Buyer’s intended resale channel"
+      ],
+      "closing": [
+        "Ask for the offer in writing. The document should identify the item and show the amount you will receive after any agreed deductions.",
+        "Do not compare a direct net offer with an auction estimate or consignment asking price without accounting for commission, fees, sale probability and payment timing.",
+        "If an online estimate changes after inspection, ask which verified characteristic caused the change. Legitimate reasons can include a mismatch with the submitted information, damage, an incorrect report, undisclosed treatment or confirmation that the diamond is laboratory-grown rather than natural.",
+        "The buyer should be able to explain the adjustment."
+      ]
+    },
+    {
+      "id": "step-12",
+      "number": 12,
+      "title": "Confirm Payment Before Releasing the Ring",
+      "paragraphs": [
+        "Agree on the payment method before signing the sale documents. The safest method depends on the transaction and the parties involved, but payment must be independently confirmed.",
+        "A screenshot, email, text message or buyer-generated receipt is not proof that funds have cleared. Check payment through your own bank or financial provider using a trusted login method."
+      ],
+      "confirmIntro": "Before completing the transaction, confirm:",
+      "bullets": [
+        "The agreed amount",
+        "The payment method",
+        "The recipient account",
+        "Any transaction charges",
+        "Expected processing time",
+        "Whether the payment can be reversed",
+        "When ownership transfers",
+        "When the ring will be released"
+      ],
+      "closing": [
+        "Do not share banking passwords, security codes or remote access to your device. A legitimate buyer does not need these details to pay you.",
+        "If the payment has not cleared according to the agreed terms, do not release the ring merely because the buyer says the transfer is pending."
+      ]
+    },
+    {
+      "id": "step-13",
+      "number": 13,
+      "title": "Keep a Complete Transaction Record",
+      "paragraphs": [
+        "After the sale, retain a copy of:"
+      ],
+      "bullets": [
+        "The final written offer",
+        "The purchase agreement",
+        "The item description",
+        "The buyer’s details",
+        "The grading-report number",
+        "Payment confirmation",
+        "Collection or delivery record",
+        "Correspondence about the transaction"
+      ],
+      "closing": [
+        "The final receipt should identify what was sold and the date of transfer. If the setting and diamond were valued or purchased separately, the paperwork should make this clear.",
+        "Do not cancel insurance coverage until the sale has been completed, payment has cleared and responsibility for the item has transferred. Contact the insurer if you are unsure when coverage should end."
+      ]
+    }
+  ],
+  "form": {
+    "id": "secure-evaluation-form",
+    "leadSource": "how_to_sell_diamond_ring_safely",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP and PDF",
+    "title": "Start Your Secure Diamond-Ring Evaluation",
+    "subtitle": "Submit the details you know and upload clear photographs. A Dalila specialist will contact you using your preferred method.",
+    "ringTypes": [
+      "Natural-diamond engagement ring",
+      "Other natural-diamond ring",
+      "Antique or vintage ring",
+      "Branded or signed ring",
+      "Laboratory-grown diamond ring",
+      "I am not sure"
+    ],
+    "reportOptions": ["GIA", "HRD Antwerp", "IGI", "Another laboratory", "No report", "I am not sure"],
+    "shapes": ["Round", "Oval", "Cushion", "Emerald", "Radiant", "Pear", "Princess", "Marquise", "Asscher", "Heart", "Other", "Unknown"],
+    "contactMethods": ["Email", "Telephone", "Either email or telephone"],
+    "evaluationPreferences": ["Online review only", "Private Antwerp appointment", "Not sure yet"],
+    "consentText": "I agree that Dalila Diamonds may contact me about this evaluation request. I understand that an online review is preliminary and that a final offer may require physical inspection, report verification and ownership checks.",
+    "privacyLinkText": "privacy policy",
+    "privacyHref": "/contact",
+    "submitButton": "Start My Secure Evaluation",
+    "submittingButton": "Submitting…",
+    "successMessage": "Thank you. Your ring details have been submitted for review. A member of the Dalila Diamonds team will contact you shortly.",
+    "errorMessage": "We could not submit your request. Please check the required fields and try again.",
+    "labels": {
+      "ringType": "What type of ring are you selling?",
+      "reportStatus": "Do you have a grading report?",
+      "reportNumber": "Report number",
+      "caratWeight": "Approximate carat weight",
+      "shape": "Diamond shape",
+      "uploadPhotos": "Upload photographs",
+      "uploadReport": "Upload grading report",
+      "dragDrop": "Drag and drop files here, or choose files",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "country": "Country",
+      "contactMethod": "Preferred contact method",
+      "evaluationPreference": "Online review or Antwerp appointment",
+      "additionalInfo": "Additional information",
+      "optional": "Optional"
+    },
+    "validation": {
+      "ringTypeRequired": "Please select what type of ring you are selling.",
+      "reportRequired": "Please select your grading report status.",
+      "nameRequired": "Please enter your full name.",
+      "contactRequired": "Please provide an email address or telephone number.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm the consent statement before submitting."
+    }
+  },
+  "checklistForm": {
+    "leadSource": "diamond_seller_safety_checklist",
+    "title": "Email Me the Diamond Seller Safety Checklist",
+    "subtitle": "Receive a downloadable checklist covering documentation, buyer verification, payment confirmation and secure handover.",
+    "submitButton": "Send Me the Checklist",
+    "submittingButton": "Sending…",
+    "successMessage": "Thank you. We will email the diamond seller safety checklist to you shortly.",
+    "errorMessage": "We could not process your request. Please check the fields and try again.",
+    "consentText": "I agree to receive the checklist and related follow-up information from Dalila Diamonds.",
+    "labels": {
+      "firstName": "First name",
+      "email": "Email address",
+      "country": "Country"
+    },
+    "validation": {
+      "firstNameRequired": "Please enter your first name.",
+      "emailRequired": "Please enter your email address.",
+      "countryRequired": "Please enter your country.",
+      "consentRequired": "Please confirm consent before submitting."
+    }
+  },
+  "safetyChecklist": {
+    "id": "safety-checklist",
+    "title": "Diamond-Ring Selling Safety Checklist",
+    "intro": "Use this checklist before completing the sale.",
+    "sections": [
+      {
+        "title": "Ring and Documentation",
+        "items": [
+          "I have photographed the complete ring.",
+          "I have copied the grading report.",
+          "I have verified the report through the official laboratory.",
+          "I have recorded existing damage or repairs.",
+          "I have gathered the available ownership documents.",
+          "I have not removed the diamond myself."
+        ]
+      },
+      {
+        "title": "Buyer Verification",
+        "items": [
+          "I have confirmed the buyer’s business name and address.",
+          "I understand who will evaluate the ring.",
+          "I know whether any fees apply.",
+          "I understand what happens if I decline the offer.",
+          "I know how the ring will be protected.",
+          "I have received the important terms in writing."
+        ]
+      },
+      {
+        "title": "Offer and Payment",
+        "items": [
+          "I understand whether the amount is an offer, estimate or consignment price.",
+          "I know whether the offer includes the setting and side stones.",
+          "I understand every deduction.",
+          "I have confirmed the payment method.",
+          "I will verify cleared payment independently.",
+          "I will keep a complete receipt and transaction record."
+        ]
+      }
+    ]
+  },
+  "commonScams": {
+    "id": "common-scams",
+    "title": "Common Diamond-Selling Scams and Warning Signs",
+    "intro": "Sellers of valuable jewellery can be targeted by fake buyers, payment scams and misleading valuation practices. The safest response to pressure or uncertainty is to pause.",
+    "items": [
+      {
+        "title": "Fake Payment Confirmation",
+        "text": "The seller receives a screenshot or email claiming payment has been sent. The message may imitate a bank or payment provider. Check your account independently. Do not follow a login link supplied by the buyer and do not release the ring until the payment has cleared according to the agreed terms."
+      },
+      {
+        "title": "Overpayment Scam",
+        "text": "The buyer claims to have paid too much and asks the seller to refund the difference. The original payment may later fail or be reversed. Do not send a refund until your bank or payment provider has independently confirmed the transaction and advised you how to proceed."
+      },
+      {
+        "title": "Address Substitution",
+        "text": "A supposed buyer changes the delivery address through a private message after the transaction has been arranged. Confirm changes through the buyer’s official business contact information and ensure that the new address remains covered by the transport and insurance terms."
+      },
+      {
+        "title": "Pressure to Decide Immediately",
+        "text": "A buyer claims that the offer will disappear within minutes or discourages you from reading the documents. Diamond-market offers may have a validity period, but a legitimate time limit should be clearly explained. Do not sign under artificial pressure."
+      },
+      {
+        "title": "Unexplained Price Reduction",
+        "text": "A buyer gives a high preliminary estimate and sharply reduces it after receiving the ring without identifying what changed. Ask for the verified reason in writing. If the explanation is unclear, decline the offer and request the ring’s return under the agreed terms."
+      },
+      {
+        "title": "Uninsured Shipping Claim",
+        "text": "A buyer describes a shipment as “fully insured” without stating the actual value limit, exclusions or responsible party. Ask for written evidence of coverage. Do not assume that standard parcel compensation covers a high-value diamond ring."
+      },
+      {
+        "title": "Substitution Concern",
+        "text": "The seller worries that the diamond or ring may be replaced during an examination. Photograph the ring, record the grading-report number, use a professional business and ask how the diamond will be matched to its report. If the item must remain with the buyer, obtain a detailed receipt."
+      }
+    ]
+  },
+  "cleanOrRepair": {
+    "id": "clean-or-repair",
+    "title": "Should I Clean or Repair the Ring Before Selling?",
+    "paragraphs": [
+      "A gentle clean may make it easier to photograph the ring, but aggressive cleaning, polishing or repair is not always advisable.",
+      "Antique patina, original finishes, hallmarks and construction details can matter to a specialist. Repairing a damaged setting without knowing whether the buyer wants the complete ring may also add cost that is not recovered in the offer.",
+      "Do not use sharp tools to clean behind the diamond and do not test the setting by pushing or twisting the stone. If the diamond appears loose, stop wearing the ring and tell the buyer before transport or examination.",
+      "When in doubt, submit the ring in its present condition and ask whether any cleaning, repair or laboratory work is recommended."
+    ]
+  },
+  "withoutCertificate": {
+    "id": "without-certificate",
+    "title": "Can I Sell a Diamond Ring Without a Certificate?",
+    "paragraphs": [
+      "Yes. A missing certificate does not automatically prevent a diamond ring from being sold.",
+      "Begin by providing clear photographs, the approximate purchase date and any receipts, appraisals or insurance records available. A specialist may be able to conduct an initial review and explain whether physical testing or a new laboratory report would be worthwhile."
+    ],
+    "confirmIntro": "The final offer may depend on confirmation of:",
+    "bullets": [
+      "Whether the stone is a diamond",
+      "Whether it is natural or laboratory-grown",
+      "Approximate carat weight",
+      "Colour and clarity",
+      "Treatments",
+      "Damage",
+      "Overall condition"
+    ],
+    "closing": "Do not invent grades when you do not know them. Select “unknown” in the form and allow the buyer to explain the next step.",
+    "ctaText": "VALUE MY DIAMOND RING WITHOUT A CERTIFICATE",
+    "ctaHref": "/resources/sell-diamond-without-certificate"
+  },
+  "inheritedRing": {
+    "id": "inherited-ring",
+    "title": "Can I Safely Sell an Inherited Diamond Ring?",
+    "paragraphs": [
+      "An inherited ring can be evaluated in the same way as another diamond ring, but the seller may need to establish lawful ownership.",
+      "Gather estate documents, old appraisals, receipts, family records, insurance schedules and the original grading report where available. Avoid changing the ring before its age, design and possible brand significance have been assessed.",
+      "Some inherited rings are worth more as complete antique or signed jewellery. Others derive most of their commercial value from the centre diamond and precious metal. A specialist assessment can help determine which situation applies.",
+      "If several people share ownership through an estate, confirm that the person arranging the sale has authority to do so."
+    ]
+  },
+  "dalilaProcess": {
+    "id": "dalila-process",
+    "title": "How Dalila Helps You Begin the Process Safely",
+    "paragraphs": [
+      "Dalila Diamonds allows sellers to begin with an online submission rather than immediately handing over the ring.",
+      "You can provide the available grading information, upload photographs and explain whether the ring has a certificate. Dalila can then review whether the item fits its purchasing criteria and whether a physical Antwerp evaluation is appropriate."
+    ],
+    "stepsTitle": "The Process",
+    "steps": [
+      "Submit the ring details and photographs.",
+      "Receive an initial private review.",
+      "Provide any additional documentation requested.",
+      "Arrange physical verification in Antwerp when required.",
+      "Receive an offer if the ring meets Dalila’s purchasing criteria.",
+      "Decide whether you want to proceed."
+    ],
+    "closing": "Submitting a ring for review should not require the seller to accept an offer.",
+    "ctaText": "START MY SECURE DIAMOND-RING EVALUATION",
+    "ctaHref": "#secure-evaluation-form"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is the safest way to sell a diamond ring?",
+        "answer": "The safest process is to verify the buyer, document the ring, understand the valuation, use secure transport or an established business location and confirm cleared payment before releasing the item."
+      },
+      {
+        "question": "How can I sell my diamond ring without getting scammed?",
+        "answer": "Avoid anonymous buyers, payment screenshots, uninsured shipping and pressure to decide immediately. Verify the buyer’s business details and obtain written terms before handing over the ring."
+      },
+      {
+        "question": "Do I need an appraisal before selling my diamond ring?",
+        "answer": "Not always. An independent fair-market appraisal can help you understand the item, but it is not the same as a purchase offer. A specialist buyer may also begin with the grading report and photographs."
+      },
+      {
+        "question": "Is a diamond grading report the same as an appraisal?",
+        "answer": "No. A grading report describes characteristics such as carat weight, colour, clarity and cut. An appraisal assigns a monetary value for a particular purpose."
+      },
+      {
+        "question": "Can I sell a diamond ring without a certificate?",
+        "answer": "Yes. A buyer can begin with photographs and available documents, but testing or a new grading report may be needed before a final offer is made."
+      },
+      {
+        "question": "Should I remove the diamond from its setting before selling?",
+        "answer": "No. Do not remove the diamond yourself. Allow a specialist to review the complete ring and explain whether removal is necessary."
+      },
+      {
+        "question": "Is it safe to sell a diamond ring online?",
+        "answer": "An online submission can be a safe way to begin when the buyer is verifiable and the website uses secure document handling. Physical shipment requires written transport, insurance and return terms."
+      },
+      {
+        "question": "How should I ship a diamond ring to a buyer?",
+        "answer": "Use only a documented shipping or collection process with tracking, signature requirements and insurance appropriate to the ring’s value. Confirm the address and responsibility for loss before sending it."
+      },
+      {
+        "question": "How do I know whether a payment is genuine?",
+        "answer": "Check the payment independently through your own bank or financial provider. Do not rely on screenshots, emails or links supplied by the buyer."
+      },
+      {
+        "question": "Can I sell an inherited diamond ring?",
+        "answer": "Yes, provided that you have the right to sell it. Estate documents, receipts, grading reports and previous appraisals can help establish ownership and identify the ring."
+      },
+      {
+        "question": "Should I accept the first diamond-ring offer?",
+        "answer": "You are not required to accept the first offer. Make sure you understand what has been valued, whether deductions apply and how the offer compares with other selling methods."
+      },
+      {
+        "question": "Can an online estimate change after physical inspection?",
+        "answer": "Yes. An estimate may change if the physical diamond differs from the submitted information, has damage or treatment, does not match the report or is laboratory-grown rather than natural."
+      },
+      {
+        "question": "Do I have to sell after Dalila evaluates my ring?",
+        "answer": "No. Requesting an evaluation does not require you to accept an offer."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "sell-with-confidence",
+    "title": "Sell Your Diamond Ring With Greater Confidence",
+    "paragraphs": [
+      "A safe diamond-ring sale is based on documentation, transparency and control. Understand what you own, verify the buyer, protect the ring during every transfer and confirm payment before completing the transaction.",
+      "If you own a natural-diamond ring and would like to begin with a confidential review, submit the available report information and photographs to Dalila Diamonds."
+    ],
+    "primaryButtonText": "REQUEST MY PRIVATE DIAMOND-RING EVALUATION",
+    "primaryButtonHref": "#secure-evaluation-form",
+    "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": { "href": "/sud", "text": "sell your diamond securely in Antwerp" },
+    "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "diamond valuation calculator" },
+    "whereToSell": { "href": "/resources/where-to-sell-diamond-ring", "text": "best place to sell a diamond ring" },
+    "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "verify a GIA, HRD or IGI report" },
+    "withoutCert": { "href": "/resources/sell-diamond-without-certificate", "text": "sell a diamond without a certificate" }
+  },
+  "howToSteps": [
+    { "position": 1, "name": "Confirm ownership", "text": "Confirm that you have the right to sell the ring and gather any available ownership documents." },
+    { "position": 2, "name": "Gather the ring's documents", "text": "Collect the grading report, receipt, appraisal, brand documents and repair records." },
+    { "position": 3, "name": "Photograph the ring", "text": "Create clear photographs of the complete ring, diamond, hallmarks, signatures and existing condition." },
+    { "position": 4, "name": "Verify the grading report", "text": "Check the report number through the issuing laboratory's official verification system." },
+    { "position": 5, "name": "Understand the value", "text": "Distinguish between original retail price, insurance appraisal, fair-market value, resale value and a direct purchase offer." },
+    { "position": 6, "name": "Choose a selling route", "text": "Choose a specialist buyer, auction, consignment or private sale according to the ring and your priorities." },
+    { "position": 7, "name": "Verify the buyer", "text": "Confirm the buyer's identity, business address, evaluation process, fees and payment terms." },
+    { "position": 8, "name": "Request a preliminary review", "text": "Submit the grading information and photographs before transporting or handing over the ring." },
+    { "position": 9, "name": "Protect the handover", "text": "Use an established business location or documented transport with appropriate insurance and tracking." },
+    { "position": 10, "name": "Review the written offer", "text": "Confirm what the offer includes, which deductions apply and why the final amount may differ from an estimate." },
+    { "position": 11, "name": "Confirm payment", "text": "Verify cleared payment independently before transferring ownership or releasing the ring." },
+    { "position": 12, "name": "Keep a transaction record", "text": "Retain the offer, purchase agreement, item description, buyer details and payment confirmation." }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "title": "Valutazione dei diamanti Anversa: costi, processo e opzioni",
+    "description": "Scopri come funziona la valutazione dei diamanti ad Anversa, quanto può costare e se hai bisogno di una valutazione, di un rapporto di valutazione o di un'offerta di acquisto per il tuo diamante.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-appraisal-antwerp-belgium",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaAppraisalAssociations": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaAppraisalSelection": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaJewelleryAnalysis": "https://www.gia.edu/gem-lab-service/jewelry",
+    "hrdAntwerp": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Valutazione dei diamanti ad Anversa",
+    "breadcrumbHome": "Casa",
+    "breadcrumbResources": "Risorse",
+    "breadcrumbCurrent": "Valutazione dei diamanti ad Anversa",
+    "imageAlt": "Valutazione dei diamanti nel banner delle risorse di Anversa"
+  },
+  "hero": {
+    "title": "Valutazione dei diamanti ad Anversa: costi, processo e opzioni",
+    "paragraphs": [
+      "Una valutazione di diamanti fornisce un’opinione sul valore monetario di un diamante o di un gioiello per uno scopo dichiarato. Questo scopo è importante perché una stima assicurativa, una valutazione immobiliare e una valutazione di rivendita possono produrre cifre diverse per lo stesso diamante.",
+      "Prima di organizzare una valutazione di diamanti ad Anversa, decidi per cosa ti serve la valutazione. Se desideri documentazione assicurativa, rendicontazione dell'eredità o un parere formale scritto, potresti aver bisogno di un perito qualificato indipendente. Se hai bisogno di conferma dell’identità e della qualità del diamante, potresti richiedere un rapporto di classificazione da un laboratorio gemmologico. Se la tua intenzione è vendere, potresti invece cercare la valutazione e l’offerta di acquisto di un acquirente.",
+      "Dalila Diamonds può recensire i diamanti naturali per un potenziale acquisto, ma una valutazione di acquisto non deve essere presentata come una valutazione assicurativa o legale indipendente."
+    ],
+    "primaryButtonText": "RACCONTACI COSA TI SERVE",
+    "primaryButtonHref": "#purpose-selector"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "alt": "Diamante naturale in fase di valutazione professionale ad Anversa",
+      "width": 1600,
+      "height": 900
+    },
+    "comparison": {
+      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "alt": "Differenza tra rapporto di valutazione del diamante e offerta di acquisto",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/diamond-appraisal-process.webp",
+      "alt": "Passaggi seguiti durante una valutazione professionale del diamante",
+      "width": 1400,
+      "height": 1000
+    },
+    "costFactors": {
+      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "alt": "Fattori che influenzano il costo di una valutazione di diamanti ad Anversa",
+      "width": 1400,
+      "height": 1000
+    },
+    "purposeTypes": {
+      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "alt": "Tipi di valutazione dei diamanti per la vendita di successioni assicurative e certificazione",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Panoramica della guida",
+    "items": [
+      {
+        "id": "purpose-selector",
+        "label": "Di quale valutazione hai bisogno?"
+      },
+      {
+        "id": "quick-answer",
+        "label": "Risposta rapida"
+      },
+      {
+        "id": "appraisal-vs-grading",
+        "label": "Valutazione vs valutazione vs offerta"
+      },
+      {
+        "id": "gia-appraisals",
+        "label": "Il GIA valuta i diamanti?"
+      },
+      {
+        "id": "hrd-antwerp",
+        "label": "Cosa offre HRD Anversa"
+      },
+      {
+        "id": "appraisal-cost",
+        "label": "Costo di stima ad Anversa"
+      },
+      {
+        "id": "free-appraisal",
+        "label": "Valutazione gratuita dei diamanti"
+      },
+      {
+        "id": "appraisal-types",
+        "label": "Tipi di valutazione necessari"
+      },
+      {
+        "id": "appraisal-process",
+        "label": "Cosa succede durante la valutazione"
+      },
+      {
+        "id": "mounted-diamond",
+        "label": "Precisione del diamante montato"
+      },
+      {
+        "id": "written-appraisal",
+        "label": "Contenuti della valutazione scritta"
+      },
+      {
+        "id": "choose-appraiser",
+        "label": "Scegli un perito"
+      },
+      {
+        "id": "what-to-bring",
+        "label": "Cosa portare"
+      },
+      {
+        "id": "how-long",
+        "label": "Quanto tempo ci vuole"
+      },
+      {
+        "id": "online-appraisal",
+        "label": "Affidabilità della valutazione online"
+      },
+      {
+        "id": "before-selling",
+        "label": "Valutazione prima della vendita"
+      },
+      {
+        "id": "dalila-evaluation",
+        "label": "Valutazione di Dalila in vendita"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Domande frequenti"
+      },
+      {
+        "id": "find-right-valuation",
+        "label": "Trova la giusta valutazione"
+      }
+    ]
+  },
+  "purposeSelector": {
+    "id": "purpose-selector",
+    "title": "Di quale tipo di valutazione del diamante hai bisogno?",
+    "intro": "Utilizza questo selettore per indirizzarti verso il passaggio successivo corretto.",
+    "options": [
+      {
+        "id": "sell",
+        "title": "Voglio vendere il mio diamante",
+        "description": "Probabilmente hai bisogno della valutazione dell’acquirente piuttosto che di una perizia assicurativa. Dalila può esaminare il rapporto di valutazione e le fotografie disponibili prima di determinare se una valutazione fisica ad Anversa è appropriata.",
+        "ctaText": "Richiedi una valutazione di acquisto privato",
+        "ctaHref": "#diamond-evaluation-form",
+        "formPurpose": "I want to sell my diamond"
+      },
+      {
+        "id": "insurance",
+        "title": "Ho bisogno di una valutazione per l'assicurazione",
+        "description": "Normalmente è necessaria una valutazione scritta indipendente basata sul valore di sostituzione. Chiedi al tuo assicuratore quali informazioni, data di valutazione e qualifiche di perito richiede prima di prenotare il servizio.",
+        "ctaText": "Scopri cosa dovrebbe includere una valutazione assicurativa",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an insurance appraisal"
+      },
+      {
+        "id": "inheritance",
+        "title": "Ho bisogno di una valutazione per fini ereditari, patrimoniali o legali",
+        "description": "La base di valutazione richiesta può dipendere dallo scopo e dalla consulenza professionale pertinente. Chiedere all'avvocato, al notaio, all'assicuratore, al contabile o all'autorità coinvolta che tipo di rapporto e data di valutazione sono richiesti.",
+        "ctaText": "Prepararsi per una valutazione indipendente",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an inheritance or estate valuation"
+      },
+      {
+        "id": "certificate",
+        "title": "Ho bisogno di un certificato di diamante o di un rapporto di classificazione",
+        "description": "Hai bisogno di un laboratorio gemmologico piuttosto che di una stima monetaria. Un laboratorio può valutare se il diamante è naturale o coltivato in laboratorio e descrivere caratteristiche come peso in carati, colore, purezza e taglio.",
+        "ctaText": "Comprendere i rapporti sulla classificazione dei diamanti",
+        "ctaHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "approximate",
+        "title": "Voglio solo sapere quanto può valere il mio diamante",
+        "description": "Inizia con una richiesta di valutazione online. Invia le informazioni di valutazione e le fotografie disponibili, comprendendo che potrebbe essere necessaria un'ispezione fisica per un risultato affidabile.",
+        "ctaText": "Utilizza il calcolatore di valutazione dei diamanti",
+        "ctaHref": "/resources/diamond-valuation-calculator"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Risposta rapida: cos'è una valutazione del diamante?",
+    "paragraphs": [
+      "Una valutazione del diamante è un'opinione documentata del valore preparata per uno scopo specifico e una data di validità. Dovrebbe identificare l'oggetto, descrivere il diamante e i gioielli, spiegare il tipo di valore riportato e indicare come si è giunti alla conclusione."
+    ],
+    "considerationsIntro": "Una valutazione può considerare:",
+    "considerations": [
+      "Se il diamante è naturale o coltivato in laboratorio",
+      "Peso in carati",
+      "Colore e chiarezza",
+      "Qualità del taglio e proporzioni",
+      "Forma",
+      "Fluorescenza",
+      "Trattamenti",
+      "Condizione",
+      "Gioielleria in metallo e costruzione",
+      "Marchio o designer",
+      "Informazioni attuali sul mercato",
+      "La destinazione d'uso della stima"
+    ],
+    "closing": "Una valutazione non è automaticamente una proposta d'acquisto. Inoltre, non corrisponde necessariamente all'importo originariamente pagato dal proprietario o all'importo che un assicuratore pagherebbe in contanti."
+  },
+  "appraisalVsGrading": {
+    "id": "appraisal-vs-grading",
+    "title": "Valutazione del diamante, rapporto di classificazione e offerta d'acquisto: qual è la differenza?",
+    "intro": [
+      "Questi tre documenti o valutazioni vengono spesso confusi, ma rispondono a domande diverse."
+    ],
+    "table": {
+      "caption": "Confronto tra valutazione del diamante, rapporto di classificazione e offerta di acquisto",
+      "headers": [
+        "Valutazione",
+        "Risposta alla domanda principale",
+        "Solitamente fornito da",
+        "Include un valore monetario?"
+      ],
+      "rows": [
+        [
+          "Rapporto sulla classificazione dei diamanti",
+          "Cos’è il diamante e quali sono le sue caratteristiche qualitative?",
+          "Laboratorio gemmologico",
+          "Normalmente no"
+        ],
+        [
+          "Valutazione indipendente",
+          "Quanto vale l'oggetto per lo scopo e la data dichiarati?",
+          "Perito indipendente qualificato",
+          "SÌ"
+        ],
+        [
+          "Valutazione assicurativa",
+          "Quanto può costare sostituire l'articolo attraverso il mercato di riferimento?",
+          "Perito qualificato",
+          "SÌ"
+        ],
+        [
+          "Valutazione dell'acquirente",
+          "Quanto è disposto a pagare l'acquirente per l'oggetto?",
+          "Acquirente di diamanti o gioielli",
+          "Sì, come offerta o indicazione preliminare"
+        ],
+        [
+          "Stima dell'asta",
+          "Entro quale intervallo potrebbero verificarsi le offerte?",
+          "Casa d'aste",
+          "Un intervallo stimato, non un risultato garantito"
+        ],
+        [
+          "Stima della spedizione",
+          "A quale prezzo potrebbe essere commercializzato l'articolo?",
+          "Gioielliere o rivenditore",
+          "Una raccomandazione sul prezzo richiesto"
+        ]
+      ]
+    },
+    "giaLinkText": "La spiegazione del GIA delle valutazioni e dei rapporti di valutazione",
+    "closing": "Questa distinzione è importante quando si confrontano le cifre. Un valore di sostituzione assicurativo elevato non dovrebbe essere confrontato direttamente con l’offerta di acquisto netto di un acquirente."
+  },
+  "giaAppraisals": {
+    "id": "gia-appraisals",
+    "title": "Il GIA fornisce valutazioni dei diamanti?",
+    "paragraphs": [
+      "Il GIA non fornisce valori monetari stimati per diamanti o gioielli. Fornisce rapporti di laboratorio che identificano e descrivono diamanti e pietre preziose.",
+      "GIA afferma che la valutazione monetaria dovrebbe essere eseguita da un perito indipendente e che una valutazione dovrebbe contenere un'analisi della qualità, una descrizione e una valutazione dell'oggetto. GIA fornisce anche informazioni sulle associazioni di valutazione professionale, ma non consiglia singoli periti."
+    ],
+    "giaAssociationsLinkText": "Guida dell’associazione di valutazione del GIA",
+    "educationParagraph": "Una persona può aver completato la formazione gemmologica del GIA, ma ciò non significa che il GIA abbia certificato quella persona come perito. La formazione gemmologica e la formazione in materia di valutazione sono aree di competenza correlate ma diverse.",
+    "giaAppraisalIntro": "Se qualcuno descrive un servizio come una “valutazione GIA”, chiedi se intende:",
+    "giaAppraisalBullets": [
+      "Un diamante con un rapporto di classificazione GIA",
+      "Un perito che ha completato l'istruzione GIA",
+      "Una valutazione monetaria che utilizza le informazioni di un rapporto GIA"
+    ],
+    "closing": "La formulazione non dovrebbe implicare che il GIA abbia assegnato il valore monetario quando non lo ha fatto."
+  },
+  "hrdAntwerp": {
+    "id": "hrd-antwerp",
+    "title": "Cosa offre HRD Anversa?",
+    "paragraphs": [
+      "HRD Anversa fornisce esami di laboratorio e servizi di classificazione per diamanti e gioielli. I suoi rapporti sulla classificazione dei diamanti naturali descrivono caratteristiche tra cui carato, colore, purezza e taglio.",
+      "HRD Antwerp offre anche rapporti sui gioielli che possono descrivere il gioiello completo, i diamanti che contiene e i metalli preziosi utilizzati. HRD afferma che i suoi rapporti sui gioielli possono essere utilizzati per scopi quali assicurazioni, eredità o acquisto e possono supportare la determinazione del valore di mercato di un gioiello."
+    ],
+    "hrdLinkText": "Servizi ufficiali di classificazione e reportistica dei gioielli di HRD Anversa",
+    "closing": "Un rapporto di laboratorio è una documentazione preziosa, ma il servizio esatto dovrebbe essere selezionato in base allo scopo del proprietario. I prezzi del laboratorio possono variare in base al tipo di rapporto, al peso in carati, alla complessità del gioiello e ai servizi aggiuntivi. Le tariffe attuali dovrebbero essere confermate direttamente dall’ultimo listino prezzi di Anversa del laboratorio."
+  },
+  "appraisalCost": {
+    "id": "appraisal-cost",
+    "title": "Quanto costa una valutazione di diamanti ad Anversa?",
+    "paragraphs": [
+      "Non esiste un prezzo standard unico per ogni valutazione di diamanti ad Anversa. Il costo dipende dal tipo di rapporto, dalla complessità dell'oggetto, dal metodo di addebito del perito e dall'eventuale necessità di lavoro di laboratorio.",
+      "Alcuni fornitori pubblicizzano pubblicamente valutazioni scritte di diamanti di base a partire da circa € 50. Questo dovrebbe essere considerato un esempio piuttosto che un prezzo universale di Anversa. Una valutazione dettagliata per scopi assicurativi, immobiliari, legali o di alto valore può costare di più."
+    ],
+    "feeIntro": "Prima di prenotare chiedi se la tariffa è:",
+    "feeQuestions": [
+      "Una tariffa fissa per articolo",
+      "Una tariffa oraria",
+      "In base al numero di diamanti",
+      "Basato sulla complessità del gioiello",
+      "IVA inclusa o esclusa",
+      "Comprensivo di fotografie e relazione scritta",
+      "Separato dai test di laboratorio",
+      "Separato dal disinserimento e dal ripristino",
+      "Separato da trasporto e assicurazione"
+    ],
+    "feeClosing": "Per una valutazione indipendente, un compenso professionale fisso o orario è generalmente più facile da comprendere rispetto ad un compenso calcolato in percentuale sul valore finale. Un accordo basato sulla percentuale può creare un incentivo a segnalare una cifra più elevata.",
+    "separateCostsTitle": "Costi che potrebbero essere separati",
+    "separateCostsIntro": "La tariffa di valutazione indicata potrebbe non includere:",
+    "separateCosts": [
+      "Valutazione di laboratorio",
+      "Test di coltivazione naturale e di laboratorio",
+      "Rilevazione del trattamento",
+      "Rimozione del diamante dalla sua montatura",
+      "Reimpostazione del diamante",
+      "Pulizia o riparazione",
+      "Iscrizione laser",
+      "Trasporto sicuro",
+      "Assicurazione di transito",
+      "Servizio urgente",
+      "Copie aggiuntive del rapporto",
+      "Molteplici finalità di valutazione"
+    ],
+    "closing": "Richiedere un preventivo scritto prima di lasciare l'oggetto. Il preventivo dovrebbe spiegare esattamente cosa verrà consegnato."
+  },
+  "freeAppraisal": {
+    "id": "free-appraisal",
+    "title": "Posso ottenere una valutazione gratuita del diamante?",
+    "paragraphs": [
+      "Alcuni acquirenti, case d'asta e gioiellerie offrono una valutazione preliminare gratuita. Ciò può essere utile quando il proprietario vuole sapere se l'articolo soddisfa i criteri di acquisto o di vendita dell'azienda.",
+      "Tuttavia, una valutazione gratuita dell'acquirente non è necessariamente una valutazione indipendente. L'azienda potrebbe valutare quanto è disposta a pagare piuttosto che produrre una relazione scritta obiettiva per fini assicurativi, ereditari o legali.",
+      "Un parere verbale libero può anche essere diverso da una perizia scritta firmata."
+    ],
+    "questionsIntro": "Prima di accettare una valutazione gratuita, chiedi:",
+    "questions": [
+      "Riceverò un rapporto scritto?",
+      "Che tipo di valore verrà fornito?",
+      "La persona che valuta l'oggetto si offre anche di acquistarlo?",
+      "La valutazione ha una data di efficacia dichiarata?",
+      "Sono incluse fotografie e una descrizione completa dell'oggetto?",
+      "La denuncia sarà accettata dal mio assicuratore o consulente?",
+      "Sono previsti costi per test, certificazione o restituzione?",
+      "Sono obbligato a vendere o spedire l'oggetto?"
+    ],
+    "closing": "Una valutazione di acquisto gratuita può essere del tutto legittima quando il suo scopo è chiaro. Semplicemente non deve essere confuso con una valutazione indipendente."
+  },
+  "appraisalTypes": {
+    "id": "appraisal-types",
+    "title": "Di quale tipo di valutazione del diamante ho bisogno?",
+    "types": [
+      {
+        "title": "Perizia di sostituzione assicurativa",
+        "paragraphs": [
+          "Una perizia assicurativa stima quanto potrebbe costare sostituire il diamante o il gioiello attraverso un mercato al dettaglio appropriato. Il rapporto dovrebbe descrivere l'articolo in modo sufficiente affinché l'assicuratore possa capire cosa dovrebbe essere sostituito.",
+          "Una valutazione assicurativa gonfiata può portare a premi inutilmente elevati senza garantire una liquidazione in contanti più ampia. Chiedi all'assicuratore come gestisce la sostituzione, la riparazione, il valore concordato e il pagamento in contanti prima di fare affidamento sulla valutazione."
+        ],
+        "includesIntro": "La relazione può includere:",
+        "includes": [
+          "Descrizione dettagliata dei gioielli",
+          "Caratteristiche del diamante",
+          "Metallo e costruzione",
+          "Misure",
+          "Segni distintivi",
+          "Condizione",
+          "Fotografie",
+          "Conclusione sul valore sostitutivo",
+          "Data di entrata in vigore",
+          "Qualifiche e firma del perito"
+        ]
+      },
+      {
+        "title": "Valutazione del mercato equo o di rivendita",
+        "paragraphs": [
+          "Una valutazione equa del mercato considera ciò che un acquirente disponibile può pagare a un venditore disponibile nel mercato rilevante. Normalmente è inferiore a una valutazione sostitutiva al dettaglio perché lo scopo e il mercato sono diversi.",
+          "La relazione dovrebbe indicare quale mercato è stato considerato. Un mercato dealer-to-dealer, un mercato d'asta e un mercato di rivendita al consumo possono portare a conclusioni diverse."
+        ]
+      },
+      {
+        "title": "Valutazione immobiliare o ereditaria",
+        "paragraphs": [
+          "Una valutazione ereditaria o patrimoniale può richiedere una data di entrata in vigore e una definizione di valore specifiche. La persona che richiede la valutazione deve confermare i requisiti con il notaio, l'avvocato, il contabile o l'autorità competente.",
+          "Una valutazione corrente di sostituzione al dettaglio non dovrebbe essere automaticamente sostituita da una valutazione immobiliare con una data specifica."
+        ]
+      },
+      {
+        "title": "Divorzio o valutazione della divisione patrimoniale",
+        "paragraphs": [
+          "Potrebbe anche essere necessario che una valutazione utilizzata per la divisione delle attività segua uno standard legale definito e una data di entrata in vigore. Entrambe le parti possono trarre vantaggio dall'utilizzo di un perito indipendente adeguatamente qualificato il cui ruolo e metodologia siano chiaramente indicati."
+        ]
+      },
+      {
+        "title": "Stima dell'asta",
+        "paragraphs": [
+          "Una stima dell'asta prevede un possibile intervallo di offerte anziché riportare un importo garantito. Può essere influenzato dal pubblico della casa d’aste, dalla data di vendita, dalla riserva, dalla commissione e dall’interesse per la categoria."
+        ]
+      },
+      {
+        "title": "Valutazione di vendita o acquisto",
+        "paragraphs": [
+          "La valutazione di un acquirente risponde a una domanda commerciale più diretta: cosa è disposto a offrire questo acquirente per il diamante o il gioiello?",
+          "Questo è il percorso rilevante quando l’obiettivo primario del proprietario è vendere. L’acquirente può considerare la qualità, le condizioni, il rapporto di classificazione e la domanda attuale del diamante prima di presentare un’offerta."
+        ],
+        "ctaText": "RICHIEDI UNA VALUTAZIONE PER L'ACQUISTO DI DIAMANTI",
+        "ctaHref": "#diamond-evaluation-form"
+      }
+    ]
+  },
+  "appraisalProcess": {
+    "id": "appraisal-process",
+    "title": "Cosa succede durante una valutazione del diamante?",
+    "intro": [
+      "Una valutazione professionale normalmente inizia definendo lo scopo. Senza uno scopo chiaro, il perito non può selezionare la base o il mercato di valutazione corretto."
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Scopo e assunzione",
+        "paragraphs": [
+          "Il perito chiede perché è richiesta la valutazione e registra le informazioni a disposizione del proprietario. L'anello o il diamante possono essere fotografati, pesati e assegnati a un riferimento di assunzione.",
+          "Il proprietario deve fornire qualsiasi rapporto di classificazione, ricevuta, valutazione precedente, cronologia delle riparazioni e documentazione del marchio disponibili."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Esame dell'identità e delle condizioni",
+        "paragraphs": [
+          "Il perito esamina se l'oggetto contiene un diamante e se appare naturale, coltivato in laboratorio, trattato o necessita di test avanzati."
+        ],
+        "bulletsIntro": "L’esame può anche identificare:",
+        "bullets": [
+          "Scheggiature e abrasioni",
+          "Pietre sciolte",
+          "Artigli o montature usurati",
+          "Riparazioni",
+          "Ridimensionamento",
+          "Componenti sostituiti",
+          "Segni distintivi del metallo",
+          "Firme del marchio",
+          "Condizioni generali"
+        ],
+        "closing": "Alcune conclusioni non possono essere confermate senza attrezzature di laboratorio."
+      },
+      {
+        "number": 3,
+        "title": "Valutazione dei diamanti",
+        "paragraphs": [
+          "Il perito esamina la forma del diamante, le misure, il peso stimato o effettivo, il colore, la purezza, le caratteristiche di taglio e la fluorescenza.",
+          "Quando viene montato un diamante, l'incastonatura può limitare l'accesso alla pietra. Alcuni gradi e misurazioni possono quindi essere stimati piuttosto che determinati con la precisione possibile per un diamante sciolto."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Valutazione dei gioielli",
+        "paragraphs": [
+          "Per un diamante montato, il perito può esaminare il metallo, lo stile dell'incastonatura, le pietre laterali, la lavorazione, l'età, le condizioni e il possibile significato del marchio.",
+          "Un anello firmato, antico o da collezione può richiedere ricerche di mercato che vanno oltre il valore dei materiali che lo compongono."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Ricerche di mercato",
+        "paragraphs": [
+          "Il perito ritiene il mercato rilevante per l'incarico. La sostituzione assicurativa, la rivendita sul mercato equo, le valutazioni immobiliari e all'asta non dovrebbero utilizzare tutte le stesse ipotesi di mercato.",
+          "La relazione dovrebbe indicare la base di valutazione e la data di entrata in vigore."
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Rapporto scritto",
+        "paragraphs": [
+          "Quando è stata richiesta una perizia scritta, il proprietario riceve un rapporto contenente la descrizione, la conclusione della valutazione e le relative limitazioni.",
+          "Il perito dovrebbe essere disponibile a spiegare cosa significa la cifra riportata e per cosa non dovrebbe essere utilizzata."
+        ]
+      }
+    ]
+  },
+  "mountedDiamond": {
+    "id": "mounted-diamond",
+    "title": "Può un diamante montato essere valutato esattamente?",
+    "paragraphs": [
+      "Un diamante montato può essere valutato, ma la montatura può limitare la precisione di determinate misurazioni e osservazioni.",
+      "Griffe, castoni e castoni decorativi possono nascondere parti della cintura, inclusioni o colore. Potrebbe essere necessario stimare il peso esatto del diamante dalle misurazioni se la pietra non può essere rimossa.",
+      "Ciò non significa che ogni anello debba essere smontato. La rimozione di un diamante può introdurre costi e rischi e potrebbe non essere necessaria ai fini della valutazione."
+    ],
+    "questionsIntro": "Chiedi al perito:",
+    "questions": [
+      "Quali caratteristiche possono essere confermate mentre sono montate?",
+      "Quali caratteristiche verranno stimate?",
+      "È necessario il disinserimento?",
+      "Chi rimuoverà e ripristinerà il diamante?",
+      "L'anello è assicurato durante il processo?",
+      "La rimozione influirà sul valore dell'antiquariato o del marchio?",
+      "Lo smontaggio e il ripristino sono compresi nel preventivo?"
+    ],
+    "giaLinkText": "I servizi di analisi dei gioielli di GIA",
+    "closing": "GIA rileva che la classificazione dei gioielli viene eseguita nella misura consentita dal montaggio, mentre i suoi rapporti sui gioielli possono includere informazioni stimate sui diamanti, test sui metalli, peso dell'articolo e marcature."
+  },
+  "writtenAppraisal": {
+    "id": "written-appraisal",
+    "title": "Cosa dovrebbe includere una valutazione scritta del diamante?",
+    "intro": [
+      "Una valutazione scritta utile dovrebbe essere sufficientemente specifica da consentire ad un altro professionista di capire cosa è stato esaminato, perché è stato valutato e come dovrebbe essere interpretata la cifra."
+    ],
+    "includes": [
+      "Riferimento del proprietario o del cliente",
+      "Data dell'esame",
+      "Data di valutazione effettiva",
+      "Scopo della valutazione",
+      "Definizione di valore utilizzata",
+      "Descrizione dettagliata dell'articolo",
+      "Informazioni su diamanti e pietre preziose",
+      "Dettagli metallici e costruttivi",
+      "Timbri e firme",
+      "Condizione",
+      "Fotografie",
+      "Informazioni sul rapporto di valutazione",
+      "Presupposti e limitazioni rilevanti",
+      "Mercato considerato",
+      "Conclusione monetaria",
+      "Nome e qualifiche del perito",
+      "Firma",
+      "Dettagli di contatto"
+    ],
+    "closing": "Se il rapporto fornisce solo un prezzo senza identificare l'oggetto, lo scopo e la base di valutazione, potrebbe non essere sufficiente per uso assicurativo, patrimoniale o legale."
+  },
+  "chooseAppraiser": {
+    "id": "choose-appraiser",
+    "title": "Come scegliere un perito di diamanti vicino a te",
+    "paragraphs": [
+      "Le ricerche per \"valutazione diamanti vicino a me\" spesso restituiscono gioiellieri, acquirenti, case d'asta, laboratori e periti indipendenti. Non tutti forniscono lo stesso servizio.",
+      "Inizia chiedendo se la persona ha sia conoscenze gemmologiche che formazione nella valutazione. Il GIA consiglia ai periti di gioielli di comprendere le pietre preziose, la valutazione e la costruzione dei gioielli. Il GIA avverte inoltre che non “certifica” i periti semplicemente perché hanno completato la formazione GIA."
+    ],
+    "giaLinkText": "Guida alla selezione-valutazione del GIA",
+    "questionsIntro": "Un perito idoneo dovrebbe essere in grado di spiegare:",
+    "questions": [
+      "Formazione gemmologica rilevante",
+      "Qualifiche ed esperienze di valutazione",
+      "Esperienza con il tipo di articolo",
+      "Attrezzatura di prova disponibile",
+      "Se la valutazione è indipendente",
+      "Come viene calcolata la tariffa",
+      "Cosa comprende la relazione scritta",
+      "Quale base di mercato e di valutazione verrà utilizzata",
+      "Come è protetto l'oggetto",
+      "Tempo di consegna",
+      "Assicurazione professionale",
+      "Cosa succede se sono necessari test di laboratorio"
+    ],
+    "closing": "Se la valutazione è necessaria per uno scopo formale, chiedi all'assicuratore, all'avvocato, al notaio o ad altro professionista se ha requisiti specifici."
+  },
+  "whatToBring": {
+    "id": "what-to-bring",
+    "title": "Cosa dovresti portare ad una valutazione del diamante?",
+    "paragraphs": [
+      "Porta con te tutte le informazioni disponibili, anche se alcuni documenti sono vecchi. Il perito può decidere ciò che rimane rilevante."
+    ],
+    "itemsIntro": "Gli articoli utili includono:",
+    "items": [
+      "Rapporto sulla classificazione dei diamanti",
+      "Ricevuta originale",
+      "Valutazione precedente",
+      "Programma assicurativo",
+      "Scatola originale",
+      "Certificato di marca",
+      "Registri di riparazione e assistenza",
+      "Documenti ereditari",
+      "Fotografie dell'oggetto originale",
+      "Qualsiasi informazione disponibile sulla provenienza",
+      "Identificazione"
+    ],
+    "closing": "Non pulire, riparare, lucidare o smontare un oggetto antico o firmato prima di aver chiesto se tali azioni sono appropriate. Se il diamante appare allentato nella sua montatura, smetti di indossare il gioiello e informa il perito prima del trasporto."
+  },
+  "howLong": {
+    "id": "how-long",
+    "title": "Quanto tempo richiede una valutazione del diamante?",
+    "paragraphs": [
+      "Il tempo necessario dipende dal servizio.",
+      "Una valutazione preliminare verbale di un elemento semplice può essere completata durante un appuntamento. Una valutazione scritta dettagliata può richiedere più tempo perché può richiedere fotografie, ricerche, stesura di rapporti e revisione."
+    ],
+    "additionalIntro": "Potrebbe essere necessario ulteriore tempo quando:",
+    "additional": [
+      "Il diamante non ha alcun rapporto di classificazione",
+      "L'articolo contiene diverse pietre",
+      "Il pezzo è antico o firmato",
+      "Sono necessari test di laboratorio",
+      "Il diamante centrale deve essere non incastonato",
+      "La relazione necessita di una data di valutazione storica",
+      "Sono richiesti diversi scopi di valutazione",
+      "È necessario organizzare il trasporto sicuro"
+    ],
+    "closing": "Chiedi il tempo di consegna previsto prima di lasciare l'articolo."
+  },
+  "onlineAppraisal": {
+    "id": "online-appraisal",
+    "title": "La valutazione online dei diamanti è affidabile?",
+    "paragraphs": [
+      "Una valutazione online può fornire un'indicazione preliminare quando il proprietario invia una relazione di valutazione completa e fotografie chiare. Può essere utile per decidere se vale la pena un appuntamento fisico.",
+      "Tuttavia, le fotografie non possono confermare in modo affidabile ogni caratteristica. Un revisore online potrebbe non essere in grado di stabilire:"
+    ],
+    "limitations": [
+      "Origine naturale o coltivata in laboratorio",
+      "Colore o chiarezza esatti",
+      "Trattamenti",
+      "Danno",
+      "Segnala corrispondenza",
+      "Purezza del metallo",
+      "Condizione precisa",
+      "Se il diamante è stato sostituito"
+    ],
+    "closing": "Per questo motivo una valutazione online dovrebbe essere chiaramente etichettata come preliminare a meno che il servizio non abbia completato le verifiche necessarie allo scopo dichiarato.",
+    "ctaText": "INIZIA UNA VALUTAZIONE DI DIAMANTI ONLINE",
+    "ctaHref": "/resources/diamond-valuation-calculator"
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "Ho bisogno di una valutazione prima di vendere il mio diamante?",
+    "paragraphs": [
+      "Non sempre.",
+      "Se disponi già di una relazione di valutazione recente e il tuo obiettivo è semplicemente ricevere un'offerta, un acquirente specializzato potrebbe essere in grado di iniziare con la relazione e le fotografie. Un'ispezione fisica può quindi confermare se il diamante corrisponde alle informazioni fornite."
+    ],
+    "usefulIntro": "Una valutazione indipendente può essere utile quando:",
+    "usefulWhen": [
+      "Non capisci cosa contengono i gioielli",
+      "L'anello può essere antico, firmato o da collezione",
+      "Molte persone condividono la proprietà",
+      "Hai bisogno di un'opinione neutrale prima di confrontare i canali di vendita",
+      "L'oggetto fa parte di un patrimonio",
+      "Hai bisogno di un documento scritto formale",
+      "La valutazione dell’acquirente non è chiara"
+    ],
+    "closing": "Ricorda che una valutazione indipendente non garantisce ancora che l'acquirente pagherà l'importo stimato. Un’offerta di acquisto riflette la domanda, i costi e il canale di rivendita del particolare acquirente."
+  },
+  "dalilaEvaluation": {
+    "id": "dalila-evaluation",
+    "title": "La valutazione di Dalila è per una potenziale vendita",
+    "paragraphs": [
+      "Il servizio di vendita di Dalila Diamonds è destinato ai proprietari che desiderano che il loro diamante naturale venga esaminato per un possibile acquisto.",
+      "Il processo inizia con le informazioni di valutazione e le fotografie disponibili. Se il diamante soddisfa i criteri di acquisto di Dalila, potrebbe essere organizzata una valutazione fisica ad Anversa prima che venga preparata un’offerta.",
+      "Questo servizio dovrebbe essere descritto come una valutazione dell'acquirente, non come una valutazione indipendente per assicurazioni, successioni, divorzi, dichiarazioni fiscali o legali."
+    ],
+    "processTitle": "Il processo di Dalila",
+    "processSteps": [
+      "Invia informazioni sul diamante o sui gioielli.",
+      "Carica il rapporto di valutazione e fotografie chiare.",
+      "Ricevi una prima recensione privata.",
+      "Fornire ulteriori informazioni quando richiesto.",
+      "Organizzare la verifica fisica ad Anversa, se opportuno.",
+      "Ricevi un'offerta di acquisto se l'articolo soddisfa i criteri di Dalila.",
+      "Decidi se vuoi procedere."
+    ],
+    "closing": "L'invio di una richiesta di valutazione non dovrebbe richiedere al venditore di accettare un'offerta.",
+    "primaryCtaText": "RICHIEDI LA MIA VALUTAZIONE ACQUISTO PRIVATO",
+    "primaryCtaHref": "#diamond-evaluation-form",
+    "secondaryCtaText": "PRENOTA UN APPUNTAMENTO AD ANVERSA",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "id": "diamond-evaluation-form",
+    "leadSource": "diamond_appraisal_antwerp",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP e PDF",
+    "title": "Richiedi la valutazione del mio diamante",
+    "subtitle": "Spiegaci perché hai bisogno di una valutazione e fornisci le informazioni disponibili. Dalila ti contatterà utilizzando il metodo che preferisci.",
+    "step1Title": "Passaggio 1: perché hai bisogno di una valutazione?",
+    "purposeOptions": [
+      {
+        "value": "I want to sell my diamond",
+        "mode": "sell"
+      },
+      {
+        "value": "I want to sell diamond jewellery",
+        "mode": "sell"
+      },
+      {
+        "value": "I need an insurance appraisal",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need an inheritance or estate valuation",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need a grading report or certificate",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I only want to know the approximate value",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I am not sure",
+        "mode": "inquiry"
+      }
+    ],
+    "inquiryNotice": "Dalila Diamonds fornisce valutazioni dell'acquirente per potenziali acquisti, non valutazioni assicurative, immobiliari o legali indipendenti. Puoi comunque inviare la tua domanda qui sotto e un membro del team spiegherà cosa Dalila può e non può fornire.",
+    "sellRedirectCalculator": "Se desideri solo un valore approssimativo, potresti preferire il",
+    "sellRedirectGrading": "Se hai bisogno di un rapporto di valutazione o di un certificato, leggi la nostra guida su",
+    "itemTypes": [
+      "Anello di fidanzamento con diamante naturale",
+      "Diamante naturale sciolto",
+      "Gioielli con diamanti naturali",
+      "Gioielli antichi o vintage",
+      "Gioielli firmati o firmati",
+      "Diamante coltivato in laboratorio",
+      "Non ne sono sicuro"
+    ],
+    "originOptions": [
+      "Diamante naturale",
+      "Diamante coltivato in laboratorio",
+      "Non ne sono sicuro"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Un altro laboratorio",
+      "Nessun rapporto",
+      "Non ne sono sicuro"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Altro",
+      "Non ne sono sicuro"
+    ],
+    "contactMethods": [
+      "E-mail",
+      "Telefono",
+      "O email o telefono"
+    ],
+    "evaluationPreferences": [
+      "Solo revisione online",
+      "Appuntamento privato ad Anversa",
+      "Non sono ancora sicuro"
+    ],
+    "consentText": "Accetto che Dalila Diamonds possa contattarmi in merito a questa richiesta. Comprendo che la valutazione di un acquirente è diversa da una valutazione assicurativa, immobiliare o legale indipendente e che un'offerta di acquisto finale può richiedere una verifica fisica.",
+    "submitButton": "Richiedi la valutazione del mio diamante",
+    "submittingButton": "Invio...",
+    "successMessage": "Grazie. La tua richiesta è stata inviata Un membro del team di Dalila Diamonds ti contatterà a breve.",
+    "errorMessage": "Non è stato possibile inviare la tua richiesta. Controlla i campi obbligatori e riprova.",
+    "labels": {
+      "purpose": "Perché hai bisogno di una valutazione?",
+      "itemType": "Tipo di articolo",
+      "origin": "Naturale o coltivato in laboratorio, se noto",
+      "reportStatus": "Laboratorio di classificazione",
+      "reportNumber": "Numero del rapporto",
+      "caratWeight": "Peso in carati approssimativo",
+      "shape": "Diamond shape",
+      "uploadReport": "Carica il rapporto di valutazione",
+      "uploadPhotos": "Carica fotografie",
+      "dragDrop": "Trascina e rilascia i file qui oppure scegli i file",
+      "fullName": "Nome e cognome",
+      "email": "Indirizzo e-mail",
+      "phone": "Numero di telefono",
+      "country": "Paese",
+      "contactMethod": "Metodo di contatto preferito",
+      "evaluationPreference": "È preferibile la revisione online o l'appuntamento ad Anversa",
+      "additionalInfo": "Ulteriori informazioni",
+      "optional": "Opzionale"
+    },
+    "validation": {
+      "purposeRequired": "Seleziona il motivo per cui hai bisogno di una valutazione.",
+      "itemTypeRequired": "Seleziona il tipo di articolo.",
+      "nameRequired": "Inserisci il tuo nome completo.",
+      "contactRequired": "Si prega di fornire un indirizzo email o un numero di telefono.",
+      "countryRequired": "Inserisci il tuo paese.",
+      "consentRequired": "Si prega di confermare la dichiarazione di consenso prima di inviarla."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Quanto costa la valutazione di un diamante ad Anversa?",
+        "answer": "Non esiste una tariffa universale. Alcuni servizi scritti di base vengono pubblicizzati a partire da circa 50 €, mentre valutazioni dettagliate, complesse o formali possono costare di più. Il lavoro di laboratorio, il disinserimento, il ripristino, il trasporto e l'assicurazione possono essere addebitati separatamente."
+      },
+      {
+        "question": "Dove posso far valutare un diamante ad Anversa?",
+        "answer": "A seconda del tuo scopo, potresti aver bisogno di un perito di gioielli indipendente, di un laboratorio gemmologico, di uno specialista di aste o di un acquirente di diamanti professionista. Conferma il tipo di rapporto o offerta fornito da ciascun fornitore."
+      },
+      {
+        "question": "Il GIA valuta i diamanti?",
+        "answer": "No. Il GIA fornisce rapporti di classificazione e identificazione ma non assegna valori di stima monetaria. Le valutazioni monetarie dovrebbero essere completate da un perito adeguatamente qualificato."
+      },
+      {
+        "question": "Un rapporto di classificazione dei diamanti è uguale a una valutazione?",
+        "answer": "No. Un rapporto di valutazione descrive le caratteristiche di qualità di un diamante. Una valutazione fornisce un'opinione sul valore monetario per uno scopo e una data dichiarati."
+      },
+      {
+        "question": "La valutazione gratuita dei diamanti è affidabile?",
+        "answer": "Una valutazione preliminare gratuita può essere utile, ma potrebbe trattarsi di un’opinione dell’acquirente piuttosto che di una valutazione scritta indipendente. Chiedi quale tipo di valore viene fornito e se il valutatore intende acquistare l'articolo."
+      },
+      {
+        "question": "È possibile valutare un anello con diamante montato?",
+        "answer": "Sì, ma l'impostazione potrebbe limitare la precisione delle osservazioni su peso, colore, chiarezza e condizioni. La relazione dovrebbe identificare quali caratteristiche sono state stimate."
+      },
+      {
+        "question": "È necessario rimuovere il diamante dalla sua montatura?",
+        "answer": "Non sempre. La rimozione dovrebbe essere presa in considerazione solo quando necessaria per il test o il rapporto richiesti. Chiedi chi rimuoverà e ripristinerà il diamante e come verrà assicurato l'oggetto."
+      },
+      {
+        "question": "È possibile valutare un diamante senza certificato?",
+        "answer": "SÌ. Una valutazione iniziale può iniziare senza un rapporto di valutazione, ma prima di raggiungere una conclusione affidabile possono essere raccomandati test di laboratorio o un nuovo rapporto."
+      },
+      {
+        "question": "Una perizia assicurativa è l'importo per cui posso vendere il mio diamante?",
+        "answer": "No. La valutazione dell'assicurazione solitamente considera il costo di sostituzione. Un valore di rivendita o un'offerta di acquisto riflette un mercato e uno scopo diversi."
+      },
+      {
+        "question": "Per quanto tempo è valida la valutazione di un diamante?",
+        "answer": "Non esiste un periodo di validità universale. Le caratteristiche del diamante possono rimanere stabili, ma i prezzi di mercato e i costi di sostituzione possono cambiare. Gli assicuratori e altri utenti potrebbero avere i propri requisiti di aggiornamento."
+      },
+      {
+        "question": "Posso far valutare un diamante online?",
+        "answer": "È possibile ricevere una valutazione preliminare online dalle informazioni del rapporto e dalle fotografie. Una conclusione formale o finale può richiedere un esame fisico."
+      },
+      {
+        "question": "Ho bisogno di una valutazione prima di vendere a Dalila?",
+        "answer": "Non necessariamente. Dalila può iniziare esaminando la relazione di valutazione e le fotografie disponibili. Una valutazione indipendente può essere opportuna quando il proprietario necessita di una valutazione neutrale o formale."
+      },
+      {
+        "question": "Dalila acquisterà ogni diamante presentato?",
+        "answer": "No. Dalila deve prima determinare se il diamante soddisfa i suoi criteri di acquisto e completare la verifica richiesta."
+      },
+      {
+        "question": "Devo vendere dopo aver ricevuto un'offerta?",
+        "answer": "No. La richiesta di una valutazione non richiede l'accettazione di un'offerta."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-valuation",
+    "title": "Trova la giusta valutazione del diamante ad Anversa",
+    "paragraphs": [
+      "Il servizio corretto dipende dalla domanda a cui è necessario rispondere.",
+      "Scegli un perito indipendente quando hai bisogno di un parere monetario formale per assicurazioni, eredità o uso legale. Scegli un laboratorio gemmologico quando hai bisogno di identificazione o classificazione. Scegli un acquirente professionista quando vuoi sapere se l'azienda acquisterà il tuo diamante e cosa è disposta a offrirti.",
+      "Se il tuo obiettivo è vendere un diamante naturale, inizia con un invio privato online a Dalila Diamonds."
+    ],
+    "primaryButtonText": "INIZIA LA MIA VALUTAZIONE DEL DIAMANTE",
+    "primaryButtonHref": "#diamond-evaluation-form",
+    "secondaryButtonText": "PRENOTA UN APPUNTAMENTO PRIVATO AD ANVERSA",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "vendi il tuo diamante ad Anversa"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calcolatore online per la valutazione dei diamanti"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "dove vendere un anello con diamante"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "come vendere un anello con diamante in modo sicuro"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "vendere un diamante senza certificato"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "verificare un rapporto di classificazione dei diamanti"
+    }
+  }
+}

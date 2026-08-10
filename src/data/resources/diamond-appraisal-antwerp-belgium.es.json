@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "title": "Tasación de diamantes Amberes: costo, proceso y opciones",
+    "description": "Descubra cómo funciona la tasación de diamantes en Amberes, cuánto puede costar y si necesita una tasación, un informe de calificación o una oferta de compra para su diamante.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-appraisal-antwerp-belgium",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-08-06",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "urls": {
+    "giaReportsAppraisals": "https://www.gia.edu/gia-news-research-grading-report-appraisal",
+    "giaAppraisalAssociations": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaAppraisalSelection": "https://www.gia.edu/gia-news-research-jewelry-appraisal",
+    "giaJewelleryAnalysis": "https://www.gia.edu/gem-lab-service/jewelry",
+    "hrdAntwerp": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Tasación de diamantes en Amberes",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Tasación de diamantes en Amberes",
+    "imageAlt": "Tasación de diamantes en el banner de recursos de Amberes"
+  },
+  "hero": {
+    "title": "Tasación de diamantes en Amberes: costo, proceso y opciones",
+    "paragraphs": [
+      "Una tasación de diamantes proporciona una opinión sobre el valor monetario de un diamante o una joya para un propósito determinado. Ese propósito es importante porque una tasación de seguro, una tasación de patrimonio y una tasación de reventa pueden producir cifras diferentes para el mismo diamante.",
+      "Antes de concertar una tasación de diamantes en Amberes, decida para qué necesita la tasación. Si desea documentación del seguro, informes de herencia o una opinión formal por escrito, es posible que necesite un tasador calificado independiente. Si necesita confirmación de la identidad y calidad del diamante, es posible que necesite un informe de calificación de un laboratorio gemológico. Si su intención es vender, es posible que esté buscando una evaluación del comprador y una oferta de compra.",
+      "Dalila Diamonds puede revisar los diamantes naturales para una posible compra, pero una evaluación de compra no debe presentarse como un seguro independiente o una tasación legal."
+    ],
+    "primaryButtonText": "CUÉNTANOS LO QUE NECESITAS",
+    "primaryButtonHref": "#purpose-selector"
+  },
+  "images": {
+    "featured": {
+      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "alt": "Diamante natural sometido a tasación profesional en Amberes",
+      "width": 1600,
+      "height": 900
+    },
+    "comparison": {
+      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "alt": "Diferencia entre informe de calificación de tasación de diamantes y oferta de compra",
+      "width": 1400,
+      "height": 1000
+    },
+    "process": {
+      "src": "/images/resources/diamond-appraisal-process.webp",
+      "alt": "Pasos seguidos durante una tasación profesional de diamantes",
+      "width": 1400,
+      "height": 1000
+    },
+    "costFactors": {
+      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "alt": "Factores que influyen en el coste de una tasación de diamantes en Amberes",
+      "width": 1400,
+      "height": 1000
+    },
+    "purposeTypes": {
+      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "alt": "Tipos de valoración de diamantes para la venta de seguros de herencia y certificación.",
+      "width": 1400,
+      "height": 1000
+    }
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "purpose-selector",
+        "label": "¿Qué valoración necesitas?"
+      },
+      {
+        "id": "quick-answer",
+        "label": "respuesta rapida"
+      },
+      {
+        "id": "appraisal-vs-grading",
+        "label": "Valoración vs calificación vs oferta"
+      },
+      {
+        "id": "gia-appraisals",
+        "label": "¿El GIA tasa los diamantes?"
+      },
+      {
+        "id": "hrd-antwerp",
+        "label": "Qué ofrece HRD Amberes"
+      },
+      {
+        "id": "appraisal-cost",
+        "label": "Coste de tasación en Amberes"
+      },
+      {
+        "id": "free-appraisal",
+        "label": "Tasación de diamantes gratuita"
+      },
+      {
+        "id": "appraisal-types",
+        "label": "Tipos de tasación necesarios"
+      },
+      {
+        "id": "appraisal-process",
+        "label": "¿Qué sucede durante la tasación?"
+      },
+      {
+        "id": "mounted-diamond",
+        "label": "Precisión del diamante montado"
+      },
+      {
+        "id": "written-appraisal",
+        "label": "Contenidos de la tasación escrita"
+      },
+      {
+        "id": "choose-appraiser",
+        "label": "Elige un tasador"
+      },
+      {
+        "id": "what-to-bring",
+        "label": "que traer"
+      },
+      {
+        "id": "how-long",
+        "label": "cuanto tiempo lleva"
+      },
+      {
+        "id": "online-appraisal",
+        "label": "Fiabilidad de la tasación en línea"
+      },
+      {
+        "id": "before-selling",
+        "label": "Tasación antes de vender."
+      },
+      {
+        "id": "dalila-evaluation",
+        "label": "La valoración de Dalila a la venta"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Preguntas frecuentes"
+      },
+      {
+        "id": "find-right-valuation",
+        "label": "Encuentra la valoración adecuada"
+      }
+    ]
+  },
+  "purposeSelector": {
+    "id": "purpose-selector",
+    "title": "¿Qué tipo de valoración de diamantes necesita?",
+    "intro": "Utilice este selector para dirigirse hacia el siguiente paso correcto.",
+    "options": [
+      {
+        "id": "sell",
+        "title": "Quiero vender mi diamante",
+        "description": "Probablemente necesite una evaluación del comprador en lugar de una tasación del seguro. Dalila puede revisar el informe de calificación y las fotografías disponibles antes de determinar si una evaluación física de Amberes es apropiada.",
+        "ctaText": "Solicite una evaluación de compra privada",
+        "ctaHref": "#diamond-evaluation-form",
+        "formPurpose": "I want to sell my diamond"
+      },
+      {
+        "id": "insurance",
+        "title": "Necesito una tasación para el seguro",
+        "description": "Normalmente necesita una tasación escrita independiente basada en el valor de reposición. Pregunte a su aseguradora qué información, fecha de valoración y cualificación del tasador requiere antes de reservar el servicio.",
+        "ctaText": "Aprenda lo que debe incluir una tasación de seguro",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an insurance appraisal"
+      },
+      {
+        "id": "inheritance",
+        "title": "Necesito una valoración para herencia, patrimonio o fines legales",
+        "description": "La base de valoración requerida puede depender del propósito y del asesoramiento profesional pertinente. Pregunte al abogado, notario, asegurador, contable o autoridad involucrada qué tipo de informe y fecha de valoración se requieren.",
+        "ctaText": "Prepárese para una evaluación independiente",
+        "ctaHref": "#appraisal-types",
+        "formPurpose": "I need an inheritance or estate valuation"
+      },
+      {
+        "id": "certificate",
+        "title": "Necesito un certificado de diamante o un informe de calificación",
+        "description": "Se necesita un laboratorio gemológico más que una tasación monetaria. Un laboratorio puede evaluar si el diamante es natural o cultivado en laboratorio y describir características como el peso en quilates, el color, la claridad y el corte.",
+        "ctaText": "Comprender los informes de clasificación de diamantes",
+        "ctaHref": "/resources/diamond-grading-report-guide"
+      },
+      {
+        "id": "approximate",
+        "title": "Sólo quiero saber cuánto puede valer mi diamante",
+        "description": "Comience con una solicitud de valoración en línea. Envíe la información de calificación y las fotografías disponibles, entendiendo que puede ser necesaria una inspección física para obtener un resultado confiable.",
+        "ctaText": "Utilice la calculadora de valoración de diamantes",
+        "ctaHref": "/resources/diamond-valuation-calculator"
+      }
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Respuesta rápida: ¿Qué es una tasación de diamantes?",
+    "paragraphs": [
+      "Una tasación de diamantes es una opinión documentada sobre el valor preparada para un propósito específico y una fecha de vigencia. Debe identificar el artículo, describir el diamante y la joyería, explicar el tipo de valor que se informa e indicar cómo se llegó a la conclusión."
+    ],
+    "considerationsIntro": "Una tasación puede considerar:",
+    "considerations": [
+      "Si el diamante es natural o cultivado en laboratorio",
+      "Peso en quilates",
+      "Color y claridad",
+      "Calidad de corte y proporciones.",
+      "Forma",
+      "Fluorescencia",
+      "Tratos",
+      "Condición",
+      "Joyeria metalica y construccion",
+      "Marca o diseñador",
+      "Información actual del mercado.",
+      "El uso previsto de la tasación."
+    ],
+    "closing": "Una tasación no es automáticamente una oferta de compra. Tampoco es necesariamente el monto que el propietario pagó originalmente o el monto que pagaría una aseguradora en efectivo."
+  },
+  "appraisalVsGrading": {
+    "id": "appraisal-vs-grading",
+    "title": "Tasación de diamantes, informe de calificación y oferta de compra: ¿cuál es la diferencia?",
+    "intro": [
+      "Estos tres documentos o evaluaciones frecuentemente se confunden, pero responden a preguntas diferentes."
+    ],
+    "table": {
+      "caption": "Comparación de tasación de diamantes, informe de clasificación y oferta de compra.",
+      "headers": [
+        "Evaluación",
+        "Pregunta principal respondida",
+        "Generalmente proporcionado por",
+        "¿Incluye un valor monetario?"
+      ],
+      "rows": [
+        [
+          "Informe de clasificación de diamantes",
+          "¿Qué es el diamante y cuáles son sus características de calidad?",
+          "laboratorio gemológico",
+          "normalmente no"
+        ],
+        [
+          "Tasación independiente",
+          "¿Cuánto vale el artículo para un propósito y fecha establecidos?",
+          "Tasador independiente cualificado",
+          "Sí"
+        ],
+        [
+          "Tasación de seguros",
+          "¿Cuánto puede costar reemplazar el artículo a través del mercado relevante?",
+          "Tasador calificado",
+          "Sí"
+        ],
+        [
+          "Evaluación del comprador",
+          "¿Cuánto está dispuesto a pagar este comprador por el artículo?",
+          "Comprador de diamantes o joyas",
+          "Sí, como oferta o indicación previa."
+        ],
+        [
+          "Estimación de subasta",
+          "¿Dentro de qué rango podrían ocurrir las ofertas?",
+          "casa de subastas",
+          "Un rango estimado, no un resultado garantizado"
+        ],
+        [
+          "Estimación de envío",
+          "¿A qué precio se podría comercializar el artículo?",
+          "joyero o revendedor",
+          "Una recomendación de precio inicial"
+        ]
+      ]
+    },
+    "giaLinkText": "Explicación del GIA sobre tasaciones e informes de calificaciones.",
+    "closing": "Esta distinción es importante al comparar cifras. Un valor de reemplazo de seguro alto no debe compararse directamente con la oferta de compra neta de un comprador."
+  },
+  "giaAppraisals": {
+    "id": "gia-appraisals",
+    "title": "¿GIA proporciona tasaciones de diamantes?",
+    "paragraphs": [
+      "GIA no proporciona valores monetarios tasados ​​para diamantes o joyas. Proporciona informes de laboratorio que identifican y describen diamantes y piedras preciosas.",
+      "GIA establece que la tasación monetaria debe ser realizada por un tasador independiente y que una tasación debe contener un análisis de calidad, descripción y valoración del artículo. GIA también proporciona información sobre asociaciones de tasadores profesionales, pero no recomienda tasadores individuales."
+    ],
+    "giaAssociationsLinkText": "Guía de la asociación de tasación de GIA",
+    "educationParagraph": "Una persona puede haber completado la educación gemológica de GIA, pero eso no significa que GIA haya certificado a esa persona como tasador. La formación gemológica y la formación en tasación son áreas de especialización relacionadas pero diferentes.",
+    "giaAppraisalIntro": "Si alguien describe un servicio como una “tasación GIA”, pregunte si se refiere a:",
+    "giaAppraisalBullets": [
+      "Un diamante con un informe de calificación GIA",
+      "Un tasador que haya completado la educación GIA.",
+      "Una tasación monetaria utilizando información de un informe del GIA."
+    ],
+    "closing": "La redacción no debe implicar que el GIA asignó el valor monetario cuando no lo hizo."
+  },
+  "hrdAntwerp": {
+    "id": "hrd-antwerp",
+    "title": "¿Qué ofrece HRD Amberes?",
+    "paragraphs": [
+      "HRD Antwerp ofrece servicios de evaluación y clasificación de laboratorio para diamantes y joyas. Sus informes de clasificación de diamantes naturales describen características que incluyen quilates, color, claridad y corte.",
+      "HRD Antwerp también ofrece informes de joyería que pueden describir la joya completa, los diamantes que contiene y los metales preciosos utilizados. HRD afirma que sus informes sobre joyas pueden utilizarse para fines que incluyen seguros, herencias o compras y pueden ayudar a determinar el valor de mercado de una joya."
+    ],
+    "hrdLinkText": "Servicios oficiales de calificación e informes de joyería de HRD Antwerp",
+    "closing": "Un informe de laboratorio es documentación valiosa, pero el servicio exacto debe seleccionarse según el propósito del propietario. Los precios del laboratorio pueden variar según el tipo de informe, el peso en quilates, la complejidad de las joyas y los servicios adicionales. Los cargos actuales deben confirmarse directamente desde la última lista de precios de Amberes del laboratorio."
+  },
+  "appraisalCost": {
+    "id": "appraisal-cost",
+    "title": "¿Cuánto cuesta una tasación de diamantes en Amberes?",
+    "paragraphs": [
+      "No existe un precio estándar único para cada tasación de diamantes en Amberes. El costo depende del tipo de informe, la complejidad del artículo, el método de cobro del tasador y si se requiere trabajo de laboratorio.",
+      "Algunos proveedores anuncian públicamente valoraciones escritas básicas de diamantes a partir de unos 50 euros. Esto debería considerarse como un ejemplo y no como un precio universal de Amberes. Una valoración detallada para fines de seguros, patrimoniales, legales o de alto valor puede costar más."
+    ],
+    "feeIntro": "Antes de reservar, pregunta si la tarifa es:",
+    "feeQuestions": [
+      "Una tarifa fija por artículo",
+      "Una tarifa por hora",
+      "Basado en la cantidad de diamantes.",
+      "Según la complejidad de la joyería.",
+      "Incluye o excluye el IVA",
+      "Incluye fotografías y un informe escrito.",
+      "Separado de las pruebas de laboratorio",
+      "Separado de desarmar y restablecer",
+      "Separado del transporte y del seguro."
+    ],
+    "feeClosing": "Para una tasación independiente, un honorario profesional fijo o por hora es generalmente más fácil de entender que un honorario calculado como porcentaje del valor final. Un acuerdo basado en porcentajes puede crear un incentivo para informar una cifra más alta.",
+    "separateCostsTitle": "Costos que pueden estar separados",
+    "separateCostsIntro": "El honorario de tasación cotizado puede no incluir:",
+    "separateCosts": [
+      "clasificación de laboratorio",
+      "Pruebas naturales versus pruebas cultivadas en laboratorio",
+      "Detección de tratamiento",
+      "Eliminación del diamante de su engaste.",
+      "Restablecer el diamante",
+      "Limpieza o reparación",
+      "Inscripción láser",
+      "Transporte seguro",
+      "Seguro de tránsito",
+      "Servicio urgente",
+      "Copias adicionales del informe.",
+      "Múltiples propósitos de valoración"
+    ],
+    "closing": "Solicite un presupuesto por escrito antes de dejar el artículo. La cotización debe explicar exactamente lo que se entregará."
+  },
+  "freeAppraisal": {
+    "id": "free-appraisal",
+    "title": "¿Puedo obtener una tasación de diamantes gratuita?",
+    "paragraphs": [
+      "Algunos compradores, casas de subastas y empresas de joyería ofrecen una evaluación preliminar gratuita. Esto puede resultar útil cuando el propietario quiere saber si el artículo se ajusta a los criterios de compra o venta de esa empresa.",
+      "Sin embargo, una evaluación gratuita del comprador no es necesariamente una tasación independiente. La empresa puede estar evaluando lo que está dispuesta a pagar en lugar de producir un informe escrito objetivo para seguros, herencia o uso legal.",
+      "Una opinión verbal libre también puede ser diferente de una tasación escrita firmada."
+    ],
+    "questionsIntro": "Antes de aceptar una tasación gratuita, pregunta:",
+    "questions": [
+      "¿Recibiré un informe escrito?",
+      "¿Qué tipo de valor se proporcionará?",
+      "¿La persona que evalúa el artículo también se ofrece a comprarlo?",
+      "¿La valoración tiene una fecha de vigencia establecida?",
+      "¿Se incluyen fotografías y una descripción completa del artículo?",
+      "¿El informe será aceptado por mi aseguradora o asesor?",
+      "¿Existen tarifas por las pruebas, la certificación o la devolución?",
+      "¿Debo vender o consignar el artículo?"
+    ],
+    "closing": "Una evaluación de compra gratuita puede ser totalmente legítima cuando su finalidad es clara. Simplemente no debe confundirse con una tasación independiente."
+  },
+  "appraisalTypes": {
+    "id": "appraisal-types",
+    "title": "¿Qué tipo de tasación de diamantes necesito?",
+    "types": [
+      {
+        "title": "Tasación de reemplazo de seguro",
+        "paragraphs": [
+          "Una tasación de seguro estima lo que puede costar reemplazar el diamante o la joya a través de un mercado minorista adecuado. El informe debe describir el artículo lo suficiente como para que la aseguradora comprenda qué sería necesario reemplazar.",
+          "Una tasación de seguro inflada puede generar primas innecesariamente altas sin garantizar una liquidación en efectivo mayor. Pregúntele a la aseguradora cómo maneja la reposición, la reparación, el valor acordado y la liquidación en efectivo antes de confiar en la tasación."
+        ],
+        "includesIntro": "El informe puede incluir:",
+        "includes": [
+          "Descripción detallada de la joyería",
+          "Características del diamante",
+          "Metal y construcción",
+          "Medidas",
+          "Señas de identidad",
+          "Condición",
+          "Fotografías",
+          "Conclusión del valor de reposición",
+          "Fecha de vigencia",
+          "Calificaciones y firma del tasador."
+        ]
+      },
+      {
+        "title": "Valoración de mercado justo o de reventa",
+        "paragraphs": [
+          "Una valoración de mercado justo considera lo que un comprador dispuesto puede pagar a un vendedor dispuesto en el mercado relevante. Normalmente es más baja que una valoración de reemplazo minorista porque el propósito y el mercado son diferentes.",
+          "El informe debe indicar qué mercado se consideró. Un mercado de distribuidor a distribuidor, un mercado de subastas y un mercado de reventa al consumidor pueden producir conclusiones diferentes."
+        ]
+      },
+      {
+        "title": "Valoración de patrimonio o herencia",
+        "paragraphs": [
+          "Una herencia o valoración de patrimonio puede requerir una fecha de entrada en vigor específica y una definición de valor. La persona que solicita la tasación deberá confirmar los requisitos ante el notario, procurador, contador o autoridad correspondiente.",
+          "Una tasación de reemplazo minorista actual no debe sustituirse automáticamente por una valoración del patrimonio en una fecha específica."
+        ]
+      },
+      {
+        "title": "Tasación de divorcio o división de activos",
+        "paragraphs": [
+          "Es posible que una valoración utilizada para la división de activos también deba seguir un estándar legal definido y una fecha de vigencia. Ambas partes pueden beneficiarse del uso de un tasador independiente debidamente calificado cuya función y metodología estén claramente establecidas."
+        ]
+      },
+      {
+        "title": "Estimación de la subasta",
+        "paragraphs": [
+          "Una estimación de subasta predice un posible rango de oferta en lugar de informar un monto garantizado. Puede verse influenciado por la audiencia de la casa de subastas, la fecha de venta, la reserva, la comisión y el interés en la categoría."
+        ]
+      },
+      {
+        "title": "Evaluación de compra o venta",
+        "paragraphs": [
+          "La evaluación de un comprador responde a una pregunta comercial más directa: ¿qué está dispuesto a ofrecer este comprador por el diamante o la joya?",
+          "Esta es la vía relevante cuando el objetivo principal del propietario es vender. El comprador puede considerar la calidad, el estado, el informe de clasificación y la demanda actual del diamante antes de presentar una oferta."
+        ],
+        "ctaText": "SOLICITE UNA EVALUACIÓN DE COMPRA DE DIAMANTES",
+        "ctaHref": "#diamond-evaluation-form"
+      }
+    ]
+  },
+  "appraisalProcess": {
+    "id": "appraisal-process",
+    "title": "¿Qué sucede durante una tasación de diamantes?",
+    "intro": [
+      "Una valoración profesional normalmente comienza por definir el objetivo. Sin un propósito claro, el tasador no puede seleccionar la base de valoración o el mercado correcto."
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Propósito y ingesta",
+        "paragraphs": [
+          "El tasador pregunta por qué se requiere la valoración y registra la información disponible del propietario. El anillo o diamante podrá fotografiarse, pesarse y asignarse una referencia de admisión.",
+          "El propietario debe proporcionar cualquier informe de calificación disponible, recibo, tasación previa, historial de reparaciones y documentación de marca."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Examen de identidad y condición",
+        "paragraphs": [
+          "El tasador examina si el artículo contiene un diamante y si parece natural, cultivado en laboratorio, tratado o necesita pruebas avanzadas."
+        ],
+        "bulletsIntro": "El examen también puede identificar:",
+        "bullets": [
+          "Descantillados y abrasiones",
+          "piedras sueltas",
+          "Garras o ajustes desgastados",
+          "Refacción",
+          "Cambiar el tamaño",
+          "Componentes reemplazados",
+          "Sellos metálicos",
+          "Firmas de marca",
+          "Estado general"
+        ],
+        "closing": "Algunas conclusiones no pueden confirmarse sin equipo de laboratorio."
+      },
+      {
+        "number": 3,
+        "title": "Evaluación de diamantes",
+        "paragraphs": [
+          "El tasador revisa la forma, las medidas, el peso estimado o real, el color, la claridad, las características de corte y la fluorescencia del diamante.",
+          "Cuando se monta un diamante, el engaste puede limitar el acceso a la piedra. Por lo tanto, algunas calidades y medidas pueden estimarse en lugar de determinarse con la precisión posible para un diamante suelto."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Evaluación de joyas",
+        "paragraphs": [
+          "Para un diamante montado, el tasador puede examinar el metal, el estilo de engaste, las piedras laterales, la mano de obra, la edad, la condición y la posible importancia de la marca.",
+          "Un anillo firmado, antiguo o coleccionable puede requerir una investigación de mercado más allá del valor de los materiales que lo componen."
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Investigación de mercado",
+        "paragraphs": [
+          "El tasador considera el mercado relevante para la cesión. La sustitución de seguros, la reventa en el mercado justo, las valoraciones de bienes y subastas no deberían utilizar todos los mismos supuestos de mercado.",
+          "El informe debe indicar la base de valoración y la fecha de vigencia."
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Informe escrito",
+        "paragraphs": [
+          "Cuando se ha solicitado una tasación por escrito, el propietario recibe un informe que contiene la descripción, conclusión de la tasación y limitaciones pertinentes.",
+          "El tasador debe estar disponible para explicar qué significa la cifra reportada y para qué no debe usarse."
+        ]
+      }
+    ]
+  },
+  "mountedDiamond": {
+    "id": "mounted-diamond",
+    "title": "¿Se puede tasar con precisión un diamante montado?",
+    "paragraphs": [
+      "Se puede tasar un diamante montado, pero el engaste puede limitar la precisión de ciertas mediciones y observaciones.",
+      "Las puntas, los biseles y los engarces decorativos pueden ocultar partes de la faja, inclusiones o color. Es posible que sea necesario estimar el peso exacto del diamante a partir de las mediciones si la piedra no se puede quitar.",
+      "Esto no significa que se deban desmontar todos los anillos. Quitar un diamante puede generar costos y riesgos, y puede ser innecesario para el propósito de la tasación."
+    ],
+    "questionsIntro": "Pregúntele al tasador:",
+    "questions": [
+      "¿Qué características se pueden confirmar durante el montaje?",
+      "¿Qué características se estimarán?",
+      "¿Es necesario desarmar?",
+      "¿Quién quitará y restablecerá el diamante?",
+      "¿El anillo está asegurado durante el proceso?",
+      "¿La eliminación afectará el valor antiguo o de marca?",
+      "¿La eliminación y el restablecimiento están incluidos en la cotización?"
+    ],
+    "giaLinkText": "Servicios de análisis de joyas de GIA",
+    "closing": "GIA señala que la clasificación de las joyas se realiza en la medida en que el montaje lo permite, mientras que sus informes de joyería pueden incluir información estimada sobre los diamantes, pruebas de metales, peso del artículo y marcas."
+  },
+  "writtenAppraisal": {
+    "id": "written-appraisal",
+    "title": "¿Qué debe incluir una tasación escrita de diamantes?",
+    "intro": [
+      "Una valoración escrita útil debe ser lo suficientemente específica como para que otro profesional pueda entender lo que se examinó, por qué se valoró y cómo se debe interpretar la cifra."
+    ],
+    "includes": [
+      "Referencia del propietario o cliente",
+      "Fecha del examen",
+      "Fecha de valoración efectiva",
+      "Objeto de la tasación",
+      "Definición de valor utilizado",
+      "Descripción detallada del artículo.",
+      "Información sobre diamantes y piedras preciosas",
+      "Detalles metálicos y constructivos.",
+      "Sellos y firmas",
+      "Condición",
+      "Fotografías",
+      "Información del informe de calificaciones",
+      "Supuestos y limitaciones relevantes",
+      "Mercado considerado",
+      "Conclusión monetaria",
+      "Nombre y calificaciones del tasador",
+      "Firma",
+      "Detalles de contacto"
+    ],
+    "closing": "Si el informe proporciona sólo un precio sin identificar el artículo, el propósito y la base de valoración, es posible que no sea suficiente para seguros, patrimonio o uso legal."
+  },
+  "chooseAppraiser": {
+    "id": "choose-appraiser",
+    "title": "Cómo elegir un tasador de diamantes cerca de usted",
+    "paragraphs": [
+      "Las búsquedas de “tasación de diamantes cerca de mí” suelen devolver a joyeros, compradores, casas de subastas, laboratorios y tasadores independientes. No todos prestan el mismo servicio.",
+      "Comience preguntando si la persona tiene conocimientos gemológicos y formación en evaluación. GIA aconseja que los tasadores de joyas comprendan las piedras preciosas, la valoración y la construcción de joyas. GIA también advierte que no \"certifica\" a los tasadores simplemente porque hayan completado la educación GIA."
+    ],
+    "giaLinkText": "Guía de selección de tasaciones del GIA",
+    "questionsIntro": "Un tasador adecuado debería poder explicar:",
+    "questions": [
+      "Educación gemológica relevante.",
+      "Calificaciones y experiencia en tasación.",
+      "Experiencia con el tipo de artículo.",
+      "Equipos de prueba disponibles",
+      "Si la tasación es independiente",
+      "Cómo se calcula la tarifa",
+      "Qué incluye el informe escrito",
+      "Qué mercado y base de valoración se utilizarán",
+      "Cómo se protege el artículo",
+      "tiempo de respuesta",
+      "Seguro profesional",
+      "¿Qué sucede si se requieren pruebas de laboratorio?"
+    ],
+    "closing": "Si la valoración es necesaria para un propósito formal, pregunte al asegurador, abogado, notario u otro profesional si tiene requisitos específicos."
+  },
+  "whatToBring": {
+    "id": "what-to-bring",
+    "title": "¿Qué debe aportar a una tasación de diamantes?",
+    "paragraphs": [
+      "Traiga toda la información disponible, incluso si algunos documentos son antiguos. El tasador puede decidir qué sigue siendo relevante."
+    ],
+    "itemsIntro": "Los artículos útiles incluyen:",
+    "items": [
+      "Informe de clasificación de diamantes",
+      "recibo original",
+      "Tasación previa",
+      "Calendario de seguros",
+      "caja original",
+      "Certificado de marca",
+      "Registros de reparación y servicio.",
+      "Documentos de herencia",
+      "Fotografías del artículo original.",
+      "Cualquier información de procedencia disponible",
+      "Identificación"
+    ],
+    "closing": "No limpie, repare, pula ni desmonte un artículo antiguo o firmado antes de preguntar si esas acciones son apropiadas. Si el diamante parece suelto en su engaste, deje de usar la joya e infórmeselo al tasador antes de transportarlo."
+  },
+  "howLong": {
+    "id": "how-long",
+    "title": "¿Cuánto tiempo lleva una tasación de diamantes?",
+    "paragraphs": [
+      "El tiempo requerido depende del servicio.",
+      "Durante una cita se puede realizar una evaluación preliminar verbal de un elemento sencillo. Una evaluación escrita detallada puede llevar más tiempo porque puede requerir fotografías, investigación, redacción de informes y revisión."
+    ],
+    "additionalIntro": "Es posible que se necesite tiempo adicional cuando:",
+    "additional": [
+      "El diamante no tiene informe de calificación.",
+      "El artículo contiene varias piedras.",
+      "La pieza es antigua o firmada.",
+      "Se requieren pruebas de laboratorio",
+      "El diamante central debe estar desmontado.",
+      "El informe necesita una fecha de valoración histórica",
+      "Se solicitan varios fines de valoración.",
+      "Se debe organizar un transporte seguro."
+    ],
+    "closing": "Pregunte por el tiempo de respuesta previsto antes de dejar el artículo."
+  },
+  "onlineAppraisal": {
+    "id": "online-appraisal",
+    "title": "¿Es confiable una tasación de diamantes en línea?",
+    "paragraphs": [
+      "Una tasación en línea puede proporcionar una indicación preliminar cuando el propietario presenta un informe de calificación completo y fotografías claras. Puede resultar útil para decidir si vale la pena una cita física.",
+      "Sin embargo, las fotografías no pueden confirmar de forma fiable todas las características. Es posible que un revisor en línea no pueda establecer:"
+    ],
+    "limitations": [
+      "Origen natural o cultivado en laboratorio.",
+      "Color o claridad exactos.",
+      "Tratos",
+      "Daño",
+      "Coincidencia de informes",
+      "Pureza del metal",
+      "Condición precisa",
+      "Si el diamante ha sido reemplazado"
+    ],
+    "closing": "Por este motivo, una valoración online debe etiquetarse claramente como preliminar a menos que el servicio haya completado las comprobaciones necesarias para el fin declarado.",
+    "ctaText": "INICIAR UNA VALORACIÓN DE DIAMANTES EN LÍNEA",
+    "ctaHref": "/resources/diamond-valuation-calculator"
+  },
+  "beforeSelling": {
+    "id": "before-selling",
+    "title": "¿Necesito una tasación antes de vender mi diamante?",
+    "paragraphs": [
+      "No siempre.",
+      "Si ya tienes un informe de calificación reciente y tu objetivo es simplemente recibir una oferta, un comprador especialista puede comenzar con el informe y las fotografías. Luego, una inspección física puede confirmar si el diamante coincide con la información presentada."
+    ],
+    "usefulIntro": "Una tasación independiente puede resultar útil cuando:",
+    "usefulWhen": [
+      "No entiendes lo que contiene la joya.",
+      "El anillo puede ser antiguo, firmado o coleccionable.",
+      "Varias personas comparten la propiedad.",
+      "Necesitas una opinión neutral antes de comparar canales de venta",
+      "El artículo es parte de una finca.",
+      "Necesitas un documento formal escrito.",
+      "La valoración del comprador no está clara."
+    ],
+    "closing": "Recuerde que una tasación independiente aún no garantiza que un comprador pagará el monto tasado. Una oferta de compra refleja la demanda, los costos y el canal de reventa del comprador en particular."
+  },
+  "dalilaEvaluation": {
+    "id": "dalila-evaluation",
+    "title": "La evaluación de Dalila está en posible venta",
+    "paragraphs": [
+      "El servicio de venta de Dalila Diamonds está destinado a propietarios que desean que se revise su diamante natural para una posible compra.",
+      "El proceso comienza con la información de calificación y fotografías disponibles. Si el diamante se ajusta a los criterios de compra de Dalila, se puede organizar una evaluación física en Amberes antes de preparar una oferta.",
+      "Este servicio debe describirse como una evaluación del comprador, no como una evaluación independiente para informes de seguros, sucesiones, divorcios, impuestos o legales."
+    ],
+    "processTitle": "El proceso de Dalila",
+    "processSteps": [
+      "Envíe información sobre el diamante o la joyería.",
+      "Sube el informe de calificaciones y fotografías claras.",
+      "Reciba una revisión privada inicial.",
+      "Proporcione información adicional cuando se le solicite.",
+      "Organizar la verificación física en Amberes cuando corresponda.",
+      "Reciba una oferta de compra si el artículo cumple con los criterios de Dalila.",
+      "Decide si quieres continuar."
+    ],
+    "closing": "Enviar una solicitud de evaluación no debería requerir que el vendedor acepte una oferta.",
+    "primaryCtaText": "SOLICITAR MI EVALUACIÓN DE COMPRA PRIVADA",
+    "primaryCtaHref": "#diamond-evaluation-form",
+    "secondaryCtaText": "RESERVAR UNA CITA EN AMBERES",
+    "secondaryCtaHref": "/sud"
+  },
+  "form": {
+    "id": "diamond-evaluation-form",
+    "leadSource": "diamond_appraisal_antwerp",
+    "maxFileSizeMb": 10,
+    "acceptedFormats": "JPG, PNG, WEBP y PDF",
+    "title": "Solicitar mi evaluación Diamante",
+    "subtitle": "Cuéntanos por qué necesitas una valoración y facilita la información disponible. Dalila se pondrá en contacto contigo utilizando tu método preferido.",
+    "step1Title": "Paso 1: ¿Por qué necesita una valoración?",
+    "purposeOptions": [
+      {
+        "value": "I want to sell my diamond",
+        "mode": "sell"
+      },
+      {
+        "value": "I want to sell diamond jewellery",
+        "mode": "sell"
+      },
+      {
+        "value": "I need an insurance appraisal",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need an inheritance or estate valuation",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I need a grading report or certificate",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I only want to know the approximate value",
+        "mode": "inquiry"
+      },
+      {
+        "value": "I am not sure",
+        "mode": "inquiry"
+      }
+    ],
+    "inquiryNotice": "Dalila Diamonds proporciona evaluaciones de compradores para posibles compras, no seguros independientes, patrimonio o tasaciones legales. Aún puede enviar su pregunta a continuación y un miembro del equipo le explicará lo que Dalila puede y no puede proporcionar.",
+    "sellRedirectCalculator": "Si sólo desea un valor aproximado, puede preferir el",
+    "sellRedirectGrading": "Si necesita un informe de calificación o un certificado, lea nuestra guía en",
+    "itemTypes": [
+      "Anillo de compromiso con diamantes naturales",
+      "diamante natural suelto",
+      "Joyas con diamantes naturales",
+      "Joyas antiguas o vintage",
+      "Joyas de marca o firmadas",
+      "Diamante cultivado en laboratorio",
+      "no estoy seguro"
+    ],
+    "originOptions": [
+      "diamante natural",
+      "Diamante cultivado en laboratorio",
+      "no estoy seguro"
+    ],
+    "reportOptions": [
+      "GIA",
+      "HRD Antwerp",
+      "IGI",
+      "Otro laboratorio",
+      "Sin informe",
+      "no estoy seguro"
+    ],
+    "shapeOptions": [
+      "Round",
+      "Princess",
+      "Cushion",
+      "Oval",
+      "Emerald",
+      "Pear",
+      "Marquise",
+      "Radiant",
+      "Asscher",
+      "Heart",
+      "Otro",
+      "no estoy seguro"
+    ],
+    "contactMethods": [
+      "Correo electrónico",
+      "Teléfono",
+      "Ya sea correo electrónico o teléfono"
+    ],
+    "evaluationPreferences": [
+      "Solo revisión en línea",
+      "Cita privada en Amberes",
+      "No estoy seguro todavía"
+    ],
+    "consentText": "Acepto que Dalila Diamonds pueda comunicarse conmigo con respecto a esta solicitud. Entiendo que la evaluación de un comprador es diferente de una evaluación independiente de seguros, patrimonio o legal y que una oferta de compra final puede requerir verificación física.",
+    "submitButton": "Solicitar mi evaluación Diamante",
+    "submittingButton": "Sumisión…",
+    "successMessage": "Gracias. Su solicitud ha sido enviada. Un miembro del equipo de Dalila Diamonds se comunicará con usted en breve.",
+    "errorMessage": "No pudimos enviar su solicitud. Por favor verifique los campos requeridos e inténtelo nuevamente.",
+    "labels": {
+      "purpose": "¿Por qué necesitas una valoración?",
+      "itemType": "tipo de artículo",
+      "origin": "Natural o cultivado en laboratorio, si se conoce",
+      "reportStatus": "Laboratorio de clasificación",
+      "reportNumber": "Número de informe",
+      "caratWeight": "Peso aproximado en quilates",
+      "shape": "Diamond shape",
+      "uploadReport": "Subir informe de calificaciones",
+      "uploadPhotos": "Subir fotografías",
+      "dragDrop": "Arrastre y suelte archivos aquí, o elija archivos",
+      "fullName": "nombre completo",
+      "email": "Dirección de correo electrónico",
+      "phone": "Número telefónico",
+      "country": "País",
+      "contactMethod": "Método de contacto preferido",
+      "evaluationPreference": "Revisión en línea preferida o cita en Amberes",
+      "additionalInfo": "Información adicional",
+      "optional": "Opcional"
+    },
+    "validation": {
+      "purposeRequired": "Seleccione por qué necesita una valoración.",
+      "itemTypeRequired": "Por favor seleccione el tipo de artículo.",
+      "nameRequired": "Por favor ingrese su nombre completo.",
+      "contactRequired": "Por favor proporcione una dirección de correo electrónico o un número de teléfono.",
+      "countryRequired": "Por favor ingrese su país.",
+      "consentRequired": "Confirme la declaración de consentimiento antes de enviarla."
+    }
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cuánto cuesta la tasación de un diamante en Amberes?",
+        "answer": "No existe una tarifa universal. Algunos servicios escritos básicos se anuncian desde aproximadamente 50€, mientras que las tasaciones detalladas, complejas o formales pueden costar más. Los trabajos de laboratorio, desarmado, rearme, transporte y seguro se podrán cobrar aparte."
+      },
+      {
+        "question": "¿Dónde puedo tasar un diamante en Amberes?",
+        "answer": "Dependiendo de su finalidad, es posible que necesite un tasador de joyas independiente, un laboratorio gemológico, un especialista en subastas o un comprador de diamantes profesional. Confirma qué tipo de informe u oferta ofrece cada proveedor."
+      },
+      {
+        "question": "¿El GIA tasa los diamantes?",
+        "answer": "No. GIA proporciona informes de calificación e identificación pero no asigna valores de tasación monetaria. Las tasaciones monetarias deben ser realizadas por un tasador debidamente calificado."
+      },
+      {
+        "question": "¿Es lo mismo un informe de clasificación de diamantes que una tasación?",
+        "answer": "No. Un informe de calificación describe las características de calidad de un diamante. Una tasación proporciona una opinión sobre el valor monetario para un propósito y fecha establecidos."
+      },
+      {
+        "question": "¿Es confiable una tasación de diamantes gratuita?",
+        "answer": "Una evaluación preliminar gratuita puede resultar útil, pero puede ser la opinión del comprador en lugar de una valoración escrita independiente. Pregunte qué tipo de valor se proporciona y si el evaluador tiene intención de comprar el artículo."
+      },
+      {
+        "question": "¿Se puede tasar un anillo de diamantes montado?",
+        "answer": "Sí, pero la configuración puede limitar la precisión de las observaciones de peso, color, claridad y condición. El informe debe identificar qué características se estimaron."
+      },
+      {
+        "question": "¿Necesito quitar el diamante de su engaste?",
+        "answer": "No siempre. La eliminación sólo debe considerarse cuando sea necesaria para la prueba o el informe requerido. Pregunte quién quitará y restablecerá el diamante y cómo se asegurará el artículo."
+      },
+      {
+        "question": "¿Se puede tasar un diamante sin certificado?",
+        "answer": "Sí. Una evaluación inicial puede comenzar sin un informe de calificación, pero se pueden recomendar pruebas de laboratorio o un nuevo informe antes de llegar a una conclusión confiable."
+      },
+      {
+        "question": "¿La tasación del seguro es el monto por el que puedo vender mi diamante?",
+        "answer": "No. La tasación del seguro generalmente considera el costo de reposición. Un valor de reventa o una oferta de compra refleja un mercado y un propósito diferentes."
+      },
+      {
+        "question": "¿Cuánto tiempo es válida una tasación de diamantes?",
+        "answer": "No existe un período de validez universal. Las características del diamante pueden permanecer estables, pero los precios de mercado y los costos de reposición pueden cambiar. Las aseguradoras y otros usuarios pueden tener sus propios requisitos de actualización."
+      },
+      {
+        "question": "¿Puedo tasar un diamante en línea?",
+        "answer": "Puede recibir una evaluación preliminar en línea a partir de información del informe y fotografías. Una conclusión formal o final puede requerir un examen físico."
+      },
+      {
+        "question": "¿Necesito una tasación antes de vender a Dalila?",
+        "answer": "No necesariamente. Dalila puede comenzar revisando el informe de calificaciones y las fotografías disponibles. Una tasación independiente puede ser apropiada cuando el propietario necesita una valoración neutral o formal."
+      },
+      {
+        "question": "¿Comprará Dalila todos los diamantes presentados?",
+        "answer": "No. Dalila primero debe determinar si el diamante se ajusta a sus criterios de compra y completar la verificación requerida."
+      },
+      {
+        "question": "¿Tengo que vender después de recibir una oferta?",
+        "answer": "No. Solicitar una evaluación no requiere que acepte una oferta."
+      }
+    ]
+  },
+  "finalCta": {
+    "id": "find-right-valuation",
+    "title": "Encuentre la valoración de diamantes adecuada en Amberes",
+    "paragraphs": [
+      "El servicio correcto depende de la pregunta que necesita respuesta.",
+      "Elija un tasador independiente cuando necesite una opinión monetaria formal para seguros, herencias o uso legal. Elija un laboratorio gemológico cuando necesite identificación o clasificación. Elija un comprador profesional cuando quiera saber si la empresa comprará su diamante y qué está dispuesta a ofrecer.",
+      "Si su objetivo es vender un diamante natural, comience con un envío privado en línea a Dalila Diamonds."
+    ],
+    "primaryButtonText": "INICIAR MI EVALUACIÓN DE DIAMANTE",
+    "primaryButtonHref": "#diamond-evaluation-form",
+    "secondaryButtonText": "RESERVAR UNA CITA PRIVADA EN AMBERES",
+    "secondaryButtonHref": "/sud"
+  },
+  "internalLinks": {
+    "sellPage": {
+      "href": "/sud",
+      "text": "vende tu diamante en Amberes"
+    },
+    "valuationCalculator": {
+      "href": "/resources/diamond-valuation-calculator",
+      "text": "calculadora de valoración de diamantes en línea"
+    },
+    "whereToSell": {
+      "href": "/resources/where-to-sell-diamond-ring",
+      "text": "donde vender un anillo de diamantes"
+    },
+    "howToSell": {
+      "href": "/resources/how-to-sell-diamond-ring",
+      "text": "cómo vender un anillo de diamantes de forma segura"
+    },
+    "withoutCert": {
+      "href": "/resources/sell-diamond-without-certificate",
+      "text": "vender un diamante sin certificado"
+    },
+    "gradingReport": {
+      "href": "/resources/diamond-grading-report-guide",
+      "text": "verificar un informe de clasificación de diamantes"
+    }
+  }
+}

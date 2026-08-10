@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "title": "Guide des ceintures diamantées : épaisseur et qualités | Dalila Diamants",
+    "description": "Découvrez ce qu'est un rondiste en diamant, comment le GIA et le HRD classent son épaisseur et comment les rondistes fins ou épais affectent la durabilité, la taille, le sertissage et la valeur.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-girdle-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaAnatomy": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    "giaFinishGirdle": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaChipping": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    "giaOval": "https://4cs.gia.edu/en-us/oval-cut-diamond/",
+    "giaInclusions": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaInscription": "https://4cs.gia.edu/en-us/diamond-quality-factor/",
+    "giaLabGrown": "https://www.gia.edu/gia-lab-grown-diamond-reports",
+    "hrdCutGrade": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Guide des ceintures de diamant",
+    "breadcrumbHome": "Maison",
+    "breadcrumbResources": "Ressources",
+    "breadcrumbCurrent": "Guide des ceintures de diamant",
+    "imageAlt": "Bannière de ressources Diamond Girdle Guide pour les acheteurs de diamants naturels"
+  },
+  "hero": {
+    "title": "Guide des ceintures de diamant pour les acheteurs de diamants naturels",
+    "subheading": "Comprenez l'épaisseur des rondistes diamantés, les classements GIA et HRD, la durabilité, les considérations de réglage, le poids caché, les dommages des rondistes et la différence entre les rondistes fins, moyens et épais.",
+    "reviewDateLabel": "Dernière révision :",
+    "reviewDate": "30 juillet 2026"
+  },
+  "introduction": {
+    "paragraphs": [],
+    "bullets": []
+  },
+  "quickAnswer": {
+    "title": "Réponse rapide",
+    "introParagraphs": [
+      "La ceinture est le bord extérieur étroit d'un diamant poli, là où la couronne rencontre le pavillon. Il définit le contour du diamant et constitue normalement la zone saisie par des griffes, une lunette ou une autre monture de bijou.",
+      "Pour de nombreux diamants naturels modernes, un rondiste fin, moyen ou légèrement épais (ou une gamme raisonnable entre ces catégories) est généralement pratique. Une ceinture extrêmement fine ou très fine peut augmenter la vulnérabilité à l'écaillage, en particulier à proximité des coins et des points. Un rondiste très épais ou extrêmement épais peut retenir le poids sans augmenter la taille visible du diamant face vers le haut.",
+      "La description de la ceinture ne doit pas être évaluée seule. Les acheteurs doivent prendre en compte l’emplacement des sections fines et épaisses, la forme du diamant, son sertissage, ses mesures, sa symétrie, son état, ses performances de taille complète et son prix."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Points clés à retenir",
+    "items": [
+      "Le rondiste est le périmètre extérieur séparant la couronne du diamant de son pavillon.",
+      "L'épaisseur de la ceinture est normalement indiquée comme une plage allant des zones pertinentes les plus fines aux plus épaisses.",
+      "GIA utilise huit descriptions verbales allant de extrêmement mince à extrêmement épais.",
+      "Une plage telle que fine à légèrement épaisse ne signifie pas que la ceinture entière a une épaisseur uniforme.",
+      "Les rondistes fins, moyens et légèrement épais sont généralement acceptables, mais il n’existe pas de meilleure description universelle pour chaque diamant.",
+      "Les zones extrêmement fines peuvent augmenter le risque d'écaillage, en particulier au niveau des coins, des points et des positions exposées.",
+      "Les gaines épaisses peuvent contenir un poids qui ne contribue pas de manière significative à la taille face vers le haut.",
+      "Un rondiste épais ne signifie pas automatiquement que le diamant est mal taillé ou peu attrayant.",
+      "Facetté, poli et brut décrivent la finition du rondiste, pas son épaisseur.",
+      "Une ceinture à facettes n'est pas automatiquement meilleure qu'une ceinture polie ou brute.",
+      "La peinture et le creusement décrivent les variations créées par la relation entre les moitiés supérieure et inférieure autour de la ceinture.",
+      "Les éclats, les cavités, les naturels, les naturels dentelés et les barbes ne doivent pas être confondus avec l'épaisseur ordinaire des ceintures.",
+      "Une inscription au laser sur le rondiste peut aider à faire correspondre un diamant à son rapport, mais elle ne constitue pas à elle seule une identification suffisante.",
+      "Les formes fantaisistes nécessitent une attention particulière aux coins et points vulnérables.",
+      "L’épaisseur de la ceinture ne peut pas prouver qu’un diamant est naturel plutôt que cultivé en laboratoire.",
+      "Le prix doit être basé sur le diamant complet, et non sur une remise ou une prime fixe sur la gaine."
+    ]
+  },
+  "importantBuyerNote": {
+    "id": "important-buyer-note",
+    "title": "Remarque importante pour l'acheteur",
+    "paragraphs": [
+      "Ce guide explique comment les ceintures sont décrites et évaluées. Cela ne remplace pas l’examen du diamant lui-même par un gemmologue qualifié ou un professionnel du diamant expérimenté.",
+      "Un rapport de classification décrit le diamant lors de son examen. Il ne garantit pas que la ceinture soit restée intacte depuis l'émission du rapport."
+    ]
+  },
+  "overviewNav": {
+    "title": "Aperçu du guide",
+    "items": [
+      {
+        "id": "what-is-a-diamond-girdle",
+        "label": "Qu'est-ce qu'une ceinture de diamant ?"
+      },
+      {
+        "id": "where-the-girdle-is-located",
+        "label": "Où se trouve la ceinture"
+      },
+      {
+        "id": "what-the-girdle-does",
+        "label": "Que fait la ceinture"
+      },
+      {
+        "id": "gia-diamond-girdle-scale",
+        "label": "Balance de diamant GIA"
+      },
+      {
+        "id": "how-girdle-ranges-are-reported",
+        "label": "Comment les gammes de gaines sont signalées"
+      },
+      {
+        "id": "diamond-girdle-percentages",
+        "label": "Pourcentages de ceinture de diamant"
+      },
+      {
+        "id": "hrd-antwerp-girdle-measurements",
+        "label": "Mesures de ceinture HRD Anvers"
+      },
+      {
+        "id": "gia-versus-hrd-girdle-reporting",
+        "label": "Rapports de ceinture GIA versus HRD"
+      },
+      {
+        "id": "best-girdle-thickness-for-a-diamond",
+        "label": "Meilleure épaisseur de rondiste pour un diamant"
+      },
+      {
+        "id": "thin-and-extremely-thin-girdles",
+        "label": "Ceintures fines et extrêmement fines"
+      },
+      {
+        "id": "thick-and-extremely-thick-girdles",
+        "label": "Ceintures épaisses et extrêmement épaisses"
+      },
+      {
+        "id": "uneven-and-varying-girdles",
+        "label": "Ceintures inégales et variables"
+      },
+      {
+        "id": "faceted-polished-and-bruted-girdles",
+        "label": "Ceintures facettées, polies et brutes"
+      },
+      {
+        "id": "painting-and-digging-out",
+        "label": "Peindre et creuser"
+      },
+      {
+        "id": "girdle-damage-and-clarity-characteristics",
+        "label": "Dommages à la ceinture et caractéristiques de clarté"
+      },
+      {
+        "id": "laser-inscriptions-on-the-girdle",
+        "label": "Inscriptions laser sur la ceinture"
+      },
+      {
+        "id": "girdles-in-different-diamond-shapes",
+        "label": "Ceintures de différentes formes de diamants"
+      },
+      {
+        "id": "girdle-thickness-and-jewellery-settings",
+        "label": "Épaisseur des ceintures et sertissages des bijoux"
+      },
+      {
+        "id": "girdle-thickness-face-up-size-and-price",
+        "label": "Épaisseur de la ceinture, taille face vers le haut et prix"
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-girdles",
+        "label": "Ceintures en diamant naturel ou cultivé en laboratoire"
+      },
+      {
+        "id": "how-to-inspect-a-diamond-girdle",
+        "label": "Comment inspecter un rondiste en diamant"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Comparatif des diamants travaillés"
+      },
+      {
+        "id": "common-girdle-myths",
+        "label": "Mythes courants sur la ceinture"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Liste de contrôle pour l'achat de diamants naturels"
+      },
+      {
+        "id": "girdle-guide-faq-heading",
+        "label": "Questions fréquemment posées"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-girdle",
+    "title": "Qu'est-ce qu'une ceinture en diamant ?",
+    "introParagraphs": [
+      "La ceinture est le périmètre étroit autour d'un diamant poli où se rejoignent la couronne supérieure et le pavillon inférieur.",
+      "Vu de dessus, le rondiste définit le contour du diamant. Il détermine si la pierre polie apparaît :"
+    ],
+    "bullets": [
+      "Rond",
+      "Ovale",
+      "Carré",
+      "Rectangulaire",
+      "En forme de poire",
+      "En forme de marquise",
+      "En forme de coeur",
+      "En forme de coussin",
+      "Un autre contour reconnu"
+    ],
+    "closingParagraphs": [
+      "Vue de côté, la ceinture apparaît comme le bord de séparation entre la couronne et le pavillon."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA décrit le rondiste comme la partie centrale du diamant et la partie normalement utilisée comme bord de sertissage. Son épaisseur contribue à la durabilité et à la répartition du poids."
+        },
+        {
+          "type": "link",
+          "text": "La référence en anatomie du diamant du GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explique sa position dans le diamant poli complet."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Pour le point pavillon en face du tableau, voir le"
+        },
+        {
+          "type": "link",
+          "text": "Guide de la colette de diamant",
+          "href": "/resources/diamond-culet-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Pour des échelles de qualité plus larges, voir le"
+        },
+        {
+          "type": "link",
+          "text": "Tableau de qualité des diamants",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-girdle-a-facet",
+        "title": "La ceinture est-elle une facette ?",
+        "paragraphsBefore": [
+          "Pas nécessairement.",
+          "La ceinture peut être :"
+        ],
+        "bullets": [
+          "Faceted",
+          "Poli mais pas facetté individuellement",
+          "Bruté ou givré",
+          "Partiellement facetté",
+          "Finition irrégulière"
+        ],
+        "paragraphsAfter": [
+          "Une ceinture à facettes contient une séquence de petites surfaces polies. Une ceinture polie peut être lisse plutôt que divisée en facettes individuelles. Une ceinture brute a généralement un aspect givré ou granuleux créé lors du processus de mise en forme."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-crown",
+        "title": "La ceinture est-elle la même que la couronne ?",
+        "paragraphsBefore": [
+          "Non.",
+          "La couronne est la partie supérieure complète du diamant au-dessus du rondiste. La ceinture forme la limite en dessous."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-pavilion",
+        "title": "La ceinture est-elle la même que le pavillon ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Le pavillon est la partie inférieure située sous la ceinture, s'étendant vers la colette ou toute autre terminaison du pavillon."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-a-lower-girdle-facet",
+        "title": "La ceinture est-elle la même qu'une facette de la ceinture inférieure ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Les facettes de la ceinture inférieure, également appelées facettes de la moitié inférieure, sont des facettes en pavillon s'étendant vers le haut en direction de la ceinture. Ce n’est pas la ceinture elle-même."
+        ]
+      }
+    ]
+  },
+  "whereLocated": {
+    "id": "where-the-girdle-is-located",
+    "title": "Où se trouve la ceinture ?",
+    "introParagraphs": [
+      "Les principales parties d’un brillant rond poli sont :"
+    ],
+    "bullets": [
+      "Tableau",
+      "Couronne",
+      "Ceinture",
+      "Pavillon",
+      "Point Culet ou pavillon"
+    ],
+    "closingParagraphs": [
+      "La table se trouve en haut. La couronne descend de la table jusqu'à la ceinture. Le pavillon se poursuit sous la ceinture vers la colette.",
+      "Le rondiste entoure tout le diamant horizontalement.",
+      "Dans un diamant monté, les parties du rondiste peuvent être :"
+    ],
+    "positionBullets": [
+      "Couvert par des griffes",
+      "Enfermé par une lunette",
+      "Caché par un halo ou du métal environnant",
+      "Visible entre les points de réglage",
+      "Positionné au-dessus ou en dessous des bijoux environnants",
+      "Difficile à inspecter sans retirer ou ajuster le réglage"
+    ],
+    "finalParagraphs": [
+      "Une inspection complète doit tenir compte des zones cachées par le métal."
+    ],
+    "displacedBullets": [],
+    "closingNote": []
+  },
+  "whatDoes": {
+    "id": "what-the-girdle-does",
+    "title": "À quoi sert la ceinture de diamant ?",
+    "introParagraphs": [
+      "La ceinture a plusieurs fonctions connexes."
+    ],
+    "subsections": [
+      {
+        "id": "defines-the-diamonds-outline",
+        "title": "Définit le contour du diamant",
+        "paragraphsBefore": [
+          "Le rondiste établit la forme visible lorsque le diamant est vu face vers le haut.",
+          "Les variations dans le contour peuvent affecter :"
+        ],
+        "bullets": [
+          "Rondeur",
+          "Rapport longueur/largeur",
+          "Forme du coin",
+          "Alignement des points",
+          "Équilibre des épaules",
+          "Forme de l'aile",
+          "Symétrie globale"
+        ]
+      },
+      {
+        "id": "separates-the-crown-and-pavilion",
+        "title": "Sépare la couronne et le pavillon",
+        "paragraphsBefore": [
+          "Le rondiste forme la transition entre les sections supérieure et inférieure du diamant.",
+          "Son épaisseur contribue à :"
+        ],
+        "bullets": [
+          "Profondeur totale",
+          "Répartition du poids",
+          "Durabilité",
+          "Adéquation des paramètres",
+          "Dimensions face vers le haut"
+        ]
+      },
+      {
+        "id": "provides-the-setting-edge",
+        "title": "Fournit le bord de réglage",
+        "paragraphsBefore": [
+          "Les griffes, les lunettes et autres composants de montage fixent normalement le diamant autour de sa ceinture.",
+          "Pour cette raison, les passeurs doivent considérer :"
+        ],
+        "bullets": [
+          "Épaisseur minimale de la ceinture",
+          "Variation d'épaisseur",
+          "Coins et points",
+          "Puces existantes",
+          "Naturels et caries",
+          "Emplacements des plumes",
+          "Finition ceinture",
+          "Si une inscription doit rester visible",
+          "La pression nécessaire pour fixer la pierre"
+        ]
+      },
+      {
+        "id": "protects-the-diamonds-edge",
+        "title": "Protège le bord du diamant",
+        "paragraphsBefore": [
+          "Une ceinture correctement proportionnée fournit du matériau entre la couronne et le pavillon.",
+          "Si le rondiste devient extrêmement fin ou tranchant, le bord peut être plus vulnérable à l'écaillage. S’il est inutilement épais, il peut conserver un poids qui contribue peu à l’étalement visible du diamant."
+        ]
+      }
+    ]
+  },
+  "giaScale": {
+    "id": "gia-diamond-girdle-scale",
+    "title": "Échelle de ceinture de diamant GIA",
+    "introParagraphs": [
+      "GIA utilise les descriptions d'épaisseur de ceinture suivantes :"
+    ],
+    "table": {
+      "caption": "Descriptions de l'épaisseur de la ceinture GIA",
+      "headers": [
+        "Descriptif du GIA",
+        "Interprétation générale",
+        "Approche pratique de l'acheteur"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "Peu ou pas de ceinture mesurable dans un ou plusieurs domaines pertinents",
+          "Étudier l’emplacement, l’étendue, la durabilité et l’établissement des risques"
+        ],
+        [
+          "Très mince",
+          "Des zones de ceinture étroites sont présentes",
+          "Déterminer s'ils sont localisés ou étendus et si des points ou des coins sont affectés"
+        ],
+        [
+          "Mince",
+          "Une ceinture relativement étroite mais établie",
+          "Fréquemment acceptable lorsqu’il n’est pas endommagé et adapté à la forme"
+        ],
+        [
+          "Medium",
+          "Épaisseur moyenne équilibrée",
+          "Généralement pratique pour la durabilité et la répartition du poids"
+        ],
+        [
+          "Slightly Thick",
+          "Épaisseur modérément augmentée",
+          "Souvent acceptable si les dimensions et les proportions face visible restent attrayantes"
+        ],
+        [
+          "Épais",
+          "Épaisseur de ceinture sensiblement accrue",
+          "Comparez le poids, le diamètre, la profondeur et l'apparence face vers le haut"
+        ],
+        [
+          "Very Thick",
+          "Épaisseur importante dans une ou plusieurs zones",
+          "Vérifiez le poids caché, la propagation réduite et les implications en matière de réglage"
+        ],
+        [
+          "Extremely Thick",
+          "Épaisseur de ceinture très importante",
+          "Nécessite une comparaison minutieuse de l’efficacité du poids, des proportions et de l’apparence"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA évalue visuellement l’épaisseur de la ceinture sous un grossissement 10× et rapporte soit une description unique, soit une plage. Son échelle complète et sa méthodologie de mesure sont fournies dans le"
+        },
+        {
+          "type": "link",
+          "text": "Finition GIA, référence culet et gaine",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-gia-scale-a-quality-scale",
+        "title": "L’échelle GIA est-elle une échelle de qualité ?",
+        "paragraphsBefore": [
+          "Pas tout seul.",
+          "Les termes décrivent l'épaisseur. Leur importance d'achat dépend de :"
+        ],
+        "bullets": [
+          "Épaisseur minimale",
+          "Épaisseur maximale",
+          "Localisation de chaque extrême",
+          "Forme de diamant",
+          "Vulnérabilité des coins et des points",
+          "État de la ceinture",
+          "Proportions globales",
+          "Rapport de poids",
+          "Symétrie",
+          "Paramètre",
+          "Apparence face vers le haut"
+        ],
+        "paragraphsAfter": [
+          "Medium n’est pas automatiquement supérieur à toutes les gaines fines ou légèrement épaisses. De même, une zone très épaisse ne rend pas automatiquement un diamant inadapté."
+        ]
+      },
+      {
+        "id": "can-gia-report-a-single-description",
+        "title": "Le GIA peut-il déclarer une seule description ?",
+        "paragraphsBefore": [
+          "Oui.",
+          "Si les zones de ceinture pertinentes les plus fines et les plus épaisses appartiennent à la même catégorie, le rapport peut afficher une description, telle que :"
+        ],
+        "bullets": [
+          "Medium",
+          "Mince",
+          "Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "Plus communément, le rapport propose une plage telle que :",
+          "Fin à moyen",
+          "Moyen à légèrement épais",
+          "Très fin à épais"
+        ]
+      }
+    ]
+  },
+  "rangesReported": {
+    "id": "how-girdle-ranges-are-reported",
+    "title": "Comment les gammes de ceintures de diamant sont-elles signalées ?",
+    "introParagraphs": [
+      "Une description telle que Mince à Légèrement épais représente les épaisseurs de ceinture minimales et maximales observées.",
+      "Cela ne veut pas dire :"
+    ],
+    "bullets": [
+      "La moitié de la ceinture est fine et l'autre moitié est légèrement épaisse.",
+      "L'épaisseur moyenne est moyenne",
+      "Chaque zone entre les deux descriptions est représentée de manière égale",
+      "La ceinture est endommagée",
+      "Le diamant est asymétrique",
+      "Le diamant ne peut pas recevoir une qualité de taille élevée"
+    ],
+    "subsections": [
+      {
+        "id": "how-should-a-girdle-range-be-read",
+        "title": "Comment lire une gamme de ceintures ?",
+        "paragraphsBefore": [
+          "Le premier terme est l'épaisseur minimale. Le second est le maximum."
+        ],
+        "table": {
+          "caption": "Lecture des descriptions des gammes de ceintures",
+          "headers": [
+            "Description du rapport",
+            "Minimum",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Fin à moyen",
+              "Mince",
+              "Medium"
+            ],
+            [
+              "Moyen à légèrement épais",
+              "Medium",
+              "Slightly Thick"
+            ],
+            [
+              "Très fin à épais",
+              "Très mince",
+              "Épais"
+            ],
+            [
+              "Fin à très épais",
+              "Mince",
+              "Very Thick"
+            ],
+            [
+              "Medium",
+              "Medium",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "does-a-wide-range-mean-the-girdle-is-bad",
+        "title": "Une large gamme signifie-t-elle que la ceinture est mauvaise ?",
+        "paragraphsBefore": [
+          "Pas automatiquement.",
+          "Une gamme plus large nécessite un examen car elle peut résulter de :"
+        ],
+        "bullets": [
+          "Variation normale autour d'une ceinture festonnée",
+          "La conception d'une forme fantaisie",
+          "Matériel supplémentaire près d’un coin ou d’un point",
+          "Peinture",
+          "Creuser",
+          "Variation du placement des facettes",
+          "Un naturel naturel ou échancré",
+          "Une facette supplémentaire",
+          "Décisions de coupe utilisées pour conserver le poids",
+          "Un contour irrégulier",
+          "Dommage"
+        ],
+        "paragraphsAfter": [
+          "L’emplacement et l’étendue de la variation comptent plus que la seule largeur de la gamme verbale."
+        ]
+      },
+      {
+        "id": "can-one-small-area-determine-the-minimum-description",
+        "title": "Une petite zone peut-elle déterminer la description minimale ?",
+        "paragraphsBefore": [
+          "Une zone limitée peut influencer le minimum rapporté, bien que la méthodologie de laboratoire prenne également en compte les caractéristiques interrompant la ceinture.",
+          "GIA explique que des caractéristiques telles qu'une cavité naturelle, un éclat ou une facette supplémentaire peuvent rétrécir localement la ceinture. Le rondiste restant et toute zone véritablement tranchante doivent être évalués selon la méthodologie du laboratoire.",
+          "Par conséquent, ne présumez pas qu’un rapport indiquant Très fin signifie que l’ensemble de la ceinture est très mince."
+        ]
+      }
+    ]
+  },
+  "percentages": {
+    "id": "diamond-girdle-percentages",
+    "title": "Pourcentage de ceinture de diamant",
+    "introParagraphs": [
+      "Pour un brillant rond, l’épaisseur du rondiste peut être exprimée par rapport au diamètre moyen du rondiste du diamant.",
+      "La formule de support est :",
+      "Pourcentage d'épaisseur de la ceinture = épaisseur de la ceinture ÷ diamètre moyen de la ceinture × 100",
+      "Le GIA distingue deux évaluations liées :"
+    ],
+    "bullets": [
+      "Épaisseur moyenne mesurée aux huit positions de la colline principale du cadre et du pavillon",
+      "Épaisseur minimale et maximale évaluée visuellement aux positions de vallée les plus fines"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA indique le pourcentage moyen de position en colline au 0,5 % le plus proche. La plage verbale est basée sur les zones de vallée minimales et maximales pertinentes."
+        },
+        {
+          "type": "link",
+          "text": "Guide d’anatomie Round Brilliant du GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explique la différence."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-are-hill-and-valley-positions",
+        "title": "Que sont les positions des collines et des vallées ?",
+        "paragraphsBefore": [
+          "Un diamant taille brillant a un rondiste festonné.",
+          "Les positions de colline sont des zones plus épaisses où se rencontrent les facettes du cadre et les facettes principales du pavillon.",
+          "Les positions des vallées sont des zones plus minces associées aux jonctions des facettes supérieure et inférieure.",
+          "Étant donné que ces positions mesurent différentes parties de la ceinture, un pourcentage moyen ne doit pas être traité comme une traduction directe de la plage verbale minimum-maximum."
+        ]
+      },
+      {
+        "id": "can-buyers-convert-gia-percentages-into-exact-verbal-grades",
+        "title": "Les acheteurs peuvent-ils convertir les pourcentages du GIA en notes verbales exactes ?",
+        "paragraphsBefore": [
+          "Pas fiable.",
+          "Le GIA déclare que :"
+        ],
+        "bullets": [
+          "Ses exemples de pourcentages publiés sont approximatifs",
+          "Les mesures extrêmement fines sont affectées par la tolérance de l'instrument",
+          "Les caractéristiques de clarté peuvent interférer avec la mesure",
+          "La ceinture peut être irrégulière",
+          "La ceinture ne peut pas être perpendiculaire à la table",
+          "Une vérification visuelle reste nécessaire"
+        ],
+        "paragraphsAfter": [
+          "Pour cette raison, utilisez la description indiquée par le laboratoire plutôt que d’appliquer une table de conversion créée par vous-même."
+        ]
+      },
+      {
+        "id": "does-a-higher-percentage-always-mean-a-worse-diamond",
+        "title": "Un pourcentage plus élevé signifie-t-il toujours un pire diamant ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Un pourcentage de rondiste plus élevé indique une plus grande épaisseur et non une qualité complète du diamant.",
+          "Son effet doit être évalué à côté :"
+        ],
+        "bullets": [
+          "Hauteur de la couronne",
+          "Profondeur du pavillon",
+          "Profondeur totale",
+          "Taille du tableau",
+          "Dimensions face vers le haut",
+          "Qualité de coupe",
+          "Symétrie",
+          "Forme",
+          "Répartition du poids",
+          "Prix"
+        ]
+      }
+    ]
+  },
+  "hrdMeasurements": {
+    "id": "hrd-antwerp-girdle-measurements",
+    "title": "Mesures de la ceinture HRD Anvers",
+    "introParagraphs": [
+      "HRD Anvers rapporte généralement le ceinture en utilisant une description verbale, un pourcentage et une finition.",
+      "Dans le cadre de ses orientations de janvier 2025, HRD utilise les plages descriptives suivantes :"
+    ],
+    "table": {
+      "caption": "Gammes descriptives des ceintures HRD Anvers",
+      "headers": [
+        "Description du DRH",
+        "Valeur de gaine mesurée"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "0,0 % à 0,5 %"
+        ],
+        [
+          "Très mince",
+          "1,0 % à 1,5 %"
+        ],
+        [
+          "Mince",
+          "2,0 % à 2,5 %"
+        ],
+        [
+          "Medium",
+          "3,0 % à 5,0 %"
+        ],
+        [
+          "Épais",
+          "5,5 % à 6,0 %"
+        ],
+        [
+          "Very Thick",
+          "6,5 % à 7,5 %"
+        ],
+        [
+          "Extremely Thick",
+          "8,0 % et plus"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "HRD évalue séparément la manière dont le pourcentage contribue à la note des proportions Round Brilliant :"
+    ],
+    "proportionsTable": {
+      "caption": "Catégories de pourcentage et de proportions de la ceinture HRD",
+      "headers": [
+        "Pourcentage de ceinture HRD",
+        "Catégorie de proportions liées à la ceinture"
+      ],
+      "rows": [
+        [
+          "2,5 % à 4,5 %",
+          "Excellent"
+        ],
+        [
+          "2,0 % ou 5,0 % à 6,5 %",
+          "Very Good"
+        ],
+        [
+          "1,0 % à 1,5 % ou 7,0 % à 8,5 %",
+          "Good"
+        ],
+        [
+          "Jusqu'à 0,5 % ou 9,0 % et plus",
+          "Fair"
+        ]
+      ]
+    },
+    "finalParagraphs": [
+      "Ces classifications décrivent la contribution de la ceinture à l’évaluation des proportions par HRD. Ils ne déterminent pas eux-mêmes la note complète.",
+      "HRD prend également en compte l'angle de la couronne, l'angle du pavillon, la largeur de la table, la hauteur de la couronne, la profondeur du pavillon, la profondeur totale, la colette, le poli, la symétrie et d'autres effets observables. La méthodologie complète apparaît dans le tableau des niveaux de qualification du HRD Anvers 2025."
+    ],
+    "subsections": [
+      {
+        "id": "why-is-hrd-relevant-to-european-buyers",
+        "title": "Pourquoi le DRH est-il pertinent pour les acheteurs européens ?",
+        "paragraphsBefore": [
+          "Les rapports du HRD Anvers sont fréquemment rencontrés en Belgique et sur le marché européen du diamant au sens large.",
+          "Les acheteurs doivent reconnaître que :"
+        ],
+        "bullets": [
+          "Les formats de rapport GIA et HRD diffèrent",
+          "Leurs limites descriptives diffèrent",
+          "Leurs structures de qualité coupée diffèrent",
+          "La fourchette verbale du GIA n’est pas un équivalent mathématique direct du pourcentage du DRH",
+          "Le rapport complet doit être interprété selon le laboratoire émetteur"
+        ]
+      }
+    ]
+  },
+  "giaVsHrd": {
+    "id": "gia-versus-hrd-girdle-reporting",
+    "title": "Rapports de ceinture GIA versus HRD",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Reportage de ceinture GIA versus HRD Anvers",
+      "headers": [
+        "Fonctionnalité",
+        "GIA",
+        "HRD Antwerp"
+      ],
+      "rows": [
+        [
+          "Approche de reporting principale",
+          "Plage verbale minimale à maximale appuyée par des mesures de proportions",
+          "Pourcentage et description verbale"
+        ],
+        [
+          "Échelle d'épaisseur",
+          "Extrêmement fin à extrêmement épais, y compris légèrement épais",
+          "Extrêmement fin à extrêmement épais"
+        ],
+        [
+          "Catégorie Légèrement Épais",
+          "Oui",
+          "Non affiché comme catégorie distincte dans le graphique de janvier 2025"
+        ],
+        [
+          "Méthodologie du pourcentage",
+          "Pourcentage moyen de position en colline et évaluation visuelle de la vallée",
+          "Paramètre de proportion basé sur un pourcentage"
+        ],
+        [
+          "Structure de qualité coupée",
+          "Note de coupe globale pour les brillants ronds standards de qualification",
+          "Catégories de proportions, de polissage et de symétrie"
+        ],
+        [
+          "Finition ceinture",
+          "Peut être facetté, poli ou brut",
+          "Peut indiquer une finition facettée, polie ou autre applicable"
+        ],
+        [
+          "Approche acheteur",
+          "Lire la gamme complète, le pourcentage moyen, la finition et le rapport global",
+          "Lire le pourcentage, la description, la note des proportions et le rapport complet"
+        ]
+      ]
+    },
+    "closingParagraphs": [],
+    "subsections": [
+      {
+        "id": "can-gia-and-hrd-grades-be-converted-directly",
+        "title": "Les notes GIA et HRD peuvent-elles être converties directement ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Ne présumez pas :"
+        ],
+        "bullets": [
+          "GIA Medium est toujours égal à un pourcentage HRD",
+          "GIA légèrement épais est toujours égal à HRD moyen ou épais",
+          "GIA Very Thin a toujours la même implication de réduction qu'un pourcentage HRD",
+          "Des pourcentages identiques garantissent des qualités de coupe globales identiques",
+          "Une description verbale a les mêmes limites dans tous les laboratoires"
+        ],
+        "paragraphsAfter": [
+          "Traitez chaque rapport selon la méthodologie publiée par le laboratoire émetteur."
+        ]
+      }
+    ]
+  },
+  "bestThickness": {
+    "id": "best-girdle-thickness-for-a-diamond",
+    "title": "Quelle est la meilleure épaisseur de ceinture pour un diamant ?",
+    "introParagraphs": [
+      "Il n’existe pas de meilleure description de gaine pour chaque diamant naturel.",
+      "Pour de nombreux diamants Round Brilliant modernes, les descriptions suivantes sont généralement pratiques :"
+    ],
+    "bullets": [
+      "Mince",
+      "Medium",
+      "Slightly Thick",
+      "Fin à moyen",
+      "Moyen à légèrement épais",
+      "Fin à légèrement épais"
+    ],
+    "closingParagraphs": [
+      "Ces gammes offrent souvent un équilibre raisonnable entre durabilité et efficacité pondérale.",
+      "Cependant, la bonne décision dépend toujours de :"
+    ],
+    "dependBullets": [
+      "Qualité de coupe complète",
+      "Diamètre face vers le haut",
+      "Profondeur totale",
+      "Forme",
+      "Épaisseur minimale",
+      "Épaisseur maximale",
+      "Localisation de la variation",
+      "Dommages existants",
+      "Paramètre",
+      "Prix"
+    ],
+    "subsections": [
+      {
+        "id": "is-medium-the-best-girdle-grade",
+        "title": "La qualité moyenne est-elle la meilleure pour les ceintures ?",
+        "paragraphsBefore": [
+          "Moyen est souvent considéré comme un résultat équilibré, mais il n’est pas automatiquement meilleur que Fin ou Légèrement épais.",
+          "Un diamant avec un rondiste fin à moyen peut surpasser ou offrir une meilleure valeur qu'un diamant avec un rondiste moyen uniforme."
+        ]
+      },
+      {
+        "id": "can-slightly-thick-be-excellent",
+        "title": "Un peu épais peut-il être excellent ?",
+        "paragraphsBefore": [
+          "Oui.",
+          "Une zone légèrement épaisse peut être compatible avec un diamant attrayant et bien taillé. L’évaluation globale dépend de l’ensemble complet des proportions et des performances visuelles."
+        ]
+      },
+      {
+        "id": "can-thick-be-acceptable",
+        "title": "L’épaisseur peut-elle être acceptable ?",
+        "paragraphsBefore": [
+          "Oui.",
+          "Une ceinture épaisse peut être acceptable lorsque :"
+        ],
+        "bullets": [
+          "Les dimensions face vers le haut restent appropriées",
+          "La profondeur totale n'est pas excessive",
+          "Le diamant fonctionne de manière attrayante",
+          "L'épaisseur est localisée",
+          "La forme bénéficie de matériaux supplémentaires au niveau des zones vulnérables",
+          "Le prix reflète le diamant complet"
+        ]
+      },
+      {
+        "id": "should-buyers-reject-every-very-thin-or-very-thick-range",
+        "title": "Les acheteurs devraient-ils rejeter toute gamme très fine ou très épaisse ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Les deux méritent un examen plus approfondi, mais ni l’un ni l’autre ne devrait être rejeté en utilisant uniquement l’étiquette du rapport."
+        ]
+      }
+    ]
+  },
+  "thinGirdles": {
+    "id": "thin-and-extremely-thin-girdles",
+    "title": "Ceintures fines, très fines et extrêmement fines",
+    "introParagraphs": [
+      "Une fine ceinture contient moins de matière entre la couronne et le pavillon."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-thin-girdle-dangerous",
+        "title": "Une ceinture fine est-elle dangereuse ?",
+        "paragraphsBefore": [
+          "Pas automatiquement.",
+          "Thin est une description de classement reconnue et est courante dans les diamants commercialisables. L'inquiétude augmente lorsque la ceinture devient :"
+        ],
+        "bullets": [
+          "Largement très mince",
+          "Extremely Thin",
+          "Tranchant",
+          "Très fin dans un coin ou un point",
+          "Très fin à côté d'une grosse plume",
+          "Déjà ébréché ou abrasé",
+          "Exposé par le décor",
+          "Soumis à une pression lors du réglage ou de la réparation"
+        ]
+      },
+      {
+        "id": "why-can-a-thin-girdle-chip",
+        "title": "Pourquoi une ceinture fine peut-elle s'écailler ?",
+        "paragraphsBefore": [
+          "Le diamant est très résistant aux rayures, mais il n’est pas impossible de s’écailler.",
+          "Un bord fin contient moins de matériau pour absorber ou répartir un impact. Le GIA prévient que les zones très fines, en particulier au niveau des coins et des pointes des formes fantaisistes, présentent un risque plus élevé de dommages."
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "does-very-thin-mean-the-diamond-is-already-damaged",
+        "title": "Est-ce que très fin signifie que le diamant est déjà endommagé ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Très fin décrit l'épaisseur. Cela ne signifie pas automatiquement qu’il y a un éclat, une cavité ou une fracture.",
+          "L'état réel doit être inspecté."
+        ]
+      },
+      {
+        "id": "is-a-localised-very-thin-area-acceptable",
+        "title": "Une zone très fine localisée est-elle acceptable ?",
+        "paragraphsBefore": [
+          "C'est peut-être le cas.",
+          "Considérer:"
+        ],
+        "bullets": [
+          "Localisation exacte",
+          "Longueur de la section mince",
+          "Caractéristiques de clarté à proximité",
+          "Forme de diamant",
+          "Conception du décor",
+          "Condition de réglage",
+          "Usure prévue",
+          "Exigences d'assurance",
+          "Prix"
+        ],
+        "paragraphsAfter": [
+          "Une petite zone très fine protégée par un sertissage approprié peut présenter un risque différent de celui d'un fil de couteau exposé entourant une partie substantielle du diamant."
+        ]
+      },
+      {
+        "id": "can-an-extremely-thin-girdle-receive-a-high-cut-grade",
+        "title": "Une ceinture extrêmement fine peut-elle recevoir une qualité de coupe élevée ?",
+        "paragraphsBefore": [
+          "L’épaisseur de la ceinture est l’un des nombreux facteurs d’évaluation de la coupe. Un rondiste inhabituellement fin peut limiter la qualité d’un rond brillant en raison du risque de durabilité, même lorsque d’autres proportions sont attrayantes.",
+          "Ne déduisez pas la qualité finale de la seule épaisseur. Lisez la note indiquée sur le rapport de laboratoire."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Les conseils du GIA sur la protection des diamants contre l’écaillage expliquent les principaux domaines de risque. Voir"
+        },
+        {
+          "type": "link",
+          "text": "Conseils d'entretien des diamants du GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "thickGirdles": {
+    "id": "thick-and-extremely-thick-girdles",
+    "title": "Ceintures épaisses, très épaisses et extrêmement épaisses",
+    "introParagraphs": [
+      "Une ceinture épaisse retient plus de matière autour du périmètre du diamant."
+    ],
+    "subsections": [
+      {
+        "id": "why-can-a-thick-girdle-be-undesirable",
+        "title": "Pourquoi une ceinture épaisse peut-elle être indésirable ?",
+        "paragraphsBefore": [
+          "Une ceinture épaisse peut ajouter du poids en carats sans produire une augmentation équivalente des dimensions face vers le haut.",
+          "Deux diamants peuvent avoir le même poids en carats mais une taille visible différente car l'un d'eux a plus de poids en :"
+        ],
+        "bullets": [
+          "La ceinture",
+          "Renflement du pavillon",
+          "Profondeur totale",
+          "Une haute couronne",
+          "Autres zones non visibles"
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-make-a-diamond-look-smaller",
+        "title": "Une ceinture épaisse fait-elle paraître un diamant plus petit ?",
+        "paragraphsBefore": [
+          "Ça peut.",
+          "Si une quantité substantielle du poids du diamant est concentrée dans le rondiste, les mesures du diamètre face vers le haut ou de la longueur et de la largeur peuvent être plus petites que celles d'un diamant plus efficacement proportionné du même poids.",
+          "C’est pourquoi les acheteurs doivent comparer les mesures millimétriques réelles plutôt que de se fier uniquement au poids en carats."
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-reduce-sparkle",
+        "title": "Une ceinture épaisse réduit-elle l'éclat ?",
+        "paragraphsBefore": [
+          "Pas automatiquement.",
+          "L’épaisseur de la ceinture affecte principalement :"
+        ],
+        "bullets": [
+          "Rapport de poids",
+          "Profondeur totale",
+          "Taille face vers le haut",
+          "Durabilité",
+          "Paramètre"
+        ],
+        "paragraphsAfter": [
+          "La luminosité, le feu et la scintillation du diamant dépendent de la relation complète entre sa couronne, son pavillon, sa table, son motif à facettes et son environnement d’observation.",
+          "Une ceinture trop épaisse peut accompagner une mauvaise répartition du poids, mais l'étiquette de la ceinture à elle seule ne détermine pas l'éclat."
+        ]
+      },
+      {
+        "id": "is-a-very-thick-girdle-more-durable",
+        "title": "Une ceinture très épaisse est-elle plus durable ?",
+        "paragraphsBefore": [
+          "Cela peut fournir plus de matière sur le bord, mais cela ne rend pas le diamant résistant aux dommages.",
+          "Des dommages peuvent toujours survenir à travers :"
+        ],
+        "bullets": [
+          "Impact grave",
+          "Inclusions près de la ceinture",
+          "Coins exposés",
+          "Pression de réglage",
+          "Puces existantes",
+          "Bijoux mal ajustés",
+          "Contact entre diamants",
+          "Travaux de réparation imprudents"
+        ]
+      },
+      {
+        "id": "can-thickness-be-useful-at-a-fancy-shape-point",
+        "title": "L’épaisseur peut-elle être utile à un point de forme fantaisie ?",
+        "paragraphsBefore": [
+          "Oui.",
+          "Un matériau supplémentaire près de la pointe d'un diamant poire, marquise ou angulaire peut aider à éviter un bord de couteau extrêmement vulnérable. Cependant, un renflement excessif ou une épaisseur inutile peuvent quand même retenir du poids.",
+          "Le plan complet et le cadre doivent être examinés."
+        ]
+      }
+    ]
+  },
+  "uneven": {
+    "id": "uneven-and-varying-girdles",
+    "title": "Ceintures de diamant inégales et variables",
+    "introParagraphs": [
+      "Le rondiste d’un diamant est rarement parfaitement uniforme.",
+      "Une variation normale se produit parce que les ceintures de style brillant sont festonnées et parce que les formes fantaisistes nécessitent des arrangements de facettes différents autour de leurs contours."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-variation-become-important",
+        "title": "Quand la variation devient-elle importante ?",
+        "paragraphsBefore": [
+          "La variation mérite une plus grande attention lorsqu’elle produit :"
+        ],
+        "bullets": [
+          "Zones extrêmement fines et très épaisses sur un même diamant",
+          "Des changements brusques plutôt que des transitions graduelles",
+          "Un contour inégal face vers le haut",
+          "Coins ou épaules inégaux",
+          "Un plan de ceinture incliné",
+          "Une apparence en forme de cône",
+          "Facettes de couronne et de pavillon mal alignées",
+          "Difficultés de réglage",
+          "Un poids caché important",
+          "Problèmes de durabilité",
+          "Problèmes de symétrie visibles"
+        ]
+      },
+      {
+        "id": "does-uneven-thickness-affect-symmetry",
+        "title": "Une épaisseur inégale affecte-t-elle la symétrie ?",
+        "paragraphsBefore": [
+          "Ça peut.",
+          "Le GIA prend en compte la variation de l'épaisseur de la ceinture lors de l'évaluation de la symétrie et lors de l'évaluation de la peinture ou du creusement. HRD répertorie également les écarts d’épaisseur maximale et minimale de la ceinture parmi les considérations de symétrie visuelle.",
+          "Une plage à elle seule n’établit pas le degré de symétrie. Lisez le résultat de symétrie rapporté par le laboratoire."
+        ]
+      },
+      {
+        "id": "what-is-a-wavy-girdle",
+        "title": "Qu'est-ce qu'une ceinture ondulée ?",
+        "paragraphsBefore": [
+          "La ceinture ondulée est une expression informelle qui peut décrire des changements visibles dans le niveau ou l'épaisseur de la ceinture.",
+          "Les causes possibles incluent :"
+        ],
+        "bullets": [
+          "Placement inégal des facettes",
+          "Désalignement de la couronne et du pavillon",
+          "Ceinture inclinée",
+          "Variation de coupe",
+          "Conception spécifique à la forme",
+          "Dommages ou réparation"
+        ],
+        "paragraphsAfter": [
+          "Le terme ne remplace pas une description de laboratoire."
+        ]
+      },
+      {
+        "id": "what-is-a-sloping-girdle",
+        "title": "Qu'est-ce qu'une ceinture inclinée ?",
+        "paragraphsBefore": [
+          "Un rondiste incliné se produit lorsque le plan du rondiste n’est pas de niveau par rapport à la table ou à l’axe prévu du diamant.",
+          "Cela peut affecter :"
+        ],
+        "bullets": [
+          "Profil latéral",
+          "Répartition de la hauteur de la couronne",
+          "Répartition de la profondeur du pavillon",
+          "Symétrie",
+          "Position de réglage",
+          "Solde face visible"
+        ]
+      }
+    ]
+  },
+  "finish": {
+    "id": "faceted-polished-and-bruted-girdles",
+    "title": "Ceintures de diamant à facettes, polies et brutes",
+    "introParagraphs": [
+      "L'épaisseur et la finition de la ceinture sont des caractéristiques distinctes."
+    ],
+    "table": {
+      "caption": "Types de finition de ceinture",
+      "headers": [
+        "Finition",
+        "Aspect général",
+        "Implication de l'acheteur"
+      ],
+      "rows": [
+        [
+          "Faceted",
+          "Série de petites surfaces polies autour de la ceinture",
+          "Commun dans les diamants modernes ; examiner la cohérence et l'inscription des facettes"
+        ],
+        [
+          "Polished",
+          "Bande polie lisse sans facettes visibles séparément",
+          "Peut être tout à fait acceptable"
+        ],
+        [
+          "Bruted",
+          "Surface givrée ou granuleuse créée lors du façonnage",
+          "Commun dans les diamants plus anciens et certains diamants modernes ; pas automatiquement un défaut"
+        ],
+        [
+          "Partiellement facetté",
+          "Seule une partie de la ceinture a été facettée",
+          "Peut être intentionnel, réparé ou pris en compte lors de l'évaluation de la symétrie"
+        ],
+        [
+          "Barbu",
+          "De fins traits ressemblant à des plumes s'étendent de la ceinture à la pierre",
+          "Une considération de clarté et de condition, pas une catégorie de finition ordinaire"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Le GIA indique que l'épaisseur du rondiste est évaluée à l'aide de la même méthode d'épaisseur, que le rondiste soit brut, poli ou facetté."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-faceted-girdle-better",
+        "title": "Une ceinture à facettes est-elle meilleure ?",
+        "paragraphsBefore": [
+          "Pas automatiquement.",
+          "Une ceinture à facettes peut offrir :"
+        ],
+        "bullets": [
+          "Une finition moderne et raffinée",
+          "Petites surfaces plus claires pour l'examen",
+          "Une zone adaptée à l’inscription laser",
+          "Apparence visuelle plus cohérente"
+        ],
+        "paragraphsAfter": [
+          "Toutefois, il ne garantit pas :",
+          "Mieux couper",
+          "Meilleure symétrie",
+          "Un meilleur polissage",
+          "Une plus grande durabilité",
+          "Origine naturelle",
+          "Valeur plus élevée"
+        ]
+      },
+      {
+        "id": "is-a-bruted-girdle-bad",
+        "title": "Une ceinture Bruted est-elle mauvaise ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Une ceinture brutalisée peut être tout à fait légitime. Cela peut aussi être caractéristique de certaines périodes de coupe plus anciennes.",
+          "Inspectez-le pour :"
+        ],
+        "bullets": [
+          "Rugosité excessive",
+          "Barbe",
+          "Puces",
+          "Abrasion",
+          "Épaisseur inégale",
+          "Modification ultérieure",
+          "Compatibilité avec l'âge revendiqué d'un diamant antique"
+        ],
+        "paragraphsAfter": [
+          "Un rondiste à facettes sur un vieux diamant peut représenter un repolissage ultérieur plutôt que l’état d’origine du diamant. Le GIA a documenté des diamants anciens dont les rondistes bruts d'origine ont ensuite été facettés."
+        ]
+      },
+      {
+        "id": "what-does-partly-faceted-mean",
+        "title": "Que signifie partiellement à facettes ?",
+        "paragraphsBefore": [
+          "Cela signifie que seule une partie du rondiste a été divisée en facettes polies.",
+          "Les explications possibles incluent :"
+        ],
+        "bullets": [
+          "Facettage incomplet",
+          "Repolissage localisé",
+          "Préservation du poids",
+          "Suppression des dommages",
+          "Réparation ultérieure",
+          "Style de coupe original"
+        ],
+        "paragraphsAfter": [
+          "L'acheteur doit comparer le diamant actuel avec son rapport et toute documentation historique."
+        ]
+      }
+    ]
+  },
+  "paintingDigging": {
+    "id": "painting-and-digging-out",
+    "title": "Peindre et creuser",
+    "introParagraphs": [
+      "Peindre et creuser sont des techniques de découpe qui modifient la relation entre les facettes supérieure et inférieure et la ceinture."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-painting",
+        "title": "Qu’est-ce que la peinture ?",
+        "paragraphsBefore": [
+          "Pendant la peinture, le cutter incline les moitiés supérieure ou inférieure vers les facettes de la lunette ou du pavillon principal.",
+          "Cela modifie l'épaisseur relative entre :"
+        ],
+        "bullets": [
+          "Positions du cadre et de la colline principale",
+          "Positions de jonction supérieure et inférieure"
+        ],
+        "paragraphsAfter": [
+          "La ceinture peut apparaître plus fortement festonnée dans une direction particulière."
+        ]
+      },
+      {
+        "id": "what-is-digging-out",
+        "title": "Qu’est-ce que creuser ?",
+        "paragraphsBefore": [
+          "Creuser est la relation inverse.",
+          "Les moitiés supérieure ou inférieure sont inclinées par rapport aux cadres ou aux éléments principaux du pavillon et les unes vers les autres. Cela rend la ceinture plus fine au niveau des jonctions des demi-facettes par rapport aux positions lunette et principale."
+        ]
+      },
+      {
+        "id": "why-are-these-techniques-used",
+        "title": "Pourquoi ces techniques sont-elles utilisées ?",
+        "paragraphsBefore": [
+          "Les raisons possibles incluent :"
+        ],
+        "bullets": [
+          "Conserver le poids en carats",
+          "Atteindre un seuil de poids commercial",
+          "Suppression d'une caractéristique de clarté près du rondiste",
+          "Ajustement du placement des facettes",
+          "Préserver le rendement du diamant brut"
+        ]
+      },
+      {
+        "id": "are-painting-and-digging-always-bad",
+        "title": "Peindre et creuser sont-ils toujours mauvais ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Une variation minimale peut être présente sans créer de problème visuel significatif.",
+          "À mesure que peindre ou creuser devient plus fort, cela peut affecter :"
+        ],
+        "bullets": [
+          "Luminosité face vers le haut",
+          "Motif contrasté",
+          "Définition de la facette",
+          "Répartition du poids",
+          "Qualité de coupe globale"
+        ],
+        "paragraphsAfter": [
+          "GIA calcule l'étendue de ces caractéristiques à l'aide de mesures tridimensionnelles et intègre des effets suffisamment importants dans son évaluation des coupes. Le livret de finition et de ceinture du GIA fournit des diagrammes des deux techniques."
+        ]
+      },
+      {
+        "id": "can-buyers-identify-painting-from-a-photograph",
+        "title": "Les acheteurs peuvent-ils identifier une peinture à partir d’une photographie ?",
+        "paragraphsBefore": [
+          "Pas fiable.",
+          "L’imagerie contrôlée peut suggérer un festonnage inhabituel de la ceinture, mais une évaluation précise nécessite :"
+        ],
+        "bullets": [
+          "Orientation correcte",
+          "Vues latérales et face vers le haut",
+          "Grossissement",
+          "Analyse des facettes",
+          "Un éclairage approprié",
+          "Mesure tridimensionnelle si nécessaire"
+        ],
+        "paragraphsAfter": [
+          "Ne diagnostiquez pas la peinture ou le creusement à partir d’une seule image vidéo rotative."
+        ]
+      }
+    ]
+  },
+  "damage": {
+    "id": "girdle-damage-and-clarity-characteristics",
+    "title": "Caractéristiques des dommages et de la clarté de la ceinture",
+    "introParagraphs": [
+      "L’épaisseur de la ceinture ne décrit pas l’état complet du bord.",
+      "La ceinture peut contenir ou croiser :"
+    ],
+    "bullets": [
+      "Ébrécher",
+      "Abrasion",
+      "Cavité",
+      "Naturel",
+      "Naturel en retrait",
+      "Barbe",
+      "Plume",
+      "Hématome",
+      "Facette supplémentaire",
+      "Marque de polissage",
+      "Inscription au laser",
+      "Réparation ou repolissage"
+    ],
+    "table": {
+      "caption": "Comparaison des fonctionnalités des ceintures",
+      "headers": [
+        "Fonctionnalité",
+        "Signification",
+        "Principale préoccupation de l'acheteur"
+      ],
+      "rows": [
+        [
+          "Ébrécher",
+          "Matériel manquant accidentellement",
+          "État, dommages supplémentaires, recoupe et incohérence du rapport"
+        ],
+        [
+          "Abrasion",
+          "Bord usé ou rugueux, souvent avec de petits éclats",
+          "Protection contre l'usure, les contacts antérieurs et les réglages"
+        ],
+        [
+          "Cavité",
+          "Ouverture angulaire créée lorsque du matériau est retiré ou tombe",
+          "Taille, emplacement, rétention de la saleté et durabilité"
+        ],
+        [
+          "Naturel",
+          "Une partie de la surface rugueuse d'origine conservée lors de la découpe",
+          "Forme, épaisseur et si cela affecte l'apparence ou le réglage"
+        ],
+        [
+          "Naturel en retrait",
+          "Surface rugueuse d'origine s'étendant sous le contour poli prévu",
+          "Profondeur, durabilité et rétention de poids"
+        ],
+        [
+          "Ceinture barbue",
+          "De fins traits ressemblant à des plumes s'étendant vers l'intérieur à partir de la ceinture",
+          "Clarté, étendue et état structurel"
+        ],
+        [
+          "Plume",
+          "Séparation interne pouvant atteindre la ceinture",
+          "Taille, orientation, ouverture et pression de réglage"
+        ],
+        [
+          "Hématome",
+          "Zone d'impact associée à de petites plumes",
+          "Dommages existants et risques supplémentaires"
+        ],
+        [
+          "Facette supplémentaire",
+          "Facette polie supplémentaire en dehors de la disposition standard",
+          "Symétrie, épaisseur et historique des réparations possibles"
+        ],
+        [
+          "Inscription au laser",
+          "Texte ou chiffres appliqués sur la ceinture",
+          "Identification et correspondance des rapports"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La référence d’inclusion de diamants du GIA distingue les ceintures barbus, les cavités, les éclats, les contusions et autres caractéristiques de clarté. Voir"
+        },
+        {
+          "type": "link",
+          "text": "Conseils de clarté du GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-a-natural-the-same-as-damage",
+        "title": "Un naturel est-il la même chose qu’un dommage ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Une surface naturelle en diamant brut est conservée. Ce n'est pas nécessairement un dommage.",
+          "Son importance dépend :"
+        ],
+        "bullets": [
+          "Taille",
+          "Profondeur",
+          "Emplacement",
+          "Visibilité",
+          "Si cela interrompt le contour",
+          "Si cela rend la ceinture excessivement fine",
+          "Si cela affecte le réglage",
+          "Classement en laboratoire",
+          "Prix"
+        ]
+      },
+      {
+        "id": "is-an-indented-natural-worse",
+        "title": "Un naturel en retrait est-il pire ?",
+        "paragraphsBefore": [
+          "Un naturel en retrait s'étend sous la surface polie prévue.",
+          "Il mérite généralement plus d’attention qu’un naturel peu profond car il peut affecter :"
+        ],
+        "bullets": [
+          "Contour",
+          "Poids",
+          "Clarté",
+          "Paramètre",
+          "Durabilité",
+          "Nettoyage"
+        ],
+        "paragraphsAfter": [
+          "Ce n’est pas automatiquement inacceptable."
+        ]
+      },
+      {
+        "id": "what-is-a-bearded-girdle",
+        "title": "Qu'est-ce qu'une ceinture barbue ?",
+        "paragraphsBefore": [
+          "Une ceinture barbue contient de très petites caractéristiques ressemblant à des plumes s'étendant de la surface de la ceinture jusqu'au diamant.",
+          "Le barbu peut résulter d’un brutage agressif ou d’autres contraintes de coupe.",
+          "Son importance dépend :"
+        ],
+        "bullets": [
+          "Densité",
+          "Profondeur",
+          "Visibilité",
+          "Distribution",
+          "Effet sur la clarté",
+          "Qu'il forme un bord gris ou flou",
+          "Proximité d'autres inclusions"
+        ]
+      },
+      {
+        "id": "can-girdle-damage-occur-after-grading",
+        "title": "Des dommages aux ceintures peuvent-ils survenir après le nivellement ?",
+        "paragraphsBefore": [
+          "Oui.",
+          "Les causes possibles incluent :"
+        ],
+        "bullets": [
+          "Paramètre",
+          "Redimensionnement ou réparation de bijoux",
+          "Impact grave",
+          "Une pierre mobile en mouvement dans son écrin",
+          "Contact avec un autre diamant",
+          "Laisser tomber le diamant en vrac",
+          "Stockage inapproprié",
+          "Abrasions répétées",
+          "Nettoyage ou manipulation négligente"
+        ],
+        "paragraphsAfter": [
+          "Si l'état actuel diffère du rapport, un réexamen professionnel peut être nécessaire."
+        ]
+      }
+    ]
+  },
+  "inscriptions": {
+    "id": "laser-inscriptions-on-the-girdle",
+    "title": "Inscriptions laser sur le rondiste en diamant",
+    "introParagraphs": [
+      "Un numéro de rapport de laboratoire, une marque, un symbole ou un message peuvent être inscrits au laser sur la gaine."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-the-purpose-of-a-girdle-inscription",
+        "title": "Quel est le but d’une inscription de ceinture ?",
+        "paragraphsBefore": [
+          "Cela peut aider :"
+        ],
+        "bullets": [
+          "Associer un diamant à son rapport de classification",
+          "Identifier le numéro de rapport du laboratoire émetteur",
+          "Distinguer un diamant des pierres similaires",
+          "Prise en charge du contrôle des stocks",
+          "Aider à une vérification future",
+          "Enregistrez une marque ou un message personnel"
+        ],
+        "paragraphsAfter": [
+          "GIA explique qu'une inscription portant un numéro de rapport peut être visualisée sous un grossissement et vérifiée via son système de vérification de rapport."
+        ]
+      },
+      {
+        "id": "does-every-diamond-have-an-inscription",
+        "title": "Chaque diamant a-t-il une inscription ?",
+        "paragraphsBefore": [
+          "Non.",
+          "Un diamant naturel peut être :"
+        ],
+        "bullets": [
+          "Inscrit avec son numéro de rapport",
+          "Inscrit avec une marque",
+          "Inscrit avec plusieurs marques",
+          "Non inscrit",
+          "Inscrit dans une zone cachée par le décor",
+          "Repoli après inscription",
+          "Trop petit ou positionné de manière à rendre l'inspection difficile"
+        ]
+      },
+      {
+        "id": "does-an-inscription-prove-the-diamond-matches-the-report",
+        "title": "Une inscription prouve-t-elle que le diamant correspond au rapport ?",
+        "paragraphsBefore": [
+          "Pas tout seul.",
+          "Un jumelage complet doit prendre en compte :"
+        ],
+        "bullets": [
+          "Numéro de rapport",
+          "Style d'inscription",
+          "Mesures",
+          "Poids en carats",
+          "Forme",
+          "Terrain de clarté",
+          "Inclusions",
+          "polonais",
+          "Symétrie",
+          "Fluorescence",
+          "Inspection professionnelle"
+        ],
+        "paragraphsAfter": [
+          "Une inscription doit être traitée comme un élément d’identification et non comme l’ensemble du processus de vérification."
+        ]
+      },
+      {
+        "id": "can-an-inscription-be-removed",
+        "title": "Une inscription peut-elle être supprimée ?",
+        "paragraphsBefore": [
+          "Il peut être réduit ou supprimé par repolissage de la ceinture.",
+          "S’il manque une inscription attendue, les explications possibles incluent :"
+        ],
+        "bullets": [
+          "La zone inspectée est incorrecte",
+          "L'inscription est cachée par une griffe",
+          "L'inscription est sale",
+          "Le grossissement ou l'éclairage est inadéquat",
+          "La ceinture a été repolie",
+          "L'inscription n'a jamais été appliquée",
+          "Le diamant ne correspond pas au rapport"
+        ],
+        "paragraphsAfter": [
+          "Enquêtez avant de tirer une conclusion."
+        ]
+      },
+      {
+        "id": "can-an-inscription-affect-clarity",
+        "title": "Une inscription peut-elle affecter la clarté ?",
+        "paragraphsBefore": [
+          "Une inscription de rapport correctement appliquée est normalement microscopique et placée sur la ceinture pour identification. Lisez le rapport du laboratoire et obtenez une inspection professionnelle si l'inscription semble inhabituellement profonde, altérée ou associée à des dommages de surface."
+        ]
+      }
+    ]
+  },
+  "shapes": {
+    "id": "girdles-in-different-diamond-shapes",
+    "title": "Ceintures de différentes formes de diamants",
+    "introParagraphs": [
+      "La même description d'épaisseur peut avoir des implications différentes selon la forme du diamant."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Diamants ronds brillants",
+        "paragraphsBefore": [
+          "Les diamants ronds répartissent leur contour sans angles vifs.",
+          "Pour de nombreux brillants ronds modernes, les gammes pratiques comprennent :"
+        ],
+        "bullets": [
+          "Fin à moyen",
+          "Medium",
+          "Moyen à légèrement épais",
+          "Fin à légèrement épais"
+        ],
+        "paragraphsAfter": [
+          "Évaluez la ceinture à côté :",
+          "Qualité de coupe",
+          "Diamètre",
+          "Profondeur totale",
+          "Peindre ou creuser",
+          "Symétrie",
+          "Performances face visible"
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Diamants ovales",
+        "paragraphsBefore": [
+          "La ceinture d’un ovale peut varier autour de ses épaules et de ses extrémités.",
+          "Inspecter:"
+        ],
+        "bullets": [
+          "Zones très fines près des extrémités",
+          "Épaisseur excessive au niveau des épaules",
+          "Symétrie du contour",
+          "Force du nœud papillon",
+          "Dimensions face vers le haut",
+          "Paramétrage de la protection"
+        ],
+        "paragraphsAfter": [
+          "Le GIA note qu'une ceinture ovale trop épaisse peut retenir du poids, tandis qu'une zone extrêmement fine peut augmenter la vulnérabilité."
+        ]
+      },
+      {
+        "id": "pear-shaped-diamonds",
+        "title": "Diamants en forme de poire",
+        "paragraphsBefore": [
+          "Les diamants poire ont une extrémité arrondie et un point vulnérable.",
+          "Vérifier:"
+        ],
+        "bullets": [
+          "Épaisseur de la ceinture au point",
+          "Symétrie des épaules",
+          "Forme de l'aile",
+          "Épaisseur à l'extrémité arrondie",
+          "Protection ponctuelle",
+          "Noeud papillon",
+          "Dommages existants"
+        ],
+        "paragraphsAfter": [
+          "Une broche en forme de V ou un autre réglage de protection conçu de manière appropriée peut être envisagé pour la pointe."
+        ]
+      },
+      {
+        "id": "marquise-diamonds",
+        "title": "Diamants Marquises",
+        "paragraphsBefore": [
+          "Les diamants marquise contiennent deux pointes vulnérables.",
+          "Inspecter:"
+        ],
+        "bullets": [
+          "Les deux points",
+          "Épaisseur le long des ailes",
+          "Épaisseur du ventre",
+          "Alignement des pointes",
+          "Noeud papillon",
+          "Symétrie",
+          "Paramétrage de la protection"
+        ],
+        "paragraphsAfter": [
+          "Une ceinture très fine à un endroit ou à un autre nécessite une attention particulière."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Diamants taille princesse",
+        "paragraphsBefore": [
+          "Les diamants princesse ont des coins pointus qui peuvent être vulnérables à l'écaillage.",
+          "Vérifier:"
+        ],
+        "bullets": [
+          "Aux quatre coins",
+          "Épaisseur des coins",
+          "Naturels près des coins",
+          "Les plumes atteignent les coins",
+          "Des côtés inégaux",
+          "Conception du décor",
+          "Si les coins sont entièrement protégés"
+        ],
+        "paragraphsAfter": [
+          "Ne jugez pas une princesse uniquement par son pourcentage moyen de ceintures."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Coussin Diamants",
+        "paragraphsBefore": [
+          "Les coussins peuvent avoir :"
+        ],
+        "bullets": [
+          "Coins arrondis",
+          "Coins plus carrés",
+          "Épaules larges",
+          "Contours de style antique",
+          "Motifs à facettes modernes brillants ou modifiés"
+        ],
+        "paragraphsAfter": [
+          "Évaluez la relation entre l'épaisseur du rondiste, le contour, le facettage et l'étendue face vers le haut."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Coupes émeraude et Asscher",
+        "paragraphsBefore": [
+          "Les coupes en marche ont de larges facettes et des structures de pavillon différentes de Round Brilliants.",
+          "Inspecter:"
+        ],
+        "bullets": [
+          "Épaisseur des coins",
+          "Cohérence des coins tronqués",
+          "Alignement des marches",
+          "Fenêtrage",
+          "Extinction",
+          "Profondeur totale",
+          "Dimensions face vers le haut",
+          "État de la ceinture"
+        ],
+        "paragraphsAfter": [
+          "N’appliquez pas mécaniquement une règle de coupe Round Brilliant sur une coupe en gradins."
+        ]
+      },
+      {
+        "id": "heart-shaped-diamonds",
+        "title": "Diamants en forme de coeur",
+        "paragraphsBefore": [
+          "Examiner:"
+        ],
+        "bullets": [
+          "État de la fente",
+          "Deux lobes",
+          "Épaisseur des pointes",
+          "Symétrie globale",
+          "Équilibre des ailes",
+          "Paramétrage de la protection"
+        ],
+        "paragraphsAfter": [
+          "La fente et la pointe peuvent nécessiter des considérations de réglage différentes."
+        ]
+      },
+      {
+        "id": "antique-diamonds",
+        "title": "Diamants antiques",
+        "paragraphsBefore": [
+          "Les diamants Old Mine et Old European peuvent avoir :"
+        ],
+        "bullets": [
+          "Ceintures brutes",
+          "Variation d'épaisseur plus large",
+          "Contours irréguliers",
+          "Naturels",
+          "Facettage ou repolissage ultérieur",
+          "Usure historique",
+          "Petits éclats ou abrasion"
+        ],
+        "paragraphsAfter": [
+          "Ces caractéristiques doivent être évaluées en fonction de l'âge, de l'originalité, de l'état et de la valeur.",
+          "Ne repolissez pas automatiquement une ceinture antique. La modification peut :",
+          "Réduire le poids en carats",
+          "Changer le contour",
+          "Supprimer le caractère historique",
+          "Affecter la documentation",
+          "Modifier la compatibilité avec le paramètre d'origine",
+          "Modifier la valeur marchande"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "id": "girdle-thickness-and-jewellery-settings",
+    "title": "Épaisseur de la ceinture et réglages des bijoux",
+    "introParagraphs": [
+      "Le rondiste est normalement le point de contact entre le diamant et sa monture."
+    ],
+    "subsections": [
+      {
+        "id": "prong-settings",
+        "title": "Paramètres des broches",
+        "paragraphsBefore": [
+          "Les griffes saisissent des zones sélectionnées autour de la ceinture.",
+          "Considérer:"
+        ],
+        "bullets": [
+          "Si une broche repose sur une zone extrêmement fine",
+          "Si la pression de réglage est concentrée près d'une plume",
+          "Si les coins et les points sont protégés",
+          "Si la pierre bouge",
+          "Si les broches sont usées ou endommagées"
+        ]
+      },
+      {
+        "id": "bezel-settings",
+        "title": "Paramètres du cadre",
+        "paragraphsBefore": [
+          "Une lunette entoure une grande partie ou la totalité de la ceinture.",
+          "Les avantages potentiels comprennent :"
+        ],
+        "bullets": [
+          "Une plus grande couverture périphérique",
+          "Protection des zones vulnérables",
+          "Apparence sécurisée"
+        ],
+        "paragraphsAfter": [
+          "Cependant, le sertissage des lunettes nécessite toujours un travail qualifié. La pression pendant la fabrication peut endommager une ceinture vulnérable et le métal peut masquer les caractéristiques existantes."
+        ]
+      },
+      {
+        "id": "halo-settings",
+        "title": "Paramètres de halo",
+        "paragraphsBefore": [
+          "Un halo peut réduire l’accès direct au rondiste du diamant central.",
+          "Vérifier:"
+        ],
+        "bullets": [
+          "Dégagement entre le centre et les pierres environnantes",
+          "Puces cachées",
+          "Pression de réglage",
+          "Si un autre diamant entre en contact avec la pierre centrale",
+          "Accès nettoyage",
+          "Accès aux inspections futures"
+        ]
+      },
+      {
+        "id": "tension-and-semi-tension-settings",
+        "title": "Paramètres de tension et de semi-tension",
+        "paragraphsBefore": [
+          "Ces conceptions peuvent appliquer une pression concentrée à des points de contact limités.",
+          "L'adéquation doit être déterminée par un bijoutier connaissant :"
+        ],
+        "bullets": [
+          "Le diamant exact",
+          "Épaisseur de la ceinture",
+          "Caractéristiques de clarté",
+          "Forme",
+          "Ingénierie de réglage",
+          "Exigences du fabricant"
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-require-a-bezel",
+        "title": "Une ceinture fine nécessite-t-elle une lunette ?",
+        "paragraphsBefore": [
+          "Pas automatiquement.",
+          "Le sertissage approprié dépend de l'emplacement et de l'étendue de la zone mince et du diamant complet. Obtenez des conseils basés sur la pierre réelle."
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-cause-setting-problems",
+        "title": "Une ceinture épaisse peut-elle causer des problèmes de réglage ?",
+        "paragraphsBefore": [
+          "Ça peut.",
+          "Les problèmes possibles incluent :"
+        ],
+        "bullets": [
+          "Diamant assis trop haut",
+          "Le réglage standard ne convient pas",
+          "Broches nécessitant une modification",
+          "Sièges inégaux",
+          "Épaisseur du bord visible",
+          "Difficulté à aligner la pierre"
+        ],
+        "paragraphsAfter": [
+          "Un paramètre personnalisé ou correctement ajusté peut résoudre ces problèmes."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "girdle-thickness-face-up-size-and-price",
+    "title": "Épaisseur de la ceinture, taille face vers le haut et prix du diamant",
+    "introParagraphs": [
+      "L'épaisseur de la ceinture peut influencer la valeur, mais il n'existe pas de formule d'ajustement fixe."
+    ],
+    "subsections": [
+      {
+        "id": "weight-ratio-and-face-up-size",
+        "title": "Rapport de poids et taille face vers le haut",
+        "paragraphsBefore": [
+          "Le carat mesure le poids, le diamètre n'est pas visible.",
+          "Un diamant avec un rondiste très épais peut peser plus qu'un autre diamant avec des dimensions face vers le haut similaires, car plus de matière est retenue autour de son bord.",
+          "Comparer:"
+        ],
+        "bullets": [
+          "Poids en carats",
+          "Diamètre",
+          "Longueur",
+          "Largeur",
+          "Profondeur totale",
+          "Gamme de ceintures",
+          "Pourcentage moyen de ceinture",
+          "Forme",
+          "Coupe globale"
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-help-a-diamond-reach-one-carat",
+        "title": "Une ceinture épaisse peut-elle aider un diamant à atteindre un carat ?",
+        "paragraphsBefore": [
+          "Il peut contribuer à un maintien du poids proche des seuils commerciaux tels que :"
+        ],
+        "bullets": [
+          "0,50 carat",
+          "1,00 carat",
+          "1,50 carat",
+          "2,00 carats"
+        ],
+        "paragraphsAfter": [
+          "Cependant, la ceinture n’est qu’une source possible de poids retenu.",
+          "Un diamant d'un carat aux proportions inefficaces peut être plus petit qu'un diamant plus léger et mieux réparti."
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-make-a-diamond-look-larger",
+        "title": "Une ceinture fine fait-elle paraître un diamant plus gros ?",
+        "paragraphsBefore": [
+          "Pas nécessairement.",
+          "Une ceinture plus fine peut réduire le poids caché, mais la taille visible dépend également de :"
+        ],
+        "bullets": [
+          "Couronne",
+          "Pavillon",
+          "Profondeur totale",
+          "Contour",
+          "Rapport longueur/largeur",
+          "Renflement",
+          "Disposition des facettes"
+        ]
+      },
+      {
+        "id": "how-can-girdle-thickness-affect-price",
+        "title": "Comment l’épaisseur de la ceinture peut-elle affecter le prix ?",
+        "paragraphsBefore": [
+          "Les effets possibles sur les prix comprennent :"
+        ],
+        "bullets": [
+          "Demande réduite pour une ceinture extrêmement fine",
+          "Qualité de coupe inférieure",
+          "Problèmes d’écaillage ou d’assurance",
+          "Poids caché d'une ceinture très épaisse",
+          "Dimensions face vers le haut plus petites",
+          "Fixation du coût",
+          "Considérations relatives à la réparation ou à la découpe",
+          "Désirabilité antique",
+          "Dommages existants"
+        ]
+      },
+      {
+        "id": "no-fixed-girdle-discount",
+        "title": "Pas de réduction sur les ceintures fixes",
+        "paragraphsBefore": [
+          "Évitez les allégations telles que :"
+        ],
+        "bullets": [
+          "Chaque gaine Very Thin nécessite une remise de 10 %.",
+          "Chaque gaine Medium mérite une prime.",
+          "Chaque gaine très épaisse est trop chère.",
+          "Chaque ceinture à facettes a plus de valeur.",
+          "Le recoupage augmente toujours la valeur."
+        ],
+        "paragraphsAfter": [
+          "Le prix nécessite une comparaison avec des diamants véritablement similaires sur le marché actuel."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-girdles",
+    "title": "Ceintures en diamant naturel ou cultivé en laboratoire",
+    "introParagraphs": [
+      "L’épaisseur et la finition des ceintures sont des décisions de coupe.",
+      "Les diamants naturels et cultivés en laboratoire peuvent avoir :"
+    ],
+    "bullets": [
+      "Ceintures fines",
+      "Ceintures moyennes",
+      "Ceintures épaisses",
+      "Ceintures à facettes",
+      "Ceintures polies",
+      "Ceintures brutes",
+      "Inscriptions laser",
+      "Puces",
+      "Caractéristiques naturelles ou liées à la surface",
+      "Facettes supplémentaires",
+      "Peindre ou creuser",
+      "Épaisseur inégale"
+    ],
+    "closingParagraphs": [
+      "Par conséquent, l’apparence de la ceinture ne peut pas établir :",
+      "Origine naturelle",
+      "Croissance du laboratoire",
+      "Méthode de croissance",
+      "Traitement",
+      "Origine de la mine",
+      "Pays d'origine",
+      "Âge",
+      "Authenticité d'un rapport",
+      "GIA inscrit actuellement les diamants cultivés en laboratoire soumis dans le cadre de ses services applicables avec « Cultivé en laboratoire » et le numéro d'évaluation. Cependant, la présence ou l'absence d'une inscription doit encore être vérifiée par rapport à la documentation complète et au diamant physique.",
+      "Pour un achat de diamant naturel, fiez-vous à une documentation crédible identifiant explicitement le diamant comme naturel."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-diamond-girdle",
+    "title": "Comment inspecter une ceinture de diamant",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Étape 1 : Lire le rapport de notation complet",
+        "paragraphsBefore": [
+          "Confirmer:"
+        ],
+        "bullets": [
+          "Laboratoire émetteur",
+          "Numéro de rapport",
+          "Identification des diamants naturels",
+          "Forme et style de coupe",
+          "Mesures",
+          "Description de la ceinture",
+          "Pourcentage de ceinture",
+          "Finition ceinture",
+          "Qualité de coupe ou de proportions",
+          "Symétrie",
+          "polonais",
+          "Degré de clarté",
+          "Terrain de clarté",
+          "Commentaires",
+          "Détails des inscriptions"
+        ]
+      },
+      {
+        "id": "step-2-match-the-report-to-the-diamond",
+        "title": "Étape 2 : Faites correspondre le rapport au diamant",
+        "paragraphsBefore": [
+          "Vérifier:"
+        ],
+        "bullets": [
+          "Inscription au laser",
+          "Mesures",
+          "Poids en carats",
+          "Forme",
+          "Caractéristiques de clarté",
+          "Fluorescence",
+          "Numéro de rapport",
+          "Résultats de correspondance professionnelle"
+        ],
+        "paragraphsAfter": [
+          "Ne vous fiez pas uniquement à la description de la ceinture."
+        ]
+      },
+      {
+        "id": "step-3-identify-the-minimum-and-maximum-thickness",
+        "title": "Étape 3 : Identifiez l’épaisseur minimale et maximale",
+        "paragraphsBefore": [
+          "Lisez la plage dans le bon ordre.",
+          "Par exemple:"
+        ],
+        "bullets": [
+          "Très fin à moyen",
+          "Fin à légèrement épais",
+          "Moyen à très épais"
+        ],
+        "paragraphsAfter": [
+          "Déterminez si l’un ou l’autre extrême mérite un examen plus approfondi."
+        ]
+      },
+      {
+        "id": "step-4-identify-the-girdle-finish",
+        "title": "Étape 4 : Identifiez la finition de la ceinture",
+        "paragraphsBefore": [
+          "Déterminez s’il s’agit :"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished",
+          "Bruted",
+          "Partiellement facetté",
+          "Modifié ou réparé"
+        ],
+        "paragraphsAfter": [
+          "Ne confondez pas finition et épaisseur."
+        ]
+      },
+      {
+        "id": "step-5-inspect-the-entire-circumference",
+        "title": "Étape 5 : Inspectez toute la circonférence",
+        "paragraphsBefore": [
+          "Faites tourner le diamant libre en toute sécurité et inspectez :"
+        ],
+        "bullets": [
+          "Superficies minimales",
+          "Superficies maximales",
+          "Coins",
+          "Points",
+          "Épaules",
+          "Ailes",
+          "Côtés plats",
+          "Zones proches des inclusions",
+          "Zones sous les inscriptions"
+        ],
+        "paragraphsAfter": [
+          "Une section visible ne représente pas la ceinture complète."
+        ]
+      },
+      {
+        "id": "step-6-examine-under-10x-magnification",
+        "title": "Étape 6 : Examiner sous un grossissement de 10 ×",
+        "paragraphsBefore": [
+          "Rechercher:"
+        ],
+        "bullets": [
+          "Puces",
+          "Abrasion",
+          "Barbe",
+          "Cavités",
+          "Naturels",
+          "Naturels en retrait",
+          "Plumes",
+          "Bleus",
+          "Facettes supplémentaires",
+          "Marques de polissage",
+          "Inscription",
+          "Définition des dégâts"
+        ]
+      },
+      {
+        "id": "step-7-compare-the-clarity-plot",
+        "title": "Étape 7 : Comparez le tracé de clarté",
+        "paragraphsBefore": [
+          "Déterminez si les caractéristiques tracées atteignent ou s’approchent de la ceinture.",
+          "Portez une attention particulière à :"
+        ],
+        "bullets": [
+          "Plumes",
+          "Cavités",
+          "Puces",
+          "Naturels en retrait",
+          "Naturels",
+          "Cristaux créant des ouvertures en surface"
+        ]
+      },
+      {
+        "id": "step-8-inspect-corners-and-points",
+        "title": "Étape 8 : Inspecter les coins et les points",
+        "paragraphsBefore": [
+          "Ceci est particulièrement important pour :"
+        ],
+        "bullets": [
+          "Princesse",
+          "Poire",
+          "Marquise",
+          "Cœur",
+          "Émeraude",
+          "Asscher",
+          "Radiant",
+          "Autres formes angulaires"
+        ],
+        "paragraphsAfter": [
+          "Vérifiez si les zones vulnérables seront protégées par le cadre prévu."
+        ]
+      },
+      {
+        "id": "step-9-compare-face-up-measurements",
+        "title": "Étape 9 : Comparez les mesures face vers le haut",
+        "paragraphsBefore": [
+          "Comparez les dimensions millimétriques du diamant avec des pierres véritablement similaires.",
+          "Rechercher:"
+        ],
+        "bullets": [
+          "Propagation réduite",
+          "Profondeur totale excessive",
+          "Rétention de poids très épaisse",
+          "Renflé",
+          "Contour inhabituel",
+          "Épaules inégales"
+        ]
+      },
+      {
+        "id": "step-10-inspect-the-setting",
+        "title": "Étape 10 : Inspecter le paramètre",
+        "paragraphsBefore": [
+          "Pour un diamant monté, vérifiez :"
+        ],
+        "bullets": [
+          "Position des broches",
+          "Contact métallique",
+          "Mouvement diamant",
+          "Zones ébréchées",
+          "Protection ponctuelle",
+          "Lacunes",
+          "Abrasion causée par les pierres voisines",
+          "Si l'inscription reste accessible"
+        ],
+        "paragraphsAfter": [
+          "Ne retirez pas un diamant de sa monture sans l’équipement et l’expérience professionnels appropriés."
+        ]
+      },
+      {
+        "id": "step-11-compare-with-similar-diamonds",
+        "title": "Étape 11 : Comparez avec des diamants similaires",
+        "paragraphsBefore": [
+          "Gardez les éléments suivants aussi cohérents que possible :"
+        ],
+        "bullets": [
+          "Forme",
+          "Carat",
+          "Couleur",
+          "Clarté",
+          "Laboratoire",
+          "Qualité de coupe",
+          "Mesures",
+          "Ceinture",
+          "Condition",
+          "Style antique ou moderne"
+        ],
+        "paragraphsAfter": [
+          "Comparez ensuite :",
+          "Taille face vers le haut",
+          "Luminosité",
+          "Feu",
+          "Scintillation",
+          "Symétrie",
+          "Durabilité",
+          "Adéquation des paramètres",
+          "Prix"
+        ]
+      },
+      {
+        "id": "step-12-arrange-professional-examination",
+        "title": "Étape 12 : Organiser un examen professionnel",
+        "paragraphsBefore": [
+          "L’inspection professionnelle est particulièrement importante lorsque :"
+        ],
+        "bullets": [
+          "La ceinture est extrêmement fine",
+          "Des zones très fines apparaissent aux points ou aux coins",
+          "La gamme s'étend du Très Fin au Très Épais",
+          "Une puce ou une carie est suspectée",
+          "Une plume atteint la ceinture",
+          "Le diamant est antique",
+          "Le rapport est ancien",
+          "Le diamant a une grande valeur",
+          "La pierre est déjà montée",
+          "L'inscription est manquante ou incohérente",
+          "Un redécoupage est envisagé",
+          "Le diamant est acheté à distance"
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Utilisez le"
+        },
+        {
+          "type": "link",
+          "text": "Guide du rapport sur la classification des diamants",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": "pour le processus de vérification complet."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Comparaison des ceintures en diamant travaillé",
+    "introParagraphs": [
+      "Considérons quatre diamants naturels hypothétiques."
+    ],
+    "table": {
+      "caption": "Comparaison des rondistes en diamant travaillés",
+      "headers": [
+        "Caractéristiques",
+        "Diamant A",
+        "Diamant B",
+        "Diamant C",
+        "Diamant D"
+      ],
+      "rows": [
+        [
+          "Forme",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Poire"
+        ],
+        [
+          "Carat",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Couleur",
+          "G",
+          "G",
+          "G",
+          "G"
+        ],
+        [
+          "Clarté",
+          "VS2",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Ceinture",
+          "Moyen, à facettes",
+          "Très fin à moyen, facetté",
+          "Épais à Très Épais, Facetté",
+          "Fin à très épais, facetté"
+        ],
+        [
+          "Principale préoccupation",
+          "Performance de coupe complète",
+          "Emplacement et étendue de la zone très mince",
+          "Poids caché et taille face vers le haut",
+          "Protection ponctuelle et répartition de l'épaisseur"
+        ],
+        [
+          "Approche acheteur",
+          "Utiliser comme référence équilibrée",
+          "Inspecter la durabilité et l’adéquation du réglage",
+          "Comparez le diamètre et la profondeur totale",
+          "Inspecter la pointe, les épaulements, le contour et le réglage"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Comparaison des diamants A et B",
+        "paragraphsBefore": [
+          "Le diamant B ne doit pas être rejeté uniquement parce que son minimum est très fin.",
+          "L'acheteur doit déterminer :"
+        ],
+        "bullets": [
+          "Où se trouve la zone très mince",
+          "Quelle partie de la ceinture est affectée",
+          "Qu'il y ait une plume ou une puce à proximité",
+          "Si le paramètre le protégera",
+          "Si son aspect coupé et face vers le haut est supérieur",
+          "Si le prix reflète un risque supplémentaire"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Comparaison des diamants A et C",
+        "paragraphsBefore": [
+          "Le diamant C peut contenir plus de poids dans sa ceinture.",
+          "Comparer:"
+        ],
+        "bullets": [
+          "Diamètre face vers le haut",
+          "Profondeur totale",
+          "Luminosité",
+          "Qualité de coupe",
+          "Définition du profil",
+          "Prix"
+        ],
+        "paragraphsAfter": [
+          "Si le diamant C est visiblement plus petit sans offrir un autre avantage significatif, le diamant A peut offrir une meilleure efficacité de poids."
+        ]
+      },
+      {
+        "title": "Comparaison des diamants A et D",
+        "paragraphsBefore": [
+          "Les descriptions des ceintures ne peuvent pas être comparées mécaniquement car les formes diffèrent.",
+          "Le maximum très épais du diamant D peut se produire près de l’extrémité arrondie, de la pointe ou des épaules. Son minimum mince peut se produire ailleurs.",
+          "L'acheteur doit examiner :"
+        ],
+        "bullets": [
+          "Épaisseur des pointes",
+          "Équilibre des ailes",
+          "Symétrie des épaules",
+          "Noeud papillon",
+          "Rapport longueur/largeur",
+          "Paramétrage de la protection"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Ce que démontre cette comparaison",
+        "paragraphsBefore": [
+          "L’étiquette du rondiste doit être interprétée dans le diamant complet.",
+          "La bonne décision d’achat dépend de :"
+        ],
+        "bullets": [
+          "Forme",
+          "Localisation des épaisseurs extrêmes",
+          "Taille face vers le haut",
+          "Durabilité",
+          "Couper",
+          "Symétrie",
+          "Condition",
+          "Paramètre",
+          "Documentation",
+          "Prix"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-girdle-myths",
+    "title": "Mythes courants sur les ceintures de diamant",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Mythes courants sur les ceintures de diamant",
+      "headers": [
+        "Mythe",
+        "Interprétation précise"
+      ],
+      "rows": [
+        [
+          "Medium est la seule bonne qualité de gaine",
+          "Fin et légèrement épais peuvent également convenir"
+        ],
+        [
+          "Chaque gaine très fine s'écaille",
+          "Le risque dépend de l'emplacement, de l'étendue, de la forme, des inclusions, de la mise en place et de l'usure."
+        ],
+        [
+          "Mince signifie que le diamant est déjà endommagé",
+          "L'épaisseur et les dommages sont des caractéristiques distinctes"
+        ],
+        [
+          "Un rondiste épais rend un diamant plus fort que tous les autres diamants",
+          "L'épaisseur n'est qu'un facteur de durabilité"
+        ],
+        [
+          "Une ceinture épaisse ruine toujours l'éclat",
+          "Cela affecte principalement la répartition du poids et la taille ; les proportions complètes déterminent la performance"
+        ],
+        [
+          "Une gaine très épaisse signifie toujours une mauvaise coupe",
+          "Il mérite comparaison mais ne détermine pas la note complète"
+        ],
+        [
+          "Le pourcentage moyen montre la partie la plus fine",
+          "Le pourcentage moyen et la description verbale minimale sont des évaluations différentes"
+        ],
+        [
+          "Mince à épais signifie que la moyenne est moyenne",
+          "Les catégories verbales ne doivent pas être moyennées"
+        ],
+        [
+          "Une large gamme est toujours synonyme de dégâts",
+          "Cela peut résulter de la conception, de la forme ou d'une variation normale de la coupe."
+        ],
+        [
+          "Facetté est toujours mieux que poli",
+          "Les deux peuvent être des finitions légitimes"
+        ],
+        [
+          "Les gaines brutes sont fausses ou inachevées",
+          "Les ceintures brutes sont reconnues et peuvent être historiquement appropriées"
+        ],
+        [
+          "Les facettes de la ceinture font partie du nombre standard de 57 facettes",
+          "Le facettage des ceintures est normalement traité séparément du nombre de facettes principales."
+        ],
+        [
+          "Une inscription laser garantit l'authenticité",
+          "Il s'agit d'un élément d'identification qui doit correspondre au diamant complet."
+        ],
+        [
+          "Une inscription manquante prouve que le diamant est différent",
+          "L'inscription peut être cachée, absente, sale ou supprimée par repolissage"
+        ],
+        [
+          "Un naturel sur la ceinture prouve l'origine naturelle",
+          "L’origine nécessite une identification crédible en laboratoire"
+        ],
+        [
+          "L'épaisseur de la ceinture prouve si un diamant est naturel ou cultivé en laboratoire",
+          "Les deux peuvent avoir des configurations de ceinture similaires"
+        ],
+        [
+          "Chaque ceinture antique doit être facettée",
+          "Un facettage ultérieur peut supprimer le caractère d'origine"
+        ],
+        [
+          "Chaque ceinture ébréchée doit être recoupée",
+          "La redécoupe nécessite une évaluation professionnelle de la perte de poids, de la valeur et des risques."
+        ],
+        [
+          "GIA et HRD utilisent des catégories de ceintures identiques",
+          "Leur terminologie et leurs structures de notation diffèrent"
+        ],
+        [
+          "Un rapport de classement garantit l'état actuel de la ceinture",
+          "Des dommages peuvent survenir après le nivellement"
+        ],
+        [
+          "Une ceinture plus épaisse signifie toujours une valeur en carats plus élevée",
+          "Le poids conservé peut ne pas améliorer la taille visible ou l’attrait commercial"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Liste de contrôle des ceintures en diamant naturel",
+    "introLead": "Avant d'acheter, confirmez :",
+    "items": [
+      "Le diamant est explicitement identifié comme naturel.",
+      "Un rapport de notation crédible a été fourni.",
+      "Le numéro du rapport a été vérifié.",
+      "Le rapport a été comparé au diamant physique.",
+      "Le laboratoire émetteur a été identifié.",
+      "La méthodologie des ceintures propre au laboratoire a été utilisée.",
+      "L'épaisseur minimale du rondiste a été lue.",
+      "L'épaisseur maximale de la ceinture a été lue.",
+      "Le pourcentage moyen de ceinture a été révisé là où il est fourni.",
+      "La moyenne de l'étendue verbale n'a pas été incorrectement calculée.",
+      "La finition du rondiste a été identifiée.",
+      "La circonférence complète a été inspectée.",
+      "Les zones d'épaisseur minimale ont été localisées.",
+      "Les zones d'épaisseur maximale ont été localisées.",
+      "Les coins et les points ont été inspectés.",
+      "La ceinture a été vérifiée sous un grossissement 10×.",
+      "Les éclats et l'abrasion ont été vérifiés.",
+      "Les naturels et les naturels en retrait ont été revus.",
+      "Les cavités et les plumes atteignant la surface ont été examinées.",
+      "La barbe a été vérifiée.",
+      "Des facettes supplémentaires ont été prises en compte.",
+      "Le graphique de clarté et les commentaires du rapport ont été lus.",
+      "L'inscription laser a été vérifiée le cas échéant.",
+      "L’inscription n’a pas été utilisée comme seule méthode d’identification.",
+      "Les dimensions millimétriques du diamant ont été comparées.",
+      "La profondeur totale et la propagation face vers le haut ont été évaluées.",
+      "Le poids caché a été pris en compte.",
+      "La note de coupe ou de proportions a été revue.",
+      "La symétrie et le poli ont été revus.",
+      "Le réglage prévu a été pris en compte.",
+      "Les zones très fines ne seront pas exposées inutilement.",
+      "Les points et les coins recevront une protection appropriée.",
+      "La ceinture n'a pas été utilisée comme preuve d'origine naturelle.",
+      "Aucune remise ou prime fixe sur les gaines n'a été prise en compte.",
+      "Le diamant a été comparé à des pierres véritablement similaires.",
+      "L'état actuel a été comparé au rapport.",
+      "Une inspection professionnelle a été organisée si nécessaire.",
+      "Les conditions de paiement, d’inspection, de livraison et de retour sont claires."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Vous comparez déjà les diamants naturels ?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "L'épaisseur de la ceinture doit être évaluée en fonction de la coupe, de la symétrie, de l'état, de la documentation, des dimensions face vers le haut, de l'adéquation du réglage et du prix."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Avec S2S – Secure To Source, les acheteurs qui ont déjà présélectionné un diamant naturel en vrac peuvent le soumettre à Dalila Diamonds pour la coordination du contrôle qualité applicable, le paiement en euros et la livraison programmée en Belgique ou dans une autre destination confirmée de l'Union européenne."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si vous n'avez pas encore sélectionné de diamant, utilisez"
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": "pour demander une assistance personnalisée en matière d’approvisionnement en diamants naturels."
+        }
+      ]
+    ],
+    "primaryButtonText": "Soumettre un diamant présélectionné",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Parcourir les diamants naturels",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusion finale",
+    "introParagraphs": [
+      "La ceinture est le bord extérieur étroit séparant la couronne et le pavillon d’un diamant.",
+      "Son épaisseur affecte trois principales considérations d’achat :",
+      "Durabilité",
+      "Répartition du poids",
+      "Adéquation des paramètres",
+      "Pour de nombreux diamants naturels modernes, les gammes Thin, Medium et Slightly Thick offrent un équilibre pratique. Une ceinture extrêmement fine ou très fine mérite une attention particulière car les zones vulnérables peuvent être plus susceptibles de s'écailler. Une ceinture très épaisse ou extrêmement épaisse mérite une comparaison car elle peut conserver le poids en carats sans améliorer la taille face vers le haut.",
+      "La plage rapportée doit être examinée plutôt que moyennée. Une description telle que Très fin à épais fournit des catégories minimales et maximales ; cela ne signifie pas que la ceinture complète est moyenne.",
+      "La finition doit également être considérée séparément. Facetté, poli et brut décrivent comment la surface de la ceinture a été réalisée, et non si son épaisseur est appropriée.",
+      "Surtout, ne demandez pas seulement :",
+      "Quelle note de ceinture est inscrite sur le rapport ?",
+      "Demander:",
+      "Où se trouvent les zones les plus fines et les plus épaisses, le rondiste est-il intact et adapté au sertissage, et le diamant complet justifie-t-il son poids et son prix ?"
+    ],
+    "primaryButtonText": "Utiliser la source sécurisée",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contacter Dalila Diamants",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "title": "Foire aux questions sur les ceintures en diamant",
+    "items": [
+      {
+        "question": "Qu'est-ce que la ceinture d'un diamant ?",
+        "answer": "La ceinture est le bord extérieur étroit où la couronne du diamant rencontre son pavillon. Il définit le contour et fournit généralement le bord utilisé pour fixer le diamant dans les bijoux."
+      },
+      {
+        "question": "Où se trouve la ceinture ?",
+        "answer": "Il parcourt tout le périmètre du losange entre la couronne et le pavillon."
+      },
+      {
+        "question": "Que signifie la ceinture sur un rapport de diamant ?",
+        "answer": "Il décrit l’épaisseur et parfois la finition du bord extérieur du diamant."
+      },
+      {
+        "question": "Qu'est-ce que l'échelle des ceintures GIA ?",
+        "answer": "GIA utilise Extrêmement fin, Très fin, Fin, Moyen, Légèrement épais, Épais, Très épais et Extrêmement épais."
+      },
+      {
+        "question": "Quelle est la meilleure épaisseur de rondiste en diamant ?",
+        "answer": "Mince, Moyen et Légèrement Épais – ou des plages raisonnables impliquant ces descriptions – sont généralement pratiques. Le meilleur résultat dépend de la forme, des proportions, de l’état et du sertissage du diamant."
+      },
+      {
+        "question": "Medium est-elle la gaine idéale ?",
+        "answer": "Medium est une description équilibrée mais n'est pas automatiquement meilleure que n'importe quelle gaine fine ou légèrement épaisse."
+      },
+      {
+        "question": "Est-ce que Thin à Medium est une bonne ceinture ?",
+        "answer": "Il est généralement acceptable que le rondiste ne soit pas endommagé et soit adapté à la forme et au sertissage du diamant."
+      },
+      {
+        "question": "Est-ce que moyen à légèrement épais est bon ?",
+        "answer": "Cela peut être tout à fait acceptable. Vérifiez la taille face vers le haut, la profondeur totale, la coupe et le prix."
+      },
+      {
+        "question": "Est-ce que mince à légèrement épais est acceptable ?",
+        "answer": "Oui, à condition que la variation ne crée pas de problèmes de durabilité, de symétrie, de poids ou de réglage."
+      },
+      {
+        "question": "Est-ce que très fin à moyen est mauvais ?",
+        "answer": "Pas automatiquement. Localisez la zone très mince et déterminez son étendue, les inclusions à proximité et le réglage de l'exposition."
+      },
+      {
+        "question": "Une gaine très fine est-elle dangereuse ?",
+        "answer": "Cela peut augmenter le risque d’écaillage, en particulier aux points, coins ou zones proches des inclusions atteignant la surface. Le risque réel dépend du diamant."
+      },
+      {
+        "question": "Une gaine très fine va-t-elle définitivement s'écailler ?",
+        "answer": "Non. Cela indique une vulnérabilité accrue et non des dommages garantis."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture extrêmement fine ?",
+        "answer": "Il s'agit d'une gaine avec peu ou pas de matière dans une ou plusieurs zones pertinentes. Cela nécessite une évaluation minutieuse de la durabilité et de la prise."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture en forme de couteau ?",
+        "answer": "Il s’agit d’une zone où la couronne et le pavillon se rejoignent sans aucune ceinture entre eux, créant ainsi une arête très nette."
+      },
+      {
+        "question": "Une ceinture en diamant épais est-elle mauvaise ?",
+        "answer": "Pas nécessairement. Une ceinture épaisse peut être acceptable, mais les acheteurs doivent comparer les dimensions face vers le haut et la répartition du poids."
+      },
+      {
+        "question": "Un rondiste épais fait-il paraître un diamant plus petit ?",
+        "answer": "C’est possible si un poids important en carats est conservé autour de la ceinture plutôt que de contribuer aux dimensions face vers le haut."
+      },
+      {
+        "question": "Est-ce que très épais à extrêmement épais est mauvais ?",
+        "answer": "Il mérite une comparaison minutieuse car il peut ajouter du poids caché et de la profondeur totale. Cela ne rend pas automatiquement le diamant peu attrayant."
+      },
+      {
+        "question": "Une ceinture épaisse améliore-t-elle la durabilité ?",
+        "answer": "Il peut fournir plus de matière de bordure, mais le diamant peut quand même être endommagé par un impact, des inclusions ou une pression de sertissage inadaptée."
+      },
+      {
+        "question": "L'épaisseur du rondiste affecte-t-elle l'éclat ?",
+        "answer": "Il ne détermine pas indépendamment l’éclat. La couronne complète, le pavillon, le motif à facettes et les proportions déterminent les performances lumineuses."
+      },
+      {
+        "question": "L'épaisseur de la ceinture affecte-t-elle la qualité de coupe ?",
+        "answer": "Oui. Des rondistes excessivement fins ou épais peuvent limiter la qualité de coupe d'un Round Brilliant admissible en raison de considérations de durabilité ou de rapport de poids."
+      },
+      {
+        "question": "Le GIA attribue-t-il aux diamants de forme fantaisie une note de taille globale ?",
+        "answer": "La qualité de coupe globale traditionnelle du GIA s’applique aux diamants Round Brilliant standard éligibles. Les formes fantaisie reçoivent toujours des mesures, du polissage, de la symétrie et une description de la ceinture."
+      },
+      {
+        "question": "Que signifie Mince à Épais ?",
+        "answer": "Cela signifie que la zone pertinente la plus fine est Mince et la plus épaisse est Épaisse."
+      },
+      {
+        "question": "Puis-je faire une moyenne fine et épaisse comme moyenne ?",
+        "answer": "Non. La fourchette décrit deux extrêmes et ne doit pas être convertie en une catégorie verbale moyenne présumée."
+      },
+      {
+        "question": "Pourquoi le rondiste d'un diamant varie-t-il ?",
+        "answer": "La variation peut résulter d'un festonnage normal, de la conception de la forme, du placement des facettes, de la peinture, du creusement, de l'ébauche conservée, de facettes supplémentaires ou d'autres caractéristiques de coupe."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture à facettes ?",
+        "answer": "C'est une ceinture divisée en une série de petites surfaces polies."
+      },
+      {
+        "question": "Une ceinture à facettes est-elle meilleure ?",
+        "answer": "Pas automatiquement. Il s’agit d’un style de finition et ne garantit pas une meilleure coupe, durabilité ou valeur."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture polie ?",
+        "answer": "Il s'agit d'une ceinture polie et lisse sans petites facettes visibles séparément."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture brute ?",
+        "answer": "Une ceinture brute a une surface dépolie ou granuleuse produite pendant le processus de façonnage."
+      },
+      {
+        "question": "Une ceinture brutalisée est-elle mauvaise ?",
+        "answer": "Non. Cela peut être acceptable et peut être historiquement approprié pour un diamant antique."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture barbue ?",
+        "answer": "Une ceinture barbue contient de très petites caractéristiques ressemblant à des plumes s'étendant de la surface de la ceinture jusqu'au diamant."
+      },
+      {
+        "question": "Une ceinture barbue affecte-t-elle la clarté ?",
+        "answer": "C'est possible, en fonction de son étendue, de sa profondeur et de sa visibilité."
+      },
+      {
+        "question": "Qu'est-ce que peindre sur une ceinture de diamant ?",
+        "answer": "La peinture est une technique de découpe qui modifie la relation entre les demi-facettes, les facettes du drageoir, les axes du pavillon et l'épaisseur du rondiste."
+      },
+      {
+        "question": "Qu'est-ce que creuser ?",
+        "answer": "Creuser est la relation facette-angle opposée à la peinture et crée une variation différente entre les jonctions des ceintures."
+      },
+      {
+        "question": "Peindre et creuser sont-ils toujours des défauts ?",
+        "answer": "Non. Des exemples minimaux peuvent avoir une signification limitée, tandis que des exemples plus forts peuvent affecter l'apparence et la qualité de coupe."
+      },
+      {
+        "question": "Qu'est-ce qu'un naturel sur la ceinture ?",
+        "answer": "Il s’agit d’une partie de la surface brute d’origine laissée intentionnellement sur le diamant poli."
+      },
+      {
+        "question": "Une ceinture naturelle est-elle la même chose qu'un dommage ?",
+        "answer": "Non. Sa surface est conservée, rugueuse, même si sa taille, sa profondeur et son emplacement nécessitent encore une évaluation."
+      },
+      {
+        "question": "Qu'est-ce qu'un naturel en retrait ?",
+        "answer": "La surface rugueuse est conservée s'étendant en dessous du contour poli prévu du diamant."
+      },
+      {
+        "question": "Qu'est-ce qu'une ceinture ébréchée ?",
+        "answer": "Il s’agit d’un matériau manquant accidentellement le long du bord du diamant."
+      },
+      {
+        "question": "Une ceinture ébréchée peut-elle être réparée ?",
+        "answer": "Un repolissage ou une recoupe peut être possible, mais cela peut réduire le poids en carats et modifier les proportions. Une évaluation professionnelle est requise."
+      },
+      {
+        "question": "Un diamant peut-il s'ébrécher pendant le sertissage ?",
+        "answer": "Oui. La pression de réglage peut endommager un bord extrêmement fin, un coin vulnérable ou une zone affectée par une inclusion."
+      },
+      {
+        "question": "Un rondiste en diamant peut-il être endommagé lors d'une usure normale ?",
+        "answer": "Oui. Un impact violent, des griffes usées, un contact avec d'autres diamants ou un mouvement de la monture peuvent endommager le rondiste."
+      },
+      {
+        "question": "Qu'est-ce qu'une inscription de ceinture ?",
+        "answer": "Il s'agit de textes microscopiques, de chiffres ou de symboles appliqués sur la ceinture, comprenant souvent un numéro de rapport de notation."
+      },
+      {
+        "question": "Une inscription laser prouve-t-elle l'authenticité ?",
+        "answer": "Non. Il prend en charge l’identification mais doit être vérifié par rapport au rapport, aux mesures et aux caractéristiques du diamant."
+      },
+      {
+        "question": "Une inscription sur une ceinture peut-elle être supprimée ?",
+        "answer": "Elle pourra être supprimée ou réduite si la ceinture est repolie."
+      },
+      {
+        "question": "Pourquoi ne puis-je pas voir l’inscription ?",
+        "answer": "Il peut être caché par une griffe, sale, extrêmement petit, absent ou supprimé. Un grossissement et un éclairage appropriés sont nécessaires."
+      },
+      {
+        "question": "Chaque diamant naturel GIA a-t-il une inscription ?",
+        "answer": "Non. La disponibilité de l’inscription dépend du service de rapport et si le service a été demandé ou inclus."
+      },
+      {
+        "question": "L’épaisseur du rondiste peut-elle identifier un diamant naturel ?",
+        "answer": "Non. Les diamants naturels et ceux cultivés en laboratoire peuvent avoir des épaisseurs de rondiste et des finitions similaires."
+      },
+      {
+        "question": "Une inscription laser peut-elle identifier un diamant cultivé en laboratoire ?",
+        "answer": "Une inscription de laboratoire applicable peut indiquer qu'un diamant est cultivé en laboratoire, mais le rapport complet et l'identification professionnelle doivent quand même être vérifiés."
+      },
+      {
+        "question": "Les pourcentages de ceinture GIA et HRD sont-ils les mêmes ?",
+        "answer": "Non. Leur terminologie, leurs structures de mesure et leurs systèmes de notation doivent être interprétés séparément."
+      },
+      {
+        "question": "L’épaisseur de la ceinture est-elle plus importante que la coupe globale ?",
+        "answer": "Non. Cela fait partie de l’évaluation de la durabilité, du rapport de poids et de la qualité de fabrication du diamant."
+      },
+      {
+        "question": "Dois-je rejeter un diamant parce que son rondiste est très fin ?",
+        "answer": "Pas automatiquement. Déterminez l’emplacement, l’étendue, l’état, la forme, le cadre et le prix avant de prendre une décision."
+      },
+      {
+        "question": "Dois-je rejeter un diamant parce que son rondiste est très épais ?",
+        "answer": "Pas automatiquement. Comparez ses dimensions face vers le haut, sa profondeur totale, son apparence et son prix avec des diamants similaires."
+      }
+    ]
+  }
+}
