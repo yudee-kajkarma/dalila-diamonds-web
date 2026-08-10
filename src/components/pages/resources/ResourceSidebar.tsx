@@ -4,7 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 import { Marcellus } from 'next/font/google';
 import { useLanguage } from '@/context/LanguageContext';
-import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from '@/lib/resourceNavLinks';
 
 const marcellus = Marcellus({
   variable: '--font-marcellus',
@@ -13,7 +12,7 @@ const marcellus = Marcellus({
 });
 
 interface ResourceSidebarProps {
-  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide' | 'diamond-quality-chart' | 'diamond-fluorescence-guide' | 'diamond-culet-guide' | 'diamond-girdle-guide' | 'diamond-size-chart' | 'natural-vs-lab-grown-diamonds' | 'diamond-valuation-calculator' | 'where-to-sell-diamond-ring' | 'how-to-sell-diamond-ring' | 'diamond-appraisal-antwerp-belgium' | 'sell-diamond-without-certificate';
+  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion';
 }
 
 const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
@@ -23,11 +22,23 @@ const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
     return `/${locale}${path}`;
   };
 
-  const allPages = RESOURCE_NAV_ITEMS.map((item) => ({
-    key: item.key,
-    title: getResourceNavLabel(dictionary, item),
-    href: item.href,
-  }));
+  const allPages = [
+    {
+      key: 'premium-b2b',
+      title: dictionary?.nav?.articleB2b || 'Premium B2B Diamond Supplier Belgium',
+      href: '/premium-b2b-diamond-supplier-belgium',
+    },
+    {
+      key: 'sell-diamond',
+      title: dictionary?.nav?.articleSell || 'Sell Your Diamond Safely',
+      href: '/sell-your-diamond-safely',
+    },
+    {
+      key: 'elongated-cushion',
+      title: dictionary?.nav?.articleCushion || 'Elongated Cushion Cut Diamond Guide',
+      href: '/elongated-cushion-cut-diamond-guide',
+    },
+  ];
 
   const otherPages = allPages.filter((page) => page.key !== currentPage);
 
@@ -41,15 +52,15 @@ const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {
             </h2>
           </div>
           
-          <div className="max-h-[min(70vh,28rem)] overflow-y-auto overscroll-contain p-3 space-y-0.5">
+          <div className="p-6 space-y-1">
             {otherPages.map((page) => (
               <Link
                 key={page.key}
                 href={localizedPath(page.href)}
-                className="block group hover:bg-slate-50 px-2 py-2 rounded-md transition-colors duration-200"
+                className="block group hover:bg-slate-50 -mx-2 px-2 py-3 rounded-lg transition-all duration-300"
                 scroll={false}
               >
-                <h3 className={`${marcellus.className} text-sm leading-snug text-slate-900 group-hover:text-[#c89e3a] transition-colors duration-200`}>
+                <h3 className={`${marcellus.className} text-lg text-slate-900 group-hover:text-[#c89e3a] transition-colors duration-300`}>
                   {page.title}
                 </h3>
               </Link>

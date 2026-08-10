@@ -47,4 +47,4 @@ https://github.com/Yudee-19/dalila.git
 vidyasager repo:
 https://github.com/vidhyasagar70/dalila-1.git
 
-editing this to trigger vercel deployement x2
+editing this to trigger vercel deployement

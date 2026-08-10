@@ -109,7 +109,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Customized Sourcing<br />for Rare Requirements",
         description:
@@ -291,7 +290,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Maßgeschneiderte Suche<br />für exklusive Anforderungen",
         description:
@@ -473,7 +471,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Inkoop op maat voor<br />specifieke of zeldzame wensen",
         description:
@@ -655,7 +652,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Recherche sur mesure pour<br />des demandes spécifiques",
         description:
@@ -837,7 +833,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Búsqueda a medida para<br />requisitos específicos",
         description:
@@ -1019,7 +1014,6 @@ const contentByLocale: Record<string, B2bContent> = {
         imagePosition: "left",
       },
       {
-        id: "ds4u",
         label: "DS4U – DIAMOND SOURCE FOR YOU",
         heading: "Ricerca su misura per<br />requisiti specifici",
         description:

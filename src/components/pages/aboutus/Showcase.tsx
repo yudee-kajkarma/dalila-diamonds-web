@@ -32,7 +32,7 @@ export default function Aboutshowcase() {
   };
 
   const handleSellNow = () => {
-    router.push(localizedPath("/sell-your-diamond"));
+    router.push(localizedPath("/sud"));
   };
 
   return (
