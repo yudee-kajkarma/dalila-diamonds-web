@@ -5,6 +5,7 @@ import fr from "@/data/resources/where-to-sell-diamond-ring.fr.json";
 import it from "@/data/resources/where-to-sell-diamond-ring.it.json";
 import nl from "@/data/resources/where-to-sell-diamond-ring.nl.json";
 import es from "@/data/resources/where-to-sell-diamond-ring.es.json";
+import { withS3Assets } from "@/lib/s3Assets";
 
 export type WhereToSellDiamondRingPageData = typeof en;
 
@@ -17,6 +18,9 @@ const byLocale: Record<Locale, WhereToSellDiamondRingPageData> = {
   es,
 };
 
+// Static JSON holds absolute S3 URLs; rebase them onto NEXT_PUBLIC_S3_BASE_URL once.
+const localized = withS3Assets(byLocale);
+
 export function getWhereToSellDiamondRingData(locale: Locale = "en"): WhereToSellDiamondRingPageData {
-  return byLocale[locale] ?? en;
+  return localized[locale] ?? localized.en;
 }

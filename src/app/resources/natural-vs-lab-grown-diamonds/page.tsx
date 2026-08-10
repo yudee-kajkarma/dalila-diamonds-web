@@ -1,6 +1,11 @@
 import { Metadata } from "next";
 import NaturalVsLabGrownDiamonds from "@/components/pages/resources/NaturalVsLabGrownDiamonds";
-import pageData from "@/data/resources/natural-vs-lab-grown-diamonds.json";
+import rawPageData from "@/data/resources/natural-vs-lab-grown-diamonds.json";
+import { s3Asset } from "@/lib/s3Assets";
+import { withS3Assets } from "@/lib/s3Assets";
+
+// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
+const pageData = withS3Assets(rawPageData);
 
 export const metadata: Metadata = {
   title: pageData.meta.title,
@@ -21,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+        url: s3Asset("/dalila_img/Dalila_Logo.png"),
       },
     ],
   },
@@ -29,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: pageData.meta.title,
     description: pageData.meta.description,
-    images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
+    images: [s3Asset("/dalila_img/Dalila_Logo.png")],
   },
 };
 

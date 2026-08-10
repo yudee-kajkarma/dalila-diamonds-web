@@ -7,6 +7,7 @@ import { Marcellus, Jost } from "next/font/google";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { getDiamondSizeChartData, type DiamondSizeChartPageData } from "@/lib/i18n/getDiamondSizeChartData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -160,7 +161,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
         >
           <div className="absolute inset-0">
             <Image
-              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+              src={s3Asset("/images/banner-dalila-contact.png")}
               alt={data.banner.imageAlt}
               fill
               className="object-cover"

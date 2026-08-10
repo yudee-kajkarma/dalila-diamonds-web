@@ -3,6 +3,7 @@ import { memo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
+import { s3Asset } from "@/lib/s3Assets";
 // import AnimatedContainer from "@/components/shared/AnimatedContainer";
 
 const marcellus = Marcellus({
@@ -35,7 +36,7 @@ const ArticlesBanner = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt="Articles Background"
             fill
             className="object-cover"

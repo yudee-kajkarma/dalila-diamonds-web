@@ -1,5 +1,6 @@
 import { ShowcaseSection } from "@/components/pages/seopage/SeoPageShowcase";
 import { ContentSection } from "@/components/pages/seopage/SeoPageContent";
+import { s3Asset } from "@/lib/s3Assets";
 
 interface B2bContent {
   trustedSupplierSection: ContentSection[];
@@ -30,7 +31,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Premium B2B Diamond<br />Supplier in Belgium",
         description:
           "<p class='mb-4'>Dalila Diamonds is a premium B2B diamond supplier based in Antwerp, Belgium — the historic and globally recognized heart of the international diamond trade.</p><p class='mb-4'>We specialize in supplying certified natural diamonds to jewelers, manufacturers, wholesalers, luxury retailers, and investment buyers worldwide.</p><p class='mb-4'>Our business is built on trust, transparency, precision sourcing, and long-term strategic partnerships. Every diamond we deliver represents not only brilliance and rarity, but reliability and professional integrity.</p><p>With decades of family expertise and a global sourcing network, we ensure consistent quality, competitive pricing, and secure international logistics.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Antwerp",
         imagePosition: "right",
       },
@@ -39,7 +40,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Strategic Sourcing Partner<br />for Professional Buyers",
         description:
           "<p class='mb-4'>Dalila Diamonds was founded with a clear mission: to simplify diamond sourcing for professional B2B buyers.</p><p class='mb-4'>We understand that in the diamond industry, reliability and consistency are critical. Production schedules, inventory planning, and customer expectations depend on accurate grading, competitive pricing, and secure supply.</p><p class='mb-4'>Operating from Antwerp provides us direct access to one of the world's largest polished diamond inventories and established diamond exchanges. This allows us to work closely with manufacturers and primary suppliers, ensuring better pricing structures and priority access to premium goods.</p><p>We are not a transactional trading company — we are a strategic sourcing partner committed to supporting your long-term growth.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Diamond sourcing solutions",
         imagePosition: "left",
       },
@@ -70,7 +71,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "International Laboratory<br />Certification Standards",
         description:
           "<p class='mb-4'>We supply diamonds certified by leading international gemological laboratories, including GIA, IGI, HRD, and AGS.</p><p class='mb-4'>Certification ensures independent verification of:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Carat weight</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Color grade</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Clarity grade</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Cut quality and proportions</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Polish and symmetry</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluorescence levels</span></li></ul><p class='mb-4'>This guarantees transparency, consistency, and confidence throughout your supply chain.</p><p>We offer diamonds suitable for both commercial manufacturing and high-end luxury markets, all with internationally recognized grading reports.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Certified diamonds",
         imagePosition: "left",
       },
@@ -79,7 +80,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Full Range of Certified<br />Natural Diamonds",
         description:
           "<p class='mb-4'>Dalila Diamonds supplies polished natural diamonds in all major shapes, including round brilliant, princess, cushion, emerald, oval, pear, radiant, marquise, asscher, and heart shapes.</p><p class='mb-4'>Available across all quality spectrums:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Commercial goods (SI–I clarity, H–K color)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Triple Excellent cut diamonds</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>No-fluorescence diamonds</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Premium colorless stones (D–F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>High-clarity diamonds (IF–VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Large certified solitaires (2ct to 10ct+)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Investment-grade diamonds</span></li></ul><p>We also supply calibrated melee parcels and precision matched layouts for jewelry production.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Diamond collection",
         imagePosition: "right",
       },
@@ -104,7 +105,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Structured Diamond<br />Procurement Solution",
         description:
           "<p class='mb-4'>Secure To Source (S2S) is our core B2B procurement solution designed for jewelers, wholesalers, and manufacturers seeking reliability and reduced sourcing risk.</p><p class='mb-4'>S2S provides:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Direct access to Antwerp inventories</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Certified stones with full documentation</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Competitive wholesale pricing</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Full quality control verification</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Insured international logistics</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Transparent documentation and invoicing</span></li></ul><p>This service is ideal for businesses requiring consistent supply, predictable pricing, and long-term partnership stability.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Secure sourcing process",
         imagePosition: "left",
       },
@@ -114,7 +115,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Customized Sourcing<br />for Rare Requirements",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) is our fully customized sourcing program for specific, rare, or high-value diamond requirements that require specialized search and procurement.</p><p class='mb-4'>Clients request:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Exact carat ranges and weight specifications</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Specific color and clarity combinations</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Matched pairs for earrings and layouts</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Bridal collections with consistent grading</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Rare fancy shapes and cuts</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>High-value investment-grade stones (5ct+)</span></li></ul><p>Our global sourcing network activates to locate, verify, negotiate, and securely deliver stones matching your precise criteria within agreed timelines.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Custom diamond sourcing",
         imagePosition: "right",
       },
@@ -153,7 +154,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Secure International<br />Shipping Solutions",
         description:
           "<p class='mb-4'>We provide fully insured international shipping through specialized diamond logistics partners with proven security protocols.</p><p class='mb-4'>Our logistics services include:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tamper-proof secure packaging</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Full insurance coverage at declared value</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Customs documentation and duty calculation</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Express global delivery (24-72 hours)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Real-time tracking and communication</span></li></ul><p>Our logistics solutions protect high-value assets throughout international transportation, ensuring secure delivery to your location worldwide.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Global shipping",
         imagePosition: "right",
       },
@@ -162,7 +163,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Competitive Pricing<br />Strategy & Market Analysis",
         description:
           "<p class='mb-4'>The diamond market is dynamic and influenced by global supply, demand, mining output, and pricing indices such as IDEX and Rapaport.</p><p class='mb-4'>We continuously monitor:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Wholesale market fluctuations and pricing trends</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Supply chain availability and inventory levels</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Global demand trends across regions</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Currency movements (USD/EUR/INR)</span></li></ul><p>This market intelligence allows us to provide accurate, competitive B2B pricing aligned with current market conditions, helping you maintain profitability and competitiveness.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Market pricing strategy",
         imagePosition: "left",
       },
@@ -212,7 +213,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Erstklassiger B2B-Diamanten<br />lieferant in Belgien",
         description:
           "<p class='mb-4'>Dalila Diamonds ist ein erstklassiger B2B-Diamantenlieferant mit Sitz in Antwerpen, Belgien — dem historischen und weltweit anerkannten Herzen des internationalen Diamantenhandels.</p><p class='mb-4'>Wir sind spezialisiert auf die Lieferung von zertifizierten natürlichen Diamanten an Juweliere, Hersteller, Großhändler, Luxuseinzelhändler und Investitionskäufer weltweit.</p><p class='mb-4'>Unser Geschäft basiert auf Vertrauen, Transparenz, präziser Beschaffung und langfristigen strategischen Partnerschaften. Jeder von uns gelieferte Diamant repräsentiert nicht nur Brillanz und Seltenheit, sondern auch Zuverlässigkeit und professionelle Integrität.</p><p>Mit jahrzehntelanger familiärer Kompetenz und einem globalen Beschaffungsnetzwerk garantieren wir gleichbleibende Qualität, wettbewerbsfähige Preise und eine sichere internationale Logistik.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Antwerp",
         imagePosition: "right",
       },
@@ -221,7 +222,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Strategischer Sourcing-Partner<br />für professionelle Käufer",
         description:
           "<p class='mb-4'>Dalila Diamonds wurde mit einer klaren Mission gegründet: die Diamantenbeschaffung für professionelle B2B-Käufer zu vereinfachen.</p><p class='mb-4'>Wir wissen, dass in der Diamantenbranche Zuverlässigkeit und Konsistenz entscheidend sind. Produktionspläne, Bestandsplanung und Kundenerwartungen hängen von präziser Graduierung, wettbewerbsfähigen Preisen und sicherer Lieferung ab.</p><p class='mb-4'>Die Tätigkeit in Antwerpen bietet uns direkten Zugang zu einem der weltweit größten Bestände an geschliffenen Diamanten und zu etablierten Diamantenbörsen. Dies ermöglicht uns eine enge Zusammenarbeit mit Herstellern und Primärlieferanten, was zu besseren Preisstrukturen und bevorzugtem Zugriff auf Premium-Waren führt.</p><p>Wir sind kein rein transaktionales Handelsunternehmen — wir sind ein strategischer Beschaffungspartner, der sich für Ihr langfristiges Wachstum einsetzt.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Diamond sourcing solutions",
         imagePosition: "left",
       },
@@ -252,7 +253,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Internationale Labor-<br />Zertifizierungsstandards",
         description:
           "<p class='mb-4'>Wir liefern Diamanten, die von führenden internationalen gemologischen Labors wie GIA, IGI, HRD und AGS zertifiziert wurden.</p><p class='mb-4'>Die Zertifizierung gewährleistet die unabhängige Überprüfung von:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Karatgewicht</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Farbstufe</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Reinheitsstufe</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Schliffqualität</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Proportionen und Symmetrie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluoreszenz-Niveau</span></li></ul><p class='mb-4'>Dies garantiert Transparenz, Konsistenz und Vertrauen in Ihrer gesamten Lieferkette.</p><p>Wir bieten Diamanten an, die sich sowohl für die kommerzielle Herstellung als auch für anspruchsvolle Luxusmärkte eignen, alle mit international anerkannter Zertifizierung.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Certified diamonds",
         imagePosition: "left",
       },
@@ -261,7 +262,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Vollständiges Sortiment<br />an zertifizierten Naturdiamanten",
         description:
           "<p class='mb-4'>Dalila Diamonds liefert geschliffene Naturdiamanten in allen gängigen Schliffformen, darunter runder Brillantschliff, Prinzess-, Kissen-, Smaragd-, Oval-, Tropfen-, Radiant-, Marquise-, Asscher- und Herzschliff.</p><p class='mb-4'>Erhältlich in allen Qualitätsstufen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Handelsware (Reinheit SI–I, Farbe H–K)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Triple Excellent Schliff-Diamanten</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanten ohne Fluoreszenz</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Erstklassige farblose Steine (D–F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanten mit hoher Reinheit (IF–VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Große zertifizierte Solitäre (ab 2 Karat)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanten als Wertanlage</span></li></ul><p>Wir liefern auch kalibrierte Melee-Diamanten und präzise abgestimmte Layouts für die Schmuckproduktion.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Diamond collection",
         imagePosition: "right",
       },
@@ -286,7 +287,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Strukturierte Diamanten-<br />Beschaffungslösung",
         description:
           "<p class='mb-4'>Secure To Source (S2S) ist unsere B2B-Standardlösung für Juweliere, Großhändler und Hersteller, die eine zuverlässige Beschaffung bei minimalem Risiko suchen.</p><p class='mb-4'>S2S bietet:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Direkten Zugang zu den Antwerpener Diamantenbeständen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zertifizierte Steine mit vollständiger Dokumentation</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Wettbewerbsfähige Großhandelspreise</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Lückenlose Qualitätskontrolle und -prüfung</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Versicherten internationalen Werttransport</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Transparente Rechnungsstellung und Exportabwicklung</span></li></ul><p>Dieser Service ist ideal für Unternehmen, die Wert auf Kontinuität, transparente Kalkulationen und eine verlässliche Partnerschaft legen.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Secure sourcing process",
         imagePosition: "left",
       },
@@ -296,7 +297,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Maßgeschneiderte Suche<br />für exklusive Anforderungen",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) ist unser exklusiver Suchservice für spezielle, seltene oder besonders hochwertige Diamanten, die eine gezielte weltweite Recherche erfordern.</p><p class='mb-4'>Typische Anfragen unserer Kunden:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Exakte Karatgewichte und Abmessungen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Sehr seltene Farb- und Reinheitskombinationen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Perfekt aufeinander abgestimmte Paare (für Ohrringe/Layouts)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Brautschmuck-Kollektionen mit identischer Graduierung</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Exotische Fantasieschliffe und seltene Formen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Große Solitäre ab 5 Karat als Wertanlage</span></li></ul><p>Unser globales Sourcing-Netzwerk findet, prüft und verhandelt die optimalen Steine für Sie und liefert diese fristgerecht und sicher an Ihr Unternehmen.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Custom diamond sourcing",
         imagePosition: "right",
       },
@@ -335,7 +336,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Sichere internationale<br />Logistiklösungen",
         description:
           "<p class='mb-4'>Wir versenden alle Diamanten voll versichert über spezialisierte Sicherheitskuriere mit lückenloser Sendungsverfolgung.</p><p class='mb-4'>Unsere Logistik-Dienstleistungen auf einen Blick:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Versiegelte Sicherheitsverpackungen (tamper-proof)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Vollkaskoversicherung zum deklarierten Warenwert</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zollabwicklung und Frachtdokumentenerstellung</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Globale Expresszustellung (meist in 24–72 Std.)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Laufende Statusupdates und persönlicher Ansprechpartner</span></li></ul><p>Unsere Logistikpartner sind auf den Transport von hochkarätigen Werten spezialisiert, sodass Ihre Bestellung weltweit sicher ankommt.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Global shipping",
         imagePosition: "right",
       },
@@ -344,7 +345,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Wettbewerbsfähige Preise<br />durch weltweite Marktanalysen",
         description:
           "<p class='mb-4'>Der Diamantenmarkt ist dynamisch und wird von globalen Minenerträgen, der Nachfrage in den USA/Asien und Preisindizes wie IDEX und Rapaport beeinflusst.</p><p class='mb-4'>Wir analysieren kontinuierlich:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Kursschwankungen und Preisentwicklungen im Großhandel</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Verfügbarkeiten in den Minen und bei den Schleifereien</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Regionale Nachfragetrends (Europa, USA, Asien)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Währungskurse und Wechselwirkungen (USD/EUR/INR)</span></li></ul><p>Durch diese fundierte Marktanalyse können wir unseren B2B-Kunden jederzeit faire Großhandelspreise bieten, die sich am realen Weltmarkt orientieren.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Market pricing strategy",
         imagePosition: "left",
       },
@@ -394,7 +395,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Toonaangevende B2B diamant<br />leverancier in België",
         description:
           "<p class='mb-4'>Dalila Diamonds is een toonaangevende B2B-diamantleverancier gevestigd in Antwerpen, België — het historische en wereldwijd erkende hart van de internationale diamanthandel.</p><p class='mb-4'>Wij zijn gespecialiseerd in het leveren van gecertificeerde natuurlijke diamanten aan juweliers, fabrikanten, groothandelaren, luxe retailers en beleggingskopers wereldwijd.</p><p class='mb-4'>Onze onderneming is gebouwd op vertrouwen, transparantie, nauwkeurige inkoop en strategische samenwerkingsverbanden op lange termijn. Elke diamant die wij leveren vertegenwoordigt niet alleen schittering en zeldzaamheid, maar ook betrouwbaarheid en professionele integriteit.</p><p>Met decennia aan familie-expertise en een wereldwijd inkoopnetwerk zorgen wij voor consistente kwaliteit, concurrerende prijzen en veilige internationale logistiek.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Antwerpen",
         imagePosition: "right",
       },
@@ -403,7 +404,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Strategische inkooppartner<br />voor professionele kopers",
         description:
           "<p class='mb-4'>Dalila Diamonds is opgericht met een duidelijke missie: het vereenvoudigen van diamantinkoop voor professionele B2B-kopers.</p><p class='mb-4'>Wij begrijpen dat in de diamantindustrie betrouwbaarheid en consistentie cruciaal zijn. Productieschema's, voorraadplanning en klantverwachtingen zijn afhankelijk van nauwkeurige gradatie, concurrerende prijzen en een veilige levering.</p><p class='mb-4'>Werken vanuit Antwerpen geeft ons directe toegang tot een van 's werelds grootste voorraden geslepen diamanten en gevestigde diamantbeurzen. Hierdoor kunnen we nauw samenwerken met fabrikanten en primaire leveranciers, wat zorgt voor betere prijsstructuren en prioritaire toegang tot hoogwaardige goederen.</p><p>Wij zijn geen transactionele handelsonderneming — wij zijn een strategische inkooppartner die zich inzet voor uw groei op lange termijn.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Diamant inkoopoplossingen",
         imagePosition: "left",
       },
@@ -434,7 +435,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Internationale laboratoria<br />certificeringsnormen",
         description:
           "<p class='mb-4'>Wij leveren diamanten die zijn gecertificeerd door toonaangevende internationale gemmologische laboratoria, waaronder GIA, IGI, HRD en AGS.</p><p class='mb-4'>Certificering garandeert onafhankelijke verificatie van:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Karaatgewicht</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Kleurklasse</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zuiverheidsklasse</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Slijpkwaliteit en verhoudingen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Polijsting en symmetrie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluorescentieniveaus</span></li></ul><p class='mb-4'>Dit garandeert transparantie, consistentie en vertrouwen in uw gehele toeleveringsketen.</p><p>Wij bieden diamanten aan die geschikt zijn voor zowel commerciële productie als het topsegment van de luxemarkt, allemaal voorzien van internationaal erkende certificaten.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Gecertificeerde diamanten",
         imagePosition: "left",
       },
@@ -443,7 +444,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Volledig assortiment van<br />gecertificeerde natuurlijke diamanten",
         description:
           "<p class='mb-4'>Dalila Diamonds levert geslepen natuurlijke diamanten in alle belangrijke vormen, waaronder rond briljant, prinses, kussen, emerald, ovaal, peer, radiant, marquise, asscher en hartvormen.</p><p class='mb-4'>Beschikbaar in alle kwaliteitscategorieën:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Commerciële goederen (SI-I zuiverheid, H-K kleur)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Triple Excellent geslepen diamanten</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanten zonder fluorescentie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Hoogwaardige kleurloze stenen (D-F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Hoge zuiverheid diamanten (IF-VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Grote gecertificeerde solitairen (2ct tot 10ct+)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanten van beleggingskwaliteit</span></li></ul><p>We leveren ook gekalibreerde melee parcels en nauwkeurig afgestemde lay-outs voor sieradenproductie.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Diamantencollectie",
         imagePosition: "right",
       },
@@ -468,7 +469,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Gestructureerde inkoopoplossing<br />voor diamanten",
         description:
           "<p class='mb-4'>Secure To Source (S2S) is onze kernoplossing voor B2B-inkoop, ontworpen voor juweliers, groothandelaren en fabrikanten die op zoek zijn naar betrouwbaarheid en een verminderd inkooprisico.</p><p class='mb-4'>S2S biedt:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Directe toegang to Antwerpse voorraden</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Gecertificeerde stenen met volledige documentatie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Concurrerende groothandelsprijzen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Volledige verificatie van kwaliteitscontrole</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Verzekerde internationale logistiek</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Transparante documentatie en facturering</span></li></ul><p>Deze dienst is ideaal voor bedrijven die behoefte hebben aan een constante levering, voorspelbare prijzen en stabiliteit in de samenwerking op lange termijn.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Veilig inkoopproces",
         imagePosition: "left",
       },
@@ -478,7 +479,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Inkoop op maat voor<br />specifieke of zeldzame wensen",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) is ons volledig gepersonaliseerde inkoopprogramma voor specifieke, zeldzame of hoogwaardige diamanten die een gespecialiseerde zoektocht en aankoop vereisen.</p><p class='mb-4'>Klanten vragen om:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Exacte karaatbereiken en gewichtspecificaties</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Specifieke combinaties van kleur en zuiverheid</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Bij elkaar passende paren voor oorbellen en lay-outs</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Bruidscollecties met consistente gradatie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zeldzame fantasievormen en slijpvormen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Hoogwaardige stenen van beleggingskwaliteit (5ct+)</span></li></ul><p>Ons wereldwijde inkoopnetwerk wordt geactiveerd om stenen te lokaliseren, te verifiëren, te onderhandelen en veilig te leveren die aan uw precieze criteria voldoen binnen de overeengekomen termijnen.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Diamantinkoop op maat",
         imagePosition: "right",
       },
@@ -517,7 +518,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Veilige internationale<br />transportoplossingen",
         description:
           "<p class='mb-4'>Wij bieden volledig verzekerde internationale verzending via gespecialiseerde transportpartners voor diamanten met beproefde beveiligingsprotocollen.</p><p class='mb-4'>Onze logistieke diensten omvatten:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Verzegelde, veilige verpakking</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Volledige verzerkeringsdekking tegen aangegeven waarde</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Douanedocumentatie en berekening van invoerrechten</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Snelle wereldwijde levering (24-72 uur)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Realtime tracking en communicatie</span></li></ul><p>Onze logistieke oplossingen beschermen hoogwaardige goederen tijdens internationaal transport en garanderen een veilige levering aan uw bedrijf wereldwijd.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Wereldwijde verzending",
         imagePosition: "right",
       },
@@ -526,7 +527,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Concurrerende prijsstrategie<br />& marktanalyse",
         description:
           "<p class='mb-4'>De diamantmarkt is dynamisch en wordt beïnvloed door wereldwijde vraag, aanbod, mijnproductie en prijsindices zoals IDEX en Rapaport.</p><p class='mb-4'>Wij monitoren continu:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluctuaties in de groothandelsmarkt en prijstrends</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Beschikbaarheid in de toeleveringsketen en voorraadniveaus</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Wereldwijde vraagtrends in verschillende regio's</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Valutabewegingen (USD/EUR/INR)</span></li></ul><p>Deze marktgegevens stellen ons in staat om nauwkeurige, concurrerende B2B-prijzen te bieden die aansluiten bij de huidige marktomstandigheden, zodat u uw winstgevendheid en concurrentiepositie kunt behouden.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Marktprijsstrategie",
         imagePosition: "left",
       },
@@ -576,7 +577,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Fournisseur de Diamants B2B<br />Premium en Belgique",
         description:
           "<p class='mb-4'>Dalila Diamonds est un fournisseur de diamants B2B haut de gamme basé à Anvers, en Belgique — le cœur historique et mondialement reconnu du commerce international de diamants.</p><p class='mb-4'>Nous nous spécialisons dans la fourniture de diamants naturels certifiés aux bijoutiers, fabricants, grossistes, détaillants de luxe et acheteurs d'investissement du monde entier.</p><p class='mb-4'>Notre activité repose sur la confiance, la transparence, la précision de l'approvisionnement et les partenariats stratégiques à long terme. Chaque diamant que nous livrons représente non seulement la brillance et la rareté, mais aussi la fiabilité et l'intégrité professionnelle.</p><p>Avec des décennies d'expertise familiale et un réseau d'approvisionnement mondial, nous garantissons une qualité constante, des prix compétitifs et une logistique internationale sécurisée.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Anvers",
         imagePosition: "right",
       },
@@ -585,7 +586,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Partenaire d'Approvisionnement Strategique<br />pour les Acheteurs Professionnels",
         description:
           "<p class='mb-4'>Dalila Diamonds a été fondée avec une mission claire : simplifier l'approvisionnement en diamants pour les acheteurs B2B professionnels.</p><p class='mb-4'>Nous savons que dans l'industrie du diamant, la fiabilité et la cohérence sont essentielles. Les calendriers de production, la planification des stocks et les attentes des clients dépendent d'une classification rigoureuse, de tarifs compétitifs et d'un approvisionnement sécurisé.</p><p class='mb-4'>Opérer depuis Anvers nous donne un accès direct à l'un des plus grands stocks de diamants polis au monde et aux bourses de diamants établies. Cela nous permet de collaborer étroitement avec les fabricants et les fournisseurs principaux, garantissant de meilleures structures tarifaires et un accès prioritaire aux articles haut de gamme.</p><p>Nous ne sommes pas une société de négoce transactionnelle — nous sommes un partenaire d'approvisionnement stratégique engagé à soutenir votre croissance à long terme.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Solutions d'approvisionnement en diamants",
         imagePosition: "left",
       },
@@ -616,7 +617,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Normes internationales de<br />certification de laboratoire",
         description:
           "<p class='mb-4'>Nous fournissons des diamants certifiés par les plus grands laboratoires de gemmologie internationaux, notamment le GIA, l'IGI, le HRD et l'AGS.</p><p class='mb-4'>La certification garantit la vérification indépendante de :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Le poids en carats</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Le degré de couleur</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Le degré de pureté</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>La qualité de la taille et les proportions</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Le poli et la symétrie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Les niveaux de fluorescence</span></li></ul><p class='mb-4'>Cela garantit la transparence, la cohérence et la confiance tout au long de votre chaîne d'approvisionnement.</p><p>Nous proposons des diamants adaptés aussi bien à la fabrication commerciale qu'aux marchés du luxe haut de gamme, tous dotés de rapports d'évaluation internationalement reconnus.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Diamants certifiés",
         imagePosition: "left",
       },
@@ -625,7 +626,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Gamme complète de diamants<br />naturels certifiés",
         description:
           "<p class='mb-4'>Dalila Diamonds fournit des diamants naturels polis de toutes les formes principales, notamment brillant rond, princesse, coussin, émeraude, ovale, poire, radiant, marquise, asscher et cœur.</p><p class='mb-4'>Disponible dans tous les spectres de qualité :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Articles commerciaux (pureté SI–I, couleur H–K)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamants de taille Triple Excellent</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamants sans fluorescence</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Pierres incolores de qualité supérieure (D–F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamants de haute pureté (IF–VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Grands solitaires certifiés (de 2ct à 10ct+)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamants de qualité investissement</span></li></ul><p>Nous fournissons également des lots de mêlée calibrés et des assortiments assortis avec précision pour la production de bijoux.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Collection de diamants",
         imagePosition: "right",
       },
@@ -650,7 +651,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Solution structurée<br />d'approvisionnement en diamants",
         description:
           "<p class='mb-4'>Secure To Source (S2S) est notre solution principale d'approvisionnement B2B conçue pour les bijoutiers, les grossistes et les fabricants qui recherchent la fiabilité et une réduction des risques.</p><p class='mb-4'>S2S offre :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Accès direct aux inventaires d'Anvers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamants certifiés avec documentation complète</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tarifs de gros compétitifs</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Vérification complète du contrôle qualité</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Logistique internationale assurée</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Documentation et facturation transparentes</span></li></ul><p>Ce service est idéal pour les entreprises ayant besoin d'un approvisionnement régulier, de tarifs prévisibles et de stabilité relationnelle à long terme.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Processus d'approvisionnement sécurisé",
         imagePosition: "left",
       },
@@ -660,7 +661,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Recherche sur mesure pour<br />des demandes spécifiques",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) est notre programme d'approvisionnement entièrement personnalisé pour les demandes de diamants spécifiques, rares ou de grande valeur nécessitant des recherches ciblées.</p><p class='mb-4'>Nos clients demandent :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Dimensions et carats précis</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Combinaisons rares de couleur et de pureté</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Paires assorties pour boucles d'oreilles ou parures</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Collections de mariage avec gradation homogène</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Formes fantaisie rares et tailles particulières</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Pierres d'investissement de grande valeur (plus de 5ct)</span></li></ul><p>Notre réseau d'approvisionnement s'active pour localiser, vérifier, négocier et livrer en toute sécurité les pierres correspondant à vos critères dans les délais convenus.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Recherche de diamants sur mesure",
         imagePosition: "right",
       },
@@ -699,7 +700,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Solutions sécurisées de<br />livraison internationale",
         description:
           "<p class='mb-4'>Nous livrons tous nos diamants avec une assurance totale via des transporteurs de valeurs spécialisés dotés de protocoles de haute sécurité.</p><p class='mb-4'>Nos services logistiques comprennent :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Emballages scellés de sécurité (inviolables)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Assurance tous risques à hauteur de la valeur déclarée</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Formalités douanières et documents de transport</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Livraison express mondiale (en 24-72h)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Suivi en temps réel et interlocuteur dédié</span></li></ul><p>Nos partenaires sont experts du transport de marchandises de grande valeur, garantissant une livraison sans faille de votre commande.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Livraison internationale",
         imagePosition: "right",
       },
@@ -708,7 +709,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Stratégie de prix compétitifs<br />basée sur le marché mondial",
         description:
           "<p class='mb-4'>Le marché du diamant est changeant, influencé par la production des mines, la demande en Asie/USA et des indices de prix comme l'IDEX et le Rapaport.</p><p class='mb-4'>Nous suivons en permanence :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Les fluctuations du marché de gros et les tendances des cours</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Les volumes de production des mines et ateliers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>La demande régionale (Europe, Amérique, Asie)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>L'évolution des taux de change (USD/EUR/INR)</span></li></ul><p>Grâce à cette étude de marché continue, nous pouvons proposer à nos clients B2B des tarifs de gros justes et directement alignés sur la réalité du marché.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Stratégie de prix",
         imagePosition: "left",
       },
@@ -758,7 +759,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Proveedor Premium de Diamantes<br />B2B en Bélgica",
         description:
           "<p class='mb-4'>Dalila Diamonds es un proveedor premium de diamantes B2B con sede en Amberes, Bélgica — el corazón histórico y mundialmente reconocido del comercio internacional de diamantes.</p><p class='mb-4'>Nos especializamos en el suministro de diamantes naturales certificados a joyeros, fabricantes, mayoristas, minoristas de lujo y compradores de inversión en todo el mundo.</p><p class='mb-4'>Nuestro negocio se basa en la confianza, la transparencia, el abastecimiento de precisión y las asociaciones estratégicas a largo plazo. Cada diamante que entregamos representa no solo brillo y rareza, sino también confiabilidad e integridad profesional.</p><p>Con décadas de experiencia familiar y una red de suministro global, garantizamos una calidad constante, precios competitivos y logística internacional segura.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Amberes",
         imagePosition: "right",
       },
@@ -767,7 +768,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Socio de Abastecimiento Estratégico<br />para Compradores Profesionales",
         description:
           "<p class='mb-4'>Dalila Diamonds fue fundada con una misión clara: simplificar el abastecimiento de diamantes para los compradores B2B profesionales.</p><p class='mb-4'>Sabemos que en la industria del diamante, la confiabilidad y la consistencia son fundamentales. Los calendarios de producción, la planificación de existencias y las expectativas de los clientes dependen de una clasificación rigurosa, tarifas competitivas y un suministro seguro.</p><p class='mb-4'>Operar desde Amberes nos brinda acceso directo a uno de los mayores inventarios de diamantes pulidos del mundo y a las bolsas de diamantes establecidas. Esto nos permite colaborar estrechamente con fabricantes y proveedores principales, garantizando mejores estructuras de precios y acceso prioritario a artículos de primera calidad.</p><p>No somos una empresa comercial de transacciones — somos un socio de abastecimiento estratégico comprometido a respaldar su crecimiento a largo plazo.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Soluciones de abastecimiento de diamantes",
         imagePosition: "left",
       },
@@ -798,7 +799,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Normas internacionales de<br />certificación de laboratorio",
         description:
           "<p class='mb-4'>Suministramos diamantes certificados por los laboratorios gemológicos internacionales líderes, incluidos el GIA, el IGI, el HRD y el AGS.</p><p class='mb-4'>La certificación garantiza la verificación independiente de:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>El peso en quilates</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>El grado de color</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>El grado de pureza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>La calidad del corte y las proporciones</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>El pulido y la simetría</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Los niveles de fluorescencia</span></li></ul><p class='mb-4'>Esto garantiza la transparencia, la coherencia y la confianza a lo largo de toda su cadena de suministro.</p><p>Ofrecemos diamantes adecuados tanto para la fabricación comercial como para los mercados de lujo de alta gama, todos con informes de evaluación reconocidos internacionalmente.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Diamantes certificados",
         imagePosition: "left",
       },
@@ -807,7 +808,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Gama completa de diamantes<br />naturales certificados",
         description:
           "<p class='mb-4'>Dalila Diamonds suministra diamantes naturales pulidos de todas las formas principales, incluyendo brillante redondo, princesa, cojín, esmeralda, óvalo, pera, radiante, marquesa, asscher y corazón.</p><p class='mb-4'>Disponible en todos los espectros de calidad:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Artículos comerciales (pureza SI–I, color H–K)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantes de corte Triple Excellent</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantes sin fluorescencia</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Piedras incoloras de calidad superior (D–F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantes de alta pureza (IF–VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Grandes solitarios certificados (de 2ct a 10ct+)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantes de calidad inversión</span></li></ul><p>También suministramos lotes de melee calibrados y conjuntos combinados con precisión para la producción de joyas.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Colección de diamantes",
         imagePosition: "right",
       },
@@ -832,7 +833,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Solución estructurada de<br />abastecimiento de diamantes",
         description:
           "<p class='mb-4'>Secure To Source (S2S) es nuestra solución principal de abastecimiento B2B diseñada para joyeros, mayoristas y fabricantes que buscan confiabilidad y una reducción de riesgos.</p><p class='mb-4'>S2S ofrece:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Acceso directo a los inventarios de Amberes</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantes certificados con documentación completa</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tarifas de mayorista competitivas</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Verificación completa del control de calidad</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Logística internacional asegurada</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Documentación y facturación transparentes</span></li></ul><p>Este servicio es ideal para empresas que necesitan un suministro constante, tarifas previsibles y estabilidad en la relación a largo plazo.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Proceso de abastecimiento seguro",
         imagePosition: "left",
       },
@@ -842,7 +843,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Búsqueda a medida para<br />requisitos específicos",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) es nuestro programa de abastecimiento completamente personalizado para demandas de diamantes específicas, raras o de gran valor que requieren búsquedas específicas.</p><p class='mb-4'>Nuestros clientes solicitan:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Dimensiones y quilates precisos</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Combinaciones raras de color y pureza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Parejas combinadas para pendientes o conjuntos</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Colecciones de bodas con graduación homogénea</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Formas fantasía raras y cortes particulares</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Piedras de inversión de gran valor (más de 5ct)</span></li></ul><p>Nuestra red de abastecimiento se activa para localizar, verificar, negociar y entregar de manera segura las piedras que corresponden a sus criterios en los plazos acordados.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Búsqueda de diamantes a medida",
         imagePosition: "right",
       },
@@ -881,7 +882,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Soluciones seguras de<br />envío internacional",
         description:
           "<p class='mb-4'>Entregamos todos nuestros diamantes con seguro total a través de transportistas de valores especializados dotados de protocolos de alta seguridad.</p><p class='mb-4'>Nuestros servicios logísticos incluyen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Embalajes sellados de seguridad (inviolables)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Seguro a todo riesgo a la altura del valor declarado</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Formalidades aduaneras y documentos de transporte</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Entrega exprés mundial (en 24-72 horas)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Seguimiento en tiempo real e interlocutor dedicado</span></li></ul><p>Nuestros socios son expertos en el transporte de mercancías de gran valor, garantizando una entrega impecable de su pedido.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Envío internacional",
         imagePosition: "right",
       },
@@ -890,7 +891,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Estrategia de precios competitivos<br />basada en el mercado mundial",
         description:
           "<p class='mb-4'>El mercado del diamante es dinámico e influenciado por la producción de las minas, la demanda en Asia/EE. UU. y los índices de precios como Rapaport e IDEX.</p><p class='mb-4'>Seguimos continuamente:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluctuaciones en el mercado de mayoristas y tendencias de los cursos</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Disponibilidad en la cadena de suministro y niveles de stock</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tendencias de demanda regional (Europa, América, Asia)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Evolución de los tipos de cambio (USD/EUR/INR)</span></li></ul><p>Gracias a esta investigación de mercado continua, podemos ofrecer a nuestros clientes B2B tarifas de mayoristas justas y alineadas con la realidad del mercado.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Estrategia de precios",
         imagePosition: "left",
       },
@@ -940,7 +941,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Fornitore di Diamanti B2B<br />Premium in Belgio",
         description:
           "<p class='mb-4'>Dalila Diamonds è un fornitore premium di diamanti B2B con sede ad Anversa, in Belgio — il cuore storico e riconosciuto a livello mondiale del commercio internazionale di diamanti.</p><p class='mb-4'>Siamo specializzati nella fornitura di diamanti naturali certificati a gioiellieri, produttori, grossisti, dettaglianti di lusso e acquirenti di investimenti in tutto il mondo.</p><p class='mb-4'>La nostra attività si basa sulla fiducia, sulla trasparenza, sull'approvvigionamento di precisione e su partnership strategiche a lungo termine. Ogni diamante che consegniamo rappresenta non solo brillantezza e rarità, ma anche affidabilità e integrità professionale.</p><p>Con decenni di esperienza familiare e una rete di approvvigionamento globale, garantiamo qualità costante, prezzi competitivi e logistica internazionale sicura.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/looseround.webp",
+        imageSrc: s3Asset("/b2b/looseround.webp"),
         imageAlt: "Dalila Diamonds Anversa",
         imagePosition: "right",
       },
@@ -949,7 +950,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Partner di Approvvigionamento Strategico<br />per Acquirenti Professionali",
         description:
           "<p class='mb-4'>Dalila Diamonds è stata fondata con una missione chiara: semplificare l'approvvigionamento di diamanti per gli acquirenti B2B professionali.</p><p class='mb-4'>Sappiamo che nel settore dei diamanti, l'affidabilità e la costanza sono fondamentali. I programmi di produzione, la pianificazione delle scorte e le aspettative dei clienti dipendono da una classificazione rigorosa, tariffe competitive e una fornitura sicura.</p><p class='mb-4'>Operare da Anversa ci dà accesso diretto a uno dei più grandi inventari di diamanti lucidati al mondo e alle borse di diamanti consolidate. Questo ci consente di collaborare a stretto contatto con produttori e fornitori primari, garantendo migliori strutture di prezzo e accesso prioritario ad articoli di prima qualità.</p><p>Non siamo una società commerciale di transazioni — siamo un partner di approvvigionamento strategico impegnato a sostenere la vostra crescita a lungo tempo.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/business-partnership.jpg",
+        imageSrc: s3Asset("/b2b/business-partnership.jpg"),
         imageAlt: "Soluzioni di approvvigionamento di diamanti",
         imagePosition: "left",
       },
@@ -980,7 +981,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Norme internazionali di<br />certificazione di laboratorio",
         description:
           "<p class='mb-4'>Forniamo diamanti certificati dai laboratori gemmologici internazionali leader, tra cui il GIA, l'IGI, l'HRD e l'AGS.</p><p class='mb-4'>La certificazione garantisce la verifica indipendente di:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Il peso in carati</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Il grado di colore</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Il grado di purezza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>La qualità del taglio e le proporzioni</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>La lucidatura e la simmetria</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>I livelli di fluorescenza</span></li></ul><p class='mb-4'>Questo garantisce la trasparenza, la coerenza e la fiducia lungo tutta la vostra catena di fornitura.</p><p>Offriamo diamanti adatti sia alla produzione commerciale sia ai mercati del lusso di fascia alta, tutti dotati di rapporti di valutazione riconosciuti a livello internazionale.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamant-certificat-GIA.webp",
+        imageSrc: s3Asset("/b2b/diamant-certificat-GIA.webp"),
         imageAlt: "Diamanti certificati",
         imagePosition: "left",
       },
@@ -989,7 +990,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Gamma completa di diamanti<br />naturali certificati",
         description:
           "<p class='mb-4'>Dalila Diamonds fornisce diamanti naturali lucidati di tutte le forme principali, tra cui brillante rotondo, princess, cushion, smeraldo, ovale, pera, radiant, marquise, asscher e cuore.</p><p class='mb-4'>Disponibile in tutti gli spettri di qualità:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Articoli commerciali (purezza SI–I, colore H–K)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanti con taglio Triple Excellent</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanti senza fluorescenza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Pietre incolori di qualità superiore (D–F)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanti di alta purezza (IF–VVS)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Grandi solitari certificati (da 2ct a 10ct+)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanti di qualità investimento</span></li></ul><p>Forniamo anche lotti di melee calibrati e layout abbinati con precisione per la produzione di gioielli.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamond-slp-cover-mobile.webp",
+        imageSrc: s3Asset("/b2b/diamond-slp-cover-mobile.webp"),
         imageAlt: "Collezione di diamanti",
         imagePosition: "right",
       },
@@ -1014,7 +1015,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Soluzione strutturata di<br />approvvigionamento di diamanti",
         description:
           "<p class='mb-4'>Secure To Source (S2S) è la nostra soluzione principale di approvvigionamento B2B progettata per gioiellieri, grossisti e produttori che cercano affidabilità e una riduzione dei rischi.</p><p class='mb-4'>S2S offre:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Accesso diretto agli inventari di Anversa</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamanti certificati con documentazione completa</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tariffe all'ingrosso competitive</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Verifica completa del controllo di qualità</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Logistica internazionale assicurata</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Documentazione e fatturazione trasparenti</span></li></ul><p>Questo servizio è ideale per le aziende che necessitano di una fornitura costante, tariffe prevedibili e stabilità nella collaborazione a lungo termine.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/stos.jpg",
+        imageSrc: s3Asset("/b2b/stos.jpg"),
         imageAlt: "Processo di approvvigionamento sicuro",
         imagePosition: "left",
       },
@@ -1024,7 +1025,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Ricerca su misura per<br />requisiti specifici",
         description:
           "<p class='mb-4'>Diamond Source For You (DS4U) è il nostro programma di approvvigionamento completamente personalizzato per richieste di diamanti specifiche, rare o di grande valore che richiedono ricerche mirate.</p><p class='mb-4'>I nostri clienti richiedono:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Dimensioni e carati precisi</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Combinazioni rare di colore e purezza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Coppie combinate per orecchini o parure</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Collezioni da sposa con gradazione omogenea</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Forme fantasia rare e tagli particolari</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Pietre di investimento di grande valore (oltre 5ct)</span></li></ul><p>La nostra rete di approvvigionamento si attiva per localizzare, verificare, negoziare e consegnare in modo sicuro le pietre corrispondenti ai vostri criteri nei tempi concordati.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+        imageSrc: s3Asset("/b2b/close-up.jpg"),
         imageAlt: "Ricerca di diamanti su misura",
         imagePosition: "right",
       },
@@ -1063,7 +1064,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Soluzioni sicure di<br />consegna internazionale",
         description:
           "<p class='mb-4'>Consegniamo tutti i nostri diamanti con assicurazione totale tramite corrieri di valori specializzati dotati di protocolli di alta sicurezza.</p><p class='mb-4'>I nostri servizi logistici comprendono:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Imballaggi sigillati di sicurezza (inviolabili)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Assicurazione Kasko a altezza del valore dichiarato</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Formalità doganali e documenti di trasporto</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Consegna express mondiale (in 24-72 ore)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tracciamento in tempo reale e referente dedicato</span></li></ul><p>I nostri partner sono esperti nel trasporto di merci di grande valore, garantendo una consegna impeccabile del vostro ordine.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/flight.jpg",
+        imageSrc: s3Asset("/b2b/flight.jpg"),
         imageAlt: "Spedizione internazionale",
         imagePosition: "right",
       },
@@ -1072,7 +1073,7 @@ const contentByLocale: Record<string, B2bContent> = {
         heading: "Strategia di prezzi competitivi<br />basata sul mercato mondiale",
         description:
           "<p class='mb-4'>Il mercato dei diamanti è dinamico, influenzato dalla produzione delle miniere, dalla domanda in Asia/USA e dagli indici dei prezzi come Rapaport e IDEX.</p><p class='mb-4'>Seguiamo continuamente:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fluttuazioni nel mercato dei grossisti e tendenze dei listini</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Disponibilità nella catena di fornitura e livelli di magazzino</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Tendenze di domanda regionale (Europa, America, Asia)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Evoluzione dei tassi di cambio (USD/EUR/INR)</span></li></ul><p>Grazie a questa ricerca di mercato continua, possiamo offrire ai nostri clienti B2B tariffe all'ingrosso eque e direttamente allineate con la realtà del mercato.</p>",
-        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/diamondsourceforyou.jpg",
+        imageSrc: s3Asset("/b2b/diamondsourceforyou.jpg"),
         imageAlt: "Strategia dei prezzi",
         imagePosition: "left",
       },

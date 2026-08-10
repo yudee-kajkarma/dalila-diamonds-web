@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -31,7 +32,7 @@ export default function SeoPageBanner({ title, category, breadcrumb }: SeoPageBa
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt={title}
             fill
             className="object-cover"

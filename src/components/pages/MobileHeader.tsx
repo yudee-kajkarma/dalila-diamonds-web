@@ -8,6 +8,7 @@ import { useHeaderAuth } from "./headerHooks";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
 import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function MobileHeader() {
     const { locale, dictionary } = useLanguage();
@@ -59,7 +60,7 @@ export default function MobileHeader() {
                 >
                     <div className="relative h-8 w-16">
                         <Image
-                            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png"
+                            src={s3Asset("/dalila_img/mobile-logo.png")}
                             alt="Dalila Diamonds"
                             fill
                             style={{ objectFit: "contain" }}

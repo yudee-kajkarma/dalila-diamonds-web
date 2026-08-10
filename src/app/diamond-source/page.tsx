@@ -18,6 +18,7 @@ import {
   DS4U_PAGE_TITLE,
   getDs4uContent,
 } from "@/lib/i18n/ds4uTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 export const metadata: Metadata = {
   title: DS4U_PAGE_TITLE,
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+        url: s3Asset("/dalila_img/Dalila_Logo.png"),
       },
     ],
   },
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DS4U_PAGE_TITLE,
     description: DS4U_PAGE_DESCRIPTION,
-    images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
+    images: [s3Asset("/dalila_img/Dalila_Logo.png")],
   },
 };
 

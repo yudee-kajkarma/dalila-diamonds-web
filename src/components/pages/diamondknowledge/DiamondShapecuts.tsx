@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Marcellus } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -14,19 +15,19 @@ export default function DiamondShapeCuts() {
   const { dictionary } = useLanguage();
 
   const diamondCuts = [
-    { name: dictionary?.dk?.shapeRound || "Round Brilliant", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/round-diamond.png" },
-    { name: dictionary?.dk?.shapePrincess || "Princess Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/princess.png" },
-    { name: dictionary?.dk?.shapeCushion || "Cushion Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/cushion-diamond.png" },
-    { name: dictionary?.dk?.shapeRadiant || "Radiant Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/radian-diamond.png" },
-    { name: dictionary?.dk?.shapeAsscher || "Asscher Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/cushion-cut-diamond.png" },
-    { name: dictionary?.dk?.shapeHeart || "Heart Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/heart.png" },
-    { name: dictionary?.dk?.shapePear || "Pear Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/pear-diamond.png" },
+    { name: dictionary?.dk?.shapeRound || "Round Brilliant", image: s3Asset("/images/cut-shaps/round-diamond.png") },
+    { name: dictionary?.dk?.shapePrincess || "Princess Cut", image: s3Asset("/images/cut-shaps/princess.png") },
+    { name: dictionary?.dk?.shapeCushion || "Cushion Cut", image: s3Asset("/images/cut-shaps/cushion-diamond.png") },
+    { name: dictionary?.dk?.shapeRadiant || "Radiant Cut", image: s3Asset("/images/cut-shaps/radian-diamond.png") },
+    { name: dictionary?.dk?.shapeAsscher || "Asscher Cut", image: s3Asset("/images/cut-shaps/cushion-cut-diamond.png") },
+    { name: dictionary?.dk?.shapeHeart || "Heart Cut", image: s3Asset("/images/cut-shaps/heart.png") },
+    { name: dictionary?.dk?.shapePear || "Pear Cut", image: s3Asset("/images/cut-shaps/pear-diamond.png") },
     {
       name: dictionary?.dk?.shapeMarquise || "Marquise Cut",
-      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/marquise-cut-diamond.png",
+      image: s3Asset("/images/cut-shaps/marquise-cut-diamond.png"),
     },
-    { name: dictionary?.dk?.shapeOval || "Oval Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/oval-diamond.png" },
-    { name: dictionary?.dk?.shapeEmerald || "Emerald Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/emerald.png" },
+    { name: dictionary?.dk?.shapeOval || "Oval Cut", image: s3Asset("/images/cut-shaps/oval-diamond.png") },
+    { name: dictionary?.dk?.shapeEmerald || "Emerald Cut", image: s3Asset("/images/cut-shaps/emerald.png") },
   ];
 
   return (

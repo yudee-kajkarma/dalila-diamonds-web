@@ -1,6 +1,7 @@
 import { cache } from 'react';
 import { getBlogSlug } from '@/utils/helpers';
 import type { BlogLanguage } from '@/lib/blogLanguages';
+import { s3Asset } from "@/lib/s3Assets";
 
 export type BackendBlog = {
   _id?: string;
@@ -25,7 +26,7 @@ export const SITE_BASE_URL = 'https://www.daliladiamonds.com';
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || 'https://dalila-inventory-service-dev.caratlogic.com';
 export const DEFAULT_BLOG_IMAGE =
-  'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png';
+  s3Asset("/dalila_img/Dalila_Logo.png");
 export const DEFAULT_BLOG_DESCRIPTION =
   'Read our latest insights about diamonds and the diamond industry.';
 

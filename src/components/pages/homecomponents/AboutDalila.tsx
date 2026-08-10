@@ -4,6 +4,7 @@ import { Marcellus,Jost} from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 
 const marcellus = Marcellus({
@@ -35,7 +36,7 @@ export default function AboutDalila() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/About.jpg"
+                  src={s3Asset("/diamondcuts/About.jpg")}
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

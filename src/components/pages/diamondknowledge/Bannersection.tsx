@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -32,7 +33,7 @@ export default function DiamondBanner() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt="About Us Background"
             fill
             className="object-cover"

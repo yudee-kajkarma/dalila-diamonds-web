@@ -1,8 +1,12 @@
 import { Metadata } from "next";
 import BestDiamondColourClarityCombination from "@/components/pages/blogs/blog3/BestDiamondColourClarityCombination";
-import pageData from "@/data/blogs/blog3/en.json";
+import rawPageData from "@/data/blogs/blog3/en.json";
 import { LOCALES, DEFAULT_LOCALE, getLocalizedPath } from "@/lib/i18n/config";
 import { BLOG3_PATH } from "@/lib/i18n/getBlog3Data";
+import { withS3Assets } from "@/lib/s3Assets";
+
+// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
+const pageData = withS3Assets(rawPageData);
 
 const baseUrl = "https://www.daliladiamonds.com";
 

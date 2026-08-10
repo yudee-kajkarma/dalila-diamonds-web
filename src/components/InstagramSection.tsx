@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Marcellus} from "next/font/google";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -10,9 +11,9 @@ const marcellus = Marcellus({
   weight: "400",
 });
 const instaImages = [
-	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta1.jpg',
-	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta2.jpg',
-	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta3.jpg',
+	s3Asset("/insta/insta1.jpg"),
+	s3Asset("/insta/insta2.jpg"),
+	s3Asset("/insta/insta3.jpg"),
 ];
 
 const instaLink = 'https://www.instagram.com/p/DO56RDlDKde/';

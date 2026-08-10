@@ -4,6 +4,7 @@ import {
   SYD_PAGE_DESCRIPTION,
   getSydContent,
 } from "@/lib/i18n/sydTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function SydStructuredData() {
   const content = getSydContent();
@@ -19,7 +20,7 @@ export default function SydStructuredData() {
         url: "https://www.daliladiamonds.com/",
         logo: {
           "@type": "ImageObject",
-          url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+          url: s3Asset("/dalila_img/Dalila_Logo.png"),
         },
         email: "business@daliladiamonds.com",
         telephone: "+32 3 613 94 74",

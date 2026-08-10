@@ -7,6 +7,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { videoUrl } from "@/lib/videoAssets";
+import { s3Asset } from "@/lib/s3Assets";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -212,7 +213,7 @@ export default function OTPVerificationPage() {
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
                   <div className="relative w-[250px] md:w-[300px] h-[80px] md:h-[100px]">
                     <Image
-                      src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
+                      src={s3Asset("/dalila_img/Dalila_Logo.png")}
                       alt="Dalila Diamonds"
                       fill
                       className="object-contain"

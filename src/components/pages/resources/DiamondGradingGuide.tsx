@@ -6,6 +6,7 @@ import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { getGradingReportData, type GradingReportPageData } from "@/lib/i18n/getGradingReportData";
 import { getLocalizedPath, Locale } from "@/lib/i18n/config";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -68,7 +69,7 @@ function buildStructuredDataGraph(data: GradingReportPageData, locale: Locale) {
         inLanguage: locale,
         primaryImageOfPage: {
           "@type": "ImageObject",
-          url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+          url: s3Asset("/dalila_img/Dalila_Logo.png"),
         },
       },
       {
@@ -83,7 +84,7 @@ function buildStructuredDataGraph(data: GradingReportPageData, locale: Locale) {
         isPartOf: { "@id": webpageId },
         mainEntityOfPage: { "@id": webpageId },
         inLanguage: locale,
-        image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+        image: s3Asset("/dalila_img/Dalila_Logo.png"),
       },
       {
         "@type": "FAQPage",
@@ -376,7 +377,7 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
         >
           <div className="absolute inset-0">
             <Image
-              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+              src={s3Asset("/images/banner-dalila-contact.png")}
               alt={data.banner.title}
               fill
               className="object-cover"

@@ -12,6 +12,7 @@ import { getBlogSlug } from "@/utils/helpers";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 import { useLanguage } from "@/context/LanguageContext";
 import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Header() {
     const { locale, dictionary } = useLanguage();
@@ -282,7 +283,7 @@ export default function Header() {
                                 aria-label="Go to home page"
                             >
                                 <Image
-                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
+                                    src={s3Asset("/dalila_img/Dalila_Logo.png")}
                                     alt="Dalila Diamonds"
                                     fill
                                     style={{ objectFit: "contain" }}

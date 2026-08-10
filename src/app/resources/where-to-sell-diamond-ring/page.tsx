@@ -1,7 +1,10 @@
 import { Metadata } from "next";
 import WhereToSellDiamondRing from "@/components/pages/resources/WhereToSellDiamondRing";
-import pageData from "@/data/resources/where-to-sell-diamond-ring.json";
+import rawPageData from "@/data/resources/where-to-sell-diamond-ring.json";
+import { withS3Assets } from "@/lib/s3Assets";
 
+// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
+const pageData = withS3Assets(rawPageData);
 export const metadata: Metadata = {
   title: pageData.meta.title,
   description: pageData.meta.description,

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import type { Ds4uContent } from "@/lib/i18n/ds4uTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -27,7 +28,7 @@ export default function Ds4uBanner({ content }: Ds4uBannerProps) {
       >
         <div className="absolute inset-0">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt=""
             fill
             className="object-cover"

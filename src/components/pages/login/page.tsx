@@ -8,6 +8,7 @@ import { userApi, UNAUTHORIZED_EVENT } from "@/lib/api";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAuthText } from "@/lib/i18n/authTranslations";
 import { videoUrl } from "@/lib/videoAssets";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function LoginPage() {
     const { locale, dictionary } = useLanguage();
@@ -291,7 +292,7 @@ export default function LoginPage() {
                             <div className="flex items-center justify-center gap-3 mb-1">
                                 <div className="relative w-[250px] md:w-[300px] h-[80px] md:h-[100px]">
                                     <Image
-                                        src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
+                                        src={s3Asset("/dalila_img/Dalila_Logo.png")}
                                         alt="Dalila Diamonds"
                                         fill
                                         className="object-contain"

@@ -1,3 +1,5 @@
+import { s3Asset } from "@/lib/s3Assets";
+
 export interface SydFaqItem {
   question: string;
   answer: string;
@@ -136,7 +138,7 @@ const enContent: SydContent = {
       "A preliminary estimate is based on the information supplied online. A final offer can only be made after the diamond or jewellery has been physically examined and its details verified.",
     // Temporary asset until final WebP is supplied:
     // images/services/sell-your-diamond-antwerp.webp
-    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg",
+    imageSrc: s3Asset("/diamondcuts/sell-diamonds.jpg"),
     imageAlt: "Natural diamond and ring prepared for a private Antwerp evaluation",
     imageOverlay: "SELL YOUR DIAMOND IN ANTWERP",
   },
@@ -171,7 +173,7 @@ const enContent: SydContent = {
     title: "How selling your diamond works",
     // Temporary asset until final WebP is supplied:
     // sell-your-diamond-five-steps.webp
-    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/sell/diamondwork.png",
+    imageSrc: s3Asset("/sell/diamondwork.png"),
     imageAlt: "Five clear steps to sell your diamond through Dalila Diamonds",
     imageOverlay: "FIVE CLEAR STEPS",
     steps: [
@@ -223,7 +225,7 @@ const enContent: SydContent = {
     intro: ["A professional diamond evaluation considers more than carat weight."],
     // Temporary asset until final WebP is supplied:
     // sell-your-diamond-valuation-factors.webp
-    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/tray.jpg",
+    imageSrc: s3Asset("/selllSafe/tray.jpg"),
     imageAlt: "Factors that affect a diamond selling offer during professional evaluation",
     imageOverlay: "WHAT AFFECTS YOUR OFFER?",
     items: [
@@ -297,7 +299,7 @@ const enContent: SydContent = {
     ],
     // Temporary asset until final WebP is supplied:
     // sell-your-diamond-physical-examination.webp
-    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/sell/step_3.png",
+    imageSrc: s3Asset("/sell/step_3.png"),
     imageAlt: "Expert physical review of a natural diamond in Antwerp",
     imageOverlay: "EXPERT PHYSICAL REVIEW",
   },
@@ -336,7 +338,7 @@ const enContent: SydContent = {
     ],
     // Temporary asset until final WebP is supplied:
     // sell-your-diamond-appointment-collection.webp
-    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
+    imageSrc: s3Asset("/selllSafe/loose.jpg"),
     imageAlt: "Private Antwerp appointment or secure European diamond collection",
     imageOverlay: "VISIT OR REQUEST COLLECTION",
   },
@@ -433,6 +435,6 @@ export const SYD_CANONICAL_URL = "https://www.daliladiamonds.com/sell-your-diamo
 export const SYD_DATE_MODIFIED = "2026-08-06";
 
 export const SYD_HERO_IMAGE_URL =
-  "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg";
+  s3Asset("/diamondcuts/sell-diamonds.jpg");
 
 export const SYD_H1 = "Sell Your Diamond in Antwerp, Belgium";

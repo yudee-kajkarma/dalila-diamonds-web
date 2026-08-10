@@ -10,6 +10,7 @@ import {
   stripHtml,
   type BackendBlog,
 } from '@/lib/blogs';
+import { s3Asset } from "@/lib/s3Assets";
 import { toBlogLanguage } from '@/lib/blogLanguages';
 
 type Props = {
@@ -169,7 +170,7 @@ export default async function BlogDetailLayout({
           name: 'Dalila Diamonds',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png',
+            url: s3Asset("/dalila_img/Dalila_Logo.png"),
           },
         },
       }

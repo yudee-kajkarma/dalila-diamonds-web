@@ -1,6 +1,7 @@
 import DiamondGirdleGuide from "@/components/pages/resources/DiamondGirdleGuide";
 import { generateLocalizedMetadata } from "@/lib/i18n/generateLocalizedMetadata";
 import { Locale } from "@/lib/i18n/config";
+import { s3Asset } from "@/lib/s3Assets";
 
 export async function generateMetadata({ params }: { params?: Promise<{ locale?: string }> }) {
   const resolvedParams = await params;
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: { params?: Promise<{ locale?:
       card: "summary_large_image" as const,
       title: base.title,
       description: base.description,
-      images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
+      images: [s3Asset("/dalila_img/Dalila_Logo.png")],
     },
   };
 }

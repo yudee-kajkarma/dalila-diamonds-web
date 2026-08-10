@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import { s3Asset } from "@/lib/s3Assets";
 
 interface SearchBarProps {
   onSearch: (searchTerm: string) => void;
@@ -32,7 +33,7 @@ export default function SearchBar({
       <div className="flex items-center border border-gray-200 rounded-none overflow-hidden shadow-sm w-fit bg-white">
         <div className="flex items-center px-3 py-1.5 border-r border-gray-200 bg-gray-50 min-w-[32px] min-h-[32px] justify-center">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filtersearch.png"
+            src={s3Asset("/filtersicon/filtersearch.png")}
             alt="Search"
             width={16}
             height={16}

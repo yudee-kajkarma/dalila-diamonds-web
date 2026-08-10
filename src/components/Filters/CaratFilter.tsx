@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Maven_Pro } from "next/font/google";
+import { s3Asset } from "@/lib/s3Assets";
 
 const mavenPro = Maven_Pro({
     variable: "--font-maven-pro",
@@ -138,7 +139,7 @@ export default function CaratFilter({
                 style={{ backgroundColor: "#000033" }}
             >
                 <Image
-                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/carat.png"
+                    src={s3Asset("/filtersicon/carat.png")}
                     alt="Carat"
                     width={18}
                     height={18}
@@ -224,7 +225,7 @@ export default function CaratFilter({
             >
                 <div className="flex items-center gap-1.5">
                     <Image
-                        src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/carat.png"
+                        src={s3Asset("/filtersicon/carat.png")}
                         alt="Carat"
                         width={16}
                         height={16}

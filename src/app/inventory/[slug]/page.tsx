@@ -15,6 +15,7 @@ import {
   shortTitle,
   type PublicDiamond,
 } from "@/lib/diamonds";
+import { s3Asset } from "@/lib/s3Assets";
 import DiamondDetailPageClient from "./DiamondDetailPageClient";
 
 const marcellus = Marcellus({
@@ -111,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = metaDescription(diamond);
   const image =
     realImageUrl(diamond) ??
-    "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png";
+    s3Asset("/dalila_img/Dalila_Logo.png");
 
   return {
     title,

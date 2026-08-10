@@ -17,6 +17,7 @@ import {
   S2S_PAGE_DESCRIPTION,
   S2S_PAGE_TITLE,
 } from "@/lib/i18n/s2sTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 export const metadata: Metadata = {
   title: S2S_PAGE_TITLE,
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+        url: s3Asset("/dalila_img/Dalila_Logo.png"),
       },
     ],
   },
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: S2S_PAGE_TITLE,
     description: S2S_PAGE_DESCRIPTION,
-    images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
+    images: [s3Asset("/dalila_img/Dalila_Logo.png")],
   },
 };
 

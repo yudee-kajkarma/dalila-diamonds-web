@@ -14,6 +14,7 @@ import S2sStructuredData from "@/components/pages/securesource/S2sStructuredData
 import { generateLocalizedMetadata } from "@/lib/i18n/generateLocalizedMetadata";
 import { Locale } from "@/lib/i18n/config";
 import { getS2sContent } from "@/lib/i18n/s2sTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 export async function generateMetadata({
   params,
@@ -29,7 +30,7 @@ export async function generateMetadata({
       card: "summary_large_image" as const,
       title: base.title,
       description: base.description,
-      images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
+      images: [s3Asset("/dalila_img/Dalila_Logo.png")],
     },
   };
 }

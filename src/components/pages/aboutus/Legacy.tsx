@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -78,7 +79,7 @@ export default function Legacy() {
           <AnimatedContainer direction="right">
             <div className="relative overflow-hidden shadow-2xl h-[450px] sm:h-[500px] md:h-[500px] lg:h-[550px]">
               <Image
-                src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/asscher-blue.jpg"
+                src={s3Asset("/images/asscher-blue.jpg")}
                 alt="About Us Background"
                 width={800}
                 height={550}

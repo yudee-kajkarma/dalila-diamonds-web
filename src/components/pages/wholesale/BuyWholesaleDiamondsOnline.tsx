@@ -9,6 +9,7 @@ import {
   type WholesaleLooseDiamondsPageData,
   WHOLESALE_LOOSE_PATH,
 } from "@/lib/i18n/getWholesaleLooseDiamondsData";
+import { s3Asset } from "@/lib/s3Assets";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 
 const marcellus = Marcellus({
@@ -409,7 +410,7 @@ export default function BuyWholesaleDiamondsOnline({
         >
           <div className="absolute inset-0">
             <Image
-              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+              src={s3Asset("/images/banner-dalila-contact.png")}
               alt={data.banner.imageAlt}
               fill
               className="object-cover"

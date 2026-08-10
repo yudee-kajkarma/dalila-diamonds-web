@@ -11,6 +11,7 @@ import {
   getDiamondValuationCalculatorData,
   type DiamondValuationCalculatorPageData,
 } from "@/lib/i18n/getDiamondValuationCalculatorData";
+import { s3Asset } from "@/lib/s3Assets";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 
 const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
@@ -432,7 +433,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
       <div className="relative bg-slate-900">
         <section className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden" aria-label="Page banner">
           <div className="absolute inset-0">
-            <Image src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png" alt={data.banner.imageAlt} fill className="object-cover" priority />
+            <Image src={s3Asset("/images/banner-dalila-contact.png")} alt={data.banner.imageAlt} fill className="object-cover" priority />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
           <div className="container mx-auto px-4 relative z-10 text-center py-8">

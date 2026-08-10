@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import { getLocalizedPath, Locale } from "@/lib/i18n/config";
 import type { S2sContent } from "@/lib/i18n/s2sTranslations";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -31,7 +32,7 @@ export default function S2sBanner({ content, locale = "en" }: S2sBannerProps) {
       >
         <div className="absolute inset-0">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt=""
             fill
             className="object-cover"

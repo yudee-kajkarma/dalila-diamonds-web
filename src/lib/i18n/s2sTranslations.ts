@@ -1,3 +1,5 @@
+import { s3Asset } from "@/lib/s3Assets";
+
 export interface S2sFaqItem {
   question: string;
   answer: string;
@@ -157,7 +159,7 @@ const enContent: S2sContent = {
       ],
       buttonText: "Submit a Shortlisted Diamond",
       buttonHref: "/contact",
-      imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/Browse_online_platforms.jpg",
+      imageSrc: s3Asset("/secure_to_source/Browse_online_platforms.jpg"),
       imageAlt: "Buyer browsing loose natural diamonds on an online platform",
       imagePosition: "left",
     },
@@ -172,7 +174,7 @@ const enContent: S2sContent = {
       ],
       note:
         "Quality control is based on the independent grading report and listing information you provide. Dalila Diamonds does not replace laboratory certification — we help you assess whether the shortlisted stone aligns with the report and your requirements before you commit.",
-      imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/close-up.jpg",
+      imageSrc: s3Asset("/secure_to_source/close-up.jpg"),
       imageAlt: "Diamond being examined during quality control",
       imagePosition: "right",
     },
@@ -189,7 +191,7 @@ const enContent: S2sContent = {
       ],
       buttonText: "Request S2S Assistance",
       buttonHref: "/contact",
-      imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/flight.jpg",
+      imageSrc: s3Asset("/secure_to_source/flight.jpg"),
       imageAlt: "Secure international diamond shipment",
       imagePosition: "left",
     },

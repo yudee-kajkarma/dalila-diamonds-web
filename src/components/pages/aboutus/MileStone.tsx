@@ -4,6 +4,7 @@ import { Gem } from "lucide-react";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -38,7 +39,7 @@ export default function AboutMilestone() {
             <AnimatedContainer direction="left" delay={0.5}>
               <div className="relative h-[350px] md:h-[390px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/about_us_3.png"
+                  src={s3Asset("/images/about_us_3.png")}
                   alt="Diamond on display"
                   width={480}
                   height={390}

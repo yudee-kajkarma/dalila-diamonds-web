@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Maven_Pro } from "next/font/google";
+import { s3Asset } from "@/lib/s3Assets";
 
 const mavenPro = Maven_Pro({
   variable: "--font-maven-pro",
@@ -44,7 +45,7 @@ export default function FluorFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/flour.png"
+          src={s3Asset("/filtersicon/flour.png")}
           alt="Fluor"
           width={18}
           height={18}

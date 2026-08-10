@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Footer() {
     const { locale, dictionary } = useLanguage();
@@ -60,7 +61,7 @@ export default function Footer() {
                             {/* Logo and Instagram */}
                             <div className="flex flex-col items-center justify-center">
                                 <Image
-                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png"
+                                    src={s3Asset("/dalila_img/mobile-logo.png")}
                                     alt="Dalila Diamonds Mobile Logo"
                                     width={120}
                                     height={48}
@@ -155,7 +156,7 @@ export default function Footer() {
                             <div>
                                 <div className="mb-6">
                                     <Image
-                                        src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
+                                        src={s3Asset("/dalila_img/Dalila_Logo.png")}
                                         alt="Dalila Diamonds Logo"
                                         width={160}
                                         height={64}

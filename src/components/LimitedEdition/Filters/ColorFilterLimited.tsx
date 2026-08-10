@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Maven_Pro } from "next/font/google";
 import { Save } from "lucide-react";
+import { s3Asset } from "@/lib/s3Assets";
 
 const mavenPro = Maven_Pro({
   variable: "--font-maven-pro",
@@ -68,7 +69,7 @@ export default function ColorFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/color.png"
+          src={s3Asset("/filtersicon/color.png")}
           alt="Color"
           width={18}
           height={18}

@@ -5,6 +5,7 @@ import Script from "next/script";
 import "./globals.css";
 import HeaderFooterWrapper from "@/components/HeaderFooterWrapper";
 import { Toaster } from "react-hot-toast";
+import { s3Asset } from "@/lib/s3Assets";
 
 const playfair = Playfair_Display({
     variable: "--font-playfair",
@@ -53,7 +54,7 @@ export default function RootLayout({
                             name: "Daliladiamonds",
                             alternateName: "Dalila diamonds",
                             url: "https://www.daliladiamonds.com/",
-                            logo: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
+                            logo: s3Asset("/dalila_img/Dalila_Logo.png"),
                             sameAs: "https://www.instagram.com/p/DO56RDlDKde/",
                         }),
                     }}

@@ -5,6 +5,7 @@ import GoldButton from "@/components/ui/Button";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -46,7 +47,7 @@ export default function Aboutshowcase() {
               <div>
                 <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                   <Image
-                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/Heritage.jpg"
+                    src={s3Asset("/images/Heritage.jpg")}
                     alt="Professional diamond dealer"
                     width={480}
                     height={340}
@@ -86,7 +87,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamondwork.png"
+                  src={s3Asset("/images/diamondwork.png")}
                   alt="Diamond examination with tweezers"
                   width={480}
                   height={340}
@@ -125,7 +126,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out" delay={0.5}>
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg"
+                  src={s3Asset("/diamondcuts/sell-diamonds.jpg")}
                   alt="Professional diamond dealer"
                   width={480}
                   height={340}

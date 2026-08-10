@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
-import data from "@/data/resources/diamond-quality-chart.json";
+import rawData from "@/data/resources/diamond-quality-chart.json";
+import { withS3Assets } from "@/lib/s3Assets";
 
+// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
+const data = withS3Assets(rawData);
 export async function GET() {
   const table = data.completeChart.table;
   const rowsHtml = table.rows

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -31,7 +32,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/tray.jpg"
+                  src={s3Asset("/secure_to_source/tray.jpg")}
                   alt="Professional diamond dealer"
                   fill
                   className="object-cover"
@@ -84,7 +85,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg"
+                  src={s3Asset("/diamonds_source/We_Search_Our_Worldwide_Network.jpg")}
                   alt="Diamond examination with tweezers"
                   fill
                   className="object-cover"
@@ -122,7 +123,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out" delay={0.5}>
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg"
+                  src={s3Asset("/diamonds_source/handshake.jpg")}
                   alt="Professional diamond dealer"
                   fill
                   className="object-cover"

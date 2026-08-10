@@ -1,8 +1,12 @@
 import { Metadata } from "next";
 import NaturalRoughDiamonds from "@/components/pages/diamonds/NaturalRoughDiamonds";
-import pageData from "@/data/diamonds/page10/en.json";
+import rawPageData from "@/data/diamonds/page10/en.json";
 import { LOCALES, DEFAULT_LOCALE, getLocalizedPath } from "@/lib/i18n/config";
 import { NATURAL_ROUGH_PATH } from "@/lib/i18n/getNaturalRoughDiamondsData";
+import { withS3Assets } from "@/lib/s3Assets";
+
+// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
+const pageData = withS3Assets(rawPageData);
 
 const baseUrl = "https://www.daliladiamonds.com";
 

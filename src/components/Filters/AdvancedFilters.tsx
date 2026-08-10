@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
+import { s3Asset } from "@/lib/s3Assets";
 
 interface AdvancedFiltersProps {
   onFiltersChange?: (filters: FilterState) => void;
@@ -97,7 +98,7 @@ export default function AdvancedFilters({
           className="flex items-center gap-2 px-4 py-1.5 bg-[#000033] text-white text-sm font-medium rounded shadow-sm"
         >
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-add.png"
+            src={s3Asset("/filtersicon/filter-add.png")}
             alt="Filter Icon"
             width={16}
             height={16}
@@ -115,7 +116,7 @@ export default function AdvancedFilters({
           className="flex items-center gap-2 px-4 py-1.5 bg-white text-[#D4A574] text-sm font-medium rounded-none shadow-sm border border-[#D4A574]"
         >
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-remove.png"
+            src={s3Asset("/filtersicon/filter-remove.png")}
             alt="Reset Icon"
             width={16}
             height={16}

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Marcellus } from "next/font/google";
 
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -14,17 +15,17 @@ export default function CertifiedBy() {
   const certifications = [
     {
       name: "IGI",
-      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_1.png",
+      image: s3Asset("/dalila_img/client/client_1.png"),
       size: { width: 180, height: 100 },
     },
     {
       name: "GIA",
-      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_2.png",
+      image: s3Asset("/dalila_img/client/client_2.png"),
       size: { width: 150, height: 85 },
     },
     {
       name: "HRD",
-      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_3.png",
+      image: s3Asset("/dalila_img/client/client_3.png"),
       size: { width: 260, height: 140 },
     },
   ];

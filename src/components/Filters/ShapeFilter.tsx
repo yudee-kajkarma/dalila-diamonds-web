@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Maven_Pro } from "next/font/google";
+import { s3Asset } from "@/lib/s3Assets";
 
 const mavenPro = Maven_Pro({
   variable: "--font-maven-pro",
@@ -11,26 +12,26 @@ const mavenPro = Maven_Pro({
 });
 
 const STATIC_SHAPE_OPTIONS = [
-  { value: "ROUND", label: "Round", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/round.png" },
-  { value: "RADIANT", label: "Radiant", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/radiant.png" },
-  { value: "PEAR", label: "Pear", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/pear.png" },
-  { value: "SQUARE", label: "Square", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/square.png" },
-  { value: "EMERALD", label: "Emerald", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/emerald.png" },
-  { value: "OVAL", label: "Oval", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/oval.png" },
-  { value: "CUSHION", label: "Cushion", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/cushion.png" },
+  { value: "ROUND", label: "Round", image: s3Asset("/shapefilter/round.png") },
+  { value: "RADIANT", label: "Radiant", image: s3Asset("/shapefilter/radiant.png") },
+  { value: "PEAR", label: "Pear", image: s3Asset("/shapefilter/pear.png") },
+  { value: "SQUARE", label: "Square", image: s3Asset("/shapefilter/square.png") },
+  { value: "EMERALD", label: "Emerald", image: s3Asset("/shapefilter/emerald.png") },
+  { value: "OVAL", label: "Oval", image: s3Asset("/shapefilter/oval.png") },
+  { value: "CUSHION", label: "Cushion", image: s3Asset("/shapefilter/cushion.png") },
   {
     value: "TRILLIANT",
     label: "Trilliant",
-    image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/trilliant.png",
+    image: s3Asset("/shapefilter/trilliant.png"),
   },
-  { value: "HEART", label: "Heart", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/Heart.png" },
+  { value: "HEART", label: "Heart", image: s3Asset("/shapefilter/Heart.png") },
   {
     value: "PRINCESS",
     label: "Princess",
-    image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/princess.png",
+    image: s3Asset("/shapefilter/princess.png"),
   },
-  { value: "MARQUISE", label: "Marquise", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/marque.png" },
-  { value: "OTHER", label: "Other", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/others.png" },
+  { value: "MARQUISE", label: "Marquise", image: s3Asset("/shapefilter/marque.png") },
+  { value: "OTHER", label: "Other", image: s3Asset("/shapefilter/others.png") },
 ];
 
 interface ShapeFilterProps {
@@ -74,7 +75,7 @@ export default function ShapeFilter({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/shape.png"
+          src={s3Asset("/filtersicon/shape.png")}
           alt="Shape"
           width={18}
           height={18}
@@ -160,7 +161,7 @@ export default function ShapeFilter({
       >
         <div className="flex items-center gap-1.5">
           <Image
-            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/shape.png"
+            src={s3Asset("/filtersicon/shape.png")}
             alt="Shape"
             width={16}
             height={16}

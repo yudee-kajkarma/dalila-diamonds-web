@@ -8,6 +8,7 @@ import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsC
 import { getBlog6Data, type Blog6PageData, BLOG6_PATH } from "@/lib/i18n/getBlog6Data";
 import { getStaticBlogCards } from "@/lib/staticBlogs";
 import { getLocalizedPath, Locale } from "@/lib/i18n/config";
+import { s3Asset } from "@/lib/s3Assets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -395,7 +396,7 @@ export default function DiamondBowTieEffect({
         >
           <div className="absolute inset-0">
             <Image
-              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
+              src={s3Asset("/images/banner-dalila-contact.png")}
               alt={data.banner.imageAlt}
               fill
               className="object-cover"

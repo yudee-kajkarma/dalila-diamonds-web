@@ -5,6 +5,7 @@ import fr from "@/data/resources/sell-diamond-without-certificate.fr.json";
 import it from "@/data/resources/sell-diamond-without-certificate.it.json";
 import nl from "@/data/resources/sell-diamond-without-certificate.nl.json";
 import es from "@/data/resources/sell-diamond-without-certificate.es.json";
+import { withS3Assets } from "@/lib/s3Assets";
 
 export type SellDiamondWithoutCertificatePageData = typeof en;
 
@@ -17,6 +18,9 @@ const byLocale: Record<Locale, SellDiamondWithoutCertificatePageData> = {
   es,
 };
 
+// Static JSON holds absolute S3 URLs; rebase them onto NEXT_PUBLIC_S3_BASE_URL once.
+const localized = withS3Assets(byLocale);
+
 export function getSellDiamondWithoutCertificateData(locale: Locale = "en"): SellDiamondWithoutCertificatePageData {
-  return byLocale[locale] ?? en;
+  return localized[locale] ?? localized.en;
 }

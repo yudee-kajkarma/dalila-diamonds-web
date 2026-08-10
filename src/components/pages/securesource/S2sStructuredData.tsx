@@ -1,3 +1,5 @@
+import { s3Asset } from "@/lib/s3Assets";
+
 const s2sStructuredDataGraph = {
   "@context": "https://schema.org",
   "@graph": [
@@ -10,8 +12,8 @@ const s2sStructuredDataGraph = {
       logo: {
         "@type": "ImageObject",
         "@id": "https://www.daliladiamonds.com/#logo",
-        url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png",
-        contentUrl: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png",
+        url: s3Asset("/dalila_img/mobile-logo.png"),
+        contentUrl: s3Asset("/dalila_img/mobile-logo.png"),
       },
       description:
         "Dalila Diamonds is an Antwerp-based natural diamond company providing secure diamond sourcing, customised diamond sourcing, quality control and professional diamond purchasing services.",
