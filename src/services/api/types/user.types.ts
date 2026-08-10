@@ -110,7 +110,9 @@ export interface Blog {
   customSlug?: string;
   /** Blog content language; missing/legacy blogs are treated as English. */
   language?: "en" | "de" | "fr" | "it" | "es" | "nl";
-  featuredImage?: string; 
+  /** Links this article's language versions; absent on pre-grouping blogs. */
+  translationGroupId?: string;
+  featuredImage?: string;
   description: string; 
   content?: string; 
   metaTitle?: string; 

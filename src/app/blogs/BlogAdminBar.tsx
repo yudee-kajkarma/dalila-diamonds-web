@@ -36,6 +36,8 @@ export default function BlogAdminBar() {
       const payload = {
         ...values,
         customSlug: getBlogBaseSlug(values.customSlug) || values.customSlug,
+        // Omit when empty so the backend starts a new translation group.
+        translationGroupId: values.translationGroupId || undefined,
         description: values.content,
       };
 
@@ -45,7 +47,10 @@ export default function BlogAdminBar() {
           alert(`${values.language.toUpperCase()} version updated successfully.`);
           await refreshBlogs();
           router.refresh();
-          return { blogId: response.data?._id || meta.blogId };
+          return {
+            blogId: response.data?._id || meta.blogId,
+            translationGroupId: response.data?.translationGroupId,
+          };
         }
         alert("Failed to update blog. Please try again.");
         return { blogId: meta.blogId };
@@ -58,7 +63,10 @@ export default function BlogAdminBar() {
         );
         await refreshBlogs();
         router.refresh();
-        return { blogId: response.data?._id || null };
+        return {
+          blogId: response.data?._id || null,
+          translationGroupId: response.data?.translationGroupId,
+        };
       }
       alert("Failed to create blog. Please try again.");
       return { blogId: null };

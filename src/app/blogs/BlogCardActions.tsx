@@ -25,6 +25,7 @@ type Props = {
     h2Subtitle?: string;
     customSlug?: string;
     language?: string;
+    translationGroupId?: string;
     featuredImage?: string;
     content?: string;
     description?: string;
@@ -54,6 +55,7 @@ export default function BlogCardActions({ blog }: Props) {
       h2Subtitle: source.h2Subtitle || "",
       customSlug: buildLocalizedBlogSlug(language, getBlogBaseSlug(source.customSlug)),
       language,
+      translationGroupId: source.translationGroupId || "",
       featuredImage: source.featuredImage || "",
       content: source.content || source.description || "",
       metaTitle: source.metaTitle || "",
@@ -87,6 +89,8 @@ export default function BlogCardActions({ blog }: Props) {
         ...values,
         // Backend stores base for EN and `{lang}/{base}` for others.
         customSlug: getBlogBaseSlug(values.customSlug) || values.customSlug,
+        // Omit when empty so the backend starts a new translation group.
+        translationGroupId: values.translationGroupId || undefined,
         description: values.content,
       };
 
@@ -96,7 +100,10 @@ export default function BlogCardActions({ blog }: Props) {
           alert(`${values.language.toUpperCase()} version updated successfully.`);
           await refreshBlogs();
           router.refresh();
-          return { blogId: response.data?._id || meta.blogId };
+          return {
+            blogId: response.data?._id || meta.blogId,
+            translationGroupId: response.data?.translationGroupId,
+          };
         }
         alert("Failed to update blog. Please try again.");
         return { blogId: meta.blogId };
@@ -109,7 +116,10 @@ export default function BlogCardActions({ blog }: Props) {
         );
         await refreshBlogs();
         router.refresh();
-        return { blogId: response.data?._id || null };
+        return {
+          blogId: response.data?._id || null,
+          translationGroupId: response.data?.translationGroupId,
+        };
       }
       alert("Failed to create language version. Please try again.");
       return { blogId: null };

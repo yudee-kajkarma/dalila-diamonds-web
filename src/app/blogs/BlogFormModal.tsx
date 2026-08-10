@@ -34,6 +34,8 @@ export type BlogFormValues = {
   h2Subtitle: string;
   customSlug: string;
   language: BlogLanguage;
+  /** Links this article's language versions; empty until the first save. */
+  translationGroupId: string;
   featuredImage: string;
   content: string;
   metaTitle: string;
@@ -45,6 +47,7 @@ export const EMPTY_BLOG_FORM: BlogFormValues = {
   h2Subtitle: "",
   customSlug: "",
   language: "en",
+  translationGroupId: "",
   featuredImage: "",
   content: "",
   metaTitle: "",
@@ -53,6 +56,8 @@ export const EMPTY_BLOG_FORM: BlogFormValues = {
 
 export type BlogFormSubmitResult = {
   blogId?: string | null;
+  /** Returned by the API on save; later languages join this group. */
+  translationGroupId?: string | null;
 };
 
 type Props = {
@@ -78,6 +83,7 @@ function blogToFormValues(source: {
   h2Subtitle?: string;
   customSlug?: string;
   language?: string;
+  translationGroupId?: string;
   featuredImage?: string;
   content?: string;
   description?: string;
@@ -95,6 +101,7 @@ function blogToFormValues(source: {
     h2Subtitle: source.h2Subtitle || "",
     customSlug: buildLocalizedBlogSlug(language, baseSlug),
     language,
+    translationGroupId: source.translationGroupId || "",
     featuredImage: source.featuredImage || "",
     content: source.content || source.description || "",
     metaTitle: source.metaTitle || "",
@@ -110,12 +117,14 @@ function blankLanguageDraft(
   language: BlogLanguage,
   baseSlug: string,
   featuredImage: string,
+  translationGroupId: string,
 ): BlogFormValues {
   return {
     title: "",
     h2Subtitle: "",
     customSlug: buildLocalizedBlogSlug(language, baseSlug),
     language,
+    translationGroupId,
     featuredImage,
     content: "",
     metaTitle: "",
@@ -190,6 +199,9 @@ export default function BlogFormModal({
     setDraftIds(nextDraftIds);
 
     const sharedBaseSlug = resolveBaseSlug(form.customSlug, form.title);
+    // The group is what ties the language versions together once the article
+    // has been saved once — it survives a translation using its own slug.
+    const groupId = form.translationGroupId;
 
     // Prefer in-memory draft for this language (already loaded / typed this session).
     const cached = nextDrafts[nextLanguage];
@@ -197,6 +209,7 @@ export default function BlogFormModal({
       const withLocalizedSlug = {
         ...cached,
         language: nextLanguage,
+        translationGroupId: cached.translationGroupId || groupId,
         customSlug: buildLocalizedBlogSlug(
           nextLanguage,
           resolveBaseSlug(cached.customSlug, cached.title) || sharedBaseSlug,
@@ -212,13 +225,14 @@ export default function BlogFormModal({
       return;
     }
 
-    // Load existing translation from API when we have a base slug.
-    if (sharedBaseSlug) {
+    // Load existing translation from API when we can identify the article.
+    if (sharedBaseSlug || groupId) {
       try {
         setIsSwitchingLanguage(true);
         const response = await blogApi.getByBaseSlugAndLanguage(
           sharedBaseSlug,
           nextLanguage,
+          groupId,
         );
         if (response?.data) {
           const loaded = blogToFormValues(response.data);
@@ -239,8 +253,13 @@ export default function BlogFormModal({
       }
     }
 
-    // No translation yet — keep slug/image, clear text fields for fresh content.
-    const blank = blankLanguageDraft(nextLanguage, sharedBaseSlug, form.featuredImage);
+    // No translation yet — keep slug/image/group, clear text for fresh content.
+    const blank = blankLanguageDraft(
+      nextLanguage,
+      sharedBaseSlug,
+      form.featuredImage,
+      groupId,
+    );
     setForm(blank);
     setActiveBlogId(null);
     setDrafts((prev) => ({ ...prev, [nextLanguage]: blank }));
@@ -306,7 +325,16 @@ export default function BlogFormModal({
         setActiveBlogId(savedId);
         setDraftIds((prev) => ({ ...prev, [normalizedForm.language]: savedId }));
       }
-      setDrafts((prev) => ({ ...prev, [normalizedForm.language]: normalizedForm }));
+
+      // Carry the group id forward so the next language joins this article
+      // instead of starting a new one.
+      const savedForm: BlogFormValues = {
+        ...normalizedForm,
+        translationGroupId:
+          result?.translationGroupId || normalizedForm.translationGroupId,
+      };
+      setForm(savedForm);
+      setDrafts((prev) => ({ ...prev, [savedForm.language]: savedForm }));
       setLanguageHint(
         wasUpdate
           ? `${normalizedForm.language.toUpperCase()} version updated. Switch language to edit another version.`

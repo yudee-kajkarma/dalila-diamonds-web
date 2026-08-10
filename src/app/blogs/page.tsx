@@ -116,6 +116,7 @@ export default async function BlogsPage({ searchParams }: Props) {
                             h2Subtitle: item.blog.h2Subtitle,
                             customSlug: item.blog.customSlug,
                             language: item.blog.language,
+                            translationGroupId: item.blog.translationGroupId,
                             featuredImage: item.blog.featuredImage,
                             content: item.blog.content,
                             description: item.blog.description,

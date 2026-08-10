@@ -51,10 +51,13 @@ export const getBlogById = async (blogId: string): Promise<BlogResponse | null> 
   }
 };
 
-// Admin: Get a language version by base slug (no language prefix in baseSlug)
+// Admin: Get a language version of an article.
+// Prefers translationGroupId (survives a translation having its own localized
+// slug); falls back to baseSlug for blogs created before groups existed.
 export const getBlogByBaseSlugAndLanguage = async (
   baseSlug: string,
   language: string,
+  translationGroupId?: string,
 ): Promise<BlogResponse | null> => {
   try {
     const token = getAuthToken();
@@ -66,6 +69,9 @@ export const getBlogByBaseSlugAndLanguage = async (
       baseSlug,
       language,
     });
+    if (translationGroupId) {
+      queryParams.append("translationGroupId", translationGroupId);
+    }
     const response = await apiClient.get<BlogResponse>(
       `/api/admin/blogs/by-slug?${queryParams.toString()}`,
     );
@@ -88,10 +94,11 @@ export const getBlogByBaseSlugAndLanguage = async (
 
 // Admin: Create new blog
 export const createBlog = async (data: {
-  title: string; 
-  h2Subtitle?: string; 
+  title: string;
+  h2Subtitle?: string;
   customSlug?: string;
   language?: string;
+  translationGroupId?: string;
   featuredImage?: string; 
   description?: string; 
   content?: string; 
