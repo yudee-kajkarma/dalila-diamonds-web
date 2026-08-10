@@ -1,8 +1,14 @@
 /**
- * Re-encode public marketing videos for web delivery (H.264 + faststart).
+ * Re-encode marketing videos for web delivery (H.264 + faststart).
  * Requires ffmpeg-static (devDependency).
  *
- * Usage: node scripts/optimize-videos.mjs
+ * The .mp4 sources are not committed (see .gitignore). Stage them in
+ * .video-staging/ first — they can be recovered from git history:
+ *   git show ef81b2a~1:public/images/FALLING_diam.mp4 > .video-staging/FALLING_diam.mp4
+ *
+ * Usage:
+ *   npm run optimize:videos     # .video-staging/*.mp4 -> .video-staging/optimized/
+ *   npm run upload:videos       # publish optimized/ to S3
  */
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
@@ -15,90 +21,93 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const ffmpegPath = require("ffmpeg-static");
 
+const SOURCE_DIR = path.join(root, ".video-staging");
+const OUTPUT_DIR = path.join(SOURCE_DIR, "optimized");
+
 if (!ffmpegPath || !fs.existsSync(ffmpegPath)) {
   console.error("ffmpeg-static binary not found. Run: npm install");
   process.exit(1);
 }
 
+if (!fs.existsSync(SOURCE_DIR)) {
+  console.error(`No source directory: ${SOURCE_DIR}`);
+  console.error("Stage the .mp4 files there first (see header comment).");
+  process.exit(1);
+}
+
+// maxHeight is a ceiling, never an upscale — a 480p source stays 480p.
 const targets = [
-  // Hero/mask clip — aggressive: 540p, no audio, CRF 32
-  {
-    rel: "public/images/FALLING_diam.mp4",
-    args: ["-vf", "scale=-2:540", "-c:v", "libx264", "-crf", "32", "-preset", "medium", "-an"],
-  },
-  {
-    rel: "public/images/world_net.mp4",
-    args: ["-vf", "scale=-2:720", "-c:v", "libx264", "-crf", "28", "-preset", "medium", "-an"],
-  },
-  {
-    rel: "public/images/video1.mp4",
-    args: ["-vf", "scale=-2:720", "-c:v", "libx264", "-crf", "28", "-preset", "medium", "-an"],
-  },
-  {
-    rel: "public/New-Videos/auth-bg.mp4",
-    args: ["-vf", "scale=-2:720", "-c:v", "libx264", "-crf", "28", "-preset", "medium", "-an"],
-  },
-  {
-    rel: "public/New-Videos/diamond_countdown.mp4",
-    args: ["-vf", "scale=-2:720", "-c:v", "libx264", "-crf", "28", "-preset", "medium", "-an"],
-  },
-  {
-    rel: "public/New-Videos/LEGACY_video.mp4",
-    args: ["-vf", "scale=-2:720", "-c:v", "libx264", "-crf", "30", "-preset", "medium", "-an"],
-  },
+  { name: "FALLING_diam.mp4", maxHeight: 540, crf: 32 },
+  { name: "world_net.mp4", maxHeight: 720, crf: 28 },
+  { name: "video1.mp4", maxHeight: 720, crf: 28 },
+  { name: "auth-bg.mp4", maxHeight: 720, crf: 28 },
+  { name: "diamond_countdown.mp4", maxHeight: 720, crf: 28 },
+  { name: "LEGACY_video.mp4", maxHeight: 720, crf: 30 },
 ];
 
 function formatMb(bytes) {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
+fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+
 let failed = 0;
+let totalBefore = 0;
+let totalAfter = 0;
 
 for (const target of targets) {
-  const input = path.join(root, target.rel);
+  const input = path.join(SOURCE_DIR, target.name);
   if (!fs.existsSync(input)) {
-    console.warn(`skip (missing): ${target.rel}`);
+    console.warn(`skip (missing): ${target.name}`);
     continue;
   }
 
-  const tmp = `${input}.optimized.mp4`;
+  const output = path.join(OUTPUT_DIR, target.name);
   const before = fs.statSync(input).size;
+
+  // Clamp to maxHeight without upscaling, and keep both dimensions even
+  // (required by yuv420p).
+  const scale = `scale=-2:trunc(min(ih\\,${target.maxHeight})/2)*2`;
 
   const result = spawnSync(
     ffmpegPath,
     [
       "-y",
-      "-i",
-      input,
-      ...target.args,
-      "-movflags",
-      "+faststart",
-      "-pix_fmt",
-      "yuv420p",
-      tmp,
+      "-i", input,
+      "-vf", scale,
+      "-c:v", "libx264",
+      "-crf", String(target.crf),
+      "-preset", "medium",
+      "-an",
+      "-movflags", "+faststart",
+      "-pix_fmt", "yuv420p",
+      output,
     ],
     { stdio: "inherit" },
   );
 
-  if (result.status !== 0 || !fs.existsSync(tmp)) {
-    console.error(`failed: ${target.rel}`);
+  if (result.status !== 0 || !fs.existsSync(output)) {
+    console.error(`failed: ${target.name}`);
     failed += 1;
-    if (fs.existsSync(tmp)) fs.unlinkSync(tmp);
+    if (fs.existsSync(output)) fs.unlinkSync(output);
     continue;
   }
 
-  const after = fs.statSync(tmp).size;
-  if (after >= before * 0.95) {
-    // Keep original if optimization barely helps
-    fs.unlinkSync(tmp);
-    console.log(`kept original (no meaningful gain): ${target.rel} (${formatMb(before)})`);
-    continue;
-  }
+  const after = fs.statSync(output).size;
+  totalBefore += before;
+  totalAfter += after;
 
-  fs.renameSync(tmp, input);
   console.log(
-    `optimized ${target.rel}: ${formatMb(before)} → ${formatMb(after)} (${Math.round((1 - after / before) * 100)}% smaller)`,
+    `optimized ${target.name}: ${formatMb(before)} → ${formatMb(after)} (${Math.round((1 - after / before) * 100)}% smaller)`,
   );
+}
+
+if (totalBefore > 0) {
+  console.log(
+    `\nTotal: ${formatMb(totalBefore)} → ${formatMb(totalAfter)} (${Math.round((1 - totalAfter / totalBefore) * 100)}% smaller)`,
+  );
+  console.log(`Output: ${path.relative(root, OUTPUT_DIR)}`);
+  console.log("Publish with: npm run upload:videos");
 }
 
 if (failed > 0) process.exit(1);

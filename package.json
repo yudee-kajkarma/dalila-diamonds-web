@@ -11,7 +11,8 @@
     "clean": "powershell -Command \"Remove-Item -Recurse -Force .next, out, node_modules\\.cache -ErrorAction SilentlyContinue\"",
     "clean:all": "powershell -Command \"Remove-Item -Recurse -Force .next, out, node_modules -ErrorAction SilentlyContinue\"",
     "rebuild": "npm run clean && npm install && npm run build",
-    "optimize:videos": "node scripts/optimize-videos.mjs"
+    "optimize:videos": "node scripts/optimize-videos.mjs",
+    "upload:videos": "node scripts/upload-videos-s3.mjs"
   },
   "dependencies": {
     "@tiptap/extension-link": "^3.20.0",
