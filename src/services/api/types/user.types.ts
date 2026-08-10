@@ -109,7 +109,7 @@ export interface Blog {
   h2Subtitle?: string; 
   customSlug?: string;
   /** Blog content language; missing/legacy blogs are treated as English. */
-  language?: "en" | "de" | "fr" | "it" | "es";
+  language?: "en" | "de" | "fr" | "it" | "es" | "nl";
   featuredImage?: string; 
   description: string; 
   content?: string; 
