@@ -1,4 +1,5 @@
 import { SITE_BASE_URL, blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { BLOG_LANGUAGES } from "@/lib/blogLanguages";
 import { diamondToSlug, getPublicDiamondsSlice } from "@/lib/diamonds";
 
 // Must match CHUNK_SIZE in app/sitemap.xml/route.ts.
@@ -94,19 +95,27 @@ export async function GET(
       priority: p.priority,
     }));
 
-    const blogs = await getAllBlogs("en");
-    const blogEntries: Entry[] = blogs.map((blog) => {
-      const lastModifiedSource = blog.updatedAt || blog.createdAt;
-      const lastmod = lastModifiedSource
-        ? new Date(lastModifiedSource).toISOString()
-        : undefined;
-      return {
-        url: `${SITE_BASE_URL}/blogs/${blogToSlug(blog)}`,
-        ...(lastmod ? { lastmod } : {}),
-        changefreq: "monthly",
-        priority: 0.6,
-      };
-    });
+    // Every translated article gets its own sitemap entry — otherwise the
+    // localised blogs would never be submitted for indexing.
+    const blogsByLanguage = await Promise.all(
+      BLOG_LANGUAGES.map(async (language) => {
+        const blogs = await getAllBlogs(language);
+        const prefix = language === "en" ? "" : `/${language}`;
+        return blogs.map((blog) => {
+          const lastModifiedSource = blog.updatedAt || blog.createdAt;
+          const lastmod = lastModifiedSource
+            ? new Date(lastModifiedSource).toISOString()
+            : undefined;
+          return {
+            url: `${SITE_BASE_URL}${prefix}/blogs/${blogToSlug(blog)}`,
+            ...(lastmod ? { lastmod } : {}),
+            changefreq: "monthly",
+            priority: 0.6,
+          } as Entry;
+        });
+      }),
+    );
+    const blogEntries: Entry[] = blogsByLanguage.flat();
 
     entries = [...staticEntries, ...blogEntries, ...diamondEntries];
   } else {
