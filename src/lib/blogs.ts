@@ -9,6 +9,7 @@ export type BackendBlog = {
   h2Subtitle?: string;
   customSlug?: string;
   language?: BlogLanguage;
+  translationGroupId?: string;
   metaTitle?: string;
   metaDescription?: string;
   description?: string;
@@ -102,4 +103,49 @@ export const getBlogBySlug = cache(async (
   // full document by id so the detail page has the article body.
   const full = await getBlogById(match._id);
   return full ?? match;
+});
+
+export type LocalizedBlogResult = {
+  blog: BackendBlog | null;
+  /** True when the requested language had no translation and English is shown. */
+  isFallback: boolean;
+  /** The language actually served. */
+  language: BlogLanguage;
+};
+
+/**
+ * Resolve an article for a locale, falling back to the English version when
+ * that language has no translation yet. Without this, every untranslated
+ * article would hard-404 on all non-English locales.
+ */
+export const getLocalizedBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage = 'en',
+): Promise<LocalizedBlogResult> => {
+  const localized = await getBlogBySlug(slug, language);
+  if (localized) {
+    return { blog: localized, isFallback: false, language };
+  }
+
+  if (language === 'en') {
+    return { blog: null, isFallback: false, language };
+  }
+
+  const english = await getBlogBySlug(slug, 'en');
+  return {
+    blog: english,
+    isFallback: Boolean(english),
+    language: 'en',
+  };
+});
+
+/** Blog list for a locale, falling back to English when nothing is translated. */
+export const getLocalizedBlogList = cache(async (
+  language: BlogLanguage = 'en',
+): Promise<BackendBlog[]> => {
+  const blogs = await getAllBlogs(language);
+  if (blogs.length > 0 || language === 'en') {
+    return blogs;
+  }
+  return getAllBlogs('en');
 });

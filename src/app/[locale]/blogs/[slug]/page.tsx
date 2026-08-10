@@ -4,7 +4,7 @@ import { Marcellus, Jost } from "next/font/google";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
-import { blogToSlug, getAllBlogs, getBlogBySlug } from "@/lib/blogs";
+import { blogToSlug, getLocalizedBlogBySlug, getLocalizedBlogList } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 
 const marcellus = Marcellus({
@@ -29,9 +29,11 @@ export default async function BlogDetailPage({ params }: Props) {
   const cleanSlug = slug.split("?")[0].split("#")[0];
   const blogLanguage = toBlogLanguage(locale);
 
-  const [blog, allBlogs] = await Promise.all([
-    getBlogBySlug(cleanSlug, blogLanguage),
-    getAllBlogs(blogLanguage),
+  // Falls back to the English article when this locale has no translation,
+  // so switching language never lands on a hard 404.
+  const [{ blog }, allBlogs] = await Promise.all([
+    getLocalizedBlogBySlug(cleanSlug, blogLanguage),
+    getLocalizedBlogList(blogLanguage),
   ]);
 
   if (!blog) {

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Marcellus, Jost } from "next/font/google";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-import { blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { blogToSlug, getAllBlogs, getLocalizedBlogList } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import type { Locale } from "@/lib/i18n/config";
@@ -56,7 +56,7 @@ export default async function Page({ params, searchParams }: Props) {
 
   const blogLanguage = toBlogLanguage(locale);
   const [apiBlogs, staticBlogs] = await Promise.all([
-    getAllBlogs(blogLanguage),
+    getLocalizedBlogList(blogLanguage),
     Promise.resolve(getStaticBlogCards(locale)),
   ]);
 
