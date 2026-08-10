@@ -63,7 +63,7 @@ export default function FluorFilter({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/flour.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/flour.png"
           alt="Fluor"
           width={18}
           height={18}
@@ -124,7 +124,7 @@ export default function FluorFilter({
       >
         <div className="flex items-center gap-1.5">
           <Image
-            src="/filtersicon/flour.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/flour.png"
             alt="Fluor"
             width={16}
             height={16}

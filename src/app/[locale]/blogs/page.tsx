@@ -3,6 +3,7 @@ import { Marcellus, Jost } from "next/font/google";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { toBlogLanguage } from "@/lib/blogLanguages";
 import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import type { Locale } from "@/lib/i18n/config";
 import BlogAdminBar from "@/app/blogs/BlogAdminBar";
@@ -53,8 +54,9 @@ export default async function Page({ params, searchParams }: Props) {
   const locale = (localeParam || "en") as Locale;
   const { page } = await searchParams;
 
+  const blogLanguage = toBlogLanguage(locale);
   const [apiBlogs, staticBlogs] = await Promise.all([
-    getAllBlogs(),
+    getAllBlogs(blogLanguage),
     Promise.resolve(getStaticBlogCards(locale)),
   ]);
 
@@ -112,20 +114,8 @@ export default async function Page({ params, searchParams }: Props) {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {pageBlogs.map((item, index) => (
                   <AnimatedContainer key={item.id} direction="up" delay={index * 0.1}>
-                    <Link
-                      href={item.href}
-                      className="bg-white border border-gray-200 hover:border-[#c89e3a] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer h-full flex flex-col relative group overflow-hidden"
-                    >
-                      {item.featuredImage && (
-                        <div className="w-full h-56 overflow-hidden">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            src={item.featuredImage}
-                            alt={item.title}
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                          />
-                        </div>
-                      )}
+                    <div className="bg-white border border-gray-200 hover:border-[#c89e3a] shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col relative group overflow-hidden">
+                      {/* Keep admin actions outside <Link> so edit modal clicks never navigate. */}
                       {item.kind === "api" ? (
                         <BlogCardActions
                           blog={{
@@ -133,6 +123,7 @@ export default async function Page({ params, searchParams }: Props) {
                             title: item.blog.title,
                             h2Subtitle: item.blog.h2Subtitle,
                             customSlug: item.blog.customSlug,
+                            language: item.blog.language,
                             featuredImage: item.blog.featuredImage,
                             content: item.blog.content,
                             description: item.blog.description,
@@ -141,14 +132,26 @@ export default async function Page({ params, searchParams }: Props) {
                           }}
                         />
                       ) : null}
-                      <div className="p-6 flex-1 flex flex-col justify-center">
-                        <h3
-                          className={`text-xl md:text-2xl font-bold text-[#1a1a1a] group-hover:text-[#c89e3a] transition-colors line-clamp-3 ${marcellus.className}`}
-                        >
-                          {item.title}
-                        </h3>
-                      </div>
-                    </Link>
+                      <Link href={item.href} className="cursor-pointer h-full flex flex-col flex-1">
+                        {item.featuredImage && (
+                          <div className="w-full h-56 overflow-hidden">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={item.featuredImage}
+                              alt={item.title}
+                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            />
+                          </div>
+                        )}
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h3
+                            className={`text-xl md:text-2xl font-bold text-[#1a1a1a] group-hover:text-[#c89e3a] transition-colors line-clamp-3 ${marcellus.className}`}
+                          >
+                            {item.title}
+                          </h3>
+                        </div>
+                      </Link>
+                    </div>
                   </AnimatedContainer>
                 ))}
               </div>

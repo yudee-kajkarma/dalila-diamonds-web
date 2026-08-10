@@ -59,7 +59,7 @@ export default function MobileHeader() {
                 >
                     <div className="relative h-8 w-16">
                         <Image
-                            src="/dalila_img/mobile-logo.png"
+                            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png"
                             alt="Dalila Diamonds"
                             fill
                             style={{ objectFit: "contain" }}

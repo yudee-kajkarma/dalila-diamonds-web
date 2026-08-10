@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
 import { blogToSlug, getAllBlogs, getBlogBySlug } from "@/lib/blogs";
+import { toBlogLanguage } from "@/lib/blogLanguages";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -26,8 +27,12 @@ type Props = {
 export default async function BlogDetailPage({ params }: Props) {
   const { slug, locale } = await params;
   const cleanSlug = slug.split("?")[0].split("#")[0];
+  const blogLanguage = toBlogLanguage(locale);
 
-  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug), getAllBlogs()]);
+  const [blog, allBlogs] = await Promise.all([
+    getBlogBySlug(cleanSlug, blogLanguage),
+    getAllBlogs(blogLanguage),
+  ]);
 
   if (!blog) {
     notFound();

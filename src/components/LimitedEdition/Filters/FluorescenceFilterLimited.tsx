@@ -44,7 +44,7 @@ export default function FluorFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/flour.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/flour.png"
           alt="Fluor"
           width={18}
           height={18}

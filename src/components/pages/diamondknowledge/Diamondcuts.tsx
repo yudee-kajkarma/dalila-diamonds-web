@@ -48,7 +48,7 @@ export default function Diamondcuts() {
               <div className="relative w-full max-w-[500px] aspect-[3/4] bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Image
-                    src="/images/diamond.png"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamond.png"
                     alt="Brilliant cut diamonds"
                     fill
                     style={{ objectFit: "cover" }}

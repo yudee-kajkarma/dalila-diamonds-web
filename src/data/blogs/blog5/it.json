@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/cushion-cut-diamond-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-guide.webp",
       "alt": "Diamanti naturali taglio cuscino quadrati e allungati confrontati su un vassoio di ispezione di Anversa",
       "width": 1600,
       "height": 900
     },
     "facetPatterns": {
-      "src": "/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
       "alt": "Cuscino brillante modificato con sfaccettature di ghiaccio tritato e brillante a confronto",
       "width": 1400,
       "height": 1000
     },
     "ratios": {
-      "src": "/images/blogs/square-elongated-cushion-diamond-ratios.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/square-elongated-cushion-diamond-ratios.webp",
       "alt": "Cuscino quadrato rettangolare e allungato con rapporto lunghezza-larghezza del diamante",
       "width": 1400,
       "height": 1000
     },
     "inspectionMap": {
-      "src": "/images/blogs/cushion-cut-diamond-quality-checks.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-quality-checks.webp",
       "alt": "La luminosità del contorno allarga gli angoli e la cintura controlla per un diamante taglio cuscino",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Guida al diamante taglio cuscino",

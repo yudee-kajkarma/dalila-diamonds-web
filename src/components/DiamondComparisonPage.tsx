@@ -196,7 +196,7 @@ const DiamondComparisonPage: React.FC<DiamondComparisonPageProps> = ({
                         </button>
                         {/* <div className="px-4 pb-4">
                           <Image 
-                            src="/dalila_img/DalilaLogo.png" 
+                            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/DalilaLogo.png" 
                             alt="Dalila Logo" 
                             width={150}
                             height={50}

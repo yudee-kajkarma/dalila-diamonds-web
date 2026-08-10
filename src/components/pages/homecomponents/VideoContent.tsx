@@ -3,6 +3,7 @@ import { useRef, useEffect, useState } from "react";
 
 import { Marcellus, Jost } from "next/font/google";
 import { useLanguage } from "@/context/LanguageContext";
+import { videoUrl } from "@/lib/videoAssets";
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -59,7 +60,7 @@ export default function VideoContent() {
                     setVideoError(true);
                 }}
             >
-                <source src="/New-Videos/LEGACY_video.mp4" type="video/mp4" />
+                <source src={videoUrl("legacy")} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 

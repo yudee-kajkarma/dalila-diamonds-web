@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/best-diamond-colour-clarity-combination.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/best-diamond-colour-clarity-combination.webp",
       "alt": "G H colour and VS2 clarity natural diamonds compared for value",
       "width": 1600,
       "height": 900
     },
     "valueMatrix": {
-      "src": "/images/blogs/diamond-colour-clarity-value-matrix.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-value-matrix.webp",
       "alt": "Diamond colour and clarity combination chart for different buying priorities",
       "width": 1400,
       "height": 1000
     },
     "byShape": {
-      "src": "/images/blogs/diamond-colour-clarity-by-shape.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-by-shape.webp",
       "alt": "Recommended diamond colour and clarity inspection ranges by shape",
       "width": 1400,
       "height": 1000
     },
     "metalComparison": {
-      "src": "/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
       "alt": "Near-colourless diamond appearance in white yellow and rose gold settings",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Best Colour and Clarity Combination",

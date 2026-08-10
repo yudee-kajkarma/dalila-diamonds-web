@@ -30,7 +30,7 @@
     "primaryButtonText": "BEGIN MIJN DIAMANT TAXATIE",
     "primaryButtonHref": "#valuation-calculator",
     "image": {
-      "src": "/images/resources/diamond-valuation-calculator.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-valuation-calculator.webp",
       "alt": "Natuurlijke diamant en beoordelingsrapport naast een online diamantwaarderingscalculator",
       "width": 1600,
       "height": 900
@@ -38,19 +38,19 @@
   },
   "images": {
     "valueFactors": {
-      "src": "/images/resources/natural-diamond-value-factors.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/natural-diamond-value-factors.webp",
       "alt": "Factoren die worden gebruikt om de waarde van een natuurlijke diamant te berekenen",
       "width": 1400,
       "height": 1000
     },
     "retailVsResale": {
-      "src": "/images/resources/diamond-retail-vs-resale-value.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-retail-vs-resale-value.webp",
       "alt": "Vergelijking van de verkoopprijs van diamanten, verzekeringstaxatie en wederverkoopwaarde",
       "width": 1400,
       "height": 1000
     },
     "process": {
-      "src": "/images/resources/dalila-diamond-valuation-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/dalila-diamond-valuation-process.webp",
       "alt": "Dalila Diamonds online en diamantwaarderingsproces in Antwerpen",
       "width": 1400,
       "height": 1000

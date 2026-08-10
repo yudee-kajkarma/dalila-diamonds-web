@@ -14,19 +14,19 @@ export default function DiamondShapeCuts() {
   const { dictionary } = useLanguage();
 
   const diamondCuts = [
-    { name: dictionary?.dk?.shapeRound || "Round Brilliant", image: "/images/cut-shaps/round-diamond.png" },
-    { name: dictionary?.dk?.shapePrincess || "Princess Cut", image: "/images/cut-shaps/princess.png" },
-    { name: dictionary?.dk?.shapeCushion || "Cushion Cut", image: "/images/cut-shaps/cushion-diamond.png" },
-    { name: dictionary?.dk?.shapeRadiant || "Radiant Cut", image: "/images/cut-shaps/radian-diamond.png" },
-    { name: dictionary?.dk?.shapeAsscher || "Asscher Cut", image: "/images/cut-shaps/cushion-cut-diamond.png" },
-    { name: dictionary?.dk?.shapeHeart || "Heart Cut", image: "/images/cut-shaps/heart.png" },
-    { name: dictionary?.dk?.shapePear || "Pear Cut", image: "/images/cut-shaps/pear-diamond.png" },
+    { name: dictionary?.dk?.shapeRound || "Round Brilliant", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/round-diamond.png" },
+    { name: dictionary?.dk?.shapePrincess || "Princess Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/princess.png" },
+    { name: dictionary?.dk?.shapeCushion || "Cushion Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/cushion-diamond.png" },
+    { name: dictionary?.dk?.shapeRadiant || "Radiant Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/radian-diamond.png" },
+    { name: dictionary?.dk?.shapeAsscher || "Asscher Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/cushion-cut-diamond.png" },
+    { name: dictionary?.dk?.shapeHeart || "Heart Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/heart.png" },
+    { name: dictionary?.dk?.shapePear || "Pear Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/pear-diamond.png" },
     {
       name: dictionary?.dk?.shapeMarquise || "Marquise Cut",
-      image: "/images/cut-shaps/marquise-cut-diamond.png",
+      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/marquise-cut-diamond.png",
     },
-    { name: dictionary?.dk?.shapeOval || "Oval Cut", image: "/images/cut-shaps/oval-diamond.png" },
-    { name: dictionary?.dk?.shapeEmerald || "Emerald Cut", image: "/images/cut-shaps/emerald.png" },
+    { name: dictionary?.dk?.shapeOval || "Oval Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/oval-diamond.png" },
+    { name: dictionary?.dk?.shapeEmerald || "Emerald Cut", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/cut-shaps/emerald.png" },
   ];
 
   return (

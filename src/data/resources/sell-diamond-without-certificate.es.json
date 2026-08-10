@@ -34,31 +34,31 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-without-certificate.webp",
       "alt": "Anillo de diamantes naturales presentado a valoración sin su certificado original",
       "width": 1600,
       "height": 900
     },
     "lostReportRecovery": {
-      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/recover-lost-diamond-report.webp",
       "alt": "Formas de recuperar información de un informe de clasificación de diamantes perdido",
       "width": 1400,
       "height": 1000
     },
     "evaluation": {
-      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/uncertified-diamond-evaluation.webp",
       "alt": "Evaluación profesional de un diamante natural no certificado",
       "width": 1400,
       "height": 1000
     },
     "certificationDecision": {
-      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-certification-decision-guide.webp",
       "alt": "Guía de decisión para obtener un nuevo informe de clasificación de diamantes antes de venderlo",
       "width": 1400,
       "height": 1000
     },
     "dalilaProcess": {
-      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/dalila-uncertified-diamond-process.webp",
       "alt": "Proceso de Dalila Diamonds para evaluar un diamante sin certificado",
       "width": 1400,
       "height": 1000

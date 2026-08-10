@@ -34,31 +34,31 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-antwerp.webp",
       "alt": "Natural diamond undergoing a professional appraisal in Antwerp",
       "width": 1600,
       "height": 900
     },
     "comparison": {
-      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-vs-grading-offer.webp",
       "alt": "Difference between diamond appraisal grading report and purchase offer",
       "width": 1400,
       "height": 1000
     },
     "process": {
-      "src": "/images/resources/diamond-appraisal-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-process.webp",
       "alt": "Steps followed during a professional diamond appraisal",
       "width": 1400,
       "height": 1000
     },
     "costFactors": {
-      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-cost-factors.webp",
       "alt": "Factors affecting the cost of a diamond appraisal in Antwerp",
       "width": 1400,
       "height": 1000
     },
     "purposeTypes": {
-      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/types-of-diamond-valuation.webp",
       "alt": "Types of diamond valuation for selling insurance inheritance and certification",
       "width": 1400,
       "height": 1000

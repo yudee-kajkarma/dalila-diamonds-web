@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/cushion-cut-diamond-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-guide.webp",
       "alt": "Vierkante en langwerpige kussengeslepen natuurlijke diamanten vergeleken op een Antwerps inspectieblad",
       "width": 1600,
       "height": 900
     },
     "facetPatterns": {
-      "src": "/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
       "alt": "Kussen briljant gemodificeerde briljante en crushed-ice facetpatronen vergeleken",
       "width": 1400,
       "height": 1000
     },
     "ratios": {
-      "src": "/images/blogs/square-elongated-cushion-diamond-ratios.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/square-elongated-cushion-diamond-ratios.webp",
       "alt": "Vierkant rechthoekig en langwerpig kussen diamant lengte-breedteverhoudingen",
       "width": 1400,
       "height": 1000
     },
     "inspectionMap": {
-      "src": "/images/blogs/cushion-cut-diamond-quality-checks.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-quality-checks.webp",
       "alt": "Omtrek helderheid gespreide hoeken en gordelcontroles voor een kussengeslepen diamant",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Kussengeslepen diamantgids",

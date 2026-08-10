@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/best-diamond-colour-clarity-combination.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/best-diamond-colour-clarity-combination.webp",
       "alt": "Natürliche Diamanten in der Farbe G H und mit der Reinheit VS2 im Wert verglichen",
       "width": 1600,
       "height": 900
     },
     "valueMatrix": {
-      "src": "/images/blogs/diamond-colour-clarity-value-matrix.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-value-matrix.webp",
       "alt": "Kombinationstabelle für Diamantfarbe und -reinheit für unterschiedliche Kaufprioritäten",
       "width": 1400,
       "height": 1000
     },
     "byShape": {
-      "src": "/images/blogs/diamond-colour-clarity-by-shape.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-by-shape.webp",
       "alt": "Empfohlene Prüfbereiche für Diamantfarbe und -reinheit nach Form",
       "width": 1400,
       "height": 1000
     },
     "metalComparison": {
-      "src": "/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
       "alt": "Nahezu farbloser Diamant in Weiß-, Gelb- und Roségoldfassungen",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Beste Kombination aus Farbe und Klarheit",

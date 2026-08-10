@@ -53,7 +53,7 @@ export default function RootLayout({
                             name: "Daliladiamonds",
                             alternateName: "Dalila diamonds",
                             url: "https://www.daliladiamonds.com/",
-                            logo: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+                            logo: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
                             sameAs: "https://www.instagram.com/p/DO56RDlDKde/",
                         }),
                     }}

@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/fancy-shaped-diamond-cut-quality.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-shaped-diamond-cut-quality.webp",
       "alt": "Ausgefallene Naturdiamanten im Vergleich zur Schliffqualität ohne GIA-Gesamtschliffgrad",
       "width": 1600,
       "height": 900
     },
     "reportVisualCheck": {
-      "src": "/images/blogs/fancy-diamond-report-visual-check.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-report-visual-check.webp",
       "alt": "Berichtsfelder und visuelle Kontrollen zur Beurteilung der Qualität von Fancy-Diamanten im Schliff",
       "width": 1400,
       "height": 1000
     },
     "lightPerformance": {
-      "src": "/images/blogs/fancy-diamond-light-performance-comparison.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-light-performance-comparison.webp",
       "alt": "Ausgewogene und schwache Lichtleistung im Vergleich zu Fancy-Diamanten",
       "width": 1400,
       "height": 1000
     },
     "outlineDurability": {
-      "src": "/images/blogs/fancy-diamond-outline-durability-checks.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-outline-durability-checks.webp",
       "alt": "Umrisse von Symmetriepunkten, Ecken, Rundbändern und Haltbarkeitsprüfungen für ausgefallen geformte Diamanten",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Ausgefallene Diamantschliffqualität",

@@ -10,9 +10,9 @@ const marcellus = Marcellus({
   weight: "400",
 });
 const instaImages = [
-	'/insta/insta1.jpg',
-	'/insta/insta2.jpg',
-	'/insta/insta3.jpg',
+	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta1.jpg',
+	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta2.jpg',
+	'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/insta/insta3.jpg',
 ];
 
 const instaLink = 'https://www.instagram.com/p/DO56RDlDKde/';

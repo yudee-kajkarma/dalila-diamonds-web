@@ -9,6 +9,7 @@ import MobileHeader from "./MobileHeader";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { blogApi, type Blog } from "@/lib/api";
 import { getBlogSlug } from "@/utils/helpers";
+import { toBlogLanguage } from "@/lib/blogLanguages";
 import { useLanguage } from "@/context/LanguageContext";
 import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
 
@@ -37,7 +38,7 @@ export default function Header() {
         handleLogout,
     } = useHeaderAuth();
 
-    // Fetch latest 3 blogs for Articles dropdown
+    // Fetch latest 3 blogs for Articles dropdown (filtered by current locale)
     useEffect(() => {
         const fetchLatestBlogs = async () => {
             try {
@@ -46,6 +47,7 @@ export default function Header() {
                     limit: 3,
                     sortBy: "createdAt",
                     sortOrder: "desc",
+                    language: toBlogLanguage(locale),
                 });
                 if (response && response.data) {
                     setLatestBlogs(response.data);
@@ -55,7 +57,7 @@ export default function Header() {
             }
         };
         fetchLatestBlogs();
-    }, []);
+    }, [locale]);
 
     return (
         <>
@@ -280,7 +282,7 @@ export default function Header() {
                                 aria-label="Go to home page"
                             >
                                 <Image
-                                    src="/dalila_img/Dalila_Logo.png"
+                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
                                     alt="Dalila Diamonds"
                                     fill
                                     style={{ objectFit: "contain" }}

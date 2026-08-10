@@ -1,14 +1,14 @@
 import { Marcellus, Jost } from "next/font/google";
 import type { S2sContent } from "@/lib/i18n/s2sTranslations";
+import type { LucideIcon } from "lucide-react";
 import {
-  FaEuroSign,
-  FaShieldAlt,
-  FaShippingFast,
-  FaMapMarkerAlt,
-  FaGlobeEurope,
-  FaGem,
-} from "react-icons/fa";
-import type { IconType } from "react-icons";
+  Euro,
+  Shield,
+  Truck,
+  MapPin,
+  Globe,
+  Gem,
+} from "lucide-react";
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -21,13 +21,13 @@ const jost = Jost({
   display: "swap",
 });
 
-const iconMap: Record<string, IconType> = {
-  "Euro payment": FaEuroSign,
-  "Expert quality control": FaShieldAlt,
-  "Weekly shipments": FaShippingFast,
-  "Delivery to Belgium": FaMapMarkerAlt,
-  "EU shipping": FaGlobeEurope,
-  "Antwerp support": FaGem,
+const iconMap: Record<string, LucideIcon> = {
+  "Euro payment": Euro,
+  "Expert quality control": Shield,
+  "Weekly shipments": Truck,
+  "Delivery to Belgium": MapPin,
+  "EU shipping": Globe,
+  "Antwerp support": Gem,
 };
 
 interface S2sBenefitsProps {
@@ -47,7 +47,7 @@ export default function S2sBenefits({ content }: S2sBenefitsProps) {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
           {content.cards.map((card) => {
-            const Icon = iconMap[card.title] || FaGem;
+            const Icon = iconMap[card.title] || Gem;
             return (
               <article key={card.title} className="flex flex-col items-center text-center">
                 <div

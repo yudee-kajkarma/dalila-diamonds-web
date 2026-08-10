@@ -12,36 +12,36 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/igi-diamond-certification-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-diamond-certification-guide.webp",
       "alt": "IGI natural diamond report and loose diamond checked under magnification",
       "width": 1600,
       "height": 900
     },
     "annotatedReport": {
-      "src": "/images/blogs/how-to-read-igi-diamond-report.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/how-to-read-igi-diamond-report.webp",
       "alt": "IGI natural diamond report fields for number measurements colour clarity and cut",
       "width": 1400,
       "height": 1100
     },
     "verificationProcess": {
-      "src": "/images/blogs/verify-igi-diamond-certificate.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/verify-igi-diamond-certificate.webp",
       "alt": "IGI report number online record and physical diamond verification process",
       "width": 1400,
       "height": 1000
     },
     "laserInscription": {
-      "src": "/images/blogs/igi-diamond-laser-inscription-check.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-diamond-laser-inscription-check.webp",
       "alt": "IGI report-number laser inscription inspected on a natural diamond girdle",
       "width": 1400,
       "height": 1000
     },
     "inconsistencyMap": {
-      "src": "/images/blogs/igi-report-inconsistency-warning-signs.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-report-inconsistency-warning-signs.webp",
       "alt": "Warning signs in an IGI report number measurements inscription and diamond description",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "IGI Certification Guide",

@@ -29,7 +29,7 @@ export default function AboutHero() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-96 bg-black rounded-none overflow-hidden shadow-2xl">
                 <Image
-                  src="/diamondcuts/aboutus.jpg"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/aboutus.jpg"
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

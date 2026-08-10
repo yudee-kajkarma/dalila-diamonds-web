@@ -94,7 +94,7 @@ export async function GET(
       priority: p.priority,
     }));
 
-    const blogs = await getAllBlogs();
+    const blogs = await getAllBlogs("en");
     const blogEntries: Entry[] = blogs.map((blog) => {
       const lastModifiedSource = blog.updatedAt || blog.createdAt;
       const lastmod = lastModifiedSource

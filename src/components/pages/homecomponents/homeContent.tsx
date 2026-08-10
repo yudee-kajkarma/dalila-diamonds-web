@@ -36,7 +36,7 @@ export default function HomeContent() {
                         <AnimatedContainer direction="scale-out">
                             <div className="relative h-[280px] sm:h-[320px] md:h-[350px] lg:h-[390px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl ">
                                 <Image
-                                    src="/diamondcuts/sell-diamonds.jpg"
+                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg"
                                     alt="Professional diamond dealer"
                                     fill
                                     className="object-cover"
@@ -101,7 +101,7 @@ export default function HomeContent() {
                         <AnimatedContainer direction="scale-out" delay={0.5}>
                             <div className="relative h-[280px] sm:h-[320px] md:h-[350px] lg:h-[390px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                                 <Image
-                                    src="/images/diamondwork.png"
+                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamondwork.png"
                                     alt="Diamond examination with tweezers"
                                     fill
                                     className="object-cover"

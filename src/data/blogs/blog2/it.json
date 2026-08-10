@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
       "alt": "Diamanti naturali VS1 e VS2 confrontati sotto ingrandimento",
       "width": 1600,
       "height": 900
     },
     "inclusionVisibility": {
-      "src": "/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
       "alt": "Confronto illustrativo delle inclusioni di diamanti VS1 e VS2 con ingrandimento dieci volte",
       "width": 1400,
       "height": 1000
     },
     "clarityByShape": {
-      "src": "/images/blogs/vs-diamond-clarity-by-shape.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs-diamond-clarity-by-shape.webp",
       "alt": "Visibilità di chiarezza VS rispetto allo smeraldo rotondo ovale e ai diamanti cuscino",
       "width": 1400,
       "height": 1000
     },
     "inspectionChecklist": {
-      "src": "/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
       "alt": "Lista di controllo per l'ispezione professionale dei diamanti naturali VS1 e VS2",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Chiarezza del diamante VS1 vs VS2",

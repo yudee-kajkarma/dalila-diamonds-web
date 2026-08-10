@@ -11,26 +11,26 @@ const mavenPro = Maven_Pro({
 });
 
 const STATIC_SHAPE_OPTIONS = [
-  { value: "ROUND", label: "Round", image: "/shapefilter/round.png" },
-  { value: "RADIANT", label: "Radiant", image: "/shapefilter/radiant.png" },
-  { value: "PEAR", label: "Pear", image: "/shapefilter/pear.png" },
-  { value: "SQUARE", label: "Square", image: "/shapefilter/square.png" },
-  { value: "EMERALD", label: "Emerald", image: "/shapefilter/emerald.png" },
-  { value: "OVAL", label: "Oval", image: "/shapefilter/oval.png" },
-  { value: "CUSHION", label: "Cushion", image: "/shapefilter/cushion.png" },
+  { value: "ROUND", label: "Round", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/round.png" },
+  { value: "RADIANT", label: "Radiant", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/radiant.png" },
+  { value: "PEAR", label: "Pear", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/pear.png" },
+  { value: "SQUARE", label: "Square", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/square.png" },
+  { value: "EMERALD", label: "Emerald", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/emerald.png" },
+  { value: "OVAL", label: "Oval", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/oval.png" },
+  { value: "CUSHION", label: "Cushion", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/cushion.png" },
   {
     value: "TRILLIANT",
     label: "Trilliant",
-    image: "/shapefilter/trilliant.png",
+    image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/trilliant.png",
   },
-  { value: "HEART", label: "Heart", image: "/shapefilter/Heart.png" },
+  { value: "HEART", label: "Heart", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/Heart.png" },
   {
     value: "PRINCESS",
     label: "Princess",
-    image: "/shapefilter/princess.png",
+    image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/princess.png",
   },
-  { value: "MARQUISE", label: "Marquise", image: "/shapefilter/marque.png" },
-  { value: "OTHER", label: "Other", image: "/shapefilter/others.png" },
+  { value: "MARQUISE", label: "Marquise", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/marque.png" },
+  { value: "OTHER", label: "Other", image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/shapefilter/others.png" },
 ];
 
 interface ShapeFilterProps {
@@ -74,7 +74,7 @@ export default function ShapeFilter({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/shape.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/shape.png"
           alt="Shape"
           width={18}
           height={18}
@@ -160,7 +160,7 @@ export default function ShapeFilter({
       >
         <div className="flex items-center gap-1.5">
           <Image
-            src="/filtersicon/shape.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/shape.png"
             alt="Shape"
             width={16}
             height={16}

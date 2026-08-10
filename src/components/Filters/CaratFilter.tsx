@@ -138,7 +138,7 @@ export default function CaratFilter({
                 style={{ backgroundColor: "#000033" }}
             >
                 <Image
-                    src="/filtersicon/carat.png"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/carat.png"
                     alt="Carat"
                     width={18}
                     height={18}
@@ -224,7 +224,7 @@ export default function CaratFilter({
             >
                 <div className="flex items-center gap-1.5">
                     <Image
-                        src="/filtersicon/carat.png"
+                        src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/carat.png"
                         alt="Carat"
                         width={16}
                         height={16}

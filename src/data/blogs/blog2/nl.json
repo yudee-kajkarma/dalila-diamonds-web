@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs-vs2-diamond-clarity.webp",
       "alt": "VS1 en VS2 natuurlijke diamanten vergeleken onder vergroting",
       "width": 1600,
       "height": 900
     },
     "inclusionVisibility": {
-      "src": "/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs-vs2-inclusion-visibility.webp",
       "alt": "Illustratieve vergelijking van VS1- en VS2-diamantinsluitingen bij tienvoudige vergroting",
       "width": 1400,
       "height": 1000
     },
     "clarityByShape": {
-      "src": "/images/blogs/vs-diamond-clarity-by-shape.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs-diamond-clarity-by-shape.webp",
       "alt": "VS-helderheidszichtbaarheid vergeleken met ronde smaragdgroene ovalen en kussendiamanten",
       "width": 1400,
       "height": 1000
     },
     "inspectionChecklist": {
-      "src": "/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/vs1-vs2-diamond-inspection-checklist.webp",
       "alt": "Professionele inspectiechecklist voor VS1 en VS2 natuurlijke diamanten",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "VS1 versus VS2 Diamanthelderheid",

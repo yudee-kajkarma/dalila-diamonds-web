@@ -6,6 +6,7 @@ import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 
 import { useLanguage } from "@/context/LanguageContext";
+import { videoUrl } from "@/lib/videoAssets";
 
 const marcellus = Marcellus({
     variable: "--font-marcellus",
@@ -83,8 +84,9 @@ export default function BookComponent() {
                             loop
                             muted
                             playsInline
+                            preload="metadata"
                         >
-                            <source src="/images/video1.mp4" type="video/mp4" />
+                            <source src={videoUrl("video1")} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 

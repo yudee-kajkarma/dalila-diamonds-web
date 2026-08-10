@@ -29,7 +29,7 @@
     "secondaryButtonText": "DEMANDEZ UN DIAMANT NATUREL VIA DS4U",
     "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
     "image": {
-      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
       "alt": "Diamants naturels et diamants cultivés en laboratoire comparés par origine et apparence",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "formation": {
-      "src": "/b2b/close-up.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
       "alt": "Formation de diamants naturels comparée à la croissance de diamants HPHT et CVD",
       "width": 1400,
       "height": 1000
     },
     "identification": {
-      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
       "alt": "Diamants naturels et cultivés en laboratoire soumis à une identification professionnelle",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "/diamonds_source/handshake.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
       "alt": "Priorités des acheteurs pour choisir entre les diamants naturels et les diamants cultivés en laboratoire",
       "width": 1400,
       "height": 1000

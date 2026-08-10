@@ -30,25 +30,25 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/where-to-sell-diamond-ring.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/where-to-sell-diamond-ring.webp",
       "alt": "Bague en diamant naturel en cours d'évaluation par un acheteur de diamants spécialisé",
       "width": 1600,
       "height": 900
     },
     "sellingOptions": {
-      "src": "/images/resources/diamond-ring-selling-options.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-selling-options.webp",
       "alt": "Comparatif des lieux pour vendre une bague en diamant naturel",
       "width": 1400,
       "height": 1000
     },
     "trustChecklist": {
-      "src": "/images/resources/safe-diamond-ring-buyer-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/safe-diamond-ring-buyer-checklist.webp",
       "alt": "Documents et contrôles de sécurité avant de vendre une bague en diamant",
       "width": 1400,
       "height": 1000
     },
     "antwerpProcess": {
-      "src": "/images/resources/sell-diamond-ring-antwerp-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-ring-antwerp-process.webp",
       "alt": "Processus de vente d'une bague en diamant naturel à Anvers",
       "width": 1400,
       "height": 1000

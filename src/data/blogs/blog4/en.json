@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/fancy-shaped-diamond-cut-quality.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-shaped-diamond-cut-quality.webp",
       "alt": "Fancy-shaped natural diamonds compared for cut quality without an overall GIA cut grade",
       "width": 1600,
       "height": 900
     },
     "reportVisualCheck": {
-      "src": "/images/blogs/fancy-diamond-report-visual-check.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-report-visual-check.webp",
       "alt": "Report fields and visual checks used to assess fancy-shaped diamond cut quality",
       "width": 1400,
       "height": 1000
     },
     "lightPerformance": {
-      "src": "/images/blogs/fancy-diamond-light-performance-comparison.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-light-performance-comparison.webp",
       "alt": "Balanced and weak light performance compared in fancy-shaped diamonds",
       "width": 1400,
       "height": 1000
     },
     "outlineDurability": {
-      "src": "/images/blogs/fancy-diamond-outline-durability-checks.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/fancy-diamond-outline-durability-checks.webp",
       "alt": "Outline symmetry points corners girdles and durability checks for fancy-shaped diamonds",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Fancy-Shaped Diamond Cut Quality",

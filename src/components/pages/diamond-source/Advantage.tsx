@@ -2,7 +2,7 @@
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import GoldButton from "@/components/ui/Button";
-import { FaCheck } from "react-icons/fa";
+import { Check } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -69,7 +69,7 @@ export default function DiamondSourceAdvantages() {
               <div className="flex items-start gap-3.5">
                 {/* Icon Circle */}
                 <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                  <FaCheck className="text-white" size={24} />
+                  <Check className="text-white" size={24} />
                 </div>
 
                 {/* Content */}

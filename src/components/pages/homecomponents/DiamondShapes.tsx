@@ -92,16 +92,16 @@ export default function DiamondShapes() {
   };
 
   const shapes = [
-    { name: getShapeName("Round"), image: "/DiamondsinBlubg/Round.jpg" },
-    { name: getShapeName("Oval"), image: "/DiamondsinBlubg/Oval.jpg" },
-    { name: getShapeName("Pear"), image: "/DiamondsinBlubg/Pear.jpg" },
-    { name: getShapeName("Emerald"), image: "/DiamondsinBlubg/Emerald.jpg" },
-    { name: getShapeName("Heart"), image: "/DiamondsinBlubg/Heart.jpg" },
-    { name: getShapeName("Cushion"), image: "/DiamondsinBlubg/Cushion.jpg" },
-    { name: getShapeName("Asscher"), image: "/DiamondsinBlubg/Asscher.jpg" },
-    { name: getShapeName("Radiant"), image: "/DiamondsinBlubg/Radiant.jpg" },
-    { name: getShapeName("Princess"), image: "/DiamondsinBlubg/Princess.jpg" },
-    { name: getShapeName("Marquise"), image: "/DiamondsinBlubg/Marquise.jpg" },
+    { name: getShapeName("Round"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Round.jpg" },
+    { name: getShapeName("Oval"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Oval.jpg" },
+    { name: getShapeName("Pear"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Pear.jpg" },
+    { name: getShapeName("Emerald"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Emerald.jpg" },
+    { name: getShapeName("Heart"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Heart.jpg" },
+    { name: getShapeName("Cushion"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Cushion.jpg" },
+    { name: getShapeName("Asscher"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Asscher.jpg" },
+    { name: getShapeName("Radiant"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Radiant.jpg" },
+    { name: getShapeName("Princess"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Princess.jpg" },
+    { name: getShapeName("Marquise"), image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/DiamondsinBlubg/Marquise.jpg" },
   ];
 
   const handleShapeClick = (shape: { name: string; image: string }) =>

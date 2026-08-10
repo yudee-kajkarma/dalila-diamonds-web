@@ -106,7 +106,7 @@ export function CaratFilterLimited({ selectedCaratRanges, onCaratChange }: Carat
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/carat.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/carat.png"
           alt="Carat"
           width={18}
           height={18}

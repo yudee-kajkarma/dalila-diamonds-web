@@ -68,7 +68,7 @@ export default function ColorFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/color.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/color.png"
           alt="Color"
           width={18}
           height={18}

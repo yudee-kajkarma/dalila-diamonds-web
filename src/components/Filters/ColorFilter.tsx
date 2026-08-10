@@ -77,7 +77,7 @@ export default function ColorFilter({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/color.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/color.png"
           alt="Color"
           width={18}
           height={18}
@@ -137,7 +137,7 @@ export default function ColorFilter({
       >
         <div className="flex items-center gap-1.5">
           <Image
-            src="/filtersicon/color.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/color.png"
             alt="Color"
             width={16}
             height={16}

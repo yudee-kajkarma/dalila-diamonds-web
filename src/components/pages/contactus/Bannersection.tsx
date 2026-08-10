@@ -30,7 +30,7 @@ export default function ContactBanner() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/banner-dalila-contact.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
           alt="About Us Background"
           fill
           className="object-cover"

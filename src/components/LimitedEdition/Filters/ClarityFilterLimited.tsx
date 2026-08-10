@@ -52,7 +52,7 @@ export default function ClarityFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/clarity.png"
+          src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/clarity.png"
           alt="Clarity"
           width={18}
           height={18}

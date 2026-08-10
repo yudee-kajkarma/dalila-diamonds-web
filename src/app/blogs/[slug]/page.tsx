@@ -27,7 +27,7 @@ export default async function BlogDetailPage({ params }: Props) {
   const { slug } = await params;
   const cleanSlug = slug.split("?")[0].split("#")[0];
 
-  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug), getAllBlogs()]);
+  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug, "en"), getAllBlogs("en")]);
 
   if (!blog) {
     notFound();

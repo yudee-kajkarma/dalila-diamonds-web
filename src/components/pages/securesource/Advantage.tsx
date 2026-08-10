@@ -2,9 +2,7 @@
 import { Marcellus, Jost } from "next/font/google";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import GoldButton from "@/components/ui/Button";
-import { FaEuroSign } from "react-icons/fa";
-import { MdLocalShipping } from "react-icons/md";
-import { IoEarth } from "react-icons/io5";
+import { Euro, Truck, Globe } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -31,17 +29,17 @@ export default function S2SAdvantages() {
 
   const advantages = [
     {
-      icon: FaEuroSign,
+      icon: Euro,
       title: dictionary?.s2s?.adv1Title || "Euro Payment",
       description: dictionary?.s2s?.adv1Text || "Euro payments accepted for your convenience.",
     },
     {
-      icon: MdLocalShipping,
+      icon: Truck,
       title: dictionary?.s2s?.adv2Title || "Weekly Shipments",
       description: dictionary?.s2s?.adv2Text || "Regular weekly shipments from India (excluding Indian public holidays).",
     },
     {
-      icon: IoEarth,
+      icon: Globe,
       title: dictionary?.s2s?.adv3Title || "EU Shipping",
       description: dictionary?.s2s?.adv3Text || "Delivery available to any EU country for an additional fee",
     },

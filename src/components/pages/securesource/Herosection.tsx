@@ -52,7 +52,7 @@ export default function SecureSourceHero() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-64 sm:h-80 md:h-96 bg-black overflow-hidden shadow-2xl">
                 <Image
-                  src="/secure_to_source/stos.jpg"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/stos.jpg"
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

@@ -28,7 +28,7 @@
     "secondaryButtonText": "BRON EEN DIAMANT DOOR EXACTE METINGEN",
     "secondaryButtonHref": "/diamond-source",
     "image": {
-      "src": "/diamonds_source/diamondsourceforyou.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
       "alt": "Diamantmaattabel waarin karaatgewicht en millimeterafmetingen per vorm worden vergeleken",
       "width": 1600,
       "height": 900
@@ -36,19 +36,19 @@
   },
   "images": {
     "oneCaratComparison": {
-      "src": "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
       "alt": "Natuurlijke diamanten van één karaat in verschillende vormen naast elkaar",
       "width": 1400,
       "height": 900
     },
     "depthComparison": {
-      "src": "/b2b/close-up.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
       "alt": "Ondiepe gebalanceerde en diepe diamanten vergeleken met face-up spread",
       "width": 1400,
       "height": 900
     },
     "fingerComparison": {
-      "src": "/diamonds_source/handshake.jpg",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
       "alt": "Ronde diamantgroottes vergeleken op dezelfde vinger",
       "width": 1400,
       "height": 900

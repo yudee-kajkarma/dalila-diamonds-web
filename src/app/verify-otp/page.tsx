@@ -8,6 +8,7 @@ import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAuthText } from "@/lib/i18n/authTranslations";
+import { videoUrl } from "@/lib/videoAssets";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -195,7 +196,7 @@ function OTPVerificationContent() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/New-Videos/diamond_countdown.mp4"
+        src={videoUrl("diamondCountdown")}
         autoPlay
         muted
         loop
@@ -220,7 +221,7 @@ function OTPVerificationContent() {
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
                   <div className="relative w-[250px] md:w-[300px] h-20 md:h-[100px]">
                     <Image
-                      src="/dalila_img/Dalila_Logo.png"
+                      src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
                       alt="Dalila Diamonds"
                       fill
                       className="object-contain"

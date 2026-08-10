@@ -79,7 +79,7 @@ export default function S2sHero({ content, locale = "en" }: S2sHeroProps) {
           <div className="relative pb-6 md:pb-8 lg:pb-12 w-full">
             <div className="relative w-full h-64 sm:h-80 md:h-96 bg-black overflow-hidden shadow-2xl">
               <Image
-                src="/secure_to_source/stos.jpg"
+                src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/secure_to_source/stos.jpg"
                 alt={content.imageAlt}
                 fill
                 className="object-cover"

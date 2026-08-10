@@ -31,7 +31,7 @@ export default function SeoPageBanner({ title, category, breadcrumb }: SeoPageBa
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/banner-dalila-contact.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
             alt={title}
             fill
             className="object-cover"

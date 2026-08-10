@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/cushion-cut-diamond-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-guide.webp",
       "alt": "Diamantes naturales de talla cojín cuadrada y alargada comparados en una bandeja de inspección de Amberes",
       "width": 1600,
       "height": 900
     },
     "facetPatterns": {
-      "src": "/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-brilliant-modified-crushed-ice.webp",
       "alt": "Comparación de los patrones de facetas de brillante modificado y hielo triturado.",
       "width": 1400,
       "height": 1000
     },
     "ratios": {
-      "src": "/images/blogs/square-elongated-cushion-diamond-ratios.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/square-elongated-cushion-diamond-ratios.webp",
       "alt": "Relación longitud-anchura del diamante cuadrado rectangular y cojín alargado",
       "width": 1400,
       "height": 1000
     },
     "inspectionMap": {
-      "src": "/images/blogs/cushion-cut-diamond-quality-checks.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/cushion-cut-diamond-quality-checks.webp",
       "alt": "Delinee el brillo de las esquinas y los controles del cinturón para un diamante de talla cojín",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Guía de diamantes de talla cojín",

@@ -6,6 +6,7 @@ import { Playfair_Display } from "next/font/google";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
+import { videoUrl } from "@/lib/videoAssets";
 
 const playFair = Playfair_Display({
   subsets: ["latin"],
@@ -186,7 +187,7 @@ export default function OTPVerificationPage() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/New-Videos/auth-bg.mp4"
+        src={videoUrl("authBg")}
         autoPlay
         muted
         loop
@@ -211,7 +212,7 @@ export default function OTPVerificationPage() {
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
                   <div className="relative w-[250px] md:w-[300px] h-[80px] md:h-[100px]">
                     <Image
-                      src="/dalila_img/Dalila_Logo.png"
+                      src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
                       alt="Dalila Diamonds"
                       fill
                       className="object-contain"

@@ -5,8 +5,13 @@ import { useRouter } from "next/navigation";
 import { Plus } from "lucide-react";
 import { Jost } from "next/font/google";
 import { blogApi } from "@/lib/api";
+import { getBlogBaseSlug } from "@/lib/blogLanguages";
 import { useIsAdmin } from "./useIsAdmin";
-import BlogFormModal, { EMPTY_BLOG_FORM, type BlogFormValues } from "./BlogFormModal";
+import BlogFormModal, {
+  EMPTY_BLOG_FORM,
+  type BlogFormSubmitResult,
+  type BlogFormValues,
+} from "./BlogFormModal";
 import { refreshBlogs } from "./actions";
 
 const jost = Jost({
@@ -23,23 +28,44 @@ export default function BlogAdminBar() {
 
   if (!isAdmin) return null;
 
-  const handleCreate = async (values: BlogFormValues) => {
+  const handleSave = async (
+    values: BlogFormValues,
+    meta: { blogId: string | null },
+  ): Promise<BlogFormSubmitResult> => {
     try {
-      const response = await blogApi.create({
+      const payload = {
         ...values,
-        description: values.content, // backward compatibility
-      });
+        customSlug: getBlogBaseSlug(values.customSlug) || values.customSlug,
+        description: values.content,
+      };
+
+      if (meta.blogId) {
+        const response = await blogApi.update(meta.blogId, payload);
+        if (response && response.success) {
+          alert(`${values.language.toUpperCase()} version updated successfully.`);
+          await refreshBlogs();
+          router.refresh();
+          return { blogId: response.data?._id || meta.blogId };
+        }
+        alert("Failed to update blog. Please try again.");
+        return { blogId: meta.blogId };
+      }
+
+      const response = await blogApi.create(payload);
       if (response && response.success) {
-        alert("Blog created successfully!");
-        setShowAddModal(false);
+        alert(
+          `${values.language.toUpperCase()} version saved. Switch language in this form to add another version.`,
+        );
         await refreshBlogs();
         router.refresh();
-      } else {
-        alert("Failed to create blog. Please try again.");
+        return { blogId: response.data?._id || null };
       }
+      alert("Failed to create blog. Please try again.");
+      return { blogId: null };
     } catch (error) {
-      console.error("Error creating blog:", error);
+      console.error("Error saving blog:", error);
       alert(error instanceof Error ? error.message : "Failed to create blog");
+      return { blogId: meta.blogId };
     }
   };
 
@@ -60,8 +86,9 @@ export default function BlogAdminBar() {
         <BlogFormModal
           mode="add"
           initialValues={EMPTY_BLOG_FORM}
+          initialBlogId={null}
           onClose={() => setShowAddModal(false)}
-          onSubmit={handleCreate}
+          onSubmit={handleSave}
         />
       )}
     </>

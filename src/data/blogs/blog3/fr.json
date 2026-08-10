@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/best-diamond-colour-clarity-combination.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/best-diamond-colour-clarity-combination.webp",
       "alt": "Diamants naturels de couleur G H et de pureté VS2 comparés pour leur valeur",
       "width": 1600,
       "height": 900
     },
     "valueMatrix": {
-      "src": "/images/blogs/diamond-colour-clarity-value-matrix.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-value-matrix.webp",
       "alt": "Tableau de combinaison de couleurs et de clarté des diamants pour différentes priorités d'achat",
       "width": 1400,
       "height": 1000
     },
     "byShape": {
-      "src": "/images/blogs/diamond-colour-clarity-by-shape.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-clarity-by-shape.webp",
       "alt": "Gammes recommandées d’inspection de couleur et de clarté des diamants par forme",
       "width": 1400,
       "height": 1000
     },
     "metalComparison": {
-      "src": "/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-colour-white-yellow-rose-gold.webp",
       "alt": "Aspect diamant presque incolore dans des montures en or blanc jaune et rose",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Meilleure combinaison de couleur et de clarté",

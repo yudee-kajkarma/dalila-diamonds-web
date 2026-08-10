@@ -49,7 +49,7 @@ function getBestDescription(blog: BackendBlog): string {
 }
 
 const getBlogSeoSchemaBySlug = cache(async (): Promise<Record<string, BlogSeoSchemaEntry>> => {
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs('en');
   const entries: Record<string, BlogSeoSchemaEntry> = {};
 
   for (const blog of blogs) {
@@ -165,7 +165,7 @@ export default async function BlogDetailLayout({
           name: 'Dalila Diamonds',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png',
+            url: 'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png',
           },
         },
       }

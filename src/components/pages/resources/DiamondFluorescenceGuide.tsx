@@ -67,7 +67,7 @@ function buildStructuredDataGraph(data: FluorescenceGuidePageData, locale: Local
         inLanguage: locale,
         primaryImageOfPage: {
           "@type": "ImageObject",
-          url: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+          url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
         },
       },
       {
@@ -82,7 +82,7 @@ function buildStructuredDataGraph(data: FluorescenceGuidePageData, locale: Local
         isPartOf: { "@id": webpageId },
         mainEntityOfPage: { "@id": webpageId },
         inLanguage: locale,
-        image: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+        image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
       },
       {
         "@type": "FAQPage",
@@ -362,7 +362,7 @@ export default function DiamondFluorescenceGuide({ locale = "en" }: DiamondFluor
         >
           <div className="absolute inset-0">
             <Image
-              src="/images/banner-dalila-contact.png"
+              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
               alt={data.banner.imageAlt}
               fill
               className="object-cover"

@@ -10,6 +10,7 @@ import {
   stripHtml,
   type BackendBlog,
 } from '@/lib/blogs';
+import { toBlogLanguage } from '@/lib/blogLanguages';
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;
@@ -49,7 +50,7 @@ function getBestDescription(blog: BackendBlog): string {
 }
 
 const getBlogSeoSchemaBySlug = cache(async (locale: string): Promise<Record<string, BlogSeoSchemaEntry>> => {
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs(toBlogLanguage(locale));
   const entries: Record<string, BlogSeoSchemaEntry> = {};
 
   const prefix = locale === 'en' ? '' : `/${locale}`;
@@ -168,7 +169,7 @@ export default async function BlogDetailLayout({
           name: 'Dalila Diamonds',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png',
+            url: 'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png',
           },
         },
       }

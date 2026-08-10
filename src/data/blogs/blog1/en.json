@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/most-expensive-diamond-shapes.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/most-expensive-diamond-shapes.webp",
       "alt": "Round oval pear cushion emerald and radiant natural diamond shapes compared",
       "width": 1600,
       "height": 900
     },
     "roughYield": {
-      "src": "/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
       "alt": "Comparison of rough diamond use for round and fancy-shaped diamonds",
       "width": 1400,
       "height": 1000
     },
     "priceDrivers": {
-      "src": "/images/blogs/diamond-shape-price-drivers.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-shape-price-drivers.webp",
       "alt": "Factors affecting natural diamond prices by shape",
       "width": 1400,
       "height": 1000
     },
     "faceUpSize": {
-      "src": "/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
       "alt": "Face-up size comparison of one-carat diamond shapes",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Most Expensive Diamond Shapes",

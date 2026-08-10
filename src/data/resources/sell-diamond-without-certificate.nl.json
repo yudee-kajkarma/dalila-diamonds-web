@@ -34,31 +34,31 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/sell-diamond-without-certificate.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-without-certificate.webp",
       "alt": "Natuurlijke diamanten ring ter taxatie aangeboden zonder origineel certificaat",
       "width": 1600,
       "height": 900
     },
     "lostReportRecovery": {
-      "src": "/images/resources/recover-lost-diamond-report.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/recover-lost-diamond-report.webp",
       "alt": "Manieren om informatie uit een verloren diamantbeoordelingsrapport te herstellen",
       "width": 1400,
       "height": 1000
     },
     "evaluation": {
-      "src": "/images/resources/uncertified-diamond-evaluation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/uncertified-diamond-evaluation.webp",
       "alt": "Professionele evaluatie van een niet-gecertificeerde natuurlijke diamant",
       "width": 1400,
       "height": 1000
     },
     "certificationDecision": {
-      "src": "/images/resources/diamond-certification-decision-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-certification-decision-guide.webp",
       "alt": "Beslissingsgids voor het verkrijgen van een nieuw diamantbeoordelingsrapport voordat het wordt verkocht",
       "width": 1400,
       "height": 1000
     },
     "dalilaProcess": {
-      "src": "/images/resources/dalila-uncertified-diamond-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/dalila-uncertified-diamond-process.webp",
       "alt": "Dalila Diamonds-proces voor het beoordelen van een diamant zonder certificaat",
       "width": 1400,
       "height": 1000

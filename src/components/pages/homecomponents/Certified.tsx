@@ -14,17 +14,17 @@ export default function CertifiedBy() {
   const certifications = [
     {
       name: "IGI",
-      image: "/dalila_img/client/client_1.png",
+      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_1.png",
       size: { width: 180, height: 100 },
     },
     {
       name: "GIA",
-      image: "/dalila_img/client/client_2.png",
+      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_2.png",
       size: { width: 150, height: 85 },
     },
     {
       name: "HRD",
-      image: "/dalila_img/client/client_3.png",
+      image: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/client/client_3.png",
       size: { width: 260, height: 140 },
     },
   ];

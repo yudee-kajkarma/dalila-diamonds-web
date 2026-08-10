@@ -32,31 +32,31 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/how-to-sell-diamond-ring-safely.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/how-to-sell-diamond-ring-safely.webp",
       "alt": "Natürlicher Diamantring und Dokumente für einen sicheren professionellen Verkauf vorbereitet",
       "width": 1600,
       "height": 900
     },
     "safetySteps": {
-      "src": "/images/resources/diamond-ring-selling-safety-steps.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-selling-safety-steps.webp",
       "alt": "Sicherheitsmaßnahmen beim Verkauf eines Naturdiamantrings",
       "width": 1400,
       "height": 1000
     },
     "transport": {
-      "src": "/images/resources/safe-diamond-ring-transport.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/safe-diamond-ring-transport.webp",
       "alt": "Sichere Verpackung und dokumentierter Transport eines Diamantrings",
       "width": 1400,
       "height": 1000
     },
     "payment": {
-      "src": "/images/resources/diamond-ring-payment-verification.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-payment-verification.webp",
       "alt": "Schriftlicher Angebotsbeleg und bestätigte Zahlung für einen Diamantringverkauf",
       "width": 1400,
       "height": 1000
     },
     "checklistCover": {
-      "src": "/images/resources/diamond-seller-safety-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-seller-safety-checklist.webp",
       "alt": "Sicherheitscheckliste für Diamantenverkäufer zur Vorbereitung und Durchführung eines sicheren Verkaufs",
       "width": 1200,
       "height": 1200

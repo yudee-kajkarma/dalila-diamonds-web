@@ -78,7 +78,7 @@ export default function Legacy() {
           <AnimatedContainer direction="right">
             <div className="relative overflow-hidden shadow-2xl h-[450px] sm:h-[500px] md:h-[500px] lg:h-[550px]">
               <Image
-                src="/images/asscher-blue.jpg"
+                src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/asscher-blue.jpg"
                 alt="About Us Background"
                 width={800}
                 height={550}

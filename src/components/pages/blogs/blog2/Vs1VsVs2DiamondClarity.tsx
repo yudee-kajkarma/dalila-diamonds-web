@@ -370,7 +370,7 @@ export default function Vs1VsVs2DiamondClarity({
         >
           <div className="absolute inset-0">
             <Image
-              src="/images/banner-dalila-contact.png"
+              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
               alt={data.banner.imageAlt}
               fill
               className="object-cover"

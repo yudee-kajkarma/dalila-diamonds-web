@@ -35,7 +35,7 @@ const ArticlesBanner = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/banner-dalila-contact.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
             alt="Articles Background"
             fill
             className="object-cover"

@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/diamond-bow-tie-effect-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-bow-tie-effect-guide.webp",
       "alt": "Ovale Birnen- und Marquise-Naturdiamanten im Vergleich für den Fliege-Effekt",
       "width": 1600,
       "height": 900
     },
     "howItForms": {
-      "src": "/images/blogs/what-causes-diamond-bow-tie-effect.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/what-causes-diamond-bow-tie-effect.webp",
       "alt": "Leichte Beobachterhindernis und Facettenanordnung, die einen Diamant-Fliege-Effekt erzeugen",
       "width": 1400,
       "height": 1000
     },
     "severity": {
-      "src": "/images/blogs/minimal-moderate-strong-diamond-bow-tie.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/minimal-moderate-strong-diamond-bow-tie.webp",
       "alt": "Im Vergleich zu ovalen Diamanten sind die mäßigen und starken Bow-Tie-Effekte minimal",
       "width": 1400,
       "height": 1000
     },
     "inspection": {
-      "src": "/images/blogs/diamond-bow-tie-inspection-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-bow-tie-inspection-checklist.webp",
       "alt": "Offene Bewegungsbeleuchtung und Vergleichsprüfungen für eine Diamantfliege",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Diamant-Fliege-Effekt",

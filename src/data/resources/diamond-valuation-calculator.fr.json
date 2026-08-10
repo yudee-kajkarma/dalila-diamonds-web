@@ -30,7 +30,7 @@
     "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
     "primaryButtonHref": "#valuation-calculator",
     "image": {
-      "src": "/images/resources/diamond-valuation-calculator.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-valuation-calculator.webp",
       "alt": "Rapport sur les diamants naturels et leur classement à côté d'un calculateur d'évaluation des diamants en ligne",
       "width": 1600,
       "height": 900
@@ -38,19 +38,19 @@
   },
   "images": {
     "valueFactors": {
-      "src": "/images/resources/natural-diamond-value-factors.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/natural-diamond-value-factors.webp",
       "alt": "Facteurs utilisés pour calculer la valeur d'un diamant naturel",
       "width": 1400,
       "height": 1000
     },
     "retailVsResale": {
-      "src": "/images/resources/diamond-retail-vs-resale-value.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-retail-vs-resale-value.webp",
       "alt": "Comparaison de l'évaluation de l'assurance du prix de détail des diamants et de la valeur de revente",
       "width": 1400,
       "height": 1000
     },
     "process": {
-      "src": "/images/resources/dalila-diamond-valuation-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/dalila-diamond-valuation-process.webp",
       "alt": "Processus d'évaluation des diamants en ligne de Dalila Diamonds et d'Anvers",
       "width": 1400,
       "height": 1000

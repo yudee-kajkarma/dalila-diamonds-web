@@ -1,11 +1,13 @@
 import { cache } from 'react';
 import { getBlogSlug } from '@/utils/helpers';
+import type { BlogLanguage } from '@/lib/blogLanguages';
 
 export type BackendBlog = {
   _id?: string;
   title: string;
   h2Subtitle?: string;
   customSlug?: string;
+  language?: BlogLanguage;
   metaTitle?: string;
   metaDescription?: string;
   description?: string;
@@ -22,7 +24,8 @@ type BlogsApiResponse = {
 export const SITE_BASE_URL = 'https://www.daliladiamonds.com';
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || 'https://dalila-inventory-service-dev.caratlogic.com';
-export const DEFAULT_BLOG_IMAGE = `${SITE_BASE_URL}/dalila_img/Dalila_Logo.png`;
+export const DEFAULT_BLOG_IMAGE =
+  'https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png';
 export const DEFAULT_BLOG_DESCRIPTION =
   'Read our latest insights about diamonds and the diamond industry.';
 
@@ -46,10 +49,10 @@ export function blogToSlug(blog: Pick<BackendBlog, 'title' | 'customSlug'>): str
 // busts these immediately via revalidatePath() in app/blogs/actions.ts.
 const BLOG_REVALIDATE_SECONDS = 300;
 
-export const getAllBlogs = cache(async (): Promise<BackendBlog[]> => {
+export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<BackendBlog[]> => {
   try {
     const response = await fetch(
-      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
+      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc&language=${language}`,
       // The list endpoint omits the article body, so the payload is small and
       // safe to cache. Full content is fetched per-blog in getBlogById.
       { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
@@ -83,9 +86,12 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   }
 });
 
-export const getBlogBySlug = cache(async (slug: string): Promise<BackendBlog | null> => {
+export const getBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage = 'en',
+): Promise<BackendBlog | null> => {
   const target = normalizeSlug(slug);
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs(language);
   const match = blogs.find((blog) => blogToSlug(blog) === target);
   if (!match?._id) {
     return match ?? null;

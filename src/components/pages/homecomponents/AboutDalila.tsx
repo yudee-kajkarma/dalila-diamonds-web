@@ -35,7 +35,7 @@ export default function AboutDalila() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden">
                 <Image
-                  src="/diamondcuts/About.jpg"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/About.jpg"
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

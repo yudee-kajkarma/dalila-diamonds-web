@@ -27,7 +27,7 @@ export default function SydBanner({ content }: SydBannerProps) {
       >
         <div className="absolute inset-0">
           <Image
-            src="/images/banner-dalila-contact.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/banner-dalila-contact.png"
             alt=""
             fill
             className="object-cover"

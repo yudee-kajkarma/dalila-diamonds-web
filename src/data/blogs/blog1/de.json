@@ -11,30 +11,30 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/most-expensive-diamond-shapes.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/most-expensive-diamond-shapes.webp",
       "alt": "Runde ovale Birnenkissen-Smaragd- und strahlende natürliche Diamantformen im Vergleich",
       "width": 1600,
       "height": 900
     },
     "roughYield": {
-      "src": "/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/round-vs-fancy-diamond-rough-yield.webp",
       "alt": "Vergleich der Verwendung von Rohdiamanten für runde und ausgefallene Diamanten",
       "width": 1400,
       "height": 1000
     },
     "priceDrivers": {
-      "src": "/images/blogs/diamond-shape-price-drivers.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/diamond-shape-price-drivers.webp",
       "alt": "Faktoren, die den Preis von Naturdiamanten je nach Form beeinflussen",
       "width": 1400,
       "height": 1000
     },
     "faceUpSize": {
-      "src": "/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/one-carat-diamond-shapes-face-up-size.webp",
       "alt": "Offener Größenvergleich von Einkaräter-Diamantformen",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Die teuersten Diamantformen",

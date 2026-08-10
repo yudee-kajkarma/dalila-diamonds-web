@@ -38,7 +38,7 @@ export default function AboutMilestone() {
             <AnimatedContainer direction="left" delay={0.5}>
               <div className="relative h-[350px] md:h-[390px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="/images/about_us_3.png"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/about_us_3.png"
                   alt="Diamond on display"
                   width={480}
                   height={390}

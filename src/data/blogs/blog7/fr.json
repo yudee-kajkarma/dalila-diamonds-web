@@ -12,36 +12,36 @@
   },
   "images": {
     "featured": {
-      "src": "/images/blogs/igi-diamond-certification-guide.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-diamond-certification-guide.webp",
       "alt": "Rapport IGI sur les diamants naturels et les diamants en vrac vérifiés sous grossissement",
       "width": 1600,
       "height": 900
     },
     "annotatedReport": {
-      "src": "/images/blogs/how-to-read-igi-diamond-report.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/how-to-read-igi-diamond-report.webp",
       "alt": "Champs de rapport sur les diamants naturels IGI pour les mesures numériques, la clarté des couleurs et la coupe",
       "width": 1400,
       "height": 1100
     },
     "verificationProcess": {
-      "src": "/images/blogs/verify-igi-diamond-certificate.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/verify-igi-diamond-certificate.webp",
       "alt": "Enregistrement en ligne du numéro de rapport IGI et processus de vérification physique des diamants",
       "width": 1400,
       "height": 1000
     },
     "laserInscription": {
-      "src": "/images/blogs/igi-diamond-laser-inscription-check.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-diamond-laser-inscription-check.webp",
       "alt": "Inscription laser du numéro de rapport IGI inspectée sur une ceinture en diamant naturel",
       "width": 1400,
       "height": 1000
     },
     "inconsistencyMap": {
-      "src": "/images/blogs/igi-report-inconsistency-warning-signs.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/blogs/igi-report-inconsistency-warning-signs.webp",
       "alt": "Panneaux d'avertissement dans un rapport IGI, inscription des mesures du numéro et description du diamant",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Guide de certification IGI",

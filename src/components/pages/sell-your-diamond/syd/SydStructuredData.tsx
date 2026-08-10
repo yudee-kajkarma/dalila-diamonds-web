@@ -19,7 +19,7 @@ export default function SydStructuredData() {
         url: "https://www.daliladiamonds.com/",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+          url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
         },
         email: "business@daliladiamonds.com",
         telephone: "+32 3 613 94 74",

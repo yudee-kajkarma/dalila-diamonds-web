@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ChevronUp, ChevronDown } from "lucide-react";
-import { FaInstagram } from "react-icons/fa";
+import { ChevronUp, ChevronDown, Instagram } from "lucide-react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { useRouter } from "next/navigation";
@@ -61,7 +60,7 @@ export default function Footer() {
                             {/* Logo and Instagram */}
                             <div className="flex flex-col items-center justify-center">
                                 <Image
-                                    src="/dalila_img/mobile-logo.png"
+                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/mobile-logo.png"
                                     alt="Dalila Diamonds Mobile Logo"
                                     width={120}
                                     height={48}
@@ -74,7 +73,7 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 text-white/70 hover:text-[#c89e3a] transition-colors mt-2"
                                 >
-                                    <FaInstagram className="w-5 h-5" />
+                                    <Instagram className="w-5 h-5" />
                                 </a>
                             </div>
                             {/* Address */}
@@ -156,7 +155,7 @@ export default function Footer() {
                             <div>
                                 <div className="mb-6">
                                     <Image
-                                        src="/dalila_img/Dalila_Logo.png"
+                                        src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
                                         alt="Dalila Diamonds Logo"
                                         width={160}
                                         height={64}
@@ -171,7 +170,7 @@ export default function Footer() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 text-white/70 hover:text-[#c89e3a] transition-colors"
                                     >
-                                        <FaInstagram className="w-5 h-5" />
+                                        <Instagram className="w-5 h-5" />
                                     </a>
                                 </div>
                             </div>

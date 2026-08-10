@@ -29,7 +29,7 @@
     "secondaryButtonText": "SOLICITA UN DIAMANTE A TRAVÉS DE DS4U",
     "secondaryButtonHref": "/diamond-source",
     "image": {
-      "src": "/images/resources/diamond-quality-chart-4cs.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-quality-chart-4cs.webp",
       "alt": "Tabla de calidad de los diamantes que explica la claridad del color de la talla y el peso en quilates",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "colourClarity": {
-      "src": "/images/resources/diamond-colour-clarity-quality-chart.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-colour-clarity-quality-chart.webp",
       "alt": "Grados de claridad y color de diamante natural mostrados en un cuadro comparativo",
       "width": 1400,
       "height": 1000
     },
     "cutPerformance": {
-      "src": "/images/resources/diamond-cut-quality-performance-chart.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-cut-quality-performance-chart.webp",
       "alt": "Diamantes redondos comparados por calidad de corte y rendimiento lumínico",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "/images/resources/diamond-quality-priority-comparison.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-quality-priority-comparison.webp",
       "alt": "Combinaciones de calidad de diamantes comparadas por apariencia rara y presupuesto",
       "width": 1400,
       "height": 1000

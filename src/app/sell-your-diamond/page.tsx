@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+        url: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png",
       },
     ],
   },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SYD_PAGE_TITLE,
     description: SYD_PAGE_DESCRIPTION,
-    images: ["https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"],
+    images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
   },
 };
 

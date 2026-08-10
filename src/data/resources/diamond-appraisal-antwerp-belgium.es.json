@@ -34,31 +34,31 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/diamond-appraisal-antwerp.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-antwerp.webp",
       "alt": "Diamante natural sometido a tasación profesional en Amberes",
       "width": 1600,
       "height": 900
     },
     "comparison": {
-      "src": "/images/resources/diamond-appraisal-vs-grading-offer.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-vs-grading-offer.webp",
       "alt": "Diferencia entre informe de calificación de tasación de diamantes y oferta de compra",
       "width": 1400,
       "height": 1000
     },
     "process": {
-      "src": "/images/resources/diamond-appraisal-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-process.webp",
       "alt": "Pasos seguidos durante una tasación profesional de diamantes",
       "width": 1400,
       "height": 1000
     },
     "costFactors": {
-      "src": "/images/resources/diamond-appraisal-cost-factors.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-appraisal-cost-factors.webp",
       "alt": "Factores que influyen en el coste de una tasación de diamantes en Amberes",
       "width": 1400,
       "height": 1000
     },
     "purposeTypes": {
-      "src": "/images/resources/types-of-diamond-valuation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/types-of-diamond-valuation.webp",
       "alt": "Tipos de valoración de diamantes para la venta de seguros de herencia y certificación.",
       "width": 1400,
       "height": 1000

@@ -43,6 +43,13 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# AWS S3 upload helper — never commit credentials, staged images, or URL dumps
+/s3-upload/
+s3-upload/.env
+s3-upload/images/
+s3-upload/uploaded-urls.json
+s3-upload/node_modules/
+
 # vercel
 .vercel
 
@@ -74,5 +81,13 @@ logs/
 .cache/
 .turbo/
 .eslintcache
+
+# Large marketing videos — keep locally / on CDN, do not commit binaries.
+# Re-encode with: npm run optimize:videos
+# Serve via CDN by setting NEXT_PUBLIC_VIDEO_CDN_URL
+/public/images/FALLING_diam.mp4
+/public/images/world_net.mp4
+/public/images/video1.mp4
+/public/New-Videos/*.mp4
 
 *.md

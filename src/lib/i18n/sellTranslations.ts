@@ -30,7 +30,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Understanding the Real<br />Value of Your Diamond",
         description:
           "<p class='mb-4'><strong>The 4Cs Explained</strong></p><p class='mb-4'>Every diamond's value depends on the famous 4Cs:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Cut</strong> – Determines sparkle and brilliance</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Color</strong> – The less color, the higher the value</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Clarity</strong> – Fewer inclusions mean better quality</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Carat</strong> – The weight of the diamond</span></li></ul><p class='mb-4'>Think of the 4Cs like a diamond's report card. The stronger the grades, the higher the resale value.</p><p><strong>Market Demand and Pricing Trends</strong></p><p>Diamond prices aren't fixed forever. Market demand, design trends, and global supply chains influence resale value. For example, classic round diamonds usually sell faster than unusual cuts.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Diamond 4Cs evaluation",
         imagePosition: "left",
       },
@@ -39,7 +39,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Choosing a Trusted<br />Diamond Buyer",
         description:
           "<p class='mb-4'><strong>Signs of a Reliable Diamond Company</strong></p><p class='mb-4'>A trustworthy buyer should offer:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Transparent pricing process</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Professional evaluation</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Secure shipping or in-person inspection</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Clear payment terms</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Positive customer reputation</span></li></ul><p class='mb-4'>A premium company explains how they calculate value instead of giving vague offers.</p><p class='mb-4'><strong>Risks of Selling to Unverified Buyers</strong></p><p class='mb-4'>Selling to unknown individuals or unverified dealers can lead to:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Underpricing</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Payment delays</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fraud risks</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>No documentation</span></li></ul><p>If a deal sounds too quick or too good to be true, it probably is.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Trusted diamond buyer selection",
         imagePosition: "right",
       },
@@ -62,7 +62,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Why Dalila Diamonds is<br />a Premium Diamond Supplier",
         description:
           "<p class='mb-4'><strong>Global Industry Network</strong></p><p class='mb-4'>A strong global network allows diamond companies to offer competitive prices. Buyers connected with international jewelers and retailers can resell diamonds efficiently, which means better offers for sellers.</p><p class='mb-4'><strong>Trusted by Retailers and Jewelers</strong></p><p class='mb-4'>Being recognized as a premium diamond supplier for B2B business in Belgium means working with:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Jewelry retailers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamond wholesalers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Manufacturers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Luxury brands</span></li></ul><p>This professional demand ensures consistent valuation standards and fair market pricing.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Dalila Diamonds global network",
         imagePosition: "left",
       },
@@ -71,7 +71,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Benefits of Selling<br />Diamonds Online vs Offline",
         description:
           "<p class='mb-4'>Selling online through a trusted company offers:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Convenience from home</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Professional remote evaluation</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Access to global buyers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Faster offers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Secure insured shipping</span></li></ul><p>Offline selling may feel traditional, but it often limits you to local buyers and fewer price comparisons.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Online diamond selling advantages",
         imagePosition: "right",
       },
@@ -100,7 +100,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Who Can Sell<br />Diamonds to Dalila Diamonds",
         description:
           "<p class='mb-4'>Almost anyone can sell:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Individuals with old jewelry</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>People upgrading rings</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Families selling heirlooms</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Investors liquidating assets</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Retailers clearing inventory</span></li></ul><p>Every diamond has value when assessed professionally.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Who can sell diamonds",
         imagePosition: "left",
       },
@@ -109,7 +109,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Selling Engagement Rings,<br />Heirlooms, and Loose Diamonds",
         description:
           "<p class='mb-4'>Different types of diamonds require different evaluation approaches:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Engagement rings</strong> – Value depends on stone + setting</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Heirlooms</strong> – Antique value may increase price</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Loose diamonds</strong> – Easier to grade and often faster to sell</span></li></ul><p>Professional buyers consider both emotional and market worth.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Different types of diamond jewelry",
         imagePosition: "right",
       },
@@ -146,7 +146,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Verstehen Sie den tatsächlichen<br />Wert Ihres Diamanten",
         description:
           "<p class='mb-4'><strong>Die 4Cs erklärt</strong></p><p class='mb-4'>Der Wert jedes Diamanten hängt von den bekannten 4Cs ab:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Schliff (Cut)</strong> – Bestimmt das Funkeln und die Brillanz</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Farbe (Color)</strong> – Je weniger Farbe, desto höher der Wert</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Reinheit (Clarity)</strong> – Weniger Einschlüsse bedeuten bessere Qualität</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Karat (Carat)</strong> – Das Gewicht des Diamanten</span></li></ul><p class='mb-4'>Betrachten Sie die 4Cs wie das Zeugnis eines Diamanten. Je besser die Noten, desto höher der Wiederverkaufswert.</p><p><strong>Marktnachfrage und Preistrends</strong></p><p>Diamantenpreise sind nicht für immer festgelegt. Marktnachfrage, Designtrends und globale Lieferketten beeinflussen den Wiederverkaufswert. Beispielsweise verkaufen sich klassische runde Diamanten in der Regel schneller als ungewöhnliche Schliffe.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Diamond 4Cs evaluation",
         imagePosition: "left",
       },
@@ -155,7 +155,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Auswahl eines vertrauenswürdigen<br />Diamantenkäufers",
         description:
           "<p class='mb-4'><strong>Merkmale eines zuverlässigen Diamantenunternehmens</strong></p><p class='mb-4'>Ein vertrauenswürdiger Käufer sollte Folgendes bieten:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Einen transparenten Preisfindungsprozess</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Eine professionelle Bewertung</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Sicheren Versand oder persönliche Inspektion</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Klare Zahlungsbedingungen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Einen guten Ruf bei den Kunden</span></li></ul><p class='mb-4'>Ein erstklassiges Unternehmen erklärt Ihnen, wie es den Wert berechnet, anstatt Ihnen vage Angebote zu machen.</p><p class='mb-4'><strong>Risiken beim Verkauf an nicht verifizierte Käufer</strong></p><p class='mb-4'>Der Verkauf an unbekannte Personen oder nicht verifizierte Händler kann zu folgenden Problemen führen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Unterbewertung (zu niedrige Preise)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zahlungsverzögerungen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Betrugsrisiko</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fehlende Dokumentation</span></li></ul><p>Wenn ein Geschäft zu schnell geht oder zu gut klingt, um wahr zu sein, ist es das meistens auch.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Trusted diamond buyer selection",
         imagePosition: "right",
       },
@@ -178,7 +178,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Warum Dalila Diamonds ein erstklassiger<br />Lieferant und Partner ist",
         description:
           "<p class='mb-4'><strong>Globales Branchennetzwerk</strong></p><p class='mb-4'>Ein starkes globales Netzwerk ermöglicht es Diamantenunternehmen, wettbewerbsfähige Preise anzubieten. Käufer, die mit internationalen Juwelieren und Einzelhändlern verbunden sind, können Diamanten effizient weiterverkaufen, was bessere Angebote für die Verkäufer bedeutet.</p><p class='mb-4'><strong>Vertrauen bei Einzelhändlern und Juwelieren</strong></p><p class='mb-4'>Als erstklassiger Diamantenlieferant für das B2B-Geschäft in Belgien anerkannt zu sein, bedeutet die Zusammenarbeit mit:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Einzelhändlern für Schmuck</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantengroßhändlern</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Herstellern und Produzenten</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Luxusmarken</span></li></ul><p>Diese professionelle Nachfrage sorgt für einheitliche Bewertungsstandards und eine faire, marktgerechte Preisgestaltung.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Dalila Diamonds global network",
         imagePosition: "left",
       },
@@ -187,7 +187,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Vorteile des Online-Verkaufs<br />von Diamanten im Vergleich zu Offline",
         description:
           "<p class='mb-4'>Der Online-Verkauf über ein vertrauenswürdiges Unternehmen bietet folgende Vorteile:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Bequemlichkeit von zu Hause aus</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Professionelle Fernbewertung</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Zugriff auf globale Käufer</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Schnellere Angebote</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Sicherer, versicherter Versand</span></li></ul><p>Der Offline-Verkauf mag traditionell erscheinen, schränkt Sie jedoch oft auf lokale Käufer und weniger Preisvergleiche ein.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Online diamond selling advantages",
         imagePosition: "right",
       },
@@ -216,7 +216,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Wer Diamanten an Dalila Diamonds<br />verkaufen kann",
         description:
           "<p class='mb-4'>Fast jeder kann verkaufen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Einzelpersonen mit altem Schmuck</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Personen, die ein Ring-Upgrade wünschen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Familien, die Erbstücke verkaufen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Investoren, die Vermögenswerte liquidieren</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Händler, die Lagerbestände abbauen</span></li></ul><p>Jeder Diamant hat einen Wert, wenn er professionell bewertet wird.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Who can sell diamonds",
         imagePosition: "left",
       },
@@ -225,7 +225,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Verkauf von Verlobungsringen,<br />Erbstücken und losen Diamanten",
         description:
           "<p class='mb-4'>Verschiedene Arten von Diamanten erfordern unterschiedliche Bewertungsansätze:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Verlobungsringe</strong> – Der Wert hängt vom Stein + der Fassung ab</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Erbstücke</strong> – Der antike Wert kann den Preis erhöhen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Lose Diamanten</strong> – Einfacher zu bewerten und oft schneller zu verkaufen</span></li></ul><p>Professionelle Käufer berücksichtigen sowohl den emotionalen als auch den Marktwert.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Different types of diamond jewelry",
         imagePosition: "right",
       },
@@ -262,7 +262,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "De werkelijke waarde van<br />uw diamant begrijpen",
         description:
           "<p class='mb-4'><strong>De 4C's uitgelegd</strong></p><p class='mb-4'>De waarde van elke diamant hangt af van de bekende 4C's:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Slijpvorm (Cut)</strong> – Bepaalt de schittering en glans</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Kleur (Color)</strong> – Hoe minder kleur, hoe hoger de waarde</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Zuiverheid (Clarity)</strong> – Minder insluitsels betekenen een betere kwaliteit</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Karaat (Carat)</strong> – Het gewicht van de diamant</span></li></ul><p class='mb-4'>Zie de 4C's als het rapport van een diamant. Hoe sterker de beoordelingen, hoe hoger de inkoopwaarde.</p><p><strong>Marktvraag en prijstrends</strong></p><p>Diamantprijzen staan niet voor altijd vast. De marktvraag, designtrends en wereldwijde toeleveringsketens beïnvloeden de restwaarde. Klassieke ronde diamanten verkopen bijvoorbeeld meestal sneller dan ongebruikelijke vormen.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Beoordeling van de 4C's",
         imagePosition: "left",
       },
@@ -271,7 +271,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Een betrouwbare<br />diamantinkoper kiezen",
         description:
           "<p class='mb-4'><strong>Kenmerken van een betrouwbaar diamantbedrijf</strong></p><p class='mb-4'>Een betrouwbare koper moet het volgende bieden:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Een transparant prijsbepalingsproces</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Een professionele beoordeling</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Veilige verzending of persoonlijke inspectie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Duidelijke betalingsvoorwaarden</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Een goede reputatie bij klanten</span></li></ul><p class='mb-4'>Een premium bedrijf legt uit hoe zij de waarde berekenen in plaats van vage biedingen te doen.</p><p class='mb-4'><strong>Risico's van verkopen aan niet-geverifieerde kopers</strong></p><p class='mb-4'>Verkopen aan onbekende personen of niet-geverifieerde handelaren kan leiden tot:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Te lage prijsbiedingen (onderwaardering)</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Betalingsvertragingen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Risico op fraude</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Ontbreken van documentatie</span></li></ul><p>Als een deal te snel gaat of te mooi klinkt om waar te zijn, dan is dat meestal ook zo.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Keuze van betrouwbare diamantinkoper",
         imagePosition: "right",
       },
@@ -294,7 +294,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Waarom Dalila Diamonds een premium<br />leverancier en inkooppartner is",
         description:
           "<p class='mb-4'><strong>Wereldwijd B2B-netwerk</strong></p><p class='mb-4'>Een sterk wereldwijd netwerk stelt diamantbedrijven in staat om concurrerende prijzen te bieden. Kopers die verbonden zijn met internationale juweliers en retailers kunnen diamanten efficiënt doorverkopen, wat betere aanbiedingen oplevert voor verkopers.</p><p class='mb-4'><strong>Vertrouwd door retailers en juweliers</strong></p><p class='mb-4'>Erkend worden als een premium diamantleverancier voor B2B-activiteiten in België betekent nauwe samenwerking met:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Retailers in fijne sieraden</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Diamantgroothandelaren</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fabrikanten en ateliers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Luxemerken</span></li></ul><p>Deze professionele vraag zorgt voor consistente beoordelingsnormen en eerlijke, marktconforme prijzen.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Dalila Diamonds netwerk",
         imagePosition: "left",
       },
@@ -303,7 +303,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Voordelen van online verkopen<br />in vergelijking met offline",
         description:
           "<p class='mb-4'>Online verkopen via een betrouwbaar bedrijf biedt de volgende voordelen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Gemak vanuit uw eigen huis</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Professionele beoordeling op afstand</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Toegang tot wereldwijde kopers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Snellere aanbiedingen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Veilige, verzekerde verzending</span></li></ul><p>Offline verkopen lijkt traditioneel, maar beperkt u vaak tot lokale kopers en minder prijsvergelijkingen.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Voordelen online verkopen",
         imagePosition: "right",
       },
@@ -332,7 +332,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Wie diamanten aan Dalila Diamonds<br />kan verkopen",
         description:
           "<p class='mb-4'>Vrijwel iedereen kan verkopen:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Particulieren met oude sieraden</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Mensen die een upgrade van een ring wensen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Families die erfstukken verkopen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Beleggers die activa liquideren</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Handelaren die hun voorraden willen afbouwen</span></li></ul><p>Elke diamant heeft waarde als deze professioneel wordt beoordeeld.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Wie kan diamanten verkopen",
         imagePosition: "left",
       },
@@ -341,7 +341,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Verkoop van verlovingsringen,<br />erfstukken en losse diamanten",
         description:
           "<p class='mb-4'>Verschillende soorten diamanten vereisen een verschillende beoordelingsaanpak:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Verlovingsringen</strong> – De waarde hangt af van de steen + de zetting</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Erfstukken</strong> – Antieke waarde kan de prijs verhogen</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Losse diamanten</strong> – Gemakkelijker te beoordelen en vaak sneller te verkopen</span></li></ul><p>Professionele kopers houden rekening met zowel de emotionele waarde als de marktwaarde.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Soorten diamantensieraden",
         imagePosition: "right",
       },
@@ -378,7 +378,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Comprendre la valeur réelle<br />de votre diamant",
         description:
           "<p class='mb-4'><strong>Les 4C expliqués</strong></p><p class='mb-4'>La valeur de chaque diamant dépend des fameux 4C :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Taille (Cut)</strong> – Détermine la brillance et l'éclat</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Couleur (Color)</strong> – Moins il y a de couleur, plus la valeur est élevée</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Pureté (Clarity)</strong> – Moins il y a d'inclusions, meilleure est la qualité</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Carat (Carat)</strong> – Le poids du diamant</span></li></ul><p class='mb-4'>Considérez les 4C comme le bulletin de notes d'un diamant. Plus les notes sont élevées, plus sa valeur de revente l'est.</p><p><strong>Demande du marché et tendances de prix</strong></p><p>Le cours des diamants n'est pas fixe. La demande, les tendances de design et l'état du marché mondial influencent la valeur. Les diamants ronds traditionnels se vendent par exemple plus rapidement que les tailles originales.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Évaluation des 4C du diamant",
         imagePosition: "left",
       },
@@ -387,7 +387,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Choisir un acheteur<br />de diamants de confiance",
         description:
           "<p class='mb-4'><strong>Critères d'un établissement diamantaire sérieux</strong></p><p class='mb-4'>Un acheteur de confiance doit offrir :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Un processus d'estimation transparent</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Une expertise professionnelle</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Un envoi sécurisé ou une inspection physique</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des modalités de paiement claires</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Une excellente réputation clients</span></li></ul><p class='mb-4'>Une maison sérieuse vous explique comment elle calcule la valeur au lieu de formuler des offres floues.</p><p class='mb-4'><strong>Risques liés aux acheteurs non agréés</strong></p><p class='mb-4'>Vendre à des personnes inconnues ou à des marchands non vérifiés présente des risques :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Sous-estimation flagrante</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Délais de paiement suspects</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Risques de fraude</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Absence de documents légaux</span></li></ul><p>Si une transaction paraît trop rapide ou trop belle pour être vraie, la prudence est de mise.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Sélection d'un acheteur de diamants fiable",
         imagePosition: "right",
       },
@@ -410,7 +410,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Pourquoi Dalila Diamonds est un fournisseur<br />haut de gamme et un partenaire de confiance",
         description:
           "<p class='mb-4'><strong>Réseau sectoriel mondial</strong></p><p class='mb-4'>Un réseau mondial solide permet aux maisons diamantaires de proposer des prix compétitifs. Les acheteurs en lien direct avec des joailliers et détaillants internationaux peuvent revendre les pierres efficacement, ce qui garantit de meilleures offres pour les vendeurs.</p><p class='mb-4'><strong>La confiance des joailliers et détaillants</strong></p><p class='mb-4'>Être reconnu comme un fournisseur de diamants haut de gamme pour l'activité B2B en Belgique implique des partenariats avec :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des détaillants en joaillerie</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des grossistes en diamants</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des fabricants et ateliers</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des marques de luxe</span></li></ul><p>Cette demande professionnelle garantit des normes d'évaluation constantes et des prix conformes au marché mondial.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Réseau Dalila Diamonds",
         imagePosition: "left",
       },
@@ -419,7 +419,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Avantages de la vente de diamants<br />en ligne par rapport au physique",
         description:
           "<p class='mb-4'>Vendre en ligne à un établissement de confiance offre les avantages suivants :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Simplicité depuis votre domicile</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Évaluation professionnelle à distance</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Accès aux acheteurs mondiaux</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Obtention rapide des offres</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Envoi sécurisé avec assurance</span></li></ul><p>La vente en boutique physique peut sembler rassurante, mais elle vous limite souvent à des acheteurs locaux et à moins de comparaisons.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Avantages de la vente de diamant en ligne",
         imagePosition: "right",
       },
@@ -448,7 +448,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Qui peut vendre des diamants<br />à Dalila Diamonds",
         description:
           "<p class='mb-4'>Pratiquement tout le monde peut vendre :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des particuliers possédant d'anciens bijoux</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des personnes souhaitant modifier une bague</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des familles vendant des bijoux d'héritage</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des investisseurs liquidant des placements</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Des professionnels réduisant leurs stocks</span></li></ul><p>Chaque diamant a une valeur lorsqu'il est estimé par un professionnel.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Qui peut vendre des diamants",
         imagePosition: "left",
       },
@@ -457,7 +457,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Vente de bagues de fiançailles,<br />bijoux d'héritage et diamants non montés",
         description:
           "<p class='mb-4'>Les différents types de diamants requièrent des méthodes d'estimation distinctes :</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Bagues de fiançailles</strong> – La valeur dépend de la pierre + de la monture</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Héritage</strong> – Une valeur historique ou antique peut majorer le prix</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Diamants non montés</strong> – Plus faciles à classer et souvent plus rapides à vendre</span></li></ul><p>Les acheteurs professionnels prennent en compte à la fois la valeur affective et la valeur marchande.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Types de bijoux en diamant",
         imagePosition: "right",
       },
@@ -494,7 +494,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Comprender el valor real<br />de su diamante",
         description:
           "<p class='mb-4'><strong>Las 4C explicadas</strong></p><p class='mb-4'>El valor de cada diamante depende de las famosas 4C:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Corte (Cut)</strong> – Determina el brillo y el centelleo</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Color (Color)</strong> – Cuanto menos color, mayor es el valor</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Pureza (Clarity)</strong> – Menos inclusiones significan mejor calidad</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Quilates (Carat)</strong> – El peso del diamante</span></li></ul><p class='mb-4'>Piense en las 4C como la boleta de calificaciones de un diamante. Cuanto más altas sean las calificaciones, mayor será su valor de reventa.</p><p><strong>Demanda del mercado y tendencias de precios</strong></p><p>Los precios de los diamantes no son fijos. La demanda, las tendencias de diseño y las cadenas de suministro mundiales influyen en el valor de reventa. Los diamantes redondos clásicos, por ejemplo, suelen venderse más rápido que las tallas inusuales.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Evaluación de las 4C del diamante",
         imagePosition: "left",
       },
@@ -503,7 +503,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Elegir un comprador<br />de diamantes de confianza",
         description:
           "<p class='mb-4'><strong>Señales de una empresa de diamantes seria</strong></p><p class='mb-4'>Un comprador de confianza debe ofrecer:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Proceso de fijación de precios transparente</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Evaluación profesional</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Envío seguro o inspección en persona</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Condiciones de pago claras</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Excelente reputación entre los clientes</span></li></ul><p class='mb-4'>Una firma premium le explica cómo calculan el valor en lugar de darle ofertas confusas.</p><p class='mb-4'><strong>Riesgos de vender a compradores no verificados</strong></p><p class='mb-4'>Vender a personas desconocidas o a intermediarios no verificados presenta riesgos:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Subvaloración significativa</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Retrasos en el pago</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Riesgos de fraude</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Falta de documentos</span></li></ul><p>Si una transacción parece demasiado rápida o demasiado buena para ser verdad, probablemente no lo sea.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Selección de comprador de diamantes confiable",
         imagePosition: "right",
       },
@@ -526,7 +526,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Por qué Dalila Diamonds es un proveedor<br />premium y un socio de confianza",
         description:
           "<p class='mb-4'><strong>Red global del sector</strong></p><p class='mb-4'>Una red mundial sólida permite a las firmas de diamantes ofrecer precios competitivos. Los compradores conectados con joyerías y minoristas internacionales pueden revender las piedras eficientemente, lo que garantiza mejores ofertas para los vendedores.</p><p class='mb-4'><strong>La confianza de los minoristas y joyeros</strong></p><p class='mb-4'>Ser reconocido como un proveedor de diamantes premium para el negocio B2B en Bélgica implica colaboraciones con:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Minoristas de joyería fina</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Mayoristas de diamantes</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Fabricantes y talleres</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Marcas de lujo</span></li></ul><p>Esta demanda profesional garantiza estándares de valoración uniformes y precios acordes con el mercado mundial.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Red Dalila Diamonds",
         imagePosition: "left",
       },
@@ -535,7 +535,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Ventajas de vender diamantes<br />en línea frente a tienda física",
         description:
           "<p class='mb-4'>Vender en línea a una empresa de confianza ofrece las siguientes ventajas:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Comodidad desde su hogar</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Evaluación profesional a distancia</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Acceso a compradores globales</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Obtención rápida de ofertas</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Envío seguro con cobertura de seguro</span></li></ul><p>La venta en tienda física puede parecer tradicional, pero a menudo le limita a compradores locales y a menos comparaciones de precios.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Ventajas de la venta de diamantes en línea",
         imagePosition: "right",
       },
@@ -564,7 +564,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Quién puede vender diamantes<br />a Dalila Diamonds",
         description:
           "<p class='mb-4'>Casi cualquier persona puede vender:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Particulares con joyas antiguas</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Personas que desean mejorar un anillo</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Familias que venden joyas heredadas</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Inversores que liquidan activos</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Minoristas que liquidan inventario</span></li></ul><p>Cada diamante tiene valor cuando se evalúa profesionalmente.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Quién puede vender diamantes",
         imagePosition: "left",
       },
@@ -573,7 +573,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Venta de anillos de compromiso,<br />joyas heredadas y diamantes sueltos",
         description:
           "<p class='mb-4'>Los diferentes tipos de diamantes requieren distintos métodos de evaluación:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Anillos de compromiso</strong> – El valor depende de la piedra + de la montura</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Joyas heredadas</strong> – Un valor antiguo o de época puede incrementar el precio</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Diamantes sueltos</strong> – Más fáciles de clasificar y a menudo más rápidos de vender</span></li></ul><p>Los compradores profesionales tienen en cuenta tanto el valor sentimental como el valor de mercado.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Tipos de joyas de diamantes",
         imagePosition: "right",
       },
@@ -610,7 +610,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Comprendere il valore reale<br />del vostro diamante",
         description:
           "<p class='mb-4'><strong>Le 4C spiegate</strong></p><p class='mb-4'>Il valore di ciascun diamante dipende dalle famose 4C:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Taglio (Cut)</strong> – Determina la brillantezza e lo splendore</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Colore (Color)</strong> – Meno colore c'è, maggiore è il valore</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Purezza (Clarity)</strong> – Meno inclusioni significano migliore qualità</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Carati (Carat)</strong> – Il peso del diamante</span></li></ul><p class='mb-4'>Pensate alle 4C come alla pagella di un diamante. Più alti sono i voti, maggiore sarà il suo valore di rivendita.</p><p><strong>Domanda del mercato e tendenze dei prezzi</strong></p><p>I prezzi dei diamanti non sono fissi. La domanda, le tendenze di design e le catene di fornitura globali influenzano il valore. I diamanti rotondi classici si vendono ad esempio più rapidamente rispetto ai tagli particolari.</p>",
-        imageSrc: "/selllSafe/loose.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/loose.jpg",
         imageAlt: "Valutazione delle 4C del diamante",
         imagePosition: "left",
       },
@@ -619,7 +619,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Scegliere un acquirente<br />di diamanti di fiducia",
         description:
           "<p class='mb-4'><strong>Caratteristiche di una società di diamanti seria</strong></p><p class='mb-4'>Un acquirente di fiducia deve offrire:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Un processo di stima trasparente</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Una valutazione professionale</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Una spedizione sicura o un'ispezione fisica</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Modalità di pagamento chiare</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Un'ottima reputazione clienti</span></li></ul><p class='mb-4'>Un'azienda premium vi spiega come calcola il valore invece di formularvi offerte vaghe.</p><p class='mb-4'><strong>Rischi legati ad acquirenti non verificati</strong></p><p class='mb-4'>Vendere a persone sconosciute o a commercianti non verificati presenta dei rischi:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Sottovalutazione significativa</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Ritardi di pagamento sospetti</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Rischi di truffe</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Assenza di documenti legali</span></li></ul><p>Se una transazione appare troppo rapida o troppo bella per essere vera, la prudenza è d'obbligo.</p>",
-        imageSrc: "/selllSafe/sell-diamonds.jpg",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/sell-diamonds.jpg",
         imageAlt: "Selezione di acquirente di diamanti affidabile",
         imagePosition: "right",
       },
@@ -642,7 +642,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Perché Dalila Diamonds è un fornitore<br />di fascia alta e un partner di fiducia",
         description:
           "<p class='mb-4'><strong>Rete globale del settore</strong></p><p class='mb-4'>Una rete mondiale solida consente alle aziende di diamanti di offrire prezzi competitivi. Gli acquirenti in contatto diretto con gioiellieri e dettaglianti internazionali possono rivendere le pietre in modo efficiente, il che garantisce migliori offerte per i venditori.</p><p class='mb-4'><strong>La fiducia dei gioiellieri e dei dettaglianti</strong></p><p class='mb-4'>Essere riconosciuto come un fornitore di diamanti premium per l'attività B2B in Belgio implica collaborazioni con:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Dettaglianti di gioielleria raffinata</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Grossisti di diamanti</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Produttori e laboratori</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Marchi di lusso</span></li></ul><p>Questa domanda professionale garantisce standard di valutazione costanti e prezzi conformi al mercato mondiale.</p>",
-        imageSrc: "/selllSafe/step_4.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_4.png",
         imageAlt: "Rete Dalila Diamonds",
         imagePosition: "left",
       },
@@ -651,7 +651,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Vantaggi della vendita di diamanti<br />online rispetto al negozio fisico",
         description:
           "<p class='mb-4'>Vendere online a un'azienda di fiducia offre i seguenti vantaggi:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Comodità da casa vostra</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Valutazione professionale a distanza</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Accesso agli acquirenti globali</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Ottenimento rapido delle offerte</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Spedizione sicura con assicurazione</span></li></ul><p>La vendita in negozio fisico può sembrare tradizionale, ma spesso vi limita ad acquirenti locali e a meno confronti di prezzo.</p>",
-        imageSrc: "/selllSafe/recieve_your_payment.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/recieve_your_payment.png",
         imageAlt: "Vantaggi della vendita di diamanti online",
         imagePosition: "right",
       },
@@ -680,7 +680,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Chi può vendere diamanti<br />a Dalila Diamonds",
         description:
           "<p class='mb-4'>Praticamente tutti possono vendere:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Privati in possesso di vecchi gioielli</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Persone che desiderano modificare un anello</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Famiglie che vendono gioielli d'eredità</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Investitori che liquidano patrimoni</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span>Operatori commerciali che riducono le scorte</span></li></ul><p>Ogni diamante ha un valore se valutato da un professionista.</p>",
-        imageSrc: "/selllSafe/step_2.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/step_2.png",
         imageAlt: "Chi può vendere diamanti",
         imagePosition: "left",
       },
@@ -689,7 +689,7 @@ const contentByLocale: Record<string, SellContent> = {
         heading: "Vendita di anelli di fidanzamento,<br />gioielli di eredità e diamanti sfusi",
         description:
           "<p class='mb-4'>I diversi tipi di diamanti richiedono metodi di valutazione distinti:</p><ul class='list-none space-y-2 mb-4 ml-0'><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Anelli di fidanzamento</strong> – Il valore dipende dalla pietra + dalla montatura</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Eredità</strong> – Un valore antico o d'epoca può maggiorare il prezzo</span></li><li class='flex items-start'><span class='text-[#c89e3a] text-lg font-bold mr-2 mt-1'>•</span><span><strong>Diamanti sfusi</strong> – Più facili da classificare e spesso più veloci da vendere</span></li></ul><p>Gli acquirenti professionali tengono conto sia del valore affettivo sia del valore di mercato.</p>",
-        imageSrc: "/selllSafe/diamondwork.png",
+        imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/selllSafe/diamondwork.png",
         imageAlt: "Tipi di gioielli con diamanti",
         imagePosition: "right",
       },

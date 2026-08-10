@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params?: Promise<{ locale?:
       card: "summary_large_image" as const,
       title: base.title,
       description: base.description,
-      images: ["https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"],
+      images: ["https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"],
     },
   };
 }

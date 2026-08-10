@@ -109,7 +109,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonical = diamondUrl(diamond);
   const title = metaTitle(diamond);
   const description = metaDescription(diamond);
-  const image = realImageUrl(diamond) ?? `${SITE_BASE_URL}/dalila_img/Dalila_Logo.png`;
+  const image =
+    realImageUrl(diamond) ??
+    "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png";
 
   return {
     title,

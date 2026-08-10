@@ -110,7 +110,7 @@ const nextConfig = {
             "default-src 'self'; script-src 'none'; sandbox;",
     },
     experimental: {
-        optimizePackageImports: ["lucide-react", "@tabler/icons-react"],
+        optimizePackageImports: ["lucide-react"],
     },
 };
 

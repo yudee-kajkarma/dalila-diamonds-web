@@ -25,9 +25,9 @@ export default function Diamondshowcase() {
   const { dictionary } = useLanguage();
   
   const carouselImages = [
-    "/images/firstimage.jpg",
-    "/images/secondimage.jpg", 
-    "/images/thirdimage.jpg", 
+    "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/firstimage.jpg",
+    "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/secondimage.jpg", 
+    "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/thirdimage.jpg", 
   ];
 
   useEffect(() => {
@@ -64,7 +64,7 @@ export default function Diamondshowcase() {
               <div>
                 <div className="relative h-[350px] md:h-[390px] w-full max-w-[340px] mx-auto overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/diamondwork.png"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamondwork.png"
                     alt="Professional diamond dealer"
                     fill
                     className="object-cover"

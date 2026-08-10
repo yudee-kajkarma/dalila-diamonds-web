@@ -30,25 +30,25 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/where-to-sell-diamond-ring.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/where-to-sell-diamond-ring.webp",
       "alt": "Anillo de diamantes naturales siendo evaluado por un comprador especialista en diamantes",
       "width": 1600,
       "height": 900
     },
     "sellingOptions": {
-      "src": "/images/resources/diamond-ring-selling-options.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-selling-options.webp",
       "alt": "Comparación de lugares para vender un anillo de diamantes naturales",
       "width": 1400,
       "height": 1000
     },
     "trustChecklist": {
-      "src": "/images/resources/safe-diamond-ring-buyer-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/safe-diamond-ring-buyer-checklist.webp",
       "alt": "Documentos y controles de seguridad antes de vender un anillo de diamantes",
       "width": 1400,
       "height": 1000
     },
     "antwerpProcess": {
-      "src": "/images/resources/sell-diamond-ring-antwerp-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-ring-antwerp-process.webp",
       "alt": "Proceso para vender un anillo de diamantes naturales en Amberes",
       "width": 1400,
       "height": 1000

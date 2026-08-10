@@ -196,7 +196,7 @@ const enContent: Ds4uContent = {
     ],
     // Temporary asset until final WebP is supplied:
     // custom-natural-diamond-sourcing-antwerp.webp
-    imageSrc: "/diamonds_source/diamondsourceforyou.jpg",
+    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
     imageAlt: "Custom natural diamond sourcing consultation in Antwerp",
   },
   whatIs: {
@@ -273,7 +273,7 @@ const enContent: Ds4uContent = {
     title: "How Custom Diamond Sourcing Works",
     // Temporary asset until final WebP is supplied:
     // ds4u-diamond-sourcing-process.webp
-    imageSrc: "/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
     imageAlt: "DS4U custom diamond sourcing process from request to delivery",
     steps: [
       {
@@ -344,7 +344,7 @@ const enContent: Ds4uContent = {
     title: "Natural Diamonds That Can Be Requested Through DS4U",
     // Temporary asset until final WebP is supplied:
     // matched-pairs-rare-diamond-shapes.webp
-    imageSrc: "/diamonds_source/handshake.jpg",
+    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
     imageAlt: "Matched natural diamond pairs and rare fancy-shaped diamonds",
     cards: [
       {
@@ -394,7 +394,7 @@ const enContent: Ds4uContent = {
     title: "What Matters Beyond the 4Cs?",
     // Temporary asset until final WebP is supplied:
     // natural-diamond-sourcing-requirements.webp
-    imageSrc: "/b2b/close-up.jpg",
+    imageSrc: "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
     imageAlt:
       "Natural diamond sourcing requirements including shape carat colour clarity and measurements",
     items: [
@@ -634,4 +634,4 @@ export const DS4U_CANONICAL_URL =
 export const DS4U_DATE_MODIFIED = "2026-08-06";
 
 export const DS4U_HERO_IMAGE_URL =
-  "https://www.daliladiamonds.com/diamonds_source/diamondsourceforyou.jpg";
+  "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg";

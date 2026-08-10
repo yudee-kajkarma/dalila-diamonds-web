@@ -98,7 +98,7 @@ export default function ContactHeroSection() {
               <AnimatedContainer direction="up">
                 <div className="relative bg-gray-100 rounded-none overflow-hidden h-[500px]">
                   <Image
-                    src="/dalila_img/contact-1.webp"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/contact-1.webp"
                     alt="Customer service representative"
                     fill
                     className="object-cover"
@@ -111,7 +111,7 @@ export default function ContactHeroSection() {
               <AnimatedContainer direction="up" delay={0.2}>
                 <div className="relative bg-black rounded-none overflow-hidden h-[500px]">
                   <Image
-                    src="/dalila_img/contact-3.png"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/contact-3.png"
                     alt="Luxury diamond"
                     fill
                     className="object-cover"

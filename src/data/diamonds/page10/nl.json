@@ -12,36 +12,36 @@
   },
   "images": {
     "hero": {
-      "src": "/images/diamonds/natural-rough-diamonds-sourcing.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamonds/natural-rough-diamonds-sourcing.webp",
       "alt": "Natuurlijke ruwe diamanten gearrangeerd voor professionele evaluatie in Antwerpen",
       "width": 1600,
       "height": 900
     },
     "evaluation": {
-      "src": "/images/diamonds/natural-rough-diamond-evaluation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamonds/natural-rough-diamond-evaluation.webp",
       "alt": "Natuurlijke ruwe diamant beoordeeld op vorminsluitsels en gepolijste opbrengst",
       "width": 1400,
       "height": 1000
     },
     "roughVsPolished": {
-      "src": "/images/diamonds/rough-vs-polished-natural-diamond.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamonds/rough-vs-polished-natural-diamond.webp",
       "alt": "Natuurlijke ruwe diamant vergeleken met het geplande resultaat van geslepen diamant",
       "width": 1400,
       "height": 1000
     },
     "documentation": {
-      "src": "/images/diamonds/rough-diamond-trade-documentation.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamonds/rough-diamond-trade-documentation.webp",
       "alt": "Ruw diamantpakket gecontroleerd met Kimberley-proces- en handelsdocumenten",
       "width": 1400,
       "height": 1000
     },
     "naturalVsLab": {
-      "src": "/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamonds/natural-vs-lab-grown-rough-diamond-testing.webp",
       "alt": "Natuurlijke en in het laboratorium gekweekte ruwe diamanten die professionele identificatie vereisen",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Natuurlijke ruwe diamanten",

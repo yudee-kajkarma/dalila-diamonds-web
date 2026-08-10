@@ -12,30 +12,30 @@
   },
   "images": {
     "hero": {
-      "src": "/images/wholesale/wholesale-loose-diamonds-for-sale.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/wholesale/wholesale-loose-diamonds-for-sale.webp",
       "alt": "Diamanti naturali sciolti certificati per acquirenti all'ingrosso ad Anversa",
       "width": 1600,
       "height": 900
     },
     "sourcingBrief": {
-      "src": "/images/wholesale/wholesale-diamond-sourcing-brief.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/wholesale/wholesale-diamond-sourcing-brief.webp",
       "alt": "Brief sull'approvvigionamento di diamanti naturali con chiarezza e certificazione del colore della forma e dei carati",
       "width": 1400,
       "height": 1000
     },
     "verification": {
-      "src": "/images/wholesale/verify-wholesale-loose-diamonds.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/wholesale/verify-wholesale-loose-diamonds.webp",
       "alt": "Misurazioni dell'iscrizione del numero del rapporto del diamante e verifica delle pietre sciolte",
       "width": 1400,
       "height": 1000
     },
     "matched": {
-      "src": "/images/wholesale/matched-wholesale-natural-diamonds.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/wholesale/matched-wholesale-natural-diamonds.webp",
       "alt": "Diamanti naturali abbinati confrontati per misurazioni, chiarezza, colore e aspetto",
       "width": 1400,
       "height": 1000
     },
-    "logo": "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png"
+    "logo": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/dalila_img/Dalila_Logo.png"
   },
   "banner": {
     "title": "Diamanti sciolti in vendita",

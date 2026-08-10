@@ -30,25 +30,25 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/where-to-sell-diamond-ring.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/where-to-sell-diamond-ring.webp",
       "alt": "Natuurlijke diamanten ring wordt beoordeeld door een gespecialiseerde diamantkoper",
       "width": 1600,
       "height": 900
     },
     "sellingOptions": {
-      "src": "/images/resources/diamond-ring-selling-options.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-selling-options.webp",
       "alt": "Vergelijking van plaatsen waar u een natuurlijke diamanten ring kunt verkopen",
       "width": 1400,
       "height": 1000
     },
     "trustChecklist": {
-      "src": "/images/resources/safe-diamond-ring-buyer-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/safe-diamond-ring-buyer-checklist.webp",
       "alt": "Documenten en veiligheidscontroles voordat een diamanten ring wordt verkocht",
       "width": 1400,
       "height": 1000
     },
     "antwerpProcess": {
-      "src": "/images/resources/sell-diamond-ring-antwerp-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-ring-antwerp-process.webp",
       "alt": "Proces voor de verkoop van een ring met natuurlijke diamant in Antwerpen",
       "width": 1400,
       "height": 1000

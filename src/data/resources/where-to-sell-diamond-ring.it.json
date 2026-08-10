@@ -30,25 +30,25 @@
   },
   "images": {
     "featured": {
-      "src": "/images/resources/where-to-sell-diamond-ring.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/where-to-sell-diamond-ring.webp",
       "alt": "Anello con diamante naturale in fase di valutazione da parte di un acquirente specializzato in diamanti",
       "width": 1600,
       "height": 900
     },
     "sellingOptions": {
-      "src": "/images/resources/diamond-ring-selling-options.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/diamond-ring-selling-options.webp",
       "alt": "Confronto di luoghi in cui vendere un anello con diamante naturale",
       "width": 1400,
       "height": 1000
     },
     "trustChecklist": {
-      "src": "/images/resources/safe-diamond-ring-buyer-checklist.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/safe-diamond-ring-buyer-checklist.webp",
       "alt": "Documenti e controlli di sicurezza prima di vendere un anello con diamante",
       "width": 1400,
       "height": 1000
     },
     "antwerpProcess": {
-      "src": "/images/resources/sell-diamond-ring-antwerp-process.webp",
+      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/resources/sell-diamond-ring-antwerp-process.webp",
       "alt": "Procedura per la vendita di un anello con diamante naturale ad Anversa",
       "width": 1400,
       "height": 1000

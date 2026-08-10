@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { Marcellus } from "next/font/google";
 import { useLanguage } from "@/context/LanguageContext";
+import { videoUrl } from "@/lib/videoAssets";
 
 const marcellus = Marcellus({
   variable: "--font-marcellus",
@@ -65,7 +66,8 @@ export default function DiamondExperience() {
                       muted
                       playsInline
                       className="w-full h-full object-cover"
-                      src="/images/FALLING_diam.mp4"
+                      src={videoUrl("fallingDiam")}
+                      preload="metadata"
                       style={{
                         width: "100%",
                         height: "100%",

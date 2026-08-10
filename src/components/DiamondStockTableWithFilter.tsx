@@ -286,7 +286,7 @@ export default function DiamondStockTableWithFilter() {
             className="flex items-center gap-2 px-4 py-2 bg-[#050C3A] text-white rounded shadow hover:bg-[#000055] transition-colors disabled:opacity-60"
             title="Refresh Inventory"
           >
-            <Image src="/filtersicon/filter-add.png" alt="Refresh" width={18} height={18} className="w-4 h-4" />
+            <Image src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-add.png" alt="Refresh" width={18} height={18} className="w-4 h-4" />
             {refreshing ? "Refreshing..." : "Refresh"}
           </button>
           {refreshMessage && (
@@ -395,7 +395,7 @@ export default function DiamondStockTableWithFilter() {
             className="flex items-center gap-2 px-4 py-2 bg-[#000033] text-white transition-colors shadow-sm rounded-none hover:bg-[#000055] whitespace-nowrap"
           >
             <Image
-              src="/filtersicon/filter-add.png"
+              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-add.png"
               alt="Filter"
               width={16}
               height={16}
@@ -415,7 +415,7 @@ export default function DiamondStockTableWithFilter() {
             title="Reset All Filters"
           >
             <Image
-              src="/filtersicon/filter-remove.png"
+              src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-remove.png"
               alt="Reset"
               width={18}
               height={18}

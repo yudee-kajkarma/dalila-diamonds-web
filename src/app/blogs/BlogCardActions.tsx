@@ -4,8 +4,18 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Edit2, Trash2 } from "lucide-react";
 import { blogApi } from "@/lib/api";
+import {
+  buildLocalizedBlogSlug,
+  getBlogBaseSlug,
+  getBlogLanguageFromSlug,
+  isBlogLanguage,
+  type BlogLanguage,
+} from "@/lib/blogLanguages";
 import { useIsAdmin } from "./useIsAdmin";
-import BlogFormModal, { type BlogFormValues } from "./BlogFormModal";
+import BlogFormModal, {
+  type BlogFormSubmitResult,
+  type BlogFormValues,
+} from "./BlogFormModal";
 import { refreshBlogs } from "./actions";
 
 type Props = {
@@ -14,6 +24,7 @@ type Props = {
     title: string;
     h2Subtitle?: string;
     customSlug?: string;
+    language?: string;
     featuredImage?: string;
     content?: string;
     description?: string;
@@ -27,24 +38,32 @@ export default function BlogCardActions({ blog }: Props) {
   const router = useRouter();
   const [showEditModal, setShowEditModal] = useState(false);
   const [editValues, setEditValues] = useState<BlogFormValues | null>(null);
+  const [editBlogId, setEditBlogId] = useState<string | null>(null);
 
   if (!isAdmin) return null;
 
-  const toFormValues = (source: typeof blog): BlogFormValues => ({
-    title: source.title,
-    h2Subtitle: source.h2Subtitle || "",
-    customSlug: source.customSlug || "",
-    featuredImage: source.featuredImage || "",
-    content: source.content || source.description || "",
-    metaTitle: source.metaTitle || "",
-    metaDescription: source.metaDescription || "",
-  });
+  const resolveLanguage = (source: typeof blog): BlogLanguage => {
+    if (isBlogLanguage(source.language)) return source.language;
+    return getBlogLanguageFromSlug(source.customSlug, "en");
+  };
+
+  const toFormValues = (source: typeof blog): BlogFormValues => {
+    const language = resolveLanguage(source);
+    return {
+      title: source.title,
+      h2Subtitle: source.h2Subtitle || "",
+      customSlug: buildLocalizedBlogSlug(language, getBlogBaseSlug(source.customSlug)),
+      language,
+      featuredImage: source.featuredImage || "",
+      content: source.content || source.description || "",
+      metaTitle: source.metaTitle || "",
+      metaDescription: source.metaDescription || "",
+    };
+  };
 
   const openEdit = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    // The blog list omits the article body for performance, so fetch the full
-    // blog by id before opening the editor (falls back to the card data).
     let source = blog;
     try {
       const response = await blogApi.getById(blog._id);
@@ -55,26 +74,49 @@ export default function BlogCardActions({ blog }: Props) {
       console.error("Error loading blog for edit:", error);
     }
     setEditValues(toFormValues(source));
+    setEditBlogId(source._id);
     setShowEditModal(true);
   };
 
-  const handleUpdate = async (values: BlogFormValues) => {
+  const handleSave = async (
+    values: BlogFormValues,
+    meta: { blogId: string | null },
+  ): Promise<BlogFormSubmitResult> => {
     try {
-      const response = await blogApi.update(blog._id, {
+      const payload = {
         ...values,
-        description: values.content, // backward compatibility
-      });
+        // Backend stores base for EN and `{lang}/{base}` for others.
+        customSlug: getBlogBaseSlug(values.customSlug) || values.customSlug,
+        description: values.content,
+      };
+
+      if (meta.blogId) {
+        const response = await blogApi.update(meta.blogId, payload);
+        if (response && response.success) {
+          alert(`${values.language.toUpperCase()} version updated successfully.`);
+          await refreshBlogs();
+          router.refresh();
+          return { blogId: response.data?._id || meta.blogId };
+        }
+        alert("Failed to update blog. Please try again.");
+        return { blogId: meta.blogId };
+      }
+
+      const response = await blogApi.create(payload);
       if (response && response.success) {
-        alert("Blog updated successfully!");
-        setShowEditModal(false);
+        alert(
+          `${values.language.toUpperCase()} version created successfully. You can switch language to edit another version.`,
+        );
         await refreshBlogs();
         router.refresh();
-      } else {
-        alert("Failed to update blog. Please try again.");
+        return { blogId: response.data?._id || null };
       }
+      alert("Failed to create language version. Please try again.");
+      return { blogId: null };
     } catch (error) {
-      console.error("Error updating blog:", error);
-      alert(error instanceof Error ? error.message : "Failed to update blog");
+      console.error("Error saving blog language version:", error);
+      alert(error instanceof Error ? error.message : "Failed to save blog");
+      return { blogId: meta.blogId };
     }
   };
 
@@ -123,8 +165,13 @@ export default function BlogCardActions({ blog }: Props) {
         <BlogFormModal
           mode="edit"
           initialValues={editValues}
-          onClose={() => setShowEditModal(false)}
-          onSubmit={handleUpdate}
+          initialBlogId={editBlogId}
+          onClose={() => {
+            setShowEditModal(false);
+            setEditValues(null);
+            setEditBlogId(null);
+          }}
+          onSubmit={handleSave}
         />
       )}
     </>

@@ -46,7 +46,7 @@ export default function Aboutshowcase() {
               <div>
                 <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Heritage.jpg"
+                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/Heritage.jpg"
                     alt="Professional diamond dealer"
                     width={480}
                     height={340}
@@ -86,7 +86,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/diamondwork.png"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/images/diamondwork.png"
                   alt="Diamond examination with tweezers"
                   width={480}
                   height={340}
@@ -125,7 +125,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out" delay={0.5}>
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="/diamondcuts/sell-diamonds.jpg"
+                  src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg"
                   alt="Professional diamond dealer"
                   width={480}
                   height={340}

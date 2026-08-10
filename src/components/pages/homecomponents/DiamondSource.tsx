@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { Marcellus, Jost } from "next/font/google";
 import { useLanguage } from "@/context/LanguageContext";
+import { videoUrl } from "@/lib/videoAssets";
 const marcellus = Marcellus({
     variable: "--font-marcellus",
     subsets: ["latin"],
@@ -43,9 +44,10 @@ export default function DiamondSource() {
                                 loop
                                 muted
                                 playsInline
+                                preload="metadata"
                             >
                                 <source
-                                    src="/images/world_net.mp4"
+                                    src={videoUrl("worldNet")}
                                     type="video/mp4"
                                 />
                                 Your browser does not support the video tag.

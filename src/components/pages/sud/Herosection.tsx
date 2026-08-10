@@ -31,7 +31,7 @@ export default function Webuyhero() {
                         <AnimatedContainer direction="scale-out">
                             <div className="relative w-full h-64 sm:h-80 md:h-96 bg-black overflow-hidden shadow-2xl">
                                 <Image
-                                    src="/diamondcuts/sell-diamonds.jpg"
+                                    src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamondcuts/sell-diamonds.jpg"
                                     alt="Diamond shapes collection"
                                     fill
                                     className="object-cover"

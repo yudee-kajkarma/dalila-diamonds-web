@@ -8,5 +8,7 @@ import { revalidatePath } from "next/cache";
 export async function refreshBlogs() {
   revalidatePath("/blogs");
   revalidatePath("/blogs/[slug]", "page");
+  revalidatePath("/[locale]/blogs", "page");
+  revalidatePath("/[locale]/blogs/[slug]", "page");
   revalidatePath("/sitemap.xml");
 }

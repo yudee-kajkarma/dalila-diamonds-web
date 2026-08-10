@@ -97,7 +97,7 @@ export default function AdvancedFilters({
           className="flex items-center gap-2 px-4 py-1.5 bg-[#000033] text-white text-sm font-medium rounded shadow-sm"
         >
           <Image
-            src="/filtersicon/filter-add.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-add.png"
             alt="Filter Icon"
             width={16}
             height={16}
@@ -115,7 +115,7 @@ export default function AdvancedFilters({
           className="flex items-center gap-2 px-4 py-1.5 bg-white text-[#D4A574] text-sm font-medium rounded-none shadow-sm border border-[#D4A574]"
         >
           <Image
-            src="/filtersicon/filter-remove.png"
+            src="https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/filtersicon/filter-remove.png"
             alt="Reset Icon"
             width={16}
             height={16}
