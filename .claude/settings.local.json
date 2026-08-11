@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find /d/Projects/dalila -name .env* -o -name *.env.example)"
+      "Bash(find /d/Projects/dalila -name .env* -o -name *.env.example)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(aws sts *)",
+      "Bash(aws amplify *)",
+      "Bash(npm ci *)",
+      "Bash(python3 -c ' *)",
+      "Bash(ruby -ryaml -e 'd = YAML.load_file\\(\"/Users/vsskamal/Desktop/kevalai/Dalila_Frontend/amplify.yml\"\\); d[\"frontend\"][\"phases\"].each { |ph, cfg| cfg[\"commands\"].each { |c| puts \"#{ph}: #{c}\" } }; puts \"YAML OK\"')",
+      "Bash(node /private/tmp/claude-501/-Users-vsskamal-Desktop-kevalai-Dalila-Frontend/320d68c4-5c29-4648-92c3-65e501446957/scratchpad/trace-size.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{size_download} bytes\\\\n\" \"https://dalila-inventory-service-dev.caratlogic.com/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc\" --max-time 20)",
+      "Bash(curl -s \"https://dalila-inventory-service-dev.caratlogic.com/api/blogs?page=1&limit=1000\" --max-time 20)",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('blog count:', j.data?.length\\)}\\)\")",
+      "Bash(npm run *)",
+      "Bash(echo \"BUILD EXIT: $?\")",
+      "Bash(node -e \"fetch\\('https://dalila-inventory-service-dev.caratlogic.com/api/blogs?page=1&limit=2',{signal:AbortSignal.timeout\\(15000\\)}\\).then\\(r=>r.json\\(\\)\\).then\\(j=>console.log\\('node fetch OK, blogs:',j.data?.length\\)\\).catch\\(e=>console.log\\('FETCH ERR:',e.message,e.cause?.message||''\\)\\)\")"
     ]
   }
 }

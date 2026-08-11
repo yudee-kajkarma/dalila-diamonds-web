@@ -228,17 +228,43 @@ export const getDiamondFromSlug = cache(
     // both sides to upper-cased alphanumerics before comparing.
     const norm = (v: string) => v.toUpperCase().replace(/[^A-Z0-9]/g, "");
     const target = norm(parsed.stoneNo);
+
+    // Fast path: the by-stone-number endpoint answers in ~1s vs ~26s per
+    // 1,000-row page below. Misses return HTTP 200 with data: null, so any
+    // non-OK status means the endpoint is not deployed yet — fall through to
+    // the legacy page scan.
+    try {
+      const response = await fetch(
+        `${API_BASE_URL}/api/diamonds/safe/${encodeURIComponent(parsed.stoneNo)}`,
+        {
+          next: { revalidate: 21600 },
+          signal: AbortSignal.timeout(8000),
+        },
+      );
+      if (response.ok) {
+        const payload = (await response.json()) as {
+          data?: PublicDiamond | null;
+        };
+        if (payload.data && norm(payload.data.STONE_NO ?? "") === target) {
+          return payload.data;
+        }
+        if (payload.data === null) return null;
+      }
+    } catch {
+      // Endpoint unavailable or slow — use the legacy scan below.
+    }
+
     const MAX_PAGES = 5; // up to 5000 results before giving up
     try {
       for (let page = 1; page <= MAX_PAGES; page++) {
         params.set("page", String(page));
         const response = await fetch(
           `${API_BASE_URL}/api/diamonds/safe?${params.toString()}`,
-          // Page declares revalidate=3600 (ISR). The inner fetch must also
+          // Page declares revalidate=21600 (ISR). The inner fetch must also
           // be cacheable — `no-store` here forces the route fully dynamic
           // and Next throws "static to dynamic at runtime". Filtered
           // responses are well under Next's 2MB fetch-cache cap.
-          { next: { revalidate: 3600 } },
+          { next: { revalidate: 21600 } },
         );
         if (!response.ok) return null;
         const payload = (await response.json()) as SafeApiResponse;
@@ -259,7 +285,8 @@ export const getDiamondFromSlug = cache(
 export const getPublicDiamondCount = cache(async (): Promise<number> => {
   try {
     const url = `${API_BASE_URL}/api/diamonds/safe?limit=1&page=1`;
-    const response = await fetch(url, { next: { revalidate: 3600 } });
+    // Only feeds sitemap chunking; daily freshness is plenty.
+    const response = await fetch(url, { next: { revalidate: 86400 } });
     if (!response.ok) return 0;
     const payload = (await response.json()) as SafeApiResponse;
     return payload.pagination?.totalRecords ?? 0;
@@ -284,6 +311,26 @@ async function fetchPage(page: number): Promise<PublicDiamond[]> {
   }
 }
 
+// Sitemap page fetch preferring the slug-projection endpoint: only the six
+// fields diamondToSlug needs (~2% of the full safe payload), small enough for
+// the Next data cache. Falls back to the legacy full-payload no-store fetch
+// while the endpoint is not deployed.
+async function fetchSitemapPage(page: number): Promise<PublicDiamond[]> {
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/diamonds/safe/slugs?limit=${PAGE_SIZE}&page=${page}`,
+      { next: { revalidate: 86400 }, signal: AbortSignal.timeout(10000) },
+    );
+    if (response.ok) {
+      const payload = (await response.json()) as SafeApiResponse;
+      if (Array.isArray(payload.data)) return payload.data;
+    }
+  } catch {
+    // Endpoint unavailable or slow — use the legacy fetch below.
+  }
+  return fetchPage(page);
+}
+
 // Fetches a contiguous slice of public diamonds spanning [offset, offset + size).
 // Used by sitemap chunks. Pages are fetched in parallel batches to keep
 // build/runtime within Next's 60s prerender budget.
@@ -300,7 +347,9 @@ export async function getPublicDiamondsSlice(
   for (let start = firstPage; start <= lastPage; start += PARALLEL_PAGES) {
     const end = Math.min(start + PARALLEL_PAGES - 1, lastPage);
     const batch = await Promise.all(
-      Array.from({ length: end - start + 1 }, (_, i) => fetchPage(start + i)),
+      Array.from({ length: end - start + 1 }, (_, i) =>
+        fetchSitemapPage(start + i),
+      ),
     );
     let stop = false;
     for (let i = 0; i < batch.length; i++) {

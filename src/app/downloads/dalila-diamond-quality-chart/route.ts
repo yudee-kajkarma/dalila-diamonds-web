@@ -4,6 +4,11 @@ import { withS3Assets } from "@/lib/s3Assets";
 
 // Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
 const data = withS3Assets(rawData);
+
+// Pure in-memory HTML from imported JSON — prerender at build instead of
+// invoking compute per download.
+export const dynamic = "force-static";
+
 export async function GET() {
   const table = data.completeChart.table;
   const rowsHtml = table.rows

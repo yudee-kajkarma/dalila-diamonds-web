@@ -32,6 +32,18 @@ const nextConfig = {
         ]);
 
         return [
+            // The default locale lives at the unprefixed routes; /en/* would
+            // otherwise 404 now that [locale] only accepts de/fr/it/nl/es.
+            {
+                source: '/en',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/en/:path*',
+                destination: '/:path*',
+                permanent: true,
+            },
             ...naturalRoughRedirects,
             {
                 source: '/sud',
