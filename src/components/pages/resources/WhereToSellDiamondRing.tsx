@@ -445,7 +445,7 @@ export default function WhereToSellDiamondRing({ locale = "en" }: { locale?: Loc
             {/* Hero image + paragraphs + button — inside article */}
             <div className="mb-10">
               <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-                <Image src="/images/firstimage.jpg" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
+                <Image src="/resources_images/d.png" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
               </div>
               <Paragraphs items={data.hero.paragraphs} />
               <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
@@ -471,7 +471,7 @@ export default function WhereToSellDiamondRing({ locale = "en" }: { locale?: Loc
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src="/images/secondimage.jpg" alt={data.images.sellingOptions.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/e.png" alt={data.images.sellingOptions.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.compareMethods.id} className="scroll-mt-28 mb-12">
@@ -542,7 +542,7 @@ export default function WhereToSellDiamondRing({ locale = "en" }: { locale?: Loc
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/images/thirdimage.jpg" alt={data.images.trustChecklist.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/f.png" alt={data.images.trustChecklist.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.trustworthyBuyer.id} className="scroll-mt-28 mb-12">
@@ -592,7 +592,7 @@ export default function WhereToSellDiamondRing({ locale = "en" }: { locale?: Loc
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/images/Heritage.jpg" alt={data.images.antwerpProcess.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/g.png" alt={data.images.antwerpProcess.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.dalilaProcess.id} className="scroll-mt-28 mb-12">

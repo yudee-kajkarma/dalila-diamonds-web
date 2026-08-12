@@ -216,7 +216,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
             <div className="mb-10">
               <div className="relative w-full aspect-[16/9] mb-8 overflow-hidden bg-black shadow-xl">
                 <Image
-                  src={data.hero.image.src}
+                  src="/resources_images/v.png"
                   alt={data.hero.image.alt}
                   width={data.hero.image.width}
                   height={data.hero.image.height}
@@ -282,7 +282,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
               ))}
               <div className="relative w-full aspect-[14/9] overflow-hidden bg-black shadow-lg">
                 <Image
-                  src={data.images.oneCaratComparison.src}
+                  src="/resources_images/w.png"
                   alt={data.images.oneCaratComparison.alt}
                   width={data.images.oneCaratComparison.width}
                   height={data.images.oneCaratComparison.height}
@@ -468,7 +468,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
                   {"showDepthImage" in sub && sub.showDepthImage ? (
                     <div className="relative w-full aspect-[14/9] overflow-hidden bg-black shadow-lg mt-4">
                       <Image
-                        src={data.images.depthComparison.src}
+                        src="/resources_images/x.png"
                         alt={data.images.depthComparison.alt}
                         width={data.images.depthComparison.width}
                         height={data.images.depthComparison.height}
@@ -559,7 +559,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
               </ul>
               <div className="relative w-full aspect-[14/9] overflow-hidden bg-black shadow-lg mb-6">
                 <Image
-                  src={data.images.fingerComparison.src}
+                  src="/resources_images/y.png"
                   alt={data.images.fingerComparison.alt}
                   width={data.images.fingerComparison.width}
                   height={data.images.fingerComparison.height}

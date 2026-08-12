@@ -29,7 +29,7 @@
     "secondaryButtonText": "REQUEST A NATURAL DIAMOND THROUGH DS4U",
     "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
     "image": {
-      "src": "/diamondcuts/aboutus.jpg",
+      "src": "/resources_images/z.png",
       "alt": "Natural and laboratory-grown diamonds compared by origin and appearance",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "formation": {
-      "src": "/diamondcuts/sell-diamonds.jpg",
+      "src": "/resources_images/za.png",
       "alt": "Natural diamond formation compared with HPHT and CVD diamond growth",
       "width": 1400,
       "height": 1000
     },
     "identification": {
-      "src": "/diamondcuts/About.jpg",
+      "src": "/resources_images/zb.png",
       "alt": "Natural and laboratory-grown diamonds undergoing professional identification",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "/diamondcuts/aboutus.jpg",
+      "src": "/resources_images/zc.png",
       "alt": "Buyer priorities for choosing between natural and laboratory-grown diamonds",
       "width": 1400,
       "height": 1000

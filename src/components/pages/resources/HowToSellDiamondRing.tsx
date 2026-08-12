@@ -621,7 +621,7 @@ export default function HowToSellDiamondRing({ locale = "en" }: { locale?: Local
             {/* Hero image + paragraphs + button — inside article */}
             <div className="mb-10">
               <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-                <Image src="/selllSafe/sell-diamonds.jpg" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
+                <Image src="/resources_images/h.png" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
               </div>
               <Paragraphs items={data.hero.paragraphs} />
               <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>{data.hero.primaryButtonText}</Link>
@@ -645,7 +645,7 @@ export default function HowToSellDiamondRing({ locale = "en" }: { locale?: Local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/selllSafe/loose.jpg" alt={data.images.safetySteps.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/i.png" alt={data.images.safetySteps.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             {data.steps.slice(0, 8).map((step) => renderStep(step, data, locale))}
@@ -659,13 +659,13 @@ export default function HowToSellDiamondRing({ locale = "en" }: { locale?: Local
             ))}
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/secure_to_source/tray.jpg" alt={data.images.transport.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/j.png" alt={data.images.transport.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             {data.steps.slice(9, 11).map((step) => renderStep(step, data, locale))}
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/diamonds_source/handshake.jpg" alt={data.images.payment.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/k.png" alt={data.images.payment.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             {data.steps.slice(11).map((step) => renderStep(step, data, locale))}

@@ -9,6 +9,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { getMothersDayData } from "@/lib/i18n/getMothersDayData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 import { formApi } from "@/lib/api";
+import ProductsSection from "./ProductsSection";
 
 const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
 const jost = Jost({
@@ -78,7 +79,7 @@ function EnquiryForm({ data, primaryCta }: { data: ReturnType<typeof getMothersD
     setStatus(null);
     try {
       const description = [
-        "Antwerp Mother's Day Diamond Brief",
+        "Antwerp Mother&apos;s Day Diamond Brief",
         `Company: ${form.company || "N/A"}`,
         `Intended piece: ${form.piece || "N/A"}`,
         `Shape: ${form.shape || "N/A"}`,
@@ -92,14 +93,14 @@ function EnquiryForm({ data, primaryCta }: { data: ReturnType<typeof getMothersD
       fd.append("fullName", form.name);
       fd.append("email", form.contact.includes("@") ? form.contact : "not-provided@dalila.local");
       fd.append("phone", form.contact.includes("@") ? "Not provided" : form.contact);
-      fd.append("material", form.piece || "Mother's Day Diamond");
+      fd.append("material", form.piece || "Mother&apos;s Day Diamond");
       fd.append("description", description);
       fd.append("fullAddress", "Not provided");
       if (file) fd.append("images", file);
 
       const res = await formApi.submitSellDiamond(fd);
       if (res.success) {
-        setStatus({ type: "success", message: "Your brief has been sent. Dalila's Antwerp team will be in touch with the next practical step." });
+        setStatus({ type: "success", message: "Your brief has been sent. Dalila&apos;s Antwerp team will be in touch with the next practical step." });
         setForm(initialForm);
         setFile(null);
       } else {
@@ -369,6 +370,9 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
           </div>
         </section>
 
+        {/* ── Products Section ── */}
+        <ProductsSection locale={locale} />
+
         {/* ── Section 5 — Selection guide ── */}
         <TwoCol
           imageRight
@@ -464,7 +468,7 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
 
         {/* Byline */}
         <p className={`text-xs text-gray-400 text-center mb-8 ${jost.className}`}>
-          Prepared by Dalila Diamonds' Antwerp sourcing team. Last reviewed: August 2026.
+          Prepared by Dalila Diamonds&apos; Antwerp sourcing team. Last reviewed: August 2026.
         </p>
 
       </div>

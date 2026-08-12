@@ -530,7 +530,7 @@ export default function NaturalVsLabGrownDiamonds({ locale = "en" }: { locale?: 
               </li>
             ))}
           </ul>
-          <div className="flex flex-col sm:flex-row gap-4 mb-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 mb-6">
             <Link
               href={localizedPath(data.whyDalila.primaryButtonHref, locale)}
               className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}

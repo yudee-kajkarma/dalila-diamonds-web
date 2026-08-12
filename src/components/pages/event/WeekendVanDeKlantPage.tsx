@@ -9,6 +9,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { getWeekendVanDeKlantData } from "@/lib/i18n/getWeekendVanDeKlantData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 import { formApi } from "@/lib/api";
+import ProductsSection from "./ProductsSection";
 
 const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
 const jost = Jost({
@@ -748,6 +749,9 @@ export default function WeekendVanDeKlantPage({
             {sections.appointments.offerNote}
           </p>
         </section>
+
+        {/* ── Products Section ── */}
+        <ProductsSection locale={locale} />
 
         {/* ── Section 4 — Prepare for the appointment ── */}
         <TwoCol

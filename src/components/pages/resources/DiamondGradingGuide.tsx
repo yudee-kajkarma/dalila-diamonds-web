@@ -710,13 +710,13 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
               <Link
                 href={localizedPath(data.cta.primaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
+                className={`inline-flex items-center justify-center bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
               >
                 {data.cta.primaryButtonText}
               </Link>
               <Link
                 href={localizedPath(data.cta.secondaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 text-white font-medium hover:bg-white/10 transition-colors ${jost.className}`}
+                className={`inline-flex items-center justify-center border border-white/30 px-6 py-3 text-white font-medium hover:bg-white/10 transition-colors ${jost.className}`}
               >
                 {data.cta.secondaryButtonText}
               </Link>
@@ -791,13 +791,13 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-8">
               <Link
                 href={localizedPath(data.finalTakeaway.primaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
+                className={`inline-flex items-center justify-center bg-[#c89e3a] px-6 py-3 text-white font-medium hover:bg-[#b8902f] transition-colors ${jost.className}`}
               >
                 {data.finalTakeaway.primaryButtonText}
               </Link>
               <Link
                 href={localizedPath(data.finalTakeaway.secondaryButtonHref, locale)}
-                className={`inline-flex items-center justify-center rounded-md border border-gray-300 px-6 py-3 text-gray-900 font-medium hover:bg-white transition-colors ${jost.className}`}
+                className={`inline-flex items-center justify-center border border-gray-300 px-6 py-3 text-gray-900 font-medium hover:bg-white transition-colors ${jost.className}`}
               >
                 {data.finalTakeaway.secondaryButtonText}
               </Link>

@@ -557,7 +557,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             {/* Hero image + paragraphs + button — inside article */}
             <div className="mb-10">
               <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-                <Image src="/selllSafe/sell-diamonds.jpg" alt={data.images.featured.alt} width={data.images.featured.width} height={data.images.featured.height} className="object-cover w-full h-full" priority />
+                <Image src="/resources_images/q.png" alt={data.images.featured.alt} width={data.images.featured.width} height={data.images.featured.height} className="object-cover w-full h-full" priority />
               </div>
               <Paragraphs items={data.hero.paragraphs} />
               <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
@@ -625,7 +625,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/selllSafe/loose.jpg" alt={data.images.lostReportRecovery.alt} width={data.images.lostReportRecovery.width} height={data.images.lostReportRecovery.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/r.png" alt={data.images.lostReportRecovery.alt} width={data.images.lostReportRecovery.width} height={data.images.lostReportRecovery.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.lostGia.id} className="scroll-mt-28 mb-12">
@@ -673,7 +673,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/selllSafe/tray.jpg" alt={data.images.evaluation.alt} width={data.images.evaluation.width} height={data.images.evaluation.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/s.png" alt={data.images.evaluation.alt} width={data.images.evaluation.width} height={data.images.evaluation.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.buyerEvaluation.id} className="scroll-mt-28 mb-12">
@@ -713,7 +713,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src="/b2b/diamant-certificat-GIA.webp" alt={data.images.certificationDecision.alt} width={data.images.certificationDecision.width} height={data.images.certificationDecision.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/t.png" alt={data.images.certificationDecision.alt} width={data.images.certificationDecision.width} height={data.images.certificationDecision.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.certificationDecision.id} className="scroll-mt-28 mb-12">
@@ -769,7 +769,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/selllSafe/diamondwork.png" alt={data.images.dalilaProcess.alt} width={data.images.dalilaProcess.width} height={data.images.dalilaProcess.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/u.png" alt={data.images.dalilaProcess.alt} width={data.images.dalilaProcess.width} height={data.images.dalilaProcess.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.dalilaProcess.id} className="scroll-mt-28 mb-12 bg-[#0B1A33] p-8 md:p-10 text-white">

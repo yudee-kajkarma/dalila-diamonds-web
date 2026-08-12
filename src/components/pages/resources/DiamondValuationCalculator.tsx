@@ -470,7 +470,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             {/* Hero image + paragraphs + button — inside article */}
             <div className="mb-10">
               <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-                <Image src="/images/firstimage.jpg" alt={data.hero.image.alt} fill className="object-cover w-full h-full" priority />
+                <Image src="/resources_images/a.png" alt={data.hero.image.alt} fill className="object-cover w-full h-full" priority />
               </div>
               <Paragraphs items={data.hero.paragraphs} />
               <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
@@ -737,7 +737,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/images/secondimage.jpg" alt={data.images.valueFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/b.png" alt={data.images.valueFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.valueFactors.id} className="scroll-mt-28 mb-12">
@@ -777,7 +777,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src="/images/thirdimage.jpg" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/c.png" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.valuationProcess.id} className="scroll-mt-28 mb-12">

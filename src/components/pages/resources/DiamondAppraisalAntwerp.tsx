@@ -507,7 +507,7 @@ function PurposeSelector({
       <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>{data.purposeSelector.intro}</p>
 
       <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-        <Image src="/b2b/looseround.webp" alt={data.images.purposeTypes.alt} fill className="object-cover w-full h-full" loading="lazy" />
+        <Image src="/resources_images/n.png" alt={data.images.purposeTypes.alt} fill className="object-cover w-full h-full" loading="lazy" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -584,7 +584,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
             {/* Hero image + paragraphs + button — inside article */}
             <div className="mb-10">
               <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-                <Image src="/diamondcuts/sell-diamonds.jpg" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
+                <Image src="/resources_images/l.png" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
               </div>
               <Paragraphs items={data.hero.paragraphs} />
               <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
@@ -612,7 +612,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src="/selllSafe/tray.jpg" alt={data.images.comparison.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/m.png" alt={data.images.comparison.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.appraisalVsGrading.id} className="scroll-mt-28 mb-12">
@@ -661,7 +661,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
                 <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>{data.appraisalCost.closing}</p>
               </section>
               <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg">
-                <Image src="/secure_to_source/close-up.jpg" alt={data.images.costFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
+                <Image src="/resources_images/o.png" alt={data.images.costFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
               </div>
             </div>
 
@@ -693,7 +693,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src="/diamonds_source/We_Search_Our_Worldwide_Network.jpg" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/resources_images/p.png" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.appraisalProcess.id} className="scroll-mt-28 mb-12">
