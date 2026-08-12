@@ -11,7 +11,6 @@ import { blogApi, type Blog } from "@/lib/api";
 import { getBlogSlug } from "@/utils/helpers";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 import { useLanguage } from "@/context/LanguageContext";
-import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
 import { s3Asset } from "@/lib/s3Assets";
 
 export default function Header() {
@@ -145,7 +144,7 @@ export default function Header() {
                                 {dictionary?.nav?.diamondKnowledge || "Diamond Knowledge"}
                             </Link>
 
-                            {/* Resources Dropdown */}
+                            {/* Events Dropdown */}
                             <div className="relative group">
                                 <button
                                     onMouseEnter={() =>
@@ -156,7 +155,7 @@ export default function Header() {
                                     }
                                     className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
-                                    {dictionary?.nav?.resources || "Resources"}
+                                    {dictionary?.nav?.events || "Events"}
                                     <ChevronDown
                                         size={16}
                                         className={`transition-transform duration-200 ${isResourcesDropdownOpen ? "rotate-180" : ""}`}
@@ -168,106 +167,23 @@ export default function Header() {
                                         onMouseEnter={() =>
                                             setIsResourcesDropdownOpen(true)
                                         }
-                                        onMouseLeave={() => {
-                                            setIsResourcesDropdownOpen(false);
-                                        }}
-                                        className="absolute left-0 top-full mt-0 w-[min(42rem,calc(100vw-2rem))] bg-white shadow-lg border border-gray-200 rounded-sm z-50"
+                                        onMouseLeave={() =>
+                                            setIsResourcesDropdownOpen(false)
+                                        }
+                                        className="absolute left-0 top-full mt-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                     >
-                                        {/* Articles with nested dropdown */}
-                                        <div className="relative group/articles border-b border-gray-100">
-                                            <button
-                                                onClick={() =>
-                                                    router.push(localizedPath("/blogs"))
-                                                }
-                                                onMouseEnter={() =>
-                                                    setIsArticlesDropdownOpen(
-                                                        true,
-                                                    )
-                                                }
-                                                onMouseLeave={() =>
-                                                    setIsArticlesDropdownOpen(
-                                                        false,
-                                                    )
-                                                }
-                                                className="w-full text-left px-3 py-2 text-xs text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors flex items-center justify-between cursor-pointer"
-                                            >
-                                                <span>{dictionary?.nav?.articles || "Articles"}</span>
-                                                <ChevronDown
-                                                    size={14}
-                                                    className={`ml-2 transition-transform duration-200 ${isArticlesDropdownOpen ? "-rotate-90" : ""}`}
-                                                />
-                                            </button>
-
-                                            {/* Articles nested dropdown */}
-                                            {isArticlesDropdownOpen &&
-                                                latestBlogs.length > 0 && (
-                                                    <div
-                                                        onMouseEnter={() =>
-                                                            setIsArticlesDropdownOpen(
-                                                                true,
-                                                            )
-                                                        }
-                                                        onMouseLeave={() =>
-                                                            setIsArticlesDropdownOpen(
-                                                                false,
-                                                            )
-                                                        }
-                                                        className="absolute left-full top-0 ml-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
-                                                    >
-                                                        {latestBlogs.map(
-                                                            (blog, index) => (
-                                                                <button
-                                                                    key={
-                                                                        blog._id
-                                                                    }
-                                                                    onClick={() =>
-                                                                        router.push(
-                                                                            localizedPath(`/blogs/${getBlogSlug(blog)}`),
-                                                                        )
-                                                                    }
-                                                                    className={`w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer ${
-                                                                        index <
-                                                                        latestBlogs.length -
-                                                                            1
-                                                                            ? "border-b border-gray-100"
-                                                                            : ""
-                                                                    }`}
-                                                                >
-                                                                    <div className="line-clamp-2">
-                                                                        {
-                                                                            blog.title
-                                                                        }
-                                                                    </div>
-                                                                </button>
-                                                            ),
-                                                        )}
-                                                        <button
-                                                            onClick={() =>
-                                                                router.push(
-                                                                    localizedPath("/blogs"),
-                                                                )
-                                                            }
-                                                            className="w-full text-center px-4 py-3 text-sm font-semibold text-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors border-t border-gray-200 cursor-pointer"
-                                                        >
-                                                            {dictionary?.nav?.viewMore || "View More"}
-                                                        </button>
-                                                    </div>
-                                                )}
-                                        </div>
-
-                                        <div className="max-h-[min(70vh,24rem)] overflow-y-auto overscroll-contain">
-                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-0.5 p-1">
-                                                {RESOURCE_NAV_ITEMS.map((item) => (
-                                                    <Link
-                                                        key={item.key}
-                                                        href={localizedPath(item.href)}
-                                                        className="block px-3 py-2 text-xs leading-snug text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors rounded-sm"
-                                                    >
-                                                        {getResourceNavLabel(dictionary, item)}
-                                                    </Link>
-                                                ))}
-                                            </div>
-                                        </div>
+                                        <Link
+                                            href={localizedPath("/antwerp-mothers-day-diamond-gifts")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                        >
+                                            {dictionary?.nav?.eventMothersDay || "Natural Diamond Gifts for Antwerp Mother's Day"}
+                                        </Link>
+                                        <Link
+                                            href={localizedPath("/weekend-van-de-klant-antwerp-diamond-appointments")}
+                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
+                                        >
+                                            {dictionary?.nav?.eventWeekendKlant || "Weekend van de Klant — Diamond Appointments"}
+                                        </Link>
                                     </div>
                                 )}
                             </div>

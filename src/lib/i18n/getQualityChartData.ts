@@ -9,7 +9,7 @@ import { withS3Assets } from "@/lib/s3Assets";
 
 export type QualityChartPageData = typeof en;
 
-const byLocale: Record<Locale, QualityChartPageData> = {
+const byLocale: Record<Locale, any> = {
   en,
   de,
   fr,
@@ -21,6 +21,6 @@ const byLocale: Record<Locale, QualityChartPageData> = {
 // Static JSON holds absolute S3 URLs; rebase them onto NEXT_PUBLIC_S3_BASE_URL once.
 const localized = withS3Assets(byLocale);
 
-export function getQualityChartData(locale: Locale = "en"): QualityChartPageData {
+export function getQualityChartData(locale: Locale = "en"): any {
   return localized[locale] ?? localized.en;
 }

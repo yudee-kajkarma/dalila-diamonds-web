@@ -522,7 +522,11 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
               title: data.howToRead.title,
               paragraphsBefore: data.howToRead.introParagraphs,
             })}
-            {data.howToRead.subsections.map((subsection) => renderSubsection(subsection, locale))}
+            {data.howToRead.subsections.map((subsection, i) => (
+              <div key={subsection.id ?? i}>
+                {renderSubsection(subsection, locale)}
+              </div>
+            ))}
 
             {renderSection({
               id: data.verification.id,

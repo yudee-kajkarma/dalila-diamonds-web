@@ -268,7 +268,7 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
                 <nav className="scroll-mt-28" aria-labelledby="dqc-overview-nav">
                   <SectionHeading id="dqc-overview-nav" title={data.overviewNav.title} />
                   <ol className={`space-y-4 list-decimal list-inside ${jost.className}`}>
-                    {data.overviewNav.items.map((item) => (
+                    {data.overviewNav.items.map((item: any) => (
                       <li key={item.id} className="text-gray-700 text-base md:text-lg leading-relaxed pl-2">
                         <a href={`#${item.id}`} className="text-[#1a1a1a] hover:text-[#c89e3a] underline-offset-2 hover:underline">{item.label}</a>
                       </li>
@@ -356,7 +356,7 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
               <SubHeading>{data.caratChart.whyDifferentTitle}</SubHeading>
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>{data.caratChart.whyDifferentIntro}</p>
               <BulletList items={data.caratChart.whyDifferentBullets} />
-              {data.caratChart.whyDifferentNote.split("\n").map((line, i) => (
+              {data.caratChart.whyDifferentNote.split("\n").map((line: string, i: number) => (
                 <p key={i} className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>{line}</p>
               ))}
               <SubHeading>{data.caratChart.thresholdsTitle}</SubHeading>
@@ -374,7 +374,7 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
             {/* Diamond Quality Beyond the 4Cs */}
             <Section id={data.beyond4cs.id} title={data.beyond4cs.title}>
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>{data.beyond4cs.introParagraph}</p>
-              {data.beyond4cs.subsections.map((sub) => (
+              {data.beyond4cs.subsections.map((sub: any) => (
                 <div key={sub.title} className="mb-8">
                   <SubHeading>{sub.title}</SubHeading>
                   <Paragraphs items={sub.paragraphs} />
@@ -385,7 +385,7 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
 
             {/* How to Choose the Right Quality Balance */}
             <Section id={data.qualityBalance.id} title={data.qualityBalance.title}>
-              {data.qualityBalance.steps.map((step) => (
+              {data.qualityBalance.steps.map((step: any) => (
                 <div key={step.title} className="mb-8">
                   <SubHeading>{step.title}</SubHeading>
                   <Paragraphs items={step.paragraphs} />
@@ -474,7 +474,7 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
               {data.faqs.title}
             </h2>
             <div className="border border-gray-200 divide-y divide-gray-200">
-              {data.faqs.items.map((item, index) => (
+              {data.faqs.items.map((item: any, index: number) => (
                 <details key={item.question} className="group bg-white open:bg-[#FAF6EB]/40 w-full" open={index === 0}>
                   <summary className="cursor-pointer list-none px-5 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c89e3a] focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden">
                     <span className="flex items-start justify-between gap-4">

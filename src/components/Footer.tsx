@@ -7,11 +7,18 @@ import { motion, AnimatePresence } from "motion/react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 import { s3Asset } from "@/lib/s3Assets";
+import { RESOURCE_NAV_ITEMS, getResourceNavLabel } from "@/lib/resourceNavLinks";
+import { blogApi, type Blog } from "@/lib/api";
+import { getBlogSlug } from "@/utils/helpers";
+import { toBlogLanguage } from "@/lib/blogLanguages";
 
 export default function Footer() {
     const { locale, dictionary } = useLanguage();
     const [isVisible, setIsVisible] = useState(false);
     const [isServicesOpen, setIsServicesOpen] = useState(false);
+    const [isArticlesOpen, setIsArticlesOpen] = useState(false);
+    const [isResourcesOpen, setIsResourcesOpen] = useState(false);
+    const [footerBlogs, setFooterBlogs] = useState<Blog[]>([]);
     const router = useRouter();
 
     const localizedPath = (path: string) => {
@@ -27,11 +34,28 @@ export default function Footer() {
                 setIsVisible(false);
             }
         };
-
         window.addEventListener("scroll", toggleVisibility);
-
         return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
+
+    // Fetch 2 latest blogs for Articles dropdown
+    useEffect(() => {
+        const fetchBlogs = async () => {
+            try {
+                const response = await blogApi.getAll({
+                    page: 1,
+                    limit: 2,
+                    sortBy: "createdAt",
+                    sortOrder: "desc",
+                    language: toBlogLanguage(locale),
+                });
+                if (response?.data) setFooterBlogs(response.data);
+            } catch {
+                // silently fail — footer is non-critical
+            }
+        };
+        fetchBlogs();
+    }, [locale]);
 
     const quickLinks = [
         { name: dictionary?.nav?.home || "Home", href: "/" },
@@ -44,6 +68,9 @@ export default function Footer() {
         { name: dictionary?.nav?.ds4u || "DS4U - Diamond Source For You", href: "/diamond-source" },
         { name: dictionary?.nav?.syd || "SYD - Sell Your Diamonds", href: "/sell-your-diamond" },
     ];
+
+    // First 2 resources shown in footer, rest via "See More"
+    const FOOTER_RESOURCES = RESOURCE_NAV_ITEMS.slice(0, 2);
 
     const handleNavigation = (href: string) => {
         router.push(localizedPath(href));
@@ -129,6 +156,78 @@ export default function Footer() {
                                                         </button>
                                                     </li>
                                                 ))}
+                                            </ul>
+                                        )}
+                                    </li>
+
+                                    {/* Articles Dropdown - mobile */}
+                                    <li className="relative">
+                                        <button
+                                            onClick={() => setIsArticlesOpen(!isArticlesOpen)}
+                                            className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer text-sm"
+                                        >
+                                            {dictionary?.nav?.articles || "Articles"}
+                                            <ChevronDown
+                                                size={14}
+                                                className={`transition-transform duration-200 ${isArticlesOpen ? "rotate-180" : ""}`}
+                                            />
+                                        </button>
+                                        {isArticlesOpen && (
+                                            <ul className="mt-1 ml-2 space-y-1">
+                                                {footerBlogs.map((blog) => (
+                                                    <li key={blog._id}>
+                                                        <button
+                                                            onClick={() => handleNavigation(`/blogs/${getBlogSlug(blog)}`)}
+                                                            className="text-white/60 hover:text-[#c89e3a] transition-colors text-xs text-left cursor-pointer"
+                                                        >
+                                                            {blog.title}
+                                                        </button>
+                                                    </li>
+                                                ))}
+                                                <li>
+                                                    <button
+                                                        onClick={() => handleNavigation("/blogs")}
+                                                        className="text-[#c89e3a] hover:text-[#e4c75f] text-xs cursor-pointer font-medium"
+                                                    >
+                                                        See More →
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        )}
+                                    </li>
+
+                                    {/* Resources Dropdown - mobile */}
+                                    <li className="relative">
+                                        <button
+                                            onClick={() => setIsResourcesOpen(!isResourcesOpen)}
+                                            className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer text-sm"
+                                        >
+                                            {dictionary?.nav?.resources || "Resources"}
+                                            <ChevronDown
+                                                size={14}
+                                                className={`transition-transform duration-200 ${isResourcesOpen ? "rotate-180" : ""}`}
+                                            />
+                                        </button>
+                                        {isResourcesOpen && (
+                                            <ul className="mt-1 ml-2 space-y-1">
+                                                {FOOTER_RESOURCES.map((item) => (
+                                                    <li key={item.key}>
+                                                        <button
+                                                            onClick={() => handleNavigation(item.href)}
+                                                            className="text-white/60 hover:text-[#c89e3a] transition-colors text-xs text-left cursor-pointer"
+                                                        >
+                                                            {getResourceNavLabel(dictionary, item)}
+                                                        </button>
+                                                    </li>
+                                                ))}
+                                                <li>
+                                                    <button
+                                                        onClick={() => handleNavigation("/resources")}
+                                                        className="text-[#c89e3a] hover:text-[#e4c75f] text-xs cursor-pointer font-medium"
+                                                    >
+                                                        See More →
+                                                    </button>
+                                                </li>
                                             </ul>
                                         )}
                                     </li>
@@ -242,6 +341,78 @@ export default function Footer() {
                                                         </button>
                                                     </li>
                                                 ))}
+                                            </ul>
+                                        )}
+                                    </li>
+
+                                    {/* Articles Dropdown */}
+                                    <li className="relative">
+                                        <button
+                                            onClick={() => setIsArticlesOpen(!isArticlesOpen)}
+                                            className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer"
+                                        >
+                                            {dictionary?.nav?.articles || "Articles"}
+                                            <ChevronDown
+                                                size={16}
+                                                className={`transition-transform duration-200 ${isArticlesOpen ? "rotate-180" : ""}`}
+                                            />
+                                        </button>
+                                        {isArticlesOpen && (
+                                            <ul className="mt-2 ml-4 space-y-2">
+                                                {footerBlogs.map((blog) => (
+                                                    <li key={blog._id}>
+                                                        <button
+                                                            onClick={() => handleNavigation(`/blogs/${getBlogSlug(blog)}`)}
+                                                            className="text-white/60 hover:text-[#c89e3a] transition-colors text-sm text-left cursor-pointer line-clamp-2"
+                                                        >
+                                                            {blog.title}
+                                                        </button>
+                                                    </li>
+                                                ))}
+                                                <li>
+                                                    <button
+                                                        onClick={() => handleNavigation("/blogs")}
+                                                        className="text-[#c89e3a] hover:text-[#e4c75f] transition-colors text-sm text-left cursor-pointer font-medium"
+                                                    >
+                                                        See More →
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        )}
+                                    </li>
+
+                                    {/* Resources Dropdown */}
+                                    <li className="relative">
+                                        <button
+                                            onClick={() => setIsResourcesOpen(!isResourcesOpen)}
+                                            className="text-white/70 hover:text-[#c89e3a] transition-colors flex items-center gap-2 cursor-pointer"
+                                        >
+                                            {dictionary?.nav?.resources || "Resources"}
+                                            <ChevronDown
+                                                size={16}
+                                                className={`transition-transform duration-200 ${isResourcesOpen ? "rotate-180" : ""}`}
+                                            />
+                                        </button>
+                                        {isResourcesOpen && (
+                                            <ul className="mt-2 ml-4 space-y-2">
+                                                {FOOTER_RESOURCES.map((item) => (
+                                                    <li key={item.key}>
+                                                        <button
+                                                            onClick={() => handleNavigation(item.href)}
+                                                            className="text-white/60 hover:text-[#c89e3a] transition-colors text-sm text-left cursor-pointer"
+                                                        >
+                                                            {getResourceNavLabel(dictionary, item)}
+                                                        </button>
+                                                    </li>
+                                                ))}
+                                                <li>
+                                                    <button
+                                                        onClick={() => handleNavigation("/resources")}
+                                                        className="text-[#c89e3a] hover:text-[#e4c75f] transition-colors text-sm text-left cursor-pointer font-medium"
+                                                    >
+                                                        See More →
+                                                    </button>
+                                                </li>
                                             </ul>
                                         )}
                                     </li>

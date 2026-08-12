@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Weekend van de Klant Anvers 2026 | Dalila Diamonds",
+    "description": "Demandez un rendez-vous pour diamants naturels chez Dalila à Anvers pour le Weekend van de Klant, 3–4 octobre 2026. Les visites commerciales sont soumises à confirmation.",
+    "canonical": "https://www.daliladiamonds.com/fr/weekend-van-de-klant-antwerp-diamond-appointments",
+    "ogTitle": "Rencontrez Dalila Diamonds à Anvers pour le Weekend van de Klant",
+    "ogDescription": "Demandez un rendez-vous pour discuter de diamants naturels en vrac, d'approvisionnement commercial ou d'informations sur les rapports de certification à Anvers les 3–4 octobre 2026.",
+    "inLanguage": "fr-BE"
+  },
+  "banner": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Rendez-vous Diamants Weekend van de Klant",
+    "imageAlt": "Rendez-vous diamant naturel en vrac chez Dalila Diamonds à Anvers pour le Weekend van de Klant"
+  },
+  "dateComponent": {
+    "active": "Weekend van de Klant · Samedi 3 & Dimanche 4 octobre 2026",
+    "activeNote": "Les créneaux disponibles chez Dalila apparaîtront après confirmation.",
+    "ended": "Cet événement est terminé.",
+    "endedNote": "Contactez l'équipe anversoise de Dalila pour une demande commerciale standard.",
+    "cutoffYear": 2026,
+    "cutoffMonth": 10,
+    "cutoffDay": 4
+  },
+  "trustMicrocopy": "Diamants naturels en vrac uniquement · B2B en priorité · Visites sur rendez-vous confirmé",
+  "primaryCta": "Demander un Rendez-vous de Week-end",
+  "secondaryCta": "Voir l'Inventaire de Diamants Naturels",
+  "tradeCta": "Envoyer des Spécifications Commerciales",
+  "statusLine": "Rendez-vous demandé ≠ rendez-vous confirmé. Attendez la confirmation écrite avant de vous rendre à Hoveniersstraat.",
+  "sections": {
+    "hero": {
+      "eyebrow": "Weekend van de Klant · Samedi 3 & Dimanche 4 octobre 2026",
+      "heading": "Rendez-vous en Diamants Naturels pour le Weekend van de Klant",
+      "paragraphs": [
+        "Profitez du week-end des clients belges pour discuter d'un vrai besoin en diamants naturels en vrac avec l'équipe anversoise de Dalila. Les acheteurs professionnels peuvent demander un rendez-vous privé pour examiner un brief d'approvisionnement, comparer les options actuelles en diamants naturels ou comprendre les informations enregistrées sur un rapport de certification de laboratoire reconnu.",
+        "Dalila Diamonds fournit des diamants naturels en vrac—pas de bijoux finis ni de diamants de synthèse. Chaque visite doit être confirmée à l'avance et seuls les créneaux de rendez-vous approuvés seront disponibles."
+      ],
+      "tradeLink": "Vous avez déjà des spécifications ? Envoyez votre brief diamant",
+      "imageAlt": "Rendez-vous diamant naturel en vrac chez Dalila Diamonds à Anvers pour le Weekend van de Klant"
+    },
+    "event": {
+      "heading": "Une Expérience Client Locale—Pas Seulement Une Autre Remise",
+      "paragraphs": [
+        "Le Weekend van de Klant se déroule dans toute la Belgique les 3 et 4 octobre 2026. L'événement annuel, organisé par UNIZO, UCM et Comeos, invite les commerçants à remercier leurs clients avec un petit extra ou une expérience qui aide les gens à redécouvrir les entreprises locales.",
+        "Pour Dalila, l'action la plus crédible est l'accès à l'expertise : une conversation ciblée sur un brief diamant, la disponibilité en direct de diamants naturels ou des informations sur les rapports de certification. Les directives officielles n'exigent pas que les entreprises participantes ouvrent les deux jours et ne recommandent pas la remise comme offre centrale. Cela permet à Dalila de publier un calendrier limité, uniquement sur rendez-vous, qui respecte la sécurité, l'accès au bâtiment et la nature spécialisée de l'approvisionnement en diamants."
+      ],
+      "inlineLink": {
+        "text": "En savoir plus sur le Weekend van de Klant",
+        "href": "https://weekendvandeklant.be/"
+      },
+      "imageAlt": "Weekend van de Klant à Anvers les 3 et 4 octobre 2026"
+    },
+    "appointments": {
+      "heading": "Choisissez la Conversation Dont Vous Avez Besoin",
+      "offerNote": "Utilisez « rendez-vous gratuit » uniquement après que Dalila confirme quels types de rendez-vous sont gratuits, leur durée, leur public et toute exclusion. Les achats de diamants, les services de laboratoire, les expertises et les coûts d'approvisionnement personnalisé sont séparés, sauf mention expresse.",
+      "items": [
+        {
+          "title": "Clinique de Brief Diamant Commercial",
+          "body": "Apportez le type de bijou prévu, la forme, la quantité, le carat ou les dimensions, la couleur, la pureté, la préférence de rapport de certification, le budget et la date de réception requise. Dalila peut identifier les spécifications manquantes et expliquer la prochaine étape d'approvisionnement. Convient aux bijoutiers, designers, fabricants, grossistes et marques de bijoux indépendantes.",
+          "cta": "Démarrer un Brief Diamant Commercial"
+        },
+        {
+          "title": "Vérification et Explication du Rapport de Certification",
+          "body": "Apportez le rapport de certification original ou un numéro de rapport clair. Dalila peut aider à comparer le document avec l'enregistrement en ligne du laboratoire émetteur où ce service est disponible et expliquer les champs courants tels que les mesures, les 4C, le polissage, la symétrie et la fluorescence. Ce n'est pas une authentification physique de diamant, une expertise ou une évaluation.",
+          "cta": "Demander un Rendez-vous de Vérification"
+        },
+        {
+          "title": "Revue du Stock Actuel de Diamants Naturels",
+          "body": "Demandez à examiner les diamants naturels en vrac actuellement disponibles qui correspondent à un besoin défini. La disponibilité doit être reconfirmée avant le rendez-vous ; un résultat de site web ne réserve pas une pierre. La session peut couvrir les pierres centrales, les formes fantaisie, les paires assorties ou les exigences en melee de diamants naturels calibrés, sous réserve du stock disponible.",
+          "cta": "Demander les Options Actuelles"
+        },
+        {
+          "title": "Collecte Commerciale Confirmée ou Visite de Bureau",
+          "body": "Les acheteurs professionnels avec une commande approuvée peuvent demander si une collecte sécurisée à Anvers ou un rendez-vous de bureau est faisable pendant la fenêtre de l'événement. La collecte n'est jamais automatique et doit être confirmée avec identification, statut de commande, instructions d'accès et timing.",
+          "cta": "Renseignez-vous sur la Collecte à Anvers"
+        }
+      ],
+      "imageAlt": "Options de consultation en diamants naturels et de rendez-vous pour rapport de certification à Anvers"
+    },
+    "prepare": {
+      "heading": "Apportez les Informations qui Rendent la Séance Utile",
+      "paragraphs": [
+        "Pour une consultation d'approvisionnement, préparez la pièce prévue, la quantité requise, la forme, la taille ou la plage de carats, la couleur, la pureté, la préférence de rapport, le budget et la vraie date limite. Marquez chaque exigence comme essentielle ou flexible. Pour les paires assorties ou les layouts multi-pierres, incluez les tolérances de mesure et un dessin à l'échelle.",
+        "Pour une discussion sur un rapport de certification, envoyez le nom du laboratoire et le numéro de rapport à l'avance. Apportez le document original si disponible. N'apportez pas de diamant en vrac, de bijou fini ou d'autre article de valeur à moins que Dalila n'ait spécifiquement accepté de l'inspecter ou de le recevoir et n'ait fourni des instructions d'accès sécurisé."
+      ],
+      "checklist": [
+        "Coordonnées de l'entreprise et du contact",
+        "Type de rendez-vous",
+        "Brief diamant ou numéro de rapport",
+        "Usage prévu des bijoux",
+        "Plage de budget, si approvisionnement",
+        "Date de réception requise, si approvisionnement",
+        "Image de référence ou dessin à l'échelle, si pertinent",
+        "Noms de tous les participants"
+      ],
+      "checklistCta": "Préparer Ma Demande de Rendez-vous",
+      "imageAlt": "Préparation d'un brief de consultation en diamants naturels pour un rendez-vous à Anvers"
+    },
+    "whyDalila": {
+      "heading": "Approvisionnement en Diamants Naturels depuis le Quartier Diamantaire d'Anvers",
+      "paragraphs": [
+        "Dalila Diamonds est basée au 30 Hoveniersstraat à Anvers et apporte plus de 50 ans d'expérience familiale dans l'industrie du diamant à l'approvisionnement professionnel. L'équipe travaille avec des bijoutiers, designers, fabricants, grossistes, détaillants de luxe et marques indépendantes à la recherche de diamants naturels en vrac pour la production, le stock ou les commissions clients.",
+        "Un rendez-vous peut commencer avec une pierre centrale spécifique, une paire assortie, une forme fantaisie, une exigence en melee calibrée ou un brief personnalisé complet. Dalila présente les options actuellement disponibles ou approvisionnées pour examen professionnel ; le bijoutier reste responsable du design fini, du sertissage, du devis client, de la garantie et du service après-vente.",
+        "« Approvisionné via Anvers » décrit le lieu de commerce et d'approvisionnement. Cela ne signifie pas qu'un diamant naturel a été extrait en Belgique. Le rapport de certification et la documentation disponible pour chaque pierre sélectionnée doivent être examinés selon leurs propres mérites."
+      ],
+      "tradeNote": "Dalila ne vend pas de bijoux finis ni de diamants de synthèse sur cette page. Les visiteurs privés doivent demander s'ils sont éligibles et, le cas échéant, faire coordonner l'approvisionnement et le sertissage ultérieur par leur bijoutier choisi.",
+      "cta": "Parler avec l'Équipe Anversoise de Dalila",
+      "imageAlt": "Équipe d'approvisionnement en diamants naturels de Dalila Diamonds à Anvers"
+    },
+    "booking": {
+      "heading": "Demander Votre Rendez-vous Weekend van de Klant",
+      "paragraphs": [
+        "Choisissez le type de rendez-vous et envoyez le brief ou les détails de rapport pertinents. Dalila confirmera si la demande est éligible, proposera un créneau disponible et fournira les instructions d'accès. Ne voyagez pas avant d'avoir reçu une confirmation écrite."
+      ],
+      "confirmationMessage": "Merci. Votre demande a été reçue mais votre rendez-vous n'est pas encore confirmé. Dalila répondra avec les informations d'éligibilité, de timing et d'accès.",
+      "consentNote": "Ne pas pré-cocher le consentement marketing. Garder la demande de rendez-vous, l'avis de traitement des données et l'inscription à la newsletter séparés.",
+      "hoursNote": "Publiez uniquement les créneaux approuvés du samedi et/ou dimanche. Ne copiez pas les heures standard de semaine dans le panneau de l'événement.",
+      "contact": {
+        "email": "business@daliladiamonds.com",
+        "phone": "+32 487 93 93 51",
+        "address": "Hoveniersstraat 30, Box 105, Suite 326, 2018 Anvers"
+      },
+      "formFields": [
+        "Nom",
+        "Entreprise et rôle professionnel",
+        "E-mail",
+        "Téléphone / WhatsApp",
+        "Type de rendez-vous",
+        "Jour préféré",
+        "Créneau horaire préféré",
+        "Spécifications commerciales ou numéro de rapport",
+        "Usage prévu des bijoux",
+        "Plage de budget",
+        "Date de réception requise",
+        "Nombre et noms des participants"
+      ],
+      "imageAlt": "Rendez-vous Weekend van de Klant confirmé chez Dalila Diamonds à Anvers"
+    },
+    "faqs": {
+      "heading": "Rendez-vous Weekend van de Klant chez Dalila Diamonds",
+      "items": [
+        { "q": "Quand a lieu le Weekend van de Klant en 2026 ?", "a": "L'événement officiel se déroule le samedi 3 et le dimanche 4 octobre 2026." },
+        { "q": "Qui organise le Weekend van de Klant ?", "a": "UNIZO, UCM et Comeos organisent l'événement national." },
+        { "q": "Dalila Diamonds est-elle un participant officiel en 2026 ?", "a": "Dalila prépare la disponibilité de rendez-vous pour l'événement de 2026. Les créneaux confirmés et un lien vers le profil officiel du participant apparaîtront ici une fois l'inscription et la liste dans l'annuaire complètes." },
+        { "q": "Dalila est-elle ouverte le samedi et le dimanche ?", "a": "Seuls les créneaux de rendez-vous approuvés doivent être affichés. L'événement officiel permet aux commerçants de choisir un ou les deux jours, de sorte que les dates de l'événement ne deviennent pas automatiquement les heures d'ouverture de Dalila." },
+        { "q": "Puis-je visiter sans rendez-vous ?", "a": "Aucun accès sans rendez-vous n'est disponible. Demandez un rendez-vous et attendez la confirmation écrite et les instructions d'accès avant de voyager." },
+        { "q": "À qui sont destinés les rendez-vous ?", "a": "Le public principal est composé d'acheteurs professionnels, notamment des bijoutiers, designers, fabricants, grossistes, détaillants et marques de bijoux. L'éligibilité des clients privés doit être confirmée par Dalila et peut nécessiter la participation du bijoutier du client." },
+        { "q": "Les rendez-vous du Weekend van de Klant sont-ils gratuits ?", "a": "Un rendez-vous est gratuit uniquement après que Dalila approuve le type de rendez-vous pertinent, sa durée et son éligibilité. Les achats de diamants et les services professionnels ou de laboratoire séparés restent en dehors de cette offre, sauf mention expresse." },
+        { "q": "Dalila vend-elle des bijoux finis ?", "a": "Non. Dalila fournit des diamants naturels en vrac. Un bijoutier ou un atelier conçoit, sertit, vend et entretient la pièce finie." },
+        { "q": "Dalila vend-elle des diamants de synthèse ?", "a": "Non. L'offre de Dalila est axée sur les diamants naturels." },
+        { "q": "Qu'est-ce qu'une vérification de rapport de certification de diamant ?", "a": "Elle compare les détails du rapport avec l'enregistrement en ligne du laboratoire émetteur, là où c'est disponible, et explique les informations enregistrées sur le rapport. Elle ne prouve pas qu'une pierre physique non examinée correspond au rapport." },
+        { "q": "Une vérification de rapport de certification est-elle une expertise ou une évaluation ?", "a": "Non. Un rapport de certification décrit les caractéristiques évaluées telles que les dimensions et les facteurs de qualité. Il n'indique pas une valeur d'expertise et ne garantit pas un prix." },
+        { "q": "Dalila peut-elle authentifier mon diamant lors du rendez-vous ?", "a": "L'identification physique du diamant ou l'analyse en laboratoire nécessite un périmètre convenu séparément, une manipulation sécurisée et l'expertise appropriée. Cela ne fait pas partie de l'offre de rendez-vous standard." },
+        { "q": "Quels diamants naturels les acheteurs professionnels peuvent-ils discuter ?", "a": "Sous réserve de la disponibilité actuelle et des spécifications, les acheteurs peuvent discuter de pierres centrales, de paires assorties, de formes fantaisie, de melee calibrée et d'approvisionnement personnalisé." },
+        { "q": "Puis-je réserver un diamant via le site web ?", "a": "Consulter une annonce ou demander un rendez-vous ne réserve pas un diamant. Dalila doit confirmer la pierre spécifique et les conditions commerciales." },
+        { "q": "Puis-je récupérer une commande confirmée pendant le week-end de l'événement ?", "a": "Uniquement si Dalila approuve la commande, le timing de collecte, l'identification et les dispositions d'accès au bâtiment par écrit." },
+        { "q": "Quelles langues sont disponibles ?", "a": "La page B2B de Dalila répertorie l'anglais, le néerlandais, le français, l'hindi et l'hébreu. Confirmez quel membre de l'équipe et quelle langue sont disponibles pour le créneau du week-end sélectionné." }
+      ]
+    }
+  }
+}

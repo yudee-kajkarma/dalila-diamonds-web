@@ -5,7 +5,7 @@ import { withS3Assets } from "@/lib/s3Assets";
 // Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
 const data = withS3Assets(rawData);
 export async function GET() {
-  const table = data.completeChart.table;
+  const table = data.atAGlance.table;
   const rowsHtml = table.rows
     .map(
       (row) =>
@@ -36,7 +36,7 @@ export async function GET() {
     <thead><tr>${table.headers.map((h) => `<th>${h}</th>`).join("")}</tr></thead>
     <tbody>${rowsHtml}</tbody>
   </table>
-  <p class="note">${data.download.printNote}</p>
+  <p class="note">${data.atAGlance.closing?.[0] || "Diamond quality assessment requires examination of multiple factors."}</p>
   <p class="note">Source: ${data.meta.canonical}</p>
   <script>window.print()</script>
 </body>
