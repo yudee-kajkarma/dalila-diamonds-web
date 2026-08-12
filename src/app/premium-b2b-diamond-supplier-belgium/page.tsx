@@ -89,28 +89,6 @@ export default async function PremiumB2BDiamondSupplierPage({ params }: { params
   return (
     <div className="bg-white min-h-screen">
       <PremiumB2BBanner />
-      
-      {/* Initial Content Section with Sidebar */}
-      <div className="container mx-auto max-w-7xl px-4 py-16">
-        <div className="flex flex-col lg:flex-row gap-12">
-          {/* Left Sidebar */}
-          <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="premium-b2b" />
-              </div>
-            </AnimatedContainer>
-          </aside>
- 
-          {/* Right Content Area */}
-          <main className="flex-1 w-full">
-            <article className="pb-8">
-              {renderContentSection(trustedSupplierSection[0])}
-            </article>
-          </main>
-        </div>
-      </div>
-
       {/* Full Width Content Sections */}
       <div className="w-full">
         <SeoPageShowcase sections={initialSections} />

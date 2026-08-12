@@ -87,37 +87,7 @@ export default async function ElongatedCushionCutDiamondGuidePage({ params }: { 
       <ElongatedCushionBanner />
 
       {/* Initial Content Section with Sidebar */}
-      <div className="container mx-auto max-w-7xl px-4 py-16">
-        <div className="flex flex-col lg:flex-row gap-12">
-          {/* Left Sidebar */}
-          <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="elongated-cushion" />
-              </div>
-            </AnimatedContainer>
-          </aside>
-
-          {/* Right Content Area */}
-          <main className="flex-1 w-full">
-            <article className="pb-8">
-              <div className="mb-12">
-                <AnimatedContainer direction="up">
-                  <div className="bg-white">
-                    <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full"></div>
-                    <h2 className={`text-3xl md:text-4xl lg:text-4xl font-bold text-[#1a1a1a] mb-6 leading-tight ${marcellus.className}`}>
-                      {introTitle}
-                    </h2>
-                    <div className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 whitespace-pre-line ${jost.className}`}>
-                      {introContent}
-                    </div>
-                  </div>
-                </AnimatedContainer>
-              </div>
-            </article>
-          </main>
-        </div>
-      </div>
+    
 
       {/* Full Width Content Sections */}
       <div className="w-full">

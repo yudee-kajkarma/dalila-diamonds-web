@@ -28,7 +28,7 @@
     "secondaryButtonText": "SOURCE A DIAMOND BY EXACT MEASUREMENTS",
     "secondaryButtonHref": "/diamond-source",
     "image": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
+      "src": "/diamondcuts/About.jpg",
       "alt": "Diamond size chart comparing carat weight and millimetre dimensions by shape",
       "width": 1600,
       "height": 900
@@ -36,19 +36,19 @@
   },
   "images": {
     "oneCaratComparison": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "/diamondcuts/aboutus.jpg",
       "alt": "One-carat natural diamonds in different shapes compared side by side",
       "width": 1400,
       "height": 900
     },
     "depthComparison": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+      "src": "/diamondcuts/sell-diamonds.jpg",
       "alt": "Shallow balanced and deep diamonds compared for face-up spread",
       "width": 1400,
       "height": 900
     },
     "fingerComparison": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
+      "src": "/diamondcuts/About.jpg",
       "alt": "Round diamond sizes compared on the same finger",
       "width": 1400,
       "height": 900
@@ -414,7 +414,7 @@
         "paragraphs": [
           "Use the measurements printed on the actual grading report. Dalila’s guide to reading a GIA diamond report explains where the principal measurements and grading information appear."
         ],
-        "reportGuideHref": "/blogs/how-to-read-gia-diamond-certificate",
+        "reportGuideHref": "/resources/diamond-grading-report-guide",
         "reportGuideText": "reading a GIA diamond report"
       },
       {

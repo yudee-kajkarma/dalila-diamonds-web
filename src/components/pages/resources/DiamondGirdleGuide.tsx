@@ -110,7 +110,7 @@ function buildStructuredDataGraph(data: GirdleGuidePageData, locale: Locale) {
             "@type": "ListItem",
             position: 2,
             name: data.banner.breadcrumbResources,
-            item: "https://www.daliladiamonds.com/blogs",
+            item: "https://www.daliladiamonds.com/resources",
           },
           {
             "@type": "ListItem",
@@ -362,7 +362,7 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
       {/* Banner */}
       <div className="relative bg-slate-900">
         <section
-          className="relative h-[36vh] xs:h-[44vh] sm:h-[60vh] md:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden"
+          className="relative min-h-[280px] xs:min-h-[300px] sm:min-h-[360px] md:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden"
           aria-label="Page banner"
         >
           <div className="absolute inset-0">
@@ -376,10 +376,10 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
 
-          <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center py-8 sm:py-14">
+          <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center pt-24 sm:pt-28 pb-8 sm:pb-14">
             <AnimatedContainer direction="right">
               <p
-                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
+                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
                 style={{ lineHeight: 1.15 }}
               >
                 {data.banner.title}
@@ -396,7 +396,7 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
               </Link>
               <span aria-hidden="true">›</span>
               <Link
-                href={localizedPath("/blogs", locale)}
+                href={localizedPath("/resources", locale)}
                 className={`hover:text-amber-400 transition-colors ${jost.className}`}
               >
                 {data.banner.breadcrumbResources}
@@ -408,56 +408,45 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
         </section>
       </div>
 
-      {/* Hero */}
-      <section className="bg-white py-10 md:py-14" aria-labelledby="girdle-guide-hero-heading">
+      {/* Hero — title + subheading only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="girdle-guide-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
           <AnimatedContainer direction="up">
             <h1
               id="girdle-guide-hero-heading"
-              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-4 tracking-tight leading-tight ${marcellus.className}`}
+              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight leading-tight ${marcellus.className}`}
             >
               {data.hero.title}
             </h1>
-            <p className={`text-lg md:text-xl text-gray-700 leading-relaxed mb-6 ${jost.className}`}>{data.hero.subheading}</p>
-            <p
-              className={`inline-flex items-center rounded-full border border-[#c89e3a]/40 bg-[#FAF6EB] px-4 py-2 text-sm text-gray-800 ${jost.className}`}
-            >
-              <span className="font-medium">{data.hero.reviewDateLabel}</span>
-              <span className="ml-2">{data.hero.reviewDate}</span>
-            </p>
+            <p className={`text-lg md:text-xl text-gray-600 leading-relaxed ${jost.className}`}>{data.hero.subheading}</p>
           </AnimatedContainer>
         </div>
       </section>
 
-      {/* Quick Answer */}
-      <section className="bg-[#FAF6EB] border-y border-[#c89e3a]/20 py-10 md:py-12" aria-labelledby="girdle-guide-quick-answer">
-        <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <h2
-              id="girdle-guide-quick-answer"
-              className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 ${marcellus.className}`}
-            >
-              {data.quickAnswer.title}
-            </h2>
-            <PlainParagraphs items={data.quickAnswer.introParagraphs} className="text-gray-800 mb-3" />
-            <BulletList items={data.quickAnswer.attributes} className="text-gray-800 mb-3" />
-            <PlainParagraphs items={data.quickAnswer.closingParagraphs} className="text-gray-800 mb-0 last:mb-0" />
-          </AnimatedContainer>
-        </div>
-      </section>
-
-      {/* Main content with sidebar */}
+      {/* Main content with sidebar — quick answer + all content inside article */}
       <div className="container mx-auto max-w-7xl px-4 py-8">
-        <div className="flex flex-col lg:flex-row gap-12">
-          <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="diamond-girdle-guide" />
-              </div>
-            </AnimatedContainer>
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="diamond-girdle-guide" />
           </aside>
 
-          <article className="flex-1 w-full min-w-0">
+          <article className="order-1 lg:order-2 w-full min-w-0">
+
+            {/* Quick Answer — inside article column */}
+            <div className="mb-10 bg-[#FAF6EB] border border-[#c89e3a]/20 p-6 md:p-8">
+              <AnimatedContainer direction="up">
+                <h2
+                  id="girdle-guide-quick-answer"
+                  className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 ${marcellus.className}`}
+                >
+                  {data.quickAnswer.title}
+                </h2>
+                <PlainParagraphs items={data.quickAnswer.introParagraphs} className="text-gray-800 mb-3" />
+                <BulletList items={data.quickAnswer.attributes} className="text-gray-800 mb-3" />
+                <PlainParagraphs items={data.quickAnswer.closingParagraphs} className="text-gray-800 mb-0 last:mb-0" />
+              </AnimatedContainer>
+            </div>
+
             {renderSection({
               id: "girdle-guide-key-takeaways",
               title: data.keyTakeaways.title,
@@ -804,11 +793,11 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
             >
               {data.faqs.title}
             </h2>
-            <div className="space-y-4">
+            <div className="border border-gray-200 divide-y divide-gray-200">
               {data.faqs.items.map((item, index) => (
                 <details
                   key={item.question}
-                  className="group border border-gray-200 bg-white open:bg-[#FAF6EB]/40"
+                  className="group bg-white open:bg-[#FAF6EB]/40 w-full"
                   open={index === 0}
                 >
                   <summary className="cursor-pointer list-none px-5 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c89e3a] focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden">
@@ -868,3 +857,7 @@ export default function DiamondGirdleGuide({ locale = "en" }: DiamondGirdleGuide
     </main>
   );
 }
+
+
+
+

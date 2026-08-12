@@ -431,18 +431,18 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildStructuredData(data)) }} />
 
       <div className="relative bg-slate-900">
-        <section className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden" aria-label="Page banner">
+        <section className="relative min-h-[280px] sm:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden" aria-label="Page banner">
           <div className="absolute inset-0">
             <Image src={s3Asset("/images/banner-dalila-contact.png")} alt={data.banner.imageAlt} fill className="object-cover" priority />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
-          <div className="container mx-auto px-4 relative z-10 text-center py-8">
-            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 mt-8 ${marcellus.className}`}>{data.banner.title}</p>
+          <div className="container mx-auto px-4 relative z-10 text-center pt-24 pb-8">
+            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 ${marcellus.className}`}>{data.banner.title}</p>
             <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
             <nav aria-label="Breadcrumb" className={`flex flex-wrap items-center justify-center gap-2 text-gray-300 text-sm md:text-base ${jost.className}`}>
               <Link href={localizedPath("/", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbHome}</Link>
               <span aria-hidden="true">›</span>
-              <Link href={localizedPath("/blogs", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
+              <Link href={localizedPath("/resources", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
               <span aria-hidden="true">›</span>
               <span>{data.banner.breadcrumbCurrent}</span>
             </nav>
@@ -450,26 +450,34 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
         </section>
       </div>
 
-      <section className="bg-white py-10 md:py-14" aria-labelledby="dvc-hero-heading">
+      {/* Hero — h1 only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="dvc-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
-          <h1 id="dvc-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-6 tracking-tight ${marcellus.className}`}>
+          <h1 id="dvc-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight ${marcellus.className}`}>
             {data.hero.title}
           </h1>
-          <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-            <Image src={data.hero.image.src} alt={data.hero.image.alt} width={data.hero.image.width} height={data.hero.image.height} className="object-cover w-full h-full" priority />
-          </div>
-          <Paragraphs items={data.hero.paragraphs} />
-          <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
-            {data.hero.primaryButtonText}
-          </Link>
         </div>
       </section>
 
       <div className="container mx-auto max-w-7xl px-4 pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
-          <ResourceSidebar currentPage="diamond-valuation-calculator" />
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 lg:gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="diamond-valuation-calculator" />
+          </aside>
 
-          <article className="lg:col-span-3">
+          <article className="order-1 lg:order-2">
+
+            {/* Hero image + paragraphs + button — inside article */}
+            <div className="mb-10">
+              <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
+                <Image src="/images/firstimage.jpg" alt={data.hero.image.alt} fill className="object-cover w-full h-full" priority />
+              </div>
+              <Paragraphs items={data.hero.paragraphs} />
+              <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
+                {data.hero.primaryButtonText}
+              </Link>
+            </div>
+
             <nav aria-label="Guide overview" className={`mb-10 p-5 md:p-6 bg-[#FAF6EB] border border-[#e4c75f]/30 ${jost.className}`}>
               <p className="font-semibold text-[#1a1a1a] mb-3">{data.overviewNav.title}</p>
               <ul className="space-y-2 text-sm md:text-base">
@@ -610,7 +618,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
                       <Upload className="w-8 h-8 mx-auto mb-3 text-[#c89e3a]" />
                       <p className="text-gray-700 mb-2">{data.form.labels.dragDrop}</p>
                       <p className="text-xs text-gray-500 mb-4">{data.form.acceptedFormats} up to {data.form.maxFileSizeMb}MB each</p>
-                      <button type="button" onClick={() => fileInputRef.current?.click()} className="border border-gray-300 px-4 py-2 text-sm hover:bg-gray-50">Choose files</button>
+                      <button type="button" onClick={() => fileInputRef.current?.click()} className="bg-gray-100 px-4 py-2 text-sm hover:bg-gray-200">Choose files</button>
                       <input ref={fileInputRef} type="file" multiple accept=".jpg,.jpeg,.png,.webp,.pdf,image/jpeg,image/png,image/webp,application/pdf" className="hidden" onChange={(e) => addFiles(Array.from(e.target.files ?? []))} />
                     </div>
                     {files.length > 0 && (
@@ -693,7 +701,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
 
                 <div className="flex flex-col-reverse sm:flex-row gap-3 pt-2">
                   {step > 1 && (
-                    <button type="button" onClick={goBack} className="px-6 py-3 border border-gray-300 text-gray-700 hover:bg-white">{data.form.backButton}</button>
+                    <button type="button" onClick={goBack} className="px-6 py-3 bg-gray-100 text-gray-700 hover:bg-gray-200">{data.form.backButton}</button>
                   )}
                   {step < data.form.totalSteps ? (
                     <button type="button" onClick={goNext} className="px-6 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium">{data.form.nextButton}</button>
@@ -712,7 +720,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-3 ${jost.className}`}>{data.howMuchWorth.factorsIntro}</p>
               <BulletList items={data.howMuchWorth.factors} />
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>{data.howMuchWorth.closing}</p>
-              <Link href={localizedPath(data.howMuchWorth.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
+              <Link href={localizedPath(data.howMuchWorth.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {data.howMuchWorth.ctaText}
               </Link>
             </section>
@@ -720,12 +728,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             <section id={data.retailVsResale.id} className="scroll-mt-28 mb-12">
               <SectionHeading id={data.retailVsResale.id} title={data.retailVsResale.title} />
               <Paragraphs items={data.retailVsResale.paragraphs} />
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-                <DataTable table={data.retailVsResale.table} />
-                <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg">
-                  <Image src={data.images.retailVsResale.src} alt={data.images.retailVsResale.alt} width={data.images.retailVsResale.width} height={data.images.retailVsResale.height} className="object-cover w-full h-full" loading="lazy" />
-                </div>
-              </div>
+              <DataTable table={data.retailVsResale.table} />
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>
                 {data.retailVsResale.giaNote}{" "}
                 <a href={data.urls.giaFairMarket} target="_blank" rel="noopener noreferrer" className="text-[#c89e3a] hover:underline font-medium">{data.retailVsResale.giaLinkText}</a>.
@@ -734,7 +737,7 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src={data.images.valueFactors.src} alt={data.images.valueFactors.alt} width={data.images.valueFactors.width} height={data.images.valueFactors.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/images/secondimage.jpg" alt={data.images.valueFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.valueFactors.id} className="scroll-mt-28 mb-12">
@@ -768,13 +771,13 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
             <section id={data.withoutCertificate.id} className="scroll-mt-28 mb-12">
               <SectionHeading id={data.withoutCertificate.id} title={data.withoutCertificate.title} />
               <Paragraphs items={data.withoutCertificate.paragraphs} />
-              <Link href={localizedPath(data.withoutCertificate.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
+              <Link href={localizedPath(data.withoutCertificate.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {data.withoutCertificate.ctaText}
               </Link>
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src={data.images.process.src} alt={data.images.process.alt} width={data.images.process.width} height={data.images.process.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/images/thirdimage.jpg" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.valuationProcess.id} className="scroll-mt-28 mb-12">
@@ -785,22 +788,24 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
                   <Paragraphs items={s.paragraphs} />
                 </div>
               ))}
-              <Link href={localizedPath(data.valuationProcess.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
+              <Link href={localizedPath(data.valuationProcess.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {data.valuationProcess.ctaText}
               </Link>
             </section>
 
             <section id={data.whyAntwerp.id} className="scroll-mt-28 mb-12 bg-[#0B1A33] p-8 md:p-10 text-white">
               <h2 className={`text-3xl md:text-4xl mb-6 ${marcellus.className}`}>{data.whyAntwerp.title}</h2>
-              <Paragraphs items={data.whyAntwerp.paragraphs} />
+              <div className="[&_p]:text-white/90">
+                <Paragraphs items={data.whyAntwerp.paragraphs} />
+              </div>
               <ul className={`space-y-2 mb-8 ${jost.className}`}>
                 {data.whyAntwerp.bullets.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-white/85"><span className="text-[#e4c75f]">•</span><span>{item}</span></li>
                 ))}
               </ul>
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href={localizedPath(data.whyAntwerp.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.whyAntwerp.primaryButtonText}</Link>
-                <Link href={localizedPath(data.whyAntwerp.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#e4c75f] hover:bg-white/5 font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.whyAntwerp.secondaryButtonText}</Link>
+                <Link href={localizedPath(data.whyAntwerp.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.whyAntwerp.primaryButtonText}</Link>
+                <Link href={localizedPath(data.whyAntwerp.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center text-[#e4c75f] hover:bg-white/5 font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.whyAntwerp.secondaryButtonText}</Link>
               </div>
             </section>
 
@@ -809,39 +814,44 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
               <Paragraphs items={data.prepare.paragraphs} />
             </section>
 
-            <section id={data.faqs.id} className="scroll-mt-28 mb-12">
-              <SectionHeading id={data.faqs.id} title={data.faqs.title} />
-              <div className="space-y-4">
-                {data.faqs.items.map((faq) => (
-                  <details key={faq.question} className="border border-gray-200 p-4 bg-white group">
-                    <summary className={`cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-start gap-4 ${marcellus.className}`}>
-                      {faq.question}
-                      <span className="text-[#c89e3a] group-open:rotate-45 transition-transform text-xl leading-none" aria-hidden="true">+</span>
-                    </summary>
-                    <p className={`mt-3 text-gray-700 text-base leading-relaxed ${jost.className}`}>{faq.answer}</p>
-                  </details>
-                ))}
-              </div>
-            </section>
-
-            <section id={data.finalCta.id} className="scroll-mt-28 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10">
-              <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
-              <Paragraphs items={data.finalCta.paragraphs} />
-              <div className="flex flex-col sm:flex-row gap-3 mb-6">
-                <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
-                <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
-              </div>
-              <p className={`text-sm text-gray-600 ${jost.className}`}>
-                Related:{" "}
-                <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.gradingReport.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.gradingReport.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.sellGuide.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellGuide.text}</Link>
-              </p>
-            </section>
           </article>
         </div>
+      </div>
+
+      {/* FAQ + Final CTA — full width below the sidebar grid */}
+      <div className="container mx-auto max-w-7xl px-4 pb-16">
+        <section id={data.faqs.id} className="scroll-mt-28 mb-12">
+          <SectionHeading id={data.faqs.id} title={data.faqs.title} />
+          <div className="space-y-4">
+            {data.faqs.items.map((faq) => (
+              <details key={faq.question} className="border border-gray-200 p-4 bg-white group">
+                <summary className={`cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-start gap-4 ${marcellus.className}`}>
+                  {faq.question}
+                  <span className="text-[#c89e3a] group-open:rotate-45 transition-transform text-xl leading-none" aria-hidden="true">+</span>
+                </summary>
+                <p className={`mt-3 text-gray-700 text-base leading-relaxed ${jost.className}`}>{faq.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
+        <section id={data.finalCta.id} className="scroll-mt-28 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10">
+          <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
+          <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
+          <Paragraphs items={data.finalCta.paragraphs} />
+          <div className="flex flex-col sm:flex-row gap-3 mb-6">
+            <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
+            <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-white hover:bg-gray-50 text-[#c89e3a] font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
+          </div>
+          <p className={`text-sm text-gray-600 ${jost.className}`}>
+            Related:{" "}
+            <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.gradingReport.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.gradingReport.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.sellGuide.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellGuide.text}</Link>
+          </p>
+        </section>
       </div>
 
       <div className="fixed bottom-0 inset-x-0 z-40 md:hidden border-t border-[#c89e3a]/30 bg-[#0B1A33] p-3">
@@ -856,3 +866,6 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
     </main>
   );
 }
+
+
+

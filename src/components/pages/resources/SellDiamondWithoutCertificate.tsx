@@ -418,7 +418,7 @@ function UncertifiedDiamondForm({
             <div className="border-2 border-dashed border-gray-300 p-5 text-center bg-white">
               <Upload className="w-6 h-6 mx-auto mb-2 text-[#c89e3a]" />
               <p className="text-sm text-gray-600 mb-2">{data.form.labels.dragDrop}</p>
-              <button type="button" onClick={() => fileInputRef.current?.click()} className="border border-gray-300 px-3 py-1.5 text-sm hover:bg-gray-50">Choose files</button>
+              <button type="button" onClick={() => fileInputRef.current?.click()} className="border border-gray-300 px-3 py-1.5 text-sm hover:bg-gray-50 rounded-none">Choose files</button>
               <input ref={fileInputRef} type="file" multiple accept=".jpg,.jpeg,.png,.webp,.pdf" className="hidden" onChange={(e) => addFiles(Array.from(e.target.files ?? []))} />
             </div>
             {files.length > 0 ? (
@@ -498,11 +498,11 @@ function UncertifiedDiamondForm({
             </button>
           ) : null}
           {step < data.form.totalSteps ? (
-            <button type="submit" className="px-8 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium text-[13px] tracking-[0.08em] uppercase">
+            <button type="submit" className="px-8 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium text-sm transition-colors">
               {data.form.nextButton}
             </button>
           ) : (
-            <button type="submit" disabled={isSubmitting} className="px-8 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium disabled:opacity-60 flex items-center gap-2 text-[13px] tracking-[0.08em] uppercase">
+            <button type="submit" disabled={isSubmitting} className="px-8 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium disabled:opacity-60 flex items-center gap-2 text-sm transition-colors">
               {isSubmitting ? <><Loader2 className="w-4 h-4 animate-spin" />{data.form.submittingButton}</> : data.form.submitButton}
             </button>
           )}
@@ -520,18 +520,18 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildStructuredData(data)) }} />
 
       <div className="relative bg-slate-900">
-        <section className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden" aria-label="Page banner">
+        <section className="relative min-h-[280px] sm:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden" aria-label="Page banner">
           <div className="absolute inset-0">
             <Image src={s3Asset("/images/banner-dalila-contact.png")} alt={data.banner.imageAlt} fill className="object-cover" priority />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
-          <div className="container mx-auto px-4 relative z-10 text-center py-8">
-            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 mt-8 ${marcellus.className}`}>{data.banner.title}</p>
+          <div className="container mx-auto px-4 relative z-10 text-center pt-24 pb-8">
+            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 ${marcellus.className}`}>{data.banner.title}</p>
             <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
             <nav aria-label="Breadcrumb" className={`flex flex-wrap items-center justify-center gap-2 text-gray-300 text-sm md:text-base ${jost.className}`}>
               <Link href={localizedPath("/", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbHome}</Link>
               <span aria-hidden="true">›</span>
-              <Link href={localizedPath("/blogs", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
+              <Link href={localizedPath("/resources", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
               <span aria-hidden="true">›</span>
               <span>{data.banner.breadcrumbCurrent}</span>
             </nav>
@@ -539,24 +539,32 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
         </section>
       </div>
 
-      <section className="bg-white py-10 md:py-14" aria-labelledby="sdwc-hero-heading">
+      {/* Hero — h1 only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="sdwc-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
-          <h1 id="sdwc-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-6 tracking-tight ${marcellus.className}`}>{data.hero.title}</h1>
-          <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-            <Image src={data.images.featured.src} alt={data.images.featured.alt} width={data.images.featured.width} height={data.images.featured.height} className="object-cover w-full h-full" priority />
-          </div>
-          <Paragraphs items={data.hero.paragraphs} />
-          <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
-            {data.hero.primaryButtonText}
-          </Link>
+          <h1 id="sdwc-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight ${marcellus.className}`}>{data.hero.title}</h1>
         </div>
       </section>
 
       <div className="container mx-auto max-w-7xl px-4 pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
-          <ResourceSidebar currentPage="sell-diamond-without-certificate" />
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 lg:gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="sell-diamond-without-certificate" />
+          </aside>
 
-          <article className="lg:col-span-3">
+          <article className="order-1 lg:order-2">
+
+            {/* Hero image + paragraphs + button — inside article */}
+            <div className="mb-10">
+              <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
+                <Image src="/selllSafe/sell-diamonds.jpg" alt={data.images.featured.alt} width={data.images.featured.width} height={data.images.featured.height} className="object-cover w-full h-full" priority />
+              </div>
+              <Paragraphs items={data.hero.paragraphs} />
+              <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
+                {data.hero.primaryButtonText}
+              </Link>
+            </div>
+
             <nav aria-label="Guide overview" className={`mb-10 p-5 md:p-6 bg-[#FAF6EB] border border-[#e4c75f]/30 ${jost.className}`}>
               <p className="font-semibold text-[#1a1a1a] mb-3">{data.overviewNav.title}</p>
               <ul className="space-y-2 text-sm md:text-base">
@@ -572,7 +580,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-3 ${jost.className}`}>{data.quickAnswer.checksIntro}</p>
               <BulletList items={data.quickAnswer.checks} />
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>{data.quickAnswer.closing}</p>
-              <Link href={localizedPath(data.quickAnswer.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.quickAnswer.ctaText}</Link>
+              <Link href={localizedPath(data.quickAnswer.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.quickAnswer.ctaText}</Link>
             </section>
 
             <UncertifiedDiamondForm formId={data.form.idTop} pageData={data} />
@@ -617,7 +625,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src={data.images.lostReportRecovery.src} alt={data.images.lostReportRecovery.alt} width={data.images.lostReportRecovery.width} height={data.images.lostReportRecovery.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/selllSafe/loose.jpg" alt={data.images.lostReportRecovery.alt} width={data.images.lostReportRecovery.width} height={data.images.lostReportRecovery.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.lostGia.id} className="scroll-mt-28 mb-12">
@@ -665,7 +673,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src={data.images.evaluation.src} alt={data.images.evaluation.alt} width={data.images.evaluation.width} height={data.images.evaluation.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/selllSafe/tray.jpg" alt={data.images.evaluation.alt} width={data.images.evaluation.width} height={data.images.evaluation.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.buyerEvaluation.id} className="scroll-mt-28 mb-12">
@@ -701,11 +709,11 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
               <p className={`text-gray-700 mb-3 ${jost.className}`}>{data.newCertificate.notWorthwhileIntro}</p>
               <BulletList items={data.newCertificate.notWorthwhile} />
               <Paragraphs items={[data.newCertificate.closing]} />
-              <Link href={localizedPath(data.newCertificate.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.newCertificate.ctaText}</Link>
+              <Link href={localizedPath(data.newCertificate.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.newCertificate.ctaText}</Link>
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src={data.images.certificationDecision.src} alt={data.images.certificationDecision.alt} width={data.images.certificationDecision.width} height={data.images.certificationDecision.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/b2b/diamant-certificat-GIA.webp" alt={data.images.certificationDecision.alt} width={data.images.certificationDecision.width} height={data.images.certificationDecision.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.certificationDecision.id} className="scroll-mt-28 mb-12">
@@ -734,7 +742,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             <section id={data.inheritedDiamond.id} className="scroll-mt-28 mb-12">
               <SectionHeading id={data.inheritedDiamond.id} title={data.inheritedDiamond.title} />
               <Paragraphs items={data.inheritedDiamond.paragraphs} />
-              <Link href={localizedPath(data.inheritedDiamond.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.inheritedDiamond.ctaText}</Link>
+              <Link href={localizedPath(data.inheritedDiamond.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.inheritedDiamond.ctaText}</Link>
             </section>
 
             <section id={data.withoutReceipt.id} className="scroll-mt-28 mb-12">
@@ -761,7 +769,7 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-12">
-              <Image src={data.images.dalilaProcess.src} alt={data.images.dalilaProcess.alt} width={data.images.dalilaProcess.width} height={data.images.dalilaProcess.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/selllSafe/diamondwork.png" alt={data.images.dalilaProcess.alt} width={data.images.dalilaProcess.width} height={data.images.dalilaProcess.height} className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.dalilaProcess.id} className="scroll-mt-28 mb-12 bg-[#0B1A33] p-8 md:p-10 text-white">
@@ -773,8 +781,8 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
                 </div>
               ))}
               <div className="flex flex-col sm:flex-row gap-3 mt-6">
-                <Link href={localizedPath(data.dalilaProcess.primaryCtaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.dalilaProcess.primaryCtaText}</Link>
-                <Link href={localizedPath(data.dalilaProcess.secondaryCtaHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-amber-200 hover:bg-white/10 font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.dalilaProcess.secondaryCtaText}</Link>
+                <Link href={localizedPath(data.dalilaProcess.primaryCtaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.dalilaProcess.primaryCtaText}</Link>
+                <Link href={localizedPath(data.dalilaProcess.secondaryCtaHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-amber-200 hover:bg-white/10 font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.dalilaProcess.secondaryCtaText}</Link>
               </div>
             </section>
 
@@ -795,24 +803,29 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
               </div>
             </section>
 
-            <section id={data.finalCta.id} className="scroll-mt-28 mb-8 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10">
-              <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
-              <Paragraphs items={data.finalCta.paragraphs} />
-              <div className="flex flex-col sm:flex-row gap-3 mb-6">
-                <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
-                <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
-              </div>
-              <p className={`text-sm text-gray-600 ${jost.className}`}>
-                Related:{" "}
-                <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.valuationCalculator.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.valuationCalculator.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.whereToSell.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.whereToSell.text}</Link>
-              </p>
-            </section>
           </article>
         </div>
+      </div>
+
+      {/* finalCta — full width, outside sidebar grid */}
+      <div className="container mx-auto max-w-7xl px-4 pb-16">
+        <section id={data.finalCta.id} className="scroll-mt-28 mb-8 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10 w-full">
+          <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
+          <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
+          <Paragraphs items={data.finalCta.paragraphs} />
+          <div className="flex flex-col sm:flex-row gap-3 mb-6">
+            <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
+            <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
+          </div>
+          <p className={`text-sm text-gray-600 ${jost.className}`}>
+            Related:{" "}
+            <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.valuationCalculator.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.valuationCalculator.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.whereToSell.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.whereToSell.text}</Link>
+          </p>
+        </section>
       </div>
 
       <div className="fixed bottom-0 inset-x-0 z-40 md:hidden border-t border-[#c89e3a]/30 bg-[#0B1A33] p-3">
@@ -823,3 +836,6 @@ export default function SellDiamondWithoutCertificate({ locale = "en" }: { local
     </main>
   );
 }
+
+
+

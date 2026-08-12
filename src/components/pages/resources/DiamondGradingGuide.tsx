@@ -111,7 +111,7 @@ function buildStructuredDataGraph(data: GradingReportPageData, locale: Locale) {
             "@type": "ListItem",
             position: 2,
             name: data.banner.breadcrumbResources,
-            item: "https://www.daliladiamonds.com/blogs",
+            item: "https://www.daliladiamonds.com/resources",
           },
           {
             "@type": "ListItem",
@@ -372,7 +372,7 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
       {/* Banner */}
       <div className="relative bg-slate-900">
         <section
-          className="relative h-[36vh] xs:h-[44vh] sm:h-[60vh] md:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden"
+          className="relative min-h-[280px] xs:min-h-[300px] sm:min-h-[360px] md:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden"
           aria-label="Page banner"
         >
           <div className="absolute inset-0">
@@ -386,10 +386,10 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
 
-          <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center py-8 sm:py-14">
+          <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center pt-24 sm:pt-28 pb-8 sm:pb-14">
             <AnimatedContainer direction="right">
               <p
-                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
+                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
                 style={{ lineHeight: 1.15 }}
               >
                 {data.banner.title}
@@ -406,7 +406,7 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
               </Link>
               <span aria-hidden="true">›</span>
               <Link
-                href={localizedPath("/blogs", locale)}
+                href={localizedPath("/resources", locale)}
                 className={`hover:text-amber-400 transition-colors ${jost.className}`}
               >
                 {data.banner.breadcrumbResources}
@@ -418,56 +418,45 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
         </section>
       </div>
 
-      {/* Hero */}
-      <section className="bg-white py-10 md:py-14" aria-labelledby="grading-report-hero-heading">
+      {/* Hero — title + subheading only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="grading-report-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
           <AnimatedContainer direction="up">
             <h1
               id="grading-report-hero-heading"
-              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-4 tracking-tight leading-tight ${marcellus.className}`}
+              className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight leading-tight ${marcellus.className}`}
             >
               {data.hero.title}
             </h1>
-            <p className={`text-lg md:text-xl text-gray-700 leading-relaxed mb-6 ${jost.className}`}>{data.hero.subheading}</p>
-            <p
-              className={`inline-flex items-center rounded-full border border-[#c89e3a]/40 bg-[#FAF6EB] px-4 py-2 text-sm text-gray-800 ${jost.className}`}
-            >
-              <span className="font-medium">{data.hero.reviewDateLabel}</span>
-              <span className="ml-2">{data.hero.reviewDate}</span>
-            </p>
+            <p className={`text-lg md:text-xl text-gray-600 leading-relaxed ${jost.className}`}>{data.hero.subheading}</p>
           </AnimatedContainer>
         </div>
       </section>
 
-      {/* Quick Answer */}
-      <section className="bg-[#FAF6EB] border-y border-[#c89e3a]/20 py-10 md:py-12" aria-labelledby="grading-report-quick-answer">
-        <div className="container mx-auto max-w-7xl px-4">
-          <AnimatedContainer direction="up">
-            <h2
-              id="grading-report-quick-answer"
-              className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 ${marcellus.className}`}
-            >
-              {data.quickAnswer.title}
-            </h2>
-            <PlainParagraphs items={data.quickAnswer.introParagraphs} className="text-gray-800 mb-3" />
-            <BulletList items={data.quickAnswer.attributes} className="text-gray-800 mb-3" />
-            <PlainParagraphs items={data.quickAnswer.closingParagraphs} className="text-gray-800 mb-0 last:mb-0" />
-          </AnimatedContainer>
-        </div>
-      </section>
-
-      {/* Main content with sidebar */}
+      {/* Main content with sidebar — quick answer + all content inside article */}
       <div className="container mx-auto max-w-7xl px-4 py-8">
-        <div className="flex flex-col lg:flex-row gap-12">
-          <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="diamond-grading-report-guide" />
-              </div>
-            </AnimatedContainer>
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="diamond-grading-report-guide" />
           </aside>
 
-          <article className="flex-1 w-full min-w-0">
+          <article className="order-1 lg:order-2 w-full min-w-0">
+
+            {/* Quick Answer — inside article column */}
+            <div className="mb-10 bg-[#FAF6EB] border border-[#c89e3a]/20 p-6 md:p-8">
+              <AnimatedContainer direction="up">
+                <h2
+                  id="grading-report-quick-answer"
+                  className={`text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-4 ${marcellus.className}`}
+                >
+                  {data.quickAnswer.title}
+                </h2>
+                <PlainParagraphs items={data.quickAnswer.introParagraphs} className="text-gray-800 mb-3" />
+                <BulletList items={data.quickAnswer.attributes} className="text-gray-800 mb-3" />
+                <PlainParagraphs items={data.quickAnswer.closingParagraphs} className="text-gray-800 mb-0 last:mb-0" />
+              </AnimatedContainer>
+            </div>
+
             {renderSection({ title: "", paragraphsBefore: data.introduction.paragraphs })}
 
             {renderSection({
@@ -504,7 +493,20 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
               title: data.whatIs.title,
               paragraphsBefore: data.whatIs.introParagraphs,
               bullets: data.whatIs.establishItems,
-              paragraphsAfter: data.whatIs.closingParagraphs,
+              children: (
+                <>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-2 ${jost.className}`}>
+                    {data.whatIs.closingParagraphs[0]}
+                  </p>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
+                    {data.whatIs.closingParagraphs[1]}
+                  </p>
+                  <Subheading>{data.whatIs.closingParagraphs[2]}</Subheading>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
+                    {data.whatIs.closingParagraphs[3]}
+                  </p>
+                </>
+              ),
             })}
 
             {renderSection({
@@ -594,8 +596,9 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             {renderSection({
               id: data.comparisonTable.id,
               title: data.comparisonTable.title,
-              paragraphsBefore: data.comparisonTable.introParagraphs,
+              paragraphsBefore: [data.comparisonTable.introParagraphs[0], data.comparisonTable.introParagraphs[1]],
               table: data.comparisonTable.table,
+              paragraphsAfter: [data.comparisonTable.introParagraphs[2], data.comparisonTable.introParagraphs[3]],
             })}
 
             {renderSection({
@@ -610,10 +613,20 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             {renderSection({
               id: data.labComparison.id,
               title: data.labComparison.title,
-              paragraphsBefore: data.labComparison.introParagraphs,
-              bullets: data.labComparison.processSteps,
-              paragraphsAfter: data.labComparison.closingParagraphs,
+              paragraphsBefore: [data.labComparison.introParagraphs[0]],
               table: data.labComparison.table,
+              children: (
+                <>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                    {data.labComparison.introParagraphs[1]}
+                  </p>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                    {data.labComparison.introParagraphs[2]}
+                  </p>
+                  <OrderedList items={data.labComparison.processSteps} />
+                  <PlainParagraphs items={data.labComparison.closingParagraphs} />
+                </>
+              ),
             })}
 
             {renderSection({
@@ -648,9 +661,18 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             {renderSection({
               id: data.vsAppraisal.id,
               title: data.vsAppraisal.title,
-              paragraphsBefore: data.vsAppraisal.introParagraphs,
-              bullets: data.vsAppraisal.establishItems,
               table: data.vsAppraisal.table,
+              children: (
+                <>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                    {data.vsAppraisal.introParagraphs[0]}
+                  </p>
+                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>
+                    {data.vsAppraisal.introParagraphs[1]}
+                  </p>
+                  <BulletList items={data.vsAppraisal.establishItems} />
+                </>
+              ),
             })}
 
             {renderSection({
@@ -710,11 +732,11 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
             >
               {data.faqs.title}
             </h2>
-            <div className="space-y-4">
+            <div className="border border-gray-200 divide-y divide-gray-200">
               {data.faqs.items.map((item, index) => (
                 <details
                   key={item.question}
-                  className="group border border-gray-200 bg-white open:bg-[#FAF6EB]/40"
+                  className="group bg-white open:bg-[#FAF6EB]/40 w-full"
                   open={index === 0}
                 >
                   <summary className="cursor-pointer list-none px-5 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c89e3a] focus-visible:ring-offset-2 [&::-webkit-details-marker]:hidden">
@@ -782,3 +804,7 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
     </main>
   );
 }
+
+
+
+

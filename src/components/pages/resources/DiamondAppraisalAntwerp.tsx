@@ -319,7 +319,7 @@ function DiamondEvaluationForm({
       <div className="border-2 border-dashed border-gray-300 p-5 text-center bg-white">
         <Upload className="w-6 h-6 mx-auto mb-2 text-[#c89e3a]" />
         <p className="text-sm text-gray-600 mb-2">{data.form.labels.dragDrop}</p>
-        <button type="button" onClick={() => inputRef.current?.click()} className="border border-gray-300 px-3 py-1.5 text-sm hover:bg-gray-50">Choose files</button>
+        <button type="button" onClick={() => inputRef.current?.click()} className="bg-gray-100 px-3 py-1.5 text-sm hover:bg-gray-200">Choose files</button>
         <input ref={inputRef} type="file" multiple accept=".jpg,.jpeg,.png,.webp,.pdf" className="hidden" onChange={(e) => addFiles(Array.from(e.target.files ?? []), setFiles)} />
       </div>
       {files.length > 0 && (
@@ -478,7 +478,7 @@ function DiamondEvaluationForm({
           <div className={`p-3 text-sm ${status.type === "success" ? "bg-green-50 text-green-800" : "bg-red-50 text-red-800"}`}>{status.message}</div>
         ) : null}
 
-        <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto px-8 py-3.5 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium disabled:opacity-60 flex items-center justify-center gap-2 text-[13px] tracking-[0.08em] uppercase">
+        <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto px-8 py-3.5 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium disabled:opacity-60 flex items-center justify-center gap-2 text-sm transition-colors">
           {isSubmitting ? <><Loader2 className="w-4 h-4 animate-spin" />{data.form.submittingButton}</> : data.form.submitButton}
         </button>
       </form>
@@ -507,7 +507,7 @@ function PurposeSelector({
       <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>{data.purposeSelector.intro}</p>
 
       <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-        <Image src={data.images.purposeTypes.src} alt={data.images.purposeTypes.alt} width={data.images.purposeTypes.width} height={data.images.purposeTypes.height} className="object-cover w-full h-full" loading="lazy" />
+        <Image src="/b2b/looseround.webp" alt={data.images.purposeTypes.alt} fill className="object-cover w-full h-full" loading="lazy" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -547,18 +547,18 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(buildStructuredData(data)) }} />
 
       <div className="relative bg-slate-900">
-        <section className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden" aria-label="Page banner">
+        <section className="relative min-h-[280px] sm:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden" aria-label="Page banner">
           <div className="absolute inset-0">
             <Image src={s3Asset("/images/banner-dalila-contact.png")} alt={data.banner.imageAlt} fill className="object-cover" priority />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
-          <div className="container mx-auto px-4 relative z-10 text-center py-8">
-            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 mt-8 ${marcellus.className}`}>{data.banner.title}</p>
+          <div className="container mx-auto px-4 relative z-10 text-center pt-24 pb-8">
+            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 ${marcellus.className}`}>{data.banner.title}</p>
             <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
             <nav aria-label="Breadcrumb" className={`flex flex-wrap items-center justify-center gap-2 text-gray-300 text-sm md:text-base ${jost.className}`}>
               <Link href={localizedPath("/", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbHome}</Link>
               <span aria-hidden="true">›</span>
-              <Link href={localizedPath("/blogs", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
+              <Link href={localizedPath("/resources", locale)} className="hover:text-amber-400 transition-colors">{data.banner.breadcrumbResources}</Link>
               <span aria-hidden="true">›</span>
               <span>{data.banner.breadcrumbCurrent}</span>
             </nav>
@@ -566,24 +566,32 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
         </section>
       </div>
 
-      <section className="bg-white py-10 md:py-14" aria-labelledby="daa-hero-heading">
+      {/* Hero — h1 only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="daa-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
-          <h1 id="daa-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-6 tracking-tight ${marcellus.className}`}>{data.hero.title}</h1>
-          <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
-            <Image src={data.images.featured.src} alt={data.images.featured.alt} width={data.images.featured.width} height={data.images.featured.height} className="object-cover w-full h-full" priority />
-          </div>
-          <Paragraphs items={data.hero.paragraphs} />
-          <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>
-            {data.hero.primaryButtonText}
-          </Link>
+          <h1 id="daa-hero-heading" className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight ${marcellus.className}`}>{data.hero.title}</h1>
         </div>
       </section>
 
       <div className="container mx-auto max-w-7xl px-4 pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
-          <ResourceSidebar currentPage="diamond-appraisal-antwerp-belgium" />
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 lg:gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="diamond-appraisal-antwerp-belgium" />
+          </aside>
 
-          <article className="lg:col-span-3">
+          <article className="order-1 lg:order-2">
+
+            {/* Hero image + paragraphs + button — inside article */}
+            <div className="mb-10">
+              <div className="relative w-full aspect-video mb-8 overflow-hidden bg-black shadow-xl">
+                <Image src="/diamondcuts/sell-diamonds.jpg" alt={data.images.featured.alt} fill className="object-cover w-full h-full" priority />
+              </div>
+              <Paragraphs items={data.hero.paragraphs} />
+              <Link href={localizedPath(data.hero.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors mt-4 ${jost.className}`}>
+                {data.hero.primaryButtonText}
+              </Link>
+            </div>
+
             <nav aria-label="Guide overview" className={`mb-10 p-5 md:p-6 bg-[#FAF6EB] border border-[#e4c75f]/30 ${jost.className}`}>
               <p className="font-semibold text-[#1a1a1a] mb-3">{data.overviewNav.title}</p>
               <ul className="space-y-2 text-sm md:text-base">
@@ -604,7 +612,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src={data.images.comparison.src} alt={data.images.comparison.alt} width={data.images.comparison.width} height={data.images.comparison.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/selllSafe/tray.jpg" alt={data.images.comparison.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.appraisalVsGrading.id} className="scroll-mt-28 mb-12">
@@ -640,8 +648,8 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>{data.hrdAntwerp.closing}</p>
             </section>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 items-start">
-              <section id={data.appraisalCost.id} className="scroll-mt-28">
+            <div className="mb-12">
+              <section id={data.appraisalCost.id} className="scroll-mt-28 mb-8">
                 <SectionHeading id={data.appraisalCost.id} title={data.appraisalCost.title} />
                 <Paragraphs items={data.appraisalCost.paragraphs} />
                 <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-3 ${jost.className}`}>{data.appraisalCost.feeIntro}</p>
@@ -652,8 +660,8 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
                 <BulletList items={data.appraisalCost.separateCosts} />
                 <p className={`text-gray-700 text-base md:text-lg leading-relaxed ${jost.className}`}>{data.appraisalCost.closing}</p>
               </section>
-              <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg lg:sticky lg:top-28">
-                <Image src={data.images.costFactors.src} alt={data.images.costFactors.alt} width={data.images.costFactors.width} height={data.images.costFactors.height} className="object-cover w-full h-full" loading="lazy" />
+              <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg">
+                <Image src="/secure_to_source/close-up.jpg" alt={data.images.costFactors.alt} fill className="object-cover w-full h-full" loading="lazy" />
               </div>
             </div>
 
@@ -678,14 +686,14 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
                     </>
                   ) : null}
                   {"ctaText" in type && type.ctaText ? (
-                    <Link href={localizedPath(type.ctaHref!, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{type.ctaText}</Link>
+                    <Link href={localizedPath(type.ctaHref!, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{type.ctaText}</Link>
                   ) : null}
                 </div>
               ))}
             </section>
 
             <div className="relative w-full aspect-[14/10] overflow-hidden bg-black shadow-lg mb-8">
-              <Image src={data.images.process.src} alt={data.images.process.alt} width={data.images.process.width} height={data.images.process.height} className="object-cover w-full h-full" loading="lazy" />
+              <Image src="/diamonds_source/We_Search_Our_Worldwide_Network.jpg" alt={data.images.process.alt} fill className="object-cover w-full h-full" loading="lazy" />
             </div>
 
             <section id={data.appraisalProcess.id} className="scroll-mt-28 mb-12">
@@ -760,7 +768,7 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-3 ${jost.className}`}>{data.onlineAppraisal.paragraphs[1]}</p>
               <BulletList items={data.onlineAppraisal.limitations} />
               <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>{data.onlineAppraisal.closing}</p>
-              <Link href={localizedPath(data.onlineAppraisal.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.onlineAppraisal.ctaText}</Link>
+              <Link href={localizedPath(data.onlineAppraisal.ctaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.onlineAppraisal.ctaText}</Link>
             </section>
 
             <section id={data.beforeSelling.id} className="scroll-mt-28 mb-12">
@@ -779,55 +787,62 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
 
             <section id={data.dalilaEvaluation.id} className="scroll-mt-28 mb-12 bg-[#0B1A33] p-8 md:p-10 text-white">
               <h2 className={`text-3xl md:text-4xl mb-6 ${marcellus.className}`}>{data.dalilaEvaluation.title}</h2>
-              <Paragraphs items={data.dalilaEvaluation.paragraphs} />
+              <div className="[&_p]:text-white/90">
+                <Paragraphs items={data.dalilaEvaluation.paragraphs} />
+              </div>
               <h3 className={`text-xl md:text-2xl mb-4 mt-6 ${marcellus.className}`}>{data.dalilaEvaluation.processTitle}</h3>
               <ol className={`space-y-2 mb-6 list-decimal list-inside text-gray-200 ${jost.className}`}>
                 {data.dalilaEvaluation.processSteps.map((step) => (
                   <li key={step} className="leading-relaxed">{step}</li>
                 ))}
               </ol>
-              <p className={`text-gray-200 mb-6 ${jost.className}`}>{data.dalilaEvaluation.closing}</p>
+              <p className={`text-white/85 mb-6 ${jost.className}`}>{data.dalilaEvaluation.closing}</p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href={localizedPath(data.dalilaEvaluation.primaryCtaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.dalilaEvaluation.primaryCtaText}</Link>
-                <Link href={localizedPath(data.dalilaEvaluation.secondaryCtaHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-amber-200 hover:bg-white/10 font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.dalilaEvaluation.secondaryCtaText}</Link>
+                <Link href={localizedPath(data.dalilaEvaluation.primaryCtaHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.dalilaEvaluation.primaryCtaText}</Link>
+                <Link href={localizedPath(data.dalilaEvaluation.secondaryCtaHref, locale)} className={`inline-flex items-center justify-center text-amber-200 hover:bg-white/10 font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.dalilaEvaluation.secondaryCtaText}</Link>
               </div>
             </section>
 
             <DiamondEvaluationForm presetPurpose={formPurpose} pageData={data} locale={locale} />
 
-            <section id={data.faqs.id} className="scroll-mt-28 mb-12">
-              <SectionHeading id={data.faqs.id} title={data.faqs.title} />
-              <div className="space-y-4">
-                {data.faqs.items.map((faq) => (
-                  <details key={faq.question} className="border border-gray-200 p-4 bg-white group">
-                    <summary className={`cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-start gap-4 ${marcellus.className}`}>
-                      {faq.question}
-                      <span className="text-[#c89e3a] group-open:rotate-45 transition-transform text-xl leading-none" aria-hidden="true">+</span>
-                    </summary>
-                    <p className={`mt-3 text-gray-700 text-base leading-relaxed ${jost.className}`}>{faq.answer}</p>
-                  </details>
-                ))}
-              </div>
-            </section>
-
-            <section id={data.finalCta.id} className="scroll-mt-28 mb-8 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10">
-              <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
-              <Paragraphs items={data.finalCta.paragraphs} />
-              <div className="flex flex-col sm:flex-row gap-3 mb-6">
-                <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
-                <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
-              </div>
-              <p className={`text-sm text-gray-600 ${jost.className}`}>
-                Related:{" "}
-                <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.valuationCalculator.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.valuationCalculator.text}</Link>
-                {" · "}
-                <Link href={localizedPath(data.internalLinks.gradingReport.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.gradingReport.text}</Link>
-              </p>
-            </section>
           </article>
         </div>
+      </div>
+
+      {/* FAQ + Final CTA — full width below sidebar grid */}
+      <div className="container mx-auto max-w-7xl px-4 pb-16">
+        <section id={data.faqs.id} className="scroll-mt-28 mb-12">
+          <SectionHeading id={data.faqs.id} title={data.faqs.title} />
+          <div className="space-y-4">
+            {data.faqs.items.map((faq) => (
+              <details key={faq.question} className="border border-gray-200 p-4 bg-white group">
+                <summary className={`cursor-pointer font-semibold text-[#1a1a1a] list-none flex justify-between items-start gap-4 ${marcellus.className}`}>
+                  {faq.question}
+                  <span className="text-[#c89e3a] group-open:rotate-45 transition-transform text-xl leading-none" aria-hidden="true">+</span>
+                </summary>
+                <p className={`mt-3 text-gray-700 text-base leading-relaxed ${jost.className}`}>{faq.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
+        <section id={data.finalCta.id} className="scroll-mt-28 mb-8 bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10">
+          <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
+          <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-6 ${marcellus.className}`}>{data.finalCta.title}</h2>
+          <Paragraphs items={data.finalCta.paragraphs} />
+          <div className="flex flex-col sm:flex-row gap-3 mb-6">
+            <Link href={localizedPath(data.finalCta.primaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.primaryButtonText}</Link>
+            <Link href={localizedPath(data.finalCta.secondaryButtonHref, locale)} className={`inline-flex items-center justify-center bg-white hover:bg-gray-50 text-[#c89e3a] font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>{data.finalCta.secondaryButtonText}</Link>
+          </div>
+          <p className={`text-sm text-gray-600 ${jost.className}`}>
+            Related:{" "}
+            <Link href={localizedPath(data.internalLinks.sellPage.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.sellPage.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.valuationCalculator.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.valuationCalculator.text}</Link>
+            {" · "}
+            <Link href={localizedPath(data.internalLinks.gradingReport.href, locale)} className="text-[#c89e3a] hover:underline">{data.internalLinks.gradingReport.text}</Link>
+          </p>
+        </section>
       </div>
 
       <div className="fixed bottom-0 inset-x-0 z-40 md:hidden border-t border-[#c89e3a]/30 bg-[#0B1A33] p-3">
@@ -838,3 +853,6 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
     </main>
   );
 }
+
+
+

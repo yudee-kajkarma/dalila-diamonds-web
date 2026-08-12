@@ -90,26 +90,7 @@ export default async function SellYourDiamondSafelyPage({ params }: { params?: P
     <div className={`${marcellus.variable} ${jost.variable} bg-white min-h-screen`}>
       <SellDiamondBanner />
       
-      {/* Initial Content Section with Sidebar */}
-      <div className="container mx-auto max-w-7xl px-4 py-16">
-        <div className="flex flex-col lg:flex-row gap-12">
-          {/* Left Sidebar */}
-          <aside className="lg:w-56 w-full shrink-0">
-            <AnimatedContainer direction="left">
-              <div className="sticky top-4">
-                <ResourceSidebar currentPage="sell-diamond" />
-              </div>
-            </AnimatedContainer>
-          </aside>
-
-          {/* Right Content Area */}
-          <main className="flex-1 w-full">
-            <article className="pb-8">
-              {renderContentSection(whySellingSection[0])}
-            </article>
-          </main>
-        </div>
-      </div>
+     
 
       {/* Full Width Content Sections */}
       <div className="w-full">

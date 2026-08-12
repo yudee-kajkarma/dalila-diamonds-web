@@ -1,10 +1,9 @@
 import { Metadata } from "next";
 import DiamondQualityChart from "@/components/pages/resources/DiamondQualityChart";
 import rawPageData from "@/data/resources/diamond-quality-chart.json";
-import { s3Asset } from "@/lib/s3Assets";
 import { withS3Assets } from "@/lib/s3Assets";
+import { s3Asset } from "@/lib/s3Assets";
 
-// Static JSON holds absolute S3 URLs; rebase onto NEXT_PUBLIC_S3_BASE_URL.
 const pageData = withS3Assets(rawPageData);
 
 export const metadata: Metadata = {
@@ -24,11 +23,7 @@ export const metadata: Metadata = {
     siteName: "Dalila Diamonds",
     locale: "en_GB",
     type: "website",
-    images: [
-      {
-        url: s3Asset("/dalila_img/Dalila_Logo.png"),
-      },
-    ],
+    images: [{ url: s3Asset("/dalila_img/Dalila_Logo.png") }],
   },
   twitter: {
     card: "summary_large_image",

@@ -156,7 +156,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
 
       <div className="relative bg-slate-900">
         <section
-          className="relative h-[36vh] sm:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden"
+          className="relative min-h-[280px] sm:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden"
           aria-label="Page banner"
         >
           <div className="absolute inset-0">
@@ -169,8 +169,8 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
             />
             <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-900/80 to-slate-900" />
           </div>
-          <div className="container mx-auto px-4 relative z-10 text-center py-8">
-            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 mt-8 ${marcellus.className}`}>
+          <div className="container mx-auto px-4 relative z-10 text-center pt-24 pb-8">
+            <p className={`text-3xl sm:text-5xl lg:text-6xl text-white mb-3 ${marcellus.className}`}>
               {data.banner.title}
             </p>
             <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" aria-hidden="true" />
@@ -182,7 +182,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
                 {data.banner.breadcrumbHome}
               </Link>
               <span aria-hidden="true">›</span>
-              <Link href={localizedPath("/blogs", locale)} className="hover:text-amber-400 transition-colors">
+              <Link href={localizedPath("/resources", locale)} className="hover:text-amber-400 transition-colors">
                 {data.banner.breadcrumbResources}
               </Link>
               <span aria-hidden="true">›</span>
@@ -192,62 +192,62 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
         </section>
       </div>
 
-      <section className="bg-white py-10 md:py-14" aria-labelledby="size-chart-hero-heading">
+      {/* Hero — h1 only, full width */}
+      <section className="bg-white py-10 md:py-12" aria-labelledby="size-chart-hero-heading">
         <div className="container mx-auto max-w-7xl px-4">
           <h1
             id="size-chart-hero-heading"
-            className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-6 tracking-tight ${marcellus.className}`}
+            className={`text-3xl md:text-4xl lg:text-[2.75rem] font-bold text-[#1a1a1a] mb-3 tracking-tight ${marcellus.className}`}
           >
             {data.hero.title}
           </h1>
-
-          <div className="relative w-full aspect-[16/9] mb-8 overflow-hidden bg-black shadow-xl">
-            <Image
-              src={data.hero.image.src}
-              alt={data.hero.image.alt}
-              width={data.hero.image.width}
-              height={data.hero.image.height}
-              className="object-cover w-full h-full"
-              priority
-            />
-          </div>
-
-          <div className={`space-y-5 text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
-            {data.hero.paragraphs.map((paragraph) => (
-              <p key={paragraph.slice(0, 40)}>{paragraph}</p>
-            ))}
-          </div>
-
-          <aside className={`mb-8 p-5 md:p-6 bg-[#FAF6EB] border border-[#e4c75f]/40 ${jost.className}`}>
-            <p className="text-gray-800 text-base md:text-lg leading-relaxed">{data.hero.importantNote}</p>
-          </aside>
-
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <Link
-              href={localizedPath(data.hero.primaryButtonHref, locale)}
-              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
-            >
-              {data.hero.primaryButtonText}
-            </Link>
-            <Link
-              href={localizedPath(data.hero.secondaryButtonHref, locale)}
-              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-[#faf6eb] font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
-            >
-              {data.hero.secondaryButtonText}
-            </Link>
-          </div>
         </div>
       </section>
 
       <div className="container mx-auto max-w-7xl px-4 py-8">
-        <div className="flex flex-col lg:flex-row gap-12">
-          <aside className="lg:w-56 w-full shrink-0">
-            <div className="sticky top-4">
-              <ResourceSidebar currentPage="diamond-size-chart" />
-            </div>
+        <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
+          <aside className="sticky-sidebar order-2 lg:order-1">
+            <ResourceSidebar currentPage="diamond-size-chart" />
           </aside>
 
-          <article className="flex-1 w-full min-w-0">
+          <article className="order-1 lg:order-2 w-full min-w-0">
+
+            {/* Hero image + paragraphs + note + buttons — inside article */}
+            <div className="mb-10">
+              <div className="relative w-full aspect-[16/9] mb-8 overflow-hidden bg-black shadow-xl">
+                <Image
+                  src={data.hero.image.src}
+                  alt={data.hero.image.alt}
+                  width={data.hero.image.width}
+                  height={data.hero.image.height}
+                  className="object-cover w-full h-full"
+                  priority
+                />
+              </div>
+              <div className={`space-y-5 text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
+                {data.hero.paragraphs.map((paragraph) => (
+                  <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+                ))}
+              </div>
+              <aside className={`mb-8 p-5 md:p-6 bg-[#FAF6EB] border border-[#e4c75f]/40 ${jost.className}`}>
+                <p className="text-gray-800 text-base md:text-lg leading-relaxed">{data.hero.importantNote}</p>
+              </aside>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <Link
+                  href={localizedPath(data.hero.primaryButtonHref, locale)}
+                  className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
+                >
+                  {data.hero.primaryButtonText}
+                </Link>
+                <Link
+                  href={localizedPath(data.hero.secondaryButtonHref, locale)}
+                  className={`inline-flex items-center justify-center bg-[#1a1a1a] hover:bg-black text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
+                >
+                  {data.hero.secondaryButtonText}
+                </Link>
+              </div>
+            </div>
+
             <nav className="mb-12" aria-labelledby="size-chart-overview">
               <SectionHeading id="overview" title={data.overviewNav.title} />
               <ol className={`space-y-3 list-decimal list-inside ${jost.className}`}>
@@ -311,7 +311,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
                     id="size-shape"
                     value={shape}
                     onChange={(e) => setShape(e.target.value)}
-                    className={`w-full bg-white/10 border border-white/20 rounded-md px-3 py-2.5 text-white ${jost.className}`}
+                    className={`w-full bg-white/10 border border-white/20 px-3 py-2.5 text-white ${jost.className}`}
                   >
                     {data.converter.shapes.map((option) => (
                       <option key={option} value={option} className="text-gray-900">
@@ -328,7 +328,7 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
                     id="size-carat"
                     value={carat}
                     onChange={(e) => setCarat(e.target.value)}
-                    className={`w-full bg-white/10 border border-white/20 rounded-md px-3 py-2.5 text-white ${jost.className}`}
+                    className={`w-full bg-white/10 border border-white/20 px-3 py-2.5 text-white ${jost.className}`}
                   >
                     {data.converter.carats.map((option) => (
                       <option key={option} value={option} className="text-gray-900">
@@ -352,13 +352,13 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href={localizedPath(data.converter.viewInventoryHref, locale)}
-                  className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-6 py-3 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+                  className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-6 py-3 text-sm transition-colors ${jost.className}`}
                 >
                   {data.converter.viewInventoryText}
                 </Link>
                 <Link
                   href={localizedPath(data.converter.requestDs4uHref, locale)}
-                  className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#e4c75f] hover:bg-white/5 font-medium px-6 py-3 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+                  className={`inline-flex items-center justify-center bg-[#1a1a1a] hover:bg-black text-white font-medium px-6 py-3 text-sm transition-colors ${jost.className}`}
                 >
                   {data.converter.requestDs4uText}
                 </Link>
@@ -667,13 +667,13 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 my-8">
             <Link
               href={localizedPath(data.cta.primaryButtonHref, locale)}
-              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
             >
               {data.cta.primaryButtonText}
             </Link>
             <Link
               href={localizedPath(data.cta.secondaryButtonHref, locale)}
-              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-[13px] tracking-[0.08em] uppercase ${jost.className}`}
+              className={`inline-flex items-center justify-center bg-[#1a1a1a] hover:bg-black text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
             >
               {data.cta.secondaryButtonText}
             </Link>
@@ -683,13 +683,13 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
       </section>
 
       <section id={data.faqs.id} className="scroll-mt-28 bg-white py-12 md:py-16">
-        <div className="container mx-auto max-w-4xl px-4">
+        <div className="container mx-auto max-w-7xl px-4">
           <SectionHeading id={data.faqs.id} title={data.faqs.title} />
-          <div className="space-y-4">
+          <div className="border border-gray-200 divide-y divide-gray-200">
             {data.faqs.items.map((item, index) => (
               <details
                 key={item.question}
-                className="group border border-gray-200 bg-white open:bg-[#FAF6EB]/40"
+                className="group bg-white open:bg-[#FAF6EB]/40 w-full"
                 open={index === 0}
               >
                 <summary className="cursor-pointer list-none px-5 py-4 [&::-webkit-details-marker]:hidden">
@@ -711,3 +711,8 @@ export default function DiamondSizeChart({ locale = "en" }: { locale?: Locale })
     </main>
   );
 }
+
+
+
+
+

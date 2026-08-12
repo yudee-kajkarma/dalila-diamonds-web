@@ -29,7 +29,7 @@
     "secondaryButtonText": "REQUEST A NATURAL DIAMOND THROUGH DS4U",
     "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
     "image": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
+      "src": "/diamondcuts/aboutus.jpg",
       "alt": "Natural and laboratory-grown diamonds compared by origin and appearance",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "formation": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+      "src": "/diamondcuts/sell-diamonds.jpg",
       "alt": "Natural diamond formation compared with HPHT and CVD diamond growth",
       "width": 1400,
       "height": 1000
     },
     "identification": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "/diamondcuts/About.jpg",
       "alt": "Natural and laboratory-grown diamonds undergoing professional identification",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
+      "src": "/diamondcuts/aboutus.jpg",
       "alt": "Buyer priorities for choosing between natural and laboratory-grown diamonds",
       "width": 1400,
       "height": 1000
