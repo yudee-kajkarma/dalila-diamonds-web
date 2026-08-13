@@ -40,7 +40,9 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/inventory", priority: 0.9, changefreq: "daily" },
 ];
 
-export const revalidate = 3600;
+// Daily: each chunk regeneration downloads ~5MB across five 1,000-row
+// backend fetches, so the window directly bounds recurring compute cost.
+export const revalidate = 86400;
 
 function esc(value: string): string {
   return value
@@ -125,7 +127,7 @@ export async function GET(
   return new Response(renderUrlset(entries), {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+      "Cache-Control": "public, max-age=0, s-maxage=86400, stale-while-revalidate=86400",
     },
   });
 }

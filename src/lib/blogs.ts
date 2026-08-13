@@ -48,8 +48,10 @@ export function blogToSlug(blog: Pick<BackendBlog, 'title' | 'customSlug'>): str
 }
 
 // Revalidation window (seconds) for cached blog reads. Admin create/edit/delete
-// busts these immediately via revalidatePath() in app/blogs/actions.ts.
-const BLOG_REVALIDATE_SECONDS = 300;
+// busts these immediately via revalidatePath() in app/blogs/actions.ts, so a
+// long window costs nothing in freshness — it only bounds how often crawler
+// traffic re-triggers the per-language list fetches.
+const BLOG_REVALIDATE_SECONDS = 3600;
 
 export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<BackendBlog[]> => {
   try {
@@ -57,7 +59,12 @@ export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<
       `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc&language=${language}`,
       // The list endpoint omits the article body, so the payload is small and
       // safe to cache. Full content is fetched per-blog in getBlogById.
-      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
+      // The timeout bounds billed SSR wall-clock when the backend stalls;
+      // normal responses take ~2s.
+      {
+        next: { revalidate: BLOG_REVALIDATE_SECONDS },
+        signal: AbortSignal.timeout(8000),
+      },
     );
 
     if (!response.ok) {
@@ -75,6 +82,7 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   try {
     const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
       next: { revalidate: BLOG_REVALIDATE_SECONDS },
+      signal: AbortSignal.timeout(8000),
     });
 
     if (!response.ok) {

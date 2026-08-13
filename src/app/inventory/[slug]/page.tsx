@@ -31,7 +31,11 @@ const jost = Jost({
   display: "swap",
 });
 
-export const revalidate = 3600;
+// Diamond specs are immutable per stone; 6h bounds how often crawler traffic
+// can re-trigger the expensive slug lookup while keeping availability
+// reasonably fresh. Must stay in sync with the fetch revalidate in
+// getDiamondFromSlug (src/lib/diamonds.ts).
+export const revalidate = 21600;
 
 export async function generateStaticParams() {
   return [];
