@@ -1,4 +1,4 @@
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import ElongatedCushionBanner from "@/components/pages/resources/ElongatedCushionBanner";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { ContentSection } from "@/components/pages/seopage/SeoPageContent";
@@ -13,19 +13,6 @@ export const metadata: Metadata = {
         canonical: "https://www.daliladiamonds.com/elongated-cushion-cut-diamond-guide",
     },
 };
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default async function ElongatedCushionCutDiamondGuidePage({ params }: { params?: Promise<{ locale?: string }> }) {
   const resolvedParams = await params;
@@ -87,7 +74,6 @@ export default async function ElongatedCushionCutDiamondGuidePage({ params }: { 
       <ElongatedCushionBanner />
 
       {/* Initial Content Section with Sidebar */}
-    
 
       {/* Full Width Content Sections */}
       <div className="w-full">

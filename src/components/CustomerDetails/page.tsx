@@ -16,16 +16,11 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { s3Asset } from "@/lib/s3Assets";
-import { Playfair_Display } from "next/font/google";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { videoUrl } from "@/lib/videoAssets";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 // Dynamically import react-phone-input-2 to avoid SSR issues
 import type { CountryData, PhoneInputProps } from "react-phone-input-2";
@@ -88,8 +83,6 @@ function CustomerDetailsContent() {
         if (userString) {
           const user = JSON.parse(userString);
 
-          
-
           // Check if customer data already exists and is complete
           if (
             user.customerData &&
@@ -97,7 +90,6 @@ function CustomerDetailsContent() {
             user.customerData.businessInfo &&
             user.customerData.address
           ) {
-          
 
             // Check KYC status
             if (user.kycStatus === "approved") {
@@ -261,8 +253,6 @@ function CustomerDetailsContent() {
           : null;
       const userEmail = urlEmail || storedEmail;
 
-
-
       if (!userEmail) {
         setError("Session expired. Please register again.");
         setTimeout(() => router.push("/register"), 2000);
@@ -302,8 +292,6 @@ function CustomerDetailsContent() {
           websiteUrl: websiteUrl.trim() || undefined,
         },
       };
-
-    
 
       const response = await userApi.submitCustomerData(customerData);
 
@@ -797,7 +785,6 @@ function CustomerDetailsContent() {
                 )}
               </button>
 
-            
             </form>
           </div>
         </div>

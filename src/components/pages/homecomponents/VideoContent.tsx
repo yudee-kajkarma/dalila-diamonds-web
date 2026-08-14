@@ -1,21 +1,9 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
 
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { videoUrl } from "@/lib/videoAssets";
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
 export default function VideoContent() {
     const { dictionary } = useLanguage();
     const videoRef = useRef<HTMLVideoElement>(null);

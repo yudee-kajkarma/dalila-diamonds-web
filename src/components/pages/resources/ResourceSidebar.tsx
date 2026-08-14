@@ -3,22 +3,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { Marcellus, Jost } from 'next/font/google';
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from '@/context/LanguageContext';
 import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from '@/lib/resourceNavLinks';
-
-const marcellus = Marcellus({
-  variable: '--font-marcellus',
-  subsets: ['latin'],
-  weight: '400',
-});
-
-const jost = Jost({
-  variable: '--font-jost',
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  display: 'swap',
-});
 
 interface ResourceSidebarProps {
   currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide' | 'diamond-quality-chart' | 'diamond-fluorescence-guide' | 'diamond-culet-guide' | 'diamond-girdle-guide' | 'diamond-size-chart' | 'natural-vs-lab-grown-diamonds' | 'diamond-valuation-calculator' | 'where-to-sell-diamond-ring' | 'how-to-sell-diamond-ring' | 'diamond-appraisal-antwerp-belgium' | 'sell-diamond-without-certificate';

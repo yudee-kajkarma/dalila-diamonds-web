@@ -4,19 +4,12 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Loader2, Upload, X, CheckCircle2 } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { getWeekendVanDeKlantData } from "@/lib/i18n/getWeekendVanDeKlantData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 import { formApi } from "@/lib/api";
 import ProductsSection from "./ProductsSection";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 // ── Event date / status badge ────────────────────────────────────────────────
 function EventDateBadge({

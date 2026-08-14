@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { ChevronDown, ChevronUp, Send, MessageSquare, X, HelpCircle, Clock, CheckCircle, XCircle, Loader2 } from "lucide-react";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import { Diamond } from "@/lib/api";
@@ -10,17 +10,6 @@ import {
   useReplyManagement,
   useHoldManagement,
 } from "@/hooks/customer-management";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  weight: "400",
-  subsets: ["latin"],
-});
-const jost = Jost({
-  variable: "--font-jost",
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-});
 
 // Types are now exported from hooks
 interface CartItem {
@@ -146,7 +135,6 @@ export default function CustomerManagementPage() {
       </span>
     );
   };
-
 
   // Pagination is now handled by usePagination hook
 

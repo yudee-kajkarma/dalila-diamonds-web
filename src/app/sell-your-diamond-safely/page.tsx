@@ -1,4 +1,4 @@
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import SellDiamondBanner from "@/components/pages/resources/SellDiamondBanner";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import SeoPageShowcase, { ShowcaseSection } from "@/components/pages/seopage/SeoPageShowcase";
@@ -14,19 +14,6 @@ export const metadata: Metadata = {
         canonical: "https://www.daliladiamonds.com/sell-your-diamond-safely",
     },
 };
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default async function SellYourDiamondSafelyPage({ params }: { params?: Promise<{ locale?: string }> }) {
   const resolvedParams = await params;
@@ -89,8 +76,6 @@ export default async function SellYourDiamondSafelyPage({ params }: { params?: P
   return (
     <div className={`${marcellus.variable} ${jost.variable} bg-white min-h-screen`}>
       <SellDiamondBanner />
-      
-     
 
       {/* Full Width Content Sections */}
       <div className="w-full">

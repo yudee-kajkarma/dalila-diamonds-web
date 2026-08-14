@@ -1,15 +1,9 @@
 "use client";
 import { useEffect, useRef } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-import { Marcellus } from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { videoUrl } from "@/lib/videoAssets";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
 
 export default function DiamondExperience() {
   const { dictionary } = useLanguage();

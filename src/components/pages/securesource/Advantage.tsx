@@ -1,23 +1,10 @@
 "use client";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import GoldButton from "@/components/ui/Button";
 import { Euro, Truck, Globe } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function S2SAdvantages() {
   const router = useRouter();

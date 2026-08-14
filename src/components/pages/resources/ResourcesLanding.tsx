@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { getLocalizedPath } from "@/lib/i18n/config";
 
@@ -24,13 +24,6 @@ import { getDiamondAppraisalAntwerpData } from "@/lib/i18n/getDiamondAppraisalAn
 import { getSellContent } from "@/lib/i18n/sellTranslations";
 import { getB2bContent } from "@/lib/i18n/b2bTranslations";
 import { getGuideContent } from "@/lib/i18n/guideTranslations";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-});
 
 interface ResourceCard {
   href: string;

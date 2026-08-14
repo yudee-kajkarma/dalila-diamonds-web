@@ -2,19 +2,10 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
-import {  Marcellus} from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
 import { s3Asset } from "@/lib/s3Assets";
-
-
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
 
 interface ImagePopupProps {
   isOpen: boolean;

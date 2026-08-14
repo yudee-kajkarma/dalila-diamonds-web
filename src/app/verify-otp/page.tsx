@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, Suspense } from "react";
 import { Mail, Home, Loader2, CheckCircle, ArrowLeft } from "lucide-react";
-import { Playfair_Display } from "next/font/google";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
@@ -10,11 +10,6 @@ import { useLanguage } from "@/context/LanguageContext";
 import { getAuthText } from "@/lib/i18n/authTranslations";
 import { videoUrl } from "@/lib/videoAssets";
 import { s3Asset } from "@/lib/s3Assets";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 // Separate component that uses useSearchParams
 function OTPVerificationContent() {
@@ -190,8 +185,6 @@ function OTPVerificationContent() {
     }
   };
 
-
-
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
       {/* Background Video */}
@@ -342,9 +335,6 @@ function OTPVerificationContent() {
                 )}
               </button>
 
-             
-
-             
             </form>
           </div>
         </div>

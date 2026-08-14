@@ -1,22 +1,11 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { Upload, X } from "lucide-react";
 import toast from "react-hot-toast";
 import { formApi } from "@/lib/api";
 import type { S2sContent } from "@/lib/i18n/s2sTranslations";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface S2sFormData {
   fullName: string;

@@ -1,15 +1,4 @@
-import { Marcellus, Jost } from "next/font/google";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { marcellus, jost } from "@/lib/fonts";
 
 interface SydTextSectionProps {
   content: {

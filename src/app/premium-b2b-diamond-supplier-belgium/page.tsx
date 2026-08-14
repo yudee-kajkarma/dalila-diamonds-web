@@ -1,4 +1,4 @@
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import PremiumB2BBanner from "@/components/pages/resources/PremiumB2BBanner";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import SeoPageShowcase, { ShowcaseSection } from "@/components/pages/seopage/SeoPageShowcase";
@@ -14,19 +14,6 @@ export const metadata: Metadata = {
         canonical: "https://www.daliladiamonds.com/premium-b2b-diamond-supplier-belgium",
     },
 };
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default async function PremiumB2BDiamondSupplierPage({ params }: { params?: Promise<{ locale?: string }> }) {
   const resolvedParams = await params;

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Plus } from "lucide-react";
-import { Jost } from "next/font/google";
+import { jost } from "@/lib/fonts";
 import { blogApi } from "@/lib/api";
 import { getBlogBaseSlug } from "@/lib/blogLanguages";
 import { useIsAdmin } from "./useIsAdmin";
@@ -13,13 +13,6 @@ import BlogFormModal, {
   type BlogFormValues,
 } from "./BlogFormModal";
 import { refreshBlogs } from "./actions";
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function BlogAdminBar() {
   const isAdmin = useIsAdmin();

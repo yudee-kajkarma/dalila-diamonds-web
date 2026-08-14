@@ -1,27 +1,11 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { Playfair_Display, Jost } from "next/font/google";
+import { playfair, jost } from "@/lib/fonts";
 import Script from "next/script";
 import "./globals.css";
 import HeaderFooterWrapper from "@/components/HeaderFooterWrapper";
 import { Toaster } from "react-hot-toast";
 import { s3Asset } from "@/lib/s3Assets";
-
-const playfair = Playfair_Display({
-    variable: "--font-playfair",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
-
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
 
 export const metadata: Metadata = {
     title: "Dalila Diamonds | Premium B2B Diamond Supplier",

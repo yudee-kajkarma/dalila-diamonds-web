@@ -1,24 +1,10 @@
 import { Suspense } from "react";
-import { Marcellus } from "next/font/google";
-import { Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import { blogToSlug, getAllBlogs } from "@/lib/blogs";
 import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import BlogAdminBar from "./BlogAdminBar";
 import BlogsListing, { BlogsListingView, type BlogListingItem } from "./BlogsListing";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 // Statically prerendered; the blog data fetch revalidates via ISR and admin
 // edits bust it instantly through revalidatePath(). Pagination reads ?page

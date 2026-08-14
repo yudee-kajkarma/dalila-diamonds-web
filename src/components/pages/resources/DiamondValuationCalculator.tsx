@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Loader2, Upload, X } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { formApi } from "@/lib/api";
 import {
@@ -13,13 +13,6 @@ import {
 } from "@/lib/i18n/getDiamondValuationCalculatorData";
 import { s3Asset } from "@/lib/s3Assets";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 const DRAFT_KEY = "dalila_diamond_valuation_draft";
 const ACCEPTED_TYPES = [
@@ -866,6 +859,4 @@ export default function DiamondValuationCalculator({ locale = "en" }: { locale?:
     </main>
   );
 }
-
-
 

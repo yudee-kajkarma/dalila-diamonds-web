@@ -1,16 +1,5 @@
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import type { S2sContent } from "@/lib/i18n/s2sTranslations";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface S2sWhoIsForProps {
   content: S2sContent["whoIsFor"];

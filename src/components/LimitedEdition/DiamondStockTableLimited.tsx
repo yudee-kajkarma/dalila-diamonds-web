@@ -9,18 +9,11 @@ import type {
   TableProps,
 } from "@/types/diamond.types";
 import DiamondDetailView from "../DiamondDetailView";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { formatPrice, formatPercentage } from "@/utils/formatting";
 import { DiamondTablePagination } from "../Diamond/shared/DiamondTablePagination";
 import { useLimitedEditionData } from "@/hooks/useLimitedEditionData";
 import { useLimitedEditionFilters } from "@/hooks/useLimitedEditionFilters";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface CaratRangeValue { min: string; max: string; }
 

@@ -6,20 +6,13 @@ import type {
     GridViewProps,
 } from "@/types/diamond.types";
 import DiamondDetailView from "./DiamondDetailView";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { useDiamondData } from "@/hooks/useDiamondData";
 import { useDiamondFilters } from "@/hooks/useDiamondFilters";
 import { DiamondTableLoading } from "./Diamond/shared/DiamondTableLoading";
 import { DiamondTableError } from "./Diamond/shared/DiamondTableError";
 import { DiamondTableEmpty } from "./Diamond/shared/DiamondTableEmpty";
 import { DiamondTablePagination } from "./Diamond/shared/DiamondTablePagination";
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 const DiamondGridView: React.FC<GridViewProps> = ({
     onRowClick,

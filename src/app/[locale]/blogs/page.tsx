@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import { blogToSlug, getLocalizedBlogList } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
@@ -10,19 +10,6 @@ import BlogsListing, {
   BlogsListingView,
   type BlogListingItem,
 } from "@/app/blogs/BlogsListing";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 type Props = {
   params: Promise<{ locale: string }>;

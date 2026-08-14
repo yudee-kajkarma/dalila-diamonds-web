@@ -1,15 +1,10 @@
 "use client";
 import Image from "next/image";
-import { Marcellus } from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 
 import { useLanguage } from "@/context/LanguageContext";
 import { s3Asset } from "@/lib/s3Assets";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
 export default function CertifiedBy() {
   const { dictionary } = useLanguage();
   const certifications = [

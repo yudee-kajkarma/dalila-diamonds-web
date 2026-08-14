@@ -2,22 +2,11 @@
 
 import React, { useRef, useState } from "react";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { Upload, X } from "lucide-react";
 import toast from "react-hot-toast";
 import { diamondApi } from "@/lib/api";
 import type { Ds4uContent } from "@/lib/i18n/ds4uTranslations";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 const SHAPES = [
   "ROUND",

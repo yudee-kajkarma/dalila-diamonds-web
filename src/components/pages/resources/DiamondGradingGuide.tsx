@@ -1,25 +1,12 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { getGradingReportData, type GradingReportPageData } from "@/lib/i18n/getGradingReportData";
 import { getLocalizedPath, Locale } from "@/lib/i18n/config";
 import { s3Asset } from "@/lib/s3Assets";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 type RichSegment =
   | { type: "text"; value: string }
@@ -808,7 +795,4 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
     </main>
   );
 }
-
-
-
 

@@ -1,7 +1,7 @@
 import { Fragment, type ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import {
   getNaturalRoughDiamondsData,
   type NaturalRoughDiamondsPageData,
@@ -9,19 +9,6 @@ import {
 } from "@/lib/i18n/getNaturalRoughDiamondsData";
 import { s3Asset } from "@/lib/s3Assets";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 type RichSegment =
   | { type: "text"; value: string }

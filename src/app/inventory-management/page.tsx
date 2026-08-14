@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef, memo } from "react";
 import { useRouter } from "next/navigation";
-import { Maven_Pro, Marcellus } from "next/font/google";
+import { marcellus, mavenPro } from "@/lib/fonts";
 import { Package, Users, ChevronUp, ChevronDown, Plus } from "lucide-react";
 import InventoryDiamondTable from "@/components/InventoryDiamondTable";
 import DiamondStockTable from "@/components/DiamondStockTable";
@@ -29,19 +29,6 @@ import MeasurementFilter from "@/components/Filters/MeasurementFilter";
 import { inventoryApi } from "@/lib/api";
 import toast from "react-hot-toast";
 import { API_URL } from "@/services/api/base/apiClient";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 // Singleton wrapper to ensure DiamondStockTable only renders once
 const ActiveDiamondsTableWrapper = memo(

@@ -12,18 +12,13 @@ import {
   Lock,
 } from "lucide-react";
 import { s3Asset } from "@/lib/s3Assets";
-import { Playfair_Display } from "next/font/google";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAuthText } from "@/lib/i18n/authTranslations";
 import { videoUrl } from "@/lib/videoAssets";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 type Step = "email" | "password";
 

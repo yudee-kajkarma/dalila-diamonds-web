@@ -1,24 +1,11 @@
 "use client";
 import { useState, ChangeEvent } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { userApi } from "@/lib/api";
 import toast from "react-hot-toast";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["300", "400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 export default function ContactUsPage() {
     const [formData, setFormData] = useState({

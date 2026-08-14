@@ -1,13 +1,6 @@
 "use client";
-import { Jost } from "next/font/google";
+import { jost } from "@/lib/fonts";
 import React from "react";
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface GoldButtonProps {
   text: string;

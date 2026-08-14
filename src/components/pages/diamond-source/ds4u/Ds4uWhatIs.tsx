@@ -1,17 +1,6 @@
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import type { Ds4uContent } from "@/lib/i18n/ds4uTranslations";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface Ds4uWhatIsProps {
   content: Ds4uContent["whatIs"];

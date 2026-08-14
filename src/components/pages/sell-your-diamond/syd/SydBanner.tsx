@@ -1,19 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import type { SydContent } from "@/lib/i18n/sydTranslations";
 import { s3Asset } from "@/lib/s3Assets";
-
-const marcellus = Marcellus({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface SydBannerProps {
   content: SydContent["banner"];

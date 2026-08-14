@@ -4,19 +4,12 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Loader2, Upload, X } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { getMothersDayData } from "@/lib/i18n/getMothersDayData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 import { formApi } from "@/lib/api";
 import ProductsSection from "./ProductsSection";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 // ── Date component ──────────────────────────────────────────────────────────
 function MothersDayDate({ data }: { data: ReturnType<typeof getMothersDayData> }) {

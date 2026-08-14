@@ -1,24 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
 import { blogToSlug, getLocalizedBlogBySlug, getLocalizedBlogList } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;

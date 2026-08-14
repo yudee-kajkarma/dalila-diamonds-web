@@ -2,23 +2,10 @@
 import { useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
 import { s3Asset } from "@/lib/s3Assets";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function Legacy() {
   const videoRef = useRef<HTMLVideoElement>(null);

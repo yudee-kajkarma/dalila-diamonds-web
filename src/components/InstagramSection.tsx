@@ -1,15 +1,10 @@
 "use client";
 import Image from 'next/image';
 import React from 'react';
-import { Marcellus} from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { s3Asset } from "@/lib/s3Assets";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
 const instaImages = [
 	s3Asset("/insta/insta1.jpg"),
 	s3Asset("/insta/insta2.jpg"),
@@ -17,7 +12,6 @@ const instaImages = [
 ];
 
 const instaLink = 'https://www.instagram.com/p/DO56RDlDKde/';
-
 
 const InstaSection = () => {
   const { dictionary } = useLanguage();

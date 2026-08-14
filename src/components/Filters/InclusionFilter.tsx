@@ -1,13 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Maven_Pro } from "next/font/google";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
 
 const INCLUSION_OPTIONS = [
   "NONE",

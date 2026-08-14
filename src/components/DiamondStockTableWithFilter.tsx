@@ -22,15 +22,8 @@ import CompareButton from "./CompareButton";
 import EmailButton from "./shared/EmailButton";
 import AddToCartButton from "../components/cart/AddToCartButton";
 import HoldButton from "../components/cart/HoldButton";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { s3Asset } from "@/lib/s3Assets";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function DiamondStockTableWithFilter() {
   // Admin check state

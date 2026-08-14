@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { Loader2, X, Image as ImageIcon, Link as LinkIcon } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import RichTextEditor from "@/components/shared/RichTextEditor";
 import { blogApi } from "@/lib/api";
 import {
@@ -15,19 +15,6 @@ import {
   type BlogLanguage,
 } from "@/lib/blogLanguages";
 import { generateSlug } from "@/utils/helpers/slugUtils";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export type BlogFormValues = {
   title: string;

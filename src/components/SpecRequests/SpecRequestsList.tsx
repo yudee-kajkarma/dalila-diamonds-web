@@ -3,20 +3,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { diamondApi } from "@/lib/api";
 import { RefreshCw, Loader2, Eye, X, ChevronDown, ChevronRight, User, Building2, Phone, MapPin } from "lucide-react";
-import { Marcellus, Maven_Pro } from "next/font/google";
+import { marcellus, mavenPro } from "@/lib/fonts";
 import Image from "next/image";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    weight: "400",
-    subsets: ["latin"],
-});
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    weight: ["400", "500", "600", "700"],
-    subsets: ["latin"],
-});
 
 interface SpecRequestImage {
     s3Key?: string;

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { Loader2, Copy, CircleFadingPlus, Pencil, Trash2 } from "lucide-react";
 import Image from "next/image";
 import type { InclusionFilters } from "./Filters/InclusionFilter";
@@ -12,13 +12,6 @@ import { formatPrice, formatPercentage } from "@/utils/formatting";
 import { DiamondTablePagination } from "./Diamond/shared/DiamondTablePagination";
 import { useInventoryData } from "@/hooks/useInventoryData";
 import { useInventoryFilters } from "@/hooks/useInventoryFilters";
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 interface InventoryDiamond {
     _id: string;

@@ -4,19 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Loader2, Upload, X } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
 import { formApi } from "@/lib/api";
 import { getDiamondAppraisalAntwerpData, type DiamondAppraisalAntwerpPageData } from "@/lib/i18n/getDiamondAppraisalAntwerpData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
 import { s3Asset } from "@/lib/s3Assets";
-
-const marcellus = Marcellus({ subsets: ["latin"], weight: "400" });
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 const ACCEPTED_TYPES = ["image/jpeg", "image/png", "image/webp", "application/pdf"];
 
@@ -853,6 +846,4 @@ export default function DiamondAppraisalAntwerp({ locale = "en" }: { locale?: Lo
     </main>
   );
 }
-
-
 

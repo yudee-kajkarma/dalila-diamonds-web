@@ -4,15 +4,8 @@ import React from "react";
 import Footer from "./Footer";
 import Image from "next/image";
 import { X, ArrowLeft } from "lucide-react";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { s3Asset } from "@/lib/s3Assets";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface DiamondData {
   _id: string;

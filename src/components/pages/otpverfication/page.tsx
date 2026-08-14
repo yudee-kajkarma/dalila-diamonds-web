@@ -2,17 +2,12 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Mail, Home, Loader2, CheckCircle, ArrowLeft } from "lucide-react";
-import { Playfair_Display } from "next/font/google";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { videoUrl } from "@/lib/videoAssets";
 import { s3Asset } from "@/lib/s3Assets";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export default function OTPVerificationPage() {
   const router = useRouter();
