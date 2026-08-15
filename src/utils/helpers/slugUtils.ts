@@ -2,6 +2,8 @@
  * Slug utility functions for URL-safe string generation
  */
 
+import { getBlogBaseSlug } from "@/lib/blogLanguages";
+
 /**
  * Generates a URL-safe slug from a string
  * @param text - The text to convert to slug
@@ -23,16 +25,13 @@ export function generateSlug(text: string): string {
 }
 
 /**
- * Gets the slug from a blog, using customSlug if available or generating from title
- * @param blog - Blog object with title and optional customSlug
- * @returns The slug to use for the blog
+ * Gets the slug from a blog, using customSlug if available or generating from title.
+ * Strips a language prefix (e.g. "es/my-blog" → "my-blog") so frontend routes stay
+ * /blogs/my-blog or /es/blogs/my-blog rather than embedding the prefix twice.
  */
 export function getBlogSlug(blog: { title: string; customSlug?: string }): string {
-  // Use customSlug only if it's a non-empty string
   if (blog.customSlug && blog.customSlug.trim()) {
-    // Remove leading/trailing slashes from customSlug
-    return blog.customSlug.replace(/^\/+|\/+$/g, '');
+    return getBlogBaseSlug(blog.customSlug);
   }
-  // Otherwise generate slug from title
   return generateSlug(blog.title);
 }

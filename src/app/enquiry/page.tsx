@@ -4,21 +4,7 @@ import React, { useEffect, useState } from "react";
 import { queryApi, Diamond } from "@/lib/api";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import { Loader2 } from "lucide-react";
-import {  Jost,Marcellus, } from "next/font/google";
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-});
+import { marcellus, jost } from "@/lib/fonts";
 
 interface Query {
   id: string;
@@ -79,7 +65,6 @@ function EnquiryPageContent() {
 
   const renderPaginationButtons = () => {
     const buttons = [];
-    
 
     if (totalPages <= 10) {
       // Show all pages if 10 or fewer

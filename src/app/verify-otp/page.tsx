@@ -2,17 +2,14 @@
 
 import { useState, useEffect, useRef, Suspense } from "react";
 import { Mail, Home, Loader2, CheckCircle, ArrowLeft } from "lucide-react";
-import { Playfair_Display } from "next/font/google";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
 import { useLanguage } from "@/context/LanguageContext";
 import { getAuthText } from "@/lib/i18n/authTranslations";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+import { videoUrl } from "@/lib/videoAssets";
+import { s3Asset } from "@/lib/s3Assets";
 
 // Separate component that uses useSearchParams
 function OTPVerificationContent() {
@@ -188,14 +185,12 @@ function OTPVerificationContent() {
     }
   };
 
-
-
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/New-Videos/diamond_countdown.mp4"
+        src={videoUrl("diamondCountdown")}
         autoPlay
         muted
         loop
@@ -220,7 +215,7 @@ function OTPVerificationContent() {
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
                   <div className="relative w-[250px] md:w-[300px] h-20 md:h-[100px]">
                     <Image
-                      src="/dalila_img/Dalila_Logo.png"
+                      src={s3Asset("/dalila_img/Dalila_Logo.png")}
                       alt="Dalila Diamonds"
                       fill
                       className="object-contain"
@@ -340,9 +335,6 @@ function OTPVerificationContent() {
                 )}
               </button>
 
-             
-
-             
             </form>
           </div>
         </div>

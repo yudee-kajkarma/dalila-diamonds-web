@@ -1,22 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function DiamondSourceHero() {
   const { dictionary } = useLanguage();
@@ -30,7 +18,7 @@ export default function DiamondSourceHero() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-64 sm:h-80 md:h-96 bg-black overflow-hidden shadow-2xl">
                 <Image
-                  src="/diamonds_source/diamondsourceforyou.jpg"
+                  src={s3Asset("/diamonds_source/diamondsourceforyou.jpg")}
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

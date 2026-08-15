@@ -3,22 +3,9 @@
 import React, { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import toast from "react-hot-toast";
-import { Maven_Pro, Marcellus } from "next/font/google";
+import { marcellus, mavenPro } from "@/lib/fonts";
 import { inventoryApi } from "@/lib/api";
 import type { ManualDiamondPayload } from "@/services/api/types/diamond.types";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 export interface DiamondEditData {
     _id: string;

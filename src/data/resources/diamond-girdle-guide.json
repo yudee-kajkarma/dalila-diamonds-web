@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "title": "Diamond Girdle Guide: Thickness & Grades | Dalila Diamonds",
+    "description": "Learn what a diamond girdle is, how GIA and HRD grade its thickness, and how thin or thick girdles affect durability, size, setting and value.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-girdle-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaAnatomy": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    "giaFinishGirdle": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaChipping": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    "giaOval": "https://4cs.gia.edu/en-us/oval-cut-diamond/",
+    "giaInclusions": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaInscription": "https://4cs.gia.edu/en-us/diamond-quality-factor/",
+    "giaLabGrown": "https://www.gia.edu/gia-lab-grown-diamond-reports",
+    "hrdCutGrade": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Diamond Girdle Guide",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "Diamond Girdle Guide",
+    "imageAlt": "Diamond Girdle Guide resource banner for natural diamond buyers"
+  },
+  "hero": {
+    "title": "Diamond Girdle Guide for Natural Diamond Buyers",
+    "subheading": "Understand diamond girdle thickness, GIA and HRD grading, durability, setting considerations, hidden weight, girdle damage and the difference between thin, medium and thick girdles.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "30 July 2026"
+  },
+  "introduction": {
+    "paragraphs": [],
+    "bullets": []
+  },
+  "quickAnswer": {
+    "title": "Quick Answer",
+    "introParagraphs": [
+      "The girdle is the narrow outer edge of a polished diamond where the crown meets the pavilion. It defines the diamond’s outline and normally provides the area gripped by prongs, a bezel or another jewellery setting.",
+      "For many modern natural diamonds, a Thin, Medium or Slightly Thick girdle—or a reasonable range across these categories—is generally practical. An Extremely Thin or extensively Very Thin girdle can increase vulnerability to chipping, particularly near corners and points. A Very Thick or Extremely Thick girdle can retain weight without increasing the diamond’s visible face-up size.",
+      "The girdle description must not be assessed alone. Buyers should consider where the thin and thick sections occur, the diamond’s shape, setting, measurements, symmetry, condition, complete cut performance and price."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Key Takeaways",
+    "items": [
+      "The girdle is the outer perimeter separating the diamond’s crown from its pavilion.",
+      "Girdle thickness is normally reported as a range from the thinnest to the thickest relevant areas.",
+      "GIA uses eight verbal descriptions from Extremely Thin to Extremely Thick.",
+      "A range such as Thin to Slightly Thick does not mean the entire girdle has one uniform thickness.",
+      "Thin, Medium and Slightly Thick girdles are commonly acceptable, but there is no universal best description for every diamond.",
+      "Extremely Thin areas may increase chipping risk, especially at corners, points and exposed positions.",
+      "Thick girdles may contain weight that does not contribute meaningfully to face-up size.",
+      "A thick girdle does not automatically mean the diamond is poorly cut or unattractive.",
+      "Faceted, polished and bruted describe the girdle’s finish, not its thickness.",
+      "A faceted girdle is not automatically better than a polished or bruted girdle.",
+      "Painting and digging out describe variations created by the relationship between the upper- and lower-half facets around the girdle.",
+      "Chips, cavities, naturals, indented naturals and bearding must not be confused with ordinary girdle thickness.",
+      "A laser inscription on the girdle can help match a diamond to its report, but it is not sufficient identification on its own.",
+      "Fancy shapes require special attention at vulnerable corners and points.",
+      "Girdle thickness cannot prove that a diamond is natural rather than laboratory-grown.",
+      "Price must be based on the complete diamond, not a fixed girdle discount or premium."
+    ]
+  },
+  "importantBuyerNote": {
+    "id": "important-buyer-note",
+    "title": "Important Buyer Note",
+    "paragraphs": [
+      "This guide explains how girdles are described and assessed. It does not replace examination of the actual diamond by a qualified gemmologist or experienced diamond professional.",
+      "A grading report describes the diamond when it was examined. It does not guarantee that the girdle has remained undamaged since the report was issued."
+    ]
+  },
+  "overviewNav": {
+    "title": "Guide Overview",
+    "items": [
+      {
+        "id": "what-is-a-diamond-girdle",
+        "label": "What is a diamond girdle?"
+      },
+      {
+        "id": "where-the-girdle-is-located",
+        "label": "Where the girdle is located"
+      },
+      {
+        "id": "what-the-girdle-does",
+        "label": "What the girdle does"
+      },
+      {
+        "id": "gia-diamond-girdle-scale",
+        "label": "GIA diamond girdle scale"
+      },
+      {
+        "id": "how-girdle-ranges-are-reported",
+        "label": "How girdle ranges are reported"
+      },
+      {
+        "id": "diamond-girdle-percentages",
+        "label": "Diamond girdle percentages"
+      },
+      {
+        "id": "hrd-antwerp-girdle-measurements",
+        "label": "HRD Antwerp girdle measurements"
+      },
+      {
+        "id": "gia-versus-hrd-girdle-reporting",
+        "label": "GIA versus HRD girdle reporting"
+      },
+      {
+        "id": "best-girdle-thickness-for-a-diamond",
+        "label": "Best girdle thickness for a diamond"
+      },
+      {
+        "id": "thin-and-extremely-thin-girdles",
+        "label": "Thin and extremely thin girdles"
+      },
+      {
+        "id": "thick-and-extremely-thick-girdles",
+        "label": "Thick and extremely thick girdles"
+      },
+      {
+        "id": "uneven-and-varying-girdles",
+        "label": "Uneven and varying girdles"
+      },
+      {
+        "id": "faceted-polished-and-bruted-girdles",
+        "label": "Faceted, polished and bruted girdles"
+      },
+      {
+        "id": "painting-and-digging-out",
+        "label": "Painting and digging out"
+      },
+      {
+        "id": "girdle-damage-and-clarity-characteristics",
+        "label": "Girdle damage and clarity characteristics"
+      },
+      {
+        "id": "laser-inscriptions-on-the-girdle",
+        "label": "Laser inscriptions on the girdle"
+      },
+      {
+        "id": "girdles-in-different-diamond-shapes",
+        "label": "Girdles in different diamond shapes"
+      },
+      {
+        "id": "girdle-thickness-and-jewellery-settings",
+        "label": "Girdle thickness and jewellery settings"
+      },
+      {
+        "id": "girdle-thickness-face-up-size-and-price",
+        "label": "Girdle thickness, face-up size and price"
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-girdles",
+        "label": "Natural versus laboratory-grown diamond girdles"
+      },
+      {
+        "id": "how-to-inspect-a-diamond-girdle",
+        "label": "How to inspect a diamond girdle"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Worked diamond comparison"
+      },
+      {
+        "id": "common-girdle-myths",
+        "label": "Common girdle myths"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Natural-diamond buying checklist"
+      },
+      {
+        "id": "girdle-guide-faq-heading",
+        "label": "Frequently asked questions"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-girdle",
+    "title": "What Is a Diamond Girdle?",
+    "introParagraphs": [
+      "The girdle is the narrow perimeter around a polished diamond where the upper crown and lower pavilion meet.",
+      "Viewed from above, the girdle defines the diamond’s outline. It determines whether the polished stone appears:"
+    ],
+    "bullets": [
+      "Round",
+      "Oval",
+      "Square",
+      "Rectangular",
+      "Pear-shaped",
+      "Marquise-shaped",
+      "Heart-shaped",
+      "Cushion-shaped",
+      "Another recognised outline"
+    ],
+    "closingParagraphs": [
+      "Viewed from the side, the girdle appears as the dividing edge between the crown and pavilion."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA describes the girdle as the middle portion of the diamond and the part normally used as the setting edge. Its thickness contributes to durability and weight distribution. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s diamond-anatomy reference",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains its position within the complete polished diamond."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For the pavilion point opposite the table, see the "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Culet Guide",
+          "href": "/resources/diamond-culet-guide"
+        },
+        {
+          "type": "text",
+          "value": ". For broader quality scales, see the "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Quality Chart",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-girdle-a-facet",
+        "title": "Is the Girdle a Facet?",
+        "paragraphsBefore": [
+          "Not necessarily.",
+          "The girdle may be:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished but not individually faceted",
+          "Bruted or frosted",
+          "Partly faceted",
+          "Irregular in finish"
+        ],
+        "paragraphsAfter": [
+          "A faceted girdle contains a sequence of small polished surfaces. A polished girdle may be smooth rather than divided into individual facets. A bruted girdle generally has a frosted or granular appearance created during the shaping process."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-crown",
+        "title": "Is the Girdle the Same as the Crown?",
+        "paragraphsBefore": [
+          "No.",
+          "The crown is the complete upper portion of the diamond above the girdle. The girdle forms the boundary beneath it."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-pavilion",
+        "title": "Is the Girdle the Same as the Pavilion?",
+        "paragraphsBefore": [
+          "No.",
+          "The pavilion is the lower portion below the girdle, extending towards the culet or other pavilion termination."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-a-lower-girdle-facet",
+        "title": "Is the Girdle the Same as a Lower-Girdle Facet?",
+        "paragraphsBefore": [
+          "No.",
+          "Lower-girdle facets, also called lower-half facets, are pavilion facets extending upwards towards the girdle. They are not the girdle itself."
+        ]
+      }
+    ]
+  },
+  "whereLocated": {
+    "id": "where-the-girdle-is-located",
+    "title": "Where Is the Girdle Located?",
+    "introParagraphs": [
+      "The principal parts of a polished Round Brilliant are:"
+    ],
+    "bullets": [
+      "Table",
+      "Crown",
+      "Girdle",
+      "Pavilion",
+      "Culet or pavilion point"
+    ],
+    "closingParagraphs": [
+      "The table sits at the top. The crown descends from the table to the girdle. The pavilion continues beneath the girdle towards the culet.",
+      "The girdle surrounds the entire diamond horizontally.",
+      "In a mounted diamond, parts of the girdle may be:"
+    ],
+    "positionBullets": [
+      "Covered by prongs",
+      "Enclosed by a bezel",
+      "Hidden by a halo or surrounding metal",
+      "Visible between setting points",
+      "Positioned above or below the surrounding jewellery",
+      "Difficult to inspect without removing or adjusting the setting"
+    ],
+    "finalParagraphs": [
+      "A complete inspection must account for the areas hidden by metal."
+    ],
+    "displacedBullets": [],
+    "closingNote": []
+  },
+  "whatDoes": {
+    "id": "what-the-girdle-does",
+    "title": "What Does the Diamond Girdle Do?",
+    "introParagraphs": [
+      "The girdle has several related functions."
+    ],
+    "subsections": [
+      {
+        "id": "defines-the-diamonds-outline",
+        "title": "Defines the Diamond’s Outline",
+        "paragraphsBefore": [
+          "The girdle establishes the shape visible when the diamond is viewed face-up.",
+          "Variations in the outline may affect:"
+        ],
+        "bullets": [
+          "Roundness",
+          "Length-to-width ratio",
+          "Corner shape",
+          "Point alignment",
+          "Shoulder balance",
+          "Wing shape",
+          "Overall symmetry"
+        ]
+      },
+      {
+        "id": "separates-the-crown-and-pavilion",
+        "title": "Separates the Crown and Pavilion",
+        "paragraphsBefore": [
+          "The girdle forms the transition between the diamond’s upper and lower sections.",
+          "Its thickness contributes to:"
+        ],
+        "bullets": [
+          "Total depth",
+          "Weight distribution",
+          "Durability",
+          "Setting suitability",
+          "Face-up dimensions"
+        ]
+      },
+      {
+        "id": "provides-the-setting-edge",
+        "title": "Provides the Setting Edge",
+        "paragraphsBefore": [
+          "Prongs, bezels and other mounting components normally secure the diamond around its girdle.",
+          "For that reason, setters must consider:"
+        ],
+        "bullets": [
+          "Minimum girdle thickness",
+          "Thickness variation",
+          "Corners and points",
+          "Existing chips",
+          "Naturals and cavities",
+          "Feather locations",
+          "Girdle finish",
+          "Whether an inscription needs to remain visible",
+          "The pressure required to secure the stone"
+        ]
+      },
+      {
+        "id": "protects-the-diamonds-edge",
+        "title": "Protects the Diamond’s Edge",
+        "paragraphsBefore": [
+          "A properly proportioned girdle provides material between the crown and pavilion.",
+          "If the girdle becomes extremely thin or knife-edged, the edge may be more vulnerable to chipping. If it is unnecessarily thick, it may retain weight that contributes little to the diamond’s visible spread."
+        ]
+      }
+    ]
+  },
+  "giaScale": {
+    "id": "gia-diamond-girdle-scale",
+    "title": "GIA Diamond Girdle Scale",
+    "introParagraphs": [
+      "GIA uses the following girdle-thickness descriptions:"
+    ],
+    "table": {
+      "caption": "GIA girdle thickness descriptions",
+      "headers": [
+        "GIA description",
+        "General interpretation",
+        "Practical buyer approach"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "Little or no measurable girdle in one or more relevant areas",
+          "Investigate location, extent, durability and setting risk"
+        ],
+        [
+          "Very Thin",
+          "Narrow girdle areas are present",
+          "Determine whether they are localised or extensive and whether points or corners are affected"
+        ],
+        [
+          "Thin",
+          "A relatively narrow but established girdle",
+          "Frequently acceptable when undamaged and appropriate for the shape"
+        ],
+        [
+          "Medium",
+          "Balanced middle-range thickness",
+          "Commonly practical for durability and weight distribution"
+        ],
+        [
+          "Slightly Thick",
+          "Moderately increased thickness",
+          "Often acceptable if face-up dimensions and proportions remain attractive"
+        ],
+        [
+          "Thick",
+          "Noticeably increased girdle thickness",
+          "Compare weight, diameter, depth and face-up appearance"
+        ],
+        [
+          "Very Thick",
+          "Substantial thickness in one or more areas",
+          "Check for hidden weight, reduced spread and setting implications"
+        ],
+        [
+          "Extremely Thick",
+          "Very substantial girdle thickness",
+          "Requires careful comparison of weight efficiency, proportions and appearance"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA assesses girdle thickness visually under 10× magnification and reports either a single description or a range. Its complete scale and measurement methodology are provided in the "
+        },
+        {
+          "type": "link",
+          "text": "GIA finish, culet and girdle reference",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-gia-scale-a-quality-scale",
+        "title": "Is the GIA Scale a Quality Scale?",
+        "paragraphsBefore": [
+          "Not by itself.",
+          "The terms describe thickness. Their buying significance depends on:"
+        ],
+        "bullets": [
+          "Minimum thickness",
+          "Maximum thickness",
+          "Location of each extreme",
+          "Diamond shape",
+          "Corner and point vulnerability",
+          "Girdle condition",
+          "Overall proportions",
+          "Weight ratio",
+          "Symmetry",
+          "Setting",
+          "Face-up appearance"
+        ],
+        "paragraphsAfter": [
+          "Medium is not automatically superior to every Thin or Slightly Thick girdle. Similarly, a Very Thick area does not automatically make a diamond unsuitable."
+        ]
+      },
+      {
+        "id": "can-gia-report-a-single-description",
+        "title": "Can GIA Report a Single Description?",
+        "paragraphsBefore": [
+          "Yes.",
+          "If the thinnest and thickest relevant girdle areas fall within the same category, the report may show one description, such as:"
+        ],
+        "bullets": [
+          "Medium",
+          "Thin",
+          "Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "More commonly, the report provides a range such as:",
+          "Thin to Medium",
+          "Medium to Slightly Thick",
+          "Very Thin to Thick"
+        ]
+      }
+    ]
+  },
+  "rangesReported": {
+    "id": "how-girdle-ranges-are-reported",
+    "title": "How Are Diamond Girdle Ranges Reported?",
+    "introParagraphs": [
+      "A description such as Thin to Slightly Thick represents the observed minimum and maximum relevant girdle thicknesses.",
+      "It does not mean:"
+    ],
+    "bullets": [
+      "Half the girdle is Thin and half is Slightly Thick",
+      "The average thickness is Medium",
+      "Every area between the two descriptions is equally represented",
+      "The girdle is damaged",
+      "The diamond is asymmetrical",
+      "The diamond cannot receive a high cut grade"
+    ],
+    "subsections": [
+      {
+        "id": "how-should-a-girdle-range-be-read",
+        "title": "How Should a Girdle Range Be Read?",
+        "paragraphsBefore": [
+          "The first term is the minimum thickness. The second is the maximum."
+        ],
+        "table": {
+          "caption": "Reading girdle range descriptions",
+          "headers": [
+            "Report description",
+            "Minimum",
+            "Maximum"
+          ],
+          "rows": [
+            [
+              "Thin to Medium",
+              "Thin",
+              "Medium"
+            ],
+            [
+              "Medium to Slightly Thick",
+              "Medium",
+              "Slightly Thick"
+            ],
+            [
+              "Very Thin to Thick",
+              "Very Thin",
+              "Thick"
+            ],
+            [
+              "Thin to Very Thick",
+              "Thin",
+              "Very Thick"
+            ],
+            [
+              "Medium",
+              "Medium",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "does-a-wide-range-mean-the-girdle-is-bad",
+        "title": "Does a Wide Range Mean the Girdle Is Bad?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "A wider range requires examination because it may result from:"
+        ],
+        "bullets": [
+          "Normal variation around a scalloped girdle",
+          "The design of a fancy shape",
+          "Extra material near a corner or point",
+          "Painting",
+          "Digging out",
+          "Facet-placement variation",
+          "A natural or indented natural",
+          "An extra facet",
+          "Cutting decisions used to retain weight",
+          "An irregular outline",
+          "Damage"
+        ],
+        "paragraphsAfter": [
+          "The location and extent of the variation matter more than the width of the verbal range alone."
+        ]
+      },
+      {
+        "id": "can-one-small-area-determine-the-minimum-description",
+        "title": "Can One Small Area Determine the Minimum Description?",
+        "paragraphsBefore": [
+          "A limited area can influence the reported minimum, although laboratory methodology also considers characteristics interrupting the girdle.",
+          "GIA explains that features such as a natural, cavity, chip or extra facet may narrow the girdle locally. The remaining girdle and any true knife-edge area must be assessed according to the laboratory’s methodology.",
+          "Therefore, do not assume that a report stating Very Thin means the entire girdle is Very Thin."
+        ]
+      }
+    ]
+  },
+  "percentages": {
+    "id": "diamond-girdle-percentages",
+    "title": "Diamond Girdle Percentage",
+    "introParagraphs": [
+      "For a Round Brilliant, girdle thickness can be expressed relative to the diamond’s average girdle diameter.",
+      "The supporting formula is:",
+      "Girdle thickness percentage = girdle thickness ÷ average girdle diameter × 100",
+      "GIA distinguishes between two related assessments:"
+    ],
+    "bullets": [
+      "Average thickness measured at the eight bezel-and-pavilion-main hill positions",
+      "Minimum and maximum thickness visually assessed at the thinner valley positions"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA reports the average hill-position percentage to the nearest 0.5%. The verbal range is based on the relevant minimum and maximum valley areas. "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s Round Brilliant anatomy guide",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": " explains the difference."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-are-hill-and-valley-positions",
+        "title": "What Are Hill and Valley Positions?",
+        "paragraphsBefore": [
+          "A brilliant-cut diamond has a scalloped girdle.",
+          "Hill positions are thicker areas where bezel facets and pavilion-main facets meet.",
+          "Valley positions are thinner areas associated with the upper- and lower-half facet junctions.",
+          "Because these positions measure different parts of the girdle, an average percentage must not be treated as a direct translation of the verbal minimum-to-maximum range."
+        ]
+      },
+      {
+        "id": "can-buyers-convert-gia-percentages-into-exact-verbal-grades",
+        "title": "Can Buyers Convert GIA Percentages Into Exact Verbal Grades?",
+        "paragraphsBefore": [
+          "Not reliably.",
+          "GIA states that:"
+        ],
+        "bullets": [
+          "Its published percentage examples are approximate",
+          "Extremely fine measurements are affected by instrument tolerance",
+          "Clarity characteristics may interfere with measurement",
+          "The girdle may be irregular",
+          "The girdle may not be perpendicular to the table",
+          "Visual verification remains necessary"
+        ],
+        "paragraphsAfter": [
+          "For this reason, use the laboratory’s stated description rather than applying a self-created conversion table."
+        ]
+      },
+      {
+        "id": "does-a-higher-percentage-always-mean-a-worse-diamond",
+        "title": "Does a Higher Percentage Always Mean a Worse Diamond?",
+        "paragraphsBefore": [
+          "No.",
+          "A higher girdle percentage indicates more thickness, not complete diamond quality.",
+          "Its effect must be assessed alongside:"
+        ],
+        "bullets": [
+          "Crown height",
+          "Pavilion depth",
+          "Total depth",
+          "Table size",
+          "Face-up dimensions",
+          "Cut grade",
+          "Symmetry",
+          "Shape",
+          "Weight distribution",
+          "Price"
+        ]
+      }
+    ]
+  },
+  "hrdMeasurements": {
+    "id": "hrd-antwerp-girdle-measurements",
+    "title": "HRD Antwerp Girdle Measurements",
+    "introParagraphs": [
+      "HRD Antwerp commonly reports the girdle using a verbal description, percentage and finish.",
+      "Under its January 2025 guidance, HRD uses the following descriptive ranges:"
+    ],
+    "table": {
+      "caption": "HRD Antwerp girdle descriptive ranges",
+      "headers": [
+        "HRD description",
+        "Measured girdle value"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "0.0%–0.5%"
+        ],
+        [
+          "Very Thin",
+          "1.0%–1.5%"
+        ],
+        [
+          "Thin",
+          "2.0%–2.5%"
+        ],
+        [
+          "Medium",
+          "3.0%–5.0%"
+        ],
+        [
+          "Thick",
+          "5.5%–6.0%"
+        ],
+        [
+          "Very Thick",
+          "6.5%–7.5%"
+        ],
+        [
+          "Extremely Thick",
+          "8.0% and above"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "HRD separately evaluates how the percentage contributes to the Round Brilliant proportions grade:"
+    ],
+    "proportionsTable": {
+      "caption": "HRD girdle percentage and proportions categories",
+      "headers": [
+        "HRD girdle percentage",
+        "Girdle-related proportions category"
+      ],
+      "rows": [
+        [
+          "2.5%–4.5%",
+          "Excellent"
+        ],
+        [
+          "2.0% or 5.0%–6.5%",
+          "Very Good"
+        ],
+        [
+          "1.0%–1.5% or 7.0%–8.5%",
+          "Good"
+        ],
+        [
+          "Up to 0.5% or 9.0% and above",
+          "Fair"
+        ]
+      ]
+    },
+    "finalParagraphs": [
+      "These classifications describe the girdle’s contribution to HRD’s proportions assessment. They do not determine the complete grade by themselves.",
+      "HRD also considers crown angle, pavilion angle, table width, crown height, pavilion depth, total depth, culet, polish, symmetry and other observable effects. The complete methodology appears in the HRD Antwerp 2025 cut-grade chart."
+    ],
+    "subsections": [
+      {
+        "id": "why-is-hrd-relevant-to-european-buyers",
+        "title": "Why Is HRD Relevant to European Buyers?",
+        "paragraphsBefore": [
+          "HRD Antwerp reports are frequently encountered in Belgium and the wider European diamond market.",
+          "Buyers must recognise that:"
+        ],
+        "bullets": [
+          "GIA and HRD report formats differ",
+          "Their descriptive boundaries differ",
+          "Their cut-grade structures differ",
+          "GIA’s verbal range is not a direct mathematical equivalent of HRD’s percentage",
+          "The complete report must be interpreted according to the issuing laboratory"
+        ]
+      }
+    ]
+  },
+  "giaVsHrd": {
+    "id": "gia-versus-hrd-girdle-reporting",
+    "title": "GIA Versus HRD Girdle Reporting",
+    "introParagraphs": [],
+    "table": {
+      "caption": "GIA versus HRD Antwerp girdle reporting",
+      "headers": [
+        "Feature",
+        "GIA",
+        "HRD Antwerp"
+      ],
+      "rows": [
+        [
+          "Primary reporting approach",
+          "Verbal minimum-to-maximum range supported by proportion measurements",
+          "Percentage and verbal description"
+        ],
+        [
+          "Thickness scale",
+          "Extremely Thin through Extremely Thick, including Slightly Thick",
+          "Extremely Thin through Extremely Thick"
+        ],
+        [
+          "Slightly Thick category",
+          "Yes",
+          "Not shown as a separate category in the January 2025 chart"
+        ],
+        [
+          "Percentage methodology",
+          "Average hill-position percentage plus visual valley assessment",
+          "Percentage-based proportion parameter"
+        ],
+        [
+          "Cut-grade structure",
+          "Overall cut grade for qualifying standard Round Brilliants",
+          "Proportions, polish and symmetry categories"
+        ],
+        [
+          "Girdle finish",
+          "May state faceted, polished or bruted",
+          "May state faceted, polished or another applicable finish"
+        ],
+        [
+          "Buyer approach",
+          "Read the complete range, average percentage, finish and overall report",
+          "Read the percentage, description, proportions grade and complete report"
+        ]
+      ]
+    },
+    "closingParagraphs": [],
+    "subsections": [
+      {
+        "id": "can-gia-and-hrd-grades-be-converted-directly",
+        "title": "Can GIA and HRD Grades Be Converted Directly?",
+        "paragraphsBefore": [
+          "No.",
+          "Do not assume:"
+        ],
+        "bullets": [
+          "GIA Medium always equals one HRD percentage",
+          "GIA Slightly Thick always equals HRD Medium or Thick",
+          "GIA Very Thin always has the same cut implication as an HRD percentage",
+          "Identical percentages guarantee identical overall cut grades",
+          "A verbal description has the same boundaries across laboratories"
+        ],
+        "paragraphsAfter": [
+          "Treat each report according to the issuing laboratory’s published methodology."
+        ]
+      }
+    ]
+  },
+  "bestThickness": {
+    "id": "best-girdle-thickness-for-a-diamond",
+    "title": "What Is the Best Girdle Thickness for a Diamond?",
+    "introParagraphs": [
+      "There is no single best girdle description for every natural diamond.",
+      "For many modern Round Brilliant diamonds, the following descriptions are commonly practical:"
+    ],
+    "bullets": [
+      "Thin",
+      "Medium",
+      "Slightly Thick",
+      "Thin to Medium",
+      "Medium to Slightly Thick",
+      "Thin to Slightly Thick"
+    ],
+    "closingParagraphs": [
+      "These ranges often provide a reasonable balance between durability and weight efficiency.",
+      "However, the correct decision still depends on:"
+    ],
+    "dependBullets": [
+      "Complete cut grade",
+      "Face-up diameter",
+      "Total depth",
+      "Shape",
+      "Minimum thickness",
+      "Maximum thickness",
+      "Location of variation",
+      "Existing damage",
+      "Setting",
+      "Price"
+    ],
+    "subsections": [
+      {
+        "id": "is-medium-the-best-girdle-grade",
+        "title": "Is Medium the Best Girdle Grade?",
+        "paragraphsBefore": [
+          "Medium is often considered a balanced result, but it is not automatically better than Thin or Slightly Thick.",
+          "A diamond with a Thin to Medium girdle may outperform or offer better value than a diamond with a uniform Medium girdle."
+        ]
+      },
+      {
+        "id": "can-slightly-thick-be-excellent",
+        "title": "Can Slightly Thick Be Excellent?",
+        "paragraphsBefore": [
+          "Yes.",
+          "A Slightly Thick area can be compatible with an attractive, well-cut diamond. The overall assessment depends on the complete proportion set and visual performance."
+        ]
+      },
+      {
+        "id": "can-thick-be-acceptable",
+        "title": "Can Thick Be Acceptable?",
+        "paragraphsBefore": [
+          "Yes.",
+          "A Thick girdle may be acceptable when:"
+        ],
+        "bullets": [
+          "Face-up dimensions remain appropriate",
+          "Total depth is not excessive",
+          "The diamond performs attractively",
+          "The thickness is localised",
+          "The shape benefits from additional material at vulnerable areas",
+          "The price reflects the complete diamond"
+        ]
+      },
+      {
+        "id": "should-buyers-reject-every-very-thin-or-very-thick-range",
+        "title": "Should Buyers Reject Every Very Thin or Very Thick Range?",
+        "paragraphsBefore": [
+          "No.",
+          "Both deserve closer examination, but neither should be rejected using the report label alone."
+        ]
+      }
+    ]
+  },
+  "thinGirdles": {
+    "id": "thin-and-extremely-thin-girdles",
+    "title": "Thin, Very Thin and Extremely Thin Girdles",
+    "introParagraphs": [
+      "A thin girdle contains less material between the crown and pavilion."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-thin-girdle-dangerous",
+        "title": "Is a Thin Girdle Dangerous?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "Thin is a recognised grading description and is common in marketable diamonds. The concern increases when the girdle becomes:"
+        ],
+        "bullets": [
+          "Extensively Very Thin",
+          "Extremely Thin",
+          "Knife-edged",
+          "Very thin at a corner or point",
+          "Very thin next to a large feather",
+          "Already chipped or abraded",
+          "Exposed by the setting",
+          "Subjected to pressure during setting or repair"
+        ]
+      },
+      {
+        "id": "why-can-a-thin-girdle-chip",
+        "title": "Why Can a Thin Girdle Chip?",
+        "paragraphsBefore": [
+          "Diamond is highly resistant to scratching, but it is not impossible to chip.",
+          "A thin edge contains less material to absorb or distribute an impact. GIA warns that very thin areas, particularly at the corners and points of fancy shapes, have a greater risk of damage."
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "does-very-thin-mean-the-diamond-is-already-damaged",
+        "title": "Does Very Thin Mean the Diamond Is Already Damaged?",
+        "paragraphsBefore": [
+          "No.",
+          "Very Thin describes thickness. It does not automatically mean a chip, cavity or fracture is present.",
+          "The actual condition must be inspected."
+        ]
+      },
+      {
+        "id": "is-a-localised-very-thin-area-acceptable",
+        "title": "Is a Localised Very Thin Area Acceptable?",
+        "paragraphsBefore": [
+          "It may be.",
+          "Consider:"
+        ],
+        "bullets": [
+          "Exact location",
+          "Length of the thin section",
+          "Nearby clarity characteristics",
+          "Diamond shape",
+          "Setting design",
+          "Setting condition",
+          "Intended wear",
+          "Insurance requirements",
+          "Price"
+        ],
+        "paragraphsAfter": [
+          "A small Very Thin area protected by a suitable setting may present a different risk from an exposed knife-edge running around a substantial part of the diamond."
+        ]
+      },
+      {
+        "id": "can-an-extremely-thin-girdle-receive-a-high-cut-grade",
+        "title": "Can an Extremely Thin Girdle Receive a High Cut Grade?",
+        "paragraphsBefore": [
+          "Girdle thickness is one of several factors in cut assessment. An unusually thin girdle can limit a Round Brilliant’s grade because of durability risk, even when other proportions are attractive.",
+          "Do not infer the final grade from thickness alone. Read the grade stated on the laboratory report."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s guidance on protecting diamonds from chipping explains the principal risk areas. See "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s diamond care guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "thickGirdles": {
+    "id": "thick-and-extremely-thick-girdles",
+    "title": "Thick, Very Thick and Extremely Thick Girdles",
+    "introParagraphs": [
+      "A thick girdle retains more material around the diamond’s perimeter."
+    ],
+    "subsections": [
+      {
+        "id": "why-can-a-thick-girdle-be-undesirable",
+        "title": "Why Can a Thick Girdle Be Undesirable?",
+        "paragraphsBefore": [
+          "A thick girdle may add carat weight without producing an equivalent increase in face-up dimensions.",
+          "Two diamonds can have the same carat weight but different visible size because one carries more weight in:"
+        ],
+        "bullets": [
+          "The girdle",
+          "Pavilion bulge",
+          "Total depth",
+          "A high crown",
+          "Other non-visible areas"
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-make-a-diamond-look-smaller",
+        "title": "Does a Thick Girdle Make a Diamond Look Smaller?",
+        "paragraphsBefore": [
+          "It can.",
+          "If a substantial amount of the diamond’s weight is concentrated in the girdle, the face-up diameter or length-and-width measurements may be smaller than those of a more efficiently proportioned diamond of the same weight.",
+          "This is why buyers must compare actual millimetre measurements rather than relying on carat weight alone."
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-reduce-sparkle",
+        "title": "Does a Thick Girdle Reduce Sparkle?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "Girdle thickness primarily affects:"
+        ],
+        "bullets": [
+          "Weight ratio",
+          "Total depth",
+          "Face-up size",
+          "Durability",
+          "Setting"
+        ],
+        "paragraphsAfter": [
+          "The diamond’s brightness, fire and scintillation depend on the complete relationship between its crown, pavilion, table, facet pattern and viewing environment.",
+          "An excessively thick girdle may accompany poor weight distribution, but the girdle label alone does not determine sparkle."
+        ]
+      },
+      {
+        "id": "is-a-very-thick-girdle-more-durable",
+        "title": "Is a Very Thick Girdle More Durable?",
+        "paragraphsBefore": [
+          "It may provide more material at the edge, but it does not make the diamond damage-proof.",
+          "Damage can still occur through:"
+        ],
+        "bullets": [
+          "Severe impact",
+          "Inclusions near the girdle",
+          "Exposed corners",
+          "Setting pressure",
+          "Existing chips",
+          "Poorly fitted jewellery",
+          "Contact between diamonds",
+          "Careless repair work"
+        ]
+      },
+      {
+        "id": "can-thickness-be-useful-at-a-fancy-shape-point",
+        "title": "Can Thickness Be Useful at a Fancy-Shape Point?",
+        "paragraphsBefore": [
+          "Yes.",
+          "Additional material near the point of a Pear, Marquise or cornered diamond may help avoid an extremely vulnerable knife edge. However, excessive bulging or unnecessary thickness can still retain weight.",
+          "The complete outline and setting should be examined."
+        ]
+      }
+    ]
+  },
+  "uneven": {
+    "id": "uneven-and-varying-girdles",
+    "title": "Uneven and Varying Diamond Girdles",
+    "introParagraphs": [
+      "A diamond’s girdle is rarely perfectly uniform.",
+      "Normal variation occurs because brilliant-style girdles are scalloped and because fancy shapes require different facet arrangements around their outlines."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-variation-become-important",
+        "title": "When Does Variation Become Important?",
+        "paragraphsBefore": [
+          "Variation deserves closer attention when it produces:"
+        ],
+        "bullets": [
+          "Extremely Thin and Very Thick areas on the same diamond",
+          "Abrupt changes rather than gradual transitions",
+          "An uneven face-up outline",
+          "Unequal corners or shoulders",
+          "A sloping girdle plane",
+          "A cone-shaped appearance",
+          "Misaligned crown and pavilion facets",
+          "Setting difficulties",
+          "Significant hidden weight",
+          "Durability concerns",
+          "Visible symmetry problems"
+        ]
+      },
+      {
+        "id": "does-uneven-thickness-affect-symmetry",
+        "title": "Does Uneven Thickness Affect Symmetry?",
+        "paragraphsBefore": [
+          "It can.",
+          "GIA considers girdle-thickness variation when evaluating symmetry and when assessing painting or digging out. HRD also lists deviation in maximum and minimum girdle thickness among visual symmetry considerations.",
+          "A range alone does not establish the symmetry grade. Read the laboratory’s reported symmetry result."
+        ]
+      },
+      {
+        "id": "what-is-a-wavy-girdle",
+        "title": "What Is a Wavy Girdle?",
+        "paragraphsBefore": [
+          "Wavy girdle is an informal expression that may describe visible changes in girdle level or thickness.",
+          "Possible causes include:"
+        ],
+        "bullets": [
+          "Uneven facet placement",
+          "Crown-and-pavilion misalignment",
+          "Sloping girdle",
+          "Cutting variation",
+          "Shape-specific design",
+          "Damage or repair"
+        ],
+        "paragraphsAfter": [
+          "The term is not a substitute for a laboratory description."
+        ]
+      },
+      {
+        "id": "what-is-a-sloping-girdle",
+        "title": "What Is a Sloping Girdle?",
+        "paragraphsBefore": [
+          "A sloping girdle occurs when the girdle plane is not level relative to the table or the diamond’s intended axis.",
+          "It may affect:"
+        ],
+        "bullets": [
+          "Side profile",
+          "Crown height distribution",
+          "Pavilion depth distribution",
+          "Symmetry",
+          "Setting position",
+          "Face-up balance"
+        ]
+      }
+    ]
+  },
+  "finish": {
+    "id": "faceted-polished-and-bruted-girdles",
+    "title": "Faceted, Polished and Bruted Diamond Girdles",
+    "introParagraphs": [
+      "Girdle thickness and girdle finish are separate characteristics."
+    ],
+    "table": {
+      "caption": "Girdle finish types",
+      "headers": [
+        "Finish",
+        "General appearance",
+        "Buyer implication"
+      ],
+      "rows": [
+        [
+          "Faceted",
+          "Series of small polished surfaces around the girdle",
+          "Common in modern diamonds; examine facet consistency and inscription"
+        ],
+        [
+          "Polished",
+          "Smooth polished band without separately visible girdle facets",
+          "Can be completely acceptable"
+        ],
+        [
+          "Bruted",
+          "Frosted or granular surface created during shaping",
+          "Common in older and some modern diamonds; not automatically a defect"
+        ],
+        [
+          "Partly Faceted",
+          "Only part of the girdle has been faceted",
+          "May be intentional, repaired or considered during symmetry assessment"
+        ],
+        [
+          "Bearded",
+          "Fine feather-like features extend from the girdle into the stone",
+          "A clarity and condition consideration, not an ordinary finish category"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "GIA states that girdle thickness is assessed using the same thickness method whether the girdle is bruted, polished or faceted."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-faceted-girdle-better",
+        "title": "Is a Faceted Girdle Better?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "A faceted girdle may offer:"
+        ],
+        "bullets": [
+          "A refined modern finish",
+          "Clearer small surfaces for examination",
+          "A suitable area for laser inscription",
+          "More consistent visual appearance"
+        ],
+        "paragraphsAfter": [
+          "However, it does not guarantee:",
+          "Better cut",
+          "Better symmetry",
+          "Better polish",
+          "Greater durability",
+          "Natural origin",
+          "Higher value"
+        ]
+      },
+      {
+        "id": "is-a-bruted-girdle-bad",
+        "title": "Is a Bruted Girdle Bad?",
+        "paragraphsBefore": [
+          "No.",
+          "A bruted girdle may be completely legitimate. It can also be characteristic of certain older cutting periods.",
+          "Inspect it for:"
+        ],
+        "bullets": [
+          "Excessive roughness",
+          "Bearding",
+          "Chips",
+          "Abrasion",
+          "Uneven thickness",
+          "Later modification",
+          "Compatibility with the claimed age of an antique diamond"
+        ],
+        "paragraphsAfter": [
+          "A faceted girdle on an old diamond may represent later repolishing rather than the diamond’s original condition. GIA has documented antique diamonds whose original bruted girdles were later faceted."
+        ]
+      },
+      {
+        "id": "what-does-partly-faceted-mean",
+        "title": "What Does Partly Faceted Mean?",
+        "paragraphsBefore": [
+          "It means only part of the girdle has been divided into polished girdle facets.",
+          "Possible explanations include:"
+        ],
+        "bullets": [
+          "Incomplete faceting",
+          "Localised repolishing",
+          "Weight preservation",
+          "Removal of damage",
+          "Later repair",
+          "Original cutting style"
+        ],
+        "paragraphsAfter": [
+          "The buyer should compare the current diamond with its report and any historical documentation."
+        ]
+      }
+    ]
+  },
+  "paintingDigging": {
+    "id": "painting-and-digging-out",
+    "title": "Painting and Digging Out",
+    "introParagraphs": [
+      "Painting and digging out are cutting techniques that alter the relationship between the upper- and lower-half facets and the girdle."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-painting",
+        "title": "What Is Painting?",
+        "paragraphsBefore": [
+          "During painting, the cutter tilts the upper- or lower-half facets towards the bezel facets or pavilion mains.",
+          "This changes the relative thickness between:"
+        ],
+        "bullets": [
+          "Bezel-and-main hill positions",
+          "Upper-and-lower-half junction positions"
+        ],
+        "paragraphsAfter": [
+          "The girdle may appear more heavily scalloped in a particular direction."
+        ]
+      },
+      {
+        "id": "what-is-digging-out",
+        "title": "What Is Digging Out?",
+        "paragraphsBefore": [
+          "Digging out is the opposite relationship.",
+          "The upper- or lower-half facets are tilted away from the bezels or pavilion mains and towards each other. This makes the girdle thinner at the half-facet junctions relative to the bezel-and-main positions."
+        ]
+      },
+      {
+        "id": "why-are-these-techniques-used",
+        "title": "Why Are These Techniques Used?",
+        "paragraphsBefore": [
+          "Possible reasons include:"
+        ],
+        "bullets": [
+          "Retaining carat weight",
+          "Reaching a commercial weight threshold",
+          "Removing a clarity characteristic near the girdle",
+          "Adjusting facet placement",
+          "Preserving rough-diamond yield"
+        ]
+      },
+      {
+        "id": "are-painting-and-digging-always-bad",
+        "title": "Are Painting and Digging Always Bad?",
+        "paragraphsBefore": [
+          "No.",
+          "Minimal variation can be present without creating a meaningful visual problem.",
+          "As painting or digging becomes stronger, it can affect:"
+        ],
+        "bullets": [
+          "Face-up brightness",
+          "Contrast pattern",
+          "Facet definition",
+          "Weight distribution",
+          "Overall cut grade"
+        ],
+        "paragraphsAfter": [
+          "GIA calculates the extent of these features using three-dimensional measurement and incorporates sufficiently strong effects into its cut assessment. GIA’s finish and girdle booklet provides diagrams of both techniques."
+        ]
+      },
+      {
+        "id": "can-buyers-identify-painting-from-a-photograph",
+        "title": "Can Buyers Identify Painting From a Photograph?",
+        "paragraphsBefore": [
+          "Not reliably.",
+          "Controlled imaging may suggest unusual girdle scalloping, but accurate assessment requires:"
+        ],
+        "bullets": [
+          "Correct orientation",
+          "Side and face-up views",
+          "Magnification",
+          "Facet analysis",
+          "Appropriate lighting",
+          "Three-dimensional measurement where necessary"
+        ],
+        "paragraphsAfter": [
+          "Do not diagnose painting or digging from one rotating-video frame."
+        ]
+      }
+    ]
+  },
+  "damage": {
+    "id": "girdle-damage-and-clarity-characteristics",
+    "title": "Girdle Damage and Clarity Characteristics",
+    "introParagraphs": [
+      "Girdle thickness does not describe the complete condition of the edge.",
+      "The girdle may contain or intersect with:"
+    ],
+    "bullets": [
+      "Chip",
+      "Abrasion",
+      "Cavity",
+      "Natural",
+      "Indented natural",
+      "Bearding",
+      "Feather",
+      "Bruise",
+      "Extra facet",
+      "Polishing mark",
+      "Laser inscription",
+      "Repair or repolishing"
+    ],
+    "table": {
+      "caption": "Girdle feature comparison",
+      "headers": [
+        "Feature",
+        "Meaning",
+        "Main buyer concern"
+      ],
+      "rows": [
+        [
+          "Chip",
+          "Accidental missing material",
+          "Condition, further damage, recutting and report mismatch"
+        ],
+        [
+          "Abrasion",
+          "Worn or roughened edge, often with small chips",
+          "Wear, previous contact and setting protection"
+        ],
+        [
+          "Cavity",
+          "Angular opening created when material is removed or falls out",
+          "Size, location, dirt retention and durability"
+        ],
+        [
+          "Natural",
+          "Part of the original rough surface retained during cutting",
+          "Shape, thickness and whether it affects appearance or setting"
+        ],
+        [
+          "Indented natural",
+          "Original rough surface extending below the intended polished outline",
+          "Depth, durability and weight retention"
+        ],
+        [
+          "Bearded girdle",
+          "Fine feather-like features extending inward from the girdle",
+          "Clarity, extent and structural condition"
+        ],
+        [
+          "Feather",
+          "Internal separation that may reach the girdle",
+          "Size, orientation, opening and setting pressure"
+        ],
+        [
+          "Bruise",
+          "Impact area associated with small feathering",
+          "Existing damage and further risk"
+        ],
+        [
+          "Extra facet",
+          "Additional polished facet outside the standard arrangement",
+          "Symmetry, thickness and possible repair history"
+        ],
+        [
+          "Laser inscription",
+          "Text or numbers applied to the girdle",
+          "Identification and report matching"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s diamond-inclusion reference distinguishes bearded girdles, cavities, chips, bruises and other clarity characteristics. See "
+        },
+        {
+          "type": "link",
+          "text": "GIA’s clarity guidance",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-a-natural-the-same-as-damage",
+        "title": "Is a Natural the Same as Damage?",
+        "paragraphsBefore": [
+          "No.",
+          "A natural is retained rough-diamond surface. It is not necessarily damage.",
+          "Its significance depends on:"
+        ],
+        "bullets": [
+          "Size",
+          "Depth",
+          "Location",
+          "Visibility",
+          "Whether it interrupts the outline",
+          "Whether it makes the girdle excessively thin",
+          "Whether it affects setting",
+          "Laboratory grading",
+          "Price"
+        ]
+      },
+      {
+        "id": "is-an-indented-natural-worse",
+        "title": "Is an Indented Natural Worse?",
+        "paragraphsBefore": [
+          "An indented natural extends beneath the intended polished surface.",
+          "It generally deserves more attention than a shallow natural because it may affect:"
+        ],
+        "bullets": [
+          "Outline",
+          "Weight",
+          "Clarity",
+          "Setting",
+          "Durability",
+          "Cleaning"
+        ],
+        "paragraphsAfter": [
+          "It is not automatically unacceptable."
+        ]
+      },
+      {
+        "id": "what-is-a-bearded-girdle",
+        "title": "What Is a Bearded Girdle?",
+        "paragraphsBefore": [
+          "A bearded girdle contains very small feather-like features extending from the girdle surface into the diamond.",
+          "Bearding can result from aggressive bruting or other cutting stress.",
+          "Its significance depends on:"
+        ],
+        "bullets": [
+          "Density",
+          "Depth",
+          "Visibility",
+          "Distribution",
+          "Effect on clarity",
+          "Whether it forms a grey or fuzzy edge",
+          "Proximity to other inclusions"
+        ]
+      },
+      {
+        "id": "can-girdle-damage-occur-after-grading",
+        "title": "Can Girdle Damage Occur After Grading?",
+        "paragraphsBefore": [
+          "Yes.",
+          "Possible causes include:"
+        ],
+        "bullets": [
+          "Setting",
+          "Resizing or jewellery repair",
+          "Severe impact",
+          "A loose stone moving in its setting",
+          "Contact with another diamond",
+          "Dropping the loose diamond",
+          "Improper storage",
+          "Repeated abrasion",
+          "Careless cleaning or handling"
+        ],
+        "paragraphsAfter": [
+          "If the present condition differs from the report, professional re-examination may be necessary."
+        ]
+      }
+    ]
+  },
+  "inscriptions": {
+    "id": "laser-inscriptions-on-the-girdle",
+    "title": "Laser Inscriptions on the Diamond Girdle",
+    "introParagraphs": [
+      "A laboratory report number, brand mark, symbol or message may be laser-inscribed on the girdle."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-the-purpose-of-a-girdle-inscription",
+        "title": "What Is the Purpose of a Girdle Inscription?",
+        "paragraphsBefore": [
+          "It can help:"
+        ],
+        "bullets": [
+          "Match a diamond to its grading report",
+          "Identify the issuing laboratory’s report number",
+          "Distinguish one diamond from similar stones",
+          "Support inventory control",
+          "Assist future verification",
+          "Record a brand or personal message"
+        ],
+        "paragraphsAfter": [
+          "GIA explains that a report-number inscription can be viewed under magnification and checked through its report-verification system."
+        ]
+      },
+      {
+        "id": "does-every-diamond-have-an-inscription",
+        "title": "Does Every Diamond Have an Inscription?",
+        "paragraphsBefore": [
+          "No.",
+          "A natural diamond may be:"
+        ],
+        "bullets": [
+          "Inscribed with its report number",
+          "Inscribed with a brand",
+          "Inscribed with multiple marks",
+          "Uninscribed",
+          "Inscribed in an area hidden by the setting",
+          "Repolished after inscription",
+          "Too small or positioned in a way that makes inspection difficult"
+        ]
+      },
+      {
+        "id": "does-an-inscription-prove-the-diamond-matches-the-report",
+        "title": "Does an Inscription Prove the Diamond Matches the Report?",
+        "paragraphsBefore": [
+          "Not by itself.",
+          "A complete match should consider:"
+        ],
+        "bullets": [
+          "Report number",
+          "Inscription style",
+          "Measurements",
+          "Carat weight",
+          "Shape",
+          "Clarity plot",
+          "Inclusions",
+          "Polish",
+          "Symmetry",
+          "Fluorescence",
+          "Professional inspection"
+        ],
+        "paragraphsAfter": [
+          "An inscription should be treated as one identifying feature, not the entire verification process."
+        ]
+      },
+      {
+        "id": "can-an-inscription-be-removed",
+        "title": "Can an Inscription Be Removed?",
+        "paragraphsBefore": [
+          "It may be reduced or removed through repolishing of the girdle.",
+          "If an expected inscription is missing, possible explanations include:"
+        ],
+        "bullets": [
+          "The inspected area is incorrect",
+          "The inscription is hidden by a prong",
+          "The inscription is dirty",
+          "The magnification or lighting is inadequate",
+          "The girdle has been repolished",
+          "The inscription was never applied",
+          "The diamond does not match the report"
+        ],
+        "paragraphsAfter": [
+          "Investigate before reaching a conclusion."
+        ]
+      },
+      {
+        "id": "can-an-inscription-affect-clarity",
+        "title": "Can an Inscription Affect Clarity?",
+        "paragraphsBefore": [
+          "A properly applied report inscription is normally microscopic and placed on the girdle for identification. Read the laboratory report and obtain professional inspection if the inscription appears unusually deep, altered or associated with surface damage."
+        ]
+      }
+    ]
+  },
+  "shapes": {
+    "id": "girdles-in-different-diamond-shapes",
+    "title": "Girdles in Different Diamond Shapes",
+    "introParagraphs": [
+      "The same thickness description can have different implications depending on diamond shape."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Round Brilliant Diamonds",
+        "paragraphsBefore": [
+          "Round diamonds distribute their outline without sharp corners.",
+          "For many modern Round Brilliants, practical ranges include:"
+        ],
+        "bullets": [
+          "Thin to Medium",
+          "Medium",
+          "Medium to Slightly Thick",
+          "Thin to Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "Assess the girdle alongside:",
+          "Cut grade",
+          "Diameter",
+          "Total depth",
+          "Painting or digging",
+          "Symmetry",
+          "Face-up performance"
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Oval Diamonds",
+        "paragraphsBefore": [
+          "An Oval’s girdle may vary around its shoulders and ends.",
+          "Inspect:"
+        ],
+        "bullets": [
+          "Very thin areas near the ends",
+          "Excessive thickness at the shoulders",
+          "Outline symmetry",
+          "Bow-tie strength",
+          "Face-up dimensions",
+          "Setting protection"
+        ],
+        "paragraphsAfter": [
+          "GIA notes that an excessively thick Oval girdle may retain weight, while an Extremely Thin area can increase vulnerability."
+        ]
+      },
+      {
+        "id": "pear-shaped-diamonds",
+        "title": "Pear-Shaped Diamonds",
+        "paragraphsBefore": [
+          "Pear diamonds have one rounded end and one vulnerable point.",
+          "Check:"
+        ],
+        "bullets": [
+          "Girdle thickness at the point",
+          "Shoulder symmetry",
+          "Wing shape",
+          "Thickness at the rounded end",
+          "Point protection",
+          "Bow tie",
+          "Existing damage"
+        ],
+        "paragraphsAfter": [
+          "A V-shaped prong or another appropriately designed protective setting may be considered for the point."
+        ]
+      },
+      {
+        "id": "marquise-diamonds",
+        "title": "Marquise Diamonds",
+        "paragraphsBefore": [
+          "Marquise diamonds contain two vulnerable tips.",
+          "Inspect:"
+        ],
+        "bullets": [
+          "Both points",
+          "Thickness along the wings",
+          "Belly thickness",
+          "Tip alignment",
+          "Bow tie",
+          "Symmetry",
+          "Setting protection"
+        ],
+        "paragraphsAfter": [
+          "A girdle that is Very Thin at either point requires particular attention."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Princess-Cut Diamonds",
+        "paragraphsBefore": [
+          "Princess diamonds have sharp corners that can be vulnerable to chipping.",
+          "Check:"
+        ],
+        "bullets": [
+          "All four corners",
+          "Corner thickness",
+          "Naturals near corners",
+          "Feathers reaching corners",
+          "Unequal sides",
+          "Setting design",
+          "Whether the corners are fully protected"
+        ],
+        "paragraphsAfter": [
+          "Do not judge a Princess solely by its average girdle percentage."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Cushion Diamonds",
+        "paragraphsBefore": [
+          "Cushions can have:"
+        ],
+        "bullets": [
+          "Rounded corners",
+          "Squarer corners",
+          "Broad shoulders",
+          "Antique-style outlines",
+          "Modern brilliant or modified facet patterns"
+        ],
+        "paragraphsAfter": [
+          "Assess the relationship between girdle thickness, outline, faceting and face-up spread."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Emerald and Asscher Cuts",
+        "paragraphsBefore": [
+          "Step cuts have broad facets and different pavilion structures from Round Brilliants.",
+          "Inspect:"
+        ],
+        "bullets": [
+          "Corner thickness",
+          "Truncated-corner consistency",
+          "Step alignment",
+          "Windowing",
+          "Extinction",
+          "Total depth",
+          "Face-up dimensions",
+          "Girdle condition"
+        ],
+        "paragraphsAfter": [
+          "Do not apply a Round Brilliant cut rule mechanically to a step cut."
+        ]
+      },
+      {
+        "id": "heart-shaped-diamonds",
+        "title": "Heart-Shaped Diamonds",
+        "paragraphsBefore": [
+          "Examine:"
+        ],
+        "bullets": [
+          "Cleft condition",
+          "Two lobes",
+          "Point thickness",
+          "Overall symmetry",
+          "Wing balance",
+          "Setting protection"
+        ],
+        "paragraphsAfter": [
+          "The cleft and point may require different setting considerations."
+        ]
+      },
+      {
+        "id": "antique-diamonds",
+        "title": "Antique Diamonds",
+        "paragraphsBefore": [
+          "Old Mine and Old European diamonds may have:"
+        ],
+        "bullets": [
+          "Bruted girdles",
+          "Wider thickness variation",
+          "Irregular outlines",
+          "Naturals",
+          "Later faceting or repolishing",
+          "Historic wear",
+          "Small chips or abrasion"
+        ],
+        "paragraphsAfter": [
+          "These features must be assessed in the context of age, originality, condition and value.",
+          "Do not automatically repolish an antique girdle. Alteration may:",
+          "Reduce carat weight",
+          "Change the outline",
+          "Remove historic character",
+          "Affect documentation",
+          "Change compatibility with the original setting",
+          "Alter market value"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "id": "girdle-thickness-and-jewellery-settings",
+    "title": "Girdle Thickness and Jewellery Settings",
+    "introParagraphs": [
+      "The girdle is normally the point of contact between the diamond and its setting."
+    ],
+    "subsections": [
+      {
+        "id": "prong-settings",
+        "title": "Prong Settings",
+        "paragraphsBefore": [
+          "Prongs grip selected areas around the girdle.",
+          "Consider:"
+        ],
+        "bullets": [
+          "Whether a prong sits on an Extremely Thin area",
+          "Whether setting pressure is concentrated near a feather",
+          "Whether corners and points are protected",
+          "Whether the stone moves",
+          "Whether prongs are worn or damaged"
+        ]
+      },
+      {
+        "id": "bezel-settings",
+        "title": "Bezel Settings",
+        "paragraphsBefore": [
+          "A bezel surrounds much or all of the girdle.",
+          "Potential advantages include:"
+        ],
+        "bullets": [
+          "Greater edge coverage",
+          "Protection for vulnerable areas",
+          "Secure appearance"
+        ],
+        "paragraphsAfter": [
+          "However, bezel setting still requires skilled work. Pressure during manufacture can damage a vulnerable girdle, and the metal may hide existing characteristics."
+        ]
+      },
+      {
+        "id": "halo-settings",
+        "title": "Halo Settings",
+        "paragraphsBefore": [
+          "A halo can reduce direct access to the centre diamond’s girdle.",
+          "Check:"
+        ],
+        "bullets": [
+          "Clearance between centre and surrounding stones",
+          "Hidden chips",
+          "Setting pressure",
+          "Whether another diamond contacts the centre stone",
+          "Cleaning access",
+          "Future inspection access"
+        ]
+      },
+      {
+        "id": "tension-and-semi-tension-settings",
+        "title": "Tension and Semi-Tension Settings",
+        "paragraphsBefore": [
+          "These designs may apply concentrated pressure at limited contact points.",
+          "Suitability must be determined by a jeweller familiar with:"
+        ],
+        "bullets": [
+          "The exact diamond",
+          "Girdle thickness",
+          "Clarity characteristics",
+          "Shape",
+          "Setting engineering",
+          "Manufacturer requirements"
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-require-a-bezel",
+        "title": "Does a Thin Girdle Require a Bezel?",
+        "paragraphsBefore": [
+          "Not automatically.",
+          "The appropriate setting depends on the location and extent of the thin area and the complete diamond. Obtain advice based on the actual stone."
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-cause-setting-problems",
+        "title": "Can a Thick Girdle Cause Setting Problems?",
+        "paragraphsBefore": [
+          "It can.",
+          "Possible issues include:"
+        ],
+        "bullets": [
+          "Diamond sitting too high",
+          "Standard setting not fitting",
+          "Prongs requiring modification",
+          "Uneven seating",
+          "Visible edge thickness",
+          "Difficulty aligning the stone"
+        ],
+        "paragraphsAfter": [
+          "A custom or properly adjusted setting may resolve these issues."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "girdle-thickness-face-up-size-and-price",
+    "title": "Girdle Thickness, Face-Up Size and Diamond Price",
+    "introParagraphs": [
+      "Girdle thickness can influence value, but there is no fixed adjustment formula."
+    ],
+    "subsections": [
+      {
+        "id": "weight-ratio-and-face-up-size",
+        "title": "Weight Ratio and Face-Up Size",
+        "paragraphsBefore": [
+          "Carat measures weight, not visible diameter.",
+          "A diamond with a Very Thick girdle may weigh more than another diamond with similar face-up dimensions because more material is retained around its edge.",
+          "Compare:"
+        ],
+        "bullets": [
+          "Carat weight",
+          "Diameter",
+          "Length",
+          "Width",
+          "Total depth",
+          "Girdle range",
+          "Average girdle percentage",
+          "Shape",
+          "Overall cut"
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-help-a-diamond-reach-one-carat",
+        "title": "Can a Thick Girdle Help a Diamond Reach One Carat?",
+        "paragraphsBefore": [
+          "It can contribute to weight retention near commercial thresholds such as:"
+        ],
+        "bullets": [
+          "0.50 carat",
+          "1.00 carat",
+          "1.50 carats",
+          "2.00 carats"
+        ],
+        "paragraphsAfter": [
+          "However, the girdle is only one possible source of retained weight.",
+          "A one-carat diamond with inefficient proportions may face up smaller than a lighter, better-spread diamond."
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-make-a-diamond-look-larger",
+        "title": "Does a Thin Girdle Make a Diamond Look Larger?",
+        "paragraphsBefore": [
+          "Not necessarily.",
+          "A thinner girdle may reduce hidden weight, but visible size also depends on:"
+        ],
+        "bullets": [
+          "Crown",
+          "Pavilion",
+          "Total depth",
+          "Outline",
+          "Length-to-width ratio",
+          "Bulge",
+          "Facet arrangement"
+        ]
+      },
+      {
+        "id": "how-can-girdle-thickness-affect-price",
+        "title": "How Can Girdle Thickness Affect Price?",
+        "paragraphsBefore": [
+          "Possible price effects include:"
+        ],
+        "bullets": [
+          "Reduced demand for an Extremely Thin girdle",
+          "Lower cut grade",
+          "Chipping or insurance concerns",
+          "Hidden weight from a Very Thick girdle",
+          "Smaller face-up dimensions",
+          "Setting cost",
+          "Repair or recutting considerations",
+          "Antique desirability",
+          "Existing damage"
+        ]
+      },
+      {
+        "id": "no-fixed-girdle-discount",
+        "title": "No Fixed Girdle Discount",
+        "paragraphsBefore": [
+          "Avoid claims such as:"
+        ],
+        "bullets": [
+          "Every Very Thin girdle requires a 10% discount.",
+          "Every Medium girdle deserves a premium.",
+          "Every Very Thick girdle is overpriced.",
+          "Every faceted girdle is more valuable.",
+          "Recutting always increases value."
+        ],
+        "paragraphsAfter": [
+          "Price requires comparison with genuinely similar diamonds in the current market."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-girdles",
+    "title": "Natural Versus Laboratory-Grown Diamond Girdles",
+    "introParagraphs": [
+      "Girdle thickness and finish are cutting decisions.",
+      "Both natural and laboratory-grown diamonds can have:"
+    ],
+    "bullets": [
+      "Thin girdles",
+      "Medium girdles",
+      "Thick girdles",
+      "Faceted girdles",
+      "Polished girdles",
+      "Bruted girdles",
+      "Laser inscriptions",
+      "Chips",
+      "Naturals or surface-related characteristics",
+      "Extra facets",
+      "Painting or digging",
+      "Uneven thickness"
+    ],
+    "closingParagraphs": [
+      "Therefore, girdle appearance cannot establish:",
+      "Natural origin",
+      "Laboratory growth",
+      "Growth method",
+      "Treatment",
+      "Mine origin",
+      "Country of origin",
+      "Age",
+      "Authenticity of a report",
+      "GIA currently inscribes laboratory-grown diamonds submitted under its applicable services with “Laboratory-Grown” and the assessment number. However, the presence or absence of an inscription must still be verified against the complete documentation and physical diamond.",
+      "For a natural-diamond purchase, rely on credible documentation explicitly identifying the diamond as natural."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-diamond-girdle",
+    "title": "How to Inspect a Diamond Girdle",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Step 1: Read the Complete Grading Report",
+        "paragraphsBefore": [
+          "Confirm:"
+        ],
+        "bullets": [
+          "Issuing laboratory",
+          "Report number",
+          "Natural-diamond identification",
+          "Shape and cutting style",
+          "Measurements",
+          "Girdle description",
+          "Girdle percentage",
+          "Girdle finish",
+          "Cut or proportions grade",
+          "Symmetry",
+          "Polish",
+          "Clarity grade",
+          "Clarity plot",
+          "Comments",
+          "Inscription details"
+        ]
+      },
+      {
+        "id": "step-2-match-the-report-to-the-diamond",
+        "title": "Step 2: Match the Report to the Diamond",
+        "paragraphsBefore": [
+          "Check:"
+        ],
+        "bullets": [
+          "Laser inscription",
+          "Measurements",
+          "Carat weight",
+          "Shape",
+          "Clarity characteristics",
+          "Fluorescence",
+          "Report number",
+          "Professional matching results"
+        ],
+        "paragraphsAfter": [
+          "Do not rely on the girdle description alone."
+        ]
+      },
+      {
+        "id": "step-3-identify-the-minimum-and-maximum-thickness",
+        "title": "Step 3: Identify the Minimum and Maximum Thickness",
+        "paragraphsBefore": [
+          "Read the range in the correct order.",
+          "For example:"
+        ],
+        "bullets": [
+          "Very Thin to Medium",
+          "Thin to Slightly Thick",
+          "Medium to Very Thick"
+        ],
+        "paragraphsAfter": [
+          "Determine whether either extreme deserves closer examination."
+        ]
+      },
+      {
+        "id": "step-4-identify-the-girdle-finish",
+        "title": "Step 4: Identify the Girdle Finish",
+        "paragraphsBefore": [
+          "Determine whether it is:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished",
+          "Bruted",
+          "Partly faceted",
+          "Modified or repaired"
+        ],
+        "paragraphsAfter": [
+          "Do not confuse finish with thickness."
+        ]
+      },
+      {
+        "id": "step-5-inspect-the-entire-circumference",
+        "title": "Step 5: Inspect the Entire Circumference",
+        "paragraphsBefore": [
+          "Rotate the loose diamond safely and inspect:"
+        ],
+        "bullets": [
+          "Minimum areas",
+          "Maximum areas",
+          "Corners",
+          "Points",
+          "Shoulders",
+          "Wings",
+          "Flat sides",
+          "Areas near inclusions",
+          "Areas beneath inscriptions"
+        ],
+        "paragraphsAfter": [
+          "One visible section does not represent the complete girdle."
+        ]
+      },
+      {
+        "id": "step-6-examine-under-10x-magnification",
+        "title": "Step 6: Examine Under 10× Magnification",
+        "paragraphsBefore": [
+          "Look for:"
+        ],
+        "bullets": [
+          "Chips",
+          "Abrasion",
+          "Bearding",
+          "Cavities",
+          "Naturals",
+          "Indented naturals",
+          "Feathers",
+          "Bruises",
+          "Extra facets",
+          "Polishing marks",
+          "Inscription",
+          "Setting damage"
+        ]
+      },
+      {
+        "id": "step-7-compare-the-clarity-plot",
+        "title": "Step 7: Compare the Clarity Plot",
+        "paragraphsBefore": [
+          "Determine whether plotted characteristics reach or approach the girdle.",
+          "Pay particular attention to:"
+        ],
+        "bullets": [
+          "Feathers",
+          "Cavities",
+          "Chips",
+          "Indented naturals",
+          "Naturals",
+          "Crystals creating surface openings"
+        ]
+      },
+      {
+        "id": "step-8-inspect-corners-and-points",
+        "title": "Step 8: Inspect Corners and Points",
+        "paragraphsBefore": [
+          "This is especially important for:"
+        ],
+        "bullets": [
+          "Princess",
+          "Pear",
+          "Marquise",
+          "Heart",
+          "Emerald",
+          "Asscher",
+          "Radiant",
+          "Other cornered shapes"
+        ],
+        "paragraphsAfter": [
+          "Check whether vulnerable areas will be protected by the intended setting."
+        ]
+      },
+      {
+        "id": "step-9-compare-face-up-measurements",
+        "title": "Step 9: Compare Face-Up Measurements",
+        "paragraphsBefore": [
+          "Compare the diamond’s millimetre dimensions with genuinely similar stones.",
+          "Look for:"
+        ],
+        "bullets": [
+          "Reduced spread",
+          "Excessive total depth",
+          "Very thick weight retention",
+          "Bulging",
+          "Unusual outline",
+          "Uneven shoulders"
+        ]
+      },
+      {
+        "id": "step-10-inspect-the-setting",
+        "title": "Step 10: Inspect the Setting",
+        "paragraphsBefore": [
+          "For a mounted diamond, check:"
+        ],
+        "bullets": [
+          "Prong position",
+          "Metal contact",
+          "Diamond movement",
+          "Chipped areas",
+          "Point protection",
+          "Gaps",
+          "Abrasion caused by neighbouring stones",
+          "Whether the inscription remains accessible"
+        ],
+        "paragraphsAfter": [
+          "Do not remove a diamond from its setting without appropriate professional equipment and experience."
+        ]
+      },
+      {
+        "id": "step-11-compare-with-similar-diamonds",
+        "title": "Step 11: Compare With Similar Diamonds",
+        "paragraphsBefore": [
+          "Keep the following as consistent as possible:"
+        ],
+        "bullets": [
+          "Shape",
+          "Carat",
+          "Colour",
+          "Clarity",
+          "Laboratory",
+          "Cut grade",
+          "Measurements",
+          "Girdle",
+          "Condition",
+          "Antique or modern style"
+        ],
+        "paragraphsAfter": [
+          "Then compare:",
+          "Face-up size",
+          "Brightness",
+          "Fire",
+          "Scintillation",
+          "Symmetry",
+          "Durability",
+          "Setting suitability",
+          "Price"
+        ]
+      },
+      {
+        "id": "step-12-arrange-professional-examination",
+        "title": "Step 12: Arrange Professional Examination",
+        "paragraphsBefore": [
+          "Professional inspection is particularly important when:"
+        ],
+        "bullets": [
+          "The girdle is Extremely Thin",
+          "Very Thin areas occur at points or corners",
+          "The range extends from Very Thin to Very Thick",
+          "A chip or cavity is suspected",
+          "A feather reaches the girdle",
+          "The diamond is antique",
+          "The report is old",
+          "The diamond is high-value",
+          "The stone is already mounted",
+          "The inscription is missing or inconsistent",
+          "Recutting is being considered",
+          "The diamond is being purchased remotely"
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Use the "
+        },
+        {
+          "type": "link",
+          "text": "Diamond Grading Report Guide",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": " for the complete verification process."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Worked Diamond Girdle Comparison",
+    "introParagraphs": [
+      "Consider four hypothetical natural diamonds."
+    ],
+    "table": {
+      "caption": "Worked diamond girdle comparison",
+      "headers": [
+        "Characteristic",
+        "Diamond A",
+        "Diamond B",
+        "Diamond C",
+        "Diamond D"
+      ],
+      "rows": [
+        [
+          "Shape",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Pear"
+        ],
+        [
+          "Carat",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Colour",
+          "G",
+          "G",
+          "G",
+          "G"
+        ],
+        [
+          "Clarity",
+          "VS2",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Girdle",
+          "Medium, Faceted",
+          "Very Thin to Medium, Faceted",
+          "Thick to Very Thick, Faceted",
+          "Thin to Very Thick, Faceted"
+        ],
+        [
+          "Main concern",
+          "Complete cut performance",
+          "Location and extent of Very Thin area",
+          "Hidden weight and face-up size",
+          "Point protection and thickness distribution"
+        ],
+        [
+          "Buyer approach",
+          "Use as balanced reference",
+          "Inspect durability and setting suitability",
+          "Compare diameter and total depth",
+          "Inspect point, shoulders, outline and setting"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Comparing Diamonds A and B",
+        "paragraphsBefore": [
+          "Diamond B should not be rejected solely because its minimum is Very Thin.",
+          "The buyer should determine:"
+        ],
+        "bullets": [
+          "Where the Very Thin area occurs",
+          "How much of the girdle is affected",
+          "Whether a feather or chip is nearby",
+          "Whether the setting will protect it",
+          "Whether its cut and face-up appearance are superior",
+          "Whether the price reflects any additional risk"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Comparing Diamonds A and C",
+        "paragraphsBefore": [
+          "Diamond C may contain more weight in its girdle.",
+          "Compare:"
+        ],
+        "bullets": [
+          "Face-up diameter",
+          "Total depth",
+          "Brightness",
+          "Cut grade",
+          "Setting profile",
+          "Price"
+        ],
+        "paragraphsAfter": [
+          "If Diamond C faces up noticeably smaller without offering another meaningful advantage, Diamond A may provide better weight efficiency."
+        ]
+      },
+      {
+        "title": "Comparing Diamonds A and D",
+        "paragraphsBefore": [
+          "The girdle descriptions cannot be compared mechanically because the shapes differ.",
+          "Diamond D’s Very Thick maximum may occur near the rounded end, point or shoulders. Its Thin minimum may occur elsewhere.",
+          "The buyer must examine:"
+        ],
+        "bullets": [
+          "Point thickness",
+          "Wing balance",
+          "Shoulder symmetry",
+          "Bow tie",
+          "Length-to-width ratio",
+          "Setting protection"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "What This Comparison Demonstrates",
+        "paragraphsBefore": [
+          "The girdle label must be interpreted within the complete diamond.",
+          "The correct buying decision depends on:"
+        ],
+        "bullets": [
+          "Shape",
+          "Location of thickness extremes",
+          "Face-up size",
+          "Durability",
+          "Cut",
+          "Symmetry",
+          "Condition",
+          "Setting",
+          "Documentation",
+          "Price"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-girdle-myths",
+    "title": "Common Diamond Girdle Myths",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Common diamond girdle myths",
+      "headers": [
+        "Myth",
+        "Accurate interpretation"
+      ],
+      "rows": [
+        [
+          "Medium is the only good girdle grade",
+          "Thin and Slightly Thick can also be suitable"
+        ],
+        [
+          "Every Very Thin girdle will chip",
+          "Risk depends on location, extent, shape, inclusions, setting and wear"
+        ],
+        [
+          "Thin means the diamond is already damaged",
+          "Thickness and damage are separate characteristics"
+        ],
+        [
+          "A Thick girdle makes a diamond stronger than every other diamond",
+          "Thickness is only one durability factor"
+        ],
+        [
+          "A Thick girdle always ruins sparkle",
+          "It primarily affects weight distribution and size; complete proportions determine performance"
+        ],
+        [
+          "A Very Thick girdle always means poor cut",
+          "It deserves comparison but does not determine the complete grade"
+        ],
+        [
+          "The average percentage shows the thinnest part",
+          "Average percentage and minimum verbal description are different assessments"
+        ],
+        [
+          "Thin to Thick means the average is Medium",
+          "Verbal categories should not be averaged"
+        ],
+        [
+          "A wide range always means damage",
+          "It may result from cutting design, shape or normal variation"
+        ],
+        [
+          "Faceted is always better than polished",
+          "Both can be legitimate finishes"
+        ],
+        [
+          "Bruted girdles are fake or unfinished",
+          "Bruted girdles are recognised and may be historically appropriate"
+        ],
+        [
+          "Girdle facets are part of the standard 57-facet count",
+          "Girdle faceting is normally treated separately from the principal facet count"
+        ],
+        [
+          "A laser inscription guarantees authenticity",
+          "It is one identification feature and must be matched with the complete diamond"
+        ],
+        [
+          "A missing inscription proves the diamond is different",
+          "The inscription may be hidden, absent, dirty or removed through repolishing"
+        ],
+        [
+          "A natural on the girdle proves natural origin",
+          "Origin requires credible laboratory identification"
+        ],
+        [
+          "Girdle thickness proves whether a diamond is natural or laboratory-grown",
+          "Both can have similar girdle configurations"
+        ],
+        [
+          "Every antique girdle should be faceted",
+          "Later faceting can remove original character"
+        ],
+        [
+          "Every chipped girdle should be recut",
+          "Recutting requires professional assessment of weight loss, value and risk"
+        ],
+        [
+          "GIA and HRD use identical girdle categories",
+          "Their terminology and grading structures differ"
+        ],
+        [
+          "A grading report guarantees current girdle condition",
+          "Damage may occur after grading"
+        ],
+        [
+          "A thicker girdle always means a higher carat value",
+          "Retained weight may not improve visible size or market desirability"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Natural Diamond Girdle Checklist",
+    "introLead": "Before purchasing, confirm:",
+    "items": [
+      "The diamond is explicitly identified as natural.",
+      "A credible grading report has been provided.",
+      "The report number has been verified.",
+      "The report has been matched to the physical diamond.",
+      "The issuing laboratory has been identified.",
+      "The laboratory’s own girdle methodology has been used.",
+      "The minimum girdle thickness has been read.",
+      "The maximum girdle thickness has been read.",
+      "The average girdle percentage has been reviewed where supplied.",
+      "The verbal range has not been incorrectly averaged.",
+      "The girdle finish has been identified.",
+      "The complete circumference has been inspected.",
+      "The minimum-thickness areas have been located.",
+      "The maximum-thickness areas have been located.",
+      "Corners and points have been inspected.",
+      "The girdle has been checked under 10× magnification.",
+      "Chips and abrasion have been checked.",
+      "Naturals and indented naturals have been reviewed.",
+      "Cavities and surface-reaching feathers have been reviewed.",
+      "Bearding has been checked.",
+      "Extra facets have been considered.",
+      "The clarity plot and report comments have been read.",
+      "The laser inscription has been checked where applicable.",
+      "The inscription has not been used as the only identification method.",
+      "The diamond’s millimetre dimensions have been compared.",
+      "Total depth and face-up spread have been assessed.",
+      "Hidden weight has been considered.",
+      "The cut or proportions grade has been reviewed.",
+      "Symmetry and polish have been reviewed.",
+      "The intended setting has been considered.",
+      "Very Thin areas will not be exposed unnecessarily.",
+      "Points and corners will receive appropriate protection.",
+      "The girdle has not been used as proof of natural origin.",
+      "No fixed girdle discount or premium has been assumed.",
+      "The diamond has been compared with genuinely similar stones.",
+      "Current condition has been compared with the report.",
+      "Professional inspection has been arranged where necessary.",
+      "Payment, inspection, delivery and return conditions are clear."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Already Comparing Natural Diamonds?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Girdle thickness should be assessed alongside cut, symmetry, condition, documentation, face-up dimensions, setting suitability and price."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "With S2S – Secure To Source, buyers who have already shortlisted a loose natural diamond can submit it to Dalila Diamonds for applicable quality-control coordination, euro payment and scheduled delivery to Belgium or another confirmed European Union destination."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If you have not selected a diamond yet, use "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " to request customised natural-diamond sourcing assistance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Submit a Shortlisted Diamond",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Browse Natural Diamonds",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Final Takeaway",
+    "introParagraphs": [
+      "The girdle is the narrow outer edge separating a diamond’s crown and pavilion.",
+      "Its thickness affects three principal buying considerations:",
+      "Durability",
+      "Weight distribution",
+      "Setting suitability",
+      "For many modern natural diamonds, Thin, Medium and Slightly Thick ranges provide a practical balance. An Extremely Thin or extensively Very Thin girdle deserves closer attention because vulnerable areas may be more susceptible to chipping. A Very Thick or Extremely Thick girdle deserves comparison because it may retain carat weight without improving face-up size.",
+      "The reported range must be examined rather than averaged. A description such as Very Thin to Thick provides minimum and maximum categories; it does not mean the complete girdle is Medium.",
+      "Finish must also be considered separately. Faceted, polished and bruted describe how the girdle surface was completed, not whether its thickness is suitable.",
+      "Most importantly, do not ask only:",
+      "What girdle grade is written on the report?",
+      "Ask:",
+      "Where are the thinnest and thickest areas, is the girdle undamaged and suitable for the setting, and does the complete diamond justify its weight and price?"
+    ],
+    "primaryButtonText": "Use Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contact Dalila Diamonds",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Diamond Girdles",
+    "items": [
+      {
+        "question": "What is the girdle of a diamond?",
+        "answer": "The girdle is the narrow outer edge where the diamond’s crown meets its pavilion. It defines the outline and usually provides the edge used to secure the diamond in jewellery."
+      },
+      {
+        "question": "Where is the girdle located?",
+        "answer": "It runs around the complete perimeter of the diamond between the crown and pavilion."
+      },
+      {
+        "question": "What does girdle mean on a diamond report?",
+        "answer": "It describes the thickness and sometimes the finish of the diamond’s outer edge."
+      },
+      {
+        "question": "What is the GIA girdle scale?",
+        "answer": "GIA uses Extremely Thin, Very Thin, Thin, Medium, Slightly Thick, Thick, Very Thick and Extremely Thick."
+      },
+      {
+        "question": "What is the best diamond girdle thickness?",
+        "answer": "Thin, Medium and Slightly Thick—or reasonable ranges involving these descriptions—are commonly practical. The best result depends on the diamond’s shape, proportions, condition and setting."
+      },
+      {
+        "question": "Is Medium the ideal girdle?",
+        "answer": "Medium is a balanced description but is not automatically better than every Thin or Slightly Thick girdle."
+      },
+      {
+        "question": "Is Thin to Medium a good girdle?",
+        "answer": "It is commonly acceptable when the girdle is undamaged and appropriate for the diamond’s shape and setting."
+      },
+      {
+        "question": "Is Medium to Slightly Thick good?",
+        "answer": "It can be completely acceptable. Check face-up size, total depth, cut and price."
+      },
+      {
+        "question": "Is Thin to Slightly Thick acceptable?",
+        "answer": "Yes, provided the variation does not create durability, symmetry, weight or setting concerns."
+      },
+      {
+        "question": "Is Very Thin to Medium bad?",
+        "answer": "Not automatically. Locate the Very Thin area and determine its extent, nearby inclusions and setting exposure."
+      },
+      {
+        "question": "Is a Very Thin girdle dangerous?",
+        "answer": "It may increase chipping risk, especially at points, corners or areas near surface-reaching inclusions. The actual risk depends on the diamond."
+      },
+      {
+        "question": "Will a Very Thin girdle definitely chip?",
+        "answer": "No. It indicates increased vulnerability, not guaranteed damage."
+      },
+      {
+        "question": "What is an Extremely Thin girdle?",
+        "answer": "It is a girdle with little or no material in one or more relevant areas. It requires close durability and setting assessment."
+      },
+      {
+        "question": "What is a knife-edge girdle?",
+        "answer": "It is an area where the crown and pavilion meet with effectively no girdle between them, creating a very sharp edge."
+      },
+      {
+        "question": "Is a Thick diamond girdle bad?",
+        "answer": "Not necessarily. A Thick girdle may be acceptable, but buyers should compare face-up dimensions and weight distribution."
+      },
+      {
+        "question": "Does a Thick girdle make a diamond look smaller?",
+        "answer": "It can if substantial carat weight is retained around the girdle rather than contributing to face-up dimensions."
+      },
+      {
+        "question": "Is Very Thick to Extremely Thick bad?",
+        "answer": "It deserves careful comparison because it may add hidden weight and total depth. It does not automatically make the diamond unattractive."
+      },
+      {
+        "question": "Does a Thick girdle improve durability?",
+        "answer": "It may provide more edge material, but the diamond can still be damaged by impact, inclusions or unsuitable setting pressure."
+      },
+      {
+        "question": "Does girdle thickness affect sparkle?",
+        "answer": "It does not independently determine sparkle. The complete crown, pavilion, facet pattern and proportions determine light performance."
+      },
+      {
+        "question": "Does girdle thickness affect cut grade?",
+        "answer": "Yes. Excessively thin or thick girdles can limit the cut grade of a qualifying Round Brilliant through durability or weight-ratio considerations."
+      },
+      {
+        "question": "Does GIA give fancy-shaped diamonds an overall cut grade?",
+        "answer": "GIA’s traditional overall cut grade applies to qualifying standard Round Brilliant diamonds. Fancy shapes still receive measurements, polish, symmetry and a girdle description."
+      },
+      {
+        "question": "What does Thin to Thick mean?",
+        "answer": "It means the thinnest relevant area is Thin and the thickest is Thick."
+      },
+      {
+        "question": "Can I average Thin and Thick as Medium?",
+        "answer": "No. The range describes two extremes and must not be converted into an assumed average verbal category."
+      },
+      {
+        "question": "Why does a diamond’s girdle vary?",
+        "answer": "Variation can result from normal scalloping, shape design, facet placement, painting, digging, retained rough, extra facets or other cutting characteristics."
+      },
+      {
+        "question": "What is a faceted girdle?",
+        "answer": "It is a girdle divided into a series of small polished surfaces."
+      },
+      {
+        "question": "Is a faceted girdle better?",
+        "answer": "Not automatically. It is a finish style and does not guarantee better cut, durability or value."
+      },
+      {
+        "question": "What is a polished girdle?",
+        "answer": "It is a smooth polished girdle without separately visible small girdle facets."
+      },
+      {
+        "question": "What is a bruted girdle?",
+        "answer": "A bruted girdle has a frosted or granular surface produced during the shaping process."
+      },
+      {
+        "question": "Is a bruted girdle bad?",
+        "answer": "No. It can be acceptable and may be historically appropriate for an antique diamond."
+      },
+      {
+        "question": "What is a bearded girdle?",
+        "answer": "A bearded girdle contains very small feather-like features extending from the girdle surface into the diamond."
+      },
+      {
+        "question": "Does a bearded girdle affect clarity?",
+        "answer": "It can, depending on its extent, depth and visibility."
+      },
+      {
+        "question": "What is painting on a diamond girdle?",
+        "answer": "Painting is a cutting technique that alters the relationship between half facets, bezel facets, pavilion mains and girdle thickness."
+      },
+      {
+        "question": "What is digging out?",
+        "answer": "Digging out is the opposite facet-angle relationship from painting and creates a different variation between girdle junctions."
+      },
+      {
+        "question": "Are painting and digging always defects?",
+        "answer": "No. Minimal examples may have limited significance, while stronger examples can affect appearance and cut grade."
+      },
+      {
+        "question": "What is a natural on the girdle?",
+        "answer": "It is a portion of the original rough surface intentionally left on the polished diamond."
+      },
+      {
+        "question": "Is a girdle natural the same as damage?",
+        "answer": "No. It is retained rough surface, although its size, depth and location still require assessment."
+      },
+      {
+        "question": "What is an indented natural?",
+        "answer": "It is retained rough surface extending below the intended polished outline of the diamond."
+      },
+      {
+        "question": "What is a chipped girdle?",
+        "answer": "It is accidental missing material along the diamond’s edge."
+      },
+      {
+        "question": "Can a chipped girdle be repaired?",
+        "answer": "Repolishing or recutting may be possible, but it can reduce carat weight and alter proportions. Professional assessment is required."
+      },
+      {
+        "question": "Can a diamond chip while being set?",
+        "answer": "Yes. Setting pressure can damage an extremely thin edge, vulnerable corner or area affected by an inclusion."
+      },
+      {
+        "question": "Can a diamond girdle be damaged during normal wear?",
+        "answer": "Yes. Severe impact, worn prongs, contact with other diamonds or movement in the setting can damage the girdle."
+      },
+      {
+        "question": "What is a girdle inscription?",
+        "answer": "It is microscopic text, numbers or symbols applied to the girdle, often including a grading-report number."
+      },
+      {
+        "question": "Does a laser inscription prove authenticity?",
+        "answer": "No. It supports identification but must be checked against the report, measurements and diamond characteristics."
+      },
+      {
+        "question": "Can a girdle inscription be removed?",
+        "answer": "It may be removed or reduced if the girdle is repolished."
+      },
+      {
+        "question": "Why can’t I see the inscription?",
+        "answer": "It may be hidden by a prong, dirty, extremely small, absent or removed. Proper magnification and lighting are required."
+      },
+      {
+        "question": "Does every GIA natural diamond have an inscription?",
+        "answer": "No. Inscription availability depends on the report service and whether the service was requested or included."
+      },
+      {
+        "question": "Can girdle thickness identify a natural diamond?",
+        "answer": "No. Natural and laboratory-grown diamonds can have similar girdle thicknesses and finishes."
+      },
+      {
+        "question": "Can a laser inscription identify a laboratory-grown diamond?",
+        "answer": "An applicable laboratory inscription may state that a diamond is laboratory-grown, but the complete report and professional identification should still be verified."
+      },
+      {
+        "question": "Are GIA and HRD girdle percentages the same?",
+        "answer": "No. Their terminology, measurement structures and grading systems must be interpreted separately."
+      },
+      {
+        "question": "Is girdle thickness more important than overall cut?",
+        "answer": "No. It is one part of the diamond’s durability, weight ratio and craftsmanship assessment."
+      },
+      {
+        "question": "Should I reject a diamond because its girdle is Very Thin?",
+        "answer": "Not automatically. Determine the location, extent, condition, shape, setting and price before deciding."
+      },
+      {
+        "question": "Should I reject a diamond because its girdle is Very Thick?",
+        "answer": "Not automatically. Compare its face-up dimensions, total depth, appearance and price with similar diamonds."
+      }
+    ]
+  }
+}

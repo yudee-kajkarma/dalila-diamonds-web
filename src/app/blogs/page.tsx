@@ -1,47 +1,53 @@
-import Link from "next/link";
-import { Marcellus } from "next/font/google";
-import { Jost } from "next/font/google";
+import { Suspense } from "react";
+import { marcellus, jost } from "@/lib/fonts";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
-import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import BlogAdminBar from "./BlogAdminBar";
-import BlogCardActions from "./BlogCardActions";
-import BlogsPagination from "./BlogsPagination";
+import BlogsListing, { BlogsListingView, type BlogListingItem } from "./BlogsListing";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
+// Statically prerendered; the blog data fetch revalidates via ISR and admin
+// edits bust it instantly through revalidatePath(). Pagination reads ?page
+// client-side in BlogsListing so this page never needs per-request SSR.
+export default async function BlogsPage() {
+  const [apiBlogs, staticBlogs] = await Promise.all([
+    getAllBlogs("en"),
+    Promise.resolve(getStaticBlogCards("en")),
+  ]);
 
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+  const staticItems: BlogListingItem[] = staticBlogs.map((blog) => ({
+    id: blog.id,
+    href: blog.path,
+    title: blog.title,
+    featuredImage: blog.featuredImage,
+  }));
 
-const ITEMS_PER_PAGE = 9;
+  const apiItems: BlogListingItem[] = apiBlogs
+    .filter((blog) => !isStaticBlogSlug(blogToSlug(blog)))
+    .map((blog) => {
+      const slug = blogToSlug(blog);
+      return {
+        id: blog._id || slug,
+        href: `/blogs/${slug}`,
+        title: blog.title,
+        featuredImage: blog.featuredImage,
+        adminBlog: {
+          _id: blog._id || "",
+          title: blog.title,
+          h2Subtitle: blog.h2Subtitle,
+          customSlug: blog.customSlug,
+          language: blog.language,
+          translationGroupId: blog.translationGroupId,
+          featuredImage: blog.featuredImage,
+          content: blog.content,
+          description: blog.description,
+          metaTitle: blog.metaTitle,
+          metaDescription: blog.metaDescription,
+        },
+      };
+    });
 
-type Props = {
-  searchParams: Promise<{ page?: string }>;
-};
-
-export default async function BlogsPage({ searchParams }: Props) {
-  const { page } = await searchParams;
-
-  // All blogs are fetched server-side (cached + ISR via getAllBlogs), so the
-  // article titles and links are part of the initial HTML and crawlable.
-  const allBlogs = await getAllBlogs();
-
-  const totalRecords = allBlogs.length;
-  const totalPages = Math.max(1, Math.ceil(totalRecords / ITEMS_PER_PAGE));
-
-  const parsed = Number.parseInt(page ?? "1", 10);
-  const currentPage = Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), totalPages);
-
-  const start = (currentPage - 1) * ITEMS_PER_PAGE;
-  const pageBlogs = allBlogs.slice(start, start + ITEMS_PER_PAGE);
+  const allItems = [...staticItems, ...apiItems];
 
   return (
     <div className="bg-white min-h-screen">
@@ -52,71 +58,29 @@ export default async function BlogsPage({ searchParams }: Props) {
           {/* Admin-only controls (client island; renders nothing for visitors/crawlers) */}
           <BlogAdminBar />
 
-          {totalRecords === 0 ? (
+          {allItems.length === 0 ? (
             <div className="text-center py-20 bg-gray-50 border border-gray-200">
               <p className={`text-gray-600 text-xl ${jost.className}`}>
                 No blogs available at the moment.
               </p>
             </div>
           ) : (
-            <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {pageBlogs.map((blog, index) => {
-                  const slug = blogToSlug(blog);
-                  return (
-                    <AnimatedContainer key={blog._id || slug} direction="up" delay={index * 0.1}>
-                      <Link
-                        href={`/blogs/${slug}`}
-                        className="bg-white border border-gray-200 hover:border-[#c89e3a] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer h-full flex flex-col relative group overflow-hidden"
-                      >
-                        {blog.featuredImage && (
-                          <div className="w-full h-56 overflow-hidden">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              src={blog.featuredImage}
-                              alt={blog.title}
-                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                            />
-                          </div>
-                        )}
-
-                        {/* Admin edit/delete overlay (client island) */}
-                        <BlogCardActions
-                          blog={{
-                            _id: blog._id || "",
-                            title: blog.title,
-                            h2Subtitle: blog.h2Subtitle,
-                            customSlug: blog.customSlug,
-                            featuredImage: blog.featuredImage,
-                            content: blog.content,
-                            description: blog.description,
-                            metaTitle: blog.metaTitle,
-                            metaDescription: blog.metaDescription,
-                          }}
-                        />
-
-                        <div className="p-6 flex-1 flex flex-col justify-center">
-                          <h3
-                            className={`text-xl md:text-2xl font-bold text-[#1a1a1a] group-hover:text-[#c89e3a] transition-colors line-clamp-3 ${marcellus.className}`}
-                          >
-                            {blog.title}
-                          </h3>
-                        </div>
-                      </Link>
-                    </AnimatedContainer>
-                  );
-                })}
-              </div>
-
-              <BlogsPagination currentPage={currentPage} totalPages={totalPages} />
-
-              <div className="text-center mt-8">
-                <p className={`text-gray-600 text-sm ${jost.className}`}>
-                  Showing {pageBlogs.length} of {totalRecords} article
-                  {totalRecords !== 1 ? "s" : ""}
-                </p>
-              </div>
-            </>
+            <Suspense
+              fallback={
+                <BlogsListingView
+                  items={allItems}
+                  currentPage={1}
+                  marcellusClass={marcellus.className}
+                  jostClass={jost.className}
+                />
+              }
+            >
+              <BlogsListing
+                items={allItems}
+                marcellusClass={marcellus.className}
+                jostClass={jost.className}
+              />
+            </Suspense>
           )}
         </div>
       </section>

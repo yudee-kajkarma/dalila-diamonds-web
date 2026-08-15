@@ -1,21 +1,9 @@
 "use client";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function AboutHero() {
   const { dictionary } = useLanguage();
@@ -29,7 +17,7 @@ export default function AboutHero() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-96 bg-black rounded-none overflow-hidden shadow-2xl">
                 <Image
-                  src="/diamondcuts/aboutus.jpg"
+                  src={s3Asset("/diamondcuts/aboutus.jpg")}
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

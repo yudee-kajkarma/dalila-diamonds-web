@@ -1,36 +1,30 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Maven_Pro } from "next/font/google";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
+import { s3Asset } from "@/lib/s3Assets";
 
 const STATIC_SHAPE_OPTIONS = [
-  { value: "ROUND", label: "Round", image: "/shapefilter/round.png" },
-  { value: "RADIANT", label: "Radiant", image: "/shapefilter/radiant.png" },
-  { value: "PEAR", label: "Pear", image: "/shapefilter/pear.png" },
-  { value: "SQUARE", label: "Square", image: "/shapefilter/square.png" },
-  { value: "EMERALD", label: "Emerald", image: "/shapefilter/emerald.png" },
-  { value: "OVAL", label: "Oval", image: "/shapefilter/oval.png" },
-  { value: "CUSHION", label: "Cushion", image: "/shapefilter/cushion.png" },
+  { value: "ROUND", label: "Round", image: s3Asset("/shapefilter/round.png") },
+  { value: "RADIANT", label: "Radiant", image: s3Asset("/shapefilter/radiant.png") },
+  { value: "PEAR", label: "Pear", image: s3Asset("/shapefilter/pear.png") },
+  { value: "SQUARE", label: "Square", image: s3Asset("/shapefilter/square.png") },
+  { value: "EMERALD", label: "Emerald", image: s3Asset("/shapefilter/emerald.png") },
+  { value: "OVAL", label: "Oval", image: s3Asset("/shapefilter/oval.png") },
+  { value: "CUSHION", label: "Cushion", image: s3Asset("/shapefilter/cushion.png") },
   {
     value: "TRILLIANT",
     label: "Trilliant",
-    image: "/shapefilter/trilliant.png",
+    image: s3Asset("/shapefilter/trilliant.png"),
   },
-  { value: "HEART", label: "Heart", image: "/shapefilter/Heart.png" },
+  { value: "HEART", label: "Heart", image: s3Asset("/shapefilter/Heart.png") },
   {
     value: "PRINCESS",
     label: "Princess",
-    image: "/shapefilter/princess.png",
+    image: s3Asset("/shapefilter/princess.png"),
   },
-  { value: "MARQUISE", label: "Marquise", image: "/shapefilter/marque.png" },
-  { value: "OTHER", label: "Other", image: "/shapefilter/others.png" },
+  { value: "MARQUISE", label: "Marquise", image: s3Asset("/shapefilter/marque.png") },
+  { value: "OTHER", label: "Other", image: s3Asset("/shapefilter/others.png") },
 ];
 
 interface ShapeFilterProps {
@@ -64,7 +58,7 @@ export default function ShapeFilterLimited({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/shape.png"
+          src={s3Asset("/filtersicon/shape.png")}
           alt="Shape"
           width={18}
           height={18}

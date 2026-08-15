@@ -19,6 +19,7 @@ export const getAllBlogs = async (params?: {
   limit?: number;
   sortBy?: string;
   sortOrder?: "asc" | "desc";
+  language?: string;
 }): Promise<BlogPaginationData | null> => {
   try {
     const queryParams = new URLSearchParams();
@@ -26,6 +27,7 @@ export const getAllBlogs = async (params?: {
     if (params?.limit) queryParams.append("limit", params.limit.toString());
     if (params?.sortBy) queryParams.append("sortBy", params.sortBy);
     if (params?.sortOrder) queryParams.append("sortOrder", params.sortOrder);
+    if (params?.language) queryParams.append("language", params.language);
 
     const queryString = queryParams.toString();
     const endpoint = queryString ? `/api/blogs?${queryString}` : "/api/blogs";
@@ -49,11 +51,54 @@ export const getBlogById = async (blogId: string): Promise<BlogResponse | null> 
   }
 };
 
+// Admin: Get a language version of an article.
+// Prefers translationGroupId (survives a translation having its own localized
+// slug); falls back to baseSlug for blogs created before groups existed.
+export const getBlogByBaseSlugAndLanguage = async (
+  baseSlug: string,
+  language: string,
+  translationGroupId?: string,
+): Promise<BlogResponse | null> => {
+  try {
+    const token = getAuthToken();
+    if (!token || token.trim() === "") {
+      throw new Error("Unauthorized. Please log in.");
+    }
+
+    const queryParams = new URLSearchParams({
+      baseSlug,
+      language,
+    });
+    if (translationGroupId) {
+      queryParams.append("translationGroupId", translationGroupId);
+    }
+    const response = await apiClient.get<BlogResponse>(
+      `/api/admin/blogs/by-slug?${queryParams.toString()}`,
+    );
+    return response.data;
+  } catch (error: unknown) {
+    const status =
+      typeof error === "object" &&
+      error !== null &&
+      "response" in error &&
+      typeof (error as { response?: { status?: number } }).response?.status === "number"
+        ? (error as { response: { status: number } }).response.status
+        : undefined;
+    if (status === 404) {
+      return null;
+    }
+    console.error("Error fetching blog by base slug/language:", error);
+    return null;
+  }
+};
+
 // Admin: Create new blog
 export const createBlog = async (data: {
-  title: string; 
-  h2Subtitle?: string; 
+  title: string;
+  h2Subtitle?: string;
   customSlug?: string;
+  language?: string;
+  translationGroupId?: string;
   featuredImage?: string; 
   description?: string; 
   content?: string; 
@@ -86,6 +131,7 @@ export const updateBlog = async (
     title?: string; // H1 Title - Blog Title
     h2Subtitle?: string; // H2 Subtitle - Blog Subtitle
     customSlug?: string; // Custom slug (optional - auto-generated from title if empty)
+    language?: string; // Blog content language (en | de | fr | it | es)
     featuredImage?: string; // Featured image URL
     description?: string; // Kept for backward compatibility
     content?: string; // Rich text content

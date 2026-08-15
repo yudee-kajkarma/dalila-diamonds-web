@@ -1,23 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
 import { blogToSlug, getAllBlogs, getBlogBySlug } from "@/lib/blogs";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -27,7 +14,7 @@ export default async function BlogDetailPage({ params }: Props) {
   const { slug } = await params;
   const cleanSlug = slug.split("?")[0].split("#")[0];
 
-  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug), getAllBlogs()]);
+  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug, "en"), getAllBlogs("en")]);
 
   if (!blog) {
     notFound();

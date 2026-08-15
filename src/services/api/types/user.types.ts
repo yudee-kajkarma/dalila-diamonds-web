@@ -107,8 +107,12 @@ export interface Blog {
   _id: string;
   title: string; 
   h2Subtitle?: string; 
-  customSlug?: string; 
-  featuredImage?: string; 
+  customSlug?: string;
+  /** Blog content language; missing/legacy blogs are treated as English. */
+  language?: "en" | "de" | "fr" | "it" | "es" | "nl";
+  /** Links this article's language versions; absent on pre-grouping blogs. */
+  translationGroupId?: string;
+  featuredImage?: string;
   description: string; 
   content?: string; 
   metaTitle?: string; 

@@ -9,7 +9,9 @@ import MobileHeader from "./MobileHeader";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { blogApi, type Blog } from "@/lib/api";
 import { getBlogSlug } from "@/utils/helpers";
+import { toBlogLanguage } from "@/lib/blogLanguages";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Header() {
     const { locale, dictionary } = useLanguage();
@@ -36,7 +38,7 @@ export default function Header() {
         handleLogout,
     } = useHeaderAuth();
 
-    // Fetch latest 3 blogs for Articles dropdown
+    // Fetch latest 3 blogs for Articles dropdown (filtered by current locale)
     useEffect(() => {
         const fetchLatestBlogs = async () => {
             try {
@@ -45,6 +47,7 @@ export default function Header() {
                     limit: 3,
                     sortBy: "createdAt",
                     sortOrder: "desc",
+                    language: toBlogLanguage(locale),
                 });
                 if (response && response.data) {
                     setLatestBlogs(response.data);
@@ -54,7 +57,7 @@ export default function Header() {
             }
         };
         fetchLatestBlogs();
-    }, []);
+    }, [locale]);
 
     return (
         <>
@@ -124,7 +127,7 @@ export default function Header() {
                                             {dictionary?.nav?.ds4u || "DS4U - Diamond Source For You"}
                                         </Link>
                                         <Link
-                                            href={localizedPath("/sud")}
+                                            href={localizedPath("/sell-your-diamond")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                         >
                                             {dictionary?.nav?.syd || "SYD - Sell Your Diamonds"}
@@ -141,7 +144,7 @@ export default function Header() {
                                 {dictionary?.nav?.diamondKnowledge || "Diamond Knowledge"}
                             </Link>
 
-                            {/* Resources Dropdown */}
+                            {/* Events Dropdown */}
                             <div className="relative group">
                                 <button
                                     onMouseEnter={() =>
@@ -152,7 +155,7 @@ export default function Header() {
                                     }
                                     className="py-3 px-1.5 cursor-pointer xl:px-2.5 text-xs xl:text-sm text-white hover:text-[#c89e3a] transition-colors whitespace-nowrap flex items-center gap-1"
                                 >
-                                    {dictionary?.nav?.resources || "Resources"}
+                                    {dictionary?.nav?.events || "Events"}
                                     <ChevronDown
                                         size={16}
                                         className={`transition-transform duration-200 ${isResourcesDropdownOpen ? "rotate-180" : ""}`}
@@ -164,112 +167,22 @@ export default function Header() {
                                         onMouseEnter={() =>
                                             setIsResourcesDropdownOpen(true)
                                         }
-                                        onMouseLeave={() => {
-                                            setIsResourcesDropdownOpen(false);
-                                        }}
+                                        onMouseLeave={() =>
+                                            setIsResourcesDropdownOpen(false)
+                                        }
                                         className="absolute left-0 top-full mt-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
                                     >
-                                        {/* Articles with nested dropdown */}
-                                        <div className="relative group/articles">
-                                            <button
-                                                onClick={() =>
-                                                    router.push(localizedPath("/blogs"))
-                                                }
-                                                onMouseEnter={() =>
-                                                    setIsArticlesDropdownOpen(
-                                                        true,
-                                                    )
-                                                }
-                                                onMouseLeave={() =>
-                                                    setIsArticlesDropdownOpen(
-                                                        false,
-                                                    )
-                                                }
-                                                className="w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100 flex items-center justify-between cursor-pointer"
-                                            >
-                                                <span>{dictionary?.nav?.articles || "Articles"}</span>
-                                                <ChevronDown
-                                                    size={14}
-                                                    className={`ml-2 transition-transform duration-200 ${isArticlesDropdownOpen ? "-rotate-90" : ""}`}
-                                                />
-                                            </button>
-
-                                            {/* Articles nested dropdown */}
-                                            {isArticlesDropdownOpen &&
-                                                latestBlogs.length > 0 && (
-                                                    <div
-                                                        onMouseEnter={() =>
-                                                            setIsArticlesDropdownOpen(
-                                                                true,
-                                                            )
-                                                        }
-                                                        onMouseLeave={() =>
-                                                            setIsArticlesDropdownOpen(
-                                                                false,
-                                                            )
-                                                        }
-                                                        className="absolute left-full top-0 ml-0 w-80 bg-white shadow-lg border border-gray-200 rounded-sm z-50"
-                                                    >
-                                                        {latestBlogs.map(
-                                                            (blog, index) => (
-                                                                <button
-                                                                    key={
-                                                                        blog._id
-                                                                    }
-                                                                    onClick={() =>
-                                                                        router.push(
-                                                                            localizedPath(`/blogs/${getBlogSlug(blog)}`),
-                                                                        )
-                                                                    }
-                                                                    className={`w-full text-left px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors cursor-pointer ${
-                                                                        index <
-                                                                        latestBlogs.length -
-                                                                            1
-                                                                            ? "border-b border-gray-100"
-                                                                            : ""
-                                                                    }`}
-                                                                >
-                                                                    <div className="line-clamp-2">
-                                                                        {
-                                                                            blog.title
-                                                                        }
-                                                                    </div>
-                                                                </button>
-                                                            ),
-                                                        )}
-                                                        <button
-                                                            onClick={() =>
-                                                                router.push(
-                                                                    localizedPath("/blogs"),
-                                                                )
-                                                            }
-                                                            className="w-full text-center px-4 py-3 text-sm font-semibold text-[#c89e3a] hover:bg-[#c89e3a] hover:text-white transition-colors border-t border-gray-200 cursor-pointer"
-                                                        >
-                                                            {dictionary?.nav?.viewMore || "View More"}
-                                                        </button>
-                                                    </div>
-                                                )}
-                                        </div>
-
                                         <Link
-                                            href={localizedPath("/premium-b2b-diamond-supplier-belgium")}
+                                            href={localizedPath("/antwerp-mothers-day-diamond-gifts")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
                                         >
-                                            {dictionary?.nav?.articleB2b || "Premium B2B Diamond Supplier in Belgium"}
+                                            {dictionary?.nav?.eventMothersDay || "Natural Diamond Gifts for Antwerp Mother's Day"}
                                         </Link>
-
                                         <Link
-                                            href={localizedPath("/sell-your-diamond-safely")}
-                                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
-                                        >
-                                            {dictionary?.nav?.articleSell || "Sell Your Diamond Safely"}
-                                        </Link>
-
-                                        <Link
-                                            href={localizedPath("/elongated-cushion-cut-diamond-guide")}
+                                            href={localizedPath("/weekend-van-de-klant-antwerp-diamond-appointments")}
                                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors"
                                         >
-                                            {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
+                                            {dictionary?.nav?.eventWeekendKlant || "Weekend van de Klant — Diamond Appointments"}
                                         </Link>
                                     </div>
                                 )}
@@ -286,7 +199,7 @@ export default function Header() {
                                 aria-label="Go to home page"
                             >
                                 <Image
-                                    src="/dalila_img/Dalila_Logo.png"
+                                    src={s3Asset("/dalila_img/Dalila_Logo.png")}
                                     alt="Dalila Diamonds"
                                     fill
                                     style={{ objectFit: "contain" }}

@@ -5,28 +5,8 @@ import { X, Settings } from "lucide-react";
 import Toggle from "../ui/Toggle";
 import ConfigureAPIModal from "./ConfigureAPIModal";
 import toast from "react-hot-toast";
-import { Marcellus, Jost, Maven_Pro } from "next/font/google";
+import { marcellus, jost, mavenPro } from "@/lib/fonts";
 import { API_URL } from "@/services/api/base/apiClient";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 interface SupplierManagementModalProps {
   isOpen: boolean;

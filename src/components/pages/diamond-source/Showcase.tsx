@@ -1,21 +1,9 @@
 "use client";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function DiamondSourceshowcase() {
   const { dictionary } = useLanguage();
@@ -31,7 +19,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="/secure_to_source/tray.jpg"
+                  src={s3Asset("/secure_to_source/tray.jpg")}
                   alt="Professional diamond dealer"
                   fill
                   className="object-cover"
@@ -76,7 +64,6 @@ export default function DiamondSourceshowcase() {
           </div>
         </div>
 
-
         {/* Language of Diamonds Section */}
         <div className="flex flex-col md:grid md:grid-cols-2 gap-16 items-center">
           {/* Image first on mobile, right on desktop */}
@@ -84,7 +71,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="/diamonds_source/We_Search_Our_Worldwide_Network.jpg"
+                  src={s3Asset("/diamonds_source/We_Search_Our_Worldwide_Network.jpg")}
                   alt="Diamond examination with tweezers"
                   fill
                   className="object-cover"
@@ -122,7 +109,7 @@ export default function DiamondSourceshowcase() {
             <AnimatedContainer direction="scale-out" delay={0.5}>
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden shadow-2xl">
                 <Image
-                  src="/diamonds_source/handshake.jpg"
+                  src={s3Asset("/diamonds_source/handshake.jpg")}
                   alt="Professional diamond dealer"
                   fill
                   className="object-cover"

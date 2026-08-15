@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function HeroSection() {
     const { locale, dictionary } = useLanguage();
@@ -30,22 +31,22 @@ export default function HeroSection() {
 
     const slides = [
         {
-            image: "/dalila_img/banners/Banner-01.jpg",
+            image: s3Asset("/dalila_img/banners/Banner-01.jpg"),
             title: "Timeless Elegance",
             buttonPosition: "bottom-left",
             buttonLink: "/inventory",
         },
         {
-            image: "/dalila_img/banners/Banner-02.jpg",
+            image: s3Asset("/dalila_img/banners/Banner-02.jpg"),
             title: "Modern Luxury",
             buttonPosition: "bottom-left",
             buttonLink: "/diamond-source",
         },
         {
-            image: "/dalila_img/banners/new/Banner_03.jpg",
+            image: s3Asset("/dalila_img/banners/new/Banner_03.jpg"),
             title: "Exclusive Collection",
             buttonPosition: "center",
-            buttonLink: "/sud",
+            buttonLink: "/sell-your-diamond",
         },
     ];
 

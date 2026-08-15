@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "title": "Diamond Gordle Guide: dikte en kwaliteiten | Dalila diamanten",
+    "description": "Ontdek wat een diamanten gordel is, hoe GIA en HRD de dikte ervan beoordelen en hoe dunne of dikke gordels de duurzaamheid, grootte, zetting en waarde beïnvloeden.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-girdle-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaAnatomy": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    "giaFinishGirdle": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaChipping": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    "giaOval": "https://4cs.gia.edu/en-us/oval-cut-diamond/",
+    "giaInclusions": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaInscription": "https://4cs.gia.edu/en-us/diamond-quality-factor/",
+    "giaLabGrown": "https://www.gia.edu/gia-lab-grown-diamond-reports",
+    "hrdCutGrade": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Diamantgordelgids",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Diamantgordelgids",
+    "imageAlt": "Diamond Girdle Guide-bronbanner voor kopers van natuurlijke diamanten"
+  },
+  "hero": {
+    "title": "Diamond Gordle-gids voor kopers van natuurlijke diamanten",
+    "subheading": "Begrijp de dikte van de diamantgordel, GIA- en HRD-beoordeling, duurzaamheid, plaatsingsoverwegingen, verborgen gewicht, schade aan de gordel en het verschil tussen dunne, medium en dikke gordels.",
+    "reviewDateLabel": "Laatst beoordeeld:",
+    "reviewDate": "30 juli 2026"
+  },
+  "introduction": {
+    "paragraphs": [],
+    "bullets": []
+  },
+  "quickAnswer": {
+    "title": "Snel antwoord",
+    "introParagraphs": [
+      "De gordel is de smalle buitenrand van een gepolijste diamant waar de kroon het paviljoen raakt. Het definieert de omtrek van de diamant en biedt normaal gesproken het gebied dat wordt vastgehouden door tanden, een ring of een andere sieradensetting.",
+      "Voor veel moderne natuurlijke diamanten is een dunne, medium of licht dikke gordel – of een redelijk bereik binnen deze categorieën – over het algemeen praktisch. Een extreem dunne of zeer dunne gordel kan de kwetsbaarheid voor chippen vergroten, vooral in de buurt van hoeken en punten. Een zeer dikke of extreem dikke gordel kan het gewicht vasthouden zonder de zichtbare face-up-grootte van de diamant te vergroten.",
+      "De gordelbeschrijving mag niet alleen worden beoordeeld. Kopers moeten overwegen waar de dunne en dikke secties voorkomen, de vorm, de zetting, de afmetingen, de symmetrie, de staat, de volledige slijpprestaties en de prijs van de diamant."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Belangrijkste afhaalrestaurants",
+    "items": [
+      "De gordel is de buitenste omtrek die de kroon van de diamant scheidt van het paviljoen.",
+      "De dikte van de gordel wordt normaal gesproken gerapporteerd als een bereik van de dunste tot de dikste relevante gebieden.",
+      "GIA gebruikt acht verbale omschrijvingen van Extreem Dun tot Extreem Dik.",
+      "Een bereik zoals Dun tot Enigszins Dik betekent niet dat de hele gordel één uniforme dikte heeft.",
+      "Dunne, medium en licht dikke gordels zijn over het algemeen acceptabel, maar er is geen universele beste beschrijving voor elke diamant.",
+      "Extreem dunne gebieden kunnen het risico op chippen vergroten, vooral bij hoeken, punten en blootgestelde posities.",
+      "Dikke gordels kunnen een gewicht bevatten dat geen betekenisvolle bijdrage levert aan de grootte van het gezicht naar boven.",
+      "Een dikke gordel betekent niet automatisch dat de diamant slecht geslepen of onaantrekkelijk is.",
+      "Gefacetteerd, gepolijst en bruut beschrijven de afwerking van de gordel, niet de dikte ervan.",
+      "Een gefacetteerde gordel is niet automatisch beter dan een gepolijste of geborstelde gordel.",
+      "Schilderen en uitgraven beschrijven variaties die ontstaan ​​door de relatie tussen de bovenste en onderste helft van de gordel.",
+      "Chips, holtes, naturals, ingedeukte naturals en baarden mogen niet worden verward met de gewone gordeldikte.",
+      "Een laserinscriptie op de gordel kan helpen bij het matchen van een diamant met zijn rapport, maar is op zichzelf niet voldoende identificatie.",
+      "Fancy vormen vereisen speciale aandacht op kwetsbare hoeken en punten.",
+      "De dikte van de gordel kan niet bewijzen dat een diamant natuurlijk is en niet in een laboratorium is gekweekt.",
+      "De prijs moet gebaseerd zijn op de volledige diamant, niet op een vaste gordelkorting of premie."
+    ]
+  },
+  "importantBuyerNote": {
+    "id": "important-buyer-note",
+    "title": "Belangrijke kopersopmerking",
+    "paragraphs": [
+      "In deze handleiding wordt uitgelegd hoe gordels worden beschreven en beoordeeld. Het vervangt niet het onderzoek van de diamant zelf door een gekwalificeerde edelsteenkundige of ervaren diamantprofessional.",
+      "Een beoordelingsrapport beschrijft de diamant toen deze werd onderzocht. Het garandeert niet dat de gordel onbeschadigd is gebleven sinds het rapport werd uitgebracht."
+    ]
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "what-is-a-diamond-girdle",
+        "label": "Wat is een diamanten gordel?"
+      },
+      {
+        "id": "where-the-girdle-is-located",
+        "label": "Waar de gordel zich bevindt"
+      },
+      {
+        "id": "what-the-girdle-does",
+        "label": "Wat de gordel doet"
+      },
+      {
+        "id": "gia-diamond-girdle-scale",
+        "label": "GIA diamanten gordelweegschaal"
+      },
+      {
+        "id": "how-girdle-ranges-are-reported",
+        "label": "Hoe gordelbereiken worden gerapporteerd"
+      },
+      {
+        "id": "diamond-girdle-percentages",
+        "label": "Diamantgordelpercentages"
+      },
+      {
+        "id": "hrd-antwerp-girdle-measurements",
+        "label": "HRD Antwerpse gordelmetingen"
+      },
+      {
+        "id": "gia-versus-hrd-girdle-reporting",
+        "label": "GIA versus HRD-gordelrapportage"
+      },
+      {
+        "id": "best-girdle-thickness-for-a-diamond",
+        "label": "Beste gordeldikte voor een diamant"
+      },
+      {
+        "id": "thin-and-extremely-thin-girdles",
+        "label": "Dunne en extreem dunne gordels"
+      },
+      {
+        "id": "thick-and-extremely-thick-girdles",
+        "label": "Dikke en extreem dikke gordels"
+      },
+      {
+        "id": "uneven-and-varying-girdles",
+        "label": "Ongelijke en variërende gordels"
+      },
+      {
+        "id": "faceted-polished-and-bruted-girdles",
+        "label": "Gefacetteerde, gepolijste en geborstelde gordels"
+      },
+      {
+        "id": "painting-and-digging-out",
+        "label": "Schilderen en uitgraven"
+      },
+      {
+        "id": "girdle-damage-and-clarity-characteristics",
+        "label": "Gordelbeschadiging en helderheidskenmerken"
+      },
+      {
+        "id": "laser-inscriptions-on-the-girdle",
+        "label": "Laserinscripties op de gordel"
+      },
+      {
+        "id": "girdles-in-different-diamond-shapes",
+        "label": "Gordels in verschillende diamantvormen"
+      },
+      {
+        "id": "girdle-thickness-and-jewellery-settings",
+        "label": "Gordeldikte en sieradeninstellingen"
+      },
+      {
+        "id": "girdle-thickness-face-up-size-and-price",
+        "label": "Gordeldikte, face-up maat en prijs"
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-girdles",
+        "label": "Natuurlijke versus in het laboratorium gekweekte diamanten gordels"
+      },
+      {
+        "id": "how-to-inspect-a-diamond-girdle",
+        "label": "Hoe een diamantgordel te inspecteren"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Vergelijking van bewerkte diamanten"
+      },
+      {
+        "id": "common-girdle-myths",
+        "label": "Veel voorkomende gordelmythen"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Controlelijst voor het kopen van natuurlijke diamant"
+      },
+      {
+        "id": "girdle-guide-faq-heading",
+        "label": "Veelgestelde vragen"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-girdle",
+    "title": "Wat is een diamanten gordel?",
+    "introParagraphs": [
+      "De gordel is de smalle omtrek rond een gepolijste diamant waar de bovenste kroon en het onderste paviljoen samenkomen.",
+      "Van bovenaf gezien definieert de gordel de omtrek van de diamant. Het bepaalt of de gepolijste steen verschijnt:"
+    ],
+    "bullets": [
+      "Ronde",
+      "Ovaal",
+      "Vierkant",
+      "Rechthoekig",
+      "Peervormig",
+      "Markiesvormig",
+      "Hartvormig",
+      "Kussenvormig",
+      "Nog een erkend overzicht"
+    ],
+    "closingParagraphs": [
+      "Vanaf de zijkant gezien vormt de gordel de scheidingsrand tussen kroon en paviljoen."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA beschrijft de gordel als het middelste gedeelte van de diamant en het deel dat normaal gesproken wordt gebruikt als de zetrand. De dikte draagt ​​bij aan duurzaamheid en gewichtsverdeling."
+        },
+        {
+          "type": "link",
+          "text": "GIA's referentie voor diamantanatomie",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "verklaart zijn positie binnen de volledig geslepen diamant."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Voor het paviljoenpunt tegenover de tafel, zie de"
+        },
+        {
+          "type": "link",
+          "text": "Diamond Culet-gids",
+          "href": "/resources/diamond-culet-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Voor bredere kwaliteitsschalen, zie de"
+        },
+        {
+          "type": "link",
+          "text": "Diamantkwaliteitsgrafiek",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-girdle-a-facet",
+        "title": "Is de gordel een facet?",
+        "paragraphsBefore": [
+          "Niet noodzakelijkerwijs.",
+          "De gordel kan zijn:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Gepolijst maar niet individueel gefacetteerd",
+          "Bruut of mat",
+          "Deels gefacetteerd",
+          "Onregelmatig van afwerking"
+        ],
+        "paragraphsAfter": [
+          "Een gefacetteerde gordel bevat een reeks kleine gepolijste oppervlakken. Een gepolijste gordel kan glad zijn in plaats van verdeeld in individuele facetten. Een geborstelde gordel heeft over het algemeen een mat of korrelig uiterlijk dat ontstaat tijdens het vormgevingsproces."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-crown",
+        "title": "Is de gordel hetzelfde als de kroon?",
+        "paragraphsBefore": [
+          "Nee.",
+          "De kroon is het volledige bovenste gedeelte van de diamant boven de gordel. De gordel vormt de grens eronder."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-pavilion",
+        "title": "Is de Gordel hetzelfde als het Paviljoen?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Het paviljoen is het onderste gedeelte onder de gordel, dat zich uitstrekt naar de culet of een ander paviljoenuiteinde."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-a-lower-girdle-facet",
+        "title": "Is de gordel hetzelfde als een facet met een lagere gordel?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Facetten van de onderste gordel, ook wel facetten van de onderste helft genoemd, zijn paviljoenfacetten die zich naar boven uitstrekken richting de gordel. Ze zijn niet de gordel zelf."
+        ]
+      }
+    ]
+  },
+  "whereLocated": {
+    "id": "where-the-girdle-is-located",
+    "title": "Waar bevindt de gordel zich?",
+    "introParagraphs": [
+      "De belangrijkste onderdelen van een gepolijste Ronde Briljant zijn:"
+    ],
+    "bullets": [
+      "Tafel",
+      "Kroon",
+      "Gordel",
+      "Paviljoen",
+      "Culet- of paviljoenpunt"
+    ],
+    "closingParagraphs": [
+      "De tafel staat bovenaan. De kroon daalt van de tafel naar de gordel. Het paviljoen loopt onder de gordel door richting de culet.",
+      "De gordel omringt de gehele diamant horizontaal.",
+      "Bij een gemonteerde diamant kunnen delen van de gordel zijn:"
+    ],
+    "positionBullets": [
+      "Bedekt door tanden",
+      "Omsloten door een ring",
+      "Verborgen door een halo of omringend metaal",
+      "Zichtbaar tussen instelpunten",
+      "Geplaatst boven of onder de omliggende sieraden",
+      "Moeilijk te inspecteren zonder de instelling te verwijderen of aan te passen"
+    ],
+    "finalParagraphs": [
+      "Bij een volledige inspectie moet rekening worden gehouden met de door metaal verborgen gebieden."
+    ],
+    "displacedBullets": [],
+    "closingNote": []
+  },
+  "whatDoes": {
+    "id": "what-the-girdle-does",
+    "title": "Wat doet de diamanten gordel?",
+    "introParagraphs": [
+      "De gordel heeft verschillende verwante functies."
+    ],
+    "subsections": [
+      {
+        "id": "defines-the-diamonds-outline",
+        "title": "Definieert de omtrek van de diamant",
+        "paragraphsBefore": [
+          "De gordel bepaalt de vorm die zichtbaar is wanneer de diamant met de voorkant naar boven wordt bekeken.",
+          "Variaties in de omtrek kunnen van invloed zijn op:"
+        ],
+        "bullets": [
+          "Rondheid",
+          "Lengte-breedteverhouding",
+          "Hoekvorm",
+          "Puntuitlijning",
+          "Schouder balans",
+          "Vleugelvorm",
+          "Algemene symmetrie"
+        ]
+      },
+      {
+        "id": "separates-the-crown-and-pavilion",
+        "title": "Scheidt de kroon en het paviljoen",
+        "paragraphsBefore": [
+          "De gordel vormt de overgang tussen het boven- en ondergedeelte van de diamant.",
+          "De dikte draagt ​​bij aan:"
+        ],
+        "bullets": [
+          "Totale diepte",
+          "Gewichtsverdeling",
+          "Duurzaamheid",
+          "Geschiktheid instellen",
+          "Afmetingen naar boven gericht"
+        ]
+      },
+      {
+        "id": "provides-the-setting-edge",
+        "title": "Biedt de instellingsrand",
+        "paragraphsBefore": [
+          "Tanden, randen en andere montagecomponenten bevestigen de diamant normaal gesproken rond de gordel.",
+          "Om die reden moeten setters rekening houden met:"
+        ],
+        "bullets": [
+          "Minimale dikte van de gordel",
+          "Diktevariatie",
+          "Hoeken en punten",
+          "Bestaande chips",
+          "Naturals en gaatjes",
+          "Veren locaties",
+          "Gordel afwerking",
+          "Of een opschrift zichtbaar moet blijven",
+          "De druk die nodig is om de steen vast te zetten"
+        ]
+      },
+      {
+        "id": "protects-the-diamonds-edge",
+        "title": "Beschermt de diamantrand",
+        "paragraphsBefore": [
+          "Een goed geproportioneerde gordel zorgt voor materiaal tussen de kroon en het paviljoen.",
+          "Als de gordel extreem dun wordt of meskantig wordt, kan de rand kwetsbaarder zijn voor afbrokkelen. Als het onnodig dik is, kan het gewicht vasthouden dat weinig bijdraagt ​​aan de zichtbare spreiding van de diamant."
+        ]
+      }
+    ]
+  },
+  "giaScale": {
+    "id": "gia-diamond-girdle-scale",
+    "title": "GIA Diamond Gordelschaal",
+    "introParagraphs": [
+      "GIA gebruikt de volgende beschrijvingen van de gordeldikte:"
+    ],
+    "table": {
+      "caption": "GIA-gordeldiktebeschrijvingen",
+      "headers": [
+        "GIA-beschrijving",
+        "Algemene interpretatie",
+        "Praktische kopersbenadering"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "Weinig of geen meetbare gordel op één of meerdere relevante terreinen",
+          "Onderzoek locatie, omvang, duurzaamheid en vestigingsrisico"
+        ],
+        [
+          "Zeer dun",
+          "Er zijn smalle gordelgebieden aanwezig",
+          "Bepaal of ze gelokaliseerd of uitgebreid zijn en of er sprake is van punten of hoeken"
+        ],
+        [
+          "Dun",
+          "Een relatief smalle maar gevestigde gordel",
+          "Vaak acceptabel als het onbeschadigd is en passend bij de vorm"
+        ],
+        [
+          "Medium",
+          "Evenwichtige middenklasse dikte",
+          "Algemeen praktisch voor duurzaamheid en gewichtsverdeling"
+        ],
+        [
+          "Slightly Thick",
+          "Matig verhoogde dikte",
+          "Vaak acceptabel als de afmetingen en verhoudingen naar boven aantrekkelijk blijven"
+        ],
+        [
+          "Dik",
+          "Merkbaar grotere dikte van de gordel",
+          "Vergelijk gewicht, diameter, diepte en uiterlijk met de voorkant naar boven"
+        ],
+        [
+          "Very Thick",
+          "Aanzienlijke dikte op één of meerdere plekken",
+          "Controleer op verborgen gewicht, verminderde spreiding en instellingsimplicaties"
+        ],
+        [
+          "Extremely Thick",
+          "Zeer aanzienlijke gordeldikte",
+          "Vereist een zorgvuldige vergelijking van gewichtsefficiëntie, verhoudingen en uiterlijk"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA beoordeelt de dikte van de gordel visueel onder een vergroting van 10x en rapporteert een enkele beschrijving of een bereik. De volledige schaal en meetmethodologie ervan vindt u in de"
+        },
+        {
+          "type": "link",
+          "text": "GIA-afwerking, verwijzing naar culet en gordel",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-gia-scale-a-quality-scale",
+        "title": "Is de GIA-schaal een kwaliteitsschaal?",
+        "paragraphsBefore": [
+          "Niet op zichzelf.",
+          "De termen beschrijven de dikte. Hun aankoopbelang hangt af van:"
+        ],
+        "bullets": [
+          "Minimale dikte",
+          "Maximale dikte",
+          "Locatie van elk uiterste",
+          "Diamantvorm",
+          "Hoek- en puntkwetsbaarheid",
+          "Conditie van de gordel",
+          "Algemene verhoudingen",
+          "Gewichtsverhouding",
+          "Symmetrie",
+          "Instelling",
+          "Face-up-uiterlijk"
+        ],
+        "paragraphsAfter": [
+          "Medium is niet automatisch superieur aan elke dunne of licht dikke gordel. Op dezelfde manier maakt een zeer dik gebied een diamant niet automatisch ongeschikt."
+        ]
+      },
+      {
+        "id": "can-gia-report-a-single-description",
+        "title": "Kan GIA één enkele beschrijving rapporteren?",
+        "paragraphsBefore": [
+          "Ja.",
+          "Als de dunste en dikste relevante gordelgebieden binnen dezelfde categorie vallen, kan het rapport één beschrijving tonen, zoals:"
+        ],
+        "bullets": [
+          "Medium",
+          "Dun",
+          "Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "Meestal biedt het rapport een bereik zoals:",
+          "Dun tot medium",
+          "Medium tot licht dik",
+          "Zeer dun tot dik"
+        ]
+      }
+    ]
+  },
+  "rangesReported": {
+    "id": "how-girdle-ranges-are-reported",
+    "title": "Hoe worden Diamond Gordle-reeksen gerapporteerd?",
+    "introParagraphs": [
+      "Een beschrijving zoals Dun tot Enigszins Dik vertegenwoordigt de waargenomen minimale en maximale relevante gordeldiktes.",
+      "Het betekent niet:"
+    ],
+    "bullets": [
+      "De helft van de gordel is dun en de helft is iets dik",
+      "De gemiddelde dikte is Medium",
+      "Elk gebied tussen de twee beschrijvingen is gelijkwaardig vertegenwoordigd",
+      "De gordel is beschadigd",
+      "De diamant is asymmetrisch",
+      "De diamant kan geen hoge slijpkwaliteit krijgen"
+    ],
+    "subsections": [
+      {
+        "id": "how-should-a-girdle-range-be-read",
+        "title": "Hoe moet een gordelbereik worden gelezen?",
+        "paragraphsBefore": [
+          "De eerste term is de minimale dikte. De tweede is het maximum."
+        ],
+        "table": {
+          "caption": "Beschrijvingen van het gordelbereik lezen",
+          "headers": [
+            "Rapportbeschrijving",
+            "Minimum",
+            "Maximaal"
+          ],
+          "rows": [
+            [
+              "Dun tot medium",
+              "Dun",
+              "Medium"
+            ],
+            [
+              "Medium tot licht dik",
+              "Medium",
+              "Slightly Thick"
+            ],
+            [
+              "Zeer dun tot dik",
+              "Zeer dun",
+              "Dik"
+            ],
+            [
+              "Dun tot zeer dik",
+              "Dun",
+              "Very Thick"
+            ],
+            [
+              "Medium",
+              "Medium",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "does-a-wide-range-mean-the-girdle-is-bad",
+        "title": "Betekent een groot bereik dat de gordel slecht is?",
+        "paragraphsBefore": [
+          "Niet automatisch.",
+          "Een breder bereik vereist onderzoek omdat dit het gevolg kan zijn van:"
+        ],
+        "bullets": [
+          "Normale variatie rond een geschulpte gordel",
+          "Het ontwerp van een mooie vorm",
+          "Extra materiaal bij een hoek of punt",
+          "Schilderen",
+          "Uitgraven",
+          "Variatie in facetplaatsing",
+          "Een natuurlijke of ingesprongen natuurlijke",
+          "Een extra facet",
+          "Snijbeslissingen werden gebruikt om op gewicht te blijven",
+          "Een onregelmatige omtrek",
+          "Schade"
+        ],
+        "paragraphsAfter": [
+          "De locatie en omvang van de variatie zijn belangrijker dan alleen de breedte van het verbale bereik."
+        ]
+      },
+      {
+        "id": "can-one-small-area-determine-the-minimum-description",
+        "title": "Kan één klein gebied de minimale beschrijving bepalen?",
+        "paragraphsBefore": [
+          "Een beperkt gebied kan het gerapporteerde minimum beïnvloeden, hoewel de laboratoriummethodologie ook rekening houdt met kenmerken die de gordel onderbreken.",
+          "GIA legt uit dat kenmerken zoals een natuurlijke, holte, chip of extra facet de gordel lokaal kunnen vernauwen. De resterende gordel en elk echt mesrandgebied moeten worden beoordeeld volgens de methodologie van het laboratorium.",
+          "Ga er daarom niet van uit dat een rapport waarin Zeer Dun staat, betekent dat de gehele gordel Zeer Dun is."
+        ]
+      }
+    ]
+  },
+  "percentages": {
+    "id": "diamond-girdle-percentages",
+    "title": "Percentage diamantgordel",
+    "introParagraphs": [
+      "Voor een Ronde Briljant kan de dikte van de gordel worden uitgedrukt in verhouding tot de gemiddelde gordeldiameter van de diamant.",
+      "De ondersteunende formule is:",
+      "Percentage gordeldikte = gordeldikte ÷ gemiddelde gordeldiameter × 100",
+      "GIA maakt onderscheid tussen twee gerelateerde beoordelingen:"
+    ],
+    "bullets": [
+      "Gemiddelde dikte gemeten op de acht belangrijkste heuvelposities van de rand en het paviljoen",
+      "Minimale en maximale dikte visueel beoordeeld op de dunnere valleiposities"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA rapporteert het gemiddelde percentage heuvelposities tot op de dichtstbijzijnde 0,5%. Het verbale bereik is gebaseerd op de relevante minimale en maximale dalgebieden."
+        },
+        {
+          "type": "link",
+          "text": "GIA's Round Brilliant anatomiegids",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "verklaart het verschil."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-are-hill-and-valley-positions",
+        "title": "Wat zijn heuvel- en valleiposities?",
+        "paragraphsBefore": [
+          "Een briljant geslepen diamant heeft een geschulpte gordel.",
+          "Heuvelposities zijn dikkere gebieden waar de randfacetten en de hoofdfacetten van het paviljoen samenkomen.",
+          "Valleiposities zijn dunnere gebieden die verband houden met de facetovergangen van de bovenste en onderste helft.",
+          "Omdat deze posities verschillende delen van de gordel meten, mag een gemiddeld percentage niet worden beschouwd als een directe vertaling van het verbale minimum-tot-maximumbereik."
+        ]
+      },
+      {
+        "id": "can-buyers-convert-gia-percentages-into-exact-verbal-grades",
+        "title": "Kunnen kopers GIA-percentages omzetten in exacte verbale cijfers?",
+        "paragraphsBefore": [
+          "Niet betrouwbaar.",
+          "GIA stelt dat:"
+        ],
+        "bullets": [
+          "De gepubliceerde percentagevoorbeelden zijn bij benadering",
+          "Extreem fijne metingen worden beïnvloed door instrumenttolerantie",
+          "Duidelijkheidskenmerken kunnen de meting verstoren",
+          "De gordel kan onregelmatig zijn",
+          "De gordel mag niet loodrecht op de tafel staan",
+          "Visuele verificatie blijft noodzakelijk"
+        ],
+        "paragraphsAfter": [
+          "Gebruik daarom de opgegeven beschrijving van het laboratorium en gebruik geen zelfgemaakte conversietabel."
+        ]
+      },
+      {
+        "id": "does-a-higher-percentage-always-mean-a-worse-diamond",
+        "title": "Betekent een hoger percentage altijd een slechtere diamant?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Een hoger gordelpercentage duidt op meer dikte, niet op volledige diamantkwaliteit.",
+          "Het effect ervan moet worden beoordeeld naast:"
+        ],
+        "bullets": [
+          "Kroon hoogte",
+          "Paviljoen diepte",
+          "Totale diepte",
+          "Tafelgrootte",
+          "Afmetingen naar boven gericht",
+          "Snijd kwaliteit",
+          "Symmetrie",
+          "Vorm",
+          "Gewichtsverdeling",
+          "Prijs"
+        ]
+      }
+    ]
+  },
+  "hrdMeasurements": {
+    "id": "hrd-antwerp-girdle-measurements",
+    "title": "HRD Antwerp Gordelmetingen",
+    "introParagraphs": [
+      "HRD Antwerpen rapporteert de gordel doorgaans met een verbale beschrijving, percentage en afwerking.",
+      "Volgens de richtlijnen van januari 2025 gebruikt HRD de volgende beschrijvende bereiken:"
+    ],
+    "table": {
+      "caption": "HRD Antwerp gordel beschrijvende bereiken",
+      "headers": [
+        "HRD-beschrijving",
+        "Gemeten gordelwaarde"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "0,0%–0,5%"
+        ],
+        [
+          "Zeer dun",
+          "1,0%–1,5%"
+        ],
+        [
+          "Dun",
+          "2,0%–2,5%"
+        ],
+        [
+          "Medium",
+          "3,0%–5,0%"
+        ],
+        [
+          "Dik",
+          "5,5%–6,0%"
+        ],
+        [
+          "Very Thick",
+          "6,5%–7,5%"
+        ],
+        [
+          "Extremely Thick",
+          "8,0% en hoger"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "HRD evalueert afzonderlijk hoe het percentage bijdraagt ​​aan de verhoudingen van Round Brilliant:"
+    ],
+    "proportionsTable": {
+      "caption": "HRD-gordelpercentage en proportiescategorieën",
+      "headers": [
+        "HRD-gordelpercentage",
+        "Gordelgerelateerde verhoudingencategorie"
+      ],
+      "rows": [
+        [
+          "2,5%–4,5%",
+          "Excellent"
+        ],
+        [
+          "2,0% of 5,0%–6,5%",
+          "Very Good"
+        ],
+        [
+          "1,0%–1,5% of 7,0%–8,5%",
+          "Good"
+        ],
+        [
+          "Tot 0,5% of 9,0% en hoger",
+          "Fair"
+        ]
+      ]
+    },
+    "finalParagraphs": [
+      "Deze classificaties beschrijven de bijdrage van de gordel aan de beoordeling van de proporties van HRD. Zij bepalen niet zelf het volledige cijfer.",
+      "HRD houdt ook rekening met kroonhoek, paviljoenhoek, tafelbreedte, kroonhoogte, paviljoendiepte, totale diepte, culet, glans, symmetrie en andere waarneembare effecten. De volledige methodologie verschijnt in de HRD Antwerp 2025 cut-grade chart."
+    ],
+    "subsections": [
+      {
+        "id": "why-is-hrd-relevant-to-european-buyers",
+        "title": "Waarom is HRD relevant voor Europese kopers?",
+        "paragraphsBefore": [
+          "Rapporten van HRD Antwerp worden veelvuldig aangetroffen in België en de bredere Europese diamantmarkt.",
+          "Kopers moeten erkennen dat:"
+        ],
+        "bullets": [
+          "De GIA- en HRD-rapportformaten verschillen",
+          "Hun beschrijvende grenzen verschillen",
+          "Hun hoogwaardige structuren verschillen",
+          "Het verbale bereik van GIA is geen direct wiskundig equivalent van het HRD-percentage",
+          "Het volledige rapport moet worden geïnterpreteerd volgens het laboratorium van afgifte"
+        ]
+      }
+    ]
+  },
+  "giaVsHrd": {
+    "id": "gia-versus-hrd-girdle-reporting",
+    "title": "GIA versus HRD Girdle-rapportage",
+    "introParagraphs": [],
+    "table": {
+      "caption": "GIA versus HRD Antwerpse gordelrapportage",
+      "headers": [
+        "Functie",
+        "GIA",
+        "HRD Antwerp"
+      ],
+      "rows": [
+        [
+          "Primaire rapportagebenadering",
+          "Verbaal minimum-tot-maximumbereik ondersteund door proportiemetingen",
+          "Percentage en verbale beschrijving"
+        ],
+        [
+          "Dikte schaal",
+          "Extreem dun tot extreem dik, inclusief licht dik",
+          "Extreem dun tot extreem dik"
+        ],
+        [
+          "Iets Dikke categorie",
+          "Ja",
+          "Niet weergegeven als een aparte categorie in de grafiek van januari 2025"
+        ],
+        [
+          "Percentage methodologie",
+          "Gemiddeld percentage heuvelpositie plus visuele dalbeoordeling",
+          "Op percentage gebaseerde verhoudingsparameter"
+        ],
+        [
+          "Cut-grade structuur",
+          "Algemeen snijcijfer voor in aanmerking komende standaard Round Brilliants",
+          "Verhoudingen, polijst- en symmetriecategorieën"
+        ],
+        [
+          "Gordel afwerking",
+          "Kan gefacetteerd, gepolijst of bruut zijn",
+          "Kan gefacetteerd, gepolijst of een andere toepasselijke afwerking vermelden"
+        ],
+        [
+          "Kopersbenadering",
+          "Lees het volledige aanbod, gemiddeld percentage, afwerking en totaalrapport",
+          "Lees het percentage, de beschrijving, het aandeelcijfer en het volledige rapport"
+        ]
+      ]
+    },
+    "closingParagraphs": [],
+    "subsections": [
+      {
+        "id": "can-gia-and-hrd-grades-be-converted-directly",
+        "title": "Kunnen GIA- en HRD-cijfers rechtstreeks worden geconverteerd?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Ga er niet van uit:"
+        ],
+        "bullets": [
+          "GIA Medium is altijd gelijk aan één HRD-percentage",
+          "GIA Iets Dik is altijd gelijk aan HRD Medium of Dik",
+          "GIA Very Thin heeft altijd dezelfde implicatie als een HRD-percentage",
+          "Identieke percentages garanderen identieke algehele snijkwaliteiten",
+          "Een verbale beschrijving heeft in alle laboratoria dezelfde grenzen"
+        ],
+        "paragraphsAfter": [
+          "Behandel elk rapport volgens de door het uitgevende laboratorium gepubliceerde methodologie."
+        ]
+      }
+    ]
+  },
+  "bestThickness": {
+    "id": "best-girdle-thickness-for-a-diamond",
+    "title": "Wat is de beste gordeldikte voor een diamant?",
+    "introParagraphs": [
+      "Er is niet één beste gordelbeschrijving voor elke natuurlijke diamant.",
+      "Voor veel moderne ronde briljante diamanten zijn de volgende beschrijvingen doorgaans praktisch:"
+    ],
+    "bullets": [
+      "Dun",
+      "Medium",
+      "Slightly Thick",
+      "Dun tot medium",
+      "Medium tot licht dik",
+      "Dun tot licht dik"
+    ],
+    "closingParagraphs": [
+      "Deze bereiken bieden vaak een redelijk evenwicht tussen duurzaamheid en gewichtsefficiëntie.",
+      "De juiste beslissing hangt echter nog steeds af van:"
+    ],
+    "dependBullets": [
+      "Volledige snijkwaliteit",
+      "Diameter naar boven gericht",
+      "Totale diepte",
+      "Vorm",
+      "Minimale dikte",
+      "Maximale dikte",
+      "Locatie van variatie",
+      "Bestaande schade",
+      "Instelling",
+      "Prijs"
+    ],
+    "subsections": [
+      {
+        "id": "is-medium-the-best-girdle-grade",
+        "title": "Is Medium de beste gordelklasse?",
+        "paragraphsBefore": [
+          "Medium wordt vaak gezien als een uitgebalanceerd resultaat, maar is niet automatisch beter dan Dun of Iets Dik.",
+          "Een diamant met een dunne tot medium gordel kan beter presteren of een betere waarde bieden dan een diamant met een uniforme medium gordel."
+        ]
+      },
+      {
+        "id": "can-slightly-thick-be-excellent",
+        "title": "Kan een beetje dik uitstekend zijn?",
+        "paragraphsBefore": [
+          "Ja.",
+          "Een enigszins dik gebied kan compatibel zijn met een aantrekkelijke, goed geslepen diamant. De algehele beoordeling is afhankelijk van de volledige verhoudingsset en visuele prestaties."
+        ]
+      },
+      {
+        "id": "can-thick-be-acceptable",
+        "title": "Kan dik acceptabel zijn?",
+        "paragraphsBefore": [
+          "Ja.",
+          "Een dikke gordel kan acceptabel zijn als:"
+        ],
+        "bullets": [
+          "Afmetingen naar boven blijven geschikt",
+          "De totale diepte is niet overdreven",
+          "De diamant presteert aantrekkelijk",
+          "De dikte is gelokaliseerd",
+          "De vorm profiteert van extra materiaal op kwetsbare plekken",
+          "De prijs weerspiegelt de volledige diamant"
+        ]
+      },
+      {
+        "id": "should-buyers-reject-every-very-thin-or-very-thick-range",
+        "title": "Moeten kopers elk zeer dun of zeer dik assortiment afwijzen?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Beide verdienen nader onderzoek, maar geen van beide mag worden verworpen op basis van alleen het rapportlabel."
+        ]
+      }
+    ]
+  },
+  "thinGirdles": {
+    "id": "thin-and-extremely-thin-girdles",
+    "title": "Dunne, zeer dunne en extreem dunne gordels",
+    "introParagraphs": [
+      "Een dunne gordel bevat minder materiaal tussen kroon en paviljoen."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-thin-girdle-dangerous",
+        "title": "Is een dunne gordel gevaarlijk?",
+        "paragraphsBefore": [
+          "Niet automatisch.",
+          "Dun is een erkende classificatiebeschrijving en komt veel voor bij verhandelbare diamanten. De bezorgdheid neemt toe wanneer de gordel:"
+        ],
+        "bullets": [
+          "Extreem erg dun",
+          "Extremely Thin",
+          "Messcherp",
+          "Zeer dun op een hoek of punt",
+          "Zeer dun naast een grote veer",
+          "Reeds afgebroken of geschuurd",
+          "Blootgesteld door de instelling",
+          "Wordt tijdens het plaatsen of repareren onder druk gezet"
+        ]
+      },
+      {
+        "id": "why-can-a-thin-girdle-chip",
+        "title": "Waarom kan een dunne gordel afbreken?",
+        "paragraphsBefore": [
+          "Diamant is zeer goed bestand tegen krassen, maar het is niet onmogelijk om te chippen.",
+          "Een dunne rand bevat minder materiaal om een ​​impact te absorberen of te verdelen. GIA waarschuwt dat zeer dunne gebieden, vooral op de hoeken en punten van mooie vormen, een groter risico op beschadiging hebben."
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "does-very-thin-mean-the-diamond-is-already-damaged",
+        "title": "Betekent zeer dun dat de diamant al beschadigd is?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Very Thin beschrijft de dikte. Het betekent niet automatisch dat er een chip, holte of breuk aanwezig is.",
+          "De werkelijke toestand moet worden geïnspecteerd."
+        ]
+      },
+      {
+        "id": "is-a-localised-very-thin-area-acceptable",
+        "title": "Is een gelokaliseerd, zeer dun gebied acceptabel?",
+        "paragraphsBefore": [
+          "Het kan zijn.",
+          "Overwegen:"
+        ],
+        "bullets": [
+          "Exacte locatie",
+          "Lengte van het dunne gedeelte",
+          "Kenmerken van helderheid in de buurt",
+          "Diamantvorm",
+          "Ontwerp instellen",
+          "Voorwaarde instellen",
+          "Beoogde slijtage",
+          "Verzekeringsvereisten",
+          "Prijs"
+        ],
+        "paragraphsAfter": [
+          "Een klein, zeer dun gebied dat wordt beschermd door een geschikte zetting, kan een ander risico opleveren dan een blootliggende mesrand die rond een substantieel deel van de diamant loopt."
+        ]
+      },
+      {
+        "id": "can-an-extremely-thin-girdle-receive-a-high-cut-grade",
+        "title": "Kan een extreem dunne gordel een hoge snijkwaliteit krijgen?",
+        "paragraphsBefore": [
+          "De dikte van de gordel is een van de vele factoren bij de beoordeling van de snede. Een ongewoon dunne gordel kan de kwaliteit van een Round Brilliant beperken vanwege het duurzaamheidsrisico, zelfs als andere verhoudingen aantrekkelijk zijn.",
+          "Leid het eindcijfer niet alleen af ​​op basis van de dikte. Lees het cijfer dat op het laboratoriumrapport staat."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "De richtlijnen van GIA over het beschermen van diamanten tegen chippen leggen de belangrijkste risicogebieden uit. Zien"
+        },
+        {
+          "type": "link",
+          "text": "GIA’s begeleiding voor diamantzorg",
+          "href": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "thickGirdles": {
+    "id": "thick-and-extremely-thick-girdles",
+    "title": "Dikke, zeer dikke en extreem dikke gordels",
+    "introParagraphs": [
+      "Een dikke gordel houdt meer materiaal vast rond de omtrek van de diamant."
+    ],
+    "subsections": [
+      {
+        "id": "why-can-a-thick-girdle-be-undesirable",
+        "title": "Waarom kan een dikke gordel ongewenst zijn?",
+        "paragraphsBefore": [
+          "Een dikke gordel kan karaatgewicht toevoegen zonder een gelijkwaardige toename van de afmetingen naar boven te veroorzaken.",
+          "Twee diamanten kunnen hetzelfde karaatgewicht hebben, maar een verschillende zichtbare grootte, omdat de ene meer gewicht draagt ​​in:"
+        ],
+        "bullets": [
+          "De gordel",
+          "Paviljoen uitstulping",
+          "Totale diepte",
+          "Een hoge kroon",
+          "Andere niet-zichtbare gebieden"
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-make-a-diamond-look-smaller",
+        "title": "Zorgt een dikke gordel ervoor dat een diamant er kleiner uitziet?",
+        "paragraphsBefore": [
+          "Het kan.",
+          "Als een aanzienlijk deel van het gewicht van de diamant in de gordel is geconcentreerd, kunnen de afmetingen van de face-up diameter of lengte-en-breedte kleiner zijn dan die van een efficiënter geproportioneerde diamant met hetzelfde gewicht.",
+          "Dit is de reden waarom kopers werkelijke millimetermetingen moeten vergelijken in plaats van alleen op het karaatgewicht te vertrouwen."
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-reduce-sparkle",
+        "title": "Vermindert een dikke gordel de glans?",
+        "paragraphsBefore": [
+          "Niet automatisch.",
+          "De dikte van de gordel heeft vooral invloed op:"
+        ],
+        "bullets": [
+          "Gewichtsverhouding",
+          "Totale diepte",
+          "Grootte naar boven gericht",
+          "Duurzaamheid",
+          "Instelling"
+        ],
+        "paragraphsAfter": [
+          "De helderheid, het vuur en de schittering van een diamant zijn afhankelijk van de volledige relatie tussen de kroon, het paviljoen, de tafel, het facetpatroon en de kijkomgeving.",
+          "Een te dikke gordel kan gepaard gaan met een slechte gewichtsverdeling, maar het gordellabel alleen bepaalt de glans niet."
+        ]
+      },
+      {
+        "id": "is-a-very-thick-girdle-more-durable",
+        "title": "Is een zeer dikke gordel duurzamer?",
+        "paragraphsBefore": [
+          "Het levert misschien meer materiaal aan de rand op, maar het maakt de diamant niet schadebestendig.",
+          "Schade kan nog steeds ontstaan ​​door:"
+        ],
+        "bullets": [
+          "Ernstige impact",
+          "Insluitsels nabij de gordel",
+          "Blootgestelde hoeken",
+          "Druk instellen",
+          "Bestaande chips",
+          "Slecht passende sieraden",
+          "Contact tussen diamanten",
+          "Onzorgvuldig reparatiewerk"
+        ]
+      },
+      {
+        "id": "can-thickness-be-useful-at-a-fancy-shape-point",
+        "title": "Kan dikte nuttig zijn op een punt met een mooie vorm?",
+        "paragraphsBefore": [
+          "Ja.",
+          "Extra materiaal nabij de punt van een peer, markiezin of in het nauw gedreven diamant kan een extreem kwetsbare messnede helpen voorkomen. Overmatige uitstulping of onnodige dikte kunnen echter nog steeds gewicht vasthouden.",
+          "De volledige omtrek en setting moeten worden onderzocht."
+        ]
+      }
+    ]
+  },
+  "uneven": {
+    "id": "uneven-and-varying-girdles",
+    "title": "Ongelijke en variërende diamantgordels",
+    "introParagraphs": [
+      "De gordel van een diamant is zelden perfect uniform.",
+      "Normale variatie treedt op omdat gordels in briljante stijl geschulpt zijn en omdat mooie vormen verschillende facetschikkingen rond hun omtrekken vereisen."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-variation-become-important",
+        "title": "Wanneer wordt variatie belangrijk?",
+        "paragraphsBefore": [
+          "Variatie verdient meer aandacht wanneer zij het volgende oplevert:"
+        ],
+        "bullets": [
+          "Extreem dunne en zeer dikke gebieden op dezelfde diamant",
+          "Abrupte veranderingen in plaats van geleidelijke transities",
+          "Een ongelijke omtrek naar boven",
+          "Ongelijke hoeken of schouders",
+          "Een hellend gordelvlak",
+          "Een kegelvormig uiterlijk",
+          "Niet goed uitgelijnde kroon- en paviljoenfacetten",
+          "Moeilijkheden stellen",
+          "Aanzienlijk verborgen gewicht",
+          "Zorgen over duurzaamheid",
+          "Zichtbare symmetrieproblemen"
+        ]
+      },
+      {
+        "id": "does-uneven-thickness-affect-symmetry",
+        "title": "Heeft ongelijkmatige dikte invloed op de symmetrie?",
+        "paragraphsBefore": [
+          "Het kan.",
+          "GIA houdt rekening met variaties in de dikte van de gordel bij het evalueren van de symmetrie en bij het beoordelen van schilderen of uitgraven. HRD somt ook afwijkingen op in de maximale en minimale dikte van de gordel op basis van visuele symmetrieoverwegingen.",
+          "Een bereik alleen bepaalt niet de mate van symmetrie. Lees het door het laboratorium gerapporteerde symmetrieresultaat."
+        ]
+      },
+      {
+        "id": "what-is-a-wavy-girdle",
+        "title": "Wat is een golvende gordel?",
+        "paragraphsBefore": [
+          "Golvende gordel is een informele uitdrukking die zichtbare veranderingen in het niveau of de dikte van de gordel kan beschrijven.",
+          "Mogelijke oorzaken zijn onder meer:"
+        ],
+        "bullets": [
+          "Ongelijkmatige facetplaatsing",
+          "Verkeerde uitlijning van kroon en paviljoen",
+          "Schuine gordel",
+          "Snijvariatie",
+          "Vormspecifiek ontwerp",
+          "Beschadiging of reparatie"
+        ],
+        "paragraphsAfter": [
+          "De term is geen vervanging voor een laboratoriumbeschrijving."
+        ]
+      },
+      {
+        "id": "what-is-a-sloping-girdle",
+        "title": "Wat is een hellende gordel?",
+        "paragraphsBefore": [
+          "Een hellende gordel ontstaat wanneer het gordelvlak niet waterpas is ten opzichte van de tafel of de beoogde as van de diamant.",
+          "Het kan invloed hebben op:"
+        ],
+        "bullets": [
+          "Zijprofiel",
+          "Kroonhoogteverdeling",
+          "Paviljoen diepteverdeling",
+          "Symmetrie",
+          "Positie instellen",
+          "Face-up balans"
+        ]
+      }
+    ]
+  },
+  "finish": {
+    "id": "faceted-polished-and-bruted-girdles",
+    "title": "Gefacetteerde, gepolijste en gebruteerde diamanten gordels",
+    "introParagraphs": [
+      "Gordeldikte en gordelafwerking zijn afzonderlijke kenmerken."
+    ],
+    "table": {
+      "caption": "Soorten gordelafwerking",
+      "headers": [
+        "Finish",
+        "Algemeen uiterlijk",
+        "Implicatie van de koper"
+      ],
+      "rows": [
+        [
+          "Faceted",
+          "Een reeks kleine gepolijste oppervlakken rond de gordel",
+          "Vaak voorkomend in moderne diamanten; facetconsistentie en inscriptie onderzoeken"
+        ],
+        [
+          "Polished",
+          "Glad gepolijste band zonder afzonderlijk zichtbare gordelfacetten",
+          "Kan volkomen acceptabel zijn"
+        ],
+        [
+          "Bruted",
+          "Een mat of korrelig oppervlak dat ontstaat tijdens het vormgeven",
+          "Vaak voorkomend bij oudere en sommige moderne diamanten; niet automatisch een defect"
+        ],
+        [
+          "Gedeeltelijk gefacetteerd",
+          "Slechts een deel van de gordel is gefacetteerd",
+          "Kan opzettelijk zijn, gerepareerd of overwogen tijdens de beoordeling van de symmetrie"
+        ],
+        [
+          "Baard",
+          "Fijne veerachtige kenmerken strekken zich uit van de gordel tot in de steen",
+          "Een helderheids- en conditieoverweging, geen gewone afwerkingscategorie"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "GIA stelt dat de dikte van de gordel wordt beoordeeld met behulp van dezelfde diktemethode, ongeacht of de gordel geborsteld, gepolijst of gefacetteerd is."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-faceted-girdle-better",
+        "title": "Is een gefacetteerde gordel beter?",
+        "paragraphsBefore": [
+          "Niet automatisch.",
+          "Een gefacetteerde gordel kan bieden:"
+        ],
+        "bullets": [
+          "Een verfijnde moderne afwerking",
+          "Duidelijkere kleine oppervlakken voor onderzoek",
+          "Een geschikt gebied voor laserinscriptie",
+          "Een consistentere visuele uitstraling"
+        ],
+        "paragraphsAfter": [
+          "Het garandeert echter niet:",
+          "Beter knippen",
+          "Betere symmetrie",
+          "Beter polijsten",
+          "Grotere duurzaamheid",
+          "Natuurlijke oorsprong",
+          "Hogere waarde"
+        ]
+      },
+      {
+        "id": "is-a-bruted-girdle-bad",
+        "title": "Is een brute gordel slecht?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Een mishandelde gordel kan volkomen legitiem zijn. Het kan ook kenmerkend zijn voor bepaalde oudere kapperioden.",
+          "Inspecteer het op:"
+        ],
+        "bullets": [
+          "Overmatige ruwheid",
+          "Baard",
+          "Chips",
+          "Slijtage",
+          "Ongelijke dikte",
+          "Latere wijziging",
+          "Compatibiliteit met de geclaimde leeftijd van een antieke diamant"
+        ],
+        "paragraphsAfter": [
+          "Een gefacetteerde gordel op een oude diamant kan een latere herpolijsting vertegenwoordigen in plaats van de oorspronkelijke staat van de diamant. GIA heeft antieke diamanten gedocumenteerd waarvan de originele geborstelde gordels later werden gefacetteerd."
+        ]
+      },
+      {
+        "id": "what-does-partly-faceted-mean",
+        "title": "Wat betekent gedeeltelijk gefacetteerd?",
+        "paragraphsBefore": [
+          "Het betekent dat slechts een deel van de gordel is verdeeld in gepolijste gordelfacetten.",
+          "Mogelijke verklaringen zijn onder meer:"
+        ],
+        "bullets": [
+          "Onvolledige facetten",
+          "Lokaal opnieuw polijsten",
+          "Gewichtsbehoud",
+          "Verwijderen van schade",
+          "Latere reparatie",
+          "Originele snijstijl"
+        ],
+        "paragraphsAfter": [
+          "De koper moet de huidige diamant vergelijken met het rapport en eventuele historische documentatie."
+        ]
+      }
+    ]
+  },
+  "paintingDigging": {
+    "id": "painting-and-digging-out",
+    "title": "Schilderen en uitgraven",
+    "introParagraphs": [
+      "Schilderen en uitgraven zijn snijtechnieken die de relatie tussen de bovenste en onderste helft van de facetten en de gordel veranderen."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-painting",
+        "title": "Wat is schilderen?",
+        "paragraphsBefore": [
+          "Tijdens het schilderen kantelt de frees de bovenste of onderste helft van de facetten naar de randfacetten of het paviljoennet.",
+          "Dit verandert de relatieve dikte tussen:"
+        ],
+        "bullets": [
+          "Bezel-en-hoofdheuvelposities",
+          "Posities van de bovenste en onderste helft"
+        ],
+        "paragraphsAfter": [
+          "De gordel kan in een bepaalde richting zwaarder geschulpt lijken."
+        ]
+      },
+      {
+        "id": "what-is-digging-out",
+        "title": "Wat is uitgraven?",
+        "paragraphsBefore": [
+          "Uitgraven is de tegenovergestelde relatie.",
+          "De facetten van de bovenste of onderste helft zijn weggekanteld van de randen of het paviljoennet en naar elkaar toe. Dit maakt de gordel dunner bij de halve facetverbindingen ten opzichte van de ring-en-hoofdposities."
+        ]
+      },
+      {
+        "id": "why-are-these-techniques-used",
+        "title": "Waarom worden deze technieken gebruikt?",
+        "paragraphsBefore": [
+          "Mogelijke redenen zijn onder meer:"
+        ],
+        "bullets": [
+          "Karaatgewicht behouden",
+          "Het bereiken van een commerciële gewichtsdrempel",
+          "Het verwijderen van een helderheidskenmerk nabij de gordel",
+          "Facetplaatsing aanpassen",
+          "Behoud van de opbrengst aan ruwe diamant"
+        ]
+      },
+      {
+        "id": "are-painting-and-digging-always-bad",
+        "title": "Zijn schilderen en graven altijd slecht?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Er kan minimale variatie aanwezig zijn zonder dat er een betekenisvol visueel probleem ontstaat.",
+          "Naarmate het schilderen of graven sterker wordt, kan dit invloed hebben op:"
+        ],
+        "bullets": [
+          "Helderheid naar boven",
+          "Contrasterend patroon",
+          "Facetdefinitie",
+          "Gewichtsverdeling",
+          "Algemeen snijcijfer"
+        ],
+        "paragraphsAfter": [
+          "GIA berekent de omvang van deze kenmerken met behulp van driedimensionale metingen en neemt voldoende sterke effecten op in haar bezuinigingsbeoordeling. Het afwerkings- en gordelboekje van GIA biedt diagrammen van beide technieken."
+        ]
+      },
+      {
+        "id": "can-buyers-identify-painting-from-a-photograph",
+        "title": "Kunnen kopers een schilderij identificeren aan de hand van een foto?",
+        "paragraphsBefore": [
+          "Niet betrouwbaar.",
+          "Gecontroleerde beeldvorming kan ongebruikelijke schulpvorming van de gordel suggereren, maar voor een nauwkeurige beoordeling is het volgende vereist:"
+        ],
+        "bullets": [
+          "Correcte oriëntatie",
+          "Zij- en face-up-aanzichten",
+          "Vergroting",
+          "Facetanalyse",
+          "Passende verlichting",
+          "Driedimensionale meting waar nodig"
+        ],
+        "paragraphsAfter": [
+          "Stel geen diagnose van schilderen of graven vanuit één roterend videoframe."
+        ]
+      }
+    ]
+  },
+  "damage": {
+    "id": "girdle-damage-and-clarity-characteristics",
+    "title": "Gordelschade en duidelijkheidskenmerken",
+    "introParagraphs": [
+      "De dikte van de gordel beschrijft niet de volledige toestand van de rand.",
+      "De gordel kan het volgende bevatten of kruisen met:"
+    ],
+    "bullets": [
+      "Chip",
+      "Slijtage",
+      "Holte",
+      "Natuurlijk",
+      "Ingesprongen natuurlijk",
+      "Baard",
+      "Veerkracht",
+      "Kneuzing",
+      "Extra facet",
+      "Polijstmerk",
+      "Laserinscriptie",
+      "Repareren of opnieuw polijsten"
+    ],
+    "table": {
+      "caption": "Vergelijking van gordelfuncties",
+      "headers": [
+        "Functie",
+        "Betekenis",
+        "Belangrijkste koperszorg"
+      ],
+      "rows": [
+        [
+          "Chip",
+          "Per ongeluk ontbrekend materiaal",
+          "Conditie, verdere schade, hersnijden en rapport mismatch"
+        ],
+        [
+          "Slijtage",
+          "Versleten of opgeruwde rand, vaak met kleine chipjes",
+          "Bescherming tegen slijtage, eerder contact en uitharding"
+        ],
+        [
+          "Holte",
+          "Hoekige opening die ontstaat wanneer materiaal wordt verwijderd of eruit valt",
+          "Grootte, locatie, vuilbehoud en duurzaamheid"
+        ],
+        [
+          "Natuurlijk",
+          "Een deel van het oorspronkelijke ruwe oppervlak blijft tijdens het snijden behouden",
+          "Vorm, dikte en of dit het uiterlijk of de setting beïnvloedt"
+        ],
+        [
+          "Ingesprongen natuurlijk",
+          "Origineel ruw oppervlak dat zich uitstrekt tot onder de beoogde gepolijste omtrek",
+          "Diepte, duurzaamheid en gewichtsbehoud"
+        ],
+        [
+          "Bebaarde gordel",
+          "Fijne veerachtige kenmerken die zich vanaf de gordel naar binnen uitstrekken",
+          "Duidelijkheid, omvang en structurele staat"
+        ],
+        [
+          "Veerkracht",
+          "Interne scheiding die de gordel kan bereiken",
+          "Grootte, oriëntatie, opening en insteldruk"
+        ],
+        [
+          "Kneuzing",
+          "Impactgebied geassocieerd met kleine bevedering",
+          "Bestaande schade en verder risico"
+        ],
+        [
+          "Extra facet",
+          "Extra gepolijst facet buiten de standaardopstelling",
+          "Symmetrie, dikte en eventuele reparatiegeschiedenis"
+        ],
+        [
+          "Laserinscriptie",
+          "Tekst of cijfers aangebracht op de gordel",
+          "Identificatie en rapportmatching"
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA’s referentie voor diamantinsluiting onderscheidt baardgordels, gaatjes, schilfers, kneuzingen en andere helderheidskenmerken. Zien"
+        },
+        {
+          "type": "link",
+          "text": "GIA's duidelijkheidsrichtlijnen",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-a-natural-the-same-as-damage",
+        "title": "Is natuurlijk hetzelfde als schade?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Een natuurlijk, ruw diamantoppervlak blijft behouden. Het is niet noodzakelijkerwijs schade.",
+          "De betekenis ervan hangt af van:"
+        ],
+        "bullets": [
+          "Maat",
+          "Diepte",
+          "Locatie",
+          "Zichtbaarheid",
+          "Of het de omtrek onderbreekt",
+          "Of het de gordel te dun maakt",
+          "Of het de instelling beïnvloedt",
+          "Laboratoriumbeoordeling",
+          "Prijs"
+        ]
+      },
+      {
+        "id": "is-an-indented-natural-worse",
+        "title": "Is een ingesprongen natuurlijk erger?",
+        "paragraphsBefore": [
+          "Een ingesprongen naturel strekt zich uit onder het beoogde gepolijste oppervlak.",
+          "Het verdient over het algemeen meer aandacht dan een ondiep natuurgebied, omdat het van invloed kan zijn op:"
+        ],
+        "bullets": [
+          "Overzicht",
+          "Gewicht",
+          "Helderheid",
+          "Instelling",
+          "Duurzaamheid",
+          "Schoonmaak"
+        ],
+        "paragraphsAfter": [
+          "Het is niet automatisch onaanvaardbaar."
+        ]
+      },
+      {
+        "id": "what-is-a-bearded-girdle",
+        "title": "Wat is een baardgordel?",
+        "paragraphsBefore": [
+          "Een baardgordel bevat zeer kleine veerachtige kenmerken die zich uitstrekken van het gordeloppervlak tot in de diamant.",
+          "Baardvorming kan het gevolg zijn van agressief bruten of andere snijstress.",
+          "De betekenis ervan hangt af van:"
+        ],
+        "bullets": [
+          "Dikte",
+          "Diepte",
+          "Zichtbaarheid",
+          "Verdeling",
+          "Effect op de duidelijkheid",
+          "Of het nu een grijze of vage rand vormt",
+          "Nabijheid van andere insluitsels"
+        ]
+      },
+      {
+        "id": "can-girdle-damage-occur-after-grading",
+        "title": "Kan er schade aan de gordel optreden na het beoordelen?",
+        "paragraphsBefore": [
+          "Ja.",
+          "Mogelijke oorzaken zijn onder meer:"
+        ],
+        "bullets": [
+          "Instelling",
+          "Op maat maken of sieraden repareren",
+          "Ernstige impact",
+          "Een losse steen die beweegt in zijn omgeving",
+          "Contact met een andere diamant",
+          "Het laten vallen van de losse diamant",
+          "Onjuiste opslag",
+          "Herhaalde slijtage",
+          "Onzorgvuldige reiniging of behandeling"
+        ],
+        "paragraphsAfter": [
+          "Als de huidige toestand afwijkt van het rapport, kan een professioneel heronderzoek noodzakelijk zijn."
+        ]
+      }
+    ]
+  },
+  "inscriptions": {
+    "id": "laser-inscriptions-on-the-girdle",
+    "title": "Laserinscripties op de diamanten gordel",
+    "introParagraphs": [
+      "Een laboratoriumrapportnummer, merkteken, symbool of bericht kan met een laser op de gordel worden gegraveerd."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-the-purpose-of-a-girdle-inscription",
+        "title": "Wat is het doel van een gordelinscriptie?",
+        "paragraphsBefore": [
+          "Het kan helpen:"
+        ],
+        "bullets": [
+          "Match een diamant met het beoordelingsrapport",
+          "Identificeer het rapportnummer van het uitgevende laboratorium",
+          "Onderscheid een diamant van soortgelijke stenen",
+          "Ondersteuning voorraadbeheer",
+          "Assisteren bij toekomstige verificatie",
+          "Neem een ​​merk of persoonlijke boodschap op"
+        ],
+        "paragraphsAfter": [
+          "GIA legt uit dat een inscriptie met rapportnummer vergroot kan worden bekeken en kan worden gecontroleerd via het rapportverificatiesysteem."
+        ]
+      },
+      {
+        "id": "does-every-diamond-have-an-inscription",
+        "title": "Heeft elke diamant een inscriptie?",
+        "paragraphsBefore": [
+          "Nee.",
+          "Een natuurlijke diamant kan zijn:"
+        ],
+        "bullets": [
+          "Met vermelding van het rapportnummer",
+          "Met merkteken erop",
+          "Met meerdere merktekens ingeschreven",
+          "Niet ingeschreven",
+          "Ingeschreven in een gebied dat verborgen is door de instelling",
+          "Na inscriptie opnieuw gepolijst",
+          "Te klein of zo geplaatst dat inspectie moeilijk wordt"
+        ]
+      },
+      {
+        "id": "does-an-inscription-prove-the-diamond-matches-the-report",
+        "title": "Bewijst een inscriptie dat de diamant overeenkomt met het rapport?",
+        "paragraphsBefore": [
+          "Niet op zichzelf.",
+          "Bij een volledige wedstrijd moet rekening worden gehouden met:"
+        ],
+        "bullets": [
+          "Rapportnummer",
+          "Inscriptiestijl",
+          "Afmetingen",
+          "Karaat gewicht",
+          "Vorm",
+          "Duidelijkheid plot",
+          "Insluitsels",
+          "Pools",
+          "Symmetrie",
+          "Fluorescentie",
+          "Professionele inspectie"
+        ],
+        "paragraphsAfter": [
+          "Een inschrijving moet worden beschouwd als één identificerend kenmerk, en niet als het gehele verificatieproces."
+        ]
+      },
+      {
+        "id": "can-an-inscription-be-removed",
+        "title": "Kan een inscriptie worden verwijderd?",
+        "paragraphsBefore": [
+          "Het kan worden verkleind of verwijderd door de gordel opnieuw te polijsten.",
+          "Als een verwachte inscriptie ontbreekt, zijn mogelijke verklaringen:"
+        ],
+        "bullets": [
+          "Het geïnspecteerde gebied is onjuist",
+          "De inscriptie is verborgen door een tand",
+          "De inscriptie is vuil",
+          "De vergroting of verlichting is onvoldoende",
+          "De gordel is opnieuw gepolijst",
+          "De inscriptie is nooit toegepast",
+          "De diamant komt niet overeen met het rapport"
+        ],
+        "paragraphsAfter": [
+          "Onderzoek het voordat je tot een conclusie komt."
+        ]
+      },
+      {
+        "id": "can-an-inscription-affect-clarity",
+        "title": "Kan een inscriptie de duidelijkheid beïnvloeden?",
+        "paragraphsBefore": [
+          "Een correct aangebrachte rapportinscriptie is normaal gesproken microscopisch klein en wordt ter identificatie op de gordel geplaatst. Lees het laboratoriumrapport en zorg voor professionele inspectie als de inscriptie ongewoon diep lijkt, veranderd is of verband houdt met oppervlakteschade."
+        ]
+      }
+    ]
+  },
+  "shapes": {
+    "id": "girdles-in-different-diamond-shapes",
+    "title": "Gordels in verschillende diamantvormen",
+    "introParagraphs": [
+      "Dezelfde diktebeschrijving kan verschillende implicaties hebben, afhankelijk van de diamantvorm."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Ronde briljante diamanten",
+        "paragraphsBefore": [
+          "Ronde diamanten verdelen hun omtrek zonder scherpe hoeken.",
+          "Voor veel moderne ronde briljanten omvatten praktische assortimenten:"
+        ],
+        "bullets": [
+          "Dun tot medium",
+          "Medium",
+          "Medium tot licht dik",
+          "Dun tot licht dik"
+        ],
+        "paragraphsAfter": [
+          "Beoordeel de gordel naast:",
+          "Snijd kwaliteit",
+          "Diameter",
+          "Totale diepte",
+          "Schilderen of graven",
+          "Symmetrie",
+          "Prestaties met het gezicht naar boven"
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Ovale diamanten",
+        "paragraphsBefore": [
+          "De gordel van een ovaal kan variëren rond de schouders en uiteinden.",
+          "Inspecteren:"
+        ],
+        "bullets": [
+          "Zeer dunne gebieden nabij de uiteinden",
+          "Overmatige dikte bij de schouders",
+          "Overzichtssymmetrie",
+          "Sterkte van de vlinderdas",
+          "Afmetingen naar boven gericht",
+          "Beveiliging instellen"
+        ],
+        "paragraphsAfter": [
+          "GIA merkt op dat een te dikke ovale gordel het gewicht kan vasthouden, terwijl een extreem dun gebied de kwetsbaarheid kan vergroten."
+        ]
+      },
+      {
+        "id": "pear-shaped-diamonds",
+        "title": "Peervormige diamanten",
+        "paragraphsBefore": [
+          "Peerdiamanten hebben één afgerond uiteinde en één kwetsbaar punt.",
+          "Rekening:"
+        ],
+        "bullets": [
+          "Gordeldikte op de punt",
+          "Schoudersymmetrie",
+          "Vleugelvorm",
+          "Dikte aan het afgeronde uiteinde",
+          "Puntbescherming",
+          "Vlinderdas",
+          "Bestaande schade"
+        ],
+        "paragraphsAfter": [
+          "Voor de punt kan een V-vormige tand of een andere passend ontworpen beschermende instelling worden overwogen."
+        ]
+      },
+      {
+        "id": "marquise-diamonds",
+        "title": "Markiezin diamanten",
+        "paragraphsBefore": [
+          "Marquise-diamanten bevatten twee kwetsbare punten.",
+          "Inspecteren:"
+        ],
+        "bullets": [
+          "Beide punten",
+          "Dikte langs de vleugels",
+          "Buik dikte",
+          "Uitlijning van de punten",
+          "Vlinderdas",
+          "Symmetrie",
+          "Beveiliging instellen"
+        ],
+        "paragraphsAfter": [
+          "Een gordel die op beide punten erg dun is, vereist bijzondere aandacht."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Prinses geslepen diamanten",
+        "paragraphsBefore": [
+          "Prinsesdiamanten hebben scherpe hoeken die kwetsbaar kunnen zijn voor chippen.",
+          "Rekening:"
+        ],
+        "bullets": [
+          "Alle vier de hoeken",
+          "Hoekdikte",
+          "Natuur in de buurt van hoeken",
+          "Veren die de hoeken bereiken",
+          "Ongelijke kanten",
+          "Ontwerp instellen",
+          "Of de hoeken volledig beschermd zijn"
+        ],
+        "paragraphsAfter": [
+          "Beoordeel een prinses niet uitsluitend op basis van het gemiddelde gordelpercentage."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Kussen diamanten",
+        "paragraphsBefore": [
+          "Kussens kunnen het volgende hebben:"
+        ],
+        "bullets": [
+          "Afgeronde hoeken",
+          "Vierkantere hoeken",
+          "Brede schouders",
+          "Omtrekken in antieke stijl",
+          "Moderne briljante of gewijzigde facetpatronen"
+        ],
+        "paragraphsAfter": [
+          "Beoordeel de relatie tussen de dikte van de gordel, de omtrek, de facetten en de spreiding naar boven."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Smaragd- en Asscher-snitten",
+        "paragraphsBefore": [
+          "Step-cuts hebben brede facetten en verschillende paviljoenstructuren van Round Brilliants.",
+          "Inspecteren:"
+        ],
+        "bullets": [
+          "Hoekdikte",
+          "Consistentie van afgeknotte hoeken",
+          "Stap uitlijning",
+          "Ramen",
+          "Uitsterven",
+          "Totale diepte",
+          "Afmetingen naar boven gericht",
+          "Conditie van de gordel"
+        ],
+        "paragraphsAfter": [
+          "Breng een ronde briljantslijpliniaal niet mechanisch aan op een getrapte snede."
+        ]
+      },
+      {
+        "id": "heart-shaped-diamonds",
+        "title": "Hartvormige diamanten",
+        "paragraphsBefore": [
+          "Onderzoeken:"
+        ],
+        "bullets": [
+          "Gespleten toestand",
+          "Twee lobben",
+          "Puntdikte",
+          "Algemene symmetrie",
+          "Vleugelbalans",
+          "Beveiliging instellen"
+        ],
+        "paragraphsAfter": [
+          "Voor de spleet en het punt kunnen verschillende instellingsoverwegingen nodig zijn."
+        ]
+      },
+      {
+        "id": "antique-diamonds",
+        "title": "Antieke diamanten",
+        "paragraphsBefore": [
+          "Oude mijn en oude Europese diamanten kunnen het volgende hebben:"
+        ],
+        "bullets": [
+          "Brute gordels",
+          "Grotere diktevariatie",
+          "Onregelmatige contouren",
+          "Natuurproducten",
+          "Later facetten of opnieuw polijsten",
+          "Historische slijtage",
+          "Kleine chips of slijtage"
+        ],
+        "paragraphsAfter": [
+          "Deze kenmerken moeten worden beoordeeld in de context van leeftijd, originaliteit, staat en waarde.",
+          "Polijst een antieke gordel niet automatisch opnieuw. Wijziging kan:",
+          "Verminder het karaatgewicht",
+          "Verander de omtrek",
+          "Historisch karakter verwijderen",
+          "Documentatie beïnvloeden",
+          "Wijzig de compatibiliteit met de oorspronkelijke instelling",
+          "Verander de marktwaarde"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "id": "girdle-thickness-and-jewellery-settings",
+    "title": "Gordeldikte en sieradeninstellingen",
+    "introParagraphs": [
+      "De gordel is normaal gesproken het contactpunt tussen de diamant en zijn zetting."
+    ],
+    "subsections": [
+      {
+        "id": "prong-settings",
+        "title": "Prong-instellingen",
+        "paragraphsBefore": [
+          "Tanden grijpen geselecteerde gebieden rond de gordel vast.",
+          "Overwegen:"
+        ],
+        "bullets": [
+          "Of een tand op een extreem dun gebied zit",
+          "Of de insteldruk geconcentreerd is in de buurt van een veer",
+          "Of hoeken en punten beschermd zijn",
+          "Of de steen beweegt",
+          "Of de tanden versleten of beschadigd zijn"
+        ]
+      },
+      {
+        "id": "bezel-settings",
+        "title": "Randinstellingen",
+        "paragraphsBefore": [
+          "Een ring omringt een groot deel of de gehele gordel.",
+          "Potentiële voordelen zijn onder meer:"
+        ],
+        "bullets": [
+          "Grotere randdekking",
+          "Bescherming voor kwetsbare gebieden",
+          "Veilige uitstraling"
+        ],
+        "paragraphsAfter": [
+          "Het instellen van de bezel vereist echter nog steeds vakkundig werk. Druk tijdens de productie kan een kwetsbare gordel beschadigen en het metaal kan bestaande kenmerken verbergen."
+        ]
+      },
+      {
+        "id": "halo-settings",
+        "title": "Halo-instellingen",
+        "paragraphsBefore": [
+          "Een halo kan de directe toegang tot de gordel van de middelste diamant verminderen.",
+          "Rekening:"
+        ],
+        "bullets": [
+          "Ruimte tussen midden en omliggende stenen",
+          "Verborgen chips",
+          "Druk instellen",
+          "Of een andere diamant contact maakt met de middelste steen",
+          "Toegang tot schoonmaken",
+          "Toekomstige inspectietoegang"
+        ]
+      },
+      {
+        "id": "tension-and-semi-tension-settings",
+        "title": "Spannings- en semi-spanningsinstellingen",
+        "paragraphsBefore": [
+          "Deze ontwerpen kunnen geconcentreerde druk uitoefenen op beperkte contactpunten.",
+          "Geschiktheid moet worden bepaald door een juwelier die bekend is met:"
+        ],
+        "bullets": [
+          "De exacte diamant",
+          "Dikte van de gordel",
+          "Duidelijkheidskenmerken",
+          "Vorm",
+          "Techniek instellen",
+          "Vereisten van de fabrikant"
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-require-a-bezel",
+        "title": "Heeft een dunne gordel een ring nodig?",
+        "paragraphsBefore": [
+          "Niet automatisch.",
+          "De juiste instelling is afhankelijk van de locatie en omvang van het dunne gebied en de volledige diamant. Win advies in op basis van de daadwerkelijke steen."
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-cause-setting-problems",
+        "title": "Kan een dikke gordel instellingsproblemen veroorzaken?",
+        "paragraphsBefore": [
+          "Het kan.",
+          "Mogelijke problemen zijn onder meer:"
+        ],
+        "bullets": [
+          "Diamant zit te hoog",
+          "Standaardinstelling past niet",
+          "Tanden die aanpassing vereisen",
+          "Ongelijke zitplaatsen",
+          "Zichtbare randdikte",
+          "Moeilijkheden om de steen uit te lijnen"
+        ],
+        "paragraphsAfter": [
+          "Een aangepaste of correct aangepaste instelling kan deze problemen oplossen."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "girdle-thickness-face-up-size-and-price",
+    "title": "Gordeldikte, face-up maat en diamantprijs",
+    "introParagraphs": [
+      "De dikte van de gordel kan de waarde beïnvloeden, maar er is geen vaste aanpassingsformule."
+    ],
+    "subsections": [
+      {
+        "id": "weight-ratio-and-face-up-size",
+        "title": "Gewichtsverhouding en face-up-grootte",
+        "paragraphsBefore": [
+          "Karaat meet het gewicht, de niet zichtbare diameter.",
+          "Een diamant met een zeer dikke gordel kan meer wegen dan een andere diamant met vergelijkbare afmetingen naar boven, omdat er meer materiaal rond de rand wordt vastgehouden.",
+          "Vergelijken:"
+        ],
+        "bullets": [
+          "Karaat gewicht",
+          "Diameter",
+          "Lengte",
+          "Breedte",
+          "Totale diepte",
+          "Gordel bereik",
+          "Gemiddeld gordelpercentage",
+          "Vorm",
+          "Algehele snit"
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-help-a-diamond-reach-one-carat",
+        "title": "Kan een dikke gordel een diamant helpen één karaat te bereiken?",
+        "paragraphsBefore": [
+          "Het kan bijdragen aan het vasthouden van gewicht in de buurt van commerciële drempels, zoals:"
+        ],
+        "bullets": [
+          "0,50 karaat",
+          "1,00 karaat",
+          "1,50 karaat",
+          "2,00 karaat"
+        ],
+        "paragraphsAfter": [
+          "De gordel is echter slechts één mogelijke bron van vastgehouden gewicht.",
+          "Een diamant van één karaat met inefficiënte proporties kan kleiner zijn dan een lichtere, beter gespreide diamant."
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-make-a-diamond-look-larger",
+        "title": "Zorgt een dunne gordel ervoor dat een diamant groter lijkt?",
+        "paragraphsBefore": [
+          "Niet noodzakelijkerwijs.",
+          "Een dunnere gordel kan het verborgen gewicht verminderen, maar de zichtbare grootte hangt ook af van:"
+        ],
+        "bullets": [
+          "Kroon",
+          "Paviljoen",
+          "Totale diepte",
+          "Overzicht",
+          "Lengte-breedteverhouding",
+          "Uitstulping",
+          "Facet-opstelling"
+        ]
+      },
+      {
+        "id": "how-can-girdle-thickness-affect-price",
+        "title": "Hoe kan de dikte van de gordel de prijs beïnvloeden?",
+        "paragraphsBefore": [
+          "Mogelijke prijseffecten zijn onder meer:"
+        ],
+        "bullets": [
+          "Verminderde vraag naar een extreem dunne gordel",
+          "Lagere snijkwaliteit",
+          "Chippen of verzekeringsproblemen",
+          "Verborgen gewicht van een zeer dikke gordel",
+          "Kleinere afmetingen naar boven",
+          "Kosten instellen",
+          "Overwegingen bij reparatie of hersnijden",
+          "Antieke wenselijkheid",
+          "Bestaande schade"
+        ]
+      },
+      {
+        "id": "no-fixed-girdle-discount",
+        "title": "Geen vaste gordelkorting",
+        "paragraphsBefore": [
+          "Vermijd claims zoals:"
+        ],
+        "bullets": [
+          "Voor elke Very Thin-gordel geldt een korting van 10%.",
+          "Elke Medium gordel verdient een premie.",
+          "Elke zeer dikke gordel is te duur.",
+          "Elke gefacetteerde gordel is waardevoller.",
+          "Hersnijden verhoogt altijd de waarde."
+        ],
+        "paragraphsAfter": [
+          "Prijs vereist vergelijking met werkelijk vergelijkbare diamanten in de huidige markt."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-girdles",
+    "title": "Natuurlijke versus in het laboratorium gekweekte diamanten gordels",
+    "introParagraphs": [
+      "Gordeldikte en afwerking zijn snijbeslissingen.",
+      "Zowel natuurlijke als in laboratorium gekweekte diamanten kunnen het volgende hebben:"
+    ],
+    "bullets": [
+      "Dunne gordels",
+      "Middelgrote gordels",
+      "Dikke gordels",
+      "Gefacetteerde gordels",
+      "Gepolijste gordels",
+      "Brute gordels",
+      "Laserinscripties",
+      "Chips",
+      "Natuurlijke of oppervlaktegerelateerde kenmerken",
+      "Extra facetten",
+      "Schilderen of graven",
+      "Ongelijke dikte"
+    ],
+    "closingParagraphs": [
+      "Daarom kan het uiterlijk van de gordel niet het volgende vaststellen:",
+      "Natuurlijke oorsprong",
+      "Laboratorium groei",
+      "Groeimethode",
+      "Behandeling",
+      "Mijn oorsprong",
+      "Land van herkomst",
+      "Leeftijd",
+      "Authenticiteit van een rapport",
+      "GIA schrijft momenteel in laboratorium gekweekte diamanten ingediend onder de toepasselijke diensten in met “Laboratory-Grown” en het beoordelingsnummer. De aan- of afwezigheid van een inscriptie moet echter nog steeds worden geverifieerd aan de hand van de volledige documentatie en de fysieke diamant.",
+      "Voor de aankoop van natuurlijke diamant kunt u vertrouwen op geloofwaardige documentatie waarin de diamant expliciet als natuurlijk wordt geïdentificeerd."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-diamond-girdle",
+    "title": "Hoe een diamanten gordel te inspecteren",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Stap 1: Lees het volledige beoordelingsrapport",
+        "paragraphsBefore": [
+          "Bevestigen:"
+        ],
+        "bullets": [
+          "Uitgifte laboratorium",
+          "Rapportnummer",
+          "Identificatie van natuurlijke diamanten",
+          "Vorm en snijstijl",
+          "Afmetingen",
+          "Beschrijving van de gordel",
+          "Gordelpercentage",
+          "Gordel afwerking",
+          "Snit of proporties rang",
+          "Symmetrie",
+          "Pools",
+          "Duidelijkheidsgraad",
+          "Duidelijkheid plot",
+          "Opmerkingen",
+          "Inscriptiedetails"
+        ]
+      },
+      {
+        "id": "step-2-match-the-report-to-the-diamond",
+        "title": "Stap 2: Match het rapport met de diamant",
+        "paragraphsBefore": [
+          "Rekening:"
+        ],
+        "bullets": [
+          "Laserinscriptie",
+          "Afmetingen",
+          "Karaat gewicht",
+          "Vorm",
+          "Duidelijkheidskenmerken",
+          "Fluorescentie",
+          "Rapportnummer",
+          "Professionele matchingresultaten"
+        ],
+        "paragraphsAfter": [
+          "Vertrouw niet alleen op de beschrijving van de gordel."
+        ]
+      },
+      {
+        "id": "step-3-identify-the-minimum-and-maximum-thickness",
+        "title": "Stap 3: Identificeer de minimale en maximale dikte",
+        "paragraphsBefore": [
+          "Lees het bereik in de juiste volgorde.",
+          "Bijvoorbeeld:"
+        ],
+        "bullets": [
+          "Zeer dun tot medium",
+          "Dun tot licht dik",
+          "Gemiddeld tot zeer dik"
+        ],
+        "paragraphsAfter": [
+          "Bepaal of een van beide uitersten nader onderzoek verdient."
+        ]
+      },
+      {
+        "id": "step-4-identify-the-girdle-finish",
+        "title": "Stap 4: Identificeer de afwerking van de gordel",
+        "paragraphsBefore": [
+          "Bepaal of het:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished",
+          "Bruted",
+          "Deels gefacetteerd",
+          "Gewijzigd of gerepareerd"
+        ],
+        "paragraphsAfter": [
+          "Verwar afwerking niet met dikte."
+        ]
+      },
+      {
+        "id": "step-5-inspect-the-entire-circumference",
+        "title": "Stap 5: Inspecteer de gehele omtrek",
+        "paragraphsBefore": [
+          "Draai de losse diamant veilig rond en inspecteer:"
+        ],
+        "bullets": [
+          "Minimale gebieden",
+          "Maximale gebieden",
+          "Hoeken",
+          "Punten",
+          "Schouders",
+          "Vleugels",
+          "Platte zijkanten",
+          "Gebieden in de buurt van insluitsels",
+          "Gebieden onder inscripties"
+        ],
+        "paragraphsAfter": [
+          "Eén zichtbaar gedeelte vertegenwoordigt niet de volledige gordel."
+        ]
+      },
+      {
+        "id": "step-6-examine-under-10x-magnification",
+        "title": "Stap 6: Onderzoek onder een vergroting van 10×",
+        "paragraphsBefore": [
+          "Zoek naar:"
+        ],
+        "bullets": [
+          "Chips",
+          "Slijtage",
+          "Baard",
+          "Gaatjes",
+          "Natuurproducten",
+          "Ingesprongen natuurtalenten",
+          "Veren",
+          "Blauwe plekken",
+          "Extra facetten",
+          "Polijstsporen",
+          "Inscriptie",
+          "Schade instellen"
+        ]
+      },
+      {
+        "id": "step-7-compare-the-clarity-plot",
+        "title": "Stap 7: Vergelijk de Clarity Plot",
+        "paragraphsBefore": [
+          "Bepaal of de geplotte kenmerken de gordel bereiken of benaderen.",
+          "Besteed bijzondere aandacht aan:"
+        ],
+        "bullets": [
+          "Veren",
+          "Gaatjes",
+          "Chips",
+          "Ingesprongen natuurtalenten",
+          "Natuurproducten",
+          "Kristallen die oppervlakteopeningen creëren"
+        ]
+      },
+      {
+        "id": "step-8-inspect-corners-and-points",
+        "title": "Stap 8: Inspecteer hoeken en punten",
+        "paragraphsBefore": [
+          "Dit is vooral belangrijk voor:"
+        ],
+        "bullets": [
+          "Prinses",
+          "Peer",
+          "Markiezin",
+          "Hart",
+          "Smaragd",
+          "Asscher",
+          "Stralend",
+          "Andere hoekige vormen"
+        ],
+        "paragraphsAfter": [
+          "Controleer of kwetsbare gebieden door de beoogde instelling worden beschermd."
+        ]
+      },
+      {
+        "id": "step-9-compare-face-up-measurements",
+        "title": "Stap 9: Vergelijk metingen met de voorkant naar boven",
+        "paragraphsBefore": [
+          "Vergelijk de millimeterafmetingen van de diamant met echt vergelijkbare stenen.",
+          "Zoek naar:"
+        ],
+        "bullets": [
+          "Verminderde verspreiding",
+          "Overmatige totale diepte",
+          "Zeer dik gewichtsbehoud",
+          "Uitpuilend",
+          "Ongebruikelijke schets",
+          "Ongelijke schouders"
+        ]
+      },
+      {
+        "id": "step-10-inspect-the-setting",
+        "title": "Stap 10: Inspecteer de instelling",
+        "paragraphsBefore": [
+          "Voor een gemonteerde diamant, controleer:"
+        ],
+        "bullets": [
+          "Prong positie",
+          "Metalen contact",
+          "Diamant beweging",
+          "Afgebroken gebieden",
+          "Puntbescherming",
+          "Hiaten",
+          "Slijtage veroorzaakt door aangrenzende stenen",
+          "Of de inscriptie toegankelijk blijft"
+        ],
+        "paragraphsAfter": [
+          "Verwijder een diamant niet uit zijn zetting zonder de juiste professionele uitrusting en ervaring."
+        ]
+      },
+      {
+        "id": "step-11-compare-with-similar-diamonds",
+        "title": "Stap 11: Vergelijk met soortgelijke diamanten",
+        "paragraphsBefore": [
+          "Houd het volgende zo consistent mogelijk:"
+        ],
+        "bullets": [
+          "Vorm",
+          "Karaat",
+          "Kleur",
+          "Helderheid",
+          "Laboratorium",
+          "Snijd kwaliteit",
+          "Afmetingen",
+          "Gordel",
+          "Voorwaarde",
+          "Antieke of moderne stijl"
+        ],
+        "paragraphsAfter": [
+          "Vergelijk dan:",
+          "Grootte naar boven gericht",
+          "Helderheid",
+          "Vuur",
+          "Schittering",
+          "Symmetrie",
+          "Duurzaamheid",
+          "Geschiktheid instellen",
+          "Prijs"
+        ]
+      },
+      {
+        "id": "step-12-arrange-professional-examination",
+        "title": "Stap 12: Regel een professioneel onderzoek",
+        "paragraphsBefore": [
+          "Professionele inspectie is vooral belangrijk wanneer:"
+        ],
+        "bullets": [
+          "De gordel is extreem dun",
+          "Zeer dunne gebieden komen voor op punten of hoeken",
+          "Het bereik strekt zich uit van heel dun tot heel dik",
+          "Er wordt vermoed dat er sprake is van een chip of gaatje",
+          "Een veer bereikt de gordel",
+          "De diamant is antiek",
+          "Het rapport is oud",
+          "De diamant is van hoge waarde",
+          "De steen is al gemonteerd",
+          "De inscriptie ontbreekt of is inconsistent",
+          "Er wordt overwogen om opnieuw te snijden",
+          "De diamant wordt op afstand aangekocht"
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Gebruik de"
+        },
+        {
+          "type": "link",
+          "text": "Gids voor diamantbeoordelingsrapporten",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": "voor het volledige verificatieproces."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Vergelijking van bewerkte diamanten gordels",
+    "introParagraphs": [
+      "Beschouw vier hypothetische natuurlijke diamanten."
+    ],
+    "table": {
+      "caption": "Vergelijking van bewerkte diamanten gordels",
+      "headers": [
+        "Kenmerkend",
+        "Diamant A",
+        "Diamant B",
+        "Diamant C",
+        "Diamant D"
+      ],
+      "rows": [
+        [
+          "Vorm",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Peer"
+        ],
+        [
+          "Karaat",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Kleur",
+          "G",
+          "G",
+          "G",
+          "G"
+        ],
+        [
+          "Helderheid",
+          "VS2",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Gordel",
+          "Middelmatig, gefacetteerd",
+          "Zeer dun tot medium, gefacetteerd",
+          "Dik tot zeer dik, gefacetteerd",
+          "Dun tot zeer dik, gefacetteerd"
+        ],
+        [
+          "Belangrijkste zorg",
+          "Volledige snijprestaties",
+          "Locatie en omvang van het zeer dunne gebied",
+          "Verborgen gewicht en face-up formaat",
+          "Puntbescherming en dikteverdeling"
+        ],
+        [
+          "Kopersbenadering",
+          "Gebruik als evenwichtige referentie",
+          "Inspecteer de duurzaamheid en geschiktheid voor uitharding",
+          "Vergelijk diameter en totale diepte",
+          "Inspecteer punt, schouders, omtrek en setting"
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Diamanten A en B vergelijken",
+        "paragraphsBefore": [
+          "Diamant B mag niet alleen worden afgewezen omdat het minimum ervan zeer dun is.",
+          "De koper moet bepalen:"
+        ],
+        "bullets": [
+          "Waar het Very Thin-gebied voorkomt",
+          "Hoeveel van de gordel is aangetast",
+          "Of er nu een veertje of chipje in de buurt is",
+          "Of de instelling deze zal beschermen",
+          "Of de snit en het gezicht naar boven superieur zijn",
+          "Of de prijs enig extra risico weerspiegelt"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Diamanten A en C vergelijken",
+        "paragraphsBefore": [
+          "Diamant C kan meer gewicht in de gordel bevatten.",
+          "Vergelijken:"
+        ],
+        "bullets": [
+          "Diameter naar boven gericht",
+          "Totale diepte",
+          "Helderheid",
+          "Snijd kwaliteit",
+          "Profiel instellen",
+          "Prijs"
+        ],
+        "paragraphsAfter": [
+          "Als Diamond C merkbaar kleiner is zonder nog een betekenisvol voordeel te bieden, kan Diamond A een betere gewichtsefficiëntie bieden."
+        ]
+      },
+      {
+        "title": "Diamanten A en D vergelijken",
+        "paragraphsBefore": [
+          "De gordelbeschrijvingen zijn mechanisch niet met elkaar te vergelijken, omdat de vormen verschillen.",
+          "Het Very Thick-maximum van Diamond D kan voorkomen nabij het afgeronde uiteinde, de punt of de schouders. Het dunne minimum kan elders voorkomen.",
+          "De koper moet onderzoeken:"
+        ],
+        "bullets": [
+          "Puntdikte",
+          "Vleugelbalans",
+          "Schoudersymmetrie",
+          "Vlinderdas",
+          "Lengte-breedteverhouding",
+          "Beveiliging instellen"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Wat deze vergelijking aantoont",
+        "paragraphsBefore": [
+          "Het gordellabel moet binnen de volledige diamant worden geïnterpreteerd.",
+          "De juiste aankoopbeslissing hangt af van:"
+        ],
+        "bullets": [
+          "Vorm",
+          "Locatie van dikte-extremen",
+          "Grootte naar boven gericht",
+          "Duurzaamheid",
+          "Snee",
+          "Symmetrie",
+          "Voorwaarde",
+          "Instelling",
+          "Documentatie",
+          "Prijs"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-girdle-myths",
+    "title": "Gemeenschappelijke mythen over de diamantgordel",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Veel voorkomende mythen over diamanten gordels",
+      "headers": [
+        "Mythe",
+        "Nauwkeurige interpretatie"
+      ],
+      "rows": [
+        [
+          "Medium is de enige goede gordelklasse",
+          "Dun en licht dik kunnen ook geschikt zijn"
+        ],
+        [
+          "Elke zeer dunne gordel zal afbrokkelen",
+          "Het risico is afhankelijk van locatie, omvang, vorm, insluitsels, zetting en slijtage"
+        ],
+        [
+          "Dun betekent dat de diamant al beschadigd is",
+          "Dikte en schade zijn afzonderlijke kenmerken"
+        ],
+        [
+          "Een dikke gordel maakt een diamant sterker dan elke andere diamant",
+          "Dikte is slechts één duurzaamheidsfactor"
+        ],
+        [
+          "Een dikke gordel verpest altijd de schittering",
+          "Het heeft vooral invloed op de gewichtsverdeling en -grootte; volledige proporties bepalen de prestaties"
+        ],
+        [
+          "Een zeer dikke gordel betekent altijd een slechte snit",
+          "Het verdient vergelijking, maar bepaalt niet het volledige cijfer"
+        ],
+        [
+          "Het gemiddelde percentage toont het dunste deel",
+          "Gemiddeld percentage en minimale verbale beschrijving zijn verschillende beoordelingen"
+        ],
+        [
+          "Dun tot dik betekent dat het gemiddelde gemiddeld is",
+          "Verbale categorieën mogen niet worden gemiddeld"
+        ],
+        [
+          "Een groot bereik betekent altijd schade",
+          "Dit kan het gevolg zijn van het snijontwerp, de vorm of normale variatie"
+        ],
+        [
+          "Gefacetteerd is altijd beter dan gepolijst",
+          "Beide kunnen legitieme afwerkingen zijn"
+        ],
+        [
+          "Brute gordels zijn nep of onafgewerkt",
+          "Brutale gordels worden erkend en kunnen historisch gezien passend zijn"
+        ],
+        [
+          "Gordelfacetten maken deel uit van het standaardaantal van 57 facetten",
+          "Gordelfacetten worden normaal gesproken afzonderlijk van het aantal hoofdfacetten behandeld"
+        ],
+        [
+          "Een laserinscriptie garandeert authenticiteit",
+          "Het is één identificatiekenmerk en moet overeenkomen met de volledige diamant"
+        ],
+        [
+          "Een ontbrekende inscriptie bewijst dat de diamant anders is",
+          "De inscriptie kan verborgen, afwezig, vuil of verwijderd zijn door opnieuw polijsten"
+        ],
+        [
+          "Een natural op de gordel bewijst natuurlijke oorsprong",
+          "Oorsprong vereist geloofwaardige laboratoriumidentificatie"
+        ],
+        [
+          "De dikte van de gordel bewijst of een diamant natuurlijk is of in een laboratorium is gekweekt",
+          "Beide kunnen vergelijkbare gordelconfiguraties hebben"
+        ],
+        [
+          "Elke antieke gordel moet gefacetteerd zijn",
+          "Latere facetten kunnen het originele karakter verwijderen"
+        ],
+        [
+          "Elke afgebroken gordel moet opnieuw worden gesneden",
+          "Hersnijden vereist een professionele beoordeling van gewichtsverlies, waarde en risico"
+        ],
+        [
+          "GIA en HRD gebruiken identieke gordelcategorieën",
+          "Hun terminologie en beoordelingsstructuren verschillen"
+        ],
+        [
+          "Een beoordelingsrapport garandeert de huidige toestand van de gordel",
+          "Na het nivelleren kan er schade optreden"
+        ],
+        [
+          "Een dikkere gordel betekent altijd een hogere karaatwaarde",
+          "Het behouden gewicht verbetert mogelijk de zichtbare grootte of de wenselijkheid op de markt niet"
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Controlelijst voor natuurlijke diamanten gordel",
+    "introLead": "Bevestig vóór aankoop:",
+    "items": [
+      "De diamant wordt expliciet als natuurlijk aangemerkt.",
+      "Er is een geloofwaardig beoordelingsrapport verstrekt.",
+      "Het rapportnummer is geverifieerd.",
+      "Het rapport is gekoppeld aan de fysieke diamant.",
+      "Het laboratorium van afgifte is geïdentificeerd.",
+      "Er is gebruik gemaakt van de eigen gordelmethodologie van het laboratorium.",
+      "De minimale gordeldikte is afgelezen.",
+      "De maximale gordeldikte is afgelezen.",
+      "Het gemiddelde gordelpercentage is, indien aangeleverd, herzien.",
+      "Het verbale bereik is niet verkeerd gemiddeld.",
+      "De afwerking van de gordel is geïdentificeerd.",
+      "De volledige omtrek is geïnspecteerd.",
+      "De gebieden met minimale dikte zijn gelokaliseerd.",
+      "De gebieden met de maximale dikte zijn gelokaliseerd.",
+      "Hoeken en punten zijn geïnspecteerd.",
+      "De gordel is gecontroleerd onder een vergroting van 10x.",
+      "Chips en slijtage zijn gecontroleerd.",
+      "Naturals en ingesprongen naturals zijn beoordeeld.",
+      "Holten en veren die tot het oppervlak reiken, zijn beoordeeld.",
+      "Baard is gecontroleerd.",
+      "Er is aan extra facetten gedacht.",
+      "Het duidelijkheidsplot en de rapportcommentaren zijn gelezen.",
+      "Waar van toepassing is de laserinscriptie gecontroleerd.",
+      "De inscriptie is niet als enige identificatiemethode gebruikt.",
+      "De millimeterafmetingen van de diamant zijn vergeleken.",
+      "De totale diepte en face-up spread zijn beoordeeld.",
+      "Er is rekening gehouden met verborgen gewicht.",
+      "De snit of verhoudingen zijn herzien.",
+      "Symmetrie en glans zijn beoordeeld.",
+      "Er is nagedacht over de beoogde setting.",
+      "Zeer dunne gebieden worden niet onnodig blootgesteld.",
+      "Punten en hoeken worden op passende wijze beschermd.",
+      "De gordel is niet gebruikt als bewijs van natuurlijke oorsprong.",
+      "Er is niet uitgegaan van een vaste gordelkorting of premie.",
+      "De diamant is vergeleken met werkelijk vergelijkbare stenen.",
+      "De huidige toestand is vergeleken met het rapport.",
+      "Waar nodig is professionele inspectie geregeld.",
+      "Betalings-, inspectie-, leverings- en retourvoorwaarden zijn duidelijk."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Vergelijkt u al natuurlijke diamanten?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "De dikte van de gordel moet worden beoordeeld naast de snede, symmetrie, staat, documentatie, afmetingen naar boven, geschiktheid voor plaatsing en prijs."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Met S2S – Secure To Source kunnen kopers die al een losse natuurlijke diamant op de shortlist hebben gezet, deze indienen bij Dalila Diamonds voor toepasselijke kwaliteitscontrolecoördinatie, betaling in euro en geplande levering naar België of een andere bevestigde bestemming in de Europese Unie."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Als u nog geen diamant heeft geselecteerd, gebruik dan"
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": "om op maat gemaakte hulp bij het inkopen van natuurlijke diamanten aan te vragen."
+        }
+      ]
+    ],
+    "primaryButtonText": "Dien een diamant op de shortlist in",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Blader door natuurlijke diamanten",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Laatste afhaalmaaltijd",
+    "introParagraphs": [
+      "De gordel is de smalle buitenrand die de kroon en het paviljoen van een diamant scheidt.",
+      "De dikte ervan beïnvloedt drie belangrijke aankoopoverwegingen:",
+      "Duurzaamheid",
+      "Gewichtsverdeling",
+      "Geschiktheid instellen",
+      "Voor veel moderne natuurlijke diamanten bieden de bereiken Thin, Medium en Slightly Thick een praktisch evenwicht. Een extreem dunne of zeer dunne gordel verdient meer aandacht omdat kwetsbare gebieden gevoeliger kunnen zijn voor chippen. Een zeer dikke of extreem dikke gordel verdient vergelijking omdat deze het karaatgewicht kan behouden zonder de face-up-grootte te verbeteren.",
+      "Het gerapporteerde bereik moet worden onderzocht en niet worden gemiddeld. Een beschrijving zoals Very Thin to Thick biedt minimum- en maximumcategorieën; het betekent niet dat de volledige gordel Medium is.",
+      "Afwerking moet ook afzonderlijk worden beschouwd. Gefacetteerd, gepolijst en bruut beschrijven hoe het oppervlak van de gordel werd voltooid, niet of de dikte geschikt is.",
+      "Het allerbelangrijkste: vraag niet alleen:",
+      "Welk gordelcijfer staat er op het rapport?",
+      "Vragen:",
+      "Waar zitten de dunste en dikste plekken, is de gordel onbeschadigd en geschikt voor de zetting en rechtvaardigt de complete diamant zijn gewicht en prijs?"
+    ],
+    "primaryButtonText": "Gebruik Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Neem contact op met Dalila Diamanten",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "title": "Veelgestelde vragen over diamanten gordels",
+    "items": [
+      {
+        "question": "Wat is de gordel van een diamant?",
+        "answer": "De gordel is de smalle buitenrand waar de kroon van de diamant het paviljoen ontmoet. Het definieert de omtrek en vormt meestal de rand die wordt gebruikt om de diamant in sieraden vast te zetten."
+      },
+      {
+        "question": "Waar bevindt de gordel zich?",
+        "answer": "Het loopt rond de volledige omtrek van de diamant tussen de kroon en het paviljoen."
+      },
+      {
+        "question": "Wat betekent gordel op een diamantrapport?",
+        "answer": "Het beschrijft de dikte en soms de afwerking van de buitenrand van de diamant."
+      },
+      {
+        "question": "Wat is de GIA-gordelschaal?",
+        "answer": "GIA gebruikt Extreem dun, Zeer dun, Dun, Medium, Enigszins dik, Dik, Zeer dik en Extreem dik."
+      },
+      {
+        "question": "Wat is de beste dikte van de diamantgordel?",
+        "answer": "Dun, gemiddeld en enigszins dik (of redelijke bereiken met deze beschrijvingen) zijn doorgaans praktisch. Het beste resultaat hangt af van de vorm, verhoudingen, staat en zetting van de diamant."
+      },
+      {
+        "question": "Is Medium de ideale gordel?",
+        "answer": "Medium is een evenwichtige omschrijving, maar is niet automatisch beter dan elke dunne of licht dikke gordel."
+      },
+      {
+        "question": "Is dun tot medium een ​​goede gordel?",
+        "answer": "Het is algemeen aanvaardbaar als de gordel onbeschadigd is en geschikt is voor de vorm en zetting van de diamant."
+      },
+      {
+        "question": "Is medium tot licht dik goed?",
+        "answer": "Het kan volkomen acceptabel zijn. Controleer de face-up maat, totale diepte, snede en prijs."
+      },
+      {
+        "question": "Is dun tot licht dik acceptabel?",
+        "answer": "Ja, op voorwaarde dat de variatie geen problemen met duurzaamheid, symmetrie, gewicht of setting veroorzaakt."
+      },
+      {
+        "question": "Is Very Thin tot Medium slecht?",
+        "answer": "Niet automatisch. Lokaliseer het zeer dunne gebied en bepaal de omvang ervan, de nabijgelegen insluitsels en de blootstelling aan de omgeving."
+      },
+      {
+        "question": "Is een zeer dunne gordel gevaarlijk?",
+        "answer": "Het kan het risico op afbrokkeling vergroten, vooral op punten, hoeken of gebieden in de buurt van oppervlaktereikende insluitsels. Het werkelijke risico is afhankelijk van de diamant."
+      },
+      {
+        "question": "Zal een zeer dunne gordel zeker kapot gaan?",
+        "answer": "Nee. Het duidt op een verhoogde kwetsbaarheid, niet op gegarandeerde schade."
+      },
+      {
+        "question": "Wat is een extreem dunne gordel?",
+        "answer": "Het is een gordel met weinig of geen materiaal op een of meer relevante gebieden. Het vereist een nauwkeurige beoordeling van duurzaamheid en uitharding."
+      },
+      {
+        "question": "Wat is een mesgordel?",
+        "answer": "Het is een gebied waar de kroon en het paviljoen elkaar ontmoeten, zonder dat er een gordel tussen zit, waardoor een zeer scherpe rand ontstaat."
+      },
+      {
+        "question": "Is een dikke diamanten gordel slecht?",
+        "answer": "Niet noodzakelijkerwijs. Een dikke gordel kan acceptabel zijn, maar kopers moeten de afmetingen naar boven en de gewichtsverdeling vergelijken."
+      },
+      {
+        "question": "Zorgt een dikke gordel ervoor dat een diamant er kleiner uitziet?",
+        "answer": "Dat kan als er een substantieel karaatgewicht rond de gordel wordt vastgehouden in plaats van bij te dragen aan de afmetingen naar boven."
+      },
+      {
+        "question": "Is heel dik tot extreem dik slecht?",
+        "answer": "Het verdient een zorgvuldige vergelijking omdat het verborgen gewicht en totale diepte kan toevoegen. Het maakt de diamant niet automatisch onaantrekkelijk."
+      },
+      {
+        "question": "Verbetert een dikke gordel de duurzaamheid?",
+        "answer": "Het kan meer randmateriaal opleveren, maar de diamant kan nog steeds beschadigd raken door schokken, insluitsels of een ongeschikte zetdruk."
+      },
+      {
+        "question": "Heeft de dikte van de gordel invloed op de schittering?",
+        "answer": "Het bepaalt niet onafhankelijk de schittering. De volledige kroon, paviljoen, facetpatroon en verhoudingen bepalen de lichtprestatie."
+      },
+      {
+        "question": "Heeft de dikte van de gordel invloed op de snijkwaliteit?",
+        "answer": "Ja. Overmatig dunne of dikke gordels kunnen de snijkwaliteit van een in aanmerking komende Round Brilliant beperken vanwege duurzaamheid of gewichtsverhoudingsoverwegingen."
+      },
+      {
+        "question": "Geeft GIA fancy-vormige diamanten een algemeen slijpcijfer?",
+        "answer": "De traditionele algemene slijpkwaliteit van GIA is van toepassing op in aanmerking komende standaard Round Brilliant-diamanten. Fancy vormen krijgen nog steeds afmetingen, glans, symmetrie en een gordelbeschrijving."
+      },
+      {
+        "question": "Wat betekent dun naar dik?",
+        "answer": "Dit betekent dat het dunste relevante gebied Dun is en het dikste gebied Dik."
+      },
+      {
+        "question": "Kan ik dun en dik als medium gemiddeld nemen?",
+        "answer": "Nee. Het bereik beschrijft twee uitersten en mag niet worden omgezet in een veronderstelde gemiddelde verbale categorie."
+      },
+      {
+        "question": "Waarom varieert de gordel van een diamant?",
+        "answer": "Variatie kan het gevolg zijn van normaal scalloperen, vormontwerp, plaatsing van facetten, schilderen, graven, behouden ruwheid, extra facetten of andere snijkenmerken."
+      },
+      {
+        "question": "Wat is een gefacetteerde gordel?",
+        "answer": "Het is een gordel die is verdeeld in een reeks kleine gepolijste oppervlakken."
+      },
+      {
+        "question": "Is een gefacetteerde gordel beter?",
+        "answer": "Niet automatisch. Het is een afwerkingsstijl en garandeert geen betere snit, duurzaamheid of waarde."
+      },
+      {
+        "question": "Wat is een gepolijste gordel?",
+        "answer": "Het is een glad gepolijste gordel zonder afzonderlijk zichtbare kleine gordelfacetten."
+      },
+      {
+        "question": "Wat is een brute gordel?",
+        "answer": "Een geborstelde gordel heeft een mat of korrelig oppervlak dat ontstaat tijdens het vormgevingsproces."
+      },
+      {
+        "question": "Is een brute gordel slecht?",
+        "answer": "Nee. Het kan acceptabel zijn en kan historisch gezien passend zijn voor een antieke diamant."
+      },
+      {
+        "question": "Wat is een baardgordel?",
+        "answer": "Een baardgordel bevat zeer kleine veerachtige kenmerken die zich uitstrekken van het gordeloppervlak tot in de diamant."
+      },
+      {
+        "question": "Heeft een baardgordel invloed op de helderheid?",
+        "answer": "Het kan, afhankelijk van de omvang, diepte en zichtbaarheid."
+      },
+      {
+        "question": "Wat is schilderen op een diamanten gordel?",
+        "answer": "Schilderen is een snijtechniek die de relatie tussen halve facetten, randfacetten, paviljoenleidingen en gordeldikte verandert."
+      },
+      {
+        "question": "Wat is uitgraven?",
+        "answer": "Uitgraven is de tegenovergestelde facethoekrelatie van schilderen en creëert een andere variatie tussen gordelovergangen."
+      },
+      {
+        "question": "Zijn schilderen en graven altijd gebreken?",
+        "answer": "Nee. Minimale voorbeelden hebben mogelijk een beperkte betekenis, terwijl sterkere voorbeelden het uiterlijk en de snijkwaliteit kunnen beïnvloeden."
+      },
+      {
+        "question": "Wat is een natural op de gordel?",
+        "answer": "Het is een deel van het oorspronkelijke ruwe oppervlak dat opzettelijk op de gepolijste diamant is achtergelaten."
+      },
+      {
+        "question": "Is een gordel natuurlijk hetzelfde als schade?",
+        "answer": "Nee. Het heeft een ruw oppervlak, hoewel de omvang, diepte en locatie nog steeds moeten worden beoordeeld."
+      },
+      {
+        "question": "Wat is een ingesprongen natural?",
+        "answer": "Het blijft een ruw oppervlak dat zich uitstrekt tot onder de beoogde gepolijste omtrek van de diamant."
+      },
+      {
+        "question": "Wat is een afgebroken gordel?",
+        "answer": "Het is per ongeluk ontbrekend materiaal langs de rand van de diamant."
+      },
+      {
+        "question": "Kan een afgebroken gordel worden gerepareerd?",
+        "answer": "Opnieuw polijsten of opnieuw snijden kan mogelijk zijn, maar het kan het karaatgewicht verminderen en de verhoudingen veranderen. Professionele beoordeling is vereist."
+      },
+      {
+        "question": "Kan een diamant worden gechipt tijdens het zetten?",
+        "answer": "Ja. Het instellen van druk kan een extreem dunne rand, een kwetsbare hoek of een gebied dat is aangetast door een insluiting beschadigen."
+      },
+      {
+        "question": "Kan een diamantgordel beschadigd raken tijdens normale slijtage?",
+        "answer": "Ja. Ernstige schokken, versleten tanden, contact met andere diamanten of beweging in de zetting kunnen de gordel beschadigen."
+      },
+      {
+        "question": "Wat is een gordelinscriptie?",
+        "answer": "Het zijn microscopisch kleine teksten, cijfers of symbolen die op de gordel zijn aangebracht, vaak inclusief een cijferrapportnummer."
+      },
+      {
+        "question": "Bewijst een laserinscriptie de authenticiteit?",
+        "answer": "Nee. Het ondersteunt identificatie, maar moet worden gecontroleerd aan de hand van het rapport, de metingen en de diamantkenmerken."
+      },
+      {
+        "question": "Kan een gordelinscriptie worden verwijderd?",
+        "answer": "Het kan worden verwijderd of verkleind als de gordel opnieuw wordt gepolijst."
+      },
+      {
+        "question": "Waarom kan ik de inscriptie niet zien?",
+        "answer": "Het kan verborgen zijn door een tand, vies, extreem klein, afwezig of verwijderd. Een goede vergroting en verlichting zijn vereist."
+      },
+      {
+        "question": "Heeft elke natuurlijke diamant van GIA een inscriptie?",
+        "answer": "Nee. De beschikbaarheid van een abonnement is afhankelijk van de rapportservice en of de service is aangevraagd of inbegrepen."
+      },
+      {
+        "question": "Kan de dikte van de gordel een natuurlijke diamant identificeren?",
+        "answer": "Nee. Natuurlijke en in een laboratorium gekweekte diamanten kunnen vergelijkbare diktes en afwerkingen hebben."
+      },
+      {
+        "question": "Kan een laserinscriptie een in een laboratorium gekweekte diamant identificeren?",
+        "answer": "Op een toepasselijke laboratoriuminscriptie kan worden vermeld dat een diamant in een laboratorium is gekweekt, maar het volledige rapport en de professionele identificatie moeten nog steeds worden geverifieerd."
+      },
+      {
+        "question": "Zijn GIA- en HRD-gordelpercentages hetzelfde?",
+        "answer": "Nee. Hun terminologie, meetstructuren en beoordelingssystemen moeten afzonderlijk worden geïnterpreteerd."
+      },
+      {
+        "question": "Is de dikte van de gordel belangrijker dan de algehele snit?",
+        "answer": "Nee. Het maakt deel uit van de duurzaamheid, de gewichtsverhouding en de beoordeling van het vakmanschap van de diamant."
+      },
+      {
+        "question": "Moet ik een diamant afwijzen omdat de gordel erg dun is?",
+        "answer": "Niet automatisch. Bepaal de locatie, omvang, staat, vorm, setting en prijs voordat u een beslissing neemt."
+      },
+      {
+        "question": "Moet ik een diamant afwijzen omdat de gordel erg dik is?",
+        "answer": "Niet automatisch. Vergelijk de afmetingen naar boven, de totale diepte, het uiterlijk en de prijs met vergelijkbare diamanten."
+      }
+    ]
+  }
+}

@@ -1,14 +1,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { getPageNumbers } from '@/utils/helpers';
-import { Maven_Pro } from 'next/font/google';
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
 
 interface DiamondTablePaginationProps {
   currentPage: number;
@@ -240,5 +233,4 @@ export const DiamondTablePagination: React.FC<DiamondTablePaginationProps> = ({
     </>
   );
 };
-
 

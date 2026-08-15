@@ -10,6 +10,7 @@ import {
   stripHtml,
   type BackendBlog,
 } from '@/lib/blogs';
+import { s3Asset } from "@/lib/s3Assets";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -49,7 +50,7 @@ function getBestDescription(blog: BackendBlog): string {
 }
 
 const getBlogSeoSchemaBySlug = cache(async (): Promise<Record<string, BlogSeoSchemaEntry>> => {
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs('en');
   const entries: Record<string, BlogSeoSchemaEntry> = {};
 
   for (const blog of blogs) {
@@ -165,7 +166,7 @@ export default async function BlogDetailLayout({
           name: 'Dalila Diamonds',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png',
+            url: s3Asset("/dalila_img/Dalila_Logo.png"),
           },
         },
       }

@@ -2,20 +2,9 @@
 import { useRef, useEffect } from "react";
 
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
+import { videoUrl } from "@/lib/videoAssets";
 
 export default function DiamondSource() {
     const { dictionary } = useLanguage();
@@ -43,9 +32,10 @@ export default function DiamondSource() {
                                 loop
                                 muted
                                 playsInline
+                                preload="metadata"
                             >
                                 <source
-                                    src="/images/world_net.mp4"
+                                    src={videoUrl("worldNet")}
                                     type="video/mp4"
                                 />
                                 Your browser does not support the video tag.

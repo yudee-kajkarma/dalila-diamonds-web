@@ -2,8 +2,6 @@ import React, { useMemo } from "react";
 import { DiamondTableHeader } from "./DiamondTableHeader";
 import { DiamondTableRow } from "./DiamondTableRow";
 import type { DiamondData } from "@/types/diamond.types";
-import { source } from "framer-motion/client";
-import { off } from "process";
 
 interface DiamondTableProps {
     diamonds: DiamondData[];

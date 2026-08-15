@@ -1,23 +1,12 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Marcellus,Jost} from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import GoldButton from "@/components/ui/Button";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-});
 export default function HomeContent() {
     const { locale, dictionary } = useLanguage();
     const router = useRouter();
@@ -36,7 +25,7 @@ export default function HomeContent() {
                         <AnimatedContainer direction="scale-out">
                             <div className="relative h-[280px] sm:h-[320px] md:h-[350px] lg:h-[390px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl ">
                                 <Image
-                                    src="/diamondcuts/sell-diamonds.jpg"
+                                    src={s3Asset("/diamondcuts/sell-diamonds.jpg")}
                                     alt="Professional diamond dealer"
                                     fill
                                     className="object-cover"
@@ -65,7 +54,7 @@ export default function HomeContent() {
 
                             <GoldButton
                                 text={dictionary?.home?.sellBtn || "Sell Now"}
-                                onClick={() => router.push(localizedPath("/sud"))}
+                                onClick={() => router.push(localizedPath("/sell-your-diamond"))}
                             />
                         </div>
                     </div>
@@ -101,7 +90,7 @@ export default function HomeContent() {
                         <AnimatedContainer direction="scale-out" delay={0.5}>
                             <div className="relative h-[280px] sm:h-[320px] md:h-[350px] lg:h-[390px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                                 <Image
-                                    src="/images/diamondwork.png"
+                                    src={s3Asset("/images/diamondwork.png")}
                                     alt="Diamond examination with tweezers"
                                     fill
                                     className="object-cover"

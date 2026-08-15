@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import type { DiamondData, TableProps } from "@/types/diamond.types";
 import DiamondDetailView from "./DiamondDetailView";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import { DiamondTable } from "./Diamond/Table";
 import {
     DiamondTablePagination,
@@ -12,13 +12,6 @@ import {
 import { useDiamondData } from "@/hooks/useDiamondData";
 import { useDiamondFilters } from "@/hooks/useDiamondFilters";
 import { useDiamondSelection } from "@/hooks/useDiamondSelection";
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 /**
  * DiamondStockTable Component

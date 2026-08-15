@@ -2,22 +2,10 @@
 import { memo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 const PremiumB2BBanner = () => {
   const { locale, dictionary } = useLanguage();
@@ -29,11 +17,11 @@ const PremiumB2BBanner = () => {
   return (
     <div className="relative bg-slate-900">
       {/* Banner Section */}
-      <section className="relative h-[36vh] xs:h-[44vh] sm:h-[60vh] md:h-[55vh] lg:h-[50vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[280px] xs:min-h-[300px] sm:min-h-[360px] md:min-h-[340px] lg:min-h-[320px] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt="Premium B2B Diamond Supplier Belgium"
             fill
             className="object-cover"
@@ -43,11 +31,11 @@ const PremiumB2BBanner = () => {
         </div>
 
         {/* Content */}
-        <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center py-8 sm:py-14">
+        <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center pt-24 sm:pt-28 pb-8 sm:pb-14">
           <AnimatedContainer direction="right">
             <div className="opacity-100">
               <h1
-                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
+                className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
                 style={{ lineHeight: 1.15 }}
               >
                 {dictionary?.nav?.articleB2b?.toUpperCase() || "PREMIUM B2B DIAMOND SUPPLIER"}
@@ -84,3 +72,4 @@ const PremiumB2BBanner = () => {
 PremiumB2BBanner.displayName = 'PremiumB2BBanner';
 
 export default memo(PremiumB2BBanner);
+

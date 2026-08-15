@@ -16,26 +16,13 @@ import {
 } from "lucide-react";
 import type { DiamondData } from "@/types/diamond.types";
 import { cartApi, holdApi, queryApi } from "@/lib/api";
-import { Maven_Pro, Marcellus } from "next/font/google";
+import { marcellus, mavenPro } from "@/lib/fonts";
 import toast from "react-hot-toast";
 import { formatPrice, formatPercentage } from "@/utils/formatting";
 import { DiamondMediaViewer } from "./Diamond/DiamondMediaViewer";
 import { useRouter } from "next/navigation";
 import DiamondDetailViewMobile from "./DiamondDetailViewMobile";
 import DiamondSpecEnquiryModal from "./DiamondSpecEnquiryModal";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
 
 interface DiamondDetailViewProps {
     diamond: DiamondData;

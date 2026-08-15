@@ -6,21 +6,7 @@ import { Loader2, AlertCircle } from "lucide-react";
 import type { DiamondData } from "@/types/diamond.types";
 import DiamondDetailView from "@/components/DiamondDetailView";
 import ProtectedRoute from "@/components/ProtectedRoute";
-import {  Jost,Marcellus, } from "next/font/google";
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-});
+import { marcellus, jost } from "@/lib/fonts";
 
 interface HoldItem {
   stoneNo: string;

@@ -2,22 +2,10 @@
 import { useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Legacy() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -78,7 +66,7 @@ export default function Legacy() {
           <AnimatedContainer direction="right">
             <div className="relative overflow-hidden shadow-2xl h-[450px] sm:h-[500px] md:h-[500px] lg:h-[550px]">
               <Image
-                src="/images/asscher-blue.jpg"
+                src={s3Asset("/images/asscher-blue.jpg")}
                 alt="About Us Background"
                 width={800}
                 height={550}

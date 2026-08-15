@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import type { DiamondData } from "@/types/diamond.types";
 import {
   SITE_BASE_URL,
@@ -15,22 +15,14 @@ import {
   shortTitle,
   type PublicDiamond,
 } from "@/lib/diamonds";
+import { s3Asset } from "@/lib/s3Assets";
 import DiamondDetailPageClient from "./DiamondDetailPageClient";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-export const revalidate = 3600;
+// Diamond specs are immutable per stone; 6h bounds how often crawler traffic
+// can re-trigger the expensive slug lookup while keeping availability
+// reasonably fresh. Must stay in sync with the fetch revalidate in
+// getDiamondFromSlug (src/lib/diamonds.ts).
+export const revalidate = 21600;
 
 export async function generateStaticParams() {
   return [];
@@ -109,7 +101,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonical = diamondUrl(diamond);
   const title = metaTitle(diamond);
   const description = metaDescription(diamond);
-  const image = realImageUrl(diamond) ?? `${SITE_BASE_URL}/dalila_img/Dalila_Logo.png`;
+  const image =
+    realImageUrl(diamond) ??
+    s3Asset("/dalila_img/Dalila_Logo.png");
 
   return {
     title,

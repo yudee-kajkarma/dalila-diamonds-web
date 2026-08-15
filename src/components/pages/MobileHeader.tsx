@@ -7,6 +7,8 @@ import { useRouter } from "next/navigation";
 import { useHeaderAuth } from "./headerHooks";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
+import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from "@/lib/resourceNavLinks";
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function MobileHeader() {
     const { locale, dictionary } = useLanguage();
@@ -58,7 +60,7 @@ export default function MobileHeader() {
                 >
                     <div className="relative h-8 w-16">
                         <Image
-                            src="/dalila_img/mobile-logo.png"
+                            src={s3Asset("/dalila_img/mobile-logo.png")}
                             alt="Dalila Diamonds"
                             fill
                             style={{ objectFit: "contain" }}
@@ -193,7 +195,7 @@ export default function MobileHeader() {
                                         DS4U - Diamond Source For You
                                     </Link>
                                     <Link
-                                        href={localizedPath("/sud")}
+                                        href={localizedPath("/sell-your-diamond")}
                                         onClick={closeMobileMenu}
                                         className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
                                     >
@@ -226,38 +228,25 @@ export default function MobileHeader() {
                                 />
                             </button>
                             {isResourcesOpen && (
-                                <div className="bg-[#0a1454]">
+                                <div className="bg-[#0a1454] max-h-[min(60vh,20rem)] overflow-y-auto overscroll-contain">
                                     <Link
                                         href={localizedPath("/blogs")}
                                         onClick={closeMobileMenu}
-                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                        className="block px-6 py-2 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10 border-b border-gray-700/50"
                                     >
                                         {dictionary?.nav?.articles || "Articles"}
                                     </Link>
 
-                                    <Link
-                                        href={localizedPath("/premium-b2b-diamond-supplier-belgium")}
-                                        onClick={closeMobileMenu}
-                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
-                                    >
-                                        {dictionary?.nav?.articleB2b || "Premium B2B Diamond Supplier in Belgium"}
-                                    </Link>
-
-                                    <Link
-                                        href={localizedPath("/sell-your-diamond-safely")}
-                                        onClick={closeMobileMenu}
-                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
-                                    >
-                                        {dictionary?.nav?.articleSell || "Sell Your Diamond Safely"}
-                                    </Link>
-
-                                    <Link
-                                        href={localizedPath("/elongated-cushion-cut-diamond-guide")}
-                                        onClick={closeMobileMenu}
-                                        className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
-                                    >
-                                        {dictionary?.nav?.articleCushion || "Elongated Cushion Cut Diamond Guide"}
-                                    </Link>
+                                    {RESOURCE_NAV_ITEMS.map((item) => (
+                                        <Link
+                                            key={item.key}
+                                            href={localizedPath(item.href)}
+                                            onClick={closeMobileMenu}
+                                            className="block px-6 py-2 text-xs leading-snug text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                        >
+                                            {getResourceNavLabel(dictionary, item)}
+                                        </Link>
+                                    ))}
                                 </div>
                             )}
                         </div>

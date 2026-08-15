@@ -15,15 +15,12 @@ import {
   FileText,
   ArrowLeft,
 } from "lucide-react";
-import { Playfair_Display } from "next/font/google";
+import { s3Asset } from "@/lib/s3Assets";
+import { playfair as playFair } from "@/lib/fonts";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { userApi } from "@/lib/api";
-
-const playFair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+import { videoUrl } from "@/lib/videoAssets";
 
 // Dynamically import react-phone-input-2 to avoid SSR issues
 import type { CountryData, PhoneInputProps } from "react-phone-input-2";
@@ -86,8 +83,6 @@ function CustomerDetailsContent() {
         if (userString) {
           const user = JSON.parse(userString);
 
-          
-
           // Check if customer data already exists and is complete
           if (
             user.customerData &&
@@ -95,7 +90,6 @@ function CustomerDetailsContent() {
             user.customerData.businessInfo &&
             user.customerData.address
           ) {
-          
 
             // Check KYC status
             if (user.kycStatus === "approved") {
@@ -259,8 +253,6 @@ function CustomerDetailsContent() {
           : null;
       const userEmail = urlEmail || storedEmail;
 
-
-
       if (!userEmail) {
         setError("Session expired. Please register again.");
         setTimeout(() => router.push("/register"), 2000);
@@ -300,8 +292,6 @@ function CustomerDetailsContent() {
           websiteUrl: websiteUrl.trim() || undefined,
         },
       };
-
-    
 
       const response = await userApi.submitCustomerData(customerData);
 
@@ -394,7 +384,7 @@ function CustomerDetailsContent() {
       <div className="relative w-full min-h-screen overflow-hidden bg-black flex items-center justify-center">
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="/New-Videos/auth-bg.mp4"
+          src={videoUrl("authBg")}
           autoPlay
           muted
           loop
@@ -414,7 +404,7 @@ function CustomerDetailsContent() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/New-Videos/diamond_countdown.mp4"
+        src={videoUrl("diamondCountdown")}
         autoPlay
         muted
         loop
@@ -439,7 +429,7 @@ function CustomerDetailsContent() {
                 <div className="flex items-center justify-center gap-3 mb-2 mt-5">
                   <div className="relative w-[250px] md:w-[300px] h-[80px] md:h-[100px]">
                     <Image
-                      src="/dalila_img/Dalila_Logo.png"
+                      src={s3Asset("/dalila_img/Dalila_Logo.png")}
                       alt="Dalila Diamonds"
                       fill
                       className="object-contain"
@@ -795,7 +785,6 @@ function CustomerDetailsContent() {
                 )}
               </button>
 
-            
             </form>
           </div>
         </div>

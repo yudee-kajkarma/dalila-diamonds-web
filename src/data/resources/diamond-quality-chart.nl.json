@@ -1,0 +1,1221 @@
+{
+  "meta": {
+    "title": "Diamantkwaliteitsgrafiek | Dalila diamanten",
+    "description": "Vergelijk diamantslijpsel, kleur, zuiverheid en karaatkwaliteiten. Gebruik deze kwaliteitstabel voor natuurlijke diamanten om de 4C’s te begrijpen en de juiste balans te kiezen.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
+    "datePublished": "2026-08-06",
+    "dateModified": "2026-07-30",
+    "robots": "index, follow",
+    "inLanguage": "en-GB"
+  },
+  "banner": {
+    "title": "Diamantkwaliteitsgrafiek",
+    "breadcrumbHome": "Thuis",
+    "breadcrumbResources": "Bronnen",
+    "breadcrumbCurrent": "Diamantkwaliteitsgrafiek",
+    "imageAlt": "Diamond Quality Chart-bronbanner"
+  },
+  "hero": {
+    "title": "Diamantkwaliteitstabel voor kopers van natuurlijke diamant",
+    "subheading": "Vergelijk diamantslijp-, kleur-, zuiverheids- en karaatkwaliteiten, begrijp wat elk kwaliteitsniveau betekent en beslis welke kenmerken het belangrijkst zijn voor uw natuurlijke diamant.",
+    "introParagraphs": [
+      "De kwaliteit van diamanten kan niet in één cijfer worden uitgedrukt.",
+      "Twee diamanten met hetzelfde karaatgewicht kunnen aanzienlijk verschillen in helderheid, kleur, helderheid, zichtbare grootte en prijs. Zelfs twee diamanten met identieke kwaliteiten kunnen er verschillend uitzien vanwege hun proporties, insluitingslocaties, fluorescentie, transparantie en slijppatroon.",
+      "Deze hulpbron brengt de belangrijkste diamantkwaliteitsschalen op één plek. Gebruik het om de 4C’s te begrijpen, natuurlijke diamanten op de shortlist te vergelijken en vast te stellen welke details nadere inspectie vereisen voordat u tot aankoop overgaat."
+    ],
+    "reviewDateLabel": "Laatst beoordeeld:",
+    "reviewDate": "30 juli 2026"
+  },
+  "quickAnswer": {
+    "id": "quick-answer",
+    "title": "Snel antwoord",
+    "introParagraphs": [
+      "Het internationaal erkende raamwerk voor het beschrijven van diamantkwaliteit bestaat uit vier kenmerken die bekend staan ​​als de 4C’s:"
+    ],
+    "attributes": [
+      "Slijpwijze: hoe het ontwerp, de proporties en de afwerking van de diamant de interactie met licht beïnvloeden",
+      "Kleur: De relatieve afwezigheid van kleur bij diamanten met een classificatie binnen het D-tot-Z-bereik",
+      "Duidelijkheid: De relatieve afwezigheid van interne insluitsels en oppervlaktevlekken",
+      "Karaat: het gewicht van de diamant, niet de visuele grootte"
+    ],
+    "closingParagraphs": [
+      "De 4C's van het Gemological Institute of America bieden een standaardtaal voor het beschrijven en vergelijken van diamanten.",
+      "Bij een aankoopbeslissing van hoge kwaliteit moet echter ook rekening worden gehouden met afmetingen, proporties, glans, symmetrie, fluorescentie, transparantie, behandelingen, huidige staat en de betrouwbaarheid van het beoordelingsrapport.",
+      "Er bestaat niet één cijfercombinatie die automatisch het beste is voor iedere koper. De juiste balans hangt af van de vorm van de diamant, het sieraadontwerp, de visuele uitstraling, het budget en persoonlijke prioriteiten."
+    ]
+  },
+  "keyTakeaways": {
+    "title": "Belangrijkste afhaalrestaurants",
+    "items": [
+      "De 4C’s moeten samen worden geëvalueerd in plaats van afzonderlijk.",
+      "Snijkwaliteit kan een groot effect hebben op helderheid, vuur, contrast en schittering.",
+      "De algemene slijpkwaliteit van GIA is momenteel van toepassing op standaard ronde briljante diamanten in het D-tot-Z-kleurengamma.",
+      "D is de hoogste kleurgraad binnen het normale D-tot-Z-bereik, terwijl Z een meer opvallende gele of bruine kleur vertoont.",
+      "De GIA-helderheidsschaal loopt van Flawless tot Included 3.",
+      "Een zuiverheidsgraad bevestigt niet automatisch of een diamant er zonder vergroting schoon uitziet.",
+      "Karaat meet het gewicht, de niet zichtbare diameter of de face-up maat.",
+      "Een grotere diamant is niet automatisch een diamant van betere kwaliteit.",
+      "Hogere cijfers duiden over het algemeen op een grotere zeldzaamheid, maar zorgen niet altijd voor een duidelijke visuele verbetering.",
+      "Fancy-vormige diamanten vereisen aanvullende visuele beoordeling omdat hun contouren en facetpatronen variëren.",
+      "Een beoordelingsrapport helpt de kwaliteit te beschrijven, maar garandeert geen schoonheid, prijs of waarde.",
+      "Een natuurlijke diamant moet duidelijk als natuurlijk worden geïdentificeerd op basis van geloofwaardige laboratoriumdocumentatie."
+    ]
+  },
+  "overviewNav": {
+    "title": "Gidsoverzicht",
+    "items": [
+      {
+        "id": "diamond-quality-at-a-glance",
+        "label": "Diamantkwaliteit in één oogopslag"
+      },
+      {
+        "id": "how-the-4cs-work-together",
+        "label": "Hoe de 4C’s samenwerken"
+      },
+      {
+        "id": "diamond-cut-quality-chart",
+        "label": "Kwaliteitskaart voor diamantslijpen"
+      },
+      {
+        "id": "diamond-colour-chart",
+        "label": "Diamant kleurenkaart"
+      },
+      {
+        "id": "diamond-clarity-chart",
+        "label": "Diamanthelderheidsgrafiek"
+      },
+      {
+        "id": "diamond-carat-weight-chart",
+        "label": "Diamant karaatgewicht grafiek"
+      },
+      {
+        "id": "diamond-quality-for-fancy-shapes",
+        "label": "Kwaliteitsoverwegingen voor mooie vormen"
+      },
+      {
+        "id": "diamond-quality-beyond-the-4cs",
+        "label": "Diamantkwaliteit voorbij de 4C's"
+      },
+      {
+        "id": "how-to-choose-the-right-quality-balance",
+        "label": "Hoe u de juiste kwaliteitsbalans kiest"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Vergelijking van bewerkte diamanten"
+      },
+      {
+        "id": "diamond-quality-rarity-price-value",
+        "label": "Diamantkwaliteit versus zeldzaamheid, prijs en waarde"
+      },
+      {
+        "id": "natural-diamond-quality-checklist",
+        "label": "Controlelijst voor het kopen van natuurlijke diamant"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "label": "Veelgestelde vragen"
+      }
+    ]
+  },
+  "atAGlance": {
+    "id": "diamond-quality-at-a-glance",
+    "title": "Diamantkwaliteit in één oogopslag",
+    "table": {
+      "caption": "Diamantkwaliteitsfactoren en koperscontroles",
+      "headers": [
+        "Kwaliteitsfactor",
+        "Hoofdschaal of meting",
+        "Wat het beschrijft",
+        "Belangrijke koperscontrole"
+      ],
+      "rows": [
+        [
+          "Snee",
+          "Uitstekend tot slecht voor toepasselijke ronde briljanten met GIA-kwaliteit",
+          "Hoe verhoudingen, design en afwerking het lichtgedrag beïnvloeden",
+          "Onderzoek helderheid, vuur, contrast, proporties en patroon naar boven"
+        ],
+        [
+          "Kleur",
+          "D tot Z voor diamanten in het normale kleurbereik",
+          "De relatieve afwezigheid van gele of bruine kleur",
+          "Vergelijk de werkelijke diamant onder consistente verlichting"
+        ],
+        [
+          "Helderheid",
+          "FL tot I3",
+          "De zichtbaarheid en betekenis van insluitsels en oneffenheden",
+          "Controleer het type insluiting, de positie, de zichtbaarheid en de mogelijke duurzaamheidsrelevantie"
+        ],
+        [
+          "Karaat",
+          "Numeriek genoteerd, bijvoorbeeld 0,75 ct of 1,00 ct",
+          "Het gewicht van de diamant",
+          "Vergelijk het gewicht met werkelijke millimetermetingen en zichtbare spreiding"
+        ],
+        [
+          "Pools",
+          "Uitstekend tot slecht, afhankelijk van het laboratorium",
+          "Kwaliteit van de afgewerkte facetoppervlakken",
+          "Controleer of afwerkingskenmerken het uiterlijk beïnvloeden"
+        ],
+        [
+          "Symmetrie",
+          "Uitstekend tot slecht, afhankelijk van het laboratorium",
+          "Uitlijning en precisie van facetten en omtrek",
+          "Onderzoek de uitlijning van de facetten en de balans van de contouren"
+        ],
+        [
+          "Fluorescentie",
+          "Meestal geen tot zeer sterk in GIA-rapporten",
+          "Reactie op langgolvige ultraviolette straling",
+          "Inspecteer de diamant onder normaal binnenlicht en daglicht"
+        ],
+        [
+          "Afmetingen",
+          "Millimeters",
+          "Lengte, breedte, diameter en diepte",
+          "Bepaal hoe groot de diamant van bovenaf lijkt"
+        ],
+        [
+          "Verhoudingen",
+          "Percentages, hoeken en beschrijvende cijfers",
+          "De fysieke constructie van de diamant",
+          "Bekijk tabel-, diepte-, kroon-, paviljoen-, gordel- en culet-informatie"
+        ],
+        [
+          "Transparantie",
+          "Vereist visuele of professionele beoordeling",
+          "Of de diamant er nu helder, wazig, olieachtig of melkachtig uitziet",
+          "Onderzoek de fysieke diamant of de video van hoge kwaliteit"
+        ],
+        [
+          "Voorwaarde",
+          "Vereist actuele inspectie",
+          "Chips, schaafwonden, schade of veranderingen na het sorteren",
+          "Ga er niet van uit dat een ouder rapport de huidige toestand bevestigt"
+        ]
+      ]
+    },
+    "closing": [
+      "De grafiek is een startpunt. De volledige combinatie van kenmerken bepaalt of een natuurlijke diamant geschikt is voor een bepaalde koper."
+    ]
+  },
+  "howFourCsWork": {
+    "id": "how-the-4cs-work-together",
+    "title": "Hoe de 4C’s samenwerken",
+    "paragraphs": [
+      "Een diamant moet niet worden geselecteerd door in elke categorie de hoogst mogelijke kwaliteit te kiezen.",
+      "Elke kwaliteitsfactor beïnvloedt een ander deel van het uiterlijk en de zeldzaamheid van de diamant.",
+      "Bijvoorbeeld:"
+    ],
+    "bullets": [
+      "Een hoge kleurkwaliteit kan slechte lichtprestaties niet compenseren.",
+      "Een hoge helderheidsgraad garandeert geen aantrekkelijke proporties.",
+      "Een groot karaatgewicht garandeert geen groot uiterlijk.",
+      "Een Excellent-geslepen diamant betekent niet dat elke Excellent-geslepen diamant er identiek uitziet.",
+      "Twee diamanten met dezelfde kleurgraad kunnen de kleur anders weergeven vanwege hun grootte, vorm en slijppatroon.",
+      "Twee diamanten met dezelfde zuiverheidsgraad kunnen totaal verschillende soorten insluitsels bevatten."
+    ],
+    "closing": [
+      "Het doel van de kwaliteitskaart is dan ook niet om één universele “perfecte” diamant te identificeren. Het is bedoeld om kopers te helpen begrijpen waar zichtbare verbeteringen optreden en waar extra kwaliteitsverhogingen vooral zeldzaamheid kunnen vertegenwoordigen."
+    ]
+  },
+  "cutChart": {
+    "id": "diamond-cut-quality-chart",
+    "title": "Kwaliteitskaart voor diamantslijpen",
+    "introParagraphs": [
+      "Cut beschrijft hoe effectief het ontwerp, de proporties en de afwerking van een diamant helderheid, vuur, schittering en een georganiseerd patroon van lichte en donkere gebieden produceren.",
+      "Het moet niet worden verward met vorm.",
+      "Vorm verwijst naar de omtrek, zoals rond, ovaal, peer of smaragd.",
+      "Slijpkwaliteit verwijst naar hoe succesvol de diamant is ontworpen en afgewerkt.",
+      "GIA's standaard algemene slijpclassificatiesysteem is van toepassing op standaard ronde briljante diamanten binnen het D-tot-Z-kleurbereik. De officiële schaal bevat vijf cijfers: Excellent, Very Good, Good, Fair en Poor. GIA's diamantslijprichtlijnen leggen de reikwijdte en het doel van dit systeem uit."
+    ],
+    "roundGradeChart": {
+      "title": "Ronde briljant geslepen cijfergrafiek",
+      "table": {
+        "caption": "GIA ronde briljant geslepen kwaliteiten en kopersbegeleiding",
+        "headers": [
+          "Snijd kwaliteit",
+          "Algemene interpretatie",
+          "Wat kopers moeten onderzoeken"
+        ],
+        "rows": [
+          [
+            "Excellent",
+            "Het hoogste GIA-kwaliteitsbereik, doorgaans geassocieerd met sterke helderheid, vuur en gebalanceerd contrast",
+            "Vergelijk verhoudingen en uiterlijk omdat de kwaliteit een scala aan mogelijke uitvoeringen bevat"
+          ],
+          [
+            "Very Good",
+            "Sterke algehele snijkwaliteit met kleine verschillen met het Excellent-assortiment",
+            "Vergelijk de diamant rechtstreeks met Excellent-slijpopties en beoordeel of het zichtbare verschil de prijs rechtvaardigt"
+          ],
+          [
+            "Good",
+            "Acceptabele snijkwaliteit, maar lichte prestaties of zichtbare spreiding kunnen minder effectief zijn",
+            "Controleer op verminderde helderheid, minder gebalanceerd contrast of gewicht dat behouden blijft op minder zichtbare plekken"
+          ],
+          [
+            "Fair",
+            "Meer opvallende proporties of vakmanschapbeperkingen",
+            "Controleer op doffe plekken, lichtlekkage, verminderde schittering of een onaantrekkelijk patroon met de voorkant naar boven"
+          ],
+          [
+            "Poor",
+            "Aanzienlijke beperkingen van de snijkwaliteit",
+            "Overweeg zorgvuldig of zwakke lichtprestaties de diamant ongeschikt maken"
+          ]
+        ]
+      },
+      "note": "Deze beschrijvingen zijn algemene screeningrichtlijnen. Een snijgraad vertegenwoordigt een bereik, niet één exacte combinatie van verhoudingen."
+    },
+    "whatContributesTitle": "Wat draagt ​​bij aan de snijkwaliteit?",
+    "whatContributesParagraphs": [
+      "Voor een standaard ronde briljant diamant kan de slijpbeoordeling het volgende omvatten:"
+    ],
+    "whatContributesBullets": [
+      "Helderheid",
+      "Vuur",
+      "Schittering",
+      "Gewichtsverhouding",
+      "Duurzaamheid",
+      "Pools",
+      "Symmetrie",
+      "Tafelgrootte",
+      "Totale diepte",
+      "Kroon hoek",
+      "Paviljoen hoek",
+      "Dikte van de gordel",
+      "Maat culet",
+      "Facet relaties",
+      "Patroon met de voorkant naar boven"
+    ],
+    "singleNumberNote": "Een enkel tafelpercentage of dieptepercentage kan op zichzelf de snijkwaliteit niet vaststellen. Verschillende verhoudingscombinaties kunnen aantrekkelijke diamanten opleveren.",
+    "excellentMeansPerfectTitle": "Betekent een uitstekende slijpvorm dat de diamant perfect is?",
+    "excellentMeansPerfectParagraphs": [
+      "Nee.",
+      "Uitstekend is de hoogste categorie op de GIA rond-briljant geslepen schaal, maar bevat meerdere verhoudingscombinaties en face-up verschijningen. Twee Excellent-geslepen diamanten kunnen verschillende contrastpatronen, zichtbare spreidingen en persoonlijkheden vertonen.",
+      "Het cijfer is een belangrijk screeningsinstrument. Het moet nog steeds worden overwogen naast:"
+    ],
+    "excellentMeansPerfectBullets": [
+      "Exacte metingen",
+      "Tafel en diepte",
+      "Kroon- en paviljoeninformatie",
+      "Pools",
+      "Symmetrie",
+      "Video met hoge resolutie",
+      "Transparantie",
+      "Prijs",
+      "Persoonlijke verschijningsvoorkeur"
+    ],
+    "polishSymmetryChartTitle": "Polijst- en symmetriegrafiek",
+    "polishSymmetryTable": {
+      "caption": "Betekenissen van Poolse en symmetriegraad",
+      "headers": [
+        "Cijfer",
+        "Algemene betekenis"
+      ],
+      "rows": [
+        [
+          "Excellent",
+          "Geen afwerkingskenmerken die een materiële invloed hebben op het toegekende cijfer volgens het laboratoriumsysteem"
+        ],
+        [
+          "Very Good",
+          "Kleine afwerkingskenmerken die over het algemeen moeilijk waar te nemen zijn zonder vergroting"
+        ],
+        [
+          "Good",
+          "Er kunnen opvallende afwerkingskenmerken aanwezig zijn, hoewel de diamant commercieel aanvaardbaar kan blijven"
+        ],
+        [
+          "Fair",
+          "Beperkingen in de afwerking kunnen duidelijker zijn en kunnen het uiterlijk beïnvloeden"
+        ],
+        [
+          "Poor",
+          "Er zijn aanzienlijke beperkingen op het gebied van vakmanschap"
+        ]
+      ]
+    },
+    "polishSymmetryNote": "Polijsten en symmetrie zijn componenten van de afwerking. Ze mogen niet worden beschouwd als vervanging voor een algehele beoordeling van de snijlengte."
+  },
+  "colourChart": {
+    "id": "diamond-colour-chart",
+    "title": "Diamant kleurenkaart",
+    "introParagraphs": [
+      "Voor diamanten in het normale kleurbereik meet kleurgradatie de relatieve afwezigheid van kleur.",
+      "De GIA-kleurenschaal begint bij D en loopt door tot Z. D staat voor kleurloos, terwijl graden dichter bij Z een steeds opvallender lichtgeel of bruin uiterlijk vertonen. Diamanten worden onder gecontroleerde omstandigheden vergeleken met meesterstenen. GIA's officiële kleurrichtlijnen leggen het D-to-Z-systeem uit."
+    ],
+    "scaleTitle": "D-tot-Z diamantkleurenschaal",
+    "table": {
+      "caption": "D-tot-Z diamantkleurenschaal",
+      "headers": [
+        "Kleur kwaliteiten",
+        "Categorie",
+        "Algemeen uiterlijk"
+      ],
+      "rows": [
+        [
+          "D-F",
+          "Kleurloos",
+          "Weinig of geen waarneembare kleur onder standaard sorteeromstandigheden"
+        ],
+        [
+          "G-J",
+          "Bijna kleurloos",
+          "Kleine hoeveelheden kleur die subtiel kunnen zijn als de diamant met de voorkant naar boven wordt bekeken"
+        ],
+        [
+          "K–M",
+          "Flauwvallen",
+          "Een vage gele of bruine kleur kan meer opvallen"
+        ],
+        [
+          "N-R",
+          "Zeer licht",
+          "Kleur wordt steeds zichtbaarder"
+        ],
+        [
+          "S-Z",
+          "Licht",
+          "Normaal gesproken is een lichtgele of bruine kleur zichtbaar"
+        ]
+      ]
+    },
+    "afterTable": [
+      "De categorienaam zegt niet of een individuele koper de diamant aantrekkelijk zal vinden.",
+      "Sommige kopers geven de voorkeur aan een kouder, kleurloos uiterlijk. Anderen kiezen bewust voor een warmere diamant, vooral als deze complementair is aan geel- of roségoud."
+    ],
+    "perceivedColourTitle": "Factoren die de waargenomen kleur beïnvloeden",
+    "perceivedColourIntro": "De zichtbaarheid van kleur kan veranderen afhankelijk van:",
+    "perceivedColourBullets": [
+      "Diamantgrootte",
+      "Vorm",
+      "Facetpatroon",
+      "Snijkwaliteit",
+      "Kijkhoek",
+      "Verlichting",
+      "Omliggende kleuren",
+      "Sieraden metaal",
+      "Of de steen nu los of gemonteerd is",
+      "Fluorescentie",
+      "Vergelijking met andere diamanten"
+    ],
+    "perceivedColourNote": "Grotere diamanten kunnen de lichaamskleur gemakkelijker waarneembaar maken. Bepaalde vormen kunnen de kleur ook anders behouden of onthullen.",
+    "higherAlwaysBetterTitle": "Ziet een hogere kleurkwaliteit er altijd beter uit?",
+    "higherAlwaysBetterParagraphs": [
+      "Niet noodzakelijkerwijs.",
+      "D is zeldzamer dan G, H of I, maar een koper ziet mogelijk geen betekenisvol verschil als de diamant eenmaal is gemonteerd en bekeken onder normale omstandigheden.",
+      "Een hogere kleurkwaliteit kan vanwege de zeldzaamheid een premie opleveren. Of die premie een waardevolle visuele verbetering oplevert, hangt af van de individuele diamant en de koper."
+    ],
+    "fancyColourTitle": "Kleurloos versus fancy-color diamanten",
+    "fancyColourParagraphs": [
+      "De D-tot-Z-grafiek mag niet worden gebruikt om fancy colour diamanten te beoordelen.",
+      "Fancy gele, roze, blauwe, groene en andere gekleurde diamanten worden beoordeeld op basis van verschillende overwegingen, waaronder:"
+    ],
+    "fancyColourBullets": [
+      "Tint",
+      "Toon",
+      "Verzadiging",
+      "Kleurverdeling",
+      "Fancy-kleur kwaliteit"
+    ],
+    "fancyColourNote": "GIA legt uit dat het D-to-Z-systeem de relatieve afwezigheid van kleur beoordeelt, terwijl fancy-colour grading de aanwezigheid en sterkte van kleur evalueert."
+  },
+  "clarityChart": {
+    "id": "diamond-clarity-chart",
+    "title": "Diamanthelderheidsgrafiek",
+    "introParagraphs": [
+      "Duidelijkheid beschrijft de relatieve afwezigheid van insluitsels en vlekken.",
+      "Insluitsels zijn interne kenmerken. Vlekken bevinden zich op of beïnvloeden het oppervlak.",
+      "De GIA-helderheidsschaal bevat 11 gradaties, variërend van Flawless tot Inbegrepen 3. Bij de beoordeling wordt rekening gehouden met de grootte, aard, aantal, positie en kleur of reliëf van kenmerken die zichtbaar zijn onder een vergroting van 10x. De duidelijkheidsrichtlijnen van GIA leggen uit hoe de schaal wordt toegepast."
+    ],
+    "scaleTitle": "Diamanthelderheidsschaal",
+    "table": {
+      "caption": "GIA diamanten helderheidsschaal",
+      "headers": [
+        "Duidelijkheidsgraad",
+        "Volledige termijn",
+        "Algemene interpretatie onder een vergroting van 10×"
+      ],
+      "rows": [
+        [
+          "FL",
+          "Vlekkeloos",
+          "Geen insluitsels of vlekken zichtbaar voor een ervaren grader"
+        ],
+        [
+          "IF",
+          "Intern onberispelijk",
+          "Geen insluitsels en slechts onbeduidende oneffenheden zichtbaar"
+        ],
+        [
+          "VVS1",
+          "Zeer, zeer weinig inbegrepen 1",
+          "Minuscule insluitsels die uiterst moeilijk te lokaliseren zijn"
+        ],
+        [
+          "VVS2",
+          "Zeer, zeer weinig inbegrepen 2",
+          "Minuscule insluitsels die zeer moeilijk te lokaliseren zijn"
+        ],
+        [
+          "VS1",
+          "Zeer weinig inbegrepen 1",
+          "Kleine insluitsels die moeilijk te lokaliseren zijn"
+        ],
+        [
+          "VS2",
+          "Zeer weinig inbegrepen 2",
+          "Kleine insluitsels die mogelijk gemakkelijker te lokaliseren zijn dan in VS1"
+        ],
+        [
+          "SI1",
+          "Enigszins inbegrepen 1",
+          "Opvallende insluitsels die gemakkelijker te zien zijn onder vergroting"
+        ],
+        [
+          "SI2",
+          "Enigszins inbegrepen 2",
+          "Opvallende insluitsels die gemakkelijker te zien zijn onder vergroting"
+        ],
+        [
+          "I1",
+          "Inbegrepen 1",
+          "Duidelijke insluitsels die het uiterlijk, de transparantie of de duurzaamheid kunnen beïnvloeden"
+        ],
+        [
+          "I2",
+          "Inbegrepen 2",
+          "Meer prominente insluitsels die het uiterlijk, de transparantie of de duurzaamheid kunnen beïnvloeden"
+        ],
+        [
+          "I3",
+          "Inbegrepen 3",
+          "Significante insluitsels die een substantieel effect op de diamant kunnen hebben"
+        ]
+      ]
+    },
+    "afterTable": [
+      "De tabel vat de schaal samen. De individuele kenmerken binnen een diamant blijven belangrijk."
+    ],
+    "whatDeterminesTitle": "Wat bepaalt een helderheidsgraad?",
+    "whatDeterminesParagraph": "Een laboratorium houdt rekening met:",
+    "whatDeterminesBullets": [
+      "Grootte: Hoe groot elk kenmerk is",
+      "Aard: welk type insluiting of vlek er aanwezig is",
+      "Getal: Hoeveel cijferrelevante kenmerken zijn zichtbaar",
+      "Positie: Of kenmerken centraal staan, nabij de gordel of op een ander gebied",
+      "Reliëf: Hoe sterk een kenmerk contrasteert met de omringende diamant"
+    ],
+    "whatDeterminesNote": "Het cijfer is gebaseerd op het gecombineerde effect van deze factoren, niet alleen op het aantal insluitsels.",
+    "eyeCleanTitle": "Betekent VS2 of SI1 oogreiniging?",
+    "eyeCleanParagraphs": [
+      "Niet automatisch.",
+      "\"Oogschoonmaak\" is geen universele laboratoriumhelderheidsgraad. Het is een praktische beschrijving die wordt gebruikt wanneer insluitsels niet gemakkelijk zichtbaar zijn zonder vergroting onder gespecificeerde kijkomstandigheden.",
+      "De zichtbaarheid kan afhankelijk zijn van:"
+    ],
+    "eyeCleanBullets": [
+      "Diamantgrootte",
+      "Vorm",
+      "Inclusie kleur",
+      "Inclusie positie",
+      "Kijkafstand",
+      "Verlichting",
+      "Waarnemer",
+      "Gezichtsscherpte",
+      "Of de diamant nu los of gemonteerd is"
+    ],
+    "eyeCleanNote": "Twee VS2-diamanten kunnen er dus zonder vergroting anders uitzien. Eén ervan kan een kleine, bleke insluiting nabij de rand bevatten. Een andere kan een donkerder kenmerk onder de tafel bevatten.",
+    "closerExamTitle": "Duidelijkheidskenmerken die nader onderzoek vereisen",
+    "closerExamIntro": "Besteed bijzondere aandacht aan:",
+    "closerExamBullets": [
+      "Donkere insluitsels onder de tafel",
+      "Grote centraal geplaatste kristallen",
+      "Veren die zich uitstrekken naar de gordel",
+      "Gaatjes",
+      "Chips",
+      "Uitgebreide wolken",
+      "Opmerkingen over wolken of pinpoints",
+      "Insluitsels die de transparantie kunnen verminderen",
+      "Open karakter aan het oppervlak",
+      "Kenmerken gelegen nabij kwetsbare hoeken of punten"
+    ],
+    "closing": [
+      "De aanwezigheid van een insluiting maakt een diamant niet automatisch ongeschikt. Het type, de omvang, de positie en het effect ervan moeten worden beoordeeld."
+    ]
+  },
+  "caratChart": {
+    "id": "diamond-carat-weight-chart",
+    "title": "Diamant karaatgewicht grafiek",
+    "introParagraphs": [
+      "Karaat meet het gewicht, niet de kwaliteit, diameter of visuele grootte.",
+      "Eén metrische karaat is gelijk aan 200 milligram of 0,20 gram. Een karaat bevat 100 punten, dus een diamant van 0,50 karaat kan ook omschreven worden als een diamant van 50 punten. De karaatgewichtverklaring van GIA bevestigt de metrische conversie."
+    ],
+    "conversionTitle": "Karaat-conversiegrafiek",
+    "table": {
+      "caption": "Conversietabel karaatgewicht",
+      "headers": [
+        "Karaat gewicht",
+        "Punten",
+        "Gewicht in gram"
+      ],
+      "rows": [
+        [
+          "0,25 ct",
+          "25 punten",
+          "0,05 gr"
+        ],
+        [
+          "0,50 ct",
+          "50 punten",
+          "0,10 gr"
+        ],
+        [
+          "0,75 ct",
+          "75 punten",
+          "0,15 gr"
+        ],
+        [
+          "1,00 ct",
+          "100 punten",
+          "0,20 gr"
+        ],
+        [
+          "1,25 ct",
+          "125 punten",
+          "0,25 gr"
+        ],
+        [
+          "1,50 ct",
+          "150 punten",
+          "0,30 gr"
+        ],
+        [
+          "2,00 ct",
+          "200 punten",
+          "0,40 gr"
+        ],
+        [
+          "3,00 ct",
+          "300 punten",
+          "0,60 gr"
+        ],
+        [
+          "5,00 ct",
+          "500 punten",
+          "1,00 gr"
+        ]
+      ]
+    },
+    "conversionNote": "Dit is een gewichtsconversiegrafiek. Het mag niet worden gebruikt als een exacte diamantdiametergrafiek.",
+    "whyDifferentTitle": "Waarom twee diamanten van dezelfde karaat er anders uit kunnen zien",
+    "whyDifferentIntro": "De grootte naar boven is afhankelijk van:",
+    "whyDifferentBullets": [
+      "Vorm",
+      "Lengte en breedte",
+      "Diameter",
+      "Totale diepte",
+      "Dikte van de gordel",
+      "Paviljoen diepte",
+      "Kroon hoogte",
+      "Overzicht",
+      "Snijstijl",
+      "Gewichtsverdeling"
+    ],
+    "whyDifferentNote": "Een diep geslepen diamant kan meer gewicht onder de gordel behouden en van bovenaf kleiner lijken.\nEen langwerpige ovaal, peer of markiezin kan groter lijken dan een andere vorm van hetzelfde gewicht vanwege zijn lengte en zichtbare oppervlak. Dit maakt één vorm niet automatisch beter; het verandert de manier waarop het gewicht wordt gepresenteerd.",
+    "thresholdsTitle": "Belangrijke karaatdrempels",
+    "thresholdsParagraphs": [
+      "Diamanten met veelgevraagde gewichten zoals 0,50, 1,00, 1,50 en 2,00 karaat kunnen meer aandacht op de markt krijgen.",
+      "Een diamant die iets onder een populaire drempel weegt, kan soms een vergelijkbare zichtbare grootte hebben, maar dit moet worden bevestigd door de werkelijke afmetingen en het uiterlijk.",
+      "Vergelijk nooit prijzen op basis van alleen het karaatgewicht."
+    ]
+  },
+  "fancyShapes": {
+    "id": "diamond-quality-for-fancy-shapes",
+    "title": "Diamantkwaliteit voor mooie vormen",
+    "introParagraphs": [
+      "Ovaal, peer, kussen, smaragd, markiezin, stralend, prinses en andere niet-ronde vormen worden gewoonlijk fancy vormen genoemd.",
+      "GIA biedt momenteel niet de standaard algemene snijkwaliteit voor deze vormen. Dit betekent niet dat de snijkwaliteit onbelangrijk is. Het betekent dat kopers een bredere combinatie van afmetingen en visuele kenmerken moeten beoordelen."
+    ],
+    "checksTitle": "Fancy-Shape-kwaliteitscontroles",
+    "checksTable": {
+      "caption": "Fancy-vorm kwaliteitsbeoordelingsfactoren",
+      "headers": [
+        "Kwaliteitsfactor",
+        "Wat te onderzoeken"
+      ],
+      "rows": [
+        [
+          "Overzicht",
+          "Is de vorm evenwichtig en aantrekkelijk?"
+        ],
+        [
+          "Symmetrie",
+          "Zijn beide kanten en belangrijke kenmerken goed op elkaar afgestemd?"
+        ],
+        [
+          "Lengte-breedteverhouding",
+          "Heeft de diamant het brede of langwerpige uiterlijk dat u verkiest?"
+        ],
+        [
+          "Face-up verspreiding",
+          "Presenteert de diamant zijn gewicht effectief?"
+        ],
+        [
+          "Facetpatroon",
+          "Is het patroon georganiseerd, levendig en visueel aantrekkelijk?"
+        ],
+        [
+          "Vlinderdas-effect",
+          "Is er een onaantrekkelijke donkere band over een ovaal, peer of markiezin?"
+        ],
+        [
+          "Ramen",
+          "Kun je door delen van een smaragd of een andere stapgeslepen diamant heen kijken?"
+        ],
+        [
+          "Uitsterven",
+          "Zijn grote gebieden altijd donker?"
+        ],
+        [
+          "Hoeken en punten",
+          "Zijn kwetsbare gebieden beschermd en vrij van ernstige schade?"
+        ],
+        [
+          "Pools en symmetrie",
+          "Welke eindcijfers verschijnen op het laboratoriumrapport?"
+        ],
+        [
+          "Kleurverdeling",
+          "Concentreert de vorm de zichtbare lichaamskleur?"
+        ],
+        [
+          "Duidelijke plaatsing",
+          "Zijn insluitsels gemakkelijk zichtbaar door grotere of meer open facetten?"
+        ]
+      ]
+    },
+    "closing": [
+      "Fancy-shape kwaliteit kan niet worden gereduceerd tot één voorkeurstafel, diepte of lengte-breedteverhouding.",
+      "Twee kopers kunnen redelijkerwijs de voorkeur geven aan verschillende ovale of kussenomtrekken. Het doel is om een ​​steen te identificeren met een aantrekkelijk patroon, een evenwichtige omtrek en geschikte afmetingen voor het beoogde sieraadontwerp."
+    ]
+  },
+  "beyond4cs": {
+    "id": "diamond-quality-beyond-the-4cs",
+    "title": "Diamantkwaliteit voorbij de 4C's",
+    "introParagraph": "De 4C’s bieden een gestructureerd vergelijkingssysteem, maar ze omvatten niet elk aspect van de kwaliteit of geschiktheid van een diamant.",
+    "subsections": [
+      {
+        "title": "Metingen en zichtbare spreiding",
+        "paragraphs": [
+          "Metingen laten zien hoe het gewicht van de diamant zich vertaalt in fysieke afmetingen.",
+          "Vergelijk het karaatgewicht altijd met:"
+        ],
+        "bullets": [
+          "Diameter voor ronde diamanten",
+          "Lengte en breedte voor mooie vormen",
+          "Totale diepte",
+          "Dikte van de gordel",
+          "Face-up-uiterlijk"
+        ]
+      },
+      {
+        "title": "Verhoudingen",
+        "paragraphs": [
+          "Tabel-, diepte-, kroon-, paviljoen-, gordel- en culetinformatie kan de helderheid, het contrast en de zichtbare spreiding van de diamant helpen verklaren.",
+          "Verhoudingen moeten worden geïnterpreteerd als een combinatie. Geen enkel getal garandeert een prachtige diamant."
+        ]
+      },
+      {
+        "title": "Transparantie",
+        "paragraphs": [
+          "Een diamant kan acceptabele cijfers hebben, maar er nog steeds wazig, olieachtig of melkachtig uitzien.",
+          "Transparantie moet worden gecontroleerd met behulp van:"
+        ],
+        "bullets": [
+          "Duidelijk filmpje",
+          "Meerdere lichtomstandigheden",
+          "Vergelijking met een andere diamant",
+          "Professionele inspectie"
+        ]
+      },
+      {
+        "title": "Fluorescentie",
+        "paragraphs": [
+          "Fluorescentie beschrijft de reactie van een diamant op ultraviolette straling. Het is niet automatisch een defect.",
+          "Het effect kan variëren afhankelijk van de sterkte, kleur en de individuele diamant. Kopers moeten de gemiddelde, sterke of zeer sterke fluorescentie beoordelen bij normaal licht en daglicht, in plaats van alleen op het etiket een beslissing te nemen.",
+          "Dit onderwerp wordt volledig behandeld in de speciale Diamond Fluorescentiegids."
+        ]
+      },
+      {
+        "title": "Behandelingen",
+        "paragraphs": [
+          "Sommige diamanten kunnen behandelingen ondergaan die bedoeld zijn om de kleur of helderheid te veranderen.",
+          "Elke gedetecteerde behandeling moet worden vermeld in geloofwaardige laboratoriumdocumentatie. Een behandelde natuurlijke diamant mag niet worden vergeleken met een onbehandelde natuurlijke diamant waarbij alleen de 4C’s worden gebruikt."
+        ]
+      },
+      {
+        "title": "Huidige toestand",
+        "paragraphs": [
+          "Een beoordelingsrapport registreert de diamant zoals deze was toen hij werd onderzocht.",
+          "Een diamant kan later worden afgebroken, geschuurd, gepolijst, opnieuw geslepen, behandeld of beschadigd tijdens het zetten of dragen. De huidige toestand kan daarom een ​​afzonderlijke inspectie vereisen."
+        ]
+      },
+      {
+        "title": "Natuurlijke of laboratoriumgekweekte identiteit",
+        "paragraphs": [
+          "De 4C’s bepalen niet of een diamant op natuurlijke wijze is gevormd of in een laboratorium is geproduceerd.",
+          "Zowel natuurlijke als in laboratorium gekweekte diamanten kunnen informatie over kleur, helderheid, slijpvorm en karaat ontvangen. In de identificatietekst van het rapport moet duidelijk worden vermeld welk type diamant is onderzocht.",
+          "Als u natuurlijke diamant koopt, bevestigt u dat het laboratoriumdocument de diamant expliciet als natuurlijk identificeert."
+        ]
+      }
+    ]
+  },
+  "qualityBalance": {
+    "id": "how-to-choose-the-right-quality-balance",
+    "title": "Hoe u de juiste diamantkwaliteitsbalans kiest",
+    "steps": [
+      {
+        "title": "Stap 1: Definieer het beoogde gebruik",
+        "paragraphs": [
+          "Begin met het juweelontwerp en hoe de diamant gedragen zal worden.",
+          "Een middensteen voor een verlovingsring kan andere visuele en duurzaamheidsoverwegingen hebben dan:"
+        ],
+        "bullets": [
+          "Diamanten studs",
+          "Een hanger",
+          "Een armband",
+          "Een ring met meerdere stenen",
+          "Een sieraad bedoeld om af en toe te dragen"
+        ]
+      },
+      {
+        "title": "Stap 2: Kies de vorm",
+        "paragraphs": [
+          "Vorm beïnvloedt:"
+        ],
+        "bullets": [
+          "Grootte naar boven gericht",
+          "Facetpatroon",
+          "Kleurzichtbaarheid",
+          "Zichtbaarheid van inclusie",
+          "Eisen stellen",
+          "Algemene uitstraling"
+        ],
+        "note": "Bepaal uw kleur- of helderheidsvoorkeuren niet voordat u de vorm in overweging neemt."
+      },
+      {
+        "title": "Stap 3: Bepaal een karaat- of maatbereik",
+        "paragraphs": [
+          "Bepaal of uw prioriteit is:"
+        ],
+        "bullets": [
+          "Een bepaalde karaatdrempel",
+          "Een specifieke zichtbare diameter",
+          "Een voorkeurslengte en -breedte",
+          "Een vereiste voor het zetten van sieraden",
+          "Een uitgebalanceerde combinatie van maat en kwaliteit"
+        ],
+        "note": "Gebruik millimetermetingen naast karaatgewicht."
+      },
+      {
+        "title": "Stap 4: Bescherm de lichtprestaties",
+        "paragraphs": [
+          "Voor standaard ronde briljant diamanten, bekijk de algemene informatie over de slijpkwaliteit en verhoudingen.",
+          "Voor mooie vormen kun je video's, omtrekken, facetpatronen, vlinderdas, vensters, spreiding, glans en symmetrie bekijken.",
+          "Geef niet veel zichtbare prestaties op om simpelweg een hogere karaatdrempel te bereiken."
+        ]
+      },
+      {
+        "title": "Stap 5: Selecteer een geschikt kleurbereik",
+        "paragraphs": [
+          "Vergelijk kleur met behulp van:"
+        ],
+        "bullets": [
+          "Bedoeld metaal",
+          "Diamantvorm",
+          "Diamantgrootte",
+          "Voorwaarden bekijken",
+          "De gevoeligheid van de koper voor warme of koele tonen"
+        ],
+        "note": "Een kleurkwaliteit die er geschikt uitziet in geelgoud, kan er in wit metaal anders uitzien."
+      },
+      {
+        "title": "Stap 6: Onderzoek de duidelijkheid visueel",
+        "paragraphs": [
+          "Gebruik de helderheidsgraad als filter en inspecteer vervolgens:"
+        ],
+        "bullets": [
+          "Inclusie locatie",
+          "Inclusie kleur",
+          "Zichtbaarheid zonder vergroting",
+          "Transparantie",
+          "Potentiële duurzaamheidsrelevantie",
+          "Duidelijke opmerkingen over het rapport"
+        ],
+        "note": "Betaal niet voor onzichtbare zeldzaamheid, tenzij die zeldzaamheid belangrijk is voor de koper."
+      },
+      {
+        "title": "Stap 7: Bekijk het volledige laboratoriumrapport",
+        "paragraphs": [
+          "Verifiëren:"
+        ],
+        "bullets": [
+          "Identificatie van natuurlijke diamanten",
+          "Rapportnummer",
+          "Afmetingen",
+          "Cijfers",
+          "Verhoudingen",
+          "Fluorescentie",
+          "Opmerkingen",
+          "Duidelijkheidskenmerken",
+          "Laserinscriptie, indien aanwezig"
+        ],
+        "note": "Gebruik de afzonderlijke Diamond Grading Report Guide voor een rapportverificatieproces per veld."
+      },
+      {
+        "title": "Stap 8: Vergelijk de werkelijke diamanten",
+        "paragraphs": [
+          "Vergelijk diamanten op de shortlist onder gelijkwaardige voorwaarden.",
+          "Gebruik waar mogelijk:"
+        ],
+        "bullets": [
+          "Consistente verlichting",
+          "Foto's met hoge resolutie",
+          "360 graden video",
+          "Vergrote beelden",
+          "Vergelijking naast elkaar",
+          "Onafhankelijke of professionele inspectie"
+        ]
+      },
+      {
+        "title": "Stap 9: Prijs pas vergelijken na kwaliteit",
+        "paragraphs": [
+          "Twee vermeldingen zijn niet echt vergelijkbaar, simpelweg omdat ze dezelfde karaat-, kleur- en helderheidsgraden delen.",
+          "Vergelijken:"
+        ],
+        "bullets": [
+          "Laboratorium",
+          "Rapporttype",
+          "Vorm",
+          "Afmetingen",
+          "Snee",
+          "Verhoudingen",
+          "Pools",
+          "Symmetrie",
+          "Fluorescentie",
+          "Duidelijkheidskenmerken",
+          "Transparantie",
+          "Behandelingsstatus",
+          "Beschikbaarheid",
+          "Transactievoorwaarden"
+        ]
+      }
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Vergelijking van de kwaliteit van bewerkte diamanten",
+    "introParagraph": "Beschouw twee hypothetische ronde briljante natuurlijke diamanten.",
+    "table": {
+      "caption": "Kwaliteitsvergelijking van bewerkte diamanten",
+      "headers": [
+        "Kenmerkend",
+        "Diamant A",
+        "Diamant B"
+      ],
+      "rows": [
+        [
+          "Karaat",
+          "1,00 ct",
+          "1,10 ct"
+        ],
+        [
+          "Kleur",
+          "G",
+          "H"
+        ],
+        [
+          "Helderheid",
+          "VS2",
+          "SI1"
+        ],
+        [
+          "Snee",
+          "Excellent",
+          "Very Good"
+        ],
+        [
+          "Pools",
+          "Excellent",
+          "Excellent"
+        ],
+        [
+          "Symmetrie",
+          "Excellent",
+          "Very Good"
+        ],
+        [
+          "Fluorescentie",
+          "None",
+          "Medium"
+        ],
+        [
+          "Rapport",
+          "Onafhankelijk beoordeeld",
+          "Onafhankelijk beoordeeld"
+        ]
+      ]
+    },
+    "chartShowsTitle": "Wat de grafiek laat zien",
+    "chartShowsParagraphs": [
+      "Diamant A heeft hogere kwaliteiten in slijpvorm, kleur, helderheid en symmetrie. Diamant B heeft een groter karaatgewicht.",
+      "Dat bepaalt niet automatisch welke diamant de voorkeur heeft.",
+      "De koper moet nog bepalen:"
+    ],
+    "chartShowsBullets": [
+      "Welke diamant heeft de betere face-up metingen?",
+      "Is de SI1-opname zichtbaar zonder vergroting?",
+      "Heeft de opname enige transparantie of duurzaamheidsrelevantie?",
+      "Hoe presteert Diamond B visueel ondanks zijn zeer goede slijpkwaliteit?",
+      "Heeft gemiddelde fluorescentie invloed op het uiterlijk van Diamant B?",
+      "Is het kleurverschil merkbaar in de beoogde omgeving?",
+      "Welke diamant biedt het gewenste evenwicht tegen de opgegeven prijs?"
+    ],
+    "closing": [
+      "Een koper die prioriteit geeft aan slijpprecisie geeft misschien de voorkeur aan Diamant A.",
+      "Een koper die prioriteit geeft aan zichtbare afmetingen kan Diamond B overwegen als deze een aantrekkelijk uiterlijk, geschikte afmetingen en acceptabele insluitsels heeft.",
+      "De kwaliteitskaart beperkt de beslissing. Het vervangt de inspectie niet."
+    ]
+  },
+  "rarityPriceValue": {
+    "id": "diamond-quality-rarity-price-value",
+    "title": "Diamantkwaliteit, zeldzaamheid, prijs en waarde",
+    "introParagraph": "Deze termen houden verband met elkaar, maar zijn niet identiek.",
+    "qualityTitle": "Kwaliteit",
+    "qualityParagraph": "Kwaliteit beschrijft kenmerken zoals slijpvorm, kleur en zuiverheid, samen met de afwerking en het uiterlijk van de diamant.",
+    "rarityTitle": "Zeldzaamheid",
+    "rarityParagraph": "Hogere cijfers en grotere karaatgewichten kunnen zeldzamer zijn. Zeldzaamheid kan bijdragen aan een hogere prijs, zelfs als het visuele verschil subtiel is.",
+    "priceTitle": "Prijs",
+    "priceParagraph": "Prijs is het bedrag dat bij een bepaalde transactie wordt gevraagd. Het kan worden beïnvloed door:",
+    "priceBullets": [
+      "Kwaliteit",
+      "Zeldzaamheid",
+      "Vorm",
+      "Karaat drempels",
+      "Marktomstandigheden",
+      "Leverancier",
+      "Beschikbaarheid",
+      "Certificering",
+      "Behandelingsstatus",
+      "Commerciële voorwaarden"
+    ],
+    "valueTitle": "Waarde",
+    "valueParagraph": "De waarde hangt af van het doel en de context waarin het wordt overwogen.",
+    "valueNote": "Aankoopprijs, vervangingswaarde en toekomstige verkoopwaarde zijn niet automatisch hetzelfde.",
+    "reportNote": "Een diamantbeoordelingsrapport stelt geen geldwaarde vast. Een kwaliteitskaart kan ook niet aangeven wat een bepaalde diamant zou moeten kosten zonder de volledige vergelijking van de steen en de huidige markt te onderzoeken.",
+    "highestGradeTitle": "Biedt de hoogste kwaliteit de beste waarde?",
+    "highestGradeParagraphs": [
+      "Niet altijd.",
+      "Een vlekkeloze diamant in D-kleur kan uiterst zeldzaam zijn, maar een andere koper geeft er misschien de voorkeur aan om meer budget toe te wijzen aan maat, vorm of slijpvorm, terwijl hij een lagere kleur of helderheidsgraad kiest.",
+      "De beste balans is de combinatie die:"
+    ],
+    "highestGradeBullets": [
+      "Voldoet aan de visuele verwachtingen van de koper",
+      "Beschikt over geloofwaardige documentatie",
+      "Is geschikt voor de beoogde sieraden",
+      "Vermijdt onaanvaardbare zorgen over transparantie of duurzaamheid",
+      "Is concurrerend geprijsd ten opzichte van werkelijk vergelijkbare diamanten",
+      "Past binnen het beschikbare budget"
+    ]
+  },
+  "checklist": {
+    "id": "natural-diamond-quality-checklist",
+    "title": "Kwaliteitscontrolelijst voor natuurlijke diamanten",
+    "introLead": "Bevestig vóór aankoop:",
+    "items": [
+      "De diamant is duidelijk herkenbaar als natuurlijk.",
+      "Het beoordelingsrapport is afkomstig van een geloofwaardig, onafhankelijk laboratorium.",
+      "Het rapportnummer is geverifieerd via het laboratorium van afgifte.",
+      "De vorm en snijstijl komen overeen met de aanbieding.",
+      "Karaatgewicht en afmetingen komen overeen.",
+      "Afmetingen naar boven zijn vergeleken.",
+      "De snijkwaliteit of het fraaie uiterlijk is geëvalueerd.",
+      "Tabel, diepgang en relevante verhoudingen zijn herzien.",
+      "Er is rekening gehouden met kleur in relatie tot vorm, maat en metaal.",
+      "Duidelijkheidskenmerken en opmerkingen zijn onderzocht.",
+      "Het zichtbare uiterlijk van de diamant is gecontroleerd.",
+      "De transparantie is beoordeeld.",
+      "Polijsten en symmetrie zijn herzien.",
+      "Er is rekening gehouden met fluorescentie.",
+      "Behandelingsgegevens zijn gecontroleerd.",
+      "De laserinscriptie komt overeen, indien aanwezig.",
+      "Er is rekening gehouden met de huidige fysieke conditie.",
+      "Foto's en video tonen de daadwerkelijke diamant.",
+      "De prijs is vergeleken met echt vergelijkbare diamanten.",
+      "Betalings-, inspectie-, leverings- en retourvoorwaarden zijn duidelijk."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "Vergelijkt u al natuurlijke diamanten?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A diamond quality chart can help you understand the grades, but the final decision should be based on the complete stone, its documentation, visual appearance, price and transaction conditions."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "With "
+        },
+        {
+          "type": "link",
+          "text": "S2S – Secure To Source",
+          "href": "/secure-to-source"
+        },
+        {
+          "type": "text",
+          "value": ", buyers who have already found a loose natural diamond can submit the shortlisted stone to Dalila Diamonds for applicable quality-control coordination, euro payment and scheduled delivery to Belgium or another confirmed European Union destination."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If you have not selected a stone, use "
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": " to request customised natural-diamond sourcing assistance."
+        }
+      ]
+    ],
+    "primaryButtonText": "Dien een diamant op de shortlist in",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Blader door natuurlijke diamanten",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Laatste afhaalmaaltijd",
+    "paragraphs": [
+      "De diamantkwaliteitstabel biedt kopers een gestructureerde manier om slijpvorm, kleur, helderheid en karaatgewicht te vergelijken, maar geen enkele individuele kwaliteit mag op zichzelf de aankoop bepalen.",
+      "Begin met de vorm en de beoogde sieraden. Bescherm de visuele prestaties van de diamant. Vergelijk kleur en helderheid op basis van wat werkelijk zichtbaar is. Controleer of het karaatgewicht de verwachte face-up-grootte creëert. Bekijk vervolgens de verhoudingen, fluorescentie, transparantie, documentatie, huidige staat en prijs.",
+      "Het doel is niet simpelweg om de diamant met de hoogste cijfers te kopen.",
+      "Het doel is om een ​​natuurlijke diamant te selecteren waarvan de volledige combinatie van kwaliteit, uiterlijk, documentatie en prijs zinvol is voor de koper."
+    ],
+    "primaryButtonText": "Gebruik Secure To Source",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Neem contact op met Dalila Diamanten",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "id": "frequently-asked-questions",
+    "title": "Veelgestelde vragen over diamantkwaliteit",
+    "items": [
+      {
+        "question": "Wat is een diamantkwaliteitsgrafiek?",
+        "answer": "Een diamantkwaliteitskaart organiseert de erkende schalen die worden gebruikt om slijpvorm, kleur, helderheid en karaatgewicht te beschrijven. Het helpt kopers de betekenis van verschillende kwaliteiten te begrijpen en natuurlijke diamanten consistenter te vergelijken."
+      },
+      {
+        "question": "Hoe wordt de diamantkwaliteit gemeten?",
+        "answer": "De kwaliteit van diamanten wordt voornamelijk beschreven aan de hand van slijpvorm, kleur, helderheid en karaatgewicht. Kopers moeten ook rekening houden met afmetingen, verhoudingen, glans, symmetrie, fluorescentie, transparantie, behandelingen en huidige staat."
+      },
+      {
+        "question": "Wat zijn de 4C’s van diamantkwaliteit?",
+        "answer": "De 4C's zijn snit, kleur, helderheid en karaatgewicht. Ze bieden een standaardkader voor het beschrijven en vergelijken van diamanten."
+      },
+      {
+        "question": "Welke van de 4C’s is het belangrijkst?",
+        "answer": "Er is geen universele bestelling voor elke aankoop. Snit heeft vaak een sterke invloed op de zichtbare helderheid en schittering, terwijl kleur, helderheid en karaat het uiterlijk, de zeldzaamheid en de prijs beïnvloeden. De beoogde vorm en het sieraadontwerp moeten de balans bepalen."
+      },
+      {
+        "question": "Wat is de hoogste diamantkleurgraad?",
+        "answer": "D is het hoogste cijfer op de normale D-tot-Z-kleurenschaal. Het vertegenwoordigt het kleurloze uiteinde van de schaal. Fancy-colour diamanten gebruiken een ander beoordelingssysteem."
+      },
+      {
+        "question": "Wordt G-kleur als goede kwaliteit beschouwd?",
+        "answer": "G valt binnen de bijna kleurloze categorie. Of het passend is, hangt af van de individuele diamant, de grootte, vorm, slijpvorm, het zettingsmetaal en de kleurgevoeligheid van de koper."
+      },
+      {
+        "question": "Wat is de beste diamanthelderheid?",
+        "answer": "Flawless is de hoogste GIA-helderheidsgraad, gevolgd door Internally Flawless. Veel diamanten met een lagere zuiverheid kunnen er echter schoon uitzien zonder vergroting en kunnen voor sommige kopers een geschikter evenwicht bieden."
+      },
+      {
+        "question": "Is VS2-helderheid oogschoon?",
+        "answer": "Veel VS2-diamanten kunnen er zonder vergroting schoon uitzien, maar de kwaliteit garandeert dit niet. Er moet rekening worden gehouden met het type opname, de positie, de kleur, de diamantgrootte en de kijkomstandigheden."
+      },
+      {
+        "question": "Is SI1-zuiverheid geschikt voor een natuurlijke diamant?",
+        "answer": "Een SI1-diamant kan geschikt zijn als de insluitsels er acceptabel uitzien en geen problemen met de transparantie of duurzaamheid veroorzaken. Elke SI1-diamant moet individueel worden beoordeeld."
+      },
+      {
+        "question": "Wat is de diamantgeslepen schaal?",
+        "answer": "Voor toepasselijke standaard ronde briljantdiamanten met GIA-beoordeling is de schaal Uitstekend, Zeer Goed, Goed, Redelijk en Slecht."
+      },
+      {
+        "question": "Waarom heeft mijn ovale diamant geen GIA-slijpgraad?",
+        "answer": "GIA's standaard algehele slijpkwaliteit is momenteel van toepassing op standaard ronde briljante diamanten in het D-tot-Z-kleurengamma. Ovale en andere fraaie vormen vereisen beoordeling van hun afmetingen, omtrek, facetpatroon, glans, symmetrie en visuele uitstraling."
+      },
+      {
+        "question": "Is karaat een maat voor de diamantgrootte?",
+        "answer": "Karaat meet het gewicht. De zichtbare grootte hangt af van de vorm, afmetingen, diepte, gordel en gewichtsverdeling van de diamant."
+      },
+      {
+        "question": "Kan een kleinere diamant er groter uitzien dan een zwaardere diamant?",
+        "answer": "Ja. Een goed geproportioneerde of langwerpige diamant kan er met de voorkant groter uitzien dan een zwaardere diamant die meer gewicht in de diepte behoudt."
+      },
+      {
+        "question": "Betekent een groter karaat een betere kwaliteit?",
+        "answer": "Nee. Een grotere diamant kan een lagere slijp-, kleur- of helderheidsgraad hebben. Naast de andere kwaliteitskenmerken moet ook rekening worden gehouden met het karaatgewicht."
+      },
+      {
+        "question": "Kunnen twee diamanten met dezelfde 4C’s er anders uitzien?",
+        "answer": "Ja. Ze kunnen verschillen in exacte verhoudingen, insluitingslocaties, fluorescentie, transparantie, facetpatroon, zichtbare verspreiding en huidige toestand."
+      },
+      {
+        "question": "Garandeert een Excellent-slijpkwaliteit maximale schittering?",
+        "answer": "Excellent is de hoogste GIA-slijpklasse voor toepasselijke ronde briljante diamanten, maar diamanten binnen deze categorie kunnen nog steeds verschillende verhoudingen en uiterlijkpatronen hebben. De eigenlijke steen moet worden onderzocht."
+      },
+      {
+        "question": "Vermindert fluorescentie de diamantkwaliteit?",
+        "answer": "Niet automatisch. Fluorescentie is een identificerend kenmerk. Het praktische effect hangt af van de sterkte, kleur en het uiterlijk van de individuele diamant onder verschillende lichtomstandigheden."
+      },
+      {
+        "question": "Kunnen de 4C’s bewijzen dat een diamant natuurlijk is?",
+        "answer": "Nee. In een laboratorium gekweekte diamanten kunnen ook een 4Cs-kwaliteit krijgen. In het laboratoriumrapport moet duidelijk worden vermeld of de onderzochte diamant natuurlijk of in een laboratorium is gekweekt."
+      },
+      {
+        "question": "Laat een diamantkwaliteitsgrafiek zien wat een diamant waard is?",
+        "answer": "Nee. In het diagram worden de kwaliteitsschalen uitgelegd. Monetaire waarde vereist onderzoek van de volledige diamant, relevante marktvergelijkingen en het doel van de taxatie."
+      },
+      {
+        "question": "Wat is een diamant van goede kwaliteit voor het geld?",
+        "answer": "Een diamant van goede kwaliteit voor het geld is een diamant die er aantrekkelijk uitziet, een acceptabele kleur en helderheid heeft, zijn karaatgewicht effectief gebruikt, geloofwaardige documentatie bevat en concurrerend geprijsd is ten opzichte van werkelijk vergelijkbare stenen. Er bestaat niet één cijfercombinatie die bij iedere koper past."
+      },
+      {
+        "question": "Moet ik een hogere helderheid of een grotere karaat kiezen?",
+        "answer": "Dat hangt ervan af of de diamant met een lagere helderheid zichtbare of significante insluitsels heeft. Als het er schoon uitziet en geen verontrustende kenmerken vertoont, geven sommige kopers er misschien de voorkeur aan om een ​​groter deel van hun budget aan maatvoering of snit toe te wijzen."
+      },
+      {
+        "question": "Moet ik kiezen voor D-kleur of Excellent-snit?",
+        "answer": "Deze cijfers beschrijven verschillende kenmerken. Een hogere kleurkwaliteit kan zwakke lichtprestaties niet corrigeren. Vergelijk de volledige diamanten en beslis welk visueel verschil voor u het belangrijkst is."
+      },
+      {
+        "question": "Is een beoordelingsrapport voldoende om de diamantkwaliteit te beoordelen?",
+        "answer": "Nee. Een beoordelingsrapport biedt essentiële technische informatie, maar er moet ook rekening worden gehouden met foto's, video, fysieke inspectie, transparantie, huidige staat, prijs en betrouwbaarheid van de verkoper."
+      }
+    ]
+  }
+}

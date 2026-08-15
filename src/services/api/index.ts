@@ -138,6 +138,7 @@ export {
 export {
   getAllBlogs,
   getBlogById,
+  getBlogByBaseSlugAndLanguage,
   createBlog,
   updateBlog,
   deleteBlog,

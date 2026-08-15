@@ -1,11 +1,15 @@
 import { cache } from 'react';
 import { getBlogSlug } from '@/utils/helpers';
+import type { BlogLanguage } from '@/lib/blogLanguages';
+import { s3Asset } from "@/lib/s3Assets";
 
 export type BackendBlog = {
   _id?: string;
   title: string;
   h2Subtitle?: string;
   customSlug?: string;
+  language?: BlogLanguage;
+  translationGroupId?: string;
   metaTitle?: string;
   metaDescription?: string;
   description?: string;
@@ -22,7 +26,8 @@ type BlogsApiResponse = {
 export const SITE_BASE_URL = 'https://www.daliladiamonds.com';
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || 'https://dalila-inventory-service-dev.caratlogic.com';
-export const DEFAULT_BLOG_IMAGE = `${SITE_BASE_URL}/dalila_img/Dalila_Logo.png`;
+export const DEFAULT_BLOG_IMAGE =
+  s3Asset("/dalila_img/Dalila_Logo.png");
 export const DEFAULT_BLOG_DESCRIPTION =
   'Read our latest insights about diamonds and the diamond industry.';
 
@@ -43,16 +48,23 @@ export function blogToSlug(blog: Pick<BackendBlog, 'title' | 'customSlug'>): str
 }
 
 // Revalidation window (seconds) for cached blog reads. Admin create/edit/delete
-// busts these immediately via revalidatePath() in app/blogs/actions.ts.
-const BLOG_REVALIDATE_SECONDS = 300;
+// busts these immediately via revalidatePath() in app/blogs/actions.ts, so a
+// long window costs nothing in freshness — it only bounds how often crawler
+// traffic re-triggers the per-language list fetches.
+const BLOG_REVALIDATE_SECONDS = 3600;
 
-export const getAllBlogs = cache(async (): Promise<BackendBlog[]> => {
+export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<BackendBlog[]> => {
   try {
     const response = await fetch(
-      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
+      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc&language=${language}`,
       // The list endpoint omits the article body, so the payload is small and
       // safe to cache. Full content is fetched per-blog in getBlogById.
-      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
+      // The timeout bounds billed SSR wall-clock when the backend stalls;
+      // normal responses take ~2s.
+      {
+        next: { revalidate: BLOG_REVALIDATE_SECONDS },
+        signal: AbortSignal.timeout(8000),
+      },
     );
 
     if (!response.ok) {
@@ -70,6 +82,7 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   try {
     const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
       next: { revalidate: BLOG_REVALIDATE_SECONDS },
+      signal: AbortSignal.timeout(8000),
     });
 
     if (!response.ok) {
@@ -83,9 +96,12 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   }
 });
 
-export const getBlogBySlug = cache(async (slug: string): Promise<BackendBlog | null> => {
+export const getBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage = 'en',
+): Promise<BackendBlog | null> => {
   const target = normalizeSlug(slug);
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs(language);
   const match = blogs.find((blog) => blogToSlug(blog) === target);
   if (!match?._id) {
     return match ?? null;
@@ -95,4 +111,49 @@ export const getBlogBySlug = cache(async (slug: string): Promise<BackendBlog | n
   // full document by id so the detail page has the article body.
   const full = await getBlogById(match._id);
   return full ?? match;
+});
+
+export type LocalizedBlogResult = {
+  blog: BackendBlog | null;
+  /** True when the requested language had no translation and English is shown. */
+  isFallback: boolean;
+  /** The language actually served. */
+  language: BlogLanguage;
+};
+
+/**
+ * Resolve an article for a locale, falling back to the English version when
+ * that language has no translation yet. Without this, every untranslated
+ * article would hard-404 on all non-English locales.
+ */
+export const getLocalizedBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage = 'en',
+): Promise<LocalizedBlogResult> => {
+  const localized = await getBlogBySlug(slug, language);
+  if (localized) {
+    return { blog: localized, isFallback: false, language };
+  }
+
+  if (language === 'en') {
+    return { blog: null, isFallback: false, language };
+  }
+
+  const english = await getBlogBySlug(slug, 'en');
+  return {
+    blog: english,
+    isFallback: Boolean(english),
+    language: 'en',
+  };
+});
+
+/** Blog list for a locale, falling back to English when nothing is translated. */
+export const getLocalizedBlogList = cache(async (
+  language: BlogLanguage = 'en',
+): Promise<BackendBlog[]> => {
+  const blogs = await getAllBlogs(language);
+  if (blogs.length > 0 || language === 'en') {
+    return blogs;
+  }
+  return getAllBlogs('en');
 });

@@ -2,18 +2,10 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
-import {  Marcellus} from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
+import { s3Asset } from "@/lib/s3Assets";
 
 interface ImagePopupProps {
   isOpen: boolean;
@@ -92,16 +84,16 @@ export default function DiamondShapes() {
   };
 
   const shapes = [
-    { name: getShapeName("Round"), image: "/DiamondsinBlubg/Round.jpg" },
-    { name: getShapeName("Oval"), image: "/DiamondsinBlubg/Oval.jpg" },
-    { name: getShapeName("Pear"), image: "/DiamondsinBlubg/Pear.jpg" },
-    { name: getShapeName("Emerald"), image: "/DiamondsinBlubg/Emerald.jpg" },
-    { name: getShapeName("Heart"), image: "/DiamondsinBlubg/Heart.jpg" },
-    { name: getShapeName("Cushion"), image: "/DiamondsinBlubg/Cushion.jpg" },
-    { name: getShapeName("Asscher"), image: "/DiamondsinBlubg/Asscher.jpg" },
-    { name: getShapeName("Radiant"), image: "/DiamondsinBlubg/Radiant.jpg" },
-    { name: getShapeName("Princess"), image: "/DiamondsinBlubg/Princess.jpg" },
-    { name: getShapeName("Marquise"), image: "/DiamondsinBlubg/Marquise.jpg" },
+    { name: getShapeName("Round"), image: s3Asset("/DiamondsinBlubg/Round.jpg") },
+    { name: getShapeName("Oval"), image: s3Asset("/DiamondsinBlubg/Oval.jpg") },
+    { name: getShapeName("Pear"), image: s3Asset("/DiamondsinBlubg/Pear.jpg") },
+    { name: getShapeName("Emerald"), image: s3Asset("/DiamondsinBlubg/Emerald.jpg") },
+    { name: getShapeName("Heart"), image: s3Asset("/DiamondsinBlubg/Heart.jpg") },
+    { name: getShapeName("Cushion"), image: s3Asset("/DiamondsinBlubg/Cushion.jpg") },
+    { name: getShapeName("Asscher"), image: s3Asset("/DiamondsinBlubg/Asscher.jpg") },
+    { name: getShapeName("Radiant"), image: s3Asset("/DiamondsinBlubg/Radiant.jpg") },
+    { name: getShapeName("Princess"), image: s3Asset("/DiamondsinBlubg/Princess.jpg") },
+    { name: getShapeName("Marquise"), image: s3Asset("/DiamondsinBlubg/Marquise.jpg") },
   ];
 
   const handleShapeClick = (shape: { name: string; image: string }) =>

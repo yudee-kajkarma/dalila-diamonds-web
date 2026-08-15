@@ -1,30 +1,26 @@
 "use client";
 import Image from "next/image";
-import { Marcellus } from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
 export default function CertifiedBy() {
   const { dictionary } = useLanguage();
   const certifications = [
     {
       name: "IGI",
-      image: "/dalila_img/client/client_1.png",
+      image: s3Asset("/dalila_img/client/client_1.png"),
       size: { width: 180, height: 100 },
     },
     {
       name: "GIA",
-      image: "/dalila_img/client/client_2.png",
+      image: s3Asset("/dalila_img/client/client_2.png"),
       size: { width: 150, height: 85 },
     },
     {
       name: "HRD",
-      image: "/dalila_img/client/client_3.png",
+      image: s3Asset("/dalila_img/client/client_3.png"),
       size: { width: 260, height: 140 },
     },
   ];

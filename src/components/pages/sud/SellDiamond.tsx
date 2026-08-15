@@ -1,22 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["300", "400", "500", "600", "700", "800"],
-    display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function SellDiamondsProcess() {
     const { dictionary } = useLanguage();
@@ -28,7 +16,7 @@ export default function SellDiamondsProcess() {
             heading: dictionary?.sud?.step1Heading || "Begin with a Simple Step",
             description:
                 dictionary?.sud?.step1Desc || "Share a few details in our online form about your diamond or jewellery. It takes just a moment and begins the process of receiving a professional valuation.",
-            image: "/sell/step_1.png",
+            image: s3Asset("/sell/step_1.png"),
             imagePosition: "left",
         },
         {
@@ -37,7 +25,7 @@ export default function SellDiamondsProcess() {
             heading: dictionary?.sud?.step2Heading || "Visit Us Personally, or Let Us Collect It Securely",
             description:
                 dictionary?.sud?.step2Desc || "Meet us at one of our trusted locations for a private evaluation. Prefer not to travel? We can arrange a fully insured, secure courier pickup from anywhere in Europe. Your diamond stays protected, discreetly handled, and always in expert hands.",
-            image: "/sell/step_2.png",
+            image: s3Asset("/sell/step_2.png"),
             imagePosition: "right",
         },
         {
@@ -46,7 +34,7 @@ export default function SellDiamondsProcess() {
             heading: dictionary?.sud?.step3Heading || "Certified Experts You Can Trust",
             description:
                 dictionary?.sud?.step3Desc || "Our GIA-certified gemologists and jewellery specialists carefully assess your diamonds using the 4Cs, global market data and strict valuation standards ensuring an accurate, reliable price.",
-            image: "/sell/step_3.png",
+            image: s3Asset("/sell/step_3.png"),
             imagePosition: "left",
         },
         {
@@ -55,7 +43,7 @@ export default function SellDiamondsProcess() {
             heading: dictionary?.sud?.step4Heading || "Fair & Transparent Offers.",
             description:
                 dictionary?.sud?.step4Desc || "Once we’ve evaluated your diamonds, we present you with a clear, competitive offer that reflects their true value, based on current global diamond and gold market conditions",
-            image: "/sell/step_4.png",
+            image: s3Asset("/sell/step_4.png"),
             imagePosition: "right",
         },
         {
@@ -64,7 +52,7 @@ export default function SellDiamondsProcess() {
             heading: dictionary?.sud?.step5Heading || "Receive Your Payment Within 24 Hours",
             description:
                 dictionary?.sud?.step5Desc || "Once you accept our offer, we process your payment within 24 hours via secure bank transfer, ensuring a smooth and reliable conclusion to your sale.",
-            image: "/sell/recieve_your_payment.png",
+            image: s3Asset("/sell/recieve_your_payment.png"),
             imagePosition: "left",
         },
     ];

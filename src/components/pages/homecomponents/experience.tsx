@@ -1,14 +1,9 @@
 "use client";
 import { useEffect, useRef } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-import { Marcellus } from "next/font/google";
+import { marcellus } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
+import { videoUrl } from "@/lib/videoAssets";
 
 export default function DiamondExperience() {
   const { dictionary } = useLanguage();
@@ -65,7 +60,8 @@ export default function DiamondExperience() {
                       muted
                       playsInline
                       className="w-full h-full object-cover"
-                      src="/images/FALLING_diam.mp4"
+                      src={videoUrl("fallingDiam")}
+                      preload="metadata"
                       style={{
                         width: "100%",
                         height: "100%",

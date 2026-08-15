@@ -1,0 +1,2886 @@
+{
+  "meta": {
+    "title": "Guía de faja de diamante: espesor y grados | Diamantes Dalila",
+    "description": "Conozca qué es una faja de diamantes, cómo GIA y HRD clasifican su espesor y cómo las fajas finas o gruesas afectan la durabilidad, el tamaño, el ajuste y el valor.",
+    "canonical": "https://www.daliladiamonds.com/resources/diamond-girdle-guide",
+    "dateModified": "2026-07-30"
+  },
+  "urls": {
+    "giaAnatomy": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+    "giaFinishGirdle": "https://4cs.gia.edu/en-us/diamond-cut/",
+    "giaChipping": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+    "giaOval": "https://4cs.gia.edu/en-us/oval-cut-diamond/",
+    "giaInclusions": "https://4cs.gia.edu/en-us/diamond-clarity/",
+    "giaInscription": "https://4cs.gia.edu/en-us/diamond-quality-factor/",
+    "giaLabGrown": "https://www.gia.edu/gia-lab-grown-diamond-reports",
+    "hrdCutGrade": "https://www.hrdantwerp.com/"
+  },
+  "banner": {
+    "title": "Guía de faja de diamantes",
+    "breadcrumbHome": "Hogar",
+    "breadcrumbResources": "Recursos",
+    "breadcrumbCurrent": "Guía de faja de diamantes",
+    "imageAlt": "Banner de recursos de Diamond Girdle Guide para compradores de diamantes naturales"
+  },
+  "hero": {
+    "title": "Guía de faja de diamantes para compradores de diamantes naturales",
+    "subheading": "Comprenda el espesor de la faja de diamante, la clasificación GIA y HRD, la durabilidad, las consideraciones de configuración, el peso oculto, el daño de la faja y la diferencia entre fajas delgadas, medianas y gruesas.",
+    "reviewDateLabel": "Última revisión:",
+    "reviewDate": "30 de julio de 2026"
+  },
+  "introduction": {
+    "paragraphs": [],
+    "bullets": []
+  },
+  "quickAnswer": {
+    "title": "Respuesta rápida",
+    "introParagraphs": [
+      "El cinturón es el estrecho borde exterior de un diamante pulido donde la corona se encuentra con el pabellón. Define el contorno del diamante y normalmente proporciona el área sujeta por las puntas, un bisel u otro engaste de joyería.",
+      "Para muchos diamantes naturales modernos, una faja fina, media o ligeramente gruesa, o un rango razonable entre estas categorías, suele ser práctica. Una faja extremadamente delgada o muy delgada puede aumentar la vulnerabilidad al astillamiento, particularmente cerca de las esquinas y las puntas. Una faja Muy Gruesa o Extremadamente Gruesa puede retener peso sin aumentar el tamaño visible del diamante boca arriba.",
+      "La descripción de la faja no debe valorarse sola. Los compradores deben considerar dónde se encuentran las secciones delgadas y gruesas, la forma, el engaste, las medidas, la simetría, la condición, el rendimiento de corte completo y el precio del diamante."
+    ],
+    "attributes": [],
+    "closingParagraphs": []
+  },
+  "keyTakeaways": {
+    "title": "Conclusiones clave",
+    "items": [
+      "El cinturón es el perímetro exterior que separa la corona del diamante de su pabellón.",
+      "El espesor de la cintura normalmente se informa como un rango desde las áreas relevantes más delgadas hasta las más gruesas.",
+      "GIA utiliza ocho descripciones verbales, desde Extremadamente delgada hasta Extremadamente gruesa.",
+      "Un rango como Delgada a Ligeramente gruesa no significa que toda la faja tenga un grosor uniforme.",
+      "Las fajas delgadas, medianas y ligeramente gruesas son comúnmente aceptables, pero no existe una mejor descripción universal para cada diamante.",
+      "Las áreas extremadamente delgadas pueden aumentar el riesgo de astillas, especialmente en esquinas, puntos y posiciones expuestas.",
+      "Las fajas gruesas pueden contener peso que no contribuye significativamente al tamaño boca arriba.",
+      "Una faja gruesa no significa automáticamente que el diamante esté mal cortado o sea poco atractivo.",
+      "Facetado, pulido y bruñido describen el acabado de la faja, no su grosor.",
+      "Una faja facetada no es automáticamente mejor que una faja pulida o bruta.",
+      "Pintar y excavar describen variaciones creadas por la relación entre las facetas de la mitad superior e inferior alrededor de la faja.",
+      "Las astillas, las caries, las piezas naturales, las piezas naturales dentadas y la barba no deben confundirse con el grosor de una faja ordinaria.",
+      "Una inscripción láser en el cinturón puede ayudar a hacer coincidir un diamante con su informe, pero no es una identificación suficiente por sí sola.",
+      "Las formas extravagantes requieren atención especial en las esquinas y puntos vulnerables.",
+      "El grosor de la faja no puede demostrar que un diamante sea natural y no cultivado en laboratorio.",
+      "El precio debe basarse en el diamante completo, no en un descuento o prima de faja fija."
+    ]
+  },
+  "importantBuyerNote": {
+    "id": "important-buyer-note",
+    "title": "Nota importante para el comprador",
+    "paragraphs": [
+      "Esta guía explica cómo se describen y evalúan las fajas. No reemplaza el examen del diamante real por parte de un gemólogo calificado o un profesional experimentado en diamantes.",
+      "Un informe de calificación describe el diamante cuando fue examinado. No garantiza que la faja se haya mantenido intacta desde que se emitió el informe."
+    ]
+  },
+  "overviewNav": {
+    "title": "Descripción general de la guía",
+    "items": [
+      {
+        "id": "what-is-a-diamond-girdle",
+        "label": "¿Qué es una faja de diamantes?"
+      },
+      {
+        "id": "where-the-girdle-is-located",
+        "label": "donde se ubica la faja"
+      },
+      {
+        "id": "what-the-girdle-does",
+        "label": "Que hace la faja"
+      },
+      {
+        "id": "gia-diamond-girdle-scale",
+        "label": "Escala de faja de diamantes GIA"
+      },
+      {
+        "id": "how-girdle-ranges-are-reported",
+        "label": "Cómo se informan los rangos de faja"
+      },
+      {
+        "id": "diamond-girdle-percentages",
+        "label": "Porcentajes de la faja diamantina"
+      },
+      {
+        "id": "hrd-antwerp-girdle-measurements",
+        "label": "Medidas de la faja HRD Amberes"
+      },
+      {
+        "id": "gia-versus-hrd-girdle-reporting",
+        "label": "Informes de faja GIA versus HRD"
+      },
+      {
+        "id": "best-girdle-thickness-for-a-diamond",
+        "label": "El mejor grosor de faja para un diamante."
+      },
+      {
+        "id": "thin-and-extremely-thin-girdles",
+        "label": "Fajas delgadas y extremadamente delgadas"
+      },
+      {
+        "id": "thick-and-extremely-thick-girdles",
+        "label": "Fajas gruesas y extremadamente gruesas"
+      },
+      {
+        "id": "uneven-and-varying-girdles",
+        "label": "Fajas desiguales y variadas"
+      },
+      {
+        "id": "faceted-polished-and-bruted-girdles",
+        "label": "Fajas facetadas, pulidas y bruñidas"
+      },
+      {
+        "id": "painting-and-digging-out",
+        "label": "Pintar y excavar"
+      },
+      {
+        "id": "girdle-damage-and-clarity-characteristics",
+        "label": "Características de claridad y daño de la faja."
+      },
+      {
+        "id": "laser-inscriptions-on-the-girdle",
+        "label": "Inscripciones láser en la faja."
+      },
+      {
+        "id": "girdles-in-different-diamond-shapes",
+        "label": "Fajas en diferentes formas de rombos."
+      },
+      {
+        "id": "girdle-thickness-and-jewellery-settings",
+        "label": "Grosor de faja y engastes de joyería."
+      },
+      {
+        "id": "girdle-thickness-face-up-size-and-price",
+        "label": "Grosor de faja, tamaño boca arriba y precio."
+      },
+      {
+        "id": "natural-versus-laboratory-grown-diamond-girdles",
+        "label": "Fajas de diamantes naturales versus cultivadas en laboratorio"
+      },
+      {
+        "id": "how-to-inspect-a-diamond-girdle",
+        "label": "Cómo inspeccionar un cinturón de diamantes"
+      },
+      {
+        "id": "worked-diamond-comparison",
+        "label": "Comparación de diamantes trabajados"
+      },
+      {
+        "id": "common-girdle-myths",
+        "label": "Mitos comunes sobre las fajas"
+      },
+      {
+        "id": "natural-diamond-buying-checklist",
+        "label": "Lista de verificación para la compra de diamantes naturales"
+      },
+      {
+        "id": "girdle-guide-faq-heading",
+        "label": "Preguntas frecuentes"
+      }
+    ]
+  },
+  "whatIs": {
+    "id": "what-is-a-diamond-girdle",
+    "title": "¿Qué es una faja de diamantes?",
+    "introParagraphs": [
+      "El cinturón es el perímetro estrecho alrededor de un diamante pulido donde se unen la corona superior y el pabellón inferior.",
+      "Visto desde arriba, el cinturón define el contorno del diamante. Determina si la piedra pulida aparece:"
+    ],
+    "bullets": [
+      "Redondo",
+      "Oval",
+      "Cuadrado",
+      "Rectangular",
+      "En forma de pera",
+      "En forma de marquesa",
+      "En forma de corazón",
+      "En forma de cojín",
+      "Otro esquema reconocido"
+    ],
+    "closingParagraphs": [
+      "Visto de lado, el cinturón aparece como el borde divisorio entre la corona y el pabellón."
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA describe la faja como la porción media del diamante y la parte que normalmente se usa como borde de engaste. Su espesor contribuye a la durabilidad y distribución del peso."
+        },
+        {
+          "type": "link",
+          "text": "La referencia de anatomía del diamante del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explica su posición dentro del diamante pulido completo."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Para el punto del pabellón opuesto a la mesa, consulte la"
+        },
+        {
+          "type": "link",
+          "text": "Guía de culet de diamantes",
+          "href": "/resources/diamond-culet-guide"
+        },
+        {
+          "type": "text",
+          "value": ". Para escalas de calidad más amplias, consulte la"
+        },
+        {
+          "type": "link",
+          "text": "Tabla de calidad del diamante",
+          "href": "/resources/diamond-quality-chart"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-girdle-a-facet",
+        "title": "¿Es la faja una faceta?",
+        "paragraphsBefore": [
+          "No necesariamente.",
+          "La faja puede ser:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Pulido pero no facetado individualmente",
+          "Brutado o helado",
+          "parcialmente facetado",
+          "Acabado irregular"
+        ],
+        "paragraphsAfter": [
+          "Una faja facetada contiene una secuencia de pequeñas superficies pulidas. Una faja pulida puede ser lisa en lugar de estar dividida en facetas individuales. Una faja bruta generalmente tiene una apariencia esmerilada o granular creada durante el proceso de modelado."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-crown",
+        "title": "¿La faja es igual que la corona?",
+        "paragraphsBefore": [
+          "No.",
+          "La corona es la porción superior completa del diamante por encima del cinturón. El cinturón forma el límite debajo de él."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-the-pavilion",
+        "title": "¿La Faja es Igual que el Pabellón?",
+        "paragraphsBefore": [
+          "No.",
+          "El pabellón es la porción inferior debajo de la faja, extendiéndose hacia el culet u otra terminación del pabellón."
+        ]
+      },
+      {
+        "id": "is-the-girdle-the-same-as-a-lower-girdle-facet",
+        "title": "¿Es la faja lo mismo que una faceta de la cintura inferior?",
+        "paragraphsBefore": [
+          "No.",
+          "Las facetas de la cintura inferior, también llamadas facetas de la mitad inferior, son facetas de pabellón que se extienden hacia arriba, hacia la cintura. No son la faja en sí."
+        ]
+      }
+    ]
+  },
+  "whereLocated": {
+    "id": "where-the-girdle-is-located",
+    "title": "¿Dónde se ubica la faja?",
+    "introParagraphs": [
+      "Las partes principales de un Brillante Redondo pulido son:"
+    ],
+    "bullets": [
+      "Mesa",
+      "Corona",
+      "Faja",
+      "Pabellón",
+      "Punto culet o pabellón"
+    ],
+    "closingParagraphs": [
+      "La mesa se encuentra en la parte superior. La corona desciende desde la mesa hasta la faja. El pabellón continúa bajo la faja hacia el culet.",
+      "La faja rodea todo el diamante de forma horizontal.",
+      "En un diamante montado, las partes de la faja pueden ser:"
+    ],
+    "positionBullets": [
+      "Cubierto por puntas",
+      "Cerrado por un bisel",
+      "Oculto por un halo o metal circundante.",
+      "Visible entre los puntos de ajuste",
+      "Colocado encima o debajo de las joyas circundantes.",
+      "Difícil de inspeccionar sin quitar o ajustar la configuración"
+    ],
+    "finalParagraphs": [
+      "Una inspección completa debe tener en cuenta las áreas ocultas por el metal."
+    ],
+    "displacedBullets": [],
+    "closingNote": []
+  },
+  "whatDoes": {
+    "id": "what-the-girdle-does",
+    "title": "¿Qué hace la faja de diamantes?",
+    "introParagraphs": [
+      "La faja tiene varias funciones relacionadas."
+    ],
+    "subsections": [
+      {
+        "id": "defines-the-diamonds-outline",
+        "title": "Define el contorno del diamante.",
+        "paragraphsBefore": [
+          "La faja establece la forma visible cuando el diamante se mira boca arriba.",
+          "Las variaciones en el esquema pueden afectar:"
+        ],
+        "bullets": [
+          "Redondez",
+          "Relación largo-ancho",
+          "Forma de esquina",
+          "Alineación de puntos",
+          "equilibrio de hombros",
+          "Forma de ala",
+          "Simetría general"
+        ]
+      },
+      {
+        "id": "separates-the-crown-and-pavilion",
+        "title": "Separa la Corona y el Pabellón",
+        "paragraphsBefore": [
+          "La faja forma la transición entre las secciones superior e inferior del diamante.",
+          "Su espesor contribuye a:"
+        ],
+        "bullets": [
+          "Profundidad total",
+          "Distribución de peso",
+          "Durabilidad",
+          "Idoneidad del entorno",
+          "Dimensiones boca arriba"
+        ]
+      },
+      {
+        "id": "provides-the-setting-edge",
+        "title": "Proporciona la ventaja de configuración",
+        "paragraphsBefore": [
+          "Las puntas, los biseles y otros componentes de montaje normalmente sujetan el diamante alrededor de su cinturón.",
+          "Por esa razón, los colocadores deben considerar:"
+        ],
+        "bullets": [
+          "Grosor mínimo de faja",
+          "Variación de espesor",
+          "Esquinas y puntos",
+          "chips existentes",
+          "Naturales y caries",
+          "Ubicaciones de plumas",
+          "Acabado de faja",
+          "Si una inscripción debe permanecer visible",
+          "La presión necesaria para asegurar la piedra."
+        ]
+      },
+      {
+        "id": "protects-the-diamonds-edge",
+        "title": "Protege el filo del diamante",
+        "paragraphsBefore": [
+          "Una faja adecuadamente proporcionada proporciona material entre la corona y el pabellón.",
+          "Si la faja se vuelve extremadamente delgada o tiene el borde de un cuchillo, el borde puede ser más vulnerable a astillarse. Si es innecesariamente grueso, puede retener un peso que contribuye poco a la extensión visible del diamante."
+        ]
+      }
+    ]
+  },
+  "giaScale": {
+    "id": "gia-diamond-girdle-scale",
+    "title": "Báscula de faja de diamante GIA",
+    "introParagraphs": [
+      "GIA utiliza las siguientes descripciones de espesor de faja:"
+    ],
+    "table": {
+      "caption": "Descripciones del espesor de la faja GIA",
+      "headers": [
+        "descripción del GIA",
+        "Interpretación general",
+        "Enfoque práctico del comprador"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "Poca o ninguna faja medible en una o más zonas relevantes",
+          "Investigar la ubicación, extensión, durabilidad y riesgo de establecimiento."
+        ],
+        [
+          "muy delgado",
+          "Hay áreas de cintura estrecha",
+          "Determinar si son localizados o extensos y si se ven afectados puntos o esquinas."
+        ],
+        [
+          "Delgado",
+          "Una faja relativamente estrecha pero establecida.",
+          "Frecuentemente aceptable cuando no está dañado y es apropiado para la forma."
+        ],
+        [
+          "Medium",
+          "Grosor medio equilibrado",
+          "Comúnmente práctico para mayor durabilidad y distribución del peso."
+        ],
+        [
+          "Slightly Thick",
+          "Espesor moderadamente aumentado",
+          "A menudo es aceptable si las dimensiones y proporciones boca arriba siguen siendo atractivas."
+        ],
+        [
+          "Grueso",
+          "Grosor de la faja notablemente aumentado.",
+          "Compare el peso, el diámetro, la profundidad y la apariencia boca arriba"
+        ],
+        [
+          "Very Thick",
+          "Espesor sustancial en una o más áreas.",
+          "Verifique el peso oculto, la reducción de la dispersión y las implicaciones del fraguado."
+        ],
+        [
+          "Extremely Thick",
+          "Grosor de faja muy sustancial.",
+          "Requiere una comparación cuidadosa de la eficiencia del peso, las proporciones y la apariencia."
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA evalúa visualmente el grosor de la faja con un aumento de 10x e informa una descripción única o un rango. Su escala completa y metodología de medición se proporcionan en el"
+        },
+        {
+          "type": "link",
+          "text": "Acabado GIA, referencia de culet y faja.",
+          "href": "https://4cs.gia.edu/en-us/diamond-cut/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-the-gia-scale-a-quality-scale",
+        "title": "¿Es la escala GIA una escala de calidad?",
+        "paragraphsBefore": [
+          "No por sí solo.",
+          "Los términos describen el espesor. Su importancia de compra depende de:"
+        ],
+        "bullets": [
+          "Espesor mínimo",
+          "Espesor máximo",
+          "Ubicación de cada extremo",
+          "forma de diamante",
+          "Vulnerabilidad de esquinas y puntos",
+          "Condición de faja",
+          "Proporciones generales",
+          "Relación de peso",
+          "Simetría",
+          "Configuración",
+          "Apariencia boca arriba"
+        ],
+        "paragraphsAfter": [
+          "La media no es automáticamente superior a toda faja Delgada o Ligeramente Gruesa. De manera similar, un área muy gruesa no hace que un diamante sea inadecuado automáticamente."
+        ]
+      },
+      {
+        "id": "can-gia-report-a-single-description",
+        "title": "¿Puede el GIA informar una descripción única?",
+        "paragraphsBefore": [
+          "Sí.",
+          "Si las áreas relevantes de la faja más delgadas y más gruesas caen dentro de la misma categoría, el informe puede mostrar una descripción, como por ejemplo:"
+        ],
+        "bullets": [
+          "Medium",
+          "Delgado",
+          "Slightly Thick"
+        ],
+        "paragraphsAfter": [
+          "Más comúnmente, el informe proporciona una gama como:",
+          "Delgada a media",
+          "Medio a ligeramente grueso",
+          "Muy fino a grueso"
+        ]
+      }
+    ]
+  },
+  "rangesReported": {
+    "id": "how-girdle-ranges-are-reported",
+    "title": "¿Cómo se informan los rangos de cintura de diamante?",
+    "introParagraphs": [
+      "Una descripción como Delgada a ligeramente gruesa representa los espesores de faja relevantes mínimos y máximos observados.",
+      "No significa:"
+    ],
+    "bullets": [
+      "La mitad de la faja es Delgada y la otra mitad es Ligeramente Gruesa",
+      "El espesor medio es Medio",
+      "Cada área entre las dos descripciones está igualmente representada.",
+      "La faja esta dañada",
+      "El diamante es asimétrico.",
+      "El diamante no puede recibir un grado de corte alto."
+    ],
+    "subsections": [
+      {
+        "id": "how-should-a-girdle-range-be-read",
+        "title": "¿Cómo se debe leer el rango de una faja?",
+        "paragraphsBefore": [
+          "El primer término es el espesor mínimo. El segundo es el máximo."
+        ],
+        "table": {
+          "caption": "Leer descripciones de la gama de fajas",
+          "headers": [
+            "Descripción del informe",
+            "Mínimo",
+            "Máximo"
+          ],
+          "rows": [
+            [
+              "Delgada a media",
+              "Delgado",
+              "Medium"
+            ],
+            [
+              "Medio a ligeramente grueso",
+              "Medium",
+              "Slightly Thick"
+            ],
+            [
+              "Muy fino a grueso",
+              "muy delgado",
+              "Grueso"
+            ],
+            [
+              "Delgada a muy gruesa",
+              "Delgado",
+              "Very Thick"
+            ],
+            [
+              "Medium",
+              "Medium",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "does-a-wide-range-mean-the-girdle-is-bad",
+        "title": "¿Un rango amplio significa que la faja está mala?",
+        "paragraphsBefore": [
+          "No automáticamente.",
+          "Un rango más amplio requiere examen porque puede resultar de:"
+        ],
+        "bullets": [
+          "Variación normal alrededor de una faja festoneada.",
+          "El diseño de una forma elegante.",
+          "Material extra cerca de una esquina o punto",
+          "Cuadro",
+          "Excavando",
+          "Variación de colocación de facetas",
+          "Un natural o natural sangrado",
+          "Una faceta extra",
+          "Decisiones de corte utilizadas para retener el peso.",
+          "Un contorno irregular",
+          "Daño"
+        ],
+        "paragraphsAfter": [
+          "La ubicación y el alcance de la variación importan más que la amplitud del rango verbal por sí solo."
+        ]
+      },
+      {
+        "id": "can-one-small-area-determine-the-minimum-description",
+        "title": "¿Puede un área pequeña determinar la descripción mínima?",
+        "paragraphsBefore": [
+          "Un área limitada puede influir en el mínimo reportado, aunque la metodología de laboratorio también considera características que interrumpen la faja.",
+          "GIA explica que características como una caries natural, una cavidad, un chip o una faceta adicional pueden estrechar la faja localmente. El resto de la faja y cualquier zona de filo de cuchillo real deben evaluarse según la metodología del laboratorio.",
+          "Por lo tanto, no asuma que un informe que indique Muy Delgada significa que toda la faja es Muy Delgada."
+        ]
+      }
+    ]
+  },
+  "percentages": {
+    "id": "diamond-girdle-percentages",
+    "title": "Porcentaje de la faja de diamantes",
+    "introParagraphs": [
+      "Para un brillante redondo, el espesor de la cintura se puede expresar en relación con el diámetro promedio de la cintura del diamante.",
+      "La fórmula de apoyo es:",
+      "Porcentaje de espesor de la faja = espesor de la faja ÷ diámetro promedio de la faja × 100",
+      "GIA distingue entre dos evaluaciones relacionadas:"
+    ],
+    "bullets": [
+      "Espesor promedio medido en las ocho posiciones de la colina principal del bisel y el pabellón",
+      "Espesor mínimo y máximo evaluado visualmente en las posiciones de los valles más delgados"
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "GIA informa el porcentaje promedio de posición de colina al 0,5% más cercano. El rango verbal se basa en las áreas de valle mínimas y máximas relevantes."
+        },
+        {
+          "type": "link",
+          "text": "Guía de anatomía Round Brilliant del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-anatomy/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "explica la diferencia."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "what-are-hill-and-valley-positions",
+        "title": "¿Qué son las posiciones de colinas y valles?",
+        "paragraphsBefore": [
+          "Un diamante de talla brillante tiene un cinturón festoneado.",
+          "Las posiciones de las colinas son áreas más gruesas donde se unen las facetas del bisel y las facetas principales del pabellón.",
+          "Las posiciones de los valles son áreas más delgadas asociadas con las uniones facetarias de la mitad superior e inferior.",
+          "Debido a que estas posiciones miden diferentes partes de la faja, un porcentaje promedio no debe tratarse como una traducción directa del rango verbal de mínimo a máximo."
+        ]
+      },
+      {
+        "id": "can-buyers-convert-gia-percentages-into-exact-verbal-grades",
+        "title": "¿Pueden los compradores convertir los porcentajes del GIA en calificaciones verbales exactas?",
+        "paragraphsBefore": [
+          "No de manera confiable.",
+          "GIA afirma que:"
+        ],
+        "bullets": [
+          "Sus ejemplos de porcentajes publicados son aproximados.",
+          "Las mediciones extremadamente finas se ven afectadas por la tolerancia del instrumento.",
+          "Las características de claridad pueden interferir con la medición.",
+          "La faja puede ser irregular",
+          "La faja no podrá quedar perpendicular a la mesa.",
+          "La verificación visual sigue siendo necesaria"
+        ],
+        "paragraphsAfter": [
+          "Por este motivo, utilice la descripción indicada por el laboratorio en lugar de aplicar una tabla de conversión creada por usted mismo."
+        ]
+      },
+      {
+        "id": "does-a-higher-percentage-always-mean-a-worse-diamond",
+        "title": "¿Un porcentaje más alto siempre significa un diamante peor?",
+        "paragraphsBefore": [
+          "No.",
+          "Un porcentaje de faja más alto indica más espesor, no una calidad completa del diamante.",
+          "Su efecto debe evaluarse junto con:"
+        ],
+        "bullets": [
+          "Altura de la corona",
+          "Profundidad del pabellón",
+          "Profundidad total",
+          "Tamaño de la mesa",
+          "Dimensiones boca arriba",
+          "Grado de corte",
+          "Simetría",
+          "Forma",
+          "Distribución de peso",
+          "Precio"
+        ]
+      }
+    ]
+  },
+  "hrdMeasurements": {
+    "id": "hrd-antwerp-girdle-measurements",
+    "title": "Medidas de la faja HRD Antwerp",
+    "introParagraphs": [
+      "HRD Antwerp suele informar sobre la faja mediante una descripción verbal, un porcentaje y un acabado.",
+      "Según sus directrices de enero de 2025, HRD utiliza los siguientes rangos descriptivos:"
+    ],
+    "table": {
+      "caption": "Gamas descriptivas de la faja HRD Antwerp",
+      "headers": [
+        "Descripción de DRH",
+        "Valor de faja medido"
+      ],
+      "rows": [
+        [
+          "Extremely Thin",
+          "0,0%–0,5%"
+        ],
+        [
+          "muy delgado",
+          "1,0%–1,5%"
+        ],
+        [
+          "Delgado",
+          "2,0%–2,5%"
+        ],
+        [
+          "Medium",
+          "3,0%–5,0%"
+        ],
+        [
+          "Grueso",
+          "5,5%–6,0%"
+        ],
+        [
+          "Very Thick",
+          "6,5%–7,5%"
+        ],
+        [
+          "Extremely Thick",
+          "8,0% y más"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "HRD evalúa por separado cómo el porcentaje contribuye al grado de proporciones de Brillante Redondo:"
+    ],
+    "proportionsTable": {
+      "caption": "Categorías de porcentaje y proporciones de la faja HRD",
+      "headers": [
+        "Porcentaje de faja HRD",
+        "Categoría de proporciones relacionadas con la faja"
+      ],
+      "rows": [
+        [
+          "2,5%–4,5%",
+          "Excellent"
+        ],
+        [
+          "2,0% o 5,0%–6,5%",
+          "Very Good"
+        ],
+        [
+          "1,0%–1,5% o 7,0%–8,5%",
+          "Good"
+        ],
+        [
+          "Hasta 0,5% o 9,0% y más",
+          "Fair"
+        ]
+      ]
+    },
+    "finalParagraphs": [
+      "Estas clasificaciones describen la contribución de la faja a la evaluación de proporciones de HRD. No determinan por sí solos la nota completa.",
+      "HRD también considera el ángulo de la corona, el ángulo del pabellón, el ancho de la mesa, la altura de la corona, la profundidad del pabellón, la profundidad total, el culet, el pulido, la simetría y otros efectos observables. La metodología completa aparece en el gráfico de calificaciones de corte de HRD Antwerp 2025."
+    ],
+    "subsections": [
+      {
+        "id": "why-is-hrd-relevant-to-european-buyers",
+        "title": "¿Por qué el desarrollo de recursos humanos es relevante para los compradores europeos?",
+        "paragraphsBefore": [
+          "Los informes de HRD Antwerp se encuentran con frecuencia en Bélgica y en el mercado europeo de diamantes en general.",
+          "Los compradores deben reconocer que:"
+        ],
+        "bullets": [
+          "Los formatos de informes GIA y HRD difieren",
+          "Sus límites descriptivos difieren",
+          "Sus estructuras de grado de corte difieren",
+          "El rango verbal de GIA no es un equivalente matemático directo del porcentaje de HRD",
+          "El informe completo debe interpretarse según el laboratorio emisor."
+        ]
+      }
+    ]
+  },
+  "giaVsHrd": {
+    "id": "gia-versus-hrd-girdle-reporting",
+    "title": "Informes de faja GIA versus HRD",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Informes del cinturón GIA versus HRD Amberes",
+      "headers": [
+        "Característica",
+        "GIA",
+        "HRD Antwerp"
+      ],
+      "rows": [
+        [
+          "Enfoque de presentación de informes primarios",
+          "Rango verbal de mínimo a máximo respaldado por mediciones de proporciones",
+          "Porcentaje y descripción verbal."
+        ],
+        [
+          "Escala de espesor",
+          "Desde extremadamente fino hasta extremadamente grueso, incluso ligeramente grueso",
+          "Desde extremadamente fino hasta extremadamente grueso"
+        ],
+        [
+          "Categoría ligeramente gruesa",
+          "Sí",
+          "No se muestra como una categoría separada en el gráfico de enero de 2025."
+        ],
+        [
+          "Metodología porcentual",
+          "Porcentaje promedio de posición de colina más evaluación visual del valle",
+          "Parámetro de proporción basado en porcentaje"
+        ],
+        [
+          "Estructura de grado de corte",
+          "Grado de corte general para brillantes redondos estándar calificados",
+          "Proporciones, categorías de pulido y simetría."
+        ],
+        [
+          "Acabado de faja",
+          "Puede estar facetado, pulido o bruñido.",
+          "Puede indicar acabado facetado, pulido u otro aplicable."
+        ],
+        [
+          "Enfoque del comprador",
+          "Lea el rango completo, el porcentaje promedio, el acabado y el informe general.",
+          "Lea el porcentaje, descripción, calificación de proporciones y informe completo."
+        ]
+      ]
+    },
+    "closingParagraphs": [],
+    "subsections": [
+      {
+        "id": "can-gia-and-hrd-grades-be-converted-directly",
+        "title": "¿Se pueden convertir directamente las calificaciones GIA y HRD?",
+        "paragraphsBefore": [
+          "No.",
+          "No asumas:"
+        ],
+        "bullets": [
+          "GIA Medio siempre equivale a un porcentaje de HRD",
+          "GIA Ligeramente Grueso siempre es igual a HRD Medio o Grueso",
+          "GIA Very Thin siempre tiene la misma implicación de corte que un porcentaje de HRD",
+          "Porcentajes idénticos garantizan calidades de corte generales idénticas",
+          "Una descripción verbal tiene los mismos límites en todos los laboratorios."
+        ],
+        "paragraphsAfter": [
+          "Trate cada informe de acuerdo con la metodología publicada por el laboratorio emisor."
+        ]
+      }
+    ]
+  },
+  "bestThickness": {
+    "id": "best-girdle-thickness-for-a-diamond",
+    "title": "¿Cuál es el mejor grosor de faja para un diamante?",
+    "introParagraphs": [
+      "No existe una mejor descripción de faja para cada diamante natural.",
+      "Para muchos diamantes modernos con brillo redondo, las siguientes descripciones suelen ser prácticas:"
+    ],
+    "bullets": [
+      "Delgado",
+      "Medium",
+      "Slightly Thick",
+      "Delgada a media",
+      "Medio a ligeramente grueso",
+      "Delgada a ligeramente gruesa"
+    ],
+    "closingParagraphs": [
+      "Estos rangos suelen proporcionar un equilibrio razonable entre durabilidad y eficiencia de peso.",
+      "Sin embargo, la decisión correcta aún depende de:"
+    ],
+    "dependBullets": [
+      "Grado de corte completo",
+      "Diámetro boca arriba",
+      "Profundidad total",
+      "Forma",
+      "Espesor mínimo",
+      "Espesor máximo",
+      "Ubicación de la variación",
+      "Daños existentes",
+      "Configuración",
+      "Precio"
+    ],
+    "subsections": [
+      {
+        "id": "is-medium-the-best-girdle-grade",
+        "title": "¿Es la media la mejor calidad de faja?",
+        "paragraphsBefore": [
+          "Medio a menudo se considera un resultado equilibrado, pero no es automáticamente mejor que Fino o Ligeramente grueso.",
+          "Un diamante con una faja Delgada a Mediana puede tener un rendimiento superior u ofrecer un mejor valor que un diamante con una faja Mediana uniforme."
+        ]
+      },
+      {
+        "id": "can-slightly-thick-be-excellent",
+        "title": "¿Puede ser excelente un poco grueso?",
+        "paragraphsBefore": [
+          "Sí.",
+          "Un área ligeramente gruesa puede ser compatible con un diamante atractivo y bien tallado. La valoración global depende del conjunto completo de proporciones y del rendimiento visual."
+        ]
+      },
+      {
+        "id": "can-thick-be-acceptable",
+        "title": "¿Puede ser aceptable lo grueso?",
+        "paragraphsBefore": [
+          "Sí.",
+          "Una faja gruesa puede ser aceptable cuando:"
+        ],
+        "bullets": [
+          "Las dimensiones boca arriba siguen siendo apropiadas",
+          "La profundidad total no es excesiva.",
+          "El diamante tiene un rendimiento atractivo",
+          "El espesor está localizado.",
+          "La forma se beneficia del material adicional en las zonas vulnerables.",
+          "El precio refleja el diamante completo."
+        ]
+      },
+      {
+        "id": "should-buyers-reject-every-very-thin-or-very-thick-range",
+        "title": "¿Deberían los compradores rechazar todas las gamas muy finas o muy gruesas?",
+        "paragraphsBefore": [
+          "No.",
+          "Ambos merecen un examen más detenido, pero ninguno debe rechazarse utilizando únicamente la etiqueta del informe."
+        ]
+      }
+    ]
+  },
+  "thinGirdles": {
+    "id": "thin-and-extremely-thin-girdles",
+    "title": "Fajas Delgadas, Muy Delgadas y Extremadamente Delgadas",
+    "introParagraphs": [
+      "Una faja delgada contiene menos material entre la corona y el pabellón."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-thin-girdle-dangerous",
+        "title": "¿Es Peligrosa una Faja Delgada?",
+        "paragraphsBefore": [
+          "No automáticamente.",
+          "Delgada es una descripción de clasificación reconocida y es común en los diamantes comercializables. La preocupación aumenta cuando la faja se vuelve:"
+        ],
+        "bullets": [
+          "Extensamente muy delgado",
+          "Extremely Thin",
+          "Con filo de cuchillo",
+          "Muy delgado en una esquina o punto",
+          "Muy delgada al lado de una pluma grande.",
+          "Ya desconchado o desgastado",
+          "Expuesto por el entorno",
+          "Sometido a presión durante el fraguado o reparación."
+        ]
+      },
+      {
+        "id": "why-can-a-thin-girdle-chip",
+        "title": "¿Por qué se puede descascarar una faja delgada?",
+        "paragraphsBefore": [
+          "El diamante es muy resistente al rayado, pero no es imposible que se rompa.",
+          "Un borde delgado contiene menos material para absorber o distribuir un impacto. El GIA advierte que las zonas muy finas, especialmente en las esquinas y en los puntos de formas extravagantes, tienen un mayor riesgo de sufrir daños."
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "id": "does-very-thin-mean-the-diamond-is-already-damaged",
+        "title": "¿Muy delgado significa que el diamante ya está dañado?",
+        "paragraphsBefore": [
+          "No.",
+          "Muy delgado describe el espesor. No significa automáticamente que haya una astilla, una cavidad o una fractura.",
+          "Se debe inspeccionar el estado real."
+        ]
+      },
+      {
+        "id": "is-a-localised-very-thin-area-acceptable",
+        "title": "¿Es aceptable un área localizada muy delgada?",
+        "paragraphsBefore": [
+          "Puede ser.",
+          "Considerar:"
+        ],
+        "bullets": [
+          "Ubicación exacta",
+          "Longitud de la sección delgada",
+          "Características de claridad cercanas",
+          "forma de diamante",
+          "Diseño de escenario",
+          "Condición de configuración",
+          "Desgaste previsto",
+          "Requisitos de seguro",
+          "Precio"
+        ],
+        "paragraphsAfter": [
+          "Una pequeña zona muy fina protegida por un engaste adecuado puede presentar un riesgo diferente al de un filo de cuchillo expuesto que recorra una parte sustancial del diamante."
+        ]
+      },
+      {
+        "id": "can-an-extremely-thin-girdle-receive-a-high-cut-grade",
+        "title": "¿Puede una faja extremadamente delgada recibir una calificación de corte alto?",
+        "paragraphsBefore": [
+          "El grosor de la cintura es uno de varios factores en la evaluación del corte. Una faja inusualmente delgada puede limitar el grado de Round Brilliant debido al riesgo de durabilidad, incluso cuando otras proporciones son atractivas.",
+          "No infiera la calidad final sólo a partir del espesor. Leer la calificación indicada en el informe de laboratorio."
+        ]
+      }
+    ],
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La guía del GIA sobre la protección de los diamantes contra el desconchado explica las principales áreas de riesgo. Ver"
+        },
+        {
+          "type": "link",
+          "text": "Guía para el cuidado de los diamantes de GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-care-and-cleaning/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ]
+  },
+  "thickGirdles": {
+    "id": "thick-and-extremely-thick-girdles",
+    "title": "Fajas Gruesas, Muy Gruesas y Extremadamente Gruesas",
+    "introParagraphs": [
+      "Una faja gruesa retiene más material alrededor del perímetro del diamante."
+    ],
+    "subsections": [
+      {
+        "id": "why-can-a-thick-girdle-be-undesirable",
+        "title": "¿Por qué puede ser indeseable una faja gruesa?",
+        "paragraphsBefore": [
+          "Una faja gruesa puede añadir peso en quilates sin producir un aumento equivalente en las dimensiones boca arriba.",
+          "Dos diamantes pueden tener el mismo peso en quilates pero diferente tamaño visible porque uno tiene más peso en:"
+        ],
+        "bullets": [
+          "la faja",
+          "Protuberancia del pabellón",
+          "Profundidad total",
+          "una corona alta",
+          "Otras zonas no visibles"
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-make-a-diamond-look-smaller",
+        "title": "¿Una faja gruesa hace que un diamante parezca más pequeño?",
+        "paragraphsBefore": [
+          "Puede.",
+          "Si una cantidad sustancial del peso del diamante se concentra en el cinturón, las medidas del diámetro boca arriba o de largo y ancho pueden ser más pequeñas que las de un diamante del mismo peso proporcionado de manera más eficiente.",
+          "Esta es la razón por la que los compradores deben comparar las medidas milimétricas reales en lugar de confiar únicamente en el peso en quilates."
+        ]
+      },
+      {
+        "id": "does-a-thick-girdle-reduce-sparkle",
+        "title": "¿Una faja gruesa reduce el brillo?",
+        "paragraphsBefore": [
+          "No automáticamente.",
+          "El grosor de la faja afecta principalmente a:"
+        ],
+        "bullets": [
+          "Relación de peso",
+          "Profundidad total",
+          "Tamaño boca arriba",
+          "Durabilidad",
+          "Configuración"
+        ],
+        "paragraphsAfter": [
+          "El brillo, el fuego y el centelleo del diamante dependen de la relación completa entre su corona, pabellón, mesa, patrón de facetas y entorno de observación.",
+          "Una faja excesivamente gruesa puede acompañar a una mala distribución del peso, pero la etiqueta de la faja por sí sola no determina el brillo."
+        ]
+      },
+      {
+        "id": "is-a-very-thick-girdle-more-durable",
+        "title": "¿Es más duradera una faja muy gruesa?",
+        "paragraphsBefore": [
+          "Puede proporcionar más material en el borde, pero no hace que el diamante sea resistente a daños.",
+          "El daño aún puede ocurrir a través de:"
+        ],
+        "bullets": [
+          "Impacto severo",
+          "Inclusiones cerca de la faja",
+          "Esquinas expuestas",
+          "Presión de ajuste",
+          "chips existentes",
+          "Joyas mal ajustadas",
+          "Contacto entre diamantes",
+          "Trabajos de reparación descuidados"
+        ]
+      },
+      {
+        "id": "can-thickness-be-useful-at-a-fancy-shape-point",
+        "title": "¿Puede el grosor ser útil en un punto de forma elegante?",
+        "paragraphsBefore": [
+          "Sí.",
+          "El material adicional cerca de la punta de un diamante en forma de pera, marquesa o arrinconado puede ayudar a evitar un filo de cuchillo extremadamente vulnerable. Sin embargo, un abultamiento excesivo o un grosor innecesario aún pueden retener peso.",
+          "Se debe examinar el esquema completo y el entorno."
+        ]
+      }
+    ]
+  },
+  "uneven": {
+    "id": "uneven-and-varying-girdles",
+    "title": "Fajas de diamantes desiguales y variables",
+    "introParagraphs": [
+      "El cinturón de un diamante rara vez es perfectamente uniforme.",
+      "La variación normal se produce porque las fajas de estilo brillante están festoneadas y porque las formas extravagantes requieren diferentes disposiciones de facetas alrededor de sus contornos."
+    ],
+    "subsections": [
+      {
+        "id": "when-does-variation-become-important",
+        "title": "¿Cuándo se vuelve importante la variación?",
+        "paragraphsBefore": [
+          "La variación merece mayor atención cuando produce:"
+        ],
+        "bullets": [
+          "Zonas extremadamente finas y muy gruesas en el mismo diamante",
+          "Cambios abruptos en lugar de transiciones graduales",
+          "Un contorno boca arriba desigual",
+          "Esquinas u hombros desiguales",
+          "Un plano de cintura inclinado",
+          "Una apariencia en forma de cono",
+          "Facetas de corona y pabellón desalineadas",
+          "Dificultades de establecimiento",
+          "Peso oculto significativo",
+          "Preocupaciones por la durabilidad",
+          "Problemas de simetría visibles"
+        ]
+      },
+      {
+        "id": "does-uneven-thickness-affect-symmetry",
+        "title": "¿El espesor desigual afecta la simetría?",
+        "paragraphsBefore": [
+          "Puede.",
+          "GIA considera la variación del espesor de la cintura al evaluar la simetría y al evaluar la pintura o la excavación. HRD también enumera la desviación en el espesor máximo y mínimo de la cintura entre las consideraciones de simetría visual.",
+          "Un rango por sí solo no establece el grado de simetría. Lea el resultado de simetría informado por el laboratorio."
+        ]
+      },
+      {
+        "id": "what-is-a-wavy-girdle",
+        "title": "¿Qué es una faja ondulada?",
+        "paragraphsBefore": [
+          "Faja ondulada es una expresión informal que puede describir cambios visibles en el nivel o grosor de la faja.",
+          "Las posibles causas incluyen:"
+        ],
+        "bullets": [
+          "Colocación de facetas desigual",
+          "Desalineación de la corona y el pabellón",
+          "faja inclinada",
+          "Variación de corte",
+          "Diseño de forma específica",
+          "Daño o reparación"
+        ],
+        "paragraphsAfter": [
+          "El término no sustituye a la descripción de un laboratorio."
+        ]
+      },
+      {
+        "id": "what-is-a-sloping-girdle",
+        "title": "¿Qué es una faja inclinada?",
+        "paragraphsBefore": [
+          "Una faja inclinada ocurre cuando el plano de la faja no está nivelado con respecto a la mesa o al eje previsto del diamante.",
+          "Puede afectar:"
+        ],
+        "bullets": [
+          "perfil lateral",
+          "Distribución de la altura de la copa",
+          "Distribución de profundidad del pabellón",
+          "Simetría",
+          "Posición de ajuste",
+          "Saldo boca arriba"
+        ]
+      }
+    ]
+  },
+  "finish": {
+    "id": "faceted-polished-and-bruted-girdles",
+    "title": "Fajas de Diamantes Facetados, Pulidos y Brutados",
+    "introParagraphs": [
+      "El espesor y el acabado de la faja son características independientes."
+    ],
+    "table": {
+      "caption": "Tipos de acabado de faja",
+      "headers": [
+        "Finalizar",
+        "apariencia general",
+        "Implicación del comprador"
+      ],
+      "rows": [
+        [
+          "Faceted",
+          "Serie de pequeñas superficies pulidas alrededor de la faja.",
+          "Común en diamantes modernos; examinar la consistencia y la inscripción de las facetas"
+        ],
+        [
+          "Polished",
+          "Banda lisa y pulida sin facetas de faja visibles por separado.",
+          "Puede ser completamente aceptable"
+        ],
+        [
+          "Bruted",
+          "Superficie esmerilada o granular creada durante el modelado",
+          "Común en diamantes más antiguos y en algunos modernos; no es automáticamente un defecto"
+        ],
+        [
+          "Parcialmente facetado",
+          "Solo se ha facetado parte de la faja",
+          "Puede ser intencional, reparado o considerado durante la evaluación de simetría."
+        ],
+        [
+          "Barbado",
+          "Finas características parecidas a plumas se extienden desde el cinturón hasta la piedra.",
+          "Una consideración de claridad y condición, no una categoría de acabado ordinaria."
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "GIA afirma que el espesor de la faja se evalúa utilizando el mismo método de espesor ya sea que la faja esté bruta, pulida o facetada."
+    ],
+    "subsections": [
+      {
+        "id": "is-a-faceted-girdle-better",
+        "title": "¿Es mejor una faja facetada?",
+        "paragraphsBefore": [
+          "No automáticamente.",
+          "Una faja facetada puede ofrecer:"
+        ],
+        "bullets": [
+          "Un acabado moderno y refinado",
+          "Superficies pequeñas más claras para el examen.",
+          "Un área adecuada para la inscripción láser.",
+          "Aspecto visual más consistente"
+        ],
+        "paragraphsAfter": [
+          "Sin embargo, no garantiza:",
+          "mejor corte",
+          "Mejor simetría",
+          "Mejor pulido",
+          "Mayor durabilidad",
+          "origen natural",
+          "mayor valor"
+        ]
+      },
+      {
+        "id": "is-a-bruted-girdle-bad",
+        "title": "¿Es mala una faja bruta?",
+        "paragraphsBefore": [
+          "No.",
+          "Una faja bruta puede ser completamente legítima. También puede ser característico de ciertos períodos de corte más antiguos.",
+          "Inspeccionarlo para:"
+        ],
+        "bullets": [
+          "Rugosidad excesiva",
+          "barba",
+          "Papas fritas",
+          "Abrasión",
+          "Espesor desigual",
+          "Modificación posterior",
+          "Compatibilidad con la edad declarada de un diamante antiguo."
+        ],
+        "paragraphsAfter": [
+          "Una faja facetada en un diamante viejo puede representar un repulido posterior en lugar de la condición original del diamante. El GIA ha documentado diamantes antiguos cuyas fajas originales brutas fueron posteriormente facetadas."
+        ]
+      },
+      {
+        "id": "what-does-partly-faceted-mean",
+        "title": "¿Qué significa parcialmente facetado?",
+        "paragraphsBefore": [
+          "Significa que sólo una parte de la faja se ha dividido en facetas pulidas.",
+          "Las posibles explicaciones incluyen:"
+        ],
+        "bullets": [
+          "facetado incompleto",
+          "Repulido localizado",
+          "Preservación del peso",
+          "Eliminación de daños",
+          "Reparación posterior",
+          "Estilo de corte original"
+        ],
+        "paragraphsAfter": [
+          "El comprador deberá comparar el diamante actual con su informe y cualquier documentación histórica."
+        ]
+      }
+    ]
+  },
+  "paintingDigging": {
+    "id": "painting-and-digging-out",
+    "title": "Pintar y excavar",
+    "introParagraphs": [
+      "Pintar y excavar son técnicas de corte que alteran la relación entre las facetas de la mitad superior e inferior y la cintura."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-painting",
+        "title": "¿Qué es la pintura?",
+        "paragraphsBefore": [
+          "Durante la pintura, el cortador inclina las mitades superiores o inferiores de las facetas hacia las facetas del bisel o las redes principales del pabellón.",
+          "Esto cambia el espesor relativo entre:"
+        ],
+        "bullets": [
+          "Posiciones del bisel y la colina principal",
+          "Posiciones de unión de la mitad superior e inferior"
+        ],
+        "paragraphsAfter": [
+          "La faja puede parecer más festoneada en una dirección particular."
+        ]
+      },
+      {
+        "id": "what-is-digging-out",
+        "title": "¿Qué es excavar?",
+        "paragraphsBefore": [
+          "Excavar es la relación opuesta.",
+          "Las facetas de la mitad superior o inferior están inclinadas lejos de los biseles o los principales del pabellón y una hacia la otra. Esto hace que la faja sea más delgada en las uniones de media faceta en relación con las posiciones de bisel y principal."
+        ]
+      },
+      {
+        "id": "why-are-these-techniques-used",
+        "title": "¿Por qué se utilizan estas técnicas?",
+        "paragraphsBefore": [
+          "Las posibles razones incluyen:"
+        ],
+        "bullets": [
+          "Retener el peso en quilates",
+          "Alcanzar un umbral de peso comercial",
+          "Eliminación de una característica de claridad cerca de la faja",
+          "Ajustar la ubicación de las facetas",
+          "Preservar el rendimiento del diamante en bruto"
+        ]
+      },
+      {
+        "id": "are-painting-and-digging-always-bad",
+        "title": "¿Pintar y cavar son siempre malos?",
+        "paragraphsBefore": [
+          "No.",
+          "Puede haber una variación mínima sin crear un problema visual significativo.",
+          "A medida que pintar o cavar se vuelve más fuerte, puede afectar:"
+        ],
+        "bullets": [
+          "Brillo boca arriba",
+          "Patrón de contraste",
+          "Definición de faceta",
+          "Distribución de peso",
+          "Grado de corte general"
+        ],
+        "paragraphsAfter": [
+          "GIA calcula el alcance de estas características mediante mediciones tridimensionales e incorpora efectos suficientemente fuertes en su evaluación de corte. El folleto de acabado y faja de GIA proporciona diagramas de ambas técnicas."
+        ]
+      },
+      {
+        "id": "can-buyers-identify-painting-from-a-photograph",
+        "title": "¿Pueden los compradores identificar una pintura a partir de una fotografía?",
+        "paragraphsBefore": [
+          "No de manera confiable.",
+          "Las imágenes controladas pueden sugerir un festoneado inusual de la cintura, pero una evaluación precisa requiere:"
+        ],
+        "bullets": [
+          "Orientación correcta",
+          "Vistas laterales y boca arriba",
+          "Aumento",
+          "Análisis de facetas",
+          "Iluminación adecuada",
+          "Medición tridimensional cuando sea necesario"
+        ],
+        "paragraphsAfter": [
+          "No diagnostique pintura o excavación desde un marco de video giratorio."
+        ]
+      }
+    ]
+  },
+  "damage": {
+    "id": "girdle-damage-and-clarity-characteristics",
+    "title": "Características de daño y claridad de la faja",
+    "introParagraphs": [
+      "El espesor de la faja no describe la condición completa del borde.",
+      "La faja puede contener o cruzarse con:"
+    ],
+    "bullets": [
+      "Chip",
+      "Abrasión",
+      "Cavidad",
+      "Natural",
+      "natural sangrado",
+      "barba",
+      "Pluma",
+      "Moretón",
+      "faceta extra",
+      "marca de pulido",
+      "Inscripción láser",
+      "Reparación o repulido"
+    ],
+    "table": {
+      "caption": "Comparación de características de faja",
+      "headers": [
+        "Característica",
+        "Significado",
+        "Principal preocupación del comprador"
+      ],
+      "rows": [
+        [
+          "Chip",
+          "Material perdido accidentalmente",
+          "Estado, daños adicionales, recortes y discrepancias en el informe"
+        ],
+        [
+          "Abrasión",
+          "Borde desgastado o rugoso, a menudo con pequeñas astillas.",
+          "Desgaste, contacto previo y protección de fraguado."
+        ],
+        [
+          "Cavidad",
+          "Abertura angular creada cuando el material se retira o se cae.",
+          "Tamaño, ubicación, retención de suciedad y durabilidad."
+        ],
+        [
+          "Natural",
+          "Parte de la superficie rugosa original se conserva durante el corte.",
+          "Forma, grosor y si afecta la apariencia o el fraguado."
+        ],
+        [
+          "natural sangrado",
+          "Superficie rugosa original que se extiende por debajo del contorno pulido previsto.",
+          "Profundidad, durabilidad y retención de peso."
+        ],
+        [
+          "faja barbuda",
+          "Rasgos finos parecidos a plumas que se extienden hacia adentro desde la faja",
+          "Claridad, extensión y condición estructural."
+        ],
+        [
+          "Pluma",
+          "Separación interna que puede llegar hasta la faja.",
+          "Tamaño, orientación, apertura y presión de ajuste."
+        ],
+        [
+          "Moretón",
+          "Área de impacto asociada con pequeñas plumas.",
+          "Daños existentes y riesgos adicionales"
+        ],
+        [
+          "faceta extra",
+          "Faceta pulida adicional fuera de la disposición estándar",
+          "Simetría, espesor y posible historial de reparación."
+        ],
+        [
+          "Inscripción láser",
+          "Texto o números aplicados a la faja.",
+          "Identificación y cotejo de informes."
+        ]
+      ]
+    },
+    "richClosingParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "La referencia de inclusión de diamantes del GIA distingue fajas barbudas, caries, astillas, hematomas y otras características de claridad. Ver"
+        },
+        {
+          "type": "link",
+          "text": "Guía de claridad del GIA",
+          "href": "https://4cs.gia.edu/en-us/diamond-clarity/",
+          "external": true
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "subsections": [
+      {
+        "id": "is-a-natural-the-same-as-damage",
+        "title": "¿Es lo mismo natural que daño?",
+        "paragraphsBefore": [
+          "No.",
+          "Se conserva una superficie natural de diamante en bruto. No es necesariamente un daño.",
+          "Su importancia depende de:"
+        ],
+        "bullets": [
+          "Tamaño",
+          "Profundidad",
+          "Ubicación",
+          "Visibilidad",
+          "Si interrumpe el contorno",
+          "Si afina excesivamente la faja",
+          "Si afecta la configuración",
+          "clasificación de laboratorio",
+          "Precio"
+        ]
+      },
+      {
+        "id": "is-an-indented-natural-worse",
+        "title": "¿Es peor un sangrado natural?",
+        "paragraphsBefore": [
+          "Un natural dentado se extiende debajo de la superficie pulida prevista.",
+          "Generalmente merece más atención que un natural poco profundo porque puede afectar:"
+        ],
+        "bullets": [
+          "Describir",
+          "Peso",
+          "Claridad",
+          "Configuración",
+          "Durabilidad",
+          "Limpieza"
+        ],
+        "paragraphsAfter": [
+          "No es automáticamente inaceptable."
+        ]
+      },
+      {
+        "id": "what-is-a-bearded-girdle",
+        "title": "¿Qué es una faja barbuda?",
+        "paragraphsBefore": [
+          "Una faja barbuda contiene rasgos muy pequeños parecidos a plumas que se extienden desde la superficie de la faja hasta el diamante.",
+          "La barba puede ser el resultado de un golpe agresivo u otro estrés cortante.",
+          "Su importancia depende de:"
+        ],
+        "bullets": [
+          "Densidad",
+          "Profundidad",
+          "Visibilidad",
+          "Distribución",
+          "Efecto sobre la claridad",
+          "Si forma un borde gris o borroso",
+          "Proximidad a otras inclusiones."
+        ]
+      },
+      {
+        "id": "can-girdle-damage-occur-after-grading",
+        "title": "¿Se pueden producir daños en la faja después de la clasificación?",
+        "paragraphsBefore": [
+          "Sí.",
+          "Las posibles causas incluyen:"
+        ],
+        "bullets": [
+          "Configuración",
+          "Cambio de tamaño o reparación de joyas.",
+          "Impacto severo",
+          "Una piedra suelta que se mueve en su entorno.",
+          "Contacto con otro diamante",
+          "Dejando caer el diamante suelto",
+          "Almacenamiento inadecuado",
+          "Abrasión repetida",
+          "Limpieza o manipulación descuidada"
+        ],
+        "paragraphsAfter": [
+          "Si la condición actual difiere del informe, puede ser necesario un nuevo examen profesional."
+        ]
+      }
+    ]
+  },
+  "inscriptions": {
+    "id": "laser-inscriptions-on-the-girdle",
+    "title": "Inscripciones láser en el cinturón de diamantes",
+    "introParagraphs": [
+      "Se puede grabar con láser en la faja un número de informe de laboratorio, una marca, un símbolo o un mensaje."
+    ],
+    "subsections": [
+      {
+        "id": "what-is-the-purpose-of-a-girdle-inscription",
+        "title": "¿Cuál es el propósito de una inscripción en una faja?",
+        "paragraphsBefore": [
+          "Puede ayudar:"
+        ],
+        "bullets": [
+          "Haga coincidir un diamante con su informe de calificación",
+          "Identificar el número de informe del laboratorio emisor.",
+          "Distinguir un diamante de piedras similares",
+          "Apoyar el control de inventario.",
+          "Ayudar a la verificación futura",
+          "Grabar una marca o mensaje personal"
+        ],
+        "paragraphsAfter": [
+          "GIA explica que la inscripción del número de informe se puede ver con aumento y comprobar a través de su sistema de verificación de informes."
+        ]
+      },
+      {
+        "id": "does-every-diamond-have-an-inscription",
+        "title": "¿Todo diamante tiene una inscripción?",
+        "paragraphsBefore": [
+          "No.",
+          "Un diamante natural puede ser:"
+        ],
+        "bullets": [
+          "Inscrito con su número de informe.",
+          "Inscrito con una marca",
+          "Inscrito con múltiples marcas.",
+          "No inscrito",
+          "Inscrito en una zona oculta por el entorno.",
+          "Repulido después de la inscripción.",
+          "Demasiado pequeño o colocado de manera que dificulte la inspección."
+        ]
+      },
+      {
+        "id": "does-an-inscription-prove-the-diamond-matches-the-report",
+        "title": "¿Una inscripción prueba que el diamante coincide con el informe?",
+        "paragraphsBefore": [
+          "No por sí solo.",
+          "Un partido completo debe considerar:"
+        ],
+        "bullets": [
+          "Número de informe",
+          "Estilo de inscripción",
+          "Medidas",
+          "Peso en quilates",
+          "Forma",
+          "Trama de claridad",
+          "Inclusiones",
+          "Polaco",
+          "Simetría",
+          "Fluorescencia",
+          "Inspección profesional"
+        ],
+        "paragraphsAfter": [
+          "Una inscripción debe tratarse como una característica de identificación, no como todo el proceso de verificación."
+        ]
+      },
+      {
+        "id": "can-an-inscription-be-removed",
+        "title": "¿Se puede eliminar una inscripción?",
+        "paragraphsBefore": [
+          "Puede reducirse o eliminarse mediante el repulido de la faja.",
+          "Si falta una inscripción esperada, las posibles explicaciones incluyen:"
+        ],
+        "bullets": [
+          "El área inspeccionada es incorrecta.",
+          "La inscripción está oculta por una punta.",
+          "La inscripción está sucia.",
+          "La ampliación o la iluminación son inadecuadas.",
+          "La faja ha sido repulida",
+          "La inscripción nunca fue aplicada.",
+          "El diamante no coincide con el informe."
+        ],
+        "paragraphsAfter": [
+          "Investiga antes de llegar a una conclusión."
+        ]
+      },
+      {
+        "id": "can-an-inscription-affect-clarity",
+        "title": "¿Puede una inscripción afectar la claridad?",
+        "paragraphsBefore": [
+          "Una inscripción de informe aplicada correctamente normalmente es microscópica y se coloca en la faja para su identificación. Lea el informe del laboratorio y obtenga una inspección profesional si la inscripción parece inusualmente profunda, alterada o asociada con daños en la superficie."
+        ]
+      }
+    ]
+  },
+  "shapes": {
+    "id": "girdles-in-different-diamond-shapes",
+    "title": "Fajas en Diferentes Formas de Diamantes",
+    "introParagraphs": [
+      "La misma descripción del espesor puede tener diferentes implicaciones según la forma del diamante."
+    ],
+    "subsections": [
+      {
+        "id": "round-brilliant-diamonds",
+        "title": "Diamantes redondos brillantes",
+        "paragraphsBefore": [
+          "Los diamantes redondos distribuyen su contorno sin esquinas afiladas.",
+          "Para muchos brillantes redondos modernos, los rangos prácticos incluyen:"
+        ],
+        "bullets": [
+          "Delgada a media",
+          "Medium",
+          "Medio a ligeramente grueso",
+          "Delgada a ligeramente gruesa"
+        ],
+        "paragraphsAfter": [
+          "Evalúe la faja junto a:",
+          "Grado de corte",
+          "Diámetro",
+          "Profundidad total",
+          "Pintar o cavar",
+          "Simetría",
+          "Rendimiento boca arriba"
+        ]
+      },
+      {
+        "id": "oval-diamonds",
+        "title": "Diamantes ovalados",
+        "paragraphsBefore": [
+          "La faja de un Óvalo puede variar en sus hombros y extremos.",
+          "Inspeccionar:"
+        ],
+        "bullets": [
+          "Zonas muy finas cerca de los extremos.",
+          "Grosor excesivo en los hombros.",
+          "Simetría de contorno",
+          "Fuerza de la pajarita",
+          "Dimensiones boca arriba",
+          "Protección de configuración"
+        ],
+        "paragraphsAfter": [
+          "GIA señala que una faja ovalada excesivamente gruesa puede retener peso, mientras que una zona extremadamente delgada puede aumentar la vulnerabilidad."
+        ]
+      },
+      {
+        "id": "pear-shaped-diamonds",
+        "title": "Diamantes en forma de pera",
+        "paragraphsBefore": [
+          "Los diamantes en forma de pera tienen un extremo redondeado y un punto vulnerable.",
+          "Controlar:"
+        ],
+        "bullets": [
+          "Grosor de la faja en el punto",
+          "Simetría del hombro",
+          "Forma de ala",
+          "Grosor en el extremo redondeado",
+          "Protección de puntos",
+          "Corbata de moño",
+          "Daños existentes"
+        ],
+        "paragraphsAfter": [
+          "Se puede considerar para la punta una punta en forma de V u otra configuración protectora diseñada apropiadamente."
+        ]
+      },
+      {
+        "id": "marquise-diamonds",
+        "title": "Diamantes marquesa",
+        "paragraphsBefore": [
+          "Los diamantes marquesa contienen dos puntas vulnerables.",
+          "Inspeccionar:"
+        ],
+        "bullets": [
+          "Ambos puntos",
+          "Grosor a lo largo de las alas.",
+          "Grosor del vientre",
+          "Alineación de puntas",
+          "Corbata de moño",
+          "Simetría",
+          "Protección de configuración"
+        ],
+        "paragraphsAfter": [
+          "Una faja muy delgada en cualquiera de sus puntos requiere atención particular."
+        ]
+      },
+      {
+        "id": "princess-cut-diamonds",
+        "title": "Diamantes talla princesa",
+        "paragraphsBefore": [
+          "Los diamantes princesa tienen esquinas afiladas que pueden ser vulnerables a astillarse.",
+          "Controlar:"
+        ],
+        "bullets": [
+          "Las cuatro esquinas",
+          "Grosor de la esquina",
+          "Naturales cerca de las esquinas",
+          "Plumas que llegan a las esquinas",
+          "Lados desiguales",
+          "Diseño de escenario",
+          "Si las esquinas están completamente protegidas"
+        ],
+        "paragraphsAfter": [
+          "No juzgues a una princesa únicamente por su porcentaje promedio de faja."
+        ]
+      },
+      {
+        "id": "cushion-diamonds",
+        "title": "Diamantes Cojín",
+        "paragraphsBefore": [
+          "Los cojines pueden tener:"
+        ],
+        "bullets": [
+          "Esquinas redondeadas",
+          "Esquinas más cuadradas",
+          "hombros anchos",
+          "Contornos de estilo antiguo",
+          "Patrones de facetas brillantes o modificados modernos."
+        ],
+        "paragraphsAfter": [
+          "Evalúe la relación entre el grosor de la faja, el contorno, el facetado y la extensión boca arriba."
+        ]
+      },
+      {
+        "id": "emerald-and-asscher-cuts",
+        "title": "Cortes Esmeralda y Asscher",
+        "paragraphsBefore": [
+          "Los cortes escalonados tienen facetas anchas y estructuras de pabellón diferentes a las de Round Brilliants.",
+          "Inspeccionar:"
+        ],
+        "bullets": [
+          "Grosor de la esquina",
+          "Consistencia de esquinas truncadas",
+          "Alineación de pasos",
+          "ventanas",
+          "Extinción",
+          "Profundidad total",
+          "Dimensiones boca arriba",
+          "Condición de faja"
+        ],
+        "paragraphsAfter": [
+          "No aplique mecánicamente una regla de corte Redondo Brillante a un corte escalonado."
+        ]
+      },
+      {
+        "id": "heart-shaped-diamonds",
+        "title": "Diamantes en forma de corazón",
+        "paragraphsBefore": [
+          "Examinar:"
+        ],
+        "bullets": [
+          "condición de hendidura",
+          "Dos lóbulos",
+          "Grosor del punto",
+          "Simetría general",
+          "equilibrio del ala",
+          "Protección de configuración"
+        ],
+        "paragraphsAfter": [
+          "La hendidura y la punta pueden requerir diferentes consideraciones de configuración."
+        ]
+      },
+      {
+        "id": "antique-diamonds",
+        "title": "Diamantes antiguos",
+        "paragraphsBefore": [
+          "Los diamantes Old Mine y Old European pueden tener:"
+        ],
+        "bullets": [
+          "fajas brutas",
+          "Mayor variación de espesor",
+          "Contornos irregulares",
+          "Naturales",
+          "Posteriormente facetado o repulido",
+          "Desgaste histórico",
+          "Pequeñas astillas o abrasión"
+        ],
+        "paragraphsAfter": [
+          "Estas características deben evaluarse en el contexto de edad, originalidad, condición y valor.",
+          "No vuelvas a pulir automáticamente una faja antigua. La alteración puede:",
+          "Reducir el peso en quilates",
+          "cambiar el contorno",
+          "Eliminar personaje histórico",
+          "Documentación de afectación",
+          "Cambiar la compatibilidad con la configuración original.",
+          "Alterar el valor de mercado"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "id": "girdle-thickness-and-jewellery-settings",
+    "title": "Grosor de faja y ajustes de joyería",
+    "introParagraphs": [
+      "La faja suele ser el punto de contacto entre el diamante y su engaste."
+    ],
+    "subsections": [
+      {
+        "id": "prong-settings",
+        "title": "Configuración de puntas",
+        "paragraphsBefore": [
+          "Las puntas agarran áreas seleccionadas alrededor de la faja.",
+          "Considerar:"
+        ],
+        "bullets": [
+          "Si una punta se asienta en un área extremadamente delgada",
+          "Si la presión de fraguado se concentra cerca de una pluma",
+          "Si las esquinas y los puntos están protegidos",
+          "Si la piedra se mueve",
+          "Si las puntas están desgastadas o dañadas"
+        ]
+      },
+      {
+        "id": "bezel-settings",
+        "title": "Configuración del bisel",
+        "paragraphsBefore": [
+          "Un bisel rodea gran parte o la totalidad de la faja.",
+          "Las ventajas potenciales incluyen:"
+        ],
+        "bullets": [
+          "Mayor cobertura de bordes",
+          "Protección de zonas vulnerables",
+          "Apariencia segura"
+        ],
+        "paragraphsAfter": [
+          "Sin embargo, el ajuste del bisel todavía requiere un trabajo especializado. La presión durante la fabricación puede dañar una faja vulnerable y el metal puede ocultar las características existentes."
+        ]
+      },
+      {
+        "id": "halo-settings",
+        "title": "Configuración de halo",
+        "paragraphsBefore": [
+          "Un halo puede reducir el acceso directo al cinturón del diamante central.",
+          "Controlar:"
+        ],
+        "bullets": [
+          "Espacio libre entre el centro y las piedras circundantes.",
+          "Fichas ocultas",
+          "Presión de ajuste",
+          "Si otro diamante hace contacto con la piedra central",
+          "Acceso de limpieza",
+          "Acceso a inspecciones futuras"
+        ]
+      },
+      {
+        "id": "tension-and-semi-tension-settings",
+        "title": "Ajustes de tensión y semitensión",
+        "paragraphsBefore": [
+          "Estos diseños pueden aplicar presión concentrada en puntos de contacto limitados.",
+          "La idoneidad debe ser determinada por un joyero familiarizado con:"
+        ],
+        "bullets": [
+          "El diamante exacto",
+          "Grosor de la faja",
+          "Características de claridad",
+          "Forma",
+          "Ingeniería de configuración",
+          "Requisitos del fabricante"
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-require-a-bezel",
+        "title": "¿Una faja delgada requiere un bisel?",
+        "paragraphsBefore": [
+          "No automáticamente.",
+          "El engaste apropiado depende de la ubicación y extensión del área delgada y del diamante completo. Obtenga consejos basados ​​en la piedra real."
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-cause-setting-problems",
+        "title": "¿Puede una faja gruesa causar problemas de ajuste?",
+        "paragraphsBefore": [
+          "Puede.",
+          "Los posibles problemas incluyen:"
+        ],
+        "bullets": [
+          "Diamante sentado demasiado alto",
+          "Configuración estándar no adecuada",
+          "Puntas que requieren modificación",
+          "Asientos desiguales",
+          "Grosor del borde visible",
+          "Dificultad para alinear la piedra."
+        ],
+        "paragraphsAfter": [
+          "Una configuración personalizada o ajustada correctamente puede resolver estos problemas."
+        ]
+      }
+    ]
+  },
+  "price": {
+    "id": "girdle-thickness-face-up-size-and-price",
+    "title": "Grosor de la faja, tamaño boca arriba y precio del diamante",
+    "introParagraphs": [
+      "El grosor de la faja puede influir en el valor, pero no existe una fórmula de ajuste fija."
+    ],
+    "subsections": [
+      {
+        "id": "weight-ratio-and-face-up-size",
+        "title": "Relación de peso y tamaño boca arriba",
+        "paragraphsBefore": [
+          "El quilate mide el peso, el diámetro no visible.",
+          "Un diamante con una faja muy gruesa puede pesar más que otro diamante con dimensiones similares hacia arriba porque se retiene más material alrededor de su borde.",
+          "Comparar:"
+        ],
+        "bullets": [
+          "Peso en quilates",
+          "Diámetro",
+          "Longitud",
+          "Ancho",
+          "Profundidad total",
+          "Gama de fajas",
+          "Porcentaje promedio de faja",
+          "Forma",
+          "corte general"
+        ]
+      },
+      {
+        "id": "can-a-thick-girdle-help-a-diamond-reach-one-carat",
+        "title": "¿Puede una faja gruesa ayudar a que un diamante alcance un quilate?",
+        "paragraphsBefore": [
+          "Puede contribuir a la retención de peso cerca de umbrales comerciales como:"
+        ],
+        "bullets": [
+          "0,50 quilates",
+          "1,00 quilates",
+          "1,50 quilates",
+          "2,00 quilates"
+        ],
+        "paragraphsAfter": [
+          "Sin embargo, la faja es sólo una posible fuente de retención de peso.",
+          "Un diamante de un quilate con proporciones ineficientes puede resultar más pequeño que un diamante más ligero y mejor ensanchado."
+        ]
+      },
+      {
+        "id": "does-a-thin-girdle-make-a-diamond-look-larger",
+        "title": "¿Una faja delgada hace que un diamante parezca más grande?",
+        "paragraphsBefore": [
+          "No necesariamente.",
+          "Una faja más delgada puede reducir el peso oculto, pero el tamaño visible también depende de:"
+        ],
+        "bullets": [
+          "Corona",
+          "Pabellón",
+          "Profundidad total",
+          "Describir",
+          "Relación largo-ancho",
+          "Bulto",
+          "Disposición de facetas"
+        ]
+      },
+      {
+        "id": "how-can-girdle-thickness-affect-price",
+        "title": "¿Cómo puede afectar el grosor de la faja al precio?",
+        "paragraphsBefore": [
+          "Los posibles efectos en el precio incluyen:"
+        ],
+        "bullets": [
+          "Reducción de la demanda de una faja Extremadamente Delgada",
+          "Grado de corte inferior",
+          "Preocupaciones por astillas o seguros",
+          "Peso oculto de una faja Muy Gruesa",
+          "Dimensiones boca arriba más pequeñas",
+          "Costo de configuración",
+          "Consideraciones de reparación o recorte",
+          "deseabilidad antigua",
+          "Daños existentes"
+        ]
+      },
+      {
+        "id": "no-fixed-girdle-discount",
+        "title": "Sin descuento en faja fija",
+        "paragraphsBefore": [
+          "Evite afirmaciones como:"
+        ],
+        "bullets": [
+          "Cada faja Very Thin requiere un 10% de descuento.",
+          "Cada faja Mediana merece un premio.",
+          "Cada faja Muy Gruesa tiene un precio excesivo.",
+          "Cada faja facetada es más valiosa.",
+          "Recortar siempre aumenta el valor."
+        ],
+        "paragraphsAfter": [
+          "El precio requiere comparación con diamantes genuinamente similares en el mercado actual."
+        ]
+      }
+    ]
+  },
+  "naturalVsLab": {
+    "id": "natural-versus-laboratory-grown-diamond-girdles",
+    "title": "Fajas de diamantes naturales versus fajas cultivadas en laboratorio",
+    "introParagraphs": [
+      "El grosor y el acabado de la faja son decisiones de corte.",
+      "Tanto los diamantes naturales como los cultivados en laboratorio pueden tener:"
+    ],
+    "bullets": [
+      "fajas finas",
+      "Fajas medianas",
+      "fajas gruesas",
+      "fajas facetadas",
+      "fajas pulidas",
+      "fajas brutas",
+      "Inscripciones láser",
+      "Papas fritas",
+      "Características naturales o relacionadas con la superficie.",
+      "facetas adicionales",
+      "Pintar o cavar",
+      "Espesor desigual"
+    ],
+    "closingParagraphs": [
+      "Por tanto, la apariencia de la faja no puede establecer:",
+      "origen natural",
+      "Crecimiento de laboratorio",
+      "Método de crecimiento",
+      "Tratamiento",
+      "origen mío",
+      "País natal",
+      "Edad",
+      "Autenticidad de un informe",
+      "Actualmente, GIA inscribe los diamantes cultivados en laboratorio presentados bajo sus servicios aplicables con \"Cultivados en laboratorio\" y el número de evaluación. Sin embargo, la presencia o ausencia de una inscripción aún debe verificarse con la documentación completa y el diamante físico.",
+      "Para la compra de diamantes naturales, confíe en documentación creíble que identifique explícitamente el diamante como natural."
+    ]
+  },
+  "howToInspect": {
+    "id": "how-to-inspect-a-diamond-girdle",
+    "title": "Cómo inspeccionar una faja de diamantes",
+    "introParagraphs": [],
+    "subsections": [
+      {
+        "id": "step-1-read-the-complete-grading-report",
+        "title": "Paso 1: lea el informe de calificaciones completo",
+        "paragraphsBefore": [
+          "Confirmar:"
+        ],
+        "bullets": [
+          "Laboratorio emisor",
+          "Número de informe",
+          "Identificación de diamantes naturales",
+          "Forma y estilo de corte.",
+          "Medidas",
+          "Descripción de la faja",
+          "Porcentaje de faja",
+          "Acabado de faja",
+          "Grado de corte o proporciones",
+          "Simetría",
+          "Polaco",
+          "Grado de claridad",
+          "Trama de claridad",
+          "Comentarios",
+          "Detalles de inscripción"
+        ]
+      },
+      {
+        "id": "step-2-match-the-report-to-the-diamond",
+        "title": "Paso 2: haga coincidir el informe con el diamante",
+        "paragraphsBefore": [
+          "Controlar:"
+        ],
+        "bullets": [
+          "Inscripción láser",
+          "Medidas",
+          "Peso en quilates",
+          "Forma",
+          "Características de claridad",
+          "Fluorescencia",
+          "Número de informe",
+          "Resultados de emparejamiento profesionales"
+        ],
+        "paragraphsAfter": [
+          "No confíes únicamente en la descripción de la faja."
+        ]
+      },
+      {
+        "id": "step-3-identify-the-minimum-and-maximum-thickness",
+        "title": "Paso 3: Identificar el espesor mínimo y máximo",
+        "paragraphsBefore": [
+          "Lea el rango en el orden correcto.",
+          "Por ejemplo:"
+        ],
+        "bullets": [
+          "Muy fino a medio",
+          "Delgada a ligeramente gruesa",
+          "Medio a muy grueso"
+        ],
+        "paragraphsAfter": [
+          "Determine si alguno de los extremos merece un examen más detenido."
+        ]
+      },
+      {
+        "id": "step-4-identify-the-girdle-finish",
+        "title": "Paso 4: Identificar el acabado de la faja",
+        "paragraphsBefore": [
+          "Determinar si es:"
+        ],
+        "bullets": [
+          "Faceted",
+          "Polished",
+          "Bruted",
+          "parcialmente facetado",
+          "Modificado o reparado"
+        ],
+        "paragraphsAfter": [
+          "No confundir acabado con espesor."
+        ]
+      },
+      {
+        "id": "step-5-inspect-the-entire-circumference",
+        "title": "Paso 5: inspeccionar toda la circunferencia",
+        "paragraphsBefore": [
+          "Gire el diamante suelto de forma segura e inspeccione:"
+        ],
+        "bullets": [
+          "Áreas mínimas",
+          "Áreas máximas",
+          "Esquinas",
+          "Agujas",
+          "Espalda",
+          "Alas",
+          "Lados planos",
+          "Áreas cercanas a inclusiones",
+          "Áreas debajo de las inscripciones"
+        ],
+        "paragraphsAfter": [
+          "Una sección visible no representa la faja completa."
+        ]
+      },
+      {
+        "id": "step-6-examine-under-10x-magnification",
+        "title": "Paso 6: Examine con un aumento de 10 ×",
+        "paragraphsBefore": [
+          "Buscar:"
+        ],
+        "bullets": [
+          "Papas fritas",
+          "Abrasión",
+          "barba",
+          "Caries",
+          "Naturales",
+          "naturales sangrados",
+          "Plumas",
+          "moretones",
+          "facetas adicionales",
+          "Marcas de pulido",
+          "Inscripción",
+          "Daño de configuración"
+        ]
+      },
+      {
+        "id": "step-7-compare-the-clarity-plot",
+        "title": "Paso 7: comparar el gráfico de claridad",
+        "paragraphsBefore": [
+          "Determine si las características trazadas alcanzan o se aproximan a la cintura.",
+          "Preste especial atención a:"
+        ],
+        "bullets": [
+          "Plumas",
+          "Caries",
+          "Papas fritas",
+          "naturales sangrados",
+          "Naturales",
+          "Cristales que crean aberturas en la superficie."
+        ]
+      },
+      {
+        "id": "step-8-inspect-corners-and-points",
+        "title": "Paso 8: inspeccionar esquinas y puntos",
+        "paragraphsBefore": [
+          "Esto es especialmente importante para:"
+        ],
+        "bullets": [
+          "Princesa",
+          "Pera",
+          "Marquesa",
+          "Corazón",
+          "Esmeralda",
+          "ascher",
+          "Radiante",
+          "Otras formas arrinconadas"
+        ],
+        "paragraphsAfter": [
+          "Compruebe si las zonas vulnerables estarán protegidas por el entorno previsto."
+        ]
+      },
+      {
+        "id": "step-9-compare-face-up-measurements",
+        "title": "Paso 9: comparar las medidas boca arriba",
+        "paragraphsBefore": [
+          "Compare las dimensiones milimétricas del diamante con piedras genuinamente similares.",
+          "Buscar:"
+        ],
+        "bullets": [
+          "Propagación reducida",
+          "Profundidad total excesiva",
+          "Retención de peso muy gruesa",
+          "Abultado",
+          "Esquema inusual",
+          "Hombros desiguales"
+        ]
+      },
+      {
+        "id": "step-10-inspect-the-setting",
+        "title": "Paso 10: inspeccionar la configuración",
+        "paragraphsBefore": [
+          "Para un diamante montado, verifique:"
+        ],
+        "bullets": [
+          "Posición de las puntas",
+          "Contacto metálico",
+          "Movimiento de diamantes",
+          "Áreas desconchadas",
+          "Protección de puntos",
+          "Brechas",
+          "Abrasión causada por piedras vecinas.",
+          "Si la inscripción permanece accesible"
+        ],
+        "paragraphsAfter": [
+          "No retire un diamante de su engaste sin experiencia y equipo profesional adecuado."
+        ]
+      },
+      {
+        "id": "step-11-compare-with-similar-diamonds",
+        "title": "Paso 11: comparar con diamantes similares",
+        "paragraphsBefore": [
+          "Mantenga lo siguiente lo más consistente posible:"
+        ],
+        "bullets": [
+          "Forma",
+          "Quilate",
+          "Color",
+          "Claridad",
+          "Laboratorio",
+          "Grado de corte",
+          "Medidas",
+          "Faja",
+          "Condición",
+          "Estilo antiguo o moderno"
+        ],
+        "paragraphsAfter": [
+          "Luego compara:",
+          "Tamaño boca arriba",
+          "Brillo",
+          "Fuego",
+          "Centelleo",
+          "Simetría",
+          "Durabilidad",
+          "Idoneidad del entorno",
+          "Precio"
+        ]
+      },
+      {
+        "id": "step-12-arrange-professional-examination",
+        "title": "Paso 12: Organizar el examen profesional",
+        "paragraphsBefore": [
+          "La inspección profesional es particularmente importante cuando:"
+        ],
+        "bullets": [
+          "La faja es extremadamente delgada",
+          "Aparecen áreas muy delgadas en puntos o esquinas",
+          "La gama se extiende desde Muy fino hasta Muy grueso",
+          "Se sospecha que hay una astilla o una cavidad.",
+          "Una pluma llega hasta la faja",
+          "El diamante es antiguo.",
+          "el informe es viejo",
+          "El diamante es de alto valor.",
+          "La piedra ya está montada.",
+          "La inscripción falta o es inconsistente.",
+          "Se está considerando un recorte",
+          "El diamante se compra de forma remota."
+        ]
+      }
+    ],
+    "step1RichParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Utilice el"
+        },
+        {
+          "type": "link",
+          "text": "Guía del informe de clasificación de diamantes",
+          "href": "/resources/diamond-grading-report-guide"
+        },
+        {
+          "type": "text",
+          "value": "para el proceso de verificación completo."
+        }
+      ]
+    ]
+  },
+  "workedComparison": {
+    "id": "worked-diamond-comparison",
+    "title": "Comparación de fajas diamantadas trabajadas",
+    "introParagraphs": [
+      "Considere cuatro diamantes naturales hipotéticos."
+    ],
+    "table": {
+      "caption": "Comparación de fajas diamantadas trabajadas",
+      "headers": [
+        "Característica",
+        "Diamante A",
+        "Diamante B",
+        "Diamante C",
+        "diamante d"
+      ],
+      "rows": [
+        [
+          "Forma",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Round Brilliant",
+          "Pera"
+        ],
+        [
+          "Quilate",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct",
+          "1.00 ct"
+        ],
+        [
+          "Color",
+          "G",
+          "G",
+          "G",
+          "G"
+        ],
+        [
+          "Claridad",
+          "VS2",
+          "VS2",
+          "VS2",
+          "VS2"
+        ],
+        [
+          "Faja",
+          "Mediano, facetado",
+          "Muy fino a mediano, facetado",
+          "De grueso a muy grueso, facetado",
+          "Delgada a muy gruesa, facetada"
+        ],
+        [
+          "Principal preocupación",
+          "Rendimiento de corte completo",
+          "Ubicación y extensión del área muy delgada",
+          "Peso oculto y tamaño boca arriba",
+          "Protección de puntos y distribución de espesores."
+        ],
+        [
+          "Enfoque del comprador",
+          "Usar como referencia equilibrada",
+          "Inspeccionar la durabilidad y la idoneidad del ajuste.",
+          "Comparar diámetro y profundidad total",
+          "Inspeccionar punto, hombros, contorno y configuración."
+        ]
+      ]
+    },
+    "analyses": [
+      {
+        "title": "Comparando los diamantes A y B",
+        "paragraphsBefore": [
+          "El diamante B no debe rechazarse únicamente porque su mínimo sea Muy delgado.",
+          "El comprador debe determinar:"
+        ],
+        "bullets": [
+          "Donde ocurre el área muy delgada",
+          "¿Qué parte de la faja está afectada?",
+          "Si hay una pluma o un astilla cerca",
+          "Si la configuración lo protegerá",
+          "Si su apariencia cortada y boca arriba son superiores",
+          "Si el precio refleja algún riesgo adicional"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Comparando los diamantes A y C",
+        "paragraphsBefore": [
+          "Diamante C podrá contener más peso en su faja.",
+          "Comparar:"
+        ],
+        "bullets": [
+          "Diámetro boca arriba",
+          "Profundidad total",
+          "Brillo",
+          "Grado de corte",
+          "Perfil de configuración",
+          "Precio"
+        ],
+        "paragraphsAfter": [
+          "Si el Diamante C es notablemente más pequeño sin ofrecer otra ventaja significativa, el Diamante A puede proporcionar una mejor eficiencia de peso."
+        ]
+      },
+      {
+        "title": "Comparando los diamantes A y D",
+        "paragraphsBefore": [
+          "Las descripciones de las fajas no se pueden comparar mecánicamente porque las formas difieren.",
+          "El máximo muy grueso de Diamond D puede ocurrir cerca del extremo redondeado, la punta o los hombros. Su mínimo Delgado puede ocurrir en otros lugares.",
+          "El comprador deberá examinar:"
+        ],
+        "bullets": [
+          "Grosor del punto",
+          "equilibrio del ala",
+          "Simetría del hombro",
+          "Corbata de moño",
+          "Relación largo-ancho",
+          "Protección de configuración"
+        ],
+        "paragraphsAfter": []
+      },
+      {
+        "title": "Lo que demuestra esta comparación",
+        "paragraphsBefore": [
+          "La etiqueta de la faja debe interpretarse dentro del diamante completo.",
+          "La decisión de compra correcta depende de:"
+        ],
+        "bullets": [
+          "Forma",
+          "Ubicación de los extremos de espesor.",
+          "Tamaño boca arriba",
+          "Durabilidad",
+          "Cortar",
+          "Simetría",
+          "Condición",
+          "Configuración",
+          "Documentación",
+          "Precio"
+        ],
+        "paragraphsAfter": []
+      }
+    ]
+  },
+  "myths": {
+    "id": "common-girdle-myths",
+    "title": "Mitos comunes sobre la faja de diamantes",
+    "introParagraphs": [],
+    "table": {
+      "caption": "Mitos comunes sobre la faja de diamantes",
+      "headers": [
+        "Mito",
+        "Interpretación precisa"
+      ],
+      "rows": [
+        [
+          "Medio es el único buen grado de faja.",
+          "Delgado y ligeramente grueso también pueden ser adecuados"
+        ],
+        [
+          "Cada faja muy delgada se astillará",
+          "El riesgo depende de la ubicación, extensión, forma, inclusiones, configuración y desgaste."
+        ],
+        [
+          "Delgado significa que el diamante ya está dañado.",
+          "El espesor y el daño son características separadas."
+        ],
+        [
+          "Una faja gruesa hace que un diamante sea más fuerte que cualquier otro diamante.",
+          "El espesor es sólo un factor de durabilidad"
+        ],
+        [
+          "Una faja gruesa siempre arruina el brillo",
+          "Afecta principalmente a la distribución del peso y al tamaño; proporciones completas determinan el rendimiento"
+        ],
+        [
+          "Una faja muy gruesa siempre significa mal corte",
+          "Merece comparación pero no determina la nota completa."
+        ],
+        [
+          "El porcentaje medio muestra la parte más delgada.",
+          "El porcentaje promedio y la descripción verbal mínima son evaluaciones diferentes."
+        ],
+        [
+          "Delgada a Gruesa significa que el promedio es Medio",
+          "Las categorías verbales no deben promediarse"
+        ],
+        [
+          "Una amplia gama siempre significa daño",
+          "Puede resultar del diseño de corte, la forma o la variación normal."
+        ],
+        [
+          "Facetado siempre es mejor que pulido",
+          "Ambos pueden ser finales legítimos."
+        ],
+        [
+          "Las fajas brutadas son falsas o sin terminar",
+          "Las fajas brutas son reconocidas y pueden ser históricamente apropiadas."
+        ],
+        [
+          "Las facetas de la faja son parte del recuento estándar de 57 facetas.",
+          "El facetado de la faja normalmente se trata por separado del recuento de facetas principales."
+        ],
+        [
+          "Una inscripción láser garantiza la autenticidad.",
+          "Es una característica de identificación y debe coincidir con el diamante completo."
+        ],
+        [
+          "Una inscripción faltante demuestra que el diamante es diferente",
+          "La inscripción puede estar oculta, ausente, sucia o eliminada mediante repulido."
+        ],
+        [
+          "Un natural en la faja demuestra origen natural",
+          "El origen requiere una identificación de laboratorio creíble"
+        ],
+        [
+          "El grosor de la faja demuestra si un diamante es natural o cultivado en laboratorio",
+          "Ambos pueden tener configuraciones de faja similares."
+        ],
+        [
+          "Toda faja antigua debe ser facetada.",
+          "El facetado posterior puede eliminar el carácter original."
+        ],
+        [
+          "Toda faja descascarada debe ser recortada.",
+          "El recorte requiere una evaluación profesional de la pérdida de peso, el valor y el riesgo"
+        ],
+        [
+          "GIA y HRD utilizan categorías de fajas idénticas",
+          "Su terminología y estructuras de calificación difieren."
+        ],
+        [
+          "Un informe de calificación garantiza el estado actual de la faja.",
+          "Pueden ocurrir daños después de la nivelación."
+        ],
+        [
+          "Una faja más gruesa siempre significa un mayor valor en quilates",
+          "El peso retenido puede no mejorar el tamaño visible o la conveniencia en el mercado."
+        ]
+      ]
+    }
+  },
+  "checklist": {
+    "id": "natural-diamond-buying-checklist",
+    "title": "Lista de verificación de faja de diamantes naturales",
+    "introLead": "Antes de comprar, confirme:",
+    "items": [
+      "El diamante se identifica explícitamente como natural.",
+      "Se ha proporcionado un informe de calificación creíble.",
+      "El número del informe ha sido verificado.",
+      "El informe se ha comparado con el diamante físico.",
+      "Se ha identificado el laboratorio emisor.",
+      "Se ha utilizado la metodología de fajas propia del laboratorio.",
+      "Se ha leído el espesor mínimo de la faja.",
+      "Se ha leído el espesor máximo de la faja.",
+      "El porcentaje promedio de faja ha sido revisado donde se suministra.",
+      "El rango verbal no se ha promediado incorrectamente.",
+      "Se ha identificado el acabado de la faja.",
+      "Se ha inspeccionado toda la circunferencia.",
+      "Se han localizado las zonas de espesor mínimo.",
+      "Se han localizado las zonas de máximo espesor.",
+      "Se han inspeccionado esquinas y puntos.",
+      "La faja ha sido revisada con un aumento de 10×.",
+      "Se han comprobado las descantillados y la abrasión.",
+      "Se han revisado los naturales y los naturales sangrados.",
+      "Se han revisado las cavidades y las plumas que llegan a la superficie.",
+      "Se ha revisado la barba.",
+      "Se han considerado aspectos adicionales.",
+      "Se han leído la trama de claridad y los comentarios del informe.",
+      "En su caso, se ha comprobado la inscripción láser.",
+      "La inscripción no se ha utilizado como único método de identificación.",
+      "Se han comparado las dimensiones milimétricas del diamante.",
+      "Se ha evaluado la profundidad total y la extensión boca arriba.",
+      "Se ha considerado el peso oculto.",
+      "Se ha revisado el grado de corte o proporciones.",
+      "Se han revisado la simetría y el pulido.",
+      "Se ha considerado el entorno previsto.",
+      "Las áreas muy delgadas no quedarán expuestas innecesariamente.",
+      "Los puntos y esquinas recibirán la protección adecuada.",
+      "La faja no ha sido utilizada como prueba de origen natural.",
+      "No se ha asumido ningún descuento o prima por faja fija.",
+      "El diamante ha sido comparado con piedras realmente similares.",
+      "El estado actual se ha comparado con el informe.",
+      "Se han organizado inspecciones profesionales cuando fue necesario.",
+      "Las condiciones de pago, inspección, entrega y devolución son claras."
+    ]
+  },
+  "cta": {
+    "id": "already-comparing-natural-diamonds",
+    "title": "¿Ya estás comparando diamantes naturales?",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "El espesor de la faja debe evaluarse junto con el corte, la simetría, el estado, la documentación, las dimensiones frontales, la idoneidad del ajuste y el precio."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Con S2S – Secure To Source, los compradores que ya hayan preseleccionado un diamante natural suelto pueden enviarlo a Dalila Diamonds para la coordinación del control de calidad aplicable, el pago en euros y la entrega programada a Bélgica u otro destino confirmado de la Unión Europea."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si aún no ha seleccionado un diamante, utilice"
+        },
+        {
+          "type": "link",
+          "text": "DS4U – Diamond Source For You",
+          "href": "/diamond-source"
+        },
+        {
+          "type": "text",
+          "value": "para solicitar asistencia personalizada para el abastecimiento de diamantes naturales."
+        }
+      ]
+    ],
+    "primaryButtonText": "Enviar un diamante preseleccionado",
+    "primaryButtonHref": "/contact",
+    "secondaryButtonText": "Explorar diamantes naturales",
+    "secondaryButtonHref": "/inventory"
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusión final",
+    "introParagraphs": [
+      "El cinturón es el estrecho borde exterior que separa la corona y el pabellón de un diamante.",
+      "Su grosor afecta a tres consideraciones principales de compra:",
+      "Durabilidad",
+      "Distribución de peso",
+      "Idoneidad del entorno",
+      "Para muchos diamantes naturales modernos, las gamas Fino, Medio y Ligeramente grueso proporcionan un equilibrio práctico. Una faja Extremadamente Delgada o Muy Delgada merece mayor atención porque las áreas vulnerables pueden ser más susceptibles a astillarse. Una faja Muy Gruesa o Extremadamente Gruesa merece comparación porque puede retener el peso en quilates sin mejorar el tamaño boca arriba.",
+      "El rango informado debe examinarse en lugar de promediarse. Una descripción como Muy delgada a gruesa proporciona categorías mínimas y máximas; no significa que la faja completa sea Mediana.",
+      "El acabado también debe considerarse por separado. Facetado, pulido y bruñido describen cómo se completó la superficie de la faja, no si su espesor es el adecuado.",
+      "Lo más importante es que no preguntes sólo:",
+      "¿Qué grado de faja está escrito en el informe?",
+      "Preguntar:",
+      "¿Dónde están las zonas más delgadas y más gruesas? ¿La faja está intacta y es adecuada para el engaste? ¿El diamante completo justifica su peso y precio?"
+    ],
+    "primaryButtonText": "Utilice la fuente segura",
+    "primaryButtonHref": "/secure-to-source",
+    "secondaryButtonText": "Contacto Dalila Diamantes",
+    "secondaryButtonHref": "/contact"
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes sobre las fajas de diamantes",
+    "items": [
+      {
+        "question": "¿Qué es el cinturón de un diamante?",
+        "answer": "El cinturón es el estrecho borde exterior donde la corona del diamante se encuentra con su pabellón. Define el contorno y normalmente proporciona el borde utilizado para asegurar el diamante en joyería."
+      },
+      {
+        "question": "¿Dónde está ubicada la faja?",
+        "answer": "Recorre todo el perímetro del diamante entre la corona y el pabellón."
+      },
+      {
+        "question": "¿Qué significa faja en un informe de diamantes?",
+        "answer": "Describe el grosor y, a veces, el acabado del borde exterior del diamante."
+      },
+      {
+        "question": "¿Qué es la escala de fajas GIA?",
+        "answer": "GIA utiliza Extremadamente fino, Muy fino, Fino, Medio, Ligeramente grueso, Grueso, Muy grueso y Extremadamente grueso."
+      },
+      {
+        "question": "¿Cuál es el mejor espesor de faja de diamantes?",
+        "answer": "Delgado, Medio y Ligeramente grueso, o rangos razonables que involucran estas descripciones, suelen ser prácticos. El mejor resultado depende de la forma, las proporciones, el estado y el engaste del diamante."
+      },
+      {
+        "question": "¿Es Medium la faja ideal?",
+        "answer": "Mediana es una descripción equilibrada, pero no es automáticamente mejor que cualquier faja Delgada o Ligeramente Gruesa."
+      },
+      {
+        "question": "¿Es Delgada a Mediana una buena faja?",
+        "answer": "Por lo general, es aceptable cuando la faja no está dañada y es apropiada para la forma y el engaste del diamante."
+      },
+      {
+        "question": "¿Es bueno entre medio y ligeramente grueso?",
+        "answer": "Puede ser completamente aceptable. Consultar tamaño boca arriba, profundidad total, corte y precio."
+      },
+      {
+        "question": "¿Es aceptable entre fino y ligeramente grueso?",
+        "answer": "Sí, siempre que la variación no genere problemas de durabilidad, simetría, peso o ajuste."
+      },
+      {
+        "question": "¿Es malo entre muy fino y medio?",
+        "answer": "No automáticamente. Localice el área muy delgada y determine su extensión, las inclusiones cercanas y la exposición del entorno."
+      },
+      {
+        "question": "¿Es peligrosa una faja Muy Delgada?",
+        "answer": "Puede aumentar el riesgo de astillas, especialmente en puntos, esquinas o áreas cercanas a inclusiones que llegan a la superficie. El riesgo real depende del diamante."
+      },
+      {
+        "question": "¿Una faja Muy Delgada definitivamente se astillará?",
+        "answer": "No. Indica una mayor vulnerabilidad, no un daño garantizado."
+      },
+      {
+        "question": "¿Qué es una faja Extremadamente Delgada?",
+        "answer": "Es una faja con poco o ningún material en una o más zonas relevantes. Requiere una evaluación minuciosa de la durabilidad y el fraguado."
+      },
+      {
+        "question": "¿Qué es una faja filo de cuchillo?",
+        "answer": "Es un área donde la corona y el pabellón se encuentran sin ningún cinturón entre ellos, creando un borde muy afilado."
+      },
+      {
+        "question": "¿Es mala una faja gruesa de diamantes?",
+        "answer": "No necesariamente. Una faja gruesa puede ser aceptable, pero los compradores deben comparar las dimensiones boca arriba y la distribución del peso."
+      },
+      {
+        "question": "¿Una faja gruesa hace que un diamante parezca más pequeño?",
+        "answer": "Puede ser así si se retiene un peso sustancial en quilates alrededor de la faja en lugar de contribuir a las dimensiones boca arriba."
+      },
+      {
+        "question": "¿Es malo entre muy grueso y extremadamente grueso?",
+        "answer": "Merece una comparación cuidadosa porque puede agregar peso oculto y profundidad total. Esto no hace que el diamante sea automáticamente poco atractivo."
+      },
+      {
+        "question": "¿Una faja Gruesa mejora la durabilidad?",
+        "answer": "Puede proporcionar más material de borde, pero el diamante aún puede dañarse por impactos, inclusiones o una presión de ajuste inadecuada."
+      },
+      {
+        "question": "¿El grosor de la faja afecta el brillo?",
+        "answer": "No determina de forma independiente el brillo. La corona completa, el pabellón, el patrón de facetas y las proporciones determinan el rendimiento lumínico."
+      },
+      {
+        "question": "¿El espesor de la faja afecta la calidad del corte?",
+        "answer": "Sí. Las fajas excesivamente delgadas o gruesas pueden limitar el grado de corte de un Round Brilliant calificado a través de consideraciones de durabilidad o relación de peso."
+      },
+      {
+        "question": "¿El GIA otorga a los diamantes con formas elegantes una calificación de talla general?",
+        "answer": "La calificación de talla general tradicional de GIA se aplica a los diamantes brillantes redondos estándar calificados. Las formas elegantes todavía reciben medidas, pulido, simetría y una descripción de la faja."
+      },
+      {
+        "question": "¿Qué significa de fino a grueso?",
+        "answer": "Significa que el área relevante más delgada es Delgada y la más gruesa es Gruesa."
+      },
+      {
+        "question": "¿Puedo promediar fino y grueso como medio?",
+        "answer": "No. El rango describe dos extremos y no debe convertirse en una categoría verbal promedio supuesta."
+      },
+      {
+        "question": "¿Por qué varía el cinturón de un diamante?",
+        "answer": "La variación puede resultar del festoneado normal, el diseño de la forma, la colocación de las facetas, la pintura, la excavación, la retención de rugosidades, facetas adicionales u otras características de corte."
+      },
+      {
+        "question": "¿Qué es una faja facetada?",
+        "answer": "Se trata de una faja dividida en una serie de pequeñas superficies pulidas."
+      },
+      {
+        "question": "¿Es mejor una faja facetada?",
+        "answer": "No automáticamente. Es un estilo de acabado y no garantiza un mejor corte, durabilidad o valor."
+      },
+      {
+        "question": "¿Qué es una faja pulida?",
+        "answer": "Es una faja lisa y pulida sin pequeñas facetas visibles por separado."
+      },
+      {
+        "question": "¿Qué es una faja bruta?",
+        "answer": "Una faja bruta tiene una superficie esmerilada o granular producida durante el proceso de conformación."
+      },
+      {
+        "question": "¿Es mala una faja bruta?",
+        "answer": "No. Puede ser aceptable y puede ser históricamente apropiado para un diamante antiguo."
+      },
+      {
+        "question": "¿Qué es una faja barbuda?",
+        "answer": "Una faja barbuda contiene rasgos muy pequeños parecidos a plumas que se extienden desde la superficie de la faja hasta el diamante."
+      },
+      {
+        "question": "¿La faja barbuda afecta la claridad?",
+        "answer": "Puede hacerlo, dependiendo de su extensión, profundidad y visibilidad."
+      },
+      {
+        "question": "¿Qué es pintar sobre una faja de diamantes?",
+        "answer": "La pintura es una técnica de corte que altera la relación entre medias facetas, facetas del bisel, principales del pabellón y espesor de la faja."
+      },
+      {
+        "question": "¿Qué es desenterrar?",
+        "answer": "Excavar es la relación faceta-ángulo opuesta a la pintura y crea una variación diferente entre las uniones de la cintura."
+      },
+      {
+        "question": "¿Pintar y cavar son siempre defectos?",
+        "answer": "No. Los ejemplos mínimos pueden tener una importancia limitada, mientras que los ejemplos más potentes pueden afectar la apariencia y la calidad del corte."
+      },
+      {
+        "question": "¿Qué es un natural en la faja?",
+        "answer": "Es una porción de la superficie rugosa original dejada intencionalmente en el diamante pulido."
+      },
+      {
+        "question": "¿Es lo mismo faja natural que dañada?",
+        "answer": "No. Se conserva la superficie rugosa, aunque aún es necesario valorar su tamaño, profundidad y ubicación."
+      },
+      {
+        "question": "¿Qué es un natural sangrado?",
+        "answer": "Se conserva una superficie rugosa que se extiende por debajo del contorno pulido previsto del diamante."
+      },
+      {
+        "question": "¿Qué es una faja desconchada?",
+        "answer": "Es material faltante accidental a lo largo del borde del diamante."
+      },
+      {
+        "question": "¿Se puede reparar una faja desconchada?",
+        "answer": "Es posible volver a pulir o recortar, pero puede reducir el peso en quilates y alterar las proporciones. Se requiere evaluación profesional."
+      },
+      {
+        "question": "¿Puede un diamante astillarse mientras está engastado?",
+        "answer": "Sí. La presión de ajuste puede dañar un borde extremadamente delgado, una esquina vulnerable o un área afectada por una inclusión."
+      },
+      {
+        "question": "¿Se puede dañar una faja de diamantes durante el uso normal?",
+        "answer": "Sí. Los impactos severos, las puntas desgastadas, el contacto con otros diamantes o el movimiento en el engaste pueden dañar la faja."
+      },
+      {
+        "question": "¿Qué es una inscripción de faja?",
+        "answer": "Se trata de texto microscópico, números o símbolos aplicados a la faja, que a menudo incluyen un número de informe de calificaciones."
+      },
+      {
+        "question": "¿Una inscripción láser demuestra autenticidad?",
+        "answer": "No. Admite identificación pero debe cotejarse con el informe, las medidas y las características del diamante."
+      },
+      {
+        "question": "¿Se puede quitar una inscripción de faja?",
+        "answer": "Puede eliminarse o reducirse si se vuelve a pulir la faja."
+      },
+      {
+        "question": "¿Por qué no puedo ver la inscripción?",
+        "answer": "Puede estar oculto por una púa, sucio, extremadamente pequeño, ausente o eliminado. Se requiere una magnificación e iluminación adecuadas."
+      },
+      {
+        "question": "¿Todos los diamantes naturales GIA tienen una inscripción?",
+        "answer": "No. La disponibilidad de inscripción depende del servicio de informe y de si el servicio fue solicitado o incluido."
+      },
+      {
+        "question": "¿Puede el grosor de la faja identificar un diamante natural?",
+        "answer": "No. Los diamantes naturales y los cultivados en laboratorio pueden tener espesores y acabados similares."
+      },
+      {
+        "question": "¿Puede una inscripción láser identificar un diamante cultivado en laboratorio?",
+        "answer": "Una inscripción de laboratorio aplicable puede indicar que un diamante ha sido cultivado en laboratorio, pero aun así se debe verificar el informe completo y la identificación profesional."
+      },
+      {
+        "question": "¿Son iguales los porcentajes de faja GIA y HRD?",
+        "answer": "No. Su terminología, estructuras de medición y sistemas de calificación deben interpretarse por separado."
+      },
+      {
+        "question": "¿Es más importante el grosor de la faja que el corte general?",
+        "answer": "No. Es una parte de la evaluación de la durabilidad, la relación de peso y la artesanía del diamante."
+      },
+      {
+        "question": "¿Debo rechazar un diamante porque su faja es muy delgada?",
+        "answer": "No automáticamente. Determine la ubicación, extensión, condición, forma, entorno y precio antes de decidir."
+      },
+      {
+        "question": "¿Debo rechazar un diamante porque su faja es Muy Gruesa?",
+        "answer": "No automáticamente. Compare sus dimensiones boca arriba, profundidad total, apariencia y precio con diamantes similares."
+      }
+    ]
+  }
+}

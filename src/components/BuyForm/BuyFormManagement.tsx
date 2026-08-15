@@ -3,20 +3,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { formApi } from "@/lib/api";
 import { Eye, X, RefreshCw, ChevronDown, ChevronUp, Loader2 } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import Image from "next/image";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  weight: "400",
-  subsets: ["latin"],
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-});
 
 interface Image {
   fileName: string;

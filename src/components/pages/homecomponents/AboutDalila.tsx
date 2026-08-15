@@ -1,23 +1,11 @@
 "use client";
 import Image from "next/image";
-import { Marcellus,Jost} from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
+import { s3Asset } from "@/lib/s3Assets";
 
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-});
 /** AboutDalila Section **/
 export default function AboutDalila() {
    const { locale, dictionary } = useLanguage();
@@ -35,7 +23,7 @@ export default function AboutDalila() {
             <AnimatedContainer direction="scale-out">
               <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden">
                 <Image
-                  src="/diamondcuts/About.jpg"
+                  src={s3Asset("/diamondcuts/About.jpg")}
                   alt="Diamond shapes collection"
                   fill
                   className="object-cover"

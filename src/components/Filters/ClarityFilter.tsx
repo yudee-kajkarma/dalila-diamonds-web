@@ -1,14 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import { Maven_Pro } from "next/font/google";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
+import { s3Asset } from "@/lib/s3Assets";
 
 const STATIC_CLARITY_OPTIONS = [
   "FL",
@@ -159,7 +153,7 @@ export default function ClarityFilter({
         style={{ backgroundColor: "#000033" }}
       >
         <Image
-          src="/filtersicon/clarity.png"
+          src={s3Asset("/filtersicon/clarity.png")}
           alt="Clarity"
           width={18}
           height={18}
@@ -363,7 +357,7 @@ export default function ClarityFilter({
       >
         <div className="flex items-center gap-1.5">
           <Image
-            src="/filtersicon/clarity.png"
+            src={s3Asset("/filtersicon/clarity.png")}
             alt="Clarity"
             width={16}
             height={16}

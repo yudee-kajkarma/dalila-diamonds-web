@@ -1,23 +1,11 @@
 "use client";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useState, useEffect } from "react";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Diamondshowcase() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -25,9 +13,9 @@ export default function Diamondshowcase() {
   const { dictionary } = useLanguage();
   
   const carouselImages = [
-    "/images/firstimage.jpg",
-    "/images/secondimage.jpg", 
-    "/images/thirdimage.jpg", 
+    s3Asset("/images/firstimage.jpg"),
+    s3Asset("/images/secondimage.jpg"), 
+    s3Asset("/images/thirdimage.jpg"), 
   ];
 
   useEffect(() => {
@@ -64,7 +52,7 @@ export default function Diamondshowcase() {
               <div>
                 <div className="relative h-[350px] md:h-[390px] w-full max-w-[340px] mx-auto overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/diamondwork.png"
+                    src={s3Asset("/images/diamondwork.png")}
                     alt="Professional diamond dealer"
                     fill
                     className="object-cover"

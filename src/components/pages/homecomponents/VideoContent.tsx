@@ -1,20 +1,9 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
 
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
+import { videoUrl } from "@/lib/videoAssets";
 export default function VideoContent() {
     const { dictionary } = useLanguage();
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -59,7 +48,7 @@ export default function VideoContent() {
                     setVideoError(true);
                 }}
             >
-                <source src="/New-Videos/LEGACY_video.mp4" type="video/mp4" />
+                <source src={videoUrl("legacy")} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 

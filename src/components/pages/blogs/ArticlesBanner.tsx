@@ -2,21 +2,9 @@
 import { memo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
+import { s3Asset } from "@/lib/s3Assets";
 // import AnimatedContainer from "@/components/shared/AnimatedContainer";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -35,7 +23,7 @@ const ArticlesBanner = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/banner-dalila-contact.png"
+            src={s3Asset("/images/banner-dalila-contact.png")}
             alt="Articles Background"
             fill
             className="object-cover"

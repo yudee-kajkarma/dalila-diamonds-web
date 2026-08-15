@@ -108,7 +108,7 @@ export const useHeaderAuth = (): UseHeaderAuthReturn => {
                         "/contact",
                         "/secure-to-source",
                         "/diamond-source",
-                        "/sud",
+                        "/sell-your-diamond",
                     ];
                     const isPublicPage = publicPages.some(
                         (page) =>

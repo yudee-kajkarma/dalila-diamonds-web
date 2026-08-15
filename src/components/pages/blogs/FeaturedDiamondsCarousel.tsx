@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 import DiamondDetailView from "@/components/DiamondDetailView";
 import type { DiamondData } from "@/types/diamond.types";
@@ -32,19 +32,6 @@ interface InventoryDiamond {
   FLOUR?: string;
   LOCATION?: string;
 }
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function FeaturedDiamondsCarousel() {
   const router = useRouter();

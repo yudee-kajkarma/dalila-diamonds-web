@@ -1,25 +1,12 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { diamondApi } from "@/lib/api";
 import toast from "react-hot-toast";
 import { Upload, X } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 const SHAPES = ["ROUND", "PRINCESS", "CUSHION", "OVAL", "EMERALD", "PEAR", "MARQUISE", "RADIANT", "ASSCHER", "HEART"];
 const COLORS = ["D", "E", "F", "G", "H", "I", "J", "K", "L", "M"];

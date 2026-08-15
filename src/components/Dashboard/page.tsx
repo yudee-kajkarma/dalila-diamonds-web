@@ -16,17 +16,10 @@ import {
 import Image from "next/image";
 
 import { diamondApi, cartApi, holdApi } from "@/lib/api";
-import { Maven_Pro } from "next/font/google";
+import { mavenPro } from "@/lib/fonts";
 import type { LimitedEditionDiamond } from "@/lib/api";
 import type { DiamondData } from "@/types/diamond.types";
 import DiamondDetailView from "@/components/DiamondDetailView";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
 
 export default function AdminDashboard() {
   const [totalDiamonds, setTotalDiamonds] = useState(0);

@@ -1,4 +1,5 @@
 import { SITE_BASE_URL, blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { BLOG_LANGUAGES } from "@/lib/blogLanguages";
 import { diamondToSlug, getPublicDiamondsSlice } from "@/lib/diamonds";
 
 // Must match CHUNK_SIZE in app/sitemap.xml/route.ts.
@@ -10,16 +11,38 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/aboutUs", priority: 0.8, changefreq: "monthly" },
   { path: "/secure-to-source", priority: 0.8, changefreq: "monthly" },
   { path: "/diamond-source", priority: 0.8, changefreq: "monthly" },
-  { path: "/sud", priority: 0.7, changefreq: "monthly" },
+  { path: "/sell-your-diamond", priority: 0.8, changefreq: "monthly" },
   { path: "/diamondKnowledge", priority: 0.8, changefreq: "monthly" },
   { path: "/premium-b2b-diamond-supplier-belgium", priority: 0.8, changefreq: "monthly" },
+  { path: "/wholesale/buy-wholesale-diamonds-online", priority: 0.8, changefreq: "weekly" },
   { path: "/sell-your-diamond-safely", priority: 0.8, changefreq: "monthly" },
   { path: "/elongated-cushion-cut-diamond-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-grading-report-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-quality-chart", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-fluorescence-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-culet-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-girdle-guide", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-size-chart", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/natural-vs-lab-grown-diamonds", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-valuation-calculator", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/where-to-sell-diamond-ring", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/how-to-sell-diamond-ring", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/diamond-appraisal-antwerp-belgium", priority: 0.7, changefreq: "monthly" },
+  { path: "/resources/sell-diamond-without-certificate", priority: 0.7, changefreq: "monthly" },
   { path: "/blogs", priority: 0.8, changefreq: "weekly" },
+  { path: "/blogs/most-expensive-diamond-shapes", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/vs1-vs-vs2-diamond-clarity", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/best-diamond-colour-clarity-combination", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/fancy-shaped-diamond-cut-quality", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/cushion-cut-diamond", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/diamond-bow-tie-effect", priority: 0.7, changefreq: "monthly" },
+  { path: "/blogs/igi-diamond-certification", priority: 0.7, changefreq: "monthly" },
   { path: "/inventory", priority: 0.9, changefreq: "daily" },
 ];
 
-export const revalidate = 3600;
+// Daily: each chunk regeneration downloads ~5MB across five 1,000-row
+// backend fetches, so the window directly bounds recurring compute cost.
+export const revalidate = 86400;
 
 function esc(value: string): string {
   return value
@@ -74,19 +97,27 @@ export async function GET(
       priority: p.priority,
     }));
 
-    const blogs = await getAllBlogs();
-    const blogEntries: Entry[] = blogs.map((blog) => {
-      const lastModifiedSource = blog.updatedAt || blog.createdAt;
-      const lastmod = lastModifiedSource
-        ? new Date(lastModifiedSource).toISOString()
-        : undefined;
-      return {
-        url: `${SITE_BASE_URL}/blogs/${blogToSlug(blog)}`,
-        ...(lastmod ? { lastmod } : {}),
-        changefreq: "monthly",
-        priority: 0.6,
-      };
-    });
+    // Every translated article gets its own sitemap entry — otherwise the
+    // localised blogs would never be submitted for indexing.
+    const blogsByLanguage = await Promise.all(
+      BLOG_LANGUAGES.map(async (language) => {
+        const blogs = await getAllBlogs(language);
+        const prefix = language === "en" ? "" : `/${language}`;
+        return blogs.map((blog) => {
+          const lastModifiedSource = blog.updatedAt || blog.createdAt;
+          const lastmod = lastModifiedSource
+            ? new Date(lastModifiedSource).toISOString()
+            : undefined;
+          return {
+            url: `${SITE_BASE_URL}${prefix}/blogs/${blogToSlug(blog)}`,
+            ...(lastmod ? { lastmod } : {}),
+            changefreq: "monthly",
+            priority: 0.6,
+          } as Entry;
+        });
+      }),
+    );
+    const blogEntries: Entry[] = blogsByLanguage.flat();
 
     entries = [...staticEntries, ...blogEntries, ...diamondEntries];
   } else {
@@ -96,7 +127,7 @@ export async function GET(
   return new Response(renderUrlset(entries), {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+      "Cache-Control": "public, max-age=0, s-maxage=86400, stale-while-revalidate=86400",
     },
   });
 }

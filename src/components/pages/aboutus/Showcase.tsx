@@ -2,22 +2,10 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import GoldButton from "@/components/ui/Button";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Aboutshowcase() {
   const router = useRouter();
@@ -32,7 +20,7 @@ export default function Aboutshowcase() {
   };
 
   const handleSellNow = () => {
-    router.push(localizedPath("/sud"));
+    router.push(localizedPath("/sell-your-diamond"));
   };
 
   return (
@@ -46,7 +34,7 @@ export default function Aboutshowcase() {
               <div>
                 <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Heritage.jpg"
+                    src={s3Asset("/images/Heritage.jpg")}
                     alt="Professional diamond dealer"
                     width={480}
                     height={340}
@@ -86,7 +74,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out">
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto rounded-none overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/diamondwork.png"
+                  src={s3Asset("/images/diamondwork.png")}
                   alt="Diamond examination with tweezers"
                   width={480}
                   height={340}
@@ -125,7 +113,7 @@ export default function Aboutshowcase() {
             <AnimatedContainer direction="scale-out" delay={0.5}>
               <div className="relative h-[290px] md:h-[340px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="/diamondcuts/sell-diamonds.jpg"
+                  src={s3Asset("/diamondcuts/sell-diamonds.jpg")}
                   alt="Professional diamond dealer"
                   width={480}
                   height={340}

@@ -1,22 +1,10 @@
 "use client";
 import Image from "next/image";
 import { Mail, Phone } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function ContactHeroSection() {
   const goldColor = "#B58900";
@@ -98,7 +86,7 @@ export default function ContactHeroSection() {
               <AnimatedContainer direction="up">
                 <div className="relative bg-gray-100 rounded-none overflow-hidden h-[500px]">
                   <Image
-                    src="/dalila_img/contact-1.webp"
+                    src={s3Asset("/dalila_img/contact-1.webp")}
                     alt="Customer service representative"
                     fill
                     className="object-cover"
@@ -111,7 +99,7 @@ export default function ContactHeroSection() {
               <AnimatedContainer direction="up" delay={0.2}>
                 <div className="relative bg-black rounded-none overflow-hidden h-[500px]">
                   <Image
-                    src="/dalila_img/contact-3.png"
+                    src={s3Asset("/dalila_img/contact-3.png")}
                     alt="Luxury diamond"
                     fill
                     className="object-cover"

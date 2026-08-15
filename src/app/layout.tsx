@@ -1,26 +1,11 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { Playfair_Display, Jost } from "next/font/google";
+import { playfair, jost } from "@/lib/fonts";
 import Script from "next/script";
 import "./globals.css";
 import HeaderFooterWrapper from "@/components/HeaderFooterWrapper";
 import { Toaster } from "react-hot-toast";
-
-const playfair = Playfair_Display({
-    variable: "--font-playfair",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
-
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export const metadata: Metadata = {
     title: "Dalila Diamonds | Premium B2B Diamond Supplier",
@@ -49,10 +34,11 @@ export default function RootLayout({
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "Organization",
+                            "@id": "https://www.daliladiamonds.com/#organization",
                             name: "Daliladiamonds",
                             alternateName: "Dalila diamonds",
                             url: "https://www.daliladiamonds.com/",
-                            logo: "https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png",
+                            logo: s3Asset("/dalila_img/Dalila_Logo.png"),
                             sameAs: "https://www.instagram.com/p/DO56RDlDKde/",
                         }),
                     }}

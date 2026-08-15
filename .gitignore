@@ -43,6 +43,13 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# AWS S3 upload helper — ignore credentials, staged images and URL dumps, but
+# keep the tooling itself in version control so the migration is reproducible.
+s3-upload/.env
+s3-upload/images/
+s3-upload/uploaded-urls.json
+s3-upload/node_modules/
+
 # vercel
 .vercel
 
@@ -74,5 +81,19 @@ logs/
 .cache/
 .turbo/
 .eslintcache
+
+# Large marketing videos — served from S3, do not commit binaries.
+# They live at {NEXT_PUBLIC_S3_BASE_URL}/videos/*.mp4 (see src/lib/videoAssets.ts).
+# To re-publish: recover or edit sources, then
+#   npm run optimize:videos && npm run upload:videos
+# Originals are recoverable from git history, e.g.
+#   git show ef81b2a~1:public/images/FALLING_diam.mp4 > .video-staging/FALLING_diam.mp4
+/public/images/FALLING_diam.mp4
+/public/images/world_net.mp4
+/public/images/video1.mp4
+/public/New-Videos/*.mp4
+
+# Local video staging area for the optimize/upload pipeline
+/.video-staging/
 
 *.md

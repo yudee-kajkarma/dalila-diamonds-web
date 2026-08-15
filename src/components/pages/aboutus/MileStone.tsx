@@ -1,22 +1,10 @@
 "use client";
 import Image from "next/image";
 import { Gem } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function AboutMilestone() {
   const { dictionary } = useLanguage();
@@ -38,7 +26,7 @@ export default function AboutMilestone() {
             <AnimatedContainer direction="left" delay={0.5}>
               <div className="relative h-[350px] md:h-[390px] w-full max-w-[480px] mx-auto overflow-hidden">
                 <Image
-                  src="/images/about_us_3.png"
+                  src={s3Asset("/images/about_us_3.png")}
                   alt="Diamond on display"
                   width={480}
                   height={390}

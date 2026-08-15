@@ -10,6 +10,8 @@ import {
   stripHtml,
   type BackendBlog,
 } from '@/lib/blogs';
+import { s3Asset } from "@/lib/s3Assets";
+import { BLOG_LANGUAGES, toBlogLanguage } from '@/lib/blogLanguages';
 
 type Props = {
   params: Promise<{ slug: string; locale: string }>;
@@ -49,7 +51,7 @@ function getBestDescription(blog: BackendBlog): string {
 }
 
 const getBlogSeoSchemaBySlug = cache(async (locale: string): Promise<Record<string, BlogSeoSchemaEntry>> => {
-  const blogs = await getAllBlogs();
+  const blogs = await getAllBlogs(toBlogLanguage(locale));
   const entries: Record<string, BlogSeoSchemaEntry> = {};
 
   const prefix = locale === 'en' ? '' : `/${locale}`;
@@ -80,15 +82,60 @@ const getBlogSeoSchemaBySlug = cache(async (locale: string): Promise<Record<stri
   return entries;
 });
 
+/**
+ * Look up an article's SEO entry for this locale, falling back to the English
+ * one when there is no translation — the page renders the English article in
+ * that case, so its metadata (and canonical URL) must match.
+ */
+const resolveBlogEntry = cache(async (
+  locale: string,
+  slugKey: string,
+): Promise<BlogSeoSchemaEntry | undefined> => {
+  const entries = await getBlogSeoSchemaBySlug(locale);
+  if (entries[slugKey]) {
+    return entries[slugKey];
+  }
+  if (toBlogLanguage(locale) === 'en') {
+    return undefined;
+  }
+  const englishEntries = await getBlogSeoSchemaBySlug('en');
+  return englishEntries[slugKey];
+});
+
 export async function generateStaticParams() {
   return [];
 }
 
+/**
+ * hreflang map for an article: one entry per language that actually has a
+ * translation, so search engines can pair the localised versions.
+ */
+const getLanguageAlternates = cache(async (
+  slugKey: string,
+): Promise<Record<string, string>> => {
+  const pairs = await Promise.all(
+    BLOG_LANGUAGES.map(async (language) => {
+      const entries = await getBlogSeoSchemaBySlug(language);
+      const url = entries[slugKey]?.seo.url;
+      return url ? ([language, url] as const) : null;
+    }),
+  );
+
+  const languages: Record<string, string> = {};
+  for (const pair of pairs) {
+    if (pair) languages[pair[0]] = pair[1];
+  }
+  if (languages.en) {
+    languages['x-default'] = languages.en;
+  }
+  return languages;
+});
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params;
   const slugKey = normalizeSlug(slug);
-  const blogEntries = await getBlogSeoSchemaBySlug(locale);
-  const matchedSeo = blogEntries[slugKey]?.seo;
+  const matchedSeo = (await resolveBlogEntry(locale, slugKey))?.seo;
+  const languages = await getLanguageAlternates(slugKey);
 
   if (matchedSeo) {
     return {
@@ -96,6 +143,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: matchedSeo.description,
       alternates: {
         canonical: matchedSeo.url,
+        ...(Object.keys(languages).length > 1 ? { languages } : {}),
       },
       openGraph: {
         title: matchedSeo.title,
@@ -143,8 +191,7 @@ export default async function BlogDetailLayout({
 }) {
   const { slug, locale } = await params;
   const slugKey = normalizeSlug(slug);
-  const blogEntries = await getBlogSeoSchemaBySlug(locale);
-  const schemaConfig = blogEntries[slugKey]?.schema;
+  const schemaConfig = (await resolveBlogEntry(locale, slugKey))?.schema;
 
   const blogPostingSchema = schemaConfig
     ? {
@@ -168,7 +215,7 @@ export default async function BlogDetailLayout({
           name: 'Dalila Diamonds',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.daliladiamonds.com/dalila_img/Dalila_Logo.png',
+            url: s3Asset("/dalila_img/Dalila_Logo.png"),
           },
         },
       }

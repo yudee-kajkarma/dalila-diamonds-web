@@ -4,14 +4,8 @@ import React from "react";
 import Footer from "./Footer";
 import Image from "next/image";
 import { X, ArrowLeft } from "lucide-react";
-import { Maven_Pro } from "next/font/google";
-
-const mavenPro = Maven_Pro({
-  variable: "--font-maven-pro",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
+import { s3Asset } from "@/lib/s3Assets";
 
 interface DiamondData {
   _id: string;
@@ -196,7 +190,7 @@ const DiamondComparisonPage: React.FC<DiamondComparisonPageProps> = ({
                         </button>
                         {/* <div className="px-4 pb-4">
                           <Image 
-                            src="/dalila_img/DalilaLogo.png" 
+                            src={s3Asset("/dalila_img/DalilaLogo.png")} 
                             alt="Dalila Logo" 
                             width={150}
                             height={50}

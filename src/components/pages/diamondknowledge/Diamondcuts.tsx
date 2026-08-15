@@ -1,22 +1,10 @@
 "use client";
 import Image from "next/image";
 import { Gem } from "lucide-react";
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-  variable: "--font-marcellus",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const jost = Jost({
-  variable: "--font-jost",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
+import { s3Asset } from "@/lib/s3Assets";
 
 export default function Diamondcuts() {
   const { dictionary } = useLanguage();
@@ -48,7 +36,7 @@ export default function Diamondcuts() {
               <div className="relative w-full max-w-[500px] aspect-[3/4] bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Image
-                    src="/images/diamond.png"
+                    src={s3Asset("/images/diamond.png")}
                     alt="Brilliant cut diamonds"
                     fill
                     style={{ objectFit: "cover" }}

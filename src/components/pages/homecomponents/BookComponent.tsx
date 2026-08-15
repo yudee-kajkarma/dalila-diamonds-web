@@ -1,24 +1,12 @@
 "use client";
 import { useRef, useEffect } from "react";
 
-import { Marcellus, Jost } from "next/font/google";
+import { marcellus, jost } from "@/lib/fonts";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { useRouter } from "next/navigation";
 
 import { useLanguage } from "@/context/LanguageContext";
-
-const marcellus = Marcellus({
-    variable: "--font-marcellus",
-    subsets: ["latin"],
-    weight: "400",
-});
-const jost = Jost({
-    variable: "--font-jost",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700"],
-    display: "swap",
-    preload: true,
-});
+import { videoUrl } from "@/lib/videoAssets";
 
 export default function BookComponent() {
     const { locale, dictionary } = useLanguage();
@@ -83,8 +71,9 @@ export default function BookComponent() {
                             loop
                             muted
                             playsInline
+                            preload="metadata"
                         >
-                            <source src="/images/video1.mp4" type="video/mp4" />
+                            <source src={videoUrl("video1")} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 

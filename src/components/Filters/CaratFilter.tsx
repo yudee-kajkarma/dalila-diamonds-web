@@ -1,14 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Maven_Pro } from "next/font/google";
-
-const mavenPro = Maven_Pro({
-    variable: "--font-maven-pro",
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800"],
-    display: "swap",
-});
+import { mavenPro } from "@/lib/fonts";
+import { s3Asset } from "@/lib/s3Assets";
 
 interface CaratFilterProps {
     selectedCaratRanges: { min: string; max: string }[];
@@ -138,7 +132,7 @@ export default function CaratFilter({
                 style={{ backgroundColor: "#000033" }}
             >
                 <Image
-                    src="/filtersicon/carat.png"
+                    src={s3Asset("/filtersicon/carat.png")}
                     alt="Carat"
                     width={18}
                     height={18}
@@ -224,7 +218,7 @@ export default function CaratFilter({
             >
                 <div className="flex items-center gap-1.5">
                     <Image
-                        src="/filtersicon/carat.png"
+                        src={s3Asset("/filtersicon/carat.png")}
                         alt="Carat"
                         width={16}
                         height={16}
