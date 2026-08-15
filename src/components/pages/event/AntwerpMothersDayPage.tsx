@@ -1,14 +1,11 @@
 "use client";
 
-import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Loader2, Upload, X } from "lucide-react";
 import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { getMothersDayData } from "@/lib/i18n/getMothersDayData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
-import { formApi } from "@/lib/api";
 import ProductsSection from "./ProductsSection";
 
 // ── Date component ──────────────────────────────────────────────────────────
@@ -28,175 +25,6 @@ function MothersDayDate({ data }: { data: ReturnType<typeof getMothersDayData> }
       <span className="w-2 h-2 rounded-full bg-[#c89e3a] shrink-0" aria-hidden="true" />
       {label}
     </div>
-  );
-}
-
-// ── Enquiry form ─────────────────────────────────────────────────────────────
-type FormState = {
-  name: string;
-  company: string;
-  contact: string;
-  piece: string;
-  shape: string;
-  quantity: string;
-  specs: string;
-  budget: string;
-  date: string;
-  consent: boolean;
-};
-
-const initialForm: FormState = {
-  name: "", company: "", contact: "", piece: "", shape: "",
-  quantity: "", specs: "", budget: "", date: "", consent: false,
-};
-
-function EnquiryForm({ data, primaryCta }: { data: ReturnType<typeof getMothersDayData>; primaryCta: string }) {
-  const [form, setForm] = useState<FormState>(initialForm);
-  const [file, setFile] = useState<File | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null);
-  const fileRef = useRef<HTMLInputElement>(null);
-
-  const fieldCls = `w-full border border-gray-300 px-4 py-2.5 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#c89e3a]/40 focus:border-[#c89e3a] ${jost.className}`;
-
-  const update = (k: keyof FormState, v: string | boolean) =>
-    setForm(p => ({ ...p, [k]: v }));
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.name.trim()) return setStatus({ type: "error", message: "Please enter your name." });
-    if (!form.contact.trim()) return setStatus({ type: "error", message: "Please enter your email or WhatsApp." });
-    if (!form.consent) return setStatus({ type: "error", message: "Please accept the privacy policy to continue." });
-
-    setIsSubmitting(true);
-    setStatus(null);
-    try {
-      const description = [
-        "Antwerp Mother&apos;s Day Diamond Brief",
-        `Company: ${form.company || "N/A"}`,
-        `Intended piece: ${form.piece || "N/A"}`,
-        `Shape: ${form.shape || "N/A"}`,
-        `Quantity: ${form.quantity || "N/A"}`,
-        `Specifications: ${form.specs || "N/A"}`,
-        `Budget: ${form.budget || "N/A"}`,
-        `Required date: ${form.date || "N/A"}`,
-      ].join("\n");
-
-      const fd = new FormData();
-      fd.append("fullName", form.name);
-      fd.append("email", form.contact.includes("@") ? form.contact : "not-provided@dalila.local");
-      fd.append("phone", form.contact.includes("@") ? "Not provided" : form.contact);
-      fd.append("material", form.piece || "Mother&apos;s Day Diamond");
-      fd.append("description", description);
-      fd.append("fullAddress", "Not provided");
-      if (file) fd.append("images", file);
-
-      const res = await formApi.submitSellDiamond(fd);
-      if (res.success) {
-        setStatus({ type: "success", message: "Your brief has been sent. Dalila&apos;s Antwerp team will be in touch with the next practical step." });
-        setForm(initialForm);
-        setFile(null);
-      } else {
-        setStatus({ type: "error", message: res.message || "Something went wrong. Please try again." });
-      }
-    } catch {
-      setStatus({ type: "error", message: "Something went wrong. Please try again or email us directly." });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const timing = data.sections.timing;
-
-  return (
-    <section id="enquiry-form" className="scroll-mt-28 mb-12 border border-gray-200 bg-slate-50 p-6 md:p-8">
-      <h3 className={`text-2xl md:text-3xl text-[#1a1a1a] mb-2 ${marcellus.className}`}>{primaryCta}</h3>
-      <p className={`text-gray-600 mb-6 text-sm ${jost.className}`}>{data.trustMicrocopy}</p>
-
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[0]} *</label>
-            <input type="text" required value={form.name} onChange={e => update("name", e.target.value)} className={fieldCls} />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[1]}</label>
-            <input type="text" value={form.company} onChange={e => update("company", e.target.value)} className={fieldCls} />
-          </div>
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[2]} *</label>
-          <input type="text" required value={form.contact} onChange={e => update("contact", e.target.value)} className={fieldCls} placeholder="email or WhatsApp" />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[3]}</label>
-            <input type="text" value={form.piece} onChange={e => update("piece", e.target.value)} className={fieldCls} placeholder="e.g. pendant, ring" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[4]}</label>
-            <input type="text" value={form.shape} onChange={e => update("shape", e.target.value)} className={fieldCls} placeholder="e.g. round, heart, oval" />
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[5]}</label>
-            <input type="text" value={form.quantity} onChange={e => update("quantity", e.target.value)} className={fieldCls} placeholder="e.g. 1 or matched pair" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[7]}</label>
-            <input type="text" value={form.budget} onChange={e => update("budget", e.target.value)} className={fieldCls} placeholder="e.g. €3,000–€5,000" />
-          </div>
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[6]}</label>
-          <textarea rows={3} value={form.specs} onChange={e => update("specs", e.target.value)} className={fieldCls} placeholder="Colour, clarity, carat, report preference…" />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">{timing.formFields[8]}</label>
-          <input type="text" value={form.date} onChange={e => update("date", e.target.value)} className={fieldCls} placeholder="e.g. 5 August 2026" />
-        </div>
-
-        {/* File upload */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">Reference image (optional)</label>
-          <div className="border-2 border-dashed border-gray-300 p-4 text-center bg-white">
-            <Upload className="w-5 h-5 mx-auto mb-2 text-[#c89e3a]" />
-            <button type="button" onClick={() => fileRef.current?.click()} className="border border-gray-300 px-3 py-1.5 text-sm hover:bg-gray-50">Choose file</button>
-            <input ref={fileRef} type="file" accept=".jpg,.jpeg,.png,.webp,.pdf" className="hidden"
-              onChange={e => { const f = e.target.files?.[0]; if (f) setFile(f); }} />
-          </div>
-          {file && (
-            <div className="mt-2 flex items-center justify-between border border-gray-200 px-3 py-1.5 bg-white text-sm">
-              <span className="truncate">{file.name}</span>
-              <button type="button" onClick={() => setFile(null)} aria-label="Remove"><X className="w-4 h-4 text-red-500" /></button>
-            </div>
-          )}
-        </div>
-
-        <label className="flex items-start gap-3 text-sm text-gray-700">
-          <input type="checkbox" checked={form.consent} onChange={e => update("consent", e.target.checked)} className="mt-1" />
-          <span>I agree to Dalila Diamonds processing my enquiry in line with the <Link href="/privacy" className="text-[#c89e3a] underline">Privacy Policy</Link>. {timing.consentNote}</span>
-        </label>
-
-        {status && (
-          <div className={`p-4 text-sm ${status.type === "success" ? "bg-green-50 border border-green-200 text-green-800" : "bg-red-50 border border-red-200 text-red-800"}`}>
-            {status.message}
-          </div>
-        )}
-
-        <div className="flex flex-col sm:flex-row gap-3">
-          <button type="submit" disabled={isSubmitting}
-            className={`px-8 py-3 bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium disabled:opacity-60 flex items-center gap-2 transition-colors ${jost.className}`}>
-            {isSubmitting ? <><Loader2 className="w-4 h-4 animate-spin" />Sending…</> : primaryCta}
-          </button>
-        </div>
-
-        <p className={`text-xs text-gray-500 mt-2 ${jost.className}`}>
-          {timing.contact.email} · {timing.contact.phone} · {timing.contact.address}
-        </p>
-      </form>
-    </section>
   );
 }
 
@@ -288,10 +116,10 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
                 {sections.hero.urgency}
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-4">
-                <a href="#enquiry-form"
+                <Link href={lp("/contact")}
                   className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                   {data.primaryCta}
-                </a>
+                </Link>
                 <Link href={lp("/inventory")}
                   className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-[#FAF6EB] font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                   {data.secondaryCta}
@@ -329,10 +157,10 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
               {sections.whyLoose.paragraphs.map((p, i) => (
                 <p key={i} className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>{p}</p>
               ))}
-              <a href="#enquiry-form"
+              <Link href={lp("/contact")}
                 className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {data.askGradedCta}
-              </a>
+              </Link>
             </div>
           }
         />
@@ -354,10 +182,10 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
                 <div className="w-10 h-0.5 bg-[#c89e3a] mt-2 mb-4" />
                 <h3 className={`text-base font-bold text-[#1a1a1a] mb-3 leading-snug flex-1 ${marcellus.className}`}>{item.title}</h3>
                 <p className={`text-gray-500 text-sm leading-relaxed mb-4 ${jost.className}`}>{item.body}</p>
-                <a href="#enquiry-form"
+                <Link href={lp("/contact")}
                   className={`inline-flex items-center gap-1 text-xs font-semibold text-white bg-[#c89e3a] hover:bg-[#b38d2f] px-4 py-2 transition-colors self-start ${jost.className}`}>
                   {item.cta} →
-                </a>
+                </Link>
               </div>
             ))}
           </div>
@@ -380,10 +208,10 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
                 <span className="font-semibold text-[#1a1a1a]">Quick brief fields: </span>
                 {sections.guide.briefFields}
               </div>
-              <a href="#enquiry-form"
+              <Link href={lp("/contact")}
                 className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {data.primaryCta}
-              </a>
+              </Link>
             </div>
           }
         />
@@ -400,31 +228,13 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
               <div className={`border-l-4 border-[#c89e3a] pl-4 py-2 text-sm text-gray-600 mb-6 italic ${jost.className}`}>
                 {sections.whyDalila.tradeNote}
               </div>
-              <a href="#enquiry-form"
+              <Link href={lp("/contact")}
                 className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
                 {sections.whyDalila.cta}
-              </a>
+              </Link>
             </div>
           }
         />
-
-        {/* ── Section 7 — Conversion and timing + Form ── */}
-        <section className="mb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-            <div>
-              <SectionHeading title={sections.timing.heading} />
-              {sections.timing.paragraphs.map((p, i) => (
-                <p key={i} className={`text-gray-700 text-base md:text-lg leading-relaxed mb-4 ${jost.className}`}>{p}</p>
-              ))}
-              <div className="relative w-full aspect-[16/10] overflow-hidden shadow-xl bg-gray-100 mt-6">
-                <Image src="/event_pages/page_1/7.png" alt={sections.timing.imageAlt} fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
-              </div>
-            </div>
-            <div>
-              <EnquiryForm data={data} primaryCta={data.primaryCta} />
-            </div>
-          </div>
-        </section>
 
         {/* ── Section 8 — FAQ ── */}
         <section className="mb-16">
@@ -442,23 +252,6 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
           </div>
         </section>
 
-        {/* ── Final CTA ── */}
-        <section className="bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10 mb-12">
-          <div className="w-24 h-1.5 bg-linear-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-          <h2 className={`text-3xl md:text-4xl text-[#1a1a1a] mb-4 ${marcellus.className}`}>{data.primaryCta}</h2>
-          <p className={`text-gray-600 mb-6 text-base ${jost.className}`}>{data.trustMicrocopy}</p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <a href="#enquiry-form"
-              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
-              {data.primaryCta}
-            </a>
-            <Link href={lp("/inventory")}
-              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}>
-              {data.secondaryCta}
-            </Link>
-          </div>
-        </section>
-
         {/* Byline */}
         <p className={`text-xs text-gray-400 text-center mb-8 ${jost.className}`}>
           Prepared by Dalila Diamonds&apos; Antwerp sourcing team. Last reviewed: August 2026.
@@ -468,10 +261,10 @@ export default function AntwerpMothersDayPage({ locale: localeProp }: { locale?:
 
       {/* Mobile sticky CTA */}
       <div className="fixed bottom-0 inset-x-0 z-40 md:hidden border-t border-[#c89e3a]/30 bg-[#0B1A33] p-3">
-        <a href="#enquiry-form"
+        <Link href={lp("/contact")}
           className={`block w-full text-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium py-3 text-sm tracking-[0.08em] uppercase ${jost.className}`}>
           {data.primaryCta}
-        </a>
+        </Link>
       </div>
 
     </main>

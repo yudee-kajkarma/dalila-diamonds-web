@@ -1,14 +1,14 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Loader2, Upload, X, CheckCircle2 } from "lucide-react";
+import { Loader2, CheckCircle2 } from "lucide-react";
 import { marcellus, jost } from "@/lib/fonts";
 import { useLanguage } from "@/context/LanguageContext";
 import { getWeekendVanDeKlantData } from "@/lib/i18n/getWeekendVanDeKlantData";
 import { getLocalizedPath, type Locale } from "@/lib/i18n/config";
-import { formApi } from "@/lib/api";
+import { userApi } from "@/lib/api";
 import ProductsSection from "./ProductsSection";
 
 // ── Event date / status badge ────────────────────────────────────────────────
@@ -89,13 +89,11 @@ function BookingForm({
   data: ReturnType<typeof getWeekendVanDeKlantData>;
 }) {
   const [form, setForm] = useState<BookingState>(initialBooking);
-  const [file, setFile] = useState<File | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<{
     type: "success" | "error";
     message: string;
   } | null>(null);
-  const fileRef = useRef<HTMLInputElement>(null);
 
   const fieldCls = `w-full border border-gray-300 px-4 py-2.5 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#c89e3a]/40 focus:border-[#c89e3a] ${jost.className}`;
 
@@ -108,6 +106,11 @@ function BookingForm({
       return setStatus({ type: "error", message: "Please enter your name." });
     if (!form.email.trim())
       return setStatus({ type: "error", message: "Please enter your email." });
+    if (!form.phone.trim())
+      return setStatus({
+        type: "error",
+        message: "Please enter your phone number.",
+      });
     if (!form.appointmentType.trim())
       return setStatus({
         type: "error",
@@ -123,7 +126,7 @@ function BookingForm({
     setStatus(null);
 
     try {
-      const description = [
+      const message = [
         "Weekend van de Klant — Appointment Request",
         `Company / role: ${form.company || "N/A"}`,
         `Appointment type: ${form.appointmentType || "N/A"}`,
@@ -136,23 +139,19 @@ function BookingForm({
         `Attendees: ${form.attendees || "N/A"}`,
       ].join("\n");
 
-      const fd = new FormData();
-      fd.append("fullName", form.name);
-      fd.append("email", form.email);
-      fd.append("phone", form.phone || "Not provided");
-      fd.append("material", form.appointmentType || "Weekend van de Klant Appointment");
-      fd.append("description", description);
-      fd.append("fullAddress", "Not provided");
-      if (file) fd.append("images", file);
+      const res = await userApi.submitContactForm({
+        name: form.name,
+        email: form.email,
+        phoneNo: form.phone,
+        message,
+      });
 
-      const res = await formApi.submitSellDiamond(fd);
       if (res.success) {
         setStatus({
           type: "success",
           message: data.sections.booking.confirmationMessage,
         });
         setForm(initialBooking);
-        setFile(null);
       } else {
         setStatus({
           type: "error",
@@ -265,10 +264,11 @@ function BookingForm({
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              {booking.formFields[3]}
+              {booking.formFields[3]} *
             </label>
             <input
               type="text"
+              required
               value={form.phone}
               onChange={(e) => update("phone", e.target.value)}
               className={fieldCls}
@@ -302,16 +302,12 @@ function BookingForm({
             <label className="block text-sm font-medium text-gray-700 mb-1">
               {booking.formFields[5]}
             </label>
-            <select
+            <input
+              type="date"
               value={form.preferredDay}
               onChange={(e) => update("preferredDay", e.target.value)}
               className={fieldCls}
-            >
-              <option value="">Select…</option>
-              <option>Saturday 3 October</option>
-              <option>Sunday 4 October</option>
-              <option>Another weekday</option>
-            </select>
+            />
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -395,45 +391,6 @@ function BookingForm({
               placeholder="e.g. 2 — Jan De Smet, Anna Peeters"
             />
           </div>
-        </div>
-
-        {/* File upload */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Specification sheet or reference image (optional)
-          </label>
-          <div className="border-2 border-dashed border-gray-300 p-4 text-center bg-white">
-            <Upload className="w-5 h-5 mx-auto mb-2 text-[#c89e3a]" />
-            <button
-              type="button"
-              onClick={() => fileRef.current?.click()}
-              className="border border-gray-300 px-3 py-1.5 text-sm hover:bg-gray-50"
-            >
-              Choose file
-            </button>
-            <input
-              ref={fileRef}
-              type="file"
-              accept=".jpg,.jpeg,.png,.webp,.pdf"
-              className="hidden"
-              onChange={(e) => {
-                const f = e.target.files?.[0];
-                if (f) setFile(f);
-              }}
-            />
-          </div>
-          {file && (
-            <div className="mt-2 flex items-center justify-between border border-gray-200 px-3 py-1.5 bg-white text-sm">
-              <span className="truncate">{file.name}</span>
-              <button
-                type="button"
-                onClick={() => setFile(null)}
-                aria-label="Remove"
-              >
-                <X className="w-4 h-4 text-red-500" />
-              </button>
-            </div>
-          )}
         </div>
 
         {/* Consent */}
@@ -906,64 +863,6 @@ export default function WeekendVanDeKlantPage({
                 </p>
               </details>
             ))}
-          </div>
-        </section>
-
-        {/* ── Final CTA ── */}
-        <section className="bg-[#FAF6EB] border border-[#e4c75f]/40 p-8 md:p-10 mb-12">
-          <div className="w-24 h-1.5 bg-gradient-to-r from-[#c89e3a] to-[#e4c75f] mb-6 rounded-full" />
-          <h2
-            className={`text-3xl md:text-4xl text-[#1a1a1a] mb-4 ${marcellus.className}`}
-          >
-            {data.primaryCta}
-          </h2>
-          <p className={`text-gray-600 mb-6 text-base ${jost.className}`}>
-            {data.trustMicrocopy}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <a
-              href="#booking-form"
-              className={`inline-flex items-center justify-center bg-[#c89e3a] hover:bg-[#b38d2f] text-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
-            >
-              {data.primaryCta}
-            </a>
-            <a
-              href="#booking-form"
-              className={`inline-flex items-center justify-center border border-[#c89e3a] text-[#8a7028] hover:bg-white font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
-            >
-              {data.tradeCta}
-            </a>
-            <Link
-              href={lp("/inventory")}
-              className={`inline-flex items-center justify-center border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium px-8 py-3.5 text-sm transition-colors ${jost.className}`}
-            >
-              {data.secondaryCta}
-            </Link>
-          </div>
-          {/* Internal links */}
-          <div className={`flex flex-wrap gap-x-6 gap-y-1 mt-6 text-sm ${jost.className}`}>
-            <Link href={lp("/inventory")} className="text-[#c89e3a] hover:underline">
-              View natural diamond inventory
-            </Link>
-            <Link href={lp("/contact")} className="text-[#c89e3a] hover:underline">
-              Contact Dalila Diamonds
-            </Link>
-            <a
-              href="https://weekendvandeklant.be/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#c89e3a] hover:underline"
-            >
-              Official Weekend van de Klant information
-            </a>
-            <a
-              href="https://weekendvandeklant.be/ontdek-deelnemende-winkels-in-je-buurt/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#c89e3a] hover:underline"
-            >
-              Find participating businesses
-            </a>
           </div>
         </section>
 
