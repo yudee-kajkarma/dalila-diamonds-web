@@ -3,7 +3,7 @@ import { Marcellus } from "next/font/google";
 import { Jost } from "next/font/google";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
-import { blogToSlug, getAllBlogs } from "@/lib/blogs";
+import { blogToSlug, getLocalizedBlogList } from "@/lib/blogs";
 import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import BlogAdminBar from "./BlogAdminBar";
 import BlogCardActions from "./BlogCardActions";
@@ -44,13 +44,16 @@ type ListingItem =
       href: string;
       title: string;
       featuredImage?: string;
-      blog: Awaited<ReturnType<typeof getAllBlogs>>[number];
+      blog: Awaited<ReturnType<typeof getLocalizedBlogList>>[number];
     };
 
 export default async function BlogsPage({ searchParams }: Props) {
   const { page } = await searchParams;
 
-  const [apiBlogs, staticBlogs] = await Promise.all([getAllBlogs("en"), Promise.resolve(getStaticBlogCards("en"))]);
+  const [apiBlogs, staticBlogs] = await Promise.all([
+    getLocalizedBlogList("en"),
+    Promise.resolve(getStaticBlogCards("en")),
+  ]);
 
   const staticItems: ListingItem[] = staticBlogs.map((blog) => ({
     kind: "static",
