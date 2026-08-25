@@ -48,10 +48,8 @@ export function blogToSlug(blog: Pick<BackendBlog, 'title' | 'customSlug'>): str
 }
 
 // Revalidation window (seconds) for cached blog reads. Admin create/edit/delete
-// busts these immediately via revalidatePath() in app/blogs/actions.ts, so a
-// long window costs nothing in freshness — it only bounds how often crawler
-// traffic re-triggers the per-language list fetches.
-const BLOG_REVALIDATE_SECONDS = 3600;
+// busts these immediately via revalidatePath() in app/blogs/actions.ts.
+const BLOG_REVALIDATE_SECONDS = 300;
 
 export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<BackendBlog[]> => {
   try {
@@ -59,12 +57,30 @@ export const getAllBlogs = cache(async (language: BlogLanguage = 'en'): Promise<
       `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc&language=${language}`,
       // The list endpoint omits the article body, so the payload is small and
       // safe to cache. Full content is fetched per-blog in getBlogById.
-      // The timeout bounds billed SSR wall-clock when the backend stalls;
-      // normal responses take ~2s.
-      {
-        next: { revalidate: BLOG_REVALIDATE_SECONDS },
-        signal: AbortSignal.timeout(8000),
-      },
+      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
+    );
+
+    if (!response.ok) {
+      return [];
+    }
+
+    const payload = (await response.json()) as BlogsApiResponse;
+    return Array.isArray(payload.data) ? payload.data : [];
+  } catch {
+    return [];
+  }
+});
+
+/**
+ * Fetch every blog document in the database with no language filter.
+ * Used by the listing page so articles that only exist in one language
+ * (e.g. only English so far) are never hidden from other locales.
+ */
+export const getAllBlogsUnfiltered = cache(async (): Promise<BackendBlog[]> => {
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
+      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
     );
 
     if (!response.ok) {
@@ -82,7 +98,6 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   try {
     const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
       next: { revalidate: BLOG_REVALIDATE_SECONDS },
-      signal: AbortSignal.timeout(8000),
     });
 
     if (!response.ok) {
@@ -101,16 +116,27 @@ export const getBlogBySlug = cache(async (
   language: BlogLanguage = 'en',
 ): Promise<BackendBlog | null> => {
   const target = normalizeSlug(slug);
-  const blogs = await getAllBlogs(language);
-  const match = blogs.find((blog) => blogToSlug(blog) === target);
-  if (!match?._id) {
-    return match ?? null;
-  }
+
+  // Use the unfiltered pool so legacy articles (no language field in DB) are
+  // never excluded. Pick the best language version in-memory.
+  const all = await getAllBlogsUnfiltered();
+
+  // Separate docs matching the target slug (by base slug, language-prefix stripped)
+  const candidates = all.filter((blog) => blogToSlug(blog) === target);
+  if (candidates.length === 0) return null;
+
+  // Prefer the requested language, then English, then any version present.
+  const pick =
+    candidates.find((b) => b.language === language) ??
+    candidates.find((b) => b.language === 'en' || !b.language) ??
+    candidates[0];
+
+  if (!pick._id) return pick;
 
   // The list response omits content/description for performance; fetch the
   // full document by id so the detail page has the article body.
-  const full = await getBlogById(match._id);
-  return full ?? match;
+  const full = await getBlogById(pick._id);
+  return full ?? pick;
 });
 
 export type LocalizedBlogResult = {
@@ -147,13 +173,60 @@ export const getLocalizedBlogBySlug = cache(async (
   };
 });
 
-/** Blog list for a locale, falling back to English when nothing is translated. */
+/**
+ * Build a deduplicated blog list for a given locale.
+ *
+ * Strategy:
+ * 1. Fetch ALL documents with no language filter so articles that only have
+ *    one language version (e.g. only EN so far) are never hidden.
+ * 2. Group documents by translationGroupId.  Articles that predate the
+ *    grouping feature (no translationGroupId) are treated as their own group
+ *    keyed by _id.
+ * 3. For each group pick the best document to show:
+ *    a. The version in the requested language  ← preferred
+ *    b. The English version                    ← first fallback
+ *    c. Any version present                    ← last fallback
+ * 4. Return one representative document per article, sorted newest first.
+ */
 export const getLocalizedBlogList = cache(async (
   language: BlogLanguage = 'en',
 ): Promise<BackendBlog[]> => {
-  const blogs = await getAllBlogs(language);
-  if (blogs.length > 0 || language === 'en') {
-    return blogs;
+  const all = await getAllBlogsUnfiltered();
+  if (all.length === 0) return [];
+
+  // Group by translationGroupId (or _id for legacy docs without a group).
+  const groups = new Map<string, BackendBlog[]>();
+  for (const blog of all) {
+    const key = blog.translationGroupId || blog._id || blog.customSlug || blog.title;
+    if (!key) continue;
+    const bucket = groups.get(key);
+    if (bucket) {
+      bucket.push(blog);
+    } else {
+      groups.set(key, [blog]);
+    }
   }
-  return getAllBlogs('en');
+
+  const result: BackendBlog[] = [];
+  for (const versions of groups.values()) {
+    // a. Exact match for requested language
+    const exact = versions.find((b) => b.language === language);
+    if (exact) { result.push(exact); continue; }
+
+    // b. English fallback
+    const english = versions.find((b) => b.language === 'en' || !b.language);
+    if (english) { result.push(english); continue; }
+
+    // c. Any version
+    result.push(versions[0]);
+  }
+
+  // Preserve newest-first order from the API response.
+  result.sort((a, b) => {
+    const ta = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+    const tb = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+    return tb - ta;
+  });
+
+  return result;
 });

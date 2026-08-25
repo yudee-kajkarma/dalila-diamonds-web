@@ -87,8 +87,10 @@ export default function BlogCardActions({ blog }: Props) {
     try {
       const payload = {
         ...values,
-        // Backend stores base for EN and `{lang}/{base}` for others.
-        customSlug: getBlogBaseSlug(values.customSlug) || values.customSlug,
+        // Keep the full localised slug as-is (e.g. "es/my-blog" for Spanish,
+        // "my-blog" for English). The repository normalises it before saving so
+        // we never need to strip the prefix here.
+        customSlug: values.customSlug,
         // Omit when empty so the backend starts a new translation group.
         translationGroupId: values.translationGroupId || undefined,
         description: values.content,
