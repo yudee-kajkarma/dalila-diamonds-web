@@ -1,10 +1,23 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { marcellus, jost } from "@/lib/fonts";
+import { Marcellus, Jost } from "next/font/google";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
-import { blogToSlug, getAllBlogs, getBlogBySlug } from "@/lib/blogs";
+import { blogToSlug, getLocalizedBlogBySlug, getLocalizedBlogList } from "@/lib/blogs";
+
+const marcellus = Marcellus({
+  variable: "--font-marcellus",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const jost = Jost({
+  variable: "--font-jost",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
+});
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -14,13 +27,16 @@ export default async function BlogDetailPage({ params }: Props) {
   const { slug } = await params;
   const cleanSlug = slug.split("?")[0].split("#")[0];
 
-  const [blog, allBlogs] = await Promise.all([getBlogBySlug(cleanSlug, "en"), getAllBlogs("en")]);
+  const [blog, allBlogs] = await Promise.all([
+    getLocalizedBlogBySlug(cleanSlug, "en"),
+    getLocalizedBlogList("en"),
+  ]);
 
-  if (!blog) {
+  if (!blog.blog) {
     notFound();
   }
 
-  const currentSlugKey = blogToSlug(blog);
+  const currentSlugKey = blogToSlug(blog.blog);
 
   return (
     <div className="bg-white min-h-screen">
@@ -190,12 +206,12 @@ export default async function BlogDetailPage({ params }: Props) {
             <h1
               className={`text-3xl md:text-4xl lg:text-5xl text-[#1a1a1a] font-bold leading-tight mb-6 ${marcellus.className}`}
             >
-              {blog.title}
+              {blog.blog.title}
             </h1>
 
             <div
               className={`blog-content ${jost.className}`}
-              dangerouslySetInnerHTML={{ __html: blog.content || blog.description || "" }}
+              dangerouslySetInnerHTML={{ __html: blog.blog.content || blog.blog.description || "" }}
             />
           </article>
         </div>

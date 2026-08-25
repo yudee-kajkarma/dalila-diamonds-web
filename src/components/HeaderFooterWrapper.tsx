@@ -28,7 +28,7 @@ export default function HeaderFooterWrapper({
 
   return (
     <>
-    //add event in header
+
       {!hideHeaderFooter && <Header />}
       <main className="relative overflow-x-hidden w-full max-w-full">{children}</main>
       {!hideHeaderFooter && <Footer />}
