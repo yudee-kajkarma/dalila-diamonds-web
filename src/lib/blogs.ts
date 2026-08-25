@@ -221,11 +221,26 @@ export const getLocalizedBlogList = cache(async (
     result.push(versions[0]);
   }
 
-  // Preserve newest-first order from the API response.
+  // Sort by the OLDEST createdAt within each group so that adding a new
+  // language translation never changes the article's position in the listing.
+  // The original article's creation date is always the earliest in the group.
   result.sort((a, b) => {
-    const ta = a.createdAt ? new Date(a.createdAt).getTime() : 0;
-    const tb = b.createdAt ? new Date(b.createdAt).getTime() : 0;
-    return tb - ta;
+    // Find the earliest createdAt across all versions of each article's group.
+    const groupKeyA = a.translationGroupId || a._id || '';
+    const groupKeyB = b.translationGroupId || b._id || '';
+
+    const allVersionsA = groups.get(groupKeyA) ?? [a];
+    const allVersionsB = groups.get(groupKeyB) ?? [b];
+
+    const oldestA = Math.min(
+      ...allVersionsA.map((v) => (v.createdAt ? new Date(v.createdAt).getTime() : 0))
+    );
+    const oldestB = Math.min(
+      ...allVersionsB.map((v) => (v.createdAt ? new Date(v.createdAt).getTime() : 0))
+    );
+
+    // Newest article first (by the original creation date, not the translation date).
+    return oldestB - oldestA;
   });
 
   return result;
