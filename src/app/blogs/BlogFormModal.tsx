@@ -315,13 +315,27 @@ export default function BlogFormModal({
 
       // Carry the group id forward so the next language joins this article
       // instead of starting a new one.
+      const resolvedGroupId =
+        result?.translationGroupId || normalizedForm.translationGroupId;
+
       const savedForm: BlogFormValues = {
         ...normalizedForm,
-        translationGroupId:
-          result?.translationGroupId || normalizedForm.translationGroupId,
+        translationGroupId: resolvedGroupId,
       };
       setForm(savedForm);
-      setDrafts((prev) => ({ ...prev, [savedForm.language]: savedForm }));
+
+      // Propagate the resolved translationGroupId into ALL in-memory drafts so
+      // every subsequent language switch (including switching back to a draft
+      // typed earlier this session) carries the correct group id and never
+      // creates an orphaned document.
+      setDrafts((prev) => {
+        const updated: Partial<Record<BlogLanguage, BlogFormValues>> = {};
+        for (const [lang, draft] of Object.entries(prev) as [BlogLanguage, BlogFormValues][]) {
+          updated[lang] = { ...draft, translationGroupId: resolvedGroupId };
+        }
+        updated[savedForm.language] = savedForm;
+        return updated;
+      });
       setLanguageHint(
         wasUpdate
           ? `${normalizedForm.language.toUpperCase()} version updated. Switch language to edit another version.`

@@ -113,6 +113,7 @@ export default async function BlogsPage({ searchParams }: Props) {
                       {/* Keep admin actions outside <Link> so edit modal clicks never navigate. */}
                       {item.kind === "api" ? (
                         <BlogCardActions
+                          siteLanguage="en"
                           blog={{
                             _id: item.blog._id || "",
                             title: item.blog.title,

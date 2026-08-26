@@ -32,9 +32,11 @@ type Props = {
     metaTitle?: string;
     metaDescription?: string;
   };
+  /** Current site language — the modal opens on this tab by default. */
+  siteLanguage?: BlogLanguage;
 };
 
-export default function BlogCardActions({ blog }: Props) {
+export default function BlogCardActions({ blog, siteLanguage = "en" }: Props) {
   const isAdmin = useIsAdmin();
   const router = useRouter();
   const [showEditModal, setShowEditModal] = useState(false);
@@ -66,6 +68,9 @@ export default function BlogCardActions({ blog }: Props) {
   const openEdit = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+
+    // Step 1: fetch the full doc for the card's own language (to get translationGroupId
+    // and the base slug, which we need to look up the site-language version).
     let source = blog;
     try {
       const response = await blogApi.getById(blog._id);
@@ -75,6 +80,35 @@ export default function BlogCardActions({ blog }: Props) {
     } catch (error) {
       console.error("Error loading blog for edit:", error);
     }
+
+    const baseSlug = getBlogBaseSlug(source.customSlug);
+    const groupId = source.translationGroupId || "";
+
+    // Step 2: if the site language differs from the card's language, try to load
+    // the site-language version so the modal opens on the correct tab.
+    if (siteLanguage !== resolveLanguage(source) && (baseSlug || groupId)) {
+      try {
+        const langResponse = await blogApi.getByBaseSlugAndLanguage(
+          baseSlug,
+          siteLanguage,
+          groupId || undefined,
+        );
+        if (langResponse?.data) {
+          // Found the site-language version — open the modal on that tab.
+          setEditValues(toFormValues({ ...langResponse.data, _id: langResponse.data._id || source._id }));
+          setEditBlogId(langResponse.data._id || source._id);
+          setShowEditModal(true);
+          return;
+        }
+      } catch {
+        // Site-language version doesn't exist yet — fall through to open on
+        // the card's own language with a blank tab pre-selected below.
+      }
+    }
+
+    // Step 3: site language version not found (or same language) — open on the
+    // card's own language. The modal's language-switch will show empty for
+    // site language, letting the admin add it fresh.
     setEditValues(toFormValues(source));
     setEditBlogId(source._id);
     setShowEditModal(true);
