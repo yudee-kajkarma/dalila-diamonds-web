@@ -25,6 +25,9 @@ interface Submission {
   carat: number;
   material: string;
   description: string;
+  condition?: string;
+  pickupDate?: string;
+  pickupTime?: string;
   images: Image[];
   status: string;
   createdAt: string;
@@ -450,6 +453,21 @@ export default function BuyFormManagement() {
                     <label className={`${jost.className} text-sm font-medium text-gray-500`}>Material</label>
                     <p className={`${jost.className} text-base text-gray-900`}>{selectedSubmission.material}</p>
                   </div>
+                  {selectedSubmission.condition && (
+                    <div>
+                      <label className={`${jost.className} text-sm font-medium text-gray-500`}>Condition</label>
+                      <p className={`${jost.className} text-base text-gray-900`}>{selectedSubmission.condition}</p>
+                    </div>
+                  )}
+                  {selectedSubmission.pickupDate && (
+                    <div>
+                      <label className={`${jost.className} text-sm font-medium text-gray-500`}>Preferred Pickup</label>
+                      <p className={`${jost.className} text-base text-gray-900`}>
+                        {selectedSubmission.pickupDate}
+                        {selectedSubmission.pickupTime ? ` (${selectedSubmission.pickupTime})` : ""}
+                      </p>
+                    </div>
+                  )}
                   <div className="md:col-span-2">
                     <label className={`${jost.className} text-sm font-medium text-gray-500`}>Description</label>
                     <p className={`${jost.className} text-base text-gray-900`}>
@@ -464,6 +482,11 @@ export default function BuyFormManagement() {
                 <h3 className={`${jost.className} text-lg font-semibold text-gray-900 mb-4`}>
                   Uploaded Images ({selectedSubmission.images.length})
                 </h3>
+                {selectedSubmission.images.length === 0 && (
+                  <p className={`${jost.className} text-sm text-gray-500`}>
+                    No images were uploaded with this submission.
+                  </p>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {selectedSubmission.images.map((image, index) => (
                     <div
