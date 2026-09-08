@@ -91,7 +91,7 @@ export default async function BlogsPage({ searchParams }: Props) {
 
   return (
     <div className="bg-white min-h-screen">
-      <ArticlesBanner />
+      <ArticlesBanner asPageHeading />
 
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-7xl">

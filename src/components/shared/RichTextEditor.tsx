@@ -10,7 +10,6 @@ import {
   Italic,
   List,
   ListOrdered,
-  Heading1,
   Heading2,
   Heading3,
   Quote,
@@ -26,6 +25,22 @@ interface RichTextEditorProps {
   placeholder?: string;
   disabled?: boolean;
   className?: string;
+}
+
+/**
+ * The page template already owns the single <h1> (the article title), so body
+ * content must never contain one. Authors paste these articles in from Google
+ * Docs, where every section heading arrives as an <h1> — that is how ~90 H1s
+ * per article ended up in the database. Removing the toolbar button is not
+ * enough on its own; this demotes any h1 that arrives by paste or by loading a
+ * not-yet-migrated article.
+ *
+ * Keep in sync with demoteH1 in backend-dalila/server/scripts/demote-blog-h1.ts
+ */
+export function demoteH1InHtml(html: string): string {
+  return html
+    .replace(/<h1(\s[^>]*)?>/gi, (_m, attrs) => `<h2${attrs || ""}>`)
+    .replace(/<\/h1\s*>/gi, "</h2>");
 }
 
 export default function RichTextEditor({
@@ -56,13 +71,17 @@ export default function RichTextEditor({
     editable: !disabled,
     immediatelyRender: false,
     onUpdate: ({ editor }) => {
-      onChange(editor.getHTML());
+      onChange(demoteH1InHtml(editor.getHTML()));
     },
   });
 
   useEffect(() => {
-    if (editor && value !== editor.getHTML()) {
-      editor.commands.setContent(value);
+    if (!editor) return;
+    // Demote on the way in too, so opening a not-yet-migrated article shows the
+    // corrected hierarchy immediately rather than only after the first keystroke.
+    const normalized = demoteH1InHtml(value);
+    if (normalized !== editor.getHTML()) {
+      editor.commands.setContent(normalized);
     }
   }, [value, editor]);
 
@@ -126,20 +145,8 @@ export default function RichTextEditor({
 
         <div className="w-px h-8 bg-gray-300 mx-1"></div>
 
-        <button
-          type="button"
-          onClick={() =>
-            editor.chain().focus().toggleHeading({ level: 1 }).run()
-          }
-          disabled={disabled}
-          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
-            editor.isActive("heading", { level: 1 }) ? "bg-gray-300 text-gray-900" : ""
-          } ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
-          title="Heading 1"
-        >
-          <Heading1 size={18} className="text-gray-700" />
-        </button>
-
+        {/* No H1 button: the article title in the page template is the page's
+            single H1. Body headings start at H2. */}
         <button
           type="button"
           onClick={() =>
