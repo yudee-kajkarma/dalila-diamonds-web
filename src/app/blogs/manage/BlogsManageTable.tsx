@@ -41,6 +41,12 @@ export type ManageRow = {
   languages: Partial<Record<BlogLanguage, LanguageInfo>>;
   /** Languages holding more than one document — records fighting for one URL. */
   duplicates: Array<{ language: BlogLanguage; ids: string[] }>;
+  /** Stored slugs carrying stray slashes. The URL still resolves; the stored value is wrong. */
+  malformedSlugs: string[];
+  /** Documents with no language. The site treats those as English. */
+  missingLanguage: number;
+  /** Documents not linked to a translation group. */
+  ungrouped: number;
   documentCount: number;
   updatedAt: string | null;
   datePublished: string | null;
@@ -49,7 +55,13 @@ export type ManageRow = {
 };
 
 type SortKey = "title" | "languages" | "updated";
-type Filter = "all" | "missingImage" | "missingMeta" | "incomplete" | "duplicates";
+type Filter =
+  | "all"
+  | "missingImage"
+  | "missingMeta"
+  | "incomplete"
+  | "duplicates"
+  | "dataIssues";
 
 const ALL_LANGUAGES = BLOG_LANGUAGE_OPTIONS.map((o) => o.code);
 
@@ -101,14 +113,22 @@ export default function BlogsManageTable({
     let missingMeta = 0;
     let incomplete = 0;
     let duplicates = 0;
+    let dataIssues = 0;
     for (const row of rows) {
       const primary = primaryOf(row);
       if (!primary?.hasImage) missingImage += 1;
       if (!primary?.hasMetaDescription) missingMeta += 1;
       if (Object.keys(row.languages).length < ALL_LANGUAGES.length) incomplete += 1;
       if (row.duplicates.length > 0) duplicates += 1;
+      if (
+        row.malformedSlugs.length > 0 ||
+        row.missingLanguage > 0 ||
+        row.ungrouped > 0
+      ) {
+        dataIssues += 1;
+      }
     }
-    return { missingImage, missingMeta, incomplete, duplicates };
+    return { missingImage, missingMeta, incomplete, duplicates, dataIssues };
   }, [rows]);
 
   const visible = useMemo(() => {
@@ -131,6 +151,12 @@ export default function BlogsManageTable({
           return Object.keys(row.languages).length < ALL_LANGUAGES.length;
         case "duplicates":
           return row.duplicates.length > 0;
+        case "dataIssues":
+          return (
+            row.malformedSlugs.length > 0 ||
+            row.missingLanguage > 0 ||
+            row.ungrouped > 0
+          );
         default:
           return true;
       }
@@ -333,6 +359,8 @@ export default function BlogsManageTable({
           {filterButton("missingMeta", "No meta description", stats.missingMeta)}
           {filterButton("incomplete", "Missing translations", stats.incomplete)}
           {stats.duplicates > 0 && filterButton("duplicates", "Duplicates", stats.duplicates)}
+          {stats.dataIssues > 0 &&
+            filterButton("dataIssues", "Data issues", stats.dataIssues)}
         </div>
 
         {showDeleted && (
@@ -376,6 +404,41 @@ export default function BlogsManageTable({
                       <div className="font-medium text-[#2d2d2d]">{row.title}</div>
                       <div className="mt-0.5 flex items-center gap-2 text-xs text-gray-500">
                         <span className="truncate">/{row.slug}</span>
+                        {row.malformedSlugs.length > 0 && (
+                          <Link
+                            href={`/blogs/editor?id=${encodeURIComponent(row.id)}`}
+                            className="inline-flex items-center gap-1 border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-amber-800 transition-colors hover:bg-amber-100"
+                            title={`Stored as ${row.malformedSlugs
+                              .map((s) => `"${s}"`)
+                              .join(", ")}. The page still loads, but the stored slug has stray slashes. Open and save the article to clean it.`}
+                          >
+                            <AlertTriangle size={11} />
+                            slug needs cleaning
+                          </Link>
+                        )}
+
+                        {row.missingLanguage > 0 && (
+                          <Link
+                            href={`/blogs/editor?id=${encodeURIComponent(row.id)}`}
+                            className="inline-flex items-center gap-1 border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-amber-800 transition-colors hover:bg-amber-100"
+                            title="No language is set, so the site treats this as English. If it is not English it will appear in the wrong listing and be served at an English URL. Open the article, pick its language and save."
+                          >
+                            <AlertTriangle size={11} />
+                            {row.missingLanguage === 1
+                              ? "no language set"
+                              : `${row.missingLanguage} without language`}
+                          </Link>
+                        )}
+
+                        {row.ungrouped > 0 && (
+                          <span
+                            className="inline-flex items-center gap-1 border border-gray-200 px-1.5 py-0.5 text-gray-500"
+                            title="Not linked to a translation group. Harmless while the article has only one language; it is linked automatically when a translation is added."
+                          >
+                            ungrouped
+                          </span>
+                        )}
+
                         {row.duplicates.map((duplicate) => (
                           <button
                             key={duplicate.language}

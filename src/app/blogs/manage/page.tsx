@@ -87,6 +87,23 @@ function buildRows(
       if (ids.length > 1) duplicates.push({ language, ids });
     }
 
+    // Data problems worth an admin's attention, collected per article.
+    //
+    // A malformed slug is stored with stray slashes. The URL already resolves
+    // correctly because the read path strips them, so this is not broken - but
+    // the stored value disagrees with the served one, which makes slug
+    // comparisons unreliable. Saving the article normalises it.
+    //
+    // A missing language is the consequential one: the site treats an unset
+    // language as English, so a Dutch article with no label is listed and
+    // served as English.
+    const malformedSlugs = versions
+      .map((v) => v.customSlug || "")
+      .filter((slug) => slug && slug !== slug.trim().replace(/^\/+|\/+$/g, ""));
+
+    const missingLanguage = versions.filter((v) => !v.language).length;
+    const ungrouped = versions.filter((v) => !v.translationGroupId).length;
+
     const updatedAt = versions
       .map((v) => v.updatedAt)
       .filter(Boolean)
@@ -100,6 +117,9 @@ function buildRows(
       slug: getBlogBaseSlug(primary.customSlug) || "",
       languages,
       duplicates,
+      malformedSlugs,
+      missingLanguage,
+      ungrouped,
       documentCount: versions.length,
       updatedAt: updatedAt || null,
       datePublished: primary.datePublished || primary.createdAt || null,
