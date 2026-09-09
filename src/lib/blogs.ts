@@ -106,6 +106,32 @@ export const getAllBlogsUnfiltered = cache(async (): Promise<BackendBlog[]> => {
   }
 });
 
+/**
+ * Every blog document, read fresh on each request.
+ *
+ * The admin dashboard must never show a version of the data that predates an
+ * edit or a duplicate resolution, so this deliberately opts out of the Data
+ * Cache that getAllBlogsUnfiltered relies on. React's cache() still dedupes it
+ * within a single render.
+ */
+export const getAllBlogsForAdmin = cache(async (): Promise<BackendBlog[]> => {
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
+      { cache: 'no-store' },
+    );
+
+    if (!response.ok) {
+      return [];
+    }
+
+    const payload = (await response.json()) as BlogsApiResponse;
+    return Array.isArray(payload.data) ? payload.data : [];
+  } catch {
+    return [];
+  }
+});
+
 export const getBlogById = cache(async (id: string): Promise<BackendBlog | null> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
