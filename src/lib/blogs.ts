@@ -114,6 +114,90 @@ export const getAllBlogsUnfiltered = cache(async (): Promise<BackendBlog[]> => {
  * Cache that getAllBlogsUnfiltered relies on. React's cache() still dedupes it
  * within a single render.
  */
+/**
+ * Words carrying no topical signal when matching one article to another.
+ * "diamond" is in here deliberately: it appears in nearly every title on this
+ * site, so leaving it in would make everything look related to everything.
+ */
+const RELATED_STOPWORDS = new Set([
+  'a','an','the','and','or','but','for','of','to','in','on','at','by','with','from',
+  'is','are','was','be','been','it','its','this','that','these','those','you','your',
+  'what','which','how','why','when','where','who','should','can','do','does','vs',
+  'versus','guide','complete','ultimate','best','top','explained','everything',
+  'about','need','know','buying','buyer','buyers','dalila','diamond','diamonds',
+]);
+
+function topicalWords(blog: BackendBlog): Set<string> {
+  const source = [
+    blog.title || '',
+    blog.primaryKeyword || '',
+    (blog.secondaryKeywords || []).join(' '),
+  ].join(' ');
+
+  return new Set(
+    source
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, ' ')
+      .split(/[\s-]+/)
+      .filter((word) => word.length > 2 && !RELATED_STOPWORDS.has(word)),
+  );
+}
+
+/**
+ * Pick a handful of genuinely related articles for the sidebar.
+ *
+ * The sidebar used to list every article, which put ~130 links on each of 627
+ * pages. The content packages call for four to six related guides instead, both
+ * to stop diluting internal linking and because a catalogue is not navigation.
+ *
+ * There is no category or tag field to match on, so relatedness is scored from
+ * words shared between titles and target keywords. Articles with nothing in
+ * common fall back to the most recent, so the sidebar is never empty.
+ */
+export function selectRelatedBlogs(
+  current: BackendBlog,
+  all: BackendBlog[],
+  limit = 5,
+): BackendBlog[] {
+  const currentSlug = blogToSlug(current);
+  const currentWords = topicalWords(current);
+
+  const candidates = all.filter((blog) => blogToSlug(blog) !== currentSlug);
+
+  const scored = candidates.map((blog) => {
+    let overlap = 0;
+    for (const word of topicalWords(blog)) {
+      if (currentWords.has(word)) overlap += 1;
+    }
+    return { blog, overlap };
+  });
+
+  const related = scored
+    .filter((entry) => entry.overlap > 0)
+    .sort((a, b) => {
+      if (b.overlap !== a.overlap) return b.overlap - a.overlap;
+      // Same relevance: prefer the more recently published.
+      const aDate = a.blog.datePublished || a.blog.createdAt || '';
+      const bDate = b.blog.datePublished || b.blog.createdAt || '';
+      return bDate.localeCompare(aDate);
+    })
+    .map((entry) => entry.blog);
+
+  if (related.length >= limit) return related.slice(0, limit);
+
+  // Top up with the newest articles not already chosen.
+  const chosen = new Set(related.map((blog) => blogToSlug(blog)));
+  const filler = candidates
+    .filter((blog) => !chosen.has(blogToSlug(blog)))
+    .sort((a, b) => {
+      const aDate = a.datePublished || a.createdAt || '';
+      const bDate = b.datePublished || b.createdAt || '';
+      return bDate.localeCompare(aDate);
+    });
+
+  return [...related, ...filler].slice(0, limit);
+}
+
 export const getAllBlogsForAdmin = cache(async (): Promise<BackendBlog[]> => {
   try {
     const response = await fetch(
@@ -149,32 +233,60 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   }
 });
 
+type BlogBySlugResponse = {
+  data?: BackendBlog;
+  servedLanguage?: string;
+  isFallback?: boolean;
+};
+
+/**
+ * Resolve one article from its slug.
+ *
+ * This used to download every blog and match the slug in memory, because the
+ * API had no slug lookup - so rendering a single article pulled the whole
+ * collection, then fetched the matched document again by id for its body. The
+ * query now runs in the database and returns the full document in one call.
+ *
+ * The endpoint also applies the English fallback, so an article that exists
+ * only in English still renders on a localised route.
+ */
+const fetchBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage,
+): Promise<{ blog: BackendBlog | null; servedLanguage: BlogLanguage; isFallback: boolean }> => {
+  const target = normalizeSlug(slug);
+  const empty = { blog: null, servedLanguage: language, isFallback: false };
+  if (!target) return empty;
+
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/blogs/by-slug?slug=${encodeURIComponent(target)}&language=${language}`,
+      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
+    );
+
+    if (!response.ok) {
+      return empty;
+    }
+
+    const payload = (await response.json()) as BlogBySlugResponse;
+    if (!payload.data) return empty;
+
+    return {
+      blog: payload.data,
+      servedLanguage: (payload.servedLanguage as BlogLanguage) || language,
+      isFallback: Boolean(payload.isFallback),
+    };
+  } catch {
+    return empty;
+  }
+});
+
 export const getBlogBySlug = cache(async (
   slug: string,
   language: BlogLanguage = 'en',
 ): Promise<BackendBlog | null> => {
-  const target = normalizeSlug(slug);
-
-  // Use the unfiltered pool so legacy articles (no language field in DB) are
-  // never excluded. Pick the best language version in-memory.
-  const all = await getAllBlogsUnfiltered();
-
-  // Separate docs matching the target slug (by base slug, language-prefix stripped)
-  const candidates = all.filter((blog) => blogToSlug(blog) === target);
-  if (candidates.length === 0) return null;
-
-  // Prefer the requested language, then English, then any version present.
-  const pick =
-    candidates.find((b) => b.language === language) ??
-    candidates.find((b) => b.language === 'en' || !b.language) ??
-    candidates[0];
-
-  if (!pick._id) return pick;
-
-  // The list response omits content/description for performance; fetch the
-  // full document by id so the detail page has the article body.
-  const full = await getBlogById(pick._id);
-  return full ?? pick;
+  const { blog } = await fetchBlogBySlug(slug, language);
+  return blog;
 });
 
 export type LocalizedBlogResult = {
@@ -194,21 +306,10 @@ export const getLocalizedBlogBySlug = cache(async (
   slug: string,
   language: BlogLanguage = 'en',
 ): Promise<LocalizedBlogResult> => {
-  const localized = await getBlogBySlug(slug, language);
-  if (localized) {
-    return { blog: localized, isFallback: false, language };
-  }
-
-  if (language === 'en') {
-    return { blog: null, isFallback: false, language };
-  }
-
-  const english = await getBlogBySlug(slug, 'en');
-  return {
-    blog: english,
-    isFallback: Boolean(english),
-    language: 'en',
-  };
+  // The endpoint applies the English fallback itself and reports whether it
+  // did, so this no longer needs a second request to find out.
+  const { blog, servedLanguage, isFallback } = await fetchBlogBySlug(slug, language);
+  return { blog, isFallback, language: servedLanguage };
 });
 
 /**

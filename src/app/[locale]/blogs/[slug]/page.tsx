@@ -4,7 +4,12 @@ import { marcellus, jost } from "@/lib/fonts";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
-import { blogToSlug, getLocalizedBlogBySlug, getLocalizedBlogList } from "@/lib/blogs";
+import {
+  blogToSlug,
+  getLocalizedBlogBySlug,
+  getLocalizedBlogList,
+  selectRelatedBlogs,
+} from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 
 type Props = {
@@ -28,6 +33,9 @@ export default async function BlogDetailPage({ params }: Props) {
   }
 
   const currentSlugKey = blogToSlug(blog);
+  // Four to six related guides rather than the full catalogue: the sidebar
+  // previously linked every article, putting ~130 links on each of 627 pages.
+  const relatedBlogs = selectRelatedBlogs(blog, allBlogs, 5);
 
   const localizedPath = (path: string) => {
     if (!locale || locale === "en") return path;
@@ -53,15 +61,15 @@ export default async function BlogDetailPage({ params }: Props) {
           <aside className="sticky-sidebar order-2 lg:order-1">
             <div className="mb-6">
               <h3 className={`text-xl font-bold text-[#2d2d2d] mb-5 ${marcellus.className}`}>
-                Our Articles
+                Related Guides
               </h3>
-              {allBlogs.length === 0 ? (
+              {relatedBlogs.length === 0 ? (
                 <p className={`text-sm text-gray-500 ${jost.className}`}>
                   No other articles available.
                 </p>
               ) : (
                 <ul className="space-y-4">
-                  {allBlogs.map((articleItem, index) => {
+                  {relatedBlogs.map((articleItem, index) => {
                     const itemSlug = blogToSlug(articleItem);
                     const isActive = itemSlug === currentSlugKey;
                     return (

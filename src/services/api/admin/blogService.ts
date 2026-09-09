@@ -7,6 +7,37 @@ import { getAuthToken } from "../base/authHandler";
 import { handleApiError } from "../base/errorHandler";
 import type { Blog, BlogPaginationData } from "../types/user.types";
 
+/**
+ * Thrown when the API refuses a save because another live article already owns
+ * the slug. Carries that article so the editor can offer to open it instead of
+ * just reporting a failure.
+ */
+export class BlogSlugConflictError extends Error {
+  constructor(
+    message: string,
+    public readonly existing: { _id: string; title: string; language?: string },
+  ) {
+    super(message);
+    this.name = "BlogSlugConflictError";
+  }
+}
+
+/** Pull the 409 payload off an axios error, if that is what this is. */
+function asSlugConflict(error: unknown): BlogSlugConflictError | null {
+  const response = (error as {
+    response?: {
+      status?: number;
+      data?: { message?: string; conflict?: { _id: string; title: string; language?: string } };
+    };
+  })?.response;
+
+  if (response?.status !== 409 || !response.data?.conflict) return null;
+  return new BlogSlugConflictError(
+    response.data.message || "That URL is already in use.",
+    response.data.conflict,
+  );
+}
+
 interface BlogResponse {
   success: boolean;
   message: string;
@@ -130,6 +161,9 @@ export const createBlog = async (data: {
     console.log("Blog created successfully:", response.data);
     return response.data;
   } catch (error) {
+    const conflict = asSlugConflict(error);
+    if (conflict) throw conflict;
+
     console.error("Create blog error:", error);
     const apiError = handleApiError(error);
     throw new Error(apiError.message || "Failed to create blog");
@@ -172,6 +206,9 @@ export const updateBlog = async (
     const response = await apiClient.put<BlogResponse>(`/api/admin/blogs/${blogId}`, data);
     return response.data;
   } catch (error) {
+    const conflict = asSlugConflict(error);
+    if (conflict) throw conflict;
+
     console.error("Update blog error:", error);
     const apiError = handleApiError(error);
     throw new Error(apiError.message || "Failed to update blog");

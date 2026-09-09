@@ -71,6 +71,8 @@ export type BlogFormSubmitResult = {
   blogId?: string | null;
   /** Returned by the API on save; later languages join this group. */
   translationGroupId?: string | null;
+  /** Set when the save was refused because another article owns this URL. */
+  conflict?: { _id: string; title: string; language?: string } | null;
 };
 
 type Props = {
@@ -215,6 +217,9 @@ export default function BlogEditorForm({
   const [isUploadingImage, setIsUploadingImage] = useState(false);
   const [imageUploadError, setImageUploadError] = useState<string | null>(null);
   const [languageHint, setLanguageHint] = useState<string | null>(null);
+  const [slugConflict, setSlugConflict] = useState<
+    { _id: string; title: string; language?: string } | null
+  >(null);
 
   // The site header is fixed, so this page has to reserve room for it. Its
   // height differs by breakpoint (a single bar on mobile; nav + rule + tagline
@@ -438,6 +443,7 @@ export default function BlogEditorForm({
     }
     try {
       setIsSubmitting(true);
+      setSlugConflict(null);
       const wasUpdate = Boolean(activeBlogId);
       const normalizedForm: BlogFormValues = {
         ...form,
@@ -445,6 +451,12 @@ export default function BlogEditorForm({
       };
       setForm(normalizedForm);
       const result = await onSubmit(normalizedForm, { blogId: activeBlogId });
+      if (result?.conflict) {
+        // The URL belongs to another article. Stop here rather than carrying on
+        // as though the save worked.
+        setSlugConflict(result.conflict);
+        return;
+      }
       const savedId = result?.blogId ?? activeBlogId;
       if (savedId) {
         setActiveBlogId(savedId);
@@ -595,6 +607,25 @@ export default function BlogEditorForm({
           </div>
         </div>
       </header>
+
+      {slugConflict && (
+        <div className="border-b border-amber-300 bg-amber-50">
+          <p
+            className={`mx-auto max-w-[1600px] px-6 py-3 text-sm text-amber-900 ${jost.className}`}
+          >
+            An article already uses this URL:{" "}
+            <span className="font-medium">{slugConflict.title}</span>. Only one
+            article can own a URL, so this was not saved.{" "}
+            <a
+              href={`/blogs/editor?id=${encodeURIComponent(slugConflict._id)}`}
+              className="font-medium underline hover:text-[#9d7400]"
+            >
+              Edit that article instead
+            </a>{" "}
+            or choose a different URL slug.
+          </p>
+        </div>
+      )}
 
       {languageHint && (
         <div className="border-b border-amber-200 bg-amber-50">

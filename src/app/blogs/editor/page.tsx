@@ -6,6 +6,7 @@ import { Loader2 } from "lucide-react";
 import toast from "react-hot-toast";
 import { jost } from "@/lib/fonts";
 import { blogApi } from "@/lib/api";
+import { BlogSlugConflictError } from "@/services/api/admin/blogService";
 import {
   buildLocalizedBlogSlug,
   getBlogBaseSlug,
@@ -196,6 +197,10 @@ function EditorScreen() {
         toast.error(`Could not create the ${language} version. Try again.`);
         return { blogId: null };
       } catch (error) {
+        if (error instanceof BlogSlugConflictError) {
+          toast.error(error.message, { duration: 6000 });
+          return { blogId: meta.blogId, conflict: error.existing };
+        }
         toast.error(
           error instanceof Error ? error.message : "Could not save the article.",
         );
