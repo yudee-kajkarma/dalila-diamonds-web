@@ -12,6 +12,17 @@ export type BackendBlog = {
   translationGroupId?: string;
   metaTitle?: string;
   metaDescription?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  excerpt?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
   description?: string;
   content?: string;
   featuredImage?: string;

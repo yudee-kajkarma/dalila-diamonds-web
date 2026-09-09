@@ -114,6 +114,18 @@ export interface Blog {
   translationGroupId?: string;
   featuredImage?: string;
   featuredImageAlt?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  excerpt?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
+
   description: string; 
   content?: string; 
   metaTitle?: string; 

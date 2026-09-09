@@ -1,81 +1,36 @@
 import { Metadata } from 'next';
 import { cache } from 'react';
 import {
-  DEFAULT_BLOG_DESCRIPTION,
-  DEFAULT_BLOG_IMAGE,
   SITE_BASE_URL,
   blogToSlug,
   getAllBlogs,
   normalizeSlug,
-  stripHtml,
   type BackendBlog,
 } from '@/lib/blogs';
-import { s3Asset } from "@/lib/s3Assets";
+import {
+  buildBlogJsonLd,
+  buildBlogMetadata,
+  buildFallbackBlogMetadata,
+} from '@/lib/blogMetadata';
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-type BlogSeoData = {
-  title: string;
-  description: string;
-  url: string;
-};
-
-type BlogSchemaData = {
-  headline: string;
-  description: string;
-  url: string;
-  image: string;
-  datePublished?: string;
-  dateModified?: string;
-};
-
-type BlogSeoSchemaEntry = {
-  seo: BlogSeoData;
-  schema: BlogSchemaData;
-};
-
-function getBestDescription(blog: BackendBlog): string {
-  if (blog.metaDescription && blog.metaDescription.trim()) {
-    return blog.metaDescription.trim();
-  }
-
-  const plain = stripHtml(blog.description || blog.content || '');
-  if (!plain) {
-    return DEFAULT_BLOG_DESCRIPTION;
-  }
-
-  return plain.length > 200 ? `${plain.slice(0, 197)}...` : plain;
-}
-
-const getBlogSeoSchemaBySlug = cache(async (): Promise<Record<string, BlogSeoSchemaEntry>> => {
+/**
+ * Articles keyed by slug, built once per request.
+ *
+ * This reads the list endpoint, which omits `content` and `description` for
+ * payload reasons. Everything the head needs — title, meta description,
+ * excerpt, social image, canonical, dates — is present there, so the body is
+ * never fetched just to render metadata.
+ */
+const getBlogsBySlug = cache(async (): Promise<Record<string, BackendBlog>> => {
   const blogs = await getAllBlogs('en');
-  const entries: Record<string, BlogSeoSchemaEntry> = {};
-
+  const entries: Record<string, BackendBlog> = {};
   for (const blog of blogs) {
-    const slug = blogToSlug(blog);
-    const url = `${SITE_BASE_URL}/blogs/${slug}`;
-    const title = blog.metaTitle?.trim() || blog.title || 'Blog Article - Dalila Diamonds';
-    const description = getBestDescription(blog);
-
-    entries[slug] = {
-      seo: {
-        title,
-        description,
-        url,
-      },
-      schema: {
-        headline: blog.title || title,
-        description,
-        url,
-        image: blog.featuredImage?.trim() || DEFAULT_BLOG_IMAGE,
-        datePublished: blog.createdAt,
-        dateModified: blog.updatedAt || blog.createdAt,
-      },
-    };
+    entries[blogToSlug(blog)] = blog;
   }
-
   return entries;
 });
 
@@ -86,50 +41,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const slugKey = normalizeSlug(slug);
-  const blogEntries = await getBlogSeoSchemaBySlug();
-  const matchedSeo = blogEntries[slugKey]?.seo;
+  const url = `${SITE_BASE_URL}/blogs/${slugKey}`;
+  const blog = (await getBlogsBySlug())[slugKey];
 
-  if (matchedSeo) {
-    return {
-      title: matchedSeo.title,
-      description: matchedSeo.description,
-      alternates: {
-        canonical: matchedSeo.url,
-      },
-      openGraph: {
-        title: matchedSeo.title,
-        description: matchedSeo.description,
-        url: matchedSeo.url,
-        siteName: 'Dalila Diamonds',
-        type: 'article',
-      },
-      twitter: {
-        card: 'summary_large_image',
-        title: matchedSeo.title,
-        description: matchedSeo.description,
-      },
-    };
-  }
-
-  return {
-    title: 'Blog Article - Dalila Diamonds',
-    description: DEFAULT_BLOG_DESCRIPTION,
-    alternates: {
-      canonical: `${SITE_BASE_URL}/blogs/${slugKey}`,
-    },
-    openGraph: {
-      title: 'Blog Article - Dalila Diamonds',
-      description: DEFAULT_BLOG_DESCRIPTION,
-      url: `${SITE_BASE_URL}/blogs/${slugKey}`,
-      siteName: 'Dalila Diamonds',
-      type: 'article',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Blog Article - Dalila Diamonds',
-      description: DEFAULT_BLOG_DESCRIPTION,
-    },
-  };
+  return blog ? buildBlogMetadata(blog, url) : buildFallbackBlogMetadata(url);
 }
 
 export default async function BlogDetailLayout({
@@ -141,45 +56,25 @@ export default async function BlogDetailLayout({
 }) {
   const { slug } = await params;
   const slugKey = normalizeSlug(slug);
-  const blogEntries = await getBlogSeoSchemaBySlug();
-  const schemaConfig = blogEntries[slugKey]?.schema;
+  const blog = (await getBlogsBySlug())[slugKey];
 
-  const blogPostingSchema = schemaConfig
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': schemaConfig.url,
-        },
-        headline: schemaConfig.headline,
-        description: schemaConfig.description,
-        image: schemaConfig.image,
-        ...(schemaConfig.datePublished ? { datePublished: schemaConfig.datePublished } : {}),
-        ...(schemaConfig.dateModified ? { dateModified: schemaConfig.dateModified } : {}),
-        author: {
-          '@type': 'Organization',
-          name: 'Dalila Diamonds',
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'Dalila Diamonds',
-          logo: {
-            '@type': 'ImageObject',
-            url: s3Asset("/dalila_img/Dalila_Logo.png"),
-          },
-        },
-      }
-    : null;
+  const jsonLd = blog
+    ? buildBlogJsonLd(
+        blog,
+        `${SITE_BASE_URL}/blogs/${slugKey}`,
+        `${SITE_BASE_URL}/blogs`,
+      )
+    : [];
 
   return (
     <>
-      {blogPostingSchema && (
+      {jsonLd.map((schema, index) => (
         <script
+          key={index}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-      )}
+      ))}
       {children}
     </>
   );

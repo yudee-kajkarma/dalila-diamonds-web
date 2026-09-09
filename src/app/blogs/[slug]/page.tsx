@@ -209,6 +209,33 @@ export default async function BlogDetailPage({ params }: Props) {
               {blog.blog.title}
             </h1>
 
+            {/* Visible review date. The compliance articles are time-sensitive,
+                and every content package requires the reader to see when the
+                page was last checked. */}
+            {blog.blog.lastReviewedAt && (
+              <p className={`text-sm text-gray-500 mb-6 ${jost.className}`}>
+                Last reviewed{" "}
+                <time dateTime={blog.blog.lastReviewedAt}>
+                  {new Date(blog.blog.lastReviewedAt).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                  })}
+                </time>
+              </p>
+            )}
+
+            {blog.blog.featuredImage && (
+              <figure className="mb-8">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={blog.blog.featuredImage}
+                  alt={blog.blog.featuredImageAlt || ""}
+                  className="w-full h-auto"
+                />
+              </figure>
+            )}
+
             <div
               className={`blog-content ${jost.className}`}
               dangerouslySetInnerHTML={{ __html: blog.blog.content || blog.blog.description || "" }}

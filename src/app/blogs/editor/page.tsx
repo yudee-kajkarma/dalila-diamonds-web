@@ -32,9 +32,28 @@ type LoadedBlog = {
   featuredImageAlt?: string;
   content?: string;
   description?: string;
+  excerpt?: string;
   metaTitle?: string;
   metaDescription?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
 };
+
+/** ISO timestamp -> yyyy-mm-dd for a date input; empty when unset or invalid. */
+function toDateInputValue(value?: string): string {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return date.toISOString().slice(0, 10);
+}
 
 function toFormValues(source: LoadedBlog): BlogFormValues {
   const language: BlogLanguage = isBlogLanguage(source.language)
@@ -50,8 +69,19 @@ function toFormValues(source: LoadedBlog): BlogFormValues {
     featuredImage: source.featuredImage || "",
     featuredImageAlt: source.featuredImageAlt || "",
     content: source.content || source.description || "",
+    excerpt: source.excerpt || "",
     metaTitle: source.metaTitle || "",
     metaDescription: source.metaDescription || "",
+    canonicalUrl: source.canonicalUrl || "",
+    metaRobots: source.metaRobots || "",
+    ogTitle: source.ogTitle || "",
+    ogDescription: source.ogDescription || "",
+    ogImage: source.ogImage || "",
+    breadcrumbTitle: source.breadcrumbTitle || "",
+    lastReviewedAt: toDateInputValue(source.lastReviewedAt),
+    datePublished: toDateInputValue(source.datePublished),
+    primaryKeyword: source.primaryKeyword || "",
+    secondaryKeywords: (source.secondaryKeywords || []).join(", "),
   };
 }
 
@@ -123,7 +153,17 @@ function EditorScreen() {
           customSlug: values.customSlug,
           // Omit when empty so the backend starts a new translation group.
           translationGroupId: values.translationGroupId || undefined,
-          description: values.content,
+          // `description` no longer mirrors the body. It used to be sent as a
+          // copy of `content`, which stored every article twice and left the
+          // field meaning two different things. `excerpt` is the summary now.
+          description: undefined,
+          // Empty strings would fail the Date cast on the server.
+          lastReviewedAt: values.lastReviewedAt || undefined,
+          datePublished: values.datePublished || undefined,
+          secondaryKeywords: values.secondaryKeywords
+            .split(",")
+            .map((keyword) => keyword.trim())
+            .filter(Boolean),
         };
 
         if (meta.blogId) {

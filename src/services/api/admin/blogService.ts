@@ -101,6 +101,17 @@ export const createBlog = async (data: {
   translationGroupId?: string;
   featuredImage?: string; 
   featuredImageAlt?: string; 
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  excerpt?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
   description?: string; 
   content?: string; 
   metaTitle?: string; 
@@ -135,6 +146,17 @@ export const updateBlog = async (
     language?: string; // Blog content language (en | de | fr | it | es)
     featuredImage?: string; // Featured image URL
     featuredImageAlt?: string; // Alt text for the featured image
+    canonicalUrl?: string;
+    metaRobots?: string;
+    ogTitle?: string;
+    ogDescription?: string;
+    ogImage?: string;
+    breadcrumbTitle?: string;
+    lastReviewedAt?: string;
+    datePublished?: string;
+    excerpt?: string;
+    primaryKeyword?: string;
+    secondaryKeywords?: string[];
     description?: string; // Kept for backward compatibility
     content?: string; // Rich text content
     metaTitle?: string; // Meta title (optional)

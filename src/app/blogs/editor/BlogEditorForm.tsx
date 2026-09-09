@@ -26,8 +26,21 @@ export type BlogFormValues = {
   featuredImage: string;
   featuredImageAlt: string;
   content: string;
+  excerpt: string;
   metaTitle: string;
   metaDescription: string;
+  canonicalUrl: string;
+  metaRobots: string;
+  ogTitle: string;
+  ogDescription: string;
+  ogImage: string;
+  breadcrumbTitle: string;
+  /** yyyy-mm-dd, as produced by a date input. Empty means unset. */
+  lastReviewedAt: string;
+  datePublished: string;
+  primaryKeyword: string;
+  /** Comma-separated while editing; split into an array on save. */
+  secondaryKeywords: string;
 };
 
 export const EMPTY_BLOG_FORM: BlogFormValues = {
@@ -39,8 +52,19 @@ export const EMPTY_BLOG_FORM: BlogFormValues = {
   featuredImage: "",
   featuredImageAlt: "",
   content: "",
+  excerpt: "",
   metaTitle: "",
   metaDescription: "",
+  canonicalUrl: "",
+  metaRobots: "",
+  ogTitle: "",
+  ogDescription: "",
+  ogImage: "",
+  breadcrumbTitle: "",
+  lastReviewedAt: "",
+  datePublished: "",
+  primaryKeyword: "",
+  secondaryKeywords: "",
 };
 
 export type BlogFormSubmitResult = {
@@ -78,8 +102,19 @@ function blogToFormValues(source: {
   featuredImageAlt?: string;
   content?: string;
   description?: string;
+  excerpt?: string;
   metaTitle?: string;
   metaDescription?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
 }): BlogFormValues {
   const language = isBlogLanguage(source.language)
     ? source.language
@@ -96,9 +131,28 @@ function blogToFormValues(source: {
     featuredImage: source.featuredImage || "",
     featuredImageAlt: source.featuredImageAlt || "",
     content: source.content || source.description || "",
+    excerpt: source.excerpt || "",
     metaTitle: source.metaTitle || "",
     metaDescription: source.metaDescription || "",
+    canonicalUrl: source.canonicalUrl || "",
+    metaRobots: source.metaRobots || "",
+    ogTitle: source.ogTitle || "",
+    ogDescription: source.ogDescription || "",
+    ogImage: source.ogImage || "",
+    breadcrumbTitle: source.breadcrumbTitle || "",
+    lastReviewedAt: toDateInputValue(source.lastReviewedAt),
+    datePublished: toDateInputValue(source.datePublished),
+    primaryKeyword: source.primaryKeyword || "",
+    secondaryKeywords: (source.secondaryKeywords || []).join(", "),
   };
+}
+
+/** ISO timestamp -> yyyy-mm-dd for a date input; empty when unset or invalid. */
+function toDateInputValue(value?: string): string {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return date.toISOString().slice(0, 10);
 }
 
 function resolveBaseSlug(customSlug: string, title: string): string {
@@ -122,8 +176,21 @@ function blankLanguageDraft(
     // image URL does. Each translation writes its own.
     featuredImageAlt: "",
     content: "",
+    excerpt: "",
     metaTitle: "",
     metaDescription: "",
+    // Canonical, dates and keywords describe the article rather than the
+    // wording, so a new translation starts from the same values.
+    canonicalUrl: "",
+    metaRobots: "",
+    ogTitle: "",
+    ogDescription: "",
+    ogImage: "",
+    breadcrumbTitle: "",
+    lastReviewedAt: "",
+    datePublished: "",
+    primaryKeyword: "",
+    secondaryKeywords: "",
   };
 }
 
@@ -182,10 +249,19 @@ export default function BlogEditorForm({
 
   const stickyBelowHeader =
     siteHeaderHeight === null ? undefined : { top: `${siteHeaderHeight}px` };
+  // The sidebar sticks below both bars. Capping its height and letting it
+  // scroll on its own keeps it from driving the page height: with the
+  // metadata sections expanded it grew taller than the article column, which
+  // left a long blank gap on the left when scrolling.
+  const sidebarOffset =
+    siteHeaderHeight === null ? null : siteHeaderHeight + actionBarHeight;
   const stickyBelowBars =
-    siteHeaderHeight === null
+    sidebarOffset === null
       ? undefined
-      : { top: `${siteHeaderHeight + actionBarHeight}px` };
+      : {
+          top: `${sidebarOffset}px`,
+          maxHeight: `calc(100vh - ${sidebarOffset + 24}px)`,
+        };
 
   /**
    * Upload the chosen file and store the returned URL.
@@ -600,7 +676,7 @@ export default function BlogEditorForm({
                 onChange={(value) => setForm({ ...form, content: value })}
                 placeholder="Start writing your blog content..."
                 disabled={isBusy}
-                heightClass="max-h-[calc(100vh-26rem)] min-h-[32rem]"
+                heightClass="min-h-[32rem]"
                 toolbarTop={
                   siteHeaderHeight === null
                     ? undefined
@@ -616,7 +692,7 @@ export default function BlogEditorForm({
           {/* Sidebar: everything that describes the article rather than being it.
               Sticks below the site header (80px) plus the action bar (~104px). */}
           <aside
-            className="space-y-6 lg:sticky lg:top-[15rem] lg:self-start"
+            className="space-y-6 lg:sticky lg:top-[15rem] lg:self-start lg:max-h-[calc(100vh-15rem)] lg:overflow-y-auto lg:pr-1"
             style={stickyBelowBars}
           >
             <section className="bg-white p-6 shadow-sm">
@@ -765,8 +841,237 @@ export default function BlogEditorForm({
                     {metaDescriptionCount} characters. Aim for 150 to 160.
                   </p>
                 </div>
+
+                <div>
+                  <label className={labelClass} htmlFor="excerpt">
+                    Excerpt
+                  </label>
+                  <textarea
+                    id="excerpt"
+                    value={form.excerpt}
+                    onChange={(e) => setForm({ ...form, excerpt: e.target.value })}
+                    className={`${inputClass} min-h-24`}
+                    placeholder="Short summary shown on article cards"
+                    disabled={isBusy}
+                  />
+                  <p className={`mt-1 text-xs text-gray-500 ${jost.className}`}>
+                    Shown on listing cards, and used as the meta description when
+                    that field is empty.
+                  </p>
+                </div>
               </div>
             </section>
+
+            <details className="bg-white shadow-sm">
+              <summary
+                className={`cursor-pointer p-6 text-lg text-[#2d2d2d] ${marcellus.className}`}
+              >
+                Social sharing
+              </summary>
+              <div className="space-y-5 border-t border-gray-100 p-6">
+                <p className={`text-xs text-gray-500 ${jost.className}`}>
+                  Leave these empty to reuse the meta title, meta description and
+                  featured image. Without an image the share card falls back to the
+                  small format rather than showing an empty banner.
+                </p>
+
+                <div>
+                  <label className={labelClass} htmlFor="og-title">
+                    Social title
+                  </label>
+                  <input
+                    id="og-title"
+                    type="text"
+                    value={form.ogTitle}
+                    onChange={(e) => setForm({ ...form, ogTitle: e.target.value })}
+                    className={inputClass}
+                    placeholder="Defaults to the meta title"
+                    disabled={isBusy}
+                  />
+                </div>
+
+                <div>
+                  <label className={labelClass} htmlFor="og-description">
+                    Social description
+                  </label>
+                  <textarea
+                    id="og-description"
+                    value={form.ogDescription}
+                    onChange={(e) =>
+                      setForm({ ...form, ogDescription: e.target.value })
+                    }
+                    className={`${inputClass} min-h-24`}
+                    placeholder="Defaults to the meta description"
+                    disabled={isBusy}
+                  />
+                </div>
+
+                <div>
+                  <label className={labelClass} htmlFor="og-image">
+                    Social image URL
+                  </label>
+                  <input
+                    id="og-image"
+                    type="text"
+                    value={form.ogImage}
+                    onChange={(e) => setForm({ ...form, ogImage: e.target.value })}
+                    className={inputClass}
+                    placeholder="Defaults to the featured image"
+                    disabled={isBusy}
+                  />
+                  <p className={`mt-1 text-xs text-gray-500 ${jost.className}`}>
+                    Set this only when the share card needs a different crop.
+                    1200 x 630 pixels works best.
+                  </p>
+                </div>
+              </div>
+            </details>
+
+            <details className="bg-white shadow-sm">
+              <summary
+                className={`cursor-pointer p-6 text-lg text-[#2d2d2d] ${marcellus.className}`}
+              >
+                Indexing and dates
+              </summary>
+              <div className="space-y-5 border-t border-gray-100 p-6">
+                <div>
+                  <label className={labelClass} htmlFor="canonical-url">
+                    Canonical URL
+                  </label>
+                  <input
+                    id="canonical-url"
+                    type="text"
+                    value={form.canonicalUrl}
+                    onChange={(e) =>
+                      setForm({ ...form, canonicalUrl: e.target.value })
+                    }
+                    className={inputClass}
+                    placeholder="Defaults to this article's own URL"
+                    disabled={isBusy}
+                  />
+                  <p className={`mt-1 text-xs text-gray-500 ${jost.className}`}>
+                    Point this at another page only when this article duplicates it.
+                  </p>
+                </div>
+
+                <div>
+                  <label className={labelClass} htmlFor="meta-robots">
+                    Robots directive
+                  </label>
+                  <input
+                    id="meta-robots"
+                    type="text"
+                    value={form.metaRobots}
+                    onChange={(e) => setForm({ ...form, metaRobots: e.target.value })}
+                    className={inputClass}
+                    placeholder="index, follow, max-image-preview:large"
+                    disabled={isBusy}
+                  />
+                  <p className={`mt-1 text-xs text-gray-500 ${jost.className}`}>
+                    Empty uses the site default shown above.
+                  </p>
+                </div>
+
+                <div>
+                  <label className={labelClass} htmlFor="breadcrumb-title">
+                    Breadcrumb label
+                  </label>
+                  <input
+                    id="breadcrumb-title"
+                    type="text"
+                    value={form.breadcrumbTitle}
+                    onChange={(e) =>
+                      setForm({ ...form, breadcrumbTitle: e.target.value })
+                    }
+                    className={inputClass}
+                    placeholder="Defaults to the article title"
+                    disabled={isBusy}
+                  />
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className={labelClass} htmlFor="date-published">
+                      Published
+                    </label>
+                    <input
+                      id="date-published"
+                      type="date"
+                      value={form.datePublished}
+                      onChange={(e) =>
+                        setForm({ ...form, datePublished: e.target.value })
+                      }
+                      className={inputClass}
+                      disabled={isBusy}
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass} htmlFor="last-reviewed">
+                      Last reviewed
+                    </label>
+                    <input
+                      id="last-reviewed"
+                      type="date"
+                      value={form.lastReviewedAt}
+                      onChange={(e) =>
+                        setForm({ ...form, lastReviewedAt: e.target.value })
+                      }
+                      className={inputClass}
+                      disabled={isBusy}
+                    />
+                  </div>
+                </div>
+                <p className={`text-xs text-gray-500 ${jost.className}`}>
+                  The review date is shown on the article. Set it whenever the
+                  facts are rechecked.
+                </p>
+              </div>
+            </details>
+
+            <details className="bg-white shadow-sm">
+              <summary
+                className={`cursor-pointer p-6 text-lg text-[#2d2d2d] ${marcellus.className}`}
+              >
+                Target keywords
+              </summary>
+              <div className="space-y-5 border-t border-gray-100 p-6">
+                <p className={`text-xs text-gray-500 ${jost.className}`}>
+                  Recorded so two articles do not end up competing for the same
+                  search. Not published on the page.
+                </p>
+                <div>
+                  <label className={labelClass} htmlFor="primary-keyword">
+                    Primary keyword
+                  </label>
+                  <input
+                    id="primary-keyword"
+                    type="text"
+                    value={form.primaryKeyword}
+                    onChange={(e) =>
+                      setForm({ ...form, primaryKeyword: e.target.value })
+                    }
+                    className={inputClass}
+                    placeholder="best diamond clarity for engagement ring"
+                    disabled={isBusy}
+                  />
+                </div>
+                <div>
+                  <label className={labelClass} htmlFor="secondary-keywords">
+                    Secondary keywords
+                  </label>
+                  <textarea
+                    id="secondary-keywords"
+                    value={form.secondaryKeywords}
+                    onChange={(e) =>
+                      setForm({ ...form, secondaryKeywords: e.target.value })
+                    }
+                    className={`${inputClass} min-h-20`}
+                    placeholder="Separate with commas"
+                    disabled={isBusy}
+                  />
+                </div>
+              </div>
+            </details>
           </aside>
         </div>
       </div>
