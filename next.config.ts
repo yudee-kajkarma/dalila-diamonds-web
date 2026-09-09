@@ -8,6 +8,12 @@ const nextConfig = {
 
     outputFileTracingRoot: __dirname,
     
+    // Redirects use `statusCode: 301` rather than `permanent: true`.
+    //
+    // Next.js serves `permanent: true` as HTTP 308, which preserves the request
+    // method. Every redirect here is a permanent GET move, and the SEO audit
+    // requires a direct 301 on the merged article URLs specifically, so 301 is
+    // what these must return. Do not swap these back to `permanent`.
     async redirects() {
         const naturalRoughDestination = '/diamonds/natural-rough-diamonds';
         const naturalRoughLegacySources = [
@@ -22,12 +28,12 @@ const nextConfig = {
             {
                 source,
                 destination: naturalRoughDestination,
-                permanent: true,
+                statusCode: 301,
             },
             ...localePrefixes.map((locale) => ({
                 source: `/${locale}${source}`,
                 destination: `/${locale}${naturalRoughDestination}`,
-                permanent: true,
+                statusCode: 301,
             })),
         ]);
 
@@ -37,65 +43,65 @@ const nextConfig = {
             {
                 source: '/en',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/en/:path*',
                 destination: '/:path*',
-                permanent: true,
+                statusCode: 301,
             },
             ...naturalRoughRedirects,
             {
                 source: '/sud',
                 destination: '/sell-your-diamond',
-                permanent: true,
+                statusCode: 301,
             },
             ...localePrefixes.map((locale) => ({
                 source: `/${locale}/sud`,
                 destination: `/${locale}/sell-your-diamond`,
-                permanent: true,
+                statusCode: 301,
             })),
             {
                 source: '/blogs/diamonds-vs-lab-grown-diamonds',
                 destination: '/resources/natural-vs-lab-grown-diamonds',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/blogs/difference-between-natural-and-lab-grown-diamonds',
                 destination: '/resources/natural-vs-lab-grown-diamonds',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/blogs/4cs-of-natural-diamonds-explained',
                 destination: '/resources/diamond-quality-chart',
-                permanent: true,
+                statusCode: 301,
             },
             // Redirect URLs with special characters to home page
             {
                 source: '/:path*\\$',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/:path*\\&',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/\\$',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
             {
                 source: '/\\&',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
             // Catch other invalid special character URLs
             {
                 source: '/:path*[\\#\\%\\^\\*\\(\\)\\+\\=\\[\\]\\{\\}\\|\\\\]',
                 destination: '/',
-                permanent: true,
+                statusCode: 301,
             },
         ];
     },
