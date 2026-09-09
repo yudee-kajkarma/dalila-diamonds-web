@@ -129,6 +129,7 @@ export const blogApi = {
     create: blogService.createBlog,
     update: blogService.updateBlog,
     delete: blogService.deleteBlog,
+    uploadImage: blogService.uploadBlogImage,
 };
 
 // Form API, Form submission handling

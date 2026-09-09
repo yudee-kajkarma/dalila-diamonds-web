@@ -15,6 +15,7 @@ export type BackendBlog = {
   description?: string;
   content?: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
   createdAt?: string;
   updatedAt?: string;
 };

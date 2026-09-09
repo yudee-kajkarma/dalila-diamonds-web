@@ -113,6 +113,7 @@ export interface Blog {
   /** Links this article's language versions; absent on pre-grouping blogs. */
   translationGroupId?: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
   description: string; 
   content?: string; 
   metaTitle?: string; 
