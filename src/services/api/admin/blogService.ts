@@ -245,3 +245,79 @@ export const uploadBlogImage = async (file: File): Promise<string> => {
     throw new Error(apiError.message || "Failed to upload image");
   }
 };
+
+interface AdminBlogListResponse {
+  success: boolean;
+  message: string;
+  data: Blog[];
+}
+
+/**
+ * Admin: blogs from the admin endpoint, which is the only one that can return
+ * soft-deleted documents.
+ *
+ * `scope: "deleted"` filters server-side. Fetching everything and filtering in
+ * the client meant downloading all ~660 documents to display the few dozen in
+ * the recycle bin, which was slow enough to fail.
+ */
+export const getAllBlogsAdmin = async (
+  scope: "all" | "deleted" = "all",
+): Promise<Blog[]> => {
+  try {
+    const token = getAuthToken();
+    if (!token || token.trim() === "") {
+      throw new Error("Unauthorized. Please log in.");
+    }
+
+    const response = await apiClient.get<AdminBlogListResponse>(
+      `/api/admin/blogs/all?scope=${scope}`,
+    );
+    return Array.isArray(response.data?.data) ? response.data.data : [];
+  } catch (error) {
+    console.error("Error fetching admin blogs:", error);
+    throw error instanceof Error ? error : new Error("Failed to fetch blogs");
+  }
+};
+
+/** Admin: bring a soft-deleted blog back. */
+export const restoreBlog = async (blogId: string): Promise<BlogResponse> => {
+  try {
+    const token = getAuthToken();
+    if (!token || token.trim() === "") {
+      throw new Error("Unauthorized. Please log in.");
+    }
+
+    const response = await apiClient.patch<BlogResponse>(
+      `/api/admin/blogs/${blogId}/restore`,
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Restore blog error:", error);
+    const apiError = handleApiError(error);
+    throw new Error(apiError.message || "Failed to restore blog");
+  }
+};
+
+/**
+ * Admin: remove a blog permanently. There is no recovery.
+ *
+ * The server only accepts this for blogs that are already soft-deleted, so a
+ * live article cannot be destroyed in a single call.
+ */
+export const permanentlyDeleteBlog = async (blogId: string): Promise<BlogResponse> => {
+  try {
+    const token = getAuthToken();
+    if (!token || token.trim() === "") {
+      throw new Error("Unauthorized. Please log in.");
+    }
+
+    const response = await apiClient.delete<BlogResponse>(
+      `/api/admin/blogs/${blogId}/permanent`,
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Permanent delete error:", error);
+    const apiError = handleApiError(error);
+    throw new Error(apiError.message || "Failed to permanently delete blog");
+  }
+};

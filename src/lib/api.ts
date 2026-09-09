@@ -130,6 +130,9 @@ export const blogApi = {
     update: blogService.updateBlog,
     delete: blogService.deleteBlog,
     uploadImage: blogService.uploadBlogImage,
+    getAllAdmin: blogService.getAllBlogsAdmin,
+    restore: blogService.restoreBlog,
+    deletePermanently: blogService.permanentlyDeleteBlog,
 };
 
 // Form API, Form submission handling

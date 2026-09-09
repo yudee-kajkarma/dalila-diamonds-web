@@ -11,6 +11,7 @@ import {
   ArrowUpDown,
   ExternalLink,
   RefreshCw,
+  Archive,
   AlertTriangle,
   X,
 } from "lucide-react";
@@ -20,6 +21,7 @@ import { blogApi } from "@/lib/api";
 import ConfirmDialog from "@/components/shared/ConfirmDialog";
 import { BLOG_LANGUAGE_OPTIONS, type BlogLanguage } from "@/lib/blogLanguages";
 import DuplicateResolver from "./DuplicateResolver";
+import DeletedBlogsPanel from "./DeletedBlogsPanel";
 import { useIsAdmin } from "../useIsAdmin";
 import { refreshBlogs } from "../actions";
 
@@ -82,6 +84,7 @@ export default function BlogsManageTable({
   const [sortAsc, setSortAsc] = useState(true);
   const [pendingDelete, setPendingDelete] = useState<ManageRow | null>(null);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [showDeleted, setShowDeleted] = useState(false);
   const [resolving, setResolving] = useState<{
     row: ManageRow;
     language: BlogLanguage;
@@ -248,6 +251,18 @@ export default function BlogsManageTable({
           <div className="flex gap-3">
             <button
               type="button"
+              onClick={() => setShowDeleted((v) => !v)}
+              className={`inline-flex items-center gap-2 border px-4 py-2.5 transition-colors ${
+                showDeleted
+                  ? "border-[#c89e3a] bg-[#c89e3a] text-white"
+                  : "border-gray-300 text-gray-700 hover:bg-gray-50"
+              } ${jost.className}`}
+            >
+              <Archive size={16} />
+              {showDeleted ? "Hide deleted" : "Deleted"}
+            </button>
+            <button
+              type="button"
               onClick={() => void reload()}
               disabled={isRefreshing}
               className={`inline-flex items-center gap-2 border border-gray-300 px-4 py-2.5 text-gray-700 transition-colors hover:bg-gray-50 disabled:opacity-50 ${jost.className}`}
@@ -319,6 +334,17 @@ export default function BlogsManageTable({
           {filterButton("incomplete", "Missing translations", stats.incomplete)}
           {stats.duplicates > 0 && filterButton("duplicates", "Duplicates", stats.duplicates)}
         </div>
+
+        {showDeleted && (
+          <div className="mb-6">
+            <h2 className={`mb-2 text-lg text-[#2d2d2d] ${marcellus.className}`}>
+              Recycle bin
+            </h2>
+            <div className="overflow-x-auto">
+              <DeletedBlogsPanel onRestored={() => void reload()} />
+            </div>
+          </div>
+        )}
 
         <div className="overflow-x-auto bg-white shadow-sm">
           <table className={`w-full min-w-[1000px] text-sm ${jost.className}`}>
