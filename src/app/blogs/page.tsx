@@ -4,7 +4,6 @@ import { Jost } from "next/font/google";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
 import { blogToSlug, getLocalizedBlogList } from "@/lib/blogs";
-import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import BlogAdminBar from "./BlogAdminBar";
 import BlogCardActions from "./BlogCardActions";
 import BlogsPagination from "./BlogsPagination";
@@ -50,22 +49,12 @@ type ListingItem =
 export default async function BlogsPage({ searchParams }: Props) {
   const { page } = await searchParams;
 
-  const [apiBlogs, staticBlogs] = await Promise.all([
-    getLocalizedBlogList("en"),
-    Promise.resolve(getStaticBlogCards("en")),
-  ]);
-
-  const staticItems: ListingItem[] = staticBlogs.map((blog) => ({
-    kind: "static",
-    id: blog.id,
-    slug: blog.slug,
-    href: blog.path,
-    title: blog.title,
-    featuredImage: blog.featuredImage,
-  }));
+  // Every article now comes from the CMS. The seven hardcoded ones were
+  // migrated in, so the listing no longer merges a static set - and the filter
+  // that used to hide their CMS copies is gone with it.
+  const apiBlogs = await getLocalizedBlogList("en");
 
   const apiItems: ListingItem[] = apiBlogs
-    .filter((blog) => !isStaticBlogSlug(blogToSlug(blog)))
     .map((blog) => {
       const slug = blogToSlug(blog);
       return {
@@ -79,7 +68,7 @@ export default async function BlogsPage({ searchParams }: Props) {
       };
     });
 
-  const allItems = [...staticItems, ...apiItems];
+  const allItems = apiItems;
   const totalRecords = allItems.length;
   const totalPages = Math.max(1, Math.ceil(totalRecords / ITEMS_PER_PAGE));
 

@@ -23,6 +23,7 @@ export type BackendBlog = {
   excerpt?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  emitFaqSchema?: boolean;
   description?: string;
   content?: string;
   featuredImage?: string;

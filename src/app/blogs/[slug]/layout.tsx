@@ -4,6 +4,7 @@ import {
   SITE_BASE_URL,
   blogToSlug,
   getAllBlogs,
+  getBlogBySlug,
   normalizeSlug,
   type BackendBlog,
 } from '@/lib/blogs';
@@ -58,11 +59,19 @@ export default async function BlogDetailLayout({
   const slugKey = normalizeSlug(slug);
   const blog = (await getBlogsBySlug())[slugKey];
 
+  // The body is only needed to build FAQ schema, and only articles that opt in
+  // get it. getBlogBySlug is cached, so this shares the fetch the page itself
+  // makes rather than adding a second request.
+  const content = blog?.emitFaqSchema
+    ? (await getBlogBySlug(slugKey, 'en'))?.content
+    : undefined;
+
   const jsonLd = blog
     ? buildBlogJsonLd(
         blog,
         `${SITE_BASE_URL}/blogs/${slugKey}`,
         `${SITE_BASE_URL}/blogs`,
+        content,
       )
     : [];
 

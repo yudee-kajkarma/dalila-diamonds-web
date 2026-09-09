@@ -4,6 +4,7 @@ import {
   SITE_BASE_URL,
   blogToSlug,
   getAllBlogs,
+  getBlogBySlug,
   normalizeSlug,
   type BackendBlog,
 } from '@/lib/blogs';
@@ -112,8 +113,19 @@ export default async function BlogDetailLayout({
   const entry = await resolveBlogEntry(locale, slugKey);
   const prefix = locale === 'en' ? '' : `/${locale}`;
 
+  // Body fetched only for articles that opt into FAQ schema. getBlogBySlug is
+  // cached, so this reuses the page's own fetch instead of adding one.
+  const content = entry?.blog.emitFaqSchema
+    ? (await getBlogBySlug(slugKey, toBlogLanguage(locale)))?.content
+    : undefined;
+
   const jsonLd = entry
-    ? buildBlogJsonLd(entry.blog, entry.url, `${SITE_BASE_URL}${prefix}/blogs`)
+    ? buildBlogJsonLd(
+        entry.blog,
+        entry.url,
+        `${SITE_BASE_URL}${prefix}/blogs`,
+        content,
+      )
     : [];
 
   return (

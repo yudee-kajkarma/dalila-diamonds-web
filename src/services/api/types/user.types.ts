@@ -125,6 +125,7 @@ export interface Blog {
   excerpt?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  emitFaqSchema?: boolean;
 
   description: string; 
   content?: string; 

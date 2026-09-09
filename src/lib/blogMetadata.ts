@@ -156,6 +156,14 @@ export function buildBlogJsonLd(
   blog: BackendBlog,
   derivedUrl: string,
   breadcrumbBase: string,
+  /**
+   * Article body, needed only to build FAQ schema.
+   *
+   * Metadata is otherwise assembled from the list endpoint, which strips
+   * `content` - so an article that opts into FAQ schema has to be handed its
+   * body separately or the schema comes out empty.
+   */
+  content?: string,
 ): JsonLd[] {
   const title = resolveBlogTitle(blog);
   const description = resolveBlogDescription(blog);
@@ -186,6 +194,8 @@ export function buildBlogJsonLd(
     },
   };
 
+  const faqPage = buildFaqSchema(blog, content ?? blog.content ?? "");
+
   const breadcrumb: JsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -201,5 +211,40 @@ export function buildBlogJsonLd(
     ],
   };
 
-  return [blogPosting, breadcrumb];
+  return faqPage ? [blogPosting, breadcrumb, faqPage] : [blogPosting, breadcrumb];
+}
+
+/**
+ * FAQPage structured data, built from the article's collapsible blocks.
+ *
+ * Only emitted when the article opts in. New articles should not carry FAQ
+ * schema - the content packages are explicit about that - but the articles
+ * migrated from the old hardcoded pages already have FAQ rich results, and
+ * dropping them on migration would be a regression.
+ */
+function buildFaqSchema(blog: BackendBlog, html: string): JsonLd | null {
+  if (!blog.emitFaqSchema || !html) return null;
+
+  const entries: Array<{ question: string; answer: string }> = [];
+
+  const pattern =
+    /<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(html)) !== null) {
+    const question = stripHtml(match[1]);
+    const answer = stripHtml(match[2]);
+    if (question && answer) entries.push({ question, answer });
+  }
+
+  if (entries.length === 0) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: entries.map((entry) => ({
+      "@type": "Question",
+      name: entry.question,
+      acceptedAnswer: { "@type": "Answer", text: entry.answer },
+    })),
+  };
 }

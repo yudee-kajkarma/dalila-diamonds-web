@@ -30,13 +30,9 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/resources/diamond-appraisal-antwerp-belgium", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/sell-diamond-without-certificate", priority: 0.7, changefreq: "monthly" },
   { path: "/blogs", priority: 0.8, changefreq: "weekly" },
-  { path: "/blogs/most-expensive-diamond-shapes", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/vs1-vs-vs2-diamond-clarity", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/best-diamond-colour-clarity-combination", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/fancy-shaped-diamond-cut-quality", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/cushion-cut-diamond", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/diamond-bow-tie-effect", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/igi-diamond-certification", priority: 0.7, changefreq: "monthly" },
+  // Individual articles are no longer listed here. They all come from the CMS
+  // now, and the blog entries further down are generated from it - listing the
+  // seven former static ones as well would duplicate them in the sitemap.
   { path: "/inventory", priority: 0.9, changefreq: "daily" },
 ];
 
