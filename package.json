@@ -14,10 +14,15 @@
     "optimize:videos": "node scripts/optimize-videos.mjs",
     "upload:videos": "node scripts/upload-videos-s3.mjs"
   },
+  "overrides": {
+    "@tiptap/core": "3.20.0"
+  },
   "dependencies": {
-    "@tiptap/extension-link": "^3.20.0",
+    "@tiptap/extension-details": "3.20.0",
     "@tiptap/extension-image": "3.20.0",
+    "@tiptap/extension-link": "^3.20.0",
     "@tiptap/extension-placeholder": "^3.20.0",
+    "@tiptap/extension-table": "3.20.0",
     "@tiptap/react": "^3.20.0",
     "@tiptap/starter-kit": "^3.20.0",
     "axios": "^1.12.2",
@@ -36,6 +41,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4",
+    "@tiptap/html": "3.20.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

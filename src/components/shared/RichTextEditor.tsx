@@ -4,6 +4,8 @@ import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Link from "@tiptap/extension-link";
 import Placeholder from "@tiptap/extension-placeholder";
+import { TableKit } from "@tiptap/extension-table";
+import { Details, DetailsContent, DetailsSummary } from "@tiptap/extension-details";
 import { EditorImage } from "@/components/shared/editor/EditorImage";
 import InputDialog from "@/components/shared/InputDialog";
 import toast from "react-hot-toast";
@@ -22,6 +24,11 @@ import {
   MousePointerClick,
   ImagePlus,
   Loader2,
+  Table as TableIcon,
+  ChevronDown,
+  Rows3,
+  Columns3,
+  Trash,
 } from "lucide-react";
 import { blogApi } from "@/lib/api";
 
@@ -104,6 +111,21 @@ export default function RichTextEditor({
       // strips every image out of existing content the moment an article is
       // opened for editing. The node view adds Remove and Alt text controls,
       // so an image no longer has to be deleted with Backspace.
+      // Tables and collapsible blocks exist because the static articles being
+      // moved into the CMS use both. Without the schema nodes for them, TipTap
+      // silently strips the markup the first time an article is opened - the
+      // same way it was stripping images before the image node was added.
+      TableKit.configure({
+        table: { resizable: true, HTMLAttributes: { class: "blog-content-table" } },
+      }),
+      // Renders as <details>/<summary>, so an FAQ entry stays collapsible on
+      // the published page without any client JavaScript.
+      Details.configure({
+        persist: true,
+        HTMLAttributes: { class: "blog-content-details" },
+      }),
+      DetailsSummary,
+      DetailsContent,
       EditorImage.configure({
         inline: false,
         allowBase64: false,
@@ -320,6 +342,72 @@ export default function RichTextEditor({
         >
           <LinkIcon size={18} className="text-gray-700" />
         </button>
+
+        <button
+          type="button"
+          onClick={() =>
+            editor
+              .chain()
+              .focus()
+              .insertTable({ rows: 3, cols: 3, withHeaderRow: true })
+              .run()
+          }
+          disabled={disabled}
+          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
+            disabled ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+          title="Insert table"
+        >
+          <TableIcon size={18} className="text-gray-700" />
+        </button>
+
+        {/* Row and column controls only mean anything inside a table, so they
+            appear once the caret is in one. */}
+        {editor.isActive("table") && (
+          <>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().addRowAfter().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-gray-700"
+              title="Add row"
+            >
+              <Rows3 size={18} className="text-gray-700" />
+            </button>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().addColumnAfter().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-gray-700"
+              title="Add column"
+            >
+              <Columns3 size={18} className="text-gray-700" />
+            </button>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().deleteTable().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-red-600"
+              title="Delete table"
+            >
+              <Trash size={18} className="text-red-600" />
+            </button>
+          </>
+        )}
+
+        <button
+          type="button"
+          onClick={() => editor.chain().focus().setDetails().run()}
+          disabled={disabled || !editor.can().setDetails()}
+          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
+            disabled || !editor.can().setDetails() ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+          title="Insert collapsible section (for an FAQ entry)"
+        >
+          <ChevronDown size={18} className="text-gray-700" />
+        </button>
+
+        <div className="w-px h-8 bg-gray-300 mx-1"></div>
 
         {allowImageUpload && (
           <>
