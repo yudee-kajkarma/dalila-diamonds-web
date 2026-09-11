@@ -30,6 +30,8 @@ export type BackendBlog = {
   featuredImageAlt?: string;
   createdAt?: string;
   updatedAt?: string;
+  /** Absent means published. Only an explicit 'draft' hides an article. */
+  status?: 'draft' | 'published';
   /** Absent means human-supplied; only generated versions carry a flag. */
   translationStatus?: 'machine' | 'reviewed';
   /** Fingerprint of this document's own body, refreshed on every save. */
@@ -204,24 +206,6 @@ export function selectRelatedBlogs(
 
   return [...related, ...filler].slice(0, limit);
 }
-
-export const getAllBlogsForAdmin = cache(async (): Promise<BackendBlog[]> => {
-  try {
-    const response = await fetch(
-      `${API_BASE_URL}/api/blogs?page=1&limit=1000&sortBy=createdAt&sortOrder=desc`,
-      { cache: 'no-store' },
-    );
-
-    if (!response.ok) {
-      return [];
-    }
-
-    const payload = (await response.json()) as BlogsApiResponse;
-    return Array.isArray(payload.data) ? payload.data : [];
-  } catch {
-    return [];
-  }
-});
 
 export const getBlogById = cache(async (id: string): Promise<BackendBlog | null> => {
   try {

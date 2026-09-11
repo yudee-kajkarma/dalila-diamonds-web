@@ -147,6 +147,7 @@ export const createBlog = async (data: {
   content?: string; 
   metaTitle?: string; 
   metaDescription?: string; 
+  status?: "draft" | "published";
 }): Promise<BlogResponse> => {
   try {
     const token = getAuthToken();
@@ -195,6 +196,8 @@ export const updateBlog = async (
     content?: string; // Rich text content
     metaTitle?: string; // Meta title (optional)
     metaDescription?: string; // Meta description (optional)
+    /** Absent means published; 'draft' hides the article from the site. */
+    status?: "draft" | "published";
     /**
      * Sent as "reviewed" when a human saves a machine translation. That save
      * is the whole review flow — a separate button gets forgotten, and the

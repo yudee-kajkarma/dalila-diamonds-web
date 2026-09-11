@@ -126,6 +126,15 @@ export interface Blog {
   primaryKeyword?: string;
   secondaryKeywords?: string[];
   emitFaqSchema?: boolean;
+  /** Absent means published. Only an explicit 'draft' hides an article. */
+  status?: "draft" | "published";
+  /** Absent means human-supplied; only generated versions carry a flag. */
+  translationStatus?: "machine" | "reviewed";
+  previousContent?: string;
+  /** Fingerprint of this document's own body, refreshed on every save. */
+  contentHash?: string;
+  /** For a translation: the fingerprint of the English body it came from. */
+  sourceContentHash?: string;
 
   description: string; 
   content?: string; 

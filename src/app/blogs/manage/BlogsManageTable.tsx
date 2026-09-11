@@ -1,8 +1,7 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
   Search,
   Plus,
@@ -12,6 +11,7 @@ import {
   ExternalLink,
   RefreshCw,
   Archive,
+  Loader2,
   AlertTriangle,
   X,
 } from "lucide-react";
@@ -19,8 +19,14 @@ import toast from "react-hot-toast";
 import { marcellus, jost } from "@/lib/fonts";
 import { blogApi } from "@/lib/api";
 import ConfirmDialog from "@/components/shared/ConfirmDialog";
-import { BLOG_LANGUAGE_OPTIONS, type BlogLanguage } from "@/lib/blogLanguages";
-import { describeLanguageState } from "@/lib/translationState";
+import {
+  BLOG_LANGUAGE_OPTIONS,
+  getBlogBaseSlug,
+  isBlogLanguage,
+  type BlogLanguage,
+} from "@/lib/blogLanguages";
+import type { Blog } from "@/services/api/types/user.types";
+import { deriveLanguageState, describeLanguageState } from "@/lib/translationState";
 import DuplicateResolver from "./DuplicateResolver";
 import DeletedBlogsPanel from "./DeletedBlogsPanel";
 import { useIsAdmin } from "../useIsAdmin";
@@ -36,6 +42,8 @@ type LanguageInfo = {
   health: "supplied" | "machine" | "reviewed";
   /** The English version has changed since this one was written. */
   stale: boolean;
+  /** Kept off the site until published. */
+  isDraft: boolean;
 };
 
 export type ManageRow = {
@@ -52,6 +60,8 @@ export type ManageRow = {
   missingLanguage: number;
   /** Documents not linked to a translation group. */
   ungrouped: number;
+  /** Language versions kept off the site until someone publishes them. */
+  drafts: number;
   /** Language versions this feature wrote that nobody has read yet. */
   unreviewed: number;
   /** Language versions whose English source has moved on since. */
@@ -72,7 +82,8 @@ type Filter =
   | "duplicates"
   | "dataIssues"
   | "unreviewed"
-  | "outOfDate";
+  | "outOfDate"
+  | "drafts";
 
 const ALL_LANGUAGES = BLOG_LANGUAGE_OPTIONS.map((o) => o.code);
 
@@ -87,18 +98,159 @@ function formatDate(value: string | null): string {
   });
 }
 
-export default function BlogsManageTable({
-  rows,
-  documentCount,
-}: {
-  rows: ManageRow[];
-  documentCount: number;
-}) {
+/**
+ * Collapse the document list into one row per article.
+ *
+ * The collection stores one document per language, so 627 documents are only
+ * about 133 articles. An admin needs to see the article and which languages it
+ * has, not 627 near-identical rows.
+ */
+function buildRows(blogs: Blog[]): ManageRow[] {
+  const resolveLanguage = (b: Blog): BlogLanguage =>
+    isBlogLanguage(b.language) ? b.language : "en";
+
+  // Which documents actually compete for a URL.
+  //
+  // Grouping alone is not enough: two documents can serve the same
+  // /blogs/<slug> while sitting in different translation groups, in which case
+  // they render as two unrelated rows and the clash stays invisible. A URL is
+  // the base slug plus the served language, so that is what collisions are
+  // keyed on here, across every document rather than within a group.
+  const documentsByUrl = new Map<string, string[]>();
+  for (const blog of blogs) {
+    if (!blog._id) continue;
+    const key = `${getBlogBaseSlug(blog.customSlug)}::${resolveLanguage(blog)}`;
+    const bucket = documentsByUrl.get(key);
+    if (bucket) bucket.push(blog._id);
+    else documentsByUrl.set(key, [blog._id]);
+  }
+
+  const groups = new Map<string, Blog[]>();
+
+  for (const blog of blogs) {
+    // Same key order as the public listing, so both agree on what one article
+    // is: the translation group, else the base slug, else the document itself.
+    const key =
+      blog.translationGroupId ||
+      getBlogBaseSlug(blog.customSlug) ||
+      blog._id ||
+      blog.title;
+    if (!key) continue;
+    const bucket = groups.get(key);
+    if (bucket) bucket.push(blog);
+    else groups.set(key, [blog]);
+  }
+
+  const rows: ManageRow[] = [];
+
+  for (const [key, versions] of groups) {
+    // Prefer English as the row's representative; it carries the canonical slug.
+    const primary =
+      versions.find((b) => resolveLanguage(b) === "en") ?? versions[0];
+
+    // The English version is the reference every translation is measured
+    // against, both for the quality columns and for staleness.
+    const englishVersion = versions.find((v) => resolveLanguage(v) === "en");
+
+    const languages: ManageRow["languages"] = {};
+    for (const version of versions) {
+      const language = resolveLanguage(version);
+      // If two documents claim the same language, the first wins here; the
+      // duplicate is surfaced by the `duplicateLanguages` flag instead.
+      if (!languages[language]) {
+        const state = deriveLanguageState(englishVersion, version);
+        languages[language] = {
+          id: version._id || "",
+          hasImage: Boolean(version.featuredImage?.trim()),
+          hasMetaDescription: Boolean(version.metaDescription?.trim()),
+          hasExcerpt: Boolean(version.excerpt?.trim()),
+          updatedAt: version.updatedAt || null,
+          // deriveLanguageState only reports "missing" when the version is
+          // absent, and this one is in front of us.
+          health: state.health === "missing" ? "supplied" : state.health,
+          stale: state.stale,
+          isDraft: version.status === "draft",
+        };
+      }
+    }
+
+    // Flag any language of this article whose URL is claimed by more than one
+    // document, including documents belonging to another translation group.
+    const seenLanguages = new Set<BlogLanguage>();
+    const duplicates: Array<{ language: BlogLanguage; ids: string[] }> = [];
+    for (const version of versions) {
+      const language = resolveLanguage(version);
+      if (seenLanguages.has(language)) continue;
+      seenLanguages.add(language);
+      const ids =
+        documentsByUrl.get(`${getBlogBaseSlug(version.customSlug)}::${language}`) || [];
+      if (ids.length > 1) duplicates.push({ language, ids });
+    }
+
+    // Data problems worth an admin's attention, collected per article.
+    //
+    // A malformed slug is stored with stray slashes. The URL already resolves
+    // correctly because the read path strips them, so this is not broken - but
+    // the stored value disagrees with the served one, which makes slug
+    // comparisons unreliable. Saving the article normalises it.
+    //
+    // A missing language is the consequential one: the site treats an unset
+    // language as English, so a Dutch article with no label is listed and
+    // served as English.
+    const malformedSlugs = versions
+      .map((v) => v.customSlug || "")
+      .filter((slug) => slug && slug !== slug.trim().replace(/^\/+|\/+$/g, ""));
+
+    const missingLanguage = versions.filter((v) => !v.language).length;
+    const ungrouped = versions.filter((v) => !v.translationGroupId).length;
+
+    // Two different queues, deliberately counted apart: unreviewed is a
+    // proofreading job, out-of-date is a re-translation job.
+    const drafts = versions.filter((v) => v.status === "draft").length;
+    const unreviewed = versions.filter(
+      (v) => v.translationStatus === "machine",
+    ).length;
+    const outOfDate = Object.values(languages).filter(
+      (info) => info?.stale,
+    ).length;
+
+    const updatedAt = versions
+      .map((v) => v.updatedAt)
+      .filter(Boolean)
+      .sort()
+      .pop();
+
+    rows.push({
+      key,
+      id: primary._id || "",
+      title: primary.title || "(untitled)",
+      slug: getBlogBaseSlug(primary.customSlug) || "",
+      languages,
+      duplicates,
+      malformedSlugs,
+      missingLanguage,
+      ungrouped,
+      drafts,
+      unreviewed,
+      outOfDate,
+      documentCount: versions.length,
+      updatedAt: updatedAt || null,
+      datePublished: primary.datePublished || primary.createdAt || null,
+      lastReviewedAt: primary.lastReviewedAt || null,
+      primaryKeyword: primary.primaryKeyword || "",
+    });
+  }
+
+  return rows.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+export default function BlogsManageTable() {
   const isAdmin = useIsAdmin();
-  const router = useRouter();
-  // router.refresh() does not return a promise, so a transition is what tells
-  // us the server component has finished re-rendering with fresh data.
-  const [isRefreshing, startRefresh] = useTransition();
+
+  const [rows, setRows] = useState<ManageRow[]>([]);
+  const [documentCount, setDocumentCount] = useState(0);
+  const [isRefreshing, setIsRefreshing] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
@@ -125,6 +277,7 @@ export default function BlogsManageTable({
     let incomplete = 0;
     let duplicates = 0;
     let dataIssues = 0;
+    let drafts = 0;
     let unreviewed = 0;
     let outOfDate = 0;
     for (const row of rows) {
@@ -140,6 +293,7 @@ export default function BlogsManageTable({
       ) {
         dataIssues += 1;
       }
+      if (row.drafts > 0) drafts += 1;
       if (row.unreviewed > 0) unreviewed += 1;
       if (row.outOfDate > 0) outOfDate += 1;
     }
@@ -149,6 +303,7 @@ export default function BlogsManageTable({
       incomplete,
       duplicates,
       dataIssues,
+      drafts,
       unreviewed,
       outOfDate,
     };
@@ -180,6 +335,8 @@ export default function BlogsManageTable({
             row.missingLanguage > 0 ||
             row.ungrouped > 0
           );
+        case "drafts":
+          return row.drafts > 0;
         case "unreviewed":
           return row.unreviewed > 0;
         case "outOfDate":
@@ -209,11 +366,35 @@ export default function BlogsManageTable({
     }
   };
 
-  /** Re-read the article list from the API, bypassing the cached listing. */
-  const reload = async () => {
-    await refreshBlogs();
-    startRefresh(() => router.refresh());
-  };
+  /**
+   * Read every document from the admin endpoint.
+   *
+   * Not the public one: that hides drafts and soft-deleted articles, which are
+   * exactly what this screen exists to show.
+   */
+  const reload = useCallback(async () => {
+    setIsRefreshing(true);
+    try {
+      const blogs = await blogApi.getAllAdmin("all");
+      const live = blogs.filter((blog) => !blog.isDeleted);
+      setRows(buildRows(live));
+      setDocumentCount(live.length);
+      setLoadError(null);
+      // Keeps the public listing and sitemap in step with anything changed here.
+      await refreshBlogs();
+    } catch (error) {
+      setLoadError(
+        error instanceof Error ? error.message : "Could not load the articles.",
+      );
+    } finally {
+      setIsRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!isAdmin) return;
+    void reload();
+  }, [isAdmin, reload]);
 
   const confirmDelete = async () => {
     if (!pendingDelete) return;
@@ -388,6 +569,7 @@ export default function BlogsManageTable({
           {stats.duplicates > 0 && filterButton("duplicates", "Duplicates", stats.duplicates)}
           {stats.dataIssues > 0 &&
             filterButton("dataIssues", "Data issues", stats.dataIssues)}
+          {stats.drafts > 0 && filterButton("drafts", "Drafts", stats.drafts)}
           {stats.unreviewed > 0 &&
             filterButton("unreviewed", "Unreviewed", stats.unreviewed)}
           {stats.outOfDate > 0 &&
@@ -419,10 +601,35 @@ export default function BlogsManageTable({
               </tr>
             </thead>
             <tbody>
-              {visible.length === 0 && (
+              {isRefreshing && rows.length === 0 && (
                 <tr>
                   <td colSpan={7} className="px-4 py-12 text-center text-gray-500">
-                    No articles match this search.
+                    <Loader2 size={18} className="mx-auto animate-spin" />
+                  </td>
+                </tr>
+              )}
+
+              {!isRefreshing && loadError && (
+                <tr>
+                  <td colSpan={7} className="px-4 py-12 text-center">
+                    <p className="text-red-600">{loadError}</p>
+                    <button
+                      type="button"
+                      onClick={() => void reload()}
+                      className="mt-3 border border-gray-300 px-4 py-2 text-gray-700 transition-colors hover:bg-gray-50"
+                    >
+                      Try again
+                    </button>
+                  </td>
+                </tr>
+              )}
+
+              {!isRefreshing && !loadError && visible.length === 0 && (
+                <tr>
+                  <td colSpan={7} className="px-4 py-12 text-center text-gray-500">
+                    {rows.length === 0
+                      ? "No articles yet."
+                      : "No articles match this search."}
                   </td>
                 </tr>
               )}
@@ -500,7 +707,9 @@ export default function BlogsManageTable({
                               key={language}
                               href={`/blogs/editor?id=${encodeURIComponent(info.id)}`}
                               className={`border px-1.5 py-0.5 text-[11px] font-semibold uppercase transition-colors ${
-                                info.stale
+                                info.isDraft
+                                  ? "border-gray-400 bg-gray-100 text-gray-500 hover:bg-gray-400 hover:text-white"
+                                  : info.stale
                                   ? "border-amber-400 bg-amber-50 text-amber-800 hover:bg-amber-400 hover:text-white"
                                   : info.health === "machine"
                                     ? "border-dashed border-[#c89e3a] text-[#9d7400] hover:bg-[#c89e3a] hover:text-white"
@@ -508,10 +717,14 @@ export default function BlogsManageTable({
                               }`}
                               // The tooltip is what stops the colours being a
                               // private code only this file understands.
-                              title={describeLanguageState(
-                                { health: info.health, stale: info.stale },
-                                language,
-                              )}
+                              title={
+                                info.isDraft
+                                  ? `${language.toUpperCase()}: draft, not on the site`
+                                  : describeLanguageState(
+                                      { health: info.health, stale: info.stale },
+                                      language,
+                                    )
+                              }
                             >
                               {language}
                             </Link>

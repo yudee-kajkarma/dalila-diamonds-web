@@ -9,6 +9,7 @@ import {
   Languages,
   RotateCcw,
   SaveAll,
+  EyeOff,
   AlertTriangle,
 } from "lucide-react";
 import toast from "react-hot-toast";
@@ -53,6 +54,8 @@ export type BlogFormValues = {
   primaryKeyword: string;
   /** Comma-separated while editing; split into an array on save. */
   secondaryKeywords: string;
+  /** Absent means published; "draft" keeps the article off the site. */
+  status?: "draft" | "published";
   /** Absent means human-written. Only generated versions carry a flag. */
   translationStatus?: "machine" | "reviewed";
   /** UI only, never sent: whether a replaced body can be restored. */
@@ -144,6 +147,7 @@ function blogToFormValues(source: {
   datePublished?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  status?: "draft" | "published";
   translationStatus?: "machine" | "reviewed";
   previousContent?: string;
   updatedAt?: string;
@@ -178,6 +182,7 @@ function blogToFormValues(source: {
     datePublished: toDateInputValue(source.datePublished),
     primaryKeyword: source.primaryKeyword || "",
     secondaryKeywords: (source.secondaryKeywords || []).join(", "),
+    status: source.status,
     translationStatus: source.translationStatus,
     hasPreviousContent: Boolean(source.previousContent),
     updatedAt: source.updatedAt,
@@ -232,6 +237,7 @@ function blankLanguageDraft(
     secondaryKeywords: "",
     // A draft the admin is about to type by hand is not a machine
     // translation, so it carries no status.
+    status: undefined,
     translationStatus: undefined,
     hasPreviousContent: false,
   };
@@ -263,6 +269,7 @@ export default function BlogEditorForm({
   >(null);
   const [isTranslateOpen, setIsTranslateOpen] = useState(false);
   const [isRestoring, setIsRestoring] = useState(false);
+  const [isTogglingStatus, setIsTogglingStatus] = useState(false);
   const [savingAll, setSavingAll] = useState<{ done: number; total: number } | null>(
     null,
   );
@@ -475,15 +482,28 @@ export default function BlogEditorForm({
     });
   };
 
-  const handleSubmit = async (event?: React.MouseEvent) => {
+  /**
+   * `override` saves a value other than what state currently holds.
+   *
+   * Publishing sets the status and saves in one action; setState is async, so
+   * calling this straight afterwards would otherwise save the stale form and
+   * silently leave the article a draft.
+   */
+  const handleSubmit = async (
+    event?: React.MouseEvent,
+    override?: BlogFormValues,
+    options?: { quiet?: boolean },
+  ) => {
     event?.preventDefault();
     event?.stopPropagation();
 
-    if (!form.title.trim() || !form.content.trim()) {
+    const source = override ?? form;
+
+    if (!source.title.trim() || !source.content.trim()) {
       toast.error("Add a blog title and some content before saving.");
       return;
     }
-    if (!form.language) {
+    if (!source.language) {
       toast.error("Choose a language for this version.");
       return;
     }
@@ -492,11 +512,18 @@ export default function BlogEditorForm({
       setSlugConflict(null);
       const wasUpdate = Boolean(activeBlogId);
       const normalizedForm: BlogFormValues = {
-        ...form,
-        customSlug: normalizeSlugForLanguage(form.language, form.customSlug, form.title),
+        ...source,
+        customSlug: normalizeSlugForLanguage(
+          source.language,
+          source.customSlug,
+          source.title,
+        ),
       };
       setForm(normalizedForm);
-      const result = await onSubmit(normalizedForm, { blogId: activeBlogId });
+      const result = await onSubmit(normalizedForm, {
+        blogId: activeBlogId,
+        quiet: options?.quiet,
+      });
       if (result?.conflict) {
         // The URL belongs to another article. Stop here rather than carrying on
         // as though the save worked.
@@ -532,11 +559,13 @@ export default function BlogEditorForm({
         updated[savedForm.language] = savedForm;
         return updated;
       });
-      setLanguageHint(
-        wasUpdate
-          ? `${normalizedForm.language.toUpperCase()} version updated. Switch language to edit another version.`
-          : `${normalizedForm.language.toUpperCase()} version created. Switch language to add another version.`,
-      );
+      if (!options?.quiet) {
+        setLanguageHint(
+          wasUpdate
+            ? `${normalizedForm.language.toUpperCase()} version updated. Switch language to edit another version.`
+            : `${normalizedForm.language.toUpperCase()} version created. Switch language to add another version.`,
+        );
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -546,6 +575,36 @@ export default function BlogEditorForm({
    * Reload the languages that were just written, so their tabs show the real
    * saved document rather than the blank draft they held before.
    */
+  const isPublished = (form.status ?? "published") !== "draft";
+
+  /**
+   * Flip visibility and write it immediately.
+   *
+   * A control that only stages a change and waits for Save reads as though the
+   * article is already hidden when it is not. This one applies, so what the
+   * toggle shows is what the site is doing.
+   *
+   * It saves the whole form, not just the flag — anything typed and not yet
+   * saved goes with it, which is the same thing Save would have done.
+   */
+  const handleToggleStatus = async () => {
+    if (!activeBlogId || isBusy) return;
+    const next = isPublished ? "draft" : "published";
+    setIsTogglingStatus(true);
+    try {
+      await handleSubmit(undefined, { ...form, status: next }, { quiet: true });
+      toast.success(
+        next === "draft"
+          ? `${form.language.toUpperCase()} version is now a draft and off the site.`
+          : `${form.language.toUpperCase()} version is live.`,
+      );
+    } catch {
+      toast.error("Could not change the visibility. Try again.");
+    } finally {
+      setIsTogglingStatus(false);
+    }
+  };
+
   /**
    * Every language version this session is holding that is worth saving.
    *
@@ -774,6 +833,47 @@ export default function BlogEditorForm({
                 Loading language version
               </span>
             )}
+            {/* Visibility applies on click rather than on Save, so the switch
+                always shows what the site is actually doing. */}
+            <button
+              type="button"
+              role="switch"
+              aria-checked={isPublished}
+              aria-label="Article visibility"
+              onClick={() => void handleToggleStatus()}
+              disabled={!activeBlogId || isBusy}
+              title={
+                !activeBlogId
+                  ? "Save the article first, then you can publish or unpublish it"
+                  : isPublished
+                    ? "Live on the site. Click to move it to draft and take it down."
+                    : "Draft, not on the site. Click to publish it."
+              }
+              className={`inline-flex items-center gap-2 border px-3 py-2 transition-colors disabled:cursor-not-allowed disabled:opacity-40 ${
+                isPublished
+                  ? "border-[#c89e3a] text-[#9d7400] hover:bg-[#c89e3a]/10"
+                  : "border-gray-400 text-gray-600 hover:bg-gray-100"
+              } ${jost.className}`}
+            >
+              {isTogglingStatus ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <span
+                  aria-hidden="true"
+                  className={`relative h-4 w-8 shrink-0 rounded-full transition-colors ${
+                    isPublished ? "bg-[#c89e3a]" : "bg-gray-400"
+                  }`}
+                >
+                  <span
+                    className={`absolute top-0.5 h-3 w-3 rounded-full bg-white transition-all ${
+                      isPublished ? "left-[18px]" : "left-0.5"
+                    }`}
+                  />
+                </span>
+              )}
+              <span className="text-sm">{isPublished ? "Live" : "Draft"}</span>
+            </button>
+
             <button
               type="button"
               onClick={() => setIsTranslateOpen(true)}
@@ -868,6 +968,20 @@ export default function BlogEditorForm({
           </div>
         </div>
       </header>
+
+      {form.status === "draft" && (
+        <div className="border-b border-gray-300 bg-gray-100">
+          <div
+            className={`mx-auto flex max-w-[1600px] flex-wrap items-center gap-3 px-6 py-3 text-sm text-gray-700 ${jost.className}`}
+          >
+            <EyeOff size={16} className="shrink-0" />
+            <p className="flex-1">
+              <span className="font-semibold">Draft.</span> This version is not on
+              the site, not in the sitemap, and its URL returns 404.
+            </p>
+          </div>
+        </div>
+      )}
 
       {form.translationStatus === "machine" && (
         <div className="border-b border-amber-300 bg-amber-50">
