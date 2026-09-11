@@ -195,6 +195,12 @@ export const updateBlog = async (
     content?: string; // Rich text content
     metaTitle?: string; // Meta title (optional)
     metaDescription?: string; // Meta description (optional)
+    /**
+     * Sent as "reviewed" when a human saves a machine translation. That save
+     * is the whole review flow — a separate button gets forgotten, and the
+     * flag would then never become true.
+     */
+    translationStatus?: "machine" | "reviewed";
   }
 ): Promise<BlogResponse> => {
   try {
@@ -356,5 +362,139 @@ export const permanentlyDeleteBlog = async (blogId: string): Promise<BlogRespons
     console.error("Permanent delete error:", error);
     const apiError = handleApiError(error);
     throw new Error(apiError.message || "Failed to permanently delete blog");
+  }
+};
+
+export type TranslationTarget = "de" | "fr" | "it" | "es" | "nl";
+
+export type TranslateResult = {
+  blogId: string;
+  language: string;
+  created: boolean;
+  overwrote: boolean;
+  translationStatus: "machine";
+};
+
+/** The target language already has a version; replacing it must be deliberate. */
+export class TranslationConflictError extends Error {
+  constructor(
+    message: string,
+    public readonly existing: {
+      _id: string;
+      title: string;
+      language: string;
+      updatedAt?: string;
+    },
+  ) {
+    super(message);
+    this.name = "TranslationConflictError";
+  }
+}
+
+/** The model's output failed validation twice. Nothing was written. */
+export class TranslationRejectedError extends Error {
+  constructor(
+    message: string,
+    public readonly problems: string[],
+  ) {
+    super(message);
+    this.name = "TranslationRejectedError";
+  }
+}
+
+/** The server has no OPENAI_API_KEY, so no amount of retrying will help. */
+export class TranslationUnavailableError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "TranslationUnavailableError";
+  }
+}
+
+/**
+ * Admin: translate the English article into one language.
+ *
+ * One language per call. That is what lets the panel show progress per
+ * language and retry a single failure rather than the whole article, and it
+ * means each language is saved the moment it succeeds.
+ */
+export const translateBlog = async (
+  blogId: string,
+  targetLanguage: TranslationTarget,
+  overwrite = false,
+): Promise<TranslateResult> => {
+  const token = getAuthToken();
+  if (!token || token.trim() === "") {
+    throw new Error("Unauthorized. Please log in.");
+  }
+
+  try {
+    const response = await apiClient.post<{ success: boolean; data: TranslateResult }>(
+      `/api/admin/blogs/${blogId}/translate`,
+      { targetLanguage, overwrite },
+      // A translation is a long model call, far beyond the client default.
+      { timeout: 300000 },
+    );
+    return response.data.data;
+  } catch (error: unknown) {
+    const response = (error as {
+      response?: {
+        status?: number;
+        data?: {
+          message?: string;
+          problems?: string[];
+          existing?: { _id: string; title: string; language: string; updatedAt?: string };
+        };
+      };
+    })?.response;
+
+    // Distinct types, because each needs a different offer in the panel:
+    // replace what exists, show what the model got wrong, or tell the admin
+    // the server is not configured.
+    if (response?.status === 409 && response.data?.existing) {
+      throw new TranslationConflictError(
+        response.data.message || "That language already has a version.",
+        response.data.existing,
+      );
+    }
+    if (response?.status === 422) {
+      throw new TranslationRejectedError(
+        response.data?.message || "The translation could not be validated.",
+        response.data?.problems || [],
+      );
+    }
+    if (response?.status === 503) {
+      throw new TranslationUnavailableError(
+        response.data?.message || "Translation is not configured on this server.",
+      );
+    }
+
+    console.error("Translate blog error:", error);
+    const apiError = handleApiError(error);
+    throw new Error(apiError.message || "Failed to translate this article");
+  }
+};
+
+/**
+ * Admin: put back the body a translation replaced.
+ *
+ * `blogId` is the TRANSLATED version, not the English source.
+ */
+export const restorePreviousContent = async (
+  blogId: string,
+): Promise<{ blogId: string }> => {
+  const token = getAuthToken();
+  if (!token || token.trim() === "") {
+    throw new Error("Unauthorized. Please log in.");
+  }
+
+  try {
+    const response = await apiClient.post<{ success: boolean; data: { blogId: string } }>(
+      `/api/admin/blogs/${blogId}/restore-previous`,
+    );
+    return response.data.data;
+  } catch (error) {
+    console.error("Restore previous content error:", error);
+    const apiError = handleApiError(error);
+    throw new Error(apiError.message || "Failed to restore the previous version");
   }
 };

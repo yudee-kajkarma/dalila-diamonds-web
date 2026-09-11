@@ -133,6 +133,8 @@ export const blogApi = {
     getAllAdmin: blogService.getAllBlogsAdmin,
     restore: blogService.restoreBlog,
     deletePermanently: blogService.permanentlyDeleteBlog,
+    translate: blogService.translateBlog,
+    restorePrevious: blogService.restorePreviousContent,
 };
 
 // Form API, Form submission handling

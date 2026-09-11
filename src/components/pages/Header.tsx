@@ -405,6 +405,12 @@ export default function Header() {
                                                     >
                                                         Limited Edition
                                                     </Link>
+                                                    <Link
+                                                        href={localizedPath("/blogs/manage")}
+                                                        className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#c89e3a] hover:text-white transition-colors border-b border-gray-100"
+                                                    >
+                                                        Manage Blogs
+                                                    </Link>
                                                     {userRole ===
                                                         "SUPER_ADMIN" && (
                                                         <Link

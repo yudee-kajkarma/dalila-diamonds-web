@@ -20,6 +20,7 @@ import { marcellus, jost } from "@/lib/fonts";
 import { blogApi } from "@/lib/api";
 import ConfirmDialog from "@/components/shared/ConfirmDialog";
 import { BLOG_LANGUAGE_OPTIONS, type BlogLanguage } from "@/lib/blogLanguages";
+import { describeLanguageState } from "@/lib/translationState";
 import DuplicateResolver from "./DuplicateResolver";
 import DeletedBlogsPanel from "./DeletedBlogsPanel";
 import { useIsAdmin } from "../useIsAdmin";
@@ -31,6 +32,10 @@ type LanguageInfo = {
   hasMetaDescription: boolean;
   hasExcerpt: boolean;
   updatedAt: string | null;
+  /** Who wrote it: supplied by hand, generated, or generated then read. */
+  health: "supplied" | "machine" | "reviewed";
+  /** The English version has changed since this one was written. */
+  stale: boolean;
 };
 
 export type ManageRow = {
@@ -47,6 +52,10 @@ export type ManageRow = {
   missingLanguage: number;
   /** Documents not linked to a translation group. */
   ungrouped: number;
+  /** Language versions this feature wrote that nobody has read yet. */
+  unreviewed: number;
+  /** Language versions whose English source has moved on since. */
+  outOfDate: number;
   documentCount: number;
   updatedAt: string | null;
   datePublished: string | null;
@@ -61,7 +70,9 @@ type Filter =
   | "missingMeta"
   | "incomplete"
   | "duplicates"
-  | "dataIssues";
+  | "dataIssues"
+  | "unreviewed"
+  | "outOfDate";
 
 const ALL_LANGUAGES = BLOG_LANGUAGE_OPTIONS.map((o) => o.code);
 
@@ -114,6 +125,8 @@ export default function BlogsManageTable({
     let incomplete = 0;
     let duplicates = 0;
     let dataIssues = 0;
+    let unreviewed = 0;
+    let outOfDate = 0;
     for (const row of rows) {
       const primary = primaryOf(row);
       if (!primary?.hasImage) missingImage += 1;
@@ -127,8 +140,18 @@ export default function BlogsManageTable({
       ) {
         dataIssues += 1;
       }
+      if (row.unreviewed > 0) unreviewed += 1;
+      if (row.outOfDate > 0) outOfDate += 1;
     }
-    return { missingImage, missingMeta, incomplete, duplicates, dataIssues };
+    return {
+      missingImage,
+      missingMeta,
+      incomplete,
+      duplicates,
+      dataIssues,
+      unreviewed,
+      outOfDate,
+    };
   }, [rows]);
 
   const visible = useMemo(() => {
@@ -157,6 +180,10 @@ export default function BlogsManageTable({
             row.missingLanguage > 0 ||
             row.ungrouped > 0
           );
+        case "unreviewed":
+          return row.unreviewed > 0;
+        case "outOfDate":
+          return row.outOfDate > 0;
         default:
           return true;
       }
@@ -361,6 +388,10 @@ export default function BlogsManageTable({
           {stats.duplicates > 0 && filterButton("duplicates", "Duplicates", stats.duplicates)}
           {stats.dataIssues > 0 &&
             filterButton("dataIssues", "Data issues", stats.dataIssues)}
+          {stats.unreviewed > 0 &&
+            filterButton("unreviewed", "Unreviewed", stats.unreviewed)}
+          {stats.outOfDate > 0 &&
+            filterButton("outOfDate", "Out of date", stats.outOfDate)}
         </div>
 
         {showDeleted && (
@@ -468,8 +499,19 @@ export default function BlogsManageTable({
                             <Link
                               key={language}
                               href={`/blogs/editor?id=${encodeURIComponent(info.id)}`}
-                              className="border border-[#c89e3a] bg-[#c89e3a]/10 px-1.5 py-0.5 text-[11px] font-semibold uppercase text-[#9d7400] transition-colors hover:bg-[#c89e3a] hover:text-white"
-                              title={`Edit the ${language.toUpperCase()} version`}
+                              className={`border px-1.5 py-0.5 text-[11px] font-semibold uppercase transition-colors ${
+                                info.stale
+                                  ? "border-amber-400 bg-amber-50 text-amber-800 hover:bg-amber-400 hover:text-white"
+                                  : info.health === "machine"
+                                    ? "border-dashed border-[#c89e3a] text-[#9d7400] hover:bg-[#c89e3a] hover:text-white"
+                                    : "border-[#c89e3a] bg-[#c89e3a]/10 text-[#9d7400] hover:bg-[#c89e3a] hover:text-white"
+                              }`}
+                              // The tooltip is what stops the colours being a
+                              // private code only this file understands.
+                              title={describeLanguageState(
+                                { health: info.health, stale: info.stale },
+                                language,
+                              )}
                             >
                               {language}
                             </Link>

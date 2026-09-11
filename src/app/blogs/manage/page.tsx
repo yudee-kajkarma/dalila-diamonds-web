@@ -1,6 +1,7 @@
 import { getAllBlogsForAdmin } from "@/lib/blogs";
 import BlogsManageTable, { type ManageRow } from "./BlogsManageTable";
 import { getBlogBaseSlug, isBlogLanguage, type BlogLanguage } from "@/lib/blogLanguages";
+import { deriveLanguageState } from "@/lib/translationState";
 
 // Admin screen: always read fresh rather than serving a cached listing, so an
 // edit is reflected the moment the admin comes back to this page.
@@ -58,18 +59,27 @@ function buildRows(
     const primary =
       versions.find((b) => resolveLanguage(b) === "en") ?? versions[0];
 
+    // The English version is the reference every translation is measured
+    // against, both for the quality columns and for staleness.
+    const englishVersion = versions.find((v) => resolveLanguage(v) === "en");
+
     const languages: ManageRow["languages"] = {};
     for (const version of versions) {
       const language = resolveLanguage(version);
       // If two documents claim the same language, the first wins here; the
       // duplicate is surfaced by the `duplicateLanguages` flag instead.
       if (!languages[language]) {
+        const state = deriveLanguageState(englishVersion, version);
         languages[language] = {
           id: version._id || "",
           hasImage: Boolean(version.featuredImage?.trim()),
           hasMetaDescription: Boolean(version.metaDescription?.trim()),
           hasExcerpt: Boolean(version.excerpt?.trim()),
           updatedAt: version.updatedAt || null,
+          // deriveLanguageState only reports "missing" when the version is
+          // absent, and this one is in front of us.
+          health: state.health === "missing" ? "supplied" : state.health,
+          stale: state.stale,
         };
       }
     }
@@ -104,6 +114,15 @@ function buildRows(
     const missingLanguage = versions.filter((v) => !v.language).length;
     const ungrouped = versions.filter((v) => !v.translationGroupId).length;
 
+    // Two different queues, deliberately counted apart: unreviewed is a
+    // proofreading job, out-of-date is a re-translation job.
+    const unreviewed = versions.filter(
+      (v) => v.translationStatus === "machine",
+    ).length;
+    const outOfDate = Object.values(languages).filter(
+      (info) => info?.stale,
+    ).length;
+
     const updatedAt = versions
       .map((v) => v.updatedAt)
       .filter(Boolean)
@@ -120,6 +139,8 @@ function buildRows(
       malformedSlugs,
       missingLanguage,
       ungrouped,
+      unreviewed,
+      outOfDate,
       documentCount: versions.length,
       updatedAt: updatedAt || null,
       datePublished: primary.datePublished || primary.createdAt || null,

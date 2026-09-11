@@ -423,6 +423,13 @@ export default function MobileHeader() {
                                                 >
                                                     Limited Edition
                                                 </Link>
+                                                <Link
+                                                    href={localizedPath("/blogs/manage")}
+                                                    onClick={closeMobileMenu}
+                                                    className="block px-6 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-[#c89e3a]/10"
+                                                >
+                                                    Manage Blogs
+                                                </Link>
                                                 {userRole === "SUPER_ADMIN" && (
                                                     <Link
                                                         href={localizedPath("/create-admin")}

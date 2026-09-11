@@ -46,6 +46,11 @@ type LoadedBlog = {
   datePublished?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  translationStatus?: "machine" | "reviewed";
+  previousContent?: string;
+  updatedAt?: string;
+  contentHash?: string;
+  sourceContentHash?: string;
 };
 
 /** ISO timestamp -> yyyy-mm-dd for a date input; empty when unset or invalid. */
@@ -83,6 +88,11 @@ function toFormValues(source: LoadedBlog): BlogFormValues {
     datePublished: toDateInputValue(source.datePublished),
     primaryKeyword: source.primaryKeyword || "",
     secondaryKeywords: (source.secondaryKeywords || []).join(", "),
+    translationStatus: source.translationStatus,
+    hasPreviousContent: Boolean(source.previousContent),
+    updatedAt: source.updatedAt,
+    contentHash: source.contentHash,
+    sourceContentHash: source.sourceContentHash,
   };
 }
 
@@ -130,8 +140,20 @@ function EditorScreen() {
     };
   }, [blogId]);
 
+  /**
+   * Leave the editor the way the browser's own back button would.
+   *
+   * A fixed push to /blogs sent an admin who arrived from the dashboard back
+   * to the public listing instead of the table they were working through.
+   * history.length > 1 guards the case where the editor was opened directly
+   * in a fresh tab, where going back would leave the site entirely.
+   */
   const exit = useCallback(() => {
-    router.push("/blogs");
+    if (typeof window !== "undefined" && window.history.length > 1) {
+      router.back();
+      return;
+    }
+    router.push("/blogs/manage");
   }, [router]);
 
   /**
@@ -144,12 +166,23 @@ function EditorScreen() {
   const handleSave = useCallback(
     async (
       values: BlogFormValues,
-      meta: { blogId: string | null },
+      meta: { blogId: string | null; quiet?: boolean },
     ): Promise<BlogFormSubmitResult> => {
       const language = values.language.toUpperCase();
       try {
+        // The banner reads these off the form, but they are signals the server
+        // owns: sending them back would let a save overwrite what the
+        // translation service recorded.
+        const translationStatus = values.translationStatus;
+        const editable: Partial<BlogFormValues> = { ...values };
+        delete editable.translationStatus;
+        delete editable.hasPreviousContent;
+        delete editable.updatedAt;
+        delete editable.contentHash;
+        delete editable.sourceContentHash;
+
         const payload = {
-          ...values,
+          ...(editable as BlogFormValues),
           // The repository normalises the localised slug, so it is sent as-is.
           customSlug: values.customSlug,
           // Omit when empty so the backend starts a new translation group.
@@ -168,34 +201,52 @@ function EditorScreen() {
         };
 
         if (meta.blogId) {
-          const response = await blogApi.update(meta.blogId, payload);
+          const response = await blogApi.update(meta.blogId, {
+            ...payload,
+            // Saving a machine translation by hand IS the review. A separate
+            // "mark as reviewed" button is one people forget to press, and the
+            // flag would then never become true.
+            ...(translationStatus === "machine"
+              ? { translationStatus: "reviewed" as const }
+              : {}),
+          });
           if (response?.success) {
-            toast.success(`${language} version saved.`);
-            await refreshBlogs();
-            router.refresh();
+            // A Save all reports once at the end, and revalidates once, rather
+            // than firing five toasts and six cache purges each.
+            if (!meta.quiet) {
+              toast.success(`${language} version saved.`);
+              await refreshBlogs();
+              router.refresh();
+            }
             return {
               blogId: response.data?._id || meta.blogId,
               translationGroupId: response.data?.translationGroupId,
             };
           }
-          toast.error(`Could not save the ${language} version. Try again.`);
-          return { blogId: meta.blogId };
+          if (!meta.quiet) {
+            toast.error(`Could not save the ${language} version. Try again.`);
+          }
+          return { blogId: meta.blogId, failed: true };
         }
 
         const response = await blogApi.create(payload);
         if (response?.success) {
-          toast.success(
-            `${language} version created. Switch language above to add another.`,
-          );
-          await refreshBlogs();
-          router.refresh();
+          if (!meta.quiet) {
+            toast.success(
+              `${language} version created. Switch language above to add another.`,
+            );
+            await refreshBlogs();
+            router.refresh();
+          }
           return {
             blogId: response.data?._id || null,
             translationGroupId: response.data?.translationGroupId,
           };
         }
-        toast.error(`Could not create the ${language} version. Try again.`);
-        return { blogId: null };
+        if (!meta.quiet) {
+          toast.error(`Could not create the ${language} version. Try again.`);
+        }
+        return { blogId: null, failed: true };
       } catch (error) {
         if (error instanceof BlogSlugConflictError) {
           toast.error(error.message, { duration: 6000 });

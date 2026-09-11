@@ -30,6 +30,12 @@ export type BackendBlog = {
   featuredImageAlt?: string;
   createdAt?: string;
   updatedAt?: string;
+  /** Absent means human-supplied; only generated versions carry a flag. */
+  translationStatus?: 'machine' | 'reviewed';
+  /** Fingerprint of this document's own body, refreshed on every save. */
+  contentHash?: string;
+  /** For a translation: the fingerprint of the English body it came from. */
+  sourceContentHash?: string;
 };
 
 type BlogsApiResponse = {

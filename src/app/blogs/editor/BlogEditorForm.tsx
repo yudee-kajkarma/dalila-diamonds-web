@@ -1,7 +1,16 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Loader2, Image as ImageIcon, Link as LinkIcon, ArrowLeft } from "lucide-react";
+import {
+  Loader2,
+  Image as ImageIcon,
+  Link as LinkIcon,
+  ArrowLeft,
+  Languages,
+  RotateCcw,
+  SaveAll,
+  AlertTriangle,
+} from "lucide-react";
 import toast from "react-hot-toast";
 import { marcellus, jost } from "@/lib/fonts";
 import RichTextEditor from "@/components/shared/RichTextEditor";
@@ -15,6 +24,9 @@ import {
   type BlogLanguage,
 } from "@/lib/blogLanguages";
 import { generateSlug } from "@/utils/helpers/slugUtils";
+import { refreshBlogs } from "../actions";
+import { deriveLanguageState } from "@/lib/translationState";
+import TranslatePanel, { type TranslateTargetState } from "./TranslatePanel";
 
 export type BlogFormValues = {
   title: string;
@@ -41,6 +53,14 @@ export type BlogFormValues = {
   primaryKeyword: string;
   /** Comma-separated while editing; split into an array on save. */
   secondaryKeywords: string;
+  /** Absent means human-written. Only generated versions carry a flag. */
+  translationStatus?: "machine" | "reviewed";
+  /** UI only, never sent: whether a replaced body can be restored. */
+  hasPreviousContent: boolean;
+  /** UI only: used to work out whether the English source has moved on. */
+  updatedAt?: string;
+  contentHash?: string;
+  sourceContentHash?: string;
 };
 
 export const EMPTY_BLOG_FORM: BlogFormValues = {
@@ -65,10 +85,13 @@ export const EMPTY_BLOG_FORM: BlogFormValues = {
   datePublished: "",
   primaryKeyword: "",
   secondaryKeywords: "",
+  hasPreviousContent: false,
 };
 
 export type BlogFormSubmitResult = {
   blogId?: string | null;
+  /** The save was attempted and refused. Distinguishes failure from success. */
+  failed?: boolean;
   /** Returned by the API on save; later languages join this group. */
   translationGroupId?: string | null;
   /** Set when the save was refused because another article owns this URL. */
@@ -90,7 +113,11 @@ type Props = {
    */
   onSubmit: (
     values: BlogFormValues,
-    meta: { blogId: string | null },
+    /**
+     * `quiet` suppresses the per-save toast and the cache revalidation, so a
+     * Save all reports once at the end rather than five times over.
+     */
+    meta: { blogId: string | null; quiet?: boolean },
   ) => Promise<BlogFormSubmitResult | void>;
 };
 
@@ -117,6 +144,11 @@ function blogToFormValues(source: {
   datePublished?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  translationStatus?: "machine" | "reviewed";
+  previousContent?: string;
+  updatedAt?: string;
+  contentHash?: string;
+  sourceContentHash?: string;
 }): BlogFormValues {
   const language = isBlogLanguage(source.language)
     ? source.language
@@ -146,6 +178,11 @@ function blogToFormValues(source: {
     datePublished: toDateInputValue(source.datePublished),
     primaryKeyword: source.primaryKeyword || "",
     secondaryKeywords: (source.secondaryKeywords || []).join(", "),
+    translationStatus: source.translationStatus,
+    hasPreviousContent: Boolean(source.previousContent),
+    updatedAt: source.updatedAt,
+    contentHash: source.contentHash,
+    sourceContentHash: source.sourceContentHash,
   };
 }
 
@@ -193,6 +230,10 @@ function blankLanguageDraft(
     datePublished: "",
     primaryKeyword: "",
     secondaryKeywords: "",
+    // A draft the admin is about to type by hand is not a machine
+    // translation, so it carries no status.
+    translationStatus: undefined,
+    hasPreviousContent: false,
   };
 }
 
@@ -220,6 +261,11 @@ export default function BlogEditorForm({
   const [slugConflict, setSlugConflict] = useState<
     { _id: string; title: string; language?: string } | null
   >(null);
+  const [isTranslateOpen, setIsTranslateOpen] = useState(false);
+  const [isRestoring, setIsRestoring] = useState(false);
+  const [savingAll, setSavingAll] = useState<{ done: number; total: number } | null>(
+    null,
+  );
 
   // The site header is fixed, so this page has to reserve room for it. Its
   // height differs by breakpoint (a single bar on mobile; nav + rule + tagline
@@ -496,7 +542,185 @@ export default function BlogEditorForm({
     }
   };
 
-  const isBusy = isSubmitting || isSwitchingLanguage;
+  /**
+   * Reload the languages that were just written, so their tabs show the real
+   * saved document rather than the blank draft they held before.
+   */
+  /**
+   * Every language version this session is holding that is worth saving.
+   *
+   * The active tab's edits live in `form`, not in `drafts` — drafts is only
+   * written when switching away — so the current form is merged in first or
+   * Save all would write a stale copy of whatever is on screen.
+   *
+   * Blank drafts are skipped: switching to an empty language creates a
+   * placeholder draft, and saving those would create empty articles.
+   */
+  const collectSavable = (): Array<[BlogLanguage, BlogFormValues]> => {
+    const merged: Partial<Record<BlogLanguage, BlogFormValues>> = {
+      ...drafts,
+      [form.language]: form,
+    };
+    return (Object.entries(merged) as Array<[BlogLanguage, BlogFormValues]>).filter(
+      ([, draft]) => draft && draft.title.trim() && draft.content.trim(),
+    );
+  };
+
+  const savableCount = collectSavable().length;
+
+  /**
+   * Save every loaded language in one pass.
+   *
+   * Generating five translations otherwise means five tab switches and five
+   * saves before any of them counts as reviewed. Note what that makes the
+   * flag mean: "a human pressed Save all", not "someone read this version".
+   */
+  const handleSaveAll = async () => {
+    const entries = collectSavable();
+    if (!entries.length) {
+      toast.error("Nothing to save yet. Add a title and some content first.");
+      return;
+    }
+
+    setSavingAll({ done: 0, total: entries.length });
+    const failures: string[] = [];
+    let groupId = form.translationGroupId;
+
+    try {
+      for (const [language, draft] of entries) {
+        const normalised: BlogFormValues = {
+          ...draft,
+          translationGroupId: draft.translationGroupId || groupId,
+          customSlug: normalizeSlugForLanguage(language, draft.customSlug, draft.title),
+        };
+
+        try {
+          const result = await onSubmit(normalised, {
+            blogId: draftIds[language] ?? null,
+            quiet: true,
+          });
+
+          if (result?.conflict || result?.failed) {
+            failures.push(language.toUpperCase());
+            continue;
+          }
+
+          const savedId = result?.blogId ?? draftIds[language] ?? null;
+          groupId = result?.translationGroupId || groupId;
+
+          // Saving by hand is what marks a machine translation reviewed, so
+          // the local copy has to reflect that or the banner would linger.
+          const saved: BlogFormValues = {
+            ...normalised,
+            translationGroupId: groupId,
+            translationStatus:
+              normalised.translationStatus === "machine"
+                ? "reviewed"
+                : normalised.translationStatus,
+          };
+
+          setDrafts((prev) => ({ ...prev, [language]: saved }));
+          setDraftIds((prev) => ({ ...prev, [language]: savedId }));
+          if (language === form.language) {
+            setForm(saved);
+            if (savedId) setActiveBlogId(savedId);
+          }
+        } catch {
+          failures.push(language.toUpperCase());
+        }
+
+        setSavingAll((prev) => (prev ? { ...prev, done: prev.done + 1 } : prev));
+      }
+    } finally {
+      setSavingAll(null);
+    }
+
+    // One revalidation for the whole run rather than one per language.
+    await refreshBlogs();
+
+    const saved = entries.length - failures.length;
+    if (!failures.length) {
+      toast.success(
+        saved === 1 ? "1 version saved." : `${saved} versions saved and marked reviewed.`,
+      );
+    } else if (saved > 0) {
+      toast.error(`${saved} saved. ${failures.join(", ")} failed — open each to see why.`);
+    } else {
+      toast.error(`Could not save ${failures.join(", ")}.`);
+    }
+  };
+
+  const handleTranslationsFinished = async (completed: BlogLanguage[]) => {
+    if (!completed.length) return;
+    const sharedBaseSlug = resolveBaseSlug(form.customSlug, form.title);
+
+    for (const language of completed) {
+      try {
+        const response = await blogApi.getByBaseSlugAndLanguage(
+          sharedBaseSlug,
+          language,
+          form.translationGroupId,
+        );
+        if (response?.data) {
+          const loaded = blogToFormValues(response.data);
+          setDrafts((prev) => ({ ...prev, [language]: loaded }));
+          setDraftIds((prev) => ({ ...prev, [language]: response.data._id }));
+        }
+      } catch (error) {
+        console.error(`Could not reload the ${language} version:`, error);
+      }
+    }
+
+    toast.success(
+      completed.length === 1
+        ? `${completed[0].toUpperCase()} version written. Read it before it is trusted.`
+        : `${completed.length} versions written. Read each before they are trusted.`,
+    );
+  };
+
+  /** Put back the body this translation replaced. */
+  const handleRestorePrevious = async () => {
+    if (!activeBlogId) return;
+    setIsRestoring(true);
+    try {
+      await blogApi.restorePrevious(activeBlogId);
+      const response = await blogApi.getById(activeBlogId);
+      if (response?.data) {
+        const loaded = blogToFormValues(response.data);
+        setForm(loaded);
+        setDrafts((prev) => ({ ...prev, [loaded.language]: loaded }));
+      }
+      toast.success("Previous version restored.");
+    } catch (error) {
+      toast.error(
+        error instanceof Error
+          ? error.message
+          : "Could not restore the previous version.",
+      );
+    } finally {
+      setIsRestoring(false);
+    }
+  };
+
+  // What the translate panel offers, built from the drafts this session has
+  // already loaded, so it needs no extra request. A language counts as
+  // existing only when it has a saved document behind it.
+  const translateTargets: TranslateTargetState[] = BLOG_LANGUAGE_OPTIONS.filter(
+    (option) => option.code !== "en",
+  ).map((option) => ({
+    language: option.code,
+    state: deriveLanguageState(
+      drafts.en,
+      draftIds[option.code] ? drafts[option.code] : undefined,
+    ),
+  }));
+
+  // Translating reads the English document, so it needs one that has been
+  // saved: a draft that exists only in this tab has no id to translate from.
+  const canTranslate =
+    form.language === "en" && Boolean(activeBlogId) && !isSubmitting;
+
+  const isBusy = isSubmitting || isSwitchingLanguage || savingAll !== null;
   const inputClass = `w-full px-4 py-2 border border-gray-300 rounded-none focus:outline-none focus:ring-2 focus:ring-[#c89e3a] bg-white text-gray-900 ${jost.className}`;
   const labelClass = `block text-sm font-semibold text-gray-700 mb-2 ${jost.className}`;
   const saveLabel = activeBlogId
@@ -532,7 +756,7 @@ export default function BlogEditorForm({
             className={`inline-flex items-center gap-2 text-sm text-gray-600 hover:text-[#c89e3a] transition-colors disabled:opacity-50 ${jost.className}`}
           >
             <ArrowLeft size={18} />
-            Articles
+            Back
           </button>
 
           <div className="h-6 w-px bg-gray-200" aria-hidden="true" />
@@ -549,6 +773,43 @@ export default function BlogEditorForm({
                 <Loader2 className="h-3 w-3 animate-spin" />
                 Loading language version
               </span>
+            )}
+            <button
+              type="button"
+              onClick={() => setIsTranslateOpen(true)}
+              disabled={!canTranslate || isBusy}
+              title={
+                form.language !== "en"
+                  ? "Switch to the English version to translate"
+                  : !activeBlogId
+                    ? "Save the English article first"
+                    : "Translate into the other languages"
+              }
+              className={`inline-flex items-center gap-2 border border-[#c89e3a] px-5 py-2.5 text-[#9d7400] transition-colors hover:bg-[#c89e3a] hover:text-white disabled:cursor-not-allowed disabled:border-gray-300 disabled:text-gray-400 disabled:hover:bg-transparent ${jost.className}`}
+            >
+              <Languages size={16} />
+              Translate
+            </button>
+            {savableCount > 1 && (
+              <button
+                type="button"
+                onClick={() => void handleSaveAll()}
+                disabled={isBusy}
+                title={`Save all ${savableCount} language versions loaded in this tab. Machine translations are marked reviewed.`}
+                className={`inline-flex items-center gap-2 border border-[#c89e3a] px-5 py-2.5 text-[#9d7400] transition-colors hover:bg-[#c89e3a] hover:text-white disabled:cursor-not-allowed disabled:border-gray-300 disabled:text-gray-400 disabled:hover:bg-transparent ${jost.className}`}
+              >
+                {savingAll ? (
+                  <>
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                    Saving {savingAll.done + 1} of {savingAll.total}
+                  </>
+                ) : (
+                  <>
+                    <SaveAll size={16} />
+                    Save all {savableCount}
+                  </>
+                )}
+              </button>
             )}
             <button
               type="button"
@@ -607,6 +868,33 @@ export default function BlogEditorForm({
           </div>
         </div>
       </header>
+
+      {form.translationStatus === "machine" && (
+        <div className="border-b border-amber-300 bg-amber-50">
+          <div
+            className={`mx-auto flex max-w-[1600px] flex-wrap items-center gap-3 px-6 py-3 text-sm text-amber-900 ${jost.className}`}
+          >
+            <AlertTriangle size={16} className="shrink-0" />
+            <p className="flex-1">
+              <span className="font-semibold">
+                Machine translation, not yet reviewed.
+              </span>{" "}
+              Saving this version marks it reviewed.
+            </p>
+            {form.hasPreviousContent && (
+              <button
+                type="button"
+                onClick={() => void handleRestorePrevious()}
+                disabled={isRestoring || isBusy}
+                className="inline-flex items-center gap-1.5 border border-amber-400 px-3 py-1.5 transition-colors hover:bg-amber-100 disabled:opacity-50"
+              >
+                <RotateCcw size={14} />
+                {isRestoring ? "Restoring" : "Restore previous version"}
+              </button>
+            )}
+          </div>
+        </div>
+      )}
 
       {slugConflict && (
         <div className="border-b border-amber-300 bg-amber-50">
@@ -1106,6 +1394,15 @@ export default function BlogEditorForm({
           </aside>
         </div>
       </div>
+
+      <TranslatePanel
+        open={isTranslateOpen}
+        sourceBlogId={activeBlogId || ""}
+        articleTitle={form.title}
+        targets={translateTargets}
+        onFinished={handleTranslationsFinished}
+        onClose={() => setIsTranslateOpen(false)}
+      />
     </div>
   );
 }
