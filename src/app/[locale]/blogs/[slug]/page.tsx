@@ -224,6 +224,10 @@ export default async function BlogDetailPage({ params }: Props) {
                     day: "numeric",
                     month: "long",
                     year: "numeric",
+                    // A review date is a calendar date, stored as midnight UTC.
+                    // Formatting it in the reader's zone shows the day before
+                    // to everyone west of UTC.
+                    timeZone: "UTC",
                   })}
                 </time>
               </p>
