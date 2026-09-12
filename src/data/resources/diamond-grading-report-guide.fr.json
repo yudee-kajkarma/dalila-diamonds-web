@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Guide du rapport d'analyse gemmologique | Dalila Diamonds",
-    "description": "Comprenez les rapports d'analyse gemmologique des diamants, vérifiez les numéros de rapport, comparez les 4C, les proportions et la fluorescence, et contrôlez un diamant naturel avant l'achat.",
+    "description": "Apprenez à lire et à vérifier un rapport de gradation d’un diamant, à comprendre les 4Cs et à identifier ce qu’un certificat peut — et ne peut pas — vous apprendre avant tout achat.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Guide du rapport d'analyse gemmologique pour les acheteurs de diamants naturels",
     "subheading": "Comprenez chaque partie d'un rapport d'analyse gemmologique, vérifiez le numéro de rapport et comparez la qualité d'un diamant naturel avant l'achat.",
     "reviewDateLabel": "Dernière révision :",
-    "reviewDate": "30 juillet 2026"
+    "reviewDate": "6 septembre 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "Qu'est-ce qu'un rapport d'analyse gemmologique"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "Un certificat de diamant, est-ce la même chose ?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Si une inscription au laser est présente"
     ],
     "closingParagraphs": [
-      "Le Gemological Institute of America utilise le terme « grading report » (rapport d'analyse) plutôt que « certificate » (certificat). Ses rapports fournissent des informations techniques sur un diamant, mais ne constituent ni des expertises ni des garanties de valeur monétaire.",
-      "« Certificat diamant » reste un terme de recherche très répandu ; les deux expressions sont donc utilisées dans ce guide.",
       "La façon la plus simple de le comprendre",
       "Un rapport d'analyse est la description technique du diamant. Ce n'est pas son étiquette de prix, son évaluation de revente ni une recommandation d'achat complète."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "Un certificat de diamant est-il la même chose ?",
+    "introParagraphs": [
+      "« Certificat de diamant » est une expression couramment employée par les clients et une requête de recherche fréquente. Les laboratoires peuvent utiliser une terminologie différente, mais le GIA désigne généralement son document comme un rapport de classification plutôt que comme un certificat.",
+      "Cette distinction est importante, car le mot « certificat » peut donner l’impression d’une garantie. Un rapport de gradation consigne les conclusions du laboratoire concernant l’article examiné conformément à ses procédures. Les acheteurs doivent consulter les conditions du laboratoire émetteur ainsi que le type exact de rapport, plutôt que de supposer que chaque document fournit les mêmes informations ou la même garantie juridique."
     ]
   },
   "whyMatter": {

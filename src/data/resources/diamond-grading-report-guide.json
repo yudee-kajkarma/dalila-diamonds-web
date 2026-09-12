@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Diamond Grading Report Guide | Dalila Diamonds",
-    "description": "Understand diamond grading reports, verify report numbers, compare the 4Cs, proportions and fluorescence, and check a natural diamond before buying.",
+    "description": "Learn how to read and verify a diamond grading report, understand the 4Cs and identify what a certificate can—and cannot—tell you before buying.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Diamond Grading Report Guide for Natural Diamond Buyers",
     "subheading": "Understand every part of a diamond grading report, verify the report number and compare a natural diamond's quality before purchasing.",
     "reviewDateLabel": "Last reviewed:",
-    "reviewDate": "30 July 2026"
+    "reviewDate": "6 September 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "What a diamond grading report is"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "Is a diamond certificate the same thing?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Whether a laser inscription is present"
     ],
     "closingParagraphs": [
-      "The Gemological Institute of America uses the term \"grading report\" rather than \"certificate\". Its reports provide technical information about a diamond but are not appraisals or guarantees of monetary value.",
-      "\"Diamond certificate\" remains a widely used search term, so both expressions are used within this guide.",
       "The simplest way to understand it",
       "A grading report is the diamond's technical description. It is not its price tag, its resale valuation or a complete buying recommendation."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "Is a Diamond Certificate the Same Thing?",
+    "introParagraphs": [
+      "\"Diamond certificate\" is common customer language and a common search phrase. Laboratories may use different terminology, but GIA generally calls its document a grading report rather than a certificate.",
+      "This distinction matters because the word \"certificate\" can sound like a guarantee. A grading report records the laboratory's findings for the item examined under its procedures. Buyers should read the issuing laboratory's terms and the exact report type rather than assuming every document provides the same information or legal assurance."
     ]
   },
   "whyMatter": {

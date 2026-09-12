@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Guida al rapporto di certificazione del diamante | Dalila Diamonds",
-    "description": "Comprenda i rapporti di certificazione del diamante, verifichi i numeri di rapporto, confronti le 4C, le proporzioni e la fluorescenza e controlli un diamante naturale prima dell'acquisto.",
+    "description": "Impara a leggere e verificare un rapporto di classificazione del diamante, a comprendere le 4Cs e a capire cosa un certificato può — e non può — dirti prima dell’acquisto.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Guida al rapporto di certificazione del diamante per gli acquirenti di diamanti naturali",
     "subheading": "Comprenda ogni parte di un rapporto di certificazione del diamante, verifichi il numero di rapporto e confronti la qualità di un diamante naturale prima dell'acquisto.",
     "reviewDateLabel": "Ultima revisione:",
-    "reviewDate": "30 July 2026"
+    "reviewDate": "6 settembre 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "Cos'è un rapporto di certificazione del diamante"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "Un certificato di diamante è la stessa cosa?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Se è presente un'incisione laser"
     ],
     "closingParagraphs": [
-      "Il Gemological Institute of America utilizza il termine \"grading report\" (rapporto di certificazione) anziché \"certificate\" (certificato). I suoi rapporti forniscono informazioni tecniche su un diamante, ma non sono perizie né garanzie di valore monetario.",
-      "\"Certificato del diamante\" resta un termine di ricerca molto diffuso, perciò entrambe le espressioni sono utilizzate in questa guida.",
       "Il modo più semplice per capirlo",
       "Un rapporto di certificazione è la descrizione tecnica del diamante. Non è il suo cartellino del prezzo, la sua valutazione di rivendita né una raccomandazione d'acquisto completa."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "Un certificato di diamante è la stessa cosa?",
+    "introParagraphs": [
+      "“Certificato del diamante” è un’espressione comunemente usata dai clienti e una frase di ricerca frequente. I laboratori possono utilizzare terminologie diverse, ma GIA generalmente definisce il proprio documento un rapporto di classificazione anziché un certificato.",
+      "Questa distinzione è importante perché la parola \"certificate\" può sembrare una garanzia. Un grading report registra i risultati del laboratorio relativi all’articolo esaminato secondo le procedure del laboratorio. Gli acquirenti dovrebbero leggere i termini del laboratorio emittente e il tipo esatto di report, invece di presumere che ogni documento fornisca le stesse informazioni o la stessa tutela giuridica."
     ]
   },
   "whyMatter": {
