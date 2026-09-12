@@ -1,6 +1,8 @@
 import { marcellus, jost } from "@/lib/fonts";
 import ElongatedCushionBanner from "@/components/pages/resources/ElongatedCushionBanner";
 import ResourceSidebar from "@/components/pages/resources/ResourceSidebar";
+import Link from "next/link";
+import type { ReactNode } from "react";
 import { ContentSection } from "@/components/pages/seopage/SeoPageContent";
 import { Metadata } from "next";
 import AnimatedContainer from "@/components/shared/AnimatedContainer";
@@ -13,6 +15,55 @@ export const metadata: Metadata = {
         canonical: "https://www.daliladiamonds.com/elongated-cushion-cut-diamond-guide",
     },
 };
+
+/**
+ * Turn the phrases a section names into links, leaving the rest as written.
+ *
+ * The guide keeps its prose in one string per section, so a link cannot be
+ * written into the text - React would escape it. Each phrase is quoted from
+ * that language's own copy and its first occurrence becomes the anchor, which
+ * keeps the sentence exactly as the author wrote it.
+ */
+function linkify(content: string, links?: ContentSection["links"]) {
+  if (!links?.length) return content;
+
+  // Longest first, so a phrase containing another is matched whole.
+  const ordered = [...links].sort((a, b) => b.phrase.length - a.phrase.length);
+  let parts: Array<string | ReactNode> = [content];
+
+  for (const { phrase, href } of ordered) {
+    const next: Array<string | ReactNode> = [];
+    let placed = false;
+    for (const part of parts) {
+      if (placed || typeof part !== "string") {
+        next.push(part);
+        continue;
+      }
+      const at = part.toLowerCase().indexOf(phrase.toLowerCase());
+      if (at < 0) {
+        next.push(part);
+        continue;
+      }
+      placed = true;
+      next.push(
+        part.slice(0, at),
+        <Link
+          key={href}
+          href={href}
+          className="text-[#9d7400] underline underline-offset-2 hover:text-[#c89e3a]"
+        >
+          {part.slice(at, at + phrase.length)}
+        </Link>,
+        part.slice(at + phrase.length),
+      );
+    }
+    parts = next;
+  }
+
+  return parts.map((part, i) =>
+    typeof part === "string" ? <span key={i}>{part}</span> : part,
+  );
+}
 
 export default async function ElongatedCushionCutDiamondGuidePage({ params }: { params?: Promise<{ locale?: string }> }) {
   const resolvedParams = await params;
@@ -49,7 +100,7 @@ export default async function ElongatedCushionCutDiamondGuidePage({ params }: { 
               <div
                 className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 whitespace-pre-line ${jost.className}`}
               >
-                {section.content}
+                {linkify(section.content, section.links)}
               </div>
             )}
 

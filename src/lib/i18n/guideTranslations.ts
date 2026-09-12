@@ -52,6 +52,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "How the Elongated Cushion Compares to Similar Shapes",
         content: "Clients who are drawn to the elongated cushion are often simultaneously considering the oval cut, the radiant cut, or the elongated emerald cut. Each has a distinct character, and understanding the differences will help you confirm whether the elongated cushion is right for you.\n\nThe oval cut shares the elongated outline and the finger-flattering silhouette, but produces a different light performance. Ovals can be prone to what gemologists call the ‘bow-tie effect’ — a shadow across the centre of the stone caused by light escaping through the facets rather than returning to the eye. A well-cut oval minimises this, but it is always worth checking. The elongated cushion does not exhibit a bow-tie in the same way, and its softer corners feel more cushioned and romantic than the sharper tips of an oval.\n\nThe radiant cut is the elongated cushion’s closest visual relative. Both are brilliant-cut rectangular shapes with cropped corners. The key difference is in the outline: the radiant cut has straight sides and a more angular appearance, while the cushion cut’s sides curve gently inward, giving it that characteristic soft, pillowy feel. The choice between the two often comes down to whether you prefer a cleaner, more architectural look (radiant) or something warmer and more organic (cushion).\n\nThe elongated emerald cut offers a completely different kind of beauty. The step-cut facets of an emerald produce a hall-of-mirrors effect: geometric, and architectural. It is a quieter, more minimal style compared to the fire and brilliance of the cushion. If you are drawn to both shapes, the question is whether you want a diamond that sparkles or one that glows.",
+        links: [
+          { phrase: "the oval cut", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "the radiant cut", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "the elongated cushion", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
@@ -110,6 +115,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "Wie das längliche Kissen im Vergleich zu ähnlichen Formen abschneidet",
         content: "Kunden, die sich für das längliche Kissen interessieren, ziehen häufig auch den Oval-Schliff, den Radiant-Schliff oder den länglichen Smaragd-Schliff (Emerald Cut) in Betracht. Jeder Schliff hat seinen eigenen Charakter. Wenn Sie die Unterschiede verstehen, hilft Ihnen das bei der Entscheidung, ob das längliche Kissen das Richtige für Sie ist.\n\nDer Oval-Schliff teilt die längliche Kontur und die den Finger schmeichelnde Silhouette, liefert jedoch eine andere Lichtwirkung. Ovale können anfällig für den sogenannten „Fliegenkopf-Effekt“ (Bow-Tie-Effekt) sein — ein Schatten im Zentrum des Steins, der dadurch entsteht, dass Licht durch die Facetten entweicht, anstatt zum Auge zurückgeworfen zu werden. Ein gut geschliffenes Oval minimiert dies, aber es lohnt sich immer, genau hinzusehen. Das längliche Kissen weist einen solchen Effekt nicht in gleicher Weise auf, und seine weicheren Ecken wirken sanfter und romantischer als die spitzeren Enden eines Ovals.\n\nDer Radiant-Schliff ist der nächste optische Verwandte des länglichen Kissens. Beide sind rechteckige Formen im Brillantschliff mit abgeschrägten Ecken. Der Hauptunterschied liegt in der Kontur: Der Radiant-Schliff hat gerade Seiten und ein kantigeres Erscheinungsbild, während die Seiten des Kissen-Schliffs sanft nach innen geschwungen sind, was ihm die charakteristische weiche, kissenartige Anmutung verleiht. Die Wahl zwischen beiden hängt oft davon ab, ob Sie einen klareren, architektonischeren Look (Radiant) oder eine wärmere, organischere Form (Kissen) bevorzugen.\n\nDer längliche Smaragd-Schliff bietet eine völlig andere Art von Schönheit. Die treppenförmigen Facetten eines Smaragds erzeugen einen Spiegeleffekt (Hall-of-Mirrors): tief, geometrisch und architektonisch. Es ist ein ruhigerer, minimalistischerer Stil im Vergleich zur Brillanz und dem Feuer des Kissens. Wenn Sie sich für beide Formen interessieren, lautet die Frage, ob Sie einen Diamanten wünschen, der funkelt, oder einen, der glänzt.",
+        links: [
+          { phrase: "den Oval-Schliff", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "den Radiant-Schliff", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "das längliche Kissen", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
@@ -168,6 +178,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "Hoe het langwerpige kussen zich verhoudt tot vergelijkbare vormen",
         content: "Klanten die zich aangetrokken voelen tot het langwerpige kussen, overwegen vaak ook de ovaalslijpvorm, de radiantslijpvorm of de langwerpige emeraldslijpvorm (emerald cut). Elke slijpvorm heeft een eigen karakter, en het begrijpen van de verschillen helpt u te bepalen of het langwerpige kussen de juiste keuze is voor u.\n\nDe ovaalslijpvorm deelt de langwerpige contour en het de vinger flatterende silhouet, maar levert een andere lichtwerking. Ovalen kunnen gevoelig zijn voor het zogenaamde 'vlinderdaseffect' (bow-tie effect) — een donkere schaduw in het midden van de steen die ontstaat doordat licht door de facetten ontsnapt in plaats van naar het oog te worden teruggekaatst. Een goed geslepen ovaal minimaliseert dit, maar het is altijd de moeite waard om te controleren. Het langwerpige kussen vertoont een dergelijk effect niet op dezelfde manier, en de zachtere hoeken voelen milder en romantischer aan dan de scherpere uiteinden van een ovaal.\n\nDe radiantslijpvorm is de naaste visuele verwant van het langwerpige kussen. Beide zijn rechthoekige vormen in briljantslijpvorm met afgeschuinde hoeken. Het belangrijkste verschil zit in de contour: de radiantslijpvorm heeft rechte zijden en een hoekiger uiterlijk, terwijl de zijden van de kussenslijpvorm zacht naar binnen buigen, wat zorgt voor de karakteristieke zachte, kussenachtige uitstraling. De keuze tussen beide hangt vaak af van de vraag of u de voorkeur geeft aan een strakkere, meer architecturale look (radiant) of een warmere, meer organische vorm (kussen).\n\nDe langwerpige emeraldslijpvorm (emerald cut) biedt een heel andere vorm van schoonheid. De trapvormige facetten van een emerald creëren een spiegelpaleis-effect (hall-of-mirrors): diep, geometrisch en architecturaal. Het is een rustigere, minimalistischere stijl in vergelijking met de schittering en het vuur van het kussen. Als u geïnteresseerd bent in beide vormen, is de vraag of u een diamant wilt die sprankelt of een die gloeit.",
+        links: [
+          { phrase: "de ovaalslijpvorm", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "de radiantslijpvorm", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "het langwerpige kussen", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
@@ -226,6 +241,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "Comparatif : le coussin allongé face aux autres formes",
         content: "Les personnes intéressées par le coussin allongé hésitent souvent avec la taille ovale, la taille radiant ou la taille émeraude allongée. Chacune possède un style propre.\n\nL'ovale présente un contour allongé et affine le doigt, mais son jeu de lumière est différent. Les ovales peuvent présenter un effet \"bow-tie\" (nœud papillon) : une ombre centrale transversale où la lumière fuit. Un ovale bien taillé limite cet effet, mais il convient de le vérifier. Le coussin allongé n'a pas cette contrainte et ses angles arrondis offrent un style plus doux et romantique que les extrémités pointues de l'ovale.\n\nLa taille radiant est la plus proche visuellement du coussin allongé. Ce sont deux rectangles à angles coupés. La différence réside dans les côtés : le radiant a des flancs droits et un style géométrique tendu, alors que le coussin présente des flancs incurvés qui lui donnent son aspect rebondi et doux. Le choix dépend de votre goût pour des lignes architecturales (radiant) ou plus douces (coussin).\n\nLa taille émeraude allongée offre une esthétique radicalement différente. Ses facettes en degrés créent un jeu de miroirs géométrique, sobre et linéaire. C'est un style plus minimaliste comparé au scintillement d'un coussin. Entre les deux, le choix se résume à préférer un diamant qui scintille (coussin) ou un diamant qui brille par éclats larges (émeraude).",
+        links: [
+          { phrase: "la taille ovale", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "la taille radiant", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "le coussin allongé", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
@@ -284,6 +304,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "Comparativa: el cojín alargado frente a otras formas",
         content: "Las personas interesadas en el cojín alargado dudan a menudo con la talla ovalada, la talla radiant o la talla esmeralda alargada. Cada una posee un estilo propio.\n\nEl óvalo presenta un contorno alargado y afina el dedo, pero su juego de luz es diferente. Los óvalos pueden presentar un efecto \"bow-tie\" (pajarita): una sombra central transversal donde la luz se escapa. Un óvalo bien tallado limita este efecto, pero conviene verificarlo. El cojín alargado no tiene esta limitación y sus ángulos redondeados ofrecen un estilo más suave y romántico que los extremos puntiagudos del óvalo.\n\nLa talla radiant es la más cercana visualmente al cojín alargado. Son dos rectángulos de esquinas cortadas. La diferencia radica en los lados: el radiant tiene flancos rectos y un estilo geométrico tenso, mientras que el cojín presenta flancos curvados que le dan su aspecto redondeado y suave. La elección depende de su gusto por líneas arquitectónicas (radiant) o más suaves (cojín).\n\nLa talla esmeralda alargada ofrece una estética radicalmente diferente. Sus facetas por pasos crean un juego de espejos geométrico, sobrio y lineal. Es un estilo más minimalista comparado con el centelleo de un cojín. Entre los dos, la elección se resume a preferir un diamante que centellea (cojín) o un diamante que brilla por destellos anchos (esmeralda).",
+        links: [
+          { phrase: "la talla ovalada", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "la talla radiant", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "el cojín alargado", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
@@ -342,6 +367,11 @@ const contentByLocale: Record<string, GuideContent> = {
       {
         title: "Confronto: il cuscino allungato di fronte alle altre forme",
         content: "Le persone interessate al cuscino allungato esitano spesso con il taglio ovale, il taglio radiant o il taglio smeraldo allungato. Ognuno possiede uno stile proprio.\n\nL'ovale presenta un contorno allungato e affina il dito, ma il suo gioco di luce è differente. Gli ovali possono presentare un effetto \"bow-tie\" (papillon): un'ombra centrale trasversale dove la luce sfugge. Un ovale ben tagliato limita questo effetto, ma conviene verificarlo. Il cuscino allungato non ha questo vincolo e i suoi angoli arrotondati offrono uno stile più morbido e romantico delle estremità appuntite dell'ovale.\n\nIl taglio radiant è il più vicino visivamente al cuscino allungato. Sono due rettangoli ad angoli tagliati. La differenza risiede nei lati: il radiant ha fianchi dritti e uno stile geometrico teso, mentre il cuscino presenta fianchi incurvati che gli danno il suo aspetto rotondeggiante e morbido. La scelta dipende dal vostro gusto per linee architettoniche (radiant) o più morbide (cuscino).\n\nIl taglio smeraldo allungato offre un'estetica radicalmente differente. Le sue faccette a gradini creano un gioco di specchi geometrico, sobrio e lineare. È uno stile più minimalista rispetto al luccichio di un cuscino. Tra i due, la scelta si riassume nel preferire un diamante che luccica (cuscino) o un diamante che risplende per bagliori larghi (smeraldo).",
+        links: [
+          { phrase: "il taglio ovale", href: "/blogs/oval-cut-natural-diamonds-trend" },
+          { phrase: "il taglio radiant", href: "/blogs/2026-princess-cut-vs-radiant-cut-diamanten" },
+          { phrase: "al cuscino allungato", href: "/blogs/cushion-cut-vs-elongated-cushion-cut-diamond" },
+        ],
       },
     ],
     settingSection: [
