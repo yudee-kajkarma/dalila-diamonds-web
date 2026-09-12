@@ -15,7 +15,9 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/diamondKnowledge", priority: 0.8, changefreq: "monthly" },
   { path: "/premium-b2b-diamond-supplier-belgium", priority: 0.8, changefreq: "monthly" },
   { path: "/wholesale/buy-wholesale-diamonds-online", priority: 0.8, changefreq: "weekly" },
-  { path: "/sell-your-diamond-safely", priority: 0.8, changefreq: "monthly" },
+  // /sell-your-diamond-safely is not listed: it was merged into
+  // /sell-your-diamond and now returns a 301, so only the surviving URL
+  // belongs in the sitemap.
   { path: "/elongated-cushion-cut-diamond-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-grading-report-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-quality-chart", priority: 0.7, changefreq: "monthly" },
