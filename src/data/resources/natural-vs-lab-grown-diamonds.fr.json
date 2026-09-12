@@ -4,7 +4,7 @@
     "description": "Comparez les diamants naturels et synthétiques par origine, apparence, prix, qualité, rareté, revente et approvisionnement pour décider quel diamant correspond à vos priorités.",
     "canonical": "https://www.daliladiamonds.com/resources/natural-vs-lab-grown-diamonds",
     "datePublished": "2026-08-06",
-    "dateModified": "2026-08-06",
+    "dateModified": "2026-09-06",
     "robots": "index, follow",
     "inLanguage": "en-GB"
   },
@@ -23,13 +23,13 @@
       "Les deux sont des matériaux diamantés ayant essentiellement les mêmes propriétés chimiques, physiques et optiques. Cependant, des tests spécialisés peuvent identifier leurs différents historiques de croissance."
     ],
     "reviewDateLabel": "Dernière mise à jour :",
-    "reviewDate": "juillet 2026",
+    "reviewDate": "6 septembre 2026",
     "primaryButtonText": "BROWSE NATURAL DIAMONDS",
     "primaryButtonHref": "/inventory",
     "secondaryButtonText": "DEMANDEZ UN DIAMANT NATUREL VIA DS4U",
     "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
     "image": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
+      "src": "/resources_images/z.png",
       "alt": "Diamants naturels et diamants cultivés en laboratoire comparés par origine et apparence",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "formation": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+      "src": "/resources_images/za.png",
       "alt": "Formation de diamants naturels comparée à la croissance de diamants HPHT et CVD",
       "width": 1400,
       "height": 1000
     },
     "identification": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "/resources_images/zb.png",
       "alt": "Diamants naturels et cultivés en laboratoire soumis à une identification professionnelle",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
+      "src": "/resources_images/zc.png",
       "alt": "Priorités des acheteurs pour choisir entre les diamants naturels et les diamants cultivés en laboratoire",
       "width": 1400,
       "height": 1000
@@ -81,6 +81,10 @@
       {
         "id": "do-they-look-the-same",
         "label": "Est-ce qu'ils se ressemblent ?"
+      },
+      {
+        "id": "does-a-natural-diamond-sparkle-more",
+        "label": "Un diamant naturel scintille-t-il davantage ?"
       },
       {
         "id": "can-you-tell-them-apart",
@@ -334,6 +338,19 @@
     "closing": [
       "Un diamant naturel n’est pas automatiquement plus brillant. Un diamant cultivé en laboratoire n’est pas automatiquement impeccable. La beauté visible dépend fortement de la taille, des proportions et de la qualité de chaque pierre.",
       "Une photographie ordinaire ne constitue pas une preuve fiable de l’origine. Deux diamants peuvent paraître similaires sur une image de bijou tout en ayant des historiques de formation, des traitements et des informations de rapport différents."
+    ]
+  },
+  "sparkle": {
+    "id": "does-a-natural-diamond-sparkle-more",
+    "title": "Un diamant naturel scintille-t-il davantage ?",
+    "paragraphs": [
+      "Pas parce qu’il est naturel.",
+      "L’origine du cristal ne détermine pas automatiquement son éclat, son feu ou sa scintillation. La qualité de la taille et les proportions ont une influence bien plus importante sur la manière dont le diamant taillé interagit avec la lumière.",
+      "Un diamant créé en laboratoire bien taillé peut paraître plus brillant qu’un diamant naturel mal taillé.",
+      "Un diamant naturel bien taillé peut paraître plus brillant qu’un diamant de laboratoire mal taillé."
+    ],
+    "closing": [
+      "La comparaison appropriée se fait entre les pierres elles-mêmes, et non entre les seuls noms de catégories."
     ]
   },
   "tellApart": {
@@ -840,6 +857,19 @@
         "question": "La moissanite est-elle un diamant synthétique ?",
         "answer": "Non. La moissanite est du carbure de silicium et est un simulant de diamant. Un diamant cultivé en laboratoire est un diamant d’origine manufacturée."
       }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Conclusion finale",
+    "paragraphs": [
+      "Les diamants naturels et les diamants de laboratoire sont tous deux des matériaux diamantés, mais ils constituent des produits différents, car leur origine et leurs chaînes d’approvisionnement ne sont pas les mêmes.",
+      "Un diamant naturel est issu de processus géologiques et son offre est naturellement limitée.",
+      "Un diamant cultivé en laboratoire est d’origine manufacturée et son prix d’achat initial est généralement plus bas.",
+      "Aucune des deux origines ne détermine automatiquement la beauté, l’éthique, la durabilité ou la valeur.",
+      "Avant de choisir, vérifiez l’identité du diamant, son rapport, ses traitements, sa taille, ses mesures, son apparence visuelle, son prix et son vendeur. Demandez des preuves étayant les affirmations concernant l’environnement, l’approvisionnement et sa valeur future.",
+      "Le meilleur choix n’est pas automatiquement la pierre la plus grosse, la plus chère ou présentant le grade le plus élevé.",
+      "C’est le diamant dont l’origine, la qualité, la documentation, le prix et la signification correspondent aux valeurs réelles de l’acheteur."
     ]
   }
 }

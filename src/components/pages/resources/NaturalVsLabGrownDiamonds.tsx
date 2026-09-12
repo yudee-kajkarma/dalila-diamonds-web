@@ -343,6 +343,12 @@ export default function NaturalVsLabGrownDiamonds({ locale = "en" }: { locale?: 
               <Paragraphs items={data.lookTheSame.closing} />
             </section>
 
+            <section id={data.sparkle.id} className="scroll-mt-28 mb-12">
+              <SectionHeading id={data.sparkle.id} title={data.sparkle.title} />
+              <Paragraphs items={data.sparkle.paragraphs} />
+              <Paragraphs items={data.sparkle.closing} />
+            </section>
+
             <section id={data.tellApart.id} className="scroll-mt-28 mb-12">
               <SectionHeading id={data.tellApart.id} title={data.tellApart.title} />
               <Paragraphs items={data.tellApart.paragraphs} />
@@ -564,6 +570,13 @@ export default function NaturalVsLabGrownDiamonds({ locale = "en" }: { locale?: 
               </details>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section id={data.finalTakeaway.id} className="scroll-mt-28 bg-[#FAF6EB]/40 py-12 md:py-16">
+        <div className="container mx-auto max-w-7xl px-4">
+          <SectionHeading id={data.finalTakeaway.id} title={data.finalTakeaway.title} />
+          <Paragraphs items={data.finalTakeaway.paragraphs} />
         </div>
       </section>
     </main>
