@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Diamantkwaliteitsgrafiek | Dalila diamanten",
+    "title": "Diamantkwaliteitskaart & 4Cs-gids | Dalila Diamonds",
     "description": "Vergelijk diamantslijpsel, kleur, zuiverheid en karaatkwaliteiten. Gebruik deze kwaliteitstabel voor natuurlijke diamanten om de 4C’s te begrijpen en de juiste balans te kiezen.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
     "datePublished": "2026-08-06",
-    "dateModified": "2026-07-30",
+    "dateModified": "2026-09-06",
     "robots": "index, follow",
     "inLanguage": "en-GB"
   },
@@ -24,7 +24,7 @@
       "Deze hulpbron brengt de belangrijkste diamantkwaliteitsschalen op één plek. Gebruik het om de 4C’s te begrijpen, natuurlijke diamanten op de shortlist te vergelijken en vast te stellen welke details nadere inspectie vereisen voordat u tot aankoop overgaat."
     ],
     "reviewDateLabel": "Laatst beoordeeld:",
-    "reviewDate": "30 juli 2026"
+    "reviewDate": "6 september 2026"
   },
   "quickAnswer": {
     "id": "quick-answer",
@@ -95,6 +95,10 @@
       {
         "id": "diamond-quality-beyond-the-4cs",
         "label": "Diamantkwaliteit voorbij de 4C's"
+      },
+      {
+        "id": "4cs-do-not-prove-a-diamond-is-natural",
+        "label": "De 4Cs bewijzen niet dat een diamant natuurlijk is"
       },
       {
         "id": "how-to-choose-the-right-quality-balance",
@@ -773,6 +777,26 @@
           "Als u natuurlijke diamant koopt, bevestigt u dat het laboratoriumdocument de diamant expliciet als natuurlijk identificeert."
         ]
       }
+    ]
+  },
+  "notNatural": {
+    "id": "4cs-do-not-prove-a-diamond-is-natural",
+    "title": "De 4Cs bewijzen niet dat een diamant natuurlijk is",
+    "paragraphs": [
+      "Zowel natuurlijke als in het laboratorium gekweekte diamanten kunnen informatie over slijpsel, kleur, zuiverheid en karaat bevatten.",
+      "De 4Cs beschrijven kwaliteitskenmerken. Ze stellen niet op zichzelf vast hoe een diamant is gevormd.",
+      "Bij de aankoop van een natuurlijke diamant dient u te controleren of een betrouwbaar laboratoriumrapport de onderzochte steen expliciet als natuurlijk identificeert.",
+      "Ga er niet van uit dat een diamant natuurlijk is alleen omdat:"
+    ],
+    "bullets": [
+      "Het beschikt over een beoordelingsrapport.",
+      "Het heeft een hoge kleur- of zuiverheidsgraad.",
+      "Het heeft een laserinscriptie.",
+      "Het is duur.",
+      "Het ziet er identiek uit aan een andere natuurlijke diamant."
+    ],
+    "closing": [
+      "Natuurlijke of in een laboratorium gekweekte herkomst moet worden vastgesteld door middel van passende laboratoriumidentificatie en openbaarmaking."
     ]
   },
   "qualityBalance": {

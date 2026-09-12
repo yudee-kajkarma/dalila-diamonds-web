@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Grafico della qualità dei diamanti | Dalila Diamanti",
+    "title": "Tabella della qualità dei diamanti e guida alle 4C | Dalila Diamonds",
     "description": "Confronta taglio, colore, purezza e caratura dei diamanti. Utilizza questa tabella sulla qualità dei diamanti naturali per comprendere le 4C e scegliere il giusto equilibrio.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
     "datePublished": "2026-08-06",
-    "dateModified": "2026-07-30",
+    "dateModified": "2026-09-06",
     "robots": "index, follow",
     "inLanguage": "en-GB"
   },
@@ -24,7 +24,7 @@
       "Questa risorsa riunisce in un unico luogo le principali scale di qualità dei diamanti. Usalo per comprendere le 4C, confrontare i diamanti naturali selezionati e identificare quali dettagli richiedono un'ispezione più attenta prima dell'acquisto."
     ],
     "reviewDateLabel": "Ultima revisione:",
-    "reviewDate": "30 luglio 2026"
+    "reviewDate": "6 settembre 2026"
   },
   "quickAnswer": {
     "id": "quick-answer",
@@ -95,6 +95,10 @@
       {
         "id": "diamond-quality-beyond-the-4cs",
         "label": "Qualità del diamante oltre le 4C"
+      },
+      {
+        "id": "4cs-do-not-prove-a-diamond-is-natural",
+        "label": "Le 4C non dimostrano che un diamante sia naturale"
       },
       {
         "id": "how-to-choose-the-right-quality-balance",
@@ -773,6 +777,26 @@
           "Per un acquisto di diamanti naturali, confermare che il documento di laboratorio identifichi esplicitamente il diamante come naturale."
         ]
       }
+    ]
+  },
+  "notNatural": {
+    "id": "4cs-do-not-prove-a-diamond-is-natural",
+    "title": "Le 4C non dimostrano che un diamante sia naturale",
+    "paragraphs": [
+      "Sia i diamanti naturali sia quelli coltivati in laboratorio possono riportare informazioni relative a taglio, colore, purezza e caratura.",
+      "I 4C descrivono le caratteristiche qualitative. Non stabiliscono in modo indipendente l’origine di formazione.",
+      "Per l’acquisto di un diamante naturale, verifica che un rapporto di laboratorio affidabile identifichi esplicitamente la pietra esaminata come naturale.",
+      "Non dare per scontato che un diamante sia naturale semplicemente perché:"
+    ],
+    "bullets": [
+      "È corredato da un rapporto di classificazione.",
+      "Ha un grado elevato di colore o purezza.",
+      "Presenta un'iscrizione laser.",
+      "È costoso.",
+      "Sembra identico a un altro diamante naturale."
+    ],
+    "closing": [
+      "L’identità naturale o ottenuta in laboratorio deve essere stabilita attraverso un’adeguata identificazione e dichiarazione da parte del laboratorio."
     ]
   },
   "qualityBalance": {

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Diamant-Qualitätstabelle | Dalila-Diamanten",
+    "title": "Diamantqualitätstabelle & Leitfaden zu den 4Cs | Dalila Diamonds",
     "description": "Vergleichen Sie Diamantschliff, Farbe, Reinheit und Karatgrade. Verwenden Sie diese Qualitätstabelle für natürliche Diamanten, um die 4Cs zu verstehen und die richtige Balance zu wählen.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-quality-chart",
     "datePublished": "2026-08-06",
-    "dateModified": "2026-07-30",
+    "dateModified": "2026-09-06",
     "robots": "index, follow",
     "inLanguage": "en-GB"
   },
@@ -24,7 +24,7 @@
       "Diese Ressource vereint die wichtigsten Qualitätsskalen von Diamanten an einem Ort. Nutzen Sie es, um die 4Cs zu verstehen, ausgewählte Naturdiamanten zu vergleichen und herauszufinden, welche Details vor dem Kauf einer genaueren Prüfung bedürfen."
     ],
     "reviewDateLabel": "Zuletzt bewertet:",
-    "reviewDate": "30. Juli 2026"
+    "reviewDate": "6. September 2026"
   },
   "quickAnswer": {
     "id": "quick-answer",
@@ -95,6 +95,10 @@
       {
         "id": "diamond-quality-beyond-the-4cs",
         "label": "Diamantqualität jenseits der 4Cs"
+      },
+      {
+        "id": "4cs-do-not-prove-a-diamond-is-natural",
+        "label": "Die 4Cs beweisen nicht, dass ein Diamant natürlich ist"
       },
       {
         "id": "how-to-choose-the-right-quality-balance",
@@ -773,6 +777,26 @@
           "Bestätigen Sie beim Kauf eines Naturdiamanten, dass das Labordokument den Diamanten ausdrücklich als Naturdiamanten ausweist."
         ]
       }
+    ]
+  },
+  "notNatural": {
+    "id": "4cs-do-not-prove-a-diamond-is-natural",
+    "title": "Die 4Cs beweisen nicht, dass ein Diamant natürlichen Ursprungs ist",
+    "paragraphs": [
+      "Sowohl natürliche als auch im Labor gezüchtete Diamanten können Angaben zu Schliff, Farbe, Reinheit und Karat erhalten.",
+      "Die 4Cs beschreiben Qualitätsmerkmale. Sie stellen nicht unabhängig den Bildungsursprung fest.",
+      "Bei einem Kauf eines natürlichen Diamanten sollten Sie sich vergewissern, dass in einem glaubwürdigen Laborbericht ausdrücklich angegeben ist, dass der untersuchte Stein natürlichen Ursprungs ist.",
+      "Gehen Sie nicht allein deshalb davon aus, dass ein Diamant natürlichen Ursprungs ist, weil:"
+    ],
+    "bullets": [
+      "Es liegt ein Grading Report vor.",
+      "Er weist einen hohen Farb- oder Reinheitsgrad auf.",
+      "Es hat eine Lasergravur.",
+      "Es ist teuer.",
+      "Es sieht identisch mit einem anderen natürlichen Diamanten aus."
+    ],
+    "closing": [
+      "Die Identität als natürlicher oder im Labor gezüchteter Diamant muss durch eine geeignete Laboridentifizierung und Offenlegung festgestellt werden."
     ]
   },
   "qualityBalance": {
