@@ -16,6 +16,19 @@ export interface SydTextBlock {
   paragraphs: string[];
 }
 
+/** A run of copy that may carry a link, for paragraphs that cite a source. */
+export interface SydRichPart {
+  text: string;
+  href?: string;
+}
+
+export interface SydSafetyBlock {
+  title: string;
+  intro: string[];
+  items: string[];
+  closing: SydRichPart[][];
+}
+
 export interface SydContent {
   banner: {
     title: string;
@@ -84,6 +97,17 @@ export interface SydContent {
     closing: string[];
   };
   withoutCertificate: {
+    id: string;
+    title: string;
+    paragraphs: string[];
+  };
+  sellSafely: {
+    id: string;
+    title: string;
+    intro: string[];
+    blocks: SydSafetyBlock[];
+  };
+  sellingFromEurope: {
     id: string;
     title: string;
     paragraphs: string[];
@@ -329,6 +353,109 @@ const enContent: SydContent = {
       "The team can then decide whether the diamond is suitable for physical evaluation and whether an independent laboratory report or other verification may be useful. Not every uncertified item will necessarily be eligible for purchase.",
     ],
   },
+  sellSafely: {
+    id: "how-to-sell-your-diamond-safely",
+    title: "How to sell your diamond safely",
+    intro: [
+      "Before visiting, shipping or releasing a valuable item, confirm the complete process in writing.",
+    ],
+    blocks: [
+      {
+        title: "Verify who will receive the diamond",
+        intro: ["Confirm:"],
+        items: [
+          "The buyer’s legal business name",
+          "Physical business address",
+          "Direct contact details",
+          "Appointment confirmation",
+          "Identity of the person or courier receiving the item",
+        ],
+        closing: [
+          [
+            {
+              text: "Use contact information published through the buyer’s official website rather than relying only on details sent through an unexpected message.",
+            },
+          ],
+        ],
+      },
+      {
+        title: "Confirm collection and insurance terms",
+        intro: ["Before any shipment or collection, obtain written confirmation of:"],
+        items: [
+          "Courier or collection provider",
+          "Tracking method",
+          "Packaging instructions",
+          "Insurance coverage and limit",
+          "When coverage begins and ends",
+          "Who is responsible during transit",
+          "What happens if the item is not purchased",
+          "Return method and return-insurance terms",
+        ],
+        closing: [
+          [
+            {
+              text: "Do not assume that ordinary postal or courier insurance covers loose diamonds or high-value jewellery. Coverage and exclusions must be confirmed for the specific item.",
+            },
+          ],
+        ],
+      },
+      {
+        title: "Keep a record of the item",
+        intro: ["Before handover:"],
+        items: [
+          "Photograph the diamond or jewellery from several angles.",
+          "Photograph the grading report and other documents.",
+          "Record the grading-report number.",
+          "Record visible hallmarks or inscriptions.",
+          "Retain copies of collection and tracking documents.",
+          "Request written acknowledgement when the item is received.",
+        ],
+        closing: [],
+      },
+      {
+        title: "Review the final offer",
+        intro: ["The final offer should identify the item and explain:"],
+        items: [
+          "The offered amount",
+          "Whether the setting and additional stones are included",
+          "Whether any deductions or costs apply",
+          "How long the offer remains valid",
+          "The payment method",
+          "The expected payment timing",
+          "The procedure if you decline",
+        ],
+        closing: [
+          [
+            {
+              text: "Do not accept an offer until you understand what is included and what happens next.",
+            },
+          ],
+        ],
+      },
+      {
+        title: "Confirm payment details carefully",
+        intro: [
+          "Payment terms should be agreed in writing. Dalila Diamonds currently uses bank-transfer payment after acceptance and the required identity, ownership and banking checks.",
+        ],
+        items: [],
+        closing: [
+          [
+            { text: "Confirm the account-holder name and IBAN carefully. Febelfin explains how banks use " },
+            {
+              text: "beneficiary-name verification",
+              href: "https://febelfin.be/en/themes/fraud-security/faq-verification-of-the-beneficiary-s-name",
+            },
+            { text: " to detect certain name and account-number mismatches." },
+          ],
+          [
+            {
+              text: "Only treat payment as completed after it is visible through your own bank or confirmed directly by the bank. Do not rely solely on an email, message or screenshot stating that payment was sent.",
+            },
+          ],
+        ],
+      },
+    ],
+  },
   appointments: {
     id: "private-antwerp-appointments",
     title: "Private Antwerp appointments and European collection",
@@ -352,6 +479,15 @@ const enContent: SydContent = {
     primaryButtonHref: "#diamond-estimate-form",
     notice:
       "Do not ship or hand over a diamond until the evaluation method, insurance, identification requirements and written terms have been confirmed.",
+  },
+  sellingFromEurope: {
+    id: "selling-from-elsewhere-in-europe",
+    title: "Selling from elsewhere in Europe",
+    paragraphs: [
+      "Sellers outside Antwerp should begin with the same online submission. Provide the item details, report information, photographs and country.",
+      "Depending on the item, location, insurance eligibility and current operational availability, an approved collection may be offered after the preliminary review.",
+      "Collection is not guaranteed for every item or location. Do not ship the diamond independently unless Dalila Diamonds has confirmed the address, courier, packaging, tracking, insurance and return terms in writing.",
+    ],
   },
   faqs: {
     id: "frequently-asked-questions",
@@ -421,8 +557,66 @@ const enContent: SydContent = {
   },
 };
 
-export function getSydContent(_locale?: string): SydContent {
-  return enContent;
+import sydDe from "@/data/sell-your-diamond/syd.de.json";
+import sydFr from "@/data/sell-your-diamond/syd.fr.json";
+import sydIt from "@/data/sell-your-diamond/syd.it.json";
+import sydNl from "@/data/sell-your-diamond/syd.nl.json";
+import sydEs from "@/data/sell-your-diamond/syd.es.json";
+
+type SydDictionary = Record<string, string>;
+
+/**
+ * Translated copy, keyed by the English string.
+ *
+ * enContent stays the only place the page's structure is written down; a
+ * locale supplies words, not shape. Regenerate with:
+ *   node scripts/translate-syd.mjs
+ */
+const dictionaries: Record<string, SydDictionary> = {
+  de: sydDe,
+  fr: sydFr,
+  it: sydIt,
+  nl: sydNl,
+  es: sydEs,
+};
+
+/**
+ * Rebuild the content tree with every string swapped for its translation.
+ *
+ * Anything the dictionary does not carry is left in English, so a newly
+ * written English section shows through untranslated rather than vanishing.
+ */
+function localize<T>(value: T, dictionary: SydDictionary): T {
+  if (typeof value === "string") {
+    return (dictionary[value] ?? value) as unknown as T;
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => localize(item, dictionary)) as unknown as T;
+  }
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [key, item] of Object.entries(value)) {
+      // Identifiers and routes are structural; anchors and links break if
+      // they are translated.
+      out[key] =
+        key === "id" || key === "imageSrc" || key.endsWith("Href")
+          ? item
+          : localize(item, dictionary);
+    }
+    return out as T;
+  }
+  return value;
+}
+
+const localized: Record<string, SydContent> = Object.fromEntries(
+  Object.entries(dictionaries).map(([locale, dictionary]) => [
+    locale,
+    localize(enContent, dictionary),
+  ]),
+);
+
+export function getSydContent(locale?: string): SydContent {
+  return (locale && localized[locale]) || enContent;
 }
 
 export const SYD_PAGE_TITLE = "Sell Your Diamond in Antwerp | Dalila Diamonds";
