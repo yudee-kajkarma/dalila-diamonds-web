@@ -546,7 +546,7 @@
       "Dalila Diamonds consente ai venditori di iniziare online inviando le informazioni di classificazione e le fotografie disponibili. Se l'anello è idoneo per un'ulteriore valutazione, il passo successivo può essere discusso prima di fissare un appuntamento privato ad Anversa."
     ],
     "ctaText": "VENDI IL MIO ANELLO CON DIAMANTI AD ANVERSA",
-    "ctaHref": "/sud"
+    "ctaHref": "/sell-your-diamond"
   },
   "dalilaProcess": {
     "id": "dalila-process",
@@ -646,11 +646,11 @@
     "primaryButtonText": "INVIA IL MIO ANELLO CON DIAMANTI PER LA VALUTAZIONE",
     "primaryButtonHref": "#ring-valuation-form-bottom",
     "secondaryButtonText": "PRENOTA UN APPUNTAMENTO PRIVATO AD ANVERSA",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "vendi il tuo diamante ad Anversa"
     },
     "valuationCalculator": {
@@ -658,7 +658,7 @@
       "text": "calcolatore di valutazione dei diamanti"
     },
     "sellSafely": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "come vendere un anello con diamante in modo sicuro"
     },
     "withoutCert": {

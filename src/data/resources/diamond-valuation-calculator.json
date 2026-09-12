@@ -459,7 +459,7 @@
     "primaryButtonText": "REQUEST A PRIVATE DIAMOND VALUATION",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BOOK AN ANTWERP APPOINTMENT",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -535,16 +535,16 @@
     "primaryButtonText": "START MY DIAMOND VALUATION",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
-    "sellPage": { "href": "/sud", "text": "Sell your diamond in Antwerp" },
-    "sellGuide": { "href": "/sell-your-diamond-safely", "text": "Learn how to sell your diamond" },
+    "sellPage": { "href": "/sell-your-diamond", "text": "Sell your diamond in Antwerp" },
+    "sellGuide": { "href": "/sell-your-diamond", "text": "Learn how to sell your diamond" },
     "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "GIA, IGI and HRD report-verification guide" },
     "qualityChart": { "href": "/resources/diamond-quality-chart", "text": "diamond quality chart" },
     "colourGuide": { "href": "/blogs/best-diamond-colour-clarity-combination", "text": "diamond colour guide" },
     "clarityGuide": { "href": "/blogs/vs1-vs-vs2-diamond-clarity", "text": "diamond clarity guide" },
     "withoutCertGuide": { "href": "/resources/sell-diamond-without-certificate", "text": "Can You Sell a Diamond Without a Certificate?" },
-    "bestPlaceSell": { "href": "/sell-your-diamond-safely", "text": "Where Is the Best Place to Sell a Diamond Ring?" }
+    "bestPlaceSell": { "href": "/sell-your-diamond", "text": "Where Is the Best Place to Sell a Diamond Ring?" }
   }
 }

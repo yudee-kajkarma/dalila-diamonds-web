@@ -571,7 +571,7 @@
     "primaryCtaText": "REQUEST MY PRIVATE PURCHASE EVALUATION",
     "primaryCtaHref": "#diamond-evaluation-form",
     "secondaryCtaText": "BOOK AN ANTWERP APPOINTMENT",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "id": "diamond-evaluation-form",
@@ -714,10 +714,10 @@
     "primaryButtonText": "START MY DIAMOND EVALUATION",
     "primaryButtonHref": "#diamond-evaluation-form",
     "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
-    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "sellPage": { "href": "/sell-your-diamond", "text": "sell your diamond in Antwerp" },
     "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "online diamond valuation calculator" },
     "whereToSell": { "href": "/resources/where-to-sell-diamond-ring", "text": "where to sell a diamond ring" },
     "howToSell": { "href": "/resources/how-to-sell-diamond-ring", "text": "how to sell a diamond ring safely" },

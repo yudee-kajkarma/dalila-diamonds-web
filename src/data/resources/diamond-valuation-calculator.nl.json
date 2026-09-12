@@ -552,7 +552,7 @@
     "primaryButtonText": "VRAAG EEN PRIVÉ DIAMOND TAXATIE AAN",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BOEK EEN AFSPRAAK IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -628,15 +628,15 @@
     "primaryButtonText": "BEGIN MIJN DIAMANT TAXATIE",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BOEK EEN PRIVÉ-AFSPRAAK IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Verkoop uw diamant in Antwerpen"
     },
     "sellGuide": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Leer hoe u uw diamant kunt verkopen"
     },
     "gradingReport": {
@@ -660,7 +660,7 @@
       "text": "Kunt u een diamant verkopen zonder certificaat?"
     },
     "bestPlaceSell": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Waar kan ik het beste een diamanten ring verkopen?"
     }
   }

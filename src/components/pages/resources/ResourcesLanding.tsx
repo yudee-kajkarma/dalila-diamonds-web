@@ -92,7 +92,7 @@ export default function ResourcesLanding() {
       imageAlt: "Premium B2B Diamond Supplier in Belgium",
     },
     {
-      href: "/sell-your-diamond-safely",
+      href: "/sell-your-diamond",
       title: sellTitle,
       description: sellDesc,
       image: "/selllSafe/sell-diamonds.jpg",

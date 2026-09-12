@@ -11,7 +11,7 @@ export type ResourceNavItem = {
 
 export const RESOURCE_NAV_ITEMS: ResourceNavItem[] = [
   { key: "premium-b2b", href: "/premium-b2b-diamond-supplier-belgium", labelKey: "articleB2b", fallback: "Premium B2B Diamond Supplier in Belgium" },
-  { key: "sell-diamond", href: "/sell-your-diamond-safely", labelKey: "articleSell", fallback: "Sell Your Diamond Safely" },
+  { key: "sell-diamond", href: "/sell-your-diamond", labelKey: "articleSell", fallback: "Sell Your Diamond Safely" },
   { key: "elongated-cushion", href: "/elongated-cushion-cut-diamond-guide", labelKey: "articleCushion", fallback: "Elongated Cushion Cut Diamond Guide" },
   { key: "diamond-grading-report-guide", href: "/resources/diamond-grading-report-guide", labelKey: "articleGradingReport", fallback: "Diamond Grading Report Guide" },
   { key: "diamond-quality-chart", href: "/resources/diamond-quality-chart", labelKey: "articleQualityChart", fallback: "Diamond Quality Chart" },

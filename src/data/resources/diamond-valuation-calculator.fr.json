@@ -552,7 +552,7 @@
     "primaryButtonText": "DEMANDER UNE ÉVALUATION PRIVÉE DE DIAMANTS",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "PRENDRE RENDEZ-VOUS À ANVERS",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -628,15 +628,15 @@
     "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vendez votre diamant à Anvers"
     },
     "sellGuide": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Apprenez à vendre votre diamant"
     },
     "gradingReport": {
@@ -660,7 +660,7 @@
       "text": "Peut-on vendre un diamant sans certificat ?"
     },
     "bestPlaceSell": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Quel est le meilleur endroit pour vendre une bague en diamant ?"
     }
   }

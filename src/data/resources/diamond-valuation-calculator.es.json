@@ -552,7 +552,7 @@
     "primaryButtonText": "SOLICITE UNA VALORACIÓN PRIVADA DE DIAMANTES",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "RESERVAR UNA CITA EN AMBERES",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -628,15 +628,15 @@
     "primaryButtonText": "COMENZAR MI VALORACIÓN DE DIAMANTES",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "RESERVAR UNA CITA PRIVADA EN AMBERES",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vende tu diamante en Amberes"
     },
     "sellGuide": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Aprenda a vender su diamante"
     },
     "gradingReport": {
@@ -660,7 +660,7 @@
       "text": "¿Se puede vender un diamante sin certificado?"
     },
     "bestPlaceSell": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "¿Cuál es el mejor lugar para vender un anillo de diamantes?"
     }
   }

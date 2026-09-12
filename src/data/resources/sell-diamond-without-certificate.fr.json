@@ -630,7 +630,7 @@
     "primaryCtaText": "ÉVALUER MON DIAMANT SANS CERTIFICAT",
     "primaryCtaHref": "#uncertified-diamond-form-bottom",
     "secondaryCtaText": "RÉSERVER UNE ÉVALUATION PRIVÉE À ANVERS",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "idTop": "dessus-de-forme-diamant-non-certifié",
@@ -845,7 +845,7 @@
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vendez votre diamant à Anvers"
     },
     "valuationCalculator": {

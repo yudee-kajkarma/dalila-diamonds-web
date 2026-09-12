@@ -552,7 +552,7 @@
     "primaryButtonText": "Fordern Sie eine private Diamantbewertung an",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BUCHEN SIE EINEN TERMIN IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -628,15 +628,15 @@
     "primaryButtonText": "STARTEN SIE MEINE DIAMANTENBEWERTUNG",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "BUCHEN SIE EINEN PRIVATEN TERMIN IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Verkaufen Sie Ihren Diamanten in Antwerpen"
     },
     "sellGuide": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Erfahren Sie, wie Sie Ihren Diamanten verkaufen"
     },
     "gradingReport": {
@@ -660,7 +660,7 @@
       "text": "Kann man einen Diamanten ohne Zertifikat verkaufen?"
     },
     "bestPlaceSell": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Wo kann man einen Diamantring am besten verkaufen?"
     }
   }

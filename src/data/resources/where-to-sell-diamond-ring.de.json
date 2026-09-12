@@ -546,7 +546,7 @@
       "Dalila Diamonds ermöglicht es Verkäufern, online zu beginnen, indem sie die verfügbaren Bewertungsinformationen und Fotos einreichen. Wenn der Ring für eine weitere Beurteilung geeignet ist, kann der nächste Schritt besprochen werden, bevor ein privater Termin in Antwerpen vereinbart wird."
     ],
     "ctaText": "VERKAUFE MEINEN DIAMANTRING IN ANTWERPEN",
-    "ctaHref": "/sud"
+    "ctaHref": "/sell-your-diamond"
   },
   "dalilaProcess": {
     "id": "dalila-process",
@@ -646,11 +646,11 @@
     "primaryButtonText": "Reichen Sie meinen Diamantring zur Bewertung ein",
     "primaryButtonHref": "#ring-valuation-form-bottom",
     "secondaryButtonText": "BUCHEN SIE EINEN PRIVATEN TERMIN IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Verkaufen Sie Ihren Diamanten in Antwerpen"
     },
     "valuationCalculator": {
@@ -658,7 +658,7 @@
       "text": "Diamantenbewertungsrechner"
     },
     "sellSafely": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "So verkaufen Sie einen Diamantring sicher"
     },
     "withoutCert": {

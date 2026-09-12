@@ -552,7 +552,7 @@
     "primaryButtonText": "RICHIEDI UNA VALUTAZIONE DI DIAMANTI PRIVATA",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "PRENOTA UN APPUNTAMENTO AD ANVERSA",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "prepare": {
     "id": "prepare",
@@ -628,15 +628,15 @@
     "primaryButtonText": "INIZIA LA MIA VALUTAZIONE DEI DIAMANTI",
     "primaryButtonHref": "#valuation-calculator",
     "secondaryButtonText": "PRENOTA UN APPUNTAMENTO PRIVATO AD ANVERSA",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vendi il tuo diamante ad Anversa"
     },
     "sellGuide": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Scopri come vendere il tuo diamante"
     },
     "gradingReport": {
@@ -660,7 +660,7 @@
       "text": "Puoi vendere un diamante senza certificato?"
     },
     "bestPlaceSell": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "Qual è il posto migliore per vendere un anello di diamanti?"
     }
   }

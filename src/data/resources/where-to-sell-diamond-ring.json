@@ -408,7 +408,7 @@
       "Dalila Diamonds allows sellers to begin online by submitting the grading information and photographs available. If the ring is suitable for further evaluation, the next step can be discussed before a private Antwerp appointment is arranged."
     ],
     "ctaText": "SELL MY DIAMOND RING IN ANTWERP",
-    "ctaHref": "/sud"
+    "ctaHref": "/sell-your-diamond"
   },
   "dalilaProcess": {
     "id": "dalila-process",
@@ -508,12 +508,12 @@
     "primaryButtonText": "SUBMIT MY DIAMOND RING FOR VALUATION",
     "primaryButtonHref": "#ring-valuation-form-bottom",
     "secondaryButtonText": "BOOK A PRIVATE ANTWERP APPOINTMENT",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
-    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "sellPage": { "href": "/sell-your-diamond", "text": "sell your diamond in Antwerp" },
     "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "diamond valuation calculator" },
-    "sellSafely": { "href": "/sell-your-diamond-safely", "text": "how to sell a diamond ring safely" },
+    "sellSafely": { "href": "/sell-your-diamond", "text": "how to sell a diamond ring safely" },
     "withoutCert": { "href": "/resources/sell-diamond-without-certificate", "text": "sell a diamond without a certificate" },
     "gradingReport": { "href": "/resources/diamond-grading-report-guide", "text": "Diamond report-verification guide" },
     "colourGuide": { "href": "/blogs/best-diamond-colour-clarity-combination", "text": "diamond colour guide" },

@@ -824,11 +824,11 @@
     "primaryButtonText": "VRAAG MIJN PRIVÉ DIAMANT-RING EVALUATIE AAN",
     "primaryButtonHref": "#secure-evaluation-form",
     "secondaryButtonText": "BOEK EEN PRIVÉ-AFSPRAAK IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "verkoop uw diamant veilig in Antwerpen"
     },
     "valuationCalculator": {

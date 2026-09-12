@@ -546,7 +546,7 @@
       "Dalila Diamonds permet aux vendeurs de commencer en ligne en soumettant les informations de classement et les photographies disponibles. Si l'anneau se prête à une évaluation plus approfondie, la prochaine étape peut être discutée avant qu'un rendez-vous privé à Anvers ne soit fixé."
     ],
     "ctaText": "VENDRE MA BAGUE EN DIAMANT À ANVERS",
-    "ctaHref": "/sud"
+    "ctaHref": "/sell-your-diamond"
   },
   "dalilaProcess": {
     "id": "dalila-process",
@@ -646,11 +646,11 @@
     "primaryButtonText": "SOUMETTRE MA BAGUE EN DIAMANT POUR ÉVALUATION",
     "primaryButtonHref": "#ring-valuation-form-bottom",
     "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vendez votre diamant à Anvers"
     },
     "valuationCalculator": {
@@ -658,7 +658,7 @@
       "text": "calculateur d'évaluation des diamants"
     },
     "sellSafely": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "comment vendre une bague en diamant en toute sécurité"
     },
     "withoutCert": {

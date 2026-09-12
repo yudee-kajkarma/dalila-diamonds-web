@@ -630,7 +630,7 @@
     "primaryCtaText": "Schätzen Sie meinen Diamanten ohne Zertifikat",
     "primaryCtaHref": "#uncertified-diamond-form-bottom",
     "secondaryCtaText": "BUCHEN SIE EINE PRIVATE BEWERTUNG IN ANTWERPEN",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "idTop": "uncertified-diamond-form-top",
@@ -845,7 +845,7 @@
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Verkaufen Sie Ihren Diamanten in Antwerpen"
     },
     "valuationCalculator": {
