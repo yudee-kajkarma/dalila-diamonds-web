@@ -8,6 +8,7 @@ import {
   blogToSlug,
   getLocalizedBlogBySlug,
   getLocalizedBlogList,
+  localizeContentLinks,
   selectRelatedBlogs,
 } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
@@ -41,6 +42,21 @@ export default async function BlogDetailPage({ params }: Props) {
     if (!locale || locale === "en") return path;
     return `/${locale}${path}`;
   };
+
+  // Which articles this language actually has. getLocalizedBlogList falls back
+  // to English for a group with no translation, so the language is what says
+  // whether a version really exists rather than merely being listed.
+  const availableBlogSlugs = new Set(
+    allBlogs.filter((item) => item.language === blogLanguage).map((item) => blogToSlug(item)),
+  );
+
+  // The body is stored with unprefixed paths and injected as raw HTML, so
+  // without this every internal link walks the reader out of their language.
+  const localizedContent = localizeContentLinks(
+    blog.content || blog.description || "",
+    locale,
+    availableBlogSlugs,
+  );
 
   return (
     <div className="bg-white min-h-screen">
@@ -246,7 +262,7 @@ export default async function BlogDetailPage({ params }: Props) {
 
             <div
               className={`blog-content ${jost.className}`}
-              dangerouslySetInnerHTML={{ __html: blog.content || blog.description || "" }}
+              dangerouslySetInnerHTML={{ __html: localizedContent }}
             />
           </article>
         </div>

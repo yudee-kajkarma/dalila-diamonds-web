@@ -375,3 +375,55 @@ export const getLocalizedBlogList = cache(async (
 
   return result;
 });
+
+/**
+ * Routes that exist only at the top level, with no [locale] counterpart.
+ *
+ * Prefixing a link to one of these would send a reader to a 404, so they stay
+ * as they are and a non-English reader follows them into English.
+ */
+const ROUTES_WITHOUT_LOCALE = ['downloads', 'limitedEdition', 'sitemap', 'sitemap.xml', 'spec-requests'];
+
+/**
+ * Point an article's internal links at the reader's own language.
+ *
+ * Article bodies are stored with unprefixed paths - /blogs/some-guide - and
+ * injected as raw HTML, so a reader on /nl/blogs/... used to follow every
+ * internal link straight out of Dutch and into English. There were 809 such
+ * links across the translations.
+ *
+ * Rewriting happens here rather than in the stored content on purpose. The
+ * database keeps one canonical body per language, a re-translation cannot undo
+ * the work, and every future article is covered without anyone remembering to.
+ *
+ * A blog link is only localised when that article really exists in the
+ * language. Prefixing one that does not would turn a working cross-language
+ * link into a 404, and landing on the English article is the better failure.
+ */
+export function localizeContentLinks(
+  html: string,
+  locale: string,
+  availableBlogSlugs: ReadonlySet<string>,
+): string {
+  if (!html || !locale || locale === 'en') return html;
+
+  return html.replace(/href="(\/[^"#]*)"/g, (whole, rawPath: string) => {
+    const path = rawPath.replace(/\/+$/, '') || '/';
+
+    // Already localised, or a path that is not a page.
+    if (new RegExp(`^/${locale}(/|$)`).test(path)) return whole;
+    if (path.startsWith('/_') || path.startsWith('/api/')) return whole;
+
+    const [first] = path.slice(1).split('/');
+    if (!first || ROUTES_WITHOUT_LOCALE.includes(first)) return whole;
+
+    if (first === 'blogs') {
+      const slug = path.slice('/blogs/'.length);
+      // The listing itself is always available; an article only when
+      // this language actually has it.
+      if (slug && !availableBlogSlugs.has(normalizeSlug(slug))) return whole;
+    }
+
+    return `href="/${locale}${path}"`;
+  });
+}
