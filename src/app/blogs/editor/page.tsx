@@ -252,10 +252,15 @@ function EditorScreen() {
           toast.error(error.message, { duration: 6000 });
           return { blogId: meta.blogId, conflict: error.existing };
         }
-        toast.error(
-          error instanceof Error ? error.message : "Could not save the article.",
-        );
-        return { blogId: meta.blogId };
+        const message =
+          error instanceof Error ? error.message : "Could not save the article.";
+        // A Save all reports once at the end; without this a failed batch
+        // fired one toast per language on top of its own summary.
+        if (!meta.quiet) toast.error(message);
+        // `failed` matters more than it looks: without it a save the server
+        // rejected was treated as successful, and a machine translation was
+        // marked reviewed locally while the server still held the old copy.
+        return { blogId: meta.blogId, failed: true, error: message };
       }
     },
     [router],

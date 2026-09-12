@@ -126,6 +126,7 @@ export const blogApi = {
     getAll: blogService.getAllBlogs,
     getById: blogService.getBlogById,
     getByBaseSlugAndLanguage: blogService.getBlogByBaseSlugAndLanguage,
+    getLanguageStates: blogService.getBlogLanguageStates,
     create: blogService.createBlog,
     update: blogService.updateBlog,
     delete: blogService.deleteBlog,

@@ -82,6 +82,52 @@ export const getBlogById = async (blogId: string): Promise<BlogResponse | null> 
   }
 };
 
+/** One language version of an article, as the fields that describe it. */
+export type BlogLanguageState = {
+  _id: string;
+  language?: string;
+  customSlug?: string;
+  updatedAt?: string;
+  status?: "draft" | "published";
+  translationStatus?: "machine" | "reviewed";
+  contentHash?: string;
+  sourceContentHash?: string;
+};
+
+/**
+ * Admin: which languages of an article exist, and their condition.
+ *
+ * The editor asks for this when it opens so the translate panel can show what
+ * is really there. It carries no article bodies, so it stays small even for an
+ * article with five long translations.
+ */
+export const getBlogLanguageStates = async (
+  baseSlug: string,
+  translationGroupId?: string,
+): Promise<BlogLanguageState[]> => {
+  try {
+    const token = getAuthToken();
+    if (!token || token.trim() === "") {
+      throw new Error("Unauthorized. Please log in.");
+    }
+
+    const queryParams = new URLSearchParams();
+    if (baseSlug) queryParams.append("baseSlug", baseSlug);
+    if (translationGroupId) queryParams.append("translationGroupId", translationGroupId);
+    if (!queryParams.toString()) return [];
+
+    const response = await apiClient.get<{ success: boolean; data: BlogLanguageState[] }>(
+      `/api/admin/blogs/language-states?${queryParams.toString()}`,
+    );
+    return response.data?.data ?? [];
+  } catch (error: unknown) {
+    // The panel falls back to what the session has loaded, so a failure here
+    // costs accuracy, not function.
+    console.error("Error fetching blog language states:", error);
+    return [];
+  }
+};
+
 // Admin: Get a language version of an article.
 // Prefers translationGroupId (survives a translation having its own localized
 // slug); falls back to baseSlug for blogs created before groups existed.

@@ -27,6 +27,7 @@ import {
 import { generateSlug } from "@/utils/helpers/slugUtils";
 import { refreshBlogs } from "../actions";
 import { deriveLanguageState } from "@/lib/translationState";
+import type { BlogLanguageState } from "@/services/api/admin/blogService";
 import TranslatePanel, { type TranslateTargetState } from "./TranslatePanel";
 
 export type BlogFormValues = {
@@ -99,6 +100,8 @@ export type BlogFormSubmitResult = {
   translationGroupId?: string | null;
   /** Set when the save was refused because another article owns this URL. */
   conflict?: { _id: string; title: string; language?: string } | null;
+  /** Why the save failed, so a batch can explain itself rather than listing codes. */
+  error?: string;
 };
 
 type Props = {
@@ -258,6 +261,17 @@ export default function BlogEditorForm({
   const [draftIds, setDraftIds] = useState<Partial<Record<BlogLanguage, string | null>>>({
     [initialValues.language]: initialBlogId,
   });
+  /**
+   * What the server says exists, fetched once when the editor opens.
+   *
+   * Without it the translate panel could only describe languages this session
+   * had already opened, so every translation looked missing until its tab was
+   * visited - and the panel offered to create work that was already done.
+   * A loaded draft still wins over this, because it reflects unsaved edits.
+   */
+  const [serverStates, setServerStates] = useState<
+    Partial<Record<BlogLanguage, BlogLanguageState>>
+  >({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSwitchingLanguage, setIsSwitchingLanguage] = useState(false);
   const [imageInputType, setImageInputType] = useState<"url" | "gallery">("url");
@@ -281,6 +295,46 @@ export default function BlogEditorForm({
   const actionBarRef = useRef<HTMLElement | null>(null);
   const [siteHeaderHeight, setSiteHeaderHeight] = useState<number | null>(null);
   const [actionBarHeight, setActionBarHeight] = useState<number>(0);
+
+  /**
+   * Ask once, on open, which languages this article already has.
+   *
+   * The translate panel used to describe only what the session had loaded, so
+   * opening an article and pressing Translate reported every language as
+   * missing until its tab had been visited - offering to redo work that was
+   * already there. This is metadata only; no article bodies are fetched.
+   */
+  useEffect(() => {
+    const baseSlug = resolveBaseSlug(initialValues.customSlug, initialValues.title);
+    const groupId = initialValues.translationGroupId;
+    if (!initialBlogId || (!baseSlug && !groupId)) return;
+
+    let cancelled = false;
+    (async () => {
+      const states = await blogApi.getLanguageStates(baseSlug, groupId || undefined);
+      if (cancelled || !states.length) return;
+
+      const byLanguage: Partial<Record<BlogLanguage, BlogLanguageState>> = {};
+      for (const state of states) {
+        const code = isBlogLanguage(state.language)
+          ? state.language
+          : getBlogLanguageFromSlug(state.customSlug, "en");
+        // Keep the first of any duplicate: a language should only have one
+        // document, and picking arbitrarily is better than picking the later.
+        if (!byLanguage[code]) byLanguage[code] = state;
+      }
+      setServerStates(byLanguage);
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    initialBlogId,
+    initialValues.customSlug,
+    initialValues.title,
+    initialValues.translationGroupId,
+  ]);
 
   useEffect(() => {
     const measure = () => {
@@ -615,9 +669,11 @@ export default function BlogEditorForm({
    * Blank drafts are skipped: switching to an empty language creates a
    * placeholder draft, and saving those would create empty articles.
    */
-  const collectSavable = (): Array<[BlogLanguage, BlogFormValues]> => {
+  const collectSavable = (
+    from: Partial<Record<BlogLanguage, BlogFormValues>> = drafts,
+  ): Array<[BlogLanguage, BlogFormValues]> => {
     const merged: Partial<Record<BlogLanguage, BlogFormValues>> = {
-      ...drafts,
+      ...from,
       [form.language]: form,
     };
     return (Object.entries(merged) as Array<[BlogLanguage, BlogFormValues]>).filter(
@@ -625,7 +681,60 @@ export default function BlogEditorForm({
     );
   };
 
-  const savableCount = collectSavable().length;
+  /**
+   * Fetch any language that exists but has not been opened in this session.
+   *
+   * Save all needs the whole body of each version, which the language-state
+   * lookup deliberately does not carry. Doing it on click rather than on open
+   * keeps the editor fast to load, and means the versions are in hand - and
+   * shown in their tabs - before anything is written.
+   */
+  const loadUnopenedLanguages = async (): Promise<{
+    drafts: Partial<Record<BlogLanguage, BlogFormValues>>;
+    ids: Partial<Record<BlogLanguage, string | null>>;
+  }> => {
+    const missing = (Object.keys(serverStates) as BlogLanguage[]).filter(
+      (code) => code !== form.language && !draftIds[code],
+    );
+    if (!missing.length) return { drafts, ids: draftIds };
+
+    const baseSlug = resolveBaseSlug(form.customSlug, form.title);
+    const merged: Partial<Record<BlogLanguage, BlogFormValues>> = { ...drafts };
+    const mergedIds: Partial<Record<BlogLanguage, string | null>> = { ...draftIds };
+
+    await Promise.all(
+      missing.map(async (code) => {
+        try {
+          const response = await blogApi.getByBaseSlugAndLanguage(
+            baseSlug,
+            code,
+            form.translationGroupId,
+          );
+          if (response?.data) {
+            merged[code] = blogToFormValues(response.data);
+            mergedIds[code] = response.data._id;
+          }
+        } catch (error) {
+          console.error(`Could not load the ${code} version:`, error);
+        }
+      }),
+    );
+
+    setDrafts(merged);
+    setDraftIds(mergedIds);
+    // Returned rather than read back from state: setState is asynchronous, and
+    // a save that could not see these ids would create a second document for
+    // a language instead of updating the one that exists.
+    return { drafts: merged, ids: mergedIds };
+  };
+
+  // Every language with a document behind it, whether or not its tab has been
+  // opened. Counting only the opened ones hid the button on exactly the
+  // articles it is most useful for: the ones already translated.
+  const savableCount = new Set<BlogLanguage>([
+    ...collectSavable().map(([code]) => code),
+    ...(Object.keys(serverStates) as BlogLanguage[]),
+  ]).size;
 
   /**
    * Save every loaded language in one pass.
@@ -635,14 +744,23 @@ export default function BlogEditorForm({
    * flag mean: "a human pressed Save all", not "someone read this version".
    */
   const handleSaveAll = async () => {
-    const entries = collectSavable();
+    // Shown as busy while the unopened versions arrive, so the button cannot
+    // be pressed twice and the wait is visible.
+    setSavingAll({ done: 0, total: savableCount });
+    const available = await loadUnopenedLanguages();
+
+    const entries = collectSavable(available.drafts);
     if (!entries.length) {
+      setSavingAll(null);
       toast.error("Nothing to save yet. Add a title and some content first.");
       return;
     }
 
     setSavingAll({ done: 0, total: entries.length });
     const failures: string[] = [];
+    // Collected so the summary can say what went wrong once, rather than
+    // telling the user to open five languages and find out.
+    const reasons = new Set<string>();
     let groupId = form.translationGroupId;
 
     try {
@@ -655,16 +773,17 @@ export default function BlogEditorForm({
 
         try {
           const result = await onSubmit(normalised, {
-            blogId: draftIds[language] ?? null,
+            blogId: available.ids[language] ?? null,
             quiet: true,
           });
 
           if (result?.conflict || result?.failed) {
             failures.push(language.toUpperCase());
+            if (result?.error) reasons.add(result.error);
             continue;
           }
 
-          const savedId = result?.blogId ?? draftIds[language] ?? null;
+          const savedId = result?.blogId ?? available.ids[language] ?? null;
           groupId = result?.translationGroupId || groupId;
 
           // Saving by hand is what marks a machine translation reviewed, so
@@ -702,10 +821,15 @@ export default function BlogEditorForm({
       toast.success(
         saved === 1 ? "1 version saved." : `${saved} versions saved and marked reviewed.`,
       );
-    } else if (saved > 0) {
-      toast.error(`${saved} saved. ${failures.join(", ")} failed — open each to see why.`);
     } else {
-      toast.error(`Could not save ${failures.join(", ")}.`);
+      const why = reasons.size === 1 ? ` ${[...reasons][0]}` : "";
+      const detail = why || " Open each to see why.";
+      toast.error(
+        saved > 0
+          ? `${saved} saved. ${failures.join(", ")} failed.${detail}`
+          : `Could not save ${failures.join(", ")}.${detail}`,
+        { duration: 8000 },
+      );
     }
   };
 
@@ -761,18 +885,21 @@ export default function BlogEditorForm({
     }
   };
 
-  // What the translate panel offers, built from the drafts this session has
-  // already loaded, so it needs no extra request. A language counts as
-  // existing only when it has a saved document behind it.
+  // What the translate panel offers. A language version that this session has
+  // opened is described from that draft, because it reflects edits that are
+  // not saved yet; anything else is described from what the server reported
+  // when the editor opened. A language counts as existing only when one of
+  // the two has a document behind it.
   const translateTargets: TranslateTargetState[] = BLOG_LANGUAGE_OPTIONS.filter(
     (option) => option.code !== "en",
-  ).map((option) => ({
-    language: option.code,
-    state: deriveLanguageState(
-      drafts.en,
-      draftIds[option.code] ? drafts[option.code] : undefined,
-    ),
-  }));
+  ).map((option) => {
+    const loaded = draftIds[option.code] ? drafts[option.code] : undefined;
+    const english = drafts.en ?? serverStates.en;
+    return {
+      language: option.code,
+      state: deriveLanguageState(english, loaded ?? serverStates[option.code]),
+    };
+  });
 
   // Translating reads the English document, so it needs one that has been
   // saved: a draft that exists only in this tab has no id to translate from.
@@ -895,7 +1022,7 @@ export default function BlogEditorForm({
                 type="button"
                 onClick={() => void handleSaveAll()}
                 disabled={isBusy}
-                title={`Save all ${savableCount} language versions loaded in this tab. Machine translations are marked reviewed.`}
+                title={`Save all ${savableCount} language versions of this article. Any not yet opened are loaded first. Machine translations are marked reviewed.`}
                 className={`inline-flex items-center gap-2 border border-[#c89e3a] px-5 py-2.5 text-[#9d7400] transition-colors hover:bg-[#c89e3a] hover:text-white disabled:cursor-not-allowed disabled:border-gray-300 disabled:text-gray-400 disabled:hover:bg-transparent ${jost.className}`}
               >
                 {savingAll ? (
