@@ -259,17 +259,18 @@ function CustomerDetailsContent() {
         return;
       }
 
-      // CRITICAL: Match the EXACT API structure
-      // Extract country code and phone number
-      let cc = countryCode;
-      let pn = phoneNumber;
-      if (phoneNumber.startsWith("+")) {
-        const match = phoneNumber.match(/^\+(\d{1,4})/);
-        if (match) {
-          cc = match[1];
-          pn = phoneNumber.replace(/^\+\d{1,4}/, "");
-        }
-      }
+      // Split the dial code off the number.
+      //
+      // react-phone-input-2 hands back the whole thing with no "+", so
+      // "+32 475 96 87 38" arrives as "32475968738". The previous version only
+      // stripped the code when the value began with "+", which it never does,
+      // so the dial code was stored twice - countryCode "+32" alongside a
+      // number that still began 32. Every one of the six customer records on
+      // file reads "+32 32475968738". The landline field a few lines below
+      // always did this correctly; only the mobile path was wrong.
+      const cc = String(countryCode).replace(/^\+/, "");
+      const digits = phoneNumber.replace(/\D/g, "");
+      const pn = digits.startsWith(cc) ? digits.slice(cc.length) : digits;
       const customerData = {
         email: userEmail, // Include email to identify the user
         firstName: firstName.trim(),

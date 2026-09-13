@@ -47,12 +47,19 @@ export interface LoginCredentials {
 }
 
 // Registration data
+/**
+ * What POST /users/register actually accepts.
+ *
+ * firstName and lastName used to be here and were sent, but the API reads
+ * only these three fields and the User schema has no top-level name at all -
+ * every name typed on the registration form was discarded on arrival, across
+ * all 19 accounts. The customer details form asks again after OTP and stores
+ * them under customerData, so the question is asked once, where it sticks.
+ */
 export interface RegistrationData {
   username: string;
   email: string;
   password: string;
-  firstName: string;
-  lastName: string;
 }
 
 // Auth response
