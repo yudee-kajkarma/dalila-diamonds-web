@@ -31,6 +31,9 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/resources/how-to-sell-diamond-ring", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-appraisal-antwerp-belgium", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/sell-diamond-without-certificate", priority: 0.7, changefreq: "monthly" },
+  // Reviewed more often than the other guides: it states sanctions thresholds
+  // that change when the EU revises them, so it is not a monthly page.
+  { path: "/resources/eu-diamond-compliance", priority: 0.7, changefreq: "weekly" },
   { path: "/blogs", priority: 0.8, changefreq: "weekly" },
   // Individual articles are no longer listed here. They all come from the CMS
   // now, and the blog entries further down are generated from it - listing the

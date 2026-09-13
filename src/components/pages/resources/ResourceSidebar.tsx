@@ -8,7 +8,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { getResourceNavLabel, RESOURCE_NAV_ITEMS } from '@/lib/resourceNavLinks';
 
 interface ResourceSidebarProps {
-  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide' | 'diamond-quality-chart' | 'diamond-fluorescence-guide' | 'diamond-culet-guide' | 'diamond-girdle-guide' | 'diamond-size-chart' | 'natural-vs-lab-grown-diamonds' | 'diamond-valuation-calculator' | 'where-to-sell-diamond-ring' | 'how-to-sell-diamond-ring' | 'diamond-appraisal-antwerp-belgium' | 'sell-diamond-without-certificate';
+  currentPage: 'premium-b2b' | 'sell-diamond' | 'elongated-cushion' | 'diamond-grading-report-guide' | 'diamond-quality-chart' | 'diamond-fluorescence-guide' | 'diamond-culet-guide' | 'diamond-girdle-guide' | 'diamond-size-chart' | 'natural-vs-lab-grown-diamonds' | 'diamond-valuation-calculator' | 'where-to-sell-diamond-ring' | 'how-to-sell-diamond-ring' | 'diamond-appraisal-antwerp-belgium' | 'sell-diamond-without-certificate' | 'eu-diamond-compliance';
 }
 
 const ResourceSidebar = React.memo(({ currentPage }: ResourceSidebarProps) => {

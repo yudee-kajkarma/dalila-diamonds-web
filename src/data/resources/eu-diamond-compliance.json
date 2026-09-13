@@ -1,0 +1,1352 @@
+{
+  "meta": {
+    "title": "EU Diamond Compliance: Sanctions & Imports | Dalila",
+    "description": "Navigate EU diamond compliance for natural diamonds, including Russian sanctions, origin evidence, Kimberley Process, EORI, declarations and Antwerp Diamond Office procedures.",
+    "canonical": "https://www.daliladiamonds.com/resources/eu-diamond-compliance",
+    "dateModified": "2026-09-13"
+  },
+  "urls": {
+    "euSanctions": "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures_en",
+    "eori": "https://taxation-customs.ec.europa.eu/customs-4/customs-procedures-import-and-export/customs-procedures/economic-operators-registration-and-identification-number-eori_en",
+    "kimberley": "https://www.kimberleyprocess.com/",
+    "awdc": "https://www.awdc.be/",
+    "fpsEconomy": "https://economie.fgov.be/"
+  },
+  "banner": {
+    "title": "EU Diamond Compliance Hub",
+    "breadcrumbHome": "Home",
+    "breadcrumbResources": "Resources",
+    "breadcrumbCurrent": "EU Diamond Compliance",
+    "imageAlt": "EU diamond compliance resource banner for professional natural diamond buyers"
+  },
+  "hero": {
+    "title": "EU Diamond Compliance Hub: Sanctions, Origin, Declarations and Diamond Office Guidance",
+    "subheading": "How customs, Belgian diamond rules, the Kimberley Process, EU sanctions and anti-money-laundering obligations fit together for professional natural-diamond trade in the European Union.",
+    "reviewDateLabel": "Last reviewed:",
+    "reviewDate": "September 2026"
+  },
+  "complianceNotice": "Compliance notice: Diamond sanctions, customs procedures and origin requirements can change. This page provides operational guidance rather than individual legal or tax advice. Before executing a high-value international shipment, verify the current requirements applicable to the exact material, origin, route and importing entity.",
+  "introduction": {
+    "paragraphs": [
+      "Trading natural diamonds in Europe involves more than confirming that the stone has a GIA, IGI or HRD grading report.",
+      "For a professional buyer or seller, several different compliance systems can apply simultaneously. Customs rules determine how the goods enter or leave the European Union. Belgian diamond-sector rules determine who can commercially import or export diamonds through Belgium. The Kimberley Process regulates international trade in rough diamonds. EU sanctions create additional restrictions and origin-verification obligations around Russian diamonds. Anti-money-laundering rules govern the businesses and counterparties involved in the transaction.",
+      "These systems overlap, but they are not interchangeable.",
+      "A grading report is not a customs declaration.",
+      "A Kimberley Process certificate is not an individual polished-diamond grading report.",
+      "A valid EORI number does not prove diamond origin.",
+      "And a diamond being described as “conflict-free” does not by itself establish compliance with the EU's restrictions on Russian-origin diamonds.",
+      "The safest approach is therefore to treat compliance as a chain:",
+      "authorised business → verified counterparty → correctly classified goods → documented origin → compliant shipment → customs/Diamond Office declaration → verification → traceable record retention.",
+      "This hub explains how those pieces fit together for professional natural-diamond trade in the European Union, with particular attention to Antwerp and Belgium."
+    ]
+  },
+  "quickAnswer": {
+    "id": "quick-answer-what-does-eu-diamond-compliance-require",
+    "title": "Quick Answer: What Does EU Diamond Compliance Require?",
+    "paragraphs": [
+      "A compliant diamond transaction begins by establishing what is being traded and who is trading it.",
+      "For businesses operating through Belgium, professional diamond dealers must satisfy the applicable Belgian registration requirements. Extra-EU diamond imports and exports handled through Belgium are subject to declaration and control through the FPS Economy at Diamond Office. Businesses engaging in EU customs operations generally require an EORI number.",
+      "If the goods are rough diamonds, Kimberley Process certification applies to their international movement into the EU. Rough diamonds must arrive under the applicable KP controls, including a valid certificate and tamper-resistant shipment requirements.",
+      "If the goods are natural polished diamonds of 0.5 ct or above, the 2026 EU Russian-diamond regime requires traceability/origin evidence. For polished imports, current implementation uses a Due Diligence Statement on Diamond Origin supported by reasonable documentary evidence showing that the diamonds are not of prohibited Russian origin.",
+      "These requirements should be checked before the parcel leaves the supplier—not after it reaches customs."
+    ]
+  },
+  "checklistTable": {
+    "id": "eu-diamond-compliance-checklist",
+    "title": "EU Diamond Compliance Checklist",
+    "paragraphs": [
+      "The exact requirements depend on the transaction. A 0.30 ct polished diamond, a 1.50 ct polished natural diamond and a parcel of rough diamonds do not necessarily follow the same compliance path."
+    ],
+    "table": {
+      "headers": [
+        "Compliance Area",
+        "Core Question",
+        "Typical Evidence or Action"
+      ],
+      "rows": [
+        [
+          "Business eligibility",
+          "Is the company legally permitted to conduct the diamond activity?",
+          "Belgian diamond-trader registration where applicable"
+        ],
+        [
+          "Customs identity",
+          "Can the business conduct EU customs operations?",
+          "EORI"
+        ],
+        [
+          "Counterparty compliance",
+          "Who are the buyer, seller and beneficial owners?",
+          "KYC, sanctions screening, AML file"
+        ],
+        [
+          "Material identification",
+          "Rough, polished, synthetic or jewellery?",
+          "Correct description and CN/TARIC classification"
+        ],
+        [
+          "Commercial documentation",
+          "Does the paperwork match the goods?",
+          "Invoice, packing list, consignment documentation"
+        ],
+        [
+          "Origin / provenance",
+          "Where were the diamonds mined, produced and processed?",
+          "Supplier evidence, KP/G7/GF where relevant, ERP traceability"
+        ],
+        [
+          "Rough-diamond control",
+          "Is Kimberley Process certification required?",
+          "Valid KP certificate and compliant shipment"
+        ],
+        [
+          "Russian-diamond sanctions",
+          "Could the goods originate in or incorporate prohibited Russian diamonds?",
+          "Origin verification and sanctions evidence"
+        ],
+        [
+          "Polished ≥0.5 ct",
+          "Has origin due diligence been completed?",
+          "Due Diligence Statement on Diamond Origin + supporting evidence"
+        ],
+        [
+          "Belgian extra-EU movement",
+          "Has the shipment gone through the required Diamond Office procedure?",
+          "FPS Economy/Diamond Office declaration and control"
+        ],
+        [
+          "Transport",
+          "Does border data match commercial documents?",
+          "Airway bill / transport document / ENS data"
+        ],
+        [
+          "Gemological identity",
+          "Does the physical stone match its report?",
+          "GIA/IGI/HRD report, measurements and inscription where applicable"
+        ],
+        [
+          "Record retention",
+          "Can the transaction be reconstructed later?",
+          "Stored declarations, invoices, evidence and internal records"
+        ]
+      ]
+    }
+  },
+  "overviewNav": {
+    "title": "On this page",
+    "groups": [
+      {
+        "title": "Before you start",
+        "items": [
+          {
+            "id": "identify-the-goods-before-you-apply-the-rules",
+            "label": "Identify the Goods Before You Apply the Rules"
+          },
+          {
+            "id": "rough-and-polished-diamonds-must-not-be-treated-the-same",
+            "label": "Rough and Polished Diamonds Must Not Be Treated the Same"
+          },
+          {
+            "id": "who-can-import-or-export-diamonds-through-belgium",
+            "label": "Who Can Import or Export Diamonds Through Belgium?"
+          },
+          {
+            "id": "belgian-diamond-registration-and-anti-money-laundering",
+            "label": "Belgian Diamond Registration and Anti-Money-Laundering Compliance"
+          },
+          {
+            "id": "what-is-an-eori-number-and-why-does-a-diamond-importer-need",
+            "label": "What Is an EORI Number and Why Does a Diamond Importer Need One?"
+          },
+          {
+            "id": "what-is-antwerp-diamond-office",
+            "label": "What Is Antwerp Diamond Office?"
+          }
+        ]
+      },
+      {
+        "title": "Moving diamonds through Belgium",
+        "items": [
+          {
+            "id": "extra-eu-diamond-shipments-through-belgium",
+            "label": "Extra-EU Diamond Shipments Through Belgium"
+          },
+          {
+            "id": "what-happens-to-an-extra-eu-parcel-at-diamond-office",
+            "label": "What Happens to an Extra-EU Parcel at Diamond Office?"
+          },
+          {
+            "id": "what-about-diamond-shipments-within-the-eu",
+            "label": "What About Diamond Shipments Within the EU?"
+          }
+        ]
+      },
+      {
+        "title": "Rough diamonds and the Kimberley Process",
+        "items": [
+          {
+            "id": "what-is-the-kimberley-process",
+            "label": "What Is the Kimberley Process?"
+          },
+          {
+            "id": "kimberley-process-does-not-equal-complete-ethical-due",
+            "label": "Kimberley Process Does Not Equal Complete Ethical Due Diligence"
+          },
+          {
+            "id": "rough-diamonds-and-the-0-5-carat-russian-sanctions-threshold",
+            "label": "Rough Diamonds and the 0.5-Carat Russian-Sanctions Threshold"
+          }
+        ]
+      },
+      {
+        "title": "Russian-diamond sanctions",
+        "items": [
+          {
+            "id": "what-are-the-eu-restrictions-on-russian-diamonds",
+            "label": "What Are the EU Restrictions on Russian Diamonds?"
+          },
+          {
+            "id": "shipping-country-is-not-the-same-as-mining-origin",
+            "label": "Shipping Country Is Not the Same as Mining Origin"
+          },
+          {
+            "id": "what-changed-for-polished-natural-diamonds-in-2026",
+            "label": "What Changed for Polished Natural Diamonds in 2026?"
+          },
+          {
+            "id": "russian-diamond-sanctions-and-the-kimberley-process-are",
+            "label": "Russian-Diamond Sanctions and the Kimberley Process Are Separate"
+          }
+        ]
+      },
+      {
+        "title": "Origin due diligence",
+        "items": [
+          {
+            "id": "what-is-the-due-diligence-statement-on-diamond-origin",
+            "label": "What Is the Due Diligence Statement on Diamond Origin?"
+          },
+          {
+            "id": "does-the-due-diligence-statement-apply-per-stone-or-per",
+            "label": "Does the Due Diligence Statement Apply Per Stone or Per Shipment?"
+          },
+          {
+            "id": "what-evidence-can-support-a-diamond-origin-statement",
+            "label": "What Evidence Can Support a Diamond Origin Statement?"
+          },
+          {
+            "id": "a-grading-report-is-supporting-evidence-not-proof-of-mining",
+            "label": "A Grading Report Is Supporting Evidence, Not Proof of Mining Origin"
+          },
+          {
+            "id": "is-a-g7-certificate-mandatory-for-every-polished-diamond",
+            "label": "Is a G7 Certificate Mandatory for Every Polished Diamond?"
+          },
+          {
+            "id": "is-a-blockchain-or-digital-traceability-platform-mandatory",
+            "label": "Is a Blockchain or Digital Traceability Platform Mandatory?"
+          },
+          {
+            "id": "what-does-reasonable-risk-based-verification-mean",
+            "label": "What Does “Reasonable, Risk-Based Verification” Mean?"
+          },
+          {
+            "id": "avoid-mixing-known-origin-and-unknown-origin-stock",
+            "label": "Avoid Mixing Known-Origin and Unknown-Origin Stock"
+          },
+          {
+            "id": "what-does-the-0-5-carat-threshold-actually-mean",
+            "label": "What Does the 0.5-Carat Threshold Actually Mean?"
+          },
+          {
+            "id": "what-are-grandfathered-diamonds",
+            "label": "What Are Grandfathered Diamonds?"
+          }
+        ]
+      },
+      {
+        "title": "Shipment documentation",
+        "items": [
+          {
+            "id": "what-documentation-should-accompany-a-polished-natural",
+            "label": "What Documentation Should Accompany a Polished Natural-Diamond Import?"
+          },
+          {
+            "id": "commercial-invoice-accuracy-matters",
+            "label": "Commercial Invoice Accuracy Matters"
+          },
+          {
+            "id": "packing-lists-and-parcel-references-matter",
+            "label": "Packing Lists and Parcel References Matter"
+          },
+          {
+            "id": "transport-documentation-must-match-the-commercial-story",
+            "label": "Transport Documentation Must Match the Commercial Story"
+          },
+          {
+            "id": "ics2-and-advance-eu-cargo-information",
+            "label": "ICS2 and Advance EU Cargo Information"
+          },
+          {
+            "id": "diamond-grading-reports-and-compliance",
+            "label": "Diamond Grading Reports and Compliance"
+          }
+        ]
+      },
+      {
+        "title": "Screening, tax and records",
+        "items": [
+          {
+            "id": "sanctions-screening-is-broader-than-diamond-origin-screening",
+            "label": "Sanctions Screening Is Broader Than Diamond-Origin Screening"
+          },
+          {
+            "id": "aml-kyc-is-not-the-same-as-sanctions-screening",
+            "label": "AML/KYC Is Not the Same as Sanctions Screening"
+          },
+          {
+            "id": "natural-origin-verification-is-also-a-different-question",
+            "label": "Natural-Origin Verification Is Also a Different Question"
+          },
+          {
+            "id": "customs-duty-and-vat-are-separate-from-sanctions-compliance",
+            "label": "Customs Duty and VAT Are Separate From Sanctions Compliance"
+          },
+          {
+            "id": "zero-duty-does-not-mean-zero-compliance",
+            "label": "Zero Duty Does Not Mean Zero Compliance"
+          },
+          {
+            "id": "what-records-should-a-diamond-business-keep",
+            "label": "What Records Should a Diamond Business Keep?"
+          },
+          {
+            "id": "build-stone-level-traceability-for-important-certified",
+            "label": "Build Stone-Level Traceability for Important Certified Diamonds"
+          },
+          {
+            "id": "do-not-break-the-traceability-chain-when-a-diamond-is-re",
+            "label": "Do Not Break the Traceability Chain When a Diamond Is Re-Sold"
+          }
+        ]
+      },
+      {
+        "title": "Transactions and practice",
+        "items": [
+          {
+            "id": "returns-and-re-imports-need-their-own-documentation",
+            "label": "Returns and Re-Imports Need Their Own Documentation"
+          },
+          {
+            "id": "compliance-for-matched-pairs-and-multi-stone-orders",
+            "label": "Compliance for Matched Pairs and Multi-Stone Orders"
+          },
+          {
+            "id": "compliance-for-melee-natural-diamonds",
+            "label": "Compliance for Melee Natural Diamonds"
+          },
+          {
+            "id": "a-compliance-file-should-be-ready-before-dispatch",
+            "label": "A Compliance File Should Be Ready Before Dispatch"
+          },
+          {
+            "id": "the-dalila-pre-shipment-compliance-framework",
+            "label": "The Dalila Pre-Shipment Compliance Framework"
+          },
+          {
+            "id": "the-dalila-import-compliance-framework",
+            "label": "The Dalila Import Compliance Framework"
+          },
+          {
+            "id": "customs-compliance-and-quality-control-are-different-gates",
+            "label": "Customs Compliance and Quality Control Are Different Gates"
+          },
+          {
+            "id": "compliance-for-eu-to-eu-wholesale-sales",
+            "label": "Compliance for EU-to-EU Wholesale Sales"
+          },
+          {
+            "id": "compliance-for-exports-outside-the-eu",
+            "label": "Compliance for Exports Outside the EU"
+          },
+          {
+            "id": "do-not-assume-the-uk-follows-eu-diamond-import-rules",
+            "label": "Do Not Assume the UK Follows EU Diamond Import Rules"
+          },
+          {
+            "id": "what-should-dalila-ask-a-supplier-before-buying",
+            "label": "What Should Dalila Ask a Supplier Before Buying?"
+          },
+          {
+            "id": "what-should-a-professional-buyer-ask-dalila",
+            "label": "What Should a Professional Buyer Ask Dalila?"
+          },
+          {
+            "id": "common-eu-diamond-compliance-mistakes",
+            "label": "Common EU Diamond Compliance Mistakes"
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "identify-the-goods-before-you-apply-the-rules",
+      "number": 1,
+      "title": "Identify the Goods Before You Apply the Rules",
+      "paragraphs": [
+        "The first compliance question should always be:",
+        "What exactly is in the parcel?",
+        "Diamond regulation distinguishes between categories such as natural rough diamonds, natural polished diamonds, synthetic diamonds, diamond powder and finished jewellery containing diamonds.",
+        "Those distinctions affect customs classification and regulatory treatment.",
+        "For natural diamonds, the core Combined Nomenclature family is generally heading 7102, while synthetic diamonds are classified separately under relevant 7104 categories. For Russian-diamond traceability, natural polished diamonds falling under CN 7102 39 00 are particularly important.",
+        "Do not copy a commodity code from an old invoice without confirming that it still corresponds to the actual goods.",
+        "Customs classification controls more than tariff rates. It can determine which sanctions, documentary requirements and other non-tariff measures apply."
+      ]
+    },
+    {
+      "id": "rough-and-polished-diamonds-must-not-be-treated-the-same",
+      "number": 1,
+      "title": "Rough and Polished Diamonds Must Not Be Treated the Same",
+      "paragraphs": [
+        "The rough-versus-polished distinction is fundamental.",
+        "A rough diamond moving internationally can fall under the Kimberley Process Certification Scheme.",
+        "A polished diamond does not receive a Kimberley Process certificate simply because it was once part of KP-compliant rough.",
+        "For polished natural diamonds, current EU origin compliance instead relies on documentary traceability and, for in-scope goods, the Due Diligence Statement on Diamond Origin.",
+        "This is one of the most important distinctions Dalila should communicate across the website.",
+        "Do not describe every polished natural diamond as individually “Kimberley Process certified.”",
+        "That wording implies a certification process that the polished stone itself normally has not undergone.",
+        "A more accurate statement is that Dalila operates within applicable responsible-sourcing, sanctions and diamond-trade compliance frameworks."
+      ]
+    },
+    {
+      "id": "who-can-import-or-export-diamonds-through-belgium",
+      "number": 2,
+      "title": "Who Can Import or Export Diamonds Through Belgium?",
+      "paragraphs": [
+        "Belgium applies sector-specific requirements to professional diamond dealing.",
+        "The FPS Economy states that dealers in diamonds and/or synthetic diamonds established in Belgium must register with its Licensing Department – Diamonds. Once registered, the business may conduct transactions involving unmounted diamonds, including buying, selling, importing and exporting.",
+        "AWDC's current Diamond Office procedure similarly states that only registered diamond traders can import or export diamonds in Belgium.",
+        "This is different from ordinary company incorporation.",
+        "Having a Belgian enterprise number or VAT number does not automatically substitute for the diamond-sector registration applicable to professional dealers.",
+        "A business planning to trade diamonds through Belgium should therefore establish its eligibility before international shipments begin."
+      ]
+    },
+    {
+      "id": "belgian-diamond-registration-and-anti-money-laundering",
+      "number": 2,
+      "title": "Belgian Diamond Registration and Anti-Money-Laundering Compliance",
+      "paragraphs": [
+        "Diamond registration also sits within a wider compliance framework.",
+        "Belgian registered diamond traders are subject to sector-specific anti-money-laundering obligations under Belgian legislation. The FPS Economy also requires registered traders to submit the applicable annual diamond-sector activity/stock declarations and AML reporting through the Diamond Supervision system.",
+        "This means shipment compliance and corporate compliance should not be separated completely.",
+        "A parcel can have perfect customs paperwork while the company itself has deficiencies in KYC, beneficial-owner controls or AML procedures.",
+        "Professional procurement should therefore maintain both:",
+        "transaction-level documentation",
+        "and",
+        "company/counterparty compliance files."
+      ]
+    },
+    {
+      "id": "what-is-an-eori-number-and-why-does-a-diamond-importer-need",
+      "number": 3,
+      "title": "What Is an EORI Number and Why Does a Diamond Importer Need One?",
+      "paragraphs": [
+        "EORI stands for Economic Operators Registration and Identification.",
+        "It is the EU's customs identification system for businesses and other operators involved in customs procedures.",
+        "The European Commission states that an EORI number is mandatory for customs clearance operations including import, export and transit in the EU customs territory.",
+        "EORI identifies the operator.",
+        "It does not certify the diamond.",
+        "It does not replace the invoice.",
+        "It does not replace a Kimberley Process certificate.",
+        "And it does not satisfy Russian-diamond origin requirements.",
+        "Its role is to establish the customs identity of the economic operator."
+      ]
+    },
+    {
+      "id": "what-is-antwerp-diamond-office",
+      "number": 4,
+      "title": "What Is Antwerp Diamond Office?",
+      "paragraphs": [
+        "Diamond Office forms part of the specialist infrastructure through which Belgian professional diamond imports and exports are handled.",
+        "Current AWDC guidance describes two key functions.",
+        "The Customs Service handles import/export formalities in cooperation with Belgian customs.",
+        "The Expertise Department checks diamond parcels through acknowledged experts under the supervision of FPS Economy officials.",
+        "Diamond Office is therefore not a gemological grading laboratory.",
+        "It does not replace GIA, IGI or HRD.",
+        "Its function concerns regulated trade movement and verification."
+      ]
+    },
+    {
+      "id": "extra-eu-diamond-shipments-through-belgium",
+      "number": 5,
+      "title": "Extra-EU Diamond Shipments Through Belgium",
+      "paragraphs": [
+        "Belgium distinguishes between shipments arriving from outside the EU and movements within the EU.",
+        "For extra-EU diamond imports and exports, declaration to FPS Economy through Diamond Office is compulsory for registered dealers.",
+        "The declaration covers information including:",
+        "value, weight, qualification and documented origin or provenance.",
+        "The physical goods are then checked under the relevant Diamond Office procedure.",
+        "This process applies independently of whether the diamond has a respected laboratory report.",
+        "A GIA report can confirm gemological characteristics.",
+        "It does not fulfil the Belgian import declaration."
+      ]
+    },
+    {
+      "id": "what-happens-to-an-extra-eu-parcel-at-diamond-office",
+      "number": 6,
+      "title": "What Happens to an Extra-EU Parcel at Diamond Office?",
+      "paragraphs": [
+        "The exact operational handling depends on transport route and shipment structure, but the basic workflow is straightforward.",
+        "The parcel arrives under the applicable secure import procedure.",
+        "Commercial documentation is submitted.",
+        "The sealed goods and paperwork are reconciled.",
+        "The parcel is opened for the required expert inspection under official supervision.",
+        "If the goods correspond with the declaration and other requirements are satisfied, the shipment can proceed through the relevant release process.",
+        "This physical verification is one of the features that distinguishes Antwerp diamond imports from an ordinary ecommerce parcel passing through a generic courier depot."
+      ]
+    },
+    {
+      "id": "what-about-diamond-shipments-within-the-eu",
+      "number": 7,
+      "title": "What About Diamond Shipments Within the EU?",
+      "paragraphs": [
+        "Once goods have been legally released into EU free circulation, movements between EU Member States are fundamentally different from third-country imports.",
+        "For diamond dealers in Belgium, current Diamond Office guidance says declaration of intra-EU shipments is not compulsory, although voluntary declaration and physical checking can be requested.",
+        "That does not mean intra-EU business has no compliance requirements.",
+        "VAT, invoicing, Intrastat where applicable, sanctions screening and business documentation can still apply.",
+        "It simply means the shipment is not treated as another extra-EU diamond import each time it moves between EU Member States."
+      ]
+    },
+    {
+      "id": "what-is-the-kimberley-process",
+      "number": 8,
+      "title": "What Is the Kimberley Process?",
+      "paragraphs": [
+        "The Kimberley Process Certification Scheme was created to control international trade in rough diamonds and reduce the flow of conflict diamonds used to finance rebel movements.",
+        "EU rules implementing the Kimberley Process require rough-diamond imports to satisfy certification and shipment controls.",
+        "For rough diamonds entering the EU, the goods must be accompanied by an appropriate certificate validated by the competent authority of a Kimberley Process participant. The rough diamonds must also be shipped in the required tamper-resistant conditions and the certificate must clearly identify the consignment.",
+        "The Kimberley Process is therefore a rough-diamond trade-control system.",
+        "It should not be presented as a universal ethical certificate for every polished diamond."
+      ]
+    },
+    {
+      "id": "kimberley-process-does-not-equal-complete-ethical-due",
+      "number": 8,
+      "title": "Kimberley Process Does Not Equal Complete Ethical Due Diligence",
+      "paragraphs": [
+        "This distinction deserves explicit treatment.",
+        "The Kimberley Process addresses a specific conflict-diamond problem.",
+        "It does not by itself answer every modern responsible-sourcing question involving environmental practices, labour conditions, sanctions, beneficial ownership, money laundering or Russian mining origin.",
+        "A company may therefore require several layers of compliance around one transaction.",
+        "Kimberley Process compliance can govern the rough-diamond movement.",
+        "EU sanctions compliance can govern Russian origin.",
+        "AML/KYC controls can govern the counterparties.",
+        "Customs rules govern the border transaction.",
+        "These controls complement rather than replace one another."
+      ]
+    },
+    {
+      "id": "rough-diamonds-and-the-0-5-carat-russian-sanctions-threshold",
+      "number": 9,
+      "title": "Rough Diamonds and the 0.5-Carat Russian-Sanctions Threshold",
+      "paragraphs": [
+        "The EU's Russian-diamond sanctions introduced an additional traceability layer for natural rough diamonds.",
+        "Current Commission guidance states that rough natural diamonds at or above 0.5 ct entering the EU fall within the relevant traceability mechanism.",
+        "Since March 2025, imports of rough natural diamonds at or above that threshold require a Kimberley Process certificate identifying the single country of mining origin or, for mixed parcels, listing all countries of mining origin. Additional documentary evidence may also be required.",
+        "For relevant rough imports requiring verification, Antwerp's FPS Economy/Diamond Office acts as the EU rough-import verification node and G7 certification mechanism.",
+        "This additional sanctions-origin requirement should not be confused with the broader KP requirement applying to rough-diamond trade."
+      ]
+    },
+    {
+      "id": "what-are-the-eu-restrictions-on-russian-diamonds",
+      "number": 10,
+      "title": "What Are the EU Restrictions on Russian Diamonds?",
+      "paragraphs": [
+        "EU sanctions prohibit the purchase, import or transfer of specified Russian non-industrial diamonds through a phased regime under Article 3p of Council Regulation 833/2014.",
+        "The restrictions began with direct Russian diamonds and were progressively extended to diamonds processed outside Russia.",
+        "Since September 2024, the third-country processing prohibition covers in-scope Russian natural and synthetic diamonds at or above 0.5 ct per diamond under the relevant annex categories.",
+        "The purpose of the origin controls is therefore not merely to identify the country from which the parcel was shipped.",
+        "A diamond polished in India, for example, is not automatically considered non-Russian for sanctions purposes simply because India is the country of export.",
+        "The relevant compliance question reaches back to the diamond's underlying mining origin."
+      ]
+    },
+    {
+      "id": "shipping-country-is-not-the-same-as-mining-origin",
+      "number": 10,
+      "title": "Shipping Country Is Not the Same as Mining Origin",
+      "paragraphs": [
+        "This is one of the most important concepts for professional diamond buyers.",
+        "Consider a natural diamond that was:",
+        "mined in Country A,",
+        "cut and polished in Country B,",
+        "sold by a company in Country C,",
+        "and imported into Belgium.",
+        "There are several different geographic facts in that one transaction.",
+        "Mining origin",
+        "Country of processing",
+        "Country of seller",
+        "Country of export",
+        "Country of import",
+        "They should not be treated as interchangeable.",
+        "For Russian-diamond sanctions, knowing only the immediate supplier's country does not necessarily answer the required origin question."
+      ]
+    },
+    {
+      "id": "what-changed-for-polished-natural-diamonds-in-2026",
+      "number": 11,
+      "title": "What Changed for Polished Natural Diamonds in 2026?",
+      "paragraphs": [
+        "From 1 January 2026, polished natural diamonds at or above 0.5 ct entering the EU became subject to the relevant origin traceability requirements.",
+        "Current Commission and AWDC implementation accepts documentary-based evidence supporting non-Russian mining origin. The importer uses a Due Diligence Statement on Diamond Origin supported by a reasonable, risk-based verification process.",
+        "This is highly important for Dalila because much of its commercial offering consists of polished natural diamonds rather than rough.",
+        "The compliance process therefore needs to follow the polished-diamond evidence framework—not simply reuse a rough-diamond KP workflow."
+      ]
+    },
+    {
+      "id": "what-is-the-due-diligence-statement-on-diamond-origin",
+      "number": 12,
+      "title": "What Is the Due Diligence Statement on Diamond Origin?",
+      "paragraphs": [
+        "The Due Diligence Statement on Diamond Origin is the declaration used for the current polished-diamond origin-verification mechanism.",
+        "The importer confirms, based on available documentation and reasonable verification, that the in-scope natural polished diamonds have not been mined, produced or processed in Russia in a prohibited manner.",
+        "The statement is not intended to exist in isolation.",
+        "It must be supported by documentation and internal verification measures.",
+        "AWDC's current guidance describes this as a best-effort / effort obligation, meaning the importer should demonstrate a reasonable and proportionate risk-based process rather than merely signing a statement without doing any checking."
+      ]
+    },
+    {
+      "id": "does-the-due-diligence-statement-apply-per-stone-or-per",
+      "number": 12,
+      "title": "Does the Due Diligence Statement Apply Per Stone or Per Shipment?",
+      "paragraphs": [
+        "Current AWDC guidance states that the Due Diligence Statement is submitted for each shipment.",
+        "One statement may cover multiple parcels within that shipment.",
+        "It must be signed by an authorised company representative and kept in company records for five years.",
+        "That makes document control important.",
+        "The statement needs to remain traceable to the actual invoice, shipment and diamonds it covers.",
+        "A generic undated declaration stored in a supplier file is not the same thing as shipment-specific compliance evidence."
+      ]
+    },
+    {
+      "id": "what-evidence-can-support-a-diamond-origin-statement",
+      "number": 13,
+      "title": "What Evidence Can Support a Diamond Origin Statement?",
+      "paragraphs": [
+        "There is no requirement that every transaction contain one identical evidence package.",
+        "The importer should instead create a credible chain of documentation appropriate to the transaction.",
+        "Current guidance identifies evidence that can include:",
+        "G7 or grandfathering documentation where relevant, Kimberley Process certificates linked to the underlying rough, supplier and commercial invoices, customs declarations, packing lists, transport documents, grading reports, stock or ERP records and evidence from commercial traceability systems.",
+        "The evidence should be internally consistent.",
+        "If an invoice says one source, the transport history suggests another and the supplier cannot explain the mismatch, the compliance process should stop and investigate."
+      ]
+    },
+    {
+      "id": "a-grading-report-is-supporting-evidence-not-proof-of-mining",
+      "number": 13,
+      "title": "A Grading Report Is Supporting Evidence, Not Proof of Mining Origin",
+      "paragraphs": [
+        "A standard GIA, IGI or HRD grading report provides important information about the physical diamond.",
+        "Depending on the report, that can include carat weight, measurements, colour, clarity, polish, symmetry and fluorescence.",
+        "It can help connect a documented transaction to a particular stone.",
+        "But a standard grading report should not automatically be described as proof of the country's mining origin.",
+        "Its role in the sanctions-compliance file is normally supporting identification rather than replacing the required supply-chain origin evidence.",
+        "This distinction is especially important when marketing “certified diamonds”.",
+        "Gemological certification and regulatory origin compliance answer different questions."
+      ]
+    },
+    {
+      "id": "is-a-g7-certificate-mandatory-for-every-polished-diamond",
+      "number": 14,
+      "title": "Is a G7 Certificate Mandatory for Every Polished Diamond?",
+      "paragraphs": [
+        "No.",
+        "Current Commission guidance distinguishes between the rough-diamond G7 verification mechanism and the documentary process used for polished diamonds.",
+        "A G7 certificate can provide strong evidence and can facilitate transfers within the G7 system, but current guidance does not require every polished natural diamond imported into the EU to have an individual G7 certificate.",
+        "For polished diamonds, the critical obligation is the applicable traceability/origin evidence, including the Due Diligence Statement where required.",
+        "This is another area where website wording needs to be precise."
+      ]
+    },
+    {
+      "id": "is-a-blockchain-or-digital-traceability-platform-mandatory",
+      "number": 14,
+      "title": "Is a Blockchain or Digital Traceability Platform Mandatory?",
+      "paragraphs": [
+        "Not currently as a universal requirement for every polished import.",
+        "Current AWDC guidance says that commercial traceability systems or digital ERP systems may be used as evidence, but they are not mandatory in every case.",
+        "Documentary evidence can still be accepted when it credibly establishes the required non-Russian origin.",
+        "This is useful for smaller diamond businesses that may have strong document controls without operating a sophisticated blockchain traceability system.",
+        "The important requirement is defensible evidence—not the marketing label of the technology used to store it."
+      ]
+    },
+    {
+      "id": "what-does-reasonable-risk-based-verification-mean",
+      "number": 15,
+      "title": "What Does “Reasonable, Risk-Based Verification” Mean?",
+      "paragraphs": [
+        "The importer should not treat every supplier and every transaction identically if their risk profiles differ.",
+        "Current guidance indicates that reasonable steps can include knowing counterparties, reviewing KP/G7/GF records where relevant, checking consistency between declared origin and trade route, avoiding mixing traceable diamonds with goods of unknown origin and maintaining segregation or stock controls where needed.",
+        "The purpose is to build a traceable commercial chain.",
+        "For example, if a supplier provides a non-Russian mining-origin statement but cannot connect the polished diamond to any relevant commercial, rough-source or stock records, that deserves more scrutiny than a well-documented supply chain with consistent records at every stage."
+      ]
+    },
+    {
+      "id": "avoid-mixing-known-origin-and-unknown-origin-stock",
+      "number": 15,
+      "title": "Avoid Mixing Known-Origin and Unknown-Origin Stock",
+      "paragraphs": [
+        "Origin evidence can lose much of its usefulness if traceable diamonds are subsequently mixed with undocumented stock without a reliable control system.",
+        "This is particularly relevant for parcels, matched programmes and businesses receiving repeated shipments from multiple suppliers.",
+        "Where sanctions-origin documentation matters, the internal stock record should preserve the relationship between the incoming evidence and the goods later sold.",
+        "This may be managed at parcel, batch or individual-stone level depending on the goods and commercial system.",
+        "Current EU guidance expressly recognises the importance of avoiding aggregation of traceable diamonds with goods of unknown or restricted origin."
+      ]
+    },
+    {
+      "id": "what-does-the-0-5-carat-threshold-actually-mean",
+      "number": 16,
+      "title": "What Does the 0.5-Carat Threshold Actually Mean?",
+      "paragraphs": [
+        "The 0.5 ct threshold relates to the specific traceability and third-country-processed diamond requirements within the Russian-diamond sanctions regime.",
+        "It is assessed per relevant diamond at the time of importation.",
+        "It should not be interpreted as:",
+        "“Russian diamonds below 0.5 ct are generally legal.”",
+        "Direct restrictions on diamonds originating in, exported from or transiting Russia apply under separate parts of the sanctions framework.",
+        "The threshold determines the scope of specific additional traceability controls; it is not a general safe harbour for Russian-origin goods.",
+        "This distinction should be made very clear on the hub."
+      ]
+    },
+    {
+      "id": "what-are-grandfathered-diamonds",
+      "number": 17,
+      "title": "What Are Grandfathered Diamonds?",
+      "paragraphs": [
+        "The sanctions framework includes specific provisions for eligible older diamond stocks that existed before relevant stages of the restrictions entered into force.",
+        "These are often referred to as grandfathered goods.",
+        "Eligibility depends on the location and status of the goods and on whether the conditions of the applicable grandfathering provisions are satisfied.",
+        "For Belgian-held goods requiring grandfathering treatment, current Commission guidance describes procedures for submitting stock information and obtaining the relevant GF certification before certain movements.",
+        "Grandfathering should not be treated as a general exemption that can be claimed retrospectively without documentary evidence.",
+        "A business relying on it should maintain clear historical records proving why the goods qualify."
+      ]
+    },
+    {
+      "id": "russian-diamond-sanctions-and-the-kimberley-process-are",
+      "number": 18,
+      "title": "Russian-Diamond Sanctions and the Kimberley Process Are Separate",
+      "paragraphs": [
+        "It is entirely possible for a shipment to require compliance with both systems.",
+        "A rough diamond may have a valid Kimberley Process certificate and still need additional origin information under the EU Russian-diamond sanctions regime.",
+        "Likewise, the absence of a Russian source does not eliminate the requirement for KP certification when rough diamonds are being imported into the EU.",
+        "Think of them as different questions:",
+        "Kimberley Process: Is the rough-diamond shipment compliant with the international conflict-diamond certification framework?",
+        "EU sanctions: Is the transaction permitted under the EU restrictions involving Russian diamonds and is the required origin evidence available?",
+        "A professional compliance file should answer both questions independently where applicable."
+      ]
+    },
+    {
+      "id": "what-documentation-should-accompany-a-polished-natural",
+      "number": 19,
+      "title": "What Documentation Should Accompany a Polished Natural-Diamond Import?",
+      "paragraphs": [
+        "For an in-scope polished natural-diamond shipment, the documentation file may include the commercial invoice, packing list, transport documentation, customs declaration, relevant laboratory grading reports and the applicable origin due-diligence statement.",
+        "Supporting origin records may include supplier declarations, KP or G7 information associated with the underlying rough, traceability-platform data or internal ERP/stock records where those records can credibly connect the polished goods to their documented source.",
+        "The precise evidence varies.",
+        "What should not vary is the ability to explain the transaction coherently."
+      ]
+    },
+    {
+      "id": "commercial-invoice-accuracy-matters",
+      "number": 20,
+      "title": "Commercial Invoice Accuracy Matters",
+      "paragraphs": [
+        "A diamond invoice is not merely a payment request.",
+        "For an international shipment, it becomes part of the customs and compliance record.",
+        "The description should correspond to the actual goods.",
+        "Buyer and seller information should be correct.",
+        "Value should reconcile.",
+        "Weights should reconcile.",
+        "Where individual certified stones are involved, report or stock references can help create stronger traceability.",
+        "A vague invoice makes every later compliance check more difficult."
+      ]
+    },
+    {
+      "id": "packing-lists-and-parcel-references-matter",
+      "number": 21,
+      "title": "Packing Lists and Parcel References Matter",
+      "paragraphs": [
+        "The packing list should allow the buyer, customs representative and internal QC team to understand what is physically contained within the shipment.",
+        "If several parcels sit under one invoice, each should have a reference that allows it to be linked back to the commercial and origin evidence.",
+        "This becomes particularly important when one Due Diligence Statement covers several parcels within one shipment.",
+        "The compliance system should make it possible to answer:",
+        "Which diamonds were covered by which declaration?",
+        "If that question cannot be answered later, traceability has been weakened."
+      ]
+    },
+    {
+      "id": "transport-documentation-must-match-the-commercial-story",
+      "number": 22,
+      "title": "Transport Documentation Must Match the Commercial Story",
+      "paragraphs": [
+        "The airway bill, courier record or other transport document provides another part of the transaction history.",
+        "Its origin, consignee and route should be compatible with the information declared elsewhere.",
+        "An unexplained routing anomaly does not automatically prove non-compliance, but it should be investigated when origin sanctions are relevant.",
+        "The current EU approach specifically treats consistency between declared origin, trade route and supporting documents as part of reasonable risk-based verification."
+      ]
+    },
+    {
+      "id": "ics2-and-advance-eu-cargo-information",
+      "number": 23,
+      "title": "ICS2 and Advance EU Cargo Information",
+      "paragraphs": [
+        "Diamond businesses also operate within the EU's broader customs-security system.",
+        "From 1 June 2026, consignments entering the EU must have the applicable valid Entry Summary Declaration (ENS) submitted through the EU Import Control System 2 or the relevant integrated transit process.",
+        "In practice, specialist carriers or customs representatives may handle much of the ENS filing.",
+        "That does not mean the importer can provide vague product data.",
+        "Accurate consignee, commodity and shipment information is still essential because the logistics provider can only file correctly when the underlying commercial data is correct."
+      ]
+    },
+    {
+      "id": "sanctions-screening-is-broader-than-diamond-origin-screening",
+      "number": 24,
+      "title": "Sanctions Screening Is Broader Than Diamond-Origin Screening",
+      "paragraphs": [
+        "Diamond-origin compliance answers whether the goods themselves are prohibited.",
+        "Counterparty sanctions screening asks a different question:",
+        "Are the buyer, seller, beneficial owner, bank, transporter or other involved parties subject to EU restrictions?",
+        "An otherwise acceptable non-Russian diamond transaction can still create a sanctions issue if funds or economic resources would be made available to a designated party.",
+        "The EU sanctions framework continued expanding through 2026, including additional entity listings and anti-circumvention measures in the 20th and 21st sanctions packages.",
+        "Counterparty screening should therefore use current sanctions data rather than an old supplier-approval screenshot."
+      ]
+    },
+    {
+      "id": "aml-kyc-is-not-the-same-as-sanctions-screening",
+      "number": 25,
+      "title": "AML/KYC Is Not the Same as Sanctions Screening",
+      "paragraphs": [
+        "KYC asks who the counterparty is.",
+        "AML procedures assess money-laundering and terrorist-financing risk.",
+        "Sanctions screening determines whether dealings with particular persons, entities, goods or jurisdictions are restricted.",
+        "Diamond-origin due diligence assesses where the diamonds came from.",
+        "All four may be relevant to one transaction.",
+        "Combining them into one checkbox labelled “compliance verified” can make it difficult to know what was actually checked.",
+        "A stronger system records each control separately."
+      ]
+    },
+    {
+      "id": "natural-origin-verification-is-also-a-different-question",
+      "number": 26,
+      "title": "Natural-Origin Verification Is Also a Different Question",
+      "paragraphs": [
+        "A diamond can be:",
+        "natural and compliant,",
+        "natural but prohibited by origin sanctions,",
+        "laboratory-grown and correctly disclosed,",
+        "or laboratory-grown and misrepresented as natural.",
+        "Gemological natural-origin screening therefore remains separate from sanctions-origin verification.",
+        "For example, confirming through a laboratory or screening instrument that a diamond is natural does not tell you whether it was mined in Russia.",
+        "Likewise, a supplier declaration saying “non-Russian” does not prove the diamond is natural rather than laboratory-grown.",
+        "Professional QC should keep these checks distinct."
+      ]
+    },
+    {
+      "id": "diamond-grading-reports-and-compliance",
+      "number": 27,
+      "title": "Diamond Grading Reports and Compliance",
+      "paragraphs": [
+        "GIA, IGI and HRD reports remain extremely important.",
+        "They help verify that a specific stone corresponds with the grades and measurements being bought.",
+        "Report numbers and laser inscriptions can also improve stone-level inventory traceability.",
+        "But a grading laboratory is not the Diamond Office.",
+        "A grading report is not the customs declaration.",
+        "And a normal grading report should not be described as equivalent to sanctions-origin documentation.",
+        "Internally link this section to Dalila's Diamond Grading Report Guide and How to Check a Diamond Grading Report Online."
+      ]
+    },
+    {
+      "id": "customs-duty-and-vat-are-separate-from-sanctions-compliance",
+      "number": 28,
+      "title": "Customs Duty and VAT Are Separate From Sanctions Compliance",
+      "paragraphs": [
+        "Import tax treatment should not be mixed with origin permission.",
+        "A shipment can be free of conventional customs duty but still require full customs and sanctions compliance.",
+        "Current AWDC guidance states that diamonds imported into Belgium have been exempt from conventional import duties since 1999. Normal Belgian import VAT can still apply unless the importer qualifies for the specific Belgian diamond-trader VAT exemption or another applicable VAT mechanism.",
+        "This hub should not reproduce the full VAT calculation.",
+        "Internally link to Dalila's Landed Cost of Wholesale Diamonds in Europe for:",
+        "supplier quote, shipping, insurance, customs value, VAT, clearance and true landed-cost modelling."
+      ]
+    },
+    {
+      "id": "zero-duty-does-not-mean-zero-compliance",
+      "number": 28,
+      "title": "Zero Duty Does Not Mean Zero Compliance",
+      "paragraphs": [
+        "This misconception deserves its own clarification.",
+        "A zero customs-duty rate simply means no conventional tariff is charged under that tariff treatment.",
+        "The importer can still need:",
+        "an EORI number,",
+        "a customs declaration,",
+        "Diamond Office handling,",
+        "origin evidence,",
+        "a Due Diligence Statement,",
+        "VAT accounting,",
+        "transport documentation,",
+        "and sanctions screening.",
+        "Therefore:",
+        "duty-free does not mean documentation-free."
+      ]
+    },
+    {
+      "id": "what-records-should-a-diamond-business-keep",
+      "number": 29,
+      "title": "What Records Should a Diamond Business Keep?",
+      "paragraphs": [
+        "A professional diamond business should maintain enough records to reconstruct the movement and decision process around the goods.",
+        "For in-scope polished-diamond origin declarations, current AWDC guidance requires the Due Diligence Statement to be retained for five years.",
+        "The supporting evidence should also remain accessible enough to demonstrate why the declaration was made.",
+        "That may include:",
+        "commercial documents, supplier-origin evidence, customs records, transport records, grading reports, ERP references and internal approval notes.",
+        "Other Belgian regulatory systems have their own retention and reporting requirements.",
+        "Do not apply one retention period blindly to every compliance record."
+      ]
+    },
+    {
+      "id": "build-stone-level-traceability-for-important-certified",
+      "number": 30,
+      "title": "Build Stone-Level Traceability for Important Certified Diamonds",
+      "paragraphs": [
+        "For individually certified higher-value stones, Dalila recommends maintaining a strong connection between:",
+        "internal stock number",
+        "supplier reference",
+        "grading-report number",
+        "laser inscription where applicable",
+        "commercial invoice",
+        "origin-compliance evidence",
+        "shipment reference",
+        "customer invoice",
+        "This does not require a blockchain system.",
+        "A well-controlled ERP or stock-management system can provide strong operational traceability when records are complete and maintained consistently.",
+        "For large parcels and melee, the appropriate granularity may be batch or parcel level instead."
+      ]
+    },
+    {
+      "id": "do-not-break-the-traceability-chain-when-a-diamond-is-re",
+      "number": 31,
+      "title": "Do Not Break the Traceability Chain When a Diamond Is Re-Sold",
+      "paragraphs": [
+        "A compliance system should not end when the diamond passes customs.",
+        "If a diamond later moves to another professional buyer, the internal stock record should preserve enough information to connect the outgoing transaction to the compliant incoming stock.",
+        "This becomes particularly important for diamonds subject to origin-document requirements.",
+        "The business should avoid a situation where the receiving file is excellent but, three months later, the stone has been detached from all evidence except its grading report.",
+        "A grading report may identify the stone.",
+        "It does not automatically preserve the complete origin history."
+      ]
+    },
+    {
+      "id": "returns-and-re-imports-need-their-own-documentation",
+      "number": 32,
+      "title": "Returns and Re-Imports Need Their Own Documentation",
+      "paragraphs": [
+        "A diamond leaving the EU temporarily and later returning can create different compliance questions from a stone simply moving between EU businesses.",
+        "Keep the original export evidence.",
+        "Maintain stone identity.",
+        "Preserve report numbers, invoice references and origin evidence.",
+        "Where grandfathering or prior EU status is relevant, the historical documentation can become critical when the goods return.",
+        "Do not assume customs authorities will infer the history because the same company previously owned the stone.",
+        "Document the chain."
+      ]
+    },
+    {
+      "id": "compliance-for-matched-pairs-and-multi-stone-orders",
+      "number": 33,
+      "title": "Compliance for Matched Pairs and Multi-Stone Orders",
+      "paragraphs": [
+        "Matched pairs create an additional traceability requirement because two individual stones become one commercial unit.",
+        "Each individually reported stone should retain its own identity.",
+        "The pair should then receive a combined internal reference linking both stones to the same sourcing and fulfilment file.",
+        "The same principle applies to multi-stone parcels.",
+        "Do not allow the operational convenience of grouping stones to destroy the ability to link them back to origin and commercial documentation.",
+        "Internally link to Matched-Pair Diamonds Buying Guide."
+      ]
+    },
+    {
+      "id": "compliance-for-melee-natural-diamonds",
+      "number": 34,
+      "title": "Compliance for Melee Natural Diamonds",
+      "paragraphs": [
+        "Small natural-diamond parcels need a different operational structure from individually reported centre stones.",
+        "Carat thresholds matter because the specific Russian-diamond traceability mechanism applies at the stated per-diamond threshold rather than simply to total parcel weight.",
+        "At the same time, natural-origin screening remains important even for smaller melee because laboratory-grown stones can be mixed into parcels independently of sanctions-origin issues.",
+        "Therefore, a melee programme may need two separate questions:",
+        "Are the stones natural?",
+        "and",
+        "What regulatory origin documentation applies to this parcel?",
+        "Dalila's Melee Diamond Size Chart for Jewellers and Diamond Parcel Quality-Control Checklist should remain separate from this regulatory hub."
+      ]
+    },
+    {
+      "id": "a-compliance-file-should-be-ready-before-dispatch",
+      "number": 35,
+      "title": "A Compliance File Should Be Ready Before Dispatch",
+      "paragraphs": [
+        "A recurring international-trade mistake is preparing compliance documents only when customs requests them.",
+        "That creates avoidable delays.",
+        "For an in-scope polished natural diamond, the sourcing team should ideally have the commercial and origin file substantially complete before the supplier releases the parcel.",
+        "Check the declaration.",
+        "Check the invoice.",
+        "Check the report.",
+        "Check the origin evidence.",
+        "Check the EORI and importer details.",
+        "Check the transport instructions.",
+        "Only then dispatch.",
+        "Compliance becomes far easier when the evidence travels with the commercial transaction rather than being reconstructed after the parcel is held."
+      ]
+    },
+    {
+      "id": "the-dalila-pre-shipment-compliance-framework",
+      "number": 36,
+      "title": "The Dalila Pre-Shipment Compliance Framework",
+      "paragraphs": [
+        "Before an extra-EU natural-diamond purchase is approved, Dalila recommends answering seven questions.",
+        "1. Who is the counterparty? Confirm the business, relevant representatives and applicable KYC/sanctions checks.",
+        "2. What exactly are the goods? Confirm natural or synthetic, rough or polished, carat weight and correct classification.",
+        "3. Is the trade permitted? Check current sanctions and restricted-origin rules.",
+        "4. What origin evidence is required? Determine whether KP, G7/GF, a Due Diligence Statement or other supporting documentation applies.",
+        "5. Is the commercial file complete? Reconcile invoice, packing list, grading reports and stock references.",
+        "6. Is the border route ready? Confirm EORI, specialist transport, customs handling and Diamond Office procedure where applicable.",
+        "7. Can we reconstruct the transaction later? Ensure the final records will remain connected to the actual goods.",
+        "If one of these answers is uncertain, the shipment is not ready."
+      ]
+    },
+    {
+      "id": "the-dalila-import-compliance-framework",
+      "number": 37,
+      "title": "The Dalila Import Compliance Framework",
+      "paragraphs": [
+        "When the parcel reaches the import process, treat documentation and physical goods as one file.",
+        "The declared stone or parcel should match the invoice.",
+        "Weight should reconcile.",
+        "The classification should match the material.",
+        "Relevant reports should correspond with the goods.",
+        "The origin evidence should correspond with the shipment.",
+        "For Belgian extra-EU transactions, the applicable Diamond Office control should be completed before the goods are released into ordinary inventory.",
+        "Only after regulatory release should internal quality-control acceptance and commercial inventory release be completed."
+      ]
+    },
+    {
+      "id": "customs-compliance-and-quality-control-are-different-gates",
+      "number": 38,
+      "title": "Customs Compliance and Quality Control Are Different Gates",
+      "paragraphs": [
+        "A customs-compliant diamond can still fail Dalila's quality requirements.",
+        "Likewise, a beautiful diamond can still fail regulatory compliance.",
+        "This is why the business should use two separate acceptance gates.",
+        "Compliance gate: Can the goods legally and properly enter the supply chain?",
+        "Quality gate: Do the goods actually match the grading report, specification and buyer requirements?",
+        "The order matters.",
+        "Do not release uncertain goods to customers merely because they passed visual QC.",
+        "And do not treat Diamond Office release as proof that the diamond is commercially beautiful.",
+        "Internally link to Diamond Parcel Quality-Control Checklist."
+      ]
+    },
+    {
+      "id": "compliance-for-eu-to-eu-wholesale-sales",
+      "number": 39,
+      "title": "Compliance for EU-to-EU Wholesale Sales",
+      "paragraphs": [
+        "Once legally compliant goods are in EU free circulation, a professional B2B sale from Antwerp to another EU Member State does not normally create another third-country diamond import.",
+        "Nevertheless, the seller should continue to maintain proper invoicing, VAT treatment, customer identification, sanctions compliance and product documentation.",
+        "For high-value certified stones, report and stock references should continue to follow the commercial file.",
+        "The absence of another Diamond Office import procedure does not mean the transaction should become anonymous."
+      ]
+    },
+    {
+      "id": "compliance-for-exports-outside-the-eu",
+      "number": 40,
+      "title": "Compliance for Exports Outside the EU",
+      "paragraphs": [
+        "Export compliance requires the same discipline in reverse.",
+        "Confirm the destination.",
+        "Check whether the goods are subject to EU export restrictions.",
+        "Check the buyer and beneficial owners.",
+        "Prepare accurate customs and commercial documentation.",
+        "For Belgian professional diamond exports to non-EU destinations, the applicable Diamond Office procedure applies.",
+        "The destination country may then impose its own import, tax, certification and sanctions requirements.",
+        "EU export compliance does not guarantee that the parcel is immediately importable elsewhere."
+      ]
+    },
+    {
+      "id": "do-not-assume-the-uk-follows-eu-diamond-import-rules",
+      "number": 41,
+      "title": "Do Not Assume the UK Follows EU Diamond Import Rules",
+      "paragraphs": [
+        "The United Kingdom is no longer part of the EU customs and VAT territory.",
+        "A shipment from Antwerp to London is therefore not an intra-EU movement.",
+        "Likewise, a UK diamond importer should not copy Belgium's Diamond Office or VAT procedure and assume the same rules apply.",
+        "The same caution applies to Switzerland and other non-EU European jurisdictions.",
+        "This hub covers the European Union, with Belgium as the principal operational example.",
+        "Individual non-EU European markets require their own analysis."
+      ]
+    },
+    {
+      "id": "what-should-dalila-ask-a-supplier-before-buying",
+      "number": 42,
+      "title": "What Should Dalila Ask a Supplier Before Buying?",
+      "paragraphs": [
+        "For professional sourcing, the supplier should be able to answer more than the 4Cs.",
+        "Dalila should establish:",
+        "Who is selling the diamond?",
+        "What is the exact stone or parcel reference?",
+        "Is it natural or laboratory-grown?",
+        "Where was the natural diamond mined, where that information is required?",
+        "Where was it polished?",
+        "What documents support the origin?",
+        "What sanctions-origin controls have been applied?",
+        "Does the diamond have a grading report?",
+        "Can the supplier connect the grading-report stone to the commercial/origin records?",
+        "What is the shipping route?",
+        "Are any parts of the traceability chain missing?",
+        "The purpose is not to collect paperwork for its own sake.",
+        "It is to ensure the transaction tells one consistent story."
+      ]
+    },
+    {
+      "id": "what-should-a-professional-buyer-ask-dalila",
+      "number": 43,
+      "title": "What Should a Professional Buyer Ask Dalila?",
+      "paragraphs": [
+        "A buyer can also ask Dalila for clarity about the sourcing path.",
+        "Useful questions include:",
+        "Is the diamond already in EU free circulation?",
+        "Is it being imported specifically for my order?",
+        "Which laboratory graded it?",
+        "How will the physical stone be matched to the report?",
+        "What documentation applies to its sourcing route?",
+        "What delivery destination has been included?",
+        "Does the quoted price include import/logistics services?",
+        "If the diamond fails quality control, what happens next?",
+        "These questions connect compliance with the commercial terms of the purchase.",
+        "For price and import-cost questions, use the separate Landed Cost of Wholesale Diamonds in Europe guide."
+      ]
+    },
+    {
+      "id": "common-eu-diamond-compliance-mistakes",
+      "number": 44,
+      "title": "Common EU Diamond Compliance Mistakes",
+      "paragraphs": [
+        "One of the biggest mistakes is using the word “certificate” as though every document serves the same purpose.",
+        "A GIA report, KP certificate and G7 certificate do completely different jobs.",
+        "Another mistake is treating the supplier's export country as proof of mining origin.",
+        "Buyers also sometimes assume that a zero customs-duty rate eliminates import formalities.",
+        "It does not.",
+        "Another risk is signing an origin statement without retaining evidence demonstrating why the company believed the declaration was accurate.",
+        "Likewise, a blockchain or digital traceability record should not be treated as infallible merely because it is digital. The information entering the system still needs to be credible.",
+        "Another common problem is mixing documented and undocumented inventory so thoroughly that the original traceability becomes impossible to reconstruct.",
+        "Finally, do not let old regulatory articles remain live indefinitely.",
+        "Diamond sanctions and traceability rules have changed repeatedly since 2023.",
+        "Compliance content requires maintenance."
+      ]
+    }
+  ],
+  "finalAnswer": {
+    "id": "final-answer-what-does-a-compliant-eu-diamond-transaction",
+    "title": "Final Answer: What Does a Compliant EU Diamond Transaction Look Like?",
+    "paragraphs": [
+      "A compliant professional diamond transaction is one where the business can explain who traded the diamond, what the goods are, where they came from, which regulatory regime applies, how they entered the EU and which documents support that chain.",
+      "For Belgian professional diamond trade, that begins with the appropriate FPS Economy dealer registration and EU customs identity.",
+      "Extra-EU diamond shipments through Belgium then follow the applicable Diamond Office declaration and control procedure.",
+      "Rough diamonds require the applicable Kimberley Process controls. Rough diamonds at or above the relevant Russian-sanctions threshold carry additional origin-verification requirements.",
+      "For natural polished diamonds at or above 0.5 ct, current 2026 rules require the applicable traceability evidence. In practice, this includes a Due Diligence Statement on Diamond Origin supported by documentary evidence and reasonable risk-based verification of non-Russian origin.",
+      "The grading report then performs another job: confirming the gemological identity and quality of the diamond.",
+      "Finally, the records need to remain connected to the actual stone or parcel after import.",
+      "That is the key principle behind effective diamond compliance:",
+      "do not collect disconnected documents—maintain a traceable chain from supplier to shipment to stone to buyer."
+    ]
+  },
+  "cta": {
+    "id": "natural-diamond-sourcing-through-antwerp-with-dalila",
+    "title": "Natural-Diamond Sourcing Through Antwerp with Dalila",
+    "richParagraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Dalila Diamonds works with professional buyers sourcing certified natural diamonds through Antwerp and the wider European market."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Compliance and quality control should remain distinct parts of every transaction. Regulatory documentation confirms that the sourcing and movement of the goods follow the applicable trade framework, while gemological review confirms that the physical diamond matches the commercial specification."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For professional buyers who have already located a specific loose natural diamond online, S2S – Secure To Source can support the next stages of sourcing, quality-control coordination, euro payment and scheduled EU delivery."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "For buyers requiring Dalila to locate a natural diamond from a specific brief, DS4U – Diamond Source For You can source according to shape, carat, colour, clarity, dimensions, report requirements and budget."
+        }
+      ]
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About EU Diamond Compliance",
+    "items": [
+      {
+        "question": "Do I need an EORI number to import diamonds into the EU?",
+        "answer": "Businesses carrying out EU customs import, export or transit operations generally need an EORI number."
+      },
+      {
+        "question": "Can anyone import diamonds commercially into Belgium?",
+        "answer": "Belgium requires professional dealers in diamonds and/or synthetic diamonds to meet the applicable FPS Economy registration requirements."
+      },
+      {
+        "question": "What is Diamond Office?",
+        "answer": "Diamond Office is Antwerp's specialist import/export infrastructure for professional diamond trade, operating with Belgian customs and FPS Economy supervision."
+      },
+      {
+        "question": "Do all extra-EU diamond imports into Belgium go through Diamond Office?",
+        "answer": "Registered Belgian diamond dealers are required to make the applicable declaration for extra-EU diamond imports and exports through the Diamond Office framework."
+      },
+      {
+        "question": "Are intra-EU diamond shipments checked by Diamond Office?",
+        "answer": "Declaration and physical Diamond Office inspection of intra-EU shipments is currently optional rather than compulsory."
+      },
+      {
+        "question": "What information is declared for a diamond import into Belgium?",
+        "answer": "The FPS Economy identifies information including value, weight, qualification and documented origin/provenance for relevant extra-EU diamond imports and exports."
+      },
+      {
+        "question": "What is the Kimberley Process?",
+        "answer": "The Kimberley Process is the international certification framework controlling trade in rough diamonds to reduce the trade in conflict diamonds."
+      },
+      {
+        "question": "Does every polished diamond have a Kimberley Process certificate?",
+        "answer": "No. Kimberley Process certificates apply to international shipments of rough diamonds. Do not describe every individual polished diamond as KP certified."
+      },
+      {
+        "question": "Does a KP certificate prove that a polished diamond is non-Russian?",
+        "answer": "Not automatically. KP documentation associated with the underlying rough can support origin due diligence, but polished-diamond sanctions compliance requires the applicable documentary chain."
+      },
+      {
+        "question": "What is the EU Russian-diamond ban?",
+        "answer": "Article 3p of Council Regulation 833/2014 restricts the purchase, import and transfer of specified Russian non-industrial diamonds through a phased sanctions regime."
+      },
+      {
+        "question": "When did the EU ban direct Russian diamonds?",
+        "answer": "The first major Article 3p restrictions on specified Russian diamonds took effect from 1 January 2024."
+      },
+      {
+        "question": "What is the 0.5-carat rule?",
+        "answer": "The 0.5 ct per-diamond threshold is important for the sanctions traceability regime involving diamonds processed outside Russia and for current origin-evidence requirements."
+      },
+      {
+        "question": "Does the 0.5-carat threshold mean Russian diamonds below 0.5 ct are automatically permitted?",
+        "answer": "No. The threshold relates to specific parts of the traceability and third-country-processing regime. Other prohibitions on Russian-origin, exported or transited goods must still be considered."
+      },
+      {
+        "question": "What changed for polished diamonds in 2026?",
+        "answer": "From 1 January 2026, in-scope polished natural diamonds at or above 0.5 ct require the applicable origin traceability evidence under the Russian-diamond sanctions framework."
+      },
+      {
+        "question": "What is a Due Diligence Statement on Diamond Origin?",
+        "answer": "It is the declaration used by the importer to confirm, based on reasonable verification and supporting documentation, that in-scope polished natural diamonds are not of prohibited Russian origin."
+      },
+      {
+        "question": "Who signs the Due Diligence Statement?",
+        "answer": "Current AWDC guidance says it should be made by an authorised company representative."
+      },
+      {
+        "question": "Who is responsible for the statement?",
+        "answer": "The importer is responsible."
+      },
+      {
+        "question": "Is one Due Diligence Statement required for each diamond?",
+        "answer": "The statement is shipment-based. One statement can cover multiple parcels in the same shipment where the documentation is properly connected."
+      },
+      {
+        "question": "How long should the Due Diligence Statement be retained?",
+        "answer": "Current AWDC guidance specifies a five-year retention period."
+      },
+      {
+        "question": "What can support the origin statement?",
+        "answer": "Evidence can include relevant G7/GF or KP documentation, invoices, customs records, packing lists, transport documents, grading reports, ERP records and commercial traceability evidence."
+      },
+      {
+        "question": "Does a GIA report prove the mining country?",
+        "answer": "A standard grading report should not automatically be treated as proof of mining origin. It primarily establishes gemological characteristics and can help identify the physical stone."
+      },
+      {
+        "question": "Is G7 certification mandatory for every polished natural diamond?",
+        "answer": "No. G7 evidence can be useful, but current polished-diamond compliance is based on the applicable traceability and due-diligence evidence framework rather than requiring a G7 certificate on every polished stone."
+      },
+      {
+        "question": "Is blockchain traceability mandatory?",
+        "answer": "No universal requirement currently forces every polished-diamond importer to use a blockchain platform. Credible documentary evidence and other traceability systems can be used according to the applicable requirements."
+      },
+      {
+        "question": "Do rough diamonds over 0.5 ct need additional EU origin verification?",
+        "answer": "Yes. The EU sanctions traceability framework creates additional requirements for in-scope rough natural diamonds at or above 0.5 ct."
+      },
+      {
+        "question": "Do rough diamonds still need Kimberley Process certificates?",
+        "answer": "Yes. Kimberley Process certification remains a distinct requirement for international rough-diamond trade."
+      },
+      {
+        "question": "What is a G7 diamond certificate?",
+        "answer": "Within the relevant rough-diamond verification system, a G7 certificate records verification information used to support traceability and non-Russian-origin controls."
+      },
+      {
+        "question": "What are grandfathered diamonds?",
+        "answer": "They are eligible older stocks that may fall under specific transitional provisions when they can be shown to have existed before the applicable sanctions restrictions."
+      },
+      {
+        "question": "Is a diamond imported from India automatically of Indian mining origin?",
+        "answer": "No. India may be the country of processing or export while the rough diamond was mined elsewhere."
+      },
+      {
+        "question": "Is country of export the same as country of origin?",
+        "answer": "Not necessarily. Mining origin, processing country and export country can all be different."
+      },
+      {
+        "question": "Are diamonds duty-free when imported into Belgium?",
+        "answer": "Current Belgian diamond-trade guidance states that conventional import duties on diamond categories are zero, but customs formalities, VAT treatment and compliance obligations can still apply."
+      },
+      {
+        "question": "Does zero import duty mean no customs declaration?",
+        "answer": "No. Tariff rate and customs procedure are different matters."
+      },
+      {
+        "question": "Is VAT part of diamond compliance?",
+        "answer": "VAT forms part of the tax/import framework but should be analysed separately from sanctions and origin compliance. See Dalila's Landed Cost of Wholesale Diamonds in Europe guide."
+      },
+      {
+        "question": "What is ICS2?",
+        "answer": "ICS2 is the EU's advance cargo-information system. From June 2026, the applicable Entry Summary Declaration requirements cover consignments entering EU territory."
+      },
+      {
+        "question": "Is sanctions screening only about the diamond's origin?",
+        "answer": "No. Counterparties, beneficial owners, financial institutions and other entities involved in the transaction can also be relevant to sanctions compliance."
+      },
+      {
+        "question": "Is KYC the same as sanctions screening?",
+        "answer": "No. KYC, AML, sanctions screening and product-origin verification are related but separate controls."
+      },
+      {
+        "question": "Does proving a diamond is natural prove it is sanctions-compliant?",
+        "answer": "No. Natural/laboratory-grown identification and geographic mining-origin verification are separate questions."
+      },
+      {
+        "question": "Should the origin evidence stay linked to the stone after import?",
+        "answer": "Yes. Maintaining the connection between incoming evidence and outgoing inventory provides stronger supply-chain traceability."
+      },
+      {
+        "question": "How often should this compliance information be reviewed?",
+        "answer": "Whenever relevant EU sanctions, Commission guidance, Belgian diamond-sector procedures or Kimberley Process requirements change. A compliance hub should carry a visible last-reviewed date."
+      }
+    ]
+  }
+}

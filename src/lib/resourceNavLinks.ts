@@ -25,6 +25,7 @@ export const RESOURCE_NAV_ITEMS: ResourceNavItem[] = [
   { key: "how-to-sell-diamond-ring", href: "/resources/how-to-sell-diamond-ring", labelKey: "articleHowToSellRing", fallback: "How to Sell a Diamond Ring Safely" },
   { key: "diamond-appraisal-antwerp-belgium", href: "/resources/diamond-appraisal-antwerp-belgium", labelKey: "articleAppraisalAntwerp", fallback: "Diamond Appraisal in Antwerp" },
   { key: "sell-diamond-without-certificate", href: "/resources/sell-diamond-without-certificate", labelKey: "articleSellWithoutCert", fallback: "Sell a Diamond Without a Certificate" },
+  { key: "eu-diamond-compliance", href: "/resources/eu-diamond-compliance", labelKey: "articleEuCompliance", fallback: "EU Diamond Compliance Hub" },
 ];
 
 export function getResourceNavLabel(dictionary: NavDictionary | undefined, item: ResourceNavItem) {

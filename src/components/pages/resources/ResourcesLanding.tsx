@@ -16,6 +16,7 @@ import { getSellDiamondWithoutCertificateData } from "@/lib/i18n/getSellDiamondW
 import { getGradingReportData } from "@/lib/i18n/getGradingReportData";
 import { getFluorescenceGuideData } from "@/lib/i18n/getFluorescenceGuideData";
 import { getGirdleGuideData } from "@/lib/i18n/getGirdleGuideData";
+import { getEuComplianceData } from "@/lib/i18n/getEuComplianceData";
 import { getNaturalVsLabGrownData } from "@/lib/i18n/getNaturalVsLabGrownData";
 import { getWhereToSellDiamondRingData } from "@/lib/i18n/getWhereToSellDiamondRingData";
 import { getDiamondAppraisalAntwerpData } from "@/lib/i18n/getDiamondAppraisalAntwerpData";
@@ -48,6 +49,7 @@ export default function ResourcesLanding() {
   const gradingReport = getGradingReportData(locale);
   const fluorescence = getFluorescenceGuideData(locale);
   const girdle = getGirdleGuideData(locale);
+  const euCompliance = getEuComplianceData(locale);
   const naturalVsLab = getNaturalVsLabGrownData(locale);
   const whereToSell = getWhereToSellDiamondRingData(locale);
   const appraisal = getDiamondAppraisalAntwerpData(locale);
@@ -140,6 +142,13 @@ export default function ResourcesLanding() {
       description: girdle.meta.description,
       image: "/DiamondsinBlubg/Emerald.jpg",
       imageAlt: girdle.hero.title,
+    },
+    {
+      href: "/resources/eu-diamond-compliance",
+      title: euCompliance.banner.title,
+      description: euCompliance.meta.description,
+      image: "/DiamondsinBlubg/Princess.jpg",
+      imageAlt: euCompliance.banner.imageAlt,
     },
     {
       href: "/resources/diamond-size-chart",
