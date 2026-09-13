@@ -5,7 +5,7 @@
 
 import apiClient from "../base/apiClient";
 import { setAuthToken, setCurrentUser, removeAuthToken } from "../base/authHandler";
-import { handleApiError } from "../base/errorHandler";
+import { handleApiError, toApiRequestError } from "../base/errorHandler";
 import type { ApiResponse } from "../types/api.types";
 import type { User, LoginCredentials, RegistrationData, AuthResponse } from "../types/user.types";
 
@@ -76,7 +76,11 @@ export const register = async (data: RegistrationData): Promise<ApiResponse<{ us
     return response.data;
   } catch (error) {
     console.error("Registration error:", error);
-    throw error;
+    // Was `throw error`, which handed the caller a raw axios error whose
+    // message is "Request failed with status code 400". Every other call here
+    // unwraps; this one did not, so the registration form's error branches
+    // could never match and the user saw the axios string.
+    throw toApiRequestError(error);
   }
 };
 
@@ -111,6 +115,30 @@ export const sendOtp = async (email: string): Promise<ApiResponse<{ message: str
 };
 
 // Verify OTP
+/**
+ * Issue a fresh verification code for a signup already in progress.
+ *
+ * Distinct from sendOtp, which works against an existing account and backs
+ * forgot-password. This one reads the pending registration, so it is the only
+ * way to recover a signup whose code expired or was mistyped three times -
+ * resending also clears the attempt count. The endpoint has existed since the
+ * feature was built and nothing in the UI called it.
+ */
+export const resendRegistrationOtp = async (
+  email: string
+): Promise<ApiResponse<{ message: string }>> => {
+  try {
+    const response = await apiClient.post<ApiResponse<{ message: string }>>(
+      "/api/users/resend-registration-otp",
+      { email: email.trim() }
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Resend registration OTP error:", error);
+    throw toApiRequestError(error);
+  }
+};
+
 export const verifyOtp = async (data: {
   email: string;
   otp: string;

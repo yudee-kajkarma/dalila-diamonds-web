@@ -53,6 +53,7 @@ export const userApi = {
     logout: authService.logout,
     sendOtp: authService.sendOtp,
     verifyOtp: authService.verifyOtp,
+    resendRegistrationOtp: authService.resendRegistrationOtp,
     updatePassword: authService.updatePassword,
 
     // From userService

@@ -27,6 +27,7 @@ function OTPVerificationContent() {
   const [error, setError] = useState<string>("");
   const [success, setSuccess] = useState<string>("");
   const [countdown, setCountdown] = useState<number>(0);
+  const [isResending, setIsResending] = useState<boolean>(false);
 
   // Refs for OTP inputs
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
@@ -49,6 +50,63 @@ function OTPVerificationContent() {
       return () => clearTimeout(timer);
     }
   }, [countdown]);
+
+  /**
+   * Empty the boxes and put the caret back in the first one.
+   *
+   * After a rejected code the digits stayed on screen, so correcting them
+   * meant four backspaces before the first keystroke - and with the caret
+   * left in the last box, typing simply overwrote the final digit. Clearing
+   * on failure makes the next attempt a straight retype.
+   */
+  const clearOtpInputs = () => {
+    setOtp(["", "", "", ""]);
+    // Deferred by a tick on purpose. The inputs carry disabled={isLoading},
+    // and on a failed verification this runs while that is still true -
+    // isLoading is only cleared in the finally that follows. Focusing a
+    // disabled element does nothing, so the boxes would empty with no caret
+    // in them and the user would have to click back in. Running after the
+    // re-render means the field is enabled again by the time focus lands.
+    setTimeout(() => inputRefs.current[0]?.focus(), 0);
+  };
+
+  /**
+   * Ask for a new code.
+   *
+   * The countdown state and its timer were already here, along with the
+   * translations, but nothing ever called the endpoint - so a code that never
+   * arrived, expired, or was mistyped three times left the user with no way
+   * forward on this page. Resending also clears the attempt count, which is
+   * what unlocks someone who has been locked out.
+   */
+  const handleResendOtp = async () => {
+    if (countdown > 0 || isResending || !email) return;
+
+    setIsResending(true);
+    setError("");
+    setSuccess("");
+
+    try {
+      const response = await userApi.resendRegistrationOtp(email);
+
+      if (response && response.success) {
+        setSuccess(
+          getAuthText("otpResent", locale)
+        );
+        setCountdown(60);
+        clearOtpInputs();
+      } else {
+        setError(response?.message || getAuthText("regFailed", locale));
+      }
+    } catch (err: unknown) {
+      console.error("Resend OTP error:", err);
+      setError(
+        err instanceof Error ? err.message : getAuthText("netErrorTry", locale)
+      );
+    } finally {
+      setIsResending(false);
+    }
+  };
 
   const handleOtpChange = (index: number, value: string) => {
     // Only allow numbers
@@ -129,14 +187,16 @@ function OTPVerificationContent() {
         }, 2000);
       } else {
         setError(
-          response?.message || 
+          response?.message ||
             (locale === "de"
               ? "Ungültiger OTP-Code. Bitte versuchen Sie es erneut."
               : "Invalid OTP. Please try again.")
         );
+        clearOtpInputs();
       }
     } catch (err: unknown) {
       console.error("OTP verification error:", err);
+      clearOtpInputs();
 
       if (err instanceof Error) {
         const errorMessage = err.message;
@@ -334,6 +394,32 @@ function OTPVerificationContent() {
                   <span>{locale === "de" ? "E-MAIL VERIFIZIEREN" : "VERIFY EMAIL"}</span>
                 )}
               </button>
+
+              {/* Resend — the way out if the code never arrived or has expired */}
+              <div className="text-center">
+                {countdown > 0 ? (
+                  <p className="text-xs text-gray-400">
+                    {getAuthText("resendIn", locale)}{" "}
+                    <span className="text-[#FFD166] font-semibold">{countdown}s</span>
+                  </p>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleResendOtp}
+                    disabled={isResending}
+                    className="text-xs text-[#FFD166] hover:text-yellow-400 hover:underline transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 mx-auto"
+                  >
+                    {isResending ? (
+                      <>
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                        <span>{getAuthText("sending", locale)}</span>
+                      </>
+                    ) : (
+                      <span>{getAuthText("resendOtp", locale)}</span>
+                    )}
+                  </button>
+                )}
+              </div>
 
             </form>
           </div>

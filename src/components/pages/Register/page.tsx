@@ -162,26 +162,20 @@ export default function RegisterPage() {
         } catch (err: unknown) {
             console.error("Registration error:", err);
 
-            // The register call rethrows the raw axios error rather than
-            // unwrapping it, so err.message is "Request failed with status
-            // code 400" and never the server's sentence. Every test below was
-            // matching against that string and failing, which is why an
-            // unhandled case showed the axios text to the user. Read the
-            // response instead.
-            const response = (err as { response?: { status?: number; data?: { error?: string; message?: string } } })?.response;
-            const status = response?.status;
-            const serverMessage = response?.data?.error || response?.data?.message || "";
+            // register() now throws ApiRequestError, so the message is the
+            // server's own sentence and the status travels with it.
+            const status = (err as { status?: number })?.status;
 
-            // A signup is already in flight for this address and its code is
-            // still live. There is nothing to fix on this form - the user
-            // needs the verification page, where Resend OTP is - so send them
-            // there rather than showing an error they cannot act on. That page
-            // requires the email in the query string or it bounces back here.
+            // Not a failure. A signup is already in flight for this address
+            // and its code is still live, so there is nothing to correct on
+            // this form - the user needs the verification page, where the code
+            // goes and where Resend OTP is. Shown as a notice and followed by
+            // a redirect rather than reported as an error, because from the
+            // user's side nothing has gone wrong. The page requires the email
+            // in the query string or it sends them straight back here.
             if (status === 409) {
-                setSuccess(
-                    serverMessage ||
-                        "A verification code is already on its way. Taking you to the verification page.",
-                );
+                setError("");
+                setSuccess(getAuthText("otpAlreadySent", locale));
                 setTimeout(() => {
                     router.push(
                         localizedPath(`/verify-otp?email=${encodeURIComponent(email.trim())}`)
@@ -191,7 +185,7 @@ export default function RegisterPage() {
             }
 
             if (err instanceof Error) {
-                const errorMessage = serverMessage || err.message;
+                const errorMessage = err.message;
 
                 if (
                     errorMessage.includes("already exists") ||
