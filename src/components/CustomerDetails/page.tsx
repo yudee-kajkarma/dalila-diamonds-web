@@ -402,9 +402,17 @@ function CustomerDetailsContent() {
 
   return (
     <div className="relative w-full min-h-screen overflow-x-hidden bg-black">
-      {/* Background Video */}
+      {/*
+        Background video, fixed rather than absolute.
+
+        This form is long enough to scroll, and an absolutely positioned video
+        sized h-full stretches to the full document height - so it zoomed and
+        drifted as the page moved. Fixed pins it to the viewport, which is what
+        a backdrop should do, and it costs nothing because the element never
+        moves.
+      */}
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="fixed inset-0 w-full h-full object-cover z-0"
         src={videoUrl("diamondCountdown")}
         autoPlay
         muted
@@ -412,8 +420,8 @@ function CustomerDetailsContent() {
         playsInline
       />
 
-      {/* Dimming overlay */}
-      <div className="absolute inset-0 bg-black/50 pointer-events-none" />
+      {/* Dimming overlay, pinned to match */}
+      <div className="fixed inset-0 bg-black/50 pointer-events-none z-0" />
 
       <div className="relative z-10 flex items-center justify-center w-full min-h-screen p-4 py-8">
         <div className="flex w-full max-w-[1200px] min-h-[700px] rounded-xl shadow-2xl border border-gray-800 flex-col md:flex-row">
@@ -496,7 +504,17 @@ function CustomerDetailsContent() {
                     </div>
 
           {/* Right Panel - Form - Full Width on Mobile */}
-          <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8 md:overflow-y-auto md:max-h-screen">
+          {/*
+            One scrollbar, the page's.
+
+            This column used to carry md:overflow-y-auto md:max-h-screen, which
+            gave the form its own scroll area inside a page that already
+            scrolled - two bars side by side, the inner one cutting the card
+            off mid-field. The card now grows to its content and the page
+            scrolls it, which is also what happens on mobile, so both sizes
+            behave the same way.
+          */}
+          <div className="relative w-full md:flex-1 flex flex-col justify-center items-center bg-black/20 px-4 py-8">
             {/* Navigation Buttons */}
             <div className="absolute top-4 md:top-6 right-4 md:right-6 flex gap-2 z-10">
               <button

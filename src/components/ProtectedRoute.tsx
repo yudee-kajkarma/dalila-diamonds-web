@@ -1,7 +1,30 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import toast from "react-hot-toast";
 import { getAuthToken } from "@/services/api/base/authHandler";
+
+/**
+ * Say why, when a page is taken away.
+ *
+ * Every gate below already redirected, but silently: asking for the inventory
+ * or the enquiry form simply landed you somewhere else with no explanation,
+ * which reads as the site being broken rather than as a step you have not
+ * finished yet. The toast is the only thing that survives the navigation, so
+ * it is where the reason has to go.
+ *
+ * Keyed by pathname so a redirect loop cannot stack duplicates, and given a
+ * generous duration because it is being read on a page that just changed
+ * under the reader.
+ */
+const explainRedirect = (id: string, message: string) => {
+  toast(message, {
+    id,
+    duration: 6000,
+    icon: "ℹ️",
+    style: { background: "#101638", color: "#fff", maxWidth: "26rem" },
+  });
+};
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
@@ -123,6 +146,10 @@ export default function ProtectedRoute({
       ) {
         setIsAuthorized(false);
         setIsChecking(false);
+        explainRedirect(
+          "needs-customer-details",
+          "Please complete your customer details first. Once an admin has verified them, this page will open for you."
+        );
         router.push("/customer-details");
         return;
       }
@@ -135,10 +162,22 @@ export default function ProtectedRoute({
           setIsChecking(false);
 
           if (kycStatus === "pending") {
+            explainRedirect(
+              "kyc-pending",
+              "Your details are with our team for verification. We will open this page as soon as they are approved."
+            );
             router.push("/pending-approval");
           } else if (kycStatus === "rejected") {
+            explainRedirect(
+              "kyc-rejected",
+              "Your application was not approved. Please contact us and we will help you sort it out."
+            );
             router.push("/kyc-rejected");
           } else {
+            explainRedirect(
+              "needs-customer-details",
+              "Please complete your customer details first. Once an admin has verified them, this page will open for you."
+            );
             router.push("/customer-details");
           }
           return;
@@ -151,7 +190,12 @@ export default function ProtectedRoute({
         if (userStatus !== "APPROVED") {
           setIsAuthorized(false);
           setIsChecking(false);
-          // Redirect to pending approval page or show access denied
+          explainRedirect(
+            "awaiting-approval",
+            userStatus === "PENDING"
+              ? "Your details are with our team for verification. We will open this page as soon as they are approved."
+              : "This page opens once your account has been approved. Please complete your customer details to start."
+          );
           router.push("/pending-approval");
           return;
         }
