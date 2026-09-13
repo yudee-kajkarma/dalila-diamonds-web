@@ -6,6 +6,15 @@ export interface ContentSection {
   title: string;
   content: string;
   bulletPoints?: string[];
+  /**
+   * Phrases within `content` that should become links.
+   *
+   * The content is prose in one string, so a link has to be described rather
+   * than written in: the phrase is quoted from the text of that language, and
+   * the renderer wraps its first occurrence. Optional, and pages that do not
+   * render links simply ignore it.
+   */
+  links?: Array<{ phrase: string; href: string }>;
 }
 
 interface SeoPageContentProps {

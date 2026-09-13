@@ -3,7 +3,7 @@ import { Locale, DEFAULT_LOCALE, LOCALES, getLocalizedPath } from "./config";
 import { getDictionary } from "./getDictionary";
 
 interface MetadataOptions {
-  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport" | "qualityChart" | "sizeChart" | "naturalVsLab" | "fluorescenceGuide" | "culetGuide" | "girdleGuide";
+  pageKey: "home" | "about" | "contact" | "inventory" | "s2s" | "ds4u" | "syd" | "b2b" | "cushion" | "knowledge" | "gradingReport" | "qualityChart" | "sizeChart" | "naturalVsLab" | "fluorescenceGuide" | "culetGuide" | "girdleGuide" | "euCompliance";
   path: string;
   searchParams?: { [key: string]: string | string[] | undefined };
 }
@@ -81,6 +81,11 @@ export function generateLocalizedMetadata(
     description =
       (dict.meta as any).girdleGuideDescription ||
       "Learn what a diamond girdle is, how GIA and HRD grade its thickness, and how thin or thick girdles affect durability, size, setting and value.";
+  } else if (pageKey === "euCompliance") {
+    title = (dict.meta as any).euComplianceTitle || "EU Diamond Compliance: Sanctions & Imports | Dalila";
+    description =
+      (dict.meta as any).euComplianceDescription ||
+      "Navigate EU diamond compliance for natural diamonds, including Russian sanctions, origin evidence, Kimberley Process, EORI, declarations and Antwerp Diamond Office procedures.";
   }
 
   const baseUrl = "https://www.daliladiamonds.com";

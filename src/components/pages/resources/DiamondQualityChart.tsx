@@ -370,6 +370,13 @@ export default function DiamondQualityChart({ locale = "en" }: { locale?: Locale
               ))}
             </Section>
 
+            {/* The 4Cs Do Not Prove That a Diamond Is Natural */}
+            <Section id={data.notNatural.id} title={data.notNatural.title}>
+              <Paragraphs items={data.notNatural.paragraphs} />
+              <BulletList items={data.notNatural.bullets} />
+              <Paragraphs items={data.notNatural.closing} />
+            </Section>
+
             {/* How to Choose the Right Quality Balance */}
             <Section id={data.qualityBalance.id} title={data.qualityBalance.title}>
               {data.qualityBalance.steps.map((step: any) => (

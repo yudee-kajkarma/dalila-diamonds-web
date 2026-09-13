@@ -663,7 +663,7 @@
     "primaryCtaText": "DEMANDER MON ÉVALUATION D'ACHAT PRIVÉ",
     "primaryCtaHref": "#diamond-evaluation-form",
     "secondaryCtaText": "PRENDRE RENDEZ-VOUS À ANVERS",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "id": "diamond-evaluation-form",
@@ -859,11 +859,11 @@
     "primaryButtonText": "COMMENCER MON ÉVALUATION DE DIAMANT",
     "primaryButtonHref": "#diamond-evaluation-form",
     "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Vendez votre diamant à Anvers"
     },
     "valuationCalculator": {

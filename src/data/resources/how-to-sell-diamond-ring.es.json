@@ -824,11 +824,11 @@
     "primaryButtonText": "SOLICITAR MI EVALUACIÓN PRIVADA DE ANILLO DE DIAMANTES",
     "primaryButtonHref": "#secure-evaluation-form",
     "secondaryButtonText": "RESERVAR UNA CITA PRIVADA EN AMBERES",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "venda su diamante de forma segura en Amberes"
     },
     "valuationCalculator": {

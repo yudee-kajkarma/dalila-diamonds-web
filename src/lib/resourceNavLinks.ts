@@ -11,7 +11,7 @@ export type ResourceNavItem = {
 
 export const RESOURCE_NAV_ITEMS: ResourceNavItem[] = [
   { key: "premium-b2b", href: "/premium-b2b-diamond-supplier-belgium", labelKey: "articleB2b", fallback: "Premium B2B Diamond Supplier in Belgium" },
-  { key: "sell-diamond", href: "/sell-your-diamond-safely", labelKey: "articleSell", fallback: "Sell Your Diamond Safely" },
+  { key: "sell-diamond", href: "/sell-your-diamond", labelKey: "articleSell", fallback: "Sell Your Diamond Safely" },
   { key: "elongated-cushion", href: "/elongated-cushion-cut-diamond-guide", labelKey: "articleCushion", fallback: "Elongated Cushion Cut Diamond Guide" },
   { key: "diamond-grading-report-guide", href: "/resources/diamond-grading-report-guide", labelKey: "articleGradingReport", fallback: "Diamond Grading Report Guide" },
   { key: "diamond-quality-chart", href: "/resources/diamond-quality-chart", labelKey: "articleQualityChart", fallback: "Diamond Quality Chart" },
@@ -25,6 +25,7 @@ export const RESOURCE_NAV_ITEMS: ResourceNavItem[] = [
   { key: "how-to-sell-diamond-ring", href: "/resources/how-to-sell-diamond-ring", labelKey: "articleHowToSellRing", fallback: "How to Sell a Diamond Ring Safely" },
   { key: "diamond-appraisal-antwerp-belgium", href: "/resources/diamond-appraisal-antwerp-belgium", labelKey: "articleAppraisalAntwerp", fallback: "Diamond Appraisal in Antwerp" },
   { key: "sell-diamond-without-certificate", href: "/resources/sell-diamond-without-certificate", labelKey: "articleSellWithoutCert", fallback: "Sell a Diamond Without a Certificate" },
+  { key: "eu-diamond-compliance", href: "/resources/eu-diamond-compliance", labelKey: "articleEuCompliance", fallback: "EU Diamond Compliance Hub" },
 ];
 
 export function getResourceNavLabel(dictionary: NavDictionary | undefined, item: ResourceNavItem) {

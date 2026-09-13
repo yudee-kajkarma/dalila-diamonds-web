@@ -110,6 +110,31 @@ export const handleApiError = (error: unknown): ApiError => {
   };
 };
 
+/**
+ * An API failure a screen can act on.
+ *
+ * Carries the server's own sentence and the status code together. Throwing a
+ * plain Error loses the status, and rethrowing the raw axios error loses the
+ * sentence - its `message` is "Request failed with status code 400", which is
+ * what the registration form was matching its branches against and, failing
+ * every one, showing to the user.
+ */
+export class ApiRequestError extends Error {
+  public readonly status?: number;
+  public readonly details?: unknown;
+
+  constructor({ message, status, details }: ApiError) {
+    super(message);
+    this.name = "ApiRequestError";
+    this.status = status;
+    this.details = details;
+  }
+}
+
+/** Convert anything thrown by axios into an ApiRequestError. */
+export const toApiRequestError = (error: unknown): ApiRequestError =>
+  new ApiRequestError(handleApiError(error));
+
 // Log error to console (can be extended to send to error tracking service)
 export const logError = (
   context: string,

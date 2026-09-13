@@ -15,7 +15,9 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/diamondKnowledge", priority: 0.8, changefreq: "monthly" },
   { path: "/premium-b2b-diamond-supplier-belgium", priority: 0.8, changefreq: "monthly" },
   { path: "/wholesale/buy-wholesale-diamonds-online", priority: 0.8, changefreq: "weekly" },
-  { path: "/sell-your-diamond-safely", priority: 0.8, changefreq: "monthly" },
+  // /sell-your-diamond-safely is not listed: it was merged into
+  // /sell-your-diamond and now returns a 301, so only the surviving URL
+  // belongs in the sitemap.
   { path: "/elongated-cushion-cut-diamond-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-grading-report-guide", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-quality-chart", priority: 0.7, changefreq: "monthly" },
@@ -29,14 +31,13 @@ const STATIC_PAGES: Array<{ path: string; priority: number; changefreq: string }
   { path: "/resources/how-to-sell-diamond-ring", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/diamond-appraisal-antwerp-belgium", priority: 0.7, changefreq: "monthly" },
   { path: "/resources/sell-diamond-without-certificate", priority: 0.7, changefreq: "monthly" },
+  // Reviewed more often than the other guides: it states sanctions thresholds
+  // that change when the EU revises them, so it is not a monthly page.
+  { path: "/resources/eu-diamond-compliance", priority: 0.7, changefreq: "weekly" },
   { path: "/blogs", priority: 0.8, changefreq: "weekly" },
-  { path: "/blogs/most-expensive-diamond-shapes", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/vs1-vs-vs2-diamond-clarity", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/best-diamond-colour-clarity-combination", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/fancy-shaped-diamond-cut-quality", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/cushion-cut-diamond", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/diamond-bow-tie-effect", priority: 0.7, changefreq: "monthly" },
-  { path: "/blogs/igi-diamond-certification", priority: 0.7, changefreq: "monthly" },
+  // Individual articles are no longer listed here. They all come from the CMS
+  // now, and the blog entries further down are generated from it - listing the
+  // seven former static ones as well would duplicate them in the sitemap.
   { path: "/inventory", priority: 0.9, changefreq: "daily" },
 ];
 

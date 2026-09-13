@@ -4,7 +4,7 @@
     "description": "Vergelijk natuurlijke en in het laboratorium gekweekte diamanten op herkomst, uiterlijk, prijs, sortering, zeldzaamheid, wederverkoop en inkoop om te beslissen welke diamant bij uw prioriteiten past.",
     "canonical": "https://www.daliladiamonds.com/resources/natural-vs-lab-grown-diamonds",
     "datePublished": "2026-08-06",
-    "dateModified": "2026-08-06",
+    "dateModified": "2026-09-06",
     "robots": "index, follow",
     "inLanguage": "en-GB"
   },
@@ -23,13 +23,13 @@
       "Beide zijn diamantmaterialen met in wezen dezelfde chemische, fysische en optische eigenschappen. Gespecialiseerde tests kunnen echter hun verschillende groeigeschiedenissen identificeren."
     ],
     "reviewDateLabel": "Laatst bijgewerkt:",
-    "reviewDate": "Juli 2026",
+    "reviewDate": "6 september 2026",
     "primaryButtonText": "BROWSE NATURAL DIAMONDS",
     "primaryButtonHref": "/inventory",
     "secondaryButtonText": "VRAAG EEN NATUURLIJKE DIAMANT AAN VIA DS4U",
     "secondaryButtonHref": "/premium-b2b-diamond-supplier-belgium#ds4u",
     "image": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/diamondsourceforyou.jpg",
+      "src": "/resources_images/z.png",
       "alt": "Natuurlijke en in laboratorium gekweekte diamanten vergeleken op oorsprong en uiterlijk",
       "width": 1600,
       "height": 900
@@ -37,19 +37,19 @@
   },
   "images": {
     "formation": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/b2b/close-up.jpg",
+      "src": "/resources_images/za.png",
       "alt": "Natuurlijke diamantvorming vergeleken met HPHT- en CVD-diamantgroei",
       "width": 1400,
       "height": 1000
     },
     "identification": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/We_Search_Our_Worldwide_Network.jpg",
+      "src": "/resources_images/zb.png",
       "alt": "Natuurlijke en laboratoriumgekweekte diamanten die een professionele identificatie ondergaan",
       "width": 1400,
       "height": 1000
     },
     "priorities": {
-      "src": "https://uniglo-jewels-dev.s3.eu-north-1.amazonaws.com/dalila/diamonds_source/handshake.jpg",
+      "src": "/resources_images/zc.png",
       "alt": "Prioriteiten van kopers bij het kiezen tussen natuurlijke en in laboratorium gekweekte diamanten",
       "width": 1400,
       "height": 1000
@@ -81,6 +81,10 @@
       {
         "id": "do-they-look-the-same",
         "label": "Zien ze er hetzelfde uit?"
+      },
+      {
+        "id": "does-a-natural-diamond-sparkle-more",
+        "label": "Schittert een natuurlijke diamant meer?"
       },
       {
         "id": "can-you-tell-them-apart",
@@ -334,6 +338,19 @@
     "closing": [
       "Een natuurlijke diamant is niet automatisch briljanter. Een in een laboratorium gekweekte diamant is niet automatisch onberispelijk. Zichtbare schoonheid hangt sterk af van de slijpvorm, verhoudingen en kwaliteit van de individuele steen.",
       "Een gewone foto is geen betrouwbaar bewijs van herkomst. Twee diamanten kunnen er op een juweelbeeld hetzelfde uitzien, terwijl ze een verschillende ontstaansgeschiedenis, behandeling en rapportinformatie hebben."
+    ]
+  },
+  "sparkle": {
+    "id": "does-a-natural-diamond-sparkle-more",
+    "title": "Schittert een natuurlijke diamant meer?",
+    "paragraphs": [
+      "Niet omdat het natuurlijk is.",
+      "De oorsprong van het kristal bepaalt niet automatisch de schittering, het vuur of de scintillatie. De slijpkwaliteit en proporties hebben een veel grotere invloed op de manier waarop de geslepen diamant met licht omgaat.",
+      "Een goed geslepen diamant die in een laboratorium is gekweekt, kan helderder lijken dan een slecht geslepen natuurlijke diamant.",
+      "Een goed geslepen natuurlijke diamant kan helderder lijken dan een slecht geslepen in het laboratorium gekweekte diamant."
+    ],
+    "closing": [
+      "De juiste vergelijking is tussen de daadwerkelijke stenen – niet alleen tussen de categorienamen."
     ]
   },
   "tellApart": {
@@ -840,6 +857,19 @@
         "question": "Is moissanite een in het laboratorium gekweekte diamant?",
         "answer": "Nee. Moissanite is siliciumcarbide en is een diamantsimulant. Een in een laboratorium gekweekte diamant is diamantmateriaal met een gefabriceerde oorsprong."
       }
+    ]
+  },
+  "finalTakeaway": {
+    "id": "final-takeaway",
+    "title": "Laatste conclusie",
+    "paragraphs": [
+      "Natuurlijke en in het laboratorium gekweekte diamanten zijn beide diamantmaterialen, maar vormen verschillende producten vanwege hun verschillende oorsprong en toeleveringsstructuren.",
+      "Een natuurlijke diamant biedt een geologische oorsprong en een van nature beperkt aanbod.",
+      "Een in een laboratorium gekweekte diamant heeft een vervaardigde oorsprong en doorgaans een lagere initiële aankoopprijs.",
+      "Geen van beide herkomsten bepaalt automatisch schoonheid, ethiek, duurzaamheid of waarde.",
+      "Controleer voordat u kiest de identiteit, het rapport, eventuele behandelingen, de slijpvorm, afmetingen, visuele uitstraling, prijs en verkoper van de diamant. Vraag om bewijs ter onderbouwing van claims over het milieu, de herkomst en de toekomstige waarde.",
+      "De beste keuze is niet automatisch de grootste, duurste of hoogst gegradeerde steen.",
+      "Het is de diamant waarvan de herkomst, kwaliteit, documentatie, prijs en betekenis overeenkomen met wat de koper echt belangrijk vindt."
     ]
   }
 }

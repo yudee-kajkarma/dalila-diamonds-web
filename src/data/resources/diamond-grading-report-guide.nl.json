@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Gids voor het diamant grading rapport | Dalila Diamonds",
-    "description": "Begrijp diamant grading rapporten, verifieer rapportnummers, vergelijk de 4C's, verhoudingen en fluorescentie, en controleer een natuurlijke diamant vóór aankoop.",
+    "description": "Leer hoe u een diamant grading rapport leest en verifieert, de 4Cs begrijpt en vóór aankoop vaststelt wat een certificaat u wel en niet kan vertellen.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Gids voor het diamant grading rapport voor kopers van natuurlijke diamanten",
     "subheading": "Begrijp elk onderdeel van een diamant grading rapport, verifieer het rapportnummer en vergelijk de kwaliteit van een natuurlijke diamant vóór aankoop.",
     "reviewDateLabel": "Laatst bijgewerkt:",
-    "reviewDate": "30 juli 2026"
+    "reviewDate": "6 september 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "Wat een diamant grading rapport is"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "Is een diamantcertificaat hetzelfde?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Of een laserinscriptie aanwezig is"
     ],
     "closingParagraphs": [
-      "Het Gemological Institute of America gebruikt de term \"grading report\" in plaats van \"certificate\". De rapporten van GIA bevatten technische informatie over een diamant, maar zijn geen taxaties of garanties van monetaire waarde.",
-      "\"Diamantcertificaat\" blijft een veelgebruikte zoekterm, daarom worden beide uitdrukkingen in deze gids gebruikt.",
       "De eenvoudigste manier om het te begrijpen",
       "Een grading rapport is de technische beschrijving van de diamant. Het is geen prijskaartje, geen herverkoopwaardering en geen volledige koopaanbeveling."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "Is een diamantcertificaat hetzelfde?",
+    "introParagraphs": [
+      "\"Diamond certificate\" is gangbare klantentaal en een veelgebruikte zoekterm. Laboratoria kunnen verschillende terminologie gebruiken, maar GIA noemt zijn document doorgaans een grading report in plaats van een certificate.",
+      "Dit onderscheid is belangrijk omdat het woord \"certificate\" als een garantie kan klinken. Een grading report legt de bevindingen van het laboratorium vast voor het onderzochte item, overeenkomstig diens procedures. Kopers dienen de voorwaarden van het uitgevende laboratorium en het exacte type rapport te lezen, in plaats van ervan uit te gaan dat elk document dezelfde informatie of juridische zekerheid biedt."
     ]
   },
   "whyMatter": {

@@ -482,18 +482,18 @@ export default function DiamondGradingGuide({ locale = "en" }: DiamondGradingGui
               bullets: data.whatIs.establishItems,
               children: (
                 <>
-                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-2 ${jost.className}`}>
-                    {data.whatIs.closingParagraphs[0]}
-                  </p>
+                  <Subheading>{data.whatIs.closingParagraphs[0]}</Subheading>
                   <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
                     {data.whatIs.closingParagraphs[1]}
                   </p>
-                  <Subheading>{data.whatIs.closingParagraphs[2]}</Subheading>
-                  <p className={`text-gray-700 text-base md:text-lg leading-relaxed mb-6 ${jost.className}`}>
-                    {data.whatIs.closingParagraphs[3]}
-                  </p>
                 </>
               ),
+            })}
+
+            {renderSection({
+              id: data.certificate.id,
+              title: data.certificate.title,
+              paragraphsBefore: data.certificate.introParagraphs,
             })}
 
             {renderSection({

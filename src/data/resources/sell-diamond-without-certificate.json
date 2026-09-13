@@ -537,7 +537,7 @@
     "primaryCtaText": "VALUE MY DIAMOND WITHOUT A CERTIFICATE",
     "primaryCtaHref": "#uncertified-diamond-form-bottom",
     "secondaryCtaText": "BOOK A PRIVATE ANTWERP EVALUATION",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "idTop": "uncertified-diamond-form-top",
@@ -704,7 +704,7 @@
     "secondaryButtonHref": "/contact"
   },
   "internalLinks": {
-    "sellPage": { "href": "/sud", "text": "sell your diamond in Antwerp" },
+    "sellPage": { "href": "/sell-your-diamond", "text": "sell your diamond in Antwerp" },
     "valuationCalculator": { "href": "/resources/diamond-valuation-calculator", "text": "diamond valuation calculator" },
     "whereToSell": { "href": "/resources/where-to-sell-diamond-ring", "text": "where to sell a diamond ring" },
     "howToSell": { "href": "/resources/how-to-sell-diamond-ring", "text": "sell a diamond ring safely" },

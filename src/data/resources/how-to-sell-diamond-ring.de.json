@@ -824,11 +824,11 @@
     "primaryButtonText": "Fordern Sie meine private Diamantringbewertung an",
     "primaryButtonHref": "#secure-evaluation-form",
     "secondaryButtonText": "BUCHEN SIE EINEN PRIVATEN TERMIN IN ANTWERPEN",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "Verkaufen Sie Ihren Diamanten sicher in Antwerpen"
     },
     "valuationCalculator": {

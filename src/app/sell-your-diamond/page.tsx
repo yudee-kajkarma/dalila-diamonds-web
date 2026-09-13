@@ -6,6 +6,7 @@ import SydListSection from "@/components/pages/sell-your-diamond/syd/SydListSect
 import SydProcess from "@/components/pages/sell-your-diamond/syd/SydProcess";
 import SydValuation from "@/components/pages/sell-your-diamond/syd/SydValuation";
 import SydWhyAntwerp from "@/components/pages/sell-your-diamond/syd/SydWhyAntwerp";
+import SydSafetySection from "@/components/pages/sell-your-diamond/syd/SydSafetySection";
 import SydAppointments from "@/components/pages/sell-your-diamond/syd/SydAppointments";
 import SydSubmitSection from "@/components/pages/sell-your-diamond/syd/SydSubmitSection";
 import SydFaq from "@/components/pages/sell-your-diamond/syd/SydFaq";
@@ -66,7 +67,9 @@ export default function SellYourDiamondPage() {
         <SydWhyAntwerp content={content.whyAntwerp} />
         <SydListSection content={content.prepare} variant="white" />
         <SydTextSection content={content.withoutCertificate} variant="gray" />
+        <SydSafetySection content={content.sellSafely} variant="white" />
         <SydAppointments content={content.appointments} />
+        <SydTextSection content={content.sellingFromEurope} variant="gray" />
         <SydFaq content={content.faqs} />
         <SydSubmitSection content={content.submitSection} />
         <div id="diamond-estimate-form">

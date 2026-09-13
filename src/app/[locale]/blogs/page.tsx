@@ -3,7 +3,6 @@ import { marcellus, jost } from "@/lib/fonts";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import { blogToSlug, getLocalizedBlogList } from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
-import { getStaticBlogCards, isStaticBlogSlug } from "@/lib/staticBlogs";
 import type { Locale } from "@/lib/i18n/config";
 import BlogAdminBar from "@/app/blogs/BlogAdminBar";
 import BlogsListing, {
@@ -23,25 +22,16 @@ export default async function Page({ params }: Props) {
   const locale = (localeParam || "en") as Locale;
 
   const blogLanguage = toBlogLanguage(locale);
-  const [apiBlogs, staticBlogs] = await Promise.all([
-    getLocalizedBlogList(blogLanguage),
-    Promise.resolve(getStaticBlogCards(locale)),
-  ]);
+  // Every article now comes from the CMS, including the seven that used to be
+  // hardcoded, so there is no static set to merge and no filter hiding them.
+  const apiBlogs = await getLocalizedBlogList(blogLanguage);
 
   const localizedPath = (path: string) => {
     if (!locale || locale === "en") return path;
     return `/${locale}${path}`;
   };
 
-  const staticItems: BlogListingItem[] = staticBlogs.map((blog) => ({
-    id: blog.id,
-    href: localizedPath(blog.path),
-    title: blog.title,
-    featuredImage: blog.featuredImage,
-  }));
-
   const apiItems: BlogListingItem[] = apiBlogs
-    .filter((blog) => !isStaticBlogSlug(blogToSlug(blog)))
     .map((blog) => {
       const slug = blogToSlug(blog);
       return {
@@ -65,11 +55,11 @@ export default async function Page({ params }: Props) {
       };
     });
 
-  const allItems = [...staticItems, ...apiItems];
+  const allItems = apiItems;
 
   return (
     <div className="bg-white min-h-screen">
-      <ArticlesBanner />
+      <ArticlesBanner asPageHeading />
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-7xl">
           <BlogAdminBar />

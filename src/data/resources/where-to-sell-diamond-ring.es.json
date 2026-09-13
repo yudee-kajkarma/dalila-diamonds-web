@@ -546,7 +546,7 @@
       "Dalila Diamonds permite a los vendedores comenzar en línea enviando la información de calificación y las fotografías disponibles. Si el anillo es adecuado para una evaluación adicional, se puede discutir el siguiente paso antes de concertar una cita privada en Amberes."
     ],
     "ctaText": "VENDER MI ANILLO DE DIAMANTES EN AMBERES",
-    "ctaHref": "/sud"
+    "ctaHref": "/sell-your-diamond"
   },
   "dalilaProcess": {
     "id": "dalila-process",
@@ -646,11 +646,11 @@
     "primaryButtonText": "ENVIAR MI ANILLO DE DIAMANTES PARA SU VALORACIÓN",
     "primaryButtonHref": "#ring-valuation-form-bottom",
     "secondaryButtonText": "RESERVAR UNA CITA PRIVADA EN AMBERES",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "vende tu diamante en Amberes"
     },
     "valuationCalculator": {
@@ -658,7 +658,7 @@
       "text": "calculadora de valoración de diamantes"
     },
     "sellSafely": {
-      "href": "/sell-your-diamond-safely",
+      "href": "/sell-your-diamond",
       "text": "cómo vender un anillo de diamantes de forma segura"
     },
     "withoutCert": {

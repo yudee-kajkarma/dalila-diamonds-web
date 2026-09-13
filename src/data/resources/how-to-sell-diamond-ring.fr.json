@@ -824,11 +824,11 @@
     "primaryButtonText": "DEMANDER MON ÉVALUATION PRIVÉE DE BAGUE EN DIAMANT",
     "primaryButtonHref": "#secure-evaluation-form",
     "secondaryButtonText": "PRENDRE RENDEZ-VOUS PRIVÉ À ANVERS",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "vendez votre diamant en toute sécurité à Anvers"
     },
     "valuationCalculator": {

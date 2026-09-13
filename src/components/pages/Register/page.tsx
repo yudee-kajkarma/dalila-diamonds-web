@@ -47,8 +47,13 @@ export default function RegisterPage() {
         }
     };
 
-    const [firstName, setFirstName] = useState<string>("");
-    const [lastName, setLastName] = useState<string>("");
+    // First and last name are deliberately not asked for here.
+    //
+    // They used to be, and were required to submit, but the API accepts only
+    // username, email and password - the names were dropped on arrival and no
+    // user record has ever stored one. The customer details form after OTP
+    // asks again and saves them properly, so the question is asked once, where
+    // the answer survives.
     const [username, setUsername] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [password, setPassword] = useState<string>("");
@@ -67,16 +72,6 @@ export default function RegisterPage() {
         setError("");
 
         // Check all fields are filled
-        if (!firstName.trim()) {
-            setError(dictionary?.auth?.firstNameRequired || "First name is required");
-            return false;
-        }
-
-        if (!lastName.trim()) {
-            setError(dictionary?.auth?.lastNameRequired || "Last name is required");
-            return false;
-        }
-
         if (!username.trim()) {
             setError(dictionary?.auth?.usernameRequired || "Username is required");
             return false;
@@ -146,8 +141,6 @@ export default function RegisterPage() {
                 username: username.trim(),
                 email: email.trim(),
                 password: password,
-                firstName: firstName.trim(),
-                lastName: lastName.trim(),
             });
 
             if (response && response.success) {
@@ -168,6 +161,28 @@ export default function RegisterPage() {
             }
         } catch (err: unknown) {
             console.error("Registration error:", err);
+
+            // register() now throws ApiRequestError, so the message is the
+            // server's own sentence and the status travels with it.
+            const status = (err as { status?: number })?.status;
+
+            // Not a failure. A signup is already in flight for this address
+            // and its code is still live, so there is nothing to correct on
+            // this form - the user needs the verification page, where the code
+            // goes and where Resend OTP is. Shown as a notice and followed by
+            // a redirect rather than reported as an error, because from the
+            // user's side nothing has gone wrong. The page requires the email
+            // in the query string or it sends them straight back here.
+            if (status === 409) {
+                setError("");
+                setSuccess(getAuthText("otpAlreadySent", locale));
+                setTimeout(() => {
+                    router.push(
+                        localizedPath(`/verify-otp?email=${encodeURIComponent(email.trim())}`)
+                    );
+                }, 1500);
+                return;
+            }
 
             if (err instanceof Error) {
                 const errorMessage = err.message;
@@ -317,42 +332,6 @@ export default function RegisterPage() {
                                     {error}
                                 </div>
                             )}
-
-                            {/* First Name */}
-                            <div className="mb-4">
-                                <input
-                                    type="text"
-                                    value={firstName}
-                                    onChange={(e) =>
-                                        setFirstName(e.target.value)
-                                    }
-                                    required
-                                    ref={handleRequiredInput}
-                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
-                                    disabled={isLoading}
-                                    placeholder={dictionary?.auth?.firstName || "First Name"}
-                                    className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-                                    autoComplete="given-name"
-                                />
-                            </div>
-
-                            {/* Last Name */}
-                            <div className="mb-4">
-                                <input
-                                    type="text"
-                                    value={lastName}
-                                    onChange={(e) =>
-                                        setLastName(e.target.value)
-                                    }
-                                    required
-                                    ref={handleRequiredInput}
-                                    onInput={(e) => handleRequiredInput(e.target as HTMLInputElement)}
-                                    disabled={isLoading}
-                                    placeholder={dictionary?.auth?.lastName || "Last Name"}
-                                    className="w-full px-5 py-3 rounded-lg bg-white border border-gray-300 focus:border-[#FFD166] text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FFD166] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-                                    autoComplete="family-name"
-                                />
-                            </div>
 
                             {/* Username */}
                             <div className="mb-4">

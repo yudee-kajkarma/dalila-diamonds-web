@@ -630,7 +630,7 @@
     "primaryCtaText": "VALORAR MI DIAMANTE SIN CERTIFICADO",
     "primaryCtaHref": "#uncertified-diamond-form-bottom",
     "secondaryCtaText": "RESERVAR UNA EVALUACIÓN PRIVADA DE AMBERES",
-    "secondaryCtaHref": "/sud"
+    "secondaryCtaHref": "/sell-your-diamond"
   },
   "form": {
     "idTop": "tapa-con-forma-de-diamante-sin-certificar",
@@ -845,7 +845,7 @@
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "vende tu diamante en Amberes"
     },
     "valuationCalculator": {

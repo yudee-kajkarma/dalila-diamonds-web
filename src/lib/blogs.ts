@@ -12,11 +12,32 @@ export type BackendBlog = {
   translationGroupId?: string;
   metaTitle?: string;
   metaDescription?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  excerpt?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
+  emitFaqSchema?: boolean;
   description?: string;
   content?: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
   createdAt?: string;
   updatedAt?: string;
+  /** Absent means published. Only an explicit 'draft' hides an article. */
+  status?: 'draft' | 'published';
+  /** Absent means human-supplied; only generated versions carry a flag. */
+  translationStatus?: 'machine' | 'reviewed';
+  /** Fingerprint of this document's own body, refreshed on every save. */
+  contentHash?: string;
+  /** For a translation: the fingerprint of the English body it came from. */
+  sourceContentHash?: string;
 };
 
 type BlogsApiResponse = {
@@ -94,6 +115,98 @@ export const getAllBlogsUnfiltered = cache(async (): Promise<BackendBlog[]> => {
   }
 });
 
+/**
+ * Every blog document, read fresh on each request.
+ *
+ * The admin dashboard must never show a version of the data that predates an
+ * edit or a duplicate resolution, so this deliberately opts out of the Data
+ * Cache that getAllBlogsUnfiltered relies on. React's cache() still dedupes it
+ * within a single render.
+ */
+/**
+ * Words carrying no topical signal when matching one article to another.
+ * "diamond" is in here deliberately: it appears in nearly every title on this
+ * site, so leaving it in would make everything look related to everything.
+ */
+const RELATED_STOPWORDS = new Set([
+  'a','an','the','and','or','but','for','of','to','in','on','at','by','with','from',
+  'is','are','was','be','been','it','its','this','that','these','those','you','your',
+  'what','which','how','why','when','where','who','should','can','do','does','vs',
+  'versus','guide','complete','ultimate','best','top','explained','everything',
+  'about','need','know','buying','buyer','buyers','dalila','diamond','diamonds',
+]);
+
+function topicalWords(blog: BackendBlog): Set<string> {
+  const source = [
+    blog.title || '',
+    blog.primaryKeyword || '',
+    (blog.secondaryKeywords || []).join(' '),
+  ].join(' ');
+
+  return new Set(
+    source
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, ' ')
+      .split(/[\s-]+/)
+      .filter((word) => word.length > 2 && !RELATED_STOPWORDS.has(word)),
+  );
+}
+
+/**
+ * Pick a handful of genuinely related articles for the sidebar.
+ *
+ * The sidebar used to list every article, which put ~130 links on each of 627
+ * pages. The content packages call for four to six related guides instead, both
+ * to stop diluting internal linking and because a catalogue is not navigation.
+ *
+ * There is no category or tag field to match on, so relatedness is scored from
+ * words shared between titles and target keywords. Articles with nothing in
+ * common fall back to the most recent, so the sidebar is never empty.
+ */
+export function selectRelatedBlogs(
+  current: BackendBlog,
+  all: BackendBlog[],
+  limit = 5,
+): BackendBlog[] {
+  const currentSlug = blogToSlug(current);
+  const currentWords = topicalWords(current);
+
+  const candidates = all.filter((blog) => blogToSlug(blog) !== currentSlug);
+
+  const scored = candidates.map((blog) => {
+    let overlap = 0;
+    for (const word of topicalWords(blog)) {
+      if (currentWords.has(word)) overlap += 1;
+    }
+    return { blog, overlap };
+  });
+
+  const related = scored
+    .filter((entry) => entry.overlap > 0)
+    .sort((a, b) => {
+      if (b.overlap !== a.overlap) return b.overlap - a.overlap;
+      // Same relevance: prefer the more recently published.
+      const aDate = a.blog.datePublished || a.blog.createdAt || '';
+      const bDate = b.blog.datePublished || b.blog.createdAt || '';
+      return bDate.localeCompare(aDate);
+    })
+    .map((entry) => entry.blog);
+
+  if (related.length >= limit) return related.slice(0, limit);
+
+  // Top up with the newest articles not already chosen.
+  const chosen = new Set(related.map((blog) => blogToSlug(blog)));
+  const filler = candidates
+    .filter((blog) => !chosen.has(blogToSlug(blog)))
+    .sort((a, b) => {
+      const aDate = a.datePublished || a.createdAt || '';
+      const bDate = b.datePublished || b.createdAt || '';
+      return bDate.localeCompare(aDate);
+    });
+
+  return [...related, ...filler].slice(0, limit);
+}
+
 export const getBlogById = cache(async (id: string): Promise<BackendBlog | null> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/blogs/${id}`, {
@@ -111,32 +224,60 @@ export const getBlogById = cache(async (id: string): Promise<BackendBlog | null>
   }
 });
 
+type BlogBySlugResponse = {
+  data?: BackendBlog;
+  servedLanguage?: string;
+  isFallback?: boolean;
+};
+
+/**
+ * Resolve one article from its slug.
+ *
+ * This used to download every blog and match the slug in memory, because the
+ * API had no slug lookup - so rendering a single article pulled the whole
+ * collection, then fetched the matched document again by id for its body. The
+ * query now runs in the database and returns the full document in one call.
+ *
+ * The endpoint also applies the English fallback, so an article that exists
+ * only in English still renders on a localised route.
+ */
+const fetchBlogBySlug = cache(async (
+  slug: string,
+  language: BlogLanguage,
+): Promise<{ blog: BackendBlog | null; servedLanguage: BlogLanguage; isFallback: boolean }> => {
+  const target = normalizeSlug(slug);
+  const empty = { blog: null, servedLanguage: language, isFallback: false };
+  if (!target) return empty;
+
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/blogs/by-slug?slug=${encodeURIComponent(target)}&language=${language}`,
+      { next: { revalidate: BLOG_REVALIDATE_SECONDS } },
+    );
+
+    if (!response.ok) {
+      return empty;
+    }
+
+    const payload = (await response.json()) as BlogBySlugResponse;
+    if (!payload.data) return empty;
+
+    return {
+      blog: payload.data,
+      servedLanguage: (payload.servedLanguage as BlogLanguage) || language,
+      isFallback: Boolean(payload.isFallback),
+    };
+  } catch {
+    return empty;
+  }
+});
+
 export const getBlogBySlug = cache(async (
   slug: string,
   language: BlogLanguage = 'en',
 ): Promise<BackendBlog | null> => {
-  const target = normalizeSlug(slug);
-
-  // Use the unfiltered pool so legacy articles (no language field in DB) are
-  // never excluded. Pick the best language version in-memory.
-  const all = await getAllBlogsUnfiltered();
-
-  // Separate docs matching the target slug (by base slug, language-prefix stripped)
-  const candidates = all.filter((blog) => blogToSlug(blog) === target);
-  if (candidates.length === 0) return null;
-
-  // Prefer the requested language, then English, then any version present.
-  const pick =
-    candidates.find((b) => b.language === language) ??
-    candidates.find((b) => b.language === 'en' || !b.language) ??
-    candidates[0];
-
-  if (!pick._id) return pick;
-
-  // The list response omits content/description for performance; fetch the
-  // full document by id so the detail page has the article body.
-  const full = await getBlogById(pick._id);
-  return full ?? pick;
+  const { blog } = await fetchBlogBySlug(slug, language);
+  return blog;
 });
 
 export type LocalizedBlogResult = {
@@ -156,21 +297,10 @@ export const getLocalizedBlogBySlug = cache(async (
   slug: string,
   language: BlogLanguage = 'en',
 ): Promise<LocalizedBlogResult> => {
-  const localized = await getBlogBySlug(slug, language);
-  if (localized) {
-    return { blog: localized, isFallback: false, language };
-  }
-
-  if (language === 'en') {
-    return { blog: null, isFallback: false, language };
-  }
-
-  const english = await getBlogBySlug(slug, 'en');
-  return {
-    blog: english,
-    isFallback: Boolean(english),
-    language: 'en',
-  };
+  // The endpoint applies the English fallback itself and reports whether it
+  // did, so this no longer needs a second request to find out.
+  const { blog, servedLanguage, isFallback } = await fetchBlogBySlug(slug, language);
+  return { blog, isFallback, language: servedLanguage };
 });
 
 /**
@@ -245,3 +375,55 @@ export const getLocalizedBlogList = cache(async (
 
   return result;
 });
+
+/**
+ * Routes that exist only at the top level, with no [locale] counterpart.
+ *
+ * Prefixing a link to one of these would send a reader to a 404, so they stay
+ * as they are and a non-English reader follows them into English.
+ */
+const ROUTES_WITHOUT_LOCALE = ['downloads', 'limitedEdition', 'sitemap', 'sitemap.xml', 'spec-requests'];
+
+/**
+ * Point an article's internal links at the reader's own language.
+ *
+ * Article bodies are stored with unprefixed paths - /blogs/some-guide - and
+ * injected as raw HTML, so a reader on /nl/blogs/... used to follow every
+ * internal link straight out of Dutch and into English. There were 809 such
+ * links across the translations.
+ *
+ * Rewriting happens here rather than in the stored content on purpose. The
+ * database keeps one canonical body per language, a re-translation cannot undo
+ * the work, and every future article is covered without anyone remembering to.
+ *
+ * A blog link is only localised when that article really exists in the
+ * language. Prefixing one that does not would turn a working cross-language
+ * link into a 404, and landing on the English article is the better failure.
+ */
+export function localizeContentLinks(
+  html: string,
+  locale: string,
+  availableBlogSlugs: ReadonlySet<string>,
+): string {
+  if (!html || !locale || locale === 'en') return html;
+
+  return html.replace(/href="(\/[^"#]*)"/g, (whole, rawPath: string) => {
+    const path = rawPath.replace(/\/+$/, '') || '/';
+
+    // Already localised, or a path that is not a page.
+    if (new RegExp(`^/${locale}(/|$)`).test(path)) return whole;
+    if (path.startsWith('/_') || path.startsWith('/api/')) return whole;
+
+    const [first] = path.slice(1).split('/');
+    if (!first || ROUTES_WITHOUT_LOCALE.includes(first)) return whole;
+
+    if (first === 'blogs') {
+      const slug = path.slice('/blogs/'.length);
+      // The listing itself is always available; an article only when
+      // this language actually has it.
+      if (slug && !availableBlogSlugs.has(normalizeSlug(slug))) return whole;
+    }
+
+    return `href="/${locale}${path}"`;
+  });
+}

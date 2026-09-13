@@ -47,12 +47,19 @@ export interface LoginCredentials {
 }
 
 // Registration data
+/**
+ * What POST /users/register actually accepts.
+ *
+ * firstName and lastName used to be here and were sent, but the API reads
+ * only these three fields and the User schema has no top-level name at all -
+ * every name typed on the registration form was discarded on arrival, across
+ * all 19 accounts. The customer details form asks again after OTP and stores
+ * them under customerData, so the question is asked once, where it sticks.
+ */
 export interface RegistrationData {
   username: string;
   email: string;
   password: string;
-  firstName: string;
-  lastName: string;
 }
 
 // Auth response
@@ -113,6 +120,29 @@ export interface Blog {
   /** Links this article's language versions; absent on pre-grouping blogs. */
   translationGroupId?: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
+  canonicalUrl?: string;
+  metaRobots?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  breadcrumbTitle?: string;
+  lastReviewedAt?: string;
+  datePublished?: string;
+  excerpt?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
+  emitFaqSchema?: boolean;
+  /** Absent means published. Only an explicit 'draft' hides an article. */
+  status?: "draft" | "published";
+  /** Absent means human-supplied; only generated versions carry a flag. */
+  translationStatus?: "machine" | "reviewed";
+  previousContent?: string;
+  /** Fingerprint of this document's own body, refreshed on every save. */
+  contentHash?: string;
+  /** For a translation: the fingerprint of the English body it came from. */
+  sourceContentHash?: string;
+
   description: string; 
   content?: string; 
   metaTitle?: string; 

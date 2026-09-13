@@ -4,13 +4,17 @@ import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Link from "@tiptap/extension-link";
 import Placeholder from "@tiptap/extension-placeholder";
-import { useEffect, useState } from "react";
+import { TableKit } from "@tiptap/extension-table";
+import { Details, DetailsContent, DetailsSummary } from "@tiptap/extension-details";
+import { EditorImage } from "@/components/shared/editor/EditorImage";
+import InputDialog from "@/components/shared/InputDialog";
+import toast from "react-hot-toast";
+import { useEffect, useRef, useState } from "react";
 import {
   Bold,
   Italic,
   List,
   ListOrdered,
-  Heading1,
   Heading2,
   Heading3,
   Quote,
@@ -18,7 +22,15 @@ import {
   Redo,
   Link as LinkIcon,
   MousePointerClick,
+  ImagePlus,
+  Loader2,
+  Table as TableIcon,
+  ChevronDown,
+  Rows3,
+  Columns3,
+  Trash,
 } from "lucide-react";
+import { blogApi } from "@/lib/api";
 
 interface RichTextEditorProps {
   value: string;
@@ -26,6 +38,37 @@ interface RichTextEditorProps {
   placeholder?: string;
   disabled?: boolean;
   className?: string;
+  /** Set false where no blog image upload endpoint applies. */
+  allowImageUpload?: boolean;
+  /**
+   * Height of the scrollable writing area. The default suits a compact form;
+   * the full-page editor passes a much taller value so long articles can be
+   * read without scrolling inside a small box.
+   */
+  heightClass?: string;
+  /**
+   * Pixels from the viewport top where the toolbar parks when the page
+   * scrolls. The default assumes the editor sits at the top of its own scroll
+   * context; the full-page editor measures the site header and its own action
+   * bar and passes their combined height.
+   */
+  toolbarTop?: number;
+}
+
+/**
+ * The page template already owns the single <h1> (the article title), so body
+ * content must never contain one. Authors paste these articles in from Google
+ * Docs, where every section heading arrives as an <h1> — that is how ~90 H1s
+ * per article ended up in the database. Removing the toolbar button is not
+ * enough on its own; this demotes any h1 that arrives by paste or by loading a
+ * not-yet-migrated article.
+ *
+ * Keep in sync with demoteH1 in backend-dalila/server/scripts/demote-blog-h1.ts
+ */
+export function demoteH1InHtml(html: string): string {
+  return html
+    .replace(/<h1(\s[^>]*)?>/gi, (_m, attrs) => `<h2${attrs || ""}>`)
+    .replace(/<\/h1\s*>/gi, "</h2>");
 }
 
 export default function RichTextEditor({
@@ -34,10 +77,23 @@ export default function RichTextEditor({
   placeholder = "Start writing...",
   disabled = false,
   className = "",
+  allowImageUpload = true,
+  heightClass = "max-h-96",
+  toolbarTop,
 }: RichTextEditorProps) {
   const [showCtaModal, setShowCtaModal] = useState(false);
   const [ctaText, setCtaText] = useState("");
   const [ctaUrl, setCtaUrl] = useState("");
+  const [isUploadingImage, setIsUploadingImage] = useState(false);
+  const imageInputRef = useRef<HTMLInputElement | null>(null);
+  const [showLinkDialog, setShowLinkDialog] = useState(false);
+  // Held while an image waits for its alt text: either a freshly uploaded URL
+  // to insert, or an existing image whose alt is being edited.
+  const [pendingImageUrl, setPendingImageUrl] = useState<string | null>(null);
+  const [altTextRequest, setAltTextRequest] = useState<{
+    current: string;
+    apply: (next: string) => void;
+  } | null>(null);
 
   const editor = useEditor({
     extensions: [
@@ -51,24 +107,55 @@ export default function RichTextEditor({
       Placeholder.configure({
         placeholder,
       }),
+      // Without this node TipTap has no schema entry for <img>, so it silently
+      // strips every image out of existing content the moment an article is
+      // opened for editing. The node view adds Remove and Alt text controls,
+      // so an image no longer has to be deleted with Backspace.
+      // Tables and collapsible blocks exist because the static articles being
+      // moved into the CMS use both. Without the schema nodes for them, TipTap
+      // silently strips the markup the first time an article is opened - the
+      // same way it was stripping images before the image node was added.
+      TableKit.configure({
+        table: { resizable: true, HTMLAttributes: { class: "blog-content-table" } },
+      }),
+      // Renders as <details>/<summary>, so an FAQ entry stays collapsible on
+      // the published page without any client JavaScript.
+      Details.configure({
+        persist: true,
+        HTMLAttributes: { class: "blog-content-details" },
+      }),
+      DetailsSummary,
+      DetailsContent,
+      EditorImage.configure({
+        inline: false,
+        allowBase64: false,
+        HTMLAttributes: { class: "blog-content-image" },
+        onRequestAltText: (current, apply) => {
+          setAltTextRequest({ current, apply });
+        },
+      }),
     ],
     content: value,
     editable: !disabled,
     immediatelyRender: false,
     onUpdate: ({ editor }) => {
-      onChange(editor.getHTML());
+      onChange(demoteH1InHtml(editor.getHTML()));
     },
   });
 
   useEffect(() => {
-    if (editor && value !== editor.getHTML()) {
-      editor.commands.setContent(value);
+    if (!editor) return;
+    // Demote on the way in too, so opening a not-yet-migrated article shows the
+    // corrected hierarchy immediately rather than only after the first keystroke.
+    const normalized = demoteH1InHtml(value);
+    if (normalized !== editor.getHTML()) {
+      editor.commands.setContent(normalized);
     }
   }, [value, editor]);
 
   const insertCtaButton = () => {
     if (!ctaText.trim() || !ctaUrl.trim()) {
-      alert("Please enter both button text and URL");
+      toast.error("Enter both the button text and the URL.");
       return;
     }
 
@@ -85,11 +172,56 @@ export default function RichTextEditor({
     }
   };
 
-  const addLink = () => {
-    const url = window.prompt("Enter URL:");
+  const applyLink = (url: string) => {
+    setShowLinkDialog(false);
     if (url) {
       editor?.chain().focus().setLink({ href: url }).run();
     }
+  };
+
+  /**
+   * Upload an in-body image and insert it at the cursor.
+   *
+   * Alt text is prompted for rather than optional: an image with no alt is an
+   * accessibility failure and every SEO content package requires one.
+   */
+  const handleImageSelect = async (
+    event: React.ChangeEvent<HTMLInputElement>,
+  ) => {
+    const input = event.target;
+    const file = input.files?.[0];
+    if (!file || !editor) return;
+
+    if (file.size > 10 * 1024 * 1024) {
+      toast.error("Image must be smaller than 10MB.");
+      input.value = "";
+      return;
+    }
+
+    setIsUploadingImage(true);
+    try {
+      const url = await blogApi.uploadImage(file);
+      // Ask for alt text before inserting, so an image never lands without it.
+      setPendingImageUrl(url);
+    } catch (error) {
+      toast.error(
+        error instanceof Error ? error.message : "Failed to upload image.",
+      );
+    } finally {
+      setIsUploadingImage(false);
+      input.value = "";
+    }
+  };
+
+  const insertPendingImage = (alt: string) => {
+    if (pendingImageUrl && editor) {
+      editor
+        .chain()
+        .focus()
+        .setImage({ src: pendingImageUrl, alt: alt || undefined })
+        .run();
+    }
+    setPendingImageUrl(null);
   };
 
   if (!editor) {
@@ -99,7 +231,10 @@ export default function RichTextEditor({
   return (
     <div className={`border border-gray-300 rounded-none bg-white ${className}`}>
       {/* Toolbar - Sticky at top of editor */}
-      <div className="sticky top-0 z-10 flex flex-wrap items-center gap-1 p-2 border-b border-gray-300 bg-gray-50">
+      <div
+        className="sticky top-0 z-10 flex flex-wrap items-center gap-1 p-2 border-b border-gray-300 bg-gray-50"
+        style={toolbarTop === undefined ? undefined : { top: `${toolbarTop}px` }}
+      >
         <button
           type="button"
           onClick={() => editor.chain().focus().toggleBold().run()}
@@ -126,20 +261,8 @@ export default function RichTextEditor({
 
         <div className="w-px h-8 bg-gray-300 mx-1"></div>
 
-        <button
-          type="button"
-          onClick={() =>
-            editor.chain().focus().toggleHeading({ level: 1 }).run()
-          }
-          disabled={disabled}
-          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
-            editor.isActive("heading", { level: 1 }) ? "bg-gray-300 text-gray-900" : ""
-          } ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
-          title="Heading 1"
-        >
-          <Heading1 size={18} className="text-gray-700" />
-        </button>
-
+        {/* No H1 button: the article title in the page template is the page's
+            single H1. Body headings start at H2. */}
         <button
           type="button"
           onClick={() =>
@@ -210,7 +333,7 @@ export default function RichTextEditor({
 
         <button
           type="button"
-          onClick={addLink}
+          onClick={() => setShowLinkDialog(true)}
           disabled={disabled}
           className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
             editor.isActive("link") ? "bg-gray-300 text-gray-900" : ""
@@ -219,6 +342,99 @@ export default function RichTextEditor({
         >
           <LinkIcon size={18} className="text-gray-700" />
         </button>
+
+        <button
+          type="button"
+          onClick={() =>
+            editor
+              .chain()
+              .focus()
+              .insertTable({ rows: 3, cols: 3, withHeaderRow: true })
+              .run()
+          }
+          disabled={disabled}
+          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
+            disabled ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+          title="Insert table"
+        >
+          <TableIcon size={18} className="text-gray-700" />
+        </button>
+
+        {/* Row and column controls only mean anything inside a table, so they
+            appear once the caret is in one. */}
+        {editor.isActive("table") && (
+          <>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().addRowAfter().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-gray-700"
+              title="Add row"
+            >
+              <Rows3 size={18} className="text-gray-700" />
+            </button>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().addColumnAfter().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-gray-700"
+              title="Add column"
+            >
+              <Columns3 size={18} className="text-gray-700" />
+            </button>
+            <button
+              type="button"
+              onClick={() => editor.chain().focus().deleteTable().run()}
+              disabled={disabled}
+              className="p-2 rounded hover:bg-gray-200 transition-colors text-red-600"
+              title="Delete table"
+            >
+              <Trash size={18} className="text-red-600" />
+            </button>
+          </>
+        )}
+
+        <button
+          type="button"
+          onClick={() => editor.chain().focus().setDetails().run()}
+          disabled={disabled || !editor.can().setDetails()}
+          className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
+            disabled || !editor.can().setDetails() ? "opacity-50 cursor-not-allowed" : ""
+          }`}
+          title="Insert collapsible section (for an FAQ entry)"
+        >
+          <ChevronDown size={18} className="text-gray-700" />
+        </button>
+
+        <div className="w-px h-8 bg-gray-300 mx-1"></div>
+
+        {allowImageUpload && (
+          <>
+            <input
+              ref={imageInputRef}
+              type="file"
+              accept="image/jpeg,image/png,image/webp,image/gif,image/avif"
+              onChange={handleImageSelect}
+              className="hidden"
+            />
+            <button
+              type="button"
+              onClick={() => imageInputRef.current?.click()}
+              disabled={disabled || isUploadingImage}
+              className={`p-2 rounded hover:bg-gray-200 transition-colors text-gray-700 ${
+                disabled || isUploadingImage ? "opacity-50 cursor-not-allowed" : ""
+              }`}
+              title="Insert Image"
+            >
+              {isUploadingImage ? (
+                <Loader2 size={18} className="text-gray-700 animate-spin" />
+              ) : (
+                <ImagePlus size={18} className="text-gray-700" />
+              )}
+            </button>
+          </>
+        )}
 
         <button
           type="button"
@@ -260,12 +476,66 @@ export default function RichTextEditor({
       </div>
 
       {/* Editor Content - Scrollable */}
-      <div className="max-h-96 overflow-y-auto">
+      <div className={`${heightClass} overflow-y-auto`}>
         <EditorContent
           editor={editor}
           className="prose max-w-none p-4 min-h-[200px] bg-white focus:outline-none text-gray-900"
         />
       </div>
+
+      <InputDialog
+        open={showLinkDialog}
+        title="Add a link"
+        description="Paste the destination. Use a full URL for external sites, or a path like /inventory for pages on this site."
+        fields={[
+          {
+            name: "url",
+            label: "Link URL",
+            placeholder: "https://example.com or /inventory",
+            required: true,
+          },
+        ]}
+        submitLabel="Add link"
+        onSubmit={(values) => applyLink(values.url)}
+        onCancel={() => setShowLinkDialog(false)}
+      />
+
+      <InputDialog
+        open={pendingImageUrl !== null}
+        title="Describe this image"
+        description="Alt text is read aloud by screen readers and used by search engines. Write what the image shows, not a list of keywords."
+        fields={[
+          {
+            name: "alt",
+            label: "Alt text",
+            placeholder: "Natural diamond and moissanite shown side by side",
+            helpText: "Leave empty only if the image is purely decorative.",
+          },
+        ]}
+        submitLabel="Insert image"
+        onSubmit={(values) => insertPendingImage(values.alt)}
+        onCancel={() => setPendingImageUrl(null)}
+      />
+
+      <InputDialog
+        open={altTextRequest !== null}
+        title="Edit alt text"
+        description="Describe what this image shows for screen readers and search engines."
+        fields={[
+          {
+            name: "alt",
+            label: "Alt text",
+            placeholder: "Natural diamond and moissanite shown side by side",
+          },
+        ]}
+        initialValues={{ alt: altTextRequest?.current ?? "" }}
+        submitLabel="Save alt text"
+        onSubmit={(values) => {
+          altTextRequest?.apply(values.alt);
+          setAltTextRequest(null);
+        }}
+        onCancel={() => setAltTextRequest(null)}
+      />
 
       {/* CTA Button Modal */}
       {showCtaModal && (

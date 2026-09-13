@@ -8,9 +8,23 @@ import { s3Asset } from "@/lib/s3Assets";
 
 import { useLanguage } from "@/context/LanguageContext";
 
-const ArticlesBanner = () => {
+type ArticlesBannerProps = {
+  /**
+   * Whether the banner label is the page's <h1>.
+   *
+   * Listing pages (/blogs) have no other heading, so the banner is their real
+   * H1. Article pages already render the article title as the H1, so there the
+   * banner must be decorative — emitting an <h1> here is what gave every blog
+   * post a duplicate top-level heading.
+   */
+  asPageHeading?: boolean;
+};
+
+const ArticlesBanner = ({ asPageHeading = false }: ArticlesBannerProps) => {
   const { locale, dictionary } = useLanguage();
-  
+
+  const LabelTag = asPageHeading ? "h1" : "p";
+
   const localizedPath = (path: string) => {
     if (!locale || locale === "en") return path;
     return `/${locale}${path}`;
@@ -35,12 +49,12 @@ const ArticlesBanner = () => {
         {/* Content */}
         <div className="container mx-auto px-3 xs:px-4 sm:px-6 relative z-10 text-center py-8 sm:py-14">
           <div className="opacity-100">
-            <h1
+            <LabelTag
               className={`text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide text-white mb-3 mt-8 sm:mt-30 whitespace-nowrap sm:whitespace-normal ${marcellus.className}`}
               style={{ lineHeight: 1.15 }}
             >
               {(dictionary?.nav?.articles || "Articles").toUpperCase()}
-            </h1>
+            </LabelTag>
             <div className="w-2/3 sm:w-[35%] h-px bg-amber-400 mx-auto mb-6" />
           </div>
 

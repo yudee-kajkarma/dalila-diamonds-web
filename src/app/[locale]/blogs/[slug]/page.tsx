@@ -4,7 +4,13 @@ import { marcellus, jost } from "@/lib/fonts";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ArticlesBanner from "@/components/pages/blogs/ArticlesBanner";
 import FeaturedDiamondsCarousel from "@/components/pages/blogs/FeaturedDiamondsCarousel";
-import { blogToSlug, getLocalizedBlogBySlug, getLocalizedBlogList } from "@/lib/blogs";
+import {
+  blogToSlug,
+  getLocalizedBlogBySlug,
+  getLocalizedBlogList,
+  localizeContentLinks,
+  selectRelatedBlogs,
+} from "@/lib/blogs";
 import { toBlogLanguage } from "@/lib/blogLanguages";
 
 type Props = {
@@ -28,11 +34,29 @@ export default async function BlogDetailPage({ params }: Props) {
   }
 
   const currentSlugKey = blogToSlug(blog);
+  // Four to six related guides rather than the full catalogue: the sidebar
+  // previously linked every article, putting ~130 links on each of 627 pages.
+  const relatedBlogs = selectRelatedBlogs(blog, allBlogs, 5);
 
   const localizedPath = (path: string) => {
     if (!locale || locale === "en") return path;
     return `/${locale}${path}`;
   };
+
+  // Which articles this language actually has. getLocalizedBlogList falls back
+  // to English for a group with no translation, so the language is what says
+  // whether a version really exists rather than merely being listed.
+  const availableBlogSlugs = new Set(
+    allBlogs.filter((item) => item.language === blogLanguage).map((item) => blogToSlug(item)),
+  );
+
+  // The body is stored with unprefixed paths and injected as raw HTML, so
+  // without this every internal link walks the reader out of their language.
+  const localizedContent = localizeContentLinks(
+    blog.content || blog.description || "",
+    locale,
+    availableBlogSlugs,
+  );
 
   return (
     <div className="bg-white min-h-screen">
@@ -53,15 +77,15 @@ export default async function BlogDetailPage({ params }: Props) {
           <aside className="sticky-sidebar order-2 lg:order-1">
             <div className="mb-6">
               <h3 className={`text-xl font-bold text-[#2d2d2d] mb-5 ${marcellus.className}`}>
-                Our Articles
+                Related Guides
               </h3>
-              {allBlogs.length === 0 ? (
+              {relatedBlogs.length === 0 ? (
                 <p className={`text-sm text-gray-500 ${jost.className}`}>
                   No other articles available.
                 </p>
               ) : (
                 <ul className="space-y-4">
-                  {allBlogs.map((articleItem, index) => {
+                  {relatedBlogs.map((articleItem, index) => {
                     const itemSlug = blogToSlug(articleItem);
                     const isActive = itemSlug === currentSlugKey;
                     return (
@@ -205,9 +229,40 @@ export default async function BlogDetailPage({ params }: Props) {
               {blog.title}
             </h1>
 
+            {/* Visible review date. The compliance articles are time-sensitive,
+                and every content package requires the reader to see when the
+                page was last checked. */}
+            {blog.lastReviewedAt && (
+              <p className={`text-sm text-gray-500 mb-6 ${jost.className}`}>
+                Last reviewed{" "}
+                <time dateTime={blog.lastReviewedAt}>
+                  {new Date(blog.lastReviewedAt).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                    // A review date is a calendar date, stored as midnight UTC.
+                    // Formatting it in the reader's zone shows the day before
+                    // to everyone west of UTC.
+                    timeZone: "UTC",
+                  })}
+                </time>
+              </p>
+            )}
+
+            {blog.featuredImage && (
+              <figure className="mb-8">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={blog.featuredImage}
+                  alt={blog.featuredImageAlt || ""}
+                  className="w-full h-auto"
+                />
+              </figure>
+            )}
+
             <div
               className={`blog-content ${jost.className}`}
-              dangerouslySetInnerHTML={{ __html: blog.content || blog.description || "" }}
+              dangerouslySetInnerHTML={{ __html: localizedContent }}
             />
           </article>
         </div>

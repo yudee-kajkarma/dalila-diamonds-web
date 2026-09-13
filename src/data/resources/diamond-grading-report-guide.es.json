@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Guía del informe de clasificación de diamantes | Dalila Diamonds",
-    "description": "Comprenda los informes de clasificación de diamantes, verifique los números de informe, compare las 4C, las proporciones y la fluorescencia, y revise un diamante natural antes de comprar.",
+    "description": "Aprende a leer y verificar un informe de clasificación de diamantes, comprende las 4Cs e identifica lo que un certificado puede —y no puede— decirte antes de comprar.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Guía del informe de clasificación de diamantes para compradores de diamantes naturales",
     "subheading": "Comprenda cada parte de un informe de clasificación de diamantes, verifique el número de informe y compare la calidad de un diamante natural antes de comprar.",
     "reviewDateLabel": "Última revisión:",
-    "reviewDate": "30 July 2026"
+    "reviewDate": "6 de septiembre de 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "Qué es un informe de clasificación de diamantes"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "¿Es lo mismo un certificado de diamante?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Si existe una inscripción láser"
     ],
     "closingParagraphs": [
-      "El Gemological Institute of America utiliza el término «grading report» (informe de clasificación) en lugar de «certificate» (certificado). Sus informes proporcionan información técnica sobre un diamante, pero no son tasaciones ni garantías de valor monetario.",
-      "«Certificado de diamante» sigue siendo un término de búsqueda muy utilizado, por lo que ambas expresiones se emplean en esta guía.",
       "La forma más sencilla de entenderlo",
       "Un informe de clasificación es la descripción técnica del diamante. No es su etiqueta de precio, su valoración de reventa ni una recomendación de compra completa."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "¿Es lo mismo un certificado de diamante?",
+    "introParagraphs": [
+      "“Certificado de diamante” es un término común entre los clientes y una frase de búsqueda habitual. Los laboratorios pueden utilizar una terminología diferente, pero, por lo general, GIA denomina a su documento informe de graduación en lugar de certificado.",
+      "Esta distinción es importante porque la palabra «certificado» puede sonar como una garantía. Un informe de graduación registra las conclusiones del laboratorio sobre la pieza examinada conforme a sus procedimientos. Los compradores deben leer las condiciones del laboratorio emisor y el tipo exacto de informe, en lugar de asumir que todos los documentos proporcionan la misma información o las mismas garantías legales."
     ]
   },
   "whyMatter": {

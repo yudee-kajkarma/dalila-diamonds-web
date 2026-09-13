@@ -53,6 +53,7 @@ export const userApi = {
     logout: authService.logout,
     sendOtp: authService.sendOtp,
     verifyOtp: authService.verifyOtp,
+    resendRegistrationOtp: authService.resendRegistrationOtp,
     updatePassword: authService.updatePassword,
 
     // From userService
@@ -126,9 +127,16 @@ export const blogApi = {
     getAll: blogService.getAllBlogs,
     getById: blogService.getBlogById,
     getByBaseSlugAndLanguage: blogService.getBlogByBaseSlugAndLanguage,
+    getLanguageStates: blogService.getBlogLanguageStates,
     create: blogService.createBlog,
     update: blogService.updateBlog,
     delete: blogService.deleteBlog,
+    uploadImage: blogService.uploadBlogImage,
+    getAllAdmin: blogService.getAllBlogsAdmin,
+    restore: blogService.restoreBlog,
+    deletePermanently: blogService.permanentlyDeleteBlog,
+    translate: blogService.translateBlog,
+    restorePrevious: blogService.restorePreviousContent,
 };
 
 // Form API, Form submission handling

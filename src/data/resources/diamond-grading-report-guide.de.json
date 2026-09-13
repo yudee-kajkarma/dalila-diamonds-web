@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Leitfaden zum Diamant-Bewertungsbericht | Dalila Diamonds",
-    "description": "Verstehen Sie Diamant-Bewertungsberichte, überprüfen Sie Berichtsnummern, vergleichen Sie die 4Cs, Proportionen und Fluoreszenz und prüfen Sie einen Naturdiamanten vor dem Kauf.",
+    "description": "Erfahren Sie, wie Sie einen Diamant-Bewertungsbericht lesen und überprüfen, die 4Cs verstehen und vor dem Kauf erkennen, was ein Zertifikat Ihnen sagen kann – und was nicht.",
     "canonical": "https://www.daliladiamonds.com/resources/diamond-grading-report-guide",
-    "dateModified": "2026-07-30"
+    "dateModified": "2026-09-06"
   },
   "urls": {
     "giaReportCheck": "https://www.gia.edu/report-check-landing",
@@ -20,7 +20,7 @@
     "title": "Leitfaden zum Diamant-Bewertungsbericht für Käufer natürlicher Diamanten",
     "subheading": "Verstehen Sie jeden Teil eines Diamant-Bewertungsberichts, überprüfen Sie die Berichtsnummer und vergleichen Sie die Qualität eines Naturdiamanten vor dem Kauf.",
     "reviewDateLabel": "Zuletzt überprüft:",
-    "reviewDate": "30. Juli 2026"
+    "reviewDate": "6. September 2026"
   },
   "introduction": {
     "paragraphs": [
@@ -78,6 +78,10 @@
       {
         "id": "what-is-a-diamond-grading-report",
         "label": "Was ein Diamant-Bewertungsbericht ist"
+      },
+      {
+        "id": "is-a-diamond-certificate-the-same-thing",
+        "label": "Ist ein Diamantzertifikat dasselbe?"
       },
       {
         "id": "why-does-a-diamond-grading-report-matter",
@@ -150,10 +154,16 @@
       "Ob eine Lasergravur vorhanden ist"
     ],
     "closingParagraphs": [
-      "Das Gemological Institute of America (GIA) verwendet den Begriff „Bewertungsbericht“ anstelle von „Zertifikat“. Seine Berichte liefern technische Informationen über einen Diamanten, sind jedoch keine Gutachten oder Garantien für den Geldwert.",
-      "„Diamantzertifikat“ bleibt ein weit verbreiteter Suchbegriff, daher werden in diesem Leitfaden beide Ausdrücke verwendet.",
       "Am einfachsten versteht man es so",
       "Ein Bewertungsbericht ist die technische Beschreibung des Diamanten. Er ist weder sein Preisschild noch seine Wiederverkaufsbewertung oder eine vollständige Kaufempfehlung."
+    ]
+  },
+  "certificate": {
+    "id": "is-a-diamond-certificate-the-same-thing",
+    "title": "Ist ein Diamantzertifikat dasselbe?",
+    "introParagraphs": [
+      "„Diamond certificate“ ist eine gängige Kundenbezeichnung und ein häufig verwendeter Suchbegriff. Labore verwenden möglicherweise unterschiedliche Bezeichnungen, aber GIA bezeichnet sein Dokument im Allgemeinen als „grading report“ und nicht als „certificate“.",
+      "Diese Unterscheidung ist wichtig, weil das Wort „certificate“ wie eine Garantie klingen kann. Ein grading report dokumentiert die Feststellungen des Labors zu dem unter seinen Verfahren untersuchten Artikel. Käufer sollten die Bedingungen des ausstellenden Labors und den genauen report type lesen, anstatt anzunehmen, dass jedes Dokument dieselben Informationen oder dieselbe rechtliche Absicherung bietet."
     ]
   },
   "whyMatter": {

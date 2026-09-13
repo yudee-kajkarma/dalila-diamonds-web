@@ -15,6 +15,8 @@ export type AuthTranslationKey =
   | "enterOtp"
   | "resendIn"
   | "resendOtp"
+  | "otpResent"
+  | "otpAlreadySent"
   | "newPasswordMin"
   | "updating"
   | "updatePassword"
@@ -157,6 +159,22 @@ const translations: Record<AuthTranslationKey, Record<string, string>> = {
     es: "Reenviar código en",
     it: "Reinvia il codice in",
     nl: "Stuur code opnieuw in",
+  },
+  otpResent: {
+    en: "A new code is on its way to your inbox.",
+    de: "Ein neuer Code ist auf dem Weg in Ihren Posteingang.",
+    fr: "Un nouveau code est en route vers votre boîte de réception.",
+    es: "Un nuevo código está en camino a tu bandeja de entrada.",
+    it: "Un nuovo codice sta arrivando nella tua casella di posta.",
+    nl: "Een nieuwe code is onderweg naar je inbox.",
+  },
+  otpAlreadySent: {
+    en: "We have already sent you a verification code. Taking you to the verification page.",
+    de: "Wir haben Ihnen bereits einen Bestätigungscode gesendet. Sie werden zur Bestätigungsseite weitergeleitet.",
+    fr: "Nous vous avons déjà envoyé un code de vérification. Redirection vers la page de vérification.",
+    es: "Ya te hemos enviado un código de verificación. Te llevamos a la página de verificación.",
+    it: "Ti abbiamo già inviato un codice di verifica. Ti portiamo alla pagina di verifica.",
+    nl: "We hebben je al een verificatiecode gestuurd. Je wordt naar de verificatiepagina gebracht.",
   },
   resendOtp: {
     en: "Resend OTP",

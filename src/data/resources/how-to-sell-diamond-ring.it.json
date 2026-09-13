@@ -824,11 +824,11 @@
     "primaryButtonText": "RICHIEDI LA MIA VALUTAZIONE PRIVATA DI ANELLI DI DIAMANTI",
     "primaryButtonHref": "#secure-evaluation-form",
     "secondaryButtonText": "PRENOTA UN APPUNTAMENTO PRIVATO AD ANVERSA",
-    "secondaryButtonHref": "/sud"
+    "secondaryButtonHref": "/sell-your-diamond"
   },
   "internalLinks": {
     "sellPage": {
-      "href": "/sud",
+      "href": "/sell-your-diamond",
       "text": "vendi il tuo diamante in modo sicuro ad Anversa"
     },
     "valuationCalculator": {

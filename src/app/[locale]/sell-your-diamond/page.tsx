@@ -5,6 +5,7 @@ import SydListSection from "@/components/pages/sell-your-diamond/syd/SydListSect
 import SydProcess from "@/components/pages/sell-your-diamond/syd/SydProcess";
 import SydValuation from "@/components/pages/sell-your-diamond/syd/SydValuation";
 import SydWhyAntwerp from "@/components/pages/sell-your-diamond/syd/SydWhyAntwerp";
+import SydSafetySection from "@/components/pages/sell-your-diamond/syd/SydSafetySection";
 import SydAppointments from "@/components/pages/sell-your-diamond/syd/SydAppointments";
 import SydSubmitSection from "@/components/pages/sell-your-diamond/syd/SydSubmitSection";
 import SydFaq from "@/components/pages/sell-your-diamond/syd/SydFaq";
@@ -24,9 +25,14 @@ export async function generateMetadata({
   return generateLocalizedMetadata(locale, { pageKey: "syd", path: "/sell-your-diamond" });
 }
 
-export default function SellYourDiamondLocalePage() {
-  // English-only for now — no locale translation work
-  const content = getSydContent();
+export default async function SellYourDiamondLocalePage({
+  params,
+}: {
+  params?: Promise<{ locale?: string }>;
+}) {
+  const resolvedParams = await params;
+  const locale = (resolvedParams?.locale || "en") as Locale;
+  const content = getSydContent(locale);
 
   return (
     <>
@@ -41,7 +47,9 @@ export default function SellYourDiamondLocalePage() {
         <SydWhyAntwerp content={content.whyAntwerp} />
         <SydListSection content={content.prepare} variant="white" />
         <SydTextSection content={content.withoutCertificate} variant="gray" />
+        <SydSafetySection content={content.sellSafely} variant="white" />
         <SydAppointments content={content.appointments} />
+        <SydTextSection content={content.sellingFromEurope} variant="gray" />
         <SydFaq content={content.faqs} />
         <SydSubmitSection content={content.submitSection} />
         <div id="diamond-estimate-form">
