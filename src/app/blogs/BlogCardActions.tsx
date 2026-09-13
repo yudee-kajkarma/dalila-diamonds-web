@@ -93,9 +93,14 @@ export default function BlogCardActions({ blog, siteLanguage = "en" }: Props) {
   const confirmDelete = async () => {
     setIsDeleting(true);
     try {
-      const response = await blogApi.delete(blog._id);
+      // A card is an article, so deleting it takes every language version -
+      // the same meaning the dashboard's delete has.
+      const response = await blogApi.delete(blog._id, "group");
       if (response) {
-        toast.success("Article deleted.");
+        const removed = response?.data?.deleted ?? 0;
+        toast.success(
+          removed > 1 ? `Article deleted, including ${removed - 1} translations.` : "Article deleted.",
+        );
         await refreshBlogs();
         router.refresh();
       } else {

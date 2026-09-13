@@ -400,11 +400,18 @@ export default function BlogsManageTable() {
     if (!pendingDelete) return;
     setIsDeleting(true);
     try {
-      // Deletes the representative document only. Other language versions are
-      // separate records and are removed from their own rows.
-      const response = await blogApi.delete(pendingDelete.id);
+      // A row is an article, not a document: six language versions sit behind
+      // it and the table deliberately hides that. Deleting only the English
+      // record left five translations live and unreachable from here, so the
+      // whole group goes.
+      const response = await blogApi.delete(pendingDelete.id, "group");
       if (response) {
-        toast.success(`"${pendingDelete.title}" deleted.`);
+        const removed = response?.data?.deleted ?? 0;
+        toast.success(
+          removed > 1
+            ? `"${pendingDelete.title}" deleted, including ${removed - 1} translation${removed - 1 === 1 ? "" : "s"}.`
+            : `"${pendingDelete.title}" deleted.`,
+        );
         await reload();
       } else {
         toast.error("Could not delete the article. Try again.");

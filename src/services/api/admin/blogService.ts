@@ -270,15 +270,27 @@ export const updateBlog = async (
   }
 };
 
-// Admin: Delete blog
-export const deleteBlog = async (blogId: string) => {
+/**
+ * Admin: delete a blog.
+ *
+ * "group" removes every language version of the article, which is what
+ * deleting an article means anywhere it is shown as one thing. "document"
+ * removes the single record and is only right where the caller genuinely
+ * means one row - the duplicate resolver, which deletes one of two records
+ * claiming the same URL.
+ */
+export const deleteBlog = async (
+  blogId: string,
+  scope: "group" | "document" = "document",
+) => {
   try {
     const token = getAuthToken();
     if (!token || token.trim() === "") {
       throw new Error("Unauthorized. Please log in.");
     }
 
-    const response = await apiClient.delete(`/api/admin/blogs/${blogId}`);
+    const query = scope === "group" ? "?scope=group" : "";
+    const response = await apiClient.delete(`/api/admin/blogs/${blogId}${query}`);
     return response.data;
   } catch (error) {
     console.error("Delete blog error:", error);
