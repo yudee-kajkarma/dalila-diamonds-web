@@ -778,8 +778,39 @@ function CustomerDetailsContent() {
                                         disableSearchIcon={false}
                                         specialLabel=""
                                         countryCodeEditable={false}
-                                        enableAreaCodes={true}
-                                        masks={{ in: "+.. ........." }}
+                                        /*
+                                         * Keep enableAreaCodes off. It registers a pseudo-country per
+                                         * area code whose dialCode is country code + area code
+                                         * ("54343" for Argentina, "614" for an Australian mobile).
+                                         * guessSelectedCountry picks the longest matching dialCode, so
+                                         * that entry wins as soon as the typed digits reach an area
+                                         * code - but it carries no hasAreaCodes flag, so the
+                                         * countryCodeEditable={false} guard in handleInput then demands
+                                         * the raw input start with "+54343" while the field actually
+                                         * reads "+54 (34) 3". Those never match, so every further
+                                         * keystroke was silently dropped and the field went dead:
+                                         * Argentina died after three digits, Australian mobiles after
+                                         * one. It also leaked the area code into onChange's dialCode,
+                                         * which countryCode is saved from, so the number was heading
+                                         * for the database as countryCode "+54343" with the area code
+                                         * missing from phoneNumber.
+                                         *
+                                         * The old masks={{ in: "+.. ........." }} is gone with it: a
+                                         * mask must not repeat the "+.." dial-code prefix, which the
+                                         * library adds itself, so it rendered Indian numbers as
+                                         * "+91 +98 76543210".
+                                         */
+                                        enableAreaCodes={false}
+                                        /*
+                                         * One neutral grouping for every country instead of the
+                                         * library's per-country formats. Those wrap the leading digits
+                                         * in parentheses for the countries that use an area code, so
+                                         * an Australian number read "+61 (12) 3121 23" as though the
+                                         * first two digits had been split off into a bracket. The
+                                         * parentheses were only ever presentation - onChange always
+                                         * emitted digits alone - but they read as data loss.
+                                         */
+                                        alwaysDefaultMask
                                     />
                                 </div>
 
@@ -822,8 +853,39 @@ function CustomerDetailsContent() {
                                         disableSearchIcon={false}
                                         specialLabel=""
                                         countryCodeEditable={false}
-                                        enableAreaCodes={true}
-                                        masks={{ in: "+.. ........." }}
+                                        /*
+                                         * Keep enableAreaCodes off. It registers a pseudo-country per
+                                         * area code whose dialCode is country code + area code
+                                         * ("54343" for Argentina, "614" for an Australian mobile).
+                                         * guessSelectedCountry picks the longest matching dialCode, so
+                                         * that entry wins as soon as the typed digits reach an area
+                                         * code - but it carries no hasAreaCodes flag, so the
+                                         * countryCodeEditable={false} guard in handleInput then demands
+                                         * the raw input start with "+54343" while the field actually
+                                         * reads "+54 (34) 3". Those never match, so every further
+                                         * keystroke was silently dropped and the field went dead:
+                                         * Argentina died after three digits, Australian mobiles after
+                                         * one. It also leaked the area code into onChange's dialCode,
+                                         * which countryCode is saved from, so the number was heading
+                                         * for the database as countryCode "+54343" with the area code
+                                         * missing from phoneNumber.
+                                         *
+                                         * The old masks={{ in: "+.. ........." }} is gone with it: a
+                                         * mask must not repeat the "+.." dial-code prefix, which the
+                                         * library adds itself, so it rendered Indian numbers as
+                                         * "+91 +98 76543210".
+                                         */
+                                        enableAreaCodes={false}
+                                        /*
+                                         * One neutral grouping for every country instead of the
+                                         * library's per-country formats. Those wrap the leading digits
+                                         * in parentheses for the countries that use an area code, so
+                                         * an Australian number read "+61 (12) 3121 23" as though the
+                                         * first two digits had been split off into a bracket. The
+                                         * parentheses were only ever presentation - onChange always
+                                         * emitted digits alone - but they read as data loss.
+                                         */
+                                        alwaysDefaultMask
                                     />
                                 </div>
                             </div>
